@@ -1,0 +1,106 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tisolimem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Tisolimem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Tisolimem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_307_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 803510653: Config/Level/Mission/8035106/Act/Act803510653.json-->
+:'''Tisolimem:''' Heh. Running a restaurant is a big deal in the Membrance Maze. We need to take it seriously. Are you ready to open for business, mem?
+:<!--Custom String Trigger: Wait_Option_803510653_90-->
+:<!--Custom String Listener: Wait_Option_803510653_90-->
+:{{DIcon|Travel Log}} Let's begin today's business.
+::<!--Custom String Listener: ALL_TALK_END_OpenUI-->
+::<!--Custom String Trigger: G307OPENUI-->
+::<!--Ends the current performance-->
+:{{DIcon|Talk}} About this restaurant's history...
+::<!--Custom String Listener: TalkSentence_835165304-->
+::'''Tisolimem:''' Uh... Manager, did you forget? Even though the restaurant was built a long time ago, the fairies had no idea how to use it...
+::'''Tisolimem:''' But you suddenly appeared in the Membrance Maze and helped us revive the abandoned restaurant, mem!
+::'''Tisolimem:''' You even taught the fairies how to farm and cook, letting us taste so many delicious food! You have no idea how grateful we are to you!
+::{{DIcon|Arrow}} I had no idea I was this awesome...
+:::<!--Custom String Listener: TalkSentence_835165308-->
+:::'''Tisolimem:''' Mem! You're incredible, a VIP of the Membrance Maze.
+:::<!--Custom String Trigger: TalkSentence_835165311-->
+:::<!--Custom String Listener: TalkSentence_835165311-->
+:::'''Tisolimem:''' Feels like I forgot something... but whatever! Just hit me up whenever you wanna open up for business, mem!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Have you seen my friends around?
+:::<!--Custom String Listener: TalkSentence_835165310-->
+:::'''Tisolimem:''' ...Mem? Your friends? Not sure. I've only met Reney. She's been quite helpful, too.
+:::<!--Custom String Trigger: TalkSentence_835165311-->
+:::<!--Custom String Listener: TalkSentence_835165311-->
+:::'''Tisolimem:''' Feels like I forgot something... but whatever! Just hit me up whenever you wanna open up for business, mem!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can you maybe stop copying how others talk...
+::<!--Custom String Listener: TalkSentence_835165313-->
+::'''Tisolimem:''' Mem! But I think this way of talking makes me sound so cool and powerful. All the other fairies will totally listen to me.
+::'''Tisolimem:''' As for where I learned it from, I can't quite remember... Maybe in some dream?
+::'''Tisolimem:''' Doesn't matter! Anyway, hit me up whenever you want to open up shop, mem!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Wait a moment.
+::<!--Custom String Listener: TalkSentence_835165317-->
+::'''Tisolimem:''' No worries. I'll wait right here for you, mem!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

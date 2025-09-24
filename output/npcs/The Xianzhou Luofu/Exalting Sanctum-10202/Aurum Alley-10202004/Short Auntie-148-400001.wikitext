@@ -1,0 +1,96 @@
+<%-- [PAGE_INFO]
+PageTitle=#Short Auntie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Owner of Delicacy Pavilion
+|image           = NPC Short Auntie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Short Auntie''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_148_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 502066101: Config/Level/NPCDialogue/P10202/NPCAct/Act502066101.json-->
+:'''Short Auntie:''' Welcome! May I interest you with our specialties?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_502066101-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} What specialties do you have?
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 148,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 37,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502066201: Config/Level/NPCDialogue/P10202/NPCAct/Act502066201.json-->
+::'''Short Auntie:''' It's been quite well lately. However, when it comes to running a business, we can't rest on our laurels. Since the Aurum Alley is improving, my business should do the same too.
+::'''Short Auntie:''' Speaking of which, do you remember that I asked you to get me some Abominations of Abundance... ingredients? I've made up my mind to focus on traditional dishes. Differentiation is what makes my place special.
+::'''Short Auntie:''' As it turns out, my customers love the food. Delicacy Pavilion now seems to be more charming than before. Hahaha, I owe this to you.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502066201-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Forget it. I don't have an appetite now.
+::'''Short Auntie:''' Thank you for your patronage. Come back next time!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Short Auntie
+|zhs  = 矮阿姨
+|zht  = 矮阿姨
+|ja   = テイおばちゃん
+|ko   = 키 작은 이모
+|es   = Mujer bajita
+|fr   = Petite Tatie
+|ru   = Тётя Крошка
+|th   = คุณน้าตัวเล็ก
+|vi   = Dì Bé Lùn
+|de   = Kleines Tantchen
+|id   = Bibi Pendek
+|pt   = Tia Baixinha
+}}
+==Change History==
+{{Change History|TODO}}

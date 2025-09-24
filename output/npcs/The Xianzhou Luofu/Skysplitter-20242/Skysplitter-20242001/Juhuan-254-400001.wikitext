@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Juhuan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Brawn Author"
+|image           = NPC Juhuan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Juhuan''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_254_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502110001: Config/Level/Mission/5021100/Act/Act502110001.json-->
+::'''Juhuan:''' Hey there, {{MC|f=lass|m=lad}}. What can I... Oh, I know. You're here to wish upon my marvelous muscles, aren't you?
+::{{DIcon|Arrow}} Ew, gross.
+:::<!--Custom String Listener: TalkSentence_502110603-->
+:::'''Juhuan:''' Just look at these beautiful curves and solid lines, {{MC|f=lass|m=lad}}. Why would you ever call them gross?
+::{{DIcon|Arrow}} Wish upon your muscles?
+:::<!--Custom String Listener: TalkSentence_502110605-->
+:::'''Juhuan:''' That's right. Visualize your ideal physique and then make a wish upon these muscles. It'll come true for sure!
+::{{DIcon|Arrow}} Uh, I wasn't trying to start a conversation. Gotta go!
+:::<!--Custom String Listener: TalkSentence_502110607-->
+:::'''Juhuan:''' Not so fast, {{MC|f=lass|m=lad}}!
+:::'''Juhuan:''' Muscles don't lie, my friend. Your body moved quicker than your mind and sent you to me because your muscles crave a workout.
+::<!--Custom String Trigger: TalkSentence_502110609-->
+::<!--Custom String Listener: TalkSentence_502110609-->
+::'''Juhuan:''' Behold! Biceps, triceps, traps! Now focus on the form and engage the core! ...Alright, ten more sets! Let's go! Unleash the power of muscles!
+::Juhuan has lost himself in the revelry of bodybuilding.
+::'''Juhuan:''' I once read a scholarly discussion about Paths. They postulate that there will always be mortals that, intentionally or otherwise, set foot on Paths presided over by Aeons. These people are known as Pathstriders.
+::'''Juhuan:''' The ancients were frail. To overcome that, they trained and built their muscles, eventually gaining the power to bear heavy burdens and reshape nature! Now, have you ever wondered what humans can achieve if they keep advancing on the Path of Brawn?
+::<!--Custom String Trigger: Wait_Option_502110001_21-->
+::<!--Custom String Listener: Wait_Option_502110001_21-->
+::{{DIcon|Talk}} I doubt nature was reshaped by muscles.
+:::<!--Custom String Listener: TalkSentence_502110614-->
+:::'''Juhuan:''' It seems your cognitive muscles aren't developed enough to appreciate the beauty of brawn.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Hmm, rewrite the laws of the universe?
+:::<!--Custom String Listener: TalkSentence_502110616-->
+:::'''Juhuan:''' Absolutely! If we push far enough along the Path of Brawn, we could even rewrite the laws of the universe and reverse time!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Is there really a Path of Brawn in the cosmos?
+:::<!--Custom String Listener: TalkSentence_502110618-->
+:::'''Juhuan:''' There isn't one yet, but who can say for certain that there won't be one in the future? It's not impossible.
+:::'''Juhuan:''' Having honed my body to perfection, my muscles are now like a black hole that exerts a gravitational pull on everything around me. The stronger the muscles, the tighter the shackling.
+:::'''Juhuan:''' When this muscle gravitational field reaches its peak, I shall forge the Path of Brawn and become the Brawn Author!
+:::'''Juhuan:''' Since the muscle gravitational field has drawn you to me, I'll be glad to share the recipe for my special workout meal with you. This recipe is something that I've treasured for years. With it, you will be able to train while maintaining a diet suitable for bodybuilding, just like me.
+:::{{DIcon|Arrow}} You're becoming a bodybuilding maniac.
+::::<!--Custom String Listener: TalkSentence_502110623-->
+::::'''Juhuan:''' The greatest feats are often seen as mania in the beginning. People can think of me however they want.
+:::{{DIcon|Arrow}} I want to embark on the Path of Brawn too.
+::::<!--Custom String Listener: TalkSentence_502110625-->
+::::'''Juhuan:''' Muscles always respond to the call of the bodybuilder. Once I pave the Path of Brawn, your muscles will surely resonate with it too.
+:::<!--Custom String Trigger: TalkSentence_502110626-->
+:::<!--Custom String Listener: TalkSentence_502110626-->
+:::'''Juhuan:''' So, make a wish upon my muscles! They will answer your call, as will I!
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502110002: Config/Level/Mission/5021100/Act/Act502110002.json-->
+::'''Juhuan:''' Make a wish upon my muscles! I will blaze a new Path!
+::'''Juhuan:''' This strong gravitational pull... I knew it had to be you! My muscles are getting pumped up again!
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Tell me about the Path of Brawn.
+::'''Juhuan:''' The Brawn Author will fulfill the wishes of every muscle cell. Ask away, for the muscles hold all the answers.
+::<!--Custom String Trigger: Wait_Option_502110003_54-->
+::<!--Custom String Listener: Wait_Option_502110003_54-->
+::{{DIcon|Talk}} You don't look very muscular.
+:::<!--Custom String Listener: TalkSentence_502110703-->
+:::'''Juhuan:''' The bodies of the Xianzhou people are built in a way that we eventually lose any muscle mass we build. Our muscles will gradually revert to their original state, no matter how much we exercise... Or so it seems.
+:::'''Juhuan:''' Nothing disappears for no reason, my friend, especially muscles. The truth is that they're all collecting quietly at the bottom of the Path's ocean. Once the ocean is filled, the Path of Brawn shall emerge.
+:::'''Juhuan:''' Just a while ago, I had a dream where a {{Rubi|pitch-black, bottomless hole|Pitch-Black Great Sun}} hung in the sky, and all the muscles that had disappeared were drifting into it.
+:::'''Juhuan:''' I believe that to be a sign of me ascending to the Path of Brawn.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How can I embark on the Path of Brawn?
+:::<!--Custom String Listener: TalkSentence_502110708-->
+:::'''Juhuan:''' Old-timers often recommend a healthy lifestyle and a balanced diet, but the true secret lies in one thing: regular exercise.
+:::'''Juhuan:''' Muscles can't grow overnight. To build strong pecs capable of withstanding cannonball attacks, long-term regular training is essential.
+:::'''Juhuan:''' Do squats before meals, bench presses in bed... Make every second count. Even when you're asleep, make deadlifts and marathons a part of your dreams.
+:::'''Juhuan:''' So, join me! A future where muscles shall shine beckons!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What brings you to the competition?
+:::<!--Custom String Listener: TalkSentence_502110713-->
+:::'''Juhuan:''' Something resonated with my muscles. You see, muscles have a soul of their own, and mine crave bigger, more demanding challenges. I'm simply responding to their call.
+:::'''Juhuan:''' The condensed muscle particles surrounding the Skysplitter... They crave violence and action. They yearn to clash and collide with others to take their strength to the next level.
+:::'''Juhuan:''' Even as we speak, my pecs and biceps are relentlessly compelling me to move, urging me to seek out other muscle gravitational fields.
+:::'''Juhuan:''' I suppose this is the inevitable destiny of those bound to the Path of Brawn.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's catch up another time.
+:::<!--Custom String Listener: TalkSentence_502110718-->
+:::'''Juhuan:''' Don't slack off on your training. Remember, muscles will never betray you!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Juhuan:''' Don't slack off on your training. Remember, muscles will never betray you!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Juhuan
+|zhs  = 俱缓
+|zht  = 俱緩
+|ja   = 倶緩
+|ko   = 구완
+|es   = Juhuan
+|fr   = Juhuan
+|ru   = Цзюйхуань
+|th   = Juhuan
+|vi   = Juhuan
+|de   = Juhuan
+|id   = Juhuan
+|pt   = Juhuan
+}}
+==Change History==
+{{Change History|TODO}}

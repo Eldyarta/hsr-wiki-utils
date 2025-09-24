@@ -1,0 +1,108 @@
+<%-- [PAGE_INFO]
+PageTitle=#Georgious#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Kremnos Soldier
+|image           = NPC Georgious.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Bloodbathed Battlefront" Castrum Kremnos
+|relatives       = 
+}}
+'''Georgious''' is an NPC on [[Amphoreus]], located in [["Bloodbathed Battlefront" Castrum Kremnos]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Bloodbathed Battlefront" Castrum Kremnos|npc_204_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033067: Config/Level/Mission/5040330/Act/Act504033067.json-->
+::'''Georgious:''' Knocking, shouting, cheering... Just look at this place. Such a lively vibe. You're a warrior here to join the festival too?
+::{{DIcon|Arrow}} That's right. I'm the warriorest of warriors.
+::{{DIcon|Arrow}} Nah, not interested.
+::{{DIcon|Arrow}} Haha, I've won before.
+::<!--Custom String Listener: TalkSentence_504044605-->
+::'''Georgious:''' I see, that's good too... I haven't the guts nor ability to spill blood in the name of glory. I still want to live a couple more years.
+::'''Georgious:''' Anyway, whether you intend to pursue glory unto death, I wish you happiness every day &mdash; I think that's what's most important.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033068: Config/Level/Mission/5040330/Act/Act504033068.json-->
+::'''Georgious:''' To pursue death in battle... Ahem, better not die at all. Living your part, that's what fortune should be like.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I want to chat with you.
+:::'''Georgious:''' A chat? Sure, I've got time to kill...
+:::<!--Custom String Trigger: Wait_Option_504033069_1638-->
+:::<!--Custom String Listener: Wait_Option_504033069_1638-->
+:::{{DIcon|Talk}} How're you doing on the battlefield?
+::::<!--Custom String Listener: TalkSentence_504044804-->
+::::'''Georgious:''' The battlefield? Why would I do something like that? Volunteering for overtime? Who's paying for that?
+::::'''Georgious:''' Though I have deployed before. In that special operation against Okhema, King Eurypon mobilized the entire army... I was forced to tag along.
+::::'''Georgious:''' As for how I did... I'll just break it down for you &mdash; there are three kinds of soldiers in Castrum Kremnos: The brash, the brave, and the balky. And I'm the fourth kind: The craven.
+::::'''Georgious:''' The first few kinds are either fanatically insane, or brimming with battle experience, or struggling between terror and self-reproach. Me? I use shadows as my weapon to strike at the enemy, leaving nary a drop of blood when I fight...
+::::'''Georgious:''' Ahem... Anyway, war is just a form of overtime to me, and its compensation in glory instead of currency. If that's the case, why work so hard? I'm just some guard, not a hero.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's this job like?
+::::<!--Custom String Listener: TalkSentence_504044810-->
+::::'''Georgious:''' Why, you want to be a guard too? Here's a word of advice: Even the most ideal of jobs will become a grind after a while.
+::::'''Georgious:''' Look at me, it's either guard duty or guard duty for me. Like pushing a rock up a hill, and then watching helplessly as it rolls back toward you, and then pushing it back up again...
+::::'''Georgious:''' If it weren't for my family saying that you'd be fed in the army and dragging me along to sign up, I wouldn't even be standing here getting my face blasted by wind and shine... Though this is somewhat better than the frontline.
+::::'''Georgious:''' Long story short: You need to manage your expectations if you're going to work for someone. There's no organizational ladder to climb as a guard, but there's also no risk of sudden death, so it's perfect in line with my expectations. I don't think it's the same for you, though.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let's end our chat here.
+::::<!--Custom String Listener: TalkSentence_504044815-->
+::::'''Georgious:''' All right, I'll find some other way to kill time next...
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::'''Georgious:''' Goodbye, I hope you live every day with joy.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Georgious
+|zhs  = 乔治斯
+|zht  = 喬治斯
+|ja   = ジョージス
+|ko   = 게오르기오스
+|es   = Georgios
+|fr   = Géorgious
+|ru   = Георгиос
+|th   = Georgious
+|vi   = Georgious
+|de   = Georgios
+|id   = Georgious
+|pt   = Georgios
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,603 @@
+<%-- [PAGE_INFO]
+PageTitle=#Todd#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Intelligentsia Guild Member
+|image           = NPC Todd.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Todd''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_164_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Todd:''' Chat? Alright, I can use a break now anyway. Besides, chatting with different people aboard Xianzhou also forms part of my research.
+:<!--Custom String Trigger: Wait_Option_502011402_33-->
+:<!--Custom String Listener: Wait_Option_502011402_33-->
+:{{DIcon|Talk}} What does the Intelligentsia Guild do?
+::<!--Custom String Listener: TalkSentence_502114103-->
+::'''Todd:''' I may be a student there, but my opinion of the Intelligentsia Guild is bound to be biased. So take this with a grain of salt.
+::'''Todd:''' Put simply, the Intelligentsia Guild is an academic organization in symbiosis with the Interastral Peace Corporation. Our motto is "All knowledge must be circulated as freely as currency."
+::'''Todd:''' Our scholars traverse the universe collecting all knowledge of value, and trading learnings with other scholars in the hope of attaining priceless wisdom.
+::'''Todd:''' It's hard to explain, but basically, all you need to know is that we're a group that trades knowledge to gain true wisdom.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Don't the Xianzhou natives research history?
+::<!--Custom String Listener: TalkSentence_502114108-->
+::'''Todd:''' It's not that they don't study it. It's just that what they call "history" is a completely different concept from what our short-life species consider to be history.
+::'''Todd:''' It's a simple concept. Would you consider the abandoned theater that you used to visit as a child as some kind of archaeological ruin? What we consider to be ancient history is merely a childhood memory for the long-lived Xianzhou natives.
+::'''Todd:''' That's why the Xianzhou natives don't really value their own cultural relics, just as we don't really care about dilapidated buildings back home. They also don't really get the concept of written history, because "history" still lives within their memories.
+::'''Todd:''' But everything must come to an eventual end one day, and the Xianzhou natives are no exception. As a student of the Intelligentsia Guild, how can I sit idly by? They don't care, but I do &mdash; so I'm here to record the magnificence of our cosmos's history.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's your purpose behind doing all of this?
+::<!--Custom String Listener: TalkSentence_502114113-->
+::'''Todd:''' You sound just like one of my tutors! *sigh* That reminds me of school and having to find a practical purpose for every academic topic I wanted to write about...
+::'''Todd:''' Cough, ahem... but of course, it's useful to study the history of Xianzhou. After all, we all know that the secret of immortality lies hidden somewhere here. The Xianzhou natives might be able to keep their secret, but history shall never be kept silent.
+::'''Todd:''' So long as we can piece together enough clues from the rubble and scraps around us, perhaps it'll lead us to finding that legendary secret here on Xianzhou...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all, I can see you're busy.
+::<!--Custom String Listener: TalkSentence_502114117-->
+::'''Todd:''' Yes, let us part ways here. If you see any interesting historical relics, give me a holler.
+::<!--Ends the current performance-->
+:'''Todd:''' Yes, let us part ways here. If you see any interesting historical relics, give me a holler.
+:<!--Ends the current performance-->
+:'''Todd:''' It's you. I can tell just by looking at your face that you're a workaholic &mdash; just like me.
+:'''Todd:''' I'm either swamped by primary sources or running around everywhere on Xianzhou for research purposes. With my hectic schedule, it's a miracle that I ever find time like this to rest.
+:'''Todd:''' The Intelligentsia Guild always trades knowledge for knowledge, and that's our guiding principle. You'd better prepare something interesting for me. So what can I do for you today?
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 202020103-->)
+::<!--Trigger PerformanceE 202020108: Config/Level/Mission/2020201/Act/Act202020108.json-->
+::'''Todd:''' My medical textbook! Is my textbook here?
+::'''Todd:''' Ahh, (Trailblazer)! My old joints are about to break! Please, have mercy on me!
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 202020202-->)
+::<!--Trigger PerformanceE 202020250: Config/Level/Mission/2020202/Act/Act202020250.json-->
+::'''Todd:''' Scalegorge Waterscape... What kind of spectacle did Bernini see?
+::'''Todd:''' Hi, (Trailblazer). I'm counting on you for the pictures.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 202020208-->)
+::<!--Trigger PerformanceE 202020251: Config/Level/Mission/2020202/Act/Act202020251.json-->
+::'''Todd:''' Is there a problem, (Trailblazer)? Should I explain the objectives of this investigation again?
+::{{DIcon|Arrow}} Sure.
+:::<!--Custom String Listener: TalkSentence_202040080-->
+:::'''Todd:''' I've marked out several points on the map. They are the places where Bernini may have investigated.
+:::'''Todd:''' I've installed the plug-in for you so you won't be lost. Just walk around the place, and the plug-in will tell you where to look for the markings.
+:::'''Todd:''' Your job is to hold the camera and snap pictures of the markings.
+::{{DIcon|Arrow}} No, thank you.
+:::<!--Custom String Listener: TalkSentence_202040084-->
+:::'''Todd:''' I knew you were smart enough to get what I meant right away.
+::<!--Custom String Trigger: TalkSentence_202040085-->
+::<!--Custom String Listener: TalkSentence_202040085-->
+::'''Todd:''' Set off now, (Trailblazer). I wonder what Bernini left behind. I can't wait to find out.
+::<!--Ends the current performance-->
+;(Otherwise)
+:;(First interaction)
+:::<!--Trigger PerformanceE 90000059: Config/Level/NPC/W2/NPC_DefaultStory_502011401.json-->
+:::'''Todd:''' Ah, there're traces of history everywhere you look aboard Xianzhou, but Xianzhou natives don't even know these things' true value. *sigh*...
+:::{{DIcon|Arrow}} What's with all the sighing?
+::::<!--Custom String Listener: TalkSentence_502114003-->
+::::'''Todd:''' *sigh* ...You wouldn't get it even if I told you. Your outfit... are you an Outworlder too? Then I guess we can talk a little about it.
+:::{{DIcon|Arrow}} The Xianzhou natives don't even know its true value, sigh...
+::::<!--Custom String Listener: TalkSentence_502114005-->
+::::'''Todd:''' Who's copying how I talk? Oh, you're wearing Outworlder clothes. I get it, I get it... You can't bear these Xianzhou natives either, right?
+::::{{DIcon|Arrow}} Can't stand it.
+:::::<!--Custom String Listener: TalkSentence_502114007-->
+:::::'''Todd:''' Right!? Because of their longevity, they don't even have the smallest care about historical relics... hang on, are you trying to pump a confession out of me? Ack, forget about it. I don't have any beef with you.
+::::{{DIcon|Arrow}} In what way?
+:::::<!--Custom String Listener: TalkSentence_502114009-->
+:::::'''Todd:''' I thought I met a kindred spirit, but you're just a bot who repeats everything. Forget about it. I don't have any beef with you. I'm just talking about the history and culture of Xianzhou.
+:::<!--Custom String Trigger: TalkSentence_502114010-->
+:::<!--Custom String Listener: TalkSentence_502114010-->
+:::'''Todd:''' The Xianzhou natives are different from us. Ask any of them, and you'll find they've lived for centuries. What we Outworlders consider ancient history is actually just a childhood memory for them.
+:::'''Todd:''' This means the study of "history" on Xianzhou is completely different from what we consider as "history"... or put simply, they lack respect for the past!
+:::'''Todd:''' Archaeologists often speculate on the past by studying utensils and inscriptions from antiquity. But on Xianzhou, everything is perpetually being upgraded. They simply chuck out centuries-old antiques... it's just awful.
+:::'''Todd:''' Huh? You're also a keen student of Xianzhou history? Apologies, I haven't even introduced myself yet: I'm Todd from the Intelligentsia Guild. We can discuss things a little more if you're interested in Xianzhou history.
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 90000060: Config/Level/NPC/W2/NPC_DefaultStory_502011404.json-->
+:::'''Todd:''' It's you. I can tell just by looking at your face that you're a workaholic &mdash; just like me.
+:::'''Todd:''' I'm either swamped by primary sources or running around everywhere on Xianzhou for research purposes. With my hectic schedule, it's a miracle that I ever find time like this to rest.
+:::'''Todd:''' The Intelligentsia Guild always trades knowledge for knowledge, and that's our guiding principle. You'd better prepare something interesting for me. So what can I do for you today?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} What are you doing here? And looking around like this?
+:::<!--Trigger PerformanceD 202020101: Config/Level/Mission/2020201/Act/Act202020101.json-->
+:::----
+:::'''Todd:''' Ah, it's you, (Trailblazer)... I'm looking for an assistant.
+:::'''Todd:''' Someone familiar with the local situation, friendly, well-educated... A capable adventurer... An outworlder... All these qualities must be present to help me finish my research project on Xianzhou.
+:::{{DIcon|Arrow}} Woah, you need that many assistants?
+::::<!--Custom String Listener: TalkSentence_202021005-->
+::::'''Todd:''' That many? I don't think so. Wait, I think you misunderstood. I just want to hire ONE assistant, but as this is for my academic research, I have slightly strict requirements for this person.
+:::{{DIcon|Arrow}} Are you looking for an assistant or the protagonist of a story?
+::::<!--Custom String Listener: TalkSentence_202021007-->
+::::'''Todd:''' You think I'm asking for too much? These are just the basic requirements for an assistant when it comes to the Guild's research.
+:::<!--Custom String Trigger: TalkSentence_202021009-->
+:::<!--Custom String Listener: TalkSentence_202021009-->
+:::'''Todd:''' We scholars from the Intelligentsia Guild must deeply penetrate into alien civilizations and win their trust, while also braving any natural disasters we may encounter. It's as dangerous as being a Nameless.
+:::<!--Custom String Trigger: LookAtBooks-->
+:::<!--Custom String Listener: LookAtBooks-->
+:::'''Todd:''' See? Now there's a Stellaron causing calamity here. My plans to research the medical history of the Xianzhou just went down the drain.
+:::'''Todd:''' The locals originally gave approval for me to enter the Alchemy Commission, browse medical texts, and exchange research findings with others, but they kept delaying my visit. Xianzhou residents might be able to afford the wait, but my old bones simply can't.
+:::{{DIcon|Arrow}} A lot has happened in the Alchemy Commission...
+::::<!--Custom String Listener: TalkSentence_202021015-->
+::::'''Todd:''' ... How do you know that?
+:::{{DIcon|Arrow}} The Cloud Knights are already imposing a curfew over there.
+::::<!--Custom String Listener: TalkSentence_202021017-->
+::::'''Todd:''' What? That won't do!
+:::<!--Custom String Trigger: TalkSentence_202021018-->
+:::<!--Custom String Listener: TalkSentence_202021018-->
+:::'''Todd:''' Wait... I've been looking everywhere, but you seem to know a lot about what's happening inside the Alchemy Commission! I heard that the general of the Luofu invited some outworlders to get involved in their internal affairs in a rare turn of events... Could you be one of those people?
+:::'''Todd:''' What luck! (Trailblazer), are you interested in becoming my assistant...?
+:::{{DIcon|Arrow}} I don't meet your requirements, though.
+::::<!--Custom String Listener: TalkSentence_202021023-->
+::::'''Todd:''' Forget about those darn requirements! I swear with my invaluable academic reputation&mdash;
+::::'''Todd:''' I, Todd Riordan, hereby humbly promise that I will never withhold pay, and will provide (Trailblazer) with personal insurance and double pay for any overtime.
+::::'''Todd:''' How is that oath? Good enough?
+:::{{DIcon|Arrow}} Please go find someone else.
+::::<!--Custom String Listener: TalkSentence_202021025-->
+::::'''Todd:''' Don't be in a hurry to reject me! I can offer you a hefty pay. The Xianzhou is in utter chaos right now, and many outworlders are struggling to even earn enough money to eat...
+::::'''Todd:''' What? Not interested in money? I understand. Money doesn't bring true happiness. I, too, am the happiest when standing behind a lectern and teaching students.
+::::'''Todd:''' I can give you more than just money! I can give you prestige and knowledge!
+::::'''Todd:''' Just think about it. You will be listed in the Guild's textbooks as Todd Riordan's collaborator, and frequently mentioned by every history lecturer in the cosmos. Does this sound attractive to you?
+:::{{DIcon|Arrow}} Why don't you want Xianzhou locals?
+::::<!--Custom String Listener: TalkSentence_202021021-->
+::::'''Todd:''' My child, all these long-life species are the same.
+::::'''Todd:''' I've been in the Xianzhou for a year already. They keep taking me to tourists spots and make me drink terrible beverages. They don't plan to share the secrets of their past with me. Even the application to the Alchemy Commission was only granted after painstaking networking.
+::::'''Todd:''' But you are different. You are chosen by the general and can go into many secret places, unlike normal visitors.
+:::<!--Custom String Trigger: TalkSentence_202021026-->
+:::<!--Custom String Listener: TalkSentence_202021026-->
+:::{{DIcon|Arrow}} But I've got other things to do.
+::::<!--Custom String Listener: TalkSentence_202021002-->
+::::'''Todd:''' I understand, I understand. We can start with the most simple task. I just need you run one errand for me. Just go to the Alchemy Commission and pick something up. It's super simple.
+:::{{DIcon|Arrow}} What exactly do I need to do?
+::::<!--Custom String Listener: TalkSentence_202021031-->
+::::'''Todd:''' Don't worry. We'll start with running an errand, the most simple task of all.
+:::<!--Custom String Trigger: TalkSentence_202021033-->
+:::<!--Custom String Listener: TalkSentence_202021033-->
+:::'''Todd:''' I want to ask you to go to the Alchemy Commission to pick up some research materials. It won't take too long. Please help a fellow outworlder, {{MC|f=young lady|m=young man}}!
+:::----
+:::'''Todd:''' Say, I need a Xianzhou medical textbook called the ''Compendium of Remedies''. Could you please head over to the Alchemy Commission and bring it to me?
+:::{{DIcon|Arrow}} There was no approval. Did you want me to STEAL the book?
+::::<!--Custom String Listener: TalkSentence_202021030-->
+::::'''Todd:''' Look, we are both educated people... Could we use a less accusatory word? Perhaps "borrow"?
+::::'''Todd:''' I've stated that they've already approved my request to borrow it.
+:::{{DIcon|Arrow}} These medical textbooks are the Alchemy Commission's secrets, no?
+::::<!--Custom String Listener: TalkSentence_202021032-->
+::::'''Todd:''' How are these books secrets? They are just references that alchemists can browse at any time. Besides, they agreed to let me borrow it.
+:::<!--Custom String Trigger: TalkSentence_202021043-->
+:::<!--Custom String Listener: TalkSentence_202021043-->
+:::'''Todd:''' The Alchemy Commission's chief alchemist approved my request when I met her.
+:::'''Todd:''' According to the Guild's creed, knowledge should be exchanged with an equally valuable piece of knowledge. I gave her a copy of an ancient text, and she gifted me a prescription the Guild had never seen.
+:::'''Todd:''' Go. I'll give you the approval documents. Don't let an old man like me wait too long. At my age, arthritis is a veritable torment.
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_202020101-->
+:;(If {{cx}}<!--SubMission Started: 202020106--> and {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} I got the textbook.
+:::<!--Trigger PerformanceD 202020106: Config/Level/Mission/2020201/Act/Act202020106.json-->
+:::----
+:::'''Todd:''' Really? Let me see.
+:::'''Todd:''' Hmm, it looks like the prescription she gave does exist in the book, but what about the ingredients in it?
+:::{{DIcon|Arrow}} What are you researching?
+::::<!--Custom String Listener: TalkSentence_202021087-->
+::::'''Todd:''' I want to find out whether the prescription the last chief alchemist gave me is genuine.
+:::{{DIcon|Arrow}} That's all?
+::::<!--Custom String Listener: TalkSentence_202021089-->
+::::'''Todd:''' Of course not. This is only the start of my research, but the question I want to answer the most is whether the prescription the last chief alchemist gave me is genuine.
+:::<!--Custom String Trigger: TalkSentence_202021090-->
+:::<!--Custom String Listener: TalkSentence_202021090-->
+:::'''Todd:''' After all, I gave her a copy of ''Theories on Returning From the Underworld'', which is an invaluable ancient text. Of course I need to see how good her returning gift is.
+:::{{DIcon|Arrow}} That woman's gifts always contain evil intent...
+::::<!--Custom String Listener: TalkSentence_202021091-->
+::::'''Todd:''' Oh? You've dealt with her?
+:::{{DIcon|Arrow}} Don't worry. She is skilled in pharmacology.
+::::<!--Custom String Listener: TalkSentence_202021093-->
+::::'''Todd:''' Oh? She's treated you before?
+:::{{DIcon|Arrow}} Just make this medicine and ingest it to find out.
+::::<!--Custom String Listener: TalkSentence_202021095-->
+::::'''Todd:''' You want a short-life species to take a long-life species' powerful medicine? I want to live for a few more years still!
+:::<!--Custom String Trigger: TalkSentence_202021079-->
+:::<!--Custom String Listener: TalkSentence_202021079-->
+:::'''Todd:''' This prescription is recorded in the medical textbooks, but there's an extra ingredient.
+:::'''Todd:''' The prescription didn't say what this ingredient is or where it's from. It's just called "Divine Aureate Twig." Is this the name of a common medicine in Xianzhou?
+:::'''Todd:''' (Trailblazer), what do you think?
+:::{{DIcon|Arrow}} I'm guessing it's a twig from the bodies of the mara-struck.
+::::<!--Custom String Listener: TalkSentence_202021097-->
+::::'''Todd:''' The mara-struck? Why would Xianzhou natives use such odd stuff in their medicines?
+::::Todd looks at you, puzzled.
+::::'''Todd:''' Hmm, but it does make sense. I've seen these monsters with branches on their bodies. Looks like we've got another mission.
+::::'''Todd:''' (Trailblazer), bring me a sample of this ingredient. It shouldn't be too hard for you, right?
+:::{{DIcon|Arrow}} I don't know either...
+::::<!--Custom String Listener: TalkSentence_202021098-->
+::::'''Todd:''' The answer of one question will always lead to another.
+::::'''Todd:''' Can I please ask you to find an alchemist and get some clues out of them? Please find some answers either through greasing some palms or... more persuasive means.
+:::<!--Custom String Trigger: TalkSentence_202021175-->
+:::<!--Custom String Listener: TalkSentence_202021175-->
+:::'''Todd:''' (Trailblazer), old Todd can only rely on you now.
+:::'''Todd:''' If I can't figure out this key issue, that means my net gain would be zero from this exchange of knowledge! Now, go, and I will pay you handsomely.
+:::----
+::<pre>{
+	"$type": "RPG.GameCore.NpcPossession",
+	"GroupID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 164
+		}
+	},
+	"GroupNpcID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 400002
+		}
+	},
+	"NpcUniqueName": "NPC1",
+	"PossessionInfo": {
+		"Name": "Possession_Book_A_05",
+		"IsOverride": true,
+		"LocalPosition": {
+			"X": 0.12,
+			"Y": 0,
+			"Z": 0
+		},
+		"AttachPoint": "Prop"
+	},
+	"IsDelete": true
+}</pre>
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_202020106-->
+:;(If {{cx}}<!--SubMission Started: 202020110-->, {{cx}}<!--SubMission Started: 202020106-->, and {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} I got what you want.
+:::<!--Trigger PerformanceD 202020110: Config/Level/Mission/2020201/Act/Act202020110.json-->
+:::----
+:::<!--Custom String Trigger: PullHandStart-->
+:::<!--Custom String Listener: PullHandStart-->
+:::'''Todd:''' Thank you for your hard work.
+:::<!--Custom String Trigger: PullHandEnd-->
+:::<!--Custom String Listener: PullHandEnd-->
+:::'''Todd:''' Fascinating. This thing does look similar to twigs, but its veins shine with a golden light... Its mysteries must be related to the Xianzhou natives' legends.
+:::'''Todd:''' Scholar Bernini will be so jealous once he finds out about what I've learned here.
+:::{{Black Screen|Todd makes the eerie twig into a specimen.}}
+:::'''Todd:''' I don't have a lot of tools available to me here, but the Guild's research finally has some progress after a long delay. Thank you, (Trailblazer).
+:::{{DIcon|Arrow}} You are touching upon the Xianzhou's forbidden secrets.
+::::<!--Custom String Listener: TalkSentence_202021191-->
+::::'''Todd:''' What? Forbidden secrets? I don't seek medicines to grant immortality, and don't wish to become long-life species... What forbidden secrets am I unveiling?
+::::'''Todd:''' What crime is it to collect a small twig that could have come from anywhere? Besides, you gave me this twig yourself.
+:::{{DIcon|Arrow}} You're not afraid of me reporting you?
+::::<!--Custom String Listener: TalkSentence_202021194-->
+::::'''Todd:''' No, (Trailblazer), I'm not afraid of that at all.
+::::'''Todd:''' You have been my capable assistant and helped my investigation from the start to the end. You will gain nothing from reporting me &mdash; except losing out on your reward.
+::::'''Todd:''' Even the Seat of Divine Foresight won't be able to pay more than me.
+:::{{DIcon|Arrow}} Now, it's time to talk about payment.
+::::<!--Custom String Listener: TalkSentence_202021198-->
+::::'''Todd:''' Well said, and now it's time for me to fulfill my promise.
+:::<!--Custom String Trigger: TalkSentence_202021129-->
+:::<!--Custom String Listener: TalkSentence_202021129-->
+:::'''Todd:''' You've helped me so much, and I'm definitely not a stingy person. Apart from tangible cash, I will also provide the most common reward in the Intelligentsia Guild &mdash; that of knowledge. After all, knowledge is worth more than gold.
+:::'''Todd:''' I will share with you all the information I gain from this project. Take this manuscript and keep it safe. I'll come find you again, young one, if I need to conduct more research.
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_202020110-->
+:;(If {{cx}}<!--SubMission Started: 202020201-->, {{cx}}<!--SubMission Started: 202020110-->, {{cx}}<!--SubMission Started: 202020106-->, and {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} Why are you looking around?
+:::<!--Trigger PerformanceD 202020201: Config/Level/Mission/2020202/Act/Act202020201.json-->
+:::----
+:::'''Todd:''' You came at a good time, (Trailblazer). There's something I want to ask you.
+:::'''Todd:''' I heard there has been thunderous noise coming from Scalegorge Waterscape recently. Has something big happened?
+:::{{DIcon|Arrow}} Are you asking me to investigate something again?
+::::<!--Custom String Listener: TalkSentence_202040005-->
+::::'''Todd:''' Nothing of that sort. I'm just curious about the happenings on the Luofu. Besides, aren't we close friends who help each other out?
+:::{{DIcon|Arrow}} I have no clue!
+::::<!--Custom String Listener: TalkSentence_202040007-->
+::::'''Todd:''' That's not what I gather from your face.
+:::<!--Custom String Trigger: TalkSentence_202040008-->
+:::<!--Custom String Listener: TalkSentence_202040008-->
+:::'''Todd:''' Looks like you are quite perturbed after helping with my research last time. I swear, on Nous's name, that your investigation will not be used immorally!
+:::'''Todd:''' Back to the topic, could you tell me what happened in Scalegorge Waterscape?
+:::{{Black Screen|You talk about your experience briefly...}}
+:::'''Todd:''' The reincarnated high elder has returned to his homeland, parted the sea, and stirred the waves? Just hearing you say these gives me a vivid imagery, it's as if I were there.
+:::'''Todd:''' Since I started studying the history of Xianzhou civilization, I have been longing to visit the famous sites on the Luofu mentioned in the books.
+:::'''Todd:''' It's a shame that the star rail has become unstable since the disappearance of Akivili. The worlds are getting further and further away from each other, and the Guild has gradually lost interest in the Xianzhou.
+:::'''Todd:''' My teacher, Bernini, was a fan of Xianzhou culture all his life. He once wrote to me, describing the peculiar ecology in Scalegorge Waterscape and the water that was full of vitality.
+:::'''Todd:''' Unfortunately, cultural study has always been a niche thing. Without an impressive result, a study would not be funded. In the end, my teacher never returned to his teaching post out of embarrassment and left to work elsewhere.
+:::'''Todd:''' As for me, I'm just a mediocre and untalented person. In fear of ending up the same way as my teacher, I've wasted most of my life on things that would quickly get me rich and famous. Now that I'm getting older, I have decided to stay true to myself and come here.
+:::'''Todd:''' Help me, (Trailblazer). I want to complete what was left unfinished by my teacher and witness the beautiful Scalegorge Waterscape before I am too old to walk.
+:::'''Todd:''' Of course, you can take some time to think it over. This time, I won't promise you a handsome pay, as I understand the offer is humiliating to a Nameless.
+:::'''Todd:''' After all, both of us have the same kind of courage. While we scholars study the unknown, the Nameless pursue the unknown, right?
+:::Todd gets breathless after speaking too fast. He waits for your decision while catching his breath.
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_202020201-->
+:;(If {{cx}}<!--SubMission Started: 202020207-->, {{cx}}<!--SubMission Started: 202020201-->, {{cx}}<!--SubMission Started: 202020110-->, {{cx}}<!--SubMission Started: 202020106-->, and {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} I took the pictures.
+:::<!--Trigger PerformanceD 202020202: Config/Level/Mission/2020202/Act/Act202020202.json-->
+:::'''Todd:''' Fantastic! Let me have a look!
+:::{{Black Screen|Todd takes the pictures from you and scrutinizes them one by one.}}
+:::'''Todd:''' I'm sorry for keeping you waiting... As we get older, we can't see and tell colors apart that well.
+:::'''Todd:''' These views look exactly the same as those described by my teacher. If only I could have admired them earlier...
+:::'''Todd:''' Huh? Hold on. What's this shiny mark? Are my eyes failing me? Isn't it a marking of the Guild?
+:::{{DIcon|Arrow}} I didn't notice it when I took the pictures...
+::::<!--Custom String Listener: TalkSentence_202040054-->
+::::'''Todd:''' Oh, this is a special optical marking used only by the members of the Intelligentsia Guild. It shows that a scholar has done research at that particular location and left some clues for his or her peers.
+:::{{DIcon|Arrow}} Is there a problem with the pictures?
+::::<!--Custom String Listener: TalkSentence_202040056-->
+::::'''Todd:''' No, there's no problem at all. On the contrary, you captured something interesting. I thought I was lucky enough to be able to see these views through the pictures.
+::::'''Todd:''' In one of the pictures, I noticed a special optical marking used only by the members of the Intelligentsia Guild. It shows that a scholar has done research at that particular location and left some clues for his or her peers.
+:::<!--Custom String Trigger: TalkSentence_202040058-->
+:::<!--Custom String Listener: TalkSentence_202040058-->
+:::'''Todd:''' It was automatically detected by the processing program of the Guild when I received the pictures. What an unexpected and pleasant surprise, haha.
+:::'''Todd:''' Did you leave this marking, Bernini? You really were driven.
+:::<!--Custom String Trigger: Wait_Option_202020202_109-->
+:::<!--Custom String Listener: Wait_Option_202020202_109-->
+:::{{DIcon|Talk}} Are you sure this is your master's marking?
+::::<!--Custom String Listener: TalkSentence_202040061-->
+::::'''Todd:''' After all these years of being a scholar, the only thing I am certain of is that nothing is certain.
+::::'''Todd:''' But that's a logical explanation. After all, the research hype has long gone, and very few scholars are sent to Xianzhou for cultural exchange.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} It's uncivilized to vandalize a historical monument!
+::::<!--Custom String Listener: TalkSentence_202040064-->
+::::'''Todd:''' Please let me explain. If it is an optical paint that is non-corrosive, harmless, and can only be detected by a device of the Guild, I'd personally call it "protecting history."
+::::'''Todd:''' These markings serve as reminders for those moronic Armed Archaeologists, so they won't blow up the historical sites.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's the purpose of leaving these markings?
+::::<!--Custom String Listener: TalkSentence_202040067-->
+::::'''Todd:''' I have no idea. Since they were left there, they're meant to be clues. What did Bernini discover?
+::::<!--Custom String Trigger: TalkSentence_202040068-->
+::::<!--Custom String Listener: TalkSentence_202040068-->
+::::'''Todd:''' (Trailblazer), I'm going to follow this lead and see what Bernini has left behind.
+::::{{DIcon|Arrow}} You mean "you'll send me there to see"...
+:::::<!--Custom String Listener: TalkSentence_202040070-->
+:::::'''Todd:''' Hahaha, what a nitpicker you are. That's right. I'll need you to check it out for me.
+:::::'''Todd:''' Well, if you insist on me being there myself, I'd be more than willing to oblige. However, I'm afraid you can't accept the idea of carrying me on your back when doing the investigation.
+::::{{DIcon|Arrow}} I knew it wouldn't be so simple.
+:::::<!--Custom String Listener: TalkSentence_202040073-->
+:::::'''Todd:''' Ah, this is what research is like. It starts with a "why" and ends with an "I knew it wouldn't be so simple"...
+::::<!--Custom String Trigger: TalkSentence_202040074-->
+::::<!--Custom String Listener: TalkSentence_202040074-->
+::::'''Todd:''' I'll install the Guild's detection plug-in to your phone. That way, you'll be able to recognize the markings and take pictures of them... Ahem, in terms of archaeology, it should probably be called "optical rubbing."
+::::'''Todd:''' Bernini mentioned several places he had visited in the letters. I've marked them out on the map for you.
+::::'''Todd:''' Just bring your phone with you. The plug-in will issue a notification if the reflection signal of a nearby marking is detected. Your job is to locate the marking and make a rubbing of it. Easy-peasy, right?
+::::'''Todd:''' That's all. You may set off now.
+::::----
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_202020207-->
+:;(If {{cx}}<!--SubMission Started: 202020212-->, {{cx}}<!--SubMission Started: 202020207-->, {{cx}}<!--SubMission Started: 202020201-->, {{cx}}<!--SubMission Started: 202020110-->, {{cx}}<!--SubMission Started: 202020106-->, and {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} I've got the rubbings of the Alchemy Commission's markings.
+:::<!--Trigger PerformanceE 202020204: Config/Level/Mission/2020202/Act/Act202020204.json-->
+:;(If {{cx}}<!--SubMission Started: 202020219-->, {{cx}}<!--SubMission Started: 202020212-->, {{cx}}<!--SubMission Started: 202020207-->, {{cx}}<!--SubMission Started: 202020201-->, {{cx}}<!--SubMission Started: 202020110-->, {{cx}}<!--SubMission Started: 202020106-->, and {{cx}}<!--SubMission Started: 202020101-->)
+:{{DIcon|undefined}} All the remaining rubbings are here.
+:::<!--Trigger PerformanceD 202020205: Config/Level/Mission/2020202/Act/Act202020205.json-->
+:::<!--Custom String Trigger: 202020205_Submit-->
+:::<!--Custom String Listener: 202020205_Submit-->
+::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 202020237,
+	"Desc": {
+		"Hash": 1942436028502723186
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "140261_SubmitSucceed"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "140261_SubmitCanceled"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+::{{DIcon}} Just a casual chat.
+:::'''Todd:''' Chat? Alright, I can use a break now anyway. Besides, chatting with different people aboard Xianzhou also forms part of my research.
+:::<!--Custom String Trigger: Wait_Option_502011402_33-->
+:::<!--Custom String Listener: Wait_Option_502011402_33-->
+:::{{DIcon|Talk}} What does the Intelligentsia Guild do?
+::::<!--Custom String Listener: TalkSentence_502114103-->
+::::'''Todd:''' I may be a student there, but my opinion of the Intelligentsia Guild is bound to be biased. So take this with a grain of salt.
+::::'''Todd:''' Put simply, the Intelligentsia Guild is an academic organization in symbiosis with the Interastral Peace Corporation. Our motto is "All knowledge must be circulated as freely as currency."
+::::'''Todd:''' Our scholars traverse the universe collecting all knowledge of value, and trading learnings with other scholars in the hope of attaining priceless wisdom.
+::::'''Todd:''' It's hard to explain, but basically, all you need to know is that we're a group that trades knowledge to gain true wisdom.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Don't the Xianzhou natives research history?
+::::<!--Custom String Listener: TalkSentence_502114108-->
+::::'''Todd:''' It's not that they don't study it. It's just that what they call "history" is a completely different concept from what our short-life species consider to be history.
+::::'''Todd:''' It's a simple concept. Would you consider the abandoned theater that you used to visit as a child as some kind of archaeological ruin? What we consider to be ancient history is merely a childhood memory for the long-lived Xianzhou natives.
+::::'''Todd:''' That's why the Xianzhou natives don't really value their own cultural relics, just as we don't really care about dilapidated buildings back home. They also don't really get the concept of written history, because "history" still lives within their memories.
+::::'''Todd:''' But everything must come to an eventual end one day, and the Xianzhou natives are no exception. As a student of the Intelligentsia Guild, how can I sit idly by? They don't care, but I do &mdash; so I'm here to record the magnificence of our cosmos's history.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's your purpose behind doing all of this?
+::::<!--Custom String Listener: TalkSentence_502114113-->
+::::'''Todd:''' You sound just like one of my tutors! *sigh* That reminds me of school and having to find a practical purpose for every academic topic I wanted to write about...
+::::'''Todd:''' Cough, ahem... but of course, it's useful to study the history of Xianzhou. After all, we all know that the secret of immortality lies hidden somewhere here. The Xianzhou natives might be able to keep their secret, but history shall never be kept silent.
+::::'''Todd:''' So long as we can piece together enough clues from the rubble and scraps around us, perhaps it'll lead us to finding that legendary secret here on Xianzhou...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all, I can see you're busy.
+::::<!--Custom String Listener: TalkSentence_502114117-->
+::::'''Todd:''' Yes, let us part ways here. If you see any interesting historical relics, give me a holler.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} It's nothing, really. I can see you're busy.
+:::'''Todd:''' Yes, let us part ways here. If you see any interesting historical relics, give me a holler.
+:::<!--Ends the current performance-->
+;(Unused &mdash; 140258_SubmitSucceed)
+:<!--Custom String Listener: 140258_SubmitSucceed-->
+::'''Todd:''' Let me take a look. Did you find this complex shape on a building, or was it pieced together by the plug-in?
+::'''Todd:''' This... is indeed the handiwork of Bernini.
+::{{Black Screen|As Todd is fiddling with the rubbing you provided, his withered Adam's apple moves up and down before he starts coughing vigorously.}}
+::'''Todd:''' *coughs* Interesting. These motifs seem to depict a significant historical moment in Xianzhou.
+::'''Todd:''' Look at this. It's a depiction of a deity figure with multiple arms and branches growing behind. It portrays...
+::{{DIcon|Arrow}} The advent of Yaoshi.
+:::<!--Custom String Listener: TalkSentence_202040096-->
+:::'''Todd:''' You're pretty well-versed in Xianzhou history. This might be an image without any special meaning for a layperson, but a professional can surely understand its meaning.
+::{{DIcon|Arrow}} I must say you're very good at making up stories.
+:::<!--Custom String Listener: TalkSentence_202040098-->
+:::'''Todd:''' This rubbing depicts the moment when the Abundance bestowed the Ambrosial Arbor upon Xianzhou.
+:::Todd lowers his voice and looks around as though to make sure not a single soul can hear him.
+:::'''Todd:''' I'm not making this up. A professional can understand its meaning, but for those without the knowledge, this is just a meaningless drawing.
+::<!--Custom String Trigger: TalkSentence_202040101-->
+::<!--Custom String Listener: TalkSentence_202040101-->
+::'''Todd:''' Look at this drawing. A warrior bends his bow and shoots at an enormous tree. It's clearly about The Hunt chopping off the Ambrosial Arbor &mdash; a well-known myth about the Reignbow Arbiter.
+::'''Todd:''' Yet, instead of crediting the deed to the deity, a regular human form is drawn instead... Interesting.
+::'''Todd:''' If these drawings are about the important moments in Xianzhou history, there must be more than three. (Trailblazer), let's go deeper into Scalegorge Waterscape and explore. Since my master went there before, he must have left some other clues.
+::'''Todd:''' If you find anything, please show me. As for now...
+::Todd's auto-note starts taking down information rapidly upon his touch.
+::'''Todd:''' By the way, please take this. You can find my interpretation on the drawings inside. Although it isn't much, it's got potential to be made into a good Xianzhou history report.
+::----
+::<!--Custom String Trigger: Talk_202020212-->
+::<!--Ends the current performance-->
+;(Unused &mdash; 140258_SubmitCanceled)
+:<!--Custom String Listener: 140258_SubmitCanceled-->
+::<!--Ends the current performance-->
+;(Unused &mdash; 140261_SubmitCanceled)
+:<!--Custom String Listener: 140261_SubmitCanceled-->
+::{{DIcon|Arrow}} All the remaining rubbings are here.
+::<!--Custom String Listener: 202020205_Submit-->
+:<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 202020237,
+	"Desc": {
+		"Hash": 1942436028502723186
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "140261_SubmitSucceed"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "140261_SubmitCanceled"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+;(Unused &mdash; 140261_SubmitSucceed)
+:<!--Custom String Listener: 140261_SubmitSucceed-->
+::'''Todd:''' Are you sure? Did you do a thorough search in the locations I marked? What about those I didn't mark?
+::{{DIcon|Arrow}} There's no more left!
+::<!--Custom String Listener: TalkSentence_202040110-->
+::{{Black Screen|Todd's auto-note starts taking down information rapidly upon his touch.}}
+::'''Todd:''' In this drawing, an authoritative and solemn superior extends his arm to the air as fleets of ships set sail... This must be a depiction of Xianzhou's departure from ancient history.
+::'''Todd:''' And this, a figure covered in sprouts... This is obviously a drawing of someone stricken with mara. I believe all of us have witnessed how scary the disease is recently. I'm afraid that's the price the Xianzhou people must pay for escaping death.
+::'''Todd:''' And this drawing shows a group of people summoning waves to drown an enormous tree. I suppose this illustrates the contribution of the Vidyadhara to the Luofu...
+::'''Todd:''' One, two, three, four, five... and the three you have previously found. Although they aren't in order, the eight drawings almost cover all the significant myths or history of Xianzhou from the past to the present. Still, there's something odd...
+::{{DIcon|Arrow}} What's wrong?
+:::<!--Custom String Listener: TalkSentence_202040116-->
+:::'''Todd:''' The Guild has a systemic way of recording Xianzhou history. Indeed, there are secrets like the mara-struck that are kept well-hidden.
+:::'''Todd:''' Still, these myths and historical stories aren't exactly taboos. Why did Bernini leave these drawings in the Alchemy Commission and Scalegorge Waterscape?
+::{{DIcon|Arrow}} That's really odd...
+:::<!--Custom String Listener: TalkSentence_202040119-->
+:::'''Todd:''' Have you noticed it, too? Besides the scary drawing about the mara-struck, a condition the Xianzhou people have been downplaying and hiding desperately...
+:::'''Todd:''' The other myths and historical stories aren't exactly taboos. Why did Bernini leave these drawings in the Alchemy Commission and Scalegorge Waterscape?
+::<!--Custom String Trigger: TalkSentence_202040121-->
+::<!--Custom String Listener: TalkSentence_202040121-->
+::'''Todd:''' Did he lose his mind because his research was fruitless? Or is there more to this than meets the eye? Let me think about this.
+::{{DIcon|Arrow}} You scholars are so convoluted...
+::{{DIcon|Arrow}} ...Why don't you all just write down what you think?
+::<!--Custom String Listener: TalkSentence_202040124-->
+::'''Todd:''' ...
+::'''Todd:''' You are... right, (Trailblazer).
+::'''Todd:''' Hehe, hahahaha... I can't believe I was fooled by such simple trickery.
+::Unlike his usual tired and old self, the elderly man starts sorting out the drawings at an astonishing speed. In the meantime, he can be heard muttering to himself like a sleep talker's ramblings.
+::{{Black Screen|After some time, Todd snaps out of his trance and starts gasping in agitation.}}
+::'''Todd:''' Huff... Huff... I... I understand it now.
+::{{DIcon|Arrow}} What do you understand?
+::{{DIcon|Arrow}} Have you figured out what your teacher meant?
+::<!--Custom String Listener: TalkSentence_202040132-->
+::'''Todd:''' (Trailblazer), what did you say?
+::'''Todd:''' *coughs* Sorry about that. I was too concentrated on the interpretation. When you start aging, your reactions start to become slow.
+::{{DIcon|Arrow}} So, what do you understand?
+::<!--Custom String Listener: TalkSentence_202040135-->
+::'''Todd:''' It seems to me that Bernini drew the well-known historical events because he wanted to tell the other scholars that Xianzhou no longer bore any secrets worth pursuing.
+::'''Todd:''' The futile trip might have dealt a devastating blow to him. Perhaps, all his hopes for the fate of Xianzhou's long-life species were dashed when he learned about the mara-struck's existence.
+::'''Todd:''' So, he drew these drawings, gave up on his career as a scholar, and decided never to return to his teaching post at the Guild.
+::'''Todd:''' I'd like to visit Scalegorge Waterscape to pay respects to my teacher. (Trailblazer), my friend, could you be my guide?
+::<!--Custom String Trigger: Wait_Option_202020205_251-->
+::<!--Custom String Listener: Wait_Option_202020205_251-->
+::{{DIcon|Talk}} Now?
+:::<!--Custom String Listener: TalkSentence_202040140-->
+:::'''Todd:''' We can go later or tomorrow, but why not now?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Scalegorge Waterscape isn't safe at the moment...
+:::<!--Custom String Listener: TalkSentence_202040142-->
+:::'''Todd:''' It doesn't matter! Of course, it'll be safer if we have the escort of an Armed Archaeologist.
+:::'''Todd:''' I guess you can protect me too, no? After all, you have brought back the rubbings safely.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Has Mr. Arthritis stopped giving you a hard time?
+:::<!--Custom String Listener: TalkSentence_202040145-->
+:::'''Todd:''' No, he's never spared me. Still, I must be there myself to show my respect.
+:::'''Todd:''' Bernini led me to this career and made me an official scholar with his recommendation. Since I can never see him again, I'd like to walk the path he walked before.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Alright. Let's go.
+:::<!--Custom String Listener: TalkSentence_202040148-->
+:::'''Todd:''' Let me take a painkiller first before the long journey.
+:::Todd takes out a pill from a pillbox with his trembling hand and struggles to swallow it. A while later, his face distorted by pain looks more relaxed.
+:::'''Todd:''' Let's go.
+:::----
+:::<!--Custom String Trigger: Talk_202020219-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Todd
+|zhs  = 陶德
+|zht  = 陶德
+|ja   = トッド
+|ko   = 토드
+|es   = Todd
+|fr   = Todd
+|ru   = Тодд
+|th   = Todd
+|vi   = Todd
+|de   = Todd
+|id   = Todd
+|pt   = Todd
+}}
+==Change History==
+{{Change History|TODO}}

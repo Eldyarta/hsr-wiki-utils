@@ -1,0 +1,106 @@
+<%-- [PAGE_INFO]
+PageTitle=#Trianne#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Trianne.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Trianne''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_313_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504015004: Config/Level/Mission/5040150/Act/Act504015004.json-->
+<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayVoice_Sequence",
+			"VoiceIDs": [
+				504000204
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice_Sequence",
+			"VoiceIDs": [
+				504000207
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+:{{A|VO vo ambient w4 v300 greeting trinnon 101.ogg}} {{A|VO vo ambient w4 v300 greeting trinnon 102.ogg}} '''Trianne:''' Hum-hum-hum! Trianne is in a great mood today as well! Time for a flight over all Okhema again!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_504015004-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Trianne
+|zhs  = 缇安
+|zht  = 緹安
+|ja   = トリアン
+|ko   = 트리앤
+|es   = Trianne
+|fr   = Trianne
+|ru   = Трианна
+|th   = Trianne
+|vi   = Trianne
+|de   = Trianne
+|id   = Trianne
+|pt   = Trianne
+}}
+==Change History==
+{{Change History|TODO}}

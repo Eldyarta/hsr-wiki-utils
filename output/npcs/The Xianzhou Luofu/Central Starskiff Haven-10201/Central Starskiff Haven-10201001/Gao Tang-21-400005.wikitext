@@ -1,0 +1,234 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gao Tang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Garden of Gourmet Chef
+|image           = NPC Gao Tang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Gao Tang''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_21_400005}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Gao Tang:''' Oh, ask away. I have much to share, as long as it's about food.
+:<!--Custom String Trigger: Wait_Option_502010702_140-->
+:<!--Custom String Listener: Wait_Option_502010702_140-->
+:{{DIcon|Talk}} Is it true? That there's no good food in the Starskiff Haven?
+::<!--Custom String Listener: TalkSentence_502107103-->
+::'''Gao Tang:''' Strictly speaking, Starskiff Haven's food is enough to sate your hunger. Whether it tastes good is another matter.
+::'''Gao Tang:''' Without stringent selection nor prudent handling of ingredients, I refuse to accept food that has been made haphazardly.
+::'''Gao Tang:''' But don't worry. Starskiff Haven's food does not represent Xianzhou's culinary landscape. You can still find restaurants dedicated to the craft here.
+::'''Gao Tang:''' If nothing else, once you've tried the dishes at the Garden of Gourmet, I'm sure you will lose interest in this subpar fare.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What kind of food does the Garden of Gourmet serve?
+::<!--Custom String Listener: TalkSentence_502107108-->
+::'''Gao Tang:''' The restaurant's been making sturgeons recently. This type of fish returns once every fifty years, and is a key ingredient in "Five Lords of Anhe River."
+::'''Gao Tang:''' In the Garden of Gourmet, we extract the three crunchiest bones from the tail, boil them in a broth of myriad herbs, then grill them using fresh goat's fat paste. At the final stage, we slow fry them till the meaty bones are caramelized and crisp.
+::'''Gao Tang:''' Any step that's not up to snuff in this process, and I'll dump the dish entirely. This is also why the Garden of Gourmet has no menu &mdash; we only serve one table a day.
+::'''Gao Tang:''' No such thing as food too fine, or meat too minced. Those of Xianzhou have lived for a thousand years, we must be meticulous with what goes in our mouths.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You speak with such passion when discussing cuisine.
+::<!--Custom String Listener: TalkSentence_502107113-->
+::'''Gao Tang:''' We are all, in some way, shaped by our food. You wouldn't want to be made shoddily, would you?
+::{{DIcon|Arrow}} I wouldn't.
+:::<!--Custom String Listener: TalkSentence_502107115-->
+:::'''Gao Tang:''' I thought so.
+:::<!--Custom String Trigger: TalkSentence_502107120-->
+:::<!--Custom String Listener: TalkSentence_502107120-->
+:::'''Gao Tang:''' I notice you are an Outworlder. Your food tapestry must be limited, so you must make wiser choices.
+:::'''Gao Tang:''' To be strict with what you eat is to be strict with the "reason why we are people."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I'm fine either way.
+:::<!--Custom String Listener: TalkSentence_502107117-->
+:::'''Gao Tang:''' Either way?
+:::<!--Custom String Trigger: TalkSentence_502107120-->
+:::<!--Custom String Listener: TalkSentence_502107120-->
+:::'''Gao Tang:''' I notice you are an Outworlder. Your food tapestry must be limited, so you must make wiser choices.
+:::'''Gao Tang:''' To be strict with what you eat is to be strict with the "reason why we are people."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I'm not exactly a role model to begin with.
+:::<!--Custom String Listener: TalkSentence_502107119-->
+:::'''Gao Tang:''' I worry for you.
+:::<!--Custom String Trigger: TalkSentence_502107120-->
+:::<!--Custom String Listener: TalkSentence_502107120-->
+:::'''Gao Tang:''' I notice you are an Outworlder. Your food tapestry must be limited, so you must make wiser choices.
+:::'''Gao Tang:''' To be strict with what you eat is to be strict with the "reason why we are people."
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll ask you about something else next time.
+::<!--Custom String Listener: TalkSentence_502107123-->
+::'''Gao Tang:''' May we meet again.
+::<!--Ends the current performance-->
+:'''Gao Tang:''' May we meet again.
+:<!--Ends the current performance-->
+:'''Gao Tang:''' *sigh* Don't say it's "bursting with juices" if you can't cook it this way. Just write "stir-fried" or something.
+:'''Gao Tang:''' Hmm, the way I see Starskiff Haven, it's a sort of promised land. Even chefs who've lost their taste buds can find new beginnings here.
+:'''Gao Tang:''' {{MC|f=Young lady|m=Young man}}, fancy bumping into you again. What'll you have? Don't forget to make a reservation at the Garden of Gourmet, and stop wasting your time at Starskiff Haven. What can I do for you?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000071: Config/Level/NPC/W2/NPC_DefaultStory_502010701.json-->
+::'''Gao Tang:''' The fish tail has completely lost its chewiness. Even if you stew it with jellyfish to blend the texture, it will only add to your troubles...
+::'''Gao Tang:''' Forget it. To think I even seriously reminisced on this dish's taste. I think I'd throw up on the spot if I gave it any further thought.
+::{{DIcon|Arrow}} That's a bit harsh, isn't it?
+:::<!--Custom String Listener: TalkSentence_502107004-->
+:::'''Gao Tang:''' THAT'S harsh? I've got even worse comments.
+:::'''Gao Tang:''' Starskiff Haven is where the art of cooking goes to die on the Xianzhou Luofu. All the unemployed chefs across the cosmos have found jobs here.
+::{{DIcon|Arrow}} Which restaurant tastes bad, exactly?
+:::<!--Custom String Listener: TalkSentence_502107007-->
+:::'''Gao Tang:''' Which one's bad? ...You're funny.
+:::'''Gao Tang:''' All of them are bad.
+::<!--Custom String Trigger: TalkSentence_502107009-->
+::<!--Custom String Listener: TalkSentence_502107009-->
+::'''Gao Tang:''' I'd suggest for all the chefs in Starskiff Haven to compete in a culinary showdown. Those who lose must close their restaurants.
+::'''Gao Tang:''' The ones who win through sheer luck will have to pit their skills against me. I will personally drive all the chefs here out.
+::<!--Custom String Trigger: Wait_Option_502010701_110-->
+::<!--Custom String Listener: Wait_Option_502010701_110-->
+::{{DIcon|Arrow}} You're a chef too?
+:::<!--Custom String Listener: TalkSentence_502107012-->
+:::'''Gao Tang:''' Sort of. Though I'm just a regular customer here today.
+:::'''Gao Tang:''' I don't really like telling people I'm a chef here. I mean, you can get a cooking job at Starskiff Haven as long as you have a pulse and know how to boil water.
+:::'''Gao Tang:''' I both pity and love my passion, which is why I must draw the line with these amateurs. I hope you understand.
+::{{DIcon|Arrow}} Are you a gastronome?
+:::<!--Custom String Listener: TalkSentence_502107016-->
+:::'''Gao Tang:''' You misunderstand. I am but a foodie who sometimes cooks. I have specially come here today to widen my culinary horizons on the Starskiff Haven.
+:::'''Gao Tang:''' Ordinary folks could never figure out how to make such terrible dishes even if they tried. Therefore, they must have some secret condiment that I have yet to learn.
+:::'''Gao Tang:''' ...It's not salty, nor bland, nor spicy, nor sweet &mdash; it is the epitome of "yuck." It is not a culinary state that mortals can attain.
+::<!--Custom String Trigger: TalkSentence_502107019-->
+::<!--Custom String Listener: TalkSentence_502107019-->
+::'''Gao Tang:''' I am Gao Tang, and I own a private kitchen in Xianzhou called the Garden of Gourmet. It may be a hole-in-the-wall restaurant, but compared to the rest of the Starskiff Haven, my humble restaurant respects all its customers.
+::'''Gao Tang:''' If your tummy is even the least bit hungry, I suggest you find another place this instant, or you will be hostage to your hunger, and you will be forced into suffering in this place. It is simply not worth it.
+::<!--Custom String Trigger: Wait_Option_502010701_122-->
+::<!--Custom String Listener: Wait_Option_502010701_122-->
+::{{DIcon|Arrow}} Could your standards be too high?
+:::<!--Custom String Listener: TalkSentence_502107022-->
+:::'''Gao Tang:''' You are mistaken. I have long forgotten the number of times I've lost my temper from the terrible food at Starskiff Haven. Is it because my standards are high? Nay, it is a raw, visceral reaction to their food.
+:::'''Gao Tang:''' You'll understand once you try... ah, that's not right. It's best if you don't try.
+::{{DIcon|Arrow}} What, so the food you make is tasty?
+:::<!--Custom String Listener: TalkSentence_502107025-->
+:::'''Gao Tang:''' Naturally. My dishes taste great.
+:::'''Gao Tang:''' I've always struggled with this notion: Is it really fair that my food tastes heavenly compared to Starskiff Haven's chefs? Would they not be ashamed in light of my existence?
+::<!--Custom String Trigger: TalkSentence_502107027-->
+::<!--Custom String Listener: TalkSentence_502107027-->
+::'''Gao Tang:''' I'm sorry. I'm tooting my own horn again. Instead of throwing words at you, why not pop over to my restaurant for a taste? If you make a reservation now, you'll get a table in about two years.
+::'''Gao Tang:''' I see you have some interest in the arts of culinary persuasion as well. You're welcome to ask me anything.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000072: Config/Level/NPC/W2/NPC_DefaultStory_502010704.json-->
+::'''Gao Tang:''' *sigh* Don't say it's "bursting with juices" if you can't cook it this way. Just write "stir-fried" or something.
+::'''Gao Tang:''' Hmm, the way I see Starskiff Haven, it's a sort of promised land. Even chefs who've lost their taste buds can find new beginnings here.
+::'''Gao Tang:''' {{MC|f=Young lady|m=Young man}}, fancy bumping into you again. What'll you have? Don't forget to make a reservation at the Garden of Gourmet, and stop wasting your time at Starskiff Haven. What can I do for you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to have a chat with you.
+::'''Gao Tang:''' Oh, ask away. I have much to share, as long as it's about food.
+::<!--Custom String Trigger: Wait_Option_502010702_140-->
+::<!--Custom String Listener: Wait_Option_502010702_140-->
+::{{DIcon|Talk}} Is it true? That there's no good food in the Starskiff Haven?
+:::<!--Custom String Listener: TalkSentence_502107103-->
+:::'''Gao Tang:''' Strictly speaking, Starskiff Haven's food is enough to sate your hunger. Whether it tastes good is another matter.
+:::'''Gao Tang:''' Without stringent selection nor prudent handling of ingredients, I refuse to accept food that has been made haphazardly.
+:::'''Gao Tang:''' But don't worry. Starskiff Haven's food does not represent Xianzhou's culinary landscape. You can still find restaurants dedicated to the craft here.
+:::'''Gao Tang:''' If nothing else, once you've tried the dishes at the Garden of Gourmet, I'm sure you will lose interest in this subpar fare.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What kind of food does the Garden of Gourmet serve?
+:::<!--Custom String Listener: TalkSentence_502107108-->
+:::'''Gao Tang:''' The restaurant's been making sturgeons recently. This type of fish returns once every fifty years, and is a key ingredient in "Five Lords of Anhe River."
+:::'''Gao Tang:''' In the Garden of Gourmet, we extract the three crunchiest bones from the tail, boil them in a broth of myriad herbs, then grill them using fresh goat's fat paste. At the final stage, we slow fry them till the meaty bones are caramelized and crisp.
+:::'''Gao Tang:''' Any step that's not up to snuff in this process, and I'll dump the dish entirely. This is also why the Garden of Gourmet has no menu &mdash; we only serve one table a day.
+:::'''Gao Tang:''' No such thing as food too fine, or meat too minced. Those of Xianzhou have lived for a thousand years, we must be meticulous with what goes in our mouths.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You speak with such passion when discussing cuisine.
+:::<!--Custom String Listener: TalkSentence_502107113-->
+:::'''Gao Tang:''' We are all, in some way, shaped by our food. You wouldn't want to be made shoddily, would you?
+:::{{DIcon|Arrow}} I wouldn't.
+::::<!--Custom String Listener: TalkSentence_502107115-->
+::::'''Gao Tang:''' I thought so.
+::::<!--Custom String Trigger: TalkSentence_502107120-->
+::::<!--Custom String Listener: TalkSentence_502107120-->
+::::'''Gao Tang:''' I notice you are an Outworlder. Your food tapestry must be limited, so you must make wiser choices.
+::::'''Gao Tang:''' To be strict with what you eat is to be strict with the "reason why we are people."
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I'm fine either way.
+::::<!--Custom String Listener: TalkSentence_502107117-->
+::::'''Gao Tang:''' Either way?
+::::<!--Custom String Trigger: TalkSentence_502107120-->
+::::<!--Custom String Listener: TalkSentence_502107120-->
+::::'''Gao Tang:''' I notice you are an Outworlder. Your food tapestry must be limited, so you must make wiser choices.
+::::'''Gao Tang:''' To be strict with what you eat is to be strict with the "reason why we are people."
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I'm not exactly a role model to begin with.
+::::<!--Custom String Listener: TalkSentence_502107119-->
+::::'''Gao Tang:''' I worry for you.
+::::<!--Custom String Trigger: TalkSentence_502107120-->
+::::<!--Custom String Listener: TalkSentence_502107120-->
+::::'''Gao Tang:''' I notice you are an Outworlder. Your food tapestry must be limited, so you must make wiser choices.
+::::'''Gao Tang:''' To be strict with what you eat is to be strict with the "reason why we are people."
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll ask you about something else next time.
+:::<!--Custom String Listener: TalkSentence_502107123-->
+:::'''Gao Tang:''' May we meet again.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I suppose you know what has happened to the Ambrosial Arbor?
+::<!--Trigger PerformanceE 90000131: Config/Level/NPCDialogue/P10202/NPCAct/Act90000131.json-->
+::'''Gao Tang:''' No offense, but I'm not interested in this topic. So what if it grows or not? Filling up my stomach is at the top of my priority list.
+::'''Gao Tang:''' I'm not concerned about things other than eating and cooking. So, let's talk about food.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000131-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Let us talk next time.
+::'''Gao Tang:''' May we meet again.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Gao Tang
+|zhs  = 高唐
+|zht  = 高唐
+|ja   = 高唐
+|ko   = 고당
+|es   = Gao Tang
+|fr   = Gao Tang
+|ru   = Гао Тан
+|th   = Gao Tang
+|vi   = Gao Tang
+|de   = Gao Tang
+|id   = Gao Tang
+|pt   = Gao Tang
+}}
+==Change History==
+{{Change History|TODO}}

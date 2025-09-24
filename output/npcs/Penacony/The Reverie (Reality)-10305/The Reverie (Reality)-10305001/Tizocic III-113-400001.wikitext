@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tizocic III#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Emperor"
+|image           = NPC Tizocic III.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Tizocic III''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_113_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 203020302: Config/Level/Mission/2030203/Act/Act203020302.json-->
+<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		424030244
+	],
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByNpcID",
+		"SingleNpcID": {
+			"GroupID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 113
+				}
+			},
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		}
+	}
+}</pre>
+:'''Tizocic III:''' Oh! My dear subject, you're back! Is there anything I can help you with?
+:'''Tizocic III:''' It is my duty and honor to serve my subjects!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I want to have a chat with you.
+::'''Tizocic III:''' No problem. It's the Emperor's duty to communicate with her subjects.
+::<!--Custom String Trigger: Wait_Option_203020302_54-->
+::<!--Custom String Listener: Wait_Option_203020302_54-->
+::{{DIcon|Talk}} The late Emperor was apparently a tyrant.
+:::<!--Custom String Listener: TalkSentence_230205806-->
+:::'''Tizocic III:''' Yes yes yes... I know she was a tyrant, and many have died by her hand.
+:::'''Tizocic III:''' More than one subject has brought this issue up to me. I am fully aware!
+:::'''Tizocic III:''' So what if she was a tyrant? The good deeds she accomplished cannot be overshadowed by the wrongs she committed, just as the evils she committed cannot tarnish the good she had done.
+:::'''Tizocic III:''' I will continue her legacy of kindness till the day I die.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why do you want to inherit the throne?
+:::<!--Custom String Listener: TalkSentence_230205811-->
+:::'''Tizocic III:''' Because this is Penacony, the greatest money pit in the cosmos. It is full of evil, greed and betrayal.
+:::'''Tizocic III:''' If the remaining kindness here is not inherited, it will soon disappear. It will be neglected, forgotten and trampled on by people.
+:::'''Tizocic III:''' Hence, I must become the next Emperor, to ensure that kindness will endure.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_230205815-->
+:::'''Tizocic III:''' Sure! If you encounter any troubles, remember to come to me anytime! It gives me untold happiness to dispel any troubles for my subjects!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} There's nothing at the moment.
+::'''Tizocic III:''' Sure! If you encounter any troubles, remember to come to me anytime! It gives me untold happiness to dispel any troubles for my subjects!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_230205817)
+:<!--Custom String Listener: TalkSentence_230205817-->
+::'''Tizocic III:''' Sure! If you encounter any troubles, remember to come to me anytime! It gives me untold happiness to dispel any troubles for my subjects!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tizocic III
+|zhs  = 蒂索克三世
+|zht  = 蒂索克三世
+|ja   = ティソク三世
+|ko   = 티조크 3세
+|es   = Tizocic III
+|fr   = Tizocic III
+|ru   = Тисок III
+|th   = Tizocic III
+|vi   = Tizocic III
+|de   = Tizocic III.
+|id   = Tizocic III
+|pt   = Tizocic III
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,124 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hanming#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ten-Lords Commission Spiritfarer
+|image           = NPC Hanming.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Hanming''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_75_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502045101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502045101.json-->
+::'''Hanming:''' The Ten-Lords Commission are handling official matters here. If this does not concern you, please leave.
+::{{DIcon|Arrow}} What official matters are you handling here?
+:::<!--Custom String Listener: TalkSentence_502045104-->
+:::'''Hanming:''' Matters that you shouldn't know about.
+:::'''Hanming:''' If you'd like to ask questions, please ask the Cloud Knight captain on duty over there. His name's Dewei. Anything he doesn't know is what you should not know about.
+::{{DIcon|Arrow}} I am a concerned party.
+:::<!--Custom String Listener: TalkSentence_502045107-->
+:::'''Hanming:''' A concerned party? Concerned with matters of the Ten-Lords Commission? How curious. I didn't hear about any amnesties recently?
+:::'''Hanming:''' At this present situation, only three types of "concerned parties" remain for the Ten-Lords Commission in Scalegorge Waterscape: Judge, spiritfarer, and criminal. I hope you do not fit into the final category.
+::<!--Custom String Trigger: TalkSentence_502045109-->
+::<!--Custom String Listener: TalkSentence_502045109-->
+::'''Hanming:''' You are a distinguished guest from beyond the sky who became a special envoy to General Jing Yuan by sheer serendipity. You'll be accorded dignity all over the Luofu.
+::'''Hanming:''' But the Cloud Knights are merely the authority on matters of the mortal world. The Ten-Lords Commission governs various long-life species' concerns such as death, sins, being mara-struck, and so on. We are unrestricted by the Knights' authority, and are certainly above them in terms of status.
+::'''Hanming:''' During such sensitive times, I humbly suggest that you stay within your lane and refrain from stepping out of line. You enjoy no special privilege here at the Ten-Lords Commission.
+::'''Hanming:''' Is there anything else I can do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502045201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502045201.json-->
+::'''Hanming:''' The Ten-Lords Commission are handling official matters here. If this does not concern you, please leave... Oh, you're back. Do you have any leads for me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask you something.
+::<!--Trigger PerformanceE 502045102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502045102.json-->
+::'''Hanming:''' ...Ah, your thirst for knowledge is unquenchable. Please ask away and I'll answer what I'm able to.
+::<!--Custom String Trigger: Wait_Option_502045102_41-->
+::<!--Custom String Listener: Wait_Option_502045102_41-->
+::{{DIcon|Talk}} What do you do for a living?
+:::<!--Custom String Listener: TalkSentence_502045116-->
+:::'''Hanming:''' I'm a humble spiritfarer for the Ten-Lords Commission. I receive everyday Xianzhou citizens into the Hall of Karma as they approach the end of their life and wait for their time to come.
+:::'''Hanming:''' If someone breaks any of the Ten Unpardonable Sins, then we accompany the judge outside of the Commission to investigate and carry out the appropriate disciplinary procedures.
+:::{{DIcon|Arrow}} Are you a police detective?
+::::<!--Custom String Listener: TalkSentence_502045119-->
+::::'''Hanming:''' "Police"? "Detective"? Please don't conflate us with the customs of short-life species... The things we handle are far more dangerous.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} They let kids do this?
+::::<!--Custom String Listener: TalkSentence_502045121-->
+::::'''Hanming:''' Don't let my appearance fool you... You have been aboard the Xianzhou long enough to understand that we do not judge others by their appearance around here.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What does the Ten-Lords Commission do?
+:::<!--Custom String Listener: TalkSentence_502045123-->
+:::'''Hanming:''' As I said before, the Ten-Lords Commission governs various long-life species' concerns such as death, sins, being mara-struck, and so on. We are not restricted by the Six Charioteers.
+:::'''Hanming:''' I know that this answer doesn't satisfy your curiosity, but you really must cease this line of questioning. This topic is closed for discussion.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you doing in Scalegorge Waterscape?
+:::<!--Custom String Listener: TalkSentence_502045126-->
+:::'''Hanming:''' Eliminating the remnant Disciples of Sanctus Medicus here. If you have any leads, please let me know at any time. And if you have any further questions... Then please direct those to Dewei.
+:::'''Hanming:''' As I always say: Anything Dewei doesn't know is what you should not know.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else.
+:::<!--Custom String Listener: TalkSentence_502045129-->
+:::'''Hanming:''' That's good. So long. The current situation is not a stable one, so please take precautions.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502045102-->
+:{{DIcon|Exit}} I have nothing else.
+::'''Hanming:''' That's good. So long. The current situation is not a stable one, so please take precautions.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hanming
+|zhs  = 含明
+|zht  = 含明
+|ja   = 含明
+|ko   = 함명
+|es   = Hanming
+|fr   = Hanming
+|ru   = Ханьмин
+|th   = Hanming
+|vi   = Hanming
+|de   = Hanming
+|id   = Hanming
+|pt   = Hanming
+}}
+==Change History==
+{{Change History|TODO}}

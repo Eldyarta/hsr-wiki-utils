@@ -1,0 +1,149 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gaia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Botanist
+|image           = NPC Gaia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Gaia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_351_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504026001: Config/Level/Mission/5040260/Act/Act504026001.json-->
+::'''Gaia:''' For the love of Cerces... For the sake of my research, please let me in...
+::'''Baths Attendant:''' No, this really is impossible. I'm just following orders here, please be understanding.
+::'''Gaia:''' Please, can you bend the rules a little? Please... Please! *sigh* Come back here!
+::{{DIcon|Arrow}} Don't put people out.
+:::<!--Custom String Listener: TalkSentence_504026006-->
+:::'''Gaia:''' Yikes, you freaked me out! Where did you come from... And... no matter which way you look at this, it's the baths who are putting me out here, right?
+::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_504026008-->
+:::'''Gaia:''' Don't mention them! Those old pigheaded folks at the baths kicked me out just for refilling a few bottles of water inside. Good grief!
+::<!--Custom String Trigger: TalkSentence_504026009-->
+::<!--Custom String Listener: TalkSentence_504026009-->
+::'''Gaia:''' Oh yeah, I haven't had a chance to introduce myself yet. I'm Gaia and I study at the Grove. My research topic is currently looking at hydroponic plants.
+::Gaia grows excited as soon as she talks about her research. She earnestly looks at you, and you get the feeling that she's got lots more she wants to say.
+::{{DIcon|Arrow}} Could you please tell me about your research?
+:::<!--Custom String Listener: TalkSentence_504026012-->
+:::'''Gaia:''' Sure! What would you like to know? Let me see... How about starting with my current research topic?
+:::<!--Custom String Trigger: TalkSentence_504026015-->
+:::<!--Custom String Listener: TalkSentence_504026015-->
+:::'''Gaia:''' I'm currently conducting a research project into the precise effects of fountain water that has been blessed by Phagousa on plant development and growth.
+:::'''Gaia:''' Legend has it that the fonts of the spring water are a gift from Phagousa, and different baths can give you different effects. Besides the usual effects of healing both body and mind, rumor has it that waters in the Chrysos Heirs' bath contain vestigial traces of Titan power.
+:::'''Gaia:''' I am guessing that this water may gradually trigger latent powers within the Chrysos Heirs, and with long-term submersion, they have gained slight amounts of Titan power.
+:::'''Gaia:''' Therefore, I am devising a system to collect water samples from each of the baths, which are then used to water tear onions that I've planted to observe how different spring waters impact crop yield.
+:::{{DIcon|Arrow}} Why are you researching this?
+::::<!--Custom String Listener: TalkSentence_504026020-->
+::::'''Gaia:''' You're asking that...? For the love of Cerces, can't you see the potential in this?
+::::'''Gaia:''' I am speculating that this spring water may contain traces of the Titans' power: Who knows if it might just make plants talk, or boost their yield, or cause some other kind of mutation?
+::::'''Gaia:''' Imagine how fascinating it would be to have a tear onions plant say "Hello" to you!
+:::{{DIcon|Arrow}} Using bath water sounds... a little rude.
+::::<!--Custom String Listener: TalkSentence_504026024-->
+::::'''Gaia:''' Yes, kinda. But it's all in the name of science, so don't worry about any red tape.
+::::'''Gaia:''' Plus, I believe that the Chrysos Heirs are reasonable people. If they're willing to hear me out about my research, perhaps they'd be willing to bend the rules a little for me.
+:::{{DIcon|Arrow}} What exactly are these tear onions?
+::::<!--Custom String Listener: TalkSentence_504026027-->
+::::'''Gaia:''' Tear onions are just tear onions. They're a herb that's been used in Okhema for thousands of years... You don't eat onions where you come from?
+:::<!--Custom String Trigger: TalkSentence_504026028-->
+:::<!--Custom String Listener: TalkSentence_504026028-->
+:::'''Gaia:''' *sigh* You youngsters don't even know! It's not just us and the creatures that are impacted by the black tide.
+:::'''Gaia:''' Plants can't talk, but they tend to hide their grief down inside their roots. We wouldn't notice if anything was going on until there was a drop in yields, by which time I'm afraid Okhema would...
+:::'''Gaia:''' Forget about it, let's change the topic. If the sky fell down, there will always be Chrysos Heirs to prop it up. I had best keep pushing on with my research. There's no use worrying in vain about things now.
+::{{DIcon|Exit}} Sorry to bug you. I'm not interested in plants.
+:::<!--Custom String Listener: TalkSentence_504026014-->
+:::'''Gaia:''' Alright, I understand. People are all way more interested in beasts like the dromases...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504026002: Config/Level/Mission/5040260/Act/Act504026002.json-->
+::'''Gaia:''' For the love of Cerces... For the sake of my research, please let me in... Oh-ho, it's you! What's up, are you looking for me? Or did a kind-hearted Titan guide you to come and help me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Got time for a quick chat?
+::'''Gaia:''' Ha! Of course, what do you want to chat about? Perhaps it's my research? That's great! Finally, someone is showing interest in my research. Come right this way, and let me tell you all~ about it!
+::<!--Custom String Trigger: Wait_Option_504027003_59-->
+::<!--Custom String Listener: Wait_Option_504027003_59-->
+::{{DIcon|Talk}} Could you please tell me about your research?
+:::<!--Custom String Listener: TalkSentence_504027204-->
+:::'''Gaia:''' I'm currently conducting a research project into the precise effects of fountain water that has been blessed by Phagousa on plant development and growth.
+:::'''Gaia:''' Legend has it that the fonts of the spring water are a gift from Phagousa, and different baths can give you different effects. Besides the usual effects of healing both body and mind, rumor has it that waters in the Chrysos Heirs' bath contain vestigial traces of Titan power.
+:::'''Gaia:''' I am guessing that this water may gradually trigger latent powers within the Chrysos Heirs, and with long-term submersion, they have gained slight amounts of Titan power.
+:::'''Gaia:''' Therefore, I am devising a systematic collection of water samples from different baths, then use these samples to water my tear onions to observe how different spring waters impact plant growth.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why aren't you allowed in the baths?
+:::<!--Custom String Listener: TalkSentence_504027209-->
+:::'''Gaia:''' Teehee, those stubborn old goats are always trying to stop me. I think it's probably because of the experiment I used to run inside there.
+:::'''Gaia:''' One time when they were fixing a pipe to the Chrysos Heirs' baths, I planted a Georios root where the leak was. Guess what happened the next day?
+:::'''Gaia:''' Its root system had grown at an exponential rate, along the sides of the pipe, until it burst it wide open!
+:::'''Gaia:''' Unfortunately, the people at the baths found out and kicked me out... But these discoveries only prove that my theories are correct! I'm willing to bet that if I keep researching, I might even be able to cultivate plants that can resist the black tide!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any interesting discoveries?
+:::<!--Custom String Listener: TalkSentence_504027214-->
+:::'''Gaia:''' Botanists like me are often researching in the wilderness or curled up in a field observing crops. I can't say much is interesting, but I will say I've got a few crazy stories for you.
+:::'''Gaia:''' I once planted something in some soil near the black tide, but rather than dying, they instead became extremely... depressed. Whenever I got close to them, I could hear a strange noise that sounded like crying. It was spooky!
+:::'''Gaia:''' And this other time, I scored some holy water that was apparently from the Temple of Nikador. It ended up cultivating some pretty aggressive vines. They would actively attack small animals passing by with their roots!
+:::'''Gaia:''' I had to incinerate the lot of them. Luckily it wasn't a complete disaster.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Goodbye. I just came by to check in.
+::'''Gaia:''' Oh, off so soon? Alright, alright. Oh, yes &mdash; if you could help me score some of that Chrysos Heir bath water, I'd be infinitely grateful! Maybe next time we meet, I'd be able to show you a dancing tear onion!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Gaia
+|zhs  = 盖亚
+|zht  = 蓋亞
+|ja   = カイヤ
+|ko   = 가이아
+|es   = Gaia
+|fr   = Gaïa
+|ru   = Гея
+|th   = Gaia
+|vi   = Gaia
+|de   = Gaia
+|id   = Gaia
+|pt   = Gaia
+}}
+==Change History==
+{{Change History|TODO}}

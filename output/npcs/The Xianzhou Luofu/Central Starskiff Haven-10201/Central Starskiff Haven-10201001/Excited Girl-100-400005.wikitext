@@ -1,0 +1,254 @@
+<%-- [PAGE_INFO]
+PageTitle=#Excited Girl#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Excited Girl.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Excited Girl''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_100_400005}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 404021403
+	}
+]
+</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 404021403: Config/Level/Mission/4040214/Act/Act404021403.json-->
+::'''Excited Girl:''' Wow, are you my opponent? You look like a stiff sneeze away from keeling over.
+::'''Excited Girl:''' Looks like I am gonna win!
+::{{DIcon|Arrow}} Hello, let's talk diplomacy...
+:::<!--Custom String Listener: TalkSentence_404021475-->
+:::'''Excited Girl:''' Um... are you really going along with all that stuff the boss said?
+:::'''Excited Girl:''' Aren't you embarrassed to have to role-play like this?
+:::{{DIcon|Arrow}} It's pretty shameful...
+::::<!--Custom String Listener: TalkSentence_404021478-->
+::::'''Excited Girl:''' Great minds think alike!
+::::'''Excited Girl:''' Looks like there's nothing getting in the way of you and that prize &mdash; I'll throw the contest for you!
+::::'''Excited Girl:''' I've already eaten three hundred years of his buns, anyway.
+:::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021403,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"DirectValue": 1,
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+:::{{DIcon|Arrow}} It's not that embarrassing...
+::::<!--Custom String Listener: TalkSentence_404021482-->
+::::'''Excited Girl:''' Hmph! Don't tell me you absolutely love this kind of game?
+::::'''Excited Girl:''' Then I'm definitely not throwing &mdash; I'll show you how terrifying three hundred years of might can be!
+:::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021403,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+:::{{DIcon|Arrow}} I'll endure anything just to land that prize!
+::::<!--Custom String Listener: TalkSentence_404021485-->
+::::'''Excited Girl:''' Hmph! I think we got another tough guy over here. They're willing to do anything for this, too!
+::::'''Excited Girl:''' Then I'm definitely not throwing &mdash; I'll show you how terrifying three hundred years of might can be!
+:::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021403,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+::{{DIcon|Arrow}} Sorry to say, but you're gonna lose!
+:::<!--Custom String Listener: TalkSentence_404021488-->
+:::'''Excited Girl:''' Wow &mdash; this Outworlder even threatens kids!
+:::'''Excited Girl:''' Wait for me! I'll show you how terrifying three hundred years of might can be!
+::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021403,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Trigger: 404021403_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404021403_Finish-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

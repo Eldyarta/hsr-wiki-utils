@@ -1,0 +1,127 @@
+<%-- [PAGE_INFO]
+PageTitle=#Super Annoy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Super Annoy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Super Annoy''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_73_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000159: Config/Level/Mission/5000030/Act/Act900000159.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500016001
+	]
+}</pre>
+::'''Super Annoy:''' I'm so sick of this! Why is it so difficult to replace the part?
+::'''Super Annoy:''' I just can't tighten it, so frustrating! Why can't I just knock it in with my paw?
+::{{DIcon|Arrow}} Do you know how to repair a robot?
+:::<!--Custom String Listener: TalkSentence_500015905-->
+:::'''Super Annoy:''' Oh, I only know the basics. The parts inside are too complicated for me to disassemble and fix, but the switches and display outside shouldn't be a problem.
+:::'''Super Annoy:''' But this paw of mine is getting under my skin! Why can't they be more flexible!?
+::{{DIcon|Arrow}} Your fingers are short...
+:::<!--Custom String Listener: TalkSentence_500015908-->
+:::'''Super Annoy:''' Hmph, our paws aren't as flexible as your hands, but we make up for it with other talents. You! Don't think you're better just because you have longer fingers!
+::<!--Custom String Trigger: TalkSentence_500015909-->
+::<!--Custom String Listener: TalkSentence_500015909-->
+::'''Super Annoy:''' I don't care who you are, I'm in a bad mood. Whatever you want to say, spill it, and get out of my face!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000160: Config/Level/Mission/5000030/Act/Act900000160.json-->
+::'''Super Annoy:''' I'm so sick of this! Why is it so difficult to replace the part?
+::'''Super Annoy:''' You again? I'm in a bad mood. Whatever you want to say, spill it, and get out of my face!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm curious...
+::<!--Custom String Trigger: Wait_Option_900000161_487-->
+::<!--Custom String Listener: Wait_Option_900000161_487-->
+::{{DIcon|Talk}} What are you working on here?
+:::<!--Custom String Listener: TalkSentence_500016104-->
+:::'''Super Annoy:''' Look, everything in this place, some vehicle outside, a cage that can carry things up and down have all gone kaput, and even the place we stay in isn't safe.
+:::'''Super Annoy:''' Can't you feel the scary atmosphere outside? That's why we have to fix these quickly. These little robots are supposed to be in charge of the repair, but they aren't always in order. I have to fix the things outside and the robots here...
+:::'''Super Annoy:''' I've had enough!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You have a special name...
+:::<!--Custom String Listener: TalkSentence_500016108-->
+:::'''Super Annoy:''' That's the name everyone calls me by, because I'm always busy, and I'm easily annoyed when I'm busy. That's how my name came about.
+:::'''Super Annoy:''' Ms. Wenfry said I was born to be insecure because of a missing ingredient. That, I don't know. Maybe I should ask my creator, Miss Ruan Mei, about it if I have the chance.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You can ask for help if you run into any trouble.
+:::<!--Custom String Listener: TalkSentence_500016111-->
+:::'''Super Annoy:''' No way. This is our home and birthplace. It's our responsibility to maintain it.
+:::'''Super Annoy:''' Also... asking for help over such a trivial matter won't make us look good in Miss Ruan Mei's eyes. As her creations, we can't be so useless. We must buck up and work hard!
+:::'''Super Annoy:''' If she visits us when everything is fixed, I'm sure she'll be proud of us.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else to ask.
+:::<!--Custom String Listener: TalkSentence_500016115-->
+:::'''Super Annoy:''' See you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Super Annoy:''' I'm annoyed and busy. Please go away and leave me alone.
+::'''Super Annoy:''' I can't take this anymore! They are either malfunctioning or crashing all day long! The sight of these metal casings is driving me nuts!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

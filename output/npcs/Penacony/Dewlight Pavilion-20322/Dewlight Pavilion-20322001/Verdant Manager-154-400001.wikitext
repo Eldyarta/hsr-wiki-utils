@@ -1,0 +1,740 @@
+<%-- [PAGE_INFO]
+PageTitle=#Verdant Manager#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Verdant Manager.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Dewlight Pavilion
+|relatives       = 
+}}
+'''Verdant Manager''' is an NPC on [[Penacony]], located in [[Dewlight Pavilion]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Dewlight Pavilion|npc_154_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 414034001: Config/Level/Mission/4140303/Act/Act414034001.json-->
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Verdant Manager:''' This is terrible, just terrible! They've all run away from the nest, tweet...
+:::'''Verdant Manager:''' They're just little ones, tweet... What am I going to do, tweet...
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_414034004-->
+::;(If {{cx}}<!--performance 414030307 has been seen-->)
+::::'''Verdant Manager:''' Tweet? A guest I have not met before... This place is for hatching young birdies, it is best for guests not to enter, tweet...
+::::{{DIcon|Arrow}} I'm here to help.
+:::::<!--Custom String Listener: TalkSentence_414034008-->
+:::::You flash your Dreamscape Pass to the bird before you.
+::::{{DIcon|Arrow}} I was invited here.
+:::::<!--Custom String Listener: TalkSentence_414034011-->
+:::::You flash your Dreamscape Pass to the bird before you.
+:::::'''Verdant Manager:''' Tweet tweet? So you're Clockie's friend, tweet! We could use all the help we can get now!
+::::'''Verdant Manager:''' Sincere apologies! So you're Clockie's friend, tweet! We really need all the help we can get now!
+::;(If {{cx}}<!--performance 414030307 has not been seen-->)
+::::'''Verdant Manager:''' Tweet? If it isn't Clockie's friend, tweet! I was just thinking about you, tweet!
+::::'''Verdant Manager:''' Come, come, we have an emergency, tweet!
+:::<!--Custom String Trigger: Wait_Option_414034001_25-->
+:::<!--Custom String Listener: Wait_Option_414034001_25-->
+:::{{DIcon|Arrow}} What is this place?
+:::<!--Custom String Listener: TalkSentence_414034014-->
+:::'''Verdant Manager:''' This is the safest place in all of Dreamville &mdash; Dawndew Hut, tweet!
+:::'''Verdant Manager:''' Young origami birds gather here, and the hut grants them protection until they grow to become adult birdies that can walk the land and soar through the sky alone, tweet~
+:::'''Verdant Manager:''' But these young ones are nothing but trouble! As soon as I took my eyes off of them, they went running out of the nursery nest... I imagine they're scattered across all corners of the hut by now...
+:::'''Verdant Manager:''' Clockie's friend, can I trouble you to help us find them? Tweet tweet?
+:::{{DIcon|Arrow}} No problem!
+::::<!--Custom String Listener: TalkSentence_414034019-->
+::::'''Verdant Manager:''' You truly are the kindest person in Dreamville! Friend of Clockie, you are a friend of the origami birds now, too, tweet~
+:::{{DIcon|Arrow}} You want me running around for you again...
+::::<!--Custom String Listener: TalkSentence_414034021-->
+::::'''Verdant Manager:''' Please, I will make sure it's worth your while, tweet~
+:::{{DIcon|Arrow}} My help does not come cheap, you know.
+::::<!--Custom String Listener: TalkSentence_414034023-->
+::::'''Verdant Manager:''' Tweet tweet! I see your game... W&mdash;Well fine then, I guess I shall have to open my little treasury, tweet...
+:::<!--Custom String Trigger: TalkSentence_414034024-->
+:::<!--Custom String Listener: TalkSentence_414034024-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Verdant Manager:''' Tweet?
+::::'''Verdant Manager:''' Tweet tweet! Looks like all the children are back, tweet!
+::::'''Verdant Manager:''' Thank you, Clockie's friend! Please accept my token of gratitude, tweet!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200110
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}})
+::::'''Verdant Manager:''' Please bring all of those little hide-and-seek loving rascals back to the Great Tree &mdash; I'll prepare a gift of thanks for you, tweet!
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 414034002: Config/Level/Mission/4140303/Act/Act414034002.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Verdant Manager:''' Tweet tweet... I knew they were running around Dawndew Hut, tweet!
+::::'''Verdant Manager:''' Thank you, Clockie's friend! Please accept my token of gratitude, tweet!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200110
+			}
+		}
+	]
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Inverse":true}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200015}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200015}}}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Verdant Manager:''' Tweet tweet... Hello, Clockie's friend! Allow me to thank you on behalf of all the children, tweet~
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200015}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200015}}}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Verdant Manager:''' Tweet tweet... Clockie's friend, did you find the lost origami birds?
+::::<!--Custom String Trigger: TalkSentence_414030851-->
+::::<!--Custom String Listener: TalkSentence_414030851-->
+::::{{DIcon}} About you yourself...
+:::::<!--Custom String Listener: TalkSentence_414034050-->
+:::::'''Verdant Manager:''' I am known as the "Verdant Manager," I am responsible for helping Professor Owl build Dreamville, tweet~
+:::::'''Verdant Manager:''' Of course, sometimes I come here to look after some of the children, too... Tweet tweet, they are the future of the origami birds, after all~
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon}} Tell me the story of the origami birds...
+:::::<!--Custom String Listener: TalkSentence_414034053-->
+:::::'''Verdant Manager:''' No problem, tweet~ I'm great at telling stories to children, tweet~
+:::::{{DIcon|Arrow}} About Dawndew Hut...
+::::::<!--Custom String Listener: TalkSentence_414034055-->
+::::::'''Verdant Manager:''' Dawndew Hut is the safest and most hidden location in all of Dreamville... This is not a place that any old townspeople can come and go to as they please!
+::::::'''Verdant Manager:''' I rotate watch duty with some of my other brothers and sisters to protect these little birdies. After all, children are very picky about their bedtime stories, tweet!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} About the townspeople...
+::::::<!--Custom String Listener: TalkSentence_414034058-->
+::::::'''Verdant Manager:''' The population of Dreamville is growing by the day and the town is becoming more and more lively, tweet! When these little ones grow up, I can take them to learn how to build new huts, tweet~
+::::::'''Verdant Manager:''' For instance, Old Man Wood's tree stump was designed by me... You can go and take a look if you get time, tweet~
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} About Professor Owl...
+::::::<!--Custom String Listener: TalkSentence_414034061-->
+::::::'''Verdant Manager:''' Tweet tweet... If I were to choose the most excellent and outstanding bird in all of Dreamville, that would undoubtedly be Professor Owl, tweet.
+::::::'''Verdant Manager:''' Every origami bird knows to build nests from birth... But it was only when Professor Owl shared their own nest-building skills with us that we were able to build such a rich array of huts throughout the town, tweet.
+::::::'''Verdant Manager:''' Have you seen any of Professor Owl's works yet? Tweet tweet... They truly are overwhelming!
+:::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon}} I need a few hints.
+:::::<!--Custom String Listener: TalkSentence_414034065-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":5}},"Inverse":true}-->}})
+::::::'''Verdant Manager:''' Hmm... When these children play hide-and-seek, they always have specific hiding spots, but I can't seem to remember them, tweet...
+::::::'''Verdant Manager:''' All you need is a Magic Coin, and I can reawaken my latent memories, tweet!
+::::::{{DIcon|Arrow}} (Take out an Aideen Token)
+:::::::<!--Custom String Listener: TalkSentence_414034070-->
+::::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerSound",
+			"SoundName": {
+				"Value": "Ev_vo_origamibirds_appear"
+			},
+			"EmitterType": "TargetEvaluator",
+			"TargetType": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414034070,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"PrevDuration": 0.1,
+			"KeepDuration": 0.1,
+			"PostDuration": 0.1,
+			"KeepDisplay": true,
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 414034071
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.TriggerSound",
+							"SoundName": {
+								"Value": "Ev_sfx_origamibird_eatcoin"
+							},
+							"EmitterType": "DefaultEmitter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.CharacterTriggerFreeStyle",
+			"TargetAlias": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			},
+			"StoryAvatarID": "NPC_Special_OrigamiBird_00",
+			"StoryMotionID": 900090265
+		},
+		{
+			"$type": "RPG.GameCore.WaitSecond",
+			"WaitTime": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 0.1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414030882,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 5
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 155
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034073
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 156
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034074
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 157
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034075
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 158
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034076
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 159
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034077
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 160
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034078
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 161
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034079
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 162
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034080
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 163
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034081
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 315
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414031915
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_414034084"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+::::::{{DIcon|Exit}} Never mind.
+:::::::<!--Custom String Listener: TalkSentence_414034084-->
+:::::::'''Verdant Manager:''' Tweet... Sorry about that, tweet...
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":5}},"Inverse":true}-->}})
+::::::'''Verdant Manager:''' Clockie's friend, thank you for your enthusiasm! But it takes time to build the nest and keep on working, tweet.
+::::::'''Verdant Manager:''' I'll try my best to recall any clues. Please help bring back that kid from before!
+:::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Catch you next time.
+:::::<!--Custom String Listener: TalkSentence_414034088-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::'''Verdant Manager:''' At your service, tweet!
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200110}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::'''Verdant Manager:''' Tweet tweet... Please help me find the other missing children around the hut, tweet!
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Verdant Manager
+|zhs  = 草绿经理
+|zht  = 草綠經理
+|ja   = マネージャー・グリーン
+|ko   = 그린 매니저
+|es   = Director Verde
+|fr   = Gérant Vert
+|ru   = Салатовый Менеджер
+|th   = ผู้จัดการเขียวขจี
+|vi   = Giám Đốc Cỏ Xanh
+|de   = Direktor Grün
+|id   = Manajer Hijau Rumput
+|pt   = Gerente Verdejante
+}}
+==Change History==
+{{Change History|TODO}}

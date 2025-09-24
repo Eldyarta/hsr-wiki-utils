@@ -1,0 +1,861 @@
+<%-- [PAGE_INFO]
+PageTitle=#Vaska#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Florist Staff
+|image           = NPC Vaska.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Eversummer Florist
+|relatives       = 
+}}
+'''Vaska''' is an NPC on [[Jarilo-VI]], located in [[Eversummer Florist]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Eversummer Florist|npc_3_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201140104,
+		"Type": "submission_state_equal",
+		"Param1": 201140104,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201140104: Config/Level/Mission/2011401/Act/Act201140104.json-->
+:{{DIcon|Talk}} A bouquet of Ball Peonies, please.
+::<!--Custom String Listener: TalkSentence_201140504-->
+::{{A|VO Side1 nts2 vaska 102.ogg}} '''Vaska:''' Aww... Ball Peonies, is it? One second, I'll get it ready for you...
+::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 1
+}</pre>
+:{{DIcon|Talk}} A bouquet of Sunshines, please.
+::<!--Custom String Listener: TalkSentence_201140506-->
+::{{A|VO Side1 nts2 vaska 103.ogg}} '''Vaska:''' Hm? Sunshines, is it? One second, I'll get it ready for you...
+::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 2
+}</pre>
+:{{DIcon|Talk}} A bouquet of Marquises, please.
+::<!--Custom String Listener: TalkSentence_201140508-->
+::{{A|VO Side1 nts2 vaska 104.ogg}} '''Vaska:''' Aww... Marquises, is it? One second, I'll get it ready for you...
+::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 3
+}</pre>
+:{{DIcon|Talk}} A bouquet of First Snow, please.
+::<!--Custom String Listener: TalkSentence_201140510-->
+::{{A|VO Side1 nts2 vaska 105.ogg}} '''Vaska:''' Aww... First Snow, is it? One second, I'll get it ready for you...
+::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 4
+}</pre>
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_201140104-->
+<pre>
+[
+	{
+		"ID": 301140102,
+		"Type": "submission_state_equal",
+		"Param1": 301140102,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301140102: Config/Level/Mission/3011401/Act/Act301140102.json-->
+:'''Vaska:''' You mean the musical actress?
+:'''Vaska:''' She always buys the same flowers every time... Let me see... "Rainbows." Every time Tamila comes, she buys Rainbow flowers.
+:'''Vaska:''' *sigh* Tamila and I had a bit of a communication mismatch... We don't have the same taste in novels. We've talked a few times before, but we didn't part on the best terms.
+:'''Vaska:''' But every week she'll be in here buying a few dozen bouquets of Rainbow flowers. She's a big repeat customer for our store, so... the customer's always right!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_301140102_01-->
+<pre>
+[
+	{
+		"ID": 201090202,
+		"Type": "submission_state_equal",
+		"Param1": 201090202,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201090202: Config/Level/Mission/2010902/Act/Act201090202.json-->
+:{{A|VO Side1 hk3 hook 166.ogg}} '''Hook:''' What happened to the Geomarrow Probe? Tell me right now! Straight away! Immediately!
+:{{A|VO Side1 hk3 auctioneerA 128.ogg}} '''Auction Staff:''' Uh... There's nothing to worry about &mdash; it's just a technical issue.
+:{{A|VO Side1 hk3 hook 167.ogg}} '''Hook:''' ...You don't sound very convincing! *gasp* ...Did someone steal it?
+:{{A|VO Side1 hk3 auctioneerA 129.ogg}} '''Auction Staff:''' ...Well, we can't say for sure that it was "stolen..." We've contacted the seller and sent some people in search. We should soon be able to...
+:{{DIcon|Arrow}} This place is full of troublemakers.
+::<!--Custom String Listener: TalkSentence_201090206-->
+::{{A|VO Side1 hk3 hook 168.ogg}} '''Hook:''' Yeah, why wasn't Wildfire keeping a lookout?
+:{{DIcon|Arrow}} Who would dare steal from Wildfire?
+::<!--Custom String Listener: TalkSentence_201090208-->
+::{{A|VO Side1 hk3 hook 169.ogg}} '''Hook:''' Yeah, why is Wildfire so incompetent? You should have put The Moles in charge!
+:<!--Custom String Trigger: TalkSentence_201090209-->
+:<!--Custom String Listener: TalkSentence_201090209-->
+:{{A|VO Side1 hk3 hook 170.ogg}} '''Hook:''' I gotta catch the thief and get the probe back! Any ideas, honorary member?
+:{{DIcon|Arrow}} Let's have a look at the auction registration form.
+:<!--Custom String Listener: TalkSentence_201090211-->
+:{{A|VO Side1 hk3 auctioneerA 130.ogg}} '''Auction Staff:''' Are you suggesting that someone altered the registration form? That's simply not possible! We've been keeping a close eye on everything...
+:{{A|VO Side1 hk3 hook 171 m.ogg}} {{A|VO Side1 hk3 hook 171 f.ogg}} '''Hook:''' Fool! What the honorary member means is that the thief only came here to create trouble &mdash; they weren't interested in buying or selling! Right, (Trailblazer)?
+:{{DIcon|Arrow}} You're smarter than I thought!
+::<!--Custom String Listener: TalkSentence_201090214-->
+::{{A|VO Side1 hk3 hook 172.ogg}} '''Hook:''' When the going gets smart, the boss of The Moles gets smarter!
+:{{DIcon|Arrow}} This guy should give us half his salary...
+::<!--Custom String Listener: TalkSentence_201090216-->
+::{{A|VO Side1 hk3 auctioneerA 131.ogg}} '''Auction Staff:''' I don't have a salary to give! I'm a volunteer... *sigh*
+:<!--Custom String Trigger: TalkSentence_201090217-->
+:<!--Custom String Listener: TalkSentence_201090217-->
+:{{A|VO Side1 hk3 auctioneerA 132.ogg}} '''Auction Staff:''' Wait a minute, let me see...
+:{{A|VO Side1 hk3 auctioneerA 133.ogg}} '''Auction Staff:''' ...Hmm, aside from you, there was someone else who registered as a buyer but never put in a bid!
+:{{A|VO Side1 hk3 auctioneerA 134.ogg}} '''Auction Staff:''' ...And I think there was a miner who registered with him. Come on, let's go and interrogate them.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 201090202_F-->
+<pre>
+[
+	{
+		"ID": 301111303,
+		"Type": "submission_state_equal",
+		"Param1": 301111303,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111303: Config/Level/Mission/3011113/Act/Act301111303.json-->
+:<!--Custom String Trigger: TalkSentence_301110902-->
+:<!--Custom String Listener: TalkSentence_301110902-->
+:'''Vaska:''' Rainbows, right? No problem, I'll pick some out for you now.
+:'''Vaska:''' May I ask who these flowers are for?
+:<!--Custom String Trigger: Wait_Option_301110303_10-->
+:<!--Custom String Listener: Wait_Option_301110303_10-->
+:{{DIcon|Arrow}} Uh... a parent?
+:<!--Custom String Listener: TalkSentence_301110905-->
+:'''Vaska:''' Oh? Rainbows for a parent is... quite a unique choice.
+:'''Vaska:''' You know, in the language of flowers, rainbows mean "ordinary beauty." They're a popular choice among old friends and couples.
+:'''Vaska:''' Are you trying to tell your parent to enjoy themselves? To not be troubled by the pettiness of work and life...?
+:'''Vaska:''' That would be a great message actually.
+:'''Vaska:''' Here you are, a bunch of rainbows. Hope to see you again soon!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111303-->
+<pre>
+[
+	{
+		"ID": 301111402,
+		"Type": "submission_state_equal",
+		"Param1": 301111402,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111402: Config/Level/Mission/3011114/Act/Act301111402.json-->
+:'''Vaska:''' Then you came to the right place!
+:'''Vaska:''' If you could tell me more about the person you're sending flowers to, I can give you some suggestions.
+:{{DIcon|Arrow}} The flowers are a gift to a daughter from her long-absent father.
+::<!--Custom String Listener: option1-->
+::'''Vaska:''' I see...
+::'''Vaska:''' Then I recommend the Ball Peonies &mdash; they only bloom once a year, and each bloom lasts for less than a month.
+::'''Vaska:''' In the language of flowers, Ball Peony means "patience." It takes a bit of patience, but the family will eventually be reunited.
+::{{DIcon|Arrow}} Then I'll take a bouquet of Ball Peonies.
+::<!--Custom String Trigger: 3011114_option1_next-->
+::'''Vaska:''' Sure! One moment, please.
+::'''Vaska:''' Here are your Ball Peonies. Thanks for the purchase, and have a lovely day!
+:{{DIcon|Arrow}} The flowers will be given to a beautiful girl.
+::<!--Custom String Listener: option2-->
+::'''Vaska:''' I see...
+::'''Vaska:''' Then I recommend the Rainbows &mdash; these small flowers are a riot of color, perfect for gift giving between young people.
+::'''Vaska:''' In the language of flowers, Rainbow means "simple beauty." In times like this, what else is more precious than "simple beauty?"
+::{{DIcon|Arrow}} Then I'll take a bouquet of Rainbows.
+::<!--Custom String Trigger: 3011114_option2_next-->
+::'''Vaska:''' Sure! One moment, please.
+::'''Vaska:''' Here are your Rainbows. Thanks for the purchase, and have a lovely day!
+:{{DIcon|Arrow}} The flowers will be given to a kind animal lover.
+::<!--Custom String Listener: option3-->
+::'''Vaska:''' Speaking of animals, I haven't seen any in Belobog in a long time... The person you are sending flowers to must be a very kind person.
+::'''Vaska:''' Then I recommend the First Snows &mdash; they stand for "pure and kind-hearted" in the language of flowers. I think they'll suit the recipient of your present very well.
+::{{DIcon|Arrow}} Then I'll take a bouquet of First Snows.
+::<!--Custom String Trigger: 3011114_option3_next-->
+::'''Vaska:''' Sure! One moment, please.
+::'''Vaska:''' Here are your First Snows. Thanks for the purchase, and have a lovely day!
+:{{DIcon|Arrow}} I'll take a bouquet of the most precious flowers here.
+::<!--Custom String Listener: option4-->
+::'''Vaska:''' The most precious... I assume you're sending flowers to a person of very high status?
+::'''Vaska:''' Then my recommendation would be the Marquises. They are the most exalted, beautiful, and delicate flowers in Belobog.
+::'''Vaska:''' No one in high society would turn down a bouquet of Marquises. It's just that... Marquises are quite expensive. Are you sure you want to buy some?
+::{{DIcon|Arrow}} I'll take a bouquet of Marquises.
+::<!--Custom String Trigger: 3011114_option4_next-->
+::'''Vaska:''' Sure! One moment, please.
+::'''Vaska:''' Here are your Marquises. Thanks for the purchase, and have a lovely day!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111402-->
+:<!--Custom String Trigger: TalkSentence_501026719-->
+:<!--Custom String Listener: TalkSentence_501026719-->
+:'''Vaska:''' These flowers come in a variety of colors and prices, but really, they are all priceless.
+:'''Vaska:''' For example, this one named Sunshine is lovely. Its red and yellow colors make it look like the sun. Just looking at it makes you feel warm inside.
+:'''Vaska:''' It's a great choice for a gift or even to keep for yourself.
+:'''Vaska:''' What do you think? Or do you want to know more about other kinds of flowers?
+:<!--Custom String Trigger: Wait_Option_5010267_30-->
+:<!--Custom String Listener: Wait_Option_5010267_30-->
+:{{DIcon|Talk}} The Marquise?
+::<!--Custom String Listener: TalkSentence_501026721-->
+::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} First Snow?
+::<!--Custom String Listener: TalkSentence_501026724-->
+::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Summershade Bamboo?
+::<!--Custom String Listener: TalkSentence_501026726-->
+::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Other ones, please...
+::<!--Custom String Listener: Wait_Option_5010267_40-->
+::{{DIcon|Talk}} The Sunshine?
+:::<!--Custom String Listener: TalkSentence_501026729-->
+:::'''Vaska:''' It's a Sunshine. A red and yellow flower that looks like the sun. It's very lovely. Just looking at it makes you feel warm inside.
+:::<!--Custom String Trigger: Wait_Option_5010267_40-->
+:::<!--Custom String Listener: Wait_Option_5010267_40-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Ball Peony?
+::::<!--Custom String Listener: TalkSentence_501026731-->
+::::'''Vaska:''' It is a very expensive flower. It blooms only once a year for one month. But honestly, the price is completely worth that one month of bloom!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Rainbow?
+::::<!--Custom String Listener: TalkSentence_501026733-->
+::::'''Vaska:''' Oh, this is our best-selling flower! It's colorful and gorgeous, and is offered at a great price!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} The one you just mentioned...
+::::<!--Custom String Listener: Wait_Option_5010267_30-->
+::::{{DIcon|Talk}} The Marquise?
+:::::<!--Custom String Listener: TalkSentence_501026721-->
+:::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+:::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} First Snow?
+:::::<!--Custom String Listener: TalkSentence_501026724-->
+:::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Summershade Bamboo?
+:::::<!--Custom String Listener: TalkSentence_501026726-->
+:::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Ball Peony?
+:::<!--Custom String Listener: TalkSentence_501026731-->
+:::'''Vaska:''' It is a very expensive flower. It blooms only once a year for one month. But honestly, the price is completely worth that one month of bloom!
+:::<!--Custom String Trigger: Wait_Option_5010267_40-->
+:::<!--Custom String Listener: Wait_Option_5010267_40-->
+:::{{DIcon|Talk}} The Sunshine?
+::::<!--Custom String Listener: TalkSentence_501026729-->
+::::'''Vaska:''' It's a Sunshine. A red and yellow flower that looks like the sun. It's very lovely. Just looking at it makes you feel warm inside.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Rainbow?
+::::<!--Custom String Listener: TalkSentence_501026733-->
+::::'''Vaska:''' Oh, this is our best-selling flower! It's colorful and gorgeous, and is offered at a great price!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} The one you just mentioned...
+::::<!--Custom String Listener: Wait_Option_5010267_30-->
+::::{{DIcon|Talk}} The Marquise?
+:::::<!--Custom String Listener: TalkSentence_501026721-->
+:::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+:::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} First Snow?
+:::::<!--Custom String Listener: TalkSentence_501026724-->
+:::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Summershade Bamboo?
+:::::<!--Custom String Listener: TalkSentence_501026726-->
+:::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Rainbow?
+:::<!--Custom String Listener: TalkSentence_501026733-->
+:::'''Vaska:''' Oh, this is our best-selling flower! It's colorful and gorgeous, and is offered at a great price!
+:::<!--Custom String Trigger: Wait_Option_5010267_40-->
+:::<!--Custom String Listener: Wait_Option_5010267_40-->
+:::{{DIcon|Talk}} The Sunshine?
+::::<!--Custom String Listener: TalkSentence_501026729-->
+::::'''Vaska:''' It's a Sunshine. A red and yellow flower that looks like the sun. It's very lovely. Just looking at it makes you feel warm inside.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Ball Peony?
+::::<!--Custom String Listener: TalkSentence_501026731-->
+::::'''Vaska:''' It is a very expensive flower. It blooms only once a year for one month. But honestly, the price is completely worth that one month of bloom!
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Return}} The one you just mentioned...
+::::<!--Custom String Listener: Wait_Option_5010267_30-->
+::::{{DIcon|Talk}} The Marquise?
+:::::<!--Custom String Listener: TalkSentence_501026721-->
+:::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+:::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} First Snow?
+:::::<!--Custom String Listener: TalkSentence_501026724-->
+:::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Summershade Bamboo?
+:::::<!--Custom String Listener: TalkSentence_501026726-->
+:::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Return}} The one you just mentioned...
+:::<!--Custom String Listener: Wait_Option_5010267_30-->
+:::{{DIcon|Talk}} The Marquise?
+::::<!--Custom String Listener: TalkSentence_501026721-->
+::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} First Snow?
+::::<!--Custom String Listener: TalkSentence_501026724-->
+::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Summershade Bamboo?
+::::<!--Custom String Listener: TalkSentence_501026726-->
+::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Thank you. I learned a lot today.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100003504,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Vaska:''' ...I heard that a sequel is going to come out. Artem might... Ah, sorry. I thought you were asking about the Tale of the Winterlands.
+:'''Vaska:''' I guess... I've been doing alright? The florist has been a bit busier these days, so I haven't had as much time to read as before. It's been a headache.
+:{{DIcon|Arrow}} Is the florist selling anything new?
+::<!--Custom String Listener: TalkSentence_501024185-->
+::'''Vaska:''' Nah. I haven't cultivated any new varieties, but we've had a lot less snow recently, and the temperature is starting to go back up. Some flowers have blossomed splendidly. It could be a good chance for the shop to put together some sales promotions.
+:{{DIcon|Arrow}} Is that book's ban... going to get lifted?
+::<!--Custom String Listener: TalkSentence_501024187-->
+::'''Vaska:''' You mean the Tale of the Winterlands? I'm not sure. But that's the rumor that has been circulating among us book fans. I don't know if it's true or not.
+::'''Vaska:''' I've heard that the Town Hall is getting ready to develop the outskirts of the city. They've apparently dispatched people to explore that area. If that's true, then there's no need to ban that series...
+:<!--Ends the current performance-->
+:'''Vaska:''' Nice to see you again! Vaska at your service. If you need some help picking the right flowers, feel free to let me know.
+:<!--Ends the current performance-->
+:'''Vaska:''' No rush. Take your time.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501026701: Config/Level/Mission/5010267/Act/Act501026701.json-->
+::<!--Custom String Trigger: TalkSentence_501026701-->
+::<!--Custom String Listener: TalkSentence_501026701-->
+::'''Vaska:''' Ah, Artem... Dalmir... One is frost, the other flame...
+::'''Vaska:''' They are both carefree. In exploring the unknown world... they suffer many ups and downs, yet they are still by each other's side.
+::'''Vaska:''' Oooh... Artem is such a gentleman...
+::<!--Custom String Trigger: Wait_Option_5010267_9-->
+::<!--Custom String Listener: Wait_Option_5010267_9-->
+::{{DIcon|Arrow}} Hello?
+:::<!--Custom String Listener: TalkSentence_501026705-->
+:::'''Vaska:''' Huh... Sorry, I got lost in thought.
+::{{DIcon|Arrow}} Who is Artem?
+:::<!--Custom String Listener: TalkSentence_501026707-->
+:::'''Vaska:''' He's the perfect man... He is the kindest character I've ever read about. He has the right sense of humor. He's caring, thoughtful, and restrained...
+:::'''Vaska:''' Huh...? Oh... I may have gotten a little too wrapped up in the book. Sorry for rambling on...
+::<!--Custom String Trigger: TalkSentence_501026710-->
+::<!--Custom String Listener: TalkSentence_501026710-->
+::'''Vaska:''' *cough* Welcome! What can the florist Vaska do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000039: Config/Level/NPC/W1/NPC_DefaultStory_1000035.json-->
+::'''Vaska:''' Nice to see you again! Vaska at your service. If you need some help picking the right flowers, feel free to let me know.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon|undefined}} What flowers should I pick for Nat...
+::<!--Trigger PerformanceE 201140104: Config/Level/Mission/2011401/Act/Act201140104.json-->
+::{{DIcon|Talk}} A bouquet of Ball Peonies, please.
+:::<!--Custom String Listener: TalkSentence_201140504-->
+:::{{A|VO Side1 nts2 vaska 102.ogg}} '''Vaska:''' Aww... Ball Peonies, is it? One second, I'll get it ready for you...
+:::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+:::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 1
+}</pre>
+::{{DIcon|Talk}} A bouquet of Sunshines, please.
+:::<!--Custom String Listener: TalkSentence_201140506-->
+:::{{A|VO Side1 nts2 vaska 103.ogg}} '''Vaska:''' Hm? Sunshines, is it? One second, I'll get it ready for you...
+:::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+:::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 2
+}</pre>
+::{{DIcon|Talk}} A bouquet of Marquises, please.
+:::<!--Custom String Listener: TalkSentence_201140508-->
+:::{{A|VO Side1 nts2 vaska 104.ogg}} '''Vaska:''' Aww... Marquises, is it? One second, I'll get it ready for you...
+:::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+:::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 3
+}</pre>
+::{{DIcon|Talk}} A bouquet of First Snow, please.
+:::<!--Custom String Listener: TalkSentence_201140510-->
+:::{{A|VO Side1 nts2 vaska 105.ogg}} '''Vaska:''' Aww... First Snow, is it? One second, I'll get it ready for you...
+:::{{Black Screen|You wait for Vaska to get the flowers for you...}}
+:::{{A|VO Side1 nts2 vaska 106.ogg}} '''Vaska:''' There you go, sorry for the wait. Hope to see you again soon!
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 201140104,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 4
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_201140104-->
+;(If {{cx}}<!--SubMission Started: 301140102--> and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon|undefined}} About Tamila...
+::<!--Trigger PerformanceE 301140102: Config/Level/Mission/3011401/Act/Act301140102.json-->
+::'''Vaska:''' You mean the musical actress?
+::'''Vaska:''' She always buys the same flowers every time... Let me see... "Rainbows." Every time Tamila comes, she buys Rainbow flowers.
+::'''Vaska:''' *sigh* Tamila and I had a bit of a communication mismatch... We don't have the same taste in novels. We've talked a few times before, but we didn't part on the best terms.
+::'''Vaska:''' But every week she'll be in here buying a few dozen bouquets of Rainbow flowers. She's a big repeat customer for our store, so... the customer's always right!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_301140102_01-->
+;(If {{cx}}<!--SubMission Started: 201090202-->, {{cx}}<!--SubMission Started: 301140102-->, and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon}} Hook's Gift
+::<!--Trigger PerformanceE 201090202: Config/Level/Mission/2010902/Act/Act201090202.json-->
+::{{A|VO Side1 hk3 hook 166.ogg}} '''Hook:''' What happened to the Geomarrow Probe? Tell me right now! Straight away! Immediately!
+::{{A|VO Side1 hk3 auctioneerA 128.ogg}} '''Auction Staff:''' Uh... There's nothing to worry about &mdash; it's just a technical issue.
+::{{A|VO Side1 hk3 hook 167.ogg}} '''Hook:''' ...You don't sound very convincing! *gasp* ...Did someone steal it?
+::{{A|VO Side1 hk3 auctioneerA 129.ogg}} '''Auction Staff:''' ...Well, we can't say for sure that it was "stolen..." We've contacted the seller and sent some people in search. We should soon be able to...
+::{{DIcon|Arrow}} This place is full of troublemakers.
+:::<!--Custom String Listener: TalkSentence_201090206-->
+:::{{A|VO Side1 hk3 hook 168.ogg}} '''Hook:''' Yeah, why wasn't Wildfire keeping a lookout?
+::{{DIcon|Arrow}} Who would dare steal from Wildfire?
+:::<!--Custom String Listener: TalkSentence_201090208-->
+:::{{A|VO Side1 hk3 hook 169.ogg}} '''Hook:''' Yeah, why is Wildfire so incompetent? You should have put The Moles in charge!
+::<!--Custom String Trigger: TalkSentence_201090209-->
+::<!--Custom String Listener: TalkSentence_201090209-->
+::{{A|VO Side1 hk3 hook 170.ogg}} '''Hook:''' I gotta catch the thief and get the probe back! Any ideas, honorary member?
+::{{DIcon|Arrow}} Let's have a look at the auction registration form.
+::<!--Custom String Listener: TalkSentence_201090211-->
+::{{A|VO Side1 hk3 auctioneerA 130.ogg}} '''Auction Staff:''' Are you suggesting that someone altered the registration form? That's simply not possible! We've been keeping a close eye on everything...
+::{{A|VO Side1 hk3 hook 171 m.ogg}} {{A|VO Side1 hk3 hook 171 f.ogg}} '''Hook:''' Fool! What the honorary member means is that the thief only came here to create trouble &mdash; they weren't interested in buying or selling! Right, (Trailblazer)?
+::{{DIcon|Arrow}} You're smarter than I thought!
+:::<!--Custom String Listener: TalkSentence_201090214-->
+:::{{A|VO Side1 hk3 hook 172.ogg}} '''Hook:''' When the going gets smart, the boss of The Moles gets smarter!
+::{{DIcon|Arrow}} This guy should give us half his salary...
+:::<!--Custom String Listener: TalkSentence_201090216-->
+:::{{A|VO Side1 hk3 auctioneerA 131.ogg}} '''Auction Staff:''' I don't have a salary to give! I'm a volunteer... *sigh*
+::<!--Custom String Trigger: TalkSentence_201090217-->
+::<!--Custom String Listener: TalkSentence_201090217-->
+::{{A|VO Side1 hk3 auctioneerA 132.ogg}} '''Auction Staff:''' Wait a minute, let me see...
+::{{A|VO Side1 hk3 auctioneerA 133.ogg}} '''Auction Staff:''' ...Hmm, aside from you, there was someone else who registered as a buyer but never put in a bid!
+::{{A|VO Side1 hk3 auctioneerA 134.ogg}} '''Auction Staff:''' ...And I think there was a miner who registered with him. Come on, let's go and interrogate them.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 201090202_F-->
+;(If {{cx}}<!--SubMission Started: 301111303-->, {{cx}}<!--SubMission Started: 201090202-->, {{cx}}<!--SubMission Started: 301140102-->, and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon|undefined}} I want to buy a bunch of Rainbows please.
+::<!--Trigger PerformanceE 301111303: Config/Level/Mission/3011113/Act/Act301111303.json-->
+::<!--Custom String Trigger: TalkSentence_301110902-->
+::<!--Custom String Listener: TalkSentence_301110902-->
+::'''Vaska:''' Rainbows, right? No problem, I'll pick some out for you now.
+::'''Vaska:''' May I ask who these flowers are for?
+::<!--Custom String Trigger: Wait_Option_301110303_10-->
+::<!--Custom String Listener: Wait_Option_301110303_10-->
+::{{DIcon|Arrow}} Uh... a parent?
+::<!--Custom String Listener: TalkSentence_301110905-->
+::'''Vaska:''' Oh? Rainbows for a parent is... quite a unique choice.
+::'''Vaska:''' You know, in the language of flowers, rainbows mean "ordinary beauty." They're a popular choice among old friends and couples.
+::'''Vaska:''' Are you trying to tell your parent to enjoy themselves? To not be troubled by the pettiness of work and life...?
+::'''Vaska:''' That would be a great message actually.
+::'''Vaska:''' Here you are, a bunch of rainbows. Hope to see you again soon!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111303-->
+;(If {{cx}}<!--SubMission Started: 301111402-->, {{cx}}<!--SubMission Started: 301111303-->, {{cx}}<!--SubMission Started: 201090202-->, {{cx}}<!--SubMission Started: 301140102-->, and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon|undefined}} I'd like to buy some flowers as a present.
+::<!--Trigger PerformanceE 301111402: Config/Level/Mission/3011114/Act/Act301111402.json-->
+::'''Vaska:''' Then you came to the right place!
+::'''Vaska:''' If you could tell me more about the person you're sending flowers to, I can give you some suggestions.
+::{{DIcon|Arrow}} The flowers are a gift to a daughter from her long-absent father.
+:::<!--Custom String Listener: option1-->
+:::'''Vaska:''' I see...
+:::'''Vaska:''' Then I recommend the Ball Peonies &mdash; they only bloom once a year, and each bloom lasts for less than a month.
+:::'''Vaska:''' In the language of flowers, Ball Peony means "patience." It takes a bit of patience, but the family will eventually be reunited.
+:::{{DIcon|Arrow}} Then I'll take a bouquet of Ball Peonies.
+:::<!--Custom String Trigger: 3011114_option1_next-->
+:::'''Vaska:''' Sure! One moment, please.
+:::'''Vaska:''' Here are your Ball Peonies. Thanks for the purchase, and have a lovely day!
+::{{DIcon|Arrow}} The flowers will be given to a beautiful girl.
+:::<!--Custom String Listener: option2-->
+:::'''Vaska:''' I see...
+:::'''Vaska:''' Then I recommend the Rainbows &mdash; these small flowers are a riot of color, perfect for gift giving between young people.
+:::'''Vaska:''' In the language of flowers, Rainbow means "simple beauty." In times like this, what else is more precious than "simple beauty?"
+:::{{DIcon|Arrow}} Then I'll take a bouquet of Rainbows.
+:::<!--Custom String Trigger: 3011114_option2_next-->
+:::'''Vaska:''' Sure! One moment, please.
+:::'''Vaska:''' Here are your Rainbows. Thanks for the purchase, and have a lovely day!
+::{{DIcon|Arrow}} The flowers will be given to a kind animal lover.
+:::<!--Custom String Listener: option3-->
+:::'''Vaska:''' Speaking of animals, I haven't seen any in Belobog in a long time... The person you are sending flowers to must be a very kind person.
+:::'''Vaska:''' Then I recommend the First Snows &mdash; they stand for "pure and kind-hearted" in the language of flowers. I think they'll suit the recipient of your present very well.
+:::{{DIcon|Arrow}} Then I'll take a bouquet of First Snows.
+:::<!--Custom String Trigger: 3011114_option3_next-->
+:::'''Vaska:''' Sure! One moment, please.
+:::'''Vaska:''' Here are your First Snows. Thanks for the purchase, and have a lovely day!
+::{{DIcon|Arrow}} I'll take a bouquet of the most precious flowers here.
+:::<!--Custom String Listener: option4-->
+:::'''Vaska:''' The most precious... I assume you're sending flowers to a person of very high status?
+:::'''Vaska:''' Then my recommendation would be the Marquises. They are the most exalted, beautiful, and delicate flowers in Belobog.
+:::'''Vaska:''' No one in high society would turn down a bouquet of Marquises. It's just that... Marquises are quite expensive. Are you sure you want to buy some?
+:::{{DIcon|Arrow}} I'll take a bouquet of Marquises.
+:::<!--Custom String Trigger: 3011114_option4_next-->
+:::'''Vaska:''' Sure! One moment, please.
+:::'''Vaska:''' Here are your Marquises. Thanks for the purchase, and have a lovely day!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111402-->
+;(If {{cx}}<!--SubMission Started: 301111402-->, {{cx}}<!--SubMission Started: 301111303-->, {{cx}}<!--SubMission Started: 201090202-->, {{cx}}<!--SubMission Started: 301140102-->, and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon}} What about these?
+::<!--Custom String Trigger: TalkSentence_501026719-->
+::<!--Custom String Listener: TalkSentence_501026719-->
+::'''Vaska:''' These flowers come in a variety of colors and prices, but really, they are all priceless.
+::'''Vaska:''' For example, this one named Sunshine is lovely. Its red and yellow colors make it look like the sun. Just looking at it makes you feel warm inside.
+::'''Vaska:''' It's a great choice for a gift or even to keep for yourself.
+::'''Vaska:''' What do you think? Or do you want to know more about other kinds of flowers?
+::<!--Custom String Trigger: Wait_Option_5010267_30-->
+::<!--Custom String Listener: Wait_Option_5010267_30-->
+::{{DIcon|Talk}} The Marquise?
+:::<!--Custom String Listener: TalkSentence_501026721-->
+:::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+:::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} First Snow?
+:::<!--Custom String Listener: TalkSentence_501026724-->
+:::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Summershade Bamboo?
+:::<!--Custom String Listener: TalkSentence_501026726-->
+:::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Other ones, please...
+:::<!--Custom String Listener: Wait_Option_5010267_40-->
+:::{{DIcon|Talk}} The Sunshine?
+::::<!--Custom String Listener: TalkSentence_501026729-->
+::::'''Vaska:''' It's a Sunshine. A red and yellow flower that looks like the sun. It's very lovely. Just looking at it makes you feel warm inside.
+::::<!--Custom String Trigger: Wait_Option_5010267_40-->
+::::<!--Custom String Listener: Wait_Option_5010267_40-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Ball Peony?
+:::::<!--Custom String Listener: TalkSentence_501026731-->
+:::::'''Vaska:''' It is a very expensive flower. It blooms only once a year for one month. But honestly, the price is completely worth that one month of bloom!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Rainbow?
+:::::<!--Custom String Listener: TalkSentence_501026733-->
+:::::'''Vaska:''' Oh, this is our best-selling flower! It's colorful and gorgeous, and is offered at a great price!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} The one you just mentioned...
+:::::<!--Custom String Listener: Wait_Option_5010267_30-->
+:::::{{DIcon|Talk}} The Marquise?
+::::::<!--Custom String Listener: TalkSentence_501026721-->
+::::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+::::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} First Snow?
+::::::<!--Custom String Listener: TalkSentence_501026724-->
+::::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Summershade Bamboo?
+::::::<!--Custom String Listener: TalkSentence_501026726-->
+::::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Ball Peony?
+::::<!--Custom String Listener: TalkSentence_501026731-->
+::::'''Vaska:''' It is a very expensive flower. It blooms only once a year for one month. But honestly, the price is completely worth that one month of bloom!
+::::<!--Custom String Trigger: Wait_Option_5010267_40-->
+::::<!--Custom String Listener: Wait_Option_5010267_40-->
+::::{{DIcon|Talk}} The Sunshine?
+:::::<!--Custom String Listener: TalkSentence_501026729-->
+:::::'''Vaska:''' It's a Sunshine. A red and yellow flower that looks like the sun. It's very lovely. Just looking at it makes you feel warm inside.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Rainbow?
+:::::<!--Custom String Listener: TalkSentence_501026733-->
+:::::'''Vaska:''' Oh, this is our best-selling flower! It's colorful and gorgeous, and is offered at a great price!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} The one you just mentioned...
+:::::<!--Custom String Listener: Wait_Option_5010267_30-->
+:::::{{DIcon|Talk}} The Marquise?
+::::::<!--Custom String Listener: TalkSentence_501026721-->
+::::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+::::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} First Snow?
+::::::<!--Custom String Listener: TalkSentence_501026724-->
+::::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Summershade Bamboo?
+::::::<!--Custom String Listener: TalkSentence_501026726-->
+::::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Rainbow?
+::::<!--Custom String Listener: TalkSentence_501026733-->
+::::'''Vaska:''' Oh, this is our best-selling flower! It's colorful and gorgeous, and is offered at a great price!
+::::<!--Custom String Trigger: Wait_Option_5010267_40-->
+::::<!--Custom String Listener: Wait_Option_5010267_40-->
+::::{{DIcon|Talk}} The Sunshine?
+:::::<!--Custom String Listener: TalkSentence_501026729-->
+:::::'''Vaska:''' It's a Sunshine. A red and yellow flower that looks like the sun. It's very lovely. Just looking at it makes you feel warm inside.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Ball Peony?
+:::::<!--Custom String Listener: TalkSentence_501026731-->
+:::::'''Vaska:''' It is a very expensive flower. It blooms only once a year for one month. But honestly, the price is completely worth that one month of bloom!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Return}} The one you just mentioned...
+:::::<!--Custom String Listener: Wait_Option_5010267_30-->
+:::::{{DIcon|Talk}} The Marquise?
+::::::<!--Custom String Listener: TalkSentence_501026721-->
+::::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+::::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} First Snow?
+::::::<!--Custom String Listener: TalkSentence_501026724-->
+::::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Summershade Bamboo?
+::::::<!--Custom String Listener: TalkSentence_501026726-->
+::::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Return}} The one you just mentioned...
+::::<!--Custom String Listener: Wait_Option_5010267_30-->
+::::{{DIcon|Talk}} The Marquise?
+:::::<!--Custom String Listener: TalkSentence_501026721-->
+:::::'''Vaska:''' The Marquise is our most expensive flower. There's a grand story behind its name.
+:::::'''Vaska:''' Rumor has it that a noblewoman spent her entire family's fortune on one of these flowers. This was why it was given the name "Marquise." To this day, it is beloved by high society.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} First Snow?
+:::::<!--Custom String Listener: TalkSentence_501026724-->
+:::::'''Vaska:''' The flower has eight petals with white spots at each tip, just like snowflakes. A long time ago, the first snow of the year was called first snow, symbolizing harvest and joy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Summershade Bamboo?
+:::::<!--Custom String Listener: TalkSentence_501026726-->
+:::::'''Vaska:''' It would be more appropriate to call it a plant, rather than a flower. It is said that long ago artists would use its long stalk with holes on it to create musical instruments! Probably...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Thank you. I learned a lot today.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Thank you. I learned a lot today.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301111402-->, {{cx}}<!--SubMission Started: 301111303-->, {{cx}}<!--SubMission Started: 201090202-->, {{cx}}<!--SubMission Started: 301140102-->, and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon}} How have things been?
+::'''Vaska:''' ...I heard that a sequel is going to come out. Artem might... Ah, sorry. I thought you were asking about the Tale of the Winterlands.
+::'''Vaska:''' I guess... I've been doing alright? The florist has been a bit busier these days, so I haven't had as much time to read as before. It's been a headache.
+::{{DIcon|Arrow}} Is the florist selling anything new?
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Vaska:''' Nah. I haven't cultivated any new varieties, but we've had a lot less snow recently, and the temperature is starting to go back up. Some flowers have blossomed splendidly. It could be a good chance for the shop to put together some sales promotions.
+::{{DIcon|Arrow}} Is that book's ban... going to get lifted?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Vaska:''' You mean the Tale of the Winterlands? I'm not sure. But that's the rumor that has been circulating among us book fans. I don't know if it's true or not.
+:::'''Vaska:''' I've heard that the Town Hall is getting ready to develop the outskirts of the city. They've apparently dispatched people to explore that area. If that's true, then there's no need to ban that series...
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301111402-->, {{cx}}<!--SubMission Started: 301111303-->, {{cx}}<!--SubMission Started: 201090202-->, {{cx}}<!--SubMission Started: 301140102-->, and {{cx}}<!--SubMission Started: 201140104-->)
+:{{DIcon|Exit}} I'll think about it.
+::'''Vaska:''' No rush. Take your time.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Vaska
+|zhs  = 瓦丝卡
+|zht  = 瓦絲卡
+|ja   = ヴェスカ
+|ko   = 바스카
+|es   = Vaska
+|fr   = Vaska
+|ru   = Васка
+|th   = Vaska
+|vi   = Vaska
+|de   = Vaska
+|id   = Vaska
+|pt   = Vaska
+}}
+==Change History==
+{{Change History|TODO}}

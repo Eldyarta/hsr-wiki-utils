@@ -1,0 +1,138 @@
+<%-- [PAGE_INFO]
+PageTitle=#Brutus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Survivor
+|image           = NPC Brutus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Brutus''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_321_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504018001: Config/Level/Mission/5040180/Act/Act504018001.json-->
+::'''Brutus:''' Thanatos above, please, guide the souls of my family...
+::'''Brutus:''' Oh, my apologies. I was praying and did not notice you. Are you new here, too? Hello, my name is Brutus. I arrived not long ago.
+::{{DIcon|Arrow}} What were you praying for?
+:::<!--Custom String Listener: TalkSentence_504018005-->
+:::'''Brutus:''' I was saying a prayer for my family. I wish they may have eternal peace.
+::{{DIcon|Arrow}} Where are you from?
+:::<!--Custom String Listener: TalkSentence_504018007-->
+:::'''Brutus:''' My home... It is the closest scenic holiday spot to Okhema. The climate there is wonderful... My home had a gigantic garden in the rear courtyard. My wife filled it with her favorite dusk roses.
+:::'''Brutus:''' ...Sorry, I should rephrase that. It was the closest scenic holiday spot to Okhema... '''Was'''.
+::<!--Custom String Trigger: TalkSentence_504018009-->
+::<!--Custom String Listener: TalkSentence_504018009-->
+::'''Brutus:''' ...When the black tide came, I was watering the garden. Who knew that would be the last time I tended to those dusk roses...
+::'''Brutus:''' My wife loved those roses... Every morning she would pick one and pin it to her hair. Thinking about it now, I should really have planted some more.
+::'''Brutus:''' I came here to seek shelter with an old friend but, when I arrived, I heard that he just recently... Ah, forget it. I guess no one in this world can ever really know what tomorrow will bring.
+::'''Brutus:''' At least I'm still alive, right? I hope that Janus will guide me through this misery. Although, sometimes I wonder if I'm actually fortunate to be alive or not... Is it really fortunate to be the sole survivor?
+::{{DIcon|Arrow}} I'm sorry for your loss.
+:::<!--Custom String Listener: TalkSentence_504018014-->
+:::'''Brutus:''' Thank you.
+::{{DIcon|Arrow}} You're a disciple of Janus?
+:::<!--Custom String Listener: TalkSentence_504018016-->
+:::'''Brutus:''' No. Ever after I saw the black tide, I have become a disciple of Thanatos. I will spend the rest of my life praying to Thanatos for the eternal peace of my family.
+:::'''Brutus:''' If you were me... You'd need something to believe in, or you wouldn't even be able to get out of bed in the morning.
+::<!--Custom String Trigger: TalkSentence_504018018-->
+::<!--Custom String Listener: TalkSentence_504018018-->
+::'''Brutus:''' By Thanatos above... They would not leave my family lost in the darkness, would they? My family should be able to find a place of peace and quiet to rest. My little son was afraid of the dark. I hope that he is not scared over there.
+::'''Brutus:''' You know, sometimes I talk to Thanatos &mdash; I ask a lot of questions. When I pray, I always wonder if my family is doing well over there, and if they have enough food and clothes to keep themselves warm. Unfortunately, I never got the answers.
+::'''Brutus:''' Hmph. I have also considered... I have offered Thanatos fine food and drink. There's no way that I have not been loyal enough. I keep thinking and...
+::'''Brutus:''' It must be that Marcus. Every time I go to pray, he makes noises. He must have disturbed Thanatos...
+::{{DIcon|Arrow}} What did he do to you?
+::{{DIcon|Arrow}} ...Do you want to tell me more about it?
+::<!--Custom String Listener: TalkSentence_504018024-->
+::'''Brutus:''' Ugh, he's the madman that lives next door. I call him the "braggart"... He is constantly telling stories of battles he's been in, how he killed ten monsters by himself, or how he hid behind a tree and watched others fight them. His stories are self-contradiction itself. You can never trust a single word he says.
+::'''Brutus:''' The worst thing of all is that he claims those who are devoured by the black tide will never be at peace! He says that he sees their captain's face in the mist and hears his comrades calling him to join them in the black tide...
+::'''Brutus:''' The Great Thanatos above! Thanatos has equal mercy for the deceased and supreme powers above all... That Marcus, how dare he utter such nonsense!?
+::'''Brutus:''' Sorry, I let myself get carried away. I hope I did not scare you.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504018002: Config/Level/Mission/5040180/Act/Act504018002.json-->
+::'''Brutus:''' By Thanatos above, please guide the souls of my family... Oh, it's you. What's up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Can you tell me about yourself?
+::'''Brutus:''' About myself? There's not much to say. I'm just a normal Mountain Dweller. Feel free to ask if you are curious.
+::<!--Custom String Trigger: Wait_Option_504018003_62-->
+::<!--Custom String Listener: Wait_Option_504018003_62-->
+::{{DIcon|Talk}} What happened to you?
+:::<!--Custom String Listener: TalkSentence_504018204-->
+:::'''Brutus:''' ...On the day the black tide came, I had just put dinner on the table. The children were clamoring that they wanted to eat snacks instead. Who knew that would be the last meal we ever had together? Thinking about it now, I should have made sure they ate more.
+:::'''Brutus:''' You know what? That day, my daughter was throwing a tantrum and saying that the food I cooked was horrible. I told her off. If I could go back, I would let her have whatever she wanted.
+:::'''Brutus:''' Every day before I sleep, I think to myself... Should I have let them have some more candy? I really should have done it...
+:::'''Brutus:''' I keep dreaming lately that they are still here with me. That feeling of loss I experience when I wake up... Ah, only praying to Thanatos can calm my heart...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You seem to really hate Marcus?
+:::<!--Custom String Listener: TalkSentence_504018209-->
+:::'''Brutus:''' Marcus, you mean the "braggart"? He's always talking about how he's a veteran. He says that he saved people when he fought off the black tide. But his stories are so full of contradictions! I can't help but feel like he's making them all up just to make his stories sound cool.
+:::'''Brutus:''' Although... A few days ago, I saw him alone speaking to a wall. I heard him quietly say: "I'm sorry." I don't know who he was speaking to, but I suddenly felt like he had suffered even more than I have.
+:::'''Brutus:''' Life is tough for everybody already. I just don't like how he fabricates the stories of those that passed away. It is sheer disrespect. That's why I have no good words to say about that Marcus.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you okay?
+:::<!--Custom String Listener: TalkSentence_504018213-->
+:::'''Brutus:''' It's fine. I'm not used to living here yet, I always feel like something is missing. I imagine it's because my family aren't by my side.
+:::'''Brutus:''' There is a saying where I come from: "There is no god powerful enough to hold onto those that Thanatos must take away." I often use this phrase to comfort myself. The past is in the past, and the living must make the most of their lives.
+:::'''Brutus:''' Ah, I don't want to talk about this anymore... Have you been to the baths before? I went once. I was so relaxed that I almost forgot about everything that had happened. If you get a moment, you should try them out.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Thanks for talking with me.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Nothing. I just wanted to say hi.
+::'''Brutus:''' Thanks. This is a cold place. Having someone check in with me brings warmth to my heart.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

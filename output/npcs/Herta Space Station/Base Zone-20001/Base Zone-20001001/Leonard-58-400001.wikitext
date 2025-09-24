@@ -1,0 +1,151 @@
+<%-- [PAGE_INFO]
+PageTitle=#Leonard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Maintenance Staff
+|image           = NPC Leonard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Leonard''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_58_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 800010201
+	}
+]
+</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 800010201: Config/Level/Mission/8000102/Act/Act800010201.json-->
+::'''Leonard:''' H&mdash;How is this possible? Neither of the two encryption keys has been touched, so how on earth did she do it...
+::'''Leonard:''' Mmm? Are you encountering any problems? Just hit up the front desk down the corridor that way... Ah! What's this error doing here!?
+::{{DIcon|Arrow}} Are you Leonard?
+::<!--Custom String Listener: TalkSentence_800090105-->
+::'''Leonard:''' Mmm, that's me... Have we met?
+::{{DIcon|Arrow}} I got a text message that has something to do with you.
+:::<!--Custom String Listener: TalkSentence_800090107-->
+:::'''Leonard:''' Ah, that... Do you get spam messages too? Alright, I kinda have something to do with it...
+::{{DIcon|Arrow}} I got harassed because of you.
+:::<!--Custom String Listener: TalkSentence_800090109-->
+:::'''Leonard:''' H&mdash;Harassed? Hang on, I can explain! That text message has nothing to do with me! No... I mean, it might have a little to do with me...
+::<!--Custom String Trigger: TalkSentence_800090110-->
+::<!--Custom String Listener: TalkSentence_800090110-->
+::'''Leonard:''' Hmm, let me see. Where to begin? Anyway, let me introduce myself... My name's Leonard and I'm the cybersecurity engineer aboard this space station.
+::'''Leonard:''' You must've heard, right? The Antimatter Legion put out a hit on us not long ago.
+::{{DIcon|Arrow}} I know. I was there.
+:::<!--Custom String Listener: TalkSentence_800090113-->
+:::'''Leonard:''' Oh, so... Judging by your style, I thought you were not from around here.
+::{{DIcon|Arrow}} I know. I fought off a bunch of Voidrangers.
+:::<!--Custom String Listener: TalkSentence_800090115-->
+:::'''Leonard:''' Whoa, amazing! I bolted straight for the emergency chute to try and save my own neck.
+::{{DIcon|Arrow}} I know. I'm one of the Legion.
+:::<!--Custom String Listener: TalkSentence_800090117-->
+:::'''Leonard:''' Uh... You're kidding, right? You can't just say that. If anyone hears, you'll be reported to IPC.
+::<!--Custom String Trigger: TalkSentence_800090118-->
+::<!--Custom String Listener: TalkSentence_800090118-->
+::'''Leonard:''' During the riot, the main control system for each module was paralyzed by the explosion. My job was to provide support for repairing these devices, and ensure network security of the space station.
+::'''Leonard:''' The repair job began smoothly, but along the way I found some anomalies &mdash; some access logs showing that a third party other than the Legion was actually here, while the systems were all paralyzed.
+::{{DIcon|Arrow}} Was it a lady in sunglasses?
+:::<!--Custom String Listener: TalkSentence_800090121-->
+:::'''Leonard:''' Mmm, sorry but I don't know what they look like &mdash; only that there should be more than one of them.
+::{{DIcon|Arrow}} Stellaron Hunters?
+:::<!--Custom String Listener: TalkSentence_800090123-->
+:::'''Leonard:''' Mmm, some others have surmised the same as you.
+::{{DIcon|Arrow}} The Astral Express?
+:::<!--Custom String Listener: TalkSentence_800090125-->
+:::'''Leonard:''' No, they were quite a while earlier.
+::{{DIcon|Arrow}} What's that got to do with text messages?
+:::<!--Custom String Listener: TalkSentence_800090127-->
+:::'''Leonard:''' Oh, I'll get to the point shortly.
+::<!--Custom String Trigger: TalkSentence_800090128-->
+::<!--Custom String Listener: TalkSentence_800090128-->
+::'''Leonard:''' I have no evidence for this, but we suspect the intruders were Stellaron Hunters. These guys are elusive and highly dangerous. Every single one is on IPC's wanted list.
+::'''Leonard:''' One of them is a genius hacker. I've read her profile, and she's right up there with the members of the Genius Society. Just incredible... If it really is her, then it's no surprise that the space station's surveillance systems were bypassed.
+::'''Leonard:''' I was planning on submitting my helpless report, but never expected to find some clues left behind by the intruders during the investigation.
+::'''Leonard:''' Even though my intuition tells me something is fishy, I couldn't pass up an opportunity to lock horns with the Stellaron Hunters... So I plucked up my courage and kept pulling on this clue I'd found...
+::{{DIcon|Arrow}} Go on.
+:::<!--Custom String Listener: TalkSentence_800090133-->
+:::'''Leonard:''' And as you can see... I fell right into their trap!
+::{{DIcon|Arrow}} I can hazard a guess about how things turned out...
+:::<!--Custom String Listener: TalkSentence_800090135-->
+:::'''Leonard:''' Mmm, as you can see... I fell right into their trap!
+::{{DIcon|Arrow}} Is it a trap?
+:::<!--Custom String Listener: TalkSentence_800090137-->
+:::'''Leonard:''' Yes, as you can see... I fell right into their trap!
+::<!--Custom String Trigger: TalkSentence_800090138-->
+::<!--Custom String Listener: TalkSentence_800090138-->
+::'''Leonard:''' I'm too naive, and it was a Stellaron Hunter... During the cyber-attack, a virus was uploaded to my device, and it started helplessly spamming out messages.
+::'''Leonard:''' Yeah, that's the text message you got.
+::'''Leonard:''' That's the whole story about those spam messages. Now I'm infamous throughout the whole space station &mdash; everyone knows about the guy called Leonard who stuffed up big time. My engineering career is over. Ahaha... *sigh*
+::{{DIcon|Arrow}} It's not your fault.
+:::<!--Custom String Listener: TalkSentence_800090142-->
+:::'''Leonard:''' Thank you... Hope the Lead Researcher Asta may say the same.
+::{{DIcon|Arrow}} They're just too good.
+:::<!--Custom String Listener: TalkSentence_800090144-->
+:::'''Leonard:''' Thank you, I realize that now.
+::{{DIcon|Arrow}} Completely over, haha.
+:::<!--Custom String Listener: TalkSentence_800090146-->
+:::'''Leonard:''' Haha!
+::<!--Custom String Trigger: TalkSentence_800090147-->
+::<!--Custom String Listener: TalkSentence_800090147-->
+::'''Leonard:''' As for the Cosmic Warfare mentioned in the message... That's harder to explain, so it's better if you see it with your own eyes.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800010201-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maintenance Engineer
+|zhs  = 维修工程师
+|zht  = 維修工程師
+|ja   = メンテナンスエンジニア
+|ko   = 수리 엔지니어
+|es   = Ingeniero de mantenimiento
+|fr   = Ingénieur de maintenance
+|ru   = Инженер по техническому обслуживанию
+|th   = วิศวกรซ่อมบำรุง
+|vi   = Kỹ Sư Sửa Chữa
+|de   = Wartungstechniker
+|id   = Insinyur Pemeliharaan
+|pt   = Engenheiro de Manutenção
+}}
+==Change History==
+{{Change History|TODO}}

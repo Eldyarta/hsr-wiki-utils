@@ -1,0 +1,160 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hongling#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Fanatical Yanqing Fan
+|image           = NPC Hongling.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Hongling''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_257_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502140001: Config/Level/Mission/5021400/Act/Act502140001.json-->
+::'''Hongling:''' C&mdash;Can you hit me?
+::{{DIcon|Arrow}} (Whack lightly.)
+:::<!--Custom String Listener: TalkSentence_502140003-->
+:::'''Hongling:''' I feel pain!? It was all real!
+::{{DIcon|Arrow}} (Whack violently.)
+:::<!--Custom String Listener: TalkSentence_502140005-->
+:::'''Hongling:''' I didn't ask you to hit that hard... But now, I'm certain that it's real!
+::{{DIcon|Arrow}} (Shake head in confusion.)
+:::<!--Custom String Listener: TalkSentence_502140007-->
+:::'''Hongling:''' You can't do it? What a nice person.
+::<!--Custom String Trigger: TalkSentence_502140008-->
+::<!--Custom String Listener: TalkSentence_502140008-->
+::'''Hongling:''' *sob*... Did you know? I actually hugged Master Yanqing! We even took a photo together! This photo is going to be my family heirloom!
+::'''Hongling:''' If only I ran a little faster, perhaps I could have even gotten Master Yanqing's autograph.
+::{{DIcon|Arrow}} Congratulations, you succeeded in meeting your idol.
+:::<!--Custom String Listener: TalkSentence_502140011-->
+:::'''Hongling:''' Hehe, although Master Yanqing appears smaller than in the photo, it doesn't hinder his mighty image in my heart.
+::{{DIcon|Arrow}} It's just Yanqing, someone who I once defeated.
+:::<!--Custom String Listener: TalkSentence_502140013-->
+:::'''Hongling:''' How dare you? Apologize to Master Yanqing immediately!
+:::{{DIcon|Arrow}} I apologize to Master Yanqing.
+::::<!--Custom String Listener: TalkSentence_502140015-->
+::::'''Hongling:''' That's better.
+:::{{DIcon|Arrow}} Actually, I know Yanqing pretty well...
+::::<!--Custom String Listener: TalkSentence_502140017-->
+::::'''Hongling:''' I don't believe you. Can anyone claim to know Master Yanqing better than me?
+::<!--Custom String Trigger: TalkSentence_502140018-->
+::<!--Custom String Listener: TalkSentence_502140018-->
+::'''Hongling:''' Hold on. Deep breaths &mdash; breathe in, breathe out &mdash; I need to calm myself down. Alright, look for me anytime you want to talk about Master Yanqing.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502140002: Config/Level/Mission/5021400/Act/Act502140002.json-->
+::'''Hongling:''' We meet again. Are you here to join the Yanqing Galactic Fan Club?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I would like to ask you something.
+::'''Hongling:''' Is it concerning Master Yanqing? Then let's have a good chat about it!
+::<!--Custom String Trigger: Wait_Option_502140003_45-->
+::<!--Custom String Listener: Wait_Option_502140003_45-->
+::{{DIcon|Talk}} You mentioned that you hugged Yanqing?
+:::<!--Custom String Listener: TalkSentence_502140103-->
+:::'''Hongling:''' Hehe, it's actually very simple. As the saying goes, "in the world of martial arts, speed is king." It's the same thing with chasing after your idol. All that matters is being fast enough.
+:::'''Hongling:''' To raise my speed and strength, I trained so much in running and grappling techniques for a month that I even wore out several pairs of shoes.
+:::'''Hongling:''' Those Cloud Knights in charge of security could not even catch up to me. When I got onto the stage, I hugged Master Yanqing tightly, and it took quite a while before they managed to separate us.
+:::{{DIcon|Arrow}} The Cloud Knights did not lock you up?
+::::<!--Custom String Listener: TalkSentence_502140107-->
+::::'''Hongling:''' Master Yanqing instructed the Cloud Knights to not make things difficult for me, so they only severely reprimanded me.
+::::'''Hongling:''' Master Yanqing is truly a top-class idol who cares about his fans. Ahh... Who wouldn't like him!?
+::::<!--Custom String Trigger: TalkSentence_502140111-->
+::::<!--Custom String Listener: TalkSentence_502140111-->
+::::'''Hongling:''' Apparently, I'm on some blacklist right now... What a joke. I don't care about that!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Did you manage to talk to Yanqing?
+::::<!--Custom String Listener: TalkSentence_502140110-->
+::::'''Hongling:''' *sigh* Let's not mention that. I prepared a long speech to say to him, but completely forgot everything when I met him.
+::::<!--Custom String Trigger: TalkSentence_502140111-->
+::::<!--Custom String Listener: TalkSentence_502140111-->
+::::'''Hongling:''' Apparently, I'm on some blacklist right now... What a joke. I don't care about that!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What exactly do you like about Yanqing?
+:::<!--Custom String Listener: TalkSentence_502140113-->
+:::'''Hongling:''' Because he is the ideal that I've always aspired to become!
+:::'''Hongling:''' Since young, I've dreamed of becoming an unparalleled swordmaster, eradicating abominations for the Xianzhou and accomplishing outstanding feats. However, due to my mediocre talent, my sword skills remained rudimentary, and I could not even pass the selection examination for the Cloud Knights...
+:::'''Hongling:''' However, the appearance of Master Yanqing reignited the spark within me. Compared to someone mediocre like me, he's a genius of the sword, and I hope that my dreams can be realized through him.
+:::'''Hongling:''' But watching Master Yanqing is like watching my dreams come to fruition. When I look at how hard he works, I feel like I've gained some strength too. Even without talent, I'll continue to pursue swordsmanship in hopes of one day becoming a swordmaster like Master Yanqing!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Actually, I have always been supportive of Yanqing.
+:::<!--Custom String Listener: TalkSentence_502140118-->
+:::'''Hongling:''' Then you must join our Yanqing Galactic Fan Club!
+:::{{DIcon|Arrow}} Fan club?
+::::<!--Custom String Listener: TalkSentence_502140120-->
+::::'''Hongling:''' The fan club is a group created by fans to better support Master Yanqing.
+::::<!--Custom String Trigger: TalkSentence_502140123-->
+::::<!--Custom String Listener: TalkSentence_502140123-->
+::::'''Hongling:''' We periodically organize fan events where we wear the same fan outfits and shout fan slogans together. We also hold publicity and promotional events, fan gatherings, and fan work creation events...
+::::'''Hongling:''' You can talk about this in-depth if you're interested to find out more.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Galactic?
+::::<!--Custom String Listener: TalkSentence_502140122-->
+::::'''Hongling:''' What's wrong? We're among the cosmos. Does this not fit the definition of "Pan-Cosmos"?
+::::<!--Custom String Trigger: TalkSentence_502140123-->
+::::<!--Custom String Listener: TalkSentence_502140123-->
+::::'''Hongling:''' We periodically organize fan events where we wear the same fan outfits and shout fan slogans together. We also hold publicity and promotional events, fan gatherings, and fan work creation events...
+::::'''Hongling:''' You can talk about this in-depth if you're interested to find out more.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all that I wanted to ask.
+:::<!--Custom String Listener: TalkSentence_502140126-->
+:::'''Hongling:''' Alright, you're always welcome to join the Yanqing Galactic Fan Club.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have anything to talk about today.
+::'''Hongling:''' Alright, remember that you're always welcome to join the Yanqing Galactic Fan Club.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hongling
+|zhs  = 红灵
+|zht  = 紅靈
+|ja   = 紅霊
+|ko   = 홍령
+|es   = Hongling
+|fr   = Hongling
+|ru   = Хунлин
+|th   = Hongling
+|vi   = Hongling
+|de   = Hongling
+|id   = Hongling
+|pt   = Hongling
+}}
+==Change History==
+{{Change History|TODO}}

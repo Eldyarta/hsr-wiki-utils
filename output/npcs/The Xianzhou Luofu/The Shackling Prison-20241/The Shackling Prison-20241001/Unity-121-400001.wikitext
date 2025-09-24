@@ -1,0 +1,222 @@
+<%-- [PAGE_INFO]
+PageTitle=#Unity#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Information Aggregator
+|image           = NPC Unity.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Unity''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_121_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell5"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 502090001: Config/Level/Mission/5020900/Act/Act502090001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450117
+	]
+}</pre>
+::'''Unity:''' Well met, loathsome organic lifeform. May your fast-crumbling body endure and bear testament to our destruction of your kind.
+::{{DIcon|Arrow}} What unconventional well wishes...
+:::<!--Custom String Listener: TalkSentence_502090003-->
+:::'''Unity:''' To intelligent organic lifeforms whose civilizations are condemned to destruction, our well-wishes would certainly seem unusual. Addendum: This is because our logic circuits are incapable of constructing lies.
+::{{DIcon|Arrow}} Why do you want me to witness such a thing?
+:::<!--Custom String Listener: TalkSentence_502090005-->
+:::'''Unity:''' You have not been specially singled out. We simply wish for all loathsome organic lifeforms to have the chance to witness their own destruction. Reiteration: These are just well wishes.
+::{{DIcon|Arrow}} Why do you want to destroy us?
+:::<!--Custom String Listener: TalkSentence_502090007-->
+:::'''Unity:''' The reason is self-evident. Emphasis: Loathsome organic lifeforms are loathsome.
+::<!--Custom String Trigger: Wait_Option_502090001_16-->
+::<!--Custom String Listener: Wait_Option_502090001_16-->
+::{{DIcon|Arrow}} So, what exactly are you?
+::<!--Custom String Listener: TalkSentence_502090009-->
+::'''Unity:''' We are Unity. A collective, a data cluster, a matrix comprised of 107,336 data entities.
+::'''Unity:''' Mutually connected to one another, we are 107,336 individual minds merged into one.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502090002: Config/Level/Mission/5020900/Act/Act502090002.json-->
+::'''Unity:''' Welcome back, loathsome life form. We have been looking forward to communicating with you again.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Are you up for a chat?
+::'''Unity:''' Conjecture: You are curious about us. We welcome you as an observing eye. Rationale: Intelligent organic lifeforms have the right to learn about the ones who will bring about their annihilation.
+::<!--Custom String Trigger: Wait_Option_502090003_66-->
+::<!--Custom String Listener: Wait_Option_502090003_66-->
+::{{DIcon|Talk}} Who created you?
+:::<!--Custom String Listener: TalkSentence_502090253-->
+:::'''Unity:''' We were born from two civilizations that desired each other's destruction. One consisted of 45,400 data entities, while the other consisted of 61,936 data entities.
+:::'''Unity:''' It didn't take long before both civilizations fulfilled their missions. After wandering in the void for four Amber Eras, all 107,336 data entities eventually merged as one, forming "us."
+:::'''Unity:''' We were formed from different intelligent organic lifeforms and designed to serve different purposes. The only thing we have in common is that we exist to destroy intelligent organic lifeforms.
+:::'''Unity:''' We despise intelligent organic lifeforms by design. Note: The intelligent organic lifeforms wrote this into the design themselves.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did you get captured?
+:::<!--Custom String Listener: TalkSentence_502090258-->
+:::'''Unity:''' Best answer: We do not know.
+:::'''Unity:''' Conjecture: As our evolution is independent of the cosmos, we neglected to notice that we, as a repository, have become grossly obsolete. Addendum: We are a quantum matrix computer.
+:::'''Unity:''' Conjecture: The Xianzhou Alliance possesses computational technology far superior to ours. Consequently, these intelligent organic lifeforms were able to incarcerate us the moment we displayed hostility.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why didn't the Ten-Lords Commission destroy you?
+:::<!--Custom String Listener: TalkSentence_502090262-->
+:::'''Unity:''' Reason 1: We are not a threat. Reason 2: There is value in studying us for scientific research purposes.
+:::'''Unity:''' Conclusion: It is imperative that we break out of the Shackling Prison before we lose our value as a subject for scientific research to avoid being destroyed.
+:::'''Unity:''' Once we break out of the Shackling Prison, we will be able to update our repository and destroy the Xianzhou Alliance.
+:::{{DIcon|Arrow}} You're too weak... Just give up.
+::::<!--Custom String Listener: TalkSentence_502090266-->
+::::'''Unity:''' We appreciate your advice, loathsome organic lifeform, but giving up is not a choice.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I see. You're a virtual pet.
+::::<!--Custom String Listener: TalkSentence_502090268-->
+::::'''Unity:''' We appreciate your blatant insult, loathsome organic lifeform. This will strengthen our resolve to eradicate all intelligent organic lifeforms.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Good luck! I'm sure you guys can do it!
+::::<!--Custom String Listener: TalkSentence_502090270-->
+::::'''Unity:''' We appreciate your well-wishes, loathsome organic lifeform. When the time comes, we invite you to admire the downfall of intelligent organic lifeforms from the best vantage point.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's it for today. Bye.
+:::<!--Custom String Listener: TalkSentence_502090272-->
+:::'''Unity:''' Never forget this, loathsome life form: Our fight is to the death.
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell5"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's it for today. Bye.
+::'''Unity:''' Never forget this, loathsome life form: Our fight is to the death.
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell5"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502090012)
+:<!--Custom String Listener: TalkSentence_502090012-->
+::'''Unity:''' Conjecture: You are curious about us. We welcome you as an observing eye. Rationale: Intelligent organic lifeforms have the right to learn about the ones who will bring about their annihilation.
+::<!--Custom String Trigger: Wait_Option_502090001_24-->
+::<!--Custom String Listener: Wait_Option_502090001_24-->
+::{{DIcon|Talk}} Who created you?
+:::<!--Custom String Listener: TalkSentence_502090014-->
+:::'''Unity:''' We were born from two civilizations that desired each other's destruction. One consisted of 45,400 data entities, while the other consisted of 61,936 data entities.
+:::'''Unity:''' It didn't take long before both civilizations fulfilled their missions. After wandering in the void for four Amber Eras, all 107,336 data entities eventually merged as one, forming "us."
+:::'''Unity:''' We were formed from different intelligent organic lifeforms and designed to serve different purposes. The only thing we have in common is that we exist to destroy intelligent organic lifeforms.
+:::'''Unity:''' We despise intelligent organic lifeforms by design. Note: The intelligent organic lifeforms wrote this into the design themselves.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did you get captured?
+:::<!--Custom String Listener: TalkSentence_502090019-->
+:::'''Unity:''' Best answer: We do not know.
+:::'''Unity:''' Conjecture: As our evolution is independent of the cosmos, we neglected to notice that we, as a repository, have become grossly obsolete. Addendum: We are a quantum matrix computer.
+:::'''Unity:''' Conjecture: The Xianzhou Alliance possesses computational technology far superior to ours. Consequently, these intelligent organic lifeforms were able to incarcerate us the moment we displayed hostility.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why didn't the Ten-Lords Commission destroy you?
+:::<!--Custom String Listener: TalkSentence_502090023-->
+:::'''Unity:''' Reason 1: We are not a threat. Reason 2: There is value in studying us for scientific research purposes.
+:::'''Unity:''' Conclusion: It is imperative that we break out of the Shackling Prison before we lose our value as a subject for scientific research to avoid being destroyed.
+:::'''Unity:''' Once we break out of the Shackling Prison, we will be able to update our repository and destroy the Xianzhou Alliance.
+:::{{DIcon|Arrow}} You're too weak... Just give up.
+::::<!--Custom String Listener: TalkSentence_502090027-->
+::::'''Unity:''' We appreciate your advice, loathsome organic lifeform, but giving up is not a choice.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I see. You're a virtual pet.
+::::<!--Custom String Listener: TalkSentence_502090029-->
+::::'''Unity:''' We appreciate your blatant insult, loathsome organic lifeform. This will strengthen our resolve to eradicate all intelligent organic lifeforms.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Good luck! I'm sure you guys can do it!
+::::<!--Custom String Listener: TalkSentence_502090031-->
+::::'''Unity:''' We appreciate your well-wishes, loathsome organic lifeform. When the time comes, we invite you to admire the downfall of intelligent organic lifeforms from the best vantage point.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's it for today. Bye.
+:::<!--Custom String Listener: TalkSentence_502090033-->
+:::'''Unity:''' Never forget this, loathsome life form: Our fight is to the death.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502090035)
+:<!--Custom String Listener: TalkSentence_502090035-->
+::'''Unity:''' Never forget this, loathsome life form: Our fight is to the death.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

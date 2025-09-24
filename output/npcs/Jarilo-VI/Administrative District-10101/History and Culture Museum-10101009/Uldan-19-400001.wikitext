@@ -1,0 +1,357 @@
+<%-- [PAGE_INFO]
+PageTitle=#Uldan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Curator
+|image           = NPC Uldan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = History and Culture Museum
+|relatives       = 
+}}
+'''Uldan''' is an NPC on [[Jarilo-VI]], located in [[History and Culture Museum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|History and Culture Museum|npc_19_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501190101: Config/Level/Mission/5011901/Act/Act501190101.json-->
+::'''Uldan:''' Welcome to the Belobog History and Culture Museum, {{MC|f=young miss|m=young man}}. Is there anything an old man like me can help you with?
+::{{DIcon|Arrow}} I'm just here to visit the museum.
+:::<!--Custom String Listener: TalkSentence_501190103-->
+:::'''Uldan:''' Oh hoho, you're at the wrong place. This is the museum's warehouse. Head out then turn right, the exhibition hall is past the reception counter.
+::{{DIcon|Arrow}} I'm here solely to talk with older people.
+:::<!--Custom String Listener: TalkSentence_501190105-->
+:::'''Uldan:''' Hah, what a unique hobby. However, this is a museum after all. Since you're here, might as well have a tour. Head out then turn right, the exhibition hall is past the reception counter.
+::<!--Custom String Trigger: TalkSentence_501190106-->
+::<!--Custom String Listener: TalkSentence_501190106-->
+::'''Uldan:''' If you have any questions along your tour, or if you have any feedback or opinions, welcome to come talk to me...
+::'''Uldan:''' ...I am Uldan, former dean of the Belobog College of Art, and now the curator of this museum. Pleased to meet you.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+:;(If {{cx}}<!--SubMission Started: 800122502-->)
+:::<!--Trigger PerformanceE 501190102: Config/Level/Mission/5011901/Act/Act501190102.json-->
+::;(If {{cx}}<!--SubMission Started: 800122502-->)
+::::'''Uldan:''' Welcome to the Belobog History and Culture Museum. Is there anything an old curator like me can help you with?
+::::<!--Custom String Trigger: Mission_501190101-->
+::::<!--Custom String Listener: Mission_501190101-->
+::::{{DIcon|?}} About the portrait of Cyrille the Fool...
+:::::<!--Custom String Listener: TalkSentence_800122731-->
+:::::'''Uldan:''' (Trailblazer)... Did you say that the description of {{Color|keyword|nobold=1|Cyrille the Fool's}} portrait deviated from the truth?
+:::::'''Uldan:''' But... how's that possible? The description is taken from the history textbooks of the Belobog Academy. Everything is in black and white.
+:::::<!--Custom String Trigger: TalkSentence_800122735-->
+:::::<!--Custom String Listener: TalkSentence_800122735-->
+:::::{{DIcon|Talk}} I met Cyrille before.
+::::::<!--Custom String Listener: TalkSentence_800122734-->
+::::::'''Uldan:''' Well... Stop pulling my leg.
+::::::'''Uldan:''' Still, I can tell you have at least heard of Cyrille from your tone.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} I have evidence that supports Cyrille.
+::::::<!--Custom String Listener: TalkSentence_800122737-->
+::::::'''Uldan:''' Since you sound so sure of yourself, I'll take a look at your evidence.
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 800122503,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 800122739
+				},
+				{
+					"TalkSentenceID": 800122740
+				},
+				{
+					"TalkSentenceID": 800122741
+				},
+				{
+					"TalkSentenceID": 800122742
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Talk_800122502"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_501190151"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_501190151"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+::::{{DIcon|Exit}} I'll go ahead and tour now.
+:::::<!--Custom String Listener: TalkSentence_501190151-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 800122502-->)
+::::'''Uldan:''' Welcome to the Belobog History and Culture Museum. Is there anything an old curator like me can help you with?
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Started: 800122502-->)
+:::<!--Trigger PerformanceE 501190104: Config/Level/Mission/5011901/Act/Act501190104.json-->
+:::'''Uldan:''' Welcome to the Belobog History and Culture Museum. Is there anything an old curator like me can help you with?
+:::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 800120403-->)
+:{{DIcon|undefined}} I found the exhibit item from that old photo.
+::<!--Trigger PerformanceE 800120402: Config/Level/Mission/8001204/Act/Act800120402.json-->
+::'''Uldan:''' Hmm? Already? Let me have a look-see...
+::'''Uldan:''' Mmm... That's great. That's the one. It's still in good condition. Just a quick fix and it'll be ready for exhibition...
+::'''Uldan:''' Soon enough. This'll have pride of place in the General Hall. Well done, (Trailblazer).
+::<!--Custom String Trigger: Talk_800120402-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120402-->
+;(If {{cx}}<!--SubMission Started: 800120503--> and {{cx}}<!--SubMission Started: 800120403-->)
+:{{DIcon|undefined}} I found the exhibit item from that old photo.
+::<!--Trigger PerformanceE 800120503: Config/Level/Mission/8001205/Act/Act800120503.json-->
+::'''Uldan:''' Hmm? Already? Let me have a look-see...
+::'''Uldan:''' Mmm... That's great. That's the one. It's still in good condition. Just a quick fix and it'll be ready for exhibition...
+::'''Uldan:''' Soon enough. This'll have pride of place in the General Hall. Well done, (Trailblazer).
+::<!--Custom String Trigger: Talk_800120503-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120503-->
+;(If {{cx}}<!--SubMission Started: 800120603-->, {{cx}}<!--SubMission Started: 800120503-->, and {{cx}}<!--SubMission Started: 800120403-->)
+:{{DIcon|undefined}} I found the exhibit item from that treasure map.
+::<!--Trigger PerformanceE 800120603: Config/Level/Mission/8001206/Act/Act800120603.json-->
+::'''Uldan:''' Hmm? Already? Let me have a look-see...
+::'''Uldan:''' Mmm... That's great. That's the one. It's still in good condition. Just a quick fix and it'll be ready for exhibition...
+::'''Uldan:''' Soon enough. This'll have pride of place in the General Hall. Well done, (Trailblazer).
+::<!--Custom String Trigger: Talk_800120603-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120603-->
+;(If {{cx}}<!--SubMission Started: 800121403-->, {{cx}}<!--SubMission Started: 800120603-->, {{cx}}<!--SubMission Started: 800120503-->, and {{cx}}<!--SubMission Started: 800120403-->)
+:{{DIcon|undefined}} I've found the "treasure".
+::<!--Trigger PerformanceE 800121403: Config/Level/Mission/8001214/Act/Act800121403.json-->
+::'''Uldan:''' Good job. Let me take a look-see...
+::'''Uldan:''' ...
+::'''Uldan:''' This clock is just a consumer-grade display monitor. There's nothing unusual about it. If I have to say something, it's a style I only used when I was a kid.
+::{{DIcon|Arrow}} Why was this drawn on the old photos?
+::<!--Custom String Listener: TalkSentence_800121426-->
+::'''Uldan:''' Haha, who knows! Maybe it's a prank. Maybe it's some kids on a treasure hunt. Or maybe it really is a treasure that means a lot to someone out there.
+::'''Uldan:''' Just like so many other things in history, we modern humans can scarcely perceive the truth.
+::'''Uldan:''' I'm going to take them for cleaning and restoration. They'll be on display soon enough. (Trailblazer), thanks for bringing me this "treasure".
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121403-->
+;(If {{cx}}<!--SubMission Started: 800121503-->, {{cx}}<!--SubMission Started: 800121403-->, {{cx}}<!--SubMission Started: 800120603-->, {{cx}}<!--SubMission Started: 800120503-->, and {{cx}}<!--SubMission Started: 800120403-->)
+:{{DIcon|undefined}} I've found the "treasure".
+::<!--Trigger PerformanceE 800121503: Config/Level/Mission/8001215/Act/Act800121503.json-->
+::'''Uldan:''' These cabinets should be the terminal to control the mining gear. This model is long obsolete.
+::{{DIcon|Arrow}} Can this kind of thing really be used as an exhibition?
+:::<!--Custom String Listener: TalkSentence_800121524-->
+:::'''Uldan:''' Of course! These form a good record of daily life and industrial technology used in the underground mines. The whole point of opening the Industrial Hall is to showcase exhibits such as these.
+::{{DIcon|Arrow}} Maybe we should just chuck it in the trash?
+:::<!--Custom String Listener: TalkSentence_800121526-->
+:::'''Uldan:''' No need &mdash; I think it's perfectly reasonable to place them in a display cabinet.
+:::'''Uldan:''' The value of an exhibit is endowed by history, and these things indeed all bear a certain historical weight. They might not be tremendously ancient, but they are worth recording.
+::<!--Custom String Trigger: TalkSentence_800121528-->
+::<!--Custom String Listener: TalkSentence_800121528-->
+::'''Uldan:''' I'm going to take them for cleaning and restoration. They'll be on display soon enough. (Trailblazer), thanks for bringing me this "treasure".
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121503-->
+:{{DIcon|Talk}} I would like to chat with you...
+::<!--Trigger PerformanceE 501190103: Config/Level/Mission/5011901/Act/Act501190103.json-->
+::'''Uldan:''' Let's talk, I will do my best to answer your questions.
+::<!--Custom String Trigger: Wait_Option_501190103_38-->
+::<!--Custom String Listener: Wait_Option_501190103_38-->
+::{{DIcon|Talk}} What does the museum do?
+:::<!--Custom String Listener: TalkSentence_501190124-->
+:::'''Uldan:''' Belobog History and Culture Museum... As the name might suggest, it is a display gallery to showcase Belobog's history and culture to the public.
+:::'''Uldan:''' After the Supreme Guardian Cocolia's sacrifice, her daughter, Bronya had decided to open seven hundred years' worth of the Everwinter City's history to the masses, so this museum has become a window to our past.
+:::'''Uldan:''' Though, Belobog's history is only seven hundred years old, it's not really that long. Furthermore, many historical relics have already been buried under the snow, so the museum doesn't really have that many things to put up...
+:::'''Uldan:''' ...But we still squeezed all we can in an attempt to string our story together with the little historical sources and art pieces we have. As for our current situation... I guess our goal is somewhat fulfilled.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Belobog College of Art?
+:::<!--Custom String Listener: TalkSentence_501190129-->
+:::'''Uldan:''' It is one of the colleges under the University of Belobog. It specializes in providing art education to its students, so that we can nurture more artistic talents for our city.
+:::'''Uldan:''' The college is my alma mater, and I poured my heart and soul in it. I don't mean to indulge in self-praise, but when I was serving as its dean, the college's education level was at its historic peak...
+:::'''Uldan:''' ...Ahem, A good man does not brag about the past, let us move on from this. The more important thing right now is our Belobog History and Culture Museum.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to understand your past...
+:::<!--Custom String Listener: TalkSentence_501190133-->
+:::'''Uldan:''' Hehe, you're interested in an old man's past? I'm just an ordinary person, but since you asked, I'll tell you a little bit about myself.
+:::'''Uldan:''' I was a graduate of the Belobog College of Art. Back then, I had no fear and naively believed that me and my art has the power to change the world...
+:::'''Uldan:''' Well, you can guess the rest... Everywhere I go, I faced rejection. I became the stereotypical image of an artist... No opportunities, poor, starving, all of those. I could barely handle basic necessities like food and shelter, let alone my dreams.
+:::'''Uldan:''' The funny thing is, when I was ready to set down my paint brush and stop doing art for good, but then my alma mater handed me a deal &mdash; they wanted me to go back and become a professor, and so I agreed.
+:::'''Uldan:''' I gave it all I had, and eventually, I climbed my way up to become the dean of the college. I'm proud of all my students &mdash; many of which are famous artists in the Everwinter City.
+:::'''Uldan:''' My life has been pretty smooth sailing ever since. After my retirement, I accepted Supreme Guardian Bronya's invitation and became the curator of this museum.
+:::'''Uldan:''' What happens next? Well, we'll see.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no further questions.
+:::<!--Custom String Listener: TalkSentence_501190141-->
+:::'''Uldan:''' Heheh, take care now. I hope you enjoy this historical cultural tour.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501190103-->
+:{{DIcon|Exit}} I'll go ahead and tour now.
+::'''Uldan:''' Hehe, take care now. I hope you enjoy this historical cultural tour.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 800121104-->)
+:{{DIcon|undefined}} I've got the data.
+::<!--Trigger PerformanceE 800121104: Config/Level/Mission/8001211/Act/Act800121104.json-->
+::'''Uldan:''' Great work. I'll pass that on to our data modeler.
+::'''Uldan:''' Later on, you'll be able to see a replica automaton over in our Industrial Hall. Don't worry. They won't move around &mdash;
+::'''Uldan:''' &mdash; unless Boris has pulled another prank of his on us...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121104-->
+;(If {{cx}}<!--SubMission Started: 800121204--> and {{cx}}<!--SubMission Started: 800121104-->)
+:{{DIcon|undefined}} I've got the data.
+::<!--Trigger PerformanceE 800121104: Config/Level/Mission/8001211/Act/Act800121104.json-->
+::'''Uldan:''' Great work. I'll pass that on to our data modeler.
+::'''Uldan:''' Later on, you'll be able to see a replica automaton over in our Industrial Hall. Don't worry. They won't move around &mdash;
+::'''Uldan:''' &mdash; unless Boris has pulled another prank of his on us...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121204-->
+;(If {{cx}}<!--SubMission Started: 800121304-->, {{cx}}<!--SubMission Started: 800121204-->, and {{cx}}<!--SubMission Started: 800121104-->)
+:{{DIcon|undefined}} I've got the data.
+::<!--Trigger PerformanceE 800121104: Config/Level/Mission/8001211/Act/Act800121104.json-->
+::'''Uldan:''' Great work. I'll pass that on to our data modeler.
+::'''Uldan:''' Later on, you'll be able to see a replica automaton over in our Industrial Hall. Don't worry. They won't move around &mdash;
+::'''Uldan:''' &mdash; unless Boris has pulled another prank of his on us...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121304-->
+;(If {{cx}}<!--SubMission Started: 800120103-->)
+:{{DIcon|undefined}} I've got ''Ray of Dawn''.
+::<!--Trigger PerformanceE 800120103: Config/Level/Mission/8001201/Act/Act800120103.json-->
+::'''Uldan:''' Hmmm? You work pretty fast. Let me have a look-see...
+::'''Uldan:''' Mmmm... Mmm-hmm... ''Ray of Dawn'' &mdash; very nice. It's a great name.
+::'''Uldan:''' Good work, (Trailblazer). I know just where to hang it...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120103-->
+;(If {{cx}}<!--SubMission Started: 800120203--> and {{cx}}<!--SubMission Started: 800120103-->)
+:{{DIcon|undefined}} I've got ''The Laborers''.
+::<!--Trigger PerformanceE 800120203: Config/Level/Mission/8001202/Act/Act800120203.json-->
+::'''Uldan:''' Really? That was much faster than anticipated. Let me have a look-see...
+::'''Uldan:''' Mmm... Mmm-hmm... ''The Laborers'' &mdash; Ha, looks like he's improved.
+::'''Uldan:''' Thanks for the hard work, (Trailblazer). I'm off now to arrange the exhibit...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120203-->
+;(If {{cx}}<!--SubMission Started: 800120303-->, {{cx}}<!--SubMission Started: 800120203-->, and {{cx}}<!--SubMission Started: 800120103-->)
+:{{DIcon|undefined}} I've got the painting with the Golden Theater.
+::<!--Trigger PerformanceE 800120303: Config/Level/Mission/8001203/Act/Act800120303.json-->
+::'''Uldan:''' Oh? Let me see... He's pretty darn good.
+::'''Uldan:''' But he hasn't given this painting a name yet. (Trailblazer), you've put in the miles running after this for the museum. The honor of naming it should belong to you.
+::'''Uldan:''' What do you think this painting should be titled?
+::{{DIcon|Arrow}} ''Golden Theater''.
+:::<!--Custom String Listener: TalkSentence_800120376-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 40,
+	"Value": "1"
+}</pre>
+:::'''Uldan:''' Haha, yes &mdash; straight to the point. Certainly in line with the nomadist school of thought &mdash; an artwork that demonstrates Belobog to all kinds of people.
+:::'''Uldan:''' ...Not bad. I bet Rebini himself would love this name. So be it.
+::{{DIcon|Arrow}} ''Goliards's Golden Sound''.
+:::<!--Custom String Listener: TalkSentence_800120379-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 40,
+	"Value": "2"
+}</pre>
+:::'''Uldan:''' Oh, now that's unexpected. Who knew that people still remember the name of the theater's first-ever director...
+:::'''Uldan:''' She did say: "If the world was forged in cold silver, then it shall be challenged by the molten gold known as music"...
+:::'''Uldan:''' ...Not bad. I love this name. So be it.
+::{{DIcon|Arrow}} ''Can't Tell What This Is''.
+:::<!--Custom String Listener: TalkSentence_800120383-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 40,
+	"Value": "3"
+}</pre>
+:::'''Uldan:''' Now that name is particularly... Avant-garde.
+:::'''Uldan:''' I might have my own issues with the name, but I still promised you naming rights... So be it.
+::{{DIcon|Arrow}} I'm really indecisive about naming things...
+:::<!--Custom String Listener: TalkSentence_800120386-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 40,
+	"Value": "1"
+}</pre>
+:::'''Uldan:''' Haha, I get it. Then let's spare ourselves the trouble and just name it ''Golden Theater''.
+::<!--Custom String Trigger: TalkSentence_800120387-->
+::<!--Custom String Listener: TalkSentence_800120387-->
+::'''Uldan:''' Good work, (Trailblazer). Now it's ready to be displayed...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120303-->
+;(If {{cx}}<!--SubMission Started: 800121903-->, {{cx}}<!--SubMission Started: 800120303-->, {{cx}}<!--SubMission Started: 800120203-->, and {{cx}}<!--SubMission Started: 800120103-->)
+:{{DIcon|undefined}} I took a picture of the ice sculpture...
+::<!--Trigger PerformanceE 800121903: Config/Level/Mission/8001219/Act/Act800121903.json-->
+::'''Uldan:''' ...
+::'''Uldan:''' Great shot. This will be a great reference for that modeling. I believe everyone will be interested in this, too.
+::'''Uldan:''' I do know that most people attracted to the museum by this kind of thing are just curious about the encased monsters... But if we can use this to teach more people about history, then it's all worthwhile.
+::'''Uldan:''' Good job. I hope they'll bring more visitors to the museum.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121903-->
+;(If {{cx}}<!--SubMission Started: 800122003-->, {{cx}}<!--SubMission Started: 800121903-->, {{cx}}<!--SubMission Started: 800120303-->, {{cx}}<!--SubMission Started: 800120203-->, and {{cx}}<!--SubMission Started: 800120103-->)
+:{{DIcon|undefined}} I took a picture of the ice sculpture...
+::<!--Trigger PerformanceE 800122003: Config/Level/Mission/8001220/Act/Act800122003.json-->
+::'''Uldan:''' ...
+::'''Uldan:''' Great shot. This will be a great reference for that modeling. I believe everyone will be interested in this, too.
+::'''Uldan:''' I do know that most people attracted to the museum by this kind of thing are just curious about the encased monsters... But if we can use this to teach more people about history, then it's all worthwhile.
+::'''Uldan:''' Good job. I hope they'll bring more visitors to the museum.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800122003-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

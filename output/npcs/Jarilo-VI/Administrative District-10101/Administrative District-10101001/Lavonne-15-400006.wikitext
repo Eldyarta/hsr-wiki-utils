@@ -1,0 +1,332 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lavonne#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Real Estate Agent
+|image           = NPC Lavonne.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Lavonne''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400006}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501023901: Config/Level/Mission/5010239/Act/Act501023901.json-->
+::'''Lavonne:''' Great location in the outskirt of the city, energy and water already sorted out. For this fully furnished property with fabulous interior design, you need to bring nothing but yourself! High demand, limited supply! I'd want to take one for myself! Hey, you there! What are you waiting for?
+::{{DIcon|Arrow}} I'm waiting for you to finish.
+:::<!--Custom String Listener: TalkSentence_501023902-->
+:::'''Lavonne:''' What else can be said? The price is unbeatable! I have friends in high places. You get my drift? My sources have told me that the price of this property will only go up in the next two years.
+:::'''Lavonne:''' An increase of thirty percent... no, forty! To be honest with you, I'm being conservative here.
+:::'''Lavonne:''' The actual number is at least this much. Don't look so scared. See what I mean here? I'm trying to keep it on the down low, because...
+::{{DIcon|Arrow}} I'm not looking to buy a property.
+:::<!--Custom String Listener: TalkSentence_501023906-->
+:::'''Lavonne:''' Sure, sure, young people are not in a hurry. I get it. Let's put it this way: From the perspective of an investor, we are not talking about a house to live in. It's an asset!
+:::'''Lavonne:''' If I were you, I wouldn't miss out on this opportunity. Buy it now, wait for the price to go up and sell it. Easy money!
+:::'''Lavonne:''' Tell you this, if you buy the property and decide to sell it at some point, no matter if you find a potential buyer, I'll list it for you 13% higher than the current price. You have my word.
+::<!--Custom String Trigger: TalkSentence_501023946-->
+::<!--Custom String Listener: TalkSentence_501023946-->
+::'''Lavonne:''' Trust me, I am the best local property agent. There hasn't been a house that I couldn't sell!
+::'''Lavonne:''' I've probably said enough. Anyway, think about my proposal. Don't make a decision that you will someday regret.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501023902: Config/Level/Mission/5010239/Act/Act501023902.json-->
+::'''Lavonne:''' Good to see you back. Did you have time to consider buying the property we talked about?
+::'''Lavonne:''' Or is there anything else you want to talk about?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301020403-->)
+:{{DIcon|undefined}} Wallace wants to be friends with you.
+::<!--Trigger PerformanceE 301020403: Config/Level/Mission/3010201/Act/Act301020403.json-->
+::'''Lavonne:''' Wallace? You mean Wallace Limestein?
+::'''Lavonne:''' Sure, I can be his friend.
+::{{DIcon|Arrow}} ...
+::{{DIcon|Arrow}} What?
+::{{DIcon|Arrow}} I didn't expect you to say yes...
+::<!--Custom String Listener: TalkSentence_301020437-->
+::'''Lavonne:''' Why are you surprised? He is a Limestein! Do you know how many properties his family owns in the Administrative District?
+::'''Lavonne:''' If I could befriend Wallace, the doors of the real estate market in the Administrative District... no, the entire Belobog would be open for me!
+::'''Lavonne:''' How could I miss such a good opportunity?
+::{{DIcon|Arrow}} Please take a look at this photo first.
+::<!--Custom String Listener: TalkSentence_301020441-->
+::'''Lavonne:''' Photo? What photo?
+::'''Lavonne:''' I looked at it. What about it? Isn't this just an ordinary photo?
+::'''Lavonne:''' Oh... I see. The Limesteins are planning to buy the Golden Theater, aren't they? That's why Mr. Wallace wants to make friends with me. He wants me, a senior real estate agent, to give him some professional advice.
+::'''Lavonne:''' Mr. Wallace is indeed different. He uses a subtle and elegant way to convey that message... I can't wait to meet him!
+::'''Lavonne:''' I still have some work to do. Please tell Mr. Wallace that I will contact him when I am free.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020403-->
+;(If {{cx}}<!--SubMission Started: 301150502--> and {{cx}}<!--SubMission Started: 301020403-->)
+:{{DIcon|undefined}} I'll help you exercise your rightful rights!
+::<!--Trigger PerformanceE 301150502: Config/Level/Mission/3011505/Act/Act301150502.json-->
+::'''Lavonne:''' Ah, so you're a member of The Rightful Rights Society too...
+::'''Lavonne:''' As for my request... Just come with me to the Goethe Hotel and I'll treat you to afternoon tea &mdash; Does that sound like a good deal?
+::{{DIcon|Arrow}} Count me in then.
+:::<!--Custom String Listener: TalkSentence_301150805-->
+:::'''Lavonne:''' Aha, that's a reaction I like. The other members all ran away when they heard I wanted to treat them to tea... They thought I'm trying to sell something to them.
+::{{DIcon|Arrow}} Are you trying to sell me something?
+:::<!--Custom String Listener: TalkSentence_301150807-->
+:::'''Lavonne:''' Hold it &mdash; Don't talk about work! You... Why do you all react in the same way!?
+::<!--Custom String Trigger: Wait_Option_301150501_365-->
+::<!--Custom String Listener: Wait_Option_301150501_365-->
+::{{DIcon|Arrow}} Then why are you inviting me to tea?
+:::<!--Custom String Listener: TalkSentence_301150809-->
+:::'''Lavonne:''' There is no why &mdash; I just want to have some tea and get away from work. Isn't that enough of a reason? Isn't that what the Society does?
+::{{DIcon|Arrow}} I mean, this is what you do every day...
+:::<!--Custom String Listener: TalkSentence_301150811-->
+:::'''Lavonne:''' Okay, that's true, but I just want to have some tea and get away from work. Isn't that enough of a reason? Isn't that what the Society does?
+::<!--Custom String Trigger: TalkSentence_301150812-->
+::<!--Custom String Listener: TalkSentence_301150812-->
+::'''Lavonne:''' Alright alright, I only have so much time to relax &mdash; Go wait for me in the Goethe Hotel lobby and I'll be there soon!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150502-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} Can we talk...?
+::<!--Custom String Trigger: TalkSentence_501023957-->
+::<!--Custom String Listener: TalkSentence_501023957-->
+::{{DIcon|Talk}} I'd like to know more about these properties.
+:::<!--Custom String Listener: TalkSentence_501023958-->
+:::'''Lavonne:''' It'll be too late if you don't make up your mind soon! If you have any questions regarding the property, I suggest that you ask me now.
+:::<!--Custom String Trigger: OptionTalk_501023903_01-->
+:::<!--Custom String Listener: OptionTalk_501023903_01-->
+:::{{DIcon|Talk}} Are you certain about the info of the property?
+::::<!--Custom String Listener: TalkSentence_501023962-->
+::::'''Lavonne:''' Of course! I'm working with influential figures in Qlipoth Fort on a number of projects. I've even met the current Supreme Guardian a few times.
+::::'''Lavonne:''' I can't go into details, as many are involved if you see what I mean. I trust we understand each other. All I can say is if you are in, you won't regret it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} But I don't have enough money...
+::::<!--Custom String Listener: TalkSentence_501023959-->
+::::'''Lavonne:''' I understand your concern. Let me tell you this, lots of people have already invested in it.
+::::'''Lavonne:''' All I need is a deposit, with which I will be able to secure your place for the property. Sounds good, huh? Money is not the problem here. In the long run, the earlier you make the investment, the more you get in return.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} But the outskirts have only snow-covered fields.
+::::<!--Custom String Listener: TalkSentence_501023947-->
+::::'''Lavonne:''' I took you for someone who can think long-term! Don't be shortsighted.
+::::'''Lavonne:''' A property is an investment. If you wait until the house is built before you buy it, that'll eat into your profit margin. I've seen lots of people who like to wait before making a purchase. By the time they made their decisions, the price had already gone out of their league.
+::::'''Lavonne:''' You, my friend, look like a shrewd investor. Buy it before it's listed and you'll be raking in money in a few years' time.
+::::'''Lavonne:''' Now when you look at those fields again, do they still look like snow-covered dust bowls? They're unexplored gold mines!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I still think you are a scammer...
+::::<!--Custom String Listener: TalkSentence_501023952-->
+::::'''Lavonne:''' Don't be rude! I am Lavonne. If you ask around, there's not a single soul in the Administrative District who doesn't know my name. Only fools mistake opportunities for fraud. I trust you are not one of them?
+::::'''Lavonne:''' Even if you don't trust me, surely you have at least heard about the Supreme Guardian's new housing bill? Go ask around and see it for yourself.
+::::'''Lavonne:''' I myself have bought two properties! I can't be scamming myself, can I?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I need some time to process all that information.
+::::<!--Custom String Listener: TalkSentence_501023965-->
+::::'''Lavonne:''' It's now or never. Please make a decision soon.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can I ask you something else?
+:::<!--Custom String Listener: TalkSentence_501023967-->
+:::'''Lavonne:''' Ask away. It's always a pleasure to help a customer.
+:::<!--Custom String Trigger: TalkSentence_501023966-->
+:::<!--Custom String Listener: TalkSentence_501023966-->
+:::{{DIcon|Talk}} You are the only property agent in Belobog?
+::::<!--Custom String Listener: TalkSentence_501023968-->
+::::'''Lavonne:''' Technically, I'm the only one in the Administrative District. I do have a few competitors in other districts, but I'm sure you can tell who deals with bigger clients judging by the areas we operate in. They won't be a threat to me in a million years.
+::::'''Lavonne:''' I have data on all property sales in the Administrative District for the past seven hundred years, and I know the nitty-gritty of the history of the Eight Belobog Families. My knowledge has won me the trust of both government officials and regular people.
+::::'''Lavonne:''' People from all walks of life come to me when they need to find properties. Demand for housing has always been high, and my job is to help people find what they need.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} If so, what's the deal with the not-yet-built property we talked about?
+::::<!--Custom String Listener: TalkSentence_501023972-->
+::::'''Lavonne:''' Nah, you don't want me to bother you with trivial details. What we talked about is a new business model called presale. I take the money from the buyer, send it to real estate company for delivery. If for some reason the property can't be delivered, I'll simply refund the buyer. Everyone ended up happy.
+::::'''Lavonne:''' Now, the new Guardian has taken office. As far as I know, she will highly likely be in favor of developing new districts. Combining that with how I am the only property agent in the Administrative District...
+::::'''Lavonne:''' Therefore, I decided to be a smart businesswoman who knows how to spread risk and maintain cash flow. This is a great opportunity if you are looking to make a fortune. Don't miss out!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} There we go.
+::::<!--Custom String Listener: TalkSentence_501023990-->
+::::'''Lavonne:''' Anything else you'd like to ask?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all from me.
+:::<!--Custom String Listener: TalkSentence_501023977-->
+:::'''Lavonne:''' So soon? Not going to make the purchase? It's a once-in-a-lifetime opportunity!
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 101150231-->)
+:{{DIcon}} Can we talk...?
+::<!--Custom String Trigger: TalkSentence_501023957-->
+::<!--Custom String Listener: TalkSentence_501023957-->
+::<!--Custom String Listener: TalkSentence_501023957-->
+::{{DIcon|Talk}} I'd like to know more about these properties.
+:::<!--Custom String Listener: TalkSentence_501023958-->
+:::'''Lavonne:''' It'll be too late if you don't make up your mind soon! If you have any questions regarding the property, I suggest that you ask me now.
+:::<!--Custom String Trigger: OptionTalk_501023903_01-->
+:::<!--Custom String Listener: OptionTalk_501023903_01-->
+:::{{DIcon|Talk}} Are you certain about the info of the property?
+::::<!--Custom String Listener: TalkSentence_501023962-->
+::::'''Lavonne:''' Of course! I'm working with influential figures in Qlipoth Fort on a number of projects. I've even met the current Supreme Guardian a few times.
+::::'''Lavonne:''' I can't go into details, as many are involved if you see what I mean. I trust we understand each other. All I can say is if you are in, you won't regret it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} But I don't have enough money...
+::::<!--Custom String Listener: TalkSentence_501023959-->
+::::'''Lavonne:''' I understand your concern. Let me tell you this, lots of people have already invested in it.
+::::'''Lavonne:''' All I need is a deposit, with which I will be able to secure your place for the property. Sounds good, huh? Money is not the problem here. In the long run, the earlier you make the investment, the more you get in return.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} But the outskirts have only snow-covered fields.
+::::<!--Custom String Listener: TalkSentence_501023947-->
+::::'''Lavonne:''' I took you for someone who can think long-term! Don't be shortsighted.
+::::'''Lavonne:''' A property is an investment. If you wait until the house is built before you buy it, that'll eat into your profit margin. I've seen lots of people who like to wait before making a purchase. By the time they made their decisions, the price had already gone out of their league.
+::::'''Lavonne:''' You, my friend, look like a shrewd investor. Buy it before it's listed and you'll be raking in money in a few years' time.
+::::'''Lavonne:''' Now when you look at those fields again, do they still look like snow-covered dust bowls? They're unexplored gold mines!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I still think you are a scammer...
+::::<!--Custom String Listener: TalkSentence_501023952-->
+::::'''Lavonne:''' Don't be rude! I am Lavonne. If you ask around, there's not a single soul in the Administrative District who doesn't know my name. Only fools mistake opportunities for fraud. I trust you are not one of them?
+::::'''Lavonne:''' Even if you don't trust me, surely you have at least heard about the Supreme Guardian's new housing bill? Go ask around and see it for yourself.
+::::'''Lavonne:''' I myself have bought two properties! I can't be scamming myself, can I?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I need some time to process all that information.
+::::<!--Custom String Listener: TalkSentence_501023965-->
+::::'''Lavonne:''' It's now or never. Please make a decision soon.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can I ask you something else?
+:::<!--Custom String Listener: TalkSentence_501023967-->
+:::'''Lavonne:''' Ask away. It's always a pleasure to help a customer.
+:::<!--Custom String Trigger: TalkSentence_501023966-->
+:::<!--Custom String Listener: TalkSentence_501023966-->
+:::{{DIcon|Talk}} You are the only property agent in Belobog?
+::::<!--Custom String Listener: TalkSentence_501023968-->
+::::'''Lavonne:''' Technically, I'm the only one in the Administrative District. I do have a few competitors in other districts, but I'm sure you can tell who deals with bigger clients judging by the areas we operate in. They won't be a threat to me in a million years.
+::::'''Lavonne:''' I have data on all property sales in the Administrative District for the past seven hundred years, and I know the nitty-gritty of the history of the Eight Belobog Families. My knowledge has won me the trust of both government officials and regular people.
+::::'''Lavonne:''' People from all walks of life come to me when they need to find properties. Demand for housing has always been high, and my job is to help people find what they need.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} If so, what's the deal with the not-yet-built property we talked about?
+::::<!--Custom String Listener: TalkSentence_501023972-->
+::::'''Lavonne:''' Nah, you don't want me to bother you with trivial details. What we talked about is a new business model called presale. I take the money from the buyer, send it to real estate company for delivery. If for some reason the property can't be delivered, I'll simply refund the buyer. Everyone ended up happy.
+::::'''Lavonne:''' Now, the new Guardian has taken office. As far as I know, she will highly likely be in favor of developing new districts. Combining that with how I am the only property agent in the Administrative District...
+::::'''Lavonne:''' Therefore, I decided to be a smart businesswoman who knows how to spread risk and maintain cash flow. This is a great opportunity if you are looking to make a fortune. Don't miss out!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} There we go.
+::::<!--Custom String Listener: TalkSentence_501023990-->
+::::'''Lavonne:''' Anything else you'd like to ask?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all from me.
+:::<!--Custom String Listener: TalkSentence_501023977-->
+:::'''Lavonne:''' So soon? Not going to make the purchase? It's a once-in-a-lifetime opportunity!
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to know more about these properties.
+:::<!--Custom String Listener: TalkSentence_501023958-->
+:::'''Lavonne:''' It'll be too late if you don't make up your mind soon! If you have any questions regarding the property, I suggest that you ask me now.
+:::<!--Custom String Trigger: OptionTalk_501023903_01-->
+:::<!--Custom String Listener: OptionTalk_501023903_01-->
+:::{{DIcon|Talk}} Are you certain about the info of the property?
+::::<!--Custom String Listener: TalkSentence_501023962-->
+::::'''Lavonne:''' Of course! I'm working with influential figures in Qlipoth Fort on a number of projects. I've even met the current Supreme Guardian a few times.
+::::'''Lavonne:''' I can't go into details, as many are involved if you see what I mean. I trust we understand each other. All I can say is if you are in, you won't regret it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} But I don't have enough money...
+::::<!--Custom String Listener: TalkSentence_501023959-->
+::::'''Lavonne:''' I understand your concern. Let me tell you this, lots of people have already invested in it.
+::::'''Lavonne:''' All I need is a deposit, with which I will be able to secure your place for the property. Sounds good, huh? Money is not the problem here. In the long run, the earlier you make the investment, the more you get in return.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} But the outskirts have only snow-covered fields.
+::::<!--Custom String Listener: TalkSentence_501023947-->
+::::'''Lavonne:''' I took you for someone who can think long-term! Don't be shortsighted.
+::::'''Lavonne:''' A property is an investment. If you wait until the house is built before you buy it, that'll eat into your profit margin. I've seen lots of people who like to wait before making a purchase. By the time they made their decisions, the price had already gone out of their league.
+::::'''Lavonne:''' You, my friend, look like a shrewd investor. Buy it before it's listed and you'll be raking in money in a few years' time.
+::::'''Lavonne:''' Now when you look at those fields again, do they still look like snow-covered dust bowls? They're unexplored gold mines!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I still think you are a scammer...
+::::<!--Custom String Listener: TalkSentence_501023952-->
+::::'''Lavonne:''' Don't be rude! I am Lavonne. If you ask around, there's not a single soul in the Administrative District who doesn't know my name. Only fools mistake opportunities for fraud. I trust you are not one of them?
+::::'''Lavonne:''' Even if you don't trust me, surely you have at least heard about the Supreme Guardian's new housing bill? Go ask around and see it for yourself.
+::::'''Lavonne:''' I myself have bought two properties! I can't be scamming myself, can I?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I need some time to process all that information.
+::::<!--Custom String Listener: TalkSentence_501023965-->
+::::'''Lavonne:''' It's now or never. Please make a decision soon.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can I ask you something else?
+:::<!--Custom String Listener: TalkSentence_501023967-->
+:::'''Lavonne:''' Ask away. It's always a pleasure to help a customer.
+:::<!--Custom String Trigger: TalkSentence_501023966-->
+:::<!--Custom String Listener: TalkSentence_501023966-->
+:::{{DIcon|Talk}} You are the only property agent in Belobog?
+::::<!--Custom String Listener: TalkSentence_501023968-->
+::::'''Lavonne:''' Technically, I'm the only one in the Administrative District. I do have a few competitors in other districts, but I'm sure you can tell who deals with bigger clients judging by the areas we operate in. They won't be a threat to me in a million years.
+::::'''Lavonne:''' I have data on all property sales in the Administrative District for the past seven hundred years, and I know the nitty-gritty of the history of the Eight Belobog Families. My knowledge has won me the trust of both government officials and regular people.
+::::'''Lavonne:''' People from all walks of life come to me when they need to find properties. Demand for housing has always been high, and my job is to help people find what they need.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} If so, what's the deal with the not-yet-built property we talked about?
+::::<!--Custom String Listener: TalkSentence_501023972-->
+::::'''Lavonne:''' Nah, you don't want me to bother you with trivial details. What we talked about is a new business model called presale. I take the money from the buyer, send it to real estate company for delivery. If for some reason the property can't be delivered, I'll simply refund the buyer. Everyone ended up happy.
+::::'''Lavonne:''' Now, the new Guardian has taken office. As far as I know, she will highly likely be in favor of developing new districts. Combining that with how I am the only property agent in the Administrative District...
+::::'''Lavonne:''' Therefore, I decided to be a smart businesswoman who knows how to spread risk and maintain cash flow. This is a great opportunity if you are looking to make a fortune. Don't miss out!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} There we go.
+::::<!--Custom String Listener: TalkSentence_501023990-->
+::::'''Lavonne:''' Anything else you'd like to ask?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all from me.
+:::<!--Custom String Listener: TalkSentence_501023977-->
+:::'''Lavonne:''' So soon? Not going to make the purchase? It's a once-in-a-lifetime opportunity!
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How's business?
+::'''Lavonne:''' You mean the real estate at the outskirts of the city? Do you remember what I told you once before? "Lady Bronya, our next Supreme Guardian, is gentle and a centrist." Well, turns out that I was right.
+::'''Lavonne:''' I told you that the development of areas outside the city was carved in stone. No one had imagined this before, and so property prices were low...
+::'''Lavonne:''' But now that the Overworld and Underworld are going to be connected soon, people are going to be buying up property for sure. Naturally, housing prices are going to start climbing up. Then, people can make money hand over fist, right?
+::{{DIcon|Arrow}} So, did you sell the place?
+::{{DIcon|Arrow}} So, how much money did you make?
+::<!--Custom String Listener: TalkSentence_501023986-->
+::'''Lavonne:''' Trade secret. No comment. All I can tell you is that real estate has been hot. Better buy while you've got the chance! If you're too late, you might not be able to afford the prices and will be stuck renting a place.
+::'''Lavonne:''' In the future, there might be a lot of people looking to live out that way. Demand for housing will outpace supply... I'm revealing insider information I got from some important people in Qlipoth Fort. It is totally reliable!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} I'm in a hurry. See you later.
+::'''Lavonne:''' Smart people always seize opportunities when they present themselves. I trust you are no exception.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_301150802)
+:<!--Custom String Listener: TalkSentence_301150802-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lavonne
+|zhs  = 拉雯妮
+|zht  = 拉雯妮
+|ja   = ラウェンニ
+|ko   = 라본느
+|es   = Lavonne
+|fr   = Lavonne
+|ru   = Лавонна
+|th   = Lavonne
+|vi   = Lavonne
+|de   = Lavonne
+|id   = Lavonne
+|pt   = Lavonne
+}}
+==Change History==
+{{Change History|TODO}}

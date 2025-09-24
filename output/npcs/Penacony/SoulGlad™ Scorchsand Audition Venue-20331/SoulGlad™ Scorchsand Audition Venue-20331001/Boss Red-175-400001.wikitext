@@ -1,0 +1,1598 @@
+<%-- [PAGE_INFO]
+PageTitle=#Boss Red#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Boss Red.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = SoulGlad™ Scorchsand Audition Venue
+|relatives       = 
+}}
+'''Boss Red''' is an NPC on [[Penacony]], located in [[SoulGlad™ Scorchsand Audition Venue]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|SoulGlad™ Scorchsand Audition Venue|npc_175_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 503070003: Config/Level/Mission/5030700/Act/Act503070003.json-->
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Boss Red:''' Tweet! What a bunch of arrogant fellas, already thinking about flying before their wings have even fully grown.
+:::'''Boss Red:''' They don't even have the discipline to practice flapping their wings, how will they even bring back more stones in the future to expand the town?
+:::'''Boss Red:''' Wait till I catch all of you, I'll make you all train till you beg for mercy, tweet!
+:::{{DIcon|Arrow}} Training on what?
+:::<!--Custom String Listener: TalkSentence_503070205-->
+::;(If {{cx}}<!--performance 414030305 has been seen-->)
+::::'''Boss Red:''' Oho, it's someone new, tweet.
+::::'''Boss Red:''' Tweet, this SoulGlad smell... Could you be Clockie's friend, tweet? I thought you looked like someone tough...
+::::'''Boss Red:''' Wait till I finish drilling those birds at the Soda Racetrack, we must see who's the faster one, tweet.
+::;(If {{cx}}<!--performance 414030305 has not been seen-->)
+::::'''Boss Red:''' Oho! It's Clockie's sturdy friend, tweet.
+::::'''Boss Red:''' Is it the Baseballer or Ballbatter... Not that it matters, tweet!
+::::'''Boss Red:''' The bird at the Soda Racetrack should learn from you. Don't go hiding just because things get tough, tweet.
+:::{{DIcon|Arrow}} Soda Racetrack?
+:::<!--Custom String Listener: TalkSentence_503070212-->
+:::'''Boss Red:''' Ho-ho, it's the high-octane grounds where everyone in Dreamville has flying races, tweet.
+:::'''Boss Red:''' Only an awesome bird like me can claim that throne atop the Great Tree. Forget about Young Master Gold... even Clockie or Brother Hanu could not outfly me, tweet.
+:::{{DIcon|Arrow}} Those two are also birds?
+:::{{DIcon|Arrow}} They let you win, didn't they?
+:::{{DIcon|Arrow}} You call yourself top gun?
+:::<!--Custom String Listener: TalkSentence_503070217-->
+:::'''Boss Red:''' Real hardcore birds are never concerned with the details, tweet.
+:::'''Boss Red:''' These days, newly hatched birds are getting more capricious. I tell them to practice flapping their wings a few thousand more times, but they run away as soon as I turn my head, incessantly tweeting about wanting to watch the races, tweet.
+:::'''Boss Red:''' Oho! My hardy friend, I've suddenly had a great idea. How about you help me catch them, tweet?
+:::'''Boss Red:''' They'll surely hide from me if I get close, but they're not afraid of you, tweet.
+:::'''Boss Red:''' If you can do it, I'll present you with the title of "Fastest Flying Bird of Dreamville," tweet.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Boss Red:''' Tweet!?
+::::'''Boss Red:''' To confirm, you're not really here to take my "Fastest Flying Bird of Dreamville" title away from me, right? Tweet tweet?
+::::'''Boss Red:''' This was supposed to be their allowance, but I'm giving it to you to punish them for escaping, tweet.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200212
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200213
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200213
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Inverse":true}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Boss Red:''' Tweet! You've found so many birds already! Do you have a clock that can see the future or something, tweet?
+:::::'''Boss Red:''' Take these rewards with you first. Let them witness the true form of what it means to be hardcore, tweet.
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200212
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+:::::'''Boss Red:''' Go and return those spineless fools to the Great Tree. I will drill their lessons into them in the Professor's stead, tweet.
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 503070004: Config/Level/Mission/5030700/Act/Act503070004.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Boss Red:''' Hee-ya! You've got some hardcore speed! The escaped little fellas have all been caught by you, tweet.
+:::::'''Boss Red:''' From now on, you're the fastest bird in the Dreamville, tweet! All these rewards are for you, tweet.
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200212
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200213
+			}
+		}
+	]
+}</pre>
+:::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Inverse":true}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::'''Boss Red:''' Hee-ya! You really caught them all! I concede to your greatness today, tweet.
+::::::'''Boss Red:''' From now on, you're the fastest bird in the Dreamville, tweet! All these rewards are for you, tweet.
+:::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200213
+			}
+		}
+	]
+}</pre>
+::::::<!--Ends the current performance-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Inverse":true}-->}})
+::::::'''Boss Red:''' I made an exception today and gave the little fellas the day off. How about a race with me? Tweet tweet?
+::::::<!--Custom String Trigger: TalkSentence_Option-->
+::::::<!--Custom String Listener: TalkSentence_Option-->
+::::::{{DIcon}} About yourself...
+:::::::<!--Custom String Listener: TalkSentence_503070303-->
+:::::::'''Boss Red:''' Do you know Stardust Amusement Park and the reflection room? It was I who led the birds in building those, tweet.
+:::::::'''Boss Red:''' When the town is in danger, I also lead everyone in fending off those bad guys. Everyone knows I'm Boss Red, and that I'm not to be trifled with, tweet!
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon}} Tell me the story of the origami birds...
+:::::::<!--Custom String Listener: TalkSentence_503070306-->
+:::::::'''Boss Red:''' Ho-ho, I've got plenty to talk about then, tweet.
+:::::::{{DIcon|Arrow}} About the Soda Racetrack...
+::::::::<!--Custom String Listener: TalkSentence_503070308-->
+::::::::'''Boss Red:''' This used to be the soda haven of Dreamville. The birds loved catching bugs here, tweet.
+::::::::'''Boss Red:''' But a bunch of baddies came into town, and smashed up our paradise and turned it to scorched earth. It took everyone's efforts to drive them out...
+::::::::'''Boss Red:''' So we built this racetrack to train our bodies. As long as everyone became stronger than everything else, baddies wouldn't dare bully us again, tweet.
+::::::::'''Boss Red:''' Residents who won on the racetrack would become Dreamville's stars! Brother Hanu, Clockie, Miss Note, Hamster Ball Knight, Old Man Wood, Professor Owl, and us birds here, we're all stars!
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Arrow}} About the townspeople...
+::::::::<!--Custom String Listener: TalkSentence_503070313-->
+::::::::'''Boss Red:''' There are plenty of menacing characters here in Dreamville, like Mr. Soda. He looks like he just muddles around all day, but we rely on him when it really counts, tweet.
+::::::::'''Boss Red:''' And Clockie too. Don't be fooled by his short legs. Once he gulps down SoulGlad, few birds can keep up with his speed, tweet.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Arrow}} About Professor Owl...
+::::::::<!--Custom String Listener: TalkSentence_503070316-->
+::::::::'''Boss Red:''' Oho! You also know our great Professor Owl? He's the one I look up to the most in Dreamville, tweet.
+::::::::'''Boss Red:''' He may look like he just perches in a tree all day, but when we were building Dreamville, there were so many baddies lurking in the forest. The Professor and Clockie took care of them all. They're the most hardcore among the real hardcore birds, tweet.
+::::::::'''Boss Red:''' My lifelong dream is to become an amazing bird like the Professor, tweet.
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon}} I need a few hints.
+:::::::<!--Custom String Listener: TalkSentence_503070320-->
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":8}},"Inverse":true}-->}})
+::::::::'''Boss Red:''' Hah... Those little fellas may be speedy when they're fleeing, but slowpokes like them won't even be able to escape my eyes...
+::::::::'''Boss Red:''' It's just that my memory's been hazy recently... Do you have any of those wondrous magic coins? I'll be able to remember with them, tweet!
+::::::::{{DIcon|Arrow}} (Take out an Aideen Token)
+:::::::::<!--Custom String Listener: TalkSentence_503070323-->
+::::::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerSound",
+			"SoundName": {
+				"Value": "Ev_vo_origamibirds_appear"
+			},
+			"EmitterType": "TargetEvaluator",
+			"TargetType": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503070323,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"PrevDuration": 0.1,
+			"KeepDuration": 0.1,
+			"PostDuration": 0.1,
+			"KeepDisplay": true,
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 503070324
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.TriggerSound",
+							"SoundName": {
+								"Value": "Ev_sfx_origamibird_eatcoin"
+							},
+							"EmitterType": "DefaultEmitter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.CharacterTriggerFreeStyle",
+			"TargetAlias": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			},
+			"StoryAvatarID": "NPC_Special_OrigamiBird_00",
+			"StoryMotionID": 900090014
+		},
+		{
+			"$type": "RPG.GameCore.WaitSecond",
+			"WaitTime": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 0.1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503070325,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 8
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 176
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070326
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 177
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070327
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 178
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070328
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 179
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070329
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 180
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070330
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 181
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070331
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 182
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070332
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 183
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070333
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 184
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070334
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 185
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070335
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 186
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070336
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 187
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070337
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 188
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070338
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 189
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070339
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 190
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070340
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 191
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070341
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 192
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070342
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 193
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070343
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 194
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070344
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 195
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070345
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_503070347"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+::::::::{{DIcon|Arrow}} Never mind.
+:::::::::<!--Custom String Listener: TalkSentence_503070347-->
+:::::::::'''Boss Red:''' Hi-yah, real hardcore birds are able to complete the task perfectly without help, tweet tweet!
+:::::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::::<!--Ends the current performance-->
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":8}},"Inverse":true}-->}})
+::::::::'''Boss Red:''' A coin for a clue. This is an ironclad rule among birds, tweet!
+::::::::'''Boss Red:''' Regardless, let's bring back that previous little one first! Tweet tweet!
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Ends the current performance-->
+::::::{{DIcon|Exit}} Catch you next time.
+:::::::<!--Custom String Listener: TalkSentence_503070351-->
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+:::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::::'''Boss Red:''' Tweet! Little ones, I will let you all know the price of escaping, tweet. Come back and challenge me when I'm done with their training, tweet.
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+:::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::::'''Boss Red:''' Hurry and bring the little ones back, tweet tweet!
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Boss Red:''' You move fast, tweet! If only the little fellas could be as speedy as you, we'd have nothing to fear from Boss Stone, tweet.
+:::::'''Boss Red:''' Here's your reward. Real hardcore birds will never let their friends' efforts be in vain, tweet.
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200212
+			}
+		}
+	]
+}</pre>
+:::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200212}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Boss Red:''' Oho, don't hesitate to ask me anything. Whether it's beating Boss Stone to a pulp or prettying up Dreamville, there's nothing I don't know, tweet.
+:::::<!--Custom String Trigger: TalkSentence_Option-->
+:::::<!--Custom String Listener: TalkSentence_Option-->
+:::::{{DIcon}} About yourself...
+::::::<!--Custom String Listener: TalkSentence_503070303-->
+::::::'''Boss Red:''' Do you know Stardust Amusement Park and the reflection room? It was I who led the birds in building those, tweet.
+::::::'''Boss Red:''' When the town is in danger, I also lead everyone in fending off those bad guys. Everyone knows I'm Boss Red, and that I'm not to be trifled with, tweet!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon}} Tell me the story of the origami birds...
+::::::<!--Custom String Listener: TalkSentence_503070306-->
+::::::'''Boss Red:''' Ho-ho, I've got plenty to talk about then, tweet.
+::::::{{DIcon|Arrow}} About the Soda Racetrack...
+:::::::<!--Custom String Listener: TalkSentence_503070308-->
+:::::::'''Boss Red:''' This used to be the soda haven of Dreamville. The birds loved catching bugs here, tweet.
+:::::::'''Boss Red:''' But a bunch of baddies came into town, and smashed up our paradise and turned it to scorched earth. It took everyone's efforts to drive them out...
+:::::::'''Boss Red:''' So we built this racetrack to train our bodies. As long as everyone became stronger than everything else, baddies wouldn't dare bully us again, tweet.
+:::::::'''Boss Red:''' Residents who won on the racetrack would become Dreamville's stars! Brother Hanu, Clockie, Miss Note, Hamster Ball Knight, Old Man Wood, Professor Owl, and us birds here, we're all stars!
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} About the townspeople...
+:::::::<!--Custom String Listener: TalkSentence_503070313-->
+:::::::'''Boss Red:''' There are plenty of menacing characters here in Dreamville, like Mr. Soda. He looks like he just muddles around all day, but we rely on him when it really counts, tweet.
+:::::::'''Boss Red:''' And Clockie too. Don't be fooled by his short legs. Once he gulps down SoulGlad, few birds can keep up with his speed, tweet.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} About Professor Owl...
+:::::::<!--Custom String Listener: TalkSentence_503070316-->
+:::::::'''Boss Red:''' Oho! You also know our great Professor Owl? He's the one I look up to the most in Dreamville, tweet.
+:::::::'''Boss Red:''' He may look like he just perches in a tree all day, but when we were building Dreamville, there were so many baddies lurking in the forest. The Professor and Clockie took care of them all. They're the most hardcore among the real hardcore birds, tweet.
+:::::::'''Boss Red:''' My lifelong dream is to become an amazing bird like the Professor, tweet.
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon}} I need a few hints.
+::::::<!--Custom String Listener: TalkSentence_503070320-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":8}},"Inverse":true}-->}})
+:::::::'''Boss Red:''' Hah... Those little fellas may be speedy when they're fleeing, but slowpokes like them won't even be able to escape my eyes...
+:::::::'''Boss Red:''' It's just that my memory's been hazy recently... Do you have any of those wondrous magic coins? I'll be able to remember with them, tweet!
+:::::::{{DIcon|Arrow}} (Take out an Aideen Token)
+::::::::<!--Custom String Listener: TalkSentence_503070323-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerSound",
+			"SoundName": {
+				"Value": "Ev_vo_origamibirds_appear"
+			},
+			"EmitterType": "TargetEvaluator",
+			"TargetType": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503070323,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"PrevDuration": 0.1,
+			"KeepDuration": 0.1,
+			"PostDuration": 0.1,
+			"KeepDisplay": true,
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 503070324
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.TriggerSound",
+							"SoundName": {
+								"Value": "Ev_sfx_origamibird_eatcoin"
+							},
+							"EmitterType": "DefaultEmitter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.CharacterTriggerFreeStyle",
+			"TargetAlias": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			},
+			"StoryAvatarID": "NPC_Special_OrigamiBird_00",
+			"StoryMotionID": 900090014
+		},
+		{
+			"$type": "RPG.GameCore.WaitSecond",
+			"WaitTime": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 0.1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503070325,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 8
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 176
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070326
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 177
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070327
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 178
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070328
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 179
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070329
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 180
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070330
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 181
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070331
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 182
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070332
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 183
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070333
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 184
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070334
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 185
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070335
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 186
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070336
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 187
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070337
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 188
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070338
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 189
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070339
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 190
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070340
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 191
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070341
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 192
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070342
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 193
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070343
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 194
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070344
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 195
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 503070345
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_503070347"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::::{{DIcon|Arrow}} Never mind.
+::::::::<!--Custom String Listener: TalkSentence_503070347-->
+::::::::'''Boss Red:''' Hi-yah, real hardcore birds are able to complete the task perfectly without help, tweet tweet!
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Ends the current performance-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":8}},"Inverse":true}-->}})
+:::::::'''Boss Red:''' A coin for a clue. This is an ironclad rule among birds, tweet!
+:::::::'''Boss Red:''' Regardless, let's bring back that previous little one first! Tweet tweet!
+::::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Catch you next time.
+::::::<!--Custom String Listener: TalkSentence_503070351-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::::'''Boss Red:''' Tweet! Little ones, I will let you all know the price of escaping, tweet. Come back and challenge me when I'm done with their training, tweet.
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200213}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::::'''Boss Red:''' Hurry and bring the little ones back, tweet tweet!
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Boss Red
+|zhs  = 赤红大哥
+|zht  = 赤紅大哥
+|ja   = ブラザー・レッド
+|ko   = 보스 레드
+|es   = Jefe Rojo
+|fr   = Chef&nbsp;Rouge
+|ru   = Багровый Босс
+|th   = ลูกพี่แดงแรงฤทธิ์
+|vi   = Đại Ca Chíp Đỏ
+|de   = Boss Rot
+|id   = Bos Merah
+|pt   = Chefe Vermelho
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,312 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bao Dating#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Public Wooden Dummy
+|image           = NPC Bao Dating.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Bao Dating''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_263_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Phase": "Finish",
+		"ID": 4049902
+	}
+]
+</pre>
+;(If {{cx}}<!--performance 502200001 has been seen-->)
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayMissionTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 502200685,
+					"ProtectTime": 2
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayMissionTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 502200686,
+					"ProtectTime": 2
+				}
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+;(If {{cx}}<!--performance 502200001 has not been seen-->)
+::<!--Trigger PerformanceE 502200002: Config/Level/Mission/5022000/Act/Act502200002.json-->
+::'''Bao Dating:''' Eh? You've stopped hitting me? Don't stop on account of me being a delicate little flower!
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I have some stuff to ask you.
+::'''Bao Dating:''' Sure thing, my dear! Ask me anything, or even better, do everything to me!
+::<!--Custom String Trigger: Wait_Option_502200003_47-->
+::<!--Custom String Listener: Wait_Option_502200003_47-->
+::{{DIcon|Talk}} How did you learn of their moves?
+:::<!--Custom String Listener: TalkSentence_502200603-->
+:::'''Bao Dating:''' That's just our job! I'm a self-learning feedback training puppet. Once I've intimately exchanged moves with any fighter, I'll naturally learn of their every move, every step, every stroke!
+:::'''Bao Dating:''' I mean, I did use my own body to personally experience their skills, allowing me to record the momentum, torque, and frequency of each and every one of their moves with data-driven methods. I can even analyze and provide suggestions to improve their skills.
+:::'''Bao Dating:''' But, I'm obviously different from those {{Rubi|data pushers|public wooden dummy}} who just clock in. I'm outfitted with pain simulators that can receive impact feedback more realistically.
+:::'''Bao Dating:''' Which is why ordinary fondling won't ever be able to satisfy my thirst &mdash; you have to hit me really, really hard!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're not afraid of being damaged?
+:::<!--Custom String Listener: TalkSentence_502200608-->
+:::'''Bao Dating:''' I yearn for such fortune! Please, hit me till I break!
+:::'''Bao Dating:''' I'm a puppet, after all, devoid of any "survival instinct" present in organic lifeforms like you. You can smash me all you like, and as long as you don't break me, I won't feel an ounce of fear, only thrill!
+:::'''Bao Dating:''' And when you really break me, I won't feel a thing. You understand the logic from my explanation? Though, since you're so worried about me, I promise to live my best life!
+:::'''Bao Dating:''' You shouldn't underestimate me, though &mdash; there are few contenders who can even dent me aboard the Skysplitter. How would I be able to profoundly experience spicy, exhilarating strength without a tenacious physique?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you heard anything useful for me?
+:::<!--Custom String Listener: TalkSentence_502200613-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200613,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200614,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200615,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200616,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200617,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200618,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200619,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200620,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200621,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200622,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200623,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200624,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200625,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200626,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200627,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200628,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200629,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200630,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200631,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 502200632,
+					"ProtectTime": 0
+				}
+			]
+		}
+	]
+}</pre>
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'm all done, goodbye.
+:::<!--Custom String Listener: TalkSentence_502200634-->
+:::'''Bao Dating:''' Okay, don't forget to visit me for more sparring!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'm all done, farewell.
+::'''Bao Dating:''' Okay, don't forget to visit me for more sparring!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

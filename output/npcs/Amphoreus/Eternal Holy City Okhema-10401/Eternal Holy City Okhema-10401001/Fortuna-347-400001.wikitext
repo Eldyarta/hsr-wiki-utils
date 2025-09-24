@@ -1,0 +1,159 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fortuna#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Painter
+|image           = NPC Fortuna.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Fortuna''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_347_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033009: Config/Level/Mission/5040330/Act/Act504033009.json-->
+::'''Fortuna:''' No, that's off... these shadows should be deeper. Though, darkening them too much might mess up the balance. It's tricky... this gray reminds me of the sky after a storm, but it needs to be crisper.
+::'''Fortuna:''' Oops, sorry, I didn't notice you there. Are you interested in this wall too?
+::{{DIcon|Arrow}} No, I was just drawn to you.
+:::<!--Custom String Listener: TalkSentence_504038804-->
+:::'''Fortuna:''' Really? I was so engrossed in observing my artwork, that I might have startled you, sorry.
+::{{DIcon|Arrow}} No, I was just passing by.
+:::<!--Custom String Listener: TalkSentence_504038806-->
+:::'''Fortuna:''' I see. I thought you were here to appreciate the mural.
+::<!--Custom String Trigger: TalkSentence_504038807-->
+::<!--Custom String Listener: TalkSentence_504038807-->
+::'''Fortuna:''' Our chance encounter must be blessed by Janus. This mural behind me is my creation. I'm curious if you have an interest in murals &mdash; I'd love to hear your thoughts.
+::{{DIcon|Arrow}} I don't know much about these things.
+:::<!--Custom String Listener: TalkSentence_504038809-->
+:::'''Fortuna:''' No worries. If you don't mind my chatter, I can introduce you to a thing or two.
+:::'''Fortuna:''' I'm experimenting with various shades of gray to capture the shifting light in the sky. Aquila's mercy has blessed Okhema with such breathtaking scenery.
+:::'''Fortuna:''' You see, the deep gray here symbolizes the shadows, and the lighter gray marks the areas with the brightest light. I know it might not appear this way to everyone else, but this is how I see the world.
+:::{{DIcon|Arrow}} A gray... sky?
+:::{{DIcon|Arrow}} May I ask... can you not see colors?
+:::<!--Custom String Listener: TalkSentence_504038816-->
+:::'''Fortuna:''' I can't really distinguish colors anymore. I was just like anyone else as a child until the black tide swept through my hometown and corroded my eyes.
+:::'''Fortuna:''' Don't look so sad. I once struggled with my flaws until Lady Aglaea shared wisdom that changed my perspective.
+:::'''Fortuna:''' Her words shifted my perspective on the world, enabling me to perceive emotional fluctuations more directly.
+:::'''Fortuna:''' Though I can't see the azure dome like others, I can feel it... To me, it appears as a deep, gentle gray &mdash; calm and subtly mysterious.
+:::'''Fortuna:''' You might find it strange why the sky is gray, but in my world, emotions and colors are closely linked. Warmth, calmness, anticipation... these feelings are different shades of gray to me.
+:::'''Fortuna:''' A blessing in disguise, I've made a name for myself in the mural field... uh, forgot to introduce myself. I'm Fortuna, nice to meet you.
+:::{{DIcon|Arrow}} A gray sky? Sounds intriguing.
+::::<!--Custom String Listener: TalkSentence_504038823-->
+::::'''Fortuna:''' Yes! Do you get what I mean? Art shouldn't be confined to our vision. It ought to transcend those limits and resonate deeply with us. I strive to experience the world in my unique way and then express it through my art.
+::::'''Fortuna:''' Take, for instance, when I paint the marketplace in Okhema, I don't focus on the colors of the fruit. Instead, I capture the buzz of the crowd, their laughter, and the vibrant bartering.
+::::'''Fortuna:''' In my paintings, these may transform into clusters of vibrant yellow dots, scattered across a backdrop of blues in varying shades. Some call my work abstract, but to me, it's the truest representation of reality.
+::::'''Fortuna:''' What's your take? Should art focus on depicting things as they are, or capturing how they feel?
+:::{{DIcon|Arrow}} How did you start creating murals?
+::::<!--Custom String Listener: TalkSentence_504038828-->
+::::'''Fortuna:''' That's a long story... Initially, I was just an ordinary painter, making simple pieces to make ends meet. I always felt something was lacking in my work, yet I couldn't quite identify what it was. That changed one day when I heard insightful words from Lady Aglaea.
+::::'''Fortuna:''' I was sketching on the street that day when Lady Aglaea passed by. She stopped to examine my drawing and said... I don't quite remember the exact words, but it was something like&mdash;
+::::'''Fortuna:''' "Art does more than just stir emotions and revive memories. It opens our eyes to future possibilities."
+::::'''Fortuna:''' It was a bolt from the blue. I realized my eyes weren't a defect, but a unique perspective. From then on, I started crafting large murals, channeling my distinct vision to bring Okhema's history to life and shape its future.
+::::'''Fortuna:''' Take a look at this wall &mdash; it doesn't merely recount the past, it also foretells the future. The interwoven blue lines symbolize the threads of destiny, crisscrossing like the intricate tapestry of our lives, brimming with boundless possibilities.
+:::<!--Custom String Trigger: TalkSentence_504038833-->
+:::<!--Custom String Listener: TalkSentence_504038833-->
+:::'''Fortuna:''' Sorry, I can get carried away sometimes. Creating is as instinctive to me as breathing, and sometimes I lose sight of those around me. What are your thoughts on art, and what do you think art should pursue?
+:::'''Fortuna:''' Oh, and... could you tell me, what does the world look like through your eyes?
+:::'''Fortuna:''' I've always been fascinated by the colors that others see. Though I may never fully grasp them, hearing people describe them is intriguing. Maybe one day, I could create a painting based on your descriptions.
+::{{DIcon|Exit}} Hold it right there. I'm not interested in this stuff.
+:::<!--Custom String Listener: TalkSentence_504038811-->
+:::'''Fortuna:''' That's a pity... but I shouldn't impose. It was presumptuous of me.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033010: Config/Level/Mission/5040330/Act/Act504033010.json-->
+::'''Fortuna:''' Colors... to me, they're merely a concept. But emotions... emotions are tangible. This gray should be darker... yes, just like that, as enigmatic as the depths of the ocean.
+::'''Fortuna:''' Oh, it's you! I was pondering my next set of murals and didn't notice when you came over. Is there something you need?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I was hoping to chat for a bit. Is this a good time for you?
+:::'''Fortuna:''' Absolutely, now's perfect! What's on your mind? I can talk about art all day. Hope you're up for it!
+:::<!--Custom String Trigger: Wait_Option_504033011_371-->
+:::<!--Custom String Listener: Wait_Option_504033011_371-->
+:::{{DIcon|Talk}} Can you share more about your artwork with me?
+::::<!--Custom String Listener: TalkSentence_504039004-->
+::::'''Fortuna:''' That's wonderful! I often get compliments from others, but frankly, they've grown stale. I've been longing to find someone who gets it.
+::::'''Fortuna:''' Oh, you might not be aware, but there are all sorts of wild rumors out there. People say I can see into Okhema's past, or that my eyes bear the heavy gift of a Titan's blessing.
+::::'''Fortuna:''' While I understand that's a form of praise for my realistic paintings, as they spawn such wild imaginations, I can't explain how my creations reach such a level.
+::::'''Fortuna:''' In my eyes, every rock and every breeze in Okhema tells its own story. Sometimes they recount ancient legends, while other times they echo snippets of street conversations &mdash; all serving as inspiration for my art.
+::::'''Fortuna:''' I place great importance on the history of Okhema, dedicating an enormous amount of time to research. Yet, people often think I can simply see into the past, unaware of the extensive effort I put in behind the scenes.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is there a chance your eyes could be healed?
+::::<!--Custom String Listener: TalkSentence_504039009-->
+::::'''Fortuna:''' I appreciate your kindness. My friends have asked me the same and have searched far and wide for remedies, but unfortunately, none are effective against the black tide.
+::::'''Fortuna:''' I've now given up on the idea of recovery. After all, this defect hasn't really impacted my life.
+::::'''Fortuna:''' I often wonder if I would still choose to be a painter if I could see all colors like everyone else? Perhaps it's my visual impairment that allows me to perceive the world's true essence.
+::::'''Fortuna:''' I sometimes think that if my eyesight were ever restored, I might not be able to produce as many deeply moving pieces as I do now.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you know Aglaea?
+::::<!--Custom String Listener: TalkSentence_504039014-->
+::::'''Fortuna:''' Lady Aglaea is a legend among painters. I certainly know who she is, but I'm not sure if she knows me.
+::::'''Fortuna:''' After all, I've only met her once. She spoke to me briefly after learning about my visual impairment. I can't recall everything she said, but it was something like&mdash;
+::::'''Fortuna:''' "Art does more than just stir emotions and revive memories. It opens our eyes to future possibilities."
+::::'''Fortuna:''' Just a few words, yet they completely transformed my life. I discovered my unique style of creation, and ever since, I frequently find myself in a marvelous state while painting.
+::::'''Fortuna:''' It's as if a force guides me, allowing me to feel emotions and details that others overlook. Unfortunately, I've never had another chance to talk to Lady Aglaea alone.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_504039020-->
+::::'''Fortuna:''' Oh, are you leaving? Well... thanks for listening.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I've got to get going, but it was great chatting with you.
+:::'''Fortuna:''' Sure, let's catch up another time.
+:::'''Fortuna:''' By the way, if you come across anything interesting around the city, please let me know. Artists are always in search of new inspiration. Farewell, my friend, and may Mnestia be with you!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fortuna
+|zhs  = 福尔图娜
+|zht  = 福爾圖娜
+|ja   = フォルトゥナ
+|ko   = 포르투나
+|es   = Fortuna
+|fr   = Fortuna
+|ru   = Фортуна
+|th   = Fortuna
+|vi   = Fortuna
+|de   = Fortuna
+|id   = Fortuna
+|pt   = Fortuna
+}}
+==Change History==
+{{Change History|TODO}}

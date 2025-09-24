@@ -1,0 +1,148 @@
+<%-- [PAGE_INFO]
+PageTitle=#Glykon#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Hero of the Arena
+|image           = NPC Glykon.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Glykon''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_128_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504063001: Config/Level/Mission/5040630/Act/Act504063001.json-->
+::'''Glykon:''' ...Another one? Come on. My charm must be a curse engraved upon me by {{Rubi|Mnestia|Romance Titan}}. All right, hand over your teleslate.
+::{{DIcon|Arrow}} Teleslate? What teleslate...
+:::<!--Custom String Listener: TalkSentence_504063003-->
+:::'''Glykon:''' You're not here for an autograph?
+::{{DIcon|Arrow}} Uh? No, I didn't even say anything...
+:::<!--Custom String Listener: TalkSentence_504063005-->
+:::'''Glykon:''' No need to explain, I get it.
+::<!--Custom String Trigger: TalkSentence_504063006-->
+::<!--Custom String Listener: TalkSentence_504063006-->
+::'''Glykon:''' I know you're one of my admirers. Ugh, having to explain this over and over is so tiresome...
+::{{DIcon|Arrow}} Please give me the autograph now.
+:::<!--Custom String Listener: TalkSentence_504063008-->
+:::'''Glykon:''' Now, give me your teleslate.
+::{{DIcon|Arrow}} I'm not here for your autograph.
+:::<!--Custom String Listener: TalkSentence_504063010-->
+:::'''Glykon:''' Oh? Trying to catch my attention with this act? Sorry, but it won't work....
+::<!--Custom String Trigger: TalkSentence_504063011-->
+::<!--Custom String Listener: TalkSentence_504063011-->
+::'''Glykon:''' Wait, don't tell me you don't even have a teleslate? You... you didn't actually come for my autograph? Was I... imagining things?
+::{{DIcon|Arrow}} ...You can sign my clothes.
+::{{DIcon|Arrow}} ...You realized just now?
+::<!--Custom String Listener: TalkSentence_504063014-->
+::'''Glykon:''' I thought... Ah, pardon me, I got carried away. But it's true that I'm very charismatic.
+::'''Glykon:''' Come and look closely! Right here! Behold, this body, and these muscles! Do you like them? Do you admire them?
+::'''Glykon:''' Surely you know the Okeanas Games? The famous, quadrennial sports event that takes place in Okeanas, with countless city-states participating &mdash; I was the three-peat champion of the discus throw event!
+::'''Glykon:''' That makes me the world's top discus thrower! How can anyone resist my oozing charm?
+::'''Glykon:''' Anyway, back to what we were saying... Since you aren't here for an autographed teleslate, what do you need from me, then?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504063002: Config/Level/Mission/5040630/Act/Act504063002.json-->
+::'''Glykon:''' Don't worry, I understand now. You're just here for a simple chat, right?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Care to chat?
+::'''Glykon:''' Of course. Ask me about my glorious achievements. I can talk about them all day.
+::<!--Custom String Trigger: Wait_Option_504063003_46-->
+::<!--Custom String Listener: Wait_Option_504063003_46-->
+::{{DIcon|Talk}} Actually... I still don't know who you are.
+:::<!--Custom String Listener: TalkSentence_504063204-->
+:::'''Glykon:''' ...Oh, maybe you haven't heard about me, but it's impossible that you haven't heard of me.
+:::'''Glykon:''' I am Glykon of Okeanas. It is an ancient Amphorean city-state known for competitive sports.
+:::'''Glykon:''' You may have heard that the people of Okeanas love to push the limits of their bodies, but you've probably never seen "the limit." Well, now you have. I am the limit.
+:::'''Glykon:''' Hahaha, you don't think I'm tooting my own horn, do you? It's a shame that Okhema has yet to host any large-scale sports competition on the same level, so I don't blame you for not knowing me.
+:::'''Glykon:''' But now that you do, you'll be worshiping me in no time. Bwahaha!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the sports event you mentioned...
+:::<!--Custom String Listener: TalkSentence_504063210-->
+:::'''Glykon:''' The Okeanas Games &mdash; the most renowned sports event in the entire Amphoreus! Goodness, do I really need to explain it to you again? Amphoreus really is doomed.
+:::'''Glykon:''' The Okeanas Games cover every kind of sports competition you can think of, including track and field, boxing, wrestling, gladiatorial combat, horse racing, and so on.
+:::'''Glykon:''' Unlike the vicious and aggressive ways of the Kremnoans, we promote the immaculate spirit of competition in the Games &mdash; so please don't mix us up with those uncouth tribes.
+:::'''Glykon:''' And you know what? Discus throw is the most eye-catching event of all! And yours truly is the three-peat discus throw champion!
+:::{{DIcon|Arrow}} Absolute dominion!
+::::<!--Custom String Listener: TalkSentence_504063215-->
+::::'''Glykon:''' That is why I am held as an esteemed guest at Dawncloud.
+::::<!--Custom String Trigger: TalkSentence_504063218-->
+::::<!--Custom String Listener: TalkSentence_504063218-->
+::::'''Glykon:''' I miss the laurels and applause very much. The holy city needs its own Okhema Games!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Is it really the most eye-catching event?
+::::<!--Custom String Listener: TalkSentence_504063217-->
+::::'''Glykon:''' {{MC|f=Young lady|m=Young man}}, no one understands the Okeanas Games better than I do.
+::::<!--Custom String Trigger: TalkSentence_504063218-->
+::::<!--Custom String Listener: TalkSentence_504063218-->
+::::'''Glykon:''' I miss the laurels and applause very much. The holy city needs its own Okhema Games!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Has anyone ever called you... narcissistic?
+:::<!--Custom String Listener: TalkSentence_504063220-->
+:::'''Glykon:''' Bahaha! You can be frank about it. Yes, I am very narcissistic! So much that it annoys people.
+:::'''Glykon:''' But what can I do? My overflowing charm rubs off on me too! Such is my burden.
+:::'''Glykon:''' As someone from Okeanas, this narcissism is a part of my duty. The Okeanas spirit is to display my fit body and capture those who don't understand the spirit of competition with its excellence.
+:::'''Glykon:''' Many have advised me to turn it down a notch, but I've never gotten in their faces about it, not at all! They are just jealous, and I am not obligated to take advice from charmless folk.
+:::'''Glykon:''' Hahaha, what do you think? Do you want my autographed slate now?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I gotta run. Good luck with everything.
+:::<!--Custom String Listener: TalkSentence_504063226-->
+:::'''Glykon:''' Oh, alright. I usually hang out nearby. Feel free to come over any time you want to see me.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I gotta run. Good luck with everything.
+::'''Glykon:''' Oh, alright. I usually hang out nearby. Feel free to come over any time you want to see me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Glykon
+|zhs  = 柯库翁
+|zht  = 柯庫翁
+|ja   = グリュコス
+|ko   = 글리콘
+|es   = Glycon
+|fr   = Glycon
+|ru   = Гликон
+|th   = Glykon
+|vi   = Glykon
+|de   = Glykon
+|id   = Glykon
+|pt   = Glykon
+}}
+==Change History==
+{{Change History|TODO}}

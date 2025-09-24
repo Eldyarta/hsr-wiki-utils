@@ -1,0 +1,135 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tall Auntie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Food Stall Owner
+|image           = NPC Tall Auntie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Tall Auntie''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_142_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 800324602-->)
+::<!--Trigger PerformanceE 800324650: Config/Level/Mission/8003246/Act/Act800324650.json-->
+::'''Tall Auntie:''' I heard that Mr. Xiyan and Back'n & Forth are famous storytellers on this ship. Their recordings will definitely attract new customers to my stall! Please, help me get their recordings!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 800324602-->)
+::<!--Trigger PerformanceE 502064101: Config/Level/NPCDialogue/P10202/NPCAct/Act502064101.json-->
+::'''Tall Auntie:''' Welcome! I only sell authentic Luofu snacks! Freshly baked!
+::'''Tall Auntie:''' Want to try some local Luofu snacks, customer? You'll love them!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 800324601-->)
+:{{DIcon|undefined}} What happened?
+:::<!--Trigger PerformanceE 800324601: Config/Level/Mission/8003246/Act/Act800324601.json-->
+:::'''Tall Auntie:''' Oh, you're finally here, customer!
+:::'''Tall Auntie:''' I met a warmhearted Cloud Knight lady not long ago. She's your friend, right?
+:::{{DIcon|Arrow}} Yeah, and she's super nice.
+:::{{DIcon|Arrow}} Oh, you must mean Sushang.
+:::<!--Custom String Listener: TalkSentence_813246005-->
+:::'''Tall Auntie:''' Yeah, she and Miss Secretary of the merchant guild came by a while ago.
+:::'''Tall Auntie:''' Hmm... Can I ask you for a favor? I'm thinking of playing some storytelling shows in my store, but I don't know any of the performers. Would you please go to their live show and record a few pieces for me?
+:::{{DIcon|Arrow}} Do you want to become a storyteller yourself?
+::::<!--Custom String Listener: TalkSentence_813246008-->
+::::'''Tall Auntie:''' No, not at all. I just want to attract more tourists with those recordings.
+:::{{DIcon|Arrow}} I don't know them well, either.
+::::<!--Custom String Listener: TalkSentence_813246010-->
+::::'''Tall Auntie:''' Really? But that Cloud Knight lady recommended you to me...
+:::<!--Custom String Trigger: TalkSentence_813246011-->
+:::<!--Custom String Listener: TalkSentence_813246011-->
+:::'''Tall Auntie:''' You know, I'm just worried about my regulars. What if I join the guild's logistics network and start providing takeout food? What will happen to them...?
+:::'''Tall Auntie:''' Will anyone come to my stall in the long run?
+:::{{DIcon|Arrow}} You could shut down the dine-in stall and save the trouble.
+::::<!--Custom String Listener: TalkSentence_813246014-->
+::::'''Tall Auntie:''' But this stall has been my bread and butter for years. Freshly baked snacks are my specialty, and if I shut down my stall and do takeout, all those years of hard work will go down the drain, right?
+:::{{DIcon|Arrow}} No worries. I'm sure your regulars will still come to your stall.
+::::<!--Custom String Listener: TalkSentence_813246016-->
+::::'''Tall Auntie:''' But cycrane delivery is just so convenient these days. With all those young folks ordering takeout at home, who knows what will happen in the future?
+:::{{DIcon|Arrow}} Never mind the details! At the end of the day, it's all about making money, right?
+::::<!--Custom String Listener: TalkSentence_813246018-->
+::::'''Tall Auntie:''' That's not the case. To me, my relationship with my regulars is way more important than just making money. Plus, I started this stall to hone my skills, not just to earn a buck. If I really wanted to make a kill, I could have worked as a snack master at a fancy restaurant.
+:::<!--Custom String Trigger: TalkSentence_813246019-->
+:::<!--Custom String Listener: TalkSentence_813246019-->
+:::'''Tall Auntie:''' Sushang mentioned Back'n & Forth to me. They're up-and-comers in the storytelling industry, and I think they'd be a great fit for my stall.
+:::'''Tall Auntie:''' And let's not forget Mr. Xiyan, a well-known storyteller. My regulars would love his recordings! Please, I really could use your help!
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_800324601-->
+::{{DIcon|Shop}} What have you got for sale?
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 142,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 26,
+	"TaskID": []
+}</pre>
+:::<!--Ends the current performance-->
+:;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+:::<!--Trigger PerformanceE 502064201: Config/Level/NPCDialogue/P10202/NPCAct/Act502064201.json-->
+:::'''Tall Auntie:''' My business is booming! More and more tourists are flocking the Aurum Alley, and our authentic Luofu snacks are selling like hotcakes!
+:::'''Tall Auntie:''' The storytelling and crosstalk comedy sessions you arranged for me are well-received too. Some people sit down and order something to eat just because they are drawn to the performances. That makes our business even better.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_502064201-->
+:;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I don't have an appetite now.
+:::'''Tall Auntie:''' Thank you for stopping by!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tall Auntie
+|zhs  = 高阿姨
+|zht  = 高阿姨
+|ja   = コウおばちゃん
+|ko   = 키 큰 이모
+|es   = Mujer alta
+|fr   = Grande Tatie
+|ru   = Тётя Каланча
+|th   = คุณน้าตัวสูง
+|vi   = Dì Cao
+|de   = Großes Tantchen
+|id   = Bibi Tinggi
+|pt   = Tia Alta
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,204 @@
+<%-- [PAGE_INFO]
+PageTitle=#Danbi#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Chief Scribe
+|image           = NPC Danbi.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Danbi''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_115_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502030001: Config/Level/Mission/5020300/Act/Act502030001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450103
+	]
+}</pre>
+::'''Danbi:''' Everyone always says: "The Ten Lords have it easy. It's the scribes that are hard to deal with~" Let's see who has expired their wakespan today~
+::'''Danbi:''' Eek! Who's there? Darn it! Did one of the prisoners get out again? Warden! Where is the warden? Help me! One of the prisoners has escaped again!
+::'''Danbi:''' I'm warning you, don't come any closer! I&mdash;I&mdash;I... I'm dangerous, you know! Have you ever heard of the Judge's Death Sentence Brush? I'll wipe you out with one brush stroke, just wait and see!
+::{{DIcon|Arrow}} Calm down, I am not a prisoner.
+:::<!--Custom String Listener: TalkSentence_502030005-->
+:::'''Danbi:''' Impossible! Don't think you can deceive me, villain! I remember the face of every inmate in The Shackling Prison! You're that... Umm, that one...
+::{{DIcon|Arrow}} Have you ever heard of the great Galactic Baseballer?
+:::<!--Custom String Listener: TalkSentence_502030007-->
+:::'''Danbi:''' I don't care if you're a galactic baseballer or a galactic janitor! It doesn't matter how powerful you are, The Shackling Prison will have you on your knees!
+::<!--Custom String Trigger: TalkSentence_502030008-->
+::<!--Custom String Listener: TalkSentence_502030008-->
+::'''Danbi:''' I remember your face! Don't remind me, let me think... Let me think about what transgression you committed... Thought it's a little blurry, I remember you had a title of some kind. What was it called? The "Lifeless"?
+::'''Danbi:''' Agh! I'm so, so sorry! I've been busy these two days recording all kinds of criminal cases. My head's filled with stuff about them, so please don't take this personally!
+::'''Danbi:''' Though you are an esteemed guest of the Luofu, but the Shackling Prison's document office is a critical installation for the Ten-Lords Commission. On principle, it should not be open to outworlders.
+::'''Danbi:''' If you're really curious about the document office... Then why don't you just ask me! I've worked here for centuries. As long as the information isn't classified, I'll be able to satisfy your curiosity.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502030002: Config/Level/Mission/5020300/Act/Act502030002.json-->
+::'''Danbi:''' Everyone always says: "The Ten Lords have it easy. It's the scribes that are hard to deal with~" Let's see who has expired their wakespan today~
+::'''Danbi:''' Esteemed (Trailblazer)! You're back again! Do you have any business you wish to resolve today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I would like to ask you some questions.
+::'''Danbi:''' Ask away. I'll do my best to answer.
+::<!--Custom String Trigger: Wait_Option_502030003_75-->
+::<!--Custom String Listener: Wait_Option_502030003_75-->
+::{{DIcon|Talk}} Are there any questions you can't answer?
+:::<!--Custom String Listener: TalkSentence_502030204-->
+:::'''Danbi:''' Oh, way too many. I can't tell you where major criminals are held, when the guards get relieved, the supply channels to the cafeteria, Madam Hanya's actual age... All these are the Shackling Prison's most highly classified secrets.
+:::{{DIcon|Arrow}} What's that last thing you said? The one about the age?
+::::<!--Custom String Listener: TalkSentence_502030206-->
+::::'''Danbi:''' Don't ask... Just don't... These are unmentionable topics...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Why is everything I'm interested in confidential?
+::::<!--Custom String Listener: TalkSentence_502030208-->
+::::'''Danbi:''' Hahah, don't you know? "Forbidden knowledge" is always most alluring!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What does the document office do?
+:::<!--Custom String Listener: TalkSentence_502030210-->
+:::'''Danbi:''' The document office is the Shackling Prison's central hub. The personal information of all these prisoners in the Shackling Prison are all stored in our document office.
+:::'''Danbi:''' Plus, we log more than just personal information. Every minute detail is recorded from prisoners' life experiences, criminal records, oral testimonies, judgment documents, and even their performance in serving their sentence.
+:::'''Danbi:''' In summation, as soon as someone enters The Shackling Prison, they have no more secrets left to hide.
+:::{{DIcon|Arrow}} How do you manage this many files?
+::::<!--Custom String Listener: TalkSentence_502030214-->
+::::'''Danbi:''' Through tens of thousands of attentive and responsible scribes like me. The Ten-Lords Commission's system holds hundreds of millions of files, and they have always been maintained through manpower. That's why the staffing of scribes exceeded even the spiritfarers for a while.
+::::'''Danbi:''' The Ten-Lords Commission also tried to develop a file management abacus to improve work efficiency, but... due to various "objective factors," the plan couldn't be enacted.
+::::'''Danbi:''' Well, we say "objective factors," but the ultimate factor is.... well, these countless files also feed lots of hungry mouths, if you know what I mean, hehe.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} All these files together... are you not worried about them being wiped out in an accident?
+::::<!--Custom String Listener: TalkSentence_502030218-->
+::::'''Danbi:''' You can rest assured about that. This document office is ultimately just a remote access interface. Even if the office was somehow "eliminated," it wouldn't have any effect. All the original documentation are stored on a certain jade abacus matrix somewhere.
+::::'''Danbi:''' As for where the jade abacus array that holds all the documents is stored... Well, I don't know. I suspect it isn't even on the Luofu, or even the Xianzhou Alliance at all.
+::::'''Danbi:''' There are even internal rumors that the matrix is hidden in one of Thalassa's ocean trenches! Of course, that's not very realistic, so just treat it as a story.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Do you not find it boring and monotonous, having worked here so long?
+:::<!--Custom String Listener: TalkSentence_502030222-->
+:::'''Danbi:''' It really isn't that boring at all. After all, there is a mountain of files here to read. I can take a flick through a file that records the entire life of a major criminal as I please. It's pretty thrilling!
+:::'''Danbi:''' But if we're talking monotonous, yeah. The Shackling Prison is an extremely strange place. I'm not sure if it is due to the separation from the real world, but once you've been here for a long time, it feels like no time has passed at all.
+:::'''Danbi:''' I feel like I was still living in the mortal realm just yesterday. How it is that hundred of years can pass by in a blink while I work here?
+:::'''Danbi:''' *sigh* Boring or not, it doesn't matter! I'm not like you... You still have a whole life waiting for you to spend and experience, and countless more legendary exploits that await your accomplishing...
+:::'''Danbi:''' As for me... Ever since I joined the Ten-Lords Commission, the curtains have essentially already come down on my life. My current role as scribe is but an "ending" that simply stretches on forever instead of ceasing to exist.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502030228-->
+:::'''Danbi:''' Then please feel free to look around, {{MC|m=sir|f=ma'am}}. Call me if you need anything.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll look around for myself.
+::'''Danbi:''' Then please feel free to look around, {{MC|m=sir|f=ma'am}}. Call me if you need anything.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502030014)
+:<!--Custom String Listener: TalkSentence_502030014-->
+::'''Danbi:''' Ask away. I'll do my best to answer.
+::<!--Custom String Trigger: Wait_Option_502030001_24-->
+::<!--Custom String Listener: Wait_Option_502030001_24-->
+::{{DIcon|Talk}} Are there any questions you can't answer?
+:::<!--Custom String Listener: TalkSentence_502030016-->
+:::'''Danbi:''' Oh, way too many. I can't tell you where major criminals are held, when the guards get relieved, the supply channels to the cafeteria, Madam Hanya's actual age... All these are the Shackling Prison's most highly classified secrets.
+:::{{DIcon|Arrow}} What's that last thing you said? The one about the age?
+::::<!--Custom String Listener: TalkSentence_502030018-->
+::::'''Danbi:''' Don't ask... Just don't... These are unmentionable topics...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Why is everything I'm interested in confidential?
+::::<!--Custom String Listener: TalkSentence_502030020-->
+::::'''Danbi:''' Hahah, don't you know? "Forbidden knowledge" is always most alluring!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What does the document office do?
+:::<!--Custom String Listener: TalkSentence_502030022-->
+:::'''Danbi:''' The document office is the Shackling Prison's central hub. The personal information of all these prisoners in the Shackling Prison are all stored in our document office.
+:::'''Danbi:''' Plus, we log more than just personal information. Every minute detail is recorded from prisoners' life experiences, criminal records, oral testimonies, judgment documents, and even their performance in serving their sentence.
+:::'''Danbi:''' In summation, as soon as someone enters The Shackling Prison, they have no more secrets left to hide.
+:::{{DIcon|Arrow}} How do you manage this many files?
+::::<!--Custom String Listener: TalkSentence_502030026-->
+::::'''Danbi:''' Through tens of thousands of attentive and responsible scribes like me. The Ten-Lords Commission's system holds hundreds of millions of files, and they have always been maintained through manpower. That's why the staffing of scribes exceeded even the spiritfarers for a while.
+::::'''Danbi:''' The Ten-Lords Commission also tried to develop a file management abacus to improve work efficiency, but... due to various "objective factors," the plan couldn't be enacted.
+::::'''Danbi:''' Well, we say "objective factors," but the ultimate factor is.... well, these countless files also feed lots of hungry mouths, if you know what I mean, hehe.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} All these files together... are you not worried about them being wiped out in an accident?
+::::<!--Custom String Listener: TalkSentence_502030030-->
+::::'''Danbi:''' You can rest assured about that. This document office is ultimately just a remote access interface. Even if the office was somehow "eliminated," it wouldn't have any effect. All the original documentation are stored on a certain jade abacus matrix somewhere.
+::::'''Danbi:''' As for where the jade abacus array that holds all the documents is stored... Well, I don't know. I suspect it isn't even on the Luofu, or even the Xianzhou Alliance at all.
+::::'''Danbi:''' There are even internal rumors that the matrix is hidden in one of Thalassa's ocean trenches! Of course, that's not very realistic, so just treat it as a story.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Do you not find it boring and monotonous, having worked here so long?
+:::<!--Custom String Listener: TalkSentence_502030034-->
+:::'''Danbi:''' It really isn't that boring at all. After all, there is a mountain of files here to read. I can take a flick through a file that records the entire life of a major criminal as I please. It's pretty thrilling!
+:::'''Danbi:''' But if we're talking monotonous, yeah. The Shackling Prison is an extremely strange place. I'm not sure if it is due to the separation from the real world, but once you've been here for a long time, it feels like no time has passed at all.
+:::'''Danbi:''' I feel like I was still living in the mortal realm just yesterday. How it is that hundred of years can pass by in a blink while I work here?
+:::'''Danbi:''' *sigh* Boring or not, it doesn't matter! I'm not like you... You still have a whole life waiting for you to spend and experience, and countless more legendary exploits that await your accomplishing...
+:::'''Danbi:''' As for me... Ever since I joined the Ten-Lords Commission, the curtains have essentially already come down on my life. My current role as scribe is but an "ending" that simply stretches on forever instead of ceasing to exist.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502030040-->
+:::'''Danbi:''' Then please feel free to look around, {{MC|m=sir|f=ma'am}}. Call me if you need anything.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502030042)
+:<!--Custom String Listener: TalkSentence_502030042-->
+::'''Danbi:''' Then please feel free to look around, {{MC|m=sir|f=ma'am}}. Call me if you need anything.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Danbi
+|zhs  = 丹笔
+|zht  = 丹筆
+|ja   = 丹筆
+|ko   = 단필
+|es   = Danbi
+|fr   = Danbi
+|ru   = Даньби
+|th   = Danbi
+|vi   = Danbi
+|de   = Danbi
+|id   = Danbi
+|pt   = Danbi
+}}
+==Change History==
+{{Change History|TODO}}

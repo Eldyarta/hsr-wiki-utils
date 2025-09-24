@@ -1,0 +1,424 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jingyan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Realm-Keeping Official
+|image           = NPC Jingyan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Realm-Keeping Commission Chancery
+|relatives       = 
+}}
+'''Jingyan''' is an NPC on [[The Xianzhou Luofu]], located in [[Realm-Keeping Commission Chancery]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Realm-Keeping Commission Chancery|npc_14_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502032101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502032101.json-->
+::'''Jingyan:''' One second.
+::'''Jingyan:''' Alright. I'm Jingyan from the Realm-Keeping Commission, and I'm in charge of general affairs here. Is there anything that I can help you with?
+::{{DIcon|Arrow}} What can you help me with?
+:::<!--Custom String Listener: TalkSentence_502032104-->
+:::'''Jingyan:''' ...I was just asking you that, but you asked me the same thing. Okay.
+:::'''Jingyan:''' Household registrations, applications, and maintenance for local Xianzhou citizens. Handling of cases such as fighting, wounding with a weapon, theft, robbery. Processing census data, demographic statistics, resource allocation...
+:::{{DIcon|Arrow}} I get it. Please stop this monotonous chanting.
+::::<!--Custom String Listener: TalkSentence_502032107-->
+::::'''Jingyan:''' Looks like you aren't really that interested in the work of Realm-Keeping Commission officers.
+:::{{DIcon|Arrow}} Yes, you've all done a great job.
+::::<!--Custom String Listener: TalkSentence_502032109-->
+::::'''Jingyan:''' Ah, so you're here to inspect our work then? Thank you for taking the time to visit our humble Realm-Keeping Commission Chancery.
+::::'''Jingyan:''' But I'm afraid it's currently during business hours, so please do not interrupt our everyday consultations.
+:::<!--Custom String Trigger: TalkSentence_502032121-->
+::{{DIcon|Arrow}} I've been cyber-scammed!
+:::<!--Custom String Listener: TalkSentence_502032112-->
+:::'''Jingyan:''' Cyber-scammed? We don't differentiate between scams happening online or offline here.
+:::'''Jingyan:''' Please register your contact details, how the scammer contacted you, how you were scammed, and how much you were scammed out of? Go fill this out, and I'll verify your account for you.
+:::{{DIcon|Arrow}} Actually, I wasn't scammed at all.
+::::<!--Custom String Listener: TalkSentence_502032115-->
+::::'''Jingyan:''' Hmm. It's still currently during business hours, so please do not cause any trouble for our busy officers.
+::::'''Jingyan:''' Based on my experience, you don't really look like a victim of scamming.
+:::{{DIcon|Arrow}} Th&mdash;There's no transaction record on the account.
+::::<!--Custom String Listener: TalkSentence_502032118-->
+::::'''Jingyan:''' This is a bit of a hassle. Not even the Realm-Keeping Commission can get back your "money that wasn't scammed."
+::::'''Jingyan:''' Seems like you'll have to sort that part out on your own. Our hands are tied here at the Realm-Keeping Commission.
+:::<!--Custom String Trigger: TalkSentence_502032121-->
+::{{DIcon|Arrow}} I don't think I have anything that's connected to general affairs.
+::<!--Custom String Listener: TalkSentence_502032121-->
+::'''Jingyan:''' Excuse me, do you have anything else?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502032102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502032102.json-->
+::'''Jingyan:''' Greetings. What can the Realm-Keeping Commission help you with today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404020904-->)
+:{{DIcon|?}} I've been scammed.
+::<!--Trigger PerformanceD 404020904: Config/Level/Mission/4040209/Act/Act404020904.json-->
+::'''Jingyan:''' Are you the victim? State your name, occupation, and amount in losses.
+::Please recount for me your entire experience of getting scammed in the street.
+::'''Jingyan:''' You must be the victim. This guy used the old "Family Treasure Sword" scam to trick Outworlders all the time. The victims are unfamiliar with Xianzhou history, and so are easily tricked.
+::'''Jingyan:''' What then was the amount lost?
+:;(If the player has greater than or equal to {{Item|Praise of High Morals|20|x=1}})
+:::{{DIcon|Arrow}} No losses.
+::::<!--Custom String Listener: TalkSentence_412090405-->
+::::'''Jingyan:''' Very astute. Next time when you encounter a situation, remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			10,
+			11,
+			12,
+			13
+		]
+	},
+	"CustomValue": 10
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 1
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020994-->
+:::{{DIcon|Arrow}} 250 Credits.
+::::<!--Custom String Listener: TalkSentence_412090407-->
+::::'''Jingyan:''' Here's for your reparations. Next time if you encounter situations like this, please don't give money in a panic. Remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			10,
+			11,
+			12,
+			13
+		]
+	},
+	"CustomValue": 11
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020995-->
+:::{{DIcon|Arrow}} 500 Credits.
+::::<!--Custom String Listener: TalkSentence_412090409-->
+::::'''Jingyan:''' Here's for your reparations. Next time if you encounter situations like this, please don't give money in a panic. Remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 12
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020995-->
+:::{{DIcon|Arrow}} 5000 Credits!
+::::<!--Custom String Listener: TalkSentence_412090411-->
+::::'''Jingyan:''' That much!? Not even a scammer could spend that much...
+::::'''Jingyan:''' No, I'm saying that you should be more alert.
+::::The officer ruthlessly scrutinizes the surrounding scammers.
+::::'''Jingyan:''' Next time if you encounter situations like this, please don't give money in a panic. Remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 13
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 3
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020993-->
+::::<!--Custom String Trigger: MissionTo_404020996-->
+:;(If the player does not have greater than or equal to {{Item|Praise of High Morals|20|x=1}})
+:::{{DIcon|Arrow}} No losses.
+::::<!--Custom String Listener: TalkSentence_412090405-->
+::::'''Jingyan:''' Very astute. Next time when you encounter a situation, remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			10,
+			11,
+			12,
+			13
+		]
+	},
+	"CustomValue": 10
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 1
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020994-->
+:::{{DIcon|Arrow}} 250 Credits.
+::::<!--Custom String Listener: TalkSentence_412090407-->
+::::'''Jingyan:''' Here's for your reparations. Next time if you encounter situations like this, please don't give money in a panic. Remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			10,
+			11,
+			12,
+			13
+		]
+	},
+	"CustomValue": 11
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020995-->
+:::{{DIcon|Arrow}} 500 Credits.
+::::<!--Custom String Listener: TalkSentence_412090409-->
+::::'''Jingyan:''' Here's for your reparations. Next time if you encounter situations like this, please don't give money in a panic. Remember to seek help from your nearby Realm-Keeping Commission officer.
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 12
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404020904,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::::<!--Custom String Trigger: MissionTo_404020995-->
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404020904-->
+:{{DIcon}} There are a few things I'd like to ask.
+::<!--Trigger PerformanceE 502032103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502032103.json-->
+::'''Jingyan:''' Mmm, go ahead. I'll do my best to answer.
+::<!--Custom String Trigger: Wait_Option_502032101_40-->
+::<!--Custom String Listener: Wait_Option_502032101_40-->
+::{{DIcon|Talk}} It seems to me that you're the most reliable person in the whole Chancery.
+:::<!--Custom String Listener: TalkSentence_502032125-->
+:::'''Jingyan:''' Mmm... I'm not at liberty to promptly respond to that question. May I ask, would you like to hear the formal response from a Realm-Keeping Commission officer, or the complaint from a regular staff member?
+:::{{DIcon|Return}} The formal response from a Realm-Keeping Commission officer.
+::::<!--Custom String Listener: TalkSentence_502032127-->
+::::'''Jingyan:''' All public officials at the Chancery have their own focus, and everyone is an integral member of the Realm-Keeping Commission.
+::::'''Jingyan:''' I can only express my gratitude for your assessment as "most reliable," and would refrain from any comments on the other parts. Hopefully you can keep paying attention to and supporting the work of the Realm-Keeping Commission.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} The complaint from a regular staff member.
+::::<!--Custom String Listener: TalkSentence_502032130-->
+::::'''Jingyan:''' Yeah, your observation is not wrong. If you get lumped in with two other lazybones at work, you'll soon become the "most reliable" around the workplace, too.
+::::'''Jingyan:''' It isn't a glorious title, so I simply couldn't be happy about it.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I heard the official Dahao used to be in the Cloud Knights?
+:::<!--Custom String Listener: TalkSentence_502032133-->
+:::'''Jingyan:''' Mm-hmm... That's about Official Dahao's personal life. May I ask, would you like to hear the formal response from a Realm-Keeping Commission officer, or a personal gossip from me?
+:::<!--Custom String Trigger: Wait_Option_502032101_53-->
+:::<!--Custom String Listener: Wait_Option_502032101_53-->
+:::{{DIcon|Return}} The formal response from a Realm-Keeping Commission officer.
+::::<!--Custom String Listener: TalkSentence_502032135-->
+::::'''Jingyan:''' Official Dahao's military experience in the Cloud Knights gives him a unique sense of responsibility. His intuition on the battlefield grants him a definite sense of purpose when dealing with issues big and small at the Realm-Keeping Commission.
+::::'''Jingyan:''' Please trust in the professionalism of the Realm-Keeping Commission. Our officers come from different backgrounds, which only enriches our experiences and methods of dealing with complex social and public interactions. Pfft&mdash;
+::::{{DIcon|Return}} What are you laughing at?
+:::::<!--Custom String Listener: TalkSentence_502032138-->
+:::::'''Jingyan:''' We've all undergone strict training at the Realm-Keeping Commission. No matter how funny something is, we will never laugh, unless we can't.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} Are you doubting it yourself?
+:::::<!--Custom String Listener: TalkSentence_502032140-->
+:::::'''Jingyan:''' I believe in the professionalism of every officer at the Realm-Keeping Commission, especially here in the Exalting Sanctum Chancery. Pfft&mdash;
+:::::'''Jingyan:''' I'm sorry. I just thought of something funny. Tfft pfft&mdash;
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} A personal gossip from you.
+::::<!--Custom String Listener: TalkSentence_502032143-->
+::::'''Jingyan:''' Hmmm... You don't seem like the gossiping kind, so I'll tell you...
+::::'''Jingyan:''' Actually, when Official Dahao was still a Cloud Knight, he saved my life. My admiration of him led me to join the Cloud Knights myself. I worked myself to the bone and eventually, I joined his elite squad.
+::::'''Jingyan:''' Later on, General Jing Yuan was worried about him getting struck with early-onset mara due to his combat experiences and hoped he could accept a sinecure position as a Realm-Keeping Commission official in the Exalting Sanctum &mdash; and keep him from the pains of life and death.
+::::{{DIcon|Return}} So he came to the Realm-Keeping Commission to slack off?
+:::::<!--Custom String Listener: TalkSentence_502032147-->
+:::::'''Jingyan:''' ...Well, I don't think you can say that, as it's not exactly easy-going at the Realm-Keeping Commission.
+:::::'''Jingyan:''' But judging by the results right now, he sure is idle. And I'm busier...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} Why are you here too?
+:::::<!--Custom String Listener: TalkSentence_502032150-->
+:::::'''Jingyan:''' I applied for a transfer. General Jing Yuan let me come and be a minor officer at the Realm-Keeping Commission.
+:::::'''Jingyan:''' I thought it would be great to help out Official Dahao, but as you can now see... I'm always putting in overtime with chores until midnight, which is far more than just "doing a solid" for someone.
+::::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're behaving a little big for your britches.
+:::<!--Custom String Listener: TalkSentence_502032153-->
+:::'''Jingyan:''' ...It's business hours now. You're an Outworlder with an inquiry, and I am an officer of the Realm-Keeping Commission. Being disciplined is the expected work manner for a Realm-Keeping Commission officer.
+:::'''Jingyan:''' How would you feel if public officials crack jokes and chat with you during work hours?
+:::{{DIcon|Return}} Your colleagues sure all love to.
+::::<!--Custom String Listener: TalkSentence_502032156-->
+::::'''Jingyan:''' ...
+::::'''Jingyan:''' I will discipline them. Thank you for your attention and support to the work of the Realm-Keeping Commission.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Keep up the great work!
+::::<!--Custom String Listener: TalkSentence_502032159-->
+::::'''Jingyan:''' There's nothing great about it. It's the least that we could do. Thank you for your attention and support to the work of the Realm-Keeping Commission.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've nothing else to inquire.
+:::<!--Custom String Listener: TalkSentence_502032161-->
+:::'''Jingyan:''' Sure.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502032103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The disaster is over, are you guys still busy?
+::<!--Trigger PerformanceE 502032104: Config/Level/NPCDialogue/P10202/NPCAct/Act502032104.json-->
+::'''Jingyan:''' I think the workload is okay. The thing is, I'm always busy, whether there is a disaster or not... I guess that's why I can't feel any difference.
+::'''Jingyan:''' It doesn't bother me, but I do hope that Official Dahao's schedule is less packed now... You know, considering his age and physical condition, it's easy for things to go wrong if he going hard at it.
+::'''Jingyan:''' But he has a high self-esteem and refuses to accept that he's aged. So, I can only do some of his work for him secretly. As a Vidyadhara, this much work isn't going to force me into hatching rebirth.
+::'''Jingyan:''' Hey, please don't tell him about this. I don't want him to worry about me.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502032104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I've nothing else to inquire.
+::'''Jingyan:''' Sure.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jingyan
+|zhs  = 净砚
+|zht  = 淨硯
+|ja   = 浄硯
+|ko   = 정연
+|es   = Jingyan
+|fr   = Jingyan
+|ru   = Цзинъянь
+|th   = Jingyan
+|vi   = Jingyan
+|de   = Jingyan
+|id   = Jingyan
+|pt   = Jingyan
+}}
+==Change History==
+{{Change History|TODO}}

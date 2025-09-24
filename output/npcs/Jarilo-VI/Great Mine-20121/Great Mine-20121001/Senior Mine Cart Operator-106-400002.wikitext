@@ -1,0 +1,230 @@
+<%-- [PAGE_INFO]
+PageTitle=#Senior Mine Cart Operator#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Senior Mine Cart Operator.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Great Mine
+|relatives       = 
+}}
+'''Senior Mine Cart Operator''' is an NPC on [[Jarilo-VI]], located in [[Great Mine]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Great Mine|npc_106_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 201040116-->)
+::<!--Trigger PerformanceE 201040147: Config/Level/Mission/2010401/Act/Act201040137.json-->
+::'''Senior Mine Cart Operator:''' Your reward is over there. Go take a look.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040115-->)
+::<!--Trigger PerformanceE 201040105: Config/Level/Mission/2010401/Act/Act_201040105.json-->
+:<pre>{
+	"$type": "RPG.GameCore.WaitPerformanceEnd"
+}</pre>
+::<!--Custom String Trigger: Talk_201040115-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040114-->)
+::<!--Trigger PerformanceE 201040144: Config/Level/Mission/2010401/Act/Act201040144.json-->
+::'''Senior Mine Cart Operator:''' So, do you want me to reset the mine carts for you?
+::{{DIcon|Arrow}} Yes. Please help me reset the carts.
+::{{DIcon|Exit}} There's no need.
+:::<!--Custom String Listener: Tramcar_EndReset-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040112-->)
+::<!--Trigger PerformanceE 201040141: Config/Level/Mission/2010401/Act/Act201040141.json-->
+::'''Senior Mine Cart Operator:''' Great! The venue's all sorted. Are you up for the next challenge?
+::{{DIcon|Arrow}} Let's go!
+:::<!--Custom String Listener: TalkSentence_701060655-->
+:::'''Senior Mine Cart Operator:''' Now that's the spirit! Let's begin.
+:::<!--Custom String Trigger: Talk_201040112-->
+::{{DIcon|Exit}} Just a moment. I have something else to do.
+:::<!--Custom String Listener: TalkSentence_701060657-->
+:::'''Senior Mine Cart Operator:''' Okay, we'll be right here waiting for you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040111-->)
+::<!--Trigger PerformanceE 201040137: Config/Level/Mission/2010401/Act/Act201040137.json-->
+::'''Senior Mine Cart Operator:''' Your reward is over there. Go take a look.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040110-->)
+::<!--Trigger PerformanceE 201040136: Config/Level/Mission/2010401/Act/Act201040136.json-->
+::'''Senior Mine Cart Operator:''' Ha, you're gutsy! And smarter than this kid.
+::'''Senior Mine Cart Operator:''' Take this reward, and I'll get another one for you...
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040109-->)
+::<!--Trigger PerformanceE 201040134: Config/Level/Mission/2010401/Act/Act201040134.json-->
+::'''Senior Mine Cart Operator:''' So, do you want me to reset the mine carts for you?
+::{{DIcon|Arrow}} Yes. Please help me reset the carts.
+::{{DIcon|Exit}} There's no need.
+:::<!--Custom String Listener: Tramcar_EndReset-->
+:::<!--Custom String Listener: Tramcar_EndReset-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040107-->)
+::<!--Trigger PerformanceE 201040131: Config/Level/Mission/2010401/Act/Act201040131.json-->
+::'''Senior Mine Cart Operator:''' Great! The venue's all sorted. Are you up for the next challenge?
+::{{DIcon|Arrow}} Let's go!
+:::<!--Custom String Listener: TalkSentence_701060655-->
+:::<!--Custom String Listener: TalkSentence_701060655-->
+:::'''Senior Mine Cart Operator:''' Now that's the spirit! Let's begin.
+:::<!--Custom String Trigger: Talk_201040107-->
+::{{DIcon|Exit}} Just a moment. I have something else to do.
+:::<!--Custom String Listener: TalkSentence_701060657-->
+:::<!--Custom String Listener: TalkSentence_701060657-->
+:::'''Senior Mine Cart Operator:''' Okay, we'll be right here waiting for you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040106-->)
+::<!--Trigger PerformanceE 201040116: Config/Level/Mission/2010401/Act/Act_201040116.json-->
+::'''Senior Mine Cart Operator:''' Your reward is over there. Go take a look.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040105-->)
+::<!--Trigger PerformanceE 201040146: Config/Level/Mission/2010401/Act/Act201040146.json-->
+::'''Senior Mine Cart Operator:''' Nice! Come on, let me give you a little something.
+::'''Senior Mine Cart Operator:''' But it's not over yet &mdash; hang on, I'll get another one for you...
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040104-->)
+::<!--Trigger PerformanceE 201040114: Config/Level/Mission/2010401/Act/Act_201040114.json-->
+::'''Senior Mine Cart Operator:''' So, do you want me to reset the mine carts for you?
+::{{DIcon|Arrow}} Yes. Please help me reset the carts.
+::{{DIcon|Exit}} There's no need.
+:::<!--Custom String Listener: Tramcar_EndReset-->
+:::<!--Custom String Listener: Tramcar_EndReset-->
+:::<!--Custom String Listener: Tramcar_EndReset-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040102-->)
+::<!--Trigger PerformanceE 201040102: Config/Level/Mission/2010401/Act/Act_201040102.json-->
+::'''Senior Mine Cart Operator:''' Watch carefully. This thing is called the turntable controller. You put your hand here, and then do this...
+::'''Senior Mine Cart Operator:''' ...Just where did you pop out from? Do you need me for something?
+::{{DIcon|Arrow}} I'm sent here to be your assistant instructor.
+:::<!--Custom String Listener: TalkSentence_701060117-->
+:::'''Senior Mine Cart Operator:''' Huh? What assistant instructor...
+:::'''Senior Mine Cart Operator:''' Oh... I see. Antonia sent you here, didn't she?
+::{{DIcon|Arrow}} Antonia asked me to come.
+:::<!--Custom String Listener: TalkSentence_701060120-->
+:::'''Senior Mine Cart Operator:''' What? Antonia sent you here?
+:::'''Senior Mine Cart Operator:''' Oh... I see. You must be that "assistant instructor," right?
+::<!--Custom String Trigger: TalkSentence_701060123-->
+::<!--Custom String Listener: TalkSentence_701060123-->
+::'''Senior Mine Cart Operator:''' *sigh* That girl always makes decisions for me without first consulting me. I've told her many times that I can deal with this myself...
+::'''Senior Mine Cart Operator:''' But now that you're here, I can't let you just hang around and do nothing.
+::{{DIcon|Arrow}} Let's get started.
+:::<!--Custom String Listener: TalkSentence_701060125-->
+:::'''Senior Mine Cart Operator:''' Alright, come give me a hand. Help me set things up.
+::{{DIcon|Arrow}} I am happy to just hang around.
+:::<!--Custom String Listener: TalkSentence_701060127-->
+:::'''Senior Mine Cart Operator:''' Ha, good one. We have a rule in the mines &mdash; less talking and more working. I'll however let you take a break after the work's done.
+::<!--Custom String Trigger: AllTalk_End-->
+::<!--Custom String Listener: AllTalk_End-->
+::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 201040149: Config/Level/Mission/2010402/Act/Act_201040216.json-->
+::'''Senior Mine Cart Operator:''' Hmm? You're early. I'm still working on a new puzzle, so you'll have to come back later.
+::{{DIcon|Arrow}} I still have some more questions...
+:::<!--Custom String Listener: 701060602_Ask-->
+:::{{DIcon|Talk}} How did you meet your current apprentice?
+::::<!--Custom String Listener: 701060602_Ask_Mineboy-->
+::::'''Senior Mine Cart Operator:''' Hmm? You mean the kid... Well, that's a long story. He's had a pretty tough life so far.
+::::'''Senior Mine Cart Operator:''' His father was working with me in the mines before. But he decided to try his luck scavenging in the Fragmentum with a group of vagrants... He never came back.
+::::'''Senior Mine Cart Operator:''' I saw he had no one to rely on, so I thought to pass on my track-laying skills to him. With those skills, he can make a living for himself.
+::::<!--Custom String Trigger: 701060602_Ask-->
+::::<!--Custom String Listener: 701060602_Ask-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Have you been working in these mines for a long time?
+:::::<!--Custom String Listener: 701060602_Ask_Time-->
+:::::'''Senior Mine Cart Operator:''' That's right! I've been with this mining team for many years. I can't remember exactly how long, but this mine has been operating for nearly twenty years now.
+:::::'''Senior Mine Cart Operator:''' Do you see that big vein in the middle of the mine? Absolutely stunning! Why didn't those useless surveyors find it earlier! To think that the most valuable prize was hiding in plain sight...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} That's all the questions I have.
+:::::<!--Custom String Listener: 701060602_Cancel-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Have you been working in these mines for a long time?
+::::<!--Custom String Listener: 701060602_Ask_Time-->
+::::'''Senior Mine Cart Operator:''' That's right! I've been with this mining team for many years. I can't remember exactly how long, but this mine has been operating for nearly twenty years now.
+::::'''Senior Mine Cart Operator:''' Do you see that big vein in the middle of the mine? Absolutely stunning! Why didn't those useless surveyors find it earlier! To think that the most valuable prize was hiding in plain sight...
+::::<!--Custom String Trigger: 701060602_Ask-->
+::::<!--Custom String Listener: 701060602_Ask-->
+::::{{DIcon|Talk}} How did you meet your current apprentice?
+:::::<!--Custom String Listener: 701060602_Ask_Mineboy-->
+:::::'''Senior Mine Cart Operator:''' Hmm? You mean the kid... Well, that's a long story. He's had a pretty tough life so far.
+:::::'''Senior Mine Cart Operator:''' His father was working with me in the mines before. But he decided to try his luck scavenging in the Fragmentum with a group of vagrants... He never came back.
+:::::'''Senior Mine Cart Operator:''' I saw he had no one to rely on, so I thought to pass on my track-laying skills to him. With those skills, he can make a living for himself.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} That's all the questions I have.
+:::::<!--Custom String Listener: 701060602_Cancel-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} That's all the questions I have.
+::::<!--Custom String Listener: 701060602_Cancel-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Nothing else.
+:::<!--Custom String Listener: 701060602_Cancel-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; Tramcar_StartReset)
+:<!--Custom String Listener: Tramcar_StartReset-->
+::'''Senior Mine Cart Operator:''' Okay, just one moment...
+::<!--Custom String Trigger: Tramcar_lv1_Start-->
+
+:<!--Custom String Listener: Tramcar_StartReset-->
+::'''Senior Mine Cart Operator:''' Okay, just one moment...
+::<!--Custom String Trigger: Tramcar_lv0_1_Start-->
+
+:<!--Custom String Listener: Tramcar_StartReset-->
+::'''Senior Mine Cart Operator:''' Okay, just one moment...
+::<!--Custom String Trigger: Tramcar_lv0_Start-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

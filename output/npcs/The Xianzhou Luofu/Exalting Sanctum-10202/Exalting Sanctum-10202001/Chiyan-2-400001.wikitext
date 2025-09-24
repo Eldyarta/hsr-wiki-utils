@@ -1,0 +1,99 @@
+<%-- [PAGE_INFO]
+PageTitle=#Chiyan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divine Foresight Messenger
+|image           = NPC Chiyan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Chiyan''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_2_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:{{A|VO vo ambient w2 greeting chiyan 101.ogg}} {{A|VO vo ambient w2 greeting chiyan 102.ogg}} '''Chiyan:''' May I ask, have you come here to the Seat of Divine Foresight on any official business? I can help you pass it on.
+:{{DIcon|Arrow}} I wanna enter the Seat of Divine Foresight.
+::<!--Custom String Listener: TalkSentence_502020101-->
+::'''Chiyan:''' Could you please wait here a moment? I'll go and report in for you.
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1020203
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} Nah, I'm just passing by.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Chiyan:''' May I ask, have you come here to the Seat of Divine Foresight on any official business? I can help you pass it on.
+:{{DIcon|Arrow}} I wanna enter the Seat of Divine Foresight.
+::<!--Custom String Listener: TalkSentence_502020101-->
+::'''Chiyan:''' Could you please wait here a moment? I'll go and report in for you.
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1020203
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} Nah, I'm just passing by.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Chiyan
+|zhs  = 斥晏
+|zht  = 斥晏
+|ja   = 斥晏
+|ko   = 자안
+|es   = Chiyan
+|fr   = Chiyan
+|ru   = Чиянь
+|th   = Chiyan
+|vi   = Chiyan
+|de   = Chiyan
+|id   = Chiyan
+|pt   = Chiyan
+}}
+==Change History==
+{{Change History|TODO}}

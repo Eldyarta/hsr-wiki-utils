@@ -1,0 +1,103 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cielo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Pepeshi Club Bouncer
+|image           = NPC Cielo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Cielo''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_630_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051103: Config/Level/Mission/5030510/Act/Act503051103.json-->
+::'''Cielo:''' ...
+::'''Cielo:''' You're a door attendant, too? Tsk, look at how tall you are, standing all high and mighty. Has your brain gone rusty from being so high in the sky?
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051124-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Cielo:''' Humph. As you're not standing over me while we talk, I guess we can make conversation.
+::{{DIcon|Arrow}} I want to know what you think about this lounge.
+:::<!--Custom String Listener: TalkSentence_503051126-->
+:::'''Cielo:''' I like this place. It is not too loud and there aren't too many of those tall idiots bragging about their height. Tsk, this big brute won't bully those two little monsters. They look like they get on well &mdash; This is a rare sight.
+:::'''Cielo:''' I'll go and ask the Pepeshi Club administrator if they want to come here for a team-building event. It's not easy to find a place that everyone is happy with. They don't like places with lots of outsiders.
+:::'''Cielo:''' Shall I let you know when I hear something... Or the drinksmith? Forget it, I'll talk to you, I know you won't pressure me too much.
+:::{{DIcon|Arrow}} ...Are you calling me short?
+:::{{DIcon|Arrow}} That's more of an issue on your end, isn't it?
+:::<!--Custom String Listener: TalkSentence_503051131-->
+:::'''Cielo:''' Quit your nonsense. I will not try and reason with people taller than me. I am always right!
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051133-->
+:::'''Cielo:''' Uhh... That question came out of nowhere, let me think.
+:::'''Cielo:''' Ahem. Umm, I'm sorry, but I must turn you down. You are a human, far taller than the height standards of the Pepeshi people, and I am a dutiful door attendant, it would never work between us. Unless...
+:::'''Cielo:''' No, unless nothing! Humph, I said what I said! We can't even be friends!
+::----
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051106: Config/Level/Mission/5030510/Act/Act503051106.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cielo
+|zhs  = 切诺
+|zht  = 切諾
+|ja   = チェノ
+|ko   = 시에로
+|es   = Cielo
+|fr   = Cielo
+|ru   = Сиело
+|th   = Cielo
+|vi   = Cielo
+|de   = Cielo
+|id   = Cielo
+|pt   = Cielo
+}}
+==Change History==
+{{Change History|TODO}}

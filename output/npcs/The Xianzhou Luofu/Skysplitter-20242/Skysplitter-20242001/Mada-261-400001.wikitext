@@ -1,0 +1,146 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mada#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Artisanship Commission Craftsman
+|image           = NPC Mada.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Mada''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_261_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502180000: Config/Level/Mission/5021800/Act/Act502180000.json-->
+::'''Mada:''' The engine's power output is stable, but the revolution rate is fluctuating unnaturally. What exactly is the reason...
+::'''Mada:''' Oh, you're looking for me...? Ah, wait, who are you again? This is the engine room. Why are you here?
+::{{DIcon|Arrow}} Sorry, I got lost.
+:::<!--Custom String Listener: TalkSentence_502180104-->
+:::'''Mada:''' The spectator floor and engine room are separated by several levels. You got lost with your Navigation on?
+::{{DIcon|Arrow}} I'm the engine engineer.
+:::<!--Custom String Listener: TalkSentence_502180106-->
+:::'''Mada:''' I'm in charge of the left engine, so that means you're responsible for the right one, right?
+::{{DIcon|Arrow}} No one move, I'm skyjacking this ship!
+:::<!--Custom String Listener: TalkSentence_502180108-->
+:::'''Mada:''' Err... Might I kindly remind you that skyjackers usually take the cockpit? Consider recalibrating your Navigation device?
+::<!--Custom String Trigger: TalkSentence_502180109-->
+::<!--Custom String Listener: TalkSentence_502180109-->
+::'''Mada:''' Hang on! I've seen your face somewhere! Before the Skysplitter's Wolfcatcher Operation, I think we've synced up intel... You're not (Trailblazer), the Nameless of the Astral Express, are you!?
+::'''Mada:''' I apologize for my rudeness. My brain's been overloaded by work, and I didn't recognize you immediately... But even if you're a Luofu VIP, the engine room is crucial to the Skysplitter &mdash; I really hope you don't touch anything in here.
+::{{DIcon|Arrow}} Course not, why would I touch this engine...
+:::<!--Custom String Listener: TalkSentence_502180112-->
+:::'''Mada:''' We've synced up before, and I hear that you're quite the joker. But if you say you won't, I'll take your word for it.
+::{{DIcon|Arrow}} When you say, "Don't touch anything," did you really mean it?
+:::<!--Custom String Listener: TalkSentence_502180114-->
+:::'''Mada:''' I can't believe you're doubting me... No means no. Hold it, you can't be serious, are you? I'm sincerely asking you not to!
+::{{DIcon|Arrow}} You don't have to worry one bit, you won't see a thing.
+:::<!--Custom String Listener: TalkSentence_502180116-->
+:::'''Mada:''' Phew, that's good then...
+:::'''Mada:''' ...Not! Look, I'm an engine engineer, I totally understand your curiosity. But please, don't make this difficult for us.
+::<!--Custom String Trigger: TalkSentence_502180118-->
+::<!--Custom String Listener: TalkSentence_502180118-->
+::'''Mada:''' ...But on the other hand, you're a Nameless on the Astral Express. The fact that the train's engine is still in pristine condition means I can completely trust you.
+::'''Mada:''' If you're truly curious about the engine room, I can give you a brief overview without revealing any technical secrets.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502180002: Config/Level/Mission/5021800/Act/Act502180002.json-->
+::'''Mada:''' We meet again. There's nothing else interesting to look at here. If you're curious about the engine, you can ask me anything.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Let's banter then...
+::'''Mada:''' As long as it doesn't involve sensitive questions, I'll answer the best I can.
+::<!--Custom String Trigger: Wait_Option_502180003_44-->
+::<!--Custom String Listener: Wait_Option_502180003_44-->
+::{{DIcon|Talk}} I'd like to know more about the Skysplitter's engine.
+:::<!--Custom String Listener: TalkSentence_502180203-->
+:::'''Mada:''' Wonderful! Since I became an interstellar ship engineer, the second item on my lifelong wish list has been to regale another person with the fundamentals about engine functionality...
+:::'''Mada:''' It involves the operating principles of engines, mechanical structures, material properties, and the artisanship of the engine's production... However, I can't disclose any of these to you. Please refrain from asking such potentially sensitive questions.
+:::'''Mada:''' All you need to know is that the power generated by this colossal entity can move a small asteroid.
+:::'''Mada:''' How about that! Isn't it cool?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do engine engineers exactly do?
+:::<!--Custom String Listener: TalkSentence_502180208-->
+:::'''Mada:''' In simple terms, it's about ensuring the engines maintain normal functionality. If any indicators show an abnormality, I need to promptly identify and rectify the issue.
+:::'''Mada:''' For the Skysplitter, the engine is akin to a heart in the human body. Any malfunction... and the most immediate result is everyone stepping into the afterlife, hand-in-hand.
+:::'''Mada:''' So, the most crucial aspects of this job are responsibility and meticulousness, leaving no room for oversight. Often, the devil is in the details, and I must root them out one by one.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} If you're free, go up and watch the competition.
+:::<!--Custom String Listener: TalkSentence_502180212-->
+:::'''Mada:''' Unfortunately, during competition season, I'm usually on standby here... If something goes wrong with the engine and there's no one around, it could be dangerous. My vacations are mostly when there aren't tournaments happening on the Skysplitter.
+:::'''Mada:''' When I first learned that I'd be working on the Skysplitter, I was somewhat excited. Who knew that once I stepped into the engine room, I'd never be able to leave. Even though the arena is just above, it feels like a galaxy away.
+:::'''Mada:''' Luckily, there's still a broadcast of the competition commentary and earth-shaking cheers &mdash; like my very own VIP seat in the heart of the action.
+:::{{DIcon|Arrow}} If there's a chance, I'll invite you to watch a match.
+::::<!--Custom String Listener: TalkSentence_502180216-->
+::::'''Mada:''' If there's a chance, haha, thank you.
+::::<!--Custom String Trigger: TalkSentence_502180219-->
+::::<!--Custom String Listener: TalkSentence_502180219-->
+::::'''Mada:''' If only there's a talented engineer who can swap shifts with me, that would be great. Haha, for now I'll just hold down the fort!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} The success of the competition wouldn't be possible without you...
+::::<!--Custom String Listener: TalkSentence_502180218-->
+::::'''Mada:''' That's something we all know, but don't mention. Thank you for taking the time to understand our work.
+::::<!--Custom String Trigger: TalkSentence_502180219-->
+::::<!--Custom String Listener: TalkSentence_502180219-->
+::::'''Mada:''' If only there's a talented engineer who can swap shifts with me, that would be great. Haha, for now I'll just hold down the fort!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to ask.
+:::<!--Custom String Listener: TalkSentence_502180221-->
+:::'''Mada:''' Okay, please have a smooth voyage aboard the Skysplitter! How does that line go... Ah, may your sword be ever-sharp!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I should leave soon.
+::'''Mada:''' Okay, please have a smooth voyage aboard the Skysplitter! How does that line go... Ah, may your sword be ever-sharp!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mada
+|zhs  = 马达
+|zht  = 馬達
+|ja   = 馬達
+|ko   = 미달
+|es   = Mada
+|fr   = Mada
+|ru   = Мото
+|th   = Mada
+|vi   = Mada
+|de   = Mada
+|id   = Mada
+|pt   = Mada
+}}
+==Change History==
+{{Change History|TODO}}

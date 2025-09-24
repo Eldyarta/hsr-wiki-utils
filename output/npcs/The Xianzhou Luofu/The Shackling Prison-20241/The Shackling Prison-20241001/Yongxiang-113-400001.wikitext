@@ -1,0 +1,181 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yongxiang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Secretary
+|image           = NPC Yongxiang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Yongxiang''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_113_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502040001: Config/Level/Mission/5020400/Act/Act502040001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450105
+	]
+}</pre>
+::'''Yongxiang:''' We meet again, esteemed (Trailblazer)! You are looking as dashing and charismatic as ever!
+::{{DIcon|Arrow}} Have we met before?
+:::<!--Custom String Listener: TalkSentence_502040013-->
+:::'''Yongxiang:''' Perhaps you may have forgotten, {{MC|m=sir|f=ma'am}}, but I remember like it was yesterday.
+::{{DIcon|Arrow}} Was it something bad I did?
+:::<!--Custom String Listener: TalkSentence_502040015-->
+:::'''Yongxiang:''' You jest, esteemed friend! How can a noble hero like you do anything vile?
+::<!--Custom String Trigger: TalkSentence_502040016-->
+::<!--Custom String Listener: TalkSentence_502040016-->
+::'''Yongxiang:''' It was the day of the riot, the entire prison was in complete chaos, and an entire group of prisoners attempted to use the commotion as cover for their escape.
+::'''Yongxiang:''' Just at that crucial moment, you bravely put your life on the line and sent a Sanctus Medicus disciple to your left flying with a mighty kick. Not a second later, you pulled a great baseball bat from your back and unleashed a mighty swing at the Borisin Wolftrooper in front of you!
+::'''Yongxiang:''' ...but unexpectedly, even more escapees rushed over at that moment! Yet, you stood resolute amidst the chaos, loudly proclaiming "Rules, are made to be broken!" Then, you brought your bat to bear, and halted the rushing mob like a dam bearing the weight of a wave...
+::'''Yongxiang:''' Ah! Whoops! Got carried away. Sorry. You must know these details better than I do. There was no need to waste your time with all my incessant chattering...
+::'''Yongxiang:''' I just wanted to tell you that... Your battle posture was incredible. Awesome. I will never forget how you looked for as long as I live.
+::{{DIcon|Arrow}} You remember what I did better than I do!
+:::<!--Custom String Listener: TalkSentence_502040024-->
+:::'''Yongxiang:''' You flatter me. This is but my only strength.
+::{{DIcon|Arrow}} Are you sure you haven't embellished anything?
+:::<!--Custom String Listener: TalkSentence_502040026-->
+:::'''Yongxiang:''' Of course not! My memory is like markings left by a blade upon stone. Not one detail is wrong.
+::{{DIcon|Arrow}} Are you some kind of biological recorder?
+:::<!--Custom String Listener: TalkSentence_502040028-->
+:::'''Yongxiang:''' Haha! I participated in a talent show as a child. The crew of that show did give me the title of "biological recorder."
+::<!--Custom String Trigger: TalkSentence_502040029-->
+::<!--Custom String Listener: TalkSentence_502040029-->
+::'''Yongxiang:''' When I said "I would never forget" as long as I live earlier... That wasn't meant as a compliment to you, but an objective statement about me. From the time I was born, I have never forgotten a single thing.
+::'''Yongxiang:''' Alright! Enough about me, personally: You're here to see the Shackling Prison's secretary, right? There must be something you need. If you have a question, feel free to ask.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502040002: Config/Level/Mission/5020400/Act/Act502040002.json-->
+::'''Yongxiang:''' Do you still need anything else, (Trailblazer)? You will find no one in The Shackling Prison with a better memory than me. If I can be of any use to you, please do not hesitate to ask.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} There's something I'd like to ask you.
+::'''Yongxiang:''' Ask away.
+::<!--Custom String Trigger: Wait_Option_502040003_73-->
+::<!--Custom String Listener: Wait_Option_502040003_73-->
+::{{DIcon|Talk}} What does a secretary of the Shackling Prison do?
+:::<!--Custom String Listener: TalkSentence_502040303-->
+:::'''Yongxiang:''' Haha. Doesn't the title of "secretary" sound impressive? In actuality, I am the Shackling Prison's "penholder."
+:::'''Yongxiang:''' Though you've seen the majesty of judges arresting people left and right, hitting culprits with the full force of the law as they please. In actual fact, they have to follow a strict set of administrative procedures behind the scenes. Even if there is an emergency, and they have to deliver some on-site "judgment," there are still processes that have to be retroactively filed. This is what I specialize in.
+:::'''Yongxiang:''' Additionally, there are miscellaneous tasks like issue verdicts, official announcements, internal marketing... So long as it has to do with "writing" in the Shackling Prison, it falls under my jurisdiction of work.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is work usually stressful?
+:::<!--Custom String Listener: TalkSentence_502040307-->
+:::'''Yongxiang:''' It's acceptable. Perhaps the role of a secretary isn't that important in itself, but someone has to do this work.
+:::'''Yongxiang:''' Official documentation is an extremely important part of the alliance's legal system. The style and terminology are extremely particular, and sometimes just a small difference in wording can lead to a massive administrative accident. Anyone without formal training wouldn't be able to compose them.
+:::'''Yongxiang:''' Though, being a secretary in the Shackling Prison also has its unique aspects. The workload might not be that intense, but the pressure for us pen-holders is pretty substantial.
+:::'''Yongxiang:''' After all, these are black-hearted criminals we're holding here. The documents related to them are all filled with cruelty and atrocities beyond the fathoming of a normal person.
+:::'''Yongxiang:''' And I am someone who doesn't forget. Each and every tragic case is carved into my mind's eye, there every single moment.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why is your memory so good?
+:::<!--Custom String Listener: TalkSentence_502040313-->
+:::'''Yongxiang:''' I was born with it. After my parents discovered my talent, I became my family's breadwinner. I joined talent shows, participated in advertisements, made guest appearances on all kinds of immersias... I was once a pretty famous kid on the Luofu.
+:::'''Yongxiang:''' But three hundred years went by, and I grew up. The audience got bored, and I wasn't that valuable anymore... *sigh* Then, I got estranged from my family. There's nothing for it. To them, I'm worthless.
+:::'''Yongxiang:''' For a three hundred-year-old person with no skills beyond having a "good memory," no social connections on which they could rely, not even a home to return to...
+:::'''Yongxiang:''' In a blink, the only place that would take me was the Ten-Lords Commission. They love people disconnected from society... Sorry, I seem to have gone off-topic, haha.
+:::'''Yongxiang:''' But as you see, the Ten-Lords Commission isn't that scary. I'm afraid in all the cosmos, only they will accept a social outcast like me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502040319-->
+:::'''Yongxiang:''' Very well. If you have any more questions, please come and find me.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's all for now.
+::'''Yongxiang:''' Very well. If you have any more questions, please come and find me.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502040032)
+:<!--Custom String Listener: TalkSentence_502040032-->
+::'''Yongxiang:''' Ask away.
+::<!--Custom String Trigger: Wait_Option_502040001_36-->
+::<!--Custom String Listener: Wait_Option_502040001_36-->
+::{{DIcon|Talk}} What does a secretary of the Shackling Prison do?
+:::<!--Custom String Listener: TalkSentence_502040034-->
+:::'''Yongxiang:''' Haha. Doesn't the title of "secretary" sound impressive? In actuality, I am the Shackling Prison's "penholder."
+:::'''Yongxiang:''' Though you've seen the majesty of judges arresting people left and right, hitting culprits with the full force of the law as they please. In actual fact, they have to follow a strict set of administrative procedures behind the scenes. Even if there is an emergency, and they have to deliver some on-site "judgment," there are still processes that have to be retroactively filed. This is what I specialize in.
+:::'''Yongxiang:''' Additionally, there are miscellaneous tasks like issue verdicts, official announcements, internal marketing... So long as it has to do with "writing" in the Shackling Prison, it falls under my jurisdiction of work.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is work usually stressful?
+:::<!--Custom String Listener: TalkSentence_502040038-->
+:::'''Yongxiang:''' It's acceptable. Perhaps the role of a secretary isn't that important in itself, but someone has to do this work.
+:::'''Yongxiang:''' Official documentation is an extremely important part of the alliance's legal system. The style and terminology are extremely particular, and sometimes just a small difference in wording can lead to a massive administrative accident. Anyone without formal training wouldn't be able to compose them.
+:::'''Yongxiang:''' Though, being a secretary in the Shackling Prison also has its unique aspects. The workload might not be that intense, but the pressure for us pen-holders is pretty substantial.
+:::'''Yongxiang:''' After all, these are black-hearted criminals we're holding here. The documents related to them are all filled with cruelty and atrocities beyond the fathoming of a normal person.
+:::'''Yongxiang:''' And I am someone who doesn't forget. Each and every tragic case is carved into my mind's eye, there every single moment.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why is your memory so good?
+:::<!--Custom String Listener: TalkSentence_502040044-->
+:::'''Yongxiang:''' I was born with it. After my parents discovered my talent, I became my family's breadwinner. I joined talent shows, participated in advertisements, made guest appearances on all kinds of immersias... I was once a pretty famous kid on the Luofu.
+:::'''Yongxiang:''' But three hundred years went by, and I grew up. The audience got bored, and I wasn't that valuable anymore... *sigh* Then, I got estranged from my family. There's nothing for it. To them, I'm worthless.
+:::'''Yongxiang:''' For a three hundred-year-old person with no skills beyond having a "good memory," no social connections on which they could rely, not even a home to return to...
+:::'''Yongxiang:''' In a blink, the only place that would take me was the Ten-Lords Commission. They love people disconnected from society... Sorry, I seem to have gone off-topic, haha.
+:::'''Yongxiang:''' But as you see, the Ten-Lords Commission isn't that scary. I'm afraid in all the cosmos, only they will accept a social outcast like me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502040050-->
+:::'''Yongxiang:''' Very well. If you have any more questions, please come and find me.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502040052)
+:<!--Custom String Listener: TalkSentence_502040052-->
+::'''Yongxiang:''' Very well. If you have any more questions, please come and find me.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yongxiang
+|zhs  = 永巷
+|zht  = 永巷
+|ja   = 永巷
+|ko   = 영항
+|es   = Yongxiang
+|fr   = Yongxiang
+|ru   = Юнсян
+|th   = Yongxiang
+|vi   = Yongxiang
+|de   = Yongxiang
+|id   = Yongxiang
+|pt   = Yongxiang
+}}
+==Change History==
+{{Change History|TODO}}

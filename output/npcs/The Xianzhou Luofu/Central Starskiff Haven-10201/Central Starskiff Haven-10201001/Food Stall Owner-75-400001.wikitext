@@ -1,0 +1,290 @@
+<%-- [PAGE_INFO]
+PageTitle=#Food Stall Owner#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Food Stall Owner.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Food Stall Owner''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_75_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 404021405-->)
+::<!--Trigger PerformanceD 404021405: Config/Level/Mission/4040214/Act/Act404021405.json-->
+::'''Food Stall Owner:''' It's (Trailblazer)! Have you completed the Diplomacy phase yet?
+::{{DIcon|Arrow}} Done. Let's get on with the real event.
+:::<!--Custom String Listener: TalkSentence_404021492-->
+:::'''Food Stall Owner:''' Already? Wow! Then let's begin the Combat phase, then...
+:::<!--Custom String Trigger: TalkSentence_404021495-->
+:::<!--Custom String Listener: TalkSentence_404021495-->
+:::----
+:::'''Food Stall Owner:''' Contestants, listen carefully to my instructions!
+:::You gulp in anticipation. Seems like this ridiculously theatrical Competitive Eater Championship is finally about to begin.
+:::You peek at the other two contestants out of the corner of your eye. The guy remains tight-lipped, gaze fixed on the luscious buns in their bamboo steamer. A look of radiant excitement betrays the girl as she also stares at the bamboo steamer.
+:::You can't help but start to wonder what the real motives behind these two contestants are. However, another loud announcement yanks your thoughts back to reality.
+:::'''Food Stall Owner:''' Ready... get set &mdash; EAT!
+:::The contest has officially begun. Seeing the other two inhaling everything before them like a tornado, you're unable to keep up. All you can do is grab onto your assigned buns in front of you, and start stuffing them like crazy into your poor little mouth.
+:::{{DIcon|Arrow}} Let's eat. Let's eat!
+::::<!--Custom String Listener: TalkSentence_404021502-->
+::::You eat and eat! After frantically stuffing your face, you are pleasantly surprised to discover that you've eaten two extra buns.
+::::You never realized before how big buns actually are. But the contest hasn't finished yet!
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can't eat anymore...
+:::::<!--Custom String Listener: TalkSentence_404021541-->
+:::::The limits of your stomach obviously cannot handle this kind of situation. Honestly, at this point surrendering would be more beneficial to your health.
+:::::Is the prize really worth the pain of a distended belly? I'm afraid you've already made your decision &mdash; and you know it, too.
+:::::'''Food Stall Owner:''' ...Then (Trailblazer) has withdrawn from the contest!
+::::;(If {{F|MissionCV-4040214-undefined}} is undefined 11)
+::::::<!--Custom String Trigger: endingE-->
+::::::<!--Custom String Listener: endingE-->
+::::::'''Food Stall Owner:''' Um... Even though Contestant (Trailblazer) couldn't handle the amount of food and ended up passing out...
+::::::'''Food Stall Owner:''' ...The other two contestants also pulled out right at the same time due to their physical discomfort. Have you ever heard of anything like it?
+::::::'''Food Stall Owner:''' No matter which way you look at it, our scrutineers have counted out the remaining buns and adjudged the winner of this year's Competitive Eater Championship as none other than &mdash; Contestant (Trailblazer)!
+::::::'''Food Stall Owner:''' Here's your prize. It's all yours! And we'll see you next year for the next annual contest.
+::::::<!--Custom String Trigger: Talk_404021407-->
+::::::<!--Custom String Listener: Talk_404021407-->
+::::::----
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404021405,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			1,
+			2,
+			3
+		]
+	},
+	"CustomValue": 1
+}</pre>
+::::;(If {{F|MissionCV-4040214-undefined}} is not undefined 11)
+::::::<!--Custom String Trigger: endingB-->
+::::::<!--Custom String Listener: endingB-->
+::::::'''Food Stall Owner:''' I can tell you've given it absolutely everything you've got... So I've made a decision &mdash; to award you a consolation prize as encouragement!
+::::::'''Food Stall Owner:''' There's an old Xianzhou saying: "No arrogance in victory, no despair in defeat!" It doesn't matter that you lost this year's contest. Just remember to come back and check out next year's contest!
+::::::<!--Custom String Trigger: Talk_404021409-->
+::::::<!--Custom String Listener: Talk_404021409-->
+::::::----
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404021405,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			1,
+			2,
+			3
+		]
+	},
+	"CustomValue": 3
+}</pre>
+:::::<!--Custom String Trigger: 404021405_Finish-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} I can't eat anymore...
+::::<!--Custom String Listener: TalkSentence_404021545-->
+::::All are shocked to hear these words. Nobody seemed to think that this weakling of an Outworlder would capitulate so quickly, before anyone else has the chance to get slightly full.
+::::The girl is even more pathetic &mdash; her uneaten buns drop straight out of her hands onto the ground. For a split second, you don't know whether to feel sorry for the girl, for the bun &mdash; or for yourself.
+::::'''Food Stall Owner:''' ...Then (Trailblazer) has withdrawn from the contest!
+:::;(If {{F|MissionCV-4040214-undefined}} is undefined 11)
+:::::<!--Custom String Trigger: endingE-->
+:::::<!--Custom String Listener: endingE-->
+:::::'''Food Stall Owner:''' Um... Even though Contestant (Trailblazer) couldn't handle the amount of food and ended up passing out...
+:::::'''Food Stall Owner:''' ...The other two contestants also pulled out right at the same time due to their physical discomfort. Have you ever heard of anything like it?
+:::::'''Food Stall Owner:''' No matter which way you look at it, our scrutineers have counted out the remaining buns and adjudged the winner of this year's Competitive Eater Championship as none other than &mdash; Contestant (Trailblazer)!
+:::::'''Food Stall Owner:''' Here's your prize. It's all yours! And we'll see you next year for the next annual contest.
+:::::<!--Custom String Trigger: Talk_404021407-->
+:::::<!--Custom String Listener: Talk_404021407-->
+:::::----
+::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404021405,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			1,
+			2,
+			3
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:::;(If {{F|MissionCV-4040214-undefined}} is not undefined 11)
+:::::<!--Custom String Trigger: endingA-->
+:::::<!--Custom String Listener: endingA-->
+:::::'''Food Stall Owner:''' I didn't expect... This year's Competitive Eater Championship would finish so abruptly... As the boss here, I'm harboring some really complex emotions...
+:::::'''Food Stall Owner:''' But... I've made a decision &mdash; to award you a consolation prize as encouragement!
+:::::'''Food Stall Owner:''' There's an old Xianzhou saying: "No arrogance in victory, no despair in defeat!" It doesn't matter that you lost this year's contest. Just remember to come back and check out next year's contest!
+:::::<!--Custom String Trigger: Talk_404021409-->
+:::::<!--Custom String Listener: Talk_404021409-->
+:::::----
+::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404021405,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			1,
+			2,
+			3
+		]
+	},
+	"CustomValue": 3
+}</pre>
+::::<!--Custom String Trigger: 404021405_Finish-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Not yet...
+:::<!--Custom String Listener: TalkSentence_404021494-->
+:::'''Food Stall Owner:''' No worries! We'll start the Combat phase once you're good and ready.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 404021405-->)
+::<!--Trigger PerformanceE 404021400: Config/Level/Mission/4040214/Act/Act404021400.json-->
+::'''Food Stall Owner:''' Tuskpir wraps! Songlotus cakes! Come get 'em while they're hot!
+::'''Food Stall Owner:''' Greetings. Would you like some cheap but delicious Luofu snacks?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 404021401-->)
+:{{DIcon|?}} Are there any discount events going on?
+:::<!--Trigger PerformanceE 404021401: Config/Level/Mission/4040214/Act/Act404021401.json-->
+:::'''Food Stall Owner:''' Hey, dear customer! There are no "discounts" here. We already have the lowest prices in all of the Luofu. We can't discount things any further. But speaking of events...
+:::'''Food Stall Owner:''' Our store is about to hold the Competitive Eater Championship soon. Do you want to join?
+:::{{DIcon|Arrow}} Competitive Eater Championship? What's that about?
+::::<!--Custom String Listener: TalkSentence_404021404-->
+::::'''Food Stall Owner:''' Haha, now that's a good question &mdash; we're holding this special eating event to celebrate the 421st anniversary of our store!
+::::'''Food Stall Owner:''' You will be pitted against other competitive eaters around the Luofu and beyond to see who can eat the most buns within the time limit. And the winner wins a massive prize!
+::::'''Food Stall Owner:''' Naturally, to compete you'll have to pay a deposit first. But don't worry &mdash; as long as you win, your deposit will be refunded to you in full!
+::::<!--Custom String Trigger: Wait_Option_404021401_14-->
+::::<!--Custom String Listener: Wait_Option_404021401_14-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":2,"ItemNum":1000}]}-->}})
+:::::{{DIcon|Talk}} This contest doesn't sound legit...
+::::::<!--Custom String Listener: TalkSentence_404021408-->
+::::::'''Food Stall Owner:''' Uh, hold it right there! I know what you're gonna say, but that kind of behavior is explicitly banned aboard Xianzhou!
+::::::'''Food Stall Owner:''' We really are just running a simple anniversary contest, and besides &mdash; everything's mega-discounted!
+::::::'''Food Stall Owner:''' Think about it: For just a small price, you can eat as much of these famous Luofu snacks as you can fit inside you &mdash; is there honestly any better deal going right now in the whole universe? I don't know of any.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} So how much credit do I have to put down?
+::::::<!--Custom String Listener: TalkSentence_404021412-->
+::::::'''Food Stall Owner:''' Only a little &mdash; for just 1000 Credits, you can join in our Competitive Eater Championship!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} I'm in!
+::::::<!--Custom String Listener: TalkSentence_404021414-->
+::::::'''Food Stall Owner:''' Great! Please put down your deposit right here...
+::::::'''Food Stall Owner:''' Please wait here for a moment while the other contestants take their places. The contest will begin soon!
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404021401,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 9
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Trigger: 404021401_Finish-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} I'll consider it.
+::::::<!--Custom String Listener: TalkSentence_404021417-->
+::::::'''Food Stall Owner:''' Haha, that's fine. Enjoy the show!
+::::::'''Food Stall Owner:''' If you ever want to eat in our Competitive Eater Championship, just come back and talk to me anytime. The prizes are very generous!
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":2,"ItemNum":1000}]}-->}})
+:::::{{DIcon|Talk}} This contest doesn't sound legit...
+::::::<!--Custom String Listener: TalkSentence_404021408-->
+::::::'''Food Stall Owner:''' Uh, hold it right there! I know what you're gonna say, but that kind of behavior is explicitly banned aboard Xianzhou!
+::::::'''Food Stall Owner:''' We really are just running a simple anniversary contest, and besides &mdash; everything's mega-discounted!
+::::::'''Food Stall Owner:''' Think about it: For just a small price, you can eat as much of these famous Luofu snacks as you can fit inside you &mdash; is there honestly any better deal going right now in the whole universe? I don't know of any.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} So how much credit do I have to put down?
+::::::<!--Custom String Listener: TalkSentence_404021412-->
+::::::'''Food Stall Owner:''' Only a little &mdash; for just 1000 Credits, you can join in our Competitive Eater Championship!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} I'll consider it.
+::::::<!--Custom String Listener: TalkSentence_404021417-->
+::::::'''Food Stall Owner:''' Haha, that's fine. Enjoy the show!
+::::::'''Food Stall Owner:''' If you ever want to eat in our Competitive Eater Championship, just come back and talk to me anytime. The prizes are very generous!
+::::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} No thanks. I'm just watching.
+::::<!--Custom String Listener: TalkSentence_404021419-->
+::::'''Food Stall Owner:''' Haha, no problem! Come back anytime!
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_404021401-->
+::{{DIcon|Shop}} What are you selling?
+:::<!--Trigger PerformanceE 404021407: Config/Level/Mission/4040214/Act/Act404021407.json-->
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 75,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 18,
+	"TaskID": []
+}</pre>
+:::<!--Custom String Trigger: EndPerformance-->
+:::<!--Custom String Listener: EndPerformance-->
+:::'''Food Stall Owner:''' Thank you for stopping by. Hope to see you next time!
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't want to buy anything right now.
+:::<!--Trigger PerformanceE 404021408: Config/Level/Mission/4040214/Act/Act404021408.json-->
+:::'''Food Stall Owner:''' Thank you for stopping by. Hope to see you next time!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Food Stall Owner
+|zhs  = 小吃摊主
+|zht  = 小吃攤主
+|ja   = 屋台の店主
+|ko   = 포장마차 주인
+|es   = Dueña del puesto de comida
+|fr   = Propriétaire de stand de nourriture
+|ru   = Владелец киоска
+|th   = เจ้าของแผงขายอาหาร
+|vi   = Chủ Quầy Ăn Vặt
+|de   = Imbissstand-Besitzerin
+|id   = Pemilik Kedai Makanan
+|pt   = Dona de barraca de comida
+}}
+==Change History==
+{{Change History|TODO}}

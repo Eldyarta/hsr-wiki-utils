@@ -1,0 +1,96 @@
+<%-- [PAGE_INFO]
+PageTitle=#Uma#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = News Anchor
+|image           = NPC Uma.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Uma''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_631_400005}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051205: Config/Level/Mission/5030510/Act/Act503051205.json-->
+::'''Uma:''' ...Hm? Now that's interesting, the story of these monsters would make great news articles.
+::'''Uma:''' Not only can the Dreamjolt Troupe interact with humans, they even offer performances! It seems that the legendary drinksmith is indeed an impressive woman. I should invite her for a special feature interview on my program.
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051274-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Uma:''' Let me think... I probably don't have time but, speak quickly, I snuck out here to have a look around.
+::{{DIcon|Arrow}} I want to know your thoughts on Siobhan.
+:::<!--Custom String Listener: TalkSentence_503051276-->
+:::'''Uma:''' Siobhan? That's the name of the mysterious drinksmith, correct? I've heard a number of things about her.
+:::'''Uma:''' Her background is complicated, if you want to know the specifics then you should ask around for yourself. Either way, I know that she holds a lot of renown within The Family... The Iris Family, if I remember rightly...? You cannot tell anyone that you heard this from me.
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051279-->
+:::'''Uma:''' Are you the new drinksmith here? I hear that it's you that has been looking after those monsters lately? I hear it's going well, and they trust you a lot, that they are willing to share their thoughts with you. It seems you're quite the adept communicator.
+:::'''Uma:''' I will send someone to write a report on what I've seen here and let our viewers know. Keep an eye on the TV!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051208: Config/Level/Mission/5030510/Act/Act503051208.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Uma
+|zhs  = 乌玛
+|zht  = 烏瑪
+|ja   = ウーマ
+|ko   = 우마
+|es   = Uma
+|fr   = Uma
+|ru   = Ума
+|th   = Uma
+|vi   = Uma
+|de   = Uma
+|id   = Uma
+|pt   = Umah
+}}
+==Change History==
+{{Change History|TODO}}

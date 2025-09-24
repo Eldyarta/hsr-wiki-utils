@@ -1,0 +1,102 @@
+<%-- [PAGE_INFO]
+PageTitle=#Doremem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Waitstaff from the Village"
+|image           = NPC Doremem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Doremem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_27_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{F|FSV_ActivityCerydra}} is greater than or equal to 1)
+::<!--Trigger PerformanceE 504131006: Config/Level/Mission/5041310/Act/Act504131006.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106034
+}</pre>
+::'''Doremem:''' Come one, come all! Take a look, memi! Step right up, step right in, come and taste it, memi!
+::'''Doremem:''' Oh, manager, mem. What can I get for you?
+::{{DIcon|Arrow}} Just dropping by to see how everyone's doing.
+::{{DIcon|Arrow}} Has work been going well lately?
+::<!--Custom String Listener: TalkSentence_504131505-->
+::'''Doremem:''' Thank you for asking, manager, mem. Being a server here, carrying piping-hot dishes and enjoying unlimited staff meals every day, has been my dream since I was little, mem.
+::'''Doremem:''' Though after actually becoming a server, I realized the restaurant stays open really late. By the end of each day, my smile feels frozen in place, and I'm often too busy to even eat the staff meal...
+::'''Doremem:''' But when I bring a delicious dish to a customer and see them smile, somehow my face doesn't feel sore anymore, my stomach stops growling, and all the exhaustion just fades away, mem!
+::'''Doremem:''' Um, manager, a guest just arrived. I should go greet them, mem.
+::'''Doremem:''' Come one, come all! Take a look, memi! Step right up, step right in, come and taste it, memi!
+::<!--Ends the current performance-->
+;(If {{F|FSV_ActivityCerydra}} is not greater than or equal to 1)
+::<!--Trigger PerformanceE 504115004: Config/Level/Mission/5041150/Act/Act504115004.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106034
+}</pre>
+::'''Doremem:''' Come one, come all! Take a look, memi! Step right up, step right in, come and taste it, memi!
+::'''Doremem:''' Welcome, dear guest! What would you like to order today?
+::'''Doremem:''' Candied Quillorb Berries, Quillorb Fruit Brew, Oven-Baked Quillorb Berry Pie, Quillorb Salad, Quillorb Berry Jam &mdash; we've got it all, memi! Please, take your pick!
+::{{DIcon|Arrow}} Why is it all Quillorbs?
+::{{DIcon|Arrow}} Quillorbs it is, then.
+::<!--Custom String Listener: TalkSentence_504115306-->
+::'''Doremem:''' Sorry, memi. Truth is, we don't even have any Quillorbs. I was just practicing my restaurant service lines.
+::'''Doremem:''' Even though the restaurants in the Maze have long been closed, I've always dreamed of being a server, memi! Carrying hot dishes fresh from the kitchen, unlimited staff meals every day &mdash; that must be the best job in the world, memi!
+::'''Doremem:''' I&mdash;I even think I was born for it, memi!
+::'''Doremem:''' But before that... I need to practice, and practice hard.
+::'''Doremem:''' "Come one, come all! Take a look, memi! Step right up, come and try it, memi!"
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

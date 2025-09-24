@@ -1,0 +1,148 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yong Hai#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divine Foresight Secretary
+|image           = NPC Yong Hai.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Seat of Divine Foresight
+|relatives       = 
+}}
+'''Yong Hai''' is an NPC on [[The Xianzhou Luofu]], located in [[Seat of Divine Foresight]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seat of Divine Foresight|npc_4_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502029101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502029101.json-->
+::'''Yong Hai:''' Sis, biotech didn't pass, and as for the pension... The general agreed, and I'm fine with it, too. Hit pause on trading for now. You guys haven't negotiated with the trade delegations yet, have you?
+::'''Yong Nian:''' Gosh, let's give them a break then. It's nothing really. You go and talk things through with the general and I'll take care of things from here.
+::'''Yong Hai:''' Sis, you're always telling me to give people a break. I can barely show my face to the general anymore. It's like the Seat of Divine Foresight is just a subordinate office working for the benefit of the Sky-Faring Commission...
+::'''Yong Nian:''' C'mon, don't be like that...
+::{{DIcon|Arrow}} This is the Seat of Divine Foresight. Please watch what you say.
+:::<!--Custom String Listener: TalkSentence_502029106-->
+:::'''Yong Nian:''' Huh... We're siblings. What's wrong with siblings talking more intimately than other people?
+:::'''Yong Hai:''' Sis, they're right. We're talking business here in the Seat of Divine Foresight. Let's not bring our family connection into this.
+::{{DIcon|Arrow}} You can't say that...
+:::<!--Custom String Listener: TalkSentence_502029109-->
+:::'''Yong Hai:''' ...
+:::'''Yong Nian:''' Why aren't you talking, dear brother? Go on.
+:::'''Yong Hai:''' Sis, they're reminding us that this is a public place here. Let's be careful about what we say.
+::<!--Custom String Trigger: TalkSentence_502029112-->
+::<!--Custom String Listener: TalkSentence_502029112-->
+::'''Yong Hai:''' Isn't this one of General Jing Yuan's esteemed guests? Apologies for the ruckus. This is my sister Yong Nian over at the Sky-Faring Commission, and I'm Yong Hai from the Seat of Divine Foresight. To what do we owe the pleasure?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502029102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502029102.json-->
+::'''Yong Hai:''' ...There's nowhere near enough free space in the Exalting Sanctum though... Eh? (Trailblazer), what are you doing here?
+::'''Yong Nian:''' This punk isn't listening to his sister, and keeps trying to change the subject. (Trailblazer), can you have a word with him?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to have a little chat with you both.
+::<!--Trigger PerformanceE 502029103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502029103.json-->
+::'''Yong Nian:''' Great, let's chat. You can also help me persuade this guy. My little brother never listens to his older sister's needs.
+::<!--Custom String Trigger: Wait_Option_502029101_27-->
+::<!--Custom String Listener: Wait_Option_502029101_27-->
+::{{DIcon|Talk}} What do you want that he rejected?
+:::<!--Custom String Listener: TalkSentence_502029116-->
+:::'''Yong Hai:''' Don't listen to her. Besides, this is official business and we shouldn't be talking about it in front of (Trailblazer).
+:::'''Yong Nian:''' So what? It's a new technological breakthrough. Some foreign business interests want to invest as a joint venture, and all we need is for the Seat of Divine Foresight to green-light things.
+:::'''Yong Hai:''' Sis, we shouldn't be telling strangers these details.
+:::{{DIcon|Return}} Got it. Asking about Xianzhou secrets is inappropriate.
+::::<!--Custom String Listener: TalkSentence_502029120-->
+::::'''Yong Hai:''' Thanks for understanding.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} It's no fun if you aren't going to talk a little.
+::::<!--Custom String Listener: TalkSentence_502029122-->
+::::'''Yong Hai:''' *sigh* I just can't win against you two... I'll just be careful with what I say then.
+::::'''Yong Hai:''' My sister wants to promote this new tech called Lucidum Ingenium. The name's not finalized yet because it's not really an autonomous ingenium. It's a small device more like a Jade Abacus.
+::::'''Yong Hai:''' Lucidums are a type of organism native to the Scalegorge Waterscape. They're devoid of any intelligence with an incredibly simple biostructure, but possess a special natural instinct.
+::::'''Yong Hai:''' Lucidums can rapidly find the shortest route between their root system and a nutrient source, optimizing pathing to conserve energy. Some military scientists realized that this could be used to develop a new system of calculations.
+::::'''Yong Hai:''' A Lucidum captured inside a vessel only needs for a food source to be constantly switching locations for it to update its pathways and produce similar functions to a jade abacus... But at a far, far slower processing speed, naturally.
+::::'''Yong Nian:''' But a Lucidum Ingenium isn't a jade abacus, and jade abaci inhibitors have no effect on Lucidum Ingenia.
+::::'''Yong Nian:''' Certain business interests with a keen insight into mycelium processors are looking to cooperate with us. But, as you can see the Seat of Divine Foresight is being overly cautious.
+::::'''Yong Hai:''' This involves Xianzhou's core technology. It's you guys at the Sky-Faring Commission who should be more cautious.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You two have a great sibling bond between you...
+:::<!--Custom String Listener: TalkSentence_502029131-->
+:::'''Yong Hai:''' We do, but it does impact how I do my job. That's all.
+:::'''Yong Nian:''' What do you mean, "That's all"? This punk used to be so cute when we were little. I'd say how I dreamed of being a pilot one day, and he'd say the same, "I want to travel the universe with you, sis!"
+:::'''Yong Hai:''' Please shut up... You're embarrassing me...
+:::'''Yong Nian:''' But this kid tricked me. He said that he'd become a pilot with me, and then abandoned me, joined the army, and revel in contributing to my headaches daily.
+:::'''Yong Hai:''' C'mon sis, you never became a pilot either &mdash; you're a civil servant!
+:::'''Yong Nian:''' *sigh* Well, when you put it like that, I guess we are pretty similar after all.
+:::'''Yong Hai:''' I guess apples don't fall far from the tree after all. These are two separate issues though: When it comes to proper processes, I'll never just give anyone "a break."
+:::'''Yong Nian:''' ...Maybe so, but it's always easier for family to come together and do business, right?
+:::'''Yong Hai:''' Tsk, whatever you say, sis.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} You guys go on, then. I better get out of your hair.
+:::<!--Custom String Listener: TalkSentence_502029141-->
+:::'''Yong Nian:''' So long, and safe travels.
+:::'''Yong Hai:''' Safe travels.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502029103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The disaster is over, are you guys still busy?
+::<!--Trigger PerformanceE 502029104: Config/Level/NPCDialogue/P10202/NPCAct/Act502029104.json-->
+::'''Yong Hai:''' I think I've figured it out... It's my sister who decides whether my life is busy, not the Ambrosial Arbor crisis.
+::'''Yong Nian:''' Oh, I see. To you, I'm like the Ambrosial Arbor's new growth, right?
+::'''Yong Hai:''' There are some differences. At least the Ambrosial Arbor doesn't visit the Seat of Divine Foresight every single day to pester me with proposals that can hardly be approved.
+::'''Yong Nian:''' Well, you have your duties, and I have my mission. We have no choice but to be at each other's throat.
+::'''Yong Hai:''' Alas... How should I put it? Our personalities are way too similar...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502029104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} You guys go on, then. I better get out of your hair.
+::'''Yong Nian:''' So long, and safe travels.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yong Hai
+|zhs  = 永海
+|zht  = 永海
+|ja   = 永海
+|ko   = 영해
+|es   = Yong Hai
+|fr   = Yong&nbsp;Hai
+|ru   = Юн Хай
+|th   = Yong Hai
+|vi   = Yong Hai
+|de   = Yong Hai
+|id   = Yong Hai
+|pt   = Yong Hai
+}}
+==Change History==
+{{Change History|TODO}}

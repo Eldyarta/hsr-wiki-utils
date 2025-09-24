@@ -1,0 +1,165 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yancui#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Spices Supreme's Chef
+|image           = NPC Yancui.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Yancui''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_150_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 502057101: Config/Level/NPCDialogue/P10202/NPCAct/Act502057101.json-->
+:'''Yancui:''' Well, if it isn't my regular customer! Spices Supreme is all about making affordable and tasty dishes, so come in and take a seat!
+:'''Yancui:''' ...Or, maybe you'd like to have another talk about food, {{MC|f=young lady|m=young man}}?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404025902-->)
+:{{DIcon|?}} (Ask Yancui for the secret behind Xianzhou boxing)
+::<!--Trigger PerformanceE 404025902: Config/Level/Mission/4040259/Act/Act404025902.json-->
+::'''Yancui:''' You've come to the right place. I'm the top disciple for the Cloudbanner Meteor Fists. I've practiced the Forty-Eight Chambers of boxing since I was knee-high to a grasshopper.
+::'''Yancui:''' Unfortunately I've never heard of any boxing that needs "high gluten flour." I don't really get how this flour's used in training, unless it's used to train some obscure moves. That doesn't sound right...
+::'''Yancui:''' Why don't we do this? You gimme a demonstration of the move, and I'll take a look at what's going on.
+::{{DIcon|Arrow}} (Demonstrate for her some of the boxing described on the tombstone)
+::<!--Custom String Listener: TalkSentence_414259022-->
+::{{Black Screen|One-by-one, you perform moves from the unknown boxing school as etched onto the tombstone.}}
+::----
+::'''Yancui:''' This one forces the waist... and this move... unexpectedly hits the arm... but at this angle... this move actually seems kinda familiar...
+::'''Yancui:''' Oh! I got it. This is a method for kneading dough, not any kind of boxing school! Some customers have strong teeth and prefer chewy noodles. That has to use high gluten flour with careful kneading, otherwise you can't stretch out that chewy texture.
+::'''Yancui:''' Kneading noodle dough is a tiring task, and ingenium-knead doughs cannot compare to manual-knead doughs. Where you apply the force and how you knead &mdash; there's a technique and a knack behind everything. You have to focus on form, otherwise you'll either get lumpy dough or scattered flakes.
+::{{DIcon|Arrow}} So it'd be a complete waste of time to learn it as a boxing skill...?
+::<!--Custom String Listener: TalkSentence_414259027-->
+::'''Yancui:''' That's not quite true. If you do good things with good intentions, you should be reciprocated. It's just that you're not a cook, so you've kinda dropped this clanger. There's no point in you learning this "boxing" technique &mdash; but there is for me.
+::'''Yancui:''' Here, {{MC|f=miss|m=mister}}, thank you for all your effort. I don't want to put you out, so I've prepared several specialty dishes for you.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404025902-->
+:{{DIcon|Shop}} I'd like to buy some food.
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Finally, the Ambrosial Arbor crisis is behind us...
+::<!--Trigger PerformanceE 502014105: Config/Level/NPCDialogue/P10202/NPCAct/Act502014105.json-->
+::'''Yancui:''' Yeah, it's finally over... Even though it hasn't been that long, it feels like we've been going through it for a long time.
+::'''Yancui:''' I still remember clearly that scene, when I was in my kitchen and I came out and saw it growing... I've never seen anything so spectacular since it stopped growing.
+::'''Yancui:''' This is actually a good thing... A restaurant should feel like a restaurant. Back then, everyone was so troubled and weighed down by their worries that they couldn't even fully enjoy the dishes I had carefully prepared for them.
+::'''Yancui:''' ...That was definitely a terrible time... But now, everyone has calmed down, and I feel happy and motivated to see how they enjoy my dishes.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502014105-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502014104: Config/Level/NPCDialogue/P10202/NPCAct/Act502014104.json-->
+::'''Yancui:''' Thanks to your sponsorship, my business has been going well. A few days ago, my store was even ranked on the "Top 100 Darkest Dishes in the Cosmos" made by Outworlders... Haha.
+::'''Yancui:''' My friends were afraid to tell me about it because they thought I'd get angry.... but I'm actually happy!
+::'''Yancui:''' Recently, I've been getting a lot of attention from Outworlders who come here just to try my "dark dishes." They even formed a "Dark Cuisine Council" and have been asking me to join as a member!
+::'''Yancui:''' I'm glad to have more customers. As for the "Council," however... I hate the idea of chefs grouping together to come up with "industry standards" or something like that, so I've refused their offer.
+::'''Yancui:''' Just drop by and enjoy a hearty meal whenever you're free. My store might be busy these days, but I'll always reserve a seat for you!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502014104-->
+;(If undefined has not been started, {{Mission|Back in Business (IV)|showChapter=0}} has been completed, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} There is something I'd like to ask...
+::<!--Trigger PerformanceE 502057201: Config/Level/NPCDialogue/P10202/NPCAct/Act502057201.json-->
+::'''Yancui:''' I'm not too busy right now, so feel free to ask me any questions. I'll do my best to satisfy your curiosity.
+::<!--Custom String Trigger: Wait_Option_502057201_442-->
+::<!--Custom String Listener: Wait_Option_502057201_442-->
+::{{DIcon|Talk}} Is this Spices Supreme?
+:::<!--Custom String Listener: TalkSentence_502057204-->
+:::'''Yancui:''' Right you are! You are now at Spices Supreme, one of the oldest and most famous restaurants in Aurum Alley. Even though you're an Outworlder, you might have heard of our special Xingyuan-style dishes.
+:::'''Yancui:''' You can try our trademark dishes like the crisped melon and diced chicken, pork slices in fish sauce, and Granny Chen's Tofu to start. These are all famous dishes that have withstood the test of time. You can't go wrong with them.
+:::'''Yancui:''' Furthermore, we host an "Odd-taste Thursday" every Thursday, where you'll find new dishes with interesting flavors. These new dishes will bring new twists and fun to the gourmets in Luofu.
+:::{{DIcon|Arrow}} Let's talk about Xingyuan-style dishes...
+::::<!--Custom String Listener: TalkSentence_502057208-->
+::::'''Yancui:''' Xingyuan-style dishes are characterized by their delicate usage of seasonings, as each ingredient requires its unique blend of seasonings and spices to fully exploit its flavor. Most Xingyuan-style dishes have a hot and peppery taste, sometimes with a sour or slightly bitter touch.
+::::'''Yancui:''' Personally, I highly recommend this Chili Oil Beef Offal Stew. This dish is made by marinating the beef offal, slicing it, and then pouring chili oil and ground pepper over it. Its spicy and beefy aroma is simply irresistible!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Please tell me more about Odd-taste Thursday...
+::::<!--Custom String Listener: TalkSentence_502057211-->
+::::'''Yancui:''' These new weird dishes are basically "tentative works" and may not be delicious, but they will definitely give you a new experience that you won't forget.
+::::'''Yancui:''' If I may, I would recommend deep-fried flying sea anemone, fruitwood-grilled Shantak moa drumettes, and sugarball-fried viscorpi.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I heard you're a skilled fighter, Master Yancui?
+:::<!--Custom String Listener: TalkSentence_502057214-->
+:::'''Yancui:''' Haha, I may look like a pushover, but I am the Cloudbanner Meteor Fist's chief disciple. My fists are unrivaled among the auxiliary martial art schools in Xianzhou!
+:::'''Yancui:''' It's just that I went into the food business in the end, so I didn't take over the martial art school. But I've still retained the pride of a martial artist, heehee.
+:::'''Yancui:''' I don't eat small fish and shrimp, nor herbivores, or even domesticated beasts... I only eat animals that I can fight to the death with.
+:::'''Yancui:''' Of course, that's just my personal mantra. The Spices Supreme serves everything. Don't worry.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your favorite dish?
+:::<!--Custom String Listener: TalkSentence_502057219-->
+:::'''Yancui:''' Some worlds teem with numerous ferocious beasts... My most vivid memory was of an ocean world called Thalassa...
+:::'''Yancui:''' It had a giant airborne beast called a six-eyed flying fish. I stood on it, and we were locked in battle for hours. It was a miracle it didn't swallow me whole!
+:::'''Yancui:''' The fins of that fish were delicious beyond compare! That fin stew was the tastiest dish I'd ever had...
+:::'''Yancui:''' Haha, sorry, very few people ask me about my ingredient-seeking escapades, and I got carried away.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Spices Supreme...
+:::<!--Custom String Listener: TalkSentence_502057224-->
+:::'''Yancui:''' You're wondering why I opened this restaurant? Well, it's a long story...
+:::'''Yancui:''' The IPC had this subsidiary company a hundred years ago which sold conveyor belts, and they had an "Interastral Gourmet Association" that went around and rated all the eateries throughout the whole cosmos.
+:::'''Yancui:''' If you get one star, you're part of the "Interastral Selection." If you get five stars, then you're the "Cosmos's Finest Diner." Across all of the Xianzhou ships, the only place to ever get five stars from them is "Dragon Palace's Kitchen" on the Xianzhou Zhuming.
+:::'''Yancui:''' Being a Vidyadhara, I thought I had to go and support the business of my kin, especially when they received such honors... But that place charged hundreds of thousands of credits for portions that wouldn't even be filling for little birds! Would you believe it?
+:::'''Yancui:''' That chef even put on this pretentious air and told Outworlders, "We Vidyadhara are indifferent to the trappings of fame and fortune, which is why we eat like this." Ack, that was too much...
+:::'''Yancui:''' That's when I determined to run a restaurant that would go completely opposite to everything they stood for. I want big portions, quality food, and low prices! I'm telling ya, Spices Supreme is that dream coming true!
+:::'''Yancui:''' But to be honest, if you hadn't mentioned it today, I'd have forgotten about that goal... Now I run the restaurant just to have fun. Nothing else.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll come back later...
+:::<!--Custom String Listener: TalkSentence_502057232-->
+:::'''Yancui:''' Fine. Not to worry. Any time! Can't wait! Take care! Stay safe out there!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502057201-->
+;(If undefined has not been started, {{Mission|Back in Business (IV)|showChapter=0}} has been completed, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I'll come back later...
+::'''Yancui:''' Fine. Not to worry. Any time! Can't wait! Take care! Stay safe out there!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yancui
+|zhs  = 燕翠
+|zht  = 燕翠
+|ja   = 燕翠
+|ko   = 연희
+|es   = Yancui
+|fr   = Yancui
+|ru   = Яньцуй
+|th   = Yancui
+|vi   = Yancui
+|de   = Yancui
+|id   = Yancui
+|pt   = Yancui
+}}
+==Change History==
+{{Change History|TODO}}

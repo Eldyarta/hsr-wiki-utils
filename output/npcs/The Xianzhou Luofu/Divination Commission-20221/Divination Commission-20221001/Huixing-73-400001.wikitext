@@ -1,0 +1,328 @@
+<%-- [PAGE_INFO]
+PageTitle=#Huixing#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Matrix Manager
+|image           = NPC Huixing.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Divination Commission
+|relatives       = 
+}}
+'''Huixing''' is an NPC on [[The Xianzhou Luofu]], located in [[Divination Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Divination Commission|npc_73_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502031101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502031101.json-->
+::'''Huixing:''' Hello, (Trailblazer), I'm Huixing, a diviner at the Divination Commission. I manage the Matrix of Prescience Ultima.
+::{{DIcon|Arrow}} They put a child in charge of the Matrix of Prescience?
+:::<!--Custom String Listener: TalkSentence_502031103-->
+:::'''Huixing:''' I'm older than you.
+::{{DIcon|Arrow}} Are you the only person in charge here?
+:::<!--Custom String Listener: TalkSentence_502031105-->
+:::'''Huixing:''' Of course not. But I'm the director.
+::<!--Custom String Trigger: TalkSentence_502031106-->
+::<!--Custom String Listener: TalkSentence_502031106-->
+::'''Huixing:''' The master diviner tells me that you are an esteemed guest of the Luofu, and that we should do our best to comply with your requests. So if there's anything I can do for you, feel free to look for me.
+::'''Huixing:''' What can I do for you today?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502031102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502031102.json-->
+::'''Huixing:''' Hello, (Trailblazer). How can I help you today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Finish: 401530105--> and {{cx}}<!--SubMission not Started: 401530201--> or {{cx}}<!--SubMission not Finish: 401530201-->)
+:{{DIcon|undefined}} Shall we keep on running divinations?
+::<!--Trigger PerformanceE 401530192: Config/Level/Mission/4015301/Act/Act401530192.json-->
+::'''Huixing:''' You are so diligent. However, when there're lots of divinations... there would be inevitably some issues. Please come back to me later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530192-->
+;(If {{cx}}<!--SubMission Finish: 401530205--> and {{cx}}<!--SubMission not Started: 401530301--> or {{cx}}<!--SubMission not Finish: 401530301-->)
+:{{DIcon|undefined}} Shall we keep on running divinations?
+::<!--Trigger PerformanceE 401530192: Config/Level/Mission/4015301/Act/Act401530192.json-->
+::'''Huixing:''' You are so diligent. However, when there're lots of divinations... there would be inevitably some issues. Please come back to me later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530192-->
+;(If {{cx}}<!--SubMission Started: 401530101--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":152}-->}})
+:{{DIcon|undefined}} What are you doing?
+::<!--Trigger PerformanceE 401530101: Config/Level/Mission/4015301/Act/Act401530101.json-->
+::'''Huixing:''' The master diviner assigned me here to maintain the Matrix of Prescience, one task of which is routine divinations.
+::'''Huixing:''' But just like sharpening a blade, the Matrix of Prescience Ultima needs frequent operation so that it can be ready for divination at any time.
+::A thought suddenly pops into Huixing's head, and he turns to look at you several times.
+::'''Huixing:''' By the way, the craftsman responsible for the maintenance of the Matrix of Prescience isn't here at the moment. Could I trouble you to help me with some routine divinations please, (Trailblazer)?
+::{{DIcon|Arrow}} Okay, but I don't just work for free.
+:::<!--Custom String Listener: TalkSentence_401530106-->
+:::'''Huixing:''' That's wonderful. I was afraid you'd turn down any payment.
+::{{DIcon|Arrow}} This isn't my forte, are you sure about this...
+:::<!--Custom String Listener: TalkSentence_401530108-->
+:::'''Huixing:''' Yes, in fact only outsiders like you are suitable. You just need to start up the base terminal, and that's all.
+:::'''Huixing:''' Don't worry about it. I'd never let you do it for nothing.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Trigger: Mission_DeployStart_4015301-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530101-->
+;(If {{cx}}<!--SubMission Started: 401530102-->)
+:{{DIcon|undefined}} About routine divinations
+::<!--Trigger PerformanceE 401530191: Config/Level/Mission/4015301/Act/Act401530191.json-->
+::'''Huixing:''' Here's the reward I've been meaning to give you. Go on, (Trailblazer), take it.
+::'''Huixing:''' If you don't, it'd be a waste of time for you, and I won't feel good.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530191-->
+;(If {{cx}}<!--SubMission Started: 401530103--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":152}-->}})
+:{{DIcon|undefined}} Routine divination?
+:;(First interaction)
+:::<!--Trigger PerformanceE 401530102: Config/Level/Mission/4015301/Act/Act401530102.json-->
+:::'''Huixing:''' The divination plan is ready. Shall we begin?
+:::{{DIcon|Arrow}} Let's go.
+::::<!--Custom String Listener: TalkSentence_401530403-->
+::::'''Huixing:''' Come with me.
+::::<!--Custom String Trigger: Mission_DeployStart_4015302-->
+:::{{DIcon|Exit}} Just a moment. I have something else to do.
+::::<!--Custom String Listener: TalkSentence_401530405-->
+::::'''Huixing:''' It's no bother. Come back and see me when it's convenient for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Trigger: Mission_DeployStart_4015301-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 401530152: Config/Level/Mission/4015301/Act/Act401530152.json-->
+:::'''Huixing:''' Let's go.
+:::<!--Custom String Trigger: Mission_DeployStart_4015302-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 401530104--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":152}-->}})
+:{{DIcon|undefined}} Let's keep running our divinations.
+::<!--Trigger PerformanceE 401530153: Config/Level/Mission/4015301/Act/Act401530153.json-->
+::'''Huixing:''' Let's go.
+::<!--Custom String Trigger: Mission_DeployStart_4015303-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530253-->
+;(If {{cx}}<!--SubMission Started: 401530105-->)
+:{{DIcon|undefined}} About routine divinations
+::<!--Trigger PerformanceE 401530191: Config/Level/Mission/4015301/Act/Act401530191.json-->
+::'''Huixing:''' Here's the reward I've been meaning to give you. Go on, (Trailblazer), take it.
+::'''Huixing:''' If you don't, it'd be a waste of time for you, and I won't feel good.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530191-->
+;(If {{cx}}<!--SubMission Started: 401530201--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":153}-->}})
+:{{DIcon|undefined}} Routine divination?
+:;(First interaction)
+:::<!--Trigger PerformanceE 401530201: Config/Level/Mission/4015302/Act/Act401530201.json-->
+:::'''Huixing:''' You're just in time. I'm planning to run another routine divination. Let's do it together.
+:::{{DIcon|Arrow}} Let's go.
+::::<!--Custom String Listener: TalkSentence_401531103-->
+::::'''Huixing:''' Come with me.
+::::<!--Custom String Trigger: Mission_DeployStart_4015321-->
+:::{{DIcon|Exit}} Just a moment. I have something else to do.
+::::<!--Custom String Listener: TalkSentence_401531105-->
+::::'''Huixing:''' All good. Just come find me when it's convenient for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 401530251: Config/Level/Mission/4015302/Act/Act401530251.json-->
+:::'''Huixing:''' Let's go.
+:::<!--Custom String Trigger: Mission_DeployStart_4015321-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 401530202-->)
+:{{DIcon|undefined}} About routine divinations
+::<!--Trigger PerformanceE 401530191: Config/Level/Mission/4015301/Act/Act401530191.json-->
+::'''Huixing:''' Here's the reward I've been meaning to give you. Go on, (Trailblazer), take it.
+::'''Huixing:''' If you don't, it'd be a waste of time for you, and I won't feel good.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530191-->
+;(If {{cx}}<!--SubMission Started: 401530203--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":153}-->}})
+:{{DIcon|undefined}} Routine divination?
+:;(First interaction)
+:::<!--Trigger PerformanceE 401530202: Config/Level/Mission/4015302/Act/Act401530202.json-->
+:::'''Huixing:''' Are you ready?
+:::{{DIcon|Arrow}} Let's go.
+::::<!--Custom String Listener: TalkSentence_401531403-->
+::::'''Huixing:''' Come with me.
+::::<!--Custom String Trigger: Mission_DeployStart_4015322-->
+:::{{DIcon|Exit}} Just a moment. I have something else to do.
+::::<!--Custom String Listener: TalkSentence_401531405-->
+::::'''Huixing:''' All good. Just come find me when it's convenient for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 401530252: Config/Level/Mission/4015302/Act/Act401530252.json-->
+:::'''Huixing:''' Let's go.
+:::<!--Custom String Trigger: Mission_DeployStart_4015322-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 401530204--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":153}-->}})
+:{{DIcon|undefined}} Let's keep running our divinations.
+::<!--Trigger PerformanceE 401530253: Config/Level/Mission/4015302/Act/Act401530253.json-->
+::'''Huixing:''' Let's go.
+::<!--Custom String Trigger: Mission_DeployStart_4015323-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530353-->
+;(If {{cx}}<!--SubMission Started: 401530205-->)
+:{{DIcon|undefined}} About routine divinations
+::<!--Trigger PerformanceE 401530191: Config/Level/Mission/4015301/Act/Act401530191.json-->
+::'''Huixing:''' Here's the reward I've been meaning to give you. Go on, (Trailblazer), take it.
+::'''Huixing:''' If you don't, it'd be a waste of time for you, and I won't feel good.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530191-->
+;(If {{cx}}<!--SubMission Started: 401530301--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":154}-->}})
+:{{DIcon|undefined}} Routine divination?
+:;(First interaction)
+:::<!--Trigger PerformanceE 401530301: Config/Level/Mission/4015303/Act/Act401530301.json-->
+:::'''Huixing:''' Yes, there's another job on. (Trailblazer), you're an old hand at this now.
+:::{{DIcon|Arrow}} Let's go.
+::::<!--Custom String Listener: TalkSentence_401532103-->
+::::'''Huixing:''' Come with me.
+::::<!--Custom String Trigger: Mission_DeployStart_4015331-->
+:::{{DIcon|Exit}} Just a moment. I have something else to do.
+::::<!--Custom String Listener: TalkSentence_401532105-->
+::::'''Huixing:''' All good. Just come find me when it's convenient for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 401530351: Config/Level/Mission/4015303/Act/Act401530351.json-->
+:::'''Huixing:''' Let's go.
+:::<!--Custom String Trigger: Mission_DeployStart_4015331-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 401530302-->)
+:{{DIcon|undefined}} About routine divinations
+::<!--Trigger PerformanceE 401530191: Config/Level/Mission/4015301/Act/Act401530191.json-->
+::'''Huixing:''' Here's the reward I've been meaning to give you. Go on, (Trailblazer), take it.
+::'''Huixing:''' If you don't, it'd be a waste of time for you, and I won't feel good.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530191-->
+;(If {{cx}}<!--SubMission Started: 401530303--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":154}-->}})
+:{{DIcon|undefined}} Routine divination?
+:;(First interaction)
+:::<!--Trigger PerformanceE 401530302: Config/Level/Mission/4015303/Act/Act401530302.json-->
+:::'''Huixing:''' Well, I just so happen to have something that needs divining. Let's go.
+:::{{DIcon|Arrow}} Let's go.
+::::<!--Custom String Listener: TalkSentence_401532403-->
+::::'''Huixing:''' Come with me.
+::::<!--Custom String Trigger: Mission_DeployStart_4015332-->
+:::{{DIcon|Exit}} Just a moment. I have something else to do.
+::::<!--Custom String Listener: TalkSentence_401532405-->
+::::'''Huixing:''' All good. Just come find me when it's convenient for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 401530352: Config/Level/Mission/4015303/Act/Act401530352.json-->
+:::'''Huixing:''' Let's go.
+:::<!--Custom String Trigger: Mission_DeployStart_4015332-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 401530304--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":154}-->}})
+:{{DIcon|undefined}} Let's keep running our divinations.
+::<!--Trigger PerformanceE 401530353: Config/Level/Mission/4015303/Act/Act401530353.json-->
+::'''Huixing:''' Let's go.
+::<!--Custom String Trigger: Mission_DeployStart_4015333-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530353-->
+;(If {{cx}}<!--SubMission Started: 401530305-->)
+:{{DIcon|undefined}} About routine divinations
+::<!--Trigger PerformanceE 401530191: Config/Level/Mission/4015301/Act/Act401530191.json-->
+::'''Huixing:''' Here's the reward I've been meaning to give you. Go on, (Trailblazer), take it.
+::'''Huixing:''' If you don't, it'd be a waste of time for you, and I won't feel good.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_401530191-->
+:{{DIcon|Talk}} Tell me about the Divination Commission...
+::<!--Trigger PerformanceE 502031103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502031103.json-->
+::'''Huixing:''' Alright. I'll try to keep things brief, as we do lots of different things here.
+::<!--Custom String Trigger: Wait_Option_502031101_22-->
+::<!--Custom String Listener: Wait_Option_502031101_22-->
+::{{DIcon|Talk}} What does the Divination Commission do?
+:::<!--Custom String Listener: TalkSentence_502031111-->
+:::'''Huixing:''' Calculations.
+:::'''Huixing:''' ...
+:::'''Huixing:''' ...My response has left you dissatisfied.
+:::'''Huixing:''' We calculate the Luofu's trajectory as it sails and help it avoid any dangerous routes. When moored, we calculate and track the movements of the celestial bodies around us.
+:::'''Huixing:''' Changes in star temperature, fluctuations in gravity waves... The delves seemingly isolate us from the rest of the universe, but our fates are still impacted by the expanse.
+:::'''Huixing:''' The Divination Commission's most important day-to-day work is observing these changing phenomena, gathering information, calculating the probabilities of certain occurrences, and proposing contingencies.
+:::'''Huixing:''' Has the answer sated your curiosity?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is it true that the Matrix of Prescience can predict the future?
+:::<!--Custom String Listener: TalkSentence_502031119-->
+:::'''Huixing:''' Affirmative.
+:::'''Huixing:''' ...
+:::'''Huixing:''' ...I guess you'd like to know more details? Sorry, the technical details are all confidential. All I can say is a story to sate your curiosity.
+:::'''Huixing:''' Xianzhou had once visited a world where the residents used something called an Aquascope to scry into the future. That thing was even more accurate than the Matrix of Prescience, and our exploration team couldn't help but pore ourselves into researching this technology.
+:::'''Huixing:''' We later came to realize that this Aquascope was no mystery at all. That world simply has a limited amount of information. There wasn't much computational power and data input needed to predict the future there.
+:::'''Huixing:''' In comparison, the Luofu sails through galaxies of stars, not a machine-esque world as predictable as a complex clockwork of unerring precision.
+:::'''Huixing:''' And so... Can the Matrix of Prescience divine the future? Yes. Is it accurate? Based on the voluminous calculations run daily by the Divination Commission: Not accurate enough.
+:::'''Huixing:''' Perhaps I strayed off-topic a bit there, but that's really all I can say.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else to ask.
+:::<!--Custom String Listener: TalkSentence_502031129-->
+:::'''Huixing:''' Alright. So long.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502031103-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed)
+:{{DIcon|Talk}} How is Jingzhai doing these days?
+::<!--Trigger PerformanceE 502031104: Config/Level/NPCDialogue/P10202/NPCAct/Act502031104.json-->
+::'''Huixing:''' Jingzhai, our Managing Diviner? Why do you ask?
+::'''Huixing:''' As usual, Jingzhai is dedicated to her work and very organized. I think she's doing quite well.
+::'''Huixing:''' Things at the Divination Commission have been hectic lately, and we often have to work overtime. Jingzhai always does the extra work without complaining. She has a great personality and excels at what she does. She is an amazing colleague.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502031104-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I have nothing else to ask.
+::'''Huixing:''' Alright. So long.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Huixing
+|zhs  = 绘星
+|zht  = 繪星
+|ja   = 絵星
+|ko   = 혜성
+|es   = Huixing
+|fr   = Huixing
+|ru   = Хуэйсин
+|th   = Huixing
+|vi   = Huixing
+|de   = Huixing
+|id   = Huixing
+|pt   = Huixing
+}}
+==Change History==
+{{Change History|TODO}}

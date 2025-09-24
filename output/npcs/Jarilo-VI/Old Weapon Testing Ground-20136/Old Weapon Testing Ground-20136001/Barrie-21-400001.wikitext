@@ -1,0 +1,174 @@
+<%-- [PAGE_INFO]
+PageTitle=#Barrie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Celebration Welfare Distributor
+|image           = NPC Barrie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Old Weapon Testing Ground
+|relatives       = 
+}}
+'''Barrie''' is an NPC on [[Jarilo-VI]], located in [[Old Weapon Testing Ground]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Old Weapon Testing Ground|npc_21_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 801415091: Config/Level/Mission/8014150/Act/Act801415091.json-->
+::'''Barrie:''' Oh, you're an Aetherium Wars player?
+::'''Barrie:''' Uhh... Well you see, I'm the Interastral Tournament Festival operator, I distribute player benefits here.
+::{{DIcon|Arrow}} Player benefits?
+:::<!--Custom String Listener: TalkSentence_814111604-->
+:::'''Barrie:''' That's right, the IPC asked me to work this stall and hand out gifts to players to promote Aetherium Wars, and encourage players to come to the festival in person.
+::{{DIcon|Arrow}} I'm a player, give me benefits.
+:::<!--Custom String Listener: TalkSentence_814111606-->
+:::'''Barrie:''' Hold on, you still don't know how this works, do you? They are benefits, but there are conditions that have to be met to claim them.
+::<!--Custom String Trigger: TalkSentence_814111607-->
+::<!--Custom String Listener: TalkSentence_814111607-->
+::'''Barrie:''' When you complete the Victory Zone trials and defeat a Championship Contender, you will receive Mastery Marks that you can use to claim benefits here.
+::{{DIcon|Arrow}} What benefits are there?
+:::<!--Custom String Listener: TalkSentence_814111609-->
+:::'''Barrie:''' What benefits are there... Hmm, what are they? Let me see...
+::{{DIcon|Arrow}} They must be pretty generous, right?
+:::<!--Custom String Listener: TalkSentence_814111611-->
+:::'''Barrie:''' Don't get your hopes up too high! The IPC is stingy with their employees, I can only imagine how they are with players. Let me see...
+::{{DIcon|Arrow}} It's not just a load of trash, right?
+:::<!--Custom String Listener: TalkSentence_814111613-->
+:::'''Barrie:''' I wouldn't think so? They've put so much effort into holding a festival, the benefits can't be that bad. Let me see...
+::<!--Custom String Trigger: TalkSentence_814111614-->
+::<!--Custom String Listener: TalkSentence_814111614-->
+::'''Barrie:''' No way, they're actually pretty good! There are powerful {{Color|keyword|nobold=1|Aether Expansion Chips}}, as well as limited-edition {{Color|keyword|nobold=1|Aether Spirits}}!
+::'''Barrie:''' I guess that makes sense, there won't be many people that can defeat Championship Contenders, after all... Anyway, if you manage to get yourself some Mastery Marks, come to me for your benefits.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 801415092: Config/Level/Mission/8014150/Act/Act801415092.json-->
+::'''Barrie:''' Oh, it's you! Are you here to claim benefits?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Finish: 801415004-->)
+:{{DIcon}} I want to claim benefits.
+::<!--Trigger PerformanceE 801415097: Config/Level/Mission/8014150/Act/Act801415097.json-->
+::'''Barrie:''' You've already claimed all possible benefits, I have nothing left to give you.
+::'''Barrie:''' Ah, if all players were as amazing as you, maybe my work would have some meaning.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415097-->
+;(If {{cx}}<!--SubMission Started: 801415001-->)
+:{{DIcon|?}} I want to claim benefits.
+::<!--Trigger PerformanceE 801415001: Config/Level/Mission/8014150/Act/Act801415001.json-->
+::'''Barrie:''' Let me see...
+::'''Barrie:''' ...You're actually qualified to claim this! I guess I haven't been standing around here all this time for nothing.
+::'''Barrie:''' Take this {{Color|keyword|nobold=1|Aether Expansion Chip}} as your reward. Come and see me again if you receive another Mastery Mark.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415001-->
+;(If {{cx}}<!--SubMission Started: 801415002-->)
+:{{DIcon|?}} I want to claim benefits.
+::<!--Trigger PerformanceE 801415002: Config/Level/Mission/8014150/Act/Act801415002.json-->
+::'''Barrie:''' Let me see...
+::'''Barrie:''' ...You're qualified to claim the second reward! Not bad, you're already a high-tier player.
+::'''Barrie:''' Here, your reward is another {{Color|keyword|nobold=1|Aether Expansion Chip}}, use it wisely!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415002-->
+;(If {{cx}}<!--SubMission Started: 801415003-->)
+:{{DIcon|?}} I want to claim benefits.
+::<!--Trigger PerformanceE 801415003: Config/Level/Mission/8014150/Act/Act801415003.json-->
+::'''Barrie:''' Let me see...
+::'''Barrie:''' ...You're qualified to claim the third reward? Did you really only start playing this season?
+::'''Barrie:''' This is for you, I hope this {{Color|keyword|nobold=1|Aether Spirit}} can help you defeat even more rivals!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415003-->
+;(If {{cx}}<!--SubMission Started: 801415004-->)
+:{{DIcon|?}} I want to claim benefits.
+::<!--Trigger PerformanceE 801415004: Config/Level/Mission/8014150/Act/Act801415004.json-->
+::'''Barrie:''' Let me see...
+::'''Barrie:''' ...You're qualified to claim the final reward, I didn't expect to meet a player that would take away all the rewards today!
+::'''Barrie:''' This {{Color|keyword|nobold=1|Aether Spirit}} is the final reward, take it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415004-->
+:{{DIcon|?}} I want to claim benefits.
+::<!--Trigger PerformanceE 801415094: Config/Level/Mission/8014150/Act/Act801415094.json-->
+::'''Barrie:''' Let me see...
+::'''Barrie:''' ...You aren't qualified to claim any benefits. Come back again when you get a new Mastery Mark.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415094-->
+:{{DIcon}} I want to chat with you...
+::<!--Trigger PerformanceE 801415095: Config/Level/Mission/8014150/Act/Act801415095.json-->
+::'''Barrie:''' Alright, this job is pretty dull, let's chat.
+::{{DIcon|Arrow}} Do you enjoy your job?
+:::<!--Custom String Listener: TalkSentence_814111803-->
+:::'''Barrie:''' Do I seem like I am enjoying myself? This is clearly something the devs could make a system for, yet they have me standing here for days on end!
+:::'''Barrie:''' I spend all day wasting my time explaining player benefits, and I never get to give any out. Do the higher-ups really think that many people will beat Championship Contenders? Does senior management not look at player stats?
+:::'''Barrie:''' Ah, I won't be doing this job again...
+::{{DIcon|Arrow}} Do you like Aetherium Wars?
+:::<!--Custom String Listener: TalkSentence_814111807-->
+:::'''Barrie:''' Aetherium Wars...? I used to like it a lot, why else would I come to work here? But now I've lost all interest.
+:::'''Barrie:''' It used to be that playing Aetherium Wars after work was my one joy in life. But since I started working for them and exhausting myself here every day, just hearing the name makes my jaw clench.
+:::'''Barrie:''' But what can I do? A hobby always gets boring when it becomes a job.
+::{{DIcon|Arrow}} Let's talk about Wilder.
+:::<!--Custom String Listener: TalkSentence_814111811-->
+:::'''Barrie:''' Wilder? What's there to talk about, what a buzz kill!
+:::'''Barrie:''' Ever since he became head of operations at the "Interastral Tournament Festival," he's arranged overtime every day, set up after-work meetings and started calling in the middle of the night to discuss plans! We employees can't even get a good sleep!
+:::'''Barrie:''' He is dedicated to his work and clearly loves it, but most people are just working to get food on the table! Who wants to work themselves into the ground every day for his dreams!?
+:::'''Barrie:''' Ahem, please don't report this back to him. If I get fired, there will be no one here to give you benefits.
+::{{DIcon|Exit}} That's all I wanted to talk about.
+:::<!--Custom String Listener: TalkSentence_814111816-->
+:::'''Barrie:''' Alright, let me get back to my hard labor. Good luck!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415095-->
+:{{DIcon|Exit}} Nothing, thanks.
+::<!--Trigger PerformanceE 801415096: Config/Level/Mission/8014150/Act/Act801415096.json-->
+::'''Barrie:''' Alright, go play, I've got other players to serve.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801415096-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

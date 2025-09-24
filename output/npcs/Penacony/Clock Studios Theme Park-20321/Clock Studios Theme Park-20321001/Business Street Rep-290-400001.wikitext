@@ -1,0 +1,90 @@
+<%-- [PAGE_INFO]
+PageTitle=#Business Street Rep#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Business Street Rep.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''Business Street Rep''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_290_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802212001-->)
+::<!--Trigger PerformanceD 802212001: Story/Discussion/Mission/8022120/DS802212001.json-->
+::'''Business Street Rep:''' Item wear and tear, manpower costs, filming expenses... Oh right, also gotta factor in the duration...
+::'''Business Street Rep:''' So the sum of expenses is... No no, we've exceeded our budget. Where can I shift things around...
+::{{DIcon|Arrow}} Pisce asked me to film some adverts here.
+::<!--Custom String Listener: TalkSentence_802213104-->
+::'''Business Street Rep:''' Hold on a sec. I'm calculating the total expenses for this filming collab.
+::'''Business Street Rep:''' Sorry to make you wait. I'm the agent for the Twelve Hours' business street. I've come to speak to you about working on a commercial together.
+::'''Business Street Rep:''' You're the director of ''Dreamjoy Memoir''? Just in time. Please take a look at the script for this commercial...
+::'''Business Street Rep:''' {{Color|keyword|nobold=1|''Brother Hanu's Great Heist''}}. The story is set in Dreamville, and the main thing is to have our brand's imagery and Brother Hanu from ''Dreamjoy Memoir'' be in the same shot. It's a win-win for both sides.
+::'''Business Street Rep:''' Everyone's at their marks now. You can start filming whenever you're ready.
+;(If {{cx}}<!--SubMission not Started: 802212001-->)
+::<!--Trigger PerformanceE 802212002: Config/Level/Mission/8022120/Act/Act802212002.json-->
+::'''Business Street Rep:''' Everyone's at their marks now. You can start filming whenever you're ready.
+::<!--Ends the current performance-->
+;(All choices lead to the following options)
+:{{DIcon|Arrow}} No problem. Action!
+::<!--Custom String Listener: 802213109_OpenRaid-->
+::<!--Custom String Trigger: 802212002_OpenRaid-->
+:{{DIcon|Exit}} Allow me to ponder it a bit more...
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_802212001-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,122 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jinwen#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Alchemy Commission Healer
+|image           = NPC Jinwen.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Jinwen''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_78_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502048101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502048101.json-->
+::'''Jinwen:''' Ahhh, I can't take it anymore! When will this end...
+::{{DIcon|Arrow}} Are you all right?
+:::<!--Custom String Listener: TalkSentence_502048104-->
+:::'''Jinwen:''' Thank you for checking in. I'm really not doing too well...
+::{{DIcon|Arrow}} What's wrong?
+:::<!--Custom String Listener: TalkSentence_502048106-->
+:::'''Jinwen:''' What's wrong? Well... It's a long story.
+::<!--Custom String Trigger: TalkSentence_502048107-->
+::<!--Custom String Listener: TalkSentence_502048107-->
+::'''Jinwen:''' A few months back, I lost touch with my favorite apprentice. But I've just heard that she's been sucked into the Disciples of Sanctus Medicus.
+::'''Jinwen:''' Later, I learned that the whole city was hunting down our chief alchemist. Only then did I realize that Lady Dan Shu had joined up with the Disciples of Sanctus Medicus.
+::'''Jinwen:''' I went away for business a while ago, and I came back to find that the Alchemy Commission had been sealed off for investigation. I was told that many of us had been found to be colluding with the Disciples of Sanctus Medicus.
+::'''Jinwen:''' Just last night, I ordered some razorboar trotter rice, but the diner said they couldn't deliver it to the Alchemy Commission anymore. I'm guessing it's because even the trotter rice has joined up with the Disciples.
+::'''Jinwen:''' Enough is enough. This is *Xianzhou profanity* enough!!
+::'''Jinwen:''' Ah... Forget it. I don't want to just dump my traumas all over you... Ha, I've only just realized, aren't you our esteemed guest from the Astral Express? Please forgive my rudeness just now... Is there anything I can do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502048201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502048201.json-->
+::'''Jinwen:''' Sigh... What should I do next... Hey! What brings you here today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I have a few questions I wish to ask you...
+::<!--Trigger PerformanceE 502048102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502048102.json-->
+::'''Jinwen:''' Ask away, though I've just returned to the headquarters and might not have all the answers.
+::<!--Custom String Trigger: Wait_Option_502048102_233-->
+::<!--Custom String Listener: Wait_Option_502048102_233-->
+::{{DIcon|Talk}} You don't seem to be in a good mood.
+:::<!--Custom String Listener: TalkSentence_502048116-->
+:::'''Jinwen:''' Indeed. I'm not feeling too good. How should I explain this? Hmm... let me start from the beginning.
+:::'''Jinwen:''' I kind of grew up in the Alchemy Commission. When I was little, the adults around me kept saying that the commission was going to decline.
+:::'''Jinwen:''' Two hundred years later, I became a healer, and the Alchemy Commission was still busy as ever, showing no signs of going downhill.
+:::'''Jinwen:''' Later, the commission organized an academic exchange program. A batch of Luofu scholars would be sent off to interact with Outworld scholars.
+:::'''Jinwen:''' At that time, the leader promised that whoever gained enough experience in the academic exchange program would very likely be promoted to chief healer. So, I joined the program.
+:::'''Jinwen:''' I spent about 150 years on the Xianzhou Fanghu, and another 150 years at the Hamet Space Station of the Intelligentsia Guild. And finally, I was at IPC's Fedson Interstellar Hospital for over 100 years...
+:::'''Jinwen:''' After I had finally gained enough experience and published enough articles, I came back to headquarters, waiting to be promoted. Guess what happened just months after my return? The Alchemy Commission revolted and joined the Disciples of Sanctus Medicus!
+:::'''Jinwen:''' At this point, I should forget about becoming the chief healer... I just hope that I won't be implicated when they're hunting down those Disciples of Sanctus Medicus...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you close with those Disciples of Sanctus Medicus?
+:::<!--Custom String Listener: TalkSentence_502048125-->
+:::'''Jinwen:''' I don't dare to answer such a question... After all, many of the disciples also worked at the Alchemy Commission. So, I'm quite close with some of them...
+:::'''Jinwen:''' Take my apprentice as an example. She was only in her forties when she was sent to the Fedson Interstellar Hospital where I trained her for about fifty years. She returned to the Luofu before me and kept in touch with me through letters.
+:::'''Jinwen:''' I lost contact with her a few months ago... It was only when I was back at the Luofu and visited her home when her family told me that she had gone missing.
+:::'''Jinwen:''' Later, I learned that she was killed during an armed attack against the Cloud Knights. Only then did I know that she had gone astray.
+:::'''Jinwen:''' At that time, I lost all my desire to stick with this lousy job. I was upset and overwhelmed by resentment. But what could I do? Could I destroy the Plagues Author by crying day and night?
+:::'''Jinwen:''' At that thought, I decided to remain a healer at the Alchemy Commission. I might not be able to accomplish anything huge, but it's better than nothing.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Take care and goodbye.
+:::<!--Custom String Listener: TalkSentence_502048132-->
+:::'''Jinwen:''' *Sigh*... I appreciate your encouragement. Take care...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502048102-->
+:{{DIcon|Exit}} Take care and goodbye.
+::'''Jinwen:''' *Sigh*... I appreciate your encouragement. Take care...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jinwen
+|zhs  = 锦纹
+|zht  = 錦紋
+|ja   = 錦紋
+|ko   = 금문
+|es   = Jinwen
+|fr   = Jinwen
+|ru   = Цзиньвэнь
+|th   = Jinwen
+|vi   = Jinwen
+|de   = Jinwen
+|id   = Jinwen
+|pt   = Jinwen
+}}
+==Change History==
+{{Change History|TODO}}

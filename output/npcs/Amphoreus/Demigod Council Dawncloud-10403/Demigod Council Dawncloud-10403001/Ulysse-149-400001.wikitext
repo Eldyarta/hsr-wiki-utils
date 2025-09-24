@@ -1,0 +1,204 @@
+<%-- [PAGE_INFO]
+PageTitle=#Ulysse#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Aristocrat
+|image           = NPC Ulysse.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Ulysse''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_149_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 434017506-->)
+::<!--Trigger PerformanceE 504067001: Config/Level/Mission/5040670/Act/Act504067001.json-->
+::'''Ulysse:''' You there, take this.
+::A handful of coins is stuffed into your hand.
+::{{DIcon|Arrow}} What's going on?
+:::<!--Custom String Listener: TalkSentence_504067016-->
+:::'''Ulysse:''' No need to worry. It is a noble's duty.
+:::'''Ulysse:''' I noticed that you're dressed too warmly and imagined you must be sensitive to the cold... I can't imagine how difficult your past must have been, but at least I can offer some help. Take these Balance Coins and use them to buy whatever you need.
+:::'''Ulysse:''' Remember this and tell everyone &mdash; The eldest son of House Mentes of Odressian, holder of the Titan Medal, and a noble who's determined to lead the people forward &mdash; Ulysse Mentes, offered you a helping hand under the gaze of Kephale.
+:::{{DIcon|Arrow}} Odre... what now?
+::::<!--Custom String Listener: TalkSentence_504067020-->
+::::'''Ulysse:''' Odressian. It's fine. If someone asks, just say that Ulysse helped you.
+:::{{DIcon|Arrow}} I will remember.
+::::<!--Custom String Listener: TalkSentence_504067022-->
+::::'''Ulysse:''' Yes, it is worth doing so. But if you have trouble recalling and someone asks, mentioning that Ulysse helped you is enough.
+:::<!--Custom String Trigger: TalkSentence_504067023-->
+:::<!--Custom String Listener: TalkSentence_504067023-->
+:::'''Ulysse:''' Here at Dawncloud, I've not seen a citizen so worthy of assistance in a long while. As a noble, it is unbecoming of me to possess the title yet neglect my duties. Today, you've restored honor to my family name again, and for that, I must thank you.
+:::{{DIcon|Arrow}} Um, you're welcome?
+:::{{DIcon|Arrow}} I think there's been a huge misunderstanding...
+::::<!--Custom String Listener: TalkSentence_504067026-->
+::::'''Ulysse:''' Is that so? Well... Please allow me to apologize if I've offended you.
+::::<!--Custom String Trigger: TalkSentence_504067027-->
+:::<!--Custom String Listener: TalkSentence_504067027-->
+:::'''Ulysse:''' In any case, should you find yourself in need of help, please let me know. It is my pleasure as a noble to hear the people's pleas.
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::{{DIcon|Arrow}} More, please!
+:::<!--Custom String Listener: TalkSentence_504067005-->
+:::'''Ulysse:''' Certainly.
+:::Now you also have a handful of coins in your other hand.
+:::{{DIcon|Arrow}} Hold on a sec&mdash;
+:::{{DIcon|Arrow}} More?
+::::<!--Custom String Listener: TalkSentence_504067009-->
+::::'''Ulysse:''' Of course.
+::::Since both of your hands are occupied, he stuffs the coins into your pockets instead.
+::::{{DIcon|Arrow}} This is way too generous...
+::::{{DIcon|Arrow}} That's enough, thank you.
+:::::<!--Custom String Listener: TalkSentence_504067013-->
+:::::'''Ulysse:''' Are you sure? Alright.
+:::::<!--Custom String Trigger: TalkSentence_504067016-->
+:::<!--Custom String Listener: TalkSentence_504067016-->
+:::'''Ulysse:''' No need to worry. It is a noble's duty.
+:::'''Ulysse:''' I noticed that you're dressed too warmly and imagined you must be sensitive to the cold... I can't imagine how difficult your past must have been, but at least I can offer some help. Take these Balance Coins and use them to buy whatever you need.
+:::'''Ulysse:''' Remember this and tell everyone &mdash; The eldest son of House Mentes of Odressian, holder of the Titan Medal, and a noble who's determined to lead the people forward &mdash; Ulysse Mentes, offered you a helping hand under the gaze of Kephale.
+:::{{DIcon|Arrow}} Odre... what now?
+::::<!--Custom String Listener: TalkSentence_504067020-->
+::::'''Ulysse:''' Odressian. It's fine. If someone asks, just say that Ulysse helped you.
+:::{{DIcon|Arrow}} I will remember.
+::::<!--Custom String Listener: TalkSentence_504067022-->
+::::'''Ulysse:''' Yes, it is worth doing so. But if you have trouble recalling and someone asks, mentioning that Ulysse helped you is enough.
+:::<!--Custom String Trigger: TalkSentence_504067023-->
+:::<!--Custom String Listener: TalkSentence_504067023-->
+:::'''Ulysse:''' Here at Dawncloud, I've not seen a citizen so worthy of assistance in a long while. As a noble, it is unbecoming of me to possess the title yet neglect my duties. Today, you've restored honor to my family name again, and for that, I must thank you.
+:::{{DIcon|Arrow}} Um, you're welcome?
+:::{{DIcon|Arrow}} I think there's been a huge misunderstanding...
+::::<!--Custom String Listener: TalkSentence_504067026-->
+::::'''Ulysse:''' Is that so? Well... Please allow me to apologize if I've offended you.
+::::<!--Custom String Trigger: TalkSentence_504067027-->
+:::<!--Custom String Listener: TalkSentence_504067027-->
+:::'''Ulysse:''' In any case, should you find yourself in need of help, please let me know. It is my pleasure as a noble to hear the people's pleas.
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::{{DIcon|Exit}} No, wait. I can't take this.
+:::<!--Custom String Listener: TalkSentence_504067015-->
+:::The saying goes that free things come at the highest price. You forcibly return the coins to him.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.PerformanceEndSeq",
+	"Cases": [
+		{
+			"Case": 1,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.ClientFinishMission",
+					"SubmissionID": 434017506
+				}
+			]
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission not Started: 434017506-->)
+::<!--Trigger PerformanceE 504067002: Config/Level/Mission/5040670/Act/Act504067002.json-->
+::'''Ulysse:''' Oh, we meet again, dear citizen. Are you looking for help?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm curious...
+::'''Ulysse:''' It is also my duty as a noble to answer the people's queries. Please ask away.
+::<!--Custom String Trigger: Wait_Option_504067003_59-->
+::<!--Custom String Listener: Wait_Option_504067003_59-->
+::{{DIcon|Talk}} You said you are a nobleman...
+:::<!--Custom String Listener: TalkSentence_504067204-->
+:::'''Ulysse:''' Indeed, but not of Okhema. In the name of the law, House Mentes of Odressian greets you.
+:::'''Ulysse:''' My great-great-great... great? Ahem, ancestor, four generations back, served the king of Odressian. He quelled border conflicts and became one of the fifteen founders of the city-state.
+:::'''Ulysse:''' Afterward, six of them perished in conflict, three were imprisoned, and two left in search of Phagousa's ambrosia. My ancestor aided a commoner during the war and escaped assassination under her shelter, establishing the honor of House Mentes.
+:::'''Ulysse:''' As the first of the four great noble Houses, our family's founding principle is "To become the path for the people." Unfortunately, my younger self, in his arrogance, did not grasp the essence of these words and committed many foolish deeds... But the past is the past.
+:::'''Ulysse:''' With the black tide at our doorsteps, I'm afraid I am the only surviving heir of my family. It was during the great migration to Okhema, when I sheltered another and was in turn rescued by the Chrysos Heir, that I finally understood the meaning of a noble's honor.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are all nobles like you?
+:::<!--Custom String Listener: TalkSentence_504067210-->
+:::'''Ulysse:''' Regrettably, not all nobles share my sense of responsibility. Besides, each family honors different qualities, thus our actions naturally vary. Take my homeland, for example &mdash;
+:::'''Ulysse:''' House Notios values martial prowess and firmly believes their purpose of existence is to lead the charge. Although they never concerned themselves with governance, the people still consider them to be paragons of Talanton's will.
+:::'''Ulysse:''' On the contrary, House Zukas, compilers of the law, was led by one consumed by greed and ambition... In the end, the people gave them the nickname "Zagreus followers."
+:::'''Ulysse:''' Now to the outlands. The most prominent family of Stymphalia is the priest clan of the Temple of Georios. They are pious devotees to the Titan, bordering domineering in the eyes of the people, yet no one ever accused them of dishonor.
+:::'''Ulysse:''' These are the rules of nobility. But in reality, it all depends on the individual. Even in Okhema, there are elders who sorely lack the self-awareness befitting a noble. Perhaps a thorough rinse in the black tide would do them good.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you doing in Okhema?
+:::<!--Custom String Listener: TalkSentence_504067216-->
+:::'''Ulysse:''' Performing my noble duties, participating in council discussions, and seeking long-term solutions for the survival of the city-state and its people. I take great pride in this responsibility, but alas, my vote is equal to any other. Okhema remains overly conservative.
+:::'''Ulysse:''' However... lately I find myself in need of a side venture. Hah, who would have thought the heir to a prestigious family would one day face financial troubles? It's truly embarrassing.
+:::{{DIcon|Arrow}} And you still gave me money?
+::::<!--Custom String Listener: TalkSentence_504067219-->
+::::'''Ulysse:''' Hmph, these financial worries pale in comparison to the noble's duty.
+::::<!--Custom String Trigger: TalkSentence_504067222-->
+::::<!--Custom String Listener: TalkSentence_504067222-->
+::::'''Ulysse:''' Worry not, my "store" is already being set up. Though my attendant keeps uttering strange things like "We need funds for the inventory," I pay these trivial matters no mind. I believe everything will soon fall into place.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Doesn't the Council of Elders compensate you?
+::::<!--Custom String Listener: TalkSentence_504067221-->
+::::'''Ulysse:''' Oh? You make a fair point, that may be true... I shall ask when I have the chance.
+::::<!--Custom String Trigger: TalkSentence_504067222-->
+::::<!--Custom String Listener: TalkSentence_504067222-->
+::::'''Ulysse:''' Worry not, my "store" is already being set up. Though my attendant keeps uttering strange things like "We need funds for the inventory," I pay these trivial matters no mind. I believe everything will soon fall into place.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all from me. Good luck.
+:::<!--Custom String Listener: TalkSentence_504067224-->
+:::'''Ulysse:''' Yes, go now. May Talan... No, may Kephale protect us.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's all from me. Good luck.
+::'''Ulysse:''' Yes, go now. May Talan... No, may Kephale protect us.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Ulysse
+|zhs  = 尤里萨
+|zht  = 尤里薩
+|ja   = ユリス
+|ko   = 율리스
+|es   = Ulises
+|fr   = Ulysse
+|ru   = Улисс
+|th   = Ulysse
+|vi   = Ulysse
+|de   = Ulysse
+|id   = Ulysse
+|pt   = Ulisses
+}}
+==Change History==
+{{Change History|TODO}}

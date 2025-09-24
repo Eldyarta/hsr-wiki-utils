@@ -1,0 +1,234 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tanya#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Cynic
+|image           = NPC Tanya.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Tanya''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_3_400013}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_5010276_29-->
+:<!--Custom String Listener: Wait_Option_5010276_29-->
+:{{DIcon|Talk}} You know about up there?
+::<!--Custom String Listener: TalkSentence_501027618-->
+::'''Tanya:''' Of course. Back when my husband and I first met, we used to have romantic candlelit dinners up there in the restaurants. I'm not just some country kid, tsk...
+::'''Tanya:''' Uh, hang on &mdash; do you mean up above right now? I really don't know. Could you tell me about it?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's your view of the evacuation of the Guards?
+::<!--Custom String Listener: TalkSentence_501027626-->
+::'''Tanya:''' What's there to say? I heard it's on Madam Cocolia's orders, but she has to have her reasons... She's the Supreme Guardian after all. If I can't trust her, who can I trust?
+::'''Tanya:''' So... I think that sooner or later the Guards will return to the Underworld to protect us! The Supreme Guardian will never abandon us!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100005005,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Tanya:''' Same as before. But... have you heard? The Underworld and Overworld are being connected soon! I knew the Supreme Guardian would never abandon us, and withdrawing Guards was just out of circumstances... Great! We have hope!
+:{{DIcon|Arrow}} Do you think it's the work of the Supreme Guardian?
+::<!--Custom String Listener: TalkSentence_501024185-->
+::'''Tanya:''' Of course, it is! The Supreme Guardian is far-sighted, and more powerful than us commoners in every way. It's a pity then that some villagers have taken to slandering the name of the Supreme Guardian...
+::'''Tanya:''' Especially that Wildfire and the vagrants, endlessly complaining about how the Supreme Guardian abandoned the Underworld... Now she's back. Hmph, I'll have to see how they spin this one.
+:{{DIcon|Arrow}} You seem excited.
+::<!--Custom String Listener: TalkSentence_501024187-->
+::'''Tanya:''' What do you mean? Don't you feel excited, too?
+::'''Tanya:''' Once the Silvermane Guards return to the Underworld, the glorious future of this place will be obvious to all.
+:<!--Custom String Trigger: TalkSentence_501024189-->
+:<!--Custom String Listener: TalkSentence_501024189-->
+:'''Tanya:''' Hey... Why haven't the Silvermane Guards come down yet? It only feels safe to have them patrol around the town!
+:<!--Ends the current performance-->
+:'''Tanya:''' My husband has been coming back early these days, and peace and quiet has been in short supply. Let's add another dish.
+:'''Tanya:''' But... I'll have to buy everything and cook it myself... Ack, I really miss those days when we could date up there... I wonder what that man from the Guards is up to these days...
+:'''Tanya:''' Ah? It's you. You startled me. I thought it was some dense vagrants.
+:'''Tanya:''' What do you want from me?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Tanya:''' I'm telling you, don't you dare be like those vagrants and dream that you're smarter than Madam Cocolia and the government.
+:'''Tanya:''' The Supreme Guardian will never abandon us. And the Silvermane Guards have to return some time. Just you wait and see!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501027601: Config/Level/Mission/5010276/Act/Act501027601.json-->
+::<!--Custom String Trigger: TalkSentence_501027601-->
+::<!--Custom String Listener: TalkSentence_501027601-->
+::'''Tanya:''' Ack, these Wildfire guys... and the vagrants, they're so annoying... can't you just chill out?
+::<!--Custom String Trigger: Wait_Option_5010276_10-->
+::<!--Custom String Listener: Wait_Option_5010276_10-->
+::{{DIcon|Arrow}} You don't like Wildfire?
+:::<!--Custom String Listener: TalkSentence_501027605-->
+:::'''Tanya:''' I don't hate Wildfire. I just think they're too idealistic. I might be just a housewife, but I know a thing or two about the outside world.
+:::'''Tanya:''' Food, water, waste disposal, logistics &mdash; it's a mess from head to toe in the Underworld. Without these basics guaranteed, how do you plan on defending your home? Why, it's just a daydream!
+::{{DIcon|Arrow}} You seem to hate the vagrants.
+:::<!--Custom String Listener: TalkSentence_501027608-->
+:::'''Tanya:''' Of course. They stir up trouble all day. They should settle down and get stable jobs.
+:::'''Tanya:''' I know some people lost their homes because of the monsters, but is it that hard for able-bodied people to find jobs? You can't let your situation dictate your predicament, instead you have to adapt. Do you get me?
+:::'''Tanya:''' So that's how I taught my kids &mdash; "If you don't listen to your parents, you'll end up as a vagrant when you grow up!"
+::<!--Custom String Trigger: TalkSentence_501027609-->
+::<!--Custom String Listener: TalkSentence_501027609-->
+::'''Tanya:''' Why are you asking so many questions? You don't look like a vagrant. Are you part of the Wildfire? No, you don't dress like you're from the Underworld... Are you from the Overworld?
+::<!--Custom String Trigger: Wait_Option_5010276_21-->
+::<!--Custom String Listener: Wait_Option_5010276_21-->
+::{{DIcon|Arrow}} You misunderstand.
+::{{DIcon|Arrow}} I'm just passing through.
+::<!--Custom String Listener: TalkSentence_501027615-->
+::'''Tanya:''' ...Gee, I thought you were some big shot from above... So what's your deal?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000047: Config/Level/NPC/W1/NPC_DefaultStory_1000050.json-->
+::'''Tanya:''' My husband has been coming back early these days, and peace and quiet has been in short supply. Let's add another dish.
+::'''Tanya:''' But... I'll have to buy everything and cook it myself... Ack, I really miss those days when we could date up there... I wonder what that man from the Guards is up to these days...
+::'''Tanya:''' Ah? It's you. You startled me. I thought it was some dense vagrants.
+::'''Tanya:''' What do you want from me?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm surprised that...
+::<!--Custom String Trigger: Wait_Option_5010276_29-->
+::<!--Custom String Listener: Wait_Option_5010276_29-->
+::{{DIcon|Talk}} You know about up there?
+:::<!--Custom String Listener: TalkSentence_501027618-->
+:::'''Tanya:''' Of course. Back when my husband and I first met, we used to have romantic candlelit dinners up there in the restaurants. I'm not just some country kid, tsk...
+:::'''Tanya:''' Uh, hang on &mdash; do you mean up above right now? I really don't know. Could you tell me about it?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your view of the evacuation of the Guards?
+:::<!--Custom String Listener: TalkSentence_501027626-->
+:::'''Tanya:''' What's there to say? I heard it's on Madam Cocolia's orders, but she has to have her reasons... She's the Supreme Guardian after all. If I can't trust her, who can I trust?
+:::'''Tanya:''' So... I think that sooner or later the Guards will return to the Underworld to protect us! The Supreme Guardian will never abandon us!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Tanya:''' Same as before. But... have you heard? The Underworld and Overworld are being connected soon! I knew the Supreme Guardian would never abandon us, and withdrawing Guards was just out of circumstances... Great! We have hope!
+::{{DIcon|Arrow}} Do you think it's the work of the Supreme Guardian?
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Tanya:''' Of course, it is! The Supreme Guardian is far-sighted, and more powerful than us commoners in every way. It's a pity then that some villagers have taken to slandering the name of the Supreme Guardian...
+:::'''Tanya:''' Especially that Wildfire and the vagrants, endlessly complaining about how the Supreme Guardian abandoned the Underworld... Now she's back. Hmph, I'll have to see how they spin this one.
+::{{DIcon|Arrow}} You seem excited.
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Tanya:''' What do you mean? Don't you feel excited, too?
+:::'''Tanya:''' Once the Silvermane Guards return to the Underworld, the glorious future of this place will be obvious to all.
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Tanya:''' Hey... Why haven't the Silvermane Guards come down yet? It only feels safe to have them patrol around the town!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Nothing. Sorry, I have to go.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Tanya:''' I'm telling you, don't you dare be like those vagrants and dream that you're smarter than Madam Cocolia and the government.
+::'''Tanya:''' The Supreme Guardian will never abandon us. And the Silvermane Guards have to return some time. Just you wait and see!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010276_26)
+:<!--Custom String Listener: Wait_Option_5010276_26-->
+::{{DIcon|Arrow}} I'm surprised that...
+::<!--Custom String Listener: Wait_Option_5010276_29-->
+::{{DIcon|Talk}} You know about up there?
+:::<!--Custom String Listener: TalkSentence_501027618-->
+:::'''Tanya:''' Of course. Back when my husband and I first met, we used to have romantic candlelit dinners up there in the restaurants. I'm not just some country kid, tsk...
+:::'''Tanya:''' Uh, hang on &mdash; do you mean up above right now? I really don't know. Could you tell me about it?
+:::<!--Custom String Trigger: Wait_Option_5010276_29-->
+:::<!--Custom String Listener: Wait_Option_5010276_29-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What's your view of the evacuation of the Guards?
+::::<!--Custom String Listener: TalkSentence_501027626-->
+::::'''Tanya:''' What's there to say? I heard it's on Madam Cocolia's orders, but she has to have her reasons... She's the Supreme Guardian after all. If I can't trust her, who can I trust?
+::::'''Tanya:''' So... I think that sooner or later the Guards will return to the Underworld to protect us! The Supreme Guardian will never abandon us!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What's your view of the evacuation of the Guards?
+:::<!--Custom String Listener: TalkSentence_501027626-->
+:::'''Tanya:''' What's there to say? I heard it's on Madam Cocolia's orders, but she has to have her reasons... She's the Supreme Guardian after all. If I can't trust her, who can I trust?
+:::'''Tanya:''' So... I think that sooner or later the Guards will return to the Underworld to protect us! The Supreme Guardian will never abandon us!
+:::<!--Custom String Trigger: Wait_Option_5010276_29-->
+:::<!--Custom String Listener: Wait_Option_5010276_29-->
+:::{{DIcon|Talk}} You know about up there?
+::::<!--Custom String Listener: TalkSentence_501027618-->
+::::'''Tanya:''' Of course. Back when my husband and I first met, we used to have romantic candlelit dinners up there in the restaurants. I'm not just some country kid, tsk...
+::::'''Tanya:''' Uh, hang on &mdash; do you mean up above right now? I really don't know. Could you tell me about it?
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

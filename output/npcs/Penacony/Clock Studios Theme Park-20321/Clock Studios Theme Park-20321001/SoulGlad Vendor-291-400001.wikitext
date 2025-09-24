@@ -1,0 +1,97 @@
+<%-- [PAGE_INFO]
+PageTitle=#SoulGlad Vendor#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC SoulGlad Vendor.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''SoulGlad Vendor''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_291_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802212201-->)
+::<!--Trigger PerformanceD 802212201: Story/Discussion/Mission/8022122/DS802212201.json-->
+::'''SoulGlad Vendor:''' "SoulGlad &mdash; the source of joy, the quintessence of dreams!"
+::'''SoulGlad Vendor:''' My friend, how about a bottle of SoulGlad?
+::{{DIcon|Arrow}} Have a sip first!
+:::<!--Custom String Listener: TalkSentence_802213844-->
+:::'''SoulGlad Vendor:''' "Grab a bottle of SoulGlad, make your dreams a blast!"
+:::'''SoulGlad Vendor:''' Heh, if we're talking about Penacony trademark products besides Clockie, it's gotta be our SoulGlad.
+:::'''SoulGlad Vendor:''' I'll be candid &mdash; our SoulGlad will soon have a collaboration with Clockie &mdash; don't forget to cheer us on!
+:::{{DIcon|Arrow}} What a coincidence. I'm here to talk about a partnership.
+::{{DIcon|Arrow}} No thanks, I'm here to talk about collaborating.
+::<!--Custom String Listener: TalkSentence_802213849-->
+::'''SoulGlad Vendor:''' So you're the director of ''Dreamjoy Memoir''!
+::'''SoulGlad Vendor:''' Mr. Pisce mentioned you &mdash; it's an honor to finally meet you! I'm from the SoulGlad™ Advertising Department, just here to chat with you about the current commercial proposal &mdash; {{Color|keyword|nobold=1|''Bubbly Clockie''}}!
+::'''SoulGlad Vendor:''' "SoulGlad can bring joy and laughter to Dreamville, but the evil Boss Stone hates everything nice, so he's imprisoned Mr. Soda and stashed away all of the town's SoulGlad..."
+::'''SoulGlad Vendor:''' "The hero of Dreamville &mdash; Clockie &mdash; will infiltrate Boss Stone's office building to bring back smiles to the townspeople!"
+::'''SoulGlad Vendor:''' ...That's the gist of the story. To complete production quickly, I hope you, as the director, can personally get your hands dirty, and become Clockie's motion capture artist.
+::'''SoulGlad Vendor:''' A total of three commercials. How about it? Will that work?
+;(If {{cx}}<!--SubMission not Started: 802212201-->)
+::<!--Trigger PerformanceE 802212202: Config/Level/Mission/8022122/Act/Act802212202.json-->
+::'''SoulGlad Vendor:''' ''Bubbly Clockie'' &mdash; Director, are you ready to roll!
+::<!--Ends the current performance-->
+;(All choices lead to the following options)
+:{{DIcon|Arrow}} No problem. Action!
+::<!--Custom String Listener: 802213855_Openraid-->
+::<!--Custom String Trigger: 802212202_OpenRaid-->
+:{{DIcon|Exit}} Allow me to ponder it a bit more...
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_802212201-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

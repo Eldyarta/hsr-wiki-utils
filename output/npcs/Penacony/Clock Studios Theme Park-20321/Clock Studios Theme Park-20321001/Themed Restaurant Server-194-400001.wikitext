@@ -1,0 +1,81 @@
+<%-- [PAGE_INFO]
+PageTitle=#Themed Restaurant Server#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Themed Restaurant Server.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''Themed Restaurant Server''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_194_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 503000225: Config/Level/Mission/5030002/Act/Act503000225.json-->
+<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 194,
+	"ConfigID": 400001
+}</pre>
+:'''Themed Restaurant Server:''' Welcome to the Dreamville theme restaurant. How can I help you?
+<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 52,
+	"TaskID": []
+}</pre>
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_503000225-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

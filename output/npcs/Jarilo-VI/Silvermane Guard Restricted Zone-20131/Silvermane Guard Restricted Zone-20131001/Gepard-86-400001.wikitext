@@ -1,0 +1,306 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gepard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Gepard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Silvermane Guard Restricted Zone
+|relatives       = 
+}}
+'''Gepard''' is an NPC on [[Jarilo-VI]], located in [[Silvermane Guard Restricted Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Silvermane Guard Restricted Zone|npc_86_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404015601,
+		"Type": "submission_state_equal",
+		"Param1": 404015601,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404015601: Config/Level/Mission/4040156/Act/Act404015601.json-->
+:'''Gepard:''' Mmm? Which Wanted poster?
+:'''Gepard:''' ...Ah, you got them all together. I asked guards to help me rip them down, but I see that you're far quicker.
+:'''Gepard:''' You've done me a huge favor. Hang on a moment. Let me prepare a reward for you...
+:{{DIcon|Arrow}} &mdash; Hang on. I've something to ask you!
+:<!--Custom String Listener: TalkSentence_411090805-->
+:'''Gepard:''' Speak.
+:<!--Custom String Trigger: Wait_Option_404010908_108-->
+:<!--Custom String Listener: Wait_Option_404010908_108-->
+:{{DIcon|Talk}} Who painted these... wild portraits?
+::<!--Custom String Listener: TalkSentence_411090807-->
+::'''Gepard:''' Wild? You mean these paintings I did?
+::'''Gepard:''' It feels... not that wild at all. But both you and Pela have said that. Am I really a bad painter...
+::{{DIcon|Arrow}} No no, your painting is very vivid!
+:::<!--Custom String Listener: TalkSentence_411090810-->
+:::'''Gepard:''' "Vivid"... That's exactly what wanted posters called for. It's an honor to receive such high praise like this from you. Thank you so much.
+:::'''Gepard:''' Look, this one &mdash; I remembered your companion's name is March 7th, right? This is the one I'm proudest of... I think it's indeed very vivid.
+:::<!--Custom String Trigger: TalkSentence_411090814-->
+:::<!--Custom String Listener: TalkSentence_411090814-->
+:::'''Gepard:''' It's a shame that things were so urgent. I had to paint this one in a hurry &mdash; otherwise I would've polished it a lot more...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} If you don't have the natural talent for it, don't learn how to paint...
+:::<!--Custom String Listener: TalkSentence_411090813-->
+:::'''Gepard:''' ...You're right. When it comes to painting, I've still got so much to learn from Pela.
+:::<!--Custom String Trigger: TalkSentence_411090814-->
+:::<!--Custom String Listener: TalkSentence_411090814-->
+:::'''Gepard:''' It's a shame that things were so urgent. I had to paint this one in a hurry &mdash; otherwise I would've polished it a lot more...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Who painted these... magnificent portraits?
+::<!--Custom String Listener: TalkSentence_411090816-->
+::'''Gepard:''' This gorgeous style... I presume it's Pela's work? So she even painted one version of it herself... I never knew about that.
+::'''Gepard:''' All I've heard is that she's a wonderful painter with lots of fans because of it. That's all I know. If you're really curious, you can ask her about the rest in person.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Why are we on this Wanted list?
+::<!--Custom String Listener: TalkSentence_411090819-->
+::'''Gepard:''' Have you forgotten? Madam Cocolia said you lot were trying to overthrow Belobog, and put out a Wanted order on your heads. It was urgent, so I painted a Wanted poster and got my staff to post them all over the place.
+::'''Gepard:''' But you've already proved your innocence, and so that's the end of this Wanted matter. I'm sorry for causing you so much trouble before... I owe you another apology.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_404015601-->
+;(First interaction)
+::<!--Trigger PerformanceE 501030001: Config/Level/NPCDialogue/P20131/F20131001_G86/Act/Act_501030001.json-->
+::'''Gepard:''' Welcome to the Silvermane Guard Restricted Zone, (Trailblazer).
+::'''Gepard:''' I've instructed the soldiers to treat you hospitably, but I do have to remind you to be considerate of your actions.
+::'''Gepard:''' Rules are rules &mdash; once any such acts are discovered, even I, the Captain, can't guarantee your safety.
+::{{DIcon|Arrow}} Duly noted.
+:::<!--Custom String Listener: TalkSentence_501030005-->
+:::'''Gepard:''' I would be deeply grateful. I hope you will enjoy this trip to Belobog...
+:::'''Gepard:''' Or, as you all call this world &mdash; I hope you will enjoy this trip to Jarilo-VI.
+::{{DIcon|Arrow}} The Captain's so uptight.
+:::<!--Custom String Listener: TalkSentence_501030008-->
+:::'''Gepard:''' The Supreme Guardian and her laws are akin to an iron wall around Belobog. Nothing in this place is above them.
+:::'''Gepard:''' As a comrade who once fought by your side, I do not wish to see harm befall you. Which is why I hope you will reconsider my suggestion.
+::<!--Custom String Trigger: TalkSentence_501030010-->
+::<!--Custom String Listener: TalkSentence_501030010-->
+::'''Gepard:''' But enough of this stuffy topic. I'm about to go on a break. Do you have something else you wish to talk about?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501030002: Config/Level/NPCDialogue/P20131/F20131001_G86/Act/Act_501030002.json-->
+::'''Gepard:''' We meet again, (Trailblazer). Are you here for a chat?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801412701-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::<!--Trigger PerformanceE 801412205: Config/Level/Mission/8014122/Act/Act801412205.json-->
+::'''Gepard:''' Alright, but let me say first: Though this may only be a game, this battle affects the honor of the Silvermane Guards. I will not go easy on you.
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "7"
+	}
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801410701-->
+;(If {{cx}}<!--SubMission Started: 405003713-->)
+:{{DIcon|undefined}} Please give me some management advice...
+::<!--Trigger PerformanceE 405003009: Config/Level/Mission/4050030/Act/Act405003009.json-->
+::'''Gepard:''' Managing a train... probably requires a certain amount of awareness.
+::'''Gepard:''' You will be responsible for the daily life of the passengers, which is tedious and boring, so you have to have courage and be ready to take on all responsibilities at any time.
+::'''Gepard:''' When necessary, you need to contribute even your rest time. This kind of awareness is required.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003713-->
+;(If {{cx}}<!--SubMission Started: 404015601-->)
+:{{DIcon|?}} Can you take a look at these wanted posters?
+::<!--Trigger PerformanceE 404015601: Config/Level/Mission/4040156/Act/Act404015601.json-->
+::'''Gepard:''' Mmm? Which Wanted poster?
+::'''Gepard:''' ...Ah, you got them all together. I asked guards to help me rip them down, but I see that you're far quicker.
+::'''Gepard:''' You've done me a huge favor. Hang on a moment. Let me prepare a reward for you...
+::{{DIcon|Arrow}} &mdash; Hang on. I've something to ask you!
+::<!--Custom String Listener: TalkSentence_411090805-->
+::'''Gepard:''' Speak.
+::<!--Custom String Trigger: Wait_Option_404010908_108-->
+::<!--Custom String Listener: Wait_Option_404010908_108-->
+::{{DIcon|Talk}} Who painted these... wild portraits?
+:::<!--Custom String Listener: TalkSentence_411090807-->
+:::'''Gepard:''' Wild? You mean these paintings I did?
+:::'''Gepard:''' It feels... not that wild at all. But both you and Pela have said that. Am I really a bad painter...
+:::{{DIcon|Arrow}} No no, your painting is very vivid!
+::::<!--Custom String Listener: TalkSentence_411090810-->
+::::'''Gepard:''' "Vivid"... That's exactly what wanted posters called for. It's an honor to receive such high praise like this from you. Thank you so much.
+::::'''Gepard:''' Look, this one &mdash; I remembered your companion's name is March 7th, right? This is the one I'm proudest of... I think it's indeed very vivid.
+::::<!--Custom String Trigger: TalkSentence_411090814-->
+::::<!--Custom String Listener: TalkSentence_411090814-->
+::::'''Gepard:''' It's a shame that things were so urgent. I had to paint this one in a hurry &mdash; otherwise I would've polished it a lot more...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} If you don't have the natural talent for it, don't learn how to paint...
+::::<!--Custom String Listener: TalkSentence_411090813-->
+::::'''Gepard:''' ...You're right. When it comes to painting, I've still got so much to learn from Pela.
+::::<!--Custom String Trigger: TalkSentence_411090814-->
+::::<!--Custom String Listener: TalkSentence_411090814-->
+::::'''Gepard:''' It's a shame that things were so urgent. I had to paint this one in a hurry &mdash; otherwise I would've polished it a lot more...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Who painted these... magnificent portraits?
+:::<!--Custom String Listener: TalkSentence_411090816-->
+:::'''Gepard:''' This gorgeous style... I presume it's Pela's work? So she even painted one version of it herself... I never knew about that.
+:::'''Gepard:''' All I've heard is that she's a wonderful painter with lots of fans because of it. That's all I know. If you're really curious, you can ask her about the rest in person.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Why are we on this Wanted list?
+:::<!--Custom String Listener: TalkSentence_411090819-->
+:::'''Gepard:''' Have you forgotten? Madam Cocolia said you lot were trying to overthrow Belobog, and put out a Wanted order on your heads. It was urgent, so I painted a Wanted poster and got my staff to post them all over the place.
+:::'''Gepard:''' But you've already proved your innocence, and so that's the end of this Wanted matter. I'm sorry for causing you so much trouble before... I owe you another apology.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404015601-->
+;(If {{cx}}<!--SubMission Finish: 201140504--> and {{cx}}<!--performance 501030005 has been seen--> and {{cx}}<!--SubMission Started: 404015601-->)
+:{{DIcon}} What's Serval up to these days?
+::<!--Trigger PerformanceE 501030005: Config/Level/NPCDialogue/P20131/F20131001_G86/Act/Act_501030005.json-->
+::'''Gepard:''' Same old, same old. Hunkered down at her workshop, either working on orders or dragging Pela and Lynx to rehearsals.
+::'''Gepard:''' But, after that trip to Everwinter Hill, I don't think I've noticed her looking all glum anymore. I reckon she's sorted her troubles out.
+::'''Gepard:''' And this was all thanks to your help, (Trailblazer). I thank you on my big sister's behalf.
+::{{DIcon|Arrow}} We're friends, and that's what we do.
+:::<!--Custom String Listener: TalkSentence_501030040-->
+:::'''Gepard:''' Humility is a virtue. And with your courage and kindness... if we had someone like you among our ranks, it would be Belobog's utmost honor.
+:::'''Gepard:''' As for me... I am immensely honored to have known a friend like you.
+::{{DIcon|Arrow}} It was your companionship that changed her.
+:::<!--Custom String Listener: TalkSentence_501030043-->
+:::'''Gepard:''' ...Perhaps so. It heartens me to see her go back to her usual carefree self.
+:::'''Gepard:''' In any case, I am truly thankful and honored to have such a friend as you.
+::{{DIcon|Arrow}} It looks like you really care for your big sis!
+:::<!--Custom String Listener: TalkSentence_501030046-->
+:::'''Gepard:''' ...I don't.
+:::'''Gepard:''' I'm merely performing the base duty required of a family member.
+:::{{DIcon|Arrow}} Whatever you say.
+::::<!--Custom String Listener: TalkSentence_501030049-->
+::::'''Gepard:''' Thanks for understanding.
+:::{{DIcon|Arrow}} Aww, stop deflecting.
+::::<!--Custom String Listener: TalkSentence_501030051-->
+::::'''Gepard:''' I... This...
+::::'''Gepard:''' Ahem, I'm not deflecting.
+:::{{DIcon|Arrow}} Stop making things so awkward!
+::::<!--Custom String Listener: TalkSentence_501030054-->
+::::'''Gepard:''' Why do you say the same thing as Big Sis... How am I making anything awkward?
+:::<!--Custom String Trigger: TalkSentence_501030055-->
+:::<!--Custom String Listener: TalkSentence_501030055-->
+:::'''Gepard:''' Regardless, us siblings have received much hospitality from you... it is truly an honor to have a friend such as you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030005-->
+:{{DIcon}} Let's have a chat then...
+::<!--Trigger PerformanceE 501030003: Config/Level/NPCDialogue/P20131/F20131001_G86/Act/Act_501030003.json-->
+::<!--Custom String Trigger: Wait_Option_501030001_23-->
+::<!--Custom String Listener: Wait_Option_501030001_23-->
+::{{DIcon|Talk}} What are a Captain's duties?
+:::<!--Custom String Listener: TalkSentence_501030013-->
+:::'''Gepard:''' Anything you can think of, the Silvermane Guards are responsible for.
+:::'''Gepard:''' Above all else, the Captain is charged with organizing the Guards, ensuring that everyone performs their job properly.
+:::{{DIcon|Arrow}} I understand.
+::::<!--Custom String Listener: TalkSentence_501030016-->
+::::'''Gepard:''' It is as you imagined, a Captain's job isn't all that complicated.
+::::'''Gepard:''' I&mdash; No, we are but guardians safeguarding the well-being of Belobogians.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That's a broad description...
+::::<!--Custom String Listener: TalkSentence_501030019-->
+::::'''Gepard:''' City defense is an important duty. It is linked to many matters that your average citizens can't fathom.
+::::'''Gepard:''' But fundamentally, we are but guardians safeguarding the well-being of Belobogians &mdash; that's all you need to understand.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's your relationship with your big sister?
+:::<!--Custom String Listener: TalkSentence_501030022-->
+:::'''Gepard:''' Serval... I can only turn a blind eye to her various actions.
+:::'''Gepard:''' To the Landaus, my big sister's acts are irrefutably traitorous to the clan. It is no wonder our butler regularly goes to the workshop to persuade her to find a proper job.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I hear Pela is your aide?
+:::<!--Custom String Listener: TalkSentence_501030025-->
+:::'''Gepard:''' Yes, but our interactions mostly revolve around work. Though, she is quite close to Serval, which is to say, our lives do somewhat intersect outside of work.
+:::'''Gepard:''' In truth, I try to avoid her most of the time... I always feel that she's sort of hmm... overbearing.
+:::'''Gepard:''' There was once when I saw that she was swamped with work, so I suggested helping her finish up a report.
+:::'''Gepard:''' When I submitted it to her, I didn't think she'd be able to point out so many mistakes at a mere glance, followed by a barrage of detailed remarks...
+:::'''Gepard:''' She personally apologized to me after that, and I also acknowledged my tardiness, but that matter sure taught me a lesson... It's best not to get involved in Pela's work.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I can't think of what to talk about right now.
+:::<!--Custom String Listener: TalkSentence_501030031-->
+:::'''Gepard:''' It's fine. Feel free to speak your mind. No reason to hold back.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030003-->
+:{{DIcon|Exit}} Let's end the chat here then.
+::<!--Trigger PerformanceE 501030004: Config/Level/NPCDialogue/P20131/F20131001_G86/Act/Act_501030004.json-->
+::'''Gepard:''' All right. I should get back to work too. I'll see you later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030004-->
+;(If {{cx}}<!--SubMission Started: 800125401-->)
+:{{DIcon|undefined}} Are you interested in volunteering at the museum?
+::<!--Trigger PerformanceE 800125401: Config/Level/Mission/8001254/Act/Act800125401.json-->
+::'''Gepard:''' Volunteer? Do you mean as a volunteer guide?
+::'''Gepard:''' If I'm not mistaken, I submitted my application to Pela a while ago... Didn't she receive it?
+::{{DIcon|Arrow}} I'm not sure. I should probably ask her.
+:::<!--Custom String Listener: TalkSentence_201196205-->
+:::'''Gepard:''' Sure. Thanks for your help.
+:::'''Gepard:''' If she doesn't have my application form, I'll just fill in a new one.
+::{{DIcon|Arrow}} No problem. I'll be off, then.
+:::<!--Custom String Listener: TalkSentence_201196208-->
+:::'''Gepard:''' Please, wait a moment. If you know nothing about my application, then maybe it didn't reach her.
+:::'''Gepard:''' I think you should probably check with her. If she doesn't have my application form, I'll just fill in a new one.
+::<!--Custom String Trigger: Wait_Option_800125401_19-->
+::<!--Custom String Listener: Wait_Option_800125401_19-->
+::{{DIcon|Arrow}} I'll send her a message to ask about it.
+::<!--Custom String Listener: TalkSentence_201196211-->
+::'''Gepard:''' Thanks for your help.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125401-->
+;(If {{cx}}<!--SubMission Started: 800125403--> and {{cx}}<!--SubMission Started: 800125401-->)
+:{{DIcon|undefined}} She said it was a mistake.
+::<!--Trigger PerformanceE 800125403: Config/Level/Mission/8001254/Act/Act800125403.json-->
+::'''Gepard:''' ...I understand. As an Intelligence Officer, she has to deal with piles of files every day. It is impossible not to mess up once in a while.
+::'''Gepard:''' Anyway, I've got my answer. Thanks for your hard work. Without you, both of us would still be in the dark about the situation.
+::'''Gepard:''' Now... I need to start preparing for the interview she mentioned. I hope I'll have the chance to be your museum guide soon. See you around.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125403-->
+;(Unused &mdash; TalkSentence_405300902)
+:<!--Custom String Listener: TalkSentence_405300902-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Gepard
+|zhs  = 杰帕德
+|zht  = 傑帕德
+|ja   = ジェパード
+|ko   = 게파드
+|es   = Gepard
+|fr   = Gepard
+|ru   = Гепард
+|th   = Gepard
+|vi   = Gepard
+|de   = Gepard
+|id   = Gepard
+|pt   = Gepard
+}}
+==Change History==
+{{Change History|TODO}}

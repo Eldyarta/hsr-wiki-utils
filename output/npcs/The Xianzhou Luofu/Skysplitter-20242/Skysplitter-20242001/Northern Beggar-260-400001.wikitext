@@ -1,0 +1,198 @@
+<%-- [PAGE_INFO]
+PageTitle=#Northern Beggar#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Master Beggar"
+|image           = NPC Northern Beggar.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Northern Beggar''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_260_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502170000: Config/Level/Mission/5021700/Act/Act502170000.json-->
+::'''Northern Beggar:''' Greetings, I have a question requiring your help: Have you seen a person with a ram's horn aboard the Skysplitter?
+::{{DIcon|Arrow}} Hmm, don't think I've seen someone like that...
+:::<!--Custom String Listener: TalkSentence_502170103-->
+:::'''Northern Beggar:''' Me neither, though I didn't really expect to meet in-person...
+::{{DIcon|Arrow}} I have, but I'm not sure if it's the same person?
+:::<!--Custom String Listener: TalkSentence_502170105-->
+:::'''Northern Beggar:''' You have? I doubt there's a second person with a ram's horn stuck on their head, but I haven't seen him.
+::<!--Custom String Trigger: TalkSentence_502170106-->
+::<!--Custom String Listener: TalkSentence_502170106-->
+::'''Northern Beggar:''' I shall describe the person in greater detail: It's a ram's horn on top of their head, wearing a monocle, donning a crown of fire, draped in an elegant robe, alabaster-white gloves, and very expensive boots... topped off with the daunting aura of a powerful warrior.
+::{{DIcon|Arrow}} You know Duke Inferno?
+:::<!--Custom String Listener: TalkSentence_502170108-->
+:::'''Northern Beggar:''' Duke Inferno? Isn't he THE bigwig from the Annihilation Gang? We're not talking about the same person. I'm looking for an internet friend called "Southern Emperor."
+::{{DIcon|Arrow}} You'll probably never see him again...
+:::<!--Custom String Listener: TalkSentence_502170110-->
+:::'''Northern Beggar:''' Why so serious? Southern Emperor promised me that he'd meet me after some banquet.
+::<!--Custom String Trigger: TalkSentence_502170111-->
+::<!--Custom String Listener: TalkSentence_502170111-->
+::'''Northern Beggar:''' That Southern Emperor really didn't say much, but I could tell he was extraordinary from those few lines. We said on the dark net that we'd meet up. From his demeanor, I can tell he isn't one to renege on his words.
+::'''Northern Beggar:''' Not that this was a wasted trip anyway. Just look at you, {{MC|f=young miss|m=young mister}}. One glance at your countenance and I can tell you're not an ordinary person. Right now, there's a famished homeless person standing before you...
+::'''Northern Beggar:''' Using your common sense, shouldn't it be time to... offer me something?
+::{{DIcon|Arrow}} You're filthy, I'm leaving.
+:::<!--Custom String Listener: TalkSentence_502170115-->
+:::'''Northern Beggar:''' It's not that bad, I'm in clean mode today. Those of us in the service industry are all about hygiene and cleanliness.
+::{{DIcon|Arrow}} You trying to fleece someone nice like me?
+:::<!--Custom String Listener: TalkSentence_502170117-->
+:::'''Northern Beggar:''' Oh come on, just go on the net. We beggars have to record our entire process, we're absolutely legal.
+::{{DIcon|Arrow}} That's not even a segue, it's a non sequitur!
+:::<!--Custom String Listener: TalkSentence_502170119-->
+:::'''Northern Beggar:''' I mean, {{MC|f=lady|m=sir}}, internet friends are temporary, but begging for food is forever.
+::<!--Custom String Trigger: TalkSentence_502170120-->
+::<!--Custom String Listener: TalkSentence_502170120-->
+::'''Northern Beggar:''' Don't worry, I'm not one of those pesky low-class beggars. You have my personal guarantee that all emotional values are clearly marked.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502170002: Config/Level/Mission/5021700/Act/Act502170002.json-->
+::'''Northern Beggar:''' So, how about it, old friend? How about some emotional offerings?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Here's some money, lay some emotional value on me.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 260,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 63,
+	"TaskID": []
+}</pre>
+::'''Northern Beggar:''' May the Reignbow bless you!
+::<!--Ends the current performance-->
+:{{DIcon}} It's better if we just have a chat...
+::'''Northern Beggar:''' Alright, what d'you want to talk about? Everything's fair game, but let's stay away from client confidentiality stuff.
+::<!--Custom String Trigger: Wait_Option_502170003_47-->
+::<!--Custom String Listener: Wait_Option_502170003_47-->
+::{{DIcon|Talk}} The Xianzhou Luofu is a proverbial utopia, how are there still beggars?
+:::<!--Custom String Listener: TalkSentence_502170203-->
+:::'''Northern Beggar:''' You're right. The Luofu has long eliminated poverty, and now absolutely no one has to beg for a warm bed and a hot meal. Which is what makes begging even more meaningful!
+:::'''Northern Beggar:''' If someone writes just for a living, he will never be elevated to a master of his profession. If one robs for survival, he will never gain notoriety as a feared bandit. The same principle applies.
+:::'''Northern Beggar:''' If I begged for lodging and food, I'd never become a... grand beggar? It is because I can choose not to beg, that being a beggar is a way of life, a profession of choice, and a lifelong pursuit!
+:::{{DIcon|Arrow}} Your way of deriving satisfaction is weird.
+::::<!--Custom String Listener: TalkSentence_502170207-->
+::::'''Northern Beggar:''' You're mistaken, I do not lack satisfaction, I do it for the satisfaction of the Luofu's citizens.
+::::<!--Custom String Trigger: TalkSentence_502170210-->
+::::<!--Custom String Listener: TalkSentence_502170210-->
+::::'''Northern Beggar:''' Animals instinctively help one another, but life on the Luofu is too perfect. Just think about it! When everyone is fed and clothed, how can they satisfy their instinctual need to help?
+::::'''Northern Beggar:''' Indeed, you can make donations to Thalassa's Hope Elementary School, to help those brave little merkids escape the treacherous trench. But that will take many years before you see results. Modern folk require more instant gratification than that.
+::::'''Northern Beggar:''' But if you choose to give me that money, I'll be able to afford a delicious meal this instant. And because I'm unemployed, I REALLY need this money. Since giving money to those who need it is an act of kindness, why does it matter who it's given to?
+::::'''Northern Beggar:''' You got it now? Begging is a noble way of life! I am fulfilling my clients' emotional value in "performing an act of kindness."
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Sounds like you're just draining everyone's compassion.
+::::<!--Custom String Listener: TalkSentence_502170209-->
+::::'''Northern Beggar:''' That's not true! I do it for the satisfaction of the Luofu's citizens.
+::::<!--Custom String Trigger: TalkSentence_502170210-->
+::::<!--Custom String Listener: TalkSentence_502170210-->
+::::'''Northern Beggar:''' Animals instinctively help one another, but life on the Luofu is too perfect. Just think about it! When everyone is fed and clothed, how can they satisfy their instinctual need to help?
+::::'''Northern Beggar:''' Indeed, you can make donations to Thalassa's Hope Elementary School, to help those brave little merkids escape the treacherous trench. But that will take many years before you see results. Modern folk require more instant gratification than that.
+::::'''Northern Beggar:''' But if you choose to give me that money, I'll be able to afford a delicious meal this instant. And because I'm unemployed, I REALLY need this money. Since giving money to those who need it is an act of kindness, why does it matter who it's given to?
+::::'''Northern Beggar:''' You got it now? Begging is a noble way of life! I am fulfilling my clients' emotional value in "performing an act of kindness."
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Let's talk about that friend you're looking for.
+:::<!--Custom String Listener: TalkSentence_502170215-->
+:::'''Northern Beggar:''' *sigh* I've never actually seen him in person, he's just an internet friend I knew on the interstellar dark net. Honestly, we're not even that close. We only connect because of shared interests.
+:::'''Northern Beggar:''' Our common ground lies in "discussing ways to destroy the world"... And since then, we gathered a small following. Including me, there are four of us called the "Four Greats."
+:::'''Northern Beggar:''' We all have our own specialties &mdash; Eastern Heretic, Western Venom, Southern Emperor, and Northern Beggar. You'll get it immediately. I'm that "Northern Beggar," and the person I'm waiting for is "Southern Emperor."
+:::'''Northern Beggar:''' I scoff at the other two, but this Southern Emperor is a mysterious one. He rarely speaks, but has some sort of inexplicable persuasiveness to him. Could he really be some big shot?
+:::'''Northern Beggar:''' The Southern Emperor said he'd meet a friend after attending some banquet. I believe him.
+:::{{DIcon|Arrow}} (Take out The Ashblazing Grand Duke)
+::::<!--Custom String Listener: TalkSentence_502170221-->
+:::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_4040352.png"
+}</pre>
+::::'''Northern Beggar:''' Honestly, I have trouble believing this is what he left behind, even if it looks really authentic...
+::::<!--Custom String Trigger: TalkSentence_502170226-->
+::::<!--Custom String Listener: TalkSentence_502170226-->
+::::'''Northern Beggar:''' If he's really gone forever, I will face the roiling flames and pay my sincere respects to him. I can't condone his ideals, but I admire the way he pursued them &mdash; undaunted, unwavering, and untainted!
+:::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"Show": false,
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_4040352.png"
+}</pre>
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} The Southern Emperor may never be able to come...
+::::<!--Custom String Listener: TalkSentence_502170224-->
+::::'''Northern Beggar:''' Could he have gotten into an accident? *sigh* That's how unpredictable life is.
+::::<!--Custom String Trigger: TalkSentence_502170226-->
+::::<!--Custom String Listener: TalkSentence_502170226-->
+::::'''Northern Beggar:''' If he's really gone forever, I will face the roiling flames and pay my sincere respects to him. I can't condone his ideals, but I admire the way he pursued them &mdash; undaunted, unwavering, and untainted!
+:::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"Show": false,
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_4040352.png"
+}</pre>
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any experience in begging?
+:::<!--Custom String Listener: TalkSentence_502170228-->
+:::'''Northern Beggar:''' Honesty's my middle name &mdash; when it comes to skills in begging, in this domain, I'm pretty much the de facto leader.
+:::'''Northern Beggar:''' Take targets for begging, for example: They can't look too affluent, or they'll definitely snub you. But they also can't be too impoverished, or you'll end up giving him handouts instead.
+:::'''Northern Beggar:''' As for begging taglines, that's even harder. If you see an IPC fellow, you have to say, "May the Amber Lord protect you." If it's an Intelligentsia Guild scholar, it's "May Nous guide you." If you can't really tell, the Reignbow will bless them.
+:::'''Northern Beggar:''' Also, contentment is key &mdash; you can't be picky about the offering. If it's too much, you distribute some of it to others. If it's too little, you can't gripe about it either... I mean, you're nothing without the benevolence of others!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} We'll catch up another time.
+:::<!--Custom String Listener: TalkSentence_502170233-->
+:::'''Northern Beggar:''' May the Reignbow bless you!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I haven't got cash on me today, another time.
+::'''Northern Beggar:''' All good, I'll be waiting here for you. May the Reignbow bless you!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Northern Beggar
+|zhs  = 北丐
+|zht  = 北丐
+|ja   = 北乞
+|ko   = 북개
+|es   = Mendigo del Norte
+|fr   = Mendiant du nord
+|ru   = Северный Попрошайка
+|th   = กระยาจกแดนเหนือ
+|vi   = Bắc Cái
+|de   = Bettler des Nordens
+|id   = Pengemis Utara
+|pt   = Pedinte do Norte
+}}
+==Change History==
+{{Change History|TODO}}

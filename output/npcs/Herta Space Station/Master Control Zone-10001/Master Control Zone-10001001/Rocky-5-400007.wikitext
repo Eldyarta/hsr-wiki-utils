@@ -1,0 +1,320 @@
+<%-- [PAGE_INFO]
+PageTitle=#Rocky#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Geography Researcher
+|image           = NPC Rocky.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Rocky''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_5_400007}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200011001,
+		"Type": "submission_state_equal",
+		"Param1": 200011001,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200011001: Config/Level/Mission/2000110/Act/Act200011001.json-->
+:<!--Custom String Trigger: TalkSentence_200021001-->
+:<!--Custom String Listener: TalkSentence_200021001-->
+:'''Rocky:''' Should I make it witty? Nah, maybe sentimental is better. Elegance? Well, I probably shouldn't use idioms in a poem.
+:'''Rocky:''' Should I use "dark silk" or "white gown" here? Tsk... It's hurting my brain...
+:<!--Custom String Trigger: Wait_Option_2000210_8-->
+:<!--Custom String Listener: Wait_Option_2000210_8-->
+:{{DIcon|Arrow}} What are you doing?
+:<!--Custom String Listener: TalkSentence_200021004-->
+:'''Rocky:''' Oh, I am just writing a poem. Can't you see the drafts on the desk?
+:'''Rocky:''' Oh, your interruption reminds me. How come Lesley still hasn't replied to my letters after all those poems I sent her?
+:<!--Custom String Trigger: Wait_Option_2000210_29-->
+:<!--Custom String Listener: Wait_Option_2000210_29-->
+:{{DIcon|Arrow}} Who is Lesley...
+::<!--Custom String Listener: TalkSentence_200021053-->
+::'''Bernard:''' Oh, Lesley is a prominent researcher in the Department of Insight, the only scholar who has visited the Abundance segmentum this Amber Era.
+::'''Bernard:''' You sure she has time for you?
+::'''Rocky:''' Of course she does! Ever since Lesley left, we've been communicating on and off through the Cosmic Airwave Repeater.
+::'''Rocky:''' She will never ignore me even though we are tens of thousands of light-years away.
+:{{DIcon|Arrow}} Do people here write letters too?
+::<!--Custom String Listener: TalkSentence_200021057-->
+::'''Rocky:''' Oh, don't get me wrong. I was not talking about paper letters. Ever since Lesley left, we've been communicating on and off through the Cosmic Airwave Repeater.
+::'''Rocky:''' Even if we are tens of thousands of light-years apart, she still replies to my messages. Only this time...
+::'''Bernard:''' She is a prominent researcher at the Department of Insight, the only scholar who has visited the Abundance segmentum in this Amber Era.
+::'''Bernard:''' She must be very busy with her research. Don't expect her to keep answering you all the time!
+:<!--Custom String Trigger: Wait_Option_2000210_50-->
+:<!--Custom String Listener: Wait_Option_2000210_50-->
+:'''Rocky:''' This is the only time she hasn't replied to me.
+:'''Rocky:''' I... I confessed my love for her in my last letter. I usually just talk to her about the types of rock and mud we see in Department of Cosmic Geography...
+:'''Bernard:''' Brat.
+:'''Bernard:''' Show some respect to your own discipline, will you?
+:'''Rocky:''' I really don't understand why Lesley stopped answering me after I confessed my love for her...
+:'''Rocky:''' We used to chat about a lot of things, from which of the 101 Aeon instruments in the Department of Insight require Gunn's beard, to...
+:'''Rocky:''' And about how to use Astro Rods to examine the quality of soil, thus determining the rise and fall of the inhabitants of the planet.
+:{{DIcon|Arrow}} Bro, you are very romantic.
+::<!--Custom String Listener: TalkSentence_200021071-->
+::'''Rocky:''' So this is romantic? Then we had even more "romantic" discussions.
+:{{DIcon|Arrow}} Ghosting you might just be her way of rejection.
+::<!--Custom String Listener: TalkSentence_200021073-->
+::'''Rocky:''' That's impossible. If she were to reject me, why would she talk to me so much? Besides...
+:{{DIcon|Arrow}} Who the hell talks about mud with a girl...
+::<!--Custom String Listener: TalkSentence_200021075-->
+::'''Rocky:''' Mud... what's wrong with mud!? With Lesley, it's fun even when I talk about mud. Besides...
+:<!--Custom String Trigger: TalkSentence_200021076-->
+:<!--Custom String Listener: TalkSentence_200021076-->
+:'''Rocky:''' During the communication where I confessed my love, she told me about a spectacular {{Color|keyword|nobold=1|starquake}}.
+:'''Rocky:''' Think about it! A star DIED! Most people would try to hide, but not my Lesley. Not only did she get first-hand observational data, she even saved a cosmic hitchhiker who almost died!
+:'''Rocky:''' You have no idea how happy she sounded in her reply. Even the Airwave Repeater signal was cheerful!
+:'''Rocky:''' Whenever I receive a reply from her, I can't help but picture the smile on her face and I'd carve it on a rock.
+:'''Rocky:''' Before the Legion invasion, I had a bunch of rocks all lined up in a row on my desk. Unfortunately, they went missing in the chaos.
+:'''Bernard:''' Reckless romance.
+:'''Bernard:''' It's detrimental to your research!
+:'''Rocky:''' Anyway, there is no sign that she's going to reject me. If I don't receive her reply within the usual time frame... it means there must be something wrong with the Cosmic Airwave Repeater!
+:'''Rocky:''' In my investigation, I found out that a group of Legion monsters occupied the area where the signals are transmitted. Can you help me find out what happened?
+:'''Rocky:''' Can you help me find out what happened to the Airwave Repeater? My master wouldn't let me go...
+:'''Bernard:''' Don't help him!
+:'''Bernard:''' All he thinks about is the Airwave Repeater. He hasn't done any proper work for more than 10 days. Shame on you!
+:<!--Custom String Trigger: Wait_Option_2000210_103-->
+:<!--Custom String Listener: Wait_Option_2000210_103-->
+:{{DIcon|Arrow}} I'll help you.
+::<!--Custom String Listener: TalkSentence_200021088-->
+::'''Rocky:''' Nice!
+::<!--Custom String Trigger: TalkSentence_200021091-->
+:{{DIcon|Arrow}} We may as well get this off his chest.
+::<!--Custom String Listener: TalkSentence_200021089-->
+::'''Bernard:''' Hmph! A bunch of hooligans...
+::<!--Custom String Trigger: TalkSentence_200021091-->
+:{{DIcon|Arrow}} Shame on you!
+:<!--Custom String Listener: TalkSentence_200021091-->
+:'''Rocky:''' Don't listen to my master! If you have the time to listen to him, you would've found the Cosmic Airwave Repeater already.
+:'''Rocky:''' Listen, the {{Color|keyword|nobold=1|Airwave Repeater}} is next to the {{Color|keyword|nobold=1|Disposal Site}}! It is a massive warehouse for storing discarded Curios.
+:'''Rocky:''' If you can resume our communication, I promise I'll reward you by inviting you to be our {{MC|f=bridesmaid|m=best man}}!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200011001-->
+<pre>
+[
+	{
+		"ID": 200011009,
+		"Type": "submission_state_equal",
+		"Param1": 200011009,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200011009: Config/Level/Mission/2000110/Act/Act200011009.json-->
+:<!--Custom String Trigger: TalkSentence_200021801-->
+:<!--Custom String Listener: TalkSentence_200021801-->
+:'''Rocky:''' Bro, you're back! While you were away, I wrote another poem called "Praise Lesley."
+:'''Rocky:''' Did you fix the repeater? I see you are holding decoded backups... Hehe, which one is for me?
+:<!--Custom String Trigger: Wait_Option_2000218_336-->
+:<!--Custom String Listener: Wait_Option_2000218_336-->
+:{{DIcon|Arrow}} The Red truth.
+::<!--Custom String Listener: TalkSentence_200021804-->
+::'''Rocky:''' You seem hesitant. Are you sure the red one is for me?
+::<!--Custom String Trigger: Wait_Option_2000218_342-->
+::<!--Custom String Listener: Wait_Option_2000218_342-->
+:{{DIcon|Arrow}} The Blue lie.
+::<!--Custom String Listener: TalkSentence_200021806-->
+::'''Rocky:''' You seem hesitant. Are you sure the blue one is for me?
+::<!--Custom String Trigger: Wait_Option_2000218_3422-->
+::<!--Custom String Listener: Wait_Option_2000218_3422-->
+:{{DIcon|Arrow}} Yes, I am.
+::<!--Custom String Listener: TalkSentence_200021807-->
+:<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 200011010,
+	"Desc": {
+		"Hash": 1336016129373125522
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Mission_200011010"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:{{DIcon|Exit}} Let me think...
+::<!--Custom String Listener: TalkSentence_200021809-->
+::'''Rocky:''' Sure, take your time.
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 200011001
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200011009
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 200011001-->)
+:{{DIcon}} 
+::<!--Trigger PerformanceE 200011001: Config/Level/Mission/2000110/Act/Act200011001.json-->
+::<!--Custom String Trigger: TalkSentence_200021001-->
+::<!--Custom String Listener: TalkSentence_200021001-->
+::'''Rocky:''' Should I make it witty? Nah, maybe sentimental is better. Elegance? Well, I probably shouldn't use idioms in a poem.
+::'''Rocky:''' Should I use "dark silk" or "white gown" here? Tsk... It's hurting my brain...
+::<!--Custom String Trigger: Wait_Option_2000210_8-->
+::<!--Custom String Listener: Wait_Option_2000210_8-->
+::{{DIcon|Arrow}} What are you doing?
+::<!--Custom String Listener: TalkSentence_200021004-->
+::'''Rocky:''' Oh, I am just writing a poem. Can't you see the drafts on the desk?
+::'''Rocky:''' Oh, your interruption reminds me. How come Lesley still hasn't replied to my letters after all those poems I sent her?
+::<!--Custom String Trigger: Wait_Option_2000210_29-->
+::<!--Custom String Listener: Wait_Option_2000210_29-->
+::{{DIcon|Arrow}} Who is Lesley...
+:::<!--Custom String Listener: TalkSentence_200021053-->
+:::'''Bernard:''' Oh, Lesley is a prominent researcher in the Department of Insight, the only scholar who has visited the Abundance segmentum this Amber Era.
+:::'''Bernard:''' You sure she has time for you?
+:::'''Rocky:''' Of course she does! Ever since Lesley left, we've been communicating on and off through the Cosmic Airwave Repeater.
+:::'''Rocky:''' She will never ignore me even though we are tens of thousands of light-years away.
+::{{DIcon|Arrow}} Do people here write letters too?
+:::<!--Custom String Listener: TalkSentence_200021057-->
+:::'''Rocky:''' Oh, don't get me wrong. I was not talking about paper letters. Ever since Lesley left, we've been communicating on and off through the Cosmic Airwave Repeater.
+:::'''Rocky:''' Even if we are tens of thousands of light-years apart, she still replies to my messages. Only this time...
+:::'''Bernard:''' She is a prominent researcher at the Department of Insight, the only scholar who has visited the Abundance segmentum in this Amber Era.
+:::'''Bernard:''' She must be very busy with her research. Don't expect her to keep answering you all the time!
+::<!--Custom String Trigger: Wait_Option_2000210_50-->
+::<!--Custom String Listener: Wait_Option_2000210_50-->
+::'''Rocky:''' This is the only time she hasn't replied to me.
+::'''Rocky:''' I... I confessed my love for her in my last letter. I usually just talk to her about the types of rock and mud we see in Department of Cosmic Geography...
+::'''Bernard:''' Brat.
+::'''Bernard:''' Show some respect to your own discipline, will you?
+::'''Rocky:''' I really don't understand why Lesley stopped answering me after I confessed my love for her...
+::'''Rocky:''' We used to chat about a lot of things, from which of the 101 Aeon instruments in the Department of Insight require Gunn's beard, to...
+::'''Rocky:''' And about how to use Astro Rods to examine the quality of soil, thus determining the rise and fall of the inhabitants of the planet.
+::{{DIcon|Arrow}} Bro, you are very romantic.
+:::<!--Custom String Listener: TalkSentence_200021071-->
+:::'''Rocky:''' So this is romantic? Then we had even more "romantic" discussions.
+::{{DIcon|Arrow}} Ghosting you might just be her way of rejection.
+:::<!--Custom String Listener: TalkSentence_200021073-->
+:::'''Rocky:''' That's impossible. If she were to reject me, why would she talk to me so much? Besides...
+::{{DIcon|Arrow}} Who the hell talks about mud with a girl...
+:::<!--Custom String Listener: TalkSentence_200021075-->
+:::'''Rocky:''' Mud... what's wrong with mud!? With Lesley, it's fun even when I talk about mud. Besides...
+::<!--Custom String Trigger: TalkSentence_200021076-->
+::<!--Custom String Listener: TalkSentence_200021076-->
+::'''Rocky:''' During the communication where I confessed my love, she told me about a spectacular {{Color|keyword|nobold=1|starquake}}.
+::'''Rocky:''' Think about it! A star DIED! Most people would try to hide, but not my Lesley. Not only did she get first-hand observational data, she even saved a cosmic hitchhiker who almost died!
+::'''Rocky:''' You have no idea how happy she sounded in her reply. Even the Airwave Repeater signal was cheerful!
+::'''Rocky:''' Whenever I receive a reply from her, I can't help but picture the smile on her face and I'd carve it on a rock.
+::'''Rocky:''' Before the Legion invasion, I had a bunch of rocks all lined up in a row on my desk. Unfortunately, they went missing in the chaos.
+::'''Bernard:''' Reckless romance.
+::'''Bernard:''' It's detrimental to your research!
+::'''Rocky:''' Anyway, there is no sign that she's going to reject me. If I don't receive her reply within the usual time frame... it means there must be something wrong with the Cosmic Airwave Repeater!
+::'''Rocky:''' In my investigation, I found out that a group of Legion monsters occupied the area where the signals are transmitted. Can you help me find out what happened?
+::'''Rocky:''' Can you help me find out what happened to the Airwave Repeater? My master wouldn't let me go...
+::'''Bernard:''' Don't help him!
+::'''Bernard:''' All he thinks about is the Airwave Repeater. He hasn't done any proper work for more than 10 days. Shame on you!
+::<!--Custom String Trigger: Wait_Option_2000210_103-->
+::<!--Custom String Listener: Wait_Option_2000210_103-->
+::{{DIcon|Arrow}} I'll help you.
+:::<!--Custom String Listener: TalkSentence_200021088-->
+:::'''Rocky:''' Nice!
+:::<!--Custom String Trigger: TalkSentence_200021091-->
+::{{DIcon|Arrow}} We may as well get this off his chest.
+:::<!--Custom String Listener: TalkSentence_200021089-->
+:::'''Bernard:''' Hmph! A bunch of hooligans...
+:::<!--Custom String Trigger: TalkSentence_200021091-->
+::{{DIcon|Arrow}} Shame on you!
+::<!--Custom String Listener: TalkSentence_200021091-->
+::'''Rocky:''' Don't listen to my master! If you have the time to listen to him, you would've found the Cosmic Airwave Repeater already.
+::'''Rocky:''' Listen, the {{Color|keyword|nobold=1|Airwave Repeater}} is next to the {{Color|keyword|nobold=1|Disposal Site}}! It is a massive warehouse for storing discarded Curios.
+::'''Rocky:''' If you can resume our communication, I promise I'll reward you by inviting you to be our {{MC|f=bridesmaid|m=best man}}!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200011001-->
+;(If {{cx}}<!--SubMission Started: 200011009--> and {{cx}}<!--SubMission Started: 200011001-->)
+:{{DIcon}} 
+::<!--Trigger PerformanceE 200011009: Config/Level/Mission/2000110/Act/Act200011009.json-->
+::<!--Custom String Trigger: TalkSentence_200021801-->
+::<!--Custom String Listener: TalkSentence_200021801-->
+::'''Rocky:''' Bro, you're back! While you were away, I wrote another poem called "Praise Lesley."
+::'''Rocky:''' Did you fix the repeater? I see you are holding decoded backups... Hehe, which one is for me?
+::<!--Custom String Trigger: Wait_Option_2000218_336-->
+::<!--Custom String Listener: Wait_Option_2000218_336-->
+::{{DIcon|Arrow}} The Red truth.
+:::<!--Custom String Listener: TalkSentence_200021804-->
+:::'''Rocky:''' You seem hesitant. Are you sure the red one is for me?
+:::<!--Custom String Trigger: Wait_Option_2000218_342-->
+:::<!--Custom String Listener: Wait_Option_2000218_342-->
+::{{DIcon|Arrow}} The Blue lie.
+:::<!--Custom String Listener: TalkSentence_200021806-->
+:::'''Rocky:''' You seem hesitant. Are you sure the blue one is for me?
+:::<!--Custom String Trigger: Wait_Option_2000218_3422-->
+:::<!--Custom String Listener: Wait_Option_2000218_3422-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Rocky
+|zhs  = 洛奇
+|zht  = 洛奇
+|ja   = ロキ
+|ko   = 록키
+|es   = Rocky
+|fr   = Rocky
+|ru   = Рокки
+|th   = Rocky
+|vi   = Rocky
+|de   = Rocky
+|id   = Rocky
+|pt   = Rocky
+}}
+==Change History==
+{{Change History|TODO}}

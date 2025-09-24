@@ -1,0 +1,187 @@
+<%-- [PAGE_INFO]
+PageTitle=#Eacus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Young Scribe
+|image           = NPC Eacus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Eacus''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_125_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504060001: Config/Level/Mission/5040600/Act/Act504060001.json-->
+::'''Eacus:''' You're... Wait, I've seen you before! At the citizens' assembly, standing with Lady Aglaea and Lord Phainon. Your name is (Trailblazer), isn't it?
+::{{DIcon|Arrow}} That's right. Seems I've made quite a name for myself.
+:::<!--Custom String Listener: TalkSentence_504060003-->
+:::'''Eacus:''' Hah, you certainly have. Though not all of it is good.
+::{{DIcon|Arrow}} Wrong. Call me the Galactic Baseballer.
+:::<!--Custom String Listener: TalkSentence_504060005-->
+:::'''Eacus:''' Hah! So you do good deeds or bad ones, all while staying incognito?
+::{{DIcon|Arrow}} You've got the wrong person. I don't know any Chrysos Heirs.
+:::<!--Custom String Listener: TalkSentence_504060007-->
+:::'''Eacus:''' Oh, no, I didn't mistake you. I was there. I saw it myself.
+::<!--Custom String Trigger: TalkSentence_504060008-->
+::<!--Custom String Listener: TalkSentence_504060008-->
+::'''Eacus:''' I'm an archiver for the Council of Elders. According to our records, the outworlder (Trailblazer) once opened a treasure chest in Okhema without permission, shattered the Flying Amphora, and let the Golden Short Spear fly through a bustling market...
+::{{DIcon|Arrow}} I'm sorry! Please don't make me pay for damages!
+:::<!--Custom String Listener: TalkSentence_504060010-->
+:::'''Eacus:''' ...I'm not asking for reparations.
+::{{DIcon|Arrow}} I didn't do any of those things.
+:::<!--Custom String Listener: TalkSentence_504060012-->
+:::'''Eacus:''' ...But you did. And in full view of everyone.
+::{{DIcon|Arrow}} Archiver, maybe you should focus on more serious matters.
+:::<!--Custom String Listener: TalkSentence_504060014-->
+:::'''Eacus:''' Honestly, these are serious matters.
+::<!--Custom String Trigger: TalkSentence_504060015-->
+::<!--Custom String Listener: TalkSentence_504060015-->
+::'''Eacus:''' Look, I'm not seeking reparations, and I'm not here to threaten you either. Wait, do you think I'm some kind of bad guy just because I work for the Council of Elders?
+::{{DIcon|Arrow}} The Council of Elders... Aren't they all bad guys?
+:::<!--Custom String Listener: TalkSentence_504060017-->
+:::'''Eacus:''' Of course not! A handful of people don't represent the entire Council &mdash; or me, for that matter.
+::{{DIcon|Arrow}} Anyone accusing me is a bad guy!
+:::<!--Custom String Listener: TalkSentence_504060019-->
+:::'''Eacus:''' Your standards for good and bad seem... flexible.
+::<!--Custom String Trigger: TalkSentence_504060020-->
+::<!--Custom String Listener: TalkSentence_504060020-->
+::'''Eacus:''' For the record, I'm not who you think I am. I'm just a new graduate from the Grove, working for the Council of Elders purely for the generous pay. I have zero political stance.
+::'''Eacus:''' All those things I mentioned are in the records, yes, but unlike the old fossils in the Council, I don't plan to hold you accountable. I just wanted to confirm that you're the person in those records...
+::'''Eacus:''' Because, honestly, I think you're like me: Young and uninterested in politics. You wouldn't believe how suffocating it is, being surrounded by people who talk about nothing else. I thought maybe we could relate...
+::'''Eacus:''' How about it? Save a fellow youth from the Dawncloud and chat with me for a while?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504060002: Config/Level/Mission/5040600/Act/Act504060002.json-->
+::'''Eacus:''' "We stand at the turning point of the Light Calendar!" Ugh, even I don't believe that nonsense...
+::'''Eacus:''' The people here are so dull. What did I do in a past life to deserve this punishment &mdash; working in this place with nothing but old men for company? At least there's you, (Trailblazer). Would you keep me company for a bit and just... talk?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Come on. Just a small talk.
+::'''Eacus:''' Of course, it's up to us to bring down the average age around here. So, what should we talk about?
+::<!--Custom String Trigger: Wait_Option_504060003_52-->
+::<!--Custom String Listener: Wait_Option_504060003_52-->
+::{{DIcon|Talk}} You mentioned you just graduated from the Grove?
+:::<!--Custom String Listener: TalkSentence_504060204-->
+:::'''Eacus:''' That's right. I studied under Professor Anaxa. Not sure if you've heard of him &mdash; he's a good person and a decent teacher, but... his courses don't exactly translate into practical skills...
+:::{{DIcon|Arrow}} Sounds like one of those "impractical" fields...
+::::<!--Custom String Listener: TalkSentence_504060206-->
+::::'''Eacus:''' Well, it's my fault for choosing a major just because the professor was good-looking.
+::::<!--Custom String Trigger: TalkSentence_504060209-->
+::::<!--Custom String Listener: TalkSentence_504060209-->
+::::'''Eacus:''' So, I came to terms with reality, graduated early, and followed my parents' advice to start job hunting. My father recommended this position at Council of Elders &mdash; which, incidentally, helped me avoid the Grove tragedy.
+::::'''Eacus:''' Even though I wasn't the best student, I really liked Professor Anaxa. If it weren't for my poor grades, I'd have loved to stay in the Grove and focus on my studies.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I heard Anaxa emphasizes hands-on practice, though.
+::::<!--Custom String Listener: TalkSentence_504060208-->
+::::'''Eacus:''' Oh, there's plenty of practice &mdash; it's just not the kind of practice that translates into any real occupational skills.
+::::<!--Custom String Trigger: TalkSentence_504060209-->
+::::<!--Custom String Listener: TalkSentence_504060209-->
+::::'''Eacus:''' So, I came to terms with reality, graduated early, and followed my parents' advice to start job hunting. My father recommended this position at Council of Elders &mdash; which, incidentally, helped me avoid the Grove tragedy.
+::::'''Eacus:''' Even though I wasn't the best student, I really liked Professor Anaxa. If it weren't for my poor grades, I'd have loved to stay in the Grove and focus on my studies.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Sounds like you're not too keen on staying in this job.
+:::<!--Custom String Listener: TalkSentence_504060212-->
+:::'''Eacus:''' Well... I think about quitting at least a dozen times a day, but it's just that &mdash; thoughts, not actions. Life has to go on, and I need this job.
+:::'''Eacus:''' The pay is great, the benefits are excellent, and the work itself isn't complicated. Most of it involves liaising with various elites &mdash; and honestly, I'm better at it than most of the old-timers here.
+:::'''Eacus:''' What really gets to me is the thought that ten, twenty, or even thirty years down the line, I'll still be doing the exact same thing. And eventually, I'll become one of those stodgy old bureaucrats I can't stand.
+:::'''Eacus:''' Every time I complain about this to my family, they just say, "Look at the world out there &mdash; having a job like yours is already remarkable." They're not wrong. So, I'll stick with it.
+:::{{DIcon|Arrow}} Keep your personal life separate from your work...
+::::<!--Custom String Listener: TalkSentence_504060217-->
+::::'''Eacus:''' Exactly! You get me &mdash; I keep the two separate.
+::::<!--Custom String Trigger: TalkSentence_504060220-->
+::::<!--Custom String Listener: TalkSentence_504060220-->
+::::'''Eacus:''' ...I've given up hoping for changes in my job, but I do wish for more young colleagues around here.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} There must be plenty of people who envy your position.
+::::<!--Custom String Listener: TalkSentence_504060219-->
+::::'''Eacus:''' Probably. People always admire what they don't really understand.
+::::<!--Custom String Trigger: TalkSentence_504060220-->
+::::<!--Custom String Listener: TalkSentence_504060220-->
+::::'''Eacus:''' ...I've given up hoping for changes in my job, but I do wish for more young colleagues around here.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any scandals of the Council of Elders you can share?
+:::<!--Custom String Listener: TalkSentence_504060222-->
+:::'''Eacus:''' Scandals? Hah, I wouldn't know anything about that. But I do have some wildly unreliable gossip. No one knows if it's true or not &mdash; want to hear it?
+:::{{DIcon|Arrow}} Let's skip it. I'd like to stay alive.
+::::<!--Custom String Listener: TalkSentence_504060224-->
+::::'''Eacus:''' Don't worry. No one actually believes it.
+::::<!--Custom String Trigger: TalkSentence_504060227-->
+::::<!--Custom String Listener: TalkSentence_504060227-->
+::::'''Eacus:''' When I first joined, there was a senior senator &mdash; I'll skip his name &mdash; who was quite elderly. The Council assigned a bright, cheerful young person to look after his daily needs.
+::::'''Eacus:''' I thought it'd be a chance to get to know a fellow junior colleague, but my superior told me not to approach them, not to ask anything, and to just mind my own business. Being the obedient type, I did exactly that.
+::::'''Eacus:''' A while later, the senator passed away. Not long after that, they appointed a new member. Here's where it gets weird!
+::::'''Eacus:''' This new member looked exactly like the young caretaker, except their demeanor had completely changed. They weren't cheerful anymore &mdash; just weary and aged beyond their years.
+::::'''Eacus:''' And that's my utterly unreliable bit of gossip. Keep it to yourself, though. Don't go spreading it around.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} All right, spill it &mdash; I'm all ears.
+::::<!--Custom String Listener: TalkSentence_504060226-->
+::::'''Eacus:''' Ah, I knew you'd be interested.
+::::<!--Custom String Trigger: TalkSentence_504060227-->
+::::<!--Custom String Listener: TalkSentence_504060227-->
+::::'''Eacus:''' When I first joined, there was a senior senator &mdash; I'll skip his name &mdash; who was quite elderly. The Council assigned a bright, cheerful young person to look after his daily needs.
+::::'''Eacus:''' I thought it'd be a chance to get to know a fellow junior colleague, but my superior told me not to approach them, not to ask anything, and to just mind my own business. Being the obedient type, I did exactly that.
+::::'''Eacus:''' A while later, the senator passed away. Not long after that, they appointed a new member. Here's where it gets weird!
+::::'''Eacus:''' This new member looked exactly like the young caretaker, except their demeanor had completely changed. They weren't cheerful anymore &mdash; just weary and aged beyond their years.
+::::'''Eacus:''' And that's my utterly unreliable bit of gossip. Keep it to yourself, though. Don't go spreading it around.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Well, I'm heading off, then.
+:::<!--Custom String Listener: TalkSentence_504060233-->
+:::'''Eacus:''' The senior senators love saying, "We stand at the turning point of the Light Calendar." Maybe they're right. Goodbye. Hope we both make it through this turning point.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Well, I'm heading off, then.
+::'''Eacus:''' The senior senators love saying, "We stand at the turning point of the Light Calendar." Maybe they're right. Goodbye. Hope we both make it through this turning point.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Eacus
+|zhs  = 埃阿科
+|zht  = 埃阿科
+|ja   = イアカス
+|ko   = 에아쿠스
+|es   = Éaco
+|fr   = Éaque
+|ru   = Эакус
+|th   = Eacus
+|vi   = Eacus
+|de   = Eacus
+|id   = Eacus
+|pt   = Eacus
+}}
+==Change History==
+{{Change History|TODO}}

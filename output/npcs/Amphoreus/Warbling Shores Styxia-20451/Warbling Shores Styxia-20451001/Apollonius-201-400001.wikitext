@@ -1,0 +1,144 @@
+<%-- [PAGE_INFO]
+PageTitle=#Apollonius#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Dux Helkolithist
+|image           = NPC Apollonius.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Warbling Shores" Styxia
+|relatives       = 
+}}
+'''Apollonius''' is an NPC on [[Amphoreus]], located in [["Warbling Shores" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Warbling Shores" Styxia|npc_201_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504123001: Config/Level/Mission/5041230/Act/Act504123001.json-->
+::'''"Dux Helkolithist" Apollonius:''' {{MC|m=Mr.|f=Miss}} (Trailblazer). Welcome to the Imperator's feast! How do you feel? Are you satisfied?
+::{{DIcon|Arrow}} Not too bad.
+::{{DIcon|Arrow}} Still not lavish enough!
+:::<!--Custom String Listener: TalkSentence_504123004-->
+:::'''"Dux Helkolithist" Apollonius:''' Haha, it can't be helped. We still need to save some funds for the forces in the coming day. We do have several Titans to deal with, after all.
+:::<!--Custom String Trigger: TalkSentence_504123005-->
+::<!--Custom String Listener: TalkSentence_504123005-->
+::'''"Dux Helkolithist" Apollonius:''' Right, a lot of events at this banquet have been organized by me, advisor of the Flame-Chase Army. I already set up a few projects according to the requests of a few people for the banquet. If you have something you want, you can come find me too.
+::{{DIcon|Arrow}} What new projects have you added?
+::<!--Custom String Listener: TalkSentence_504123007-->
+::'''"Dux Helkolithist" Apollonius:''' Well, to give an example, the wine-stomper is something that Seneca and Labienus requested.
+::'''"Dux Helkolithist" Apollonius:''' To ensure the wine-stomping can proceed smoothly, we also hired a priest of Phagousa. They're all... veteran stompers...
+::{{DIcon|Arrow}} How about you add some trashcans for me.
+:::<!--Custom String Listener: TalkSentence_504123010-->
+:::'''"Dux Helkolithist" Apollonius:''' Trash... cans? I... dear guest, are you worried about hygiene? Don't worry, we have someone specifically here to clean things up!
+::{{DIcon|Arrow}} How about you put in a Dreampool for me.
+:::<!--Custom String Listener: TalkSentence_504123012-->
+:::'''"Dux Helkolithist" Apollonius:''' Dream... pool? I never heard of this. Do you have insomnia, dear guest? Don't worry, the Imperator does not lack for great doctors!
+::{{DIcon|Arrow}} Make me an arcade.
+:::<!--Custom String Listener: TalkSentence_504123014-->
+:::'''"Dux Helkolithist" Apollonius:''' Ar... cade? I never heard of such a thing. However, at Styxia there are places to frolic and play everywhere. Is the banquet unsatisfactory? Are the items planned not interesting enough...
+::<!--Custom String Trigger: TalkSentence_504123015-->
+::<!--Custom String Listener: TalkSentence_504123015-->
+::'''"Dux Helkolithist" Apollonius:''' We thank you for your valuable advice. The banquet is Dux Gladiorum's most favorite thing. Ever since she joined us, banquets have become routine for the Flame-Chasers.
+::'''"Dux Helkolithist" Apollonius:''' I hope you can enjoy this moment as well. As for me, I have a great many preparations that I must take charge of, so I never quite can fully enjoy this celebration. Haha.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504123002: Config/Level/Mission/5041230/Act/Act504123002.json-->
+::'''"Dux Helkolithist" Apollonius:''' Ah, {{MC|m=Mr.|f=Miss}} (Trailblazer), I knew you wouldn't miss such a splendid occasion. If you need any help during the banquet, don't hesitate to let me know!
+::<!--Custom String Trigger: Wait_Option_504123002_36-->
+::<!--Custom String Listener: Wait_Option_504123002_36-->
+::{{DIcon|Talk}} Dux Helkolithist, let's have a chat.
+:::<!--Custom String Listener: TalkSentence_504123103-->
+:::'''"Dux Helkolithist" Apollonius:''' Since you're in the mood for conversation, I certainly wouldn't want to spoil it. What do you want to talk about?
+:::{{DIcon|Arrow}} Let's talk about your past.
+::::<!--Custom String Listener: TalkSentence_504123105-->
+::::'''"Dux Helkolithist" Apollonius:''' You're curious about my past? Hah, I fear you'll be disappointed &mdash; there are no tales of intrigue to share
+::::'''"Dux Helkolithist" Apollonius:''' In my youth, I joined the Grove, immersed in studies beneath its all-shrouding sky dome.
+::::'''"Dux Helkolithist" Apollonius:''' Rising from student to mentor, then professor, and finally sage... it all unfolded as if destined.
+::::'''"Dux Helkolithist" Apollonius:''' Only when the Imperator raised the Flame-Chase banner did I see beyond the sky dome to a sky swallowed by calamity.
+::::'''"Dux Helkolithist" Apollonius:''' Yet under the Titans' protection, most Sages of the Grove remained willfully blind, shackled by self-indulgent "knowledge"...
+::::'''"Dux Helkolithist" Apollonius:''' When persuasion failed, I left the Grove. As Imperator's advisor, I marshaled armies to shoulder this world's burdens.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Let's talk about your future.
+::::<!--Custom String Listener: TalkSentence_504123112-->
+::::'''"Dux Helkolithist" Apollonius:''' The future? I'll do my duty, awaiting Amphoreus's rebirth. Nothing more.
+::::'''"Dux Helkolithist" Apollonius:''' The sea of stars fascinated the Imperator, but holds no allure for me. My sole concern is Amphoreus's fate.
+::::'''"Dux Helkolithist" Apollonius:''' Perhaps when they sail triumphantly toward the cosmos... I'll return to the Grove, a common sage lost in books... and occasional exercise.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Done chatting for now.
+::::<!--Custom String Listener: TalkSentence_504123116-->
+::::'''"Dux Helkolithist" Apollonius:''' Alright. I won't bother you anymore, great one. Another time!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} You haven't had anything on your mind lately, have you?
+:::<!--Custom String Listener: TalkSentence_504123120-->
+:::'''"Dux Helkolithist" Apollonius:''' Something on my mind? If I had to say something... Getting heckled by everyone when I'm walking beside Verginia is kind of an annoyance.
+:::'''"Dux Helkolithist" Apollonius:''' I don't really care, but Verginia's shy. She can't help but hide behind me when this happens.
+:::'''"Dux Helkolithist" Apollonius:''' However... and maybe it's an old problem from me being a sage and an advisor... I keep thinking a thought about... well, what if the Flame-Chase Journey truly can be as perfect as imagined?
+:::{{DIcon|Arrow}} Bro, don't be like that...
+:::{{DIcon|Arrow}} Destroy it, it's gonna reset...
+:::<!--Custom String Listener: TalkSentence_504123125-->
+:::'''"Dux Helkolithist" Apollonius:''' Hah, why the tension, dear guest? As a sage of the Flame-Chase, such worries are only natural.
+:::'''"Dux Helkolithist" Apollonius:''' However, there is something that truly troubles the heart that I wish to share with you. Ever since Verginia confessed to me, I feel that the attention I give her is gradually overwhelming everything else...
+:::'''"Dux Helkolithist" Apollonius:''' To be honest, this makes me a bit fearful. For the advisor of the Flame-Chase Army, this is not a good sign.
+:::'''"Dux Helkolithist" Apollonius:''' When we sail again, I'll strive to focus. But until then, let us savor this splendid banquet...
+:::'''"Dux Helkolithist" Apollonius:''' Maybe it will be okay if I slightly indulge myself a little...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Another time!
+:::<!--Custom String Listener: TalkSentence_504123118-->
+:::'''"Dux Helkolithist" Apollonius:''' Alright. I won't bother you anymore, great one. Another time!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Apollonius
+|zhs  = 阿波罗尼
+|zht  = 阿波羅尼
+|ja   = アポロニウス
+|ko   = 아폴로니우스
+|es   = Apolonio
+|fr   = Apollonius
+|ru   = Аполлоний
+|th   = Apollonius
+|vi   = Apollonius
+|de   = Apollonius
+|id   = Apollonius
+|pt   = Apollonius
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,1013 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gunn#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Geopolitics Dept. Founder
+|image           = NPC Gunn.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Gunn''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_9_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 300052201,
+		"Type": "submission_state_equal",
+		"Param1": 300052201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052201: Config/Level/Mission/3000522/Act/Act300052201.json-->
+:<!--Custom String Trigger: TalkSentence_300052302-->
+:<!--Custom String Listener: TalkSentence_300052302-->
+:'''Gunn:''' Yes, you are right. Some things are better left to a youngster like you.
+:'''Gunn:''' You see, I'd like you to be a teacher for an android. Teach her about life and how to handle her relationship with others.
+:<!--Custom String Trigger: Wait_Option_300052201_10-->
+:<!--Custom String Listener: Wait_Option_300052201_10-->
+:{{DIcon|Arrow}} You're more learned about these. Why not teach her yourself?
+::<!--Custom String Listener: TalkSentence_300052305-->
+::'''Gunn:''' I did, but the result was not ideal. Although Prototype 157 I made earlier had independent thinking capability to a certain degree, I couldn't answer her questions about our world.
+::'''Gunn:''' I can teach her theories, but the world is ever-changing. There are things that only you young people can keep up with.
+:{{DIcon|Arrow}} The space station is teeming with young people.
+::<!--Custom String Listener: TalkSentence_300052308-->
+::'''Gunn:''' Not everyone is willing to deal with an android. Besides... They are only willing to teach her things related to scientific research. When it comes to teaching her facts of life, you are a better candidate than them.
+:<!--Custom String Trigger: TalkSentence_300052309-->
+:<!--Custom String Listener: TalkSentence_300052309-->
+:'''Gunn:''' I've heard of your deeds in the space station. In my opinion, you're among the best of us.
+:'''Gunn:''' And I just made Prototype 159... Although I have limited her capacity to think independently, she learns better and faster than most.
+:'''Gunn:''' Without a "decent person" to show her the way and shape her personality to be in line with human moral standards, I dare not let her delve into advanced theories... If she develops any deviant thoughts, the consequences could be unimaginable.
+:<!--Custom String Trigger: Wait_Option_300052201_20-->
+:<!--Custom String Listener: Wait_Option_300052201_20-->
+:{{DIcon|Arrow}} Aren't you worried I might lead her astray?
+::<!--Custom String Listener: TalkSentence_300052313-->
+::'''Gunn:''' No, I have confidence in you. Besides, I am just asking you to show her what our daily life is like. Things like entertainment and hobbies. I don't think there will be any big problems.
+:{{DIcon|Arrow}} I don't know what I can teach her...
+::<!--Custom String Listener: TalkSentence_300052315-->
+::'''Gunn:''' Simple. Tell her about the foods and drinks you like, or what you do when you have spare time. She'll turn these into her own knowledge.
+:<!--Custom String Trigger: TalkSentence_300052316-->
+:<!--Custom String Listener: TalkSentence_300052316-->
+:'''Gunn:''' Tell her what kind of person she should be, things to do for fun, what we do every day... Tell her all you know and she'll pick them up one by one.
+:'''Gunn:''' As for the specifics about the teaching plan, it's totally up to you.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052201-->
+<pre>
+[
+	{
+		"ID": 300052203,
+		"Type": "submission_state_equal",
+		"Param1": 300052203,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052203: Config/Level/Mission/3000522/Act/Act300052203.json-->
+:<!--Custom String Trigger: TalkSentence_300053002-->
+:<!--Custom String Listener: TalkSentence_300053002-->
+:'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+:'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+:'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052203-->
+<pre>
+[
+	{
+		"ID": 300052301,
+		"Type": "submission_state_equal",
+		"Param1": 300052301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052301: Config/Level/Mission/3000523/Act/Act300052301.json-->
+:<!--Custom String Trigger: TalkSentence_300052402-->
+:<!--Custom String Listener: TalkSentence_300052402-->
+:'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+:'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+:'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+:'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052301-->
+<pre>
+[
+	{
+		"ID": 300052303,
+		"Type": "submission_state_equal",
+		"Param1": 300052303,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052303: Config/Level/Mission/3000523/Act/Act300052303.json-->
+:<!--Custom String Trigger: TalkSentence_300053002-->
+:<!--Custom String Listener: TalkSentence_300053002-->
+:'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+:'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+:'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052303-->
+<pre>
+[
+	{
+		"ID": 300052401,
+		"Type": "submission_state_equal",
+		"Param1": 300052401,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052401: Config/Level/Mission/3000524/Act/Act300052401.json-->
+:<!--Custom String Trigger: TalkSentence_300052402-->
+:<!--Custom String Listener: TalkSentence_300052402-->
+:'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+:'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+:'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+:'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052401-->
+<pre>
+[
+	{
+		"ID": 300052403,
+		"Type": "submission_state_equal",
+		"Param1": 300052403,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052403: Config/Level/Mission/3000524/Act/Act300052403.json-->
+:<!--Custom String Trigger: TalkSentence_300053002-->
+:<!--Custom String Listener: TalkSentence_300053002-->
+:'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+:'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+:'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052403-->
+<pre>
+[
+	{
+		"ID": 300052501,
+		"Type": "submission_state_equal",
+		"Param1": 300052501,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052501: Config/Level/Mission/3000525/Act/Act300052501.json-->
+:<!--Custom String Trigger: TalkSentence_300052402-->
+:<!--Custom String Listener: TalkSentence_300052402-->
+:'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+:'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+:'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+:'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052501-->
+<pre>
+[
+	{
+		"ID": 300052503,
+		"Type": "submission_state_equal",
+		"Param1": 300052503,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052503: Config/Level/Mission/3000525/Act/Act300052503.json-->
+:<!--Custom String Trigger: TalkSentence_300053002-->
+:<!--Custom String Listener: TalkSentence_300053002-->
+:'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+:'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+:'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052503-->
+<pre>
+[
+	{
+		"ID": 300052601,
+		"Type": "submission_state_equal",
+		"Param1": 300052601,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052601: Config/Level/Mission/3000526/Act/Act300052601.json-->
+:<!--Custom String Trigger: TalkSentence_300052402-->
+:<!--Custom String Listener: TalkSentence_300052402-->
+:'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+:'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+:'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+:'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052601-->
+<pre>
+[
+	{
+		"ID": 300052603,
+		"Type": "submission_state_equal",
+		"Param1": 300052603,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052603: Config/Level/Mission/3000526/Act/Act300052603.json-->
+:<!--Custom String Trigger: TalkSentence_300053002-->
+:<!--Custom String Listener: TalkSentence_300053002-->
+:'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+:'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+:'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052603-->
+<pre>
+[
+	{
+		"ID": 300052701,
+		"Type": "submission_state_equal",
+		"Param1": 300052701,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052701: Config/Level/Mission/3000527/Act/Act300052701.json-->
+:<!--Custom String Trigger: TalkSentence_300052402-->
+:<!--Custom String Listener: TalkSentence_300052402-->
+:'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+:'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+:'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+:'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052701-->
+<pre>
+[
+	{
+		"ID": 300052703,
+		"Type": "submission_state_equal",
+		"Param1": 300052703,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052703: Config/Level/Mission/3000527/Act/Act300052703.json-->
+:<!--Custom String Trigger: TalkSentence_300053002-->
+:<!--Custom String Listener: TalkSentence_300053002-->
+:'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+:'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+:'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052703-->
+:<!--Custom String Trigger: Wait_Option_500204300_38-->
+:<!--Custom String Listener: Wait_Option_500204300_38-->
+:{{DIcon|Talk}} Is Sheila doing well?
+::<!--Custom String Listener: TalkSentence_500204304-->
+::'''Gunn:''' It depends on how you define "well."
+::'''Gunn:''' She doesn't remember what happened before and doesn't have anything to worry about, so I'd say she is "doing well."
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I think I saw Sheila again.
+::<!--Custom String Listener: TalkSentence_500204307-->
+::'''Gunn:''' Yes. She's a guide in the Department of Galactic Geopolitics, and the Department can't function without her.
+::'''Gunn:''' But you probably also know she is no longer Prototype 157.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What are your plans?
+::<!--Custom String Listener: TalkSentence_500204310-->
+::'''Gunn:''' I'm getting old, and I don't have much that I want anymore. A peaceful life is good enough.
+::'''Gunn:''' I might train some students if I have the time. I heard... that some young researchers are apparently very interested in working on androids.
+::'''Gunn:''' Given an opportunity, I would like to teach them a thing or two... Ahh, after all, everyone has regrets.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500204315-->
+::'''Gunn:''' Good. Do come back more often to chat with me, child.
+::<!--Ends the current performance-->
+:'''Gunn:''' It's you, young one. How can I help you?
+:<!--Ends the current performance-->
+:'''Gunn:''' Good. Do come back more often to chat with me, child.
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 90000023: Config/Level/NPC/W0/NPC_DefaultStory_500000404.json-->
+:'''Gunn:''' It's you, young one. How can I help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003302-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002905: Config/Level/Mission/4050029/Act/Act405002905.json-->
+::'''Gunn:''' Oh, never imagined that this agreement would actually be activated one day. After all, we at the Department of Galactic Geopolitics do not have many resources to offer.
+::'''Gunn:''' Alright, everything that involves my authority in the approval process has been passed. There will be a person to take care of the handover of resources later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003302-->
+;(If {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} I heard you have something to tell me...
+::<!--Trigger PerformanceE 300052201: Config/Level/Mission/3000522/Act/Act300052201.json-->
+::<!--Custom String Trigger: TalkSentence_300052302-->
+::<!--Custom String Listener: TalkSentence_300052302-->
+::'''Gunn:''' Yes, you are right. Some things are better left to a youngster like you.
+::'''Gunn:''' You see, I'd like you to be a teacher for an android. Teach her about life and how to handle her relationship with others.
+::<!--Custom String Trigger: Wait_Option_300052201_10-->
+::<!--Custom String Listener: Wait_Option_300052201_10-->
+::{{DIcon|Arrow}} You're more learned about these. Why not teach her yourself?
+:::<!--Custom String Listener: TalkSentence_300052305-->
+:::'''Gunn:''' I did, but the result was not ideal. Although Prototype 157 I made earlier had independent thinking capability to a certain degree, I couldn't answer her questions about our world.
+:::'''Gunn:''' I can teach her theories, but the world is ever-changing. There are things that only you young people can keep up with.
+::{{DIcon|Arrow}} The space station is teeming with young people.
+:::<!--Custom String Listener: TalkSentence_300052308-->
+:::'''Gunn:''' Not everyone is willing to deal with an android. Besides... They are only willing to teach her things related to scientific research. When it comes to teaching her facts of life, you are a better candidate than them.
+::<!--Custom String Trigger: TalkSentence_300052309-->
+::<!--Custom String Listener: TalkSentence_300052309-->
+::'''Gunn:''' I've heard of your deeds in the space station. In my opinion, you're among the best of us.
+::'''Gunn:''' And I just made Prototype 159... Although I have limited her capacity to think independently, she learns better and faster than most.
+::'''Gunn:''' Without a "decent person" to show her the way and shape her personality to be in line with human moral standards, I dare not let her delve into advanced theories... If she develops any deviant thoughts, the consequences could be unimaginable.
+::<!--Custom String Trigger: Wait_Option_300052201_20-->
+::<!--Custom String Listener: Wait_Option_300052201_20-->
+::{{DIcon|Arrow}} Aren't you worried I might lead her astray?
+:::<!--Custom String Listener: TalkSentence_300052313-->
+:::'''Gunn:''' No, I have confidence in you. Besides, I am just asking you to show her what our daily life is like. Things like entertainment and hobbies. I don't think there will be any big problems.
+::{{DIcon|Arrow}} I don't know what I can teach her...
+:::<!--Custom String Listener: TalkSentence_300052315-->
+:::'''Gunn:''' Simple. Tell her about the foods and drinks you like, or what you do when you have spare time. She'll turn these into her own knowledge.
+::<!--Custom String Trigger: TalkSentence_300052316-->
+::<!--Custom String Listener: TalkSentence_300052316-->
+::'''Gunn:''' Tell her what kind of person she should be, things to do for fun, what we do every day... Tell her all you know and she'll pick them up one by one.
+::'''Gunn:''' As for the specifics about the teaching plan, it's totally up to you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052201-->
+;(If {{cx}}<!--SubMission Started: 300052203--> and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} (Reporting the results of Sheila's studies.)
+::<!--Trigger PerformanceE 300052203: Config/Level/Mission/3000522/Act/Act300052203.json-->
+::<!--Custom String Trigger: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052203-->
+;(If {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} Do you still need me to teach Sheila today?
+::<!--Trigger PerformanceE 300052301: Config/Level/Mission/3000523/Act/Act300052301.json-->
+::<!--Custom String Trigger: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052301-->
+;(If {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} (Reporting the results of Sheila's studies.)
+::<!--Trigger PerformanceE 300052303: Config/Level/Mission/3000523/Act/Act300052303.json-->
+::<!--Custom String Trigger: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052303-->
+;(If {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} Do you still need me to teach Sheila today?
+::<!--Trigger PerformanceE 300052401: Config/Level/Mission/3000524/Act/Act300052401.json-->
+::<!--Custom String Trigger: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052401-->
+;(If {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} (Reporting the results of Sheila's studies.)
+::<!--Trigger PerformanceE 300052403: Config/Level/Mission/3000524/Act/Act300052403.json-->
+::<!--Custom String Trigger: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052403-->
+;(If {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} Do you still need me to teach Sheila today?
+::<!--Trigger PerformanceE 300052501: Config/Level/Mission/3000525/Act/Act300052501.json-->
+::<!--Custom String Trigger: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052501-->
+;(If {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} (Reporting the results of Sheila's studies.)
+::<!--Trigger PerformanceE 300052503: Config/Level/Mission/3000525/Act/Act300052503.json-->
+::<!--Custom String Trigger: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052503-->
+;(If {{cx}}<!--SubMission Started: 300052601-->, {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} Do you still need me to teach Sheila today?
+::<!--Trigger PerformanceE 300052601: Config/Level/Mission/3000526/Act/Act300052601.json-->
+::<!--Custom String Trigger: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052601-->
+;(If {{cx}}<!--SubMission Started: 300052603-->, {{cx}}<!--SubMission Started: 300052601-->, {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} (Reporting the results of Sheila's studies.)
+::<!--Trigger PerformanceE 300052603: Config/Level/Mission/3000526/Act/Act300052603.json-->
+::<!--Custom String Trigger: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052603-->
+;(If {{cx}}<!--SubMission Started: 300052701-->, {{cx}}<!--SubMission Started: 300052603-->, {{cx}}<!--SubMission Started: 300052601-->, {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} Do you still need me to teach Sheila today?
+::<!--Trigger PerformanceE 300052701: Config/Level/Mission/3000527/Act/Act300052701.json-->
+::<!--Custom String Trigger: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::<!--Custom String Listener: TalkSentence_300052402-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' Judging from Sheila's performance yesterday, I don't think it was good enough. Of course, I appreciate your hard work...
+::'''Gunn:''' But she is an android after all. I don't want to see her go astray and do anything harmful to human beings.
+::'''Gunn:''' I reset her memory from yesterday... Today she is a blank slate. What she will learn today is up to you.
+::'''Gunn:''' Please continue to be her teacher today and tell her a bit more about how to navigate our world.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052701-->
+;(If {{cx}}<!--SubMission Started: 300052703-->, {{cx}}<!--SubMission Started: 300052701-->, {{cx}}<!--SubMission Started: 300052603-->, {{cx}}<!--SubMission Started: 300052601-->, {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|undefined}} (Reporting the results of Sheila's studies.)
+::<!--Trigger PerformanceE 300052703: Config/Level/Mission/3000527/Act/Act300052703.json-->
+::<!--Custom String Trigger: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::<!--Custom String Listener: TalkSentence_300053002-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::'''Gunn:''' ... It's a little different from what I expected. Um... Should I back this up before resetting the data?
+::'''Gunn:''' Alas, I am old and useless now. Look at me, I almost forgot &mdash; thank you for teaching Sheila how to act like a human.
+::'''Gunn:''' You've been working hard all day. Here is a little token of my appreciation. You can take it as a gift from Sheila.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300052703-->
+;(If {{cx}}<!--SubMission Started: 300052703-->, {{cx}}<!--SubMission Started: 300052701-->, {{cx}}<!--SubMission Started: 300052603-->, {{cx}}<!--SubMission Started: 300052601-->, {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon}} I have some questions...
+::<!--Custom String Trigger: Wait_Option_500204300_38-->
+::<!--Custom String Listener: Wait_Option_500204300_38-->
+::{{DIcon|Talk}} Is Sheila doing well?
+:::<!--Custom String Listener: TalkSentence_500204304-->
+:::'''Gunn:''' It depends on how you define "well."
+:::'''Gunn:''' She doesn't remember what happened before and doesn't have anything to worry about, so I'd say she is "doing well."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I think I saw Sheila again.
+:::<!--Custom String Listener: TalkSentence_500204307-->
+:::'''Gunn:''' Yes. She's a guide in the Department of Galactic Geopolitics, and the Department can't function without her.
+:::'''Gunn:''' But you probably also know she is no longer Prototype 157.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are your plans?
+:::<!--Custom String Listener: TalkSentence_500204310-->
+:::'''Gunn:''' I'm getting old, and I don't have much that I want anymore. A peaceful life is good enough.
+:::'''Gunn:''' I might train some students if I have the time. I heard... that some young researchers are apparently very interested in working on androids.
+:::'''Gunn:''' Given an opportunity, I would like to teach them a thing or two... Ahh, after all, everyone has regrets.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500204315-->
+:::'''Gunn:''' Good. Do come back more often to chat with me, child.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300052703-->, {{cx}}<!--SubMission Started: 300052701-->, {{cx}}<!--SubMission Started: 300052603-->, {{cx}}<!--SubMission Started: 300052601-->, {{cx}}<!--SubMission Started: 300052503-->, {{cx}}<!--SubMission Started: 300052501-->, {{cx}}<!--SubMission Started: 300052403-->, {{cx}}<!--SubMission Started: 300052401-->, {{cx}}<!--SubMission Started: 300052303-->, {{cx}}<!--SubMission Started: 300052301-->, {{cx}}<!--SubMission Started: 300052203-->, and {{cx}}<!--SubMission Started: 300052201-->)
+:{{DIcon|Exit}} Thank you. I don't have any other questions.
+::'''Gunn:''' Good. Do come back more often to chat with me, child.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290602)
+:<!--Custom String Listener: TalkSentence_405290602-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Gunn
+|zhs  = 古恩
+|zht  = 古恩
+|ja   = ガン
+|ko   = 건
+|es   = Gunn
+|fr   = Gunn
+|ru   = Ганн
+|th   = Gunn
+|vi   = Gunn
+|de   = Gunn
+|id   = Gunn
+|pt   = Gunn
+}}
+==Change History==
+{{Change History|TODO}}

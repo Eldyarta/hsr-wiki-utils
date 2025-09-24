@@ -1,0 +1,139 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gongyu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Folk Musician
+|image           = NPC Gongyu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Gongyu''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_119_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502068101: Config/Level/NPCDialogue/P10202/NPCAct/Act502068101.json-->
+::'''Gongyu:''' ...Good day. Do you have something for me?
+::{{DIcon|Arrow}} That was an impressive performance.
+:::<!--Custom String Listener: TalkSentence_502068104-->
+:::'''Gongyu:''' It's an honor for a minstrel to be appreciated by her audience.
+::{{DIcon|Arrow}} Could you tell me how I should tip you?
+:::<!--Custom String Listener: TalkSentence_502068106-->
+:::'''Gongyu:''' Oh, I'm just performing for charity, so tips will be unnecessary. Your willingness to stop and listen to my performance is more than enough for me.
+::{{DIcon|Arrow}} Such noise is really a nuisance.
+:::<!--Custom String Listener: TalkSentence_502068108-->
+:::'''Gongyu:''' Oh... is that so...? I'm so sorry about that.
+:::'''Gongyu:''' All the other audience are immersed in my music. I didn't expect it to distract you so much...
+:::'''Gongyu:''' Looks like I still need to hone my performance skills. Please, do come back next time.
+::<!--Custom String Trigger: TalkSentence_502068111-->
+::<!--Custom String Listener: TalkSentence_502068111-->
+::'''Gongyu:''' ...May I ask you a question? Did my performance soothe your mind?
+::{{DIcon|Arrow}} Yes, I've found my inner peace.
+:::<!--Custom String Listener: TalkSentence_502068113-->
+:::'''Gongyu:''' Glad to know that.
+::{{DIcon|Arrow}} No, I'm still feeling anxious.
+:::<!--Custom String Listener: TalkSentence_502068115-->
+:::'''Gongyu:''' ...It seems music is not the remedy for all troubled souls.
+:::'''Gongyu:''' If only my performance could calm you down, even if just a little...
+::<!--Custom String Trigger: TalkSentence_502068117-->
+::<!--Custom String Listener: TalkSentence_502068117-->
+::'''Gongyu:''' I've been thinking about what I should do since the disaster at the Ambrosial Arbor... but I don't know how to maintain order or treat the wounded... All I can do is play my instruments.
+::'''Gongyu:''' A short-life species friend once told me that my music had soothed her soul. So I thought, perhaps I should do whatever I could? In the end, I decided to perform in public, hoping that my performance would also soothe the souls of those in distress.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502068301: Config/Level/NPCDialogue/P10202/NPCAct/Act502068301.json-->
+::'''Gongyu:''' Hello again. I hope my music will soothe your mind.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} Can we have another casual chat?
+::<!--Trigger PerformanceE 502068201: Config/Level/NPCDialogue/P10202/NPCAct/Act502068201.json-->
+::'''Gongyu:''' Of course. What would you like to know?
+::<!--Custom String Trigger: Wait_Option_502068201_39-->
+::<!--Custom String Listener: Wait_Option_502068201_39-->
+::{{DIcon|Talk}} What is this instrument?
+:::<!--Custom String Listener: TalkSentence_502068204-->
+:::'''Gongyu:''' This is an ancient musical instrument called "chimes," which existed even as early as when this Xianzhou ship began its voyage.
+:::'''Gongyu:''' In ancient times, chime sets had towering frames resembling high walls, and playing complex music would require multiple minstrels... But they've been improved over time, and now I can play them alone in Exalting Sanctum.
+:::'''Gongyu:''' Although their appearance has changed dramatically, the principle remains the same. Smaller-sized chimes have a higher pitch, while larger-sized ones have a lower pitch. In addition, when struck in different ways, these chimes can produce different tones...
+:::'''Gongyu:''' Oh, please forgive me for overwhelming you with my own interest. But don't worry about those technical details, because music is meant to be heard, not analyzed.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you been performing all the time?
+:::<!--Custom String Listener: TalkSentence_502068209-->
+:::'''Gongyu:''' No... I've never performed in public in the past... I know I'm not a skilled minstrel, so it takes me a lot of time to pluck up the courage to perform in public.
+:::{{DIcon|Arrow}} Fret not, you are indeed a skilled minstrel.
+::::<!--Custom String Listener: TalkSentence_502068211-->
+::::'''Gongyu:''' Oh, is that so? Thank you so much for your compliment.
+::::<!--Custom String Trigger: TalkSentence_502068214-->
+::::<!--Custom String Listener: TalkSentence_502068214-->
+::::'''Gongyu:''' I've been practicing chimes for about fifty years, and now I'm just starting to get the hang of it.
+::::'''Gongyu:''' Sometimes I can't help but wonder, even for us long-life species, do we really have enough time to achieve our goals in our artistic pursuits?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That's true. Your performance skills still have much room for improvement.
+::::<!--Custom String Listener: TalkSentence_502068213-->
+::::'''Gongyu:''' ...That's what I thought, too. So, if I continue to perform in public like this, I will be able to improve my skills.
+::::<!--Custom String Trigger: TalkSentence_502068214-->
+::::<!--Custom String Listener: TalkSentence_502068214-->
+::::'''Gongyu:''' I've been practicing chimes for about fifty years, and now I'm just starting to get the hang of it.
+::::'''Gongyu:''' Sometimes I can't help but wonder, even for us long-life species, do we really have enough time to achieve our goals in our artistic pursuits?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I won't bother you any further. Keep on playing.
+:::<!--Custom String Listener: TalkSentence_502068217-->
+:::'''Gongyu:''' Take your time, and listen.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502068201-->
+:{{DIcon|Exit}} I won't bother you any further. Keep on playing.
+::'''Gongyu:''' Take your time, and listen.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Gongyu
+|zhs  = 宫羽
+|zht  = 宮羽
+|ja   = 宮羽
+|ko   = 궁우
+|es   = Gongyu
+|fr   = Gongyu
+|ru   = Гунъюй
+|th   = Gongyu
+|vi   = Gongyu
+|de   = Gongyu
+|id   = Gongyu
+|pt   = Gongyu
+}}
+==Change History==
+{{Change History|TODO}}

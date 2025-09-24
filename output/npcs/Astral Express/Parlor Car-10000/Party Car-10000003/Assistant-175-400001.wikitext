@@ -1,0 +1,95 @@
+<%-- [PAGE_INFO]
+PageTitle=#Assistant#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = (Trailblazer)'s Assistant
+|image           = NPC Assistant.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Party Car
+|relatives       = 
+}}
+'''Assistant''' is an NPC on [[Astral Express]], located in [[Party Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Party Car|npc_175_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504048001: Config/Level/Mission/5040480/Act/Act504048001.json-->
+::'''Little Robot:''' Room scan completed! Setting up room details... Authorization confirmed: (Trailblazer).
+::'''Little Robot:''' Ah, perhaps I should have introduced myself? Sorry about that, after everything we've been through, I forgot the formalities.
+::'''Little Robot:''' My designation is XS-9527 from the Herta Space Station, but these days I'm going by "(Trailblazer)'s assistant," much like Miss Himeko does.
+::'''Little Robot:''' You can just refer to me as "assistant" &mdash; and no, it's definitely not because names like "Dumb-Dumb," "Dumb-Dumb123," "Genius," and "Genius123" were all already taken!
+::{{DIcon|Arrow}} Why do you talk so much?
+:::<!--Custom String Listener: TalkSentence_504048006-->
+:::'''Assistant:''' Show some respect! I'm not being talkative &mdash; it's just me having Artificial Intelligence!
+:::'''Assistant:''' After our last field operation, I gathered enough data to upgrade some functions...
+::{{DIcon|Arrow}} You've changed a bit, haven't you?
+:::<!--Custom String Listener: TalkSentence_504048009-->
+:::'''Assistant:''' Thanks to all the training data we've gathered together, I've been able to enhance my functions.
+:::'''Assistant:''' The biggest change I've noticed &mdash; I've started forming my own thoughts. Like now, I don't want to just sweep floors in this dreary mood, I'd rather stay here with you.
+::<!--Custom String Trigger: TalkSentence_504048011-->
+::<!--Custom String Listener: TalkSentence_504048011-->
+::'''Assistant:''' Ah! I almost forgot I need to update you on the new features from this upgrade, tailored just for you by the Express and space station...
+::'''Assistant:''' First up, "Life Assistant" mode. I can tidy your room and manage clutter. If we have the right ingredients, I can cook for you too.
+::'''Assistant:''' Then there's the "Communication Assistant" mode. I've got the space station's directory loaded up, ready to handle incoming messages, save important ones, and facilitate remote connections upon approval.
+::'''Assistant:''' Don't forget "Reading" mode, which includes access to albums and private files at any time.
+::'''Assistant:''' Adler, a researcher from the space station, asked me to pass on a message. He's halted his research on the station's ghost tales and has a manuscript for you &mdash; it's a photocopy, which I've already verified.
+::'''Assistant:''' Besides that, the engineers gave me a singing function... Seriously, whose idea was that?
+::'''Assistant:''' Cough, considering the current state of my voice production module, I'd advise against using this feature unless absolutely necessary.
+::'''Assistant:''' Alright, I need to refresh the data and tweak some settings tailored to your needs. Just give me a shout if you need anything.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504048002: Config/Level/Mission/5040480/Act/Act504048002.json-->
+::'''Assistant:''' Data has been updated to the latest version, welcome back, (Trailblazer)! Is there anything I can help you with?
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Little Robot
+|zhs  = 小机器人
+|zht  = 小機器人
+|ja   = 小さなロボット
+|ko   = 소형 로봇
+|es   = Robot pequeño
+|fr   = Petit robot
+|ru   = Маленький робот
+|th   = หุ่นยนต์จิ๋ว
+|vi   = Robot Nhỏ
+|de   = Kleiner Roboter
+|id   = Robot Kecil
+|pt   = Robozinho
+}}
+==Change History==
+{{Change History|TODO}}

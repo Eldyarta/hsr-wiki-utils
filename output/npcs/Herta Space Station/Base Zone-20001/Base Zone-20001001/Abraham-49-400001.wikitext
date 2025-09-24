@@ -1,0 +1,175 @@
+<%-- [PAGE_INFO]
+PageTitle=#Abraham#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Former Security Staff
+|image           = NPC Abraham.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Abraham''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_49_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500010113_649-->
+:<!--Custom String Listener: Wait_Option_500010113_649-->
+:{{DIcon|Talk}} Why didn't you leave?
+::<!--Custom String Listener: TalkSentence_500011017-->
+::'''Abraham:''' Where can I find absolute safety if I leave? It's a no-brainer.
+::'''Abraham:''' The answer is, no matter where you go, no place is absolutely safe!
+::'''Abraham:''' Besides, I don't think there's any other place in the universe safer than here.
+::'''Abraham:''' Sigh. At the end of the day, I stayed because I don't really have a choice...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How did the invasion affect your life?
+::<!--Custom String Listener: TalkSentence_500011022-->
+::'''Abraham:''' In fact, I haven't had a good sleep for many days.
+::'''Abraham:''' And... I always feel like a crack might suddenly appear next to me. And those monsters will slowly emerge out of the crack...
+::'''Abraham:''' Ahhh, this is really terrible! I don't know how long it will take before I can get this out of my head!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's your take on the recovery construction?
+::<!--Custom String Listener: TalkSentence_500011026-->
+::'''Abraham:''' I remember Lead Researcher Asta has organized the relevant departments to work on the recovery and establishment of safe zones, right?
+::'''Abraham:''' However... Other than looking towards the future, there is still a lot to be done.
+::'''Abraham:''' People who've lost their lives in this disaster... Some of them didn't even have an intact nameplate left behind...
+::'''Abraham:''' Who will remember them? And who is going to mourn them?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500011031-->
+::'''Abraham:''' In short, please be careful. The way things are right now, anything can happen.
+::'''Abraham:''' Sigh. Life is unpredictable. Who knows if this will be the last time we meet?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Abraham:''' We meet again. You are still alive and I am still breathing. How rare is that!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Abraham:''' *sigh* Life is unpredictable. Who knows if this will be the last time we meet?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000093: Config/Level/NPC/W0/NPC_DefaultStory_500001001.json-->
+::<!--Custom String Trigger: TalkSentence_500011002-->
+::<!--Custom String Listener: TalkSentence_500011002-->
+::'''Abraham:''' Better be careful, shouldn't go over there... well... not there either.
+::'''Abraham:''' According to the guide, remnants of the Legion have been spotted in these areas...
+::'''Abraham:''' So the safest way to go...
+::'''Abraham:''' Go all the way around?
+::<!--Custom String Trigger: Wait_Option_500010113_635-->
+::<!--Custom String Listener: Wait_Option_500010113_635-->
+::{{DIcon|Arrow}} Do you need help?
+:::<!--Custom String Listener: TalkSentence_500011007-->
+:::'''Abraham:''' Oh, no, it's fine. I can do it on my own.
+:::'''Abraham:''' I just need to submit some documents. I'll be fine... I just need to walk a bit further.
+:::'''Abraham:''' Don't say I didn't warn you. The station hasn't been cleared of Remnants of the Legion yet, there's still danger lurking around every corner.
+:::'''Abraham:''' For your own safety, you'd better not go to remote places!
+::{{DIcon|Arrow}} You look anxious.
+:::<!--Custom String Listener: TalkSentence_500011012-->
+:::'''Abraham:''' After such a disaster, who can be happy? Am I right?
+:::'''Abraham:''' Whenever I close my eyes, I can feel those twisted enemies appear in front of me...
+:::'''Abraham:''' How can I not be worried? How can I not be scared?
+::<!--Custom String Trigger: Wait_Option_500010113_646-->
+::<!--Custom String Listener: Wait_Option_500010113_646-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000094: Config/Level/NPC/W0/NPC_DefaultStory_500001000.json-->
+::'''Abraham:''' We meet again. You are still alive and I am still breathing. How rare is that!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I've got something to ask you.
+::<!--Custom String Trigger: Wait_Option_500010113_649-->
+::<!--Custom String Listener: Wait_Option_500010113_649-->
+::{{DIcon|Talk}} Why didn't you leave?
+:::<!--Custom String Listener: TalkSentence_500011017-->
+:::'''Abraham:''' Where can I find absolute safety if I leave? It's a no-brainer.
+:::'''Abraham:''' The answer is, no matter where you go, no place is absolutely safe!
+:::'''Abraham:''' Besides, I don't think there's any other place in the universe safer than here.
+:::'''Abraham:''' Sigh. At the end of the day, I stayed because I don't really have a choice...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did the invasion affect your life?
+:::<!--Custom String Listener: TalkSentence_500011022-->
+:::'''Abraham:''' In fact, I haven't had a good sleep for many days.
+:::'''Abraham:''' And... I always feel like a crack might suddenly appear next to me. And those monsters will slowly emerge out of the crack...
+:::'''Abraham:''' Ahhh, this is really terrible! I don't know how long it will take before I can get this out of my head!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your take on the recovery construction?
+:::<!--Custom String Listener: TalkSentence_500011026-->
+:::'''Abraham:''' I remember Lead Researcher Asta has organized the relevant departments to work on the recovery and establishment of safe zones, right?
+:::'''Abraham:''' However... Other than looking towards the future, there is still a lot to be done.
+:::'''Abraham:''' People who've lost their lives in this disaster... Some of them didn't even have an intact nameplate left behind...
+:::'''Abraham:''' Who will remember them? And who is going to mourn them?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500011031-->
+:::'''Abraham:''' In short, please be careful. The way things are right now, anything can happen.
+:::'''Abraham:''' Sigh. Life is unpredictable. Who knows if this will be the last time we meet?
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Abraham:''' *sigh* Life is unpredictable. Who knows if this will be the last time we meet?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Abraham
+|zhs  = 亚伯拉罕
+|zht  = 亞伯拉罕
+|ja   = エイブラハム
+|ko   = 아브라함
+|es   = Abraham
+|fr   = Abraham
+|ru   = Авраам
+|th   = Abraham
+|vi   = Abraham
+|de   = Abraham
+|id   = Abraham
+|pt   = Abraham
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,136 @@
+<%-- [PAGE_INFO]
+PageTitle=#Patrolling Silvermane Guard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Patrolling Silvermane Guard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Pillars of Creation
+|relatives       = 
+}}
+'''Patrolling Silvermane Guard''' is an NPC on [[Jarilo-VI]], located in [[Pillars of Creation]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Pillars of Creation|npc_3_400010}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 414011203: Config/Level/Mission/4140112/Act/Act414011203.json-->
+::'''Patrolling Silvermane Guard:''' There are more outsiders day by day.
+::'''Patrolling Silvermane Guard:''' ...Should we call them "aliens"?
+::'''Patrolling Silvermane Guard:''' Ah, it's you, (Trailblazer).
+::{{DIcon|Arrow}} How have things been lately?
+:::<!--Custom String Listener: TalkSentence_414011208-->
+:::'''Patrolling Silvermane Guard:''' Much better. Though not everything is going smoothly, things are slowly taking a turn for the better.
+:::'''Patrolling Silvermane Guard:''' The only trouble is those IPC guys. Ever since the Eternal Freeze let up, there have been more and more of those people in black around here. Some of them have simply settled in and not left!
+::{{DIcon|Arrow}} By alien, do you mean me?
+:::<!--Custom String Listener: TalkSentence_414011211-->
+:::'''Patrolling Silvermane Guard:''' Oh no! You're a friend of the Supreme Guardian and savior of Belobog, how could I treat you as an outsider?
+:::'''Patrolling Silvermane Guard:''' It's those IPC guys. Ever since the Eternal Freeze let up, there have been more and more of those people in black around here. Some of them have simply settled in and not left!
+::<!--Custom String Trigger: TalkSentence_414011213-->
+::<!--Custom String Listener: TalkSentence_414011213-->
+::'''Patrolling Silvermane Guard:''' The Supreme Guardian said it was no reason to panic, but they were planning to take our whole planet! I still don't quite trust them...
+::{{DIcon|Arrow}} If it bothers you, then fight them again!
+:::<!--Custom String Listener: TalkSentence_414011215-->
+:::'''Patrolling Silvermane Guard:''' Haha, quite right! The people of Belobog do not fear battle!
+:::'''Patrolling Silvermane Guard:''' Last time we got them on the ropes, let's see who gets the last laugh this time!
+::{{DIcon|Arrow}} Belobog needs their technology.
+:::<!--Custom String Listener: TalkSentence_414011218-->
+:::'''Patrolling Silvermane Guard:''' You're right, but that's no excuse for them to do what they want.
+:::'''Patrolling Silvermane Guard:''' I'll keep a close eye on their movements. If I find out they're still up to no good, I'll send them packing!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 414011204: Config/Level/Mission/4140112/Act/Act414011204.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414011230,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 501184011,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 501184012
+				}
+			]
+		}
+	]
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Silvermane Soldier
+|zhs  = 银鬃近卫
+|zht  = 銀鬃近衛
+|ja   = シルバーメイン・近衛
+|ko   = 실버메인 근위병
+|es   = Soldado Crinargenta
+|fr   = Soldat de la crinière d'argent
+|ru   = Солдат Среброгривых Стражей
+|th   = Silvermane Soldier
+|vi   = Cận Vệ Bờm Bạc
+|de   = Silbermähnen-Soldat
+|id   = Silvermane Soldier
+|pt   = Soldado Crinalva
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,99 @@
+<%-- [PAGE_INFO]
+PageTitle=#Piso#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Child of Hunter
+|image           = NPC Piso.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Piso''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_173_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504108001: Config/Level/Mission/5041080/Act/Act504108001.json-->
+:'''Piso:''' ...Where should I hide... Ah! What the... You scared me!
+:<!--Custom String Trigger: Wait_Option_504108001_8-->
+:<!--Custom String Listener: Wait_Option_504108001_8-->
+:{{DIcon|Talk}} What sneaky thing are you up to?
+::<!--Custom String Listener: TalkSentence_504108003-->
+::'''Piso:''' N&mdash;Nothing! I&mdash;I was just scoping out the next competition spot! Just so you know, I'm the hide-and-seek champion of this village! Pretty awesome, huh?
+::{{DIcon|Arrow}} So that's how it is.
+:::<!--Custom String Listener: TalkSentence_504108005-->
+:::'''Piso:''' Y&mdash;Yeah, that's right! Not bragging here!
+:::<!--Custom String Trigger: TalkSentence_504108008-->
+:::<!--Custom String Listener: TalkSentence_504108008-->
+:::'''Piso:''' So... did you need something? Can't you see I'm busy?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} (Stare at him without saying anything)
+:::<!--Custom String Listener: TalkSentence_504108007-->
+:::'''Piso:''' ...Wh&mdash;Why are you being so scary!? Fine, I'll come clean. My dad's gonna whup me at the moment, so I came out for a shelter. That's it. Happy now?
+:::<!--Custom String Trigger: TalkSentence_504108008-->
+:::<!--Custom String Listener: TalkSentence_504108008-->
+:::'''Piso:''' So... did you need something? Can't you see I'm busy?
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can you tell me about Phainon?
+::<!--Custom String Listener: TalkSentence_504108010-->
+::'''Piso:''' Huh? You two are glued together most days, and now you're asking me? Heh! Knew it &mdash; no one in this village is tighter with Mr. Phainon than me!
+::'''Piso:''' Let me tell you a secret: Mr. Phainon's destined to be a great hero! This is from the oracle cards. It's the will of {{Rubi|Oronyx|the Time Titan}}!
+::'''Piso:''' Once I'm grown and master swordplay and archery, I'm heading out to find Mr. Phainon. I wanna be a little hero, too!
+::'''Piso:''' Ahem, well, maybe if Livia begs me to bring her along, I might consider it...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} You can do it. Good luck.
+::<!--Custom String Listener: TalkSentence_504108015-->
+::'''Piso:''' Thanks! I'll take all the luck I can get! No way dad's finding me this time!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Piso
+|zhs  = 披索
+|zht  = 披索
+|ja   = ペソ
+|ko   = 피소
+|es   = Piso
+|fr   = Piso
+|ru   = Писо
+|th   = Piso
+|vi   = Piso
+|de   = Piso
+|id   = Piso
+|pt   = Piso
+}}
+==Change History==
+{{Change History|TODO}}

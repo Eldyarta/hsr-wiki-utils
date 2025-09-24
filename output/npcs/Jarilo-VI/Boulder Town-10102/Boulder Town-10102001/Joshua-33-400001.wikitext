@@ -1,0 +1,369 @@
+<%-- [PAGE_INFO]
+PageTitle=#Joshua#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Wildfire Member
+|image           = NPC Joshua.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Joshua''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_33_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_5010285_24-->
+:<!--Custom String Listener: Wait_Option_5010285_24-->
+:{{DIcon|Talk}} You're a pickpocket, aren't you?
+::<!--Custom String Listener: TalkSentence_501028513-->
+::'''Joshua:''' No &mdash; no way! I&mdash;If I were a pickpocket, Chief Oleg wouldn't let me into Wildfire...
+::<!--Custom String Trigger: Wait_Option_5010285_27-->
+::<!--Custom String Listener: Wait_Option_5010285_27-->
+::{{DIcon|Arrow}} Oleg?
+:::<!--Custom String Listener: TalkSentence_501028515-->
+:::'''Joshua:''' Y&mdash;You don't know the chief?
+:::<!--Custom String Trigger: TalkSentence_501028519-->
+:::<!--Custom String Listener: TalkSentence_501028519-->
+:::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Wildfire?
+:::<!--Custom String Listener: TalkSentence_501028517-->
+:::'''Joshua:''' Y&mdash;You don't know what Wildfire is...? You must be kidding...
+:::<!--Custom String Trigger: TalkSentence_501028519-->
+:::<!--Custom String Listener: TalkSentence_501028519-->
+:::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Who are you?
+:::<!--Custom String Listener: TalkSentence_501028519-->
+:::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you want to talk to me about?
+::<!--Custom String Listener: TalkSentence_501028522-->
+::'''Joshua:''' I heard that you are from the o&mdash;outside... Is that true?
+::'''Joshua:''' Don't worry! I&mdash;I won't tell anyone. I'm from Wildfire.
+::'''Joshua:''' I&mdash;If you don't want to tell me, it's okay. I was just c&mdash;curious...
+::<!--Custom String Trigger: Wait_Option_5010285_40-->
+::<!--Custom String Listener: Wait_Option_5010285_40-->
+::{{DIcon|Arrow}} Yes, we're from another world.
+:::<!--Custom String Listener: TalkSentence_501028526-->
+:::'''Joshua:''' Huh...? A&mdash;Another world?
+:::'''Joshua:''' You're kidding me... well actually... you seem p&mdash;pretty serious...
+:::<!--Custom String Trigger: TalkSentence_501028531-->
+:::<!--Custom String Listener: TalkSentence_501028531-->
+:::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Why do you want to know about this?
+:::<!--Custom String Listener: TalkSentence_501028529-->
+:::'''Joshua:''' N&mdash;Nothing! It's just that I've never met an outsider...
+:::'''Joshua:''' M&mdash;Most undergrounders have never seen anyone from the outside, not in their entire lives. S&mdash;So it's quite normal for me to find you strange...
+:::<!--Custom String Trigger: TalkSentence_501028531-->
+:::<!--Custom String Listener: TalkSentence_501028531-->
+:::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Okay.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100005406,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Joshua:''' Oh, i&mdash;it's you folks. It's all thanks to y&mdash;you that we can f&mdash;finally return to the surface.
+:'''Joshua:''' This is what the W&mdash;Wildfire wanted m&mdash;most. B&mdash;But, plenty of troubles h&mdash;have risen...
+:{{DIcon|Arrow}} What troubles?
+:{{DIcon|Arrow}} Do I have to run errands again...?
+::<!--Custom String Listener: TalkSentence_501028542-->
+::'''Joshua:''' O&mdash;Of course not! Y&mdash;You have already done so much for us. This is an in&mdash;internal affair. We will d&mdash;deal with it ourselves.
+::<!--Custom String Trigger: TalkSentence_501028541-->
+:<!--Custom String Listener: TalkSentence_501028541-->
+:'''Joshua:''' A&mdash;After all, we have been in charge of the Underworld for years...
+:'''Joshua:''' Some of our m&mdash;members have always had a problem with the Supreme Guardian. Now, they've found a better excuse to n&mdash;not to listen to her.
+:'''Joshua:''' Still, everything is alright... Together with O&mdash;Oleg, I'll try to c&mdash;convince them.
+:<!--Ends the current performance-->
+:'''Joshua:''' Huh? What are you looking at me for?
+:'''Joshua:''' Sorry, I &mdash; I didn't mean to bother you. I'll leave you alone...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Joshua:''' T&mdash;Take care. Phew...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028501: Config/Level/Mission/5010285/Act/Act501028501.json-->
+::<!--Custom String Trigger: TalkSentence_501028501-->
+::<!--Custom String Listener: TalkSentence_501028501-->
+::'''Joshua:''' ...
+::<!--Custom String Trigger: Wait_Option_5010285_8-->
+::<!--Custom String Listener: Wait_Option_5010285_8-->
+::{{DIcon|Arrow}} Do I have something on my face?
+:::<!--Custom String Listener: TalkSentence_501028503-->
+:::'''Joshua:''' Huh...? No, no. It's just that... there is something I want to ask you!
+::{{DIcon|Arrow}} (Ignore him)
+:::<!--Custom String Listener: TalkSentence_501028505-->
+:::'''Joshua:''' Hey... can I talk to you for a second?
+::<!--Custom String Trigger: Wait_Option_5010285_14-->
+::<!--Custom String Listener: Wait_Option_5010285_14-->
+::{{DIcon|Arrow}} You look like you have your guard up.
+:::<!--Custom String Listener: TalkSentence_501028507-->
+:::'''Joshua:''' ...No, not at all. I'm just... just... a little curious.
+::{{DIcon|Arrow}} What is it?
+:::<!--Custom String Listener: TalkSentence_501028509-->
+:::'''Joshua:''' Well... um...
+::<!--Custom String Trigger: TalkSentence_501028510-->
+::<!--Custom String Listener: TalkSentence_501028510-->
+::'''Joshua:''' Never mind, nothing really... Sorry about that.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000049: Config/Level/NPC/W1/NPC_DefaultStory_1000054.json-->
+::'''Joshua:''' Huh? What are you looking at me for?
+::'''Joshua:''' Sorry, I &mdash; I didn't mean to bother you. I'll leave you alone...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} What's really going on?
+::<!--Custom String Trigger: Wait_Option_5010285_24-->
+::<!--Custom String Listener: Wait_Option_5010285_24-->
+::{{DIcon|Talk}} You're a pickpocket, aren't you?
+:::<!--Custom String Listener: TalkSentence_501028513-->
+:::'''Joshua:''' No &mdash; no way! I&mdash;If I were a pickpocket, Chief Oleg wouldn't let me into Wildfire...
+:::<!--Custom String Trigger: Wait_Option_5010285_27-->
+:::<!--Custom String Listener: Wait_Option_5010285_27-->
+:::{{DIcon|Arrow}} Oleg?
+::::<!--Custom String Listener: TalkSentence_501028515-->
+::::'''Joshua:''' Y&mdash;You don't know the chief?
+::::<!--Custom String Trigger: TalkSentence_501028519-->
+::::<!--Custom String Listener: TalkSentence_501028519-->
+::::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+::::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wildfire?
+::::<!--Custom String Listener: TalkSentence_501028517-->
+::::'''Joshua:''' Y&mdash;You don't know what Wildfire is...? You must be kidding...
+::::<!--Custom String Trigger: TalkSentence_501028519-->
+::::<!--Custom String Listener: TalkSentence_501028519-->
+::::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+::::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Who are you?
+::::<!--Custom String Listener: TalkSentence_501028519-->
+::::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+::::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you want to talk to me about?
+:::<!--Custom String Listener: TalkSentence_501028522-->
+:::'''Joshua:''' I heard that you are from the o&mdash;outside... Is that true?
+:::'''Joshua:''' Don't worry! I&mdash;I won't tell anyone. I'm from Wildfire.
+:::'''Joshua:''' I&mdash;If you don't want to tell me, it's okay. I was just c&mdash;curious...
+:::<!--Custom String Trigger: Wait_Option_5010285_40-->
+:::<!--Custom String Listener: Wait_Option_5010285_40-->
+:::{{DIcon|Arrow}} Yes, we're from another world.
+::::<!--Custom String Listener: TalkSentence_501028526-->
+::::'''Joshua:''' Huh...? A&mdash;Another world?
+::::'''Joshua:''' You're kidding me... well actually... you seem p&mdash;pretty serious...
+::::<!--Custom String Trigger: TalkSentence_501028531-->
+::::<!--Custom String Listener: TalkSentence_501028531-->
+::::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Why do you want to know about this?
+::::<!--Custom String Listener: TalkSentence_501028529-->
+::::'''Joshua:''' N&mdash;Nothing! It's just that I've never met an outsider...
+::::'''Joshua:''' M&mdash;Most undergrounders have never seen anyone from the outside, not in their entire lives. S&mdash;So it's quite normal for me to find you strange...
+::::<!--Custom String Trigger: TalkSentence_501028531-->
+::::<!--Custom String Listener: TalkSentence_501028531-->
+::::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Joshua:''' Oh, i&mdash;it's you folks. It's all thanks to y&mdash;you that we can f&mdash;finally return to the surface.
+::'''Joshua:''' This is what the W&mdash;Wildfire wanted m&mdash;most. B&mdash;But, plenty of troubles h&mdash;have risen...
+::{{DIcon|Arrow}} What troubles?
+::{{DIcon|Arrow}} Do I have to run errands again...?
+:::<!--Custom String Listener: TalkSentence_501028542-->
+:::'''Joshua:''' O&mdash;Of course not! Y&mdash;You have already done so much for us. This is an in&mdash;internal affair. We will d&mdash;deal with it ourselves.
+:::<!--Custom String Trigger: TalkSentence_501028541-->
+::<!--Custom String Listener: TalkSentence_501028541-->
+::'''Joshua:''' A&mdash;After all, we have been in charge of the Underworld for years...
+::'''Joshua:''' Some of our m&mdash;members have always had a problem with the Supreme Guardian. Now, they've found a better excuse to n&mdash;not to listen to her.
+::'''Joshua:''' Still, everything is alright... Together with O&mdash;Oleg, I'll try to c&mdash;convince them.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Okay, see you.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Joshua:''' T&mdash;Take care. Phew...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010285_21)
+:<!--Custom String Listener: Wait_Option_5010285_21-->
+::{{DIcon|Arrow}} What's really going on?
+::<!--Custom String Listener: Wait_Option_5010285_24-->
+::{{DIcon|Talk}} You're a pickpocket, aren't you?
+:::<!--Custom String Listener: TalkSentence_501028513-->
+:::'''Joshua:''' No &mdash; no way! I&mdash;If I were a pickpocket, Chief Oleg wouldn't let me into Wildfire...
+:::<!--Custom String Trigger: Wait_Option_5010285_27-->
+:::<!--Custom String Listener: Wait_Option_5010285_27-->
+:::{{DIcon|Arrow}} Oleg?
+::::<!--Custom String Listener: TalkSentence_501028515-->
+::::'''Joshua:''' Y&mdash;You don't know the chief?
+::::<!--Custom String Trigger: TalkSentence_501028519-->
+:::{{DIcon|Arrow}} Wildfire?
+::::<!--Custom String Listener: TalkSentence_501028517-->
+::::'''Joshua:''' Y&mdash;You don't know what Wildfire is...? You must be kidding...
+::::<!--Custom String Trigger: TalkSentence_501028519-->
+:::{{DIcon|Arrow}} Who are you?
+:::<!--Custom String Listener: TalkSentence_501028519-->
+:::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+:::<!--Custom String Trigger: Wait_Option_5010285_24-->
+:::<!--Custom String Listener: Wait_Option_5010285_24-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you want to talk to me about?
+::::<!--Custom String Listener: TalkSentence_501028522-->
+::::'''Joshua:''' I heard that you are from the o&mdash;outside... Is that true?
+::::'''Joshua:''' Don't worry! I&mdash;I won't tell anyone. I'm from Wildfire.
+::::'''Joshua:''' I&mdash;If you don't want to tell me, it's okay. I was just c&mdash;curious...
+::::<!--Custom String Trigger: Wait_Option_5010285_40-->
+::::<!--Custom String Listener: Wait_Option_5010285_40-->
+::::{{DIcon|Arrow}} Yes, we're from another world.
+:::::<!--Custom String Listener: TalkSentence_501028526-->
+:::::'''Joshua:''' Huh...? A&mdash;Another world?
+:::::'''Joshua:''' You're kidding me... well actually... you seem p&mdash;pretty serious...
+:::::<!--Custom String Trigger: TalkSentence_501028531-->
+:::::<!--Custom String Listener: TalkSentence_501028531-->
+:::::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Why do you want to know about this?
+:::::<!--Custom String Listener: TalkSentence_501028529-->
+:::::'''Joshua:''' N&mdash;Nothing! It's just that I've never met an outsider...
+:::::'''Joshua:''' M&mdash;Most undergrounders have never seen anyone from the outside, not in their entire lives. S&mdash;So it's quite normal for me to find you strange...
+:::::<!--Custom String Trigger: TalkSentence_501028531-->
+:::::<!--Custom String Listener: TalkSentence_501028531-->
+:::::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What do you want to talk to me about?
+:::<!--Custom String Listener: TalkSentence_501028522-->
+:::'''Joshua:''' I heard that you are from the o&mdash;outside... Is that true?
+:::'''Joshua:''' Don't worry! I&mdash;I won't tell anyone. I'm from Wildfire.
+:::'''Joshua:''' I&mdash;If you don't want to tell me, it's okay. I was just c&mdash;curious...
+:::<!--Custom String Trigger: Wait_Option_5010285_40-->
+:::<!--Custom String Listener: Wait_Option_5010285_40-->
+:::{{DIcon|Arrow}} Yes, we're from another world.
+::::<!--Custom String Listener: TalkSentence_501028526-->
+::::'''Joshua:''' Huh...? A&mdash;Another world?
+::::'''Joshua:''' You're kidding me... well actually... you seem p&mdash;pretty serious...
+:::{{DIcon|Arrow}} Why do you want to know about this?
+::::<!--Custom String Listener: TalkSentence_501028529-->
+::::'''Joshua:''' N&mdash;Nothing! It's just that I've never met an outsider...
+::::'''Joshua:''' M&mdash;Most undergrounders have never seen anyone from the outside, not in their entire lives. S&mdash;So it's quite normal for me to find you strange...
+:::<!--Custom String Trigger: TalkSentence_501028531-->
+:::<!--Custom String Listener: TalkSentence_501028531-->
+:::'''Joshua:''' Th&mdash;That's all I wanted to ask... If it's okay with you, I&mdash;I'm gonna go...
+:::<!--Custom String Trigger: Wait_Option_5010285_24-->
+:::<!--Custom String Listener: Wait_Option_5010285_24-->
+:::{{DIcon|Talk}} You're a pickpocket, aren't you?
+::::<!--Custom String Listener: TalkSentence_501028513-->
+::::'''Joshua:''' No &mdash; no way! I&mdash;If I were a pickpocket, Chief Oleg wouldn't let me into Wildfire...
+::::<!--Custom String Trigger: Wait_Option_5010285_27-->
+::::<!--Custom String Listener: Wait_Option_5010285_27-->
+::::{{DIcon|Arrow}} Oleg?
+:::::<!--Custom String Listener: TalkSentence_501028515-->
+:::::'''Joshua:''' Y&mdash;You don't know the chief?
+:::::<!--Custom String Trigger: TalkSentence_501028519-->
+:::::<!--Custom String Listener: TalkSentence_501028519-->
+:::::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Wildfire?
+:::::<!--Custom String Listener: TalkSentence_501028517-->
+:::::'''Joshua:''' Y&mdash;You don't know what Wildfire is...? You must be kidding...
+:::::<!--Custom String Trigger: TalkSentence_501028519-->
+:::::<!--Custom String Listener: TalkSentence_501028519-->
+:::::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Who are you?
+:::::<!--Custom String Listener: TalkSentence_501028519-->
+:::::'''Joshua:''' I'm... I'm just a regular bureaucrat for Wildfire. I do... admin and accounting.
+:::::'''Joshua:''' Wildfire i&mdash;is a self-organized group for maintaining order in the Underworld... O&mdash;Oleg is the leader of the group.
+::::;(Return to previous option selection (cloneCheckString))
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Joshua
+|zhs  = 约书亚
+|zht  = 約書亞
+|ja   = ジョシュア
+|ko   = 조슈아
+|es   = Joshua
+|fr   = Joshua
+|ru   = Джошуа
+|th   = Joshua
+|vi   = Joshua
+|de   = Joshua
+|id   = Joshua
+|pt   = Joshua
+}}
+==Change History==
+{{Change History|TODO}}

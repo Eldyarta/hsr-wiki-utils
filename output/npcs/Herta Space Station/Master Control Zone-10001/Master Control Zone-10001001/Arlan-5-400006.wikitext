@@ -1,0 +1,137 @@
+<%-- [PAGE_INFO]
+PageTitle=#Arlan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Arlan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Arlan''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_5_400006}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 100030111,
+		"Type": "submission_state_equal",
+		"Param1": 100030111,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030111: Config/Level/Mission/1000301/Act/Act100030111.json-->
+:{{A|VO chapter0 3 arlan 102.ogg}} '''Arlan:''' ...If only I'd caught the Antimatter Legion sooner...
+:<!--Custom String Trigger: TalkSentence_100021163-->
+:<!--Custom String Listener: TalkSentence_100021163-->
+:{{DIcon|Talk}} How're you feeling?
+::<!--Custom String Listener: TalkSentence_100021164-->
+::{{A|VO chapter0 3 arlan 103.ogg}} '''Arlan:''' I'm fine, this pain is nothing, really. I'm used to it. In fact, I should be proud of it. It's a reminder of being able to protect everyone.
+::{{A|VO chapter0 3 arlan 104.ogg}} '''Arlan:''' Ahem, but don't tell Lead Researcher Asta what I just said.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How's the space station?
+::<!--Custom String Listener: TalkSentence_100021169-->
+::{{A|VO chapter0 3 arlan 105.ogg}} '''Arlan:''' There were a few researchers who didn't make it...
+::{{A|VO chapter0 3 arlan 106.ogg}} '''Arlan:''' The rest are fine, mostly minor injuries. But I'm worried about their mental states.
+::{{A|VO chapter0 3 arlan 107.ogg}} '''Arlan:''' Most of them came to the space station because they admired Madam Herta. But now they can't reach her or even their own families. I just hope they can all survive this crisis.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's Asta like?
+::<!--Custom String Listener: TalkSentence_100021173-->
+::{{A|VO chapter0 3 arlan 108.ogg}} '''Arlan:''' My first impression was that she was the daughter of a rich family &mdash; owners of a big company.
+::{{A|VO chapter0 3 arlan 109.ogg}} '''Arlan:''' She was kind to me though. When she went to the space station, I followed her.
+::{{A|VO chapter0 3 arlan 110.ogg}} '''Arlan:''' I don't know much about science, but I'm glad to be able to protect people in pursuit of their research.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Alright, I'll leave you to get some rest.
+::<!--Custom String Listener: TalkSentence_100021187-->
+::{{A|VO chapter0 3 arlan 116.ogg}} '''Arlan:''' I hope all this chaos will end soon.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030111_Talk-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 100030111
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030111: Config/Level/Mission/1000301/Act/Act100030111.json-->
+:{{A|VO chapter0 3 arlan 102.ogg}} '''Arlan:''' ...If only I'd caught the Antimatter Legion sooner...
+:<!--Custom String Trigger: TalkSentence_100021163-->
+:<!--Custom String Listener: TalkSentence_100021163-->
+:{{DIcon|Talk}} How're you feeling?
+::<!--Custom String Listener: TalkSentence_100021164-->
+::{{A|VO chapter0 3 arlan 103.ogg}} '''Arlan:''' I'm fine, this pain is nothing, really. I'm used to it. In fact, I should be proud of it. It's a reminder of being able to protect everyone.
+::{{A|VO chapter0 3 arlan 104.ogg}} '''Arlan:''' Ahem, but don't tell Lead Researcher Asta what I just said.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How's the space station?
+::<!--Custom String Listener: TalkSentence_100021169-->
+::{{A|VO chapter0 3 arlan 105.ogg}} '''Arlan:''' There were a few researchers who didn't make it...
+::{{A|VO chapter0 3 arlan 106.ogg}} '''Arlan:''' The rest are fine, mostly minor injuries. But I'm worried about their mental states.
+::{{A|VO chapter0 3 arlan 107.ogg}} '''Arlan:''' Most of them came to the space station because they admired Madam Herta. But now they can't reach her or even their own families. I just hope they can all survive this crisis.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's Asta like?
+::<!--Custom String Listener: TalkSentence_100021173-->
+::{{A|VO chapter0 3 arlan 108.ogg}} '''Arlan:''' My first impression was that she was the daughter of a rich family &mdash; owners of a big company.
+::{{A|VO chapter0 3 arlan 109.ogg}} '''Arlan:''' She was kind to me though. When she went to the space station, I followed her.
+::{{A|VO chapter0 3 arlan 110.ogg}} '''Arlan:''' I don't know much about science, but I'm glad to be able to protect people in pursuit of their research.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Alright, I'll leave you to get some rest.
+::<!--Custom String Listener: TalkSentence_100021187-->
+::{{A|VO chapter0 3 arlan 116.ogg}} '''Arlan:''' I hope all this chaos will end soon.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030111_Talk-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Arlan
+|zhs  = 阿兰
+|zht  = 阿蘭
+|ja   = アーラン
+|ko   = 아를란
+|es   = Arlan
+|fr   = Arlan
+|ru   = Арлан
+|th   = Arlan
+|vi   = Arlan
+|de   = Arlan
+|id   = Arlan
+|pt   = Arlan
+}}
+==Change History==
+{{Change History|TODO}}

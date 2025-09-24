@@ -1,0 +1,136 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hebe#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Woman Praying for Prophecy
+|image           = NPC Hebe.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Hebe''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_207_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"Phase": "Finish",
+		"ID": 434017411
+	}
+]
+</pre>
+;(If {{cx}}<!--performance 504050005 has not been seen-->)
+::<!--Trigger PerformanceE 504050006: Config/Level/Mission/5040500/Act/Act504050006.json-->
+::'''Hebe:''' H&mdash;Hello, can I help you with something?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Are you up for a chat?
+::'''Hebe:''' I guess so... But I don't believe I know you...
+::<!--Custom String Trigger: Wait_Option_504050007_113-->
+::<!--Custom String Listener: Wait_Option_504050007_113-->
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_504050604-->
+:::'''Hebe:''' I... I came to see the Holy Maiden. I wish for guidance from the Titans.
+:::'''Hebe:''' ...Agh... My father came to this place seeking a prophecy a few months ago. However, he has grown more and more depressed since that day. Now, he spends most of his days locked inside the house.
+:::{{DIcon|Arrow}} What did he ask?
+:::<!--Custom String Listener: TalkSentence_504050607-->
+:::'''Hebe:''' He... He asked the priests when he would die. The answer he received was: "When Aquila closes one of their eyes."
+:::'''(Trailblazer):''' ...?
+:::'''Hebe:''' Indeed, it's extremely vague... But my father is now overcome with anxiety and paranoia. We... My elder sister and my mother are all very worried about him.
+:::'''Hebe:''' So, though I have never made a long journey like this before and my heart was filled with fear, I plucked up the courage to come to the holy land of the Fate Titans and find something that may ease my father's concerns...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} That guy almost scammed you!
+:::<!--Custom String Listener: TalkSentence_504050612-->
+:::'''Hebe:''' But... He is a priest of the Goddesses, the bridge between the mortal and divine worlds... Do you really think that such a holy person would scam me just to steal a necklace...?
+:::{{DIcon|Arrow}} Believe me, he was deceiving you!
+::::<!--Custom String Listener: TalkSentence_504050614-->
+::::'''Hebe:''' But... Does that mean other priests scam as he does?
+::::<!--Custom String Trigger: TalkSentence_504050617-->
+::::<!--Custom String Listener: TalkSentence_504050617-->
+::::'''Hebe:''' "Place enough weight atop the scales of Talanton..." I remember when my father came in search of a prophecy, he offered up half a year's yield from our land...
+::::'''Hebe:''' Ah, sorry, I... I'm not trying to argue with you or interrogate you. I'm very grateful for your kindness!
+::::'''Hebe:''' It's just... Maybe, maybe there has been some kind of misunderstanding...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} He scammed me like this before as well!
+::::<!--Custom String Listener: TalkSentence_504050616-->
+::::'''Hebe:''' But... If that's true, does that not prove that they were not actually scamming anyone?
+::::<!--Custom String Trigger: TalkSentence_504050617-->
+::::<!--Custom String Listener: TalkSentence_504050617-->
+::::'''Hebe:''' "Place enough weight atop the scales of Talanton..." I remember when my father came in search of a prophecy, he offered up half a year's yield from our land...
+::::'''Hebe:''' Ah, sorry, I... I'm not trying to argue with you or interrogate you. I'm very grateful for your kindness!
+::::'''Hebe:''' It's just... Maybe, maybe there has been some kind of misunderstanding...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Well, what do you plan to do from here?
+:::<!--Custom String Listener: TalkSentence_504050621-->
+:::'''Hebe:''' I... I plan to keep searching for someone to interpret my prophecy. That was my whole reason for coming, after all...
+:::{{DIcon|Arrow}} You must be cautious.
+:::{{DIcon|Arrow}} Beware of prophecy scammers.
+:::<!--Custom String Listener: TalkSentence_504050624-->
+:::'''Hebe:''' ...Haha. That turn of phrase seems a little disrespectful but, I can sense your sincerity and kindness... Thank you so much.
+:::'''Hebe:''' When I had just arrived in Janusopolis, I was actually quite confused and uncertain... I used to think that prophecies were a great and selfless love gifted to us by the Titans, and that the sacrifices people make were out of pure piety and respect.
+:::'''Hebe:''' However... Now I have witnessed many times how it is people obtain their prophecies. The priests are all so... clear about needing payment... Some prophecies even end up as auctions.
+:::'''Hebe:''' This is all completely different to what I imagined. I'm so conflicted and confused... I once asked some priests about this, and they replied: "Seeking an audience with the majesty of Talanton will always require a price."
+:::'''Hebe:''' I don't know if this is what you refer to as a "scam"... But, even if it is, to us, who have no power over our fate and are dependent on our prophecies... what difference is there between falsehood and reality...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_504050630-->
+:::'''Hebe:''' Ah, alright... Then may you find what it is you are wishing for!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I can't chat now. Good luck with everything.
+::'''Hebe:''' Ah, alright... Then may you find what it is you are wishing for!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hebe
+|zhs  = 赫柏
+|zht  = 赫柏
+|ja   = ヘルバ
+|ko   = 헤베
+|es   = Hebe
+|fr   = Hébé
+|ru   = Геба
+|th   = Hebe
+|vi   = Hebe
+|de   = Hebe
+|id   = Hebe
+|pt   = Hebe
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,371 @@
+<%-- [PAGE_INFO]
+PageTitle=#Guangjin#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Guangjin.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Guangjin''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_146_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"Phase": "Finish",
+		"ID": 202060301
+	}
+]
+</pre>
+;(If {{cx}}<!--SubMission Started: 202060404-->)
+::<!--Custom String Trigger: Talk_202060404-->
+::<!--Trigger PerformanceE 202060304: Config/Level/Mission/2020603/Act/Act202060304.json-->
+::'''Guangjin:''' (Trailblazer), do you have time to chat now?
+::{{DIcon|Arrow}} Is there anything I can do for you?
+::<!--Custom String Listener: TalkSentence_202066203-->
+::'''Guangjin:''' Do you remember the Warp Trotter we caught last time? After a thorough examination, the Warp Trotter did not exhibit any extraordinary characteristics. It shouldn't have been capable of imitating the cloudhymn magic by itself.
+::'''Guangjin:''' However, based on the cosmic ecology studies that I have read, there is a close relationship between the severity of the Swarm Disaster to the population density of these cosmic bugs. Once reproduction causes a species' density to exceed a certain threshold, a phase transition will occur in the population.
+::'''Guangjin:''' Taking the Swarm as an example - they will intensify their collective hivemind behaviors and migrate more after the phase transition occurs. The level of certain hormones in their bodies will also increase, making them more mutated and frenzied...
+::{{DIcon|Arrow}} Are you saying that the same has happened to the Warp Trotters...
+:::<!--Custom String Listener: TalkSentence_202066207-->
+:::'''Guangjin:''' Certainly not to the same extent, but I've thought of a possibility - What a single Warp Trotter cannot accomplish can probably be done through the joint effort of multiple Warp Trotters.
+::{{DIcon|Arrow}} Just tell me your conclusion. I don't get what you're trying to say.
+:::<!--Custom String Listener: TalkSentence_202066209-->
+:::'''Guangjin:''' M&mdash;My bad. I tend to get carried away when talking about things I'm interested in...
+:::'''Guangjin:''' In short, a group of organisms has the potential to achieve things that an individual creature cannot.
+::<!--Custom String Trigger: TalkSentence_202066211-->
+::<!--Custom String Listener: TalkSentence_202066211-->
+::'''Guangjin:''' We've locked down the suspects to several Warp Trotters. How about we call this a "Herding Operation"?
+::<!--Custom String Trigger: Wait_Option_202060304_79-->
+::<!--Custom String Listener: Wait_Option_202060304_79-->
+::{{DIcon|Talk}} Tell me about this Herding Operation.
+:::<!--Custom String Listener: TalkSentence_202066215-->
+:::'''Guangjin:''' It's very simple. There are multiple Warp Trotters, and we need to catch them all.
+:::'''Guangjin:''' But as you know, these little creatures are timid, so it's pretty challenging to catch them all...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_202066213-->
+:::'''Guangjin:''' Got it. The Realm-Keeping Commission will immediately lock down Cloudford, and commence the Herding Operation.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066218-->
+:::'''Guangjin:''' Got it. This operation needs agile people like you. I'll wait for you.
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 202060405-->)
+::<!--Trigger PerformanceE 202060307: Config/Level/Mission/2020603/Act/Act202060307.json-->
+::'''Guangjin:''' Well, shall we begin?
+::<!--Custom String Trigger: Wait_Option_202060304_79-->
+::<!--Custom String Listener: Wait_Option_202060304_79-->
+::<!--Custom String Listener: Wait_Option_202060304_79-->
+::{{DIcon|Talk}} Tell me about this Herding Operation.
+:::<!--Custom String Listener: TalkSentence_202066215-->
+:::'''Guangjin:''' It's very simple. There are multiple Warp Trotters, and we need to catch them all.
+:::'''Guangjin:''' But as you know, these little creatures are timid, so it's pretty challenging to catch them all...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_202066213-->
+:::'''Guangjin:''' Got it. The Realm-Keeping Commission will immediately lock down Cloudford, and commence the Herding Operation.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066218-->
+:::'''Guangjin:''' Got it. This operation needs agile people like you. I'll wait for you.
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Tell me about this Herding Operation.
+:::<!--Custom String Listener: TalkSentence_202066215-->
+:::'''Guangjin:''' It's very simple. There are multiple Warp Trotters, and we need to catch them all.
+:::'''Guangjin:''' But as you know, these little creatures are timid, so it's pretty challenging to catch them all...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_202066213-->
+:::'''Guangjin:''' Got it. The Realm-Keeping Commission will immediately lock down Cloudford, and commence the Herding Operation.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066218-->
+:::'''Guangjin:''' Got it. This operation needs agile people like you. I'll wait for you.
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 202060402-->)
+::<!--Custom String Trigger: Talk_202060402-->
+::<!--Trigger PerformanceE 202060303: Config/Level/Mission/2020603/Act/Act202060303.json-->
+::'''Guangjin:''' (Trailblazer), do you have time to chat now?
+::{{DIcon|Arrow}} Is there anything I can do for you?
+::<!--Custom String Listener: TalkSentence_202066103-->
+::'''Guangjin:''' Since the last investigation ended, there have been occasional sightings of the invisible monsters near the Healer's Market.
+::'''Guangjin:''' Now that we've determined the imitated cloudhymn magic to be the work of a Warp Trotter, we have decided to carry out a "Hunting Operation" next - In other words, we're going to capture the stray Trotter.
+::'''Guangjin:''' This time, with the help of the Alchemy Commission, we've prepared a special bait for the Trotter. We'll lay traps with the Healer's Market as the center to attract the Trotter.
+::'''Guangjin:''' We'll evacuate the residents living near the Alchemy Commission in advance to protect them from the monster's attacks. This way, the Trotter will let down its guard and take the bait. How does this sound? Isn't it a bold plan?
+::{{DIcon|Arrow}} Yes, it is. Don't you dare give up halfway.
+:::<!--Custom String Listener: TalkSentence_202066108-->
+:::'''Guangjin:''' We'll evacuate the residents throughout the entire Healer's Market and capture the Trotter there.
+:::'''Guangjin:''' All the Realm-Keeping Commission officers are super excited after hearing about the plans for this operation.
+::{{DIcon|Arrow}} I'm very worried about this operation. It's too idealistic.
+:::<!--Custom String Listener: TalkSentence_202066111-->
+:::'''Guangjin:''' There's no cause for concern. I've studied many cases of capturing Trotters, both within and beyond Xianzhou.
+::<!--Custom String Trigger: TalkSentence_202066112-->
+::<!--Custom String Listener: TalkSentence_202066112-->
+::'''Guangjin:''' Well, shall we begin?
+::<!--Custom String Trigger: Wait_Option_202060303_46-->
+::<!--Custom String Listener: Wait_Option_202060303_46-->
+::{{DIcon|Talk}} Tell me about this "Hunting Operation."
+:::<!--Custom String Listener: TalkSentence_202066116-->
+:::'''Guangjin:''' We will place the special bait in the Healer's Market to attract the Warp Trotter.
+:::'''Guangjin:''' You need to make it past the invisible monsters affected by the imitated cloudhymn magic to find the Trotter and capture it.
+:::'''Guangjin:''' This place is surrounded by high walls. I'm sure the Trotter has nowhere to escape.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_202066114-->
+:::'''Guangjin:''' Got it. The Realm-Keeping Commission will evacuate the residents, and the "Hunting Operation" will commence.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066120-->
+:::'''Guangjin:''' Got it. This operation needs agile people like you. I'll wait for you.
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 202060403-->)
+::<!--Trigger PerformanceE 202060306: Config/Level/Mission/2020603/Act/Act202060306.json-->
+::'''Guangjin:''' Well, shall we begin?
+::<!--Custom String Trigger: Wait_Option_202060303_46-->
+::<!--Custom String Listener: Wait_Option_202060303_46-->
+::<!--Custom String Listener: Wait_Option_202060303_46-->
+::{{DIcon|Talk}} Tell me about this "Hunting Operation."
+:::<!--Custom String Listener: TalkSentence_202066116-->
+:::'''Guangjin:''' We will place the special bait in the Healer's Market to attract the Warp Trotter.
+:::'''Guangjin:''' You need to make it past the invisible monsters affected by the imitated cloudhymn magic to find the Trotter and capture it.
+:::'''Guangjin:''' This place is surrounded by high walls. I'm sure the Trotter has nowhere to escape.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_202066114-->
+:::'''Guangjin:''' Got it. The Realm-Keeping Commission will evacuate the residents, and the "Hunting Operation" will commence.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066120-->
+:::'''Guangjin:''' Got it. This operation needs agile people like you. I'll wait for you.
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Tell me about this "Hunting Operation."
+:::<!--Custom String Listener: TalkSentence_202066116-->
+:::'''Guangjin:''' We will place the special bait in the Healer's Market to attract the Warp Trotter.
+:::'''Guangjin:''' You need to make it past the invisible monsters affected by the imitated cloudhymn magic to find the Trotter and capture it.
+:::'''Guangjin:''' This place is surrounded by high walls. I'm sure the Trotter has nowhere to escape.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_202066114-->
+:::'''Guangjin:''' Got it. The Realm-Keeping Commission will evacuate the residents, and the "Hunting Operation" will commence.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066120-->
+:::'''Guangjin:''' Got it. This operation needs agile people like you. I'll wait for you.
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 202060401-->)
+::<!--Trigger PerformanceE 202060302: Config/Level/Mission/2020603/Act/Act202060302.json-->
+::'''Guangjin:''' (Trailblazer), do you have time to chat now?
+::{{DIcon|Arrow}} Is there anything I can do for you?
+::<!--Custom String Listener: TalkSentence_202066003-->
+::'''Guangjin:''' Based on the investigation of the Realm-Keeping Commission, a few citizens have found a strange phenomenon similar to cloudhymn magic in the Alchemy Commission and Scalegorge Waterscape, and even encountered invisible monsters inside these mirages.
+::'''Guangjin:''' According to the statements of the witnesses, we have come to several conclusions regarding the incident: "The phenomenon and the monsters appeared simultaneously. When the mirage was gone, so did the food brought by the starskiff."
+::'''Guangjin:''' As the phenomenon is similar to Vidyadhara cloudhymn magic, the orderlies can use echoes to detect the location of the invisible monsters in the area. The exact principles behind this are not yet known.
+::<!--Custom String Trigger: Wait_Option_202060302_15-->
+::<!--Custom String Listener: Wait_Option_202060302_15-->
+::{{DIcon|Talk}} The part about food is really concerning...
+:::<!--Custom String Listener: TalkSentence_202066007-->
+:::'''Guangjin:''' Indeed. It's hard to imagine that food is the reason of the phenomenon's appearance.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did the monsters appear?
+:::<!--Custom String Listener: TalkSentence_202066009-->
+:::'''Guangjin:''' There are always monsters around where cloudhymn magic appears. We have no clue about the reason.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's look into it now!
+:::<!--Custom String Listener: TalkSentence_202066011-->
+:::'''Guangjin:''' Please come with me. I'll take you to the scene where the invisible monsters were found.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(Otherwise)
+::<!--Trigger PerformanceE 202060305: Config/Level/Mission/2020603/Act/Act202060305.json-->
+::'''Guangjin:''' Hey, (Trailblazer). It's been a while.
+::'''Guangjin:''' I've documented the previous operations to capture the Trotters. The report can be accessed and reviewed at any time.
+::'''Guangjin:''' Would you like to re-visit them?
+::{{DIcon|Arrow}} Let me re-visit the previous operations.
+:::<!--Custom String Listener: TalkSentence_202066305-->
+:::'''Guangjin:''' No problem. Please wait while I apply for access permission. By the way, this is historical information, which does not generate any operation payment.
+:::'''Guangjin:''' Are you sure you want to re-visit the previous operations, (Trailblazer)?
+:::{{DIcon|Arrow}} Let's begin.
+::::<!--Custom String Listener: TalkSentence_202066308-->
+::::'''Guangjin:''' Sure. As the info is complete, you'll be guaranteed an immersive experience.
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4420101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} Forget it.
+::::<!--Custom String Listener: TalkSentence_202066310-->
+::::'''Guangjin:''' Alright. Since you've helped the Realm-Keeping Commission on many occasions, you are welcome to access our operation archives any time.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_202066312-->
+:::'''Guangjin:''' Alright. Since you've helped the Realm-Keeping Commission on many occasions, you are welcome to access our operation archives any time.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Guangjin
+|zhs  = 广进
+|zht  = 廣進
+|ja   = 広進
+|ko   = 광진
+|es   = Guangjin
+|fr   = Guangjin
+|ru   = Гуанцзинь
+|th   = Guangjin
+|vi   = Guangjin
+|de   = Guangjin
+|id   = Guangjin
+|pt   = Guangjin
+}}
+==Change History==
+{{Change History|TODO}}

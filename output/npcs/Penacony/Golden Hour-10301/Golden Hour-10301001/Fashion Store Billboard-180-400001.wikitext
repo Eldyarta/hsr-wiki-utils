@@ -1,0 +1,130 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fashion Store Billboard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Fashion Store Billboard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Fashion Store Billboard''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_180_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503034007: Config/Level/Mission/5030340/Act/Act503034007.json-->
+::'''Fashion Store Billboard:''' Hi, have you been wearing this outfit for quite some time?
+::{{DIcon|Arrow}} Wait, how did you know?
+::{{DIcon|Arrow}} I have many sets of the same outfit.
+::<!--Custom String Listener: TalkSentence_503034064-->
+::'''Fashion Store Billboard:''' Do you find it hard to get clothes that suit your style? Here comes your chance! You can find the trendiest apparel at the Epirus Apparel Fashion Show! Make any purchase to redeem for free SoulGlad!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503034008: Config/Level/Mission/5030340/Act/Act503034008.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034071,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034072,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034073,
+					"ProtectTime": 0.3
+				}
+			]
+		}
+	]
+}</pre>
+:<!--Custom String Trigger: Talk_454010201-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fashion Store Billboard
+|zhs  = 服装店广告牌
+|zht  = 服裝店看板
+|ja   = アパレルショップの看板
+|ko   = 옷 가게 광고판
+|es   = Anuncio de tienda de ropa
+|fr   = Publicité pour un magasin de mode
+|ru   = Реклама магазина моды
+|th   = ป้ายโฆษณาร้านเสื้อผ้า
+|vi   = Bảng Quảng Cáo Tiệm Thời Trang
+|de   = Werbetafel für Modegeschäfte
+|id   = Papan Iklan Toko Pakaian
+|pt   = Painel Publicitário de Loja de Roupas
+}}
+==Change History==
+{{Change History|TODO}}

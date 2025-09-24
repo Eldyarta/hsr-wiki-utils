@@ -1,0 +1,345 @@
+<%-- [PAGE_INFO]
+PageTitle=#"Garmentmaker"#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC "Garmentmaker".png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Abyss of Fate" Janusopolis
+|relatives       = 
+}}
+'''"Garmentmaker"''' is an NPC on [[Amphoreus]], located in [["Abyss of Fate" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Abyss of Fate" Janusopolis|npc_113_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}})
+:::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+::;(If [[Fate's Ensemble]] is active)
+::::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+::::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+::;(If [[Fate's Ensemble]] is active)
+::::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}})
+:::<!--Trigger PerformanceE 401580111: Config/Level/Mission/4015801/Act/Act401580111.json-->
+::;(If {{Mission|Chirping Secret|showChapter=0}} has been completed)
+::::'''Prototype Garmentmaker:''' The winds riding on golden threads bring tidings of your situation. Esteemed guest, has there been any progress?
+::;(If {{Mission|Chirping Secret|showChapter=0}} has not been completed)
+::::'''Garmentmaker:''' Interaction confirmed. Pre-set voice lines are playing...
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} I have gathered all the nymphs here.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Garmentmaker:''' Thank you, esteemed guest. And now, I shall begin to unfurl one of the many prophecies.
+:::::'''Garmentmaker:''' Let's see... "In the blemish of the night, wherein reach not the dawnlight, the Makrodrakon struck the temple, leaving flames untemperable."
+:::::'''Garmentmaker:''' As expected, an obscure scribble of a prophecy that may yet take time to decipher... If you are interested, you might be inclined to interpret it.
+:::::'''Garmentmaker:''' Thank you once again for your aid, esteemed guest.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Prototype Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy. Remarkable. You truly bear secrets we could never imagine.
+:::::'''Prototype Garmentmaker:''' The weavers will be an invaluable help to the holy city. I have prepared you a small token of my gratitude. Please, take it.
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200607
+			}
+		}
+	]
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Inverse":true}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon}} Can you repeat the prophecy?
+::::'''Garmentmaker:''' "In the blemish of the night, wherein reach not the dawnlight, the Makrodrakon struck the temple, leaving flames untemperable."
+::::'''Garmentmaker:''' The way I see it, this should be a clue about a certain location. There may be something worth paying attention to there...
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} Where are the remaining nymphs?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":15}},"Inverse":true}-->}})
+:::::'''Garmentmaker:''' The Garmentmaker can follow the golden thread to ascertain their whereabouts, but consumes {{Color|keyword|nobold=1|Memory Crystal Shards}} in order to do so.
+:::::{{DIcon|Arrow}} Provide Memory Crystal Shards.
+::::::<!--Custom String Listener: TalkSentence_401554104-->
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 15
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 401554104
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 15
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 114
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554105
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 115
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554106
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 116
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554107
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 117
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554108
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 118
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554109
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 119
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554110
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 120
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554111
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 121
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554112
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 122
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554113
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 123
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401554114
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::{{DIcon|Arrow}} I'm not giving it to you.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::'''Prototype Garmentmaker:''' Hmm... The Garmentmaker cannot provide their services if you have no Memory Crystal Shards... Not even a dromas will work if they are left hungry. Come again another time, dear customer.
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":15}},"Inverse":true}-->}})
+:::::'''Prototype Garmentmaker:''' Thank you, my esteemed guest. But a wise man once said, "No man can read two books at the same time."
+:::::'''Prototype Garmentmaker:''' The Garmentmaker has already revealed the location of one nymph to you. Until you find it, the whereabouts of the other nymphs will remain a secret.
+::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I'll get back to my duties.
+::::'''Garmentmaker:''' Goodbye, I await good news from you.
+::::<!--Ends the current performance-->
+::<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "6127"
+	}
+}</pre>
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+:;(If [[Fate's Ensemble]] is active)
+:::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+:::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+:;(If [[Fate's Ensemble]] is active)
+:::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Garmentmaker"
+|zhs  = 「衣匠」
+|zht  = 「衣匠」
+|ja   = 「ラフトラ」
+|ko   = 「의상공」
+|es   = Sastre
+|fr   = Costumière
+|ru   = Швея
+|th   = "หุ่นตัดชุด"
+|vi   = Thợ May
+|de   = Kleidermacherin
+|id   = "Garmentmaker"
+|pt   = "Confeccionadora"
+}}
+==Change History==
+{{Change History|TODO}}

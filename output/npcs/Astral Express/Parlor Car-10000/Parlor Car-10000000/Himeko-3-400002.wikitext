@@ -1,0 +1,264 @@
+<%-- [PAGE_INFO]
+PageTitle=#Himeko#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Himeko.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Parlor Car
+|relatives       = 
+}}
+'''Himeko''' is an NPC on [[Astral Express]], located in [[Parlor Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Parlor Car|npc_3_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200020101,
+		"Type": "submission_state_equal",
+		"Param1": 200020101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200020101: Config/Level/Mission/2000201/Act/Act200020101.json-->
+:{{A|VO Side0 ast1 himeko 102.ogg}} '''Himeko:''' It must be difficult for Asta. Being the lead researcher isn't easy.
+:{{A|VO Side0 ast1 himeko 103.ogg}} '''Himeko:''' As soon as the Legion exits stage right, in comes the gossip... How does that saying go again? "Greet enemies outside with a smile, greet enemies inside with a sword..."
+:{{A|VO Side0 ast1 himeko 104.ogg}} '''Himeko:''' Such is the Herta company culture...
+:{{DIcon|Arrow}} You seem pretty cheerful about it.
+::<!--Custom String Listener: TalkSentence_200020110-->
+::{{A|VO Side0 ast1 himeko 105.ogg}} '''Himeko:''' What do you mean? This is such an inter&mdash; Uh... inconvenient situation.
+:{{DIcon|Arrow}} Company culture stems from the company owner...
+::<!--Custom String Listener: TalkSentence_200020115-->
+::{{A|VO Side0 ast1 himeko 106.ogg}} '''Himeko:''' Haha, Herta doesn't really have anything to do with it. I'm afraid wherever you find people, you find gossip of some variety.
+:{{A|VO Side0 ast1 himeko 107 m.ogg}} {{A|VO Side0 ast1 himeko 107 f.ogg}} '''Himeko:''' (Trailblazer), are you thinking of getting involved?
+:{{DIcon|Arrow}} No, just eating popcorn on the sidelines...
+:{{DIcon|Arrow}} I really want to help Asta.
+:<!--Custom String Listener: TalkSentence_200020111-->
+:{{A|VO Side0 ast1 himeko 108.ogg}} '''Himeko:''' Well, while these rumors have nothing to do with us, they do concern the reputation of young Asta. And turning a blind eye is not the way of the Nameless.
+:{{A|VO Side0 ast1 himeko 109.ogg}} '''Himeko:''' Solving a matter like this won't be difficult. Predictably, the crowd cares more about the drama than the facts. Stopping the rumors from brewing is more important right now than laying out the truth... and it's better to unearth the source of the rumors directly than to painstakingly try to refute them one by one.
+:{{DIcon|Arrow}} As always, your guidance is wise.
+::<!--Custom String Listener: TalkSentence_200020118-->
+::{{A|VO Side0 ast1 himeko 110 m.ogg}} {{A|VO Side0 ast1 himeko 110 f.ogg}} '''Himeko:''' You're a smooth talker, (Trailblazer).
+:{{DIcon|Arrow}} So we get rid of the troublemaker, right?
+::<!--Custom String Listener: TalkSentence_200020120-->
+::{{A|VO Side0 ast1 himeko 111.ogg}} '''Himeko:''' No, no... that's not what I meant...
+:<!--Custom String Trigger: TalkSentence_200020121-->
+:<!--Custom String Listener: TalkSentence_200020121-->
+:{{A|VO Side0 ast1 himeko 112.ogg}} '''Himeko:''' I have a friend &mdash; they say there isn't a single piece of station gossip she doesn't know about.
+:{{DIcon|Arrow}} Talking about yourself?
+:{{DIcon|Arrow}} I didn't realize you liked gossip too, Himeko...
+:<!--Custom String Listener: TalkSentence_200020124-->
+:{{A|VO Side0 ast1 himeko 113.ogg}} '''Himeko:''' First of all, it's not me. Secondly, I don't make friends JUST for the sake of gossip.
+:{{A|VO Side0 ast1 himeko 114.ogg}} '''Himeko:''' It's just that my friend is pretty amazing, and I think you might be able to extract some information from her. Let's see... Right now she's probably slacking off somewhere outside the department.
+:{{A|VO Side0 ast1 himeko 115.ogg}} '''Himeko:''' I don't know her real name, but she calls herself {{Color|keyword|nobold=1|Gossipmonger}}....
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200020101-->
+<pre>
+[
+	{
+		"ID": 101150223,
+		"Type": "submission_state_equal",
+		"Param1": 101150223,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 101150223: Config/Level/Mission/1011502/Act/Act101150223.json-->
+;(Screen fades to black)
+:{{A|VO chapter1 11 himeko 201.ogg}} '''Himeko:''' Welcome home, you three.
+:{{A|VO chapter1 11 mar7th 203.ogg}} '''March 7th:''' Himeko, Mr. Yang! Team Trailblaze, back from duty! Mission one: Accomplished!
+:{{A|VO chapter1 11 himeko 202 m.ogg}} {{A|VO chapter1 11 himeko 202 f.ogg}} '''Himeko:''' *chuckles* Although Welt and I didn't get the chance to go with you, I can tell you worked hard to bring things back to normal. Well done, everybody. And especially you, (Trailblazer). I heard a lot of good things about you.
+:{{DIcon|Arrow}} How would you rate my performance?
+::<!--Custom String Listener: TalkSentence_100003107-->
+:;(Screen fades to black)
+::{{A|VO chapter1 11 himeko 203.ogg}} '''Himeko:''' I'd say it's a solid five stars.
+:{{DIcon|Arrow}} Piece of cake.
+::<!--Custom String Listener: TalkSentence_100003109-->
+:;(Screen fades to black)
+::{{A|VO chapter1 11 himeko 204.ogg}} '''Himeko:''' Confidence goes a long way.
+:{{DIcon|Arrow}} Can I skip the next mission and get some rest?
+::<!--Custom String Listener: TalkSentence_100003111-->
+:;(Screen fades to black)
+::{{A|VO chapter1 11 himeko 205.ogg}} '''Himeko:''' *chuckles* And miss out on a great adventure? I don't think you'd like that.
+:<!--Custom String Trigger: TalkSentence_100003112-->
+:<!--Custom String Listener: TalkSentence_100003112-->
+;(Screen fades to black)
+:{{A|VO chapter1 11 welt 201.ogg}} '''Welt:''' Get some rest on the Express. Jarilo-VI was not an easy ride.
+:{{A|VO chapter1 11 welt 202.ogg}} '''Welt:''' Pom-Pom is of the opinion that we should leave as soon as possible to avoid potential resurgences of the anomalies we experienced earlier. Himeko and I agree.
+:{{A|VO chapter1 11 danheng 201.ogg}} '''Dan Heng:''' ...Which means we need to decide where our next destination is, soon.
+:{{A|VO chapter1 11 welt 203.ogg}} '''Welt:''' That's right.
+:{{A|VO chapter1 11 mar7th 204.ogg}} '''March 7th:''' That's the path of the Nameless, I presume? Always on the road, always trailblazing...
+:{{A|VO chapter1 11 mar7th 205.ogg}} '''March 7th:''' I&mdash;I'm not complaining by the way! One adventure after another, that's exactly what I signed up for!
+:{{A|VO chapter1 11 himeko 206.ogg}} '''Himeko:''' Looks like March has fallen in love with the way of the Nameless. That's good to hear.
+:{{A|VO chapter1 11 himeko 207.ogg}} '''Himeko:''' You can head back to your rooms for some rest, or stay here and make yourselves a cup of coffee, whichever you like.
+:{{A|VO chapter1 11 danheng 202.ogg}} '''Dan Heng:''' I'll head back to my room then.
+:{{A|VO chapter1 11 mar7th 206.ogg}} '''March 7th:''' *sigh* There I was thinking this guy would gradually open up...
+:{{A|VO chapter1 11 himeko 208.ogg}} '''Himeko:''' *chuckles* We need to give him some time, March. I think he treasures the time spent with you guys.
+:{{A|VO chapter1 11 himeko 209 m.ogg}} {{A|VO chapter1 11 himeko 209 f.ogg}} '''Himeko:''' (Trailblazer), about your battle against the Supreme Guardian and the whole Stellaron situation, you must have a lot of unanswered questions, I suppose?
+:{{A|VO chapter1 11 himeko 210.ogg}} '''Himeko:''' While you were away, Welt and I did some research and came to some interesting conclusions. Let me know if you want to ask about anything.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_101150223-->
+<pre>
+[
+	{
+		"ID": 100050406,
+		"Type": "submission_state_equal",
+		"Param1": 100050406,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100050406: Config/Level/Mission/1000502/Act/Act100050406.json-->
+:{{A|VO chapter0 7 himeko 112.ogg}} '''Himeko:''' Also, don't mind Pom-Pom's antics. They're actually pretty interested in you. It's just that we haven't had new passengers on the Express for a long while.
+:{{A|VO chapter0 7 himeko 113.ogg}} '''Himeko:''' I won't steal Pom-Pom's thunder. If you have any questions, just go ask our conductor.
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 101150223
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200020101
+	},
+	{
+		"Type": "SubMission",
+		"ID": 100050406
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 200020101-->)
+:{{DIcon|undefined}} There's something else I'd like to ask you.
+::<!--Trigger PerformanceE 200020101: Config/Level/Mission/2000201/Act/Act200020101.json-->
+::{{A|VO Side0 ast1 himeko 102.ogg}} '''Himeko:''' It must be difficult for Asta. Being the lead researcher isn't easy.
+::{{A|VO Side0 ast1 himeko 103.ogg}} '''Himeko:''' As soon as the Legion exits stage right, in comes the gossip... How does that saying go again? "Greet enemies outside with a smile, greet enemies inside with a sword..."
+::{{A|VO Side0 ast1 himeko 104.ogg}} '''Himeko:''' Such is the Herta company culture...
+::{{DIcon|Arrow}} You seem pretty cheerful about it.
+:::<!--Custom String Listener: TalkSentence_200020110-->
+:::{{A|VO Side0 ast1 himeko 105.ogg}} '''Himeko:''' What do you mean? This is such an inter&mdash; Uh... inconvenient situation.
+::{{DIcon|Arrow}} Company culture stems from the company owner...
+:::<!--Custom String Listener: TalkSentence_200020115-->
+:::{{A|VO Side0 ast1 himeko 106.ogg}} '''Himeko:''' Haha, Herta doesn't really have anything to do with it. I'm afraid wherever you find people, you find gossip of some variety.
+::{{A|VO Side0 ast1 himeko 107 m.ogg}} {{A|VO Side0 ast1 himeko 107 f.ogg}} '''Himeko:''' (Trailblazer), are you thinking of getting involved?
+::{{DIcon|Arrow}} No, just eating popcorn on the sidelines...
+::{{DIcon|Arrow}} I really want to help Asta.
+::<!--Custom String Listener: TalkSentence_200020111-->
+::{{A|VO Side0 ast1 himeko 108.ogg}} '''Himeko:''' Well, while these rumors have nothing to do with us, they do concern the reputation of young Asta. And turning a blind eye is not the way of the Nameless.
+::{{A|VO Side0 ast1 himeko 109.ogg}} '''Himeko:''' Solving a matter like this won't be difficult. Predictably, the crowd cares more about the drama than the facts. Stopping the rumors from brewing is more important right now than laying out the truth... and it's better to unearth the source of the rumors directly than to painstakingly try to refute them one by one.
+::{{DIcon|Arrow}} As always, your guidance is wise.
+:::<!--Custom String Listener: TalkSentence_200020118-->
+:::{{A|VO Side0 ast1 himeko 110 m.ogg}} {{A|VO Side0 ast1 himeko 110 f.ogg}} '''Himeko:''' You're a smooth talker, (Trailblazer).
+::{{DIcon|Arrow}} So we get rid of the troublemaker, right?
+:::<!--Custom String Listener: TalkSentence_200020120-->
+:::{{A|VO Side0 ast1 himeko 111.ogg}} '''Himeko:''' No, no... that's not what I meant...
+::<!--Custom String Trigger: TalkSentence_200020121-->
+::<!--Custom String Listener: TalkSentence_200020121-->
+::{{A|VO Side0 ast1 himeko 112.ogg}} '''Himeko:''' I have a friend &mdash; they say there isn't a single piece of station gossip she doesn't know about.
+::{{DIcon|Arrow}} Talking about yourself?
+::{{DIcon|Arrow}} I didn't realize you liked gossip too, Himeko...
+::<!--Custom String Listener: TalkSentence_200020124-->
+::{{A|VO Side0 ast1 himeko 113.ogg}} '''Himeko:''' First of all, it's not me. Secondly, I don't make friends JUST for the sake of gossip.
+::{{A|VO Side0 ast1 himeko 114.ogg}} '''Himeko:''' It's just that my friend is pretty amazing, and I think you might be able to extract some information from her. Let's see... Right now she's probably slacking off somewhere outside the department.
+::{{A|VO Side0 ast1 himeko 115.ogg}} '''Himeko:''' I don't know her real name, but she calls herself {{Color|keyword|nobold=1|Gossipmonger}}....
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200020101-->
+;(If {{cx}}<!--SubMission Started: 101150223--> and {{cx}}<!--SubMission Started: 200020101-->)
+:{{DIcon}} In the Dangerous Muddy Swamp
+::<!--Trigger PerformanceE 101150223: Config/Level/Mission/1011502/Act/Act101150223.json-->
+:;(Screen fades to black)
+::{{A|VO chapter1 11 himeko 201.ogg}} '''Himeko:''' Welcome home, you three.
+::{{A|VO chapter1 11 mar7th 203.ogg}} '''March 7th:''' Himeko, Mr. Yang! Team Trailblaze, back from duty! Mission one: Accomplished!
+::{{A|VO chapter1 11 himeko 202 m.ogg}} {{A|VO chapter1 11 himeko 202 f.ogg}} '''Himeko:''' *chuckles* Although Welt and I didn't get the chance to go with you, I can tell you worked hard to bring things back to normal. Well done, everybody. And especially you, (Trailblazer). I heard a lot of good things about you.
+::{{DIcon|Arrow}} How would you rate my performance?
+:::<!--Custom String Listener: TalkSentence_100003107-->
+::;(Screen fades to black)
+:::{{A|VO chapter1 11 himeko 203.ogg}} '''Himeko:''' I'd say it's a solid five stars.
+::{{DIcon|Arrow}} Piece of cake.
+:::<!--Custom String Listener: TalkSentence_100003109-->
+::;(Screen fades to black)
+:::{{A|VO chapter1 11 himeko 204.ogg}} '''Himeko:''' Confidence goes a long way.
+::{{DIcon|Arrow}} Can I skip the next mission and get some rest?
+:::<!--Custom String Listener: TalkSentence_100003111-->
+::;(Screen fades to black)
+:::{{A|VO chapter1 11 himeko 205.ogg}} '''Himeko:''' *chuckles* And miss out on a great adventure? I don't think you'd like that.
+::<!--Custom String Trigger: TalkSentence_100003112-->
+::<!--Custom String Listener: TalkSentence_100003112-->
+:;(Screen fades to black)
+::{{A|VO chapter1 11 welt 201.ogg}} '''Welt:''' Get some rest on the Express. Jarilo-VI was not an easy ride.
+::{{A|VO chapter1 11 welt 202.ogg}} '''Welt:''' Pom-Pom is of the opinion that we should leave as soon as possible to avoid potential resurgences of the anomalies we experienced earlier. Himeko and I agree.
+::{{A|VO chapter1 11 danheng 201.ogg}} '''Dan Heng:''' ...Which means we need to decide where our next destination is, soon.
+::{{A|VO chapter1 11 welt 203.ogg}} '''Welt:''' That's right.
+::{{A|VO chapter1 11 mar7th 204.ogg}} '''March 7th:''' That's the path of the Nameless, I presume? Always on the road, always trailblazing...
+::{{A|VO chapter1 11 mar7th 205.ogg}} '''March 7th:''' I&mdash;I'm not complaining by the way! One adventure after another, that's exactly what I signed up for!
+::{{A|VO chapter1 11 himeko 206.ogg}} '''Himeko:''' Looks like March has fallen in love with the way of the Nameless. That's good to hear.
+::{{A|VO chapter1 11 himeko 207.ogg}} '''Himeko:''' You can head back to your rooms for some rest, or stay here and make yourselves a cup of coffee, whichever you like.
+::{{A|VO chapter1 11 danheng 202.ogg}} '''Dan Heng:''' I'll head back to my room then.
+::{{A|VO chapter1 11 mar7th 206.ogg}} '''March 7th:''' *sigh* There I was thinking this guy would gradually open up...
+::{{A|VO chapter1 11 himeko 208.ogg}} '''Himeko:''' *chuckles* We need to give him some time, March. I think he treasures the time spent with you guys.
+::{{A|VO chapter1 11 himeko 209 m.ogg}} {{A|VO chapter1 11 himeko 209 f.ogg}} '''Himeko:''' (Trailblazer), about your battle against the Supreme Guardian and the whole Stellaron situation, you must have a lot of unanswered questions, I suppose?
+::{{A|VO chapter1 11 himeko 210.ogg}} '''Himeko:''' While you were away, Welt and I did some research and came to some interesting conclusions. Let me know if you want to ask about anything.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_101150223-->
+;(If {{cx}}<!--SubMission Started: 100050406-->, {{cx}}<!--SubMission Started: 101150223-->, and {{cx}}<!--SubMission Started: 200020101-->)
+:{{DIcon}} I'm (Trailblazer).
+::<!--Trigger PerformanceE 100050406: Config/Level/Mission/1000502/Act/Act100050406.json-->
+::{{A|VO chapter0 7 himeko 112.ogg}} '''Himeko:''' Also, don't mind Pom-Pom's antics. They're actually pretty interested in you. It's just that we haven't had new passengers on the Express for a long while.
+::{{A|VO chapter0 7 himeko 113.ogg}} '''Himeko:''' I won't steal Pom-Pom's thunder. If you have any questions, just go ask our conductor.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Himeko
+|zhs  = 姬子
+|zht  = 姬子
+|ja   = 姫子
+|ko   = 히메코
+|es   = Himeko
+|fr   = Himeko
+|ru   = Химеко
+|th   = Himeko
+|vi   = Himeko
+|de   = Himeko
+|id   = Himeko
+|pt   = Himeko
+}}
+==Change History==
+{{Change History|TODO}}

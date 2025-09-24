@@ -1,0 +1,123 @@
+<%-- [PAGE_INFO]
+PageTitle=#Security Department Member#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Security Department Member.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Security Department Member''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_40_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200020104,
+		"Type": "submission_state_equal",
+		"Param1": 200020104,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200020104: Config/Level/Mission/2000201/Act/Act200020104.json-->
+:{{A|VO Side0 ast1 staffY 101.ogg}} '''Security Department Member:''' The walkways around the Special Purpose Lab have been temporarily closed off. Please keep your distance.
+:{{DIcon|Arrow}} Can you let me through just this once?
+::<!--Custom String Listener: TalkSentence_200020217-->
+::{{A|VO Side0 ast1 staffY 102.ogg}} '''Security Department Member:''' I'm afraid this is a live situation. It's too dangerous.
+::{{A|VO Side0 ast1 staffY 103.ogg}} '''Security Department Member:''' Wait... Brother Arlan told me about you. If you insist on going... then I wish you the best of luck. Be safe.
+::<!--Custom String Trigger: Mission_200020104-->
+:<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:{{DIcon|Exit}} I'm just passing through.
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 200020104
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200020104: Config/Level/Mission/2000201/Act/Act200020104.json-->
+:{{A|VO Side0 ast1 staffY 101.ogg}} '''Security Department Member:''' The walkways around the Special Purpose Lab have been temporarily closed off. Please keep your distance.
+:{{DIcon|Arrow}} Can you let me through just this once?
+::<!--Custom String Listener: TalkSentence_200020217-->
+::{{A|VO Side0 ast1 staffY 102.ogg}} '''Security Department Member:''' I'm afraid this is a live situation. It's too dangerous.
+::{{A|VO Side0 ast1 staffY 103.ogg}} '''Security Department Member:''' Wait... Brother Arlan told me about you. If you insist on going... then I wish you the best of luck. Be safe.
+::<!--Custom String Trigger: Mission_200020104-->
+:<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:{{DIcon|Exit}} I'm just passing through.
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

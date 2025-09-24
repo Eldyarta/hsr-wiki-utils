@@ -1,0 +1,174 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lamina#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 3 Ecology Researcher
+|image           = NPC Lamina.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Storage Zone
+|relatives       = 
+}}
+'''Lamina''' is an NPC on [[Herta Space Station]], located in [[Storage Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Storage Zone|npc_60_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: TalkSentence_500010913-->
+:<!--Custom String Listener: TalkSentence_500010913-->
+:'''Lamina:''' Yeah? Do you have something to say? Did I miss something again... Or do you have an order for me?
+:<!--Custom String Trigger: Wait_Option_500010112_584-->
+:<!--Custom String Listener: Wait_Option_500010112_584-->
+:{{DIcon|Talk}} You got it all wrong.
+::<!--Custom String Listener: TalkSentence_500010915-->
+::'''Lamina:''' Don't scare me like that! If I get it wrong, I will lose my job.
+::'''Lamina:''' I can't be... let me check again... If I make another mistake, I'll be dead...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you need help?
+::<!--Custom String Listener: TalkSentence_500010918-->
+::'''Lamina:''' No. Master Capote told me specifically that his personal affairs should not be handled by random strangers.
+::'''Lamina:''' This is my schedule for the day: Help Master Capote reply to his fans, fetch his personalized lunch, iron clothes, reply to the second batch of his fans, fetch personalized dinner, reply to the third batch of his fans...
+::'''Lamina:''' My schedule is so packed that I can't even spare time to breathe. I better not make any mistakes.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Are these supposed to be your job?
+::<!--Custom String Listener: TalkSentence_500010922-->
+::'''Lamina:''' Master Capote ordered me to do these things. Of course they are part of my job.
+::'''Lamina:''' As his secretary, the most important thing is to keep track of everything. The scope of work can be large and the lines can be blurry sometimes...
+::'''Lamina:''' Although it's hard, I believe practice makes perfect.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500010926-->
+::'''Lamina:''' I should get back to work. Please let me know if I've interrupted you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Lamina:''' Is it red or blue... did I make a mistake again?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Lamina:''' I should get back to work. Please let me know if I've interrupted you.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000099: Config/Level/NPC/W0/NPC_DefaultStory_500000901.json-->
+::<!--Custom String Trigger: TalkSentence_500010902-->
+::<!--Custom String Listener: TalkSentence_500010902-->
+::'''Lamina:''' My dearest admirer, your letter is well received... Your most cherished idol, Master Capote. Not one word more or one word less, or the fans might find it unfair. Gold and silver color wax should be used to seal the letters, and then stamped with the name Capote.
+::'''Lamina:''' My dearest admirer, your letter is well received...
+::'''Lamina:''' I am sorry. I am in the middle of reviewing some important rules for my work. Am I in your way?
+::<!--Custom String Trigger: Wait_Option_500010112_571-->
+::<!--Custom String Listener: Wait_Option_500010112_571-->
+::{{DIcon|Arrow}} No, you are not. Don't worry about it.
+:::<!--Custom String Listener: TalkSentence_500010906-->
+:::'''Lamina:''' That's good. I was so focused. Please forgive me. I will get in trouble if I fail to answer Master Capote's questions...
+::{{DIcon|Arrow}} Rules?
+:::<!--Custom String Listener: TalkSentence_500010908-->
+:::'''Lamina:''' Yeah. As Master Capote's secretary, I must be responsible for his daily activities. If my personal negligence damages his public image, I will be in trouble...
+::{{DIcon|Arrow}} I thought I bumped into a repeater.
+:::<!--Custom String Listener: TalkSentence_500010910-->
+:::'''Lamina:''' I have no choice. It was my fault I didn't bring a pen and paper with me to record Master Capote's orders. Now, I have to rely on my useless brain.
+:::'''Lamina:''' ...Your most cherished hero, Capote... Red wax should be used to seal the letters, and then stamped with Capote...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000100: Config/Level/NPC/W0/NPC_DefaultStory_500000900.json-->
+::'''Lamina:''' Is it red or blue... did I make a mistake again?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Um...
+::<!--Custom String Trigger: TalkSentence_500010913-->
+::<!--Custom String Listener: TalkSentence_500010913-->
+::'''Lamina:''' Yeah? Do you have something to say? Did I miss something again... Or do you have an order for me?
+::<!--Custom String Trigger: Wait_Option_500010112_584-->
+::<!--Custom String Listener: Wait_Option_500010112_584-->
+::{{DIcon|Talk}} You got it all wrong.
+:::<!--Custom String Listener: TalkSentence_500010915-->
+:::'''Lamina:''' Don't scare me like that! If I get it wrong, I will lose my job.
+:::'''Lamina:''' I can't be... let me check again... If I make another mistake, I'll be dead...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you need help?
+:::<!--Custom String Listener: TalkSentence_500010918-->
+:::'''Lamina:''' No. Master Capote told me specifically that his personal affairs should not be handled by random strangers.
+:::'''Lamina:''' This is my schedule for the day: Help Master Capote reply to his fans, fetch his personalized lunch, iron clothes, reply to the second batch of his fans, fetch personalized dinner, reply to the third batch of his fans...
+:::'''Lamina:''' My schedule is so packed that I can't even spare time to breathe. I better not make any mistakes.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are these supposed to be your job?
+:::<!--Custom String Listener: TalkSentence_500010922-->
+:::'''Lamina:''' Master Capote ordered me to do these things. Of course they are part of my job.
+:::'''Lamina:''' As his secretary, the most important thing is to keep track of everything. The scope of work can be large and the lines can be blurry sometimes...
+:::'''Lamina:''' Although it's hard, I believe practice makes perfect.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500010926-->
+:::'''Lamina:''' I should get back to work. Please let me know if I've interrupted you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Lamina:''' I should get back to work. Please let me know if I've interrupted you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lamina
+|zhs  = 拉明娜
+|zht  = 拉明娜
+|ja   = ラミナ
+|ko   = 라미나
+|es   = Lamina
+|fr   = Lamina
+|ru   = Ламина
+|th   = Lamina
+|vi   = Lamina
+|de   = Lamina
+|id   = Lamina
+|pt   = Lamina
+}}
+==Change History==
+{{Change History|TODO}}

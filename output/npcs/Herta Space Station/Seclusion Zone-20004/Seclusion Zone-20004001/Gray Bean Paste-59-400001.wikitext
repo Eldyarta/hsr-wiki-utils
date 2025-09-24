@@ -1,0 +1,134 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gray Bean Paste#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Gray Bean Paste.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Gray Bean Paste''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_59_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000153: Config/Level/Mission/5000030/Act/Act900000153.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500015401
+	]
+}</pre>
+::You accommodate the tiny thing in the botanical room to absorb starlight, which seems to be quite effective in assuaging its negative emotions.
+::At least its tears no longer drown the innocent plants nearby now.
+::'''Gray Bean Paste:''' Ruan Mei... *sobs* She's abandoned us... *sobs*
+::'''Gray Bean Paste:''' It's you? I remember you. You never visit again after leaving. Look, I'm being dumped at the recycling station! Isn't it embarrassing? Isn't it? Meow!
+::The moment the tiny thing sees you, it holds back its teary voice and starts grumbling at you. It seems to be slightly annoyed at you.
+::{{DIcon|Arrow}} This isn't shameful at all.
+:::<!--Custom String Listener: TalkSentence_500015308-->
+:::'''Gray Bean Paste:''' Really? I thought I was dumped here because I failed to impress Ruan Mei... *sobs*
+::{{DIcon|Arrow}} Don't feel dejected. You should get more starlight.
+:::<!--Custom String Listener: TalkSentence_500015310-->
+:::'''Gray Bean Paste:''' Starlight? I feel so down that even the starlight is avoiding me... You don't like me, and neither does Ruan Mei... *sob, sob*
+::<!--Custom String Trigger: TalkSentence_500015311-->
+::<!--Custom String Listener: TalkSentence_500015311-->
+::Looking distraught, it curls its tail tightly around its feet and stares at you uneasily.
+::'''Gray Bean Paste:''' I'm just a failure that even Ruan Mei doesn't want. Say, are you here to laugh at me? Meow?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000154: Config/Level/Mission/5000030/Act/Act900000154.json-->
+::'''Gray Bean Paste:''' Ruan Mei... *sobs* She's abandoned us... *sobs*
+::'''Gray Bean Paste:''' Why are you here again? Are you sending me to some recycling station again?
+::Although the little guy's voice is still bitter, you can discern a trace of hope in its eyes. It seems like much of its past gloominess has dissipated.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} You've got the wrong idea. There's something I want to tell you...
+::<!--Custom String Trigger: Wait_Option_900000155_359-->
+::<!--Custom String Listener: Wait_Option_900000155_359-->
+::{{DIcon|Talk}} I'm here for you.
+:::<!--Custom String Listener: TalkSentence_500015504-->
+:::'''Gray Bean Paste:''' Really? Is it... because Ruan Mei has given up on me? Are you doing this out of sympathy?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You should talk to your peers.
+:::<!--Custom String Listener: TalkSentence_500015506-->
+:::'''Gray Bean Paste:''' My peers? Only Salty Rimeplume is willing to talk to me. Everyone else avoids me because I'm crying all the time.
+:::'''Gray Bean Paste:''' And... there's also Molten Cheese Tart, who sometimes comes out of its way just to mock me. *sniffles* It said that Ruan Mei didn't visit me because that's how much of a loser I am.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Perhaps, she's thinking about you now.
+:::<!--Custom String Listener: TalkSentence_500015509-->
+:::'''Gray Bean Paste:''' Do you mean Ruan Mei&mdash; Ruan Mei is thinking about me now? I guess, even if she is, she must be wondering what has gone wrong in creating me...
+:::'''Gray Bean Paste:''' If she's really thinking about me, why does she send you to accommodate me here and refuse to visit me?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You aren't a failure, you're special.
+:::<!--Custom String Listener: TalkSentence_500015512-->
+:::'''Gray Bean Paste:''' Special? If I'm really special, why doesn't she take me with her?
+:::'''Gray Bean Paste:''' Ruan Mei doesn't need a failure like me. No matter how special I am, I'm still a failure! Meow! A failure!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have anything else to say.
+:::<!--Custom String Listener: TalkSentence_500015515-->
+:::'''Gray Bean Paste:''' See? Even you're ignoring me. *sobs*
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's all I have to say.
+::'''Gray Bean Paste:''' I seem to feel better after talking to you.
+::'''Gray Bean Paste:''' Yet, there's still an emptiness in my heart. My bean paste filling makes me look moldy...
+::'''Gray Bean Paste:''' I knew it... I'm a failure, and so are all of you. This is the recycling station, and we're destined to be dumped! Meow!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

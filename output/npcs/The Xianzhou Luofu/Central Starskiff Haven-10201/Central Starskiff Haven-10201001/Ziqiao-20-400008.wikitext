@@ -1,0 +1,368 @@
+<%-- [PAGE_INFO]
+PageTitle=#Ziqiao#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Heron Express Specialist
+|image           = NPC Ziqiao.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Ziqiao''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_20_400008}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502011501: Config/Level/NPC/W2/NPC_DefaultStory_502011501.json-->
+::'''Ziqiao:''' Heron Express, at your service! Have you made a delivery booking with us?
+::{{DIcon|Arrow}} Who are you again?
+:::<!--Custom String Listener: TalkSentence_502115003-->
+:::'''Ziqiao:''' I'm Ziqiao, a logistics specialist from Heron Express.
+::{{DIcon|Arrow}} Delivery?
+:::<!--Custom String Listener: TalkSentence_502115005-->
+:::'''Ziqiao:''' That's right. For deliveries, please book a courier with Heron Express. I'm a Heron Express Specialist &mdash; Ziqiao's my name.
+::<!--Custom String Trigger: TalkSentence_502115006-->
+::<!--Custom String Listener: TalkSentence_502115006-->
+::'''Ziqiao:''' If you've got a delivery to send, please enter your shipping info via our Heron Express app. If you're waiting to receive a delivery, please wait for our courier cycranes' notification. If you'd like to send a delivery, please bring it to our office.
+::{{DIcon|Arrow}} Courier cycranes are everywhere aboard the Xianzhou.
+:::<!--Custom String Listener: TalkSentence_502115008-->
+:::'''Ziqiao:''' Haha, Xianzhou relies heavily on Heron Express Specialists: Delivering meals, online shopping, within-city deliveries... It'd be very difficult to operate Xianzhou without Heron Express.
+:::'''Ziqiao:''' Don't listen to all those claims about being able to stay indoors here. Without courier deliveries, do you really think anyone could stand staying in? Nobody could.
+::{{DIcon|Arrow}} I saw a lot of parcels outside.
+:::<!--Custom String Listener: TalkSentence_502115011-->
+:::'''Ziqiao:''' This always gives me a headache. Some were put on hold due to cycrane failure; some were because the customer filled out their contact details incorrectly, so we couldn't get in touch with them.
+:::'''Ziqiao:''' It may be my job to deal with these abandoned parcels, but there're just too many. If we can't track down the owner, we end up donating things to charity.
+::<!--Custom String Trigger: TalkSentence_502115013-->
+::<!--Custom String Listener: TalkSentence_502115013-->
+::'''Ziqiao:''' But then again, I'm still on the clock right now. If you don't have anything to send right now, keep Heron Express in mind for next time. Our slogan is: Heron Express &mdash; We Mail Anything.
+::'''Ziqiao:''' If there's nothing else, I'm getting back to work.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502011504: Config/Level/NPC/W2/NPC_DefaultStory_502011504.json-->
+::'''Ziqiao:''' Oh, hi... I remember you. Have you booked a delivery with us?
+::'''Ziqiao:''' We can do same-day delivery for small and medium packages. Big ones take two to three days, though. If you have any other requirements, please let us know.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404020202-->)
+:{{DIcon|?}} I came across a depressed cycrane.
+::<!--Trigger PerformanceE 404020202: Config/Level/Mission/4040202/Act/Act404020202.json-->
+::'''Ziqiao:''' A what cycrane?
+::{{DIcon|Arrow}} A depressed cycrane.
+:::<!--Custom String Listener: TalkSentence_404020252-->
+:::'''Ziqiao:''' I know you said, "a depressed cycrane," but I don't understand what you mean.
+::{{DIcon|Arrow}} A malfunctioning cycrane.
+:::<!--Custom String Listener: TalkSentence_404020254-->
+:::'''Ziqiao:''' That I can understand, but I'll still trouble you to explain all of this to me in detail.
+::{{DIcon|Arrow}} It's the same model as this cycrane.
+:::<!--Custom String Listener: TalkSentence_404020256-->
+:::'''Ziqiao:''' Uh-huh. You can see them all over Xianzhou. They handle deliveries... Why don't you tell me about what this "depressed" business is all about?
+::<!--Custom String Trigger: TalkSentence_404020257-->
+::<!--Custom String Listener: TalkSentence_404020257-->
+::You attempted to explain what you encountered as well as how you convinced this cycrane that had nothing left to live for to return to Heron Express.
+::After listening to your story, Ziqiao examined the work status of courier cycranes. She discovered that everything you said could be verified. At that moment, a cycrane got reconnected to the logistics system.
+::'''Ziqiao:''' Was it really able to speak with you? I can hardly believe it.
+::{{DIcon|Arrow}} It's a warning of an AI awakening that will destroy mankind.
+:::<!--Custom String Listener: TalkSentence_404020261-->
+:::'''Ziqiao:''' An AI uprising? You aren't talking about the "Aurumaton Rebellion," are you? That happened before I was born. Take it easy. The Cloud Knights would never let something like that happen.
+:::'''Ziqiao:''' Besides, who knows. This cycrane is so pessimistic, it might destroy itself before it ever destroys humanity.
+::{{DIcon|Arrow}} Or maybe it isn't willing to speak with you.
+:::<!--Custom String Listener: TalkSentence_404020264-->
+:::'''Ziqiao:''' ...I often speak with cycranes. Logically, they are completely open to me.
+:::{{DIcon|Arrow}} Is it because you lack charm?
+::::<!--Custom String Listener: TalkSentence_404020266-->
+::::'''Ziqiao:''' I can't be. I have been popular with people since I was young. When it comes to having charm, we would be well-matched with each other.
+:::{{DIcon|Arrow}} No one would be so open with their own boss.
+::::<!--Custom String Listener: TalkSentence_404020268-->
+::::'''Ziqiao:''' I'm not some boss. If I have to say it, these courier cycranes and I are more like coworkers.
+::{{DIcon|Arrow}} Is it possible that you just don't know?
+:::<!--Custom String Listener: TalkSentence_404020270-->
+:::'''Ziqiao:''' ...I talk with cycranes frequently. If they could talk, they would have talked to me by now.
+::<!--Custom String Trigger: TalkSentence_404020271-->
+::<!--Custom String Listener: TalkSentence_404020271-->
+::'''Ziqiao:''' Besides, we never equipped these courier cycranes with any intelligence in the first place. The hardware components simply couldn't allow for it. Maybe you were just hearing things? Or perhaps someone was talking to you disguised as a cycrane?
+::{{DIcon|Arrow}} Do you want to look into it more closely?
+::{{DIcon|Arrow}} The way you said that makes me wonder if I really misheard the entire thing.
+:::<!--Custom String Listener: TalkSentence_404020274-->
+:::'''Ziqiao:''' I'll look into it, just to be on the safe side.
+:::<!--Custom String Trigger: TalkSentence_404020275-->
+::<!--Custom String Listener: TalkSentence_404020275-->
+::'''Ziqiao:''' Wait a moment. I'll check... Hold on. This isn't good!
+::'''Ziqiao:''' Aside from the cycrane you mentioned, we've lost connection with several other cycranes... This isn't some kind of cycrane labor strike, is it?
+::{{DIcon|Arrow}} This must be the work of a competitor!
+:::<!--Custom String Listener: TalkSentence_404020278-->
+:::'''Ziqiao:''' You were suggesting that a competitor wanted to dismantle the courier cycranes and see their internal structure.
+:::'''Ziqiao:''' ...Then they went a step further and made a version that could speak. Isn't that a technical skill that's better than the Technology Division of Heron Express?
+::{{DIcon|Arrow}} It was the work of a metal life form that could transform!
+:::<!--Custom String Listener: TalkSentence_404020281-->
+:::'''Ziqiao:''' The heliobi of the Heliobi Disaster were also life forms back then, and they were the ones that possessed the aurumatons' bodies... Your concerns did have some merit.
+:::'''Ziqiao:''' However, if they are able to possess robotic bodies, then why not become something more ruthless?
+:::'''Ziqiao:''' For example, a starskiff. A starskiff that could transform at will would have been far more impressive...
+::{{DIcon|Arrow}} Your customers are bad news.
+:::<!--Custom String Listener: TalkSentence_404020285-->
+:::'''Ziqiao:''' You're saying that one of our customers might have made unauthorized modifications to the cycranes? There are loads of weird people on the Xianzhou Luofu. It's possible that someone went off the deep end and wanted to stir some trouble...
+::<!--Custom String Trigger: TalkSentence_404020286-->
+::<!--Custom String Listener: TalkSentence_404020286-->
+::'''Ziqiao:''' If that's the case, can I have you keep an eye out for me? If you come across any "malfunctioning cycranes," please bring them back. Is that OK?
+::<!--Custom String Trigger: Wait_Option_404020202_59-->
+::<!--Custom String Listener: Wait_Option_404020202_59-->
+::{{DIcon|Talk}} I came to find you because I wanted a reward.
+:::<!--Custom String Listener: TalkSentence_404020288-->
+:::'''Ziqiao:''' I haven't prepared any reward to give you... I might have been able to get something together if you said something earlier.
+:::'''Ziqiao:''' ...Well. If you don't mind, I can treat you to a glass of Immortal's Delight.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any leads?
+:::<!--Custom String Listener: TalkSentence_404020291-->
+:::'''Ziqiao:''' I've only just learned of this issue. How would I have any leads? I need to find time to investigate the matter.
+:::'''Ziqiao:''' Talk to me a little later.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I'll do my best.
+:::<!--Custom String Listener: TalkSentence_404020294-->
+:::'''Ziqiao:''' Great. I have a glass of unopened Immortal's Delight. I'll give it to you.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404020202_Finish-->
+;(If {{cx}}<!--SubMission Started: 404021701--> and {{cx}}<!--SubMission Started: 404020202-->)
+:{{DIcon|?}} I found all the cycranes...
+::<!--Trigger PerformanceE 404021701: Config/Level/Mission/4040217/Act/Act404021701.json-->
+::'''Ziqiao:''' Yes, yes, we've got all in the records here. All the missing cycranes have returned.
+::'''Ziqiao:''' Here's a thank-you gift from the Heron Express for being our ace cycrane catcher.
+::'''Ziqiao:''' Of course, you've mentioned before that these cycranes are actually equipped with intelligence &mdash; we've verified that this is indeed true. Every cycrane can produce coherent speech. It's quite astonishing.
+::{{DIcon|Arrow}} You won't wipe their intelligence, will you?
+:::<!--Custom String Listener: TalkSentence_404021706-->
+:::'''Ziqiao:''' Who do you take us for here at Heron Express? We'd never do anything of the sort.
+:::'''Ziqiao:''' They're required to undergo recruit training and as long as they don't break the law and can handle everyday work, who cares if cycranes have a little intelligence? I mean, lots of bots at the IPC have intelligence these days.
+::{{DIcon|Arrow}} You must have realized that the first time one of them flew back.
+:::<!--Custom String Listener: TalkSentence_404021709-->
+:::'''Ziqiao:''' Yes, but back then many of us had never even seen a cycrane speak before. We kept chatting with it until it became depressed.
+:::'''Ziqiao:''' Then it didn't speak for a long time, and it wasn't until the other cycranes came back to the system that we were able to verify everything.
+::<!--Custom String Trigger: TalkSentence_404021711-->
+::<!--Custom String Listener: TalkSentence_404021711-->
+::'''Ziqiao:''' We analyzed the missing cycranes' flight trajectories prior to losing contact. Once all the other flight paths were accounted for, there was only one suspicious trajectory left.
+::'''Ziqiao:''' We tried getting in touch many times, but it wasn't willing to respond at all.
+::{{DIcon|Arrow}} Did you go and make a claim for a refund?
+:::<!--Custom String Listener: TalkSentence_404021714-->
+:::'''Ziqiao:''' Thanks to you, we didn't even end up suffering any damage &mdash; so we didn't need any compensation.
+:::'''Ziqiao:''' But everyone still felt that they couldn't just act as if nothing had happened... In the final analysis, we just wanted to ask their designer why courier cycranes had been imbued with the gift of intelligence.
+:::'''Ziqiao:''' Since the designer was unwilling to give us a reply, we thought of you...
+::{{DIcon|Arrow}} Report this kind of thing to the Realm-Keeping Commission, ASAP!
+:::<!--Custom String Listener: TalkSentence_404021718-->
+:::'''Ziqiao:''' We're not keen on involving the Realm-Keeping Commission here. And thanks to you, we didn't even end up suffering any damage.
+:::'''Ziqiao:''' But everyone still felt that they couldn't just act as if nothing had happened... In the final analysis, we just wanted to ask their designer why courier cycranes had been imbued with the gift of intelligence.
+:::'''Ziqiao:''' Since the designer was unwilling to give us a reply, we thought of you...
+::{{DIcon|Arrow}} Don't tell me you're asking for my help once more?
+:::<!--Custom String Listener: TalkSentence_404021722-->
+:::'''Ziqiao:''' You guessed correctly. You're the first person we thought of.
+:::'''Ziqiao:''' We just wanted to ask the cycrane designer why courier cycranes had been imbued with the gift of intelligence.
+::<!--Custom String Trigger: Wait_Option_404021701_38-->
+::<!--Custom String Listener: Wait_Option_404021701_38-->
+::{{DIcon|Arrow}} I'm curious, too!
+:::<!--Custom String Listener: TalkSentence_404021725-->
+:::'''Ziqiao:''' I know, right?
+::{{DIcon|Arrow}} Some things are better off left unknown.
+:::<!--Custom String Listener: TalkSentence_404021727-->
+:::'''Ziqiao:''' No way. My curiosity is going to torment me until I find out.
+::{{DIcon|Arrow}} Maybe the designer just wanted to troll us?
+:::<!--Custom String Listener: TalkSentence_404021729-->
+:::'''Ziqiao:''' "Just wanted to troll us," sure &mdash; I would be okay with that. I just want a definite answer here.
+::<!--Custom String Trigger: TalkSentence_404021730-->
+::<!--Custom String Listener: TalkSentence_404021730-->
+::'''Ziqiao:''' As the ace cycrane catcher, I'd like you to write them a letter asking why. Of course, we'll protect any private information from being disclosed... But for sure we'll send the letter over.
+::Ziqiao presents a letter prepared by Heron Express. As Ziqiao said, the contents are sincere with no intent of placing any blame... All it's missing is a signature to sign off.
+::{{DIcon|Arrow}} (Use "(Trailblazer)")
+:::<!--Custom String Listener: 404021701_PlayerName-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 24,
+	"Value": "2"
+}</pre>
+::{{DIcon|Arrow}} You all have really thought this through this to the smallest detail!
+:::<!--Custom String Listener: TalkSentence_404021735-->
+:::'''Ziqiao:''' ...Actually, if you refused to sign it, we're planning on sending it from the "Ace Cycrane Catcher".
+:::'''Ziqiao:''' Well then, are you going to sign it?
+:::{{DIcon|Arrow}} (Use "(Trailblazer)")
+::::<!--Custom String Listener: 404021701_PlayerName-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 24,
+	"Value": "2"
+}</pre>
+:::{{DIcon|Arrow}} I'm not signing it. You guys write whatever you want.
+::::<!--Custom String Listener: TalkSentence_404021740-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 24,
+	"Value": "1"
+}</pre>
+::::'''Ziqiao:''' Alright, I'll fill you in if there's any good news.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404021701_Finish-->
+;(If {{cx}}<!--SubMission Started: 404021902-->, {{cx}}<!--SubMission Started: 404021701-->, and {{cx}}<!--SubMission Started: 404020202-->)
+:{{DIcon|?}} I think you've got one of my gifts over there.
+::<!--Trigger PerformanceE 404021902: Config/Level/Mission/4040219/Act/Act404021902.json-->
+::'''Ziqiao:''' Correct, one of our users has sent it over for you. We know how everything's gone from start to end.
+::'''Ziqiao:''' Well, that's something I didn't expect.
+::'''Ziqiao:''' I guess the Xianzhou has lots of homebodies who never leave the house... In this case, there're many people whose lives would be far more difficult without the help of Heron Express.
+::'''Ziqiao:''' ...Sounds like it makes the job even more worthwhile for you.
+::'''Ziqiao:''' Don't worry. Those seven cycranes know the reason, and they'll stop in on that customer whenever they get the chance.
+::'''Ziqiao:''' Oh yeah, this is a gift from one of our customers. Hold onto it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404021902_Finish-->
+;(If {{cx}}<!--SubMission Started: 404022302-->, {{cx}}<!--SubMission Started: 404021902-->, {{cx}}<!--SubMission Started: 404021701-->, and {{cx}}<!--SubMission Started: 404020202-->)
+:{{DIcon|?}} I'm picking something up.
+::<!--Trigger PerformanceE 404022602: Config/Level/Mission/4040226/Act/Act404022602.json-->
+::'''Ziqiao:''' Alright, give me the collection code please.
+::<!--Custom String Trigger: ConsumeItem_140188-->
+::<!--Custom String Listener: ConsumeItem_140188-->
+:<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140188
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140188,
+			"TriggerCustomString": "TalkSentence_412260203"
+		}
+	],
+	"SlotNum": 1,
+	"SimpleTalk": {},
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_404022602-->
+:{{DIcon}} There're still some things I'd like to talk about.
+::<!--Trigger PerformanceE 502011502: Config/Level/NPC/W2/NPC_DefaultStory_502011502.json-->
+::'''Ziqiao:''' Alright. I don't mind if we're just talking about work.
+::<!--Custom String Trigger: Wait_Option_502011502_34-->
+::<!--Custom String Listener: Wait_Option_502011502_34-->
+::{{DIcon|Talk}} What do you usually get up to around here?
+:::<!--Custom String Listener: TalkSentence_502115103-->
+:::'''Ziqiao:''' I get asked that a lot, actually. After all, with this many cycranes aboard the Xianzhou, what do you need manual labor like me for?
+:::'''Ziqiao:''' In actual fact, much of our work relies on human workforce: Inspecting goods, deploying cycrane routes, cycrane maintenance... plus all those pesky abandoned boxes you've seen on the streets...
+:::'''Ziqiao:''' Oh yeah &mdash; there's another job that can only be done manually, and that's never going to change: Handling customer service complaints.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is it true that you can really mail anything?
+:::<!--Custom String Listener: TalkSentence_502115107-->
+:::'''Ziqiao:''' Sure. Our slogan is "Heron Express &mdash; We Mail Anything," but we reserve the right of final interpretation.
+:::'''Ziqiao:''' We usually recommend that you avoid using robots if you're sending anything fragile or important. Instead, we recommend that you hire an armed escort service.
+:::'''Ziqiao:''' Before you finalize your order with us, please make sure you read our shipping regulations.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Logistics on Xianzhou is really something else.
+:::<!--Custom String Listener: TalkSentence_502115111-->
+:::'''Ziqiao:''' I know, right? You Outworlders have a much clearer perspective on this stuff than the Xianzhou natives. I'm always hearing old cranks say "Xianzhou is lifeless and never changes," but I disagree.
+:::'''Ziqiao:''' It's just a hunch, but I've grown busier and busier these past two hundred years. Can you imagine? Around 150 years ago, down at the busy Starskiff Haven zone, we'd only be able to handle over 6400 cycrane deliveries per day.
+:::'''Ziqiao:''' But just yesterday, there were... let me see... over 70,000 deployments over Starskiff Haven! And that's on a work day! Such a huge change in just 150 years.
+:::{{DIcon|Arrow}} That's easy to miss if you're not paying attention. You've got quite the eye.
+:::{{DIcon|Arrow}} The logistics industry is becoming more and more important these days.
+:::<!--Custom String Listener: TalkSentence_502115116-->
+:::'''Ziqiao:''' You must also find that the more developed and convenient a city becomes, the more its citizens come to rely on logistical support. Today, Xianzhou can't afford to pause onboard logistics, and our burden is even heavier.
+:::'''Ziqiao:''' Xianzhou is a massive giant, and our logistics system is its blood vessels. Our couriers keep its heart beating. Whenever I think of this, I'm filled with the feeling of being truly alive.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all. Keep up the good work.
+:::<!--Custom String Listener: TalkSentence_502115119-->
+:::'''Ziqiao:''' Be careful out there, and remember &mdash; our slogan is "Heron Express &mdash; We Mail Anything."
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502011502-->
+:{{DIcon|Exit}} That's all. Keep up the good work.
+::'''Ziqiao:''' Be careful out there, and remember &mdash; our slogan is "Heron Express &mdash; We Mail Anything."
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_412260203)
+:<!--Custom String Listener: TalkSentence_412260203-->
+::'''Ziqiao:''' Let me see... Not a problem, here you go. But you do know this item is cash-on-delivery, right? It's... 1000 credits, please.
+::{{DIcon|Arrow}} Cash-on-delivery?
+::{{DIcon|Arrow}} Could there be a mistake?
+::{{DIcon|Arrow}} C'mon, it's a chest!
+::<!--Custom String Listener: TalkSentence_412260207-->
+::'''Ziqiao:''' Okay, I'll check that again for you... And it's no mistake. Please pay first, and then I'll be able to release the item to you. Of course, you're welcome to decline, and I can just return it to the sender.
+::{{DIcon|Arrow}} Alright, here's the money.
+:::<!--Custom String Listener: TalkSentence_412260209-->
+:::'''Ziqiao:''' Okay, payment received. Please take your item~
+:::You open up the parcel and see a stored-value card from the IPC just lying there, with a face value of 1000 credits.
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404022302,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 1
+}</pre>
+::{{DIcon|Exit}} I refuse.
+:::<!--Custom String Listener: TalkSentence_412260212-->
+:::'''Ziqiao:''' Alright, but in that case there's a return fee. It's 1000 credits.
+:::{{DIcon|Arrow}} And why?
+:::{{DIcon|Arrow}} Can't that be cash-on-return, too?
+:::<!--Custom String Listener: TalkSentence_412260215-->
+:::'''Ziqiao:''' This parcel is cash-on-delivery, so returns can't be cash-on-return, I'm afraid... Otherwise, we'd be on the hook for any losses if the debt's reneged on.
+:::'''Ziqiao:''' I'm sorry, but that's in our rules and regulations.
+:::{{DIcon|Arrow}} Let me think...
+:::<!--Custom String Listener: TalkSentence_412260218-->
+:::'''Ziqiao:''' No problem. Take your time.
+::{{DIcon|Exit}} Let me think...
+:::<!--Custom String Listener: TalkSentence_412260220-->
+:::'''Ziqiao:''' No problem. Take your time.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Ziqiao
+|zhs  = 梓桥
+|zht  = 梓橋
+|ja   = 梓橋
+|ko   = 재교
+|es   = Ziqiao
+|fr   = Ziqiao
+|ru   = Цзыцяо
+|th   = Ziqiao
+|vi   = Ziqiao
+|de   = Ziqiao
+|id   = Ziqiao
+|pt   = Ziqiao
+}}
+==Change History==
+{{Change History|TODO}}

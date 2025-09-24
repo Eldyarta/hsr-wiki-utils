@@ -1,0 +1,478 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wen Shiqi#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Internal Purchase Officer
+|image           = NPC Wen Shiqi.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Wen Shiqi''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_63_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200013203,
+		"Type": "submission_state_equal",
+		"Param1": 200013203,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200013203: Config/Level/Mission/2000132/Act/Act200013203.json-->
+:'''Wen Shiqi:''' Back already? You're fast! Here, I have plenty of blank space in this ledger. Let's see what you managed to capture.
+:<!--Custom String Trigger: 200013203_Op-->
+:<!--Custom String Listener: 200013203_Op-->
+:{{DIcon|Talk}} The Astral Express.
+::<!--Custom String Listener: TalkSentence_200013257-->
+::'''Wen Shiqi:''' Well, strictly speaking, the Express isn't part of the space station.
+::'''Wen Shiqi:''' Hey, you're one of the Express folk, right? I'll do you a favor and add its damages to the books!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} The broken robot.
+::<!--Custom String Listener: TalkSentence_200013260-->
+::'''Wen Shiqi:''' A streamlined body. A silver-white metallic luster...
+::'''Wen Shiqi:''' Is this the robot that Asta ordered? I have to admit... She has great taste!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Are these enough?
+::<!--Custom String Listener: TalkSentence_200013263-->
+::'''Wen Shiqi:''' More or less. I've put it all in the ledger, you can take a look now.
+::<!--Custom String Trigger: TalkSentence_200013264-->
+::<!--Custom String Listener: TalkSentence_200013264-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190147
+		}
+	}
+}</pre>
+::'''Wen Shiqi:''' Are you done yet? Don't just nose around. There are only a few lines that concern you. And if there's nothing wrong, I'll take the photos.
+::{{DIcon|Arrow}} There are thousands of items on that list!
+:::<!--Custom String Listener: TalkSentence_200013266-->
+:::'''Wen Shiqi:''' You don't say! And IPC will reimburse every one of them. There's no need to be coy about it.
+::{{DIcon|Arrow}} It seems like there's something odd about that list.
+:::<!--Custom String Listener: TalkSentence_200013268-->
+:::'''Wen Shiqi:''' Odd? IPC will reimburse us for everything, there's no need to be coy about it with them.
+::{{DIcon|Arrow}} Shiqi Megascope?
+:::<!--Custom String Listener: TalkSentence_200013270-->
+:::'''Wen Shiqi:''' Yes, even though it only got bumped slightly in the corner, it still counts as damage. In any case, IPC will reimburse us for everything, so there's no need to be coy about it.
+:::'''Wen Shiqi:''' With the thousands of things listed here, who's going to know the difference unless they check every one?
+::<!--Custom String Trigger: TalkSentence_200013271-->
+::<!--Custom String Listener: TalkSentence_200013271-->
+::'''Wen Shiqi:''' Okay, I'll sort out the ledger for submission later. You should go get some rest.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_200013203-->
+;(Unused &mdash; TalkSentence_200013253)
+:<!--Custom String Listener: TalkSentence_200013253-->
+::'''Wen Shiqi:''' That's some hefty damage...
+::'''Wen Shiqi:''' I've heard rumors of a horrific monster that sneaked in during the invasion. It is said to prey on the lowest-performing researchers.
+::'''Wen Shiqi:''' Just thinking about it gives me jitters. I hope I never cross paths with it.
+::<!--Custom String Trigger: 200013203_Op-->
+::<!--Custom String Listener: 200013203_Op-->
+::{{DIcon|Talk}} The Astral Express.
+:::<!--Custom String Listener: TalkSentence_200013257-->
+:::'''Wen Shiqi:''' Well, strictly speaking, the Express isn't part of the space station.
+:::'''Wen Shiqi:''' Hey, you're one of the Express folk, right? I'll do you a favor and add its damages to the books!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The broken robot.
+:::<!--Custom String Listener: TalkSentence_200013260-->
+:::'''Wen Shiqi:''' A streamlined body. A silver-white metallic luster...
+:::'''Wen Shiqi:''' Is this the robot that Asta ordered? I have to admit... She has great taste!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are these enough?
+:::<!--Custom String Listener: TalkSentence_200013263-->
+:::'''Wen Shiqi:''' More or less. I've put it all in the ledger, you can take a look now.
+:::<!--Custom String Trigger: TalkSentence_200013264-->
+:::<!--Custom String Listener: TalkSentence_200013264-->
+::<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190147
+		}
+	}
+}</pre>
+:::'''Wen Shiqi:''' Are you done yet? Don't just nose around. There are only a few lines that concern you. And if there's nothing wrong, I'll take the photos.
+:::{{DIcon|Arrow}} There are thousands of items on that list!
+::::<!--Custom String Listener: TalkSentence_200013266-->
+::::'''Wen Shiqi:''' You don't say! And IPC will reimburse every one of them. There's no need to be coy about it.
+:::{{DIcon|Arrow}} It seems like there's something odd about that list.
+::::<!--Custom String Listener: TalkSentence_200013268-->
+::::'''Wen Shiqi:''' Odd? IPC will reimburse us for everything, there's no need to be coy about it with them.
+:::{{DIcon|Arrow}} Shiqi Megascope?
+::::<!--Custom String Listener: TalkSentence_200013270-->
+::::'''Wen Shiqi:''' Yes, even though it only got bumped slightly in the corner, it still counts as damage. In any case, IPC will reimburse us for everything, so there's no need to be coy about it.
+::::'''Wen Shiqi:''' With the thousands of things listed here, who's going to know the difference unless they check every one?
+:::<!--Custom String Trigger: TalkSentence_200013271-->
+:::<!--Custom String Listener: TalkSentence_200013271-->
+:::'''Wen Shiqi:''' Okay, I'll sort out the ledger for submission later. You should go get some rest.
+:::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 200013201,
+		"Type": "submission_state_equal",
+		"Param1": 200013201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200013201: Config/Level/Mission/2000132/Act/Act200013201.json-->
+:'''Wen Shiqi:''' The majestic Legion, the chaos in Herta, the Curio Cabinet... We can never seem to get a break from it all~
+:'''Wen Shiqi:''' Time to bid farewell to research, and retire to a quiet, leisurely life~
+:{{DIcon|Arrow}} Ahem, excuse me.
+::<!--Custom String Listener: TalkSentence_200013204-->
+::'''Wen Shiqi:''' Who are you? Didn't you see I was singing? Where are your manners?
+:{{DIcon|Arrow}} Happy and free~
+::<!--Custom String Listener: TalkSentence_200013206-->
+::'''Wen Shiqi:''' Ah, I see you're a {{MC|f=lady|m=man}} of culture as well. You've also come out here to unwind, and even picked the same spot as me.
+:<!--Custom String Trigger: TalkSentence_200013207-->
+:<!--Custom String Listener: TalkSentence_200013207-->
+:'''Wen Shiqi:''' It's not often you get the chance to waste time like this. Enjoy it while you can!
+:'''Wen Shiqi:''' If not for all the turmoil going on, I would still be locked up in the cabin doing their so-called research.
+:'''Wen Shiqi:''' I've already made it this far, and with a full head of hair at that. No need to worry about other people living better than you, the worst that can happen is we all perish together.
+:'''Wen Shiqi:''' Look at it this way. Even if there's a neutrino burst that heralds destruction, it's still worth it to see such a beautiful sight.
+:'''Wen Shiqi:''' I'm so happy now to be able to freely waste my own life, just... so... happy~
+:{{DIcon|Arrow}} Do you need help with anything?
+::<!--Custom String Listener: TalkSentence_200013213-->
+::'''Wen Shiqi:''' What do you say? You've already shared some of my joy, so you may as well share some of my chores!
+:{{DIcon|Arrow}} Well I'm off, then.
+::<!--Custom String Listener: TalkSentence_200013215-->
+::'''Wen Shiqi:''' Wait a second! You've already shared some of my joy, shouldn't you return the favor?
+::'''Wen Shiqi:''' I happen to have a job on my hands that you could help out with.
+:<!--Custom String Trigger: TalkSentence_200013216-->
+:<!--Custom String Listener: TalkSentence_200013216-->
+:'''Wen Shiqi:''' We in the Department of Implement Arts have received orders to take stock of the various losses of the space station. That includes evaluating areas like the railway platform.
+:'''Wen Shiqi:''' All assets damaged by the Legion in the area, whether mobile or immobile, must be {{Color|keyword|nobold=1|photographed}} and reported to IPC.
+:'''Wen Shiqi:''' My hands are full already, so why don't you lend me one? Don't worry, there'll be something in it for you too.
+:{{DIcon|Arrow}} I'll be on my way then.
+::<!--Custom String Listener: TalkSentence_200013221-->
+::'''Wen Shiqi:''' Hmm. And I'll be waiting for you here, humming some tunes~
+:{{DIcon|Arrow}} Maybe you can do some stargazing in the meantime.
+::<!--Custom String Listener: TalkSentence_200013223-->
+::'''Wen Shiqi:''' Smart mouth you've got there! You just worry about getting those photos. I'll be waiting for you here, humming some tunes~
+:<!--Custom String Trigger: TalkSentence_200013224-->
+:<!--Custom String Listener: TalkSentence_200013224-->
+:'''Wen Shiqi:''' The cosmos is indeed a sight to behold.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_200013201-->
+<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 63,
+	"ConfigID": 400001
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.ShowWorldShop",
+	"ShopType": 13,
+	"ShopID": 401
+}</pre>
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Wait_Option_500010118_1007-->
+:<!--Custom String Listener: Wait_Option_500010118_1007-->
+:{{DIcon|Talk}} You look like someone from the IPC.
+::<!--Custom String Listener: TalkSentence_500011515-->
+::'''Wen Shiqi:''' IPC? Let me remind you, I'm a Lv. 2 researcher at the Department of Implement Arts, okay? Level 2! Can you even comprehend how much a Lv. 2 researcher is worth? I'm just handling the internal purchase system for space station staff.
+::'''Wen Shiqi:''' Can't help it. No rest for the capable. I'm notoriously popular around the Department of Implement Arts, so everyone leaves the important job of liaising with the IPC over to me!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Internal purchase system? What's that?
+::<!--Custom String Listener: TalkSentence_500011521-->
+::'''Wen Shiqi:''' You've come to the right place. That's my line of work. Just as the name suggests, it's a purchase system subcontracted to the IPC that's only available for space station staff.
+::'''Wen Shiqi:''' There's some pretty cool and useful stuff in there, especially if you're doing research. It's just... The only currency it accepts at the moment is Hertareum.
+::'''Wen Shiqi:''' And it's an exclusive supply, if you get my drift... The whole thing is designed to recycle Hertareum. You can't actually say that to anyone, though.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What kind of research do you usually do?
+::<!--Custom String Listener: TalkSentence_500011526-->
+::'''Wen Shiqi:''' Oh, come on, can you please not talk about work while I'm taking a break?
+::'''Wen Shiqi:''' What? Are you saying this is working hours too? You are surprisingly stubborn. Do you think working hours and non-working hours are specified by a timetable? At this rate, your hairline will recede before you turn 30.
+::'''Wen Shiqi:''' If all you want is to talk about research, just grab any researcher. Don't ruin my joy of slacking off.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500011530-->
+::'''Wen Shiqi:''' Chatting is also a way of resting. Come chat with me if you are interested. I'll be very happy to talk about anything as long as it's not about research.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Wen Shiqi:''' We meet again. Are you here for a vacation this time? Feel free to take the seat next to me and have a break.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Wen Shiqi:''' Chatting is also a way of resting. Come chat with me if you are interested. I'll be very happy to talk about anything as long as it's not about research.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000017: Config/Level/NPC/W0/NPC_DefaultStory_500001501.json-->
+::<!--Custom String Trigger: TalkSentence_500011502-->
+::<!--Custom String Listener: TalkSentence_500011502-->
+::'''Wen Shiqi:''' Let me double-check everything: Research topic, no progress; research progress report meeting, canceled last minute; performance review criteria, under evaluation...
+::'''Wen Shiqi:''' Good! Everything's in place! Now, this is the best time for scientific research.
+::'''Wen Shiqi:''' Uh-huh... I don't think I've seen you before. Nevertheless, it seems to be our fate to meet each other like this, especially during the leisure time away from work.
+::<!--Custom String Trigger: Wait_Option_500010118_994-->
+::<!--Custom String Listener: Wait_Option_500010118_994-->
+::{{DIcon|Arrow}} You don't look very busy.
+:::<!--Custom String Listener: TalkSentence_500011506-->
+:::'''Wen Shiqi:''' That's not true. How busy I am should not be judged by any existing projects, but whether any brainstorming is happening in my head. This is my work philosophy.
+:::'''Wen Shiqi:''' Although I may seem pretty leisurely, deep down I do care a lot about the space station's restoration after the Legion invasion!
+:::'''Wen Shiqi:''' Have you noticed how intertwined my eyebrows are right now? That's how much I care about the space station.
+::{{DIcon|Arrow}} Don't you have work to do?
+:::<!--Custom String Listener: TalkSentence_500011510-->
+:::'''Wen Shiqi:''' What should be counted as work? Is it sitting behind a desk all day, devoting all your life to some random pieces of ill-defined data? Or racking your brain, trying to come up with a way to deliver convincing arguments for the sake of a performance review?
+:::'''Wen Shiqi:''' Outward appearance doesn't say anything about your work attitude. If your mind is not in work mode, how is it any different from slacking off at work?
+:::'''Wen Shiqi:''' Similarly, thinking about work during your break is what should be considered as true devotion to your work. You got it?
+::<!--Custom String Trigger: Wait_Option_500010118_1004-->
+::<!--Custom String Listener: Wait_Option_500010118_1004-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000018: Config/Level/NPC/W0/NPC_DefaultStory_500001500.json-->
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Wen Shiqi:''' We meet again. Are you here for a vacation this time? Feel free to take the seat next to me and have a break.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 200013203-->)
+:{{DIcon|undefined}} I took picture of everything.
+::<!--Trigger PerformanceE 200013203: Config/Level/Mission/2000132/Act/Act200013203.json-->
+::'''Wen Shiqi:''' Back already? You're fast! Here, I have plenty of blank space in this ledger. Let's see what you managed to capture.
+::<!--Custom String Trigger: 200013203_Op-->
+::<!--Custom String Listener: 200013203_Op-->
+::{{DIcon|Talk}} The Astral Express.
+:::<!--Custom String Listener: TalkSentence_200013257-->
+:::'''Wen Shiqi:''' Well, strictly speaking, the Express isn't part of the space station.
+:::'''Wen Shiqi:''' Hey, you're one of the Express folk, right? I'll do you a favor and add its damages to the books!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The broken robot.
+:::<!--Custom String Listener: TalkSentence_200013260-->
+:::'''Wen Shiqi:''' A streamlined body. A silver-white metallic luster...
+:::'''Wen Shiqi:''' Is this the robot that Asta ordered? I have to admit... She has great taste!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are these enough?
+:::<!--Custom String Listener: TalkSentence_200013263-->
+:::'''Wen Shiqi:''' More or less. I've put it all in the ledger, you can take a look now.
+:::<!--Custom String Trigger: TalkSentence_200013264-->
+:::<!--Custom String Listener: TalkSentence_200013264-->
+::<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190147
+		}
+	}
+}</pre>
+:::'''Wen Shiqi:''' Are you done yet? Don't just nose around. There are only a few lines that concern you. And if there's nothing wrong, I'll take the photos.
+:::{{DIcon|Arrow}} There are thousands of items on that list!
+::::<!--Custom String Listener: TalkSentence_200013266-->
+::::'''Wen Shiqi:''' You don't say! And IPC will reimburse every one of them. There's no need to be coy about it.
+:::{{DIcon|Arrow}} It seems like there's something odd about that list.
+::::<!--Custom String Listener: TalkSentence_200013268-->
+::::'''Wen Shiqi:''' Odd? IPC will reimburse us for everything, there's no need to be coy about it with them.
+:::{{DIcon|Arrow}} Shiqi Megascope?
+::::<!--Custom String Listener: TalkSentence_200013270-->
+::::'''Wen Shiqi:''' Yes, even though it only got bumped slightly in the corner, it still counts as damage. In any case, IPC will reimburse us for everything, so there's no need to be coy about it.
+::::'''Wen Shiqi:''' With the thousands of things listed here, who's going to know the difference unless they check every one?
+:::<!--Custom String Trigger: TalkSentence_200013271-->
+:::<!--Custom String Listener: TalkSentence_200013271-->
+:::'''Wen Shiqi:''' Okay, I'll sort out the ledger for submission later. You should go get some rest.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_200013203-->
+;(If {{cx}}<!--SubMission Started: 200013201--> and {{cx}}<!--SubMission Started: 200013203-->)
+:{{DIcon|undefined}} I heard you need help here.
+::<!--Trigger PerformanceE 200013201: Config/Level/Mission/2000132/Act/Act200013201.json-->
+::'''Wen Shiqi:''' The majestic Legion, the chaos in Herta, the Curio Cabinet... We can never seem to get a break from it all~
+::'''Wen Shiqi:''' Time to bid farewell to research, and retire to a quiet, leisurely life~
+::{{DIcon|Arrow}} Ahem, excuse me.
+:::<!--Custom String Listener: TalkSentence_200013204-->
+:::'''Wen Shiqi:''' Who are you? Didn't you see I was singing? Where are your manners?
+::{{DIcon|Arrow}} Happy and free~
+:::<!--Custom String Listener: TalkSentence_200013206-->
+:::'''Wen Shiqi:''' Ah, I see you're a {{MC|f=lady|m=man}} of culture as well. You've also come out here to unwind, and even picked the same spot as me.
+::<!--Custom String Trigger: TalkSentence_200013207-->
+::<!--Custom String Listener: TalkSentence_200013207-->
+::'''Wen Shiqi:''' It's not often you get the chance to waste time like this. Enjoy it while you can!
+::'''Wen Shiqi:''' If not for all the turmoil going on, I would still be locked up in the cabin doing their so-called research.
+::'''Wen Shiqi:''' I've already made it this far, and with a full head of hair at that. No need to worry about other people living better than you, the worst that can happen is we all perish together.
+::'''Wen Shiqi:''' Look at it this way. Even if there's a neutrino burst that heralds destruction, it's still worth it to see such a beautiful sight.
+::'''Wen Shiqi:''' I'm so happy now to be able to freely waste my own life, just... so... happy~
+::{{DIcon|Arrow}} Do you need help with anything?
+:::<!--Custom String Listener: TalkSentence_200013213-->
+:::'''Wen Shiqi:''' What do you say? You've already shared some of my joy, so you may as well share some of my chores!
+::{{DIcon|Arrow}} Well I'm off, then.
+:::<!--Custom String Listener: TalkSentence_200013215-->
+:::'''Wen Shiqi:''' Wait a second! You've already shared some of my joy, shouldn't you return the favor?
+:::'''Wen Shiqi:''' I happen to have a job on my hands that you could help out with.
+::<!--Custom String Trigger: TalkSentence_200013216-->
+::<!--Custom String Listener: TalkSentence_200013216-->
+::'''Wen Shiqi:''' We in the Department of Implement Arts have received orders to take stock of the various losses of the space station. That includes evaluating areas like the railway platform.
+::'''Wen Shiqi:''' All assets damaged by the Legion in the area, whether mobile or immobile, must be {{Color|keyword|nobold=1|photographed}} and reported to IPC.
+::'''Wen Shiqi:''' My hands are full already, so why don't you lend me one? Don't worry, there'll be something in it for you too.
+::{{DIcon|Arrow}} I'll be on my way then.
+:::<!--Custom String Listener: TalkSentence_200013221-->
+:::'''Wen Shiqi:''' Hmm. And I'll be waiting for you here, humming some tunes~
+::{{DIcon|Arrow}} Maybe you can do some stargazing in the meantime.
+:::<!--Custom String Listener: TalkSentence_200013223-->
+:::'''Wen Shiqi:''' Smart mouth you've got there! You just worry about getting those photos. I'll be waiting for you here, humming some tunes~
+::<!--Custom String Trigger: TalkSentence_200013224-->
+::<!--Custom String Listener: TalkSentence_200013224-->
+::'''Wen Shiqi:''' The cosmos is indeed a sight to behold.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_200013201-->
+;(If {{cx}}<!--SubMission Started: 200013201--> and {{cx}}<!--SubMission Started: 200013203-->)
+:{{DIcon|Shop}} What have you got for sale here, then?
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 63,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowWorldShop",
+	"ShopType": 13,
+	"ShopID": 401
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200013201--> and {{cx}}<!--SubMission Started: 200013203-->)
+:{{DIcon}} I've got something to ask you.
+::<!--Custom String Trigger: Wait_Option_500010118_1007-->
+::<!--Custom String Listener: Wait_Option_500010118_1007-->
+::{{DIcon|Talk}} You look like someone from the IPC.
+:::<!--Custom String Listener: TalkSentence_500011515-->
+:::'''Wen Shiqi:''' IPC? Let me remind you, I'm a Lv. 2 researcher at the Department of Implement Arts, okay? Level 2! Can you even comprehend how much a Lv. 2 researcher is worth? I'm just handling the internal purchase system for space station staff.
+:::'''Wen Shiqi:''' Can't help it. No rest for the capable. I'm notoriously popular around the Department of Implement Arts, so everyone leaves the important job of liaising with the IPC over to me!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Internal purchase system? What's that?
+:::<!--Custom String Listener: TalkSentence_500011521-->
+:::'''Wen Shiqi:''' You've come to the right place. That's my line of work. Just as the name suggests, it's a purchase system subcontracted to the IPC that's only available for space station staff.
+:::'''Wen Shiqi:''' There's some pretty cool and useful stuff in there, especially if you're doing research. It's just... The only currency it accepts at the moment is Hertareum.
+:::'''Wen Shiqi:''' And it's an exclusive supply, if you get my drift... The whole thing is designed to recycle Hertareum. You can't actually say that to anyone, though.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What kind of research do you usually do?
+:::<!--Custom String Listener: TalkSentence_500011526-->
+:::'''Wen Shiqi:''' Oh, come on, can you please not talk about work while I'm taking a break?
+:::'''Wen Shiqi:''' What? Are you saying this is working hours too? You are surprisingly stubborn. Do you think working hours and non-working hours are specified by a timetable? At this rate, your hairline will recede before you turn 30.
+:::'''Wen Shiqi:''' If all you want is to talk about research, just grab any researcher. Don't ruin my joy of slacking off.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500011530-->
+:::'''Wen Shiqi:''' Chatting is also a way of resting. Come chat with me if you are interested. I'll be very happy to talk about anything as long as it's not about research.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200013201--> and {{cx}}<!--SubMission Started: 200013203-->)
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Wen Shiqi:''' Chatting is also a way of resting. Come chat with me if you are interested. I'll be very happy to talk about anything as long as it's not about research.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_200013253)
+:<!--Custom String Listener: TalkSentence_200013253-->
+::'''Wen Shiqi:''' That's some hefty damage...
+::'''Wen Shiqi:''' I've heard rumors of a horrific monster that sneaked in during the invasion. It is said to prey on the lowest-performing researchers.
+::'''Wen Shiqi:''' Just thinking about it gives me jitters. I hope I never cross paths with it.
+::<!--Custom String Trigger: 200013203_Op-->
+::<!--Custom String Listener: 200013203_Op-->
+::{{DIcon|Talk}} The Astral Express.
+:::<!--Custom String Listener: TalkSentence_200013257-->
+:::'''Wen Shiqi:''' Well, strictly speaking, the Express isn't part of the space station.
+:::'''Wen Shiqi:''' Hey, you're one of the Express folk, right? I'll do you a favor and add its damages to the books!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The broken robot.
+:::<!--Custom String Listener: TalkSentence_200013260-->
+:::'''Wen Shiqi:''' A streamlined body. A silver-white metallic luster...
+:::'''Wen Shiqi:''' Is this the robot that Asta ordered? I have to admit... She has great taste!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are these enough?
+:::<!--Custom String Listener: TalkSentence_200013263-->
+:::'''Wen Shiqi:''' More or less. I've put it all in the ledger, you can take a look now.
+:::<!--Custom String Trigger: TalkSentence_200013264-->
+:::<!--Custom String Listener: TalkSentence_200013264-->
+::<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190147
+		}
+	}
+}</pre>
+:::'''Wen Shiqi:''' Are you done yet? Don't just nose around. There are only a few lines that concern you. And if there's nothing wrong, I'll take the photos.
+:::{{DIcon|Arrow}} There are thousands of items on that list!
+::::<!--Custom String Listener: TalkSentence_200013266-->
+::::'''Wen Shiqi:''' You don't say! And IPC will reimburse every one of them. There's no need to be coy about it.
+:::{{DIcon|Arrow}} It seems like there's something odd about that list.
+::::<!--Custom String Listener: TalkSentence_200013268-->
+::::'''Wen Shiqi:''' Odd? IPC will reimburse us for everything, there's no need to be coy about it with them.
+:::{{DIcon|Arrow}} Shiqi Megascope?
+::::<!--Custom String Listener: TalkSentence_200013270-->
+::::'''Wen Shiqi:''' Yes, even though it only got bumped slightly in the corner, it still counts as damage. In any case, IPC will reimburse us for everything, so there's no need to be coy about it.
+::::'''Wen Shiqi:''' With the thousands of things listed here, who's going to know the difference unless they check every one?
+:::<!--Custom String Trigger: TalkSentence_200013271-->
+:::<!--Custom String Listener: TalkSentence_200013271-->
+:::'''Wen Shiqi:''' Okay, I'll sort out the ledger for submission later. You should go get some rest.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wen Shiqi
+|zhs  = 温世齐
+|zht  = 溫世齊
+|ja   = 温世斉
+|ko   = 온세자
+|es   = Wen Shiqi
+|fr   = Wen&nbsp;Shiqi
+|ru   = Вэнь Шици
+|th   = Wen Shiqi
+|vi   = Wen Shiqi
+|de   = Wen Shiqi
+|id   = Wen Shiqi
+|pt   = Wen Shiqi
+}}
+==Change History==
+{{Change History|TODO}}

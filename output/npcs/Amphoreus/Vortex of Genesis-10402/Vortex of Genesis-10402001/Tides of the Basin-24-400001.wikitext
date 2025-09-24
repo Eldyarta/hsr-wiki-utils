@@ -1,0 +1,631 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tides of the Basin#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Tides of the Basin.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Vortex of Genesis
+|relatives       = 
+}}
+'''Tides of the Basin''' is an NPC on [[Amphoreus]], located in [[Vortex of Genesis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Vortex of Genesis|npc_24_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 104010414-->)
+::<!--Trigger PerformanceE 104010406: Config/Level/Mission/1040104/Act/Act104010406.json-->
+:<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "TitanAtlas"
+	}
+}</pre>
+::...The day is silent, and darkness has taken the stage...
+::...Flames rise higher, and drums fall like rain...
+::...Warriors soaked in golden blood, their cloaks tattered...
+::...Bronze shields you, and brass echoes my sorrow...
+::...
+::<!--Custom String Trigger: Tutorial_5513-->
+::{{DIcon|Shop}} Enter Tidal Bounty
+:::<!--Custom String Listener: TalkSentence_Shop-->
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 2
+}</pre>
+:::<!--Custom String Trigger: TalkSentence_End-->
+::{{DIcon|Loupe}} Listen to the Voice of Constellation
+:::<!--Custom String Listener: TalkSentence_Read-->
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+:::<!--Custom String Trigger: TalkSentence_End-->
+::{{DIcon|Exit}} Leave
+::<!--Custom String Listener: TalkSentence_End-->
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.PerformanceEndSeq",
+	"Cases": [
+		{
+			"Case": 2,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.ClientFinishMission",
+					"SubmissionID": 454050303
+				},
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "Ui.KraterSubmit.WorldShop.KraterWorldShopPage"
+					}
+				}
+			]
+		},
+		{
+			"Case": 1,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "Ui.KraterSubmit.TitanAtlas.TitanAtlasHandbookPage"
+					}
+				}
+			]
+		},
+		{
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.ClientFinishMission",
+					"SubmissionID": 454050303
+				}
+			]
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission not Started: 104010414-->)
+:;(If {{cx}}<!--SubMission Started: 454050302-->)
+:::<!--Trigger PerformanceE 504000002: Config/Level/Mission/5040000/Act/Act504000002.json-->
+:::Ripples start to form in the bowl... rolling endlessly... The murmuring water whispers of revelry, the undulating tidal patterns like tiny waves, like this small space has also become a roiling ocean...
+:::<!--Custom String Trigger: Mission_454050302-->
+:::'''Voice of the Tides:''' {{Size|36|Ahh absolute bliss! 'Tis the pinnacle of bliss!}}
+:::'''Voice of the Tides:''' Such long-awaited satisfaction, thank you, my dear! This ambrosia has sobered me up a little... The visage of your reflection is so good-looking that I can't help but get all stirred up...
+:::{{DIcon|Arrow}} Thanks for the compliment.
+:::{{DIcon|Arrow}} I think I'm very pretty too.
+:::<!--Custom String Listener: TalkSentence_504033206-->
+:::'''Voice of the Tides:''' Time... How long has passed? Oronyx, you move fast...
+:::'''Voice of the Tides:''' This starry sky... I see, she still hasn't given up... You are also a fool in this banquet...
+:::'''Voice of the Tides:''' Dance hard then... indulge hard... waste time hard... Little fishy that wants to swim to tomorrow...
+:::'''Voice of the Tides:''' When your banquet ends... the absurdity that you will see when you sober up will be the price of buying inebriation...
+:::{{DIcon|Arrow}} What are you even saying?
+:::{{DIcon|Arrow}} What the heck are you?
+:::{{DIcon|Arrow}} You speak less sense sober than when you're drunk.
+:::<!--Custom String Listener: TalkSentence_504033213-->
+:::'''Voice of the Tides:''' ...
+:::'''Voice of the Tides:''' Ambrosia... Ambrosia...
+:::The tide's voice is languid once more, its words fragmented like water splashes &mdash; it seems this basin's desire for liquid is insatiable, an ever-unquenchable patron of ambrosia.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Ui.KraterSubmit.WorldShop.KraterWorldShopPage-->
+:;(If {{cx}}<!--SubMission not Started: 454050302-->)
+::;(If {{Mission|Hero, Sing That Anthem of Creation|showChapter=0}} has been completed)
+:::;(If {{cx}}<!--performance 454050401 has been seen-->)
+:::::<!--Trigger PerformanceE 454050401: Config/Level/Mission/4540504/Act/Act454050401.json-->
+::::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045001
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045002
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045003
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+:::::'''Voice of the Tides:''' My dear... Celestial Ambrosia... Pour some in... I'll give you a present...
+:::::{{DIcon|Arrow}} Are you alright?
+::::::<!--Custom String Listener: TalkSentence_454050405-->
+::::::'''Voice of the Tides:''' No... it's so boring here... dark and cramped and small... it feels awful...
+:::::{{DIcon|Arrow}} Wake up... you've turned blue.
+::::::<!--Custom String Listener: TalkSentence_454050407-->
+::::::'''Voice of the Tides:''' Hmm? Blue... am I the ocean? Nah, hehe... you got drunk on ambrosia too... huh?
+:::::<!--Custom String Trigger: TalkSentence_454050408-->
+:::::<!--Custom String Listener: TalkSentence_454050408-->
+:::::'''Voice of the Tides:''' Never mind that. My dear... Bring ambrosia here... Treasures, relics, beauties... Take your pick...
+:::::'''(Trailblazer):''' (Can't it notice the changes around? Or is it simply... too intoxicated?)
+::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Rate": 0.5,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+:::::'''The Last Echo of Lygus:''' ...No documented cases of ambrosia completely overriding an individual's perception of external reality. Conjecture: The Nameless previously interacted with this entity, potentially affecting its cognitive functions...
+:::::'''(Trailblazer):''' (Is this... Lygus's observation memory?)
+::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+:::::'''Voice of the Tides:''' Ambrosia... bring me the ambrosia... I've got more treasures... for you... darling...
+:::::{{DIcon|Shop}} I brought something special today.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: Ui.KraterSubmit.WorldShop.KraterWorldShopPage2-->
+:::;(If {{cx}}<!--performance 454050401 has not been seen-->)
+:::::<!--Trigger PerformanceE 454050402: Config/Level/Mission/4540504/Act/Act454050402.json-->
+::::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045001
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045002
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045003
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+:::::'''Voice of the Tides:''' My dear... Did you bring me ambrosia? Hurry! I want a fresh drink...
+:::::{{DIcon|Shop}} Enter Tidal Bounty.
+::::::<!--Custom String Listener: TalkSentence_Shop-->
+::::::<!--Custom String Listener: TalkSentence_Shop-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 2
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 2
+}</pre>
+::::::<!--Custom String Trigger: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Loupe}} Listen to the Voice of Constellation.
+::::::<!--Custom String Listener: TalkSentence_Read-->
+::::::<!--Custom String Listener: TalkSentence_Read-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Chat with this basin.
+::::::<!--Custom String Listener: TalkSentence_454050435-->
+::::::'''Voice of the Tides:''' Chat... I can't... without something to drink...
+::::::<!--Custom String Trigger: Wait_Option_454050402_36-->
+::::::<!--Custom String Listener: Wait_Option_454050402_36-->
+::::::{{DIcon|Talk}} What are you?
+:::::::<!--Custom String Listener: TalkSentence_454050437-->
+:::::::'''Voice of the Tides:''' I am... What am I?
+:::::::'''Voice of the Tides:''' Oh yes, I am a drunk that can't sober up... No, I am a dancer frolicking among my loves... No, I am a king indulgent in desires of flesh...
+::::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Rate": 0.5,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+:::::::'''The Last Echo of Lygus:''' Not incoherent ramblings. Speculation: This sequence of definitions reflects "facts" from "discrete temporal instances"...
+:::::::'''The Last Echo of Lygus:''' ...Confirmed. These definitions correlate with the "Ocean" variant Chrysos Heir models in the {{Rubi|Experiment #287|287th Era Nova}}, {{Rubi|Experiment #8745|8745th Era Nova}}, and {{Rubi|Experiment #134,962|134,962nd Era Nova}}. Speculation substantiated.
+::::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Talk to me about ambrosia.
+:::::::<!--Custom String Listener: TalkSentence_454050442-->
+:::::::'''Voice of the Tides:''' Ambrosia... Celestial Ambrosia is supreme! Fermented with the land's body... encased in the sky's clouds... He's angry, heeheehee...
+::::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Rate": 0.5,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+:::::::'''The Last Echo of Lygus:''' It's capable of integrating with the model neural network, introducing disruptive noise into its cognitive decision-making logic. This aligns with the known concept &mdash;
+:::::::'''The Last Echo of Lygus:''' "Symmetrical Occupancy Logic Encoding," which is commonly termed, the "Deadlock."
+::::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Tell me about this place.
+:::::::<!--Custom String Listener: TalkSentence_454050446-->
+:::::::'''Voice of the Tides:''' Let me tell you, my dear... It wasn't like this in the past... The fish... they dance... The drunks... frolicking, dancing, frolicking...
+::::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Rate": 0.5,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+:::::::'''The Last Echo of Lygus:''' Fascinating. How might the Nameless influence the experiment if made aware of "its geospatial position is directly beneath the Styxia"?
+::::::<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/NoiseGlitch.asset"
+}</pre>
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Exit}} Enough. That's it for today.
+:::::::<!--Custom String Listener: TalkSentence_454050449-->
+:::::::'''Voice of the Tides:''' My dear... Bring ambrosia... Chat or otherwise... I'll accompany you...
+:::::::<!--Custom String Trigger: TalkSentence_454050451-->
+:::::::<!--Custom String Listener: TalkSentence_454050451-->
+:::::::'''Voice of the Tides:''' Next time... remember to bring ambrosia... More...
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Leave
+::::::<!--Custom String Listener: TalkSentence_454050451-->
+::::::'''Voice of the Tides:''' Next time... remember to bring ambrosia... More...
+::::::<!--Ends the current performance-->
+::::<pre>{
+	"$type": "RPG.GameCore.PerformanceEndSeq",
+	"Cases": [
+		{
+			"Case": 2,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "Ui.KraterSubmit.WorldShop.KraterWorldShopPage2"
+					}
+				}
+			]
+		},
+		{
+			"Case": 1,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "Ui.KraterSubmit.TitanAtlas.TitanAtlasHandbookPage"
+					}
+				}
+			]
+		}
+	]
+}</pre>
+::;(If {{Mission|Hero, Sing That Anthem of Creation|showChapter=0}} has not been completed)
+:::;(First interaction)
+:::::<!--Trigger PerformanceE 504045001: Config/Level/Mission/5040450/Act/Act504045001.json-->
+:::::...
+:::::*splssh* ... *splssh* ...The sounds of waves reach your ears once again...
+:::::You hear the gentle rolling of waves, their tumultuous surges, like an endless expanse of ocean contained in this small bowl. And strange whispers mingle amidst tidal roars...
+::::<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		504045001
+	]
+}</pre>
+:::::'''Voice of the Tides:''' Parched... So parched...
+:::::I'm hearing ghosts. How can water be thirsty... Wait, how can water be talking?!
+:::::'''Voice of the Tides:''' My dear... Celestial Ambrosia... Pour some in... I'll give you a present...
+:::::{{DIcon|Shop}} What gift is that? Lemme see.
+::::::<!--Custom String Listener: TalkSentence_Shop-->
+::::::<!--Custom String Listener: TalkSentence_Shop-->
+::::::<!--Custom String Listener: TalkSentence_Shop-->
+::::::'''Voice of the Tides:''' My dear... Bring ambrosia here... Treasures, relics, beauties... Take your pick...
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 2
+}</pre>
+::::::<!--Custom String Trigger: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+:::::{{DIcon|Loupe}} Ignore it. Listen to the Voice of Constellation
+::::::<!--Custom String Listener: TalkSentence_Read-->
+::::::<!--Custom String Listener: TalkSentence_Read-->
+::::::<!--Custom String Listener: TalkSentence_Read-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+:::::{{DIcon|Exit}} Creepy, I'm leaving.
+::::::<!--Custom String Listener: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+:::;(Subsequent interactions)
+:::::<!--Trigger PerformanceE 504045002: Config/Level/Mission/5040450/Act/Act504045002.json-->
+::::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045001
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045002
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504045003
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+:::::'''Voice of the Tides:''' My dear... Did you bring me ambrosia? Hurry...
+:::::{{DIcon|Shop}} Enter Tidal Bounty.
+::::::<!--Custom String Listener: TalkSentence_504033124-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 2
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Loupe}} Listen to the Voice of Constellation.
+::::::<!--Custom String Listener: TalkSentence_Read-->
+::::::<!--Custom String Listener: TalkSentence_Read-->
+::::::<!--Custom String Listener: TalkSentence_Read-->
+::::::<!--Custom String Listener: TalkSentence_Read-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+::::::<!--Ends the current performance-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::::::<!--Custom String Trigger: TalkSentence_End-->
+::::::<!--Custom String Listener: TalkSentence_End-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Chat with this basin.
+::::::<!--Custom String Listener: TalkSentence_504033105-->
+::::::'''Voice of the Tides:''' Chat... I can't... without something to drink...
+::::::<!--Custom String Trigger: Wait_Option_504045002_33-->
+::::::<!--Custom String Listener: Wait_Option_504045002_33-->
+::::::{{DIcon|Talk}} What are you?
+:::::::<!--Custom String Listener: TalkSentence_504033107-->
+:::::::'''Voice of the Tides:''' I am... What am I?
+:::::::'''Voice of the Tides:''' Oh yes, I am a drunk that can't sober up... No, I am a dancer frolicking among my loves... No, I am a king indulgent in desires of flesh...
+:::::::'''Voice of the Tides:''' Nononono... I am a fish in water, a big fish... Large, huge... So much ambrosia, tasty ambrosia all drank by the fish... Don't drink anymore... Mine... It's all mine, I want it...
+:::::::'''Voice of the Tides:''' I want... I want to go to the banquet in the giant fish's mouth... in... the sea! Yes, the sea! The sea in the drunkard's glass, the tyrant at the banquet inebriated by corals, the dancers embraced in locked kisses with rocky reefs!
+:::::::'''Voice of the Tides:''' Heehee... Haha... Hahahaha... I want ambrosia... Fill up the wine glass to its brim...
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Talk to me about ambrosia.
+:::::::<!--Custom String Listener: TalkSentence_504033113-->
+:::::::'''Voice of the Tides:''' Ambrosia... Celestial Ambrosia is supreme! Fermented with the land's body... encased in the sky's clouds... He's angry, heeheehee...
+:::::::'''Voice of the Tides:''' Wait... Wait... That does not belong to you! It's mine, all mine!
+:::::::'''Voice of the Tides:''' Give it back... to me... I was the one who shared it with you... Selfish mortals who are oblivious to reciprocation... are really...
+:::::::'''Voice of the Tides:''' Really... Hee, heeheehee... Really adorable... I love you all... Let's all drink up...
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Tell me about this place.
+:::::::<!--Custom String Listener: TalkSentence_504033118-->
+:::::::'''Voice of the Tides:''' A pointless place... No banquets, no music, no ambrosia... Pitch black... So small, so narrow... So uncomfortable...
+:::::::'''Voice of the Tides:''' But let me tell you, my dear... It wasn't like this in the past... The fishes... they dance... The drunks... frolicking, dancing, frolicking...
+:::::::'''Voice of the Tides:''' Merry, rowdy, ambrosia... Ambrosia... I want ambrosia...
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Exit}} Let's stop here.
+:::::::<!--Custom String Listener: TalkSentence_504033122-->
+:::::::'''Voice of the Tides:''' My dear... Bring ambrosia... Chat or otherwise... I'll accompany you...
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Leave
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+:::<pre>{
+	"$type": "RPG.GameCore.PerformanceEndSeq",
+	"Cases": [
+		{
+			"Case": 2,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "Ui.KraterSubmit.WorldShop.KraterWorldShopPage"
+					}
+				}
+			]
+		},
+		{
+			"Case": 1,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "Ui.KraterSubmit.TitanAtlas.TitanAtlasHandbookPage"
+					}
+				}
+			]
+		}
+	]
+}</pre>
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

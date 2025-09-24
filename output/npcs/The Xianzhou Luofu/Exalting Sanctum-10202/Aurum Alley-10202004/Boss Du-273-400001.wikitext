@@ -1,0 +1,328 @@
+<%-- [PAGE_INFO]
+PageTitle=#Boss Du#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Owner of Du's Teahouse
+|image           = NPC Boss Du.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Boss Du''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_273_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502058101: Config/Level/NPCDialogue/P10202/NPCAct/Act502058101.json-->
+::'''Boss Du:''' Welcome, customer. Would you like a mug of ninety-percent strong Flaming Potent Tea?
+::{{DIcon|Arrow}} You need to explain what is Flaming Potent Tea first.
+:::<!--Custom String Listener: TalkSentence_502058104-->
+:::'''Boss Du:''' Flaming Potent Tea is a tea that is combustible. I guess I don't have to explain what "tea" and "combustible" mean, right?
+::{{DIcon|Arrow}} Sure! I'm a tea-lover.
+:::<!--Custom String Listener: TalkSentence_502058106-->
+:::'''Boss Du:''' Please allow me to remind you that my tea is different from that made by the Sleepless Earl. In case you didn't catch it the first time, I want to emphasize this again &mdash; my Flaming Potent Tea is combustible.
+::<!--Custom String Trigger: Wait_Option_502058101_491-->
+::<!--Custom String Listener: Wait_Option_502058101_491-->
+::{{DIcon|Arrow}} Please elaborate what "tea" and "combustible" mean.
+:::<!--Custom String Listener: TalkSentence_502058108-->
+:::Boss Du lets out a deep sigh.
+:::'''Boss Du:''' ...All right. "Combustion" refers to the chemical reaction that occurs between a combustible material and an oxidizer when the former reaches its ignition point.
+:::'''Boss Du:''' As for "tea"... it usually refers to drinks made from plants. Different teas vary in taste. Flaming Potent Tea is characterized by its pungent and burning taste, and a unique process of production that includes fermentation and distillation. Therefore, drinking too much Flaming Potent Tea may be harmful to your health.
+:::{{DIcon|Arrow}} Alright. Stop muddling. This is alcohol, isn't it?
+::::<!--Custom String Listener: TalkSentence_502058112-->
+::::'''Boss Du:''' No, this is tea.
+::::'''Boss Du:''' According to the regulations issued by the Realm-Keeping Commission, we can only sell TEA to customers. I hope you can understand, dear customer.
+::::<!--Custom String Trigger: TalkSentence_502058120-->
+:::{{DIcon|Arrow}} Wonderful! This is exactly what I need.
+:::{{DIcon|Arrow}} If you say so.
+::::<!--Custom String Listener: TalkSentence_502058116-->
+::::'''Boss Du:''' Good, I can tell that you've understood the essence of Flaming Potent Tea. Why bother with its name, or its true composition? Just enjoy your life and drink away all your sorrows... with tea, of course.
+::::<!--Custom String Trigger: TalkSentence_502058120-->
+::{{DIcon|Arrow}} Alright. Stop muddling. This is alcohol, isn't it?
+:::<!--Custom String Listener: TalkSentence_502058118-->
+:::'''Boss Du:''' No, this is tea.
+:::'''Boss Du:''' According to the regulations issued by the Realm-Keeping Commission, we can only sell TEA to customers. I hope you can understand, dear customer.
+:::<!--Custom String Trigger: TalkSentence_502058120-->
+::<!--Custom String Listener: TalkSentence_502058120-->
+::'''Boss Du:''' Since you're a new face here, please accept this cup of Flaming Potent Tea as a token of my goodwill. It's on the house.
+::'''Boss Du:''' My tea house may be inconspicuous, but the most influential persons in Exalting Sanctum would come here for tea. Of course, you are free to take a seat here and share your stories.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502058301: Config/Level/NPCDialogue/P10202/NPCAct/Act502058301.json-->
+::'''Boss Du:''' My hand-brewed Flaming Potent Tea is flavorful and strong! Thank you for your continued visits. Would you like to buy some tea or just have a chat?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} Did you want something?
+::<!--Trigger PerformanceE 302020101: Config/Level/Mission/3020201/Act/Act302020101.json-->
+::'''Boss Du:''' Lately, I've been working on new flavors for my Flaming Potent Tea. Innovation is the key to business, you know.
+::'''Boss Du:''' Check out this new Midnight Cream Tea flavor I just developed. It sounds pretty catchy and tastes great, but its color might look a little unusual with so many ingredients.
+::'''Boss Du:''' But of course, boasting about it like this does not a fine tea make. I need feedback and suggestions from my customers.
+::'''Boss Du:''' Since you're here, why not try my new Midnight Cream Tea and let me know what you think?
+::{{DIcon|Arrow}} I'd love to! ...If it's free.
+:::<!--Custom String Listener: TalkSentence_302020107-->
+:::'''Boss Du:''' Of course it's free. If I can't cover the costs of research, development, and preliminary testing, what kind of business am I running?
+::{{DIcon|Arrow}} Can you guarantee my safety?
+:::<!--Custom String Listener: TalkSentence_302020109-->
+:::'''Boss Du:''' Don't worry. All my ingredients have passed the Realm-Keeping Commission's quality inspection. Plus, I've downed it a few times myself, and I'm still alive and kicking. What could possibly go wrong?
+::<!--Custom String Trigger: TalkSentence_302020110-->
+::<!--Custom String Listener: TalkSentence_302020110-->
+::'''Boss Du:''' Wait a few moments. Your tea will be ready in no time!
+::{{Black Screen|Boss Du pours the Midnight Cream Tea into your teacup.}}
+::'''Boss Du:''' Please enjoy!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020101-->
+;(If {{cx}}<!--SubMission Started: 302020201--> and {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} Did you want something?
+::<!--Trigger PerformanceE 302020201: Config/Level/Mission/3020202/Act/Act302020201.json-->
+::'''Boss Du:''' Lately, I've been trying to make something new with fresh herbs, vegetables, and fruits. After some setbacks, I've finally developed a new recipe.
+::'''Boss Du:''' This is the new flavor for Flaming Potent Tea. I've followed your suggestions from last time, and this one is sure to lift your spirits with its spicy kick.
+::'''Boss Du:''' Why don't you come over and give it a try?
+::{{Black Screen|Boss Du personally pours a cup of tea for you.}}
+::'''Boss Du:''' Here, feel free to give it a try, and if you feel like drinking more, there's plenty where that came from.
+::{{DIcon|Arrow}} Bottoms up!
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020201-->
+;(If {{cx}}<!--SubMission Started: 302020301-->, {{cx}}<!--SubMission Started: 302020201-->, and {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} Did you want something?
+::<!--Trigger PerformanceE 302020301: Config/Level/Mission/3020203/Act/Act302020301.json-->
+::'''Boss Du:''' Lately, I've been trying to make something new with fresh herbs, vegetables, and fruits. After some setbacks, I've finally developed a new recipe.
+::'''Boss Du:''' This is the new flavor for Flaming Potent Tea. I've followed your suggestions from last time, and this one is sure to lift your spirits with its spicy kick.
+::'''Boss Du:''' Why don't you come over and give it a try?
+::{{Black Screen|Boss Du personally pours a cup of tea for you.}}
+::'''Boss Du:''' Here, feel free to give it a try, and if you feel like drinking more, there's plenty where that came from.
+::{{DIcon|Arrow}} Bottoms up!
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020301-->
+;(If {{cx}}<!--SubMission Started: 302020401-->, {{cx}}<!--SubMission Started: 302020301-->, {{cx}}<!--SubMission Started: 302020201-->, and {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} Did you want something?
+::<!--Trigger PerformanceE 302020401: Config/Level/Mission/3020204/Act/Act302020401.json-->
+::'''Boss Du:''' Lately, I've been trying to make something new with fresh herbs, vegetables, and fruits. After some setbacks, I've finally developed a new recipe.
+::'''Boss Du:''' This is the new flavor for Flaming Potent Tea. I've followed your suggestions from last time, and this one is sure to lift your spirits with its spicy kick.
+::'''Boss Du:''' Why don't you come over and give it a try?
+::{{Black Screen|Boss Du personally pours a cup of tea for you.}}
+::'''Boss Du:''' Here, feel free to give it a try, and if you feel like drinking more, there's plenty where that came from.
+::{{DIcon|Arrow}} Bottoms up!
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020401-->
+;(If {{cx}}<!--SubMission Started: 302020404-->, {{cx}}<!--SubMission Started: 302020401-->, {{cx}}<!--SubMission Started: 302020301-->, {{cx}}<!--SubMission Started: 302020201-->, and {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} What was the tea I just tried?
+::<!--Trigger PerformanceE 302020404: Config/Level/Mission/3020204/Act/Act302020404.json-->
+::'''Boss Du:''' Oh, finally, you're back! I was so worried about you. You finished the tea and just stormed out &mdash; I thought you were irritated by it!
+::'''Boss Du:''' I tried to calm you down, but all you muttered was something about the "ultimate truth of the universe" and "the unified theory of maths." At any rate, I didn't understand a word!
+::'''Boss Du:''' You were walking unsteadily and stumbling, but now I see that you are safe and sound. I'm glad that nothing terrible happened.
+::'''Boss Du:''' ...So, how did you feel about that cup of tea? I'm sincerely sorry if it was a bad tasting experience.
+::{{DIcon|Arrow}} It's a little overwhelming...
+::{{DIcon|Arrow}} I don't even know what just happened.
+::<!--Custom String Listener: TalkSentence_302020448-->
+::'''Boss Du:''' Hmmm? From what you're saying, I assume the Flaming Potent Tea has got you a little carried away? I've seen customers who aren't used to it getting dizzy and talking nonsense after drinking my tea.
+::'''Boss Du:''' Perhaps that's why you acted weird... Looks like the Flaming Potent Tea was a bit too flaming and potent. I'll have to adjust the recipe.
+::'''Boss Du:''' I'll look into it later. Oh, and here's the compensation I promised. I'll give you a call once I've come up with something new.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020404-->
+;(If {{cx}}<!--SubMission Started: 302020501-->, {{cx}}<!--SubMission Started: 302020404-->, {{cx}}<!--SubMission Started: 302020401-->, {{cx}}<!--SubMission Started: 302020301-->, {{cx}}<!--SubMission Started: 302020201-->, and {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} Did you want something?
+::<!--Trigger PerformanceE 302020501: Config/Level/Mission/3020205/Act/Act302020501.json-->
+::'''Boss Du:''' Lately, I've been trying to make something new with fresh herbs, vegetables, and fruits. After some setbacks, I've finally developed a new recipe.
+::'''Boss Du:''' This is the new flavor for Flaming Potent Tea. I've followed your suggestions from last time, and this one is sure to lift your spirits with its spicy kick.
+::'''Boss Du:''' Why don't you come over and give it a try?
+::{{Black Screen|Boss Du personally pours a cup of tea for you.}}
+::'''Boss Du:''' Here, feel free to give it a try, and if you feel like drinking more, there's plenty where that came from.
+::{{DIcon|Arrow}} Bottoms up!
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020501-->
+;(If {{cx}}<!--SubMission Started: 302020601-->, {{cx}}<!--SubMission Started: 302020501-->, {{cx}}<!--SubMission Started: 302020404-->, {{cx}}<!--SubMission Started: 302020401-->, {{cx}}<!--SubMission Started: 302020301-->, {{cx}}<!--SubMission Started: 302020201-->, and {{cx}}<!--SubMission Started: 302020101-->)
+:{{DIcon|undefined}} Did you want something?
+::<!--Trigger PerformanceE 302020601: Config/Level/Mission/3020206/Act/Act302020601.json-->
+::'''Boss Du:''' Lately, I've been trying to make something new with fresh herbs, vegetables, and fruits. After some setbacks, I've finally developed a new recipe.
+::'''Boss Du:''' This is the new flavor for Flaming Potent Tea. I've followed your suggestions from last time, and this one is sure to lift your spirits with its spicy kick.
+::'''Boss Du:''' Why don't you come over and give it a try?
+::{{Black Screen|Boss Du personally pours a cup of tea for you.}}
+::'''Boss Du:''' Here, feel free to give it a try, and if you feel like drinking more, there's plenty where that came from.
+::{{DIcon|Arrow}} Bottoms up!
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302020601-->
+:{{DIcon|Shop}} I'd like to have some tea...
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502058400: Config/Level/NPCDialogue/P10202/NPCAct/Act502058400.json-->
+::'''Boss Du:''' Thanks to you, it's been going well. Now that the Aurum Alley is bustling with people, my teahouse is garnering fame too.
+::'''Boss Du:''' As you know, my customers prefer a quiet environment, so they don't want the place to get too famous... I understand their requirements for privacy.
+::'''Boss Du:''' Next, I'd like to make full use of the space in my store and limit the crowd through a reservation system to ensure a satisfactory experience for my customers. I'm not capable of serving too many customers at once either.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502058400-->
+;(If {{Mission|New Teas Coming Up|showChapter=0}} has been completed and {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Any new teas you want me to taste?
+::<!--Trigger PerformanceE 502058500: Config/Level/NPCDialogue/P10202/NPCAct/Act502058500.json-->
+::'''Boss Du:''' I'm surprised you're so proactive. Unfortunately, I have no new teas for you at the moment... Don't worry. I'll inform you as soon as I get new teas here.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_0-->
+;(If {{Mission|New Teas Coming Up|showChapter=0}} has been completed and {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Do you have time to chat now?
+::<!--Trigger PerformanceE 502058201: Config/Level/NPCDialogue/P10202/NPCAct/Act502058201.json-->
+::'''Boss Du:''' To be honest, being the owner of a tea house means you simply have to chat with your customers. So, what would you like to talk about?
+::<!--Custom String Trigger: Wait_Option_502058201_520-->
+::<!--Custom String Listener: Wait_Option_502058201_520-->
+::{{DIcon|Talk}} Sounds like you're good at talking then?
+:::<!--Custom String Listener: TalkSentence_502058204-->
+:::'''Boss Du:''' Well, that's not what I said. Conversational skills are far from esoteric and can be easily mastered by anyone.
+:::'''Boss Du:''' But, based on my experience, the quality of the conversation is up to the customer. Once my customers had a few cups of Flaming Potent Tea, they'll start telling stories and half-truths. In that case, all I need to do is nod and play along.
+:::{{DIcon|Arrow}} You wouldn't lead the conversation? Even subtly?
+::::<!--Custom String Listener: TalkSentence_502058207-->
+::::'''Boss Du:''' No, because most gossip in a tea house doesn't deserve any serious attention. It is like stumbling across a precious pearl in the waves of the Lunarescent Depths &mdash; Nine out of ten times you would only find rubble and weeds.
+::::'''Boss Du:''' You make it sound like some smart person would subtly steer conversations in their favor to get useful information out of other people. Frankly, that's hardly the case here.
+::::'''Boss Du:''' I think what really matters in a tea house is not the content of the conversation, but the act of holding a conversation itself.
+::::<!--Custom String Trigger: TalkSentence_502058213-->
+::::<!--Custom String Listener: TalkSentence_502058213-->
+::::'''Boss Du:''' If my words don't reassure you, please feel free to stay silent. As I said, I have no interest in prying into the souls of my customers.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} And now you've memorized all the stories.
+::::<!--Custom String Listener: TalkSentence_502058211-->
+::::'''Boss Du:''' Are you implying that I may blabber my customers' secrets to others?
+::::'''Boss Du:''' It is inevitable that I hear my customers' deep and intimate secrets. But rest assured, I know well what I'm not supposed to bandy about.
+::::<!--Custom String Trigger: TalkSentence_502058213-->
+::::<!--Custom String Listener: TalkSentence_502058213-->
+::::'''Boss Du:''' If my words don't reassure you, please feel free to stay silent. As I said, I have no interest in prying into the souls of my customers.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is Flaming Potent Tea popular in Aurum Alley?
+:::<!--Custom String Listener: TalkSentence_502058215-->
+:::'''Boss Du:''' Ah, dear customer. You're worried about my business.
+:::'''Boss Du:''' Aurum Alley is never short of troubles, and people pestered by them would naturally come to my tea house. If my customers were free of troubles one day, then my business would be busted.
+:::'''Boss Du:''' But I wouldn't fret if that happened. Who wouldn't want a world free of troubles after all?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Could you share any of your secrets with me?
+:::<!--Custom String Listener: TalkSentence_502058219-->
+:::'''Boss Du:''' You know that I am committed to keeping secrets, but still want to probe...? Fine, but probing has a price, too. Are you willing to share a secret of your own in exchange for one of mine?
+:::{{DIcon|Arrow}} (Tell him a "secret" that you just made up.)
+::::<!--Custom String Listener: TalkSentence_502058221-->
+::::'''Boss Du:''' So that's how it is, I see. Secrets are nothing more than a few words, yet those words differ dramatically in value.
+::::'''Boss Du:''' Then I'll tell you a secret of similar value.
+::::'''Boss Du:''' When foxians sleep, their tails always point in the same cardinal direction.
+::::'''Boss Du:''' It's up to you to believe it or not.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} (Tell him that March 7th would fall down when warp jumping.)
+::::<!--Custom String Listener: TalkSentence_502058226-->
+::::'''Boss Du:''' So that's how it is. I can see a romantic customer like you getting acquainted with a girl who tends to fall down for no reason.
+::::'''Boss Du:''' In this case, I'll share a cute secret with you, too.
+::::'''Boss Du:''' You can tell a foxian's mood by their ears. When they feel happy, their ears will perk up as if an electric current passed through.
+::::'''Boss Du:''' It's up to you to believe it or not.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} (Tell him the inescapable truth that everything in this universe will eventually fade away.)
+::::<!--Custom String Listener: TalkSentence_502058231-->
+::::'''Boss Du:''' ...
+::::'''Boss Du:''' Are you really sure you can share such a crucial secret with me?
+::::'''Boss Du:''' Well, if this is the case... I'll share a grave secret with you, too.
+::::'''Boss Du:''' ...Flaming Potent Tea is called alcohol in some worlds.
+::::'''Boss Du:''' It's up to you to believe it or not.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're fond of inventing new flavors of Flaming Potent Tea, aren't you?
+:::<!--Custom String Listener: TalkSentence_502058237-->
+:::'''Boss Du:''' Hahahaha, different customers have different preferences, and some of them always want to enjoy flavors they've never tried before.
+:::'''Boss Du:''' Add some juice, egg whites, or milk... or even mung bean soda to the traditional Flaming Potent Tea, and you'll create different mixed drinks for different preferences.
+:::'''Boss Du:''' If you are interested, feel free to try my latest inventions that are not yet publicly available. Do me this favor and I'll make it worth your while.
+:::{{DIcon|Arrow}} You're not planning to hurt me, are you?
+::::<!--Custom String Listener: TalkSentence_502058241-->
+::::'''Boss Du:''' Of course not. We are doing the right thing by expanding the known sensory boundaries of Flaming Potent Tea.
+::::<!--Custom String Trigger: TalkSentence_502058244-->
+::::<!--Custom String Listener: TalkSentence_502058244-->
+::::'''Boss Du:''' You're always welcome to try my inventions when inspiration strikes, dear customer.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Well, it won't hurt, I guess...
+::::<!--Custom String Listener: TalkSentence_502058243-->
+::::'''Boss Du:''' Sure it won't. I would even express my gratitude if the development of new products goes well.
+::::<!--Custom String Trigger: TalkSentence_502058244-->
+::::<!--Custom String Listener: TalkSentence_502058244-->
+::::'''Boss Du:''' You're always welcome to try my inventions when inspiration strikes, dear customer.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's it for now.
+:::<!--Custom String Listener: TalkSentence_502058246-->
+:::'''Boss Du:''' My door is always open for you, dear customer.
+:::<!--Ends the current performance-->
+;(If {{Mission|New Teas Coming Up|showChapter=0}} has been completed and {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} That's it for now.
+::'''Boss Du:''' My door is always open for you, dear customer.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 200140103-->)
+:{{DIcon}} Would you like a bowl of "Taste of the Sea"?
+::'''Boss Du:''' I'm sorry, guest, "Taste of the Sea" is no longer available as the core ingredient &mdash; water from the Lunarescent Depths can't be obtained anymore.
+::'''Boss Du:''' The Lunarescent Depths is a sacred site for the Vidyadhara. Though they used to patrol the shoreline, I was always able to sneak in and scoop up a couple of barrels of water.
+::'''Boss Du:''' But now they've deployed dozens of cycranes to constantly patrol the shore, sounding the alarm at any hint of suspicious activity &mdash; leaving no opportunity for us.
+::'''Boss Du:''' We've still got plenty of other delightful teas in the shop &mdash; why not have a try?
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Boss Du
+|zhs  = 杜老板
+|zht  = 杜老闆
+|ja   = 杜店主
+|ko   = 두 사장
+|es   = Jefe Du
+|fr   = Boss Du
+|ru   = Хозяин Ду
+|th   = เถ้าแก่ Du
+|vi   = Ông Chủ Du
+|de   = Herr Du
+|id   = Bos Du
+|pt   = Chefe Du
+}}
+==Change History==
+{{Change History|TODO}}

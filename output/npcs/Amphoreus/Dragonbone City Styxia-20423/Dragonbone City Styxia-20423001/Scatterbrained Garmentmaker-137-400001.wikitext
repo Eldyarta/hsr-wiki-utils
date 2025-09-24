@@ -1,0 +1,382 @@
+<%-- [PAGE_INFO]
+PageTitle=#Scatterbrained Garmentmaker#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Scatterbrained Garmentmaker.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Dragonbone City" Styxia
+|relatives       = 
+}}
+'''Scatterbrained Garmentmaker''' is an NPC on [[Amphoreus]], located in [["Dragonbone City" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Dragonbone City" Styxia|npc_137_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}})
+:::<!--Trigger PerformanceE 504070002: Config/Level/Mission/5040700/Act/Act504070002.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}})
+::::'''Scatterbrained Garmentmaker:''' Hello, honored guest... Remind me, what am I supposed to do next?
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}})
+::::'''Scatterbrained Garmentmaker:''' Hello, honored guest... Huh? There are no more nymphs here.
+::::'''Scatterbrained Garmentmaker:''' Hmm... There should be more nymphs elsewhere. Please go help my fellow garmentmakers.
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}})
+::;(First interaction)
+::::<!--Trigger PerformanceE 504070001: Config/Level/Mission/5040700/Act/Act504070001.json-->
+::::A garmentmaker stands here abruptly, exuding a sense of confusion.
+::::'''Scatterbrained Garmentmaker:''' ...
+::::'''Scatterbrained Garmentmaker:''' Where... am I?
+::::{{DIcon|Arrow}} Why is the garmentmaker still chasing me!?
+::::{{DIcon|Arrow}} Did Cipher send you here too?
+::::{{DIcon|Arrow}} It's time to speak plainly...
+::::<!--Custom String Listener: TalkSentence_504070007-->
+::::The garmentmaker remains silent, just standing there, perhaps pretending not to hear, or equally confused by the situation.
+::::After a while, it speaks...
+::::'''Scatterbrained Garmentmaker:''' Sorry, honored guest, I'm not sure why I'm here either... Perhaps it's part of Lady Aglaea's plan?
+::::'''Scatterbrained Garmentmaker:''' Never mind. Since I'm here, let's continue our duties. I think it's something about catching bugs...
+::;(Subsequent interactions)
+::::<!--Trigger PerformanceE 504070002: Config/Level/Mission/5040700/Act/Act504070002.json-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}})
+:::::'''Scatterbrained Garmentmaker:''' Hello, honored guest... Remind me, what am I supposed to do next?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}})
+:::::'''Scatterbrained Garmentmaker:''' Hello, honored guest... Huh? There are no more nymphs here.
+:::::'''Scatterbrained Garmentmaker:''' Hmm... There should be more nymphs elsewhere. Please go help my fellow garmentmakers.
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} I've found all the nymphs here.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Scatterbrained Garmentmaker:''' Hmm... Right, now it's my turn to act. Let me see...
+:::::'''Scatterbrained Garmentmaker:''' "Push open the door of the past," yadda yadda...
+:::::'''Scatterbrained Garmentmaker:''' No. I can't do it. Riddles give me a headache. Since you've already obtained the golden weave, I'll just continue being the confused garmentmaker.
+:::::'''Scatterbrained Garmentmaker:''' By the way, there's a strange nymph in this ancient city. Its call is different from the other fyreflies... It seems to know some inside information. You might want to go ask it.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Scatterbrained Garmentmaker:''' Blah blah... It seems you've already obtained the stone slate? Good, because riddles give me a headache.
+:::::'''Scatterbrained Garmentmaker:''' This is your reward, honored guest. I'll just keep being the confused garmentmaker.
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200612
+			}
+		}
+	]
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}},"Inverse":true}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon}} Can you give me more hints?
+::::'''Scatterbrained Garmentmaker:''' You've collected enough nymphs, and I helped unseal a prophecy... Well, that's probably not what you wanted to hear.
+::::'''Scatterbrained Garmentmaker:''' But I'm really not good at solving riddles... just look at my name. All the answers are hidden in the golden weave. Go find them~
+::::'''Scatterbrained Garmentmaker:''' By the way, there's a strange nymph in this ancient city. Its call is different from the other fyreflies... It seems to know some inside information. You might want to go ask it.
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200612}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} Where are the remaining nymphs?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":19}},"Inverse":true}-->}})
+:::::'''Scatterbrained Garmentmaker:''' Hmm... I forgot. Maybe a {{Color|keyword|nobold=1|Memory Crystal Shard}} will help me remember...
+:::::{{DIcon|Arrow}} Provide Memory Crystal Shards.
+::::::<!--Custom String Listener: Wait_Option_504070003_36-->
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 19
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504070204
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 19
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 127
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070205
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 128
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070206
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 129
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070207
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 130
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070208
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 131
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070209
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 132
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070210
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 133
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070211
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 134
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070212
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 135
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070213
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 136
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504070214
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504070216"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::{{DIcon|Arrow}} Nope~
+::::::<!--Custom String Listener: TalkSentence_504070216-->
+::::::'''Scatterbrained Garmentmaker:''' ...Then I'll just keep forgetting.
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":19}},"Inverse":true}-->}})
+:::::'''Scatterbrained Garmentmaker:''' Have you forgotten, honored guest? I've already revealed the location of a nymph... Come back after you've found it.
+::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::<!--Ends the current performance-->
+:::{{DIcon}} I have some questions about the nymphs.
+::::'''Scatterbrained Garmentmaker:''' I'll do my best to answer... if I can still remember the answers.
+::::<!--Custom String Trigger: Wait_Option_504070004_62-->
+::::<!--Custom String Listener: Wait_Option_504070004_62-->
+::::{{DIcon|Talk}} Why are there butterflies here?
+:::::<!--Custom String Listener: TalkSentence_504070304-->
+:::::'''Scatterbrained Garmentmaker:''' You must be referring to the Eulogistic Butterflies? They are not believers of Romance but messengers of Thanatos, guiding souls to the afterlife.
+:::::'''Scatterbrained Garmentmaker:''' Eulogistic Butterflies exist in this world by a thread of obsession, without souls or blessings. You need not pay them any mind.
+:::::'''Scatterbrained Garmentmaker:''' To distinguish between Eulogistic Butterflies and Creation Nymphs, here's a tip &mdash; all nymphs have antennae, while those without are Eulogistic Butterflies.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Are those fireflies also nymphs?
+:::::<!--Custom String Listener: TalkSentence_504070308-->
+:::::'''Scatterbrained Garmentmaker:''' Hmm... You might find it strange, but the answer is "yes."
+:::::'''Scatterbrained Garmentmaker:''' Nymphs take on many forms. The appearance they assume depends on the qualities of the blessed soul.
+:::::'''Scatterbrained Garmentmaker:''' Strong and rational souls become beetles, moving forward steadily. Romantic and emotional souls become butterflies, dancing gracefully...
+:::::'''Scatterbrained Garmentmaker:''' And those with lofty ambitions or open minds are shaped into fireflies, using their light to illuminate the darkness.
+:::::'''Scatterbrained Garmentmaker:''' As for why they appear here... Lady Aglaea once gave an explanation, but I've forgotten it...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} That's all.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I'll get back to work.
+::::'''Scatterbrained Garmentmaker:''' Goodbye... Don't forget to come back.
+::::<!--Ends the current performance-->
+::<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "6127"
+	}
+}</pre>
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+:;(If [[Fate's Ensemble]] is active)
+:::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+:::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+:;(If [[Fate's Ensemble]] is active)
+:::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Garmentmaker"
+|zhs  = 「衣匠」
+|zht  = 「衣匠」
+|ja   = 「ラフトラ」
+|ko   = 「의상공」
+|es   = Sastre
+|fr   = Costumière
+|ru   = Швея
+|th   = "หุ่นตัดชุด"
+|vi   = Thợ May
+|de   = Kleidermacherin
+|id   = "Garmentmaker"
+|pt   = "Confeccionadora"
+}}
+==Change History==
+{{Change History|TODO}}

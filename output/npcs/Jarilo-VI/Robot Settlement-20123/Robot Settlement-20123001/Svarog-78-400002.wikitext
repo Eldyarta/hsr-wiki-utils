@@ -1,0 +1,219 @@
+<%-- [PAGE_INFO]
+PageTitle=#Svarog#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Svarog.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Robot Settlement
+|relatives       = 
+}}
+'''Svarog''' is an NPC on [[Jarilo-VI]], located in [[Robot Settlement]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Robot Settlement|npc_78_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501030301: Config/Level/Mission/5010303/Act/Act501030301.json-->
+::'''Svarog:''' Bio heat reaction detected &mdash; Identifying bio information...
+::'''Svarog:''' Identification result: Outsider (Trailblazer) &mdash; Hostility level: None.
+::'''Svarog:''' Welcome to the Robot Settlement, (Trailblazer).
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501030302: Config/Level/Mission/5010303/Act/Act501030302.json-->
+::'''Svarog:''' Welcome, (Trailblazer). Why have you come?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--performance 501030305 has been seen--> and {{cx}}<!--SubMission Finish: 201090701-->)
+:{{DIcon}} Has Pascal been reformatted?
+::<!--Trigger PerformanceE 501030305: Config/Level/Mission/5010303/Act/Act501030305.json-->
+::'''Svarog:''' No errors found &mdash; But I have made a copy of this machine's entire information on this core module according to Clara's request.
+::'''Svarog:''' I will integrate this machine into the base network according to the determined solution. The copied information will be handed over to Clara to use at her discretion.
+::<!--Custom String Trigger: Wait_Option_501030301_54-->
+::<!--Custom String Listener: Wait_Option_501030301_54-->
+::{{DIcon|Talk}} Will integration with the base network really stem the damage?
+:::<!--Custom String Listener: TalkSentence_501030338-->
+:::'''Svarog:''' Affirmative. The machines integrated into the base network will no longer possess advanced emotional intelligence.
+:::'''Svarog:''' Each machine will prioritize the base network's directives, which have zero probability of compromising humanity's safety.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Will the copied information be of any use?
+:::<!--Custom String Listener: TalkSentence_501030341-->
+:::'''Svarog:''' According to calculations, there is a possibility that Clara will implant the backup core, causing the "rebirth" of this machine, allowing it to "survive."
+:::'''Svarog:''' But this is only a possibility &mdash; I cannot accurately determine the changes brought about by human emotions. The answer to this problem will be left in Clara's hands, not mine.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I see.
+:::<!--Custom String Listener: TalkSentence_501030344-->
+:::'''Svarog:''' Regardless, you have chosen the solution to minimize damage &mdash; This choice will inevitably ensure the stability of the Underworld.
+:::'''Svarog:''' You have my appreciation, (Trailblazer).
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030305-->
+;(If {{cx}}<!--performance 501030306 has been seen-->, {{cx}}<!--SubMission Finish: 201090801-->, {{cx}}<!--performance 501030305 has been seen-->, and {{cx}}<!--SubMission Finish: 201090701-->)
+:{{DIcon}} Is Pascal still acting weird lately?
+::<!--Trigger PerformanceE 501030306: Config/Level/Mission/5010303/Act/Act501030306.json-->
+::'''Svarog:''' According to calculations, under the effects of the protection program, the probability of this machine's abnormal activity has been reduced to approximately 2.1%.
+::'''Svarog:''' However, this metric will inevitably increase again with the passage of time.
+::'''Svarog:''' Due to the inability to effectively monitor the machines outside the base network, I must regularly perform risk assessment according to Clara's maintenance results, so as to facilitate timely intervention at suitable moments.
+::<!--Custom String Trigger: Wait_Option_501030301_70-->
+::<!--Custom String Listener: Wait_Option_501030301_70-->
+::{{DIcon|Talk}} Does this mean that the protection program isn't effective?
+:::<!--Custom String Listener: TalkSentence_501030351-->
+:::'''Svarog:''' Inconclusive. The protection program cannot remove constantly generated information noises. Also, the newly installed program runs risk of being contaminated by the stated noises.
+:::'''Svarog:''' Once the noise reaches a threshold value, this machine will be unable to avoid malfunction. When that time comes, you all must make the identical decision.
+:::'''Svarog:''' But, Clara has already decided. I will accompany her and seek a breakthrough in this endless cycle that does not involve complete reformatting.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Will Clara be able to handle it?
+:::<!--Custom String Listener: TalkSentence_501030355-->
+:::'''Svarog:''' I have performed repeat calculations regarding this problem, of which their results lie outside the area of the confidence bracket.
+:::'''Svarog:''' I cannot convey irregular calculated results to you, but I will keep verifying my formulae and calculations until I obtain a proximate answer.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I understand.
+:::<!--Custom String Listener: TalkSentence_501030358-->
+:::'''Svarog:''' Regardless, your choice has respected Clara's resolve and determination.
+:::'''Svarog:''' I, and on behalf of Clara, convey our gratitude, (Trailblazer).
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030306-->
+;(If {{Mission|Final Showdown! Intergalactic Celebration!|showChapter=0}} has been completed)
+:{{DIcon}} How are you getting along with the IPC's people?
+::<!--Trigger PerformanceE 501030307: Config/Level/Mission/5010303/Act/Act501030307.json-->
+::'''Svarog:''' Fine for the moment.
+::'''Svarog:''' Under Topaz's orders, the IPC workers have been behaving relatively well. She even handed over the Source Code to Clara to take care of.
+::'''Svarog:''' It's hard to understand her motivations... But the intuition signals from my emotion module tell me that this was the correct decision.
+::'''Svarog:''' What's more, after the Interastral Tournament Festival ended, I received a mysterious message from beyond Jarilo-VI.
+::{{DIcon|Arrow}} Let me see.
+::<!--Custom String Listener: TalkSentence_501030366-->
+::'''Svarog:''' Of course. Currently obtaining the data...
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190510
+		}
+	}
+}</pre>
+::'''Svarog:''' With my current computation power, I am still unable to decipher why the other party sent this message.
+::'''Svarog:''' However, this "Screwllum" expresses an optimistic view regarding the future development of Jarilo-VI. This is a good thing.
+::'''Svarog:''' With Belobog gradually opening up to the world, my computational power will seem ever more limited. With the increasing number of variables, the humans here will face more and more complicated challenges.
+::'''Svarog:''' However, no matter where the future takes us, I will do all I can to execute "preservation," until the day that my systems become completely unresponsive.
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011201,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:{{DIcon}} I wish to talk to Svarog...
+::<!--Trigger PerformanceE 501030303: Config/Level/Mission/5010303/Act/Act501030303.json-->
+::'''Svarog:''' Approved &mdash; Please submit your question, outsider.
+::<!--Custom String Trigger: Wait_Option_501030301_15-->
+::<!--Custom String Listener: Wait_Option_501030301_15-->
+::{{DIcon|Talk}} What sort of place is the Robot Settlement?
+:::<!--Custom String Listener: TalkSentence_501030307-->
+:::'''Svarog:''' The Robot Settlement &mdash; With the spread of the Fragmentum, vagrants made camp around the manned well shaft and soon formed a small gathering.
+:::'''Svarog:''' Atop the well shaft is Belobog's greenhouse effect device. Harnessing high volumes of Geomarrow as an energy source, it maintains constant temperatures between Belobog's surface and the Underground, and is now a property of Belobog Heating Corporation.
+:::'''Svarog:''' The bottom of the well shaft is the old Geomarrow Development Group's science expedition base: The Furnace Core. It has since been abandoned.
+:::<!--Custom String Trigger: Wait_Option_501030301_20-->
+:::<!--Custom String Listener: Wait_Option_501030301_20-->
+:::{{DIcon|Talk}} Greenhouse effect device?
+::::<!--Custom String Listener: TalkSentence_501030311-->
+::::'''Svarog:''' Correct. This device has a more symbolic than practical application.
+::::'''Svarog:''' According to observational results, counter-radiation of this device's longwave radiation only accounts for approximately 5.2% of the former.
+::::'''Svarog:''' Presently, I am unable to ascertain the true factor for Belobog's temperature consistency.
+::::'''Svarog:''' Tentative hypothetical result &mdash; Disruption from another plane.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Geomarrow Development Group science base?
+::::<!--Custom String Listener: TalkSentence_501030316-->
+::::'''Svarog:''' The Geomarrow Development Group was established during the governance of the Supreme Guardian, Sage Alexandra. This Guardian sponsored and founded the Belobog Academy, and later performed Underground trailblazing research.
+::::'''Svarog:''' The science expedition base, the Furnace Core, was built by the Geomarrow Development Group's first Head, Aierna Sakonusm. After which, under instructions from the fourth Head Klenova, it was shut down.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I understand, thank you.
+::::<!--Custom String Listener: TalkSentence_501030319-->
+::::'''Svarog:''' I will try my best to provide the knowledge you require.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is the relationship between Svarog and Clara?
+:::<!--Custom String Listener: TalkSentence_501030321-->
+:::'''Svarog:''' Family.
+:::'''Svarog:''' ...
+:::'''Svarog:''' Processing the outsider's inquiry.
+:::{{DIcon|Arrow}} All right, I got it.
+::::<!--Custom String Listener: TalkSentence_501030325-->
+::::'''Svarog:''' ...
+::::'''Svarog:''' Recalculating &mdash; Result identical to previous fifty-five calculated results. Existing data will temporarily not be altered.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Err... Is that it?
+::::<!--Custom String Listener: TalkSentence_501030327-->
+::::'''Svarog:''' After multiple calculations, the relationship between Clara and this machine is best defined as "family," according to Belobogian traditions.
+::::'''Svarog:''' Recalculating &mdash; Result identical to previous fifty-five calculated results. Existing data will temporarily not be altered.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} We'll end the talk here for now.
+:::<!--Custom String Listener: TalkSentence_501030330-->
+:::'''Svarog:''' Understood.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030303-->
+:{{DIcon|Exit}} Goodbye, Svarog.
+::<!--Trigger PerformanceE 501030304: Config/Level/Mission/5010303/Act/Act501030304.json-->
+::'''Svarog:''' Goodbye, (Trailblazer).
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030304-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Svarog
+|zhs  = 史瓦罗
+|zht  = 史瓦羅
+|ja   = スヴァローグ
+|ko   = 스바로그
+|es   = Svarog
+|fr   = Svarog
+|ru   = Сварог
+|th   = Svarog
+|vi   = Svarog
+|de   = Svarog
+|id   = Svarog
+|pt   = Svarog
+}}
+==Change History==
+{{Change History|TODO}}

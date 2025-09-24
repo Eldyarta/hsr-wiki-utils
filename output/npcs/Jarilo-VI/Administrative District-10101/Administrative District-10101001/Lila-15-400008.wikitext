@@ -1,0 +1,589 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lila#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Zoologist
+|image           = NPC Lila.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Lila''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400008}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201090203,
+		"Type": "submission_state_equal",
+		"Param1": 201090203,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201090203: Config/Level/Mission/2010902/Act/Act201090203.json-->
+:{{A|VO Side1 hk3 auctioneerA 135.ogg}} '''Auction Staff:''' Hi, excuse me... may I ask where the miner who registered with you has gone?
+:{{A|VO Side1 hk3 minerH 103.ogg}} '''Naive Miner:''' ...Him? I think he went back into town.
+:{{A|VO Side1 hk3 hook 173.ogg}} '''Hook:''' So... he already ran away?
+:{{A|VO Side1 hk3 minerH 104.ogg}} '''Naive Miner:''' He came here saying he wanted to buy the Geomarrow Probe, but then he changed his mind for some reason and ran back to Boulder Town alone.
+:{{DIcon|Arrow}} Where can you usually find him?
+:<!--Custom String Listener: TalkSentence_201090306-->
+:{{A|VO Side1 hk3 minerH 105.ogg}} '''Naive Miner:''' I don't know him all that well. Why don't you just head into town and look for him?
+:{{A|VO Side1 hk3 auctioneerA 136.ogg}} '''Auction Staff:''' Do you really think he'll turn out to be a thief? I'm not so sure now...
+:{{A|VO Side1 hk3 auctioneerA 137.ogg}} '''Auction Staff:''' Ahem, anyway. Outsiders, you should go and look for him in Boulder Town. I need to make sure the other buyers haven't left. If you don't find anything, the thief might still be among us...
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 201090203_F-->
+<pre>
+[
+	{
+		"ID": 301010201,
+		"Type": "submission_state_equal",
+		"Param1": 301010201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301010201: Config/Level/Mission/3010102/Act/Act301010201.json-->
+:'''Lila:''' Ahh, I do have something I want help with...
+:'''Lila:''' Previously, I asked some Silvermane Guards I knew to help me look for traces of wild animals when they go out on patrol.
+:'''Lila:''' It has been a long time since then, and I haven't received any news from them... until now.
+:'''Lila:''' An excited Guard told me a few days ago that he saw activities of direwolves on the Southern Snow Plains &mdash; That's big news!
+:'''Lila:''' But I really don't want to keep asking the Guards to help me collect traces of wild animals... Their own job is difficult enough as it is.
+:'''Lila:''' I can tell that you have a lot of experience adventuring, right? If possible... Could I ask you to head to the outlying Snow Plains and find traces of wild animals?
+:'''Lila:''' Fur, paw marks, and even excrement are okay! Please! I will definitely repay you with rich rewards!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301010201-->
+<pre>
+[
+	{
+		"ID": 301010203,
+		"Type": "submission_state_equal",
+		"Param1": 301010203,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301010203: Config/Level/Mission/3010102/Act/Act301010203.json-->
+:'''Lila:''' These... these are indeed evidence of direwolf activity. Awesome! With these clues, I might be able to find the direwolf packs close to Belobog.
+:'''Lila:''' This is an outstanding find! Oh, I really want to look at those beautiful and majestic wild animals with my own eyes...
+:{{DIcon|Arrow}} A world without wild animals would be so boring.
+::<!--Custom String Listener: 301010212_Talk-->
+::'''Lila:''' Right? I think so too.
+:{{DIcon|Arrow}} What if they already went extinct...
+::<!--Custom String Listener: 301010214_Talk-->
+::'''Lila:''' I... I really don't want to imagine that.
+:'''Lila:''' Belobog is only one location in this world. I believe there must be other lifeforms elsewhere combating the Eternal Freeze and trying their best to survive.
+:'''Lila:''' I truly hope humans are not the sole existence in this world... That's why I want to find other species, and to try to protect them or live with them.
+:'''Lila:''' Thank you so much for this &mdash; Please take these rewards! If you find any rare animals on your journeys, please let me know.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301010203-->
+<pre>
+[
+	{
+		"ID": 301020202,
+		"Type": "submission_state_equal",
+		"Param1": 301020202,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301020202: Config/Level/Mission/3010201/Act/Act301020202.json-->
+:'''Wallace:''' Done? Let's have a look...
+:'''Wallace:''' Good... This is a great photo. My purpose is to show people that I am not just some ignorant rich man. On the contrary, I am very friendly and popular with children.
+:'''Wallace:''' All right, it's time to help me make friends. Just like before, I will decide who I want to make friends with.
+:'''Wallace:''' I heard that Rossy, son of Minister Bova, is a young man with a bold personality. Maybe we are on the same wavelength. Could you show the photo to him and ask him if he's willing to be my friend?
+----
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301020202-->
+<pre>
+[
+	{
+		"ID": 301020702,
+		"Type": "submission_state_equal",
+		"Param1": 301020702,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301020702: undefined-->
+:<!--Custom String Trigger: Talk_301020702-->
+<pre>
+[
+	{
+		"ID": 301020802,
+		"Type": "submission_state_equal",
+		"Param1": 301020802,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301020802: undefined-->
+:<!--Custom String Trigger: Talk_301020802-->
+<pre>
+[
+	{
+		"ID": 301111302,
+		"Type": "submission_state_equal",
+		"Param1": 301111302,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111302: Config/Level/Mission/3011113/Act/Act301111302.json-->
+:<!--Custom String Trigger: TalkSentence_301110802-->
+:<!--Custom String Listener: TalkSentence_301110802-->
+:'''Lila:''' Eh? You guys know my father?
+:<!--Custom String Trigger: Wait_Option_301110302_9-->
+:<!--Custom String Listener: Wait_Option_301110302_9-->
+:{{DIcon|Arrow}} This is a letter from your father.
+:<!--Custom String Listener: TalkSentence_301110804-->
+:'''Lila:''' You better not be trying to scam me. He's working in a top secret military area. How did you manage to...
+:'''Lila:''' Hold on... This is his handwriting, alright. I'm sure of it.
+:'''Lila:''' *sigh* My father... he hasn't changed. Always so hard on himself.
+:'''Lila:''' Uh, I'm sorry to make such a sudden request, but... if you have time, could you buy me a bunch of flowers?
+:'''Lila:''' I want to write him a letter and send it together with a bouquet.
+:<!--Custom String Trigger: Wait_Option_301110302_17-->
+:<!--Custom String Listener: Wait_Option_301110302_17-->
+:{{DIcon|Arrow}} *sigh* I can't really stop halfway, can I?
+:{{DIcon|Arrow}} Piece of cake.
+:<!--Custom String Listener: TalkSentence_301110811-->
+:'''Lila:''' You will? Thank you so much!
+:'''Lila:''' There's a florist nearby. Please get me a bunch of rainbows. Naturally, I'll pay you for the flowers and running this errand for me.
+:'''Lila:''' Thanks again, I'll see you later!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111302-->
+<pre>
+[
+	{
+		"ID": 301111304,
+		"Type": "submission_state_equal",
+		"Param1": 301111304,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111304: Config/Level/Mission/3011113/Act/Act301111304.json-->
+:<!--Custom String Trigger: TalkSentence_301111002-->
+:<!--Custom String Listener: TalkSentence_301111002-->
+:'''Lila:''' You sure are quick! Thank you, that should be perfect. I just finished writing my reply letter as well. Please give it to my father the next time you go see him.
+:'''Lila:''' He's always been quite stubborn and too hard on himself. I can tell that the things he wrote about in the letter aren't really what he has done.
+:'''Lila:''' Ever since I can remember, he always liked to act like a hero in front of me and exaggerate things... He probably thinks that if he doesn't achieve something big in the Silvermane Guards, he will be a shame to the family.
+:'''Lila:''' But I've never cared about that. He's always worked hard to give me a better life, better than most... That's already enough for me to be truly grateful for him.
+:'''Lila:''' Argh, sorry for going on about our family matters. Anyway... I just hope that my father can return home safely.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111304-->
+<pre>
+[
+	{
+		"ID": 301111407,
+		"Type": "submission_state_equal",
+		"Param1": 301111407,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111407: Config/Level/Mission/3011114/Act/Act301111407.json-->
+:'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111407-->
+<pre>
+[
+	{
+		"ID": 301111408,
+		"Type": "submission_state_equal",
+		"Param1": 301111408,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111408: Config/Level/Mission/3011114/Act/Act301111408.json-->
+:'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111408-->
+<pre>
+[
+	{
+		"ID": 301111409,
+		"Type": "submission_state_equal",
+		"Param1": 301111409,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111409: Config/Level/Mission/3011114/Act/Act301111409.json-->
+:'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111409-->
+<pre>
+[
+	{
+		"ID": 301111410,
+		"Type": "submission_state_equal",
+		"Param1": 301111410,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111410: Config/Level/Mission/3011114/Act/Act301111410.json-->
+:'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111410-->
+:<!--0.3-second delay-->
+:<!--Custom String Trigger: TalkSentence_501023649-->
+:<!--Custom String Listener: TalkSentence_501023649-->
+:{{DIcon|Talk}} What creatures are there in Belobog?
+::<!--Custom String Listener: TalkSentence_100002802-->
+::'''Lila:''' Cats and dogs. There are wolves and birds in the wild... That's about it. You'll have to check out the museum's specimens to see what other kinds of animals there were in the past.
+::'''Lila:''' I heard that hundreds of years ago, Belobog had domesticated bears, and direwolves roamed the wild. They're no longer around though.
+::'''Lila:''' But I believe there are other animals out there that survived the Eternal Freeze. I just have no way to prove it. Now, I have no choice but to study humans...
+::'''Lila:''' Did you know that humans in Belobog have at least three different origins? But you don't seem to belong to any one of them. That's why I was so surprised back then.
+::{{DIcon|Arrow}} You must be mistaken.
+:::<!--Custom String Listener: TalkSentence_501023639-->
+::{{DIcon|Arrow}} You're right, I'm an alien.
+:::<!--Custom String Listener: TalkSentence_501023640-->
+::'''Lila:''' Haha, I must've been researching too much... Ever since I got my hands on that book, my head's been in the clouds.
+::<!--Custom String Trigger: OptionTalk__100002803_01-->
+::<!--Custom String Listener: OptionTalk__100002803_01-->
+::{{DIcon|Arrow}} What book?
+:::<!--Custom String Listener: TalkSentence_501023642-->
+:::'''Lila:''' This ''Underground Encyclopedia of Zoology'' was apparently brought back from the underground by a Silvermane Guard. It talks about a lot of strange creatures.
+:::'''Lila:''' Ever since I finished the book, I couldn't stop thinking about how these animals must look like.
+:::'''Lila:''' I really want to know more about these crystalline lizards, geomarrow olms, funeral worms... I want to know what they eat, how they reproduce... everything.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} In the clouds?
+:::<!--Custom String Listener: TalkSentence_501023644-->
+:::'''Lila:''' This ''Underground Encyclopedia of Zoology'' was apparently brought back from the underground by a Silvermane Guard. It talks about a lot of strange creatures.
+:::'''Lila:''' Ever since I finished the book, I couldn't stop thinking about how these animals must look like.
+:::'''Lila:''' I really want to know more about these crystalline lizards, geomarrow olms, funeral worms... I want to know what they eat, how they reproduce... everything.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Why don't you go look for them?
+::<!--Custom String Listener: TalkSentence_100002806-->
+::'''Lila:''' I've been outside the city a few times for journalism, but there wasn't enough spare time to do ecological research then.
+::'''Lila:''' But recently, I met a benefactor who is willing to finance my expedition as long as his requirements are met. He's even willing to take care of the expedition permits and formalities as well.
+::'''Lila:''' I'm already making preparations for the expedition.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all questions I have.
+::<!--Custom String Listener: TalkSentence_501023659-->
+::'''Lila:''' If you see any rare species in the future, remember to tell me about them!
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100002804,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Lila:''' I've been doing alright. I just haven't been sleeping so well.
+:{{DIcon|Arrow}} Did something happen?
+::<!--Custom String Listener: TalkSentence_501023668-->
+::'''Lila:''' Oh... I'm worried you'll laugh if I tell you. I am a member of an exploratory vanguard dispatched by the Town Hall to go outside Belobog. I'm responsible for investigating unknown flora and fauna.
+:{{DIcon|Arrow}} So the reason you aren't sleeping is that you want to imitate owls?
+::<!--Custom String Listener: TalkSentence_501023670-->
+::'''Lila:''' Owls? What's an owl? Never heard of it... Is there a creature like that outside these walls? If there really is such an animal, then I must to go and do some research.
+:<!--Custom String Trigger: TalkSentence_501023672-->
+:<!--Custom String Listener: TalkSentence_501023672-->
+:'''Lila:''' Ah... You probably don't know, right? The Town Hall recently arranged for some people to explore the area outside the city. Supposedly, the Underworld will be returning to normal soon. Pretty soon, everyone will be able to come and go as they please.
+:'''Lila:''' The Town Hall gave me some outdoor gear. Once my preparations are complete, I'll go and investigate the habitat of the wild flora and fauna out there. I'm going to record them to make a manual.
+:'''Lila:''' So, whenever I think about how my research has a chance of achieving a major breakthrough, I get so excited that I can't sleep a wink...
+:<!--Ends the current performance-->
+:'''Lila:''' Oh, you're back. Seen any rare animal species?
+:'''Lila:''' Or do you have any zoological questions you'd like to ask me about?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Lila:''' If you see any rare species in the future, remember to tell me about them!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501023601: Config/Level/Mission/5010236/Act/Act501023601.json-->
+::'''Lila:''' Hmm? You look... special.
+::{{DIcon|Arrow}} What's that supposed to mean?
+::{{DIcon|Arrow}} {{MC|f=Do you mean I'm very pretty?|m=Do you mean I'm very handsome?}}
+::<!--Custom String Listener: TalkSentence_501023602-->
+::'''Lila:''' Well... Besides the hair, you appear to be normal.
+::'''Lila:''' But the way you dress isn't the norm around here. Those patterns are rarely seen. And there's no trace of petroleum jelly on those clean fingers and face of yours...
+::'''Lila:''' Ah, sorry, I didn't mean to offend you. My name is Lila. I'm a writer for the ''Voyager'', and also a zoologist.
+::'''Lila:''' Oh, yes, I've just been rambling on. You probably haven't read the ''Underground Encyclopedia of Zoology'', right?
+::'''Lila:''' These interesting books on zoological science can't be found on the market. So, here, take these two books. Read them when you have the time.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501023601-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000029: Config/Level/NPC/W1/NPC_DefaultStory_1000028.json-->
+::'''Lila:''' Oh, you're back. Seen any rare animal species?
+::'''Lila:''' Or do you have any zoological questions you'd like to ask me about?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon}} Hook's Gift
+::<!--Trigger PerformanceE 201090203: Config/Level/Mission/2010902/Act/Act201090203.json-->
+::{{A|VO Side1 hk3 auctioneerA 135.ogg}} '''Auction Staff:''' Hi, excuse me... may I ask where the miner who registered with you has gone?
+::{{A|VO Side1 hk3 minerH 103.ogg}} '''Naive Miner:''' ...Him? I think he went back into town.
+::{{A|VO Side1 hk3 hook 173.ogg}} '''Hook:''' So... he already ran away?
+::{{A|VO Side1 hk3 minerH 104.ogg}} '''Naive Miner:''' He came here saying he wanted to buy the Geomarrow Probe, but then he changed his mind for some reason and ran back to Boulder Town alone.
+::{{DIcon|Arrow}} Where can you usually find him?
+::<!--Custom String Listener: TalkSentence_201090306-->
+::{{A|VO Side1 hk3 minerH 105.ogg}} '''Naive Miner:''' I don't know him all that well. Why don't you just head into town and look for him?
+::{{A|VO Side1 hk3 auctioneerA 136.ogg}} '''Auction Staff:''' Do you really think he'll turn out to be a thief? I'm not so sure now...
+::{{A|VO Side1 hk3 auctioneerA 137.ogg}} '''Auction Staff:''' Ahem, anyway. Outsiders, you should go and look for him in Boulder Town. I need to make sure the other buyers haven't left. If you don't find anything, the thief might still be among us...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 201090203_F-->
+;(If {{cx}}<!--SubMission Started: 301010201--> and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} I hear you need help.
+::<!--Trigger PerformanceE 301010201: Config/Level/Mission/3010102/Act/Act301010201.json-->
+::'''Lila:''' Ahh, I do have something I want help with...
+::'''Lila:''' Previously, I asked some Silvermane Guards I knew to help me look for traces of wild animals when they go out on patrol.
+::'''Lila:''' It has been a long time since then, and I haven't received any news from them... until now.
+::'''Lila:''' An excited Guard told me a few days ago that he saw activities of direwolves on the Southern Snow Plains &mdash; That's big news!
+::'''Lila:''' But I really don't want to keep asking the Guards to help me collect traces of wild animals... Their own job is difficult enough as it is.
+::'''Lila:''' I can tell that you have a lot of experience adventuring, right? If possible... Could I ask you to head to the outlying Snow Plains and find traces of wild animals?
+::'''Lila:''' Fur, paw marks, and even excrement are okay! Please! I will definitely repay you with rich rewards!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301010201-->
+;(If {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} There are the findings.
+::<!--Trigger PerformanceE 301010203: Config/Level/Mission/3010102/Act/Act301010203.json-->
+::'''Lila:''' These... these are indeed evidence of direwolf activity. Awesome! With these clues, I might be able to find the direwolf packs close to Belobog.
+::'''Lila:''' This is an outstanding find! Oh, I really want to look at those beautiful and majestic wild animals with my own eyes...
+::{{DIcon|Arrow}} A world without wild animals would be so boring.
+:::<!--Custom String Listener: 301010212_Talk-->
+:::'''Lila:''' Right? I think so too.
+::{{DIcon|Arrow}} What if they already went extinct...
+:::<!--Custom String Listener: 301010214_Talk-->
+:::'''Lila:''' I... I really don't want to imagine that.
+::'''Lila:''' Belobog is only one location in this world. I believe there must be other lifeforms elsewhere combating the Eternal Freeze and trying their best to survive.
+::'''Lila:''' I truly hope humans are not the sole existence in this world... That's why I want to find other species, and to try to protect them or live with them.
+::'''Lila:''' Thank you so much for this &mdash; Please take these rewards! If you find any rare animals on your journeys, please let me know.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301010203-->
+;(If {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon}} Out of Thin Air Guide
+::<!--Trigger PerformanceE 301020202: Config/Level/Mission/3010201/Act/Act301020202.json-->
+::'''Wallace:''' Done? Let's have a look...
+::'''Wallace:''' Good... This is a great photo. My purpose is to show people that I am not just some ignorant rich man. On the contrary, I am very friendly and popular with children.
+::'''Wallace:''' All right, it's time to help me make friends. Just like before, I will decide who I want to make friends with.
+::'''Wallace:''' I heard that Rossy, son of Minister Bova, is a young man with a bold personality. Maybe we are on the same wavelength. Could you show the photo to him and ask him if he's willing to be my friend?
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020202-->
+;(If {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} Are you Gilbert's daughter?
+::<!--Trigger PerformanceE 301111302: Config/Level/Mission/3011113/Act/Act301111302.json-->
+::<!--Custom String Trigger: TalkSentence_301110802-->
+::<!--Custom String Listener: TalkSentence_301110802-->
+::'''Lila:''' Eh? You guys know my father?
+::<!--Custom String Trigger: Wait_Option_301110302_9-->
+::<!--Custom String Listener: Wait_Option_301110302_9-->
+::{{DIcon|Arrow}} This is a letter from your father.
+::<!--Custom String Listener: TalkSentence_301110804-->
+::'''Lila:''' You better not be trying to scam me. He's working in a top secret military area. How did you manage to...
+::'''Lila:''' Hold on... This is his handwriting, alright. I'm sure of it.
+::'''Lila:''' *sigh* My father... he hasn't changed. Always so hard on himself.
+::'''Lila:''' Uh, I'm sorry to make such a sudden request, but... if you have time, could you buy me a bunch of flowers?
+::'''Lila:''' I want to write him a letter and send it together with a bouquet.
+::<!--Custom String Trigger: Wait_Option_301110302_17-->
+::<!--Custom String Listener: Wait_Option_301110302_17-->
+::{{DIcon|Arrow}} *sigh* I can't really stop halfway, can I?
+::{{DIcon|Arrow}} Piece of cake.
+::<!--Custom String Listener: TalkSentence_301110811-->
+::'''Lila:''' You will? Thank you so much!
+::'''Lila:''' There's a florist nearby. Please get me a bunch of rainbows. Naturally, I'll pay you for the flowers and running this errand for me.
+::'''Lila:''' Thanks again, I'll see you later!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111302-->
+;(If {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} Here we go, I have bought the Rainbow.
+::<!--Trigger PerformanceE 301111304: Config/Level/Mission/3011113/Act/Act301111304.json-->
+::<!--Custom String Trigger: TalkSentence_301111002-->
+::<!--Custom String Listener: TalkSentence_301111002-->
+::'''Lila:''' You sure are quick! Thank you, that should be perfect. I just finished writing my reply letter as well. Please give it to my father the next time you go see him.
+::'''Lila:''' He's always been quite stubborn and too hard on himself. I can tell that the things he wrote about in the letter aren't really what he has done.
+::'''Lila:''' Ever since I can remember, he always liked to act like a hero in front of me and exaggerate things... He probably thinks that if he doesn't achieve something big in the Silvermane Guards, he will be a shame to the family.
+::'''Lila:''' But I've never cared about that. He's always worked hard to give me a better life, better than most... That's already enough for me to be truly grateful for him.
+::'''Lila:''' Argh, sorry for going on about our family matters. Anyway... I just hope that my father can return home safely.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111304-->
+;(If {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} Your dad wrote you a letter. Here.
+::<!--Trigger PerformanceE 301111407: Config/Level/Mission/3011114/Act/Act301111407.json-->
+::'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111407-->
+;(If {{cx}}<!--SubMission Started: 301111408-->, {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} Your dad wrote you a letter. Here.
+::<!--Trigger PerformanceE 301111408: Config/Level/Mission/3011114/Act/Act301111408.json-->
+::'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111408-->
+;(If {{cx}}<!--SubMission Started: 301111409-->, {{cx}}<!--SubMission Started: 301111408-->, {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} Your dad wrote you a letter. Here.
+::<!--Trigger PerformanceE 301111409: Config/Level/Mission/3011114/Act/Act301111409.json-->
+::'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111409-->
+;(If {{cx}}<!--SubMission Started: 301111410-->, {{cx}}<!--SubMission Started: 301111409-->, {{cx}}<!--SubMission Started: 301111408-->, {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|undefined}} Your dad wrote you a letter. Here.
+::<!--Trigger PerformanceE 301111410: Config/Level/Mission/3011114/Act/Act301111410.json-->
+::'''Lila:''' Another letter? He seems pretty homesick lately. Thanks for bringing it to me. Please, let me give you something for your trouble.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111410-->
+;(If {{cx}}<!--SubMission Started: 301111410-->, {{cx}}<!--SubMission Started: 301111409-->, {{cx}}<!--SubMission Started: 301111408-->, {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon}} I want to ask...
+::<!--0.3-second delay-->
+::<!--Custom String Trigger: TalkSentence_501023649-->
+::<!--Custom String Listener: TalkSentence_501023649-->
+::{{DIcon|Talk}} What creatures are there in Belobog?
+:::<!--Custom String Listener: TalkSentence_100002802-->
+:::'''Lila:''' Cats and dogs. There are wolves and birds in the wild... That's about it. You'll have to check out the museum's specimens to see what other kinds of animals there were in the past.
+:::'''Lila:''' I heard that hundreds of years ago, Belobog had domesticated bears, and direwolves roamed the wild. They're no longer around though.
+:::'''Lila:''' But I believe there are other animals out there that survived the Eternal Freeze. I just have no way to prove it. Now, I have no choice but to study humans...
+:::'''Lila:''' Did you know that humans in Belobog have at least three different origins? But you don't seem to belong to any one of them. That's why I was so surprised back then.
+:::{{DIcon|Arrow}} You must be mistaken.
+::::<!--Custom String Listener: TalkSentence_501023639-->
+:::{{DIcon|Arrow}} You're right, I'm an alien.
+::::<!--Custom String Listener: TalkSentence_501023640-->
+:::'''Lila:''' Haha, I must've been researching too much... Ever since I got my hands on that book, my head's been in the clouds.
+:::<!--Custom String Trigger: OptionTalk__100002803_01-->
+:::<!--Custom String Listener: OptionTalk__100002803_01-->
+:::{{DIcon|Arrow}} What book?
+::::<!--Custom String Listener: TalkSentence_501023642-->
+::::'''Lila:''' This ''Underground Encyclopedia of Zoology'' was apparently brought back from the underground by a Silvermane Guard. It talks about a lot of strange creatures.
+::::'''Lila:''' Ever since I finished the book, I couldn't stop thinking about how these animals must look like.
+::::'''Lila:''' I really want to know more about these crystalline lizards, geomarrow olms, funeral worms... I want to know what they eat, how they reproduce... everything.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} In the clouds?
+::::<!--Custom String Listener: TalkSentence_501023644-->
+::::'''Lila:''' This ''Underground Encyclopedia of Zoology'' was apparently brought back from the underground by a Silvermane Guard. It talks about a lot of strange creatures.
+::::'''Lila:''' Ever since I finished the book, I couldn't stop thinking about how these animals must look like.
+::::'''Lila:''' I really want to know more about these crystalline lizards, geomarrow olms, funeral worms... I want to know what they eat, how they reproduce... everything.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why don't you go look for them?
+:::<!--Custom String Listener: TalkSentence_100002806-->
+:::'''Lila:''' I've been outside the city a few times for journalism, but there wasn't enough spare time to do ecological research then.
+:::'''Lila:''' But recently, I met a benefactor who is willing to finance my expedition as long as his requirements are met. He's even willing to take care of the expedition permits and formalities as well.
+:::'''Lila:''' I'm already making preparations for the expedition.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: TalkSentence_501023659-->
+:::'''Lila:''' If you see any rare species in the future, remember to tell me about them!
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301111410-->, {{cx}}<!--SubMission Started: 301111409-->, {{cx}}<!--SubMission Started: 301111408-->, {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon}} How have things been?
+::'''Lila:''' I've been doing alright. I just haven't been sleeping so well.
+::{{DIcon|Arrow}} Did something happen?
+:::<!--Custom String Listener: TalkSentence_501023668-->
+:::'''Lila:''' Oh... I'm worried you'll laugh if I tell you. I am a member of an exploratory vanguard dispatched by the Town Hall to go outside Belobog. I'm responsible for investigating unknown flora and fauna.
+::{{DIcon|Arrow}} So the reason you aren't sleeping is that you want to imitate owls?
+:::<!--Custom String Listener: TalkSentence_501023670-->
+:::'''Lila:''' Owls? What's an owl? Never heard of it... Is there a creature like that outside these walls? If there really is such an animal, then I must to go and do some research.
+::<!--Custom String Trigger: TalkSentence_501023672-->
+::<!--Custom String Listener: TalkSentence_501023672-->
+::'''Lila:''' Ah... You probably don't know, right? The Town Hall recently arranged for some people to explore the area outside the city. Supposedly, the Underworld will be returning to normal soon. Pretty soon, everyone will be able to come and go as they please.
+::'''Lila:''' The Town Hall gave me some outdoor gear. Once my preparations are complete, I'll go and investigate the habitat of the wild flora and fauna out there. I'm going to record them to make a manual.
+::'''Lila:''' So, whenever I think about how my research has a chance of achieving a major breakthrough, I get so excited that I can't sleep a wink...
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301111410-->, {{cx}}<!--SubMission Started: 301111409-->, {{cx}}<!--SubMission Started: 301111408-->, {{cx}}<!--SubMission Started: 301111407-->, {{cx}}<!--SubMission Started: 301111304-->, {{cx}}<!--SubMission Started: 301111302-->, {{cx}}<!--SubMission Started: 301020202-->, {{cx}}<!--SubMission Started: 301010203-->, {{cx}}<!--SubMission Started: 301010201-->, and {{cx}}<!--SubMission Started: 201090203-->)
+:{{DIcon|Exit}} Not yet. But I'll let you know when I see one.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Lila:''' If you see any rare species in the future, remember to tell me about them!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 200120105-->)
+:{{DIcon}} Has your dad gone back to the front lines?
+::'''Lila:''' Ah... yes, the holiday went by too quickly. I feel like I barely spent any time with him.
+::{{DIcon|Arrow}} Why don't you visit him on the front lines?
+:::<!--Custom String Listener: TalkSentence_504049304-->
+:::'''Lila:''' I've thought about it, but my dad says it's dangerous and not a place for a girl like me.
+:::'''Lila:''' Hmph, I'm not a kid anymore. I've grown up.
+:::{{DIcon|Arrow}} It is dangerous, truly.
+:::{{DIcon|Arrow}} In your father's eyes, you'll always be his little girl.
+:::<!--Custom String Listener: TalkSentence_504049308-->
+:::'''Lila:''' Well, since you put it that way, I guess I'll just wait patiently for his next break.
+::{{DIcon|Arrow}} He should be retiring soon.
+:::<!--Custom String Listener: TalkSentence_504049310-->
+:::'''Lila:''' He keeps postponing his retirement, saying the unit can't function without him. Honestly, you'd think he was a general or something.
+:::'''Lila:''' I understand that Dad has been in the military for decades and has a strong bond with it, but Mom and I really miss him too.
+:::'''Lila:''' I hope this time he can retire, he's not getting any younger.
+::<!--Custom String Trigger: TalkSentence_504049313-->
+::<!--Custom String Listener: TalkSentence_504049313-->
+::'''Lila:''' If you go to the front lines next time, please tell my dad to work peacefully and not worry, as I'll take good care of Mom and wait for his safe return.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lila
+|zhs  = 莉拉
+|zht  = 莉拉
+|ja   = リラ
+|ko   = 리라
+|es   = Lila
+|fr   = Lila
+|ru   = Лила
+|th   = Lila
+|vi   = Lila
+|de   = Lila
+|id   = Lila
+|pt   = Lila
+}}
+==Change History==
+{{Change History|TODO}}

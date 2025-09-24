@@ -1,0 +1,148 @@
+<%-- [PAGE_INFO]
+PageTitle=#Capote#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 4 Ecology Researcher
+|image           = NPC Capote.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Storage Zone
+|relatives       = 
+}}
+'''Capote''' is an NPC on [[Herta Space Station]], located in [[Storage Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Storage Zone|npc_82_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Capote:''' Fine fine. I'll take it to heart as long as it's not pointless criticism and slander.
+:<!--Custom String Trigger: Wait_Option_500207400_215-->
+:<!--Custom String Listener: Wait_Option_500207400_215-->
+:{{DIcon|Talk}} You need to self-reflect more...
+::<!--Custom String Listener: TalkSentence_500207405-->
+::'''Capote:''' Ahh, (Trailblazer), have I not reflected upon my actions since then? But who amongst those people would listen to me? For them, I am already an unrepentant sinner.
+::'''Capote:''' I betrayed the fans' expectations and I agree I need to pay for that. However, once I showed any remorse on this matter, they got more angry and felt I was just making up lies again...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You need to apologize to Lamina...
+::<!--Custom String Listener: TalkSentence_500207408-->
+::'''Capote:''' It's my personal business, but since you are hardly a stranger, I'll tell you something in secret.
+::'''Capote:''' Of course I was angry at first. She could have discussed this with me! It became such a huge mess, and it was so hard to sort out my public image...
+::'''Capote:''' However, I realized how ludicrous my ideas were after I thought long and hard on them. If I were the one getting endlessly oppressed, then I probably also won't have the courage to actively approach the other party for a conversation.
+::'''Capote:''' When I realized Lamina's difficulties and her courage, I became more firmly convinced of one thing &mdash; I was a total jerk.
+::'''Capote:''' Therefore, I told her all about my introspection. Lamina didn't accept my apology there and then, but I believe she must have felt my sincerity.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} It's a bit hard to start over again.
+::<!--Custom String Listener: TalkSentence_500207414-->
+::'''Capote:''' My goodness, you are the first to see things from my perspective. (Trailblazer), you are indeed my bosom friend! See, everyone else thinks I can't redeem myself even with death, let alone allow me to start over!
+::'''Capote:''' Thankfully, my life is not completely devoid of light. After all, I still have you and those who really understand me.
+::'''Capote:''' Though the Master Capote Fan Club had disbanded, a small number of fans stayed behind and formed a new club. With their support, I can definitely start all over again on the space station and let everyone feel my conviction!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have anything else to say to you.
+::<!--Custom String Listener: TalkSentence_500207419-->
+::'''Capote:''' I feel a lot better after speaking to you. I used to always put up airs and talk big, but now that I can speak candidly with you, it's actually a rather rare experience.
+::'''Capote:''' Thank you for listening to me. I am also always ready to listen whenever you need me.
+::<!--Ends the current performance-->
+:'''Capote:''' Oh, it's you! Tell me how I can help you. I, Capote, will do anything for my friend!
+:<!--Ends the current performance-->
+:'''Capote:''' I feel a lot better after speaking to you. I used to always put up airs and talk big, but now that I can speak candidly with you, it's actually a rather rare experience.
+:'''Capote:''' Thank you for listening to me. I am also always ready to listen whenever you need me.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000105: Config/Level/NPC/W0/NPC_DefaultStory_500000705.json-->
+::'''Capote:''' ...Hey, don't come up to people all quietly like that! You are going to scare people!
+::'''Capote:''' Oh... It's you, (Trailblazer). Sorry, I thought those people are here...
+::{{DIcon|Arrow}} You seem rather nervous.
+:::<!--Custom String Listener: TalkSentence_500207304-->
+:::'''Capote:''' Oh, it's terrible. Do you remember what Lamina did? Now everyone on the space station spites me and ostracizes me! Even those who said they would never leave my fan club are taking the lead in opposing me!
+:::'''Capote:''' I'm in such a pitiable state because of them!
+::{{DIcon|Arrow}} Who are those people you're talking about?
+:::<!--Custom String Listener: TalkSentence_500207307-->
+:::'''Capote:''' The previous core members of the Master Capote Fan Club are now my biggest haters... You've heard about this, right? About how everyone views me after what happened with Lamina?
+:::'''Capote:''' You look to be a smart cookie. You won't be as much of a brute as them, right?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000106: Config/Level/NPC/W0/NPC_DefaultStory_500000704.json-->
+::'''Capote:''' Oh, it's you! Tell me how I can help you. I, Capote, will do anything for my friend!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I still need to talk to you about something.
+::'''Capote:''' Fine fine. I'll take it to heart as long as it's not pointless criticism and slander.
+::<!--Custom String Trigger: Wait_Option_500207400_215-->
+::<!--Custom String Listener: Wait_Option_500207400_215-->
+::{{DIcon|Talk}} You need to self-reflect more...
+:::<!--Custom String Listener: TalkSentence_500207405-->
+:::'''Capote:''' Ahh, (Trailblazer), have I not reflected upon my actions since then? But who amongst those people would listen to me? For them, I am already an unrepentant sinner.
+:::'''Capote:''' I betrayed the fans' expectations and I agree I need to pay for that. However, once I showed any remorse on this matter, they got more angry and felt I was just making up lies again...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You need to apologize to Lamina...
+:::<!--Custom String Listener: TalkSentence_500207408-->
+:::'''Capote:''' It's my personal business, but since you are hardly a stranger, I'll tell you something in secret.
+:::'''Capote:''' Of course I was angry at first. She could have discussed this with me! It became such a huge mess, and it was so hard to sort out my public image...
+:::'''Capote:''' However, I realized how ludicrous my ideas were after I thought long and hard on them. If I were the one getting endlessly oppressed, then I probably also won't have the courage to actively approach the other party for a conversation.
+:::'''Capote:''' When I realized Lamina's difficulties and her courage, I became more firmly convinced of one thing &mdash; I was a total jerk.
+:::'''Capote:''' Therefore, I told her all about my introspection. Lamina didn't accept my apology there and then, but I believe she must have felt my sincerity.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} It's a bit hard to start over again.
+:::<!--Custom String Listener: TalkSentence_500207414-->
+:::'''Capote:''' My goodness, you are the first to see things from my perspective. (Trailblazer), you are indeed my bosom friend! See, everyone else thinks I can't redeem myself even with death, let alone allow me to start over!
+:::'''Capote:''' Thankfully, my life is not completely devoid of light. After all, I still have you and those who really understand me.
+:::'''Capote:''' Though the Master Capote Fan Club had disbanded, a small number of fans stayed behind and formed a new club. With their support, I can definitely start all over again on the space station and let everyone feel my conviction!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have anything else to say to you.
+:::<!--Custom String Listener: TalkSentence_500207419-->
+:::'''Capote:''' I feel a lot better after speaking to you. I used to always put up airs and talk big, but now that I can speak candidly with you, it's actually a rather rare experience.
+:::'''Capote:''' Thank you for listening to me. I am also always ready to listen whenever you need me.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have anything else to say.
+::'''Capote:''' I feel a lot better after speaking to you. I used to always put up airs and talk big, but now that I can speak candidly with you, it's actually a rather rare experience.
+::'''Capote:''' Thank you for listening to me. I am also always ready to listen whenever you need me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Capote
+|zhs  = 卡波特
+|zht  = 卡波特
+|ja   = カポーティ
+|ko   = 카포티
+|es   = Capote
+|fr   = Boomer
+|ru   = Капоте
+|th   = Capote
+|vi   = Capote
+|de   = Capote
+|id   = Capote
+|pt   = Calepo
+}}
+==Change History==
+{{Change History|TODO}}

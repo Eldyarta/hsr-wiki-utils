@@ -1,0 +1,147 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dewei#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Cloud Knight Captain
+|image           = NPC Dewei.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Dewei''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_72_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502043101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502043101.json-->
+::'''Dewei:''' The Cloud Knights are on duty here. Please refrain from wandering around.
+::'''Dewei:''' ...If it isn't the mighty (Trailblazer) who rounded up the rebels with the Cloud Knights! I've long heard of your reputation. After being transferred to Scalegorge Waterscape, I wondered if I'd get the chance to meet you. And well, here we are!
+::'''Dewei:''' It's a shame that it's a bad time. I'm on duty right now. Just look at all these people going about their business peacefully. Who knows how many dark undercurrents still ripple beneath Scalegorge Waterscape, hidden just under the calm surface.
+::{{DIcon|Arrow}} Are there still remnants of the Disciples of Sanctus Medicus nearby?
+:::<!--Custom String Listener: TalkSentence_502043106-->
+:::'''Dewei:''' Yes. There're still a few Disciples of Sanctus Medicus lurking around here. So long as the Arbor and its legend exist, the Disciples will never truly be eradicated. I'm stationed here to give the few people remaining here a sense of security.
+::{{DIcon|Arrow}} Don't worry. Let me handle everything.
+:::<!--Custom String Listener: TalkSentence_502043108-->
+:::'''Dewei:''' I appreciate your noblest of intentions, {{MC|f=ma'am|m=sir}}. But as long as the Arbor and its legend exist, the Disciples of Sanctus Medicus will never truly be eradicated. There's no way you and I alone could take them all out.
+:::'''Dewei:''' Luckily, the Seat of Divine Foresight acted quickly this time. These days, the Disciples can't get up to anything. I just need to stand here, and they dare not make a move.
+::<!--Custom String Trigger: TalkSentence_502043110-->
+::<!--Custom String Listener: TalkSentence_502043110-->
+::'''Dewei:''' Seeing as you are in such high spirits, I can't help but think of my own child... But let's not go there. I've got my post to uphold, so I can't chitchat. Is there anything else on your mind?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502043201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502043201.json-->
+::'''Dewei:''' The Cloud Knights are on duty here. Please refrain from wandering around.
+::'''Dewei:''' Why, if it isn't (Trailblazer)? How can I help you, {{MC|f=ma'am|m=sir}}?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} Can we chat for a bit?
+::<!--Trigger PerformanceE 502043102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502043102.json-->
+::'''Dewei:''' I may be on-duty, but who am I to refuse you? It should be fine to have a chat about something appropriate.
+::<!--Custom String Trigger: Wait_Option_502043102_433-->
+::<!--Custom String Listener: Wait_Option_502043102_433-->
+::{{DIcon|Talk}} Did you volunteer to be transferred to Scalegorge Waterscape?
+:::<!--Custom String Listener: TalkSentence_502043114-->
+:::'''Dewei:''' You have a fantastic memory, {{MC|f=ma'am|m=sir}}. That's right. I volunteered for this Scalegorge Waterscape assignment. My son... He lost his life in combat against the Disciples of Sanctus Medicus.
+:::'''Dewei:''' I couldn't sleep for many nights when I heard the news. I wanted to do something for him. He... He was still so young, and was just gifted a weapon of the Cloud Knights after he'd completed the ritual of his First Hunt.
+:::'''Dewei:''' I was always against him enlisting with me, and it took its toll on our relationship.
+:::'''Dewei:''' Thinking back over it, I still didn't understand him well enough. So I volunteered to transfer over to Scalegorge Waterscape. I want to be where he once fought, and do something for him...
+:::'''Dewei:''' Even though it's already too late...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are the remants of the Disciples of Sanctus Medicus problematic?
+:::<!--Custom String Listener: TalkSentence_502043120-->
+:::'''Dewei:''' They lay dormant for so long, only to inflict such vicious damage... Of course they're problematic!
+:::'''Dewei:''' In my opinion, all of these passers-by here with their ordinary faces and their ordinary clothes, any one of them could be a surviving remnant of the Disciples of Sanctus Medicus.
+:::'''Dewei:''' But we can't just interrogate them one-by-one. After all, this delve is under Vidyadhara rule, at least on paper.
+:::'''Dewei:''' The general must have stationed us Cloud Knights here to keep an eye on the enemy's remnant forces.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Speaking of which, I've heard there are some Vidyadhara who refuse to comply?
+:::<!--Custom String Listener: TalkSentence_502043125-->
+:::'''Dewei:''' There sure are. The Vidyadhara's Lunarescent Depths are near Scalegorge Waterscape. That's where they undergo their hatching rebirth, and it's a sacred place... They don't like having so many armed troops around, so I can see where they're coming from.
+:::'''Dewei:''' But I also hope they can understand where the Cloud Knights are coming from, too. As long as the devils were not completely quelled, the Alchemy Commission delve will never see peace. Sometimes I even envy these Vidyadhara, you know...?
+:::{{DIcon|Arrow}} Why did you get emotional all of a sudden, captain?
+::::<!--Custom String Listener: TalkSentence_502043128-->
+::::'''Dewei:''' Because the Vidyadhara can wash away all their troubles and get to start again with their hatching rebirth, but I have to keep on living with this burden of pain I bear.
+::::'''Dewei:''' A few days back, I got a letter from the military affairs office asking me to undergo a test to check if I have any signs of mara. But even if I do, so what? I'm determined to keep on standing here to the bitter end.
+::::<!--Custom String Trigger: TalkSentence_502043132-->
+::::<!--Custom String Listener: TalkSentence_502043132-->
+::::'''Dewei:''' All in all, this situation won't last forever. I can promise you that.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Every family has their own difficulties.
+::::<!--Custom String Listener: TalkSentence_502043131-->
+::::'''Dewei:''' You're right. Maybe the Vidyadhara envy me, too?
+::::<!--Custom String Trigger: TalkSentence_502043132-->
+::::<!--Custom String Listener: TalkSentence_502043132-->
+::::'''Dewei:''' All in all, this situation won't last forever. I can promise you that.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I won't bother you any further.
+:::<!--Custom String Listener: TalkSentence_502043134-->
+:::'''Dewei:''' Off you go. Take care.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502043102-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The crisis is finally over...
+::<!--Trigger PerformanceE 502043301: Config/Level/NPCDialogue/P10202/NPCAct/Act502043301.json-->
+::'''Dewei:''' It is finally over. If my late son learned about it, I suppose he would feel relieved too.
+::{{DIcon|Arrow}} He would be proud of you.
+::<!--Custom String Listener: TalkSentence_502043305-->
+::'''Dewei:''' Me? Hahaha, you must be joking, (Trailblazer).
+::'''Dewei:''' If I had been a father that he was proud of, he wouldn't have...
+::'''Dewei:''' However, he was indeed a son that I was proud of.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502043301-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I won't bother you any further.
+::'''Dewei:''' Off you go. Take care.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Dewei
+|zhs  = 德威
+|zht  = 德威
+|ja   = 徳威
+|ko   = 덕위
+|es   = Dewei
+|fr   = Dewei
+|ru   = Дэвэй
+|th   = Dewei
+|vi   = Dewei
+|de   = Dewei
+|id   = Dewei
+|pt   = Dewei
+}}
+==Change History==
+{{Change History|TODO}}

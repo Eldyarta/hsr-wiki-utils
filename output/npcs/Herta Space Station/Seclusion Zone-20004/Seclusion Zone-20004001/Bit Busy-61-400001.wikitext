@@ -1,0 +1,195 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bit Busy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Bit Busy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Bit Busy''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_61_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000162: Config/Level/Mission/5000030/Act/Act900000162.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500016301
+	]
+}</pre>
+::'''Bit Busy:''' Are you having trouble seeing? I'm busy fixing this robot, you see?
+::'''Bit Busy:''' Hey, just tell me what you need from me. I have a pile of tasks to complete.
+::{{DIcon|Arrow}} I'm just here for a chat.
+:::<!--Custom String Listener: TalkSentence_500016205-->
+:::'''Bit Busy:''' A chat? That's what you want to do when I'm buried in work? Tsk...
+::{{DIcon|Arrow}} I know you're in a hurry, but please loosen up.
+:::<!--Custom String Listener: TalkSentence_500016207-->
+:::'''Bit Busy:''' Loosen up? How am I going to loosen up when I'm drowned in work? Tsk...
+::<!--Custom String Trigger: TalkSentence_500016208-->
+::<!--Custom String Listener: TalkSentence_500016208-->
+::'''Bit Busy:''' Fine. Just tell me what's on your mind. Make it quick and don't waste my time!
+::{{DIcon|Arrow}} I'd like to ask...
+::<!--Custom String Listener: Wait_Option_900000162_527-->
+::{{DIcon|Talk}} I wonder what you taste like?
+:::<!--Custom String Listener: TalkSentence_500016211-->
+:::'''Bit Busy:''' ...D&mdash;Did you approach me just to ask me that?
+:::A look of incredulity appears on Bit Busy's face, but the expression is soon concealed by the blush that creeps mysteriously up to its cheeks.
+:::With its head drooped, Bit Busy speaks in a hushed but clear voice reluctantly.
+:::'''Bit Busy:''' Pickled pepper and mango rice.
+:::You immediately understand why it is so impatient &mdash; it was born that way.
+:::<!--Custom String Trigger: Wait_Option_900000162_527-->
+:::<!--Custom String Listener: Wait_Option_900000162_527-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why are you so impatient?
+::::<!--Custom String Listener: TalkSentence_500016217-->
+::::'''Bit Busy:''' Impatient? Can you see how disorganized this place is? What do we do if Ruan Mei suddenly comes back and the place is not cleaned? She'll be upset to see us turning the place into a mess, that's what.
+::::'''Bit Busy:''' You would be impatient too if you had so many things on your plate!
+::::'''Bit Busy:''' Some of Ruan Mei's creations never walk the talk and do nothing every day. I'm not like them. The sooner we fix up this place, the sooner Miss Ruan Mei will come back. So, I can't afford to while away my time with you here!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is that how you talk to Ruan Mei?
+::::<!--Custom String Listener: TalkSentence_500016221-->
+::::'''Bit Busy:''' Hmph, you're no Ruan Mei.
+::::Bit Busy purses its lips impatiently, feeling displeased with your question. Yet, it quickly switches to a look of longing.
+::::'''Bit Busy:''' Of course, I wouldn't speak to her like that... I'd talk in whatever way she desires... How nice would it be if I could meet her?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have no more questions.
+::::<!--Custom String Listener: TalkSentence_500016225-->
+::::'''Bit Busy:''' Great! I'm glad this hasn't taken up too much of my time.
+::::'''Bit Busy:''' Alright, alright! Stop calling for me!
+::::'''Bit Busy:''' The restoration work is in progress and I already know what happened to the robots. Don't get in my way if you don't need anything else from me, understand?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why are you so impatient?
+:::<!--Custom String Listener: TalkSentence_500016217-->
+:::'''Bit Busy:''' Impatient? Can you see how disorganized this place is? What do we do if Ruan Mei suddenly comes back and the place is not cleaned? She'll be upset to see us turning the place into a mess, that's what.
+:::'''Bit Busy:''' You would be impatient too if you had so many things on your plate!
+:::'''Bit Busy:''' Some of Ruan Mei's creations never walk the talk and do nothing every day. I'm not like them. The sooner we fix up this place, the sooner Miss Ruan Mei will come back. So, I can't afford to while away my time with you here!
+:::<!--Custom String Trigger: Wait_Option_900000162_527-->
+:::<!--Custom String Listener: Wait_Option_900000162_527-->
+:::{{DIcon|Talk}} I wonder what you taste like?
+::::<!--Custom String Listener: TalkSentence_500016211-->
+::::'''Bit Busy:''' ...D&mdash;Did you approach me just to ask me that?
+::::A look of incredulity appears on Bit Busy's face, but the expression is soon concealed by the blush that creeps mysteriously up to its cheeks.
+::::With its head drooped, Bit Busy speaks in a hushed but clear voice reluctantly.
+::::'''Bit Busy:''' Pickled pepper and mango rice.
+::::You immediately understand why it is so impatient &mdash; it was born that way.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Is that how you talk to Ruan Mei?
+::::<!--Custom String Listener: TalkSentence_500016221-->
+::::'''Bit Busy:''' Hmph, you're no Ruan Mei.
+::::Bit Busy purses its lips impatiently, feeling displeased with your question. Yet, it quickly switches to a look of longing.
+::::'''Bit Busy:''' Of course, I wouldn't speak to her like that... I'd talk in whatever way she desires... How nice would it be if I could meet her?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have no more questions.
+::::<!--Custom String Listener: TalkSentence_500016225-->
+::::'''Bit Busy:''' Great! I'm glad this hasn't taken up too much of my time.
+::::'''Bit Busy:''' Alright, alright! Stop calling for me!
+::::'''Bit Busy:''' The restoration work is in progress and I already know what happened to the robots. Don't get in my way if you don't need anything else from me, understand?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Is that how you talk to Ruan Mei?
+:::<!--Custom String Listener: TalkSentence_500016221-->
+:::'''Bit Busy:''' Hmph, you're no Ruan Mei.
+:::Bit Busy purses its lips impatiently, feeling displeased with your question. Yet, it quickly switches to a look of longing.
+:::'''Bit Busy:''' Of course, I wouldn't speak to her like that... I'd talk in whatever way she desires... How nice would it be if I could meet her?
+:::<!--Custom String Trigger: Wait_Option_900000162_527-->
+:::<!--Custom String Listener: Wait_Option_900000162_527-->
+:::{{DIcon|Talk}} I wonder what you taste like?
+::::<!--Custom String Listener: TalkSentence_500016211-->
+::::'''Bit Busy:''' ...D&mdash;Did you approach me just to ask me that?
+::::A look of incredulity appears on Bit Busy's face, but the expression is soon concealed by the blush that creeps mysteriously up to its cheeks.
+::::With its head drooped, Bit Busy speaks in a hushed but clear voice reluctantly.
+::::'''Bit Busy:''' Pickled pepper and mango rice.
+::::You immediately understand why it is so impatient &mdash; it was born that way.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why are you so impatient?
+::::<!--Custom String Listener: TalkSentence_500016217-->
+::::'''Bit Busy:''' Impatient? Can you see how disorganized this place is? What do we do if Ruan Mei suddenly comes back and the place is not cleaned? She'll be upset to see us turning the place into a mess, that's what.
+::::'''Bit Busy:''' You would be impatient too if you had so many things on your plate!
+::::'''Bit Busy:''' Some of Ruan Mei's creations never walk the talk and do nothing every day. I'm not like them. The sooner we fix up this place, the sooner Miss Ruan Mei will come back. So, I can't afford to while away my time with you here!
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I have no more questions.
+::::<!--Custom String Listener: TalkSentence_500016225-->
+::::'''Bit Busy:''' Great! I'm glad this hasn't taken up too much of my time.
+::::'''Bit Busy:''' Alright, alright! Stop calling for me!
+::::'''Bit Busy:''' The restoration work is in progress and I already know what happened to the robots. Don't get in my way if you don't need anything else from me, understand?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500016225-->
+:::'''Bit Busy:''' Great! I'm glad this hasn't taken up too much of my time.
+:::'''Bit Busy:''' Alright, alright! Stop calling for me!
+:::'''Bit Busy:''' The restoration work is in progress and I already know what happened to the robots. Don't get in my way if you don't need anything else from me, understand?
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000163: Config/Level/Mission/5000030/Act/Act900000163.json-->
+::'''Bit Busy:''' Are you having trouble seeing? I'm busy fixing this robot, you see?
+::'''Bit Busy:''' The restoration work is in progress and I already know what happened to the robots. Don't get in my way if you don't need anything else from me, understand?
+::'''Bit Busy:''' I already told you I was busy and needed to think. Stop disturbing me!
+::Bit Busy puffs its cheeks in frustration.
+::'''Bit Busy:''' I'm begging you to get out of my way if you need nothing else from me!
+::Bit Busy brushes you off. Maybe it is really busy...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

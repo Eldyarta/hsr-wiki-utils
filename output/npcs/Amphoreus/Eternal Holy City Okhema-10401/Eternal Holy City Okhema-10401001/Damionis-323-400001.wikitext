@@ -1,0 +1,232 @@
+<%-- [PAGE_INFO]
+PageTitle=#Damionis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Explorer
+|image           = NPC Damionis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Damionis''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_323_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 803010607-->)
+::<!--Trigger PerformanceD 803010601: Story/Discussion/Mission/8030106/DS803010601.json-->
+::{{tx}}
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 41402,
+	"OnEnter": []
+}</pre>
+;(Otherwise)
+:;(First interaction)
+:::<!--Trigger PerformanceE 504033001: Config/Level/Mission/5040330/Act/Act504033001.json-->
+:::'''Damionis:''' Hello, esteemed outlander. Was that photo of Castrum Kremnos helpful to you?
+:::{{DIcon|Arrow}} Immensely helpful!
+::::<!--Custom String Listener: TalkSentence_504038003-->
+::::'''Damionis:''' That's good to hear. I've always felt somewhat guilty toward you, so knowing I've been able to help eases my mind.
+:::{{DIcon|Arrow}} It's not a big deal.
+::::<!--Custom String Listener: TalkSentence_504038005-->
+::::'''Damionis:''' In that case, I've always felt a certain guilt toward you. If there's anything you need help with, please don't hesitate to ask.
+:::<!--Custom String Trigger: TalkSentence_504038006-->
+:::<!--Custom String Listener: TalkSentence_504038006-->
+:::'''Damionis:''' Though Lady Aglaea has forbidden me from further exploring the world beyond the sky, my curiosity remains unabated. If you're interested, feel free to chat with me anytime.
+:::'''Damionis:''' I'd be delighted to share my latest discoveries with you, esteemed outlander.
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 504033002: Config/Level/Mission/5040330/Act/Act504033002.json-->
+:::'''Damionis:''' Ah, esteemed outlander. Your timing is impeccable. I, Damionis, have recently made yet another significant discovery.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 803010101-->)
+:{{DIcon|undefined}} I heard that you're currently working on some kind of plan?
+:::<!--Trigger PerformanceE 803010101: Config/Level/Mission/8030101/Act/Act803010101.json-->
+:::'''Damionis:''' Where did you... Ahem... I mean, you're right!
+:::'''Damionis:''' I, Damionis, have discovered a superb business opportunity lying just outside the walls of the holy city.
+:::'''Damionis:''' Do you want to join in, hero? If we get our hands on it, we will surely become the trailblazers of the new era! Great fortune is awaiting us!
+:::{{DIcon|Arrow}} Hmph, you got me in hot soup last time!
+::::<!--Custom String Listener: TalkSentence_830110105-->
+::::'''Damionis:''' Aye, can you really blame me...? I was just too excited back then. But no one's getting into hot soup this time, because adventuring is what I do!
+::::<!--Custom String Trigger: TalkSentence_830110109-->
+:::{{DIcon|Arrow}} You're actually interested in making money?
+::::<!--Custom String Listener: TalkSentence_830110107-->
+::::'''Damionis:''' ...Ehehe. Well, I do yearn for the skies, but I should also occasionally have to turn my face back down to earth.
+::::<!--Custom String Trigger: TalkSentence_830110109-->
+:::{{DIcon|Arrow}} Give me more details first.
+:::<!--Custom String Listener: TalkSentence_830110109-->
+:::'''Damionis:''' I hear you're from a world beyond the sky, so you might not know this... But the holy city used to span across far greater lands than what you see now.
+:::'''Damionis:''' A long time ago, countless allied cities existed around Okhema... In the same way that Oronyx's stars surround the Dawn Device.
+:::'''Damionis:''' Okhema was a true "Eternal City" back then. People did not think of it as their city, but rather a motherly figure. When one stood on top of the hill and looked outward, everything we could see was our territory!
+:::'''Damionis:''' ...Then, the black tide raged stronger. The area within the city walls became the only safe place, while all other regions gradually grew deserted.
+:::{{DIcon|Arrow}} How tragic...
+::::<!--Custom String Listener: TalkSentence_830110114-->
+::::'''Damionis:''' ...Isn't it? But it's also thanks to these events of the past that we have an opportunity to strike it rich.
+:::{{DIcon|Arrow}} Why were they deserted?
+::::<!--Custom String Listener: TalkSentence_830110116-->
+::::'''Damionis:''' Rather than protecting such a vast territory, isn't it more feasible to fall back and defend just the city walls? But I guess it's also thanks to these events of the past that we have an opportunity to strike it rich.
+:::{{DIcon|Arrow}} Are we going to... go grave digging?
+::::<!--Custom String Listener: TalkSentence_830110118-->
+::::'''Damionis:''' Err, you're not entirely wrong. I am more inclined to think that we're going to bring back items that still have worth.
+:::<!--Custom String Trigger: TalkSentence_830110119-->
+:::<!--Custom String Listener: TalkSentence_830110119-->
+:::'''Damionis:''' When Nikador was still active, everything beyond the walls of the holy city was living under the mad king's shadow. Their giant spear even sent some states buried several feet into the ground... We're not going to reach those places for sure.
+:::'''Damionis:''' His titankins are beginning to die down now that you've defeated the mad king, making this the perfect time to go on an adventure!
+:::'''Damionis:''' The ancient cities may be in utter ruin by now, but I'm sure some parts of them managed to remain as they were... Say, places that have been buried underground.
+:::'''Damionis:''' I found an underground palace beneath an ancient hypogeum around here a while ago. Just dig up those treasures, and you can stay however long you want in the holy city... Heck, you can even buy whatever you want here!
+:::{{DIcon|Arrow}} Are they really worth that much?
+::::<!--Custom String Listener: TalkSentence_830110124-->
+::::'''Damionis:''' How does that saying go again? Ah, "the most valuable things are all buried underground." Along with a ton of traps and danger, of course...
+:::{{DIcon|Arrow}} Are you sure it'll be safe?
+::::<!--Custom String Listener: TalkSentence_830110126-->
+::::'''Damionis:''' I've checked out the site a dozen times now and I haven't seen a single monster! ...Maybe except for a few of their defense mechanisms that are still functioning.
+:::{{DIcon|Arrow}} What's a hypogeum?
+::::<!--Custom String Listener: TalkSentence_830110128-->
+::::'''Damionis:''' A massive underground building complex that was likely used as a vault to store valuable items... and safeguarded with defense mechanisms that may be still functioning.
+:::{{DIcon|Arrow}} I'm not interested in money.
+::::<!--Custom String Listener: TalkSentence_830110130-->
+::::'''Damionis:''' ...But you'll at least receive glory. I mean, think about your potential title &mdash; "Reclaimer of Lost Lands"! Isn't that a noble title to be known by?
+::::'''Damionis:''' As for proof? The treasures that you bring back will make for the most irrefutable proof. As long as you bring back a large enough pile of treasures, the rest will be convinced of your incredible feat.
+:::<!--Custom String Trigger: TalkSentence_830110132-->
+:::<!--Custom String Listener: TalkSentence_830110132-->
+:::'''Damionis:''' In any case, our plan is simple: I'll lead the way, and you can sort out whatever mechanisms that remain. And when we finally get to the treasures, we can split them 3-7.
+:::{{DIcon|Arrow}} Why am I only getting 70% of the treasures?
+:::{{DIcon|Arrow}} You're only taking 30% of the treasures? Don't you want more?
+:::<!--Custom String Listener: TalkSentence_830110135-->
+:::'''Damionis:''' Huh? I'm getting 70%. The 30% is yours.
+:::{{DIcon|Arrow}} You have a chance to reconsider your words.
+:::{{DIcon|Arrow}} I'm not going then.
+:::<!--Custom String Listener: TalkSentence_830110138-->
+:::'''Damionis:''' ...Oh, alright. I'll admit that we can't do this without you... but the same goes for me.
+:::'''Damionis:''' Let's both compromise and agree on an equal split?
+:::{{DIcon|Arrow}} Fine.
+::::<!--Custom String Listener: TalkSentence_830110141-->
+::::'''Damionis:''' Excellent. That's why I like working with people like you.
+:::{{DIcon|Arrow}} Not okay.
+::::<!--Custom String Listener: TalkSentence_830110143-->
+::::'''Damionis:''' Bah, I'll just live with a 7-3 split... This is final! No more negotiation on how we're splitting the loot!
+:::{{DIcon|Arrow}} Negotiate any further and it'll be a 9-1 split.
+::::<!--Custom String Listener: TalkSentence_830110145-->
+::::'''Damionis:''' Bah, I'll just live with a 7-3 split... This is final! No more negotiation on how we're splitting the loot!
+:::<!--Custom String Trigger: TalkSentence_830110146-->
+:::<!--Custom String Listener: TalkSentence_830110146-->
+:::'''Damionis:''' I already have an ideal route to go around the city walls. Let's set off now.
+:::{{DIcon|Arrow}} Let's go!
+::::<!--Custom String Listener: Wait_Option_803010101_67-->
+::::<!--Custom String Trigger: OpenActivityUI-->
+:::{{DIcon|Exit}} Maybe later.
+::::<!--Custom String Listener: TalkSentence_830110149-->
+::::'''Damionis:''' Of course, it's best to be well-prepared. I'll be waiting for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:;(If {{Mission|Hypogeum Enigma|showChapter=0}} has been completed)
+:{{DIcon|Travel Log}} I'm ready for our adventure. Lead the way to the ancient city.
+:::<!--Trigger PerformanceE 803010102: Config/Level/Mission/8030101/Act/Act803010102.json-->
+:::'''Damionis:''' Sure, let's set off now.
+:::<!--Custom String Trigger: OpenActivityUI-->
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon}} Can you tell me what you've discovered?
+:::'''Damionis:''' I've been stationed at the base of Kephale from Entry Hour to Curtain-Fall Hour, fasting and unblinking, until at last... I've unraveled the mysteries of the Dawn Device!
+:::'''Damionis:''' That is &mdash; the light emitted by the Dawn Device is not constant. When observed through the highest precision lenses, one can detect extremely subtle fluctuations in brightness. Although these changes are not readily apparent, they are indeed real and measurable.
+:::'''Damionis:''' This indicates that the traditional method of timekeeping is utterly unsuitable for modern Okhema!
+:::<!--Custom String Trigger: waitoption_damiyanuosi-->
+:::<!--Custom String Listener: waitoption_damiyanuosi-->
+:::{{DIcon|Talk}} Aren't you an explorer?
+::::<!--Custom String Listener: TalkSentence_504038201-->
+::::'''Damionis:''' Isn't delving into the unknown secrets of Okhema an exhilarating adventure?
+::::'''Damionis:''' Well, actually, I had sworn in front of Lady Aglaea not to try to explore the world beyond the sky. I need to keep up appearances, at least for the time being.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What a great discovery!
+::::<!--Custom String Listener: TalkSentence_504038204-->
+::::'''Damionis:''' Exactly! By sharing this discovery, we could revolutionize the longstanding calendar system in Okhema!
+::::'''Damionis:''' Imagine this &mdash; the five periods of the day, established by Kephale in ancient times and widely recognized ever since are now proven to need modification. What a startling discovery!
+::::'''Damionis:''' I should jot this down quickly &mdash; wouldn't want to let it slip my mind.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} ...I don't understand what you mean.
+::::<!--Custom String Listener: TalkSentence_504038208-->
+::::'''Damionis:''' ...Is this so hard to grasp? Never mind, let me explain it in detail.
+::::'''Damionis:''' Okhema adheres to a traditional calendar, dividing each day into five distinct periods based on the mistaken belief that the light from the Dawn Device remains constant and cannot be used to determine time.
+::::'''Damionis:''' But I have proven that the light from the Dawn Device does indeed change. Could we then base a new calendar on this discovery? Am I, Damionis, actually correcting Kephale's original creation?
+::::{{DIcon|Arrow}} That's incredible!
+:::::<!--Custom String Listener: TalkSentence_504038213-->
+:::::'''Damionis:''' Thank you, thank you. The spirit of exploration deserves praise. Praise my free, unbound soul!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} But Okhema does not need a new calendar.
+:::::<!--Custom String Listener: TalkSentence_504038215-->
+:::::'''Damionis:''' Be that as it may, I know people are accustomed to this method of timekeeping and are not keen on any changes, but...
+:::::'''Damionis:''' As an explorer, I'm driven to seek the unknown! Even if it yields no practical results, I'm determined to prove that my conjectures are correct!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} So what do you plan to do?
+::::<!--Custom String Listener: TalkSentence_504038217-->
+::::'''Damionis:''' I will go to the Council of Elders with my conjectures and invite Grove scholars to witness my findings. I'll give lectures in the marketplace, and hold discussions in the baths. I want everyone to know about this.
+::::'''Damionis:''' Sharing exciting discoveries is the first step toward change &mdash; wish me luck, esteemed outlander!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Sorry, I'm a little busy here...
+:::'''Damionis:''' Alright, that's that then. But if you're ever interested, you can stop by here for a chat with me.
+:::'''Damionis:''' I'd be delighted to share my latest discoveries with you, esteemed outlander.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Damionis
+|zhs  = 达米亚诺斯
+|zht  = 達米亞諾斯
+|ja   = ダミアノス
+|ko   = 다미오니스
+|es   = Damianos
+|fr   = Damionis
+|ru   = Дамионис
+|th   = Damionis
+|vi   = Damionis
+|de   = Damionis
+|id   = Damionis
+|pt   = Damionis
+}}
+==Change History==
+{{Change History|TODO}}

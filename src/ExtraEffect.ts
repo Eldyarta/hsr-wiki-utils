@@ -6,9 +6,9 @@ export const EE_ALIASES: Record<string, string[]> = {
 	'Action Delayed': ['delayed'],
 	'Action Advanced': ['advanced', 'advanced forward', 'advance forward', 'action advances', 'advances its action'],
 	'Extra Turn': ['extra action'],
-	'Follow-up ATK': ['follow-up attack', 'follow-up', 'follow-up attacks', 'follow-up atks'],
+	'Follow-up ATK': ['follow-up attack', 'follow-up', 'follow-up attacks', 'follow-up atks', "follow-up atks'"],
 	'Additional DMG': ['additional damage', 'additional', 'additional ice dmg'],
-	'Weakness Break State': ['weakness broken', 'weakness break', 'weakness broken state', 'weakness-broken'],
+	'Weakness Break State': ['weakness broken', 'weakness break', 'weakness broken state', 'weakness-broken', 'break their weakness'],
 	'Downed State': ['downed', 'knocked down'],
 	'Buff': ['buffs', 'buff(s)', 'buffed'],
 	'Debuff': ['debuffs', 'debuff(s)', 'debuffed'],
@@ -24,6 +24,7 @@ export const EE_ALIASES: Record<string, string[]> = {
 	'Counter': ['counters', 'counter(s)'],
 	'Enemy units that can enter Moon Rage': ['friendly units who can enter the moon rage effect', 'friendly units who can enter the moon rage state'],
 	"Khaslana's Extra Turn": ["khaslana's extra turns", "khaslana's extra turn(s)"],
+	'Departed': ['depart'],
 	
 	'Soul Chrysalis/Butterfly Soul': ['butterfly soul', 'soul chrysalis'],
 	

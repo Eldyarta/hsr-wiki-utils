@@ -1,0 +1,123 @@
+<%-- [PAGE_INFO]
+PageTitle=#Ms. Yo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Acrobatic Troupe Leader
+|image           = NPC Ms. Yo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Ms. Yo''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_151_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502071101: Config/Level/NPCDialogue/P10202/NPCAct/Act502071101.json-->
+::'''Ms. Yo:''' Hear ye! Hear ye! Enjoy acrobatic shows for a tiny fee! Come to Ms. Yo's acrobatic troupe and take a seat! Breathing fire, walking on burning coal, and thrilling trapeze acts for you to see! Let go of your burdens, and relax yourself in glee!
+::'''Ms. Yo:''' Want to enjoy an acrobatic show, my Outworlder friend?
+::{{DIcon|Arrow}} What's acrobatics?
+:::<!--Custom String Listener: TalkSentence_502071105-->
+:::'''Ms. Yo:''' Oh, you've never enjoyed an acrobatic show before? Then you should definitely watch one right here!
+::{{DIcon|Arrow}} What kind of shows do you have?
+:::<!--Custom String Listener: TalkSentence_502071107-->
+:::'''Ms. Yo:''' You're asking the right person! I have a whole bunch of shows for you!
+::<!--Custom String Trigger: TalkSentence_502071108-->
+::<!--Custom String Listener: TalkSentence_502071108-->
+::'''Ms. Yo:''' Fire hoops and handstands you may already know, but we have so many other stunts untold. Snake dance and eagle show, and even the fiercest beasts will dance to our tempo. In short, we provide any performances, as long as you have the guts to enjoy them.
+::'''Ms. Yo:''' But it's not time for the show yet, so I'm here chatting with you. How can I help you, my young friend?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502071301: Config/Level/NPCDialogue/P10202/NPCAct/Act502071301.json-->
+::'''Ms. Yo:''' Hear ye! Hear ye! Enjoy acrobatic shows for a tiny fee! Come to Ms. Yo's acrobatic troupe and take a seat! Breathing fire, walking on burning coal, and thrilling trapeze acts for you to see! Let go of your burdens, and relax yourself in glee!
+::'''Ms. Yo:''' Hmmm? If it isn't my little friend (Trailblazer)? The show has not started yet. Come on over and chat with me.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I have a few questions I wish to ask you...
+::<!--Trigger PerformanceE 502071201: Config/Level/NPCDialogue/P10202/NPCAct/Act502071201.json-->
+::'''Ms. Yo:''' I'll answer your questions to the best of my ability.
+::<!--Custom String Trigger: Wait_Option_502071201_221-->
+::<!--Custom String Listener: Wait_Option_502071201_221-->
+::{{DIcon|Talk}} Where do you usually perform?
+:::<!--Custom String Listener: TalkSentence_502071204-->
+:::'''Ms. Yo:''' Although our headquarters are in Aurum Alley, more often than not, we travel all over to perform, and sometimes we even go to other Xianzhou ships. So, we rarely perform in theaters unless there's a big festival or something. Most of the time, we perform on the street and manage our business independently.
+:::'''Ms. Yo:''' Both performing on the street and in the theater have their benefits. Theaters allow us to set up large-sized equipment for trapeze or other complex acrobatic acts, but street performances are much livelier, and you'll get immediate feedback from the audience.
+:::'''Ms. Yo:''' Whenever you see jugglers in Aurum Alley, they are from my troupe. If you find their performance satisfactory, feel free to tip them, and if you don't... just let me know and I'll reprimand them!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why did you start your acrobatic troupe?
+:::<!--Custom String Listener: TalkSentence_502071208-->
+:::'''Ms. Yo:''' To make money, of course! Acrobatic shows are almost as popular as immersia on Xianzhou ships.
+:::'''Ms. Yo:''' That's easy to understand, right? Anyone who has lived for two or three centuries will eventually find their lives boring.
+:::'''Ms. Yo:''' So they will watch others dance on the razor's edge... Such thrilling performances will refill them with the feeling of being alive.
+:::'''Ms. Yo:''' To be honest, that's also why my peers and I joined this industry.
+:::'''Ms. Yo:''' Those who live too long tend to become numb, and that's why they need constant stimulation... Well, I don't think you'd really understand how we feel. You probably just think "these guys have lived too long to say 'no' to their deathwish." Hahahaha!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you know Guinaifen?
+:::<!--Custom String Listener: TalkSentence_502071214-->
+:::'''Ms. Yo:''' Guinaifen? Oh, you mean Little Gui? Of course, I do! She's our best performer and moneymaker!
+:::'''Ms. Yo:''' She might be a short-life species, but she's as excellent an acrobat as any long-life ones! Sometimes her stunts are so thrilling that... they even send chills down my spine.
+:::'''Ms. Yo:''' I've always wanted to ask her. "Even if you led a peaceful life, you would have less than a century to live. Why are you so dedicated to such dangerous shows?" But... as you know, since I'm her boss, I can't just ask her like things that... Hahaha.
+:::'''Ms. Yo:''' Perhaps it's because her life is short that she wants to live every moment to the fullest... but of course, this is just my speculation.
+:::'''Ms. Yo:''' Still, I want to remind her... Despite her excellent acrobatic skills, she has recently slacked off on her performance, shifting her focus to live streaming and garish bells and whistles... Well, she's still so young after all...
+:::'''Ms. Yo:''' If you run into her, don't forget to pass on my words to her. It's okay for young people to try new and fancy stuff, but they must not neglect what keeps them afloat.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else to ask.
+:::<!--Custom String Listener: TalkSentence_502071221-->
+:::'''Ms. Yo:''' Sure thing. Don't forget to come over and enjoy my performance when you have time!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502071201-->
+:{{DIcon|Exit}} I have nothing else to ask.
+::'''Ms. Yo:''' Sure thing. Don't forget to come over and enjoy my performance when you have time!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Ms. Yo
+|zhs  = 悠姐
+|zht  = 悠姐
+|ja   = 悠ねえ
+|ko   = 유 누님
+|es   = Youjie
+|fr   = Mademoiselle Yo
+|ru   = Госпожа Ю
+|th   = คุณ Yo
+|vi   = Chị Yo
+|de   = Frau Yo
+|id   = Nyonya Yo
+|pt   = Sra. Yo
+}}
+==Change History==
+{{Change History|TODO}}

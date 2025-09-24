@@ -1,0 +1,127 @@
+<%-- [PAGE_INFO]
+PageTitle=#Joseph#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Joseph.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Joseph''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_60_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000156: Config/Level/Mission/5000030/Act/Act900000156.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500015701
+	]
+}</pre>
+::'''Joseph:''' I don't think I've seen you before. You aren't local, are you? Why did you come all the way here to see me?
+::'''Joseph:''' Oh, by the way, do you have an appointment? If not, we'll have to make it quick. I have a busy schedule, you know.
+::{{DIcon|Arrow}} Appointment?
+:::<!--Custom String Listener: TalkSentence_500015803-->
+:::'''Joseph:''' As the special liaison officer here, I deal with people from all walks of life daily. You need an appointment to meet someone as busy as me.
+:::'''Joseph:''' Ahem, I handle things according to my priorities and with good manners. That's how I get on good terms with everyone.
+::{{DIcon|Arrow}} Do I really need an appointment, considering who I am?
+:::<!--Custom String Listener: TalkSentence_500015806-->
+:::'''Joseph:''' You are?
+:::Joseph suddenly lowers his voice and edges closer toward your ear. It tries to stand on tiptoes with its previously hidden feet, but fails. You have to bend over to make him feel comfortable enough to speak.
+:::'''Joseph:''' You're a big shot from the space station, aren't you? I'm not making you wait on purpose, and I really have some matters to attend to.
+:::'''Joseph:''' Now, everyone's counting on me to negotiate with those little tin cans. I can't let them down. Let's talk in private when I'm free.
+::<!--Custom String Trigger: TalkSentence_500015810-->
+::<!--Custom String Listener: TalkSentence_500015810-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000157: Config/Level/Mission/5000030/Act/Act900000157.json-->
+::'''Joseph:''' Oh, it's you. What can I do for you? We'll have to make it quick. I have a busy schedule, you know.
+:'''Joseph:''' So, what can I do for you? Please make it short and sweet, I don't have all day.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to ask...
+::<!--Custom String Trigger: Wait_Option_900000158_426-->
+::<!--Custom String Listener: Wait_Option_900000158_426-->
+::{{DIcon|Talk}} What are the duties of the special liaison officer?
+:::<!--Custom String Listener: TalkSentence_500015813-->
+:::'''Joseph:''' Communication and negotiation are my top priorities, especially when it comes to bridging the gap between different species and populations. It took me a ton of effort to establish a proper diplomatic relationship with this "model" by my side.
+:::'''Joseph:''' It's also important to reach out to those tin cans &mdash; what you people call "little robots" &mdash; from time to time. That's quite a hassle, as I need to press their buttons first to talk to them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you usually busy yourself with?
+:::<!--Custom String Listener: TalkSentence_500015816-->
+:::'''Joseph:''' Oh, I have lots of things to do. We are all Ruan Mei's creations &mdash; oh, not you, my apologies. So, I'm responsible for facilitating communications within and outside the community. I have to analyze every discussion, and then provide... advice and suggestions.
+:::'''Joseph:''' Don't think I have an easy job just because I stand here all day long. I'm actually snowed under with work every day.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did Wubbaboo end up becoming your "model"?
+:::<!--Custom String Listener: TalkSentence_500015819-->
+:::'''Joseph:''' Well, that's... a long story. To put it simply, I intend to make Wubbaboo a model that represents our diplomatic relationships with other space station zones.
+:::'''Joseph:''' I'll have those researchers hang advanced equipment on Wubbaboo. Then, Wubbaboo will come back and show the equipment to my people as a friendly gesture.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500015822-->
+:::'''Joseph:''' Oh, sure.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Joseph:''' Well, let's call it a day then. We have plenty of chances to talk when we collaborate in the future.
+::'''Joseph:''' I'm sorry you have to see me in this state, as I've just wrapped up a negotiation. There are some loose ends to tie up, so I won't be able to see you off.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

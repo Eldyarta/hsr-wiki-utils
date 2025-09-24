@@ -1,0 +1,110 @@
+<%-- [PAGE_INFO]
+PageTitle=#Aulus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Food Provisions Officer
+|image           = NPC Aulus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Bloodbathed Battlefront" Castrum Kremnos
+|relatives       = 
+}}
+'''Aulus''' is an NPC on [[Amphoreus]], located in [["Bloodbathed Battlefront" Castrum Kremnos]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Bloodbathed Battlefront" Castrum Kremnos|npc_203_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033064: Config/Level/Mission/5040330/Act/Act504033064.json-->
+::'''Aulus:''' Free meat n' wheat porridge, one for everyone, come get yours!
+::'''Aulus:''' Ooh, you look rather young, warrior. I suppose you're here to join the King's Trial?
+::'''Aulus:''' You have to fill up your belly before stepping into the trial ground. Come, eat this and warm yourself up.
+:;(Screen fades to black)
+::The old man hands you a bowl of mush with a thin slice of barbecued pork set over it.
+::You finish the porridge. It doesn't taste great. The oil's too heavy, but it's filling &mdash; perfect for a soldier engaged in heavy labor, when you think about it.
+::'''Aulus:''' How was it, ya feel your strength surging from your soles to your head? This is Old Aulus' special recipe, guaranteed to power you through the day with just one hearty meal.
+::'''Aulus:''' When the festival ends, I'll be hosting a huge feast. If you can stay around till then, don't forget to come by.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033065: Config/Level/Mission/5040330/Act/Act504033065.json-->
+::'''Aulus:''' An empty stomach will reduce your combat effectiveness. You have to take to the field on a full belly.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I want to chat with you.
+:::'''Aulus:''' Banter isn't part of my job, but providing spiritual food for warriors is. What'd you need?
+:::<!--Custom String Trigger: Wait_Option_504033066_1591-->
+:::<!--Custom String Listener: Wait_Option_504033066_1591-->
+:::{{DIcon|Talk}} What does a food provisions officer do?
+::::<!--Custom String Listener: TalkSentence_504044504-->
+::::'''Aulus:''' Haha... As the name suggests, it's managing and stocking up on military supplies, of course. But it's no easy feat.
+::::'''Aulus:''' There was once a sage who said this: "The grain moves before the army does." You can't afford any mistakes in war. The slightest misstep will cause a crushing defeat.
+::::'''Aulus:''' The most important thing about supplies is that it replenishes energy. I've tried many ways, but nothing works better than increasing the quantity of meat within, especially adding large pieces of meat. The problem is where to get this meat.
+::::'''Aulus:''' Dromases are an essential labor force, and we can't slaughter them needlessly. So I've got my sights on cloudsheep and hornswine &mdash; the troops say the former tastes better, and want me to use it more, but hornswines yield more meat.
+::::'''Aulus:''' I mean, soldiers aren't customers ordering food at a diner, so I can't always cater to them, can I?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Interesting stories of a food provisions officer?
+::::<!--Custom String Listener: TalkSentence_504044510-->
+::::'''Aulus:''' Interesting stories? I must talk about the war on Okhema last time, when the Kremnoan army ran into a food shortage.
+::::'''Aulus:''' We walked right into an enemy trap while pursuing their troops, and our supply line got cut off. After finishing all the food we had left, everyone just stared at me, certain that I had some way to get my hands on some food.
+::::'''Aulus:''' I wasn't too confident, but I wasn't about to demoralize them. So I wandered around to see if I could think of anything. Who'd thought, I somehow ended up nearby the Okhema camp &mdash; I probably didn't look like a soldier to them.
+::::'''Aulus:''' Before I left, I hauled three hornswine by the reins out of their camp. That night at the all-meat buffet was the most fulfilling meal of my life. I fed a whole bunch of people, and saved them too.
+::::'''Aulus:''' As for the poor Okhemans, they've got a rich production line. A few hornswines mean nothing to them. I even left an IOU.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let's leave it there for now.
+::::<!--Custom String Listener: TalkSentence_504044516-->
+::::'''Aulus:''' You feel more lively? That's good then.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'll have proper meals.
+:::'''Aulus:''' Good. You need to, or your body won't last.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Aulus
+|zhs  = 奥卢斯
+|zht  = 奧盧斯
+|ja   = アウルス
+|ko   = 아울루스
+|es   = Aulus
+|fr   = Aulus
+|ru   = Авлус
+|th   = Aulus
+|vi   = Aulus
+|de   = Aulus
+|id   = Aulus
+|pt   = Aulus
+}}
+==Change History==
+{{Change History|TODO}}

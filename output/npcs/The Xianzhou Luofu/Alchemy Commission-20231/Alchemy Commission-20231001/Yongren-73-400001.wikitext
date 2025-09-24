@@ -1,0 +1,233 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yongren#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Xianzhou Medicine Trader
+|image           = NPC Yongren.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Yongren''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_73_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502044101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502044101.json-->
+::'''Yongren:''' Welcome, welcome. We don't have any secret home recipes here. Just your everyday medicines and easy-to-use remedies.
+::'''Yongren:''' If you need me, just holler at me any time. Or just take a look yourself if you like. Whatever you prefer.
+::{{DIcon|Arrow}} How do you get away with such a nonchalant attitude toward business?
+:::<!--Custom String Listener: TalkSentence_502044105-->
+:::'''Yongren:''' In our line of work, a patient who needs medicine will have already planned out what they need to buy. People find a hard sell annoying, so some peace and quiet is probably better.
+::{{DIcon|Arrow}} That attitude is completely unacceptable in this day and age.
+:::<!--Custom String Listener: TalkSentence_502044107-->
+:::'''Yongren:''' It's just the way I am. Please don't take any offense. It's nothing personal.
+::<!--Custom String Trigger: TalkSentence_502044108-->
+::<!--Custom String Listener: TalkSentence_502044108-->
+::'''Yongren:''' I'm a person who likes peace and quiet. Not to mention that I run a pharmacy. That's right, a pharmacy. So peace and quiet is best. If things are too bustling around here, it's not necessarily a good thing... Long-life species earn their salaries the long way, y'know.
+::'''Yongren:''' Alright. If it's okay with you, then I'll just take a seat and have a sip of tea...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502044201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502044201.json-->
+::'''Yongren:''' Welcome, welcome. We don't have any secret home recipes here. Just your everyday medicines and easy-to-use remedies.
+::'''Yongren:''' If you need&mdash; Oh, it's you. What's up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404024902-->)
+:{{DIcon|?}} I think these are yours...
+:;(First interaction)
+:::<!--Trigger PerformanceE 404024902: Config/Level/Mission/4040249/Act/Act404024902.json-->
+:::<!--Custom String Trigger: TalkSentence_414249015-->
+:::<!--Custom String Listener: TalkSentence_414249015-->
+:::'''Yongren:''' Mine? What do you mean?
+:::<!--Custom String Trigger: SubmitItem_4040249-->
+:::<!--Custom String Listener: SubmitItem_4040249-->
+::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404024902,
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_414249016"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_414249015"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 404024950: Config/Level/Mission/4040249/Act/Act404024950.json-->
+:::'''Yongren:''' ...What we do next might be quite annoying. I'm bringing you along just to ensure your safety and as well as mine.
+:::{{DIcon|Arrow}} Let's go.
+::::<!--Custom String Listener: TalkSentence_414249029-->
+::::'''Yongren:''' Let's go!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::----
+::::<!--Custom String Trigger: Talk_404024902-->
+:::{{DIcon|Exit}} I need to think about it...
+::::<!--Custom String Listener: TalkSentence_414249028-->
+::::'''Yongren:''' I see. I'll wait. Just for a short while though. Hurry. Decide whether you want to come with me.
+::::<!--Custom String Trigger: ALL_TALK_END_NOTFINISH-->
+::::<!--Custom String Listener: ALL_TALK_END_NOTFINISH-->
+:::<!--Ends the current performance-->
+:{{DIcon|Shop}} Let me see what you have.
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502044102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502044102.json-->
+::<!--Custom String Trigger: Wait_Option_502044102_10-->
+::<!--Custom String Listener: Wait_Option_502044102_10-->
+::{{DIcon|Talk}} Why do you always seem to be peering outside?
+:::<!--Custom String Listener: TalkSentence_502044112-->
+:::'''Yongren:''' This is my shop, so it's normal for me to keep both eyes peeled for any troubles that might arise.
+:::'''Yongren:''' As a law-abiding small businessman, any suspicious character I come across is going to get reported to the Seat of Divine Foresight immediately.
+:::{{DIcon|Arrow}} Judging by your tone, you sound pretty familiar with the Seat of Divine Foresight?
+::::<!--Custom String Listener: TalkSentence_502044115-->
+::::'''Yongren:''' *Ahem* I've reported a few suspicious Outworlders to the Cloud Knights before, that's all. Don't overthink it.
+::::'''Yongren:''' Here on the Luofu, we still have to cooperate fully with the Cloud Knights to keep the peace around here. I'm self-aware enough to get that.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What happened outside?
+::::<!--Custom String Listener: TalkSentence_502044118-->
+::::'''Yongren:''' There're some Vidyadhara yelling about something over there. I don't really know what.
+::::'''Yongren:''' Fill me in if you hear any rumors out there. In any case, I'm just going to be stuck here.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you recommend some good essential medicines for me?
+:::<!--Custom String Listener: TalkSentence_502044121-->
+:::'''Yongren:''' You look full of life and vigor. There's nothing wrong with you, so don't worry about it.
+:::{{DIcon|Arrow}} You don't seem to care much about making sales at all...
+:::{{DIcon|Arrow}} You don't even want to close this easy deal right in front of you?
+:::<!--Custom String Listener: TalkSentence_502044124-->
+:::'''Yongren:''' *Sigh*... Before, I had no choice but to take on the family business.
+:::'''Yongren:''' But now... I'm just a normal medicine trader, but I'd still like to be a good person.
+:::'''Yongren:''' Business is important, I know that. But every medicine has its side effects and shouldn't just be flogged off indiscriminately. I can't just prescribe potentially harmful drugs to anyone.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where have I seen you before?
+:::<!--Custom String Listener: TalkSentence_502044128-->
+:::'''Yongren:''' ...
+:::'''Yongren:''' No way. You must be mistaken!
+:::'''Yongren:''' Hang on, where do you think you saw me? That's impossible. I've definitely been here in my pharmacy the whole time...
+:::{{DIcon|Arrow}} I was just making conversation. Why so serious?
+::::<!--Custom String Listener: TalkSentence_502044132-->
+::::'''Yongren:''' You can't just randomly take any medicine, just like you can't randomly talk nonsense, okay? Have a little integrity, please.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I've been around the block. Ever heard of my friend, Jing Yuan...?
+::::<!--Custom String Listener: TalkSentence_502044134-->
+::::'''Yongren:''' Oh, I'm a big fan of General Jing Yuan, and everyone in the Cloud Knights actually. I see they're always on-duty, working through the night. That's not easy...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'd better leave you to it.
+:::<!--Custom String Listener: TalkSentence_502044136-->
+:::'''Yongren:''' Once, this diviner read my fortune and told me I'd be rollin' in dough and living large. But I ain't buying it. I mean, I'm just a wandering healer trying to make ends meet.
+:::'''Yongren:''' Pursuing greed in medicine will eventually come back to bite you, sooner or later... I just want to live out an ordinary life... *Sigh*...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::----
+:::<!--Custom String Trigger: Talk_404024902-->
+:::<!--Ends the current performance-->
+:::----
+:::<!--Custom String Trigger: Talk_404024902-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502044101-->
+;(If {{cx}}<!--Hidden Mission ID 4040249--> has been completed)
+:{{DIcon|Talk}} Why are you still working undercover here?
+::<!--Trigger PerformanceE 502044301: Config/Level/NPCDialogue/P10202/NPCAct/Act502044301.json-->
+::'''Yongren:''' Shh! Keep your voice down.
+::'''Yongren:''' According to the higher-ups, there will be a lot of trivial matters to be handled even though the Ambrosial Arbor has stopped growing and the crisis is over.
+::'''Yongren:''' I have to stay here and keep the store open... and watch out for signs of the crisis making a comeback...
+::'''Yongren:''' *Sigh* They want me to stay here for a couple more years because I've got undercover experience. I've seen this coming. When will I be able to return to the Cloud Knights...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502044301-->
+;(If {{cx}}<!--Hidden Mission ID 4040249--> has been completed)
+:{{DIcon|Exit}} I'd better leave you to it.
+::'''Yongren:''' Once, this diviner read my fortune and told me I'd be rollin' in dough and living large. But I ain't buying it. I mean, I'm just a wandering healer trying to make ends meet.
+::'''Yongren:''' Pursuing greed in medicine will eventually come back to bite you, sooner or later... I just want to live out an ordinary life... *Sigh*...
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_414249016)
+:<!--Custom String Listener: TalkSentence_414249016-->
+::'''Yongren:''' ...
+::'''Yongren:''' I didn't expect you to have those documents. Well, this is highly confidential Cloud Knight information, and now I need you to come with me.
+::{{DIcon|Arrow}} Are you going to arrest me?
+:::<!--Custom String Listener: TalkSentence_414249019-->
+:::'''Yongren:''' Arrest? No, not at all. You've done an excellent job... but this must be kept a secret...
+:::<!--Custom String Trigger: TalkSentence_414249024-->
+:::<!--Custom String Listener: TalkSentence_414249024-->
+:::'''Yongren:''' Let's go!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::----
+:::<!--Custom String Trigger: Talk_404024902-->
+::{{DIcon|Arrow}} Highly confidential? But I don't know anything!
+:::<!--Custom String Listener: TalkSentence_414249021-->
+:::'''Yongren:''' It doesn't matter if you know the details or not. This document... Well, I'm only bringing you along so that my colleague can guarantee your safety...
+:::<!--Custom String Trigger: TalkSentence_414249024-->
+:::<!--Custom String Listener: TalkSentence_414249024-->
+:::'''Yongren:''' Let's go!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::----
+:::<!--Custom String Trigger: Talk_404024902-->
+::{{DIcon|Exit}} Hold on. I'm already smelling trouble...
+:::<!--Custom String Listener: TalkSentence_414249023-->
+:::'''Yongren:''' I see. I'll wait. Just for a short while though. Hurry. Decide whether you want to come with me.
+:::<!--Custom String Trigger: ALL_TALK_END_NOTFINISH-->
+:::<!--Custom String Listener: ALL_TALK_END_NOTFINISH-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yongren
+|zhs  = 永仁
+|zht  = 永仁
+|ja   = 永仁
+|ko   = 영인
+|es   = Yongren
+|fr   = Yongren
+|ru   = Юнжэнь
+|th   = Yongren
+|vi   = Yongren
+|de   = Yongren
+|id   = Yongren
+|pt   = Yongren
+}}
+==Change History==
+{{Change History|TODO}}

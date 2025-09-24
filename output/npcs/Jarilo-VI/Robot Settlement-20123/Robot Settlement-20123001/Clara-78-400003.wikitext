@@ -1,0 +1,192 @@
+<%-- [PAGE_INFO]
+PageTitle=#Clara#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Clara.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Robot Settlement
+|relatives       = 
+}}
+'''Clara''' is an NPC on [[Jarilo-VI]], located in [[Robot Settlement]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Robot Settlement|npc_78_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501030201: Config/Level/Mission/5010302/Act/Act501030201.json-->
+::'''Clara:''' Ah... It's the outsider, {{MC|f=Miss|m=Mister}} (Trailblazer)! Welcome to the Robot Settlement...
+::'''Clara:''' This place isn't as bustling as a mining town, but we're still quite content with how we live.
+::'''Clara:''' The older folk at the camp, and the little robots, they all like it here...
+::'''Clara:''' If you're interested, {{MC|f=Miss|m=Sir}}, you're welcome to see the sights here too!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501030202: Config/Level/Mission/5010302/Act/Act501030202.json-->
+::'''Clara:''' {{MC|f=Miss|m=Mister}} (Trailblazer), do you need something from me...?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801412601-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::<!--Trigger PerformanceE 801412203: Config/Level/Mission/8014122/Act/Act801412203.json-->
+::'''Clara:''' Oh? You're playing "Aetherium Wars" too, {{MC|f=big sister|m=big brother}}?
+::'''Clara:''' Then bring it on... with Mister Svarog's strategy, I have nothing to fear...
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "6"
+	}
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801410702-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has been completed)
+:{{DIcon}} The problem with the IPC is taken care of.
+::<!--Trigger PerformanceE 501030206: Config/Level/Mission/5010302/Act/Act501030206.json-->
+::'''Clara:''' I know. Miss Topaz already told me! And, she gave me the Source Code!
+::{{DIcon|Arrow}} The Source Code?
+::<!--Custom String Listener: TalkSentence_501030253-->
+::'''Clara:''' I don't quite know why yet... I just know that it can be used to control all of the small robots in Belobog. It's really powerful!
+::'''Clara:''' Mr. Svarog said that it is super powerful. He said that it will put a very heavy burden on whoever holds it.
+::'''Clara:''' I think that Miss Topaz must have chosen to give me the Source Code for a reason... This represents her faith in me. If that is really true, I must work hard to bear this responsibility.
+::'''Clara:''' If I can, I hope that I never have to use this power... I don't want to force anyone to do anything. I just hope I can use it to protect everyone I care about.
+::'''Clara:''' I will protect the Source Code. I won't let it get into the wrong hands!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030206-->
+:{{DIcon}} I want to talk to Clara...
+::<!--Trigger PerformanceE 501030203: Config/Level/Mission/5010302/Act/Act501030203.json-->
+::'''Clara:''' Oh... of course, {{MC|f=Miss|m=Sir}}. What do you wish to talk about?
+::<!--Custom String Trigger: Wait_Option_501030201_16-->
+::<!--Custom String Listener: Wait_Option_501030201_16-->
+::{{DIcon|Talk}} What sort of place is the Robot Settlement?
+:::<!--Custom String Listener: TalkSentence_501030208-->
+:::'''Clara:''' It's... It used to be a manned well shaft for Mr. Svarog. If the cable car line wasn't open, this would be the only way to the surface around here.
+:::'''Clara:''' The Fragmentum disaster caused many to lose their homes...
+:::'''Clara:''' In the beginning, some would come here in hopes of receiving Mr. Svarog's protection.
+:::'''Clara:''' And so... Clara got together with Mr. Svarog to provide supplies to refugees. They also let them stay around the well shaft. This way, Mr. Svarog could help everyone fend off the Fragmentum's monsters.
+:::'''Clara:''' Slowly but surely, many heard about how Mr. Svarog could protect people, and came here to make camp...
+:::'''Clara:''' ...and that's how the Robot Settlement developed into such a bastion.
+:::<!--Custom String Trigger: Wait_Option_501030201_24-->
+:::<!--Custom String Listener: Wait_Option_501030201_24-->
+:::{{DIcon|Talk}} Why is it called the Robot Settlement?
+::::<!--Custom String Listener: TalkSentence_501030215-->
+::::'''Clara:''' Ah, I forgot to mention this...!
+::::'''Clara:''' Actually... it's because this place used to be where Mr. Svarog and the Little Robots of his robot network were stationed.
+::::'''Clara:''' Most of the vagrants who make camp here liked these robots... As time went by, they also learned some mechanical skills.
+::::'''Clara:''' Everyone was so kind... Humans and robots, living in harmony here. And that's why everyone called this place the Robot Settlement.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Everyone depends on Clara and Svarog's salvation, then?
+::::<!--Custom String Listener: TalkSentence_501030220-->
+::::'''Clara:''' Um... that's not true.
+::::'''Clara:''' The people who live here all have their own skills... Like mechanical maintenance and such.
+::::'''Clara:''' Everyone... should be able to live their lives by relying on themselves. But the Underworld is sorely lacking in supplies now...
+::::'''Clara:''' And so, to prevent everyone from starving or falling ill... Clara and Mr. Svarog must always have supplies handy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I've got it. Thank you Clara.
+::::<!--Custom String Listener: TalkSentence_501030225-->
+::::'''Clara:''' Heehee, all in a day's work.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your relationship with Svarog like?
+:::<!--Custom String Listener: TalkSentence_501030227-->
+:::'''Clara:''' Well, if I had to say... more like family?
+:::'''Clara:''' I've never met my own parents... For as long as I can remember, Mr. Svarog's always been by my side.
+:::'''Clara:''' No matter what we faced, Mr. Svarog would always put my well-being first... He also taught me all sorts of things, and how to live with others...
+:::'''Clara:''' I think... Mr. Svarog is like what people call... a "father."
+:::'''Clara:''' So... Mr. Svarog and I are family. I think... that's the right word?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} We'll end the talk here for now.
+:::<!--Custom String Listener: TalkSentence_501030233-->
+:::'''Clara:''' Oh... okay.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030203-->
+:{{DIcon|Exit}} Goodbye, Clara.
+::<!--Trigger PerformanceE 501030204: Config/Level/Mission/5010302/Act/Act501030204.json-->
+::'''Clara:''' See you, {{MC|f=Miss|m=Sir}}!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030204-->
+;(If {{cx}}<!--performance 501030205 has been seen-->, {{cx}}<!--SubMission not Finish: 201090601-->, and {{cx}}<!--SubMission Finish: 201090512-->)
+:{{DIcon}} How's the Little Robot doing?
+::<!--Trigger PerformanceE 501030205: Config/Level/Mission/5010302/Act/Act501030205.json-->
+::'''Clara:''' Oh... According to Mr. Svarog, this little fella's malfunction can only be fixed with a suitable casing...
+::'''Clara:''' But, I think... it's hard to find a good one, so I'm trying to think of something else.
+::'''Clara:''' But... it's not going well at the moment. I haven't thought of any bright ideas...
+::{{DIcon|Arrow}} Don't worry. You'll think of something.
+:::<!--Custom String Listener: TalkSentence_501030242-->
+:::'''Clara:''' Mmm... Thank you {{MC|f=Miss|m=Mister}} (Trailblazer), I will try my best.
+::{{DIcon|Arrow}} Just change the casing if there's no other way. I'll help you.
+:::<!--Custom String Listener: TalkSentence_501030244-->
+:::'''Clara:''' Ooh... Thank you {{MC|f=Miss|m=Mister}} (Trailblazer)!
+:::'''Clara:''' But before that, I still have to think of some other ways...
+::{{DIcon|Arrow}} Why don't we just give up...
+:::<!--Custom String Listener: TalkSentence_501030247-->
+:::'''Clara:''' Th&mdash;That won't do...! That poor little fella...
+:::'''Clara:''' Anyway, I will do my best to fix it up...
+:::'''Clara:''' If it's really too hard, I will seek Mr. Svarog's advice... Don't worry, {{MC|f=Miss|m=Mister}} (Trailblazer).
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030205-->
+;(If {{cx}}<!--SubMission Started: 405003711-->, {{cx}}<!--performance 501030205 has been seen-->, {{cx}}<!--SubMission not Finish: 201090601-->, and {{cx}}<!--SubMission Finish: 201090512-->)
+:{{DIcon|undefined}} Please give me some management advice...
+::<!--Trigger PerformanceE 405003008: Config/Level/Mission/4050030/Act/Act405003008.json-->
+::'''Clara:''' This question... I have to ask Mr. Svarog.
+::'''Svarog:''' Question from the outsider is being processed.
+::'''Svarog:''' ...
+::'''Svarog:''' Calculations require consideration of all possibilities and probabilities according to the established rules, and executing the result with the lowest risk and the highest success rate.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003711-->
+;(Unused &mdash; TalkSentence_405300802)
+:<!--Custom String Listener: TalkSentence_405300802-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Clara
+|zhs  = 克拉拉
+|zht  = 克拉拉
+|ja   = クラーラ
+|ko   = 클라라
+|es   = Clara
+|fr   = Clara
+|ru   = Клара
+|th   = Clara
+|vi   = Clara
+|de   = Clara
+|id   = Clara
+|pt   = Clara
+}}
+==Change History==
+{{Change History|TODO}}

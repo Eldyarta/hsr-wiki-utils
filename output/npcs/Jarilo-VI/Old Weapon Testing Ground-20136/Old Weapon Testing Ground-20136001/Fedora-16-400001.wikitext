@@ -1,0 +1,176 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fedora#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Resident Ambassador
+|image           = NPC Fedora.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Old Weapon Testing Ground
+|relatives       = 
+}}
+'''Fedora''' is an NPC on [[Jarilo-VI]], located in [[Old Weapon Testing Ground]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Old Weapon Testing Ground|npc_16_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501031301: Config/Level/NPCDialogue/P20136/NPCAct/Act501031301.json-->
+::'''Fedora:''' Greetings, (Trailblazer). I'm Fedora, the envoy of the Supreme Guardian.
+::'''Fedora:''' I'm in charge of this venue now, but don't worry, I won't interfere with your entertainment.
+::'''Fedora:''' The reason I'm here is to remind the IPC that this territory still belongs to Belobog.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501031302: Config/Level/NPCDialogue/P20136/NPCAct/Act501031302.json-->
+::'''Fedora:''' Glad to meet you again, (Trailblazer). I'd be even happier if you could move on from here and onto your business.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} What are you selling here?
+::<!--Trigger PerformanceE 501031303: Config/Level/NPCDialogue/P20136/NPCAct/Act501031303.json-->
+::'''Fedora:''' Hmm? You see a desk here and think I'm running a store?
+::'''Fedora:''' This is my private office, not a store. Even if you pay me, I don't have anything to sell you.
+::<!--Custom String Trigger: Wait_Option_501031303_30-->
+::<!--Custom String Listener: Wait_Option_501031303_30-->
+::{{DIcon|Talk}} What about these tables and chairs in the front?
+:::<!--Custom String Listener: TalkSentence_501031310-->
+:::'''Fedora:''' They're part of the public facilities in the arena and had been since its installation. Feel free to take a break there for free.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} And the sign in the back?
+:::<!--Custom String Listener: TalkSentence_501031312-->
+:::'''Fedora:''' That's just a poster for the tournament. You can tell purely from its appearance, I presume?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} But this place really looks like a store.
+:::<!--Custom String Listener: TalkSentence_501031314-->
+:::'''Fedora:''' All right, to cease your seemingly endless confusion, please allow me to explain.
+:::'''Fedora:''' There used to be a food vendor here, but he returned to the Overworld and got married. That's why I've taken over this table and spot.
+:::'''Fedora:''' So, you understand now? There is nothing I can offer you here.
+:::'''Fedora:''' Your time would be more appropriately used by joining a match or something rather than talking with me.
+::;(If {{cx}}<!--Hidden Mission ID 4140110--> has been completed)
+::::{{DIcon|Arrow}} All right. See you then.
+::;(If {{cx}}<!--Hidden Mission ID 4140110--> has not been completed)
+::::{{DIcon|Arrow}} Don't you have any quests for me?
+:::::<!--Custom String Listener: TalkSentence_501031319-->
+:::::'''Fedora:''' ...
+:::::'''Fedora:''' I'd love to, but there are already too many participants in Belobog.
+:::::'''Fedora:''' ...But here's the thing: I made a bet with Pela about the outcome of the tournament.
+:::::'''Fedora:''' If you manage to win the championship, I can give you some rewards on my own behalf.
+::::;(If {{Mission|Final Showdown! Intergalactic Celebration!|showChapter=0}} has been completed and {{cx}}<!--Hidden Mission ID 4140110--> has been started)
+::::::{{DIcon|?}} I've won the championship as promised.
+::::::<!--Custom String Listener: TalkSentence_501031324-->
+::::::'''Fedora:''' To be honest, I didn't think you would actually win... I guess that's what makes the Nameless so amazing.
+::::::'''Fedora:''' Here, the promised reward for you.
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011002,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::::;(If {{Mission|Final Showdown! Intergalactic Celebration!|showChapter=0}} has not been completed and {{cx}}<!--Hidden Mission ID 4140110--> has not been started)
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011001,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+::::{{DIcon|Arrow}} All right. See you then.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031303-->
+:{{DIcon|Exit}} All right. See you next time.
+::<!--Trigger PerformanceE 501031304: Config/Level/NPCDialogue/P20136/NPCAct/Act501031304.json-->
+::'''Fedora:''' See you next time. And watch out for those shady guys in black.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031304-->
+;(If {{cx}}<!--SubMission Started: 414011002-->, {{cx}}<!--SubMission Finish: 414011001-->, and {{Mission|Final Showdown! Intergalactic Celebration!|showChapter=0}} has been completed)
+:{{DIcon|?}} I've won the championship as promised.
+::<!--Trigger PerformanceE 501031305: Config/Level/NPCDialogue/P20136/NPCAct/Act501031305.json-->
+::'''Fedora:''' To be honest, I didn't think you would actually win... I guess that's what makes the Nameless so amazing.
+::'''Fedora:''' Here, the promised reward for you.
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011002,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2
+		]
+	},
+	"CustomValue": 2
+}</pre>
+;(Unused &mdash; TalkSentence_501031328)
+:<!--Custom String Listener: TalkSentence_501031328-->
+::'''Fedora:''' See you next time. And watch out for those shady guys in black.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

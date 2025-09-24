@@ -1,0 +1,272 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hook#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Hook.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Hook''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_131_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501030401: Config/Level/Mission/5010304/Act/Act501030401.json-->
+::'''Hook:''' Mm-hmm! Another peaceful day in Boulder Town!
+::'''Hook:''' ...
+::'''Hook:''' Hmm...
+::'''Hook:''' Uhh...
+::'''Hook:''' ...It's all thanks to us Moles!
+::{{DIcon|Arrow}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_501030407-->
+:::'''Hook:''' Need you even ask? I'm here to see the sights!
+::{{DIcon|Arrow}} The great Hook is certainly in high spirits.
+:::<!--Custom String Listener: TalkSentence_501030409-->
+:::'''Hook:''' Hmph, I'm not the boss of The Moles without reason!
+::{{DIcon|Arrow}} It's all thanks to us Moles!
+:::<!--Custom String Listener: TalkSentence_501030411-->
+:::'''Hook:''' That's right! The Moles are the greatest!
+::{{DIcon|Arrow}} That's the best you could come up with...?
+:::<!--Custom String Listener: TalkSentence_501030413-->
+:::'''Hook:''' You say something then! You think you can do better than Hook!?
+::<!--Custom String Trigger: TalkSentence_501030414-->
+::<!--Custom String Listener: TalkSentence_501030414-->
+::'''Hook:''' Oh? If it isn't the honorary member of The Moles, (Trailblazer)!
+::'''Hook:''' Impudence! Ignoring the presence of Pitch-Dark Hook the Great!
+::'''Hook:''' But I'm in a good mood today, so you're off the hook! (No pun intended.) How can I help you, honorary member?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501030402: Config/Level/Mission/5010304/Act/Act501030402.json-->
+::'''Hook:''' Oh, we meet again!
+::'''Hook:''' How can I help you, honorary member?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003703-->)
+:{{DIcon|undefined}} Please give me some management advice...
+::<!--Trigger PerformanceE 405003004: Config/Level/Mission/4050030/Act/Act405003004.json-->
+::'''Hook:''' Management? You've come to the right person!
+::'''Hook:''' Remembering every member in The Moles, bringing everyone to eat delicious food, and having fun together! And... and... conducting regular big adventures!
+::'''Hook:''' That's how you become the boss of The Moles! Am I amazing or what! Ordinary people can't do it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003703-->
+:{{DIcon}} I've come to talk to you.
+::<!--Trigger PerformanceE 501030403: Config/Level/Mission/5010304/Act/Act501030403.json-->
+::'''Hook:''' You will call me Pitch-Dark Hook the Great!
+::<!--Custom String Trigger: Wait_Option_501030401_30-->
+::<!--Custom String Listener: Wait_Option_501030401_30-->
+::{{DIcon|Talk}} I'd like to know more about The Moles.
+:::<!--Custom String Listener: TalkSentence_501030420-->
+:::'''Hook:''' Since you're an honorary member, I'll divulge a few Mole secrets to you!
+:::<!--Custom String Trigger: Wait_Option_501030401_33-->
+:::<!--Custom String Listener: Wait_Option_501030401_33-->
+:::{{DIcon|Talk}} Who are in The Moles?
+::::<!--Custom String Listener: TalkSentence_501030422-->
+::::'''Hook:''' We've got many! Let me think...
+::::'''Hook:''' Hmm...
+::::'''Hook:''' Forget it! I'll just name a few.
+::::'''Hook:''' Our more famous members are: Pitch-Dark Hook the Great, Julian of a Thousand Faces, Little Timmy, and Luka "Strongarm"!
+::::'''Hook:''' Ah, there are some who didn't join, but are honorary members! Like Isabella, Alina, Clara...
+::::'''Hook:''' ...and you!
+::::{{DIcon|Return}} You've got quite a few members.
+:::::<!--Custom String Listener: TalkSentence_501030429-->
+:::::'''Hook:''' Of course, I'm Pitch-Dark Hook the Great of the Moles!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} Clara's part of the gang too?
+:::::<!--Custom String Listener: TalkSentence_501030431-->
+:::::'''Hook:''' Of course! She doesn't live in Boulder Town, but occasionally comes to the clinic to play with us!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} Thank you, great Hook, for remembering me.
+:::::<!--Custom String Listener: TalkSentence_501030433-->
+:::::'''Hook:''' Hey, what kinda talk is that! I'm the boss of The Moles. Of course, I'll remember everyone!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What does one need to join The Moles?
+::::<!--Custom String Listener: TalkSentence_501030435-->
+::::'''Hook:''' The requirements are complicated, but I change them all the time. So listen up!
+::::'''Hook:''' The rules for joining now are... You've never tattled to the old witch and Seele, plus ten bags of snow-white popping candy!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What are the perks of joining The Moles?
+::::<!--Custom String Listener: TalkSentence_501030438-->
+::::'''Hook:''' Plenty!
+::::'''Hook:''' If you're in The Moles, you'll get to eat tasty food with us, and have so much fun... And you can join the great adventures that I plan!
+::::'''Hook:''' How's that? Are you psyched? Get your friends and join The Moles now!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do The Moles have any archnemeses?
+::::<!--Custom String Listener: TalkSentence_501030442-->
+::::'''Hook:''' Hoh... it appears you know much about the rules of the Underground, honorary member!
+::::'''Hook:''' The Moles have to keep watch over the safety of Boulder Town, for evil is always thwarting our operations!
+::::'''Hook:''' There are two of 'em: The old witch at the clinic, and the other... Big Sis Seele!
+::::'''Hook:''' Uh... but Seele sometimes also plays with me, and takes me out shopping. So The Moles don't really see her as a bad guy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I'm done with this topic.
+::::<!--Custom String Listener: TalkSentence_501030447-->
+::::'''Hook:''' Sure thing, what else do you want to talk about?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you know Sampo?
+:::<!--Custom String Listener: TalkSentence_501030449-->
+:::'''Hook:''' That blue-haired man? Of course I do!
+:::{{DIcon|Arrow}} You haven't been bullied by him, have you?
+::::<!--Custom String Listener: TalkSentence_501030451-->
+::::'''Hook:''' Have I? I only remember bullying him. That man is really nice to me!
+::::<!--Custom String Trigger: TalkSentence_501030456-->
+::::<!--Custom String Listener: TalkSentence_501030456-->
+::::'''Hook:''' Few of the adults in Boulder Town want to play with us Moles. Mr. Sampo's the only one who'll take us out for joyrides &mdash; it's wild!
+::::'''Hook:''' He's different from the other adults &mdash; funny and chatty! Mr. Sampo is definitely one of the good ones. Don't worry, honorary member!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That's a bad guy, stop hanging out with him.
+::::<!--Custom String Listener: TalkSentence_501030453-->
+::::'''Hook:''' Huh? I do hear a lot about him being a "bad guy," but he's really nice to me!
+::::<!--Custom String Trigger: TalkSentence_501030456-->
+::::<!--Custom String Listener: TalkSentence_501030456-->
+::::'''Hook:''' Few of the adults in Boulder Town want to play with us Moles. Mr. Sampo's the only one who'll take us out for joyrides &mdash; it's wild!
+::::'''Hook:''' He's different from the other adults &mdash; funny and chatty! Mr. Sampo is definitely one of the good ones. Don't worry, honorary member!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} The great Hook makes friends rather carelessly!
+::::<!--Custom String Listener: TalkSentence_501030455-->
+::::'''Hook:''' Hey, watch your words, honorary member! That man treats me well!
+::::<!--Custom String Trigger: TalkSentence_501030456-->
+::::<!--Custom String Listener: TalkSentence_501030456-->
+::::'''Hook:''' Few of the adults in Boulder Town want to play with us Moles. Mr. Sampo's the only one who'll take us out for joyrides &mdash; it's wild!
+::::'''Hook:''' He's different from the other adults &mdash; funny and chatty! Mr. Sampo is definitely one of the good ones. Don't worry, honorary member!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's your relationship with Natasha?
+:::<!--Custom String Listener: TalkSentence_501030459-->
+:::'''Hook:''' Bah, all that old witch does is chide and berate me. Annoying!
+:::'''Hook:''' Though, besides barring us from adventures, Natasha's pretty good to me too. When she's roasting olm meat, she'll always give me bigger portions!
+:::'''Hook:''' Ooh, I've just got a new idea! For the next great adventure, let's go catch some olms for her. Surely, we won't get scolded again!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's end the chat here.
+:::<!--Custom String Listener: TalkSentence_501030463-->
+:::'''Hook:''' Oh, done talking? Heehee, I've got it. My overwhelming knowledge must've caused a mental overload for you!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030403-->
+:{{DIcon|Exit}} I've got to do something else. I'll get moving first.
+::<!--Trigger PerformanceE 501030404: Config/Level/Mission/5010304/Act/Act501030404.json-->
+::'''Hook:''' See ya, honorary member!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030404-->
+;(If {{cx}}<!--SubMission Started: 800125301-->)
+:{{DIcon|undefined}} Are you interested in volunteering at the museum?
+::<!--Trigger PerformanceE 800125301: Config/Level/Mission/8001253/Act/Act800125301.json-->
+::'''Hook:''' The museum?
+::'''Hook:''' Volunteering?
+::'''Hook:''' What's that?
+::{{DIcon|Arrow}} A museum is a place where cultural relics are exhibited.
+:::<!--Custom String Listener: TalkSentence_201195906-->
+:::'''Hook:''' Wow, sounds like the perfect place for the Moles' big adventure!
+::{{DIcon|Arrow}} Volunteering is when you volunteer to help somebody else out.
+:::<!--Custom String Listener: TalkSentence_201195908-->
+:::'''Hook:''' Wow, sounds like the perfect thing for us Moles!
+::{{DIcon|Arrow}} No questions, just know it's something super fun.
+:::<!--Custom String Listener: TalkSentence_201195910-->
+:::'''Hook:''' Really? You better not be tricking me!
+::<!--Custom String Trigger: TalkSentence_201195911-->
+::<!--Custom String Listener: TalkSentence_201195911-->
+::'''Hook:''' If that's so &mdash; dear honorary member, let's go! Let's go to this moosy&mdash; moosy-yum...
+::{{DIcon|Arrow}} Mu-se-um.
+:::<!--Custom String Listener: TalkSentence_201195913-->
+:::'''Hook:''' Yeah, that's the one! The museum!
+::{{DIcon|Arrow}} Moosy-what?
+:::<!--Custom String Listener: TalkSentence_201195915-->
+:::'''Hook:''' A museum! Isn't that what you said? How could you forget!
+::<!--Custom String Trigger: TalkSentence_201195916-->
+::<!--Custom String Listener: TalkSentence_201195916-->
+::'''Hook:''' I wanna go and be a villainteer...
+::{{DIcon|Arrow}} It's VOLUNTEER.
+:::<!--Custom String Listener: TalkSentence_201195918-->
+:::'''Hook:''' Yeah, that's the one! A volunteer!
+::{{DIcon|Arrow}} Villain-teer?
+:::<!--Custom String Listener: TalkSentence_201195920-->
+:::'''Hook:''' Agh, I mean volunteer! You shouldn't sully Pitch-Dark Hook the Great's... um... great name!
+::<!--Custom String Trigger: TalkSentence_201195921-->
+::<!--Custom String Listener: TalkSentence_201195921-->
+::'''Hook:''' Alright. Let's go, let's go &mdash; I can't wait!
+::{{DIcon|Arrow}} Before we get going, you have to fill out an application form.
+:::<!--Custom String Listener: TalkSentence_201195923-->
+:::'''Hook:''' Application form? What's that? Show it to me!
+::{{DIcon|Arrow}} You also have to pass a mysterious test...
+:::<!--Custom String Listener: TalkSentence_201195925-->
+:::'''Hook:''' Wow &mdash; sounds awesome! What kind of test is it? What's this piece of paper for?
+::<!--Custom String Trigger: Wait_Option_800125301_41-->
+::<!--Custom String Listener: Wait_Option_800125301_41-->
+::{{DIcon|Arrow}} (Give the application form to Hook.)
+::<!--Custom String Listener: TalkSentence_201195927-->
+::'''Hook:''' So all I have to do is just write these things in here? Too easy, watch this!
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190454
+		}
+	}
+}</pre>
+::'''Hook:''' Hmph, I got it done in no time at all! Now you can take me to the museum, right? Honorary member?
+::{{DIcon|Arrow}} That's right. Let's go!
+:::<!--Custom String Listener: TalkSentence_201195930-->
+:::'''Hook:''' Ah &mdash; Let's go be volunteers!
+::{{DIcon|Arrow}} Let me give your resume a look...
+:::<!--Custom String Listener: TalkSentence_201195932-->
+:::'''Hook:''' What? You can't see that! There's top-secret Mole intel in there!
+:::'''Hook:''' Fine fine fine. Then let's go be volunteers!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125301-->
+;(Unused &mdash; TalkSentence_405300402)
+:<!--Custom String Listener: TalkSentence_405300402-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hook
+|zhs  = 虎克
+|zht  = 虎克
+|ja   = フック
+|ko   = 후크
+|es   = Hook
+|fr   = Hook
+|ru   = Хук
+|th   = Hook
+|vi   = Hook
+|de   = Hook
+|id   = Hook
+|pt   = Hook
+}}
+==Change History==
+{{Change History|TODO}}

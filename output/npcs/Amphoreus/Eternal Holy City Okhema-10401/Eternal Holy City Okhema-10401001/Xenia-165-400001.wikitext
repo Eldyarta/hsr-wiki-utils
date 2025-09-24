@@ -1,0 +1,540 @@
+<%-- [PAGE_INFO]
+PageTitle=#Xenia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Bath Receptionist
+|image           = NPC Xenia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Xenia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_165_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504013001: Config/Level/Mission/5040130/Act/Act504013001.json-->
+::'''Xenia:''' ...
+::{{DIcon|Arrow}} Hello!
+::{{DIcon|Arrow}} I want to take a bath!
+::<!--Custom String Listener: TalkSentence_504013004-->
+::'''Xenia:''' ...
+::{{DIcon|Arrow}} Anyone there?
+::{{DIcon|Arrow}} Hey, don't ignore me...
+::<!--Custom String Listener: TalkSentence_504013007-->
+::'''Xenia:''' Ah, apologies, good guest. I was distracted. You are... I've heard about you before &mdash; the warrior from foreign lands who fights side by side with Chrysos Heirs, am I correct?
+::'''Xenia:''' Welcome to Marmoreal Palace, good guest. Lady Aglaea has instructed us to receive you and your fine companions as esteemed guests.
+::{{DIcon|Arrow}} Any perks that come with that?
+:::<!--Custom String Listener: TalkSentence_504013010-->
+:::'''Xenia:''' Of course. Lady Aglaea must have told you about this place, but allow me to give you a thorough introduction...
+::{{DIcon|Arrow}} But you just ignored me.
+:::<!--Custom String Listener: TalkSentence_504013012-->
+:::'''Xenia:''' My sincerest apologies, good guest. My thoughts wandered out of the Gate of Infinity just now, I absolutely did not mean to ignore you.
+:::'''Xenia:''' Rather, if you don't mind, I would hope to converse further with you, and listen to your tales outside the city.
+:::'''Xenia:''' These matters aside, Lady Aglaea should have briefed you about this place. Please allow me to elaborate on the privileges you possess.
+::<!--Custom String Trigger: TalkSentence_504013015-->
+::<!--Custom String Listener: TalkSentence_504013015-->
+::'''Xenia:''' You can enter and exit the bath anytime, use the bath's various facilities free of charge, and enjoy exclusive discounts on paid amenities, though this offer does not extend to some products.
+::{{DIcon|Arrow}} That's amazing!
+:::<!--Custom String Listener: TalkSentence_504013017-->
+:::'''Xenia:''' Allowing people to wash off their taint and attain serenity &mdash; that's the original purpose of the Marmoreal Palace. The warriors who assisted in defending Okhema are even more worthy of commendation, so it is only natural that we provide the respective services.
+::{{DIcon|Arrow}} Why isn't it all free?
+:::<!--Custom String Listener: TalkSentence_504013019-->
+:::'''Xenia:''' Sincerest apologies, but the staff here also need to earn a living... Also, it does not reflect well on Talanton's teachings if a good intention goes astray.
+::<!--Custom String Trigger: TalkSentence_504013020-->
+::<!--Custom String Listener: TalkSentence_504013020-->
+::'''Xenia:''' As for the reading room, pool restaurant and other amenities... Hmm, I'd better leave their introductions to my bath coworkers.
+::'''Xenia:''' This is all I have to say. You may go in and have a look around as you please. I will proceed to daydream here and snap back to reality if you need me.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504013002: Config/Level/Mission/5040130/Act/Act504013002.json-->
+::'''Xenia:''' ...
+::{{DIcon|Arrow}} Daydreaming again?
+::{{DIcon|Arrow}} Helloooo...
+::<!--Custom String Listener: TalkSentence_504013094-->
+::'''Xenia:''' Apologies, this way to enter... Ah, it is you, my good guest. Glad to see you again, how may I help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to buy something.
+::'''Xenia:''' That's no problem, but the city has recently undergone some changes, and we have a limited selection of merchandise. Let's see... We currently have these for sale. I can introduce them in detail if you're interested.
+::<!--Custom String Trigger: Wait_Option_504013005_87-->
+::<!--Custom String Listener: Wait_Option_504013005_87-->
+:;(If {{Mission|Night Stars, Accompany My Slumber|showChapter=0}} has been completed)
+:::{{DIcon|Talk}} Light Calendar Membership
+::::<!--Custom String Listener: TalkSentence_504013213-->
+:::;(If {{cx}}<!--SubMission Started: 304002018-->)
+:::::'''Xenia:''' If you intend to be a regular at our baths, a membership is surely the wisest choice.
+:::::{{DIcon|Arrow}} But my VIP privileges...
+:::::{{DIcon|Arrow}} Isn't it free to enter the baths?
+:::::<!--Custom String Listener: TalkSentence_504013217-->
+:::::'''Xenia:''' Ah, please do not misunderstand, membership does not include discounts or membership points. Simply put, this payment is akin to a gift for Phagousa...
+:::::'''Xenia:''' ...Truth be told, Marmoreal Palace's bath was not meant to be free in the beginning &mdash; we employed the pay-as-you-go policy. The designer may have their reasons behind this but it felt more like a scam to our guests when they were asked to pay.
+:::::'''Xenia:''' No one ever brought this matter up later on, but we still kept the payment channel &mdash; this is the true meaning of the membership. Which is why you will have the respect of all bath staff if you join our membership!
+:::::{{DIcon|Arrow}} So that's what it is, huh?
+::::::<!--Custom String Listener: TalkSentence_504013221-->
+::::::'''Xenia:''' Yes.
+:::::{{DIcon|Arrow}} That's it?
+::::::<!--Custom String Listener: TalkSentence_504013223-->
+::::::'''Xenia:''' That's it.
+:::::<!--Custom String Trigger: TalkSentence_504013224-->
+:::::<!--Custom String Listener: TalkSentence_504013224-->
+:::::'''Xenia:''' If I may... Would you like to join our membership?
+:::::{{DIcon|Arrow}} I'll join up!
+::::::<!--Custom String Listener: TalkSentence_504013226-->
+:::::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002018,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002018"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013226,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013227,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 504013228
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013229,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013230,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013231,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013232,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002018"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013234,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Wait_Option_504013005_87"
+			}
+		}
+	]
+}</pre>
+:::::{{DIcon|Return}} Forget it.
+::::::<!--Custom String Listener: TalkSentence_504013234-->
+::::::'''Xenia:''' Mm, it is only natural that you refuse such a financial sham. Please do not take it to heart. Will you take a look at the others?
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 304002018-->)
+:::::'''Xenia:''' Good guest, we are extremely grateful, but joining the membership twice will be far too harmful to your wealth. Please browse something else.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Classical Bath Salts
+::::<!--Custom String Listener: TalkSentence_504013236-->
+:::;(If {{cx}}<!--SubMission Started: 304002019-->)
+:::::'''Xenia:''' This is a type of bath additive that is said to grant the user an experience equal to the time when the prophecy was bestowed upon the Chrysos Heirs. Also, it appears that... this is the last in stock. A most rare opportunity, my good guest.
+:::::{{DIcon|Arrow}} I'll take it!
+::::::<!--Custom String Listener: TalkSentence_504013239-->
+:::::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002018,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 504013301
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.WaitStreamingJobFinished"
+						},
+						{
+							"$type": "RPG.GameCore.AdvCreateGroupEntity",
+							"InstanceIDList": [
+								400003
+							]
+						},
+						{
+							"$type": "RPG.GameCore.ActiveVirtualCamera",
+							"AreaName": "LevelArea_P10401_F10401001_G165",
+							"AnchorName": "Anchor2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013302,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013303,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013304,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013305,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOptionTalk",
+			"OptionList": [
+				{
+					"$type": "RPG.GameCore.OptionTalkInfo",
+					"TalkSentenceID": 504013306,
+					"OptionIconType": "ChatContinueIcon",
+					"TriggerCustomString": "TalkSentence_504013307"
+				},
+				{
+					"$type": "RPG.GameCore.OptionTalkInfo",
+					"TalkSentenceID": 504013308,
+					"OptionIconType": "ChatContinueIcon",
+					"TriggerCustomString": "TalkSentence_504013309"
+				}
+			]
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013240,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Wait_Option_504013005_87"
+			}
+		}
+	]
+}</pre>
+:::::{{DIcon|Return}} Forget it.
+::::::<!--Custom String Listener: TalkSentence_504013240-->
+::::::'''Xenia:''' Let it keep gathering dust then. Do you need anything else, good guest?
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 304002019-->)
+:::::'''Xenia:''' Truly sorry, good guest. That was the last of our available inventory. I will inform you when the new stock arrives.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have nothing to buy.
+::::<!--Custom String Listener: TalkSentence_504013242-->
+::::'''Xenia:''' Understood. May your fatigue be washed away in Marmoreal Palace, good guest.
+::::<!--Ends the current performance-->
+:;(If {{Mission|Night Stars, Accompany My Slumber|showChapter=0}} has not been completed)
+:::{{DIcon|Talk}} Light Calendar Membership
+::::<!--Custom String Listener: TalkSentence_504013213-->
+:::;(If {{cx}}<!--SubMission Started: 304002018-->)
+:::::'''Xenia:''' If you intend to be a regular at our baths, a membership is surely the wisest choice.
+:::::{{DIcon|Arrow}} But my VIP privileges...
+:::::{{DIcon|Arrow}} Isn't it free to enter the baths?
+:::::<!--Custom String Listener: TalkSentence_504013217-->
+:::::'''Xenia:''' Ah, please do not misunderstand, membership does not include discounts or membership points. Simply put, this payment is akin to a gift for Phagousa...
+:::::'''Xenia:''' ...Truth be told, Marmoreal Palace's bath was not meant to be free in the beginning &mdash; we employed the pay-as-you-go policy. The designer may have their reasons behind this but it felt more like a scam to our guests when they were asked to pay.
+:::::'''Xenia:''' No one ever brought this matter up later on, but we still kept the payment channel &mdash; this is the true meaning of the membership. Which is why you will have the respect of all bath staff if you join our membership!
+:::::{{DIcon|Arrow}} So that's what it is, huh?
+::::::<!--Custom String Listener: TalkSentence_504013221-->
+::::::'''Xenia:''' Yes.
+:::::{{DIcon|Arrow}} That's it?
+::::::<!--Custom String Listener: TalkSentence_504013223-->
+::::::'''Xenia:''' That's it.
+:::::<!--Custom String Trigger: TalkSentence_504013224-->
+:::::<!--Custom String Listener: TalkSentence_504013224-->
+:::::'''Xenia:''' If I may... Would you like to join our membership?
+:::::{{DIcon|Arrow}} I'll join up!
+::::::<!--Custom String Listener: TalkSentence_504013226-->
+:::::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002018,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002018"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013226,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013227,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 504013228
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013229,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013230,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013231,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013232,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002018"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504013234,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Wait_Option_504013005_87"
+			}
+		}
+	]
+}</pre>
+:::::{{DIcon|Return}} Forget it.
+::::::<!--Custom String Listener: TalkSentence_504013234-->
+::::::'''Xenia:''' Mm, it is only natural that you refuse such a financial sham. Please do not take it to heart. Will you take a look at the others?
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 304002018-->)
+:::::'''Xenia:''' Good guest, we are extremely grateful, but joining the membership twice will be far too harmful to your wealth. Please browse something else.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have nothing to buy.
+::::<!--Custom String Listener: TalkSentence_504013242-->
+::::'''Xenia:''' Understood. May your fatigue be washed away in Marmoreal Palace, good guest.
+::::<!--Ends the current performance-->
+:{{DIcon}} I'm here to chat.
+::'''Xenia:''' Mm, your apparent idleness is enviable... even if it is similar for me.
+::<!--Custom String Trigger: Wait_Option_504013003_55-->
+::<!--Custom String Listener: Wait_Option_504013003_55-->
+::{{DIcon|Talk}} Why are you always in a daze when I see you?
+:::<!--Custom String Listener: TalkSentence_504013103-->
+:::'''Xenia:''' Because of the waterfall.
+:::'''Xenia:''' ...Should I... elaborate?
+:::'''Xenia:''' Just as the artists say, the eternal night that Oronyx symbolizes is a thing most suited to spark the inspiration of creation. And to me, the thing that stimulates my thoughts is this &mdash; Marmoreal Palace's waterfall.
+:::'''Xenia:''' Myriad knotted thoughts will undo themselves when I listen to its constant splashing barrage. The only price I have to pay is the manager's constant yammering: "Keep slacking off and Thanatos shall take you away."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's work?
+:::<!--Custom String Listener: TalkSentence_504013108-->
+:::'''Xenia:''' It's all right. The previous attack has had some effect, but everything else is fine. It's just... we need to be more watchful with guests who are warriors or guards in some capacity.
+:::'''Xenia:''' From what I've noticed, there has been a rise in guests with minor injuries coming for a soak, as well as a downturn of regular customers... I hope they are all right.
+:::'''Xenia:''' But... I believe that this is temporary. Okhema's people have always been hardy, and so will the future &mdash; may Kephale protect us.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about the baths.
+:::<!--Custom String Listener: TalkSentence_504013112-->
+:::'''Xenia:''' Mm, it somewhat terrifies me that I am to elaborate on Lady Aglaea's words... I shall tell you about matters that only staff are privy to then.
+:::'''Xenia:''' We claim that the Marmoreal Palace's history dates back to several thousand Light Calendar years, but its history is technically shorter than that. The fact that it's younger than as claimed has only highlighted the talent of its builders.
+:::'''Xenia:''' As for the baths themselves, apart from the central pool, the water in the other pools is no ordinary water, but mixed with substances that nourish the body, such as bath salts, milk, and Phagousa's ambrosia, among other things.
+:::'''Xenia:''' They all offer different effects, and you can tell the difference from their aroma. Also... some people say that imbibing the bath water directly yields even more effective results, but I strongly suggest against that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} No worries, I won't bother you then.
+:::<!--Custom String Listener: TalkSentence_504013117-->
+:::'''Xenia:''' You're not. May your fatigue be washed away in Marmoreal Palace, good guest.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} No worries, I won't bother you then.
+::'''Xenia:''' You're not. May your fatigue be washed away in Marmoreal Palace, good guest.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_504013307)
+:<!--Custom String Listener: TalkSentence_504013307-->
+::'''Lephake:''' Prophecy? What prophecy? I'm just here to drum up support.
+::<!--Custom String Trigger: TalkSentence_504013310-->
+::<!--Custom String Listener: TalkSentence_504013310-->
+::'''Lephake:''' You see, it's the time of the year again for the Titan popularity vote. The competition this time round is quite intense &mdash; Ol' Thannie's new album has got all the disciples in a zealous frenzy, and Mnestia's fabulous outfit at the fashion exhibition has garnered plenty of supporters.
+::'''Lephake:''' Surely you understand what I'm doing here, no? I guess you may call this a moment of prophecy bestowal anyway. Pray perk your ears and listen, devout "Argyros Heir"...
+::'''Lephake:''' "Cast your vote for the blue mushroom, and receive a discount of ten Balance Coins for your next purchase of a hundred thousand."
+::'''Lephake:''' Remember, remember, remember...
+::'''Dan Heng:''' ...?
+::'''Dan Heng:''' (Trailblazer), are you all right? You've been in the bath for more than two hours.
+::'''Xenia:''' That face of yours... Did you meet Zagreus in person? Every customer who bought this reacted similarly to you... How curious.
+::'''Xenia:''' In any case, thank you for your patronage. Hope to see you again soon.
+::<!--Custom String Trigger: Mission_304002019-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_504013309)
+:<!--Custom String Listener: TalkSentence_504013309-->
+::'''Lephake:''' Who? Oh, that's my brother. We look similar, but Kephale's not as majestic and dignified as I am!
+::<!--Custom String Trigger: TalkSentence_504013310-->
+::<!--Custom String Listener: TalkSentence_504013310-->
+::'''Lephake:''' You see, it's the time of the year again for the Titan popularity vote. The competition this time round is quite intense &mdash; Ol' Thannie's new album has got all the disciples in a zealous frenzy, and Mnestia's fabulous outfit at the fashion exhibition has garnered plenty of supporters.
+::'''Lephake:''' Surely you understand what I'm doing here, no? I guess you may call this a moment of prophecy bestowal anyway. Pray perk your ears and listen, devout "Argyros Heir"...
+::'''Lephake:''' "Cast your vote for the blue mushroom, and receive a discount of ten Balance Coins for your next purchase of a hundred thousand."
+::'''Lephake:''' Remember, remember, remember...
+::'''Dan Heng:''' ...?
+::'''Dan Heng:''' (Trailblazer), are you all right? You've been in the bath for more than two hours.
+::'''Xenia:''' That face of yours... Did you meet Zagreus in person? Every customer who bought this reacted similarly to you... How curious.
+::'''Xenia:''' In any case, thank you for your patronage. Hope to see you again soon.
+::<!--Custom String Trigger: Mission_304002019-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Xenia
+|zhs  = 叙涅
+|zht  = 敘涅
+|ja   = シュネ
+|ko   = 크세니아
+|es   = Xenia
+|fr   = Xénia
+|ru   = Ксения
+|th   = Xenia
+|vi   = Xenia
+|de   = Xenia
+|id   = Xenia
+|pt   = Xenia
+}}
+==Change History==
+{{Change History|TODO}}

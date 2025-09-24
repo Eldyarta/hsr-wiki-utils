@@ -1,0 +1,372 @@
+<%-- [PAGE_INFO]
+PageTitle=#Pawnbroker Handian#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Jeweler's Pagoda Owner
+|image           = NPC Pawnbroker Handian.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Pawnbroker Handian''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_61_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404022203,
+		"Type": "submission_state_equal",
+		"Param1": 404022203,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Pawnbroker Handian:''' How about it, I was right, wasn't I? This small component was more valuable than you could've possibly imagined &mdash; it even managed to get you this iron box.
+:{{DIcon|Arrow}} How did you know they needed it?
+::<!--Custom String Listener: TalkSentence_412220504-->
+::'''Pawnbroker Handian:''' That's just my knack for observational deduction. It's really nothing special.
+::'''Pawnbroker Handian:''' But look here &mdash; this box contains mysterious, unknown secrets. Perhaps it's potentially worth something.
+:{{DIcon|Arrow}} Now it's finally time to sell some scrap.
+::<!--Custom String Listener: TalkSentence_412220507-->
+::'''Pawnbroker Handian:''' If you sell it directly, you'd only get about 40 credits based on my initial valuation...
+::'''Pawnbroker Handian:''' But look here &mdash; this box contains mysterious, unknown secrets. Perhaps it's potentially worth something.
+:{{DIcon|Arrow}} Feels like I can exchange this with someone I know...
+::<!--Custom String Listener: TalkSentence_412220510-->
+::'''Pawnbroker Handian:''' Looks like you're already familiar with this hustle, too.
+:<!--Custom String Trigger: TalkSentence_412220511-->
+:<!--Custom String Listener: TalkSentence_412220511-->
+:'''Pawnbroker Handian:''' What about this &mdash; I'll give you a few hints.
+:'''Pawnbroker Handian:''' There's a bookstore over in the Exalting Sanctum called the {{Color|keyword|nobold=1|Spare Time Book Shop}}. Go check it out!
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 404022204,
+		"Type": "submission_state_equal",
+		"Param1": 404022204,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Pawnbroker Handian:''' I didn't expect you to score expensive pharmaceuticals like that from just a small component.
+:{{DIcon|Arrow}} This jar of Draconic Tears is really valuable!
+::<!--Custom String Listener: TalkSentence_412221004-->
+::'''Pawnbroker Handian:''' It's valuable, but still not enough. I'll give you 1000 credits. That's my best offer.
+::'''Pawnbroker Handian:''' There's another way that's more profitable, and I suspect you know what I mean...
+:{{DIcon|Arrow}} Feels like I can exchange this with someone I know...
+::<!--Custom String Listener: TalkSentence_412221007-->
+::'''Pawnbroker Handian:''' You know very well that one man's treasure is another man's trash.
+:<!--Custom String Trigger: TalkSentence_412221008-->
+:<!--Custom String Listener: TalkSentence_412221008-->
+:'''Pawnbroker Handian:''' This is my final hint.
+:'''Pawnbroker Handian:''' I heard that there's a Xianzhou {{Color|keyword|nobold=1|aficionado who came all the way from the IPC}}. He might be interested in your Draconic Tears...
+:<!--Ends the current performance-->
+<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 61,
+	"ConfigID": 400001
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.ShowWorldShop",
+	"ShopType": 15,
+	"ShopID": 403
+}</pre>
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 102050116,
+		"Type": "submission_state_equal",
+		"Param1": 102050116,
+		"Param2": 1
+	}
+]
+</pre>
+:{{A|VO chapter2 2 xchA 101.ogg}} '''Pawnbroker Handian:''' Curious timing for a visit to Jeweler's Pagoda... Hm, your faces... no sadness or misery. I take it you're not here to pawn anything?
+:{{DIcon|Arrow}} Did you see a foxian girl pass by here?
+::<!--Custom String Listener: TalkSentence_102052004-->
+::{{A|VO chapter2 2 xchA 102.ogg}} '''Pawnbroker Handian:''' Well, we're a pawn shop &mdash; we see plenty of customers. But let me see if I can recall the lady you're looking for...
+:{{DIcon|Arrow}} (Show Tingyun's photo.)
+::<!--Custom String Listener: TalkSentence_102052006-->
+::{{A|VO chapter2 2 mar7th 122.ogg}} '''March 7th:''' Have you seen this lady?
+::{{A|VO chapter2 2 xchA 103.ogg}} '''Pawnbroker Handian:''' Well, we're a pawn shop &mdash; we see plenty of customers. But let me see if I can recall the lady you're looking for...
+:<!--Custom String Trigger: TalkSentence_102052008-->
+:<!--Custom String Listener: TalkSentence_102052008-->
+:{{A|VO chapter2 2 xchA 104.ogg}} '''Pawnbroker Handian:''' I remember, she walked past my shopfront and headed over to the food stalls. I'd recommend asking over there.
+:{{A|VO chapter2 2 xchA 105.ogg}} '''Pawnbroker Handian:''' Do come back when the Cloud Knights finish their business.
+:<!--Ends the current performance-->
+:'''Pawnbroker Handian:''' You're too polite. To conduct business, one must first engage in chat. I am willing to chat with you.
+:<!--Custom String Trigger: Wait_Option_502010302_566-->
+:<!--Custom String Listener: Wait_Option_502010302_566-->
+:{{DIcon|Talk}} I wish to hear some amusing stories about this profession.
+::<!--Custom String Listener: TalkSentence_502103103-->
+::'''Pawnbroker Handian:''' I'm not sure if I'd call these events amusing, but there was once a customer who came in and hoped I would raise the prices of the jewelry pieces in the shop. I gathered his motive, and agreed instantly.
+::'''Pawnbroker Handian:''' After a while, he came in with his lady friend. I tried my best to weave wonderful tales for each and every jewelry piece, and raised their prices beyond what he could afford.
+::'''Pawnbroker Handian:''' Later, we laughed gaily as we completed the trade, and ended the affair on a happy note.
+::{{DIcon|Arrow}} Where did this Mr. Moneybags come from?
+:::<!--Custom String Listener: TalkSentence_502103107-->
+:::'''Pawnbroker Handian:''' Hahaha, he is no wealthy man, just a prideful one.
+:::<!--Custom String Trigger: TalkSentence_502103110-->
+:::<!--Custom String Listener: TalkSentence_502103110-->
+:::'''Pawnbroker Handian:''' Don't worry. When the time came to pay, he only had to pay the original price.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I think I know what happened.
+:::<!--Custom String Listener: TalkSentence_502103109-->
+:::'''Pawnbroker Handian:''' I was merely playing along with a customer's act.
+:::<!--Custom String Trigger: TalkSentence_502103110-->
+:::<!--Custom String Listener: TalkSentence_502103110-->
+:::'''Pawnbroker Handian:''' Don't worry. When the time came to pay, he only had to pay the original price.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Is a pawnbroker highly lucrative?
+::<!--Custom String Listener: TalkSentence_502103112-->
+::'''Pawnbroker Handian:''' Not at all. The Jeweler's Pagoda has been open for hundreds of years, but I've never had a chance to make a killing. It's all slow and steady, and I can barely make ends meet.
+::'''Pawnbroker Handian:''' You may not know this, but antique collecting on Xianzhou has always been a vague market, as are the prices of antiques. Cultural value aside, do you think that Xianzhou natives consider antiques important?
+::'''Pawnbroker Handian:''' What's saddening is that most Xianzhou natives are dismissively uninterested in centuries-old ornaments. If a customer here did not think an antique valuable, it wouldn't be appropriate for us to pawn them at exorbitant prices, would it?
+::'''Pawnbroker Handian:''' I have you honored Outworlders to be thankful for &mdash; antiques and cultural artifacts all belong where they are, and I can still earn a little off the top.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you have any interesting collaterals?
+::<!--Custom String Listener: TalkSentence_502103117-->
+::'''Pawnbroker Handian:''' Of course! This Supreme Fortune Cat is about to reach its maturity date, and no one has redeemed it.
+::'''Pawnbroker Handian:''' There's an old saying that "a cat bathing itself heralds a customer's arrival." That is why we must have a Supreme Fortune Cat in our pawnshop &mdash; to herald tidings of good fortune.
+::'''Pawnbroker Handian:''' If you are interested in opening a shop, you can consider preparing one.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll come back again.
+::<!--Custom String Listener: TalkSentence_502103121-->
+::'''Pawnbroker Handian:''' You're too kind. You're welcome back any time.
+::<!--Ends the current performance-->
+:'''Pawnbroker Handian:''' You're too kind. You're welcome back any time.
+:<!--Ends the current performance-->
+:'''Pawnbroker Handian:''' "Abacus, ledger, silver; all must be thorough. The absence of one heralds loss..."
+:'''Pawnbroker Handian:''' Whether you have something to pawn or just wish to chat, I am always at your service.
+:'''Pawnbroker Handian:''' If you have other plans, I am always at your service.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000083: Config/Level/NPC/W2/NPC_DefaultStory_502010301.json-->
+::'''Pawnbroker Handian:''' Dear guest, you have arrived just in time. Better in luck than out of it: We have some amazing leftover goods for you.
+::'''Pawnbroker Handian:''' Let me be frank &mdash; see that customer who just left? I didn't mention any of those trinkets to him.
+::{{DIcon|Arrow}} The Jeweler's Pagoda engages in preferential treatment of customers?
+:::<!--Custom String Listener: TalkSentence_502103004-->
+:::'''Pawnbroker Handian:''' You may know this, but some come here to do business &mdash; I call them customers. Some come with other things in mind. Those I don't entertain.
+:::'''Pawnbroker Handian:''' If you're a customer, I treat all of you equally. Otherwise, I am not obligated to treat you as such.
+::{{DIcon|Arrow}} You think I've got deep pockets?
+:::<!--Custom String Listener: TalkSentence_502103007-->
+:::'''Pawnbroker Handian:''' Hahaha, for one who shies away from attention, even if you're not wealthy now, you soon will be. I merely have future businesses in mind by befriending you now.
+:::'''Pawnbroker Handian:''' But, you are nonetheless mistaken. That customer just now did not come for business, which is why I did not tell him about my goodies.
+::{{DIcon|Arrow}} I bet you say this to everyone who walks in.
+:::<!--Custom String Listener: TalkSentence_502103010-->
+:::'''Pawnbroker Handian:''' Hahaha, surely, you jest. I'm known for my caution, and weigh my words with great care.
+:::'''Pawnbroker Handian:''' Please do not misunderstand. That customer just now did not come for business, which is why I did not tell him about my goodies.
+::<!--Custom String Trigger: TalkSentence_502103012-->
+::<!--Custom String Listener: TalkSentence_502103012-->
+::'''Pawnbroker Handian:''' The power to distinguish between a customer and a troublemaker is a particular trick of this trade. If you are interested, I could reveal a thing or two... I can also be of service if you are interested in our pledges.
+::<!--Custom String Trigger: Wait_Option_502010301_536-->
+::<!--Custom String Listener: Wait_Option_502010301_536-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000084: Config/Level/NPC/W2/NPC_DefaultStory_502010304.json-->
+::'''Pawnbroker Handian:''' "Abacus, ledger, silver; all must be thorough. The absence of one heralds loss..."
+::'''Pawnbroker Handian:''' Whether you have something to pawn or just wish to chat, I am always at your service.
+::'''Pawnbroker Handian:''' If you have other plans, I am always at your service.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404022202-->)
+:{{DIcon|?}} About this component...
+::<!--Trigger PerformanceE 404022202: Config/Level/Mission/4040222/Act/Act404022202.json-->
+::'''Pawnbroker Handian:''' Just now, a young man passed by the door of the Jeweler's Pagoda muttering on about "Revenge... Revenge..." Go ask him. It might just be worth your while.
+::'''Pawnbroker Handian:''' If you manage to get something, come back to me and I'll tell you about the true value of this small component.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404022202-->
+;(If {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon|?}} I went and replaced the component...
+::'''Pawnbroker Handian:''' How about it, I was right, wasn't I? This small component was more valuable than you could've possibly imagined &mdash; it even managed to get you this iron box.
+::{{DIcon|Arrow}} How did you know they needed it?
+:::<!--Custom String Listener: TalkSentence_412220504-->
+:::'''Pawnbroker Handian:''' That's just my knack for observational deduction. It's really nothing special.
+:::'''Pawnbroker Handian:''' But look here &mdash; this box contains mysterious, unknown secrets. Perhaps it's potentially worth something.
+::{{DIcon|Arrow}} Now it's finally time to sell some scrap.
+:::<!--Custom String Listener: TalkSentence_412220507-->
+:::'''Pawnbroker Handian:''' If you sell it directly, you'd only get about 40 credits based on my initial valuation...
+:::'''Pawnbroker Handian:''' But look here &mdash; this box contains mysterious, unknown secrets. Perhaps it's potentially worth something.
+::{{DIcon|Arrow}} Feels like I can exchange this with someone I know...
+:::<!--Custom String Listener: TalkSentence_412220510-->
+:::'''Pawnbroker Handian:''' Looks like you're already familiar with this hustle, too.
+::<!--Custom String Trigger: TalkSentence_412220511-->
+::<!--Custom String Listener: TalkSentence_412220511-->
+::'''Pawnbroker Handian:''' What about this &mdash; I'll give you a few hints.
+::'''Pawnbroker Handian:''' There's a bookstore over in the Exalting Sanctum called the {{Color|keyword|nobold=1|Spare Time Book Shop}}. Go check it out!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404022204--> and {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon|?}} I swapped it for a jar of Draconic Tears...
+::'''Pawnbroker Handian:''' I didn't expect you to score expensive pharmaceuticals like that from just a small component.
+::{{DIcon|Arrow}} This jar of Draconic Tears is really valuable!
+:::<!--Custom String Listener: TalkSentence_412221004-->
+:::'''Pawnbroker Handian:''' It's valuable, but still not enough. I'll give you 1000 credits. That's my best offer.
+:::'''Pawnbroker Handian:''' There's another way that's more profitable, and I suspect you know what I mean...
+::{{DIcon|Arrow}} Feels like I can exchange this with someone I know...
+:::<!--Custom String Listener: TalkSentence_412221007-->
+:::'''Pawnbroker Handian:''' You know very well that one man's treasure is another man's trash.
+::<!--Custom String Trigger: TalkSentence_412221008-->
+::<!--Custom String Listener: TalkSentence_412221008-->
+::'''Pawnbroker Handian:''' This is my final hint.
+::'''Pawnbroker Handian:''' I heard that there's a Xianzhou {{Color|keyword|nobold=1|aficionado who came all the way from the IPC}}. He might be interested in your Draconic Tears...
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404022204--> and {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon|Shop}} There may be a few things.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 61,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowWorldShop",
+	"ShopType": 15,
+	"ShopID": 403
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 102050116-->, {{cx}}<!--SubMission Started: 404022204-->, and {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon}} The Hound Chases the Fox
+::{{A|VO chapter2 2 xchA 101.ogg}} '''Pawnbroker Handian:''' Curious timing for a visit to Jeweler's Pagoda... Hm, your faces... no sadness or misery. I take it you're not here to pawn anything?
+::{{DIcon|Arrow}} Did you see a foxian girl pass by here?
+:::<!--Custom String Listener: TalkSentence_102052004-->
+:::{{A|VO chapter2 2 xchA 102.ogg}} '''Pawnbroker Handian:''' Well, we're a pawn shop &mdash; we see plenty of customers. But let me see if I can recall the lady you're looking for...
+::{{DIcon|Arrow}} (Show Tingyun's photo.)
+:::<!--Custom String Listener: TalkSentence_102052006-->
+:::{{A|VO chapter2 2 mar7th 122.ogg}} '''March 7th:''' Have you seen this lady?
+:::{{A|VO chapter2 2 xchA 103.ogg}} '''Pawnbroker Handian:''' Well, we're a pawn shop &mdash; we see plenty of customers. But let me see if I can recall the lady you're looking for...
+::<!--Custom String Trigger: TalkSentence_102052008-->
+::<!--Custom String Listener: TalkSentence_102052008-->
+::{{A|VO chapter2 2 xchA 104.ogg}} '''Pawnbroker Handian:''' I remember, she walked past my shopfront and headed over to the food stalls. I'd recommend asking over there.
+::{{A|VO chapter2 2 xchA 105.ogg}} '''Pawnbroker Handian:''' Do come back when the Cloud Knights finish their business.
+::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, {{cx}}<!--SubMission Started: 404022204-->, and {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon|Talk}} You earned a great fortune from the previous crisis, didn't you?
+::<!--Trigger PerformanceE 90000127: Config/Level/NPCDialogue/P10202/NPCAct/Act90000127.json-->
+::'''Pawnbroker Handian:''' You must be teasing me. If the crisis had been an ordinary one, it would indeed have been a perfect time to buy low and sell high. We all have plenty of time on Xianzhou to wait for prices to rise, after all...
+::'''Pawnbroker Handian:''' But the Ambrosial Arbor is no ordinary crisis. It put everyone on edge, and my pawn shop was no exception. Even as someone born and raised on Xianzhou, it was the first time I have seen something as serious as this. I even considered closing my shop to hide at home.
+::'''Pawnbroker Handian:''' To everyone's relief, the crisis is now over. The Ambrosial Arbor has stopped growing, allowing our lives to get back to normal. As for your words, I will take them as your sincere blessing to my shop.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000127-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, {{cx}}<!--SubMission Started: 404022204-->, and {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon}} I wish to chat with you a little longer.
+::'''Pawnbroker Handian:''' You're too polite. To conduct business, one must first engage in chat. I am willing to chat with you.
+::<!--Custom String Trigger: Wait_Option_502010302_566-->
+::<!--Custom String Listener: Wait_Option_502010302_566-->
+::{{DIcon|Talk}} I wish to hear some amusing stories about this profession.
+:::<!--Custom String Listener: TalkSentence_502103103-->
+:::'''Pawnbroker Handian:''' I'm not sure if I'd call these events amusing, but there was once a customer who came in and hoped I would raise the prices of the jewelry pieces in the shop. I gathered his motive, and agreed instantly.
+:::'''Pawnbroker Handian:''' After a while, he came in with his lady friend. I tried my best to weave wonderful tales for each and every jewelry piece, and raised their prices beyond what he could afford.
+:::'''Pawnbroker Handian:''' Later, we laughed gaily as we completed the trade, and ended the affair on a happy note.
+:::{{DIcon|Arrow}} Where did this Mr. Moneybags come from?
+::::<!--Custom String Listener: TalkSentence_502103107-->
+::::'''Pawnbroker Handian:''' Hahaha, he is no wealthy man, just a prideful one.
+::::<!--Custom String Trigger: TalkSentence_502103110-->
+::::<!--Custom String Listener: TalkSentence_502103110-->
+::::'''Pawnbroker Handian:''' Don't worry. When the time came to pay, he only had to pay the original price.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I think I know what happened.
+::::<!--Custom String Listener: TalkSentence_502103109-->
+::::'''Pawnbroker Handian:''' I was merely playing along with a customer's act.
+::::<!--Custom String Trigger: TalkSentence_502103110-->
+::::<!--Custom String Listener: TalkSentence_502103110-->
+::::'''Pawnbroker Handian:''' Don't worry. When the time came to pay, he only had to pay the original price.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is a pawnbroker highly lucrative?
+:::<!--Custom String Listener: TalkSentence_502103112-->
+:::'''Pawnbroker Handian:''' Not at all. The Jeweler's Pagoda has been open for hundreds of years, but I've never had a chance to make a killing. It's all slow and steady, and I can barely make ends meet.
+:::'''Pawnbroker Handian:''' You may not know this, but antique collecting on Xianzhou has always been a vague market, as are the prices of antiques. Cultural value aside, do you think that Xianzhou natives consider antiques important?
+:::'''Pawnbroker Handian:''' What's saddening is that most Xianzhou natives are dismissively uninterested in centuries-old ornaments. If a customer here did not think an antique valuable, it wouldn't be appropriate for us to pawn them at exorbitant prices, would it?
+:::'''Pawnbroker Handian:''' I have you honored Outworlders to be thankful for &mdash; antiques and cultural artifacts all belong where they are, and I can still earn a little off the top.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any interesting collaterals?
+:::<!--Custom String Listener: TalkSentence_502103117-->
+:::'''Pawnbroker Handian:''' Of course! This Supreme Fortune Cat is about to reach its maturity date, and no one has redeemed it.
+:::'''Pawnbroker Handian:''' There's an old saying that "a cat bathing itself heralds a customer's arrival." That is why we must have a Supreme Fortune Cat in our pawnshop &mdash; to herald tidings of good fortune.
+:::'''Pawnbroker Handian:''' If you are interested in opening a shop, you can consider preparing one.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll come back again.
+:::<!--Custom String Listener: TalkSentence_502103121-->
+:::'''Pawnbroker Handian:''' You're too kind. You're welcome back any time.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, {{cx}}<!--SubMission Started: 404022204-->, and {{cx}}<!--SubMission Started: 404022203-->)
+:{{DIcon|Exit}} I'll come back again.
+::'''Pawnbroker Handian:''' You're too kind. You're welcome back any time.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502103014)
+:<!--Custom String Listener: TalkSentence_502103014-->
+::'''Pawnbroker Handian:''' There are two types of customers who come in. The first has something on them, and will wrap with great care what they wish to pawn. They come in search of salvation.
+::'''Pawnbroker Handian:''' The other type only care about Curios that have sat on the shelf for too long, and they browse at their fancy.
+::'''Pawnbroker Handian:''' That customer just now opened with "what is the most expensive item you have here." It did not sit well with me, after which I delayed him. When you came over, he turned and went away.
+::'''Pawnbroker Handian:''' Even if you aren't buying anything, I have to keep you here for a chat.
+::{{DIcon|Arrow}} So you're using me as an excuse?
+:::<!--Custom String Listener: TalkSentence_502103019-->
+:::'''Pawnbroker Handian:''' That customer just now had a reckless air about him. I did not know what he would've done.
+::{{DIcon|Arrow}} I got the short end of the stick.
+:::<!--Custom String Listener: TalkSentence_502103022-->
+:::'''Pawnbroker Handian:''' It was all thanks to your kindness.
+::{{DIcon|Arrow}} I'm leaving.
+:::<!--Custom String Listener: TalkSentence_502103025-->
+:::'''Pawnbroker Handian:''' Please don't do that. See it as a good deed and stay a while longer. I can see from the corner of my eye that he will quickly lose interest.
+::'''Pawnbroker Handian:''' If you could help conclude a trouble before it started, I would very much appreciate that.
+::<!--Custom String Trigger: TalkSentence_502103030-->
+::<!--Custom String Listener: TalkSentence_502103030-->
+::'''Pawnbroker Handian:''' How about this: Here's a token of our shop. I hope you will accept it... If you have any interest in pawned items, I shall be fully at your service.
+;(Unused &mdash; TalkSentence_502103028)
+:<!--Custom String Listener: TalkSentence_502103028-->
+::'''Pawnbroker Handian:''' Hahaha, I knew at a glance you had a keen eye. I shall refrain from my shenanigans then.
+::'''Pawnbroker Handian:''' That you notice the sinister intent of the customer and specially approached to chat with me. I will be ever-grateful for your lending hand.
+::<!--Custom String Trigger: TalkSentence_502103030-->
+::<!--Custom String Listener: TalkSentence_502103030-->
+::'''Pawnbroker Handian:''' How about this: Here's a token of our shop. I hope you will accept it... If you have any interest in pawned items, I shall be fully at your service.
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Pawnbroker Handian
+|zhs  = 瀚典掌柜
+|zht  = 瀚典掌櫃
+|ja   = 店主ハンデン
+|ko   = 점장 한전
+|es   = Director Handian
+|fr   = Handian, le prêteur sur gages
+|ru   = Управляющий Ханьдянь
+|th   = ผู้ดูแล Handian
+|vi   = Quản Lý Handian
+|de   = Pfandleiher Handian
+|id   = Manajer Handian
+|pt   = Gerente Handian
+}}
+==Change History==
+{{Change History|TODO}}

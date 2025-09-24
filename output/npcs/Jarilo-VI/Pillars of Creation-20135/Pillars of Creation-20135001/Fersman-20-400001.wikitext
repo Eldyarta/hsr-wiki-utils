@@ -1,0 +1,122 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fersman#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Old Foreman
+|image           = NPC Fersman.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Pillars of Creation
+|relatives       = 
+}}
+'''Fersman''' is an NPC on [[Jarilo-VI]], located in [[Pillars of Creation]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Pillars of Creation|npc_20_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501031101: Config/Level/NPCDialogue/P20135/NPCAct/Act501031101.json-->
+::'''Fersman:''' Hey, if it isn't (Trailblazer)! It's been a while.
+::{{DIcon|Arrow}} Are you here to help, too, Mr. Fersman?
+::<!--Custom String Listener: TalkSentence_501031103-->
+::'''Fersman:''' Haha, as you see, the Pillars of Creation is a big project that concerns all of Belobog. How can I just sit around doing nothing?
+::'''Fersman:''' While I may not be as tough as I was in my younger days, I've spent decades in the mines, and I'm more than capable of guiding the young'uns.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501031102: Config/Level/NPCDialogue/P20135/NPCAct/Act501031102.json-->
+::'''Fersman:''' Hey there, (Trailblazer). Thank you for taking care of Hook.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I have a few questions for you.
+::<!--Trigger PerformanceE 501031103: Config/Level/NPCDialogue/P20135/NPCAct/Act501031103.json-->
+::<!--Custom String Trigger: Wait_Option_501031103_32-->
+::<!--Custom String Listener: Wait_Option_501031103_32-->
+::{{DIcon|Talk}} Any updates about the "vein detector"?
+:::<!--Custom String Listener: TalkSentence_501031114-->
+:::'''Fersman:''' Oh, you mean last time, right?
+:::'''Fersman:''' Balaway came to me and said he wanted to buy my Geomarrow Probe.
+:::'''Fersman:''' But that was a gift from Hook, so I didn't sell it to him.
+:::'''Fersman:''' Moreover, with this planet now fully accessible, Underworlders no longer need to fight over veins.
+:::'''Fersman:''' That detector was an ancient relic to begin with, so let's just leave the past in the past.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How is the Pillars of Creation Project going...?
+:::<!--Custom String Listener: TalkSentence_501031120-->
+:::'''Fersman:''' How should I put it...
+:::'''Fersman:''' As you see, this machine is massive... and its composition is complicated... Even with our best efforts, there's no way we can fix it in just a day or two.
+:::'''Fersman:''' Plus, who knows how long we can keep up this momentum?
+:::'''Fersman:''' At least now this old man can do something useful again, and that's good enough for me. Now that I've contributed to this great cause, I won't have any regrets...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You look like you're in a good mood.
+:::<!--Custom String Listener: TalkSentence_501031125-->
+:::'''Fersman:''' Hahaha, yeah! I thought I'd never see the blue sky again.
+:::'''Fersman:''' With all the channels between the Overworld and the Underworld reopened, I no longer have to worry about Hook's future.
+:::'''Fersman:''' That's all I've ever wanted in my life, and now it's all happening. How can I not be happy, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's Hook doing?
+:::<!--Custom String Listener: TalkSentence_501031129-->
+:::'''Fersman:''' Well, she has been livelier than ever since she breathed in the fresh air of the Overworld.
+:::'''Fersman:''' Recently, she's been tinkering with a "portable communicator" or something, and she has even showed me the moving pictures inside... Young people are always quick to embrace new stuff...
+:::'''Fersman:''' I'm planning to enroll her in a public school in Belobog so that she can learn more and broaden her horizons.
+:::'''Fersman:''' One day, she'll have to leave my care and become a reliable adult... something I've never dared to imagine before.
+:::'''Fersman:''' I wonder what path she will take in the future... Ah, it would be great if she could make it into Cadet School! All graduates from there have promising futures...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Take care.
+:::<!--Custom String Listener: TalkSentence_501031135-->
+:::'''Fersman:''' Great, have a safe journey!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031103-->
+:{{DIcon|Exit}} Take care.
+::<!--Trigger PerformanceE 501031104: Config/Level/NPCDialogue/P20135/NPCAct/Act501031104.json-->
+::'''Fersman:''' Great, have a safe journey!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031104-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fersman
+|zhs  = 费施曼
+|zht  = 費斯曼
+|ja   = フェスマン
+|ko   = 퍼스맨
+|es   = Fersman
+|fr   = Fersman
+|ru   = Рыбак
+|th   = Fersman
+|vi   = Ngư Dân
+|de   = Fersman
+|id   = Fishman
+|pt   = Fersman
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,1755 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maze Scroll Fragment#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Maze Scroll Fragment.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Warbling Shores" Styxia
+|relatives       = 
+}}
+'''Maze Scroll Fragment''' is an NPC on [[Amphoreus]], located in [["Warbling Shores" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Warbling Shores" Styxia|npc_248_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 500042013: Config/Level/Mission/5000420/Act/Act500042013.json-->
+:The Maze scroll fragment is flickering. Use Janus' Maze to help retrace and extrapolate its past.
+:Maybe you could help out when you get a chance? You're planning to&mdash;
+:<!--Custom String Trigger: Wait_Option_500042013_9-->
+:<!--Custom String Listener: Wait_Option_500042013_9-->
+:{{DIcon|Arrow}} Check out the "Daily Requests" page.
+::<!--Custom String Listener: Wait_Option_500042013_11-->
+::{{DIcon|Arrow}} Select Volume 1
+:::<!--Custom String Listener: TalkSentence_500086605-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+::::Request: "Where did the treasured Honey brew go?" - Extrapolation Result: "In the client's stomach."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_1-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_11-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} Select Volume 2
+::::::<!--Custom String Listener: TalkSentence_500086609-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+:::::::Request: "My green leaf bookmark is missing." - Extrapolation Result: "It's in the client's stomach. Maybe lay off the honey brew."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_2-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Select Volume 3
+::::::<!--Custom String Listener: TalkSentence_500086613-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+:::::::Request: "Where did my drunk buddy go?" - Extrapolation Result: "Passed out by the vents. Handle with care."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_3-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Select Volume 2
+:::<!--Custom String Listener: TalkSentence_500086609-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+::::Request: "My green leaf bookmark is missing." - Extrapolation Result: "It's in the client's stomach. Maybe lay off the honey brew."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_2-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_11-->
+:::::{{DIcon|Arrow}} Select Volume 1
+::::::<!--Custom String Listener: TalkSentence_500086605-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+:::::::Request: "Where did the treasured Honey brew go?" - Extrapolation Result: "In the client's stomach."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_1-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} Select Volume 3
+::::::<!--Custom String Listener: TalkSentence_500086613-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+:::::::Request: "Where did my drunk buddy go?" - Extrapolation Result: "Passed out by the vents. Handle with care."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_3-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Select Volume 3
+:::<!--Custom String Listener: TalkSentence_500086613-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+::::Request: "Where did my drunk buddy go?" - Extrapolation Result: "Passed out by the vents. Handle with care."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_3-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_11-->
+:::::{{DIcon|Arrow}} Select Volume 1
+::::::<!--Custom String Listener: TalkSentence_500086605-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+:::::::Request: "Where did the treasured Honey brew go?" - Extrapolation Result: "In the client's stomach."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_1-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Select Volume 2
+::::::<!--Custom String Listener: TalkSentence_500086609-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+:::::::Request: "My green leaf bookmark is missing." - Extrapolation Result: "It's in the client's stomach. Maybe lay off the honey brew."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_2-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Return}} Look at another one.
+:::<!--Custom String Listener: Wait_Option_500042013_9-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Check out the "Baffling Conundrum" page.
+::::<!--Custom String Listener: Wait_Option_500042013_33-->
+::::{{DIcon|Arrow}} Select Volume 4
+:::::<!--Custom String Listener: TalkSentence_500086619-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+::::::Request: "Where will my true love be?" - Extrapolation Result: "Unfortunately..."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_4-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 5
+:::::<!--Custom String Listener: TalkSentence_500086623-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+::::::Request: "Where does this song come from?" - Extrapolation Result: "From the depths."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_5-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 6
+:::::<!--Custom String Listener: TalkSentence_500086627-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+::::::Request: "Where does the strife end?" - Extrapolation Result: "Nowhere."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_6-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Check out the "Unsolved Mysteries" page.
+::::<!--Custom String Listener: Wait_Option_500042013_55-->
+::::{{DIcon|Arrow}} Select Volume 7
+:::::<!--Custom String Listener: TalkSentence_500086633-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_7"},"CompareValue":1}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::Request: "Where is Lady Phagousa?" - Extrapolation Result: "In the water, in the water."
+:::::{{DIcon|Arrow}} One more time!
+::::::<!--Custom String Listener: TALK_STAGE_7-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Select Volume 8
+:::::<!--Custom String Listener: TalkSentence_500086637-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+::::::Request: "Where are you?" - Extrapolation Result: "Not telling you, not telling you."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_8-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 9
+:::::<!--Custom String Listener: TalkSentence_500086641-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+::::::Request: "Where is the truth of the world?" - Extrapolation Result: "Not here, that's for sure."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_9-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have things to do. Come back another time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Check out the "Baffling Conundrum" page.
+::<!--Custom String Listener: Wait_Option_500042013_33-->
+::{{DIcon|Arrow}} Select Volume 4
+:::<!--Custom String Listener: TalkSentence_500086619-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+::::Request: "Where will my true love be?" - Extrapolation Result: "Unfortunately..."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_4-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_33-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} Select Volume 5
+::::::<!--Custom String Listener: TalkSentence_500086623-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+:::::::Request: "Where does this song come from?" - Extrapolation Result: "From the depths."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_5-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Select Volume 6
+::::::<!--Custom String Listener: TalkSentence_500086627-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+:::::::Request: "Where does the strife end?" - Extrapolation Result: "Nowhere."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_6-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Select Volume 5
+:::<!--Custom String Listener: TalkSentence_500086623-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+::::Request: "Where does this song come from?" - Extrapolation Result: "From the depths."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_5-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_33-->
+:::::{{DIcon|Arrow}} Select Volume 4
+::::::<!--Custom String Listener: TalkSentence_500086619-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+:::::::Request: "Where will my true love be?" - Extrapolation Result: "Unfortunately..."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_4-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} Select Volume 6
+::::::<!--Custom String Listener: TalkSentence_500086627-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+:::::::Request: "Where does the strife end?" - Extrapolation Result: "Nowhere."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_6-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Select Volume 6
+:::<!--Custom String Listener: TalkSentence_500086627-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+::::Request: "Where does the strife end?" - Extrapolation Result: "Nowhere."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_6-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_33-->
+:::::{{DIcon|Arrow}} Select Volume 4
+::::::<!--Custom String Listener: TalkSentence_500086619-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+:::::::Request: "Where will my true love be?" - Extrapolation Result: "Unfortunately..."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_4-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Select Volume 5
+::::::<!--Custom String Listener: TalkSentence_500086623-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+:::::::Request: "Where does this song come from?" - Extrapolation Result: "From the depths."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_5-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Return}} Look at another one.
+:::<!--Custom String Listener: Wait_Option_500042013_9-->
+:::{{DIcon|Arrow}} Check out the "Daily Requests" page.
+::::<!--Custom String Listener: Wait_Option_500042013_11-->
+::::{{DIcon|Arrow}} Select Volume 1
+:::::<!--Custom String Listener: TalkSentence_500086605-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+::::::Request: "Where did the treasured Honey brew go?" - Extrapolation Result: "In the client's stomach."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_1-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 2
+:::::<!--Custom String Listener: TalkSentence_500086609-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+::::::Request: "My green leaf bookmark is missing." - Extrapolation Result: "It's in the client's stomach. Maybe lay off the honey brew."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_2-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 3
+:::::<!--Custom String Listener: TalkSentence_500086613-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+::::::Request: "Where did my drunk buddy go?" - Extrapolation Result: "Passed out by the vents. Handle with care."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_3-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Check out the "Unsolved Mysteries" page.
+::::<!--Custom String Listener: Wait_Option_500042013_55-->
+::::{{DIcon|Arrow}} Select Volume 7
+:::::<!--Custom String Listener: TalkSentence_500086633-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_7"},"CompareValue":1}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::Request: "Where is Lady Phagousa?" - Extrapolation Result: "In the water, in the water."
+:::::{{DIcon|Arrow}} One more time!
+::::::<!--Custom String Listener: TALK_STAGE_7-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Select Volume 8
+:::::<!--Custom String Listener: TalkSentence_500086637-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+::::::Request: "Where are you?" - Extrapolation Result: "Not telling you, not telling you."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_8-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 9
+:::::<!--Custom String Listener: TalkSentence_500086641-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+::::::Request: "Where is the truth of the world?" - Extrapolation Result: "Not here, that's for sure."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_9-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have things to do. Come back another time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Check out the "Unsolved Mysteries" page.
+::<!--Custom String Listener: Wait_Option_500042013_55-->
+::{{DIcon|Arrow}} Select Volume 7
+:::<!--Custom String Listener: TalkSentence_500086633-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_7"},"CompareValue":1}-->}})
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::Request: "Where is Lady Phagousa?" - Extrapolation Result: "In the water, in the water."
+:::{{DIcon|Arrow}} One more time!
+::::<!--Custom String Listener: TALK_STAGE_7-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+::::<!--Ends the current performance-->
+:::{{DIcon|Return}} Look at another one.
+::::<!--Custom String Listener: Wait_Option_500042013_55-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Select Volume 8
+:::::<!--Custom String Listener: TalkSentence_500086637-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+::::::Request: "Where are you?" - Extrapolation Result: "Not telling you, not telling you."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_8-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Select Volume 9
+:::::<!--Custom String Listener: TalkSentence_500086641-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+::::::Request: "Where is the truth of the world?" - Extrapolation Result: "Not here, that's for sure."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_9-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Select Volume 8
+:::<!--Custom String Listener: TalkSentence_500086637-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+::::Request: "Where are you?" - Extrapolation Result: "Not telling you, not telling you."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_8-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_55-->
+:::::{{DIcon|Arrow}} Select Volume 7
+::::::<!--Custom String Listener: TalkSentence_500086633-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_7"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::Request: "Where is Lady Phagousa?" - Extrapolation Result: "In the water, in the water."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_7-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} Select Volume 9
+::::::<!--Custom String Listener: TalkSentence_500086641-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+:::::::Request: "Where is the truth of the world?" - Extrapolation Result: "Not here, that's for sure."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_9-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Select Volume 9
+:::<!--Custom String Listener: TalkSentence_500086641-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+::::Request: "Where is the truth of the world?" - Extrapolation Result: "Not here, that's for sure."
+::::{{DIcon|Arrow}} One more time!
+:::::<!--Custom String Listener: TALK_STAGE_9-->
+::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+:::::<!--Ends the current performance-->
+::::{{DIcon|Return}} Look at another one.
+:::::<!--Custom String Listener: Wait_Option_500042013_55-->
+:::::{{DIcon|Arrow}} Select Volume 7
+::::::<!--Custom String Listener: TalkSentence_500086633-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_7"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::Request: "Where is Lady Phagousa?" - Extrapolation Result: "In the water, in the water."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_7-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 7
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Select Volume 8
+::::::<!--Custom String Listener: TalkSentence_500086637-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+:::::::Request: "Where are you?" - Extrapolation Result: "Not telling you, not telling you."
+:::::::{{DIcon|Arrow}} One more time!
+::::::::<!--Custom String Listener: TALK_STAGE_8-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+::::::::<!--Ends the current performance-->
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_8"},"CompareValue":1}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 8
+		}
+	}
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_9"},"CompareValue":1}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 9
+		}
+	}
+}</pre>
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Return}} Look at another one.
+:::<!--Custom String Listener: Wait_Option_500042013_9-->
+:::{{DIcon|Arrow}} Check out the "Daily Requests" page.
+::::<!--Custom String Listener: Wait_Option_500042013_11-->
+::::{{DIcon|Arrow}} Select Volume 1
+:::::<!--Custom String Listener: TalkSentence_500086605-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+::::::Request: "Where did the treasured Honey brew go?" - Extrapolation Result: "In the client's stomach."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_1-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_1"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 2
+:::::<!--Custom String Listener: TalkSentence_500086609-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+::::::Request: "My green leaf bookmark is missing." - Extrapolation Result: "It's in the client's stomach. Maybe lay off the honey brew."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_2-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_2"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 3
+:::::<!--Custom String Listener: TalkSentence_500086613-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+::::::Request: "Where did my drunk buddy go?" - Extrapolation Result: "Passed out by the vents. Handle with care."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_3-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_3"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Check out the "Baffling Conundrum" page.
+::::<!--Custom String Listener: Wait_Option_500042013_33-->
+::::{{DIcon|Arrow}} Select Volume 4
+:::::<!--Custom String Listener: TalkSentence_500086619-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+::::::Request: "Where will my true love be?" - Extrapolation Result: "Unfortunately..."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_4-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_4"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 5
+:::::<!--Custom String Listener: TalkSentence_500086623-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+::::::Request: "Where does this song come from?" - Extrapolation Result: "From the depths."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_5-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_5"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 5
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Select Volume 6
+:::::<!--Custom String Listener: TalkSentence_500086627-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+::::::Request: "Where does the strife end?" - Extrapolation Result: "Nowhere."
+::::::{{DIcon|Arrow}} One more time!
+:::::::<!--Custom String Listener: TALK_STAGE_6-->
+::::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareGroupProperty","GroupID":53,"DynamicName":{"Value":"CaseState_6"},"CompareValue":1}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	}
+}</pre>
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I have things to do. Come back another time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have things to do. Come back another time.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

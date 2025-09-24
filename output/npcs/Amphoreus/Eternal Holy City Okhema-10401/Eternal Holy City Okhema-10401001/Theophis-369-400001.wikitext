@@ -1,0 +1,137 @@
+<%-- [PAGE_INFO]
+PageTitle=#Theophis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Gardener
+|image           = NPC Theophis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Theophis''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_369_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033048: Config/Level/Mission/5040330/Act/Act504033048.json-->
+::'''Theophis:''' Oh, chimera, chimera, why did you have to be a chimera...
+::{{DIcon|Arrow}} What's wrong with a chimera?
+:::<!--Custom String Listener: TalkSentence_504042703-->
+:::'''Theophis:''' Oh nothing, not at all. They're very cute creatures worth studying.
+:::'''Theophis:''' It's just...
+::{{DIcon|Arrow}} A rose by any other name would smell as sweet.
+:::<!--Custom String Listener: TalkSentence_504042706-->
+:::'''Theophis:''' ...?
+:::'''Theophis:''' Strange, where have I heard this line before... Why does it sound familiar?
+:::'''Theophis:''' Forget it, that feeling's not the point.
+::{{DIcon|Arrow}} Is this some sort of newfangled mental friction...
+:::<!--Custom String Listener: TalkSentence_504042710-->
+:::'''Theophis:''' ...Mental friction?
+:::'''Theophis:''' Eh, fine, it's a good way to describe it.
+::<!--Custom String Trigger: TalkSentence_504042712-->
+::<!--Custom String Listener: TalkSentence_504042712-->
+::'''Theophis:''' I'll put it this way: If you lost a Taffe dog, a Tyrian horse, a turtledove, or any other animal, would you still be looking for them in this day and age?
+::'''Theophis:''' ...Sorry, I'm making it harder to understand. Would you be willing to stay a while and listen to my explanation?
+::{{DIcon|Arrow}} It's fine. Go ahead.
+:::<!--Custom String Listener: TalkSentence_504042715-->
+:::'''Theophis:''' Wonderful, I'll start from the threat of the black tide.
+:::'''Theophis:''' You may have heard about the project. We're trying to revive creatures that went extinct from the black tide's destruction by building the Garden in Okhema and sowing the Seed of Life, which have information about life recorded in them.
+:::'''Theophis:''' In theory, what is restored from the Seed of Life would be ancient creatures that disappeared in the black tide... But as you can see, the chimera we grew is an entirely new lifeform altogether.
+:::'''Theophis:''' If Okhema really becomes the final ark... Then, exactly how this ark is preserving our past is a cause for anxiety.
+:::'''Theophis:''' ...*sigh* It is what it is, so we can't really complain. At least the chimeras are useful and likable &mdash; that's enough. I'm only speaking to you from the capacity of scholarly self-pity.
+:::'''Theophis:''' Disappeared lifeforms can't be restored... This is something that will never change, no matter how prevalent the complaints are.
+::{{DIcon|Exit}} I'm busy right now.
+:::<!--Custom String Listener: TalkSentence_504042717-->
+:::'''Theophis:''' I see... I won't bother you then. If you're interested in this topic, you can look for me here when you're free.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033049: Config/Level/Mission/5040330/Act/Act504033049.json-->
+::'''Theophis:''' As long as everyone likes the chimeras, our research... will at least be progressing on a right path.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Let's talk about Amphoreus' prehistoric creatures.
+:::'''Theophis:''' From the traits inherited by the chimera from the Seed of Life, what are most worthy of mention should be the Felys, the Canis, and the Terrazard. Which one do you wish to explore?
+:::<!--Custom String Trigger: Wait_Option_504033050_1279-->
+:::<!--Custom String Listener: Wait_Option_504033050_1279-->
+:::{{DIcon|Talk}} The Felys.
+::::<!--Custom String Listener: TalkSentence_504042904-->
+::::'''Theophis:''' Typically speaking, the Felys is believed to be based on the legendary "cat." Of course, there is also evidence that cats existed for real, just as real as the Felys... but let's set aside that academic debate for now.
+::::'''Theophis:''' Similar to the cat of legend, the Felys has a dexterous, elegant physique. Its upright triangular ears and big round eyes make them excellent hunters, able to deftly capture prey even in environments with dim lighting.
+::::'''Theophis:''' Most believe that the chimera's intelligence and cunning are inherited from the traits of the Felys.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The Canis.
+::::<!--Custom String Listener: TalkSentence_504042908-->
+::::'''Theophis:''' The Canis is the scientific name of what we colloquially call "dogs." Its strong physique, loyalty to humans, and practical assistance in daily life earned them the title of "man's best friend" before the black tide descended.
+::::'''Theophis:''' Unfortunately, perhaps a side effect of their sensitive senses, the Canis' resistance to the black tide is frighteningly low. Even in anomalous environments that don't affect other animals, the Canis would probably develop malignant symptoms due to black tide exposure.
+::::'''Theophis:''' ...In this age when the Canis is borderline extinct, the chimeras have indeed inherited the role of "man's best friend" from them.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The Terrazard.
+::::<!--Custom String Listener: TalkSentence_504042912-->
+::::'''Theophis:''' The Terrazard is a wild animal that was already extinct in the early days of the black tide. It was small in stature and subsisted on insects... but had a tail that largely resembles the chimera's.
+::::'''Theophis:''' The Terrazard was timid and adept at guessing the intents of humanity. The chimera has inherited a portion of these traits, for they are also emotionally perceptive, their wealth of thoughts and personalities comparable to humans, even.
+::::'''Theophis:''' To add on, there is an opinion that dromases are gigantic Terrazards because they received Georios' blessing... but this is probably just due to the vague resemblance in these two species.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} No, I'm good.
+::::<!--Custom String Listener: TalkSentence_504042916-->
+::::'''Theophis:''' Fine... Knowledge on prehistoric creatures... probably isn't of much help to Amphoreus' future.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Get more done and think less.
+:::'''Theophis:''' That's true... If I can devote myself fully into chimera breeding work, I wouldn't be wallowing in sorrow here.
+:::'''Theophis:''' The chimeras have done no wrong, and trying to revive extinct animals is a beautiful dream, but...
+:::'''Theophis:''' ...*sigh* In such an environment, what's the use of personal taste?
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Theophis
+|zhs  = 泰奥弗斯
+|zht  = 泰奧弗斯
+|ja   = テオプラス
+|ko   = 테오피스
+|es   = Teofis
+|fr   = Théophis
+|ru   = Теофис
+|th   = Theophis
+|vi   = Theophis
+|de   = Theophis
+|id   = Theophis
+|pt   = Teophis
+}}
+==Change History==
+{{Change History|TODO}}

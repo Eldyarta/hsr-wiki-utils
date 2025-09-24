@@ -1,0 +1,240 @@
+<%-- [PAGE_INFO]
+PageTitle=#Arlan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Arlan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Supply Zone
+|relatives       = 
+}}
+'''Arlan''' is an NPC on [[Herta Space Station]], located in [[Supply Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Supply Zone|npc_101_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Arlan:''' S&mdash;Stop saying that! Sorry, I don't mean to yell... But still, it's embarrassing to mention it in front of everyone!
+:<!--Custom String Trigger: Wait_Option_500012001_41-->
+:<!--Custom String Listener: Wait_Option_500012001_41-->
+:{{DIcon|Talk}} So you're the horse among eagles?
+::<!--Custom String Listener: TalkSentence_500012026-->
+::'''Arlan:''' They were just talking nonsense. I still have a long way to go to hone my combat skills.
+::'''Arlan:''' Also... please don't tell Lady Asta about the horse thing. It's just ridiculous.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Guess the moral is "don't pick up just anything you find on the floor."
+::<!--Custom String Listener: TalkSentence_500012029-->
+::'''Arlan:''' Yeah, I should've known better. I'll definitely use more reputable resources next time. I won't fall for roadside leaflets again.
+::'''Arlan:''' Although I did hear that you like collecting those leaflets as well. Better be careful.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Did Madam Herta give you some attitude?
+::<!--Custom String Listener: TalkSentence_500012032-->
+::'''Arlan:''' ...I don't really want to talk about it. Madam Herta does things her own way. I'll say that much.
+::'''Arlan:''' Lady Asta trusts her, so I don't have any reason to, uh, question why she's doing what she's doing.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Peppy sure is smart!
+::<!--Custom String Listener: TalkSentence_500012035-->
+::'''Arlan:''' Right? That's what people say! Peppy has a personality. He can sense other people's needs, too.
+::'''Arlan:''' One time, it was late at night, and Lady Asta fell asleep on her desk after a day's hard work. Peppy came to me and led me to Lady Asta so that I could escort her back to her room.
+::'''Arlan:''' Peppy saved the day again this time. Thanks to him, Lady Asta was able to work things out. I'll have to give him a treat.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} You know what? I'll stop making fun of you.
+::<!--Custom String Listener: TalkSentence_500012039-->
+::'''Arlan:''' Huh? Was that what you were doing...?
+::'''Arlan:''' Anyways, thanks for helping Lady Asta out. I hope you'll lend a hand again when she finds herself in difficult situations in the future. That said, the fewer the situations, the better...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_500012042)
+:<!--Custom String Listener: TalkSentence_500012042-->
+::'''Arlan:''' Thanks. Oh, and come find me anytime you have feedback for the Security Department.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 200020118,
+		"Type": "submission_state_equal",
+		"Param1": 200020118,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Arlan:''' Ah, you still remember. Well, Lady Asta is known to spend more than what she could bring home. Who knows what she would buy had she gotten the encryption key?
+:'''Arlan:''' Thanks to your help last time, the trouble with the anonymous group chat has been resolved, and Lady Asta got to keep her secret. I've got to repay you sometime.
+:<!--Custom String Trigger: Wait_Option_500012002_74-->
+:<!--Custom String Listener: Wait_Option_500012002_74-->
+:{{DIcon|Talk}} Let me pet Peppy!
+::<!--Custom String Listener: TalkSentence_500012055-->
+::'''Arlan:''' That can be arranged. Peppy gets along with people pretty well.
+::'''Arlan:''' But Peppy has the final say in this. I have to respect his opinion.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Does the encryption key have a credit cap?
+::<!--Custom String Listener: TalkSentence_500012058-->
+::'''Arlan:''' I'm not sure. But so far Lady Asta has encountered no problems using it to make payments.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll have to think about it.
+::<!--Custom String Listener: TalkSentence_500012060-->
+::'''Arlan:''' Same. Take your time.
+::<!--Custom String Trigger: Mission_200020217-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 200013303,
+		"Type": "submission_state_equal",
+		"Param1": 200013303,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Arlan:''' I've got some replies from the researchers. Thanks for helping me with this round of Project Revival. Even Mrs. Hinkel has started to sing your praise!
+:'''Arlan:''' Thank you so much. With your help, the operations on the space station will soon be back on track!
+:<!--Custom String Trigger: Talk_200013301-->
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 200010002,
+		"Type": "submission_state_equal",
+		"Param1": 200010001,
+		"Param2": 3
+	}
+]
+</pre>
+;(If {{cx}}<!--SubMission Started: 200010001-->)
+::'''Arlan:''' ...We must stay vigilant at all times if we are to prevent any potential disasters from getting out of hand...
+;(If {{cx}}<!--SubMission not Started: 200010001-->)
+::'''Arlan:''' Sorry, I was busy arranging work for my team. Didn't notice you were here.
+::'''Arlan:''' Ask me anything. I'll do my best to help as per Lady Asta's request.
+:<!--Ends the current performance-->
+:'''Arlan:''' Thanks. Oh, and come find me anytime you have feedback for the Security Department.
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 90000123: Config/Level/NPC/W0/NPC_DefaultStory_500002001.json-->
+;(If {{cx}}<!--SubMission Started: 200010001-->)
+::'''Arlan:''' ...We must stay vigilant at all times if we are to prevent any potential disasters from getting out of hand...
+;(If {{cx}}<!--SubMission not Started: 200010001-->)
+::'''Arlan:''' Sorry, I was busy arranging work for my team. Didn't notice you were here.
+::'''Arlan:''' Ask me anything. I'll do my best to help as per Lady Asta's request.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Of the heart, of the mirror, of the self...
+::'''Arlan:''' S&mdash;Stop saying that! Sorry, I don't mean to yell... But still, it's embarrassing to mention it in front of everyone!
+::<!--Custom String Trigger: Wait_Option_500012001_41-->
+::<!--Custom String Listener: Wait_Option_500012001_41-->
+::{{DIcon|Talk}} So you're the horse among eagles?
+:::<!--Custom String Listener: TalkSentence_500012026-->
+:::'''Arlan:''' They were just talking nonsense. I still have a long way to go to hone my combat skills.
+:::'''Arlan:''' Also... please don't tell Lady Asta about the horse thing. It's just ridiculous.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Guess the moral is "don't pick up just anything you find on the floor."
+:::<!--Custom String Listener: TalkSentence_500012029-->
+:::'''Arlan:''' Yeah, I should've known better. I'll definitely use more reputable resources next time. I won't fall for roadside leaflets again.
+:::'''Arlan:''' Although I did hear that you like collecting those leaflets as well. Better be careful.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Did Madam Herta give you some attitude?
+:::<!--Custom String Listener: TalkSentence_500012032-->
+:::'''Arlan:''' ...I don't really want to talk about it. Madam Herta does things her own way. I'll say that much.
+:::'''Arlan:''' Lady Asta trusts her, so I don't have any reason to, uh, question why she's doing what she's doing.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Peppy sure is smart!
+:::<!--Custom String Listener: TalkSentence_500012035-->
+:::'''Arlan:''' Right? That's what people say! Peppy has a personality. He can sense other people's needs, too.
+:::'''Arlan:''' One time, it was late at night, and Lady Asta fell asleep on her desk after a day's hard work. Peppy came to me and led me to Lady Asta so that I could escort her back to her room.
+:::'''Arlan:''' Peppy saved the day again this time. Thanks to him, Lady Asta was able to work things out. I'll have to give him a treat.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} You know what? I'll stop making fun of you.
+:::<!--Custom String Listener: TalkSentence_500012039-->
+:::'''Arlan:''' Huh? Was that what you were doing...?
+:::'''Arlan:''' Anyways, thanks for helping Lady Asta out. I hope you'll lend a hand again when she finds herself in difficult situations in the future. That said, the fewer the situations, the better...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200020217-->)
+:{{DIcon}} Any follow-ups on the encryption key incident?
+::'''Arlan:''' Ah, you still remember. Well, Lady Asta is known to spend more than what she could bring home. Who knows what she would buy had she gotten the encryption key?
+::'''Arlan:''' Thanks to your help last time, the trouble with the anonymous group chat has been resolved, and Lady Asta got to keep her secret. I've got to repay you sometime.
+::<!--Custom String Trigger: Wait_Option_500012002_74-->
+::<!--Custom String Listener: Wait_Option_500012002_74-->
+::{{DIcon|Talk}} Let me pet Peppy!
+:::<!--Custom String Listener: TalkSentence_500012055-->
+:::'''Arlan:''' That can be arranged. Peppy gets along with people pretty well.
+:::'''Arlan:''' But Peppy has the final say in this. I have to respect his opinion.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Does the encryption key have a credit cap?
+:::<!--Custom String Listener: TalkSentence_500012058-->
+:::'''Arlan:''' I'm not sure. But so far Lady Asta has encountered no problems using it to make payments.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll have to think about it.
+:::<!--Custom String Listener: TalkSentence_500012060-->
+:::'''Arlan:''' Same. Take your time.
+:::<!--Custom String Trigger: Mission_200020217-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200013303--> and {{cx}}<!--SubMission Started: 200020217-->)
+:{{DIcon}} Looks like Project Revival has a long way to go...
+::'''Arlan:''' I've got some replies from the researchers. Thanks for helping me with this round of Project Revival. Even Mrs. Hinkel has started to sing your praise!
+::'''Arlan:''' Thank you so much. With your help, the operations on the space station will soon be back on track!
+::<!--Custom String Trigger: Talk_200013301-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200013303--> and {{cx}}<!--SubMission Started: 200020217-->)
+:{{DIcon|Exit}} Fine, fine, I'll stop messing with you.
+::'''Arlan:''' Thanks. Oh, and come find me anytime you have feedback for the Security Department.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_500012042)
+:<!--Custom String Listener: TalkSentence_500012042-->
+::'''Arlan:''' Thanks. Oh, and come find me anytime you have feedback for the Security Department.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Arlan
+|zhs  = 阿兰
+|zht  = 阿蘭
+|ja   = アーラン
+|ko   = 아를란
+|es   = Arlan
+|fr   = Arlan
+|ru   = Арлан
+|th   = Arlan
+|vi   = Arlan
+|de   = Arlan
+|id   = Arlan
+|pt   = Arlan
+}}
+==Change History==
+{{Change History|TODO}}

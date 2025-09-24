@@ -1,0 +1,144 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fardus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = IPC Specialist
+|image           = NPC Fardus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Fardus''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_152_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502052101: Config/Level/NPCDialogue/P10202/NPCAct/Act502052101.json-->
+::'''Fardus:''' Tsk, I just don't get what's so great about these shabby stores. Worn-out trash for low-end customers... Oh, I'm not talking about you.
+::{{DIcon|Arrow}} That was pretty harsh.
+:::<!--Custom String Listener: TalkSentence_502052104-->
+:::'''Fardus:''' Well, then I'm sorry for being real.
+:::'''Fardus:''' In the society of long-life species, some mundane and trivial objects may hold great historical value for Outworlders. However, in the eyes of IPC elites, these objects are nothing more than outdated trash.
+::{{DIcon|Arrow}} But I think this stuff is worth quite a lot of money.
+:::<!--Custom String Listener: TalkSentence_502052107-->
+:::'''Fardus:''' Quite a lot of money? Come on, are you even serious? If you don't know the latest trend of cosmic business, you might as well not say anything at all.
+:::'''Fardus:''' If Aurum Alley keeps selling junk like this, those merchants won't be in business for long, at least not if I have anything to say about it.
+::<!--Custom String Trigger: TalkSentence_502052109-->
+::<!--Custom String Listener: TalkSentence_502052109-->
+::'''Fardus:''' Oh, by the way, my name is Fardus. Nice to meet you. If you happen to have a jade abacus, I'd be happy to send you an invitation letter and some gifts.
+::'''Fardus:''' I'm an IPC business planning specialist, and I'm here on business affairs related to Aurum Alley. Feel free to contact me if you have any business inquiries or are interested in cooperating with us.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502052301: Config/Level/NPCDialogue/P10202/NPCAct/Act502052301.json-->
+::'''Fardus:''' Ah, another day of being annoyed by those old geezers... Why are long-life species so stubborn?
+::'''Fardus:''' ...Huh? Another tourist lured in by those ads? What's so great about this rundown alley anyways... Or are you here to ask something?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask something.
+::<!--Trigger PerformanceE 502052201: Config/Level/NPCDialogue/P10202/NPCAct/Act502052201.json-->
+::'''Fardus:''' You seem way more reasonable than those old chumps. So, how about we have a real chat? You know, a "modern" one.
+::<!--Custom String Trigger: waitoption-->
+::<!--Custom String Listener: waitoption-->
+::{{DIcon|Talk}} Did you just say these stores are selling worn-out trash?
+:::<!--Custom String Listener: TalkSentence_502052204-->
+:::'''Fardus:''' Yeah, that's exactly what I said. Those old geezers are stuck in the past, running outdated stores and selling useless junk. I mean, what's even the point?
+:::'''Fardus:''' Some time ago, the regional administrator wanted us to assess the value of the stores in the alley and negotiate with the owners on how much they'd want if we decided to buy them out. But those old geezers just threw out a ridiculously high number...
+:::{{DIcon|Arrow}} So, IPC is planning to buy this block?
+::::<!--Custom String Listener: TalkSentence_502052207-->
+::::'''Fardus:''' Exactly, we're planning to turn this area into a commercial hub with a large shopping center. But first, we've got rid of those run-down stores.
+::::<!--Custom String Trigger: TalkSentence_502052210-->
+::::<!--Custom String Listener: TalkSentence_502052210-->
+::::'''Fardus:''' We're not wasting money on worthless junk. That's why I'm here to make sure everything is legit.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Is IPC short on cash or something?
+::::<!--Custom String Listener: TalkSentence_502052209-->
+::::'''Fardus:''' No, of course not, but we'll only pay for things that actually help IPC move forward and get ahead, and definitely not just because of "historical values."
+::::<!--Custom String Trigger: TalkSentence_502052210-->
+::::<!--Custom String Listener: TalkSentence_502052210-->
+::::'''Fardus:''' We're not wasting money on worthless junk. That's why I'm here to make sure everything is legit.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So, is IPC planning to buy Aurum Alley?
+:::<!--Custom String Listener: TalkSentence_502052212-->
+:::'''Fardus:''' To be more precise, we are planning to obtain the right to operate this alley.
+:::{{DIcon|Arrow}} Is IPC planning to undermine Aurum Alley?
+::::<!--Custom String Listener: TalkSentence_502052214-->
+::::'''Fardus:''' Come on, what makes you think that? Do you have a persecution complex or something?
+::::'''Fardus:''' We're here to develop this alley, not destroy it. The new Aurum Alley is only going to get better. Don't be like those stubborn folks, {{MC|f=young lady|m=young man}}.
+::::'''Fardus:''' Everything we've been doing is for profi... I mean, for the profound Qlipoth!
+::::<!--Custom String Trigger: TalkSentence_502052221-->
+::::<!--Custom String Listener: TalkSentence_502052221-->
+::::'''Fardus:''' I heard that some of our sales representatives are resorting to shady tactics to get what they want. What a disgrace.
+::::'''Fardus:''' We don't need any underhanded tricks to claim Aurum Alley. The sheer difference in strength we bring will guarantee our victory, just like Qlipoth's hammer is guaranteed to fall!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Will those merchants accept your offer?
+::::<!--Custom String Listener: TalkSentence_502052218-->
+::::'''Fardus:''' Will they accept? Well, do they really have a choice?
+::::'''Fardus:''' After the IPC re-established stable trade routes with the Xianzhou, the Sky-Faring Commission had outlined the scope of the business cooperation with the management for Aurum Alley also being up for negotiation in the tender documents.
+::::'''Fardus:''' Do you understand now? We're talking about a bona fide business competition.
+::::<!--Custom String Trigger: TalkSentence_502052221-->
+::::<!--Custom String Listener: TalkSentence_502052221-->
+::::'''Fardus:''' I heard that some of our sales representatives are resorting to shady tactics to get what they want. What a disgrace.
+::::'''Fardus:''' We don't need any underhanded tricks to claim Aurum Alley. The sheer difference in strength we bring will guarantee our victory, just like Qlipoth's hammer is guaranteed to fall!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::<!--Custom String Listener: TalkSentence_502052224-->
+:::'''Fardus:''' Take your time. I hope we'll get to work together in the future.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502052201-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Fardus:''' Take your time. I hope we'll get to work together in the future.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fardus
+|zhs  = 法尔杜丝
+|zht  = 法爾杜絲
+|ja   = ファルダス
+|ko   = 팔두스
+|es   = Fardus
+|fr   = Farah
+|ru   = Фардус
+|th   = Fardus
+|vi   = Fardus
+|de   = Fardus
+|id   = Fardus
+|pt   = Fardus
+}}
+==Change History==
+{{Change History|TODO}}

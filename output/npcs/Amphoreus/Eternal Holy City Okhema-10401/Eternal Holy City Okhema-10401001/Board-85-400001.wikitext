@@ -1,0 +1,117 @@
+<%-- [PAGE_INFO]
+PageTitle=#Board#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Board.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Board''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_85_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckFloorCustomBoolV2","Name":{"Value":"FCV_CavalryBeast_Teleport"}}-->}})
+;(If {{cx}}<!--performance 304001002 has been seen-->)
+::<!--Custom String Trigger: MovePause-->
+::<!--Trigger PerformanceE 304001002: Config/Level/Mission/3040010/Act/Act304001002.json-->
+::It's said that many in their childhoods have experienced the exhilaration of being lifted high above their heads by their parents. If those families had a steed like the dromas, those children would've been bursting with excitement.
+::Enough said, you decide to...
+::{{DIcon|Arrow}} Climb on the back of the dromas!
+:::<!--Custom String Listener: ALL_TALK_END2-->
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::{{DIcon|Exit}} ...I'll pass.
+:::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.PerformanceEndSeq",
+	"Cases": [
+		{
+			"Case": 1,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEvent",
+					"EventName": {
+						"Value": "RideBegin"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomString",
+					"CustomString": {
+						"Value": "Mission_304003015"
+					}
+				}
+			]
+		},
+		{
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEvent",
+					"EventName": {
+						"Value": "MoveResume"
+					}
+				}
+			]
+		}
+	]
+}</pre>
+;(If {{cx}}<!--performance 304001002 has not been seen-->)
+::<!--Custom String Trigger: Mission_304003015-->
+::<!--Custom String Trigger: RideBegin-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,1594 @@
+<%-- [PAGE_INFO]
+PageTitle=#Young Master Gold#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Young Master Gold.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''Young Master Gold''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_130_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 414034101: Config/Level/Mission/4140303/Act/Act414034101.json-->
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Young Master Gold:''' Tweet... Tweet tweet... Clockie and Hanu both have their own films...
+:::'''Young Master Gold:''' It must be my turn next, right?
+:::'''Young Master Gold:''' Tweet tweet~ I'm so excited~
+:::{{DIcon|Arrow}} What films?
+:::<!--Custom String Listener: TalkSentence_414034105-->
+::;(If {{cx}}<!--performance 414030303 has been seen-->)
+::::'''Young Master Gold:''' Tweet? It's the new face around Dreamville!
+::;(If {{cx}}<!--performance 414030303 has not been seen-->)
+::::'''Young Master Gold:''' Tweet? Oh my! If it isn't the kind traveler that I met before, tweet.
+::::'''Young Master Gold:''' Hmm... You're just in time!
+::::'''Young Master Gold:''' Welcome to the garden that holds all the joy and dreams of Dreamville &mdash; Clock Garden, tweet!
+:::{{MC|f=The origami bird takes a fancy bow, then twirls its round body and touches the back of your hand gently.|m=The origami bird takes a fancy bow, then twirls its round body and assumes what seems to be a bow.}}
+:::'''Young Master Gold:''' Welcome, {{MC|f=beautiful lady|m=handsome gentleman}}! Welcome to the garden that holds all the joy and dreams of Dreamville &mdash; Clock Garden, tweet!
+:::{{DIcon|Arrow}} Clock Garden?
+:::<!--Custom String Listener: TalkSentence_414034113-->
+:::'''Young Master Gold:''' That's right! Every movie in Dreamville was shot right here, tweet! Any movies about the residents of Dreamville are shown here, too~
+:::'''Young Master Gold:''' Hmm... Your timing is perfect! My film is in development as we speak. As you are so interested, dear guest, why don't you lend a hand!
+:::{{DIcon|Arrow}} Alright! I'll be the director!
+:::{{DIcon|Arrow}} But, I've never filmed a movie before...
+:::<!--Custom String Listener: TalkSentence_414034117-->
+:::'''Young Master Gold:''' Not to worry, I have many assistants among the origami birds that are great at filmmaking! I have already come up with the script, it's just up to them to get shooting, tweet!
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Young Master Gold:''' Tweet?
+::::'''Young Master Gold:''' Amazing! You've brought back all the helpers, tweet!
+::::'''Young Master Gold:''' I'm never a scrooge, tweet! Take this reward and gift with you as well!
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200111
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200112
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200112
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Inverse":true}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Young Master Gold:''' Tweet?
+:::::'''Young Master Gold:''' Wonderful! You've brought back so many helpers already, tweet!
+:::::'''Young Master Gold:''' Here's the reward that I promised, tweet!
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200111
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+:::::'''Young Master Gold:''' If you see other birds near Clock Garden, get them to return to the Great Tree! Don't worry. I won't skimp on the rewards either, tweet!
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 414034102: Config/Level/Mission/4140303/Act/Act414034102.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Young Master Gold:''' Woah, all of my assistants actually came~! I can't believe I can already start filming, tweet!
+:::::'''Young Master Gold:''' I'm never a scrooge, tweet! Take this reward and gift with you as well!
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200111
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200112
+			}
+		}
+	]
+}</pre>
+:::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Inverse":true}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::'''Young Master Gold:''' Woah, all of my assistants actually came! Now I can finally start filming my movie, tweet~
+::::::'''Young Master Gold:''' I'm never a scrooge, tweet! Take this gift with you as well!
+:::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200112
+			}
+		}
+	]
+}</pre>
+::::::<!--Ends the current performance-->
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Inverse":true}-->}})
+::::::'''Young Master Gold:''' My documentary film is now officially in recording! The name...? Let's just call it ''Young Master Gold and the 108 Birdies'', tweet~
+::::::<!--Custom String Trigger: TalkSentence_414030958-->
+::::::<!--Custom String Listener: TalkSentence_414030958-->
+::::::{{DIcon}} About you yourself...
+:::::::<!--Custom String Listener: TalkSentence_414034150-->
+:::::::'''Young Master Gold:''' I go by Young Master Gold, and I'm the second-greatest nest architect in Dreamville after Professor Owl, tweet!
+:::::::'''Young Master Gold:''' Hmm, a shining figure like mine deserves to be recorded on film forever, don't you think, tweet~
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon}} Tell me the story of the origami birds...
+:::::::<!--Custom String Listener: TalkSentence_414034153-->
+:::::::'''Young Master Gold:''' What would you like to know, dear guest? All this content should be put in the film, tweet~
+:::::::{{DIcon|Arrow}} About Clock Garden...
+::::::::<!--Custom String Listener: TalkSentence_414034155-->
+::::::::'''Young Master Gold:''' Clock Garden was the first paradise of Dreamville, it was designed by Clockie and built by myself, sweet~ Hmm, it truly is an ingenious design!
+::::::::'''Young Master Gold:''' If the Great Tree is the most dazzling tree in Goldleaf Plaza... Then Clock Garden is the sweetest fruit the Great Tree has ever borne, tweet!
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Arrow}} About the townspeople...
+::::::::<!--Custom String Listener: TalkSentence_414034158-->
+::::::::'''Young Master Gold:''' The citizens of Dreamville are all fascinating fellows~ Of course, I am the most dazzling of them all~
+::::::::'''Young Master Gold:''' I sometimes attend Miss Note's tea parties... Miss Note always prepares delicious berries and wonderful music. Hmm, I guess I would say that she is the second most dazzling citizen in Dreamville~
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Arrow}} About Professor Owl...
+::::::::<!--Custom String Listener: TalkSentence_414034161-->
+::::::::'''Young Master Gold:''' Hmm... Hmmmm! You know the great Professor Owl, too? The Professor is the smartest and strongest bird in the whole village! They are also the leader of us origami birds, tweet.
+::::::::'''Young Master Gold:''' Legend has it that in the beginning, Professor Owl built Dreamville branch-by-branch all by themselves... What a great bird, tweet! I want to become an amazing bird like them, tweet!
+::::::::'''Young Master Gold:''' I know that when that time comes, Professor Owl will praise me, too, tweet~
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon}} I need a few hints.
+:::::::<!--Custom String Listener: TalkSentence_414034165-->
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":6}},"Inverse":true}-->}})
+::::::::'''Young Master Gold:''' Hmm... Clock Garden is so vast, I can't remember where the birdies that were going to help me would be hanging around, tweet...
+::::::::'''Young Master Gold:''' If only I had a Magic Coin that awakens memories, tweet! Alas, I've used up all of mine in stock, tweet...
+::::::::{{DIcon|Arrow}} (Take out an Aideen Token)
+:::::::::<!--Custom String Listener: TalkSentence_414034170-->
+::::::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerSound",
+			"SoundName": {
+				"Value": "Ev_vo_origamibirds_appear"
+			},
+			"EmitterType": "TargetEvaluator",
+			"TargetType": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414030980,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"PrevDuration": 0.1,
+			"KeepDuration": 0.1,
+			"PostDuration": 0.1,
+			"KeepDisplay": true,
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 414030981
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.TriggerSound",
+							"SoundName": {
+								"Value": "Ev_sfx_origamibird_eatcoin"
+							},
+							"EmitterType": "DefaultEmitter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.CharacterTriggerFreeStyle",
+			"TargetAlias": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			},
+			"StoryAvatarID": "NPC_Special_OrigamiBird_00",
+			"StoryMotionID": 900090014
+		},
+		{
+			"$type": "RPG.GameCore.WaitSecond",
+			"WaitTime": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 0.1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414030982,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 6
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 131
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034173
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 132
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034174
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 133
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034175
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 144
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034176
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 134
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034177
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 135
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034178
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 136
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034179
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 137
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034180
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 138
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034181
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 145
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034182
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 146
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034183
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 139
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034184
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 140
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034185
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 147
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034186
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 141
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034187
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 142
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034188
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 143
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034189
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 148
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034190
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 149
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034191
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 150
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034192
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_414034194"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+::::::::{{DIcon|Exit}} Never mind.
+:::::::::<!--Custom String Listener: TalkSentence_414034194-->
+:::::::::'''Young Master Gold:''' Heheh... Poverty can't be helped, tweet.
+:::::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::::<!--Ends the current performance-->
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":6}},"Inverse":true}-->}})
+::::::::'''Young Master Gold:''' I will not be able to move this film by myself, I need birdies to help me, tweet!
+::::::::'''Young Master Gold:''' Please get that assistant we just mentioned to come back first!
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Ends the current performance-->
+::::::{{DIcon|Exit}} Catch you next time.
+:::::::<!--Custom String Listener: TalkSentence_414034198-->
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+:::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::::'''Young Master Gold:''' Hmm~ I hope you will look forward to my outstanding new masterpiece~
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+:::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::::'''Young Master Gold:''' Mhmm, I'll leave the assistants to you!
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Young Master Gold:''' Woah, all of my assistants gathered so quickly, now we can start filming, tweet~
+:::::'''Young Master Gold:''' Here's the reward that I promised, tweet!
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200111
+			}
+		}
+	]
+}</pre>
+:::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200111}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Young Master Gold:''' Are you excited about my own exclusive movie, too? Hmm, it's only natural to feel that way, tweet! Don't forget to help call all of my filmmaking assistants back here, tweet~
+:::::<!--Custom String Trigger: TalkSentence_414030958-->
+:::::<!--Custom String Listener: TalkSentence_414030958-->
+:::::{{DIcon}} About you yourself...
+::::::<!--Custom String Listener: TalkSentence_414034150-->
+::::::'''Young Master Gold:''' I go by Young Master Gold, and I'm the second-greatest nest architect in Dreamville after Professor Owl, tweet!
+::::::'''Young Master Gold:''' Hmm, a shining figure like mine deserves to be recorded on film forever, don't you think, tweet~
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon}} Tell me the story of the origami birds...
+::::::<!--Custom String Listener: TalkSentence_414034153-->
+::::::'''Young Master Gold:''' What would you like to know, dear guest? All this content should be put in the film, tweet~
+::::::{{DIcon|Arrow}} About Clock Garden...
+:::::::<!--Custom String Listener: TalkSentence_414034155-->
+:::::::'''Young Master Gold:''' Clock Garden was the first paradise of Dreamville, it was designed by Clockie and built by myself, sweet~ Hmm, it truly is an ingenious design!
+:::::::'''Young Master Gold:''' If the Great Tree is the most dazzling tree in Goldleaf Plaza... Then Clock Garden is the sweetest fruit the Great Tree has ever borne, tweet!
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} About the townspeople...
+:::::::<!--Custom String Listener: TalkSentence_414034158-->
+:::::::'''Young Master Gold:''' The citizens of Dreamville are all fascinating fellows~ Of course, I am the most dazzling of them all~
+:::::::'''Young Master Gold:''' I sometimes attend Miss Note's tea parties... Miss Note always prepares delicious berries and wonderful music. Hmm, I guess I would say that she is the second most dazzling citizen in Dreamville~
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} About Professor Owl...
+:::::::<!--Custom String Listener: TalkSentence_414034161-->
+:::::::'''Young Master Gold:''' Hmm... Hmmmm! You know the great Professor Owl, too? The Professor is the smartest and strongest bird in the whole village! They are also the leader of us origami birds, tweet.
+:::::::'''Young Master Gold:''' Legend has it that in the beginning, Professor Owl built Dreamville branch-by-branch all by themselves... What a great bird, tweet! I want to become an amazing bird like them, tweet!
+:::::::'''Young Master Gold:''' I know that when that time comes, Professor Owl will praise me, too, tweet~
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon}} I need a few hints.
+::::::<!--Custom String Listener: TalkSentence_414034165-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":6}},"Inverse":true}-->}})
+:::::::'''Young Master Gold:''' Hmm... Clock Garden is so vast, I can't remember where the birdies that were going to help me would be hanging around, tweet...
+:::::::'''Young Master Gold:''' If only I had a Magic Coin that awakens memories, tweet! Alas, I've used up all of mine in stock, tweet...
+:::::::{{DIcon|Arrow}} (Take out an Aideen Token)
+::::::::<!--Custom String Listener: TalkSentence_414034170-->
+:::::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 6
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerSound",
+			"SoundName": {
+				"Value": "Ev_vo_origamibirds_appear"
+			},
+			"EmitterType": "TargetEvaluator",
+			"TargetType": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414030980,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"PrevDuration": 0.1,
+			"KeepDuration": 0.1,
+			"PostDuration": 0.1,
+			"KeepDisplay": true,
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 414030981
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.TriggerSound",
+							"SoundName": {
+								"Value": "Ev_sfx_origamibird_eatcoin"
+							},
+							"EmitterType": "DefaultEmitter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.CharacterTriggerFreeStyle",
+			"TargetAlias": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			},
+			"StoryAvatarID": "NPC_Special_OrigamiBird_00",
+			"StoryMotionID": 900090014
+		},
+		{
+			"$type": "RPG.GameCore.WaitSecond",
+			"WaitTime": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 0.1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414030982,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 6
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 131
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034173
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 132
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034174
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 133
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034175
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 144
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034176
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 134
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034177
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 135
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034178
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 136
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034179
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 137
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034180
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 138
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034181
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 145
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034182
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 146
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034183
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 139
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034184
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 140
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034185
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 147
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034186
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 141
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034187
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 142
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034188
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 143
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034189
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 148
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034190
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 149
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034191
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 150
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 414034192
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_414034194"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::::{{DIcon|Exit}} Never mind.
+::::::::<!--Custom String Listener: TalkSentence_414034194-->
+::::::::'''Young Master Gold:''' Heheh... Poverty can't be helped, tweet.
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Ends the current performance-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":6}},"Inverse":true}-->}})
+:::::::'''Young Master Gold:''' I will not be able to move this film by myself, I need birdies to help me, tweet!
+:::::::'''Young Master Gold:''' Please get that assistant we just mentioned to come back first!
+::::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Catch you next time.
+::::::<!--Custom String Listener: TalkSentence_414034198-->
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::::'''Young Master Gold:''' Hmm~ I hope you will look forward to my outstanding new masterpiece~
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200112}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::::'''Young Master Gold:''' Mhmm, I'll leave the assistants to you!
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Young Master Gold
+|zhs  = 黄金公子
+|zht  = 黃金公子
+|ja   = プリンス・ゴールド
+|ko   = 골드 도련님
+|es   = Joven amo Dorado
+|fr   = Jeune maître Gold
+|ru   = Золотой Господин
+|th   = คุณชายทองคำ
+|vi   = Công Tử Hoàng Kim
+|de   = Prinz Gold
+|id   = Tuan Muda Emas
+|pt   = Jovem Mestre Dourado
+}}
+==Change History==
+{{Change History|TODO}}

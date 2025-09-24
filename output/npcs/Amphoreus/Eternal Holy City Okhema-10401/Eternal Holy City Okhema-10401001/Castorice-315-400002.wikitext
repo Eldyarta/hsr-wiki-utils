@@ -1,0 +1,200 @@
+<%-- [PAGE_INFO]
+PageTitle=#Castorice#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Castorice.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Castorice''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_315_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504017002: Config/Level/Mission/5040170/Act/Act504017002.json-->
+:Castorice is now in the nether realm, guarding the cycle of life and death for Amphoreus. What you see now is simply a reflection, a lingering shadow of the past.
+:'''Castorice:''' Is there something you wish to discuss with me, {{MC|f=miss|m=mister}}?
+:{{DIcon|Talk}} Castorice, let's chat.
+::<!--Custom String Listener: TalkSentence_504017101-->
+::'''Castorice:''' I would love to... although I very rarely converse with others. I am not gifted with communication... Please do not be offended, {{MC|f=miss|m=mister}}.
+::<!--Custom String Trigger: Wait_Option_504017002_16-->
+::<!--Custom String Listener: Wait_Option_504017002_16-->
+::{{DIcon|Talk}} I want... to give you a hug.
+:::<!--Custom String Listener: TalkSentence_504059600-->
+:::The fragment of memory seems to waver &mdash; memories of words once spoken blend together due to the emotion they contain...
+:::'''Castorice:''' Thank you for fulfilling this wish of mine.
+:::'''Castorice:''' The shore across... is cold, and is also referred to as the land of sorrows.
+:::'''Castorice:''' Yet with this heartbeat, and the warmth of that embrace, the nether realm somehow seems to be a gentle sanctuary.
+:::{{DIcon|Arrow}} Thank you for bringing me back to the mortal world.
+::::<!--Custom String Listener: TalkSentence_504059607-->
+::::'''Castorice:''' ...I knew you could do it.
+::::'''Castorice:''' And now, I can finally be certain...
+::::'''Castorice:''' My touch and embrace can do more than just bring ice-cold loss...
+::::'''Castorice:''' They also carry with them the warmth of life.
+::::<!--Custom String Trigger: TalkSentence_504059617-->
+::::<!--Custom String Listener: TalkSentence_504059617-->
+::::'''Castorice:''' Farewell, then. May we... reunite in the new world.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You're... not coming back?
+::::<!--Custom String Listener: TalkSentence_504059612-->
+::::'''Castorice:''' I will stay here and embrace my destiny.
+::::'''Castorice:''' I will illuminate the cold shadow of death.
+::::<!--Custom String Trigger: TalkSentence_504059617-->
+::::<!--Custom String Listener: TalkSentence_504059617-->
+::::'''Castorice:''' Farewell, then. May we... reunite in the new world.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} In the nether realm, don't forget to send me a "nether postcard."
+::::<!--Custom String Listener: TalkSentence_504059615-->
+::::'''Castorice:''' ...
+::::The shadow of the memory remains silent, for this conversation never truly occurred.
+::::<!--Custom String Trigger: TalkSentence_504059617-->
+::::<!--Custom String Listener: TalkSentence_504059617-->
+::::'''Castorice:''' Farewell, then. May we... reunite in the new world.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you like to do normally?
+:::<!--Custom String Listener: TalkSentence_504017104-->
+:::'''Castorice:''' Read books... visit graves... admiring flowers... and make ornaments.
+:::{{DIcon|Arrow}} Very niche hobbies.
+::::<!--Custom String Listener: TalkSentence_504017106-->
+::::'''Castorice:''' Indeed. It is difficult for me to work alongside others due to my curse. I have no choice but to find hobbies I can enjoy alone.
+::::<!--Custom String Trigger: TalkSentence_504017111-->
+::::<!--Custom String Listener: TalkSentence_504017111-->
+::::'''Castorice:''' I have read all of the books in the Okhema archives. I prefer books on history and culture. My favorite story is about a princess that becomes a dragon...
+::::'''Castorice:''' Please do not laugh at me. A legend is a precious crystal that is born over the course of millennia. Take the famous Titan mythology of Amphoreus. If you have time to learn about it, you will be shocked by its vastness and exquisite detail.
+::::'''Castorice:''' As for visiting graves... Many of the deceased around the graveyards of Okhema were personally embalmed by me. I periodically go to their tombs to dust... I'm not sure why but I'm always concerned that somehow they cannot rest in peace.
+::::'''Castorice:''' Making ornaments is how I preserve things of beauty, such as butterflies and dried flowers... I sew them onto special silk fabric so they look like they never lost their lives.
+::::'''Castorice:''' I learned sewing techniques from lady Aglaea to ensure that I do not damage them in the process. I could gift you some in the future if you'd like to have some.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Let me see what you made.
+::::<!--Custom String Listener: TalkSentence_504017108-->
+::::'''Castorice:''' Ah... I made all of these butterfly and flower accessories on my dress...
+::::<!--Custom String Trigger: TalkSentence_504017111-->
+::::<!--Custom String Listener: TalkSentence_504017111-->
+::::'''Castorice:''' I have read all of the books in the Okhema archives. I prefer books on history and culture. My favorite story is about a princess that becomes a dragon...
+::::'''Castorice:''' Please do not laugh at me. A legend is a precious crystal that is born over the course of millennia. Take the famous Titan mythology of Amphoreus. If you have time to learn about it, you will be shocked by its vastness and exquisite detail.
+::::'''Castorice:''' As for visiting graves... Many of the deceased around the graveyards of Okhema were personally embalmed by me. I periodically go to their tombs to dust... I'm not sure why but I'm always concerned that somehow they cannot rest in peace.
+::::'''Castorice:''' Making ornaments is how I preserve things of beauty, such as butterflies and dried flowers... I sew them onto special silk fabric so they look like they never lost their lives.
+::::'''Castorice:''' I learned sewing techniques from lady Aglaea to ensure that I do not damage them in the process. I could gift you some in the future if you'd like to have some.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} So cute!
+::::<!--Custom String Listener: TalkSentence_504017110-->
+::::'''Castorice:''' Oh, cute... Thank you.
+::::<!--Custom String Trigger: TalkSentence_504017111-->
+::::<!--Custom String Listener: TalkSentence_504017111-->
+::::'''Castorice:''' I have read all of the books in the Okhema archives. I prefer books on history and culture. My favorite story is about a princess that becomes a dragon...
+::::'''Castorice:''' Please do not laugh at me. A legend is a precious crystal that is born over the course of millennia. Take the famous Titan mythology of Amphoreus. If you have time to learn about it, you will be shocked by its vastness and exquisite detail.
+::::'''Castorice:''' As for visiting graves... Many of the deceased around the graveyards of Okhema were personally embalmed by me. I periodically go to their tombs to dust... I'm not sure why but I'm always concerned that somehow they cannot rest in peace.
+::::'''Castorice:''' Making ornaments is how I preserve things of beauty, such as butterflies and dried flowers... I sew them onto special silk fabric so they look like they never lost their lives.
+::::'''Castorice:''' I learned sewing techniques from lady Aglaea to ensure that I do not damage them in the process. I could gift you some in the future if you'd like to have some.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The people of Okhema seem to fear you.
+:::<!--Custom String Listener: TalkSentence_504017117-->
+:::'''Castorice:''' They cannot be blamed for this. I am the "mortician" in the holy city. I was also once... the holy maiden who oversaw warfare in Aidonia. In their eyes, I am no more than a walking envoy of death.
+:::{{DIcon|Arrow}} I would like to hear your story.
+::::<!--Custom String Listener: TalkSentence_504017119-->
+::::'''Castorice:''' I have no memories of the time before I came to Aidonia. From what I'm told, I was merely a drifter who wandered the wastelands until Aidonia took me in.
+::::<!--Custom String Trigger: TalkSentence_504017121-->
+::::<!--Custom String Listener: TalkSentence_504017121-->
+::::'''Castorice:''' Aidonia is a city that worships Thanatos. Its residents regard death as their destined end... Unlike the Kremnoans longing to die in battle, the Aidonians see death as the blessed final destination for life.
+::::'''Castorice:''' However, that does not mean that Aidonians do not treasure life. On the contrary, they believe that it is only by living a long life and tempering oneself will one gain a soul tenacious enough to cross the River of Souls and meet Thanatos.
+::::'''Castorice:''' The Aidonian found me in the wilds. They strongly believed that I had received the blessing of the Death Titan, that my hands could spare them from the River of Souls and send them straight to the great Thanatos.
+::::'''Castorice:''' So, I was revered as the "Maiden of War"... Only I could grant the deceased Aidonian warriors the comfort and respect that they deserve.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I'd like to hear stories about Aidonia.
+::::<!--Custom String Listener: TalkSentence_504017121-->
+::::'''Castorice:''' Aidonia is a city that worships Thanatos. Its residents regard death as their destined end... Unlike the Kremnoans longing to die in battle, the Aidonians see death as the blessed final destination for life.
+::::'''Castorice:''' However, that does not mean that Aidonians do not treasure life. On the contrary, they believe that it is only by living a long life and tempering oneself will one gain a soul tenacious enough to cross the River of Souls and meet Thanatos.
+::::'''Castorice:''' The Aidonian found me in the wilds. They strongly believed that I had received the blessing of the Death Titan, that my hands could spare them from the River of Souls and send them straight to the great Thanatos.
+::::'''Castorice:''' So, I was revered as the "Maiden of War"... Only I could grant the deceased Aidonian warriors the comfort and respect that they deserve.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about the Titans!
+:::<!--Custom String Listener: TalkSentence_504017126-->
+:::'''Castorice:''' I never would have thought that you were also interested in the mythological tales of Amphoreus, {{MC|f=miss|m=mister}}! As luck would have it, I have collected many interesting stories over my long years. What kind of tale would you like to hear?
+:::{{DIcon|Arrow}} I want to hear a formal historical account!
+::::<!--Custom String Listener: TalkSentence_504017128-->
+::::'''Castorice:''' I fear you may be disappointed, {{MC|f=miss|m=mister}}. The majority of Amphoreus' history comes from bards recounting stories of ancient times. These stories are then recorded into words by third parties. Distortions of the truth are inevitable.
+::::'''Castorice:''' Perhaps the story that best fits the description of "a formal historical account" is the myth of Amphoreus' creation that the bath sprites have been telling.
+::::'''Castorice:''' However, I have other interesting stories that I could share with you. That is, if you do not mind.
+::::<!--Custom String Trigger: TalkSentence_504017133-->
+::::<!--Custom String Listener: TalkSentence_504017133-->
+::::'''Castorice:''' For instance... The story of Zagreus.
+::::'''Castorice:''' Legend has it that Zagreus used to enjoy playing pranks on the other gods, stealing Talanton's scales and Phagousa's wine glass. To put an end to their misdoings, the gods fastened a star to Zagreus' body to reveal their whereabouts at all times.
+::::'''Castorice:''' Another story that I have heard is that the Titans Phagousa and Georios cannot stand each other. Legend states that when it rains in Amphoreus, this is actually Phagousa taunting Georios after having gotten Aquila drunk.
+::::'''Castorice:''' So, Georios formed an alliance with Cerces to have plants shelter the land and block the sound of Phagousa's endless waves and rain.
+::::'''Castorice:''' There are even more bizarre legends than these: It is said that Nikador did something to Talanton, which is...
+::::'''Castorice:''' Ah, my apologies. I got caught up in my stories and ended up rambling. I'm so sorry to have wasted your time. I rarely get an opportunity to speak so freely with a friend... I am truly grateful.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I want to hear historical rumors and gossip!
+::::<!--Custom String Listener: TalkSentence_504017132-->
+::::'''Castorice:''' I do have a number of interesting stories that I could share with you. That is, if you do not mind.
+::::<!--Custom String Trigger: TalkSentence_504017133-->
+::::<!--Custom String Listener: TalkSentence_504017133-->
+::::'''Castorice:''' For instance... The story of Zagreus.
+::::'''Castorice:''' Legend has it that Zagreus used to enjoy playing pranks on the other gods, stealing Talanton's scales and Phagousa's wine glass. To put an end to their misdoings, the gods fastened a star to Zagreus' body to reveal their whereabouts at all times.
+::::'''Castorice:''' Another story that I have heard is that the Titans Phagousa and Georios cannot stand each other. Legend states that when it rains in Amphoreus, this is actually Phagousa taunting Georios after having gotten Aquila drunk.
+::::'''Castorice:''' So, Georios formed an alliance with Cerces to have plants shelter the land and block the sound of Phagousa's endless waves and rain.
+::::'''Castorice:''' There are even more bizarre legends than these: It is said that Nikador did something to Talanton, which is...
+::::'''Castorice:''' Ah, my apologies. I got caught up in my stories and ended up rambling. I'm so sorry to have wasted your time. I rarely get an opportunity to speak so freely with a friend... I am truly grateful.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to talk about. Goodbye!
+:::<!--Custom String Listener: TalkSentence_504017201-->
+:::'''Castorice:''' Okay, farewell. Let's talk again when we get a chance.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's all I wanted to talk about. Goodbye!
+::<!--Custom String Listener: TalkSentence_504017201-->
+::'''Castorice:''' Okay, farewell. Let's talk again when we get a chance.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Castorice
+|zhs  = 遐蝶
+|zht  = 遐蝶
+|ja   = キャストリス
+|ko   = 카스토리스
+|es   = Castorice
+|fr   = Castorice
+|ru   = Кастория
+|th   = Castorice
+|vi   = Castorice
+|de   = Castorice
+|id   = Castorice
+|pt   = Castorice
+}}
+==Change History==
+{{Change History|TODO}}

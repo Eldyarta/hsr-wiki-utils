@@ -1,0 +1,194 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jingzhai#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divination Commission Managing Diviner
+|image           = NPC Jingzhai.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Divination Commission
+|relatives       = 
+}}
+'''Jingzhai''' is an NPC on [[The Xianzhou Luofu]], located in [[Divination Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Divination Commission|npc_179_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502050101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502050101.json-->
+::'''Jingzhai:''' ...Except for the master diviner, no one else has access here. Once again, I'd like to emphasize that I have no knowledge or interest in things unrelated to divination.
+::'''Jingzhai:''' Please note that the meta algorithm is running at the moment. Unauthorized personnel should not disturb the process.
+::{{DIcon|Arrow}} Don't be so rigid...
+:::<!--Custom String Listener: TalkSentence_502050105-->
+:::'''Jingzhai:''' Well, it all depends on the situation. I merely act accordingly.
+::{{DIcon|Arrow}} Can't you have a little chat with me?
+:::<!--Custom String Listener: TalkSentence_502050107-->
+:::'''Jingzhai:''' What do you want to talk about? If it's about divination, I'd be happy to have the conversation. Count me out if you just want to chitchat.
+::{{DIcon|Arrow}} I'm just passing by. You don't have to be so mean to me.
+:::<!--Custom String Listener: TalkSentence_502050109-->
+:::'''Jingzhai:''' I'm not being mean. I just can't be disturbed when I'm preparing for a hexagrammatic inference. Please don't be bothered by it.
+::<!--Custom String Trigger: TalkSentence_502050110-->
+::<!--Custom String Listener: TalkSentence_502050110-->
+::'''Jingzhai:''' I have a lot of things on my plate... Could you be more concise with your question, if you don't mind?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502050201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502050201.json-->
+::'''Jingzhai:''' The meta algorithm is running at the moment. Unauthorized personnel should not disturb the process.
+::'''Jingzhai:''' Oh, it's you... I have a lot of things on my plate... Could you be more concise with your question, if you don't mind?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502050102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502050102.json-->
+::'''Jingzhai:''' What do you want to know?
+::<!--Custom String Trigger: Wait_Option_502050102_74-->
+::<!--Custom String Listener: Wait_Option_502050102_74-->
+::{{DIcon|Talk}} Are you like this to everyone?
+:::<!--Custom String Listener: TalkSentence_502050114-->
+:::'''Jingzhai:''' I'm afraid you'll be disappointed if you think I'm doing this on purpose. I'd act the same way even if you were the master diviner.
+:::'''Jingzhai:''' As a diviner, I should remain humble and well-composed. I always keep these words in my mind.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you usually do?
+:::<!--Custom String Listener: TalkSentence_502050117-->
+:::'''Jingzhai:''' I'm now in charge of a matrix at the Matrix of Prescience... My jobs include making divination inferences and recording the changes.
+:::'''Jingzhai:''' I'm afraid I can't disclose the details of the matrix as it involves confidential information about the Divination Commission.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I'm curious about what your colleagues have to say about you.
+:::<!--Custom String Listener: TalkSentence_502050120-->
+:::'''Jingzhai:''' There's no point in asking about meaningless things like that.
+:::'''Jingzhai:''' They can say whatever they want. As long as the matrix works smoothly, other things don't matter.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502050123-->
+:::'''Jingzhai:''' See you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502050102-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I want to hear more stories about you.
+::<!--Trigger PerformanceE 502050301: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502050301.json-->
+::'''Jingzhai:''' Fine, but there's nothing much to tell.
+::{{DIcon|Talk}} You're very faithful to your lover, but your love life is pretty complicated...
+:::<!--Custom String Listener: T202024823-->
+:::'''Jingzhai:''' Just like you short-life species, I've experienced breakups and reconciliations in my love life too. Everything has got to do with the previous incarnations of Cong...
+:::'''Jingzhai:''' Every previous incarnation of Cong is jealous of the talent of his predecessor. While Cong is jealous of Guyu, Guyu was jealous of the Cloud Knight before him.
+:::'''Jingzhai:''' I think it's time to end this absurd love cycle.
+:::<!--Custom String Trigger: optiontalk-->
+:::<!--Custom String Listener: optiontalk-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Is it because you're a long-life species?
+::::<!--Custom String Listener: T202024827-->
+::::'''Jingzhai:''' I can't say it applies to everyone. Just imagine a short-life species couple that has been together for fifty or sixty years. They might still love each other, but they won't be as enthusiastic as when they were young.
+::::'''Jingzhai:''' Even if the relationship can last for a millennium, they will be just two people living together.
+::::'''Jingzhai:''' Perhaps, short-life species are best suited to enjoy the sweetness of love.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Cong's case is special...
+::::<!--Custom String Listener: T202024831-->
+::::'''Jingzhai:''' Do you mean how he manages to find me after every reincarnation? I find it interesting too. When it happened for the first time, I thought it was very romantic, and we were meant to be together. On the second time, I thought I would have no problem loving him for another ten lifetimes...
+::::'''Jingzhai:''' But now, I'm sorry to say that I have no feelings for him at all.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I get your point. Let me check on Cong.
+::::<!--Custom String Listener: T202024835-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Is it because you're a long-life species?
+:::<!--Custom String Listener: T202024827-->
+:::'''Jingzhai:''' I can't say it applies to everyone. Just imagine a short-life species couple that has been together for fifty or sixty years. They might still love each other, but they won't be as enthusiastic as when they were young.
+:::'''Jingzhai:''' Even if the relationship can last for a millennium, they will be just two people living together.
+:::'''Jingzhai:''' Perhaps, short-life species are best suited to enjoy the sweetness of love.
+:::<!--Custom String Trigger: optiontalk-->
+:::<!--Custom String Listener: optiontalk-->
+:::{{DIcon|Talk}} You're very faithful to your lover, but your love life is pretty complicated...
+::::<!--Custom String Listener: T202024823-->
+::::'''Jingzhai:''' Just like you short-life species, I've experienced breakups and reconciliations in my love life too. Everything has got to do with the previous incarnations of Cong...
+::::'''Jingzhai:''' Every previous incarnation of Cong is jealous of the talent of his predecessor. While Cong is jealous of Guyu, Guyu was jealous of the Cloud Knight before him.
+::::'''Jingzhai:''' I think it's time to end this absurd love cycle.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Cong's case is special...
+::::<!--Custom String Listener: T202024831-->
+::::'''Jingzhai:''' Do you mean how he manages to find me after every reincarnation? I find it interesting too. When it happened for the first time, I thought it was very romantic, and we were meant to be together. On the second time, I thought I would have no problem loving him for another ten lifetimes...
+::::'''Jingzhai:''' But now, I'm sorry to say that I have no feelings for him at all.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I get your point. Let me check on Cong.
+::::<!--Custom String Listener: T202024835-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Cong's case is special...
+:::<!--Custom String Listener: T202024831-->
+:::'''Jingzhai:''' Do you mean how he manages to find me after every reincarnation? I find it interesting too. When it happened for the first time, I thought it was very romantic, and we were meant to be together. On the second time, I thought I would have no problem loving him for another ten lifetimes...
+:::'''Jingzhai:''' But now, I'm sorry to say that I have no feelings for him at all.
+:::<!--Custom String Trigger: optiontalk-->
+:::<!--Custom String Listener: optiontalk-->
+:::{{DIcon|Talk}} You're very faithful to your lover, but your love life is pretty complicated...
+::::<!--Custom String Listener: T202024823-->
+::::'''Jingzhai:''' Just like you short-life species, I've experienced breakups and reconciliations in my love life too. Everything has got to do with the previous incarnations of Cong...
+::::'''Jingzhai:''' Every previous incarnation of Cong is jealous of the talent of his predecessor. While Cong is jealous of Guyu, Guyu was jealous of the Cloud Knight before him.
+::::'''Jingzhai:''' I think it's time to end this absurd love cycle.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Is it because you're a long-life species?
+::::<!--Custom String Listener: T202024827-->
+::::'''Jingzhai:''' I can't say it applies to everyone. Just imagine a short-life species couple that has been together for fifty or sixty years. They might still love each other, but they won't be as enthusiastic as when they were young.
+::::'''Jingzhai:''' Even if the relationship can last for a millennium, they will be just two people living together.
+::::'''Jingzhai:''' Perhaps, short-life species are best suited to enjoy the sweetness of love.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I get your point. Let me check on Cong.
+::::<!--Custom String Listener: T202024835-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I get your point. Let me check on Cong.
+:::<!--Custom String Listener: T202024835-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502050301-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Well, I'd better leave you alone then.
+::'''Jingzhai:''' See you.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jingzhai
+|zhs  = 静斋
+|zht  = 靜齋
+|ja   = 静斎
+|ko   = 정채
+|es   = Jingzhai
+|fr   = Jingzhai
+|ru   = Цзинчжай
+|th   = Jingzhai
+|vi   = Jingzhai
+|de   = Jingzhai
+|id   = Jingzhai
+|pt   = Jingzhai
+}}
+==Change History==
+{{Change History|TODO}}

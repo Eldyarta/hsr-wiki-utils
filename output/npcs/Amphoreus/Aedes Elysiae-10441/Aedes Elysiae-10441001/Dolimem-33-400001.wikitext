@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dolimem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Dolimem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Dolimem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_33_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{F|FSV_ActivityCerydra}} is greater than or equal to 1)
+::<!--Trigger PerformanceE 504131003: Config/Level/Mission/5041310/Act/Act504131003.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106063
+}</pre>
+::'''Dolimem:''' The paths to Membrance Maze have long been forgotten. Your arrival has brought the forest back to life!
+::'''Dolimem:''' Since the leaves and vines have opened wide to welcome you, since ancient songs have guided your steps &mdash; we too shall treat you as an honored guest. We'll gather 'round the fire and share the rain, the stories, and the laughter.
+::'''Dolimem:''' Hehe... when that day comes, don't forget to tell us your story, too.
+::<!--Custom String Trigger: Wait_Option_504115001_10-->
+::<!--Custom String Listener: Wait_Option_504115001_10-->
+;(If {{F|FSV_ActivityCerydra}} is not greater than or equal to 1)
+::<!--Trigger PerformanceE 504115001: Config/Level/Mission/5041150/Act/Act504115001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106063
+}</pre>
+::'''Dolimem:''' The paths to Membrance Maze have long been forgotten. Your arrival has brought the forest back to life!
+::'''Dolimem:''' Since the leaves and vines have opened wide to welcome you, since ancient songs have guided your steps &mdash; we too shall treat you as an honored guest. We'll gather 'round the fire and share the rain, the stories, and the laughter.
+::'''Dolimem:''' Hehe... when that day comes, don't forget to tell us your story, too.
+::<!--Custom String Trigger: Wait_Option_504115001_10-->
+::<!--Custom String Listener: Wait_Option_504115001_10-->
+::<!--Custom String Listener: Wait_Option_504115001_10-->
+::{{DIcon|Talk}} How did you become a village chief?
+:::<!--Custom String Listener: TalkSentence_504115005-->
+:::'''Dolimem:''' Hehe... that was a long time ago. Back then, saplings had yet to stretch toward the sky. You could still count the rings inside a tree stump. And the Maze wasn't nearly as full as it is today.
+:::'''Dolimem:''' The first fairies to arrive &mdash; some ran off to play in the deep woods. Some fell asleep and never wanted to wake up. As for me, I simply wandered to wherever help was needed.
+:::'''Dolimem:''' I don't know how long it's been. But little by little, the village grew more lively. And then, one day &mdash; hehe... the children just started calling me "Chief."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} And what does a chief do?
+:::<!--Custom String Listener: TalkSentence_504115009-->
+:::'''Dolimem:''' Hehe... being a chief isn't as easy as you think. Planting crops, drawing water &mdash; I have to handle it all. And when the fairies get into fights, I'm the one who has to break them up.
+:::'''Dolimem:''' Then there's the praying &mdash; to the heart of Maze. Listening to the whispers of time, interpreting the prophecies it leaves behind.
+:::'''Dolimem:''' And above all, there's the waiting. Waiting for the prophecy to come true. Waiting for fate to draw near. Waiting, you see, is the most important job of all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll see you next time.
+:::<!--Custom String Listener: TalkSentence_504115013-->
+:::'''Dolimem:''' You have to! It's a promise. When the little ones hear your tales from the outside, they'll wag their tails with joy!
+:::<!--Ends the current performance-->
+:{{DIcon|Talk}} How did you become a village chief?
+::<!--Custom String Listener: TalkSentence_504115005-->
+::'''Dolimem:''' Hehe... that was a long time ago. Back then, saplings had yet to stretch toward the sky. You could still count the rings inside a tree stump. And the Maze wasn't nearly as full as it is today.
+::'''Dolimem:''' The first fairies to arrive &mdash; some ran off to play in the deep woods. Some fell asleep and never wanted to wake up. As for me, I simply wandered to wherever help was needed.
+::'''Dolimem:''' I don't know how long it's been. But little by little, the village grew more lively. And then, one day &mdash; hehe... the children just started calling me "Chief."
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} And what does a chief do?
+::<!--Custom String Listener: TalkSentence_504115009-->
+::'''Dolimem:''' Hehe... being a chief isn't as easy as you think. Planting crops, drawing water &mdash; I have to handle it all. And when the fairies get into fights, I'm the one who has to break them up.
+::'''Dolimem:''' Then there's the praying &mdash; to the heart of Maze. Listening to the whispers of time, interpreting the prophecies it leaves behind.
+::'''Dolimem:''' And above all, there's the waiting. Waiting for the prophecy to come true. Waiting for fate to draw near. Waiting, you see, is the most important job of all.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's your take on the new restaurant?
+::<!--Custom String Listener: choice3-->
+::'''Dolimem:''' Hehe... My distinguished guest, oh no, I should call you manager. How's business these days? Still booming?
+::'''Dolimem:''' In all my memory, this forest has never been so full of life.
+::'''Dolimem:''' I can see the restaurant's plaque from a distance, hear the cheerful noise, and watch fairies who used to drift about aimlessly now find their passion... It's as if the Membrance Maze has finally awakened from a long slumber.
+::'''Dolimem:''' I know running a restaurant is no easy feat. Don't push yourself too hard, manager.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll see you next time.
+::<!--Custom String Listener: TalkSentence_504115013-->
+::'''Dolimem:''' You have to! It's a promise. When the little ones hear your tales from the outside, they'll wag their tails with joy!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

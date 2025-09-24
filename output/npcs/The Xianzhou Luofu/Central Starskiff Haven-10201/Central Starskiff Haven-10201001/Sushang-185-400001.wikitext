@@ -1,0 +1,203 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sushang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Sushang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Sushang''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_185_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502086101: Config/Level/NPCDialogue/P10202/NPCAct/Act502086101.json-->
+::'''Sushang:''' The Luofu sure feels different from our Yaoqing. The storytellers here never repeat their stories...
+::'''Sushang:''' Oh, I remember you. You're friends with that "Silent but Deadly," right? What can I do for you?
+::{{DIcon|Arrow}} I just want to have a chat with you.
+:::<!--Custom String Listener: TalkSentence_502086105-->
+:::'''Sushang:''' What would you like to talk about? I've only been here for a short while. If you want to ask for directions, I'm only familiar with places around Starwatcher Avenue. If you want to know about the Xianzhou culture and whatnot, you've come to the wrong person.
+:::'''Sushang:''' But if you happen to enjoy live storytelling performances just like I do, then we're in the same boat and I will chat with you about whatever you like!
+::{{DIcon|Arrow}} Are you on duty here?
+:::<!--Custom String Listener: TalkSentence_502086108-->
+:::'''Sushang:''' It's not my shift yet, I'm just killing time and seeing if there's a chance to do a good deed while I'm at it.
+:::'''Sushang:''' My mom said, "A Stick in Time Saves Mine...," or whatever the original saying is, I can't remember the whole thing... Ahem, anyway, it means that I'll show up whenever someone needs help from my "stick"!
+::<!--Custom String Trigger: TalkSentence_502086110-->
+::<!--Custom String Listener: TalkSentence_502086110-->
+::'''Sushang:''' You look like an Outworlder, and you must be new here at the Luofu. If you need my help, you can visit me at any time. As a worthy Cloud Knight, I'll be reliable and helpful and will not bring shame to the Luofu Cloud Knights!
+::'''Sushang:''' Don't ask me about cultural stuff, though. I once met a few travelers who were super into Xianzhou's history and customs. They knew way more than I did. So I had to keep my mouth shut the entire time, trying to act like I knew what they were talking about.
+;(Subsequent interactions)
+:;(If {{Mission|Foxian Dream|showChapter=0}} has been completed)
+:::<!--Trigger PerformanceE 502086601: Config/Level/Mission/5020866/Act/Act502086601.json-->
+:::'''Sushang:''' (Trailblazer), you're here! Are we gearing up for another ghost-hunting mission?
+:::'''Sushang:''' Heehee, you could've just said something in the group chat. Why go the extra mile? I bet you missed me!
+:;(If {{Mission|Foxian Dream|showChapter=0}} has not been completed)
+:::<!--Trigger PerformanceE 502086201: Config/Level/NPCDialogue/P10202/NPCAct/Act502086201.json-->
+:::'''Sushang:''' Oh, it's you! I was just listening to the new story by Mr. Xiyan about the High-Cloud Quintet... It's different from the version I heard when I was little. He doesn't make up the extra details, does he?
+:::'''Sushang:''' By the way, how can I help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Even When Cheers Fade: Chapter 5|showChapter=0}} has been completed and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Did your team manage to get to challenge Yanqing in the end?
+::'''Sushang:''' Agh, don't even get me started... Thanks to little Gui, every time we got eliminated, the popularity votes come pouring in like there's no tomorrow!
+::'''Sushang:''' After coming back via repechage three times, the guys said I had to get in the ring and fight instead of sitting on the sidelines. So, I had no choice but to step up and join the fray.
+::'''Sushang:''' In the end, we came back four more times. We were completely worn out, but we couldn't bear to let Little Gui down, so we had to bite the bullet and keep pushing through...
+::'''Sushang:''' Luckily, that Argenti gentleman saw our troubles right away and didn't make us go through the wringer for the eighth time. What a great guy!
+::'''Sushang:''' Still, I have to thank our Little Gui. After this ordeal, my fighting skills have improved by leaps and bounds! Who knows, I might just end up defeating Yanqing and becoming the top sword master in the entire alliance!
+::<!--Ends the current performance-->
+;(If {{Mission|Even When Cheers Fade: Chapter 5|showChapter=0}} has not been completed and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Now that the crisis is over, are you still busy?
+::<!--Trigger PerformanceE 502086401: Config/Level/NPCDialogue/P10202/NPCAct/Act502086401.json-->
+::'''Sushang:''' Not at all. I've had quite a lot of free time lately.
+::'''Sushang:''' But I can't shake the feeling that I should be doing more. I mean, I'm not one to sit around, and given my background from the Yaoqing, I should've played a bigger role in the recent events.
+::'''Sushang:''' I must start gearing up for the next crisis now... Wait, scratch that! It'd be better if there were no more crises and everyone could just live in peace and comfort.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502086401-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The Aurum Alley has been through a lot...
+::<!--Trigger PerformanceE 502086501: Config/Level/NPCDialogue/P10202/NPCAct/Act502086501.json-->
+::'''Sushang:''' Indeed, it is a miracle! Although it's tiring, being a part of something like this gives me so much sense of achievement!
+::'''Sushang:''' I'm given such a warm reception every time I visit there. They see me as their hero!
+::'''Sushang:''' Ultimately, the people brought about the miracle with their own efforts, and we two were at best the driving force behind it. Let's not be arrogant or complacent!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502086501-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has been completed, {{Mission|Back in Business (IV)|showChapter=0}} has been completed, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'd like to chat with you...
+::<!--Custom String Trigger: Wait_Option_502086602_15-->
+::<!--Custom String Listener: Wait_Option_502086602_15-->
+::{{DIcon|Talk}} What have you been up to recently?
+:::<!--Custom String Listener: TalkSentence_502086612-->
+:::'''Sushang:''' Oh, the usual &mdash; duty shifts, listening to stories, and playing the hero!
+:::'''Sushang:''' Lately, Luofu's been so safe that I haven't had a single chance to play the hero. My trusty sword is gathering dust!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any good new stories worth checking out?
+:::<!--Custom String Listener: TalkSentence_502086615-->
+:::'''Sushang:''' Have you listened to ''Wrath of Merlin's Claw''? It's a new release by Mr. Xiyan, and it's absolutely thrilling! It tells the story of General Feixiao, the Merlin's Claw, whose strategic genius led her to defeat the borisin army three times...
+:::'''Sushang:''' Alas, I won't spoil it for you. Go check it out, and we can chat about the plot afterward!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's the ghost-hunting squad been doing?
+:::<!--Custom String Listener: TalkSentence_502086618-->
+:::'''Sushang:''' Things are going great! Little Gui's popularity is on the rise, and sometimes she's even getting invited by newspapers as a special expert on "supernatural phenomena." Now that's something to write home about!
+:::'''Sushang:''' And Huohuo's really getting gutsy these days. She's also becoming more skilled at the judge's work, like "shooting fish in a barrow." Honestly, I've never quite understood that phrase &mdash; what on earth is "fish in a barrow"?
+:::{{DIcon|Arrow}} You mean to say "shooting fish in a barrel"?
+::::<!--Custom String Listener: TalkSentence_502086621-->
+::::'''Sushang:''' Oh, come on, "barrow" and "barrel" are pretty much the same thing, just a hair's breadth apart... But seriously, why are fish even in a barrel to begin with? Don't they usually live in the waters?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Sushang, for your own good, you gotta hit the books a bit more!
+::::<!--Custom String Listener: TalkSentence_502086623-->
+::::'''Sushang:''' But the teachers at the lyceum warned me ages ago: "Sleepy Sushang, you're cut from a different cloth, so don't waste your time on the books."
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I better leave you alone then.
+:::<!--Custom String Listener: TalkSentence_502086625-->
+:::'''Sushang:''' Alright, go take care of your stuff. Next time you're free, let's get the ghost-hunting squad together for a proper catch-up.
+:::<!--Ends the current performance-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has not been completed, {{Mission|Back in Business (IV)|showChapter=0}} has been completed, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502086301: Config/Level/NPCDialogue/P10202/NPCAct/Act502086301.json-->
+::<!--Custom String Trigger: Wait_Option_502086301_829-->
+::<!--Custom String Listener: Wait_Option_502086301_829-->
+::{{DIcon|Talk}} Do you have any stories to recommend?
+:::<!--Custom String Listener: TalkSentence_502086305-->
+:::'''Sushang:''' ''The Cloud Knight Martyrs'', no doubt. I was so into it when I was little. Whenever the storyteller nearby started his session, I would sneak out of my house immediately to listen to him. My mom never failed to haul me back every time.
+:::'''Sushang:''' I was actually inspired by that story to join the Cloud Knights.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why is your sword so heavy?
+:::<!--Custom String Listener: TalkSentence_502086308-->
+:::'''Sushang:''' I'm not sure why, but it is a family heirloom, so I guess there's something special about it.
+:::'''Sushang:''' My mom always says, "Even if it's too heavy to lift, you still gotta try. Practicing swordplay can be as easy as practicing handwriting, you start with each small stroke." But if you ask me, practicing handwriting is so much harder...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You seem pretty smart to me. Do you really not do well in school?
+:::<!--Custom String Listener: TalkSentence_502086311-->
+:::'''Sushang:''' *sigh* If only the abecedaries in the lyceum had your eye for talons. They all said I wasn't cut out for any schoolwork. I only learned how to read a bit, thanks to the few textbooks at the lyceum.
+:::{{DIcon|Arrow}} You meant "eye for talent," right?
+::::<!--Custom String Listener: TalkSentence_502086313-->
+::::'''Sushang:''' What!? "Talon," "Talent"? They sound the same to me, though. Anyway, it's fine as long as you get what I mean &mdash; I was just trying to give you a compliment for your good taste.
+::::<!--Custom String Trigger: TalkSentence_502086315-->
+::::<!--Custom String Listener: TalkSentence_502086315-->
+::::'''Sushang:''' Did I use the wrong word again? Forget it. I won't remember it anyway. Just know it's a compliment for your good taste.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I think your abecedaries might just be right about you.
+::::<!--Custom String Listener: TalkSentence_502086315-->
+::::'''Sushang:''' Did I use the wrong word again? Forget it. I won't remember it anyway. Just know it's a compliment for your good taste.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Sounds like you are not a local here, are you?
+:::<!--Custom String Listener: TalkSentence_502086317-->
+:::'''Sushang:''' I grew up in the Yaoqing and have been a hometown girl all my life. This is the first time I've ventured far from home since I joined the Cloud Knights.
+:::'''Sushang:''' There are lots of Outworlders here on the Luofu. I've heard about one who likes to fumble around with the cans and bottles alike on the streets. And some time ago, I met a traveling merchant carrying a huge casket. Luofu sure is a welcoming place for visitors.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'd better leave you to it.
+:::<!--Custom String Listener: TalkSentence_502086320-->
+:::'''Sushang:''' No worries.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502086301-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has been completed, {{Mission|Back in Business (IV)|showChapter=0}} has been completed, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I better leave you alone then.
+::'''Sushang:''' Alright, go take care of your stuff. Next time you're free, let's get the ghost-hunting squad together for a proper catch-up.
+::<!--Ends the current performance-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has not been completed, {{Mission|Back in Business (IV)|showChapter=0}} has been completed, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I don't have any more questions.
+::'''Sushang:''' No worries.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502086321)
+:<!--Custom String Listener: TalkSentence_502086321-->
+::'''Sushang:''' No worries, as I enjoy helping people. If you have any questions or find yourself in trouble, just come to me.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sushang
+|zhs  = 素裳
+|zht  = 素裳
+|ja   = 素裳
+|ko   = 소상
+|es   = Sushang
+|fr   = Sushang
+|ru   = Сушан
+|th   = Sushang
+|vi   = Sushang
+|de   = Sushang
+|id   = Sushang
+|pt   = Sushang
+}}
+==Change History==
+{{Change History|TODO}}

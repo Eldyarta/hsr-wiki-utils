@@ -20,7 +20,7 @@ const lazyDlcAreas = {
 
 export const finishTypes: Partial<Record<FinishType, (data: InternalFinishWay) => string>> = {
 	FinishMission: data => {
-		const missionList = data.ParamIntList.map(mission => Mission.fromId(mission).link())
+		const missionList = data.ParamIntList.map(mission => Mission.fromId(mission)!.link())
 		return `after completing ${andList(missionList)}`
 	},
 	PlayerLevel: data => `after reaching Trailblaze Level ${data.Progress}`,

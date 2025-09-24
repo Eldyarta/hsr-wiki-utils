@@ -1,0 +1,156 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Phainon's Memory)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Phainon's Memory).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''(Phainon's Memory)''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_172_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504109002: Config/Level/Mission/5041090/Act/Act504109002.json-->
+:<!--Custom String Trigger: Wait_TimeLJ-->
+:<!--Custom String Listener: Wait_TimeLJ-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<!--0.5-second delay-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	}
+}</pre>
+:'''Galba:''' Phainon! Good timing. Have you seen Piso around?
+:<!--Custom String Trigger: Wait_Option_504109002_28-->
+:<!--Custom String Listener: Wait_Option_504109002_28-->
+:{{DIcon|Talk}} Did Piso tick you off again?
+::<!--Custom String Listener: TalkSentence_504109107-->
+::'''Galba:''' You bet! His teacher came knocking, said the little rascal's been skipping class lately.
+::'''Galba:''' I was about to have a real talk with him, but to my surprise, he vanished first thing this morning. Must've known what was coming and ran off early.
+::{{DIcon|Arrow}} He might be over by the granary...
+:::<!--Custom String Listener: TalkSentence_504109110-->
+:::'''Galba:''' Got it. I'll go drag him back in a bit. Thanks for the heads-up.
+:::<!--Custom String Trigger: TalkSentence_504109113-->
+:::<!--Custom String Listener: TalkSentence_504109113-->
+:::'''Galba:''' *sigh* That little scamp... If only he were half as easy to deal with as you...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I haven't seen him today.
+:::<!--Custom String Listener: TalkSentence_504109112-->
+:::'''Galba:''' No problem. I'll keep looking. Not heading into the woods today anyway... Hmph, he thinks he can outrun me?
+:::<!--Custom String Trigger: TalkSentence_504109113-->
+:::<!--Custom String Listener: TalkSentence_504109113-->
+:::'''Galba:''' *sigh* That little scamp... If only he were half as easy to deal with as you...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About the upcoming trip...
+::<!--Custom String Listener: TalkSentence_504109115-->
+::'''Galba:''' You guys set a date to head out yet? I caught some fat rabbits the other day, and they're all cured and ready. Make sure you swing by to grab them before you leave.
+::{{DIcon|Arrow}} I... I haven't made up my mind yet...
+:::<!--Custom String Listener: TalkSentence_504109117-->
+:::'''Galba:''' No worries. I get it. Take your time. No need to rush it.
+:::'''Galba:''' But if you had to ask... it's a big world out there. Worth seeing a bit of it. I've hunted all my life, but I bet the birds caught in my snares have seen more than I ever will.
+:::<!--Custom String Trigger: TalkSentence_504109121-->
+:::<!--Custom String Listener: TalkSentence_504109121-->
+:::'''Galba:''' If you ask me, I'd say young folks should go out there and see the world themselves. It's gotta be better than staying stuck here forever.
+:::'''Galba:''' And when you get tired, just come home. The smoke in the village always rises earlier than Aquila.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} It'll probably be soon.
+:::<!--Custom String Listener: TalkSentence_504109120-->
+:::'''Galba:''' Haha, alright. Once you've picked a day, let me know. I'll walk you to the ferry myself.
+:::<!--Custom String Trigger: TalkSentence_504109121-->
+:::<!--Custom String Listener: TalkSentence_504109121-->
+:::'''Galba:''' If you ask me, I'd say young folks should go out there and see the world themselves. It's gotta be better than staying stuck here forever.
+:::'''Galba:''' And when you get tired, just come home. The smoke in the village always rises earlier than Aquila.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'm heading off. See you later.
+::<!--Custom String Listener: TalkSentence_504109124-->
+::'''Galba:''' Go on then. I've got a certain brat to hunt down myself.
+:<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	},
+	"Hide": false
+}</pre>
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

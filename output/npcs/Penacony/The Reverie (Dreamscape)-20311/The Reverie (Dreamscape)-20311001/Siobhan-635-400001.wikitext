@@ -1,0 +1,154 @@
+<%-- [PAGE_INFO]
+PageTitle=#Siobhan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Siobhan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Siobhan''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_635_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 503049001: Config/Level/Mission/5030490/Act/Act503049001.json-->
+:'''Siobhan:''' What do you want to talk about? I'm willing to open up to you, even if I don't have a custom drink in my hand.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to know more about you.
+::'''Siobhan:''' This lounge is the perfect place for a chat. What do you want to know?
+::<!--Custom String Trigger: Wait_Option_503049002_19-->
+::<!--Custom String Listener: Wait_Option_503049002_19-->
+::{{DIcon|Talk}} ...About your past.
+:::<!--Custom String Listener: TalkSentence_503049013-->
+:::'''Siobhan:''' I knew that was where you were going. The situation was critical back then, and I didn't have time to explain properly. I don't often talk to people about this, either.
+:::'''Siobhan:''' ...It all happened a long time ago.
+:::'''Siobhan:''' My parents were the kind of Family members you'd see all the time. Young, impulsive, conceited, and ambitious to a fault. They believed that the Dreamscape was full of wealth and would give anything to claw themselves up to a higher position.
+:::'''Siobhan:''' Clearly, they failed. Just before the day they went bankrupt, they secretly left the planet and placed me, a newborn baby, in the Dreampool. A servant of the Iris Family found me and handed me over to the current family head - Ms. Maeven.
+:::{{DIcon|Arrow}} Have you met them before?
+::::<!--Custom String Listener: TalkSentence_503049018-->
+::::'''Siobhan:''' No. I only discovered this once I was older using Family connections.
+::::<!--Custom String Trigger: TalkSentence_503049022-->
+::::<!--Custom String Listener: TalkSentence_503049022-->
+::::'''Siobhan:''' They didn't leave me any clues to find them, and I have never gone in search of them.
+::::'''Siobhan:''' Just like that, I became a part of the Iris Family, what happened after that is a whole other story.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Do you hate them?
+::::<!--Custom String Listener: TalkSentence_503049020-->
+::::'''Siobhan:''' Hmm... Why would I hate two people that I have no recollection of?
+::::'''Siobhan:''' Everything I just told you... I only managed to discover once I was older using Family connections.
+::::<!--Custom String Trigger: TalkSentence_503049022-->
+::::<!--Custom String Listener: TalkSentence_503049022-->
+::::'''Siobhan:''' They didn't leave me any clues to find them, and I have never gone in search of them.
+::::'''Siobhan:''' Just like that, I became a part of the Iris Family, what happened after that is a whole other story.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ...About the Iris Family.
+:::<!--Custom String Listener: TalkSentence_503049025-->
+:::'''Siobhan:''' Maeven, the Iris Family Head, is obsessed with the stage. She believes that a passionate atmosphere can break down all barriers between people. So, after she took me in, she focused on raising me as a future acting superstar.
+:::'''Siobhan:''' I did not disappoint her and managed to achieve a lot of success in this field. I met Amiky back then, too. She was my junior and also a child who shouldered a lot of expectations due to her outstanding acting talents.
+:::'''Siobhan:''' However, I quickly grew tired of this life. The flowers and applause only gave me a deep sense of fatigue. Living a life on the stage is all too illusory, and that's not the real me.
+:::'''Siobhan:''' ...Perhaps, I was searching for something.
+:::{{DIcon|Arrow}} Did you find it?
+::::<!--Custom String Listener: TalkSentence_503049030-->
+::::'''Siobhan:''' Maybe, I'm not even sure myself. Who knows? But I like the life I have now.
+::::<!--Custom String Trigger: TalkSentence_503049033-->
+::::<!--Custom String Listener: TalkSentence_503049033-->
+::::'''Siobhan:''' After that, I had a huge argument with Maeven and left the Iris Family. Then, I came and opened this lounge by myself.
+::::'''Siobhan:''' And you know the rest from there. Life as a drinksmith is monotonous but rich. It is worth savoring.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} We are all searching for something.
+::::<!--Custom String Listener: TalkSentence_503049032-->
+::::'''Siobhan:''' Then we are all losing something else at the same time. Hahaha, these quips are no fun to be constantly mentioning.
+::::<!--Custom String Trigger: TalkSentence_503049033-->
+::::<!--Custom String Listener: TalkSentence_503049033-->
+::::'''Siobhan:''' After that, I had a huge argument with Maeven and left the Iris Family. Then, I came and opened this lounge by myself.
+::::'''Siobhan:''' And you know the rest from there. Life as a drinksmith is monotonous but rich. It is worth savoring.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ...About you and Amiky.
+:::<!--Custom String Listener: TalkSentence_503049036-->
+:::'''Siobhan:''' I never said it outright because I was worried about upsetting the monsters.
+:::'''Siobhan:''' But, I never expected that the Bloodhound Family would have arrived so quickly. Even more unexpected was the fact that you happened to overhear me and Amiky talking when you came to Golden Hour to search for me. Life really is full of surprises, isn't it?
+:::{{DIcon|Arrow}} Do you plan on returning to the Iris Family?
+::::<!--Custom String Listener: TalkSentence_503049039-->
+::::'''Siobhan:''' I don't. But Amiky was right, I cannot save this lounge with ideals alone. If it weren't for my relationship with Maeven, I fear that the monsters would have all been cleared out long ago.
+::::'''Siobhan:''' Dealing with The Family is always troublesome, I'll need to think more about this in the future.
+::::<!--Custom String Trigger: TalkSentence_503049043-->
+::::<!--Custom String Listener: TalkSentence_503049043-->
+::::'''Siobhan:''' {{Color|keyword|nobold=1|Mixing drinks... is like the art of conversation.}} I feel like I'm coming to understand this more and more.
+::::'''Siobhan:''' Communication is the foundation of trust. If you keep things in your heart and don't say them out loud, then you cannot blame other people when they misunderstand you, can you?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} How do you deal with Amiky?
+::::<!--Custom String Listener: TalkSentence_503049042-->
+::::'''Siobhan:''' Amiky isn't the rude and unreasonable girl that you think. She's actually very gentle, she just needs a few words of comfort and she calms down.
+::::<!--Custom String Trigger: TalkSentence_503049043-->
+::::<!--Custom String Listener: TalkSentence_503049043-->
+::::'''Siobhan:''' {{Color|keyword|nobold=1|Mixing drinks... is like the art of conversation.}} I feel like I'm coming to understand this more and more.
+::::'''Siobhan:''' Communication is the foundation of trust. If you keep things in your heart and don't say them out loud, then you cannot blame other people when they misunderstand you, can you?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ...About the future.
+:::<!--Custom String Listener: TalkSentence_503049046-->
+:::'''Siobhan:''' Thanks to you, we managed to hold onto the Dreamjolt Hostelry, but this is not a long-term fix.
+:::'''Siobhan:''' In the future... I hope more people will learn to accept monsters and allow them to enter society. The hotel in the dreamscape is just too small, they long to see the big, wide world.
+:::'''Siobhan:''' Haha, maybe it's a little too idealistic to be saying things like that for now. We'll take it slowly, step by step.
+:::'''Siobhan:''' We have plenty of time ahead of us, after all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'm just stopping by to say hi.
+::'''Siobhan:''' If you're not busy, why not take a stroll around the lounge? Make sure you talk with the monsters, too! They've missed you so much!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Siobhan
+|zhs  = 舒翁
+|zht  = 舒翁
+|ja   = シヴォーン
+|ko   = 시오반
+|es   = Siobhan
+|fr   = Siobhan
+|ru   = Шивон
+|th   = Siobhan
+|vi   = Siobhan
+|de   = Siobhan
+|id   = Siobhan
+|pt   = Siobhan
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,476 @@
+<%-- [PAGE_INFO]
+PageTitle=#Peak#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lazy Miner
+|image           = NPC Peak.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Great Mine
+|relatives       = 
+}}
+'''Peak''' is an NPC on [[Jarilo-VI]], located in [[Great Mine]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Great Mine|npc_93_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301101406,
+		"Type": "submission_state_equal",
+		"Param1": 301101406,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301101406: Config/Level/Mission/3011014/Act/Act301101406.json-->
+----
+:<!--Custom String Trigger: 404001406_blk-->
+:<!--Custom String Listener: 404001406_blk-->
+:'''Peak:''' *snore*
+:'''Julian:''' Hey, Wake up! Peak, wake up!
+:'''Peak:''' *snore*
+:'''Julian:''' Oh, he's sound asleep! If I were him, I definitely can't sleep on such a hard floor...
+:{{DIcon|Arrow}} You want me to kick him up?
+::<!--Custom String Listener: TalkSentence_301101536-->
+::'''Julian:''' ...No, no! He must have been tired from mining and needs a good rest.
+:{{DIcon|Arrow}} You should raise your voice.
+::<!--Custom String Listener: TalkSentence_301101538-->
+::'''Julian:''' ...Never mind! He must have been tired from mining and needs a good rest.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301101406-->
+:<!--Custom String Trigger: Wait_Option_5010280_32-->
+:<!--Custom String Listener: Wait_Option_5010280_32-->
+:{{DIcon|Talk}} How can you live on such a small amount of money?
+::<!--Custom String Listener: TalkSentence_501028020-->
+::'''Peak:''' My expenses are low. One person eats and the whole family is fed. Hehe. If you have one meal a day like me, you could also save a lot on food.
+::'''Peak:''' Don't get me wrong. My goal isn't to save money... It's just that I sleep most of the day and I don't do much work, so my energy consumption is naturally low.
+::'''Peak:''' I don't have much desires for shopping. I'm happy with what I have. The clothes I'm wearing are old. As for other kinds of worldly possessions... I don't need any of them!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Why are you so lazy?
+::<!--Custom String Listener: TalkSentence_501028024-->
+::'''Peak:''' ... Lazy? No, I'm not lazy! It's just my way of life! It's not like I don't do anything at all. I simply do the minimum amount, but I do my work on time...
+::'''Peak:''' If you ask me, mining is not worth the effort and energy. Digging every day can trap the mind...
+::'''Peak:''' My way of breaking the cycle is to... sleep! I stay clear of the world's disturbances through this low-cost act and I regularly reflect on my life...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Aren't you worried about what people say?
+::<!--Custom String Listener: TalkSentence_501028028-->
+::'''Peak:''' People aren't saying anything. I get along well with everyone.
+::'''Peak:''' They all know how I am and over time they have become used to my lifestyle... After all, I'm not in anyone's way, am I?
+::'''Peak:''' Besides, no one has the time to obsess about other people's business nowadays... People are lucky just to be able to take care of themselves.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What will you do when you're old?
+::<!--Custom String Listener: TalkSentence_501028032-->
+::'''Peak:''' That's far in the future. Why think about it now...? Don't worry so much. I won't starve to death!
+::'''Peak:''' Look at those hard-working miners. They are soaked in sweat all day long, and what do they get? They miss out on life when they're young and when they're old, they are sick and in pain...
+::'''Peak:''' You should focus on them instead of worrying about me. In my opinion, they are the poor ones...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:{{A|VO vo ambient w1 greeting peak 101.ogg}} {{A|VO vo ambient w1 greeting peak 102.ogg}} '''Peak:''' *snore*
+:'''Peak:''' *Snore*... Ah! I was having a really nice dream... Huh, it's you again?
+:'''Peak:''' Wait a minute. Why are you looking at me like that...? Was I drooling in my sleep or do you have something to ask me?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Peak:''' If you ask me, humans should just abandon those unrealistic desires and return to nature... return to the underground...
+:'''Peak:''' Okay, I'm going back to sleep... *snore*...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028001: Config/Level/Mission/5010280/Act/Act501028001.json-->
+::<!--Custom String Trigger: TalkSentence_501028001-->
+::<!--Custom String Listener: TalkSentence_501028001-->
+::'''Peak:''' *snore*
+::<!--Custom String Trigger: Wait_Option_5010280_8-->
+::<!--Custom String Listener: Wait_Option_5010280_8-->
+::{{DIcon|Arrow}} It's time to wake up!
+:::<!--Custom String Listener: TalkSentence_501028003-->
+:::'''Peak:''' *snore* ...Hmm? Who is it?
+:::'''Peak:''' Oh... Ooh! We meet again! It seems we have a connection.
+::{{DIcon|Arrow}} Don't you have to work?
+:::<!--Custom String Listener: TalkSentence_501028006-->
+:::'''Peak:''' Work is just a small part of my life.
+:::'''Peak:''' My philosophy is to work for one day and relax for three.
+::<!--Custom String Trigger: TalkSentence_501028008-->
+::<!--Custom String Listener: TalkSentence_501028008-->
+::'''Peak:''' *rumble*...
+::'''Peak:''' Hehe, time to get up for breakfast. I've been sleeping all day.
+::<!--Custom String Trigger: Wait_Option_5010280_19-->
+::<!--Custom String Listener: Wait_Option_5010280_19-->
+::{{DIcon|Arrow}} Breakfast?
+:::<!--Custom String Listener: TalkSentence_501028012-->
+:::'''Peak:''' Mm-hmm. I usually just have one meal per day. Isn't the first meal of the day called "breakfast"?
+::{{DIcon|Arrow}} You haven't eaten all day?
+:::<!--Custom String Listener: TalkSentence_501028014-->
+:::'''Peak:''' It's only been one day, which is pretty normal. It's really no big deal...
+:::'''Peak:''' My record is fasting for three days, so this is nothing.
+::<!--Custom String Trigger: TalkSentence_501028016-->
+::<!--Custom String Listener: TalkSentence_501028016-->
+::'''Peak:''' It's not like I might die. Look, I'm alive and doing just fine. Hehe... And don't look at me with all that pity. It's nothing.
+::'''Peak:''' By the way... Why did you wake me up again?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501028002: Config/Level/Mission/5010280/Act/Act501028002.json-->
+::'''Peak:''' *snore*
+::'''Peak:''' *Snore*... Ah! I was having a really nice dream... Huh, it's you again?
+::'''Peak:''' Wait a minute. Why are you looking at me like that...? Was I drooling in my sleep or do you have something to ask me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301101406-->)
+:{{DIcon|undefined}} Here's a package for you.
+::<!--Trigger PerformanceE 301101406: Config/Level/Mission/3011014/Act/Act301101406.json-->
+::----
+::<!--Custom String Trigger: 404001406_blk-->
+::<!--Custom String Listener: 404001406_blk-->
+::'''Peak:''' *snore*
+::'''Julian:''' Hey, Wake up! Peak, wake up!
+::'''Peak:''' *snore*
+::'''Julian:''' Oh, he's sound asleep! If I were him, I definitely can't sleep on such a hard floor...
+::{{DIcon|Arrow}} You want me to kick him up?
+:::<!--Custom String Listener: TalkSentence_301101536-->
+:::'''Julian:''' ...No, no! He must have been tired from mining and needs a good rest.
+::{{DIcon|Arrow}} You should raise your voice.
+:::<!--Custom String Listener: TalkSentence_301101538-->
+:::'''Julian:''' ...Never mind! He must have been tired from mining and needs a good rest.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301101406-->
+;(If {{cx}}<!--SubMission Finish: 201050302--> and {{cx}}<!--SubMission Started: 301101406-->)
+:{{DIcon}} What business secrets did Sampo say to you?
+::<!--Trigger PerformanceE 501028006: Config/Level/Mission/5010280/Act/Act501028006.json-->
+::'''Peak:''' Nothing really. We were just talking about how much I could get if I rented my mining tools out.
+::{{DIcon|Arrow}} I thought you talked about something important.
+:::<!--Custom String Listener: TalkSentence_501028057-->
+:::'''Peak:''' It isn't important, but it's good.
+::{{DIcon|Arrow}} You're revealing your secret like that?
+:::<!--Custom String Listener: TalkSentence_501028059-->
+:::'''Peak:''' What's the big deal? Sampo didn't say to keep it a secret.
+:::'''Peak:''' Such a good thing is hard to come by, and I really want to share it with you.
+::<!--Custom String Trigger: Wait_Option_501029415_17-->
+::<!--Custom String Listener: Wait_Option_501029415_17-->
+::{{DIcon|Arrow}} Why is it good?
+::<!--Custom String Listener: TalkSentence_501028062-->
+::'''Peak:''' Well, I actually thought this up when I was half asleep.
+::'''Peak:''' Think about this &mdash; I usually work one day and rest for the next three days, since I can earn enough in a day to support my expenses for the next three days.
+::'''Peak:''' But now it's different. If someone rents my mining tools, I can earn money during the time I don't work! It means...
+::{{DIcon|Arrow}} It means you can make more money!
+:::<!--Custom String Listener: TalkSentence_501028066-->
+:::'''Peak:''' Yes, but making more money isn't the main point...
+::{{DIcon|Arrow}} It means you don't have to work anymore!
+:::<!--Custom String Listener: TalkSentence_501028068-->
+:::'''Peak:''' Hah, your mind's just as quick as Sampo's.
+::<!--Custom String Trigger: TalkSentence_501028069-->
+::<!--Custom String Listener: TalkSentence_501028069-->
+::'''Peak:''' Anyway, based off my calculations, if I don't go to work myself, I can cut my daily expenses in half too... If all I need to do is to rent out my tools, why would I even need to work at the mine?
+::'''Peak:''' All in all, wouldn't that mean someone else is doing the work for me, but I'm still earning money? Tsk tsk, the mere thought of it makes me happy...
+::{{DIcon|Arrow}} Here's to your success.
+:::<!--Custom String Listener: TalkSentence_501028072-->
+:::'''Peak:''' Ha, I'm counting on it.
+:::'''Peak:''' *yawn*...I'm getting sleepy again. We'll stop here today. I want to take a nap...
+::{{DIcon|Arrow}} That sounded exactly like a supervisor...
+:::<!--Custom String Listener: TalkSentence_501028075-->
+:::'''Peak:''' Ooh... You're right.
+:::'''Peak:''' *yawn*... Looks like the problem's become complicated, and it's gotten me all sleepy. Let's talk another time. I'm taking a nap...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028006-->
+:{{DIcon}} I'm curious...
+::<!--Trigger PerformanceE 501028003: Config/Level/Mission/5010280/Act/Act501028003.json-->
+::<!--Custom String Trigger: Wait_Option_5010280_32-->
+::<!--Custom String Listener: Wait_Option_5010280_32-->
+::{{DIcon|Talk}} How can you live on such a small amount of money?
+:::<!--Custom String Listener: TalkSentence_501028020-->
+:::'''Peak:''' My expenses are low. One person eats and the whole family is fed. Hehe. If you have one meal a day like me, you could also save a lot on food.
+:::'''Peak:''' Don't get me wrong. My goal isn't to save money... It's just that I sleep most of the day and I don't do much work, so my energy consumption is naturally low.
+:::'''Peak:''' I don't have much desires for shopping. I'm happy with what I have. The clothes I'm wearing are old. As for other kinds of worldly possessions... I don't need any of them!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you so lazy?
+:::<!--Custom String Listener: TalkSentence_501028024-->
+:::'''Peak:''' ... Lazy? No, I'm not lazy! It's just my way of life! It's not like I don't do anything at all. I simply do the minimum amount, but I do my work on time...
+:::'''Peak:''' If you ask me, mining is not worth the effort and energy. Digging every day can trap the mind...
+:::'''Peak:''' My way of breaking the cycle is to... sleep! I stay clear of the world's disturbances through this low-cost act and I regularly reflect on my life...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Aren't you worried about what people say?
+:::<!--Custom String Listener: TalkSentence_501028028-->
+:::'''Peak:''' People aren't saying anything. I get along well with everyone.
+:::'''Peak:''' They all know how I am and over time they have become used to my lifestyle... After all, I'm not in anyone's way, am I?
+:::'''Peak:''' Besides, no one has the time to obsess about other people's business nowadays... People are lucky just to be able to take care of themselves.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What will you do when you're old?
+:::<!--Custom String Listener: TalkSentence_501028032-->
+:::'''Peak:''' That's far in the future. Why think about it now...? Don't worry so much. I won't starve to death!
+:::'''Peak:''' Look at those hard-working miners. They are soaked in sweat all day long, and what do they get? They miss out on life when they're young and when they're old, they are sick and in pain...
+:::'''Peak:''' You should focus on them instead of worrying about me. In my opinion, they are the poor ones...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028003-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501028005: Config/Level/Mission/5010280/Act/Act501028005.json-->
+::'''Peak:''' Nothing special recently...
+::'''Peak:''' If you must know, my sleep quality seems to have improved again...
+::{{DIcon|Arrow}} Wow, that's great.
+:::<!--Custom String Listener: TalkSentence_501028046-->
+:::'''Peak:''' Yep... But I have no idea why... Do you think it's because the temperature got colder lately?
+::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501028048-->
+:::'''Peak:''' Why? I have no idea... Do you think it's because the temperature has got colder lately?
+::<!--Custom String Trigger: Wait_Option_501029415_17-->
+::<!--Custom String Listener: Wait_Option_501029415_17-->
+::<!--Custom String Listener: Wait_Option_501029415_17-->
+::{{DIcon|Arrow}} I guess so.
+::{{DIcon|Arrow}} I don't think so.
+::{{DIcon|Arrow}} The temperature can change here?
+:::<!--Custom String Listener: TalkSentence_501028052-->
+:::'''Peak:''' There are actually subtle changes every day. Others might not notice it, but the changes can affect the quality of my sleep.
+:::<!--Custom String Trigger: TalkSentence_501028053-->
+::<!--Custom String Listener: TalkSentence_501028053-->
+::'''Peak:''' Anyway, the heating pipes are not as hot as they used to be. But I feel better with the cooler temperature...
+::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Why is it good?
+::<!--Custom String Listener: TalkSentence_501028062-->
+::'''Peak:''' Well, I actually thought this up when I was half asleep.
+::'''Peak:''' Think about this &mdash; I usually work one day and rest for the next three days, since I can earn enough in a day to support my expenses for the next three days.
+::'''Peak:''' But now it's different. If someone rents my mining tools, I can earn money during the time I don't work! It means...
+::{{DIcon|Arrow}} It means you can make more money!
+:::<!--Custom String Listener: TalkSentence_501028066-->
+:::'''Peak:''' Yes, but making more money isn't the main point...
+::{{DIcon|Arrow}} It means you don't have to work anymore!
+:::<!--Custom String Listener: TalkSentence_501028068-->
+:::'''Peak:''' Hah, your mind's just as quick as Sampo's.
+::<!--Custom String Trigger: TalkSentence_501028069-->
+::<!--Custom String Listener: TalkSentence_501028069-->
+::'''Peak:''' Anyway, based off my calculations, if I don't go to work myself, I can cut my daily expenses in half too... If all I need to do is to rent out my tools, why would I even need to work at the mine?
+::'''Peak:''' All in all, wouldn't that mean someone else is doing the work for me, but I'm still earning money? Tsk tsk, the mere thought of it makes me happy...
+::{{DIcon|Arrow}} Here's to your success.
+:::<!--Custom String Listener: TalkSentence_501028072-->
+:::'''Peak:''' Ha, I'm counting on it.
+:::'''Peak:''' *yawn*...I'm getting sleepy again. We'll stop here today. I want to take a nap...
+::{{DIcon|Arrow}} That sounded exactly like a supervisor...
+:::<!--Custom String Listener: TalkSentence_501028075-->
+:::'''Peak:''' Ooh... You're right.
+:::'''Peak:''' *yawn*... Looks like the problem's become complicated, and it's gotten me all sleepy. Let's talk another time. I'm taking a nap...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028005-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Nothing. I will leave you alone.
+::<!--Trigger PerformanceE 501028004: Config/Level/Mission/5010280/Act/Act501028004.json-->
+::'''Peak:''' If you ask me, humans should just abandon those unrealistic desires and return to nature... return to the underground...
+::'''Peak:''' Okay, I'm going back to sleep... *snore*...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028004-->
+;(Unused &mdash; Wait_Option_5010280_29)
+:<!--Custom String Listener: Wait_Option_5010280_29-->
+::{{DIcon|Arrow}} I'm curious...
+::<!--Custom String Listener: Wait_Option_5010280_32-->
+::{{DIcon|Talk}} How can you live on such a small amount of money?
+:::<!--Custom String Listener: TalkSentence_501028020-->
+:::'''Peak:''' My expenses are low. One person eats and the whole family is fed. Hehe. If you have one meal a day like me, you could also save a lot on food.
+:::'''Peak:''' Don't get me wrong. My goal isn't to save money... It's just that I sleep most of the day and I don't do much work, so my energy consumption is naturally low.
+:::'''Peak:''' I don't have much desires for shopping. I'm happy with what I have. The clothes I'm wearing are old. As for other kinds of worldly possessions... I don't need any of them!
+:::<!--Custom String Trigger: Wait_Option_5010280_32-->
+:::<!--Custom String Listener: Wait_Option_5010280_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why are you so lazy?
+::::<!--Custom String Listener: TalkSentence_501028024-->
+::::'''Peak:''' ... Lazy? No, I'm not lazy! It's just my way of life! It's not like I don't do anything at all. I simply do the minimum amount, but I do my work on time...
+::::'''Peak:''' If you ask me, mining is not worth the effort and energy. Digging every day can trap the mind...
+::::'''Peak:''' My way of breaking the cycle is to... sleep! I stay clear of the world's disturbances through this low-cost act and I regularly reflect on my life...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Aren't you worried about what people say?
+::::<!--Custom String Listener: TalkSentence_501028028-->
+::::'''Peak:''' People aren't saying anything. I get along well with everyone.
+::::'''Peak:''' They all know how I am and over time they have become used to my lifestyle... After all, I'm not in anyone's way, am I?
+::::'''Peak:''' Besides, no one has the time to obsess about other people's business nowadays... People are lucky just to be able to take care of themselves.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What will you do when you're old?
+::::<!--Custom String Listener: TalkSentence_501028032-->
+::::'''Peak:''' That's far in the future. Why think about it now...? Don't worry so much. I won't starve to death!
+::::'''Peak:''' Look at those hard-working miners. They are soaked in sweat all day long, and what do they get? They miss out on life when they're young and when they're old, they are sick and in pain...
+::::'''Peak:''' You should focus on them instead of worrying about me. In my opinion, they are the poor ones...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why are you so lazy?
+:::<!--Custom String Listener: TalkSentence_501028024-->
+:::'''Peak:''' ... Lazy? No, I'm not lazy! It's just my way of life! It's not like I don't do anything at all. I simply do the minimum amount, but I do my work on time...
+:::'''Peak:''' If you ask me, mining is not worth the effort and energy. Digging every day can trap the mind...
+:::'''Peak:''' My way of breaking the cycle is to... sleep! I stay clear of the world's disturbances through this low-cost act and I regularly reflect on my life...
+:::<!--Custom String Trigger: Wait_Option_5010280_32-->
+:::<!--Custom String Listener: Wait_Option_5010280_32-->
+:::{{DIcon|Talk}} How can you live on such a small amount of money?
+::::<!--Custom String Listener: TalkSentence_501028020-->
+::::'''Peak:''' My expenses are low. One person eats and the whole family is fed. Hehe. If you have one meal a day like me, you could also save a lot on food.
+::::'''Peak:''' Don't get me wrong. My goal isn't to save money... It's just that I sleep most of the day and I don't do much work, so my energy consumption is naturally low.
+::::'''Peak:''' I don't have much desires for shopping. I'm happy with what I have. The clothes I'm wearing are old. As for other kinds of worldly possessions... I don't need any of them!
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Aren't you worried about what people say?
+::::<!--Custom String Listener: TalkSentence_501028028-->
+::::'''Peak:''' People aren't saying anything. I get along well with everyone.
+::::'''Peak:''' They all know how I am and over time they have become used to my lifestyle... After all, I'm not in anyone's way, am I?
+::::'''Peak:''' Besides, no one has the time to obsess about other people's business nowadays... People are lucky just to be able to take care of themselves.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What will you do when you're old?
+::::<!--Custom String Listener: TalkSentence_501028032-->
+::::'''Peak:''' That's far in the future. Why think about it now...? Don't worry so much. I won't starve to death!
+::::'''Peak:''' Look at those hard-working miners. They are soaked in sweat all day long, and what do they get? They miss out on life when they're young and when they're old, they are sick and in pain...
+::::'''Peak:''' You should focus on them instead of worrying about me. In my opinion, they are the poor ones...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Aren't you worried about what people say?
+:::<!--Custom String Listener: TalkSentence_501028028-->
+:::'''Peak:''' People aren't saying anything. I get along well with everyone.
+:::'''Peak:''' They all know how I am and over time they have become used to my lifestyle... After all, I'm not in anyone's way, am I?
+:::'''Peak:''' Besides, no one has the time to obsess about other people's business nowadays... People are lucky just to be able to take care of themselves.
+:::<!--Custom String Trigger: Wait_Option_5010280_32-->
+:::<!--Custom String Listener: Wait_Option_5010280_32-->
+:::{{DIcon|Talk}} How can you live on such a small amount of money?
+::::<!--Custom String Listener: TalkSentence_501028020-->
+::::'''Peak:''' My expenses are low. One person eats and the whole family is fed. Hehe. If you have one meal a day like me, you could also save a lot on food.
+::::'''Peak:''' Don't get me wrong. My goal isn't to save money... It's just that I sleep most of the day and I don't do much work, so my energy consumption is naturally low.
+::::'''Peak:''' I don't have much desires for shopping. I'm happy with what I have. The clothes I'm wearing are old. As for other kinds of worldly possessions... I don't need any of them!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why are you so lazy?
+::::<!--Custom String Listener: TalkSentence_501028024-->
+::::'''Peak:''' ... Lazy? No, I'm not lazy! It's just my way of life! It's not like I don't do anything at all. I simply do the minimum amount, but I do my work on time...
+::::'''Peak:''' If you ask me, mining is not worth the effort and energy. Digging every day can trap the mind...
+::::'''Peak:''' My way of breaking the cycle is to... sleep! I stay clear of the world's disturbances through this low-cost act and I regularly reflect on my life...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What will you do when you're old?
+::::<!--Custom String Listener: TalkSentence_501028032-->
+::::'''Peak:''' That's far in the future. Why think about it now...? Don't worry so much. I won't starve to death!
+::::'''Peak:''' Look at those hard-working miners. They are soaked in sweat all day long, and what do they get? They miss out on life when they're young and when they're old, they are sick and in pain...
+::::'''Peak:''' You should focus on them instead of worrying about me. In my opinion, they are the poor ones...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What will you do when you're old?
+:::<!--Custom String Listener: TalkSentence_501028032-->
+:::'''Peak:''' That's far in the future. Why think about it now...? Don't worry so much. I won't starve to death!
+:::'''Peak:''' Look at those hard-working miners. They are soaked in sweat all day long, and what do they get? They miss out on life when they're young and when they're old, they are sick and in pain...
+:::'''Peak:''' You should focus on them instead of worrying about me. In my opinion, they are the poor ones...
+:::<!--Custom String Trigger: Wait_Option_5010280_32-->
+:::<!--Custom String Listener: Wait_Option_5010280_32-->
+:::{{DIcon|Talk}} How can you live on such a small amount of money?
+::::<!--Custom String Listener: TalkSentence_501028020-->
+::::'''Peak:''' My expenses are low. One person eats and the whole family is fed. Hehe. If you have one meal a day like me, you could also save a lot on food.
+::::'''Peak:''' Don't get me wrong. My goal isn't to save money... It's just that I sleep most of the day and I don't do much work, so my energy consumption is naturally low.
+::::'''Peak:''' I don't have much desires for shopping. I'm happy with what I have. The clothes I'm wearing are old. As for other kinds of worldly possessions... I don't need any of them!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why are you so lazy?
+::::<!--Custom String Listener: TalkSentence_501028024-->
+::::'''Peak:''' ... Lazy? No, I'm not lazy! It's just my way of life! It's not like I don't do anything at all. I simply do the minimum amount, but I do my work on time...
+::::'''Peak:''' If you ask me, mining is not worth the effort and energy. Digging every day can trap the mind...
+::::'''Peak:''' My way of breaking the cycle is to... sleep! I stay clear of the world's disturbances through this low-cost act and I regularly reflect on my life...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Aren't you worried about what people say?
+::::<!--Custom String Listener: TalkSentence_501028028-->
+::::'''Peak:''' People aren't saying anything. I get along well with everyone.
+::::'''Peak:''' They all know how I am and over time they have become used to my lifestyle... After all, I'm not in anyone's way, am I?
+::::'''Peak:''' Besides, no one has the time to obsess about other people's business nowadays... People are lucky just to be able to take care of themselves.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::'''Julian:''' Let's leave his package next to him. Oh right, don't forget to put The Moles' name on it!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

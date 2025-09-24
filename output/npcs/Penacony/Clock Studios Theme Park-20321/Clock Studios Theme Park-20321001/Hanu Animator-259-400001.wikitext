@@ -1,0 +1,208 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hanu Animator#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Hanu Animator.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''Hanu Animator''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_259_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--Hidden Mission ID 8022111--> has been started)
+::<!--Trigger PerformanceE 802211102: Config/Level/Mission/8022111/Act/Act802211102.json-->
+::'''Hanu Animator:''' ...Hmph.
+::{{DIcon|Arrow}} Pisce asked me to find you and make the extra stories.
+::<!--Custom String Listener: TalkSentence_802215703-->
+::'''Hanu Animator:''' Hmph!? I'm not ready yet...
+::'''Hanu Animator:''' ...
+::'''Hanu Animator:''' Hmph...
+::{{DIcon|Arrow}} Drop the act already.
+::{{DIcon|Arrow}} Hmph.
+::<!--Custom String Listener: TalkSentence_802215708-->
+::'''Hanu Animator:''' ...Hmph, quit it.
+::'''Hanu Animator:''' Director, it's not that I look down on this job, it's just that there are a few things about the Brother Hanu story that still bug me. Tell me, what kind of person is Brother Hanu exactly?
+::'''Hanu Animator:''' Hmph, even people who know nothing about history should still have heard of who Brother Hanu was modeled after &mdash; {{Rubi|Hanunue|Rebel}}, the one who liberated Penacony.
+::'''Hanu Animator:''' He was the one who broke the IPC's hold over the prison and named it "Penacony"... Yet Penacony has never seemed to thank this hero, and I don't recall ever seeing his statue or hearing his theme song in the dreams.
+::{{DIcon|Arrow}} Maybe he never existed.
+:::<!--Custom String Listener: TalkSentence_802215713-->
+:::'''Hanu Animator:''' Well, I don't know... Everyday people don't care about Penacony's past, except for directors and artists constantly mining everything for new material. Maybe the name is actually just a fictional one borrowed from some movie.
+::{{DIcon|Arrow}} Maybe someone out there's hiding his story?
+:::<!--Custom String Listener: TalkSentence_802215715-->
+:::'''Hanu Animator:''' Hmph, it's more than likely &mdash; the mighty liberation of Penacony was carried out by a lowly crook... If they couldn't steal his thunder, you can bet The Family would want his name struck from the Dreamscapes.
+::{{DIcon|Arrow}} Hmph.
+:::<!--Custom String Listener: TalkSentence_802215717-->
+:::'''Hanu Animator:''' Hey, don't make fun of me. That ain't cool!
+::<!--Custom String Trigger: TalkSentence_802215718-->
+::<!--Custom String Listener: TalkSentence_802215718-->
+::'''Hanu Animator:''' But if you want to tell a tale about Brother Hanu, you'll have to understand a little more about this mysterious character.
+::'''Hanu Animator:''' I spent a long time gathering up info to find out what kind of person Hanunue actually was, but I somehow turned up three different stories!
+::{{DIcon|Arrow}} What were they?
+::<!--Custom String Listener: TalkSentence_802215721-->
+::'''Hanu Animator:''' The first story I found was from a Penacony Grand Museum, where an information board claimed Hanunue was a {{Color|keyword|nobold=1|merciless criminal}} who had committed a flurry of serious felonies.
+::'''Hanu Animator:''' He waged war in the Montour System prior to his imprisonment that cost millions of innocent lives, and despite freeing Penacony using brutal means, it was those same brutal means that turned Penacony into a nightmare.
+::'''Hanu Animator:''' The executed corpses piled up high as mountains under his cruel regime, with war and disaster ravaging the world... Lots of material in the museum recounted horrors of the time, and there's probably no reason for The Family to have faked any of that.
+::{{DIcon|Arrow}} What was the second one?
+::<!--Custom String Listener: TalkSentence_802215725-->
+::'''Hanu Animator:''' The second story I heard was from a history professor at Paperfold University who told me Hanunue was a {{Color|keyword|nobold=1|righteous and selfless hero}}.
+::'''Hanu Animator:''' According to this professor, Hanunue had been set up and wrongfully imprisoned. He was a kind and courageous Harbeck werewolf who could not bear to see his fellow inmates suffering &mdash; and so he led them in an uprising against the tyranny of the IPC.
+::'''Hanu Animator:''' After winning the battle, he chose to cede power as the biggest hero and established the system of different lineages. He defended this world's freedom as the leader of the Hounds and fought for Penacony in the barren Dreamscapes right up until the eve of his death.
+::{{DIcon|Arrow}} What about the third one?
+::<!--Custom String Listener: TalkSentence_802215729-->
+::'''Hanu Animator:''' As for the third story, it might sound a little outrageous... but it's some unofficial history that I read about in the Primal Waking Library: Hanunue was just an ordinary {{Color|keyword|nobold=1|Asdana wild wolf}}.
+::'''Hanu Animator:''' At the frontier prison, suppression of inmates had reached a zenith. However, nobody dared to fire the first shot... until an out-of-control wild wolf stormed into the prison and bit an IPC guard, triggering mutiny among the inmates.
+::'''Hanu Animator:''' Following independence, the prisoners used this wolf to build up the hero of Penacony's independence: Hanunue. But he never actually existed &mdash; he was just a romantic legend...
+::'''Hanu Animator:''' Which of these three prototypes &mdash; "criminal," "hero," or "wolf" &mdash; do you think was the real Hanunue? Think carefully about it. I'll write a Brother Hanu story based on your answer.
+::<!--Custom String Trigger: Wait_Option_802211102_58-->
+::<!--Custom String Listener: Wait_Option_802211102_58-->
+::{{DIcon|Arrow}} A merciless criminal.
+:::<!--Custom String Listener: TalkSentence_802215734-->
+:::'''Hanu Animator:''' Hmph, got it. There must be a string of dark crimes lurking in Brother Hanu's past.
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 94,
+	"Value": "1"
+}</pre>
+:::<!--Custom String Trigger: TalkSentence_802215741-->
+:::<!--Custom String Listener: TalkSentence_802215741-->
+:::'''Hanu Animator:''' Alright then, I'll write this Brother Hanu extra story based on the idea you picked!
+:::'''Hanu Animator:''' Hah, it's done. Our extra story is going to be a bestseller!
+:::'''Hanu Animator:''' I'll leave the script in your good hands, then, director. Keep exploring for more Brother Hanu stories inside ''Dreamjoy Memoir''.
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} A righteous, selfless hero.
+:::<!--Custom String Listener: TalkSentence_802215736-->
+:::'''Hanu Animator:''' Hmph, got it. Brother Hanu's definitely got a pair of kind eyes beneath those cool sunglasses.
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 94,
+	"Value": "2"
+}</pre>
+:::<!--Custom String Trigger: TalkSentence_802215741-->
+:::<!--Custom String Listener: TalkSentence_802215741-->
+:::'''Hanu Animator:''' Alright then, I'll write this Brother Hanu extra story based on the idea you picked!
+:::'''Hanu Animator:''' Hah, it's done. Our extra story is going to be a bestseller!
+:::'''Hanu Animator:''' I'll leave the script in your good hands, then, director. Keep exploring for more Brother Hanu stories inside ''Dreamjoy Memoir''.
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} An Asdana wolf.
+:::<!--Custom String Listener: TalkSentence_802215738-->
+:::'''Hanu Animator:''' Hmph, got it. Brother Hanu is a fabrication representing a beautiful hope.
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 94,
+	"Value": "3"
+}</pre>
+:::<!--Custom String Trigger: TalkSentence_802215741-->
+:::<!--Custom String Listener: TalkSentence_802215741-->
+:::'''Hanu Animator:''' Alright then, I'll write this Brother Hanu extra story based on the idea you picked!
+:::'''Hanu Animator:''' Hah, it's done. Our extra story is going to be a bestseller!
+:::'''Hanu Animator:''' I'll leave the script in your good hands, then, director. Keep exploring for more Brother Hanu stories inside ''Dreamjoy Memoir''.
+:::<!--Ends the current performance-->
+::{{DIcon|Return}} None of them feels super accurate...
+:::<!--Custom String Listener: TalkSentence_802215740-->
+:::'''Hanu Animator:''' Hmph, so what? We're making an animation, not shooting a historical documentary &mdash; so just pick your favorite one. Whether it's true or false won't impact ticket sales!
+:::<!--Custom String Trigger: Wait_Option_802211102_58_1-->
+:::<!--Custom String Listener: Wait_Option_802211102_58_1-->
+:::{{DIcon|Arrow}} A merciless criminal.
+::::<!--Custom String Listener: TalkSentence_802215734-->
+::::'''Hanu Animator:''' Hmph, got it. There must be a string of dark crimes lurking in Brother Hanu's past.
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 94,
+	"Value": "1"
+}</pre>
+::::<!--Custom String Trigger: TalkSentence_802215741-->
+::::<!--Custom String Listener: TalkSentence_802215741-->
+::::'''Hanu Animator:''' Alright then, I'll write this Brother Hanu extra story based on the idea you picked!
+::::'''Hanu Animator:''' Hah, it's done. Our extra story is going to be a bestseller!
+::::'''Hanu Animator:''' I'll leave the script in your good hands, then, director. Keep exploring for more Brother Hanu stories inside ''Dreamjoy Memoir''.
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} A righteous, selfless hero.
+::::<!--Custom String Listener: TalkSentence_802215736-->
+::::'''Hanu Animator:''' Hmph, got it. Brother Hanu's definitely got a pair of kind eyes beneath those cool sunglasses.
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 94,
+	"Value": "2"
+}</pre>
+::::<!--Custom String Trigger: TalkSentence_802215741-->
+::::<!--Custom String Listener: TalkSentence_802215741-->
+::::'''Hanu Animator:''' Alright then, I'll write this Brother Hanu extra story based on the idea you picked!
+::::'''Hanu Animator:''' Hah, it's done. Our extra story is going to be a bestseller!
+::::'''Hanu Animator:''' I'll leave the script in your good hands, then, director. Keep exploring for more Brother Hanu stories inside ''Dreamjoy Memoir''.
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} An Asdana wolf.
+::::<!--Custom String Listener: TalkSentence_802215738-->
+::::'''Hanu Animator:''' Hmph, got it. Brother Hanu is a fabrication representing a beautiful hope.
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 94,
+	"Value": "3"
+}</pre>
+::::<!--Custom String Trigger: TalkSentence_802215741-->
+::::<!--Custom String Listener: TalkSentence_802215741-->
+::::'''Hanu Animator:''' Alright then, I'll write this Brother Hanu extra story based on the idea you picked!
+::::'''Hanu Animator:''' Hah, it's done. Our extra story is going to be a bestseller!
+::::'''Hanu Animator:''' I'll leave the script in your good hands, then, director. Keep exploring for more Brother Hanu stories inside ''Dreamjoy Memoir''.
+::::<!--Ends the current performance-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+;(If {{cx}}<!--Hidden Mission ID 8022111--> has not been started)
+::<!--Trigger PerformanceE 802211101: Config/Level/Mission/8022111/Act/Act802211101.json-->
+::'''Hanu Animator:''' ...Hmph.
+::This super-cool animation artist lets out an indifferent "hmph." You might have to come up with something to stop him from playing it so cool.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

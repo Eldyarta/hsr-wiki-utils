@@ -1,0 +1,189 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mingyue#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divination Commission Managing Diviner
+|image           = NPC Mingyue.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Divination Commission
+|relatives       = 
+}}
+'''Mingyue''' is an NPC on [[The Xianzhou Luofu]], located in [[Divination Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Divination Commission|npc_178_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502041101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502041101.json-->
+::'''Mingyue:''' Hey, if it isn't a sight on the Xianzhou. How have you found time to make a dedicated trip to check out the work of the Divination Commission?
+::'''Mingyue:''' If you ask me, there're too many lazybones hanging out here. You'd better have something urgent if you're looking for me, because I'm buried in work.
+::{{DIcon|Arrow}} You don't look very busy.
+:::<!--Custom String Listener: TalkSentence_502041105-->
+:::'''Mingyue:''' I don't think you're a diviner, buddy. So stay in your lane, alright?
+:::'''Mingyue:''' I'm not upset with you. It's just that you obviously have no comprehension of how divination works... I don't suggest holding up Qingque as a model worker at the Divination Commission, because she is an absolute outlier.
+:::'''Mingyue:''' Why am I telling you all this? Because that little sparrow has been getting chewed out recently by the master diviner, so I don't intend on blaming her any further.
+::{{DIcon|Arrow}} Who do you mean by "lazybones"? I'll have to give them a good talking-to.
+:::<!--Custom String Listener: TalkSentence_502041109-->
+:::'''Mingyue:''' Isn't there someone who pops into your mind straight away? Short, always playing tiles...
+:::'''Mingyue:''' Anyway, it looks like that little sparrow has been getting chewed out recently by the master diviner, so I don't intend on blaming her any further.
+:::'''Mingyue:''' What I'm talking about are higher-ups wasting space and money. Haha, of course I can't name names.
+::{{DIcon|Arrow}} That's a little too harsh. Did I say something wrong?
+:::<!--Custom String Listener: TalkSentence_502041113-->
+:::'''Mingyue:''' Sorry, it's my bad. When you came, I was just beating up on our workplace culture, and I still hadn't cooled off... Sorry for running my mouth off.
+:::'''Mingyue:''' Ah, if everyone at the Divination Commission were like you, I wouldn't have gotten so worked up about things.
+::<!--Custom String Trigger: TalkSentence_502041115-->
+::<!--Custom String Listener: TalkSentence_502041115-->
+::'''Mingyue:''' Alright alright, I'm just letting off some steam and rambling here. Don't take me too seriously. It's just how I am! So why don't you hold onto this? It's a little gift, and it'll get me feeling better.
+::'''Mingyue:''' Go on, you must have come looking for me for a reason, right?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502041201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502041201.json-->
+::'''Mingyue:''' Hmph, why'd you have to pick me out of all these lazybones here...
+::'''Mingyue:''' Go on then, what is it this time?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} Actually, it's nothing. Really, I just come to chat...
+::<!--Trigger PerformanceE 502041102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502041102.json-->
+::'''Mingyue:''' If that's the case, how can I refuse? Chat away.
+::<!--Custom String Trigger: Wait_Option_502041102_299-->
+::<!--Custom String Listener: Wait_Option_502041102_299-->
+::{{DIcon|Talk}} You seem to be pretty critical about the workplace culture here.
+:::<!--Custom String Listener: TalkSentence_502041120-->
+:::'''Mingyue:''' That's right. Since the Ambrosial Arbor's new growth, we've been firing on all cylinders here at the Divination Commission. Just flat out busy.
+:::'''Mingyue:''' The master diviner is trying to manage the situation as best as she can with so many important tasks at hand. The managing diviners should be working hard to take care of their own departments. Everyone should know what they need for their roles and shouldn't need other people to keep hounding them.
+:::'''Mingyue:''' Some managing diviners lack this capacity though, and so they just go through the motions. Completely lacking in foresight or retrospection, just blindly saying "Yes, okay" to everything. But when it comes time to turn the work in, they'll say, "I don't think that's necessary"...
+:::{{DIcon|Arrow}} Verbal confirmations mean nothing. They should be made to put their promises in writing.
+::::<!--Custom String Listener: TalkSentence_502041124-->
+::::'''Mingyue:''' You're not wrong. I've come to master this trick.
+::::'''Mingyue:''' Every time I hand over any work, I'll keep a record of all communication... It's been proven to improve communication efficiency, and I'm in the process of recommending the entire commission to adopt this practice.
+::::<!--Custom String Trigger: TalkSentence_502041132-->
+::::<!--Custom String Listener: TalkSentence_502041132-->
+::::'''Mingyue:''' The master diviner may not have said anything, but she has long held plans for cleaning up negative work culture here. So I don't bother worrying about it anymore. Let's just wait and see what happens.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} There's no use in just talking about it. Make them issue a public apology.
+::::<!--Custom String Listener: TalkSentence_502041127-->
+::::'''Mingyue:''' You have no idea how shameless some people can get.
+::::'''Mingyue:''' This is just a small workplace tip for you: Be proactive about recording all your communications. This will cut straight through anyone trying to say "I don't remember" or "I didn't say that."
+::::<!--Custom String Trigger: TalkSentence_502041132-->
+::::<!--Custom String Listener: TalkSentence_502041132-->
+::::'''Mingyue:''' The master diviner may not have said anything, but she has long held plans for cleaning up negative work culture here. So I don't bother worrying about it anymore. Let's just wait and see what happens.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Show tolerance to each other. After all, you still have to work together.
+::::<!--Custom String Listener: TalkSentence_502041130-->
+::::'''Mingyue:''' It's hard to imagine what your workplace experience has been like. Either you're lucky enough to get on with your colleagues, or you're a seasoned veteran who's capable of accepting anything thrown at them at the workplace.
+::::'''Mingyue:''' If you really are that kind of person, then I have to say I envy you very much.
+::::<!--Custom String Trigger: TalkSentence_502041132-->
+::::<!--Custom String Listener: TalkSentence_502041132-->
+::::'''Mingyue:''' The master diviner may not have said anything, but she has long held plans for cleaning up negative work culture here. So I don't bother worrying about it anymore. Let's just wait and see what happens.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You seem pretty close to Qingque.
+:::<!--Custom String Listener: TalkSentence_502041134-->
+:::'''Mingyue:''' Hah, us? Close? You must be a comedian or something. I hardly ever see her at work, so I can't possibly say that we're "close."
+:::'''Mingyue:''' I remember you dealing with Qingque a couple of times before. What do you think of her?
+:::{{DIcon|Arrow}} She's cute and wouldn't hurt a fly.
+::::<!--Custom String Listener: TalkSentence_502041137-->
+::::'''Mingyue:''' She is actually pretty cute.
+::::<!--Custom String Trigger: TalkSentence_502041142-->
+::::<!--Custom String Listener: TalkSentence_502041142-->
+::::'''Mingyue:''' That little sparrow has tried her best to stay out of the spotlight, but in my estimation this has only backfired on her. Who out there is capable of only doing just enough every time? If it's not intentional, how else can we explain it?
+::::'''Mingyue:''' Besides, if someone like me can already see through her, could it possibly have escaped the master diviner's eyes?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Everything about her is utterly ordinary.
+::::<!--Custom String Listener: TalkSentence_502041139-->
+::::'''Mingyue:''' She does feel rather inconspicuous, doesn't she?
+::::<!--Custom String Trigger: TalkSentence_502041142-->
+::::<!--Custom String Listener: TalkSentence_502041142-->
+::::'''Mingyue:''' That little sparrow has tried her best to stay out of the spotlight, but in my estimation this has only backfired on her. Who out there is capable of only doing just enough every time? If it's not intentional, how else can we explain it?
+::::'''Mingyue:''' Besides, if someone like me can already see through her, could it possibly have escaped the master diviner's eyes?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} She's sneaky, cunning, and unreliable.
+::::<!--Custom String Listener: TalkSentence_502041141-->
+::::'''Mingyue:''' ...Are we still talking about Qingque here?
+::::<!--Custom String Trigger: TalkSentence_502041142-->
+::::<!--Custom String Listener: TalkSentence_502041142-->
+::::'''Mingyue:''' That little sparrow has tried her best to stay out of the spotlight, but in my estimation this has only backfired on her. Who out there is capable of only doing just enough every time? If it's not intentional, how else can we explain it?
+::::'''Mingyue:''' Besides, if someone like me can already see through her, could it possibly have escaped the master diviner's eyes?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you keeping yourself busy with these days?
+:::<!--Custom String Listener: TalkSentence_502041145-->
+:::'''Mingyue:''' Divinations. Still more divinations. Please forgive me for not divulging any further details.
+:::'''Mingyue:''' ...
+:::'''Mingyue:''' To be honest, I almost just rattled all that off to you without even thinking things through. I should be more careful when it comes to top secret info about the Divination Commission... Thinking about it now, I'm starting to get a little uneasy.
+:::'''Mingyue:''' Okay, enough questions. I'm a managing diviner and keeping trade secrets is a part of my professional ethics.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I won't bother you any further. Please carry on with your work.
+:::<!--Custom String Listener: TalkSentence_502041150-->
+:::'''Mingyue:''' The master diviner likes her peace and quiet, and you should stop asking so many questions around here. So long for now. Please let yourself out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502041102-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'd like to ask you about Jingzhai.
+::<!--Trigger PerformanceE 502041301: Config/Level/NPCDialogue/P10202/NPCAct/Act502041301.json-->
+::'''Mingyue:''' I'm a diviner, I shouldn't be gossiping.
+::The girl looked around. After making sure the coast was clear, she turned to you, her eyes filled with excitement.
+::'''Mingyue:''' Jingzhai looks fine to me, and I can't see any problems. Are you two keeping a secret?
+::'''Mingyue:''' You came to ask about Jingzhai a few days back, and now you're here again... There was a good-looking guy who came for her too not long ago. Could it be...
+::{{DIcon|Arrow}} I can't say for sure...
+::{{DIcon|Arrow}} I shouldn't gossip about her private matters.
+::<!--Custom String Listener: TalkSentence_502041308-->
+::'''Mingyue:''' Tsk, if you're not talking, I'm not telling you anything.
+::'''Mingyue:''' I bet it's just those boring familial news and romance. Boring! Stop asking me. I know nothing!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502041301-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I won't bother you any further. Keep on playing.
+::'''Mingyue:''' The master diviner likes her peace and quiet, and you should stop asking so many questions around here. So long for now. Please let yourself out.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mingyue
+|zhs  = 明阅
+|zht  = 明閱
+|ja   = 明閲
+|ko   = 명월
+|es   = Mingyue
+|fr   = Mingyue
+|ru   = Минъюэ
+|th   = Mingyue
+|vi   = Mingyue
+|de   = Mingyue
+|id   = Mingyue
+|pt   = Mingyue
+}}
+==Change History==
+{{Change History|TODO}}

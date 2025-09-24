@@ -1,0 +1,114 @@
+<%-- [PAGE_INFO]
+PageTitle=#Working Robot#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Working Robot.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Pillars of Creation
+|relatives       = 
+}}
+'''Working Robot''' is an NPC on [[Jarilo-VI]], located in [[Pillars of Creation]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Pillars of Creation|npc_3_400009}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 414011202: Config/Level/Mission/4140112/Act/Act414011202.json-->
+<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 414011204,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 414011205,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 501184006,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 414011205,
+					"ProtectTime": 0.3
+				}
+			]
+		}
+	]
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Automaton Beetle
+|zhs  = 自动机兵「甲虫」
+|zht  = 自動機兵「甲蟲」
+|ja   = 自動機兵「ジューク」
+|ko   = 자동 기갑병 「비틀」
+|es   = Escarabajo Autómata
+|fr   = Automate scarabée
+|ru   = Автоматон-жук
+|th   = Automaton Beetle
+|vi   = Cỗ Máy Tự Động "Bọ Cánh Cứng"
+|de   = Automaton: Käfer
+|id   = Automaton Beetle
+|pt   = Autômato Insectoide
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,161 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jing Yuan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Jing Yuan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Seat of Divine Foresight
+|relatives       = 
+}}
+'''Jing Yuan''' is an NPC on [[The Xianzhou Luofu]], located in [[Seat of Divine Foresight]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seat of Divine Foresight|npc_29_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502084101: Config/Level/NPCDialogue/P10202/NPCAct/Act502084101.json-->
+::'''Jing Yuan:''' You're here, (Trailblazer). I was just about to take a break.
+::'''Jing Yuan:''' Do you want to talk about the adventure on the Trailblazer Express or the incidents that happened on Xianzhou?
+::{{DIcon|Arrow}} Won't I be holding you up?
+:::<!--Custom String Listener: TalkSentence_502084105-->
+:::'''Jing Yuan:''' No worries. The work at the Seat of Divine Foresight is endless and will never be finished. Qingzu can wait.
+:::'''Jing Yuan:''' Besides, you're a pivotal Xianzhou ally. How can I give you the cold shoulder when you're here?
+::{{DIcon|Arrow}} Looks like you are in the mood to talk.
+:::<!--Custom String Listener: TalkSentence_502084108-->
+:::'''Jing Yuan:''' After poring over documents for hours here, I bet you would be the same.
+:::'''Jing Yuan:''' Qingzu is fun to be around when she's not working, so it's a shame that she always speaks very seriously to me here. Her analytical and no-nonsense tone can be a bit dry.
+::<!--Custom String Trigger: TalkSentence_502084110-->
+::<!--Custom String Listener: TalkSentence_502084110-->
+::'''Jing Yuan:''' (Trailblazer), if you're up for it, we can talk about anything you want. To me, it's a welcome tea break from my tedious work.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502084201: Config/Level/NPCDialogue/P10202/NPCAct/Act502084201.json-->
+::'''Jing Yuan:''' You're here, (Trailblazer). I was just about to take a break.
+::'''Jing Yuan:''' What brought you here today, or are you just here for a casual chat?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} Just a casual chat.
+::<!--Trigger PerformanceE 502084301: Config/Level/NPCDialogue/P10202/NPCAct/Act502084301.json-->
+::'''Jing Yuan:''' Great. By the way, Qingzu always reminds visitors not to inquire about confidential matters here. Let's not talk about work for her sake, shall we?
+::<!--Custom String Trigger: Wait_Option_502084301_695-->
+::<!--Custom String Listener: Wait_Option_502084301_695-->
+::{{DIcon|Talk}} Why don't I see you often here?
+:::<!--Custom String Listener: TalkSentence_502084306-->
+:::'''Jing Yuan:''' Qingzu once told me that the absence of the Divine Foresight at the Seat of Divine Foresight is supposed to be one of the eight mysteries on the Luofu. So I'm just trying to help everyone think outside of the box.
+:::'''Jing Yuan:''' No, I'm just kidding. Besides dealing with the paperwork here, I spend most of my time discussing Luofu affairs with a few members of the Six Charioteers. If ordered by the Marshal, I must also travel to distant planets and go to battle.
+:::'''Jing Yuan:''' If you want to see me here, you can schedule an appointment with Qingzu. I'll show up at the agreed time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you good at chess?
+:::<!--Custom String Listener: TalkSentence_502084310-->
+:::'''Jing Yuan:''' Oh, do you mean the Xianzhou starchess?
+:::{{DIcon|Arrow}} I suppose so.
+::::<!--Custom String Listener: TalkSentence_502084312-->
+::::'''Jing Yuan:''' If you're talking about starchess, I guess I'm quite good at it. Not many are a match for me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you good at any other chess?
+::::<!--Custom String Listener: TalkSentence_502084314-->
+::::'''Jing Yuan:''' I'll occasionally dabble in chess games that are popular from beyond the stars, and I enjoy them.
+::::{{DIcon|Arrow}} Do you use chess to simulate warfare?
+::::<!--Custom String Listener: TalkSentence_502084316-->
+::::'''Jing Yuan:''' Hahaha, chess is just for fun and games. It's all about starting off on equal footing, having gains and losses along the way, and reaching a decisive result at the end.
+::::'''Jing Yuan:''' Well, the same doesn't apply to warfare. Every soldier in my army is human. Their emotions and morale are way harder to anticipate than some lifeless pawns on a predetermined chessboard.
+::::'''Jing Yuan:''' What we want to achieve in war is not fairness but to create as many disadvantages as possible for our enemies.
+::::'''Jing Yuan:''' Circumstantial victories should not lead to complacency. If unable to win, one should retreat early to preserve strength. That should also qualify as a type of victory, wouldn't you say?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me something about the High-Cloud Quintet?
+:::<!--Custom String Listener: TalkSentence_502084321-->
+:::'''Jing Yuan:''' I see, you must have listened to those made-up stories. Those fictions are all the same, just dragging on and on about heroic deeds, bizarre adventure, and frivolous love affairs.
+:::'''Jing Yuan:''' Every hero in those stories is just a self-insert with either an outrageous inheritance or enviable status. And those plots are always a trope where some artifacts must be found, elixirs be taken, weapons be forged... and the hero is suddenly and miraculously overpowered to the point of being invincible, going on a mindless rampage, slaying a bunch of nondescript behemoths of monstrosity left and right.
+:::'''Jing Yuan:''' And of course, there's always some emotional drama thrown in for good measure, with the inevitable friends-turned-enemies or enemies-turned-friends trope. Reading these stories over and over again gets boring pretty quickly. But still, I think the "High-Cloud Quintet" portrayed in these stories are far more interesting than their real life counterparts.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} May I know which part of what Qingzu said is true?
+:::<!--Custom String Listener: TalkSentence_502084325-->
+:::'''Jing Yuan:''' Oh? What did she say?
+:::{{DIcon|Arrow}} The stone lions at the entrance were built in Snowmoon's honor.
+::::<!--Custom String Listener: TalkSentence_502084327-->
+::::'''Jing Yuan:''' Who is Snowmoon?
+::::<!--Custom String Trigger: TalkSentence_502084334-->
+::::<!--Custom String Listener: TalkSentence_502084334-->
+::::'''Jing Yuan:''' I can't believe Qingzu told you all this. But it's up to you to decide if they're true or not.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You used to practice crosstalk comedy every day.
+::::<!--Custom String Listener: TalkSentence_502084329-->
+::::'''Jing Yuan:''' I will probably never earn a living wage if I choose my profession as a crosstalk comedian.
+::::<!--Custom String Trigger: TalkSentence_502084334-->
+::::<!--Custom String Listener: TalkSentence_502084334-->
+::::'''Jing Yuan:''' I can't believe Qingzu told you all this. But it's up to you to decide if they're true or not.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Yanqing is a Vidyadhara boy who once got his ears bitten.
+::::<!--Custom String Listener: TalkSentence_502084331-->
+::::'''Jing Yuan:''' That boy's stubborn refusal to take advice is probably a result of his ears getting bitten.
+::::<!--Custom String Trigger: TalkSentence_502084334-->
+::::<!--Custom String Listener: TalkSentence_502084334-->
+::::'''Jing Yuan:''' I can't believe Qingzu told you all this. But it's up to you to decide if they're true or not.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} All Cloud Knights Soldiers have the name "Yutie."
+::::<!--Custom String Listener: TalkSentence_502084333-->
+::::'''Jing Yuan:''' I can't rule that out, since they all wear an iron helmet that covers their faces.
+::::<!--Custom String Trigger: TalkSentence_502084334-->
+::::<!--Custom String Listener: TalkSentence_502084334-->
+::::'''Jing Yuan:''' I can't believe Qingzu told you all this. But it's up to you to decide if they're true or not.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's it for now.
+:::<!--Custom String Listener: TalkSentence_502084336-->
+:::'''Jing Yuan:''' It's time I get back to work. Take care.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502084301-->
+:{{DIcon|Exit}} That's it for now.
+::'''Jing Yuan:''' It's time I get back to work. Take care.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jing Yuan
+|zhs  = 景元
+|zht  = 景元
+|ja   = 景元
+|ko   = 경원
+|es   = Jing Yuan
+|fr   = Jing&nbsp;Yuan
+|ru   = Цзин Юань
+|th   = Jing Yuan
+|vi   = Jing Yuan
+|de   = Jing Yuan
+|id   = Jing Yuan
+|pt   = Jing Yuan
+}}
+==Change History==
+{{Change History|TODO}}

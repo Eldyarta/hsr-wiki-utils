@@ -1,0 +1,233 @@
+<%-- [PAGE_INFO]
+PageTitle=#Shiratori#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Break-Master
+|image           = NPC Shiratori.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Shiratori''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_119_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502050001: Config/Level/Mission/5020500/Act/Act502050001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450113
+	]
+}</pre>
+::'''Shiratori:''' I have a premonition: Today is going to be the day I escape!
+::'''Shiratori:''' You've come at the perfect time, {{MC|f=girl|m=boy}}! I am about to be the first person to ever escape The Shackling Prison using my skills alone. You must be my witness to this great moment!
+::{{DIcon|Arrow}} I'm going to witness history?
+:::<!--Custom String Listener: TalkSentence_502050004-->
+:::'''Shiratori:''' If only we had a video camera, then I could record it and make it into a film called: ''Shiratori's Redemption''! I just know it would go viral.
+::{{DIcon|Arrow}} Don't waste your energy.
+:::<!--Custom String Listener: TalkSentence_502050006-->
+:::'''Shiratori:''' You're just like those narrow-minded prisoners, brushing me off and being sarcastic. Just you wait. I have been preparing for this for countless days and nights. Nothing can go wrong.
+::{{DIcon|Arrow}} Just give up. The place is surrounded by aurumaton soldiers.
+:::<!--Custom String Listener: TalkSentence_502050008-->
+:::'''Shiratori:''' You don't believe that those bolt-brains could ever compete with my great mind, do you? Those aurumatons are simple and dim-witted. I figured out their patrol routes a long time ago!
+::<!--Custom String Trigger: TalkSentence_502050009-->
+::<!--Custom String Listener: TalkSentence_502050009-->
+:;(Screen fades to black)
+::Shiratori begins to flap his wings and...
+::'''Shiratori:''' Ow-ow-owww... I failed again? How? This is my 1,381st failure...
+::'''Shiratori:''' Waaaa... I thought I had taken care of every problem! Where could I have gone wrong?
+::{{DIcon|Arrow}} Are you okay...?
+::<!--Custom String Listener: TalkSentence_502050013-->
+::'''Shiratori:''' Ahaha... Interesting! The Shackling Prison truly is fascinating. This is what a real prison should be like. It makes all those other prisons I've served time in look like open-air markets!
+::'''Shiratori:''' I have already ascertained where the problem was. I just need to slightly amend my approach... First I do this, then this, then this... I know I'll make it next time!
+::{{DIcon|Arrow}} Looks like you're okay.
+:::<!--Custom String Listener: TalkSentence_502050016-->
+:::'''Shiratori:''' Why would I not be okay? I've never been better! Just knowing that I am in the process of cracking the most complex prison in the entire cosmos fills my whole body with fighting spirit!
+::{{DIcon|Arrow}} Does no one care that you're so obviously trying to escape?
+:::<!--Custom String Listener: TalkSentence_502050018-->
+:::'''Shiratori:''' Those prison guards have seen everything. Sometimes I suspect they're deliberately leaving me to my own devices.
+:::'''Shiratori:''' I'm not like those dangerous criminals who are always trying to destroy stuff to escape. I prefer to use my skills. My wings may make a lot of noise when I flap them, but they can't cause any real damage.
+::{{DIcon|Arrow}} What if it's a trap set by the Ten-Lords Commission?
+:::<!--Custom String Listener: TalkSentence_502050021-->
+:::'''Shiratori:''' I don't care if it's a trap. I'm happy as long as I have some mechanisms or puzzles to crack. I have to hand it to the Ten-Lords Commission, though. They really leave me scratching my head every time.
+::<!--Custom String Trigger: TalkSentence_502050022-->
+::<!--Custom String Listener: TalkSentence_502050022-->
+::'''Shiratori:''' I'm a little tired now though. I'll get some rest before trying again.
+::'''Shiratori:''' By the way, {{MC|f=girl|m=boy}}, I haven't seen you around before. You fresh round here? Getting put into The Shackling Prison at such a young age... That's some impressive work.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502050002: Config/Level/Mission/5020500/Act/Act502050002.json-->
+::'''Shiratori:''' You're back again, {{MC|f=girl|m=boy}}. Perfect timing. I've researched a new way to escape this place. You want to see it?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm here for business. There are some things I wanted to ask you...
+::'''Shiratori:''' Well, I've got nothing else to do. We may as well chat for a while.
+::<!--Custom String Trigger: Wait_Option_502050003_96-->
+::<!--Custom String Listener: Wait_Option_502050003_96-->
+::{{DIcon|Talk}} What did you do to get locked up in here?
+:::<!--Custom String Listener: TalkSentence_502050303-->
+:::'''Shiratori:''' Ah... I don't really, uhhh, remember. But I'm not a robber or a thief, so it can't have been anything serious.
+:::'''Shiratori:''' But I just can't sit still. It was when they locked me up that I started misbehaving. At first, they had me locked up in the Realm-Keeping Commission penitentiary, but I was bored to tears, so I had to escape.
+:::'''Shiratori:''' Obviously, that got me arrested for jailbreaking, so they got a prison with tighter security for me. But that place was just as boring. I couldn't help but escape again.
+:::'''Shiratori:''' That's how my criminal record just started to snowball, and it kept snowballing until I found myself in The Shackling Prison. If I actually do manage to make it out of here, I don't think they'll have anywhere else that can hold me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You seem to enjoy breaking out of prison?
+:::<!--Custom String Listener: TalkSentence_502050308-->
+:::'''Shiratori:''' Well, everyone needs hobbies and interests. Some go in search of money, others like fine food, but I'm a little unique... I am addicted to breaking out of prisons.
+:::'''Shiratori:''' The fun of solving a challenging problem, the excitement of escaping the guards, the joy of regaining your freedom... Ah! Is there anything more wonderful in this world than escaping from prison?
+:::'''Shiratori:''' I have a saying: "Break out of jail once and you get a moment of joy, spend your life jailbreaking and you'll be happy forever!" I've actually become quite renowned for all my escapes. Some call me the "jailbreak master," and some are even begging to be my disciples.
+:::'''Shiratori:''' Although, it is also said that: "A true master always maintains the heart of an apprentice." That is precisely why I have come to The Shackling Prison &mdash; to further my craft.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you a cycrane...?
+:::<!--Custom String Listener: TalkSentence_502050313-->
+:::'''Shiratori:''' You wouldn't understand. Breaking out of prison is a dangerous game. It's best to find myself a substitute body. Plus, being able to fly allows me to see much further, which makes it easier to see gaps in security.
+:::'''Shiratori:''' As for where I got this thing from... I imagine one of the prison guards chucked it out. Either way, when I found it, it was just a pile of scrap metal. I had to put a lot of work into fixing it.
+:::{{DIcon|Arrow}} Then where is your real body?
+::::<!--Custom String Listener: TalkSentence_502050316-->
+::::'''Shiratori:''' I've been possessing this cycrane for so long that I often start to believe that this is my actual body. I don't even remember where my real body is anymore.
+::::'''Shiratori:''' But that's not important. I am happy with how I am at the moment. Going back to my real body now wouldn't bring me any joy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Do the other prisoners not think it's weird that you look like this?
+::::<!--Custom String Listener: TalkSentence_502050319-->
+::::'''Shiratori:''' There's enough weird stuff going on in The Shackling Prison. A shapeshifter that can transform into other prisoners, a Jade Abacus that can think and talk... What I do is not a big deal at all in here.
+::::'''Shiratori:''' Plus, I have another role &mdash; I'm the chief of logistics for the Arma Correctional Group. Prisoners have to rely on me to deliver whatever they bought from Arma.
+::::'''Shiratori:''' Oh. You're new here, so you probably don't know about the Arma Correctional Group. It's fine. You'll come to understand that, in The Shackling Prison, there will always be times when you need the Group.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any jailbreaking tips you can share with me?
+:::<!--Custom String Listener: TalkSentence_502050323-->
+:::'''Shiratori:''' Honestly, I don't have any tricks or anything like that. The key is perseverance. Some convicts give up after just one or two attempts, but I can spend years researching how to break just a single lock.
+:::'''Shiratori:''' Another thing is careful observation. Even the most tightly guarded prisons will have weak spots, but some of them are better hidden than others.
+:::'''Shiratori:''' Take The Shackling Prison for example. Even though their security measures are so complicated they can drive a man insane, that borisin still managed to escape, no?
+:::{{DIcon|Arrow}} What are The Shackling Prison's weak spots?
+::::<!--Custom String Listener: TalkSentence_502050327-->
+::::'''Shiratori:''' Well, if I knew that, then I'd have escaped a long time ago, wouldn't I?
+::::'''Shiratori:''' But, my many years of experience tell me that The Shackling Prison's greatest insurance is the surrounding moat. If only I had someone proficient in water magic with me, my escape would be a lot easier.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Were you here when the borisin escaped?
+::::<!--Custom String Listener: TalkSentence_502050330-->
+::::'''Shiratori:''' I was. I happened to be on a delivery that day, but I saw a group of borisin fighting their way out in the distance.
+::::'''Shiratori:''' The entire place was in chaos. Lots of prisoners used it as their chance to escape. Hmph, what kind of hero tries to capitalize on an advantage like that? If you've got the skills, then you should rely on nothing but yourself!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502050333-->
+:::'''Shiratori:''' Then I'll get back to my jailbreaking.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I've got to go. I won't disturb you.
+::'''Shiratori:''' Then I'll get back to my jailbreaking.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502050025)
+:<!--Custom String Listener: TalkSentence_502050025-->
+::'''Shiratori:''' I didn't think you looked like a criminal. Well, I've got nothing else to do. We may as well chat for a while.
+::<!--Custom String Trigger: Wait_Option_502050001_41-->
+::<!--Custom String Listener: Wait_Option_502050001_41-->
+::{{DIcon|Talk}} What did you do to get locked up in here?
+:::<!--Custom String Listener: TalkSentence_502050027-->
+:::'''Shiratori:''' Ah... I don't really, uhhh, remember. But I'm not a robber or a thief, so it can't have been anything serious.
+:::'''Shiratori:''' But I just can't sit still. It was when they locked me up that I started misbehaving. At first, they had me locked up in the Realm-Keeping Commission penitentiary, but I was bored to tears, so I had to escape.
+:::'''Shiratori:''' Obviously, that got me arrested for jailbreaking, so they got a prison with tighter security for me. But that place was just as boring. I couldn't help but escape again.
+:::'''Shiratori:''' That's how my criminal record just started to snowball, and it kept snowballing until I found myself in The Shackling Prison. If I actually do manage to make it out of here, I don't think they'll have anywhere else that can hold me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You seem to enjoy breaking out of prison?
+:::<!--Custom String Listener: TalkSentence_502050032-->
+:::'''Shiratori:''' Well, everyone needs hobbies and interests. Some go in search of money, others like fine food, but I'm a little unique... I am addicted to breaking out of prisons.
+:::'''Shiratori:''' The fun of solving a challenging problem, the excitement of escaping the guards, the joy of regaining your freedom... Ah! Is there anything more wonderful in this world than escaping from prison?
+:::'''Shiratori:''' I have a saying: "Break out of jail once and you get a moment of joy, spend your life jailbreaking and you'll be happy forever!" I've actually become quite renowned for all my escapes. Some call me the "jailbreak master," and some are even begging to be my disciples.
+:::'''Shiratori:''' Although, it is also said that: "A true master always maintains the heart of an apprentice." That is precisely why I have come to The Shackling Prison &mdash; to further my craft.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you a cycrane...?
+:::<!--Custom String Listener: TalkSentence_502050037-->
+:::'''Shiratori:''' You wouldn't understand. Breaking out of prison is a dangerous game. It's best to find myself a substitute body. Plus, being able to fly allows me to see much further, which makes it easier to see gaps in security.
+:::'''Shiratori:''' As for where I got this thing from... I imagine one of the prison guards chucked it out. Either way, when I found it, it was just a pile of scrap metal. I had to put a lot of work into fixing it.
+:::{{DIcon|Arrow}} Then where is your real body?
+::::<!--Custom String Listener: TalkSentence_502050040-->
+::::'''Shiratori:''' I've been possessing this cycrane for so long that I often start to believe that this is my actual body. I don't even remember where my real body is anymore.
+::::'''Shiratori:''' But that's not important. I am happy with how I am at the moment. Going back to my real body now wouldn't bring me any joy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Do the other prisoners not think it's weird that you look like this?
+::::<!--Custom String Listener: TalkSentence_502050043-->
+::::'''Shiratori:''' There's enough weird stuff going on in The Shackling Prison. A shapeshifter that can transform into other prisoners, a Jade Abacus that can think and talk... What I do is not a big deal at all in here.
+::::'''Shiratori:''' Plus, I have another role &mdash; I'm the chief of logistics for the Arma Correctional Group. Prisoners have to rely on me to deliver whatever they bought from Arma.
+::::'''Shiratori:''' Oh. You're new here, so you probably don't know about the Arma Correctional Group. It's fine. You'll come to understand that, in The Shackling Prison, there will always be times when you need the Group.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any jailbreaking tips you can share with me?
+:::<!--Custom String Listener: TalkSentence_502050047-->
+:::'''Shiratori:''' Honestly, I don't have any tricks or anything like that. The key is perseverance. Some convicts give up after just one or two attempts, but I can spend years researching how to break just a single lock.
+:::'''Shiratori:''' Another thing is careful observation. Even the most tightly guarded prisons will have weak spots, but some of them are better hidden than others.
+:::'''Shiratori:''' Take The Shackling Prison for example. Even though their security measures are so complicated they can drive a man insane, that borisin still managed to escape, no?
+:::{{DIcon|Arrow}} What are The Shackling Prison's weak spots?
+::::<!--Custom String Listener: TalkSentence_502050051-->
+::::'''Shiratori:''' Well, if I knew that, then I'd have escaped a long time ago, wouldn't I?
+::::'''Shiratori:''' But, my many years of experience tell me that The Shackling Prison's greatest insurance is the surrounding moat. If only I had someone proficient in water magic with me, my escape would be a lot easier.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Were you here when the borisin escaped?
+::::<!--Custom String Listener: TalkSentence_502050054-->
+::::'''Shiratori:''' I was. I happened to be on a delivery that day, but I saw a group of borisin fighting their way out in the distance.
+::::'''Shiratori:''' The entire place was in chaos. Lots of prisoners used it as their chance to escape. Hmph, what kind of hero tries to capitalize on an advantage like that? If you've got the skills, then you should rely on nothing but yourself!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502050057-->
+:::'''Shiratori:''' Then I'll get back to my jailbreaking.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502050059)
+:<!--Custom String Listener: TalkSentence_502050059-->
+::'''Shiratori:''' Then I'll get back to my jailbreaking.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

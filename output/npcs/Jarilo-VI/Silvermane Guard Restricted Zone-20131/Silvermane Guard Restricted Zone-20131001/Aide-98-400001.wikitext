@@ -1,0 +1,225 @@
+<%-- [PAGE_INFO]
+PageTitle=#Aide#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Aide.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Silvermane Guard Restricted Zone
+|relatives       = 
+}}
+'''Aide''' is an NPC on [[Jarilo-VI]], located in [[Silvermane Guard Restricted Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Silvermane Guard Restricted Zone|npc_98_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--Hidden Mission ID 4081313--> has been completed)
+::<!--Trigger PerformanceE 408131402: Config/Level/Mission/4081314/Act/Act408131402.json-->
+::'''Aide:''' Beep-boop.
+::'''Aide:''' Well done, Drillmaster (Trailblazer). I hope I can one day be as strong as you.
+::'''Aide:''' I'm off to make a training plan with the major. My next goal is to make it to captain.
+::'''Aide:''' Thank you for enlightening me, Drillmaster (Trailblazer). Beep-boop.
+::{{DIcon|Arrow}} Can we put together another round of restricted zone drills?
+:::<!--Custom String Listener: TalkSentence_401050107-->
+:::'''Aide:''' Sure. However, we have a limited military budget, so no rewards will be given for repeating drills.
+:::'''Aide:''' Are you sure you want to do another round of drills, Drillmaster (Trailblazer)?
+:::{{DIcon|Arrow}} Let's begin.
+::::<!--Custom String Listener: TalkSentence_401050110-->
+::::'''Aide:''' Beep-boop. Instructions received. Setting up the drill venue...
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} Forget it.
+::::<!--Custom String Listener: TalkSentence_401050112-->
+::::'''Aide:''' Beep-boop. Goodbye, Drillmaster (Trailblazer).
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Good luck.
+:::<!--Custom String Listener: TalkSentence_401050114-->
+:::'''Aide:''' Beep-boop. Goodbye, Drillmaster (Trailblazer).
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131301-->)
+::<!--Trigger PerformanceE 408131301: Config/Level/Mission/4081313/Act/Act408131301.json-->
+::'''Aide:''' Beep-boop.
+::'''Aide:''' I salute you, Drillmaster (Trailblazer).
+::{{DIcon|Arrow}} When's the next drill starting?
+::<!--Custom String Listener: TalkSentence_401040005-->
+::'''Aide:''' As long as I give the order, it can start at any time.
+::'''Aide:''' Would you like to start round three now, Drillmaster (Trailblazer)?
+::<!--Custom String Trigger: Wait_Option_408131301_16-->
+::<!--Custom String Listener: Wait_Option_408131301_16-->
+::{{DIcon|Talk}} Fill me in on the rules for this round.
+:::<!--Custom String Listener: TalkSentence_401040010-->
+:::'''Aide:''' Quantity wins.
+:::'''Aide:''' Correct. This final drill stage tests out your human-wave attack strategy.
+:::'''Aide:''' There's no shortcut &mdash; only combat.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_401040008-->
+:::'''Aide:''' Got it. Setting up the venue for restricted zone drills.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_401040014-->
+:::'''Aide:''' Got it. Everything's been done as per your order, Drillmaster (Trailblazer).
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131201-->)
+::<!--Trigger PerformanceE 408131201: Config/Level/Mission/4081312/Act/Act408131201.json-->
+::'''Aide:''' Beep &mdash; boop.
+::'''Aide:''' I salute you, Drillmaster (Trailblazer).
+::{{DIcon|Arrow}} When's the next drill starting?
+::<!--Custom String Listener: TalkSentence_401030005-->
+::'''Aide:''' As long as I give the order, it can start at any time.
+::'''Aide:''' Would you like to start round two now, Drillmaster (Trailblazer)?
+::<!--Custom String Trigger: Wait_Option_408131201_16-->
+::<!--Custom String Listener: Wait_Option_408131201_16-->
+::{{DIcon|Talk}} Fill me in on my target for this round.
+:::<!--Custom String Listener: TalkSentence_401030010-->
+:::'''Aide:''' The goal of this drill is to defeat the Major.
+:::'''Aide:''' You'll also need to configure the gear bridge in the restricted zone once again.
+:::'''Aide:''' It takes not just brains but also brawn. Beep-boop.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's begin.
+:::<!--Custom String Listener: TalkSentence_401030008-->
+:::'''Aide:''' Got it. Setting up the venue for restricted zone drills.
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_401030014-->
+:::'''Aide:''' Got it. Everything's been done as per your order, Drillmaster (Trailblazer).
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 408131102: Config/Level/Mission/4081311/Act/Act408131102.json-->
+::'''Aide:''' Beep &mdash; boop.
+::'''Aide:''' Hats off to you, drillmaster.
+::{{DIcon|Arrow}} Are you Dunn's aide?
+::{{DIcon|Arrow}} Hats off to you too, my guy.
+::<!--Custom String Listener: TalkSentence_401020106-->
+::'''Aide:''' Aide, deputy head of division 3 of the Silvermane Guards' logistics and security department, reporting for duty. Beep &mdash; boop.
+::'''Aide:''' Silvermane drills are ready to go. Everything is waiting on your command, drillmaster.
+:<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013101,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Automaton Beetle
+|zhs  = 自动机兵「甲虫」
+|zht  = 自動機兵「甲蟲」
+|ja   = 自動機兵「ジューク」
+|ko   = 자동 기갑병 「비틀」
+|es   = Escarabajo Autómata
+|fr   = Automate scarabée
+|ru   = Автоматон-жук
+|th   = Automaton Beetle
+|vi   = Cỗ Máy Tự Động "Bọ Cánh Cứng"
+|de   = Automaton: Käfer
+|id   = Automaton Beetle
+|pt   = Autômato Insectoide
+}}
+==Change History==
+{{Change History|TODO}}

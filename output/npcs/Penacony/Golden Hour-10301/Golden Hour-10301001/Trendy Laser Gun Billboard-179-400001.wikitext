@@ -1,0 +1,139 @@
+<%-- [PAGE_INFO]
+PageTitle=#Trendy Laser Gun Billboard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Trendy Laser Gun Billboard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Trendy Laser Gun Billboard''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_179_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503034005: Config/Level/Mission/5030340/Act/Act503034005.json-->
+::'''Trendy Laser Gun Billboard:''' Beep-beep! Patrululu's Zappy Gun is here! It's only fun when everyone has a gun!
+::'''Trendy Laser Gun Billboard:''' Hi, may I know which weapon is your favorite?
+::{{DIcon|Arrow}} Baseball bat.
+:::<!--Custom String Listener: TalkSentence_503034044-->
+:::'''Trendy Laser Gun Billboard:''' Um... That's quite unique!
+::{{DIcon|Arrow}} Lance.
+:::<!--Custom String Listener: TalkSentence_503034046-->
+:::'''Trendy Laser Gun Billboard:''' I see... Sounds cool!
+::{{DIcon|Arrow}} My head.
+:::<!--Custom String Listener: TalkSentence_503034048-->
+:::'''Trendy Laser Gun Billboard:''' ...Oh, you mean your brilliant mind!
+::<!--Custom String Trigger: TalkSentence_503034049-->
+::<!--Custom String Listener: TalkSentence_503034049-->
+::'''Trendy Laser Gun Billboard:''' It looks like you're going to need a cool Patrululu's Zappy Gun! Head to our selected stores for more information now!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503034006: Config/Level/Mission/5030340/Act/Act503034006.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034051,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034052,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034053,
+					"ProtectTime": 0.3
+				}
+			]
+		}
+	]
+}</pre>
+:<!--Custom String Trigger: Talk_454010201-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Trendy Laser Gun Billboard
+|zhs  = 潮玩光枪广告牌
+|zht  = 潮玩光槍看板
+|ja   = ホビーなレーザーガンの看板
+|ko   = 장난감 총 광고판
+|es   = Anuncio de pistola láser de moda
+|fr   = Publicité pour un pistolet-laser tendance
+|ru   = Реклама модной молнепушки
+|th   = ป้ายโฆษณาปืนเลเซอร์ของเล่น
+|vi   = Bảng Quảng Cáo Súng Laser Trendy
+|de   = Trendige Werbetafel für Lasergewehr
+|id   = Papan Iklan Mainan Laser Trendi
+|pt   = Painel Publicitário de Pistola de Laser da Moda
+}}
+==Change History==
+{{Change History|TODO}}

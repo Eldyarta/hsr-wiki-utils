@@ -1,0 +1,135 @@
+<%-- [PAGE_INFO]
+PageTitle=#Eulogistic Butterfly#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Eulogistic Butterfly.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Dragonbone City" Styxia
+|relatives       = 
+}}
+'''Eulogistic Butterfly''' is an NPC on [[Amphoreus]], located in [["Dragonbone City" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Dragonbone City" Styxia|npc_196_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504065001: Config/Level/Mission/5040650/Act/Act504065001.json-->
+::You remember Castorice once spoke of the origins of the Eulogistic Butterflies. Some believe them to be the final obsession of the deceased, others believe them to be {{Rubi|Thanatos'|Death Titan}}s messengers.
+::They are always found in places where many have met their demise.
+::'''Eulogistic Butterfly:''' Lost human, have you ever thought about your own epitaph?
+::{{DIcon|Arrow}} "(Trailblazer) Has Gone Offline."
+:::<!--Custom String Listener: TalkSentence_504065005-->
+:::'''Eulogistic Butterfly:''' Interesting take.
+::{{DIcon|Arrow}} "(Trailblazer), a Trailblazer."
+:::<!--Custom String Listener: TalkSentence_504065007-->
+:::'''Eulogistic Butterfly:''' Simple and concise.
+::{{DIcon|Arrow}} Isn't it a bit too early for that?
+:::<!--Custom String Listener: TalkSentence_504065009-->
+:::'''Eulogistic Butterfly:''' Then leave that work to others.
+::{{DIcon|Arrow}} I probably won't need one.
+:::<!--Custom String Listener: TalkSentence_504065011-->
+:::'''Eulogistic Butterfly:''' I see.
+::<!--Custom String Trigger: TalkSentence_504065012-->
+::<!--Custom String Listener: TalkSentence_504065012-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504065002: Config/Level/Mission/5040650/Act/Act504065002.json-->
+::'''Eulogistic Butterfly:''' The '''epitaph'''. Some call it the summary of life. If the tombstone is regarded as an everlasting existence, then what words should people leave on it for the time to come?
+:'''Eulogistic Butterfly:''' I still recall some of the deceased's '''epitaph'''. I can tell you if you're curious.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm very interested in '''epitaphs'''.
+::'''Eulogistic Butterfly:''' Of course. What kind of epitaphs are you more interested in?
+::<!--Custom String Trigger: Wait_Option_504065003_37-->
+::<!--Custom String Listener: Wait_Option_504065003_37-->
+::{{DIcon|Talk}} Those that died in their beds...
+:::<!--Custom String Listener: TalkSentence_504065204-->
+:::'''Eulogistic Butterfly:''' These are engravings found near the City of Janus &mdash;
+:::'''Eulogistic Butterfly:''' I, Theano, lived in Okhema and spent my final 30 years in Janusopolis. I lived a good life and died a beautiful death.
+:::'''Eulogistic Butterfly:''' Tu fui, ego eris.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Those that died young...
+:::<!--Custom String Listener: TalkSentence_504065208-->
+:::'''Eulogistic Butterfly:''' These are engravings left on a battlefield &mdash;
+:::'''Eulogistic Butterfly:''' This passage is dedicated to those who perished in the Battle of Oleinus:
+:::'''Eulogistic Butterfly:''' Oh, time, the omnipotent Oronyx, please deliver news of our fate to all.
+:::'''Eulogistic Butterfly:''' To preserve the sacredness of the Veil of Evernight, we slumber forever on the famed Oleinus Plains.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Those distinguished and respected...
+:::<!--Custom String Listener: TalkSentence_504065213-->
+:::'''Eulogistic Butterfly:''' This is engraved on a sage's tomb near the Grove of Epiphany &mdash;
+:::'''Eulogistic Butterfly:''' Oh scholar, hear me. The body of Empedocles rests below.
+:::'''Eulogistic Butterfly:''' His soul became one with the grave. As such, Georios's land is now greater than Aquila's skies.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The nameless ones...
+:::<!--Custom String Listener: TalkSentence_504065217-->
+:::'''Eulogistic Butterfly:''' This is an engraving near Mythemis &mdash;
+:::'''Eulogistic Butterfly:''' Here lies Dmitrios, a poor but honest man. He is exceptionally good at sea fishing. This marlin measures an incredible 18 feet long.
+:::'''Eulogistic Butterfly:''' Until Thanatos, jealous of his achievements, drove him out of the business.
+:::'''Eulogistic Butterfly:''' They caught him with a hook and placed him here.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Thank you. That's all for now.
+:::<!--Custom String Listener: TalkSentence_504065222-->
+:::'''Eulogistic Butterfly:''' You can come back any time.
+:::<!--Ends the current performance-->
+:{{DIcon}} You seem to know a lot about '''epitaphs'''.
+::'''Eulogistic Butterfly:''' I don't understand them. I've simply been wandering in front of too many graves.
+::'''Eulogistic Butterfly:''' Mourning continues beyond the act of burial. To erect a tombstone and to leave behind a few words... These are appropriate ways to acknowledge the life of the deceased and steps toward completing this long farewell.
+::'''Eulogistic Butterfly:''' But how does one define a long life with just a handful of words? The records of struggle, joy, tragedy, and victory of those before would surely hold some revelation for generations to come.
+::'''Eulogistic Butterfly:''' Epitaphs possess a deeply moving power, thus the experience of visiting a graveyard is invaluable. Please allow me to recommend it.
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} Say hi to Castorice for me.
+::'''Eulogistic Butterfly:''' I will give her your regards.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

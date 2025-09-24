@@ -1,0 +1,269 @@
+<%-- [PAGE_INFO]
+PageTitle=#Luocha#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Luocha.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Luocha''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_219_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 102040305: Config/Level/Mission/1020403/Act/Act102040305.json-->
+::{{A|VO chapter2 Ag1 luocha 102.ogg}} '''Luocha:''' Do you hail from the Luofu, young master Dan Heng?
+::{{DIcon|Arrow}} I do.
+:::<!--Custom String Listener: TalkSentence_102040310-->
+:::{{A|VO chapter2 Ag1 luocha 103.ogg}} '''Luocha:''' I see... It's fine if you'd prefer not to discuss further.
+::{{DIcon|Arrow}} No.
+:::<!--Custom String Listener: TalkSentence_102040312-->
+:::{{A|VO chapter2 Ag1 luocha 104.ogg}} '''Luocha:''' Ah. For some reason, you seem to fit right in here... Perhaps I read it wrong.
+::{{DIcon|Arrow}} (Remain Silent)
+:::<!--Custom String Listener: TalkSentence_102040314-->
+:::{{A|VO chapter2 Ag1 luocha 105.ogg}} '''Luocha:''' ...Apologies, forgive my curiosity.
+::<!--Custom String Trigger: TalkSentence_102040315-->
+::<!--Custom String Listener: TalkSentence_102040315-->
+::{{A|VO chapter2 Ag1 luocha 106.ogg}} '''Luocha:''' I do often struggle to judge the boundaries of small talk &mdash; I hope I haven't offended you.
+::<!--Custom String Trigger: Wait_Option_102040305_19-->
+::<!--Custom String Listener: Wait_Option_102040305_19-->
+::{{DIcon|Talk}} I'd like to ask something...
+:::<!--Custom String Listener: TalkSentence_102040317-->
+:::{{A|VO chapter2 Ag1 luocha 107.ogg}} '''Luocha:''' Please do...
+:::<!--Custom String Trigger: Wait_Option_102040305_22-->
+:::<!--Custom String Listener: Wait_Option_102040305_22-->
+:::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::<!--Custom String Listener: TalkSentence_102040319-->
+::::{{A|VO chapter2 Ag1 luocha 108.ogg}} '''Luocha:''' Almost nothing. I was scheduled to leave the Luofu when I heard there was a disturbance.
+::::{{A|VO chapter2 Ag1 luocha 109.ogg}} '''Luocha:''' Miss Sushang here is a member of the Cloud Knights. You could try asking her.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Who is this Cloud Knight girl?
+::::<!--Custom String Listener: TalkSentence_102040322-->
+::::{{A|VO chapter2 Ag1 luocha 110.ogg}} '''Luocha:''' Her name is Sushang. She apparently just transferred here from the Yaoqing.
+::::{{A|VO chapter2 Ag1 luocha 111.ogg}} '''Luocha:''' Every Xianzhou ship operates individually, but the Cloud Knights are all commanded by the Marshal. Therefore, it's normal for Knights to transfer between ships.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040305_19-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Let's talk about you.
+:::::<!--Custom String Listener: TalkSentence_102040326-->
+:::::{{A|VO chapter2 Ag1 luocha 112.ogg}} '''Luocha:''' Me?
+:::::<!--Custom String Trigger: Wait_Option_102040305_33-->
+:::::<!--Custom String Listener: Wait_Option_102040305_33-->
+:::::{{DIcon|Talk}} You don't seem like you're from the Xianzhou. Where have you come from?
+::::::<!--Custom String Listener: TalkSentence_102040328-->
+::::::{{A|VO chapter2 Ag1 luocha 113.ogg}} '''Luocha:''' Merchants don't belong anywhere &mdash; we wander and make the stars our home. But if you're curious... Within the Alliance I'm registered at the Xianzhou Yuque. Within the IPC, I'm registered at the Star Unity Mall branch at the North Valley Star.
+::::::{{A|VO chapter2 Ag1 luocha 114.ogg}} '''Luocha:''' ...Therefore, Luocha is just the name I use within the Xianzhou. Outside of the Xianzhou, I use something more difficult to pronounce. I'm guessing you want to know that name, too?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} You have pretty good fighting skills for a merchant.
+::::::<!--Custom String Listener: TalkSentence_102040331-->
+::::::{{A|VO chapter2 Ag1 luocha 115.ogg}} '''Luocha:''' The universe is a dangerous place. The IPC and the Alliance only provide for our safety during interstellar travel &mdash; on-site security is dependent on our own capacities.
+::::::{{A|VO chapter2 Ag1 luocha 116.ogg}} '''Luocha:''' As such, I had to improve my swordplay and healing skills. You are also a wanderer, young master Dan Heng &mdash; surely you understand?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} What's in that coffin?
+::::::<!--Custom String Listener: TalkSentence_102040334-->
+::::::{{A|VO chapter2 Ag1 luocha 117.ogg}} '''Luocha:''' Ah, a story of ill luck. I found myself embroiled in a conflict and ended up owing a favor... Now I must assist in delivering these remains back to the Xianzhou.
+::::::{{A|VO chapter2 Ag1 luocha 118.ogg}} '''Luocha:''' It would seem I am a magnet for such misfortune... I thought I would be safe on the Luofu, but now...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Never mind. Excuse me.
+:::::<!--Custom String Listener: TalkSentence_102040338-->
+:::::{{A|VO chapter2 Ag1 luocha 119.ogg}} '''Luocha:''' Of course.
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Let's talk about you.
+:::<!--Custom String Listener: TalkSentence_102040326-->
+:::{{A|VO chapter2 Ag1 luocha 112.ogg}} '''Luocha:''' Me?
+:::<!--Custom String Trigger: Wait_Option_102040305_33-->
+:::<!--Custom String Listener: Wait_Option_102040305_33-->
+:::{{DIcon|Talk}} You don't seem like you're from the Xianzhou. Where have you come from?
+::::<!--Custom String Listener: TalkSentence_102040328-->
+::::{{A|VO chapter2 Ag1 luocha 113.ogg}} '''Luocha:''' Merchants don't belong anywhere &mdash; we wander and make the stars our home. But if you're curious... Within the Alliance I'm registered at the Xianzhou Yuque. Within the IPC, I'm registered at the Star Unity Mall branch at the North Valley Star.
+::::{{A|VO chapter2 Ag1 luocha 114.ogg}} '''Luocha:''' ...Therefore, Luocha is just the name I use within the Xianzhou. Outside of the Xianzhou, I use something more difficult to pronounce. I'm guessing you want to know that name, too?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You have pretty good fighting skills for a merchant.
+::::<!--Custom String Listener: TalkSentence_102040331-->
+::::{{A|VO chapter2 Ag1 luocha 115.ogg}} '''Luocha:''' The universe is a dangerous place. The IPC and the Alliance only provide for our safety during interstellar travel &mdash; on-site security is dependent on our own capacities.
+::::{{A|VO chapter2 Ag1 luocha 116.ogg}} '''Luocha:''' As such, I had to improve my swordplay and healing skills. You are also a wanderer, young master Dan Heng &mdash; surely you understand?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's in that coffin?
+::::<!--Custom String Listener: TalkSentence_102040334-->
+::::{{A|VO chapter2 Ag1 luocha 117.ogg}} '''Luocha:''' Ah, a story of ill luck. I found myself embroiled in a conflict and ended up owing a favor... Now I must assist in delivering these remains back to the Xianzhou.
+::::{{A|VO chapter2 Ag1 luocha 118.ogg}} '''Luocha:''' It would seem I am a magnet for such misfortune... I thought I would be safe on the Luofu, but now...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040305_19-->
+::::{{DIcon|Talk}} I'd like to ask something...
+:::::<!--Custom String Listener: TalkSentence_102040317-->
+:::::{{A|VO chapter2 Ag1 luocha 107.ogg}} '''Luocha:''' Please do...
+:::::<!--Custom String Trigger: Wait_Option_102040305_22-->
+:::::<!--Custom String Listener: Wait_Option_102040305_22-->
+:::::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::::<!--Custom String Listener: TalkSentence_102040319-->
+::::::{{A|VO chapter2 Ag1 luocha 108.ogg}} '''Luocha:''' Almost nothing. I was scheduled to leave the Luofu when I heard there was a disturbance.
+::::::{{A|VO chapter2 Ag1 luocha 109.ogg}} '''Luocha:''' Miss Sushang here is a member of the Cloud Knights. You could try asking her.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Who is this Cloud Knight girl?
+::::::<!--Custom String Listener: TalkSentence_102040322-->
+::::::{{A|VO chapter2 Ag1 luocha 110.ogg}} '''Luocha:''' Her name is Sushang. She apparently just transferred here from the Yaoqing.
+::::::{{A|VO chapter2 Ag1 luocha 111.ogg}} '''Luocha:''' Every Xianzhou ship operates individually, but the Cloud Knights are all commanded by the Marshal. Therefore, it's normal for Knights to transfer between ships.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Never mind. Excuse me.
+:::::<!--Custom String Listener: TalkSentence_102040338-->
+:::::{{A|VO chapter2 Ag1 luocha 119.ogg}} '''Luocha:''' Of course.
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Never mind. Excuse me.
+:::<!--Custom String Listener: TalkSentence_102040338-->
+:::{{A|VO chapter2 Ag1 luocha 119.ogg}} '''Luocha:''' Of course.
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 102040315: Config/Level/Mission/1020403/Act/Act102040315.json-->
+::{{A|VO chapter2 Ag1 luocha 120.ogg}} '''Luocha:''' Are we heading off? It's not safe to linger here.
+::<!--Custom String Trigger: Wait_Option_102040315_10-->
+::<!--Custom String Listener: Wait_Option_102040315_10-->
+::{{DIcon|Talk}} I'd like to ask...
+:::<!--Custom String Listener: TalkSentence_102040341-->
+:::{{A|VO chapter2 Ag1 luocha 129.ogg}} '''Luocha:''' Please. Speak your mind.
+:::<!--Custom String Trigger: Wait_Option_102040315_13-->
+:::<!--Custom String Listener: Wait_Option_102040315_13-->
+:::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::<!--Custom String Listener: TalkSentence_102040343-->
+::::{{A|VO chapter2 Ag1 luocha 108.ogg}} '''Luocha:''' Almost nothing. I was scheduled to leave the Luofu when I heard there was a disturbance.
+::::{{A|VO chapter2 Ag1 luocha 109.ogg}} '''Luocha:''' Miss Sushang here is a member of the Cloud Knights. You can try asking her.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Who is this Cloud Knight girl?
+::::<!--Custom String Listener: TalkSentence_102040346-->
+::::{{A|VO chapter2 Ag1 luocha 110.ogg}} '''Luocha:''' Her name is Sushang. She apparently just transferred here from the Yaoqing.
+::::{{A|VO chapter2 Ag1 luocha 111.ogg}} '''Luocha:''' Every Xianzhou ship operates individually, but the Cloud Knights are all commanded by the Marshal. Therefore, it's normal for Knights to transfer between ships.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040315_10-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Let's talk about you.
+:::::<!--Custom String Listener: TalkSentence_102040350-->
+:::::{{A|VO chapter2 Ag1 luocha 112.ogg}} '''Luocha:''' Me?
+:::::<!--Custom String Trigger: Wait_Option_102040315_24-->
+:::::<!--Custom String Listener: Wait_Option_102040315_24-->
+:::::{{DIcon|Talk}} You don't seem like you're from the Xianzhou. Where have you come from?
+::::::<!--Custom String Listener: TalkSentence_102040352-->
+::::::{{A|VO chapter2 Ag1 luocha 113.ogg}} '''Luocha:''' Merchants do not belong anywhere. We wander and make the stars our home. But if you're curious... I am registered at the Xianzhou Yuque within the Alliance. With the IPC, I'm registered at the Star Unity Mall branch at the North Valley Star.
+::::::{{A|VO chapter2 Ag1 luocha 114.ogg}} '''Luocha:''' ...Therefore, Luocha is just the name I use at Xianzhou. Outside of Xianzhou, I use something more difficult to pronounce. I'm guessing you want to know that name, too?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} You have great martial skills for a merchant.
+::::::<!--Custom String Listener: TalkSentence_102040355-->
+::::::{{A|VO chapter2 Ag1 luocha 115.ogg}} '''Luocha:''' The universe is a dangerous place. The IPC and the Alliance can only ensure that we travel in safety. Our personal security is dependent on our own capacities.
+::::::{{A|VO chapter2 Ag1 luocha 116.ogg}} '''Luocha:''' That's how I trained my swordplay and healing skills. You are also a wanderer. Surely you understand.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} What's in that coffin?
+::::::<!--Custom String Listener: TalkSentence_102040358-->
+::::::{{A|VO chapter2 Ag1 luocha 117.ogg}} '''Luocha:''' Ahh, that was some ill luck. I got involved in a conflict by accident and ended up owing a favor, so now I have to help send a deceased body back to Xianzhou.
+::::::{{A|VO chapter2 Ag1 luocha 118.ogg}} '''Luocha:''' Perhaps I simply attract problems... I thought I would be safe at the Luofu, but now...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Nothing. Please excuse me.
+:::::<!--Custom String Listener: TalkSentence_102040362-->
+:::::{{A|VO chapter2 Ag1 luocha 138.ogg}} '''Luocha:''' Of course.
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Let's talk about you.
+:::<!--Custom String Listener: TalkSentence_102040350-->
+:::{{A|VO chapter2 Ag1 luocha 112.ogg}} '''Luocha:''' Me?
+:::<!--Custom String Trigger: Wait_Option_102040315_24-->
+:::<!--Custom String Listener: Wait_Option_102040315_24-->
+:::{{DIcon|Talk}} You don't seem like you're from the Xianzhou. Where have you come from?
+::::<!--Custom String Listener: TalkSentence_102040352-->
+::::{{A|VO chapter2 Ag1 luocha 113.ogg}} '''Luocha:''' Merchants do not belong anywhere. We wander and make the stars our home. But if you're curious... I am registered at the Xianzhou Yuque within the Alliance. With the IPC, I'm registered at the Star Unity Mall branch at the North Valley Star.
+::::{{A|VO chapter2 Ag1 luocha 114.ogg}} '''Luocha:''' ...Therefore, Luocha is just the name I use at Xianzhou. Outside of Xianzhou, I use something more difficult to pronounce. I'm guessing you want to know that name, too?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You have great martial skills for a merchant.
+::::<!--Custom String Listener: TalkSentence_102040355-->
+::::{{A|VO chapter2 Ag1 luocha 115.ogg}} '''Luocha:''' The universe is a dangerous place. The IPC and the Alliance can only ensure that we travel in safety. Our personal security is dependent on our own capacities.
+::::{{A|VO chapter2 Ag1 luocha 116.ogg}} '''Luocha:''' That's how I trained my swordplay and healing skills. You are also a wanderer. Surely you understand.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's in that coffin?
+::::<!--Custom String Listener: TalkSentence_102040358-->
+::::{{A|VO chapter2 Ag1 luocha 117.ogg}} '''Luocha:''' Ahh, that was some ill luck. I got involved in a conflict by accident and ended up owing a favor, so now I have to help send a deceased body back to Xianzhou.
+::::{{A|VO chapter2 Ag1 luocha 118.ogg}} '''Luocha:''' Perhaps I simply attract problems... I thought I would be safe at the Luofu, but now...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040315_10-->
+::::{{DIcon|Talk}} I'd like to ask...
+:::::<!--Custom String Listener: TalkSentence_102040341-->
+:::::{{A|VO chapter2 Ag1 luocha 129.ogg}} '''Luocha:''' Please. Speak your mind.
+:::::<!--Custom String Trigger: Wait_Option_102040315_13-->
+:::::<!--Custom String Listener: Wait_Option_102040315_13-->
+:::::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::::<!--Custom String Listener: TalkSentence_102040343-->
+::::::{{A|VO chapter2 Ag1 luocha 108.ogg}} '''Luocha:''' Almost nothing. I was scheduled to leave the Luofu when I heard there was a disturbance.
+::::::{{A|VO chapter2 Ag1 luocha 109.ogg}} '''Luocha:''' Miss Sushang here is a member of the Cloud Knights. You can try asking her.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Who is this Cloud Knight girl?
+::::::<!--Custom String Listener: TalkSentence_102040346-->
+::::::{{A|VO chapter2 Ag1 luocha 110.ogg}} '''Luocha:''' Her name is Sushang. She apparently just transferred here from the Yaoqing.
+::::::{{A|VO chapter2 Ag1 luocha 111.ogg}} '''Luocha:''' Every Xianzhou ship operates individually, but the Cloud Knights are all commanded by the Marshal. Therefore, it's normal for Knights to transfer between ships.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Nothing. Please excuse me.
+:::::<!--Custom String Listener: TalkSentence_102040362-->
+:::::{{A|VO chapter2 Ag1 luocha 138.ogg}} '''Luocha:''' Of course.
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Nothing. Please excuse me.
+:::<!--Custom String Listener: TalkSentence_102040362-->
+:::{{A|VO chapter2 Ag1 luocha 138.ogg}} '''Luocha:''' Of course.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Luocha
+|zhs  = 罗刹
+|zht  = 羅剎
+|ja   = 羅刹
+|ko   = 나찰
+|es   = Luocha
+|fr   = Luocha
+|ru   = Лоча
+|th   = Luocha
+|vi   = Luocha
+|de   = Luocha
+|id   = Luocha
+|pt   = Luocha
+}}
+==Change History==
+{{Change History|TODO}}

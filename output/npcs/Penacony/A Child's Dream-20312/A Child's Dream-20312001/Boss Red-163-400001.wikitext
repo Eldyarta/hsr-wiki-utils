@@ -1,0 +1,231 @@
+<%-- [PAGE_INFO]
+PageTitle=#Boss Red#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Boss Red.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = A Child's Dream
+|relatives       = 
+}}
+'''Boss Red''' is an NPC on [[Penacony]], located in [[A Child's Dream]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|A Child's Dream|npc_163_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 414030305: Config/Level/Mission/4140303/Act/Act414030305.json-->
+:::A scarlet bird looks at you with a raised head. You never thought you'd see such a convincingly fierce gaze from an origami bird.
+:::'''Boss Red:''' ...All dressed up... Carrying weapons... Sneaking into Clockie's home without permission, tweet...
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Boss Red:''' Hmph! Boss Stone's lackey! {{Size|28|Watch this!!!}}
+:::{{DIcon|Arrow}} It's a misunderstanding! All a misunderstanding!
+::::<!--Custom String Listener: TalkSentence_414030605-->
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Boss Red:''' You call this a misunderstanding!? Eat this strike first, tweet &mdash;!
+::::'''(Trailblazer):''' (Dang... Looks like it's an unavoidable battle!)
+:::{{DIcon|Arrow}} Blast you, watch this!
+::::<!--Custom String Listener: TalkSentence_414030608-->
+:::'''Boss Red:''' Huff... Huff... You're good, Galactic Baseballer... I'm upset about it, but you did defeat me, tweet...
+:::'''Boss Red:''' Before you make your final blow... I have a last question... Tweet...
+:::'''Boss Red:''' At every entrance, in every corner... Blasted, I've even dispatched birds to stand guard in every corridor! Boss Stone's lackey! You! How did you get in, tweet!
+:::{{DIcon|Arrow}} I was shuffled in by someone...
+::::<!--Custom String Listener: TalkSentence_414030614-->
+::::'''Boss Red:''' Hmph, only Clockie's friends and super baddies will go out of their way to come here! And you don't look like a good person!
+:::{{DIcon|Arrow}} Maybe the others are just slacking off?
+::::<!--Custom String Listener: TalkSentence_414030616-->
+::::'''Boss Red:''' ...
+::::'''Boss Red:''' ...No matter what, only Clockie's friends and super baddies will go out of their way to come here! And you don't look like a good person, tweet!
+:::{{DIcon|Arrow}} The Galactic Baseballer is omnipotent!
+::::<!--Custom String Listener: TalkSentence_414030619-->
+::::'''Boss Red:''' Hi-yah! Could it be? It's the Galactic Baseballer! A new villain has appeared to threaten Dreamville, tweet!
+:::<!--Custom String Trigger: TalkSentence_414030620-->
+:::<!--Custom String Listener: TalkSentence_414030620-->
+:::'''Boss Red:''' ...Tweet? Hang on, tweet...
+:::The origami bird suspiciously turns its head, sidles to your side, and sniffs you.
+:::'''Boss Red:''' You've got Clockie's favorite SoulGlad scent on you, tweet... Are you really Clockie's friend?
+:::'''Boss Red:''' {{Size|28|...You should've said so earlier tweet!!!}}
+:::'''Boss Red:''' Clockie hasn't been home recently. It's just me and the patrolling lads, tweet. Yet they didn't see the guest who snuck in. What an embarrassment, tweet!
+:::'''Boss Red:''' Tweet tweet, looks like these little friends lack training... Help me out and recall them. We're organizing a retrospective, tweet!
+:::{{DIcon|Arrow}} No problem.
+::::<!--Custom String Listener: TalkSentence_414030627-->
+::::'''Boss Red:''' You're a decisive friend, tweet! These little ones should learn from you, tweet!
+:::{{DIcon|Arrow}} I still have something on...
+::::<!--Custom String Listener: TalkSentence_414030629-->
+::::'''Boss Red:''' Stop with the hemming and hawing. Real hardcore birds will say yes in a split second, tweet!
+:::<!--Custom String Trigger: TalkSentence_414030630-->
+:::<!--Custom String Listener: TalkSentence_414030630-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 414030306: Config/Level/Mission/4140303/Act/Act414030306.json-->
+:;(All choices lead to the following options)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200014}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200014}},"Inverse":true}-->}})
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Boss Red:''' Hi-yah!
+:::'''Boss Red:''' It appears you've run into all the slackers along the way, tweet.
+:::'''Boss Red:''' This is supposed to be the pocket money prepped for the little ones, but I'll give you a share!
+::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200014
+			}
+		}
+	]
+}</pre>
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200014}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200014}},"Inverse":true}-->}})
+:::'''Boss Red:''' Go forth and call those disappointing little ones back to the Great Tree! Also, take a look around this place to see if other baddies like that Baseballer snuck in!
+::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Boss Red
+|zhs  = 赤红大哥
+|zht  = 赤紅大哥
+|ja   = ブラザー・レッド
+|ko   = 보스 레드
+|es   = Jefe Rojo
+|fr   = Chef&nbsp;Rouge
+|ru   = Багровый Босс
+|th   = ลูกพี่แดงแรงฤทธิ์
+|vi   = Đại Ca Chíp Đỏ
+|de   = Boss Rot
+|id   = Bos Merah
+|pt   = Chefe Vermelho
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,108 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jay#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Restaurant Server
+|image           = NPC Jay.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Jay''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_629_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051005: Config/Level/Mission/5030510/Act/Act503051005.json-->
+::'''Jay:''' Hm, I think you two would be great at stand-up comedy! Why don't you join me at Kiwis radio station?
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051063-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Jay:''' Oh? Can I help you with anything?
+::{{DIcon|Arrow}} I want to hear your stand-up comedy performance.
+:::<!--Custom String Listener: TalkSentence_503051065-->
+:::'''Jay:''' I'm bored with telling Pepeshi jokes, I am going to start telling dog jokes! I'll come up with one now... Just a second, I'm thinking.
+:::'''Jay:''' I know! Okay... There's this dog, and he recently got a new master. He asked his master: "Hey master, why do you never treat me like you love me?" The master replied: "I've always treated you like my best friend!"
+:::'''Jay:''' Then the dog asked again: "Then why do you always look down on me..." Do you know why?
+:::{{DIcon|Arrow}} ...Because the master doesn't love him?
+:::{{DIcon|Arrow}} ...Because the dog has low self-esteem?
+:::<!--Custom String Listener: TalkSentence_503051070-->
+:::'''Jay:''' Because the dog's old master was a Pepeshi... Hahaha!
+:::'''Jay:''' Ah, jokes are never funny when you make them up on the spot... I know, why don't you hire me as a resident stand-up comedian in your lounge?
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051073-->
+:::'''Jay:''' Hey, a member of the audience has asked a fine question! As this is a lounge, your words have to fit in with the atmosphere.
+:::'''Jay:''' So, I would respond: "There are so many lounges in Penacony, with so many guests in each lounge, yet you chose to talk with me..." Well? What do you think? That would blow you away, right?
+:::{{DIcon|Arrow}} ...You're terrible at this.
+::::<!--Custom String Listener: TalkSentence_503051076-->
+::::'''Jay:''' Ah, I know... I just like to make audiences happy, I'm no good at playing with emotion and stuff like that... Let me learn and I'll put on a proper show for you, you just wait!
+:::{{DIcon|Arrow}} That's a great response!
+::::<!--Custom String Listener: TalkSentence_503051078-->
+::::'''Jay:''' No way, there's someone who likes even an cliché line like that one? Or could it be that my acting skills are just too amazing?
+::::'''Jay:''' Let me think... Hmm, maybe I should change careers and start acting? There really isn't much future in being a stand-up comedy host, after all...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051008: Config/Level/Mission/5030510/Act/Act503051008.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jay
+|zhs  = 杰伊
+|zht  = 傑伊
+|ja   = ジェイ
+|ko   = 제이
+|es   = Jay
+|fr   = Jay
+|ru   = Джей
+|th   = Jay
+|vi   = Jay
+|de   = Jay
+|id   = Jay
+|pt   = Jay
+}}
+==Change History==
+{{Change History|TODO}}

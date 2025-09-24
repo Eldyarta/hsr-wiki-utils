@@ -1,0 +1,530 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dunn#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Restricted Zone Director
+|image           = NPC Dunn.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Silvermane Guard Restricted Zone
+|relatives       = 
+}}
+'''Dunn''' is an NPC on [[Jarilo-VI]], located in [[Silvermane Guard Restricted Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Silvermane Guard Restricted Zone|npc_21_400019}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301111204,
+		"Type": "submission_state_equal",
+		"Param1": 301111204,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111204: Config/Level/Mission/3011112/Act/Act301111204.json-->
+----
+:<!--Custom String Trigger: TalkSentence_301110602-->
+:<!--Custom String Listener: TalkSentence_301110602-->
+:'''Dunn:''' (Trailblazer), Gilbert, you're back! I received a report from the Guards that your mission was a success.
+:'''Gilbert:''' Then... that means my medal of service...
+:'''Dunn:''' Of course, old man &mdash; I've already finished the paperwork for your medal's application. We should hear back from them next week or so.
+:'''Gilbert:''' R&mdash;Really? That's great...
+:'''Gilbert:''' I knew I didn't waste my time taking care of the new generation of soldiers! W&mdash;Well then, I'll return to the logistics unit and wait for the good news from you.
+:'''Gilbert:''' ...And thank you as well, youngster. If not for you, I would've been doomed to be a laughingstock...
+----
+:'''Dunn:''' *sigh* That old man...
+:<!--Custom String Trigger: Wait_Option_301110204_15-->
+:<!--Custom String Listener: Wait_Option_301110204_15-->
+:{{DIcon|Arrow}} He's too hard on himself...
+::<!--Custom String Listener: TalkSentence_301110610-->
+::'''Dunn:''' That's what I was thinking. After so many years of being apart, his family would not be concerned with these military accolades.
+:{{DIcon|Arrow}} Is his family that judgmental?
+::<!--Custom String Listener: TalkSentence_301110612-->
+::'''Dunn:''' I haven't met his wife or child, but... I think they won't care about whether or not he has a medal.
+:<!--Custom String Trigger: TalkSentence_301110613-->
+:<!--Custom String Listener: TalkSentence_301110613-->
+:'''Dunn:''' But it's not our place to burst his bubble, is it? This is between him and his family.
+:'''Dunn:''' Promise me something, (Trailblazer) &mdash; if Gilbert comes to you with another request in the future, do your best to help, okay? He's a good man. I don't want to see him suffer during his last few months of service.
+:'''Dunn:''' Oh right, take these. I know you did all the work in taking down that malfunctioning robot. I can't let you leave empty-handed, now can I?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111204-->
+<pre>
+[
+	{
+		"ID": 201110306,
+		"Type": "submission_state_equal",
+		"Param1": 201110306,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110306: Config/Level/Mission/2011103/Act/Act201110306.json-->
+:'''Dunn:''' A strange woman? Are you sure it wasn't someone from the logistics team or Scientific Research Division?
+:'''Dunn:''' Mmm... Tell me what you found. If necessary, I'll immediately send some Silvermane Guards over to investigate.
+:{{Black Screen|You tell Dunn about your encounter with Cyrille...}}
+:'''Dunn:''' Mmm... a strange woman spouting nonsense, and Armory Boxes just popping out of thin air...
+:'''Dunn:''' It sounds... utterly outrageous, but then again, it doesn't seem that strange coming from you.
+:'''Dunn:''' That's a warehouse stacked with old abandoned ammo, and nobody really goes by there at all &mdash; but to tell the truth, I've heard a few weird rumors in my time...
+:'''Dunn:''' Anyway I think I got the gist of the situation. I'll send some Silvermane Guards over to investigate things thoroughly &mdash; and give the warehouse a once-over at the same time.
+:{{DIcon|Arrow}} Do you know or have you heard about a guy called Stefan?
+:<!--Custom String Listener: TalkSentence_201313098-->
+:'''Dunn:''' ...Stefan? No, never heard of him. Have you got some business with him? Anything I can help out with?
+:{{DIcon|Arrow}} ...Never mind. Forget I said anything.
+::<!--Custom String Listener: TalkSentence_201313100-->
+::'''Dunn:''' Hmm? That's a bit weird of you... Eh, I won't pry.
+:{{DIcon|Arrow}} Could you help me look into this name?
+::<!--Custom String Listener: TalkSentence_201313102-->
+::'''Dunn:''' No problem. I'll send someone to check the Silvermane Guard roster.
+:<!--Custom String Trigger: TalkSentence_201313103-->
+:<!--Custom String Listener: TalkSentence_201313103-->
+:'''Dunn:''' Anyways, thanks for your contribution to maintaining order here in the restricted zone, outsider. I'll give you a heads-up as soon as I hear anything.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201110306-->
+<pre>
+[
+	{
+		"ID": 201110402,
+		"Type": "submission_state_equal",
+		"Param1": 201110402,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110402: Config/Level/Mission/2011104/Act/Act201110402.json-->
+:'''Dunn:''' My Silvermane Guard squad never found anything strange in the warehouse other than a few weird letters... We scanned them over but nobody had any idea about what they said.
+:'''Dunn:''' I think you might be able to get something out of them... Why don't I leave these with you?
+:'''Dunn:''' Ah yes &mdash; I checked up on that "Stefan" character you mentioned. There's no record of him among our registers, including retired Silvermane Guards and veterans.
+:'''Dunn:''' Looks like I won't be able to help you out. If you want to conduct your own follow-up investigation, I wish you all the best!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201110402-->
+<pre>
+[
+	{
+		"ID": 408131101,
+		"Type": "submission_state_equal",
+		"Param1": 408131101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 408131101: Config/Level/Mission/4081311/Act/Act408131101.json-->
+:'''Dunn:''' Ah, so you're keeping this appointment, then. That's great. I knew I could count on you.
+:'''Dunn:''' I've mobilized all the young Silvermane Guards in the restricted zone, and they're all beyond pumped to be fighting against a legend like yourself.
+:'''Dunn:''' Trust me, you'll find it several times tougher this time if you want to break through the defensive line!
+:'''Dunn:''' Speak with my aide when you're ready &mdash; we can start the drill any time. It just takes a moment to set everything up in the restricted zone.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_408131101-->
+<pre>
+[
+	{
+		"ID": 408131401,
+		"Type": "submission_state_equal",
+		"Param1": 408131401,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 408131401: Config/Level/Mission/4081314/Act/Act408131401.json-->
+:'''Dunn:''' Oh, I heard that! Your performance has been so wonderful that all the Silvermane Guards you faced off against have been won over.
+:'''Dunn:''' Your reputation has spread like wildfire throughout the restricted zone, (Trailblazer). We're all looking forward to engaging frequently with you.
+:'''Dunn:''' ...But I guess you have more pressing matters to attend to, yes? Then I wish you all the best.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_408131401-->
+<pre>
+[
+	{
+		"ID": 101110107,
+		"Type": "submission_state_equal",
+		"Param1": 101110107,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceD 101110107: undefined-->
+:<!--Custom String Trigger: Talk_101110107-->
+:'''Dunn:''' Alright, what would you like to chat about?
+:<!--Custom String Trigger: Wait_Option_501029701_32-->
+:<!--Custom String Listener: Wait_Option_501029701_32-->
+:{{DIcon|Talk}} I heard you also do a bit of rock and roll?
+::<!--Custom String Listener: TalkSentence_501029820-->
+::'''Dunn:''' Haha, it all happened when I was still in cadet school... Although we were reserve officers, we were still students at the end of the day. So we needed some after-school hobbies to spend our excess energy.
+::'''Dunn:''' I formed a rock band with a few like-minded friends, which was quite famous in the cadet school back then.
+::{{DIcon|Arrow}} Who was in your band?
+::<!--Custom String Listener: TalkSentence_501029823-->
+::'''Dunn:''' Serval, she's our guitarist and lead singer. She was absolutely charming and talented. She totally deserved her position.
+::'''Dunn:''' I was her keyboardist... and the two of us always worked quite well together. I always felt like we were... Ahem, nothing.
+::'''Dunn:''' The next one is the drummer &mdash; this one will shock you! Do you want to guess who it is? Here's a hint &mdash; they're also a member of the Silvermane Guards.
+::{{DIcon|Arrow}} Could it be Gepard?
+:::<!--Custom String Listener: TalkSentence_501029827-->
+:::'''Dunn:''' Uh... he's a high-ranking officer in the Guards for sure, but he doesn't get along with his sister.
+::{{DIcon|Arrow}} Could it be Pela?
+:::<!--Custom String Listener: TalkSentence_501029829-->
+:::'''Dunn:''' What a guess! She didn't tell you beforehand, did she?
+::{{DIcon|Arrow}} Could it be Cocolia?
+:::<!--Custom String Listener: TalkSentence_501029831-->
+:::'''Dunn:''' ...Be careful with your words, outsider!
+::<!--Custom String Trigger: TalkSentence_501029832-->
+::<!--Custom String Listener: TalkSentence_501029832-->
+::'''Dunn:''' The correct answer is Pela. Hard to believe, right? The petite, meticulous intelligence officer is actually a drummer in a rock band... I guess there's too much pressure on the job?
+::'''Dunn:''' I heard that Pela and Serval still do band practice and live performances together regularly, just like old times...
+::{{DIcon|Arrow}} There were only three of you in the band?
+::<!--Custom String Listener: TalkSentence_501029835-->
+::'''Dunn:''' No, I remember there was another person... Who was it again? I can't believe it, I actually can't remember who it was...
+::{{DIcon|Arrow}} Doesn't a rock band need a bass player?
+:::<!--Custom String Listener: TalkSentence_501029837-->
+:::'''Dunn:''' Ah&mdash;yes, yes, the bass player! I just remembered it after hearing it from you. Haha...but what was his name again? Wait, was the bass player a guy or a girl...
+:::<!--Custom String Trigger: TalkSentence_501029839-->
+:::<!--Custom String Listener: TalkSentence_501029839-->
+:::'''Dunn:''' ...Eh, never mind. I just can't remember. Don't worry about that person, it's not important.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I don't know much about rock bands, sorry.
+:::<!--Custom String Listener: TalkSentence_501029839-->
+:::'''Dunn:''' ...Eh, never mind. I just can't remember. Don't worry about that person, it's not important.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You and Serval...
+::<!--Custom String Listener: TalkSentence_501029841-->
+::'''Dunn:''' ...
+::'''Dunn:''' It's history already. Sometimes letting go is the best choice...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What kind of job did you do in the military?
+::<!--Custom String Listener: TalkSentence_501029844-->
+::'''Dunn:''' I am responsible for the general management of the support lines in the restricted zone. Munitions, logistics, energy... all of these are under my control.
+::'''Dunn:''' I am also responsible for direct communication with the front line. If the front line was breached... my boys and I would have to form the last line of defense to prevent the enemy from infiltrating the city.
+::{{DIcon|Return}} That sounds dangerous.
+:::<!--Custom String Listener: TalkSentence_501029847-->
+:::'''Dunn:''' Fortunately, we have Captain Gepard... So things like that have never happened.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} That doesn't sound very dangerous.
+:::<!--Custom String Listener: TalkSentence_501029849-->
+:::'''Dunn:''' It's all thanks to Captain Gepard... At least so far, there has never been a record of a Fragmentum monster getting out of the restricted zone.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all.
+::<!--Custom String Listener: TalkSentence_501029851-->
+::'''Dunn:''' Later!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 501029805,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Dunn:''' Impeccable timing. Captain Gepard just sent out a bulletin saying that the frequency of Fragmentum activity has noticeably diminished &mdash; all the Silvermane Guards around the restricted zone can finally take a breather.
+:'''Dunn:''' I heard many officers who were stationed on the front line for long periods can finally take their leaves... A long time coming, I'd say.
+:'''Dunn:''' I'm just an insignificant logistics officer. I don't claim to know why you broke into the restricted zone last time... But whatever happened, I'm guessing the cut in Fragmentum activity has an 80% chance of being directly caused by you, right?
+:{{DIcon|Arrow}} Yeah, we're the ones who saved Belobog.
+::<!--Custom String Listener: TalkSentence_501029861-->
+::'''Dunn:''' Ha, I knew it! It seems like we all owe you a debt of gratitude for our vacations. Thanks so much!
+:{{DIcon|Arrow}} I can't say anything specific...
+::<!--Custom String Listener: TalkSentence_501029863-->
+::'''Dunn:''' Got it, got it... Captain Gepard doesn't like us asking too much either, so let's park this topic for now.
+:{{DIcon|Arrow}} I've never busted into a restricted zone before, and wanna give it a try.
+::<!--Custom String Listener: TalkSentence_501029865-->
+::'''Dunn:''' Uh... You're kidding, right?
+:<!--Custom String Trigger: TalkSentence_501029866-->
+:<!--Custom String Listener: TalkSentence_501029866-->
+:'''Dunn:''' *sigh* If only Madam Cocolia hadn't... Hadn't needed to sacrifice herself to save Belobog. What a noble woman.
+:'''Dunn:''' I hope Lady Bronya can inherit her iron will...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:'''Dunn:''' The pressure on the front lines is increasing, and now the strategy of the Silvermane Guards must be adjusted...
+:'''Dunn:''' Outsider, let's talk. Are you free right now?
+:<!--Ends the current performance-->
+:'''Dunn:''' Later!
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501029801: Config/Level/NPC/W1/NPC_DefaultStory_501029801.json-->
+::'''Dunn:''' You came! Even though we've faced off against each other before, please allow me to re-introduce myself.
+::'''Dunn:''' My name's Dunn, and I serve under Captain Gepard. And I'm the current head of this military restricted zone.
+::'''Dunn:''' Gepard's already instructed me to give Outsiders like yourselves free access here in the restricted zone.
+::'''Dunn:''' If you get into any trouble around here, let me know and I'll remedy it for you.
+::{{DIcon|Arrow}} I apologize if I was a little rough last time...
+:::<!--Custom String Listener: TalkSentence_501029806-->
+:::'''Dunn:''' Are you talking about that time you and Serval broke into the restricted zone?
+:::'''Dunn:''' Let's not mention it... I was just carrying out my orders at the time. Since Captain Gepard has already acknowledged your identities, naturally, I didn't have to make things difficult back then.
+:::'''Dunn:''' But at that time I really thought you guys were going to kill me... *sigh* Serval... Can't believe she'd have the heart to do that to me...
+:::'''Dunn:''' Anyway, let bygones be bygones. That fight actually made us closer, right?
+:::{{DIcon|Arrow}} Is there anything I can help you with?
+::::<!--Custom String Listener: TalkSentence_501029811-->
+::::'''Dunn:''' Haha, not right now. If I do, I'll get right in touch with you.
+:::{{DIcon|Arrow}} ...Are you taking revenge on me?
+::::<!--Custom String Listener: TalkSentence_501029813-->
+::::'''Dunn:''' You misunderstood me. I mean since you have extraordinary combat skills, in the future maybe you can help us Guards out...
+::{{DIcon|Arrow}} Great seeing you!
+:::<!--Custom String Listener: TalkSentence_501029815-->
+:::'''Dunn:''' Haha, good to see you.
+::<!--Custom String Trigger: TalkSentence_501029816-->
+::<!--Custom String Listener: TalkSentence_501029816-->
+::'''Dunn:''' Alright, after all this chit-chat, it's time for me to get back to work... Anything else you'd like to ask? I'll do my best to answer.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501029803: Config/Level/NPC/W1/NPC_DefaultStory_501029803.json-->
+::'''Dunn:''' The pressure on the front lines is increasing, and now the strategy of the Silvermane Guards must be adjusted...
+::'''Dunn:''' Outsider, let's talk. Are you free right now?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801412301-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::<!--Trigger PerformanceE 801412105: Config/Level/Mission/8014121/Act/Act801412105.json-->
+::'''Dunn:''' Perfect timing! I've heard you're a real master at this game. Let's not hold back today!
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "3"
+	}
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801412105-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has been completed)
+:{{DIcon}} The problem with the IPC has been taken care of.
+::<!--Trigger PerformanceE 501029806: Config/Level/NPC/W1/NPC_DefaultStory_501029806.json-->
+::'''Dunn:''' Yeah, I heard. Thankfully Lady Bronya didn't sign that agreement.
+::'''Dunn:''' Although the Silvermane Guards still do not fully trust those people dressed in black, I believe that we are now on the correct path.
+::{{DIcon|Arrow}} Why do you say that?
+::{{DIcon|Arrow}} You were quite worked up about it before.
+::<!--Custom String Listener: TalkSentence_501029875-->
+::'''Dunn:''' Naturally, we cannot accept an unequal treaty from those people dressed in black. However, I admit that without their technology, the revival of Belobog would be extremely difficult.
+::'''Dunn:''' Today we have shown our determination to rebuild our home. This cooperation was won by us. It was not their charity.
+::'''Dunn:''' Of course, we cannot rule out the possibility of them backing out of this. The Silvermane Guards will be monitoring their movements closely.
+::'''Dunn:''' If they really are conspiring against Belobog, I will alert the Supreme Guardian immediately.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029806-->
+;(If {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon}} Officer
+::<!--Trigger PerformanceD 101110107: undefined-->
+::<!--Custom String Trigger: Talk_101110107-->
+;(If {{cx}}<!--SubMission Started: 301111204--> and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon|undefined}} Gilbert and I are back...
+::<!--Trigger PerformanceE 301111204: Config/Level/Mission/3011112/Act/Act301111204.json-->
+::----
+::<!--Custom String Trigger: TalkSentence_301110602-->
+::<!--Custom String Listener: TalkSentence_301110602-->
+::'''Dunn:''' (Trailblazer), Gilbert, you're back! I received a report from the Guards that your mission was a success.
+::'''Gilbert:''' Then... that means my medal of service...
+::'''Dunn:''' Of course, old man &mdash; I've already finished the paperwork for your medal's application. We should hear back from them next week or so.
+::'''Gilbert:''' R&mdash;Really? That's great...
+::'''Gilbert:''' I knew I didn't waste my time taking care of the new generation of soldiers! W&mdash;Well then, I'll return to the logistics unit and wait for the good news from you.
+::'''Gilbert:''' ...And thank you as well, youngster. If not for you, I would've been doomed to be a laughingstock...
+::----
+::'''Dunn:''' *sigh* That old man...
+::<!--Custom String Trigger: Wait_Option_301110204_15-->
+::<!--Custom String Listener: Wait_Option_301110204_15-->
+::{{DIcon|Arrow}} He's too hard on himself...
+:::<!--Custom String Listener: TalkSentence_301110610-->
+:::'''Dunn:''' That's what I was thinking. After so many years of being apart, his family would not be concerned with these military accolades.
+::{{DIcon|Arrow}} Is his family that judgmental?
+:::<!--Custom String Listener: TalkSentence_301110612-->
+:::'''Dunn:''' I haven't met his wife or child, but... I think they won't care about whether or not he has a medal.
+::<!--Custom String Trigger: TalkSentence_301110613-->
+::<!--Custom String Listener: TalkSentence_301110613-->
+::'''Dunn:''' But it's not our place to burst his bubble, is it? This is between him and his family.
+::'''Dunn:''' Promise me something, (Trailblazer) &mdash; if Gilbert comes to you with another request in the future, do your best to help, okay? He's a good man. I don't want to see him suffer during his last few months of service.
+::'''Dunn:''' Oh right, take these. I know you did all the work in taking down that malfunctioning robot. I can't let you leave empty-handed, now can I?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111204-->
+;(If {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon|undefined}} I met this strange woman in the restricted zone...
+::<!--Trigger PerformanceE 201110306: Config/Level/Mission/2011103/Act/Act201110306.json-->
+::'''Dunn:''' A strange woman? Are you sure it wasn't someone from the logistics team or Scientific Research Division?
+::'''Dunn:''' Mmm... Tell me what you found. If necessary, I'll immediately send some Silvermane Guards over to investigate.
+::{{Black Screen|You tell Dunn about your encounter with Cyrille...}}
+::'''Dunn:''' Mmm... a strange woman spouting nonsense, and Armory Boxes just popping out of thin air...
+::'''Dunn:''' It sounds... utterly outrageous, but then again, it doesn't seem that strange coming from you.
+::'''Dunn:''' That's a warehouse stacked with old abandoned ammo, and nobody really goes by there at all &mdash; but to tell the truth, I've heard a few weird rumors in my time...
+::'''Dunn:''' Anyway I think I got the gist of the situation. I'll send some Silvermane Guards over to investigate things thoroughly &mdash; and give the warehouse a once-over at the same time.
+::{{DIcon|Arrow}} Do you know or have you heard about a guy called Stefan?
+::<!--Custom String Listener: TalkSentence_201313098-->
+::'''Dunn:''' ...Stefan? No, never heard of him. Have you got some business with him? Anything I can help out with?
+::{{DIcon|Arrow}} ...Never mind. Forget I said anything.
+:::<!--Custom String Listener: TalkSentence_201313100-->
+:::'''Dunn:''' Hmm? That's a bit weird of you... Eh, I won't pry.
+::{{DIcon|Arrow}} Could you help me look into this name?
+:::<!--Custom String Listener: TalkSentence_201313102-->
+:::'''Dunn:''' No problem. I'll send someone to check the Silvermane Guard roster.
+::<!--Custom String Trigger: TalkSentence_201313103-->
+::<!--Custom String Listener: TalkSentence_201313103-->
+::'''Dunn:''' Anyways, thanks for your contribution to maintaining order here in the restricted zone, outsider. I'll give you a heads-up as soon as I hear anything.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110306-->
+;(If {{cx}}<!--SubMission Started: 201110402-->, {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon|undefined}} You said that you found something in the warehouse?
+::<!--Trigger PerformanceE 201110402: Config/Level/Mission/2011104/Act/Act201110402.json-->
+::'''Dunn:''' My Silvermane Guard squad never found anything strange in the warehouse other than a few weird letters... We scanned them over but nobody had any idea about what they said.
+::'''Dunn:''' I think you might be able to get something out of them... Why don't I leave these with you?
+::'''Dunn:''' Ah yes &mdash; I checked up on that "Stefan" character you mentioned. There's no record of him among our registers, including retired Silvermane Guards and veterans.
+::'''Dunn:''' Looks like I won't be able to help you out. If you want to conduct your own follow-up investigation, I wish you all the best!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110402-->
+;(If {{cx}}<!--SubMission Started: 408131401-->, {{cx}}<!--SubMission Started: 201110402-->, {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon}} About the previous drills...
+::<!--Trigger PerformanceE 408131401: Config/Level/Mission/4081314/Act/Act408131401.json-->
+::'''Dunn:''' Oh, I heard that! Your performance has been so wonderful that all the Silvermane Guards you faced off against have been won over.
+::'''Dunn:''' Your reputation has spread like wildfire throughout the restricted zone, (Trailblazer). We're all looking forward to engaging frequently with you.
+::'''Dunn:''' ...But I guess you have more pressing matters to attend to, yes? Then I wish you all the best.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_408131401-->
+;(If {{cx}}<!--SubMission Started: 408131101-->, {{cx}}<!--SubMission Started: 408131401-->, {{cx}}<!--SubMission Started: 201110402-->, {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon|undefined}} When are we starting drills?
+::<!--Trigger PerformanceE 408131101: Config/Level/Mission/4081311/Act/Act408131101.json-->
+::'''Dunn:''' Ah, so you're keeping this appointment, then. That's great. I knew I could count on you.
+::'''Dunn:''' I've mobilized all the young Silvermane Guards in the restricted zone, and they're all beyond pumped to be fighting against a legend like yourself.
+::'''Dunn:''' Trust me, you'll find it several times tougher this time if you want to break through the defensive line!
+::'''Dunn:''' Speak with my aide when you're ready &mdash; we can start the drill any time. It just takes a moment to set everything up in the restricted zone.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_408131101-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 408131101-->, {{cx}}<!--SubMission Started: 408131401-->, {{cx}}<!--SubMission Started: 201110402-->, {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon}} How have things been?
+::'''Dunn:''' Impeccable timing. Captain Gepard just sent out a bulletin saying that the frequency of Fragmentum activity has noticeably diminished &mdash; all the Silvermane Guards around the restricted zone can finally take a breather.
+::'''Dunn:''' I heard many officers who were stationed on the front line for long periods can finally take their leaves... A long time coming, I'd say.
+::'''Dunn:''' I'm just an insignificant logistics officer. I don't claim to know why you broke into the restricted zone last time... But whatever happened, I'm guessing the cut in Fragmentum activity has an 80% chance of being directly caused by you, right?
+::{{DIcon|Arrow}} Yeah, we're the ones who saved Belobog.
+:::<!--Custom String Listener: TalkSentence_501029861-->
+:::'''Dunn:''' Ha, I knew it! It seems like we all owe you a debt of gratitude for our vacations. Thanks so much!
+::{{DIcon|Arrow}} I can't say anything specific...
+:::<!--Custom String Listener: TalkSentence_501029863-->
+:::'''Dunn:''' Got it, got it... Captain Gepard doesn't like us asking too much either, so let's park this topic for now.
+::{{DIcon|Arrow}} I've never busted into a restricted zone before, and wanna give it a try.
+:::<!--Custom String Listener: TalkSentence_501029865-->
+:::'''Dunn:''' Uh... You're kidding, right?
+::<!--Custom String Trigger: TalkSentence_501029866-->
+::<!--Custom String Listener: TalkSentence_501029866-->
+::'''Dunn:''' *sigh* If only Madam Cocolia hadn't... Hadn't needed to sacrifice herself to save Belobog. What a noble woman.
+::'''Dunn:''' I hope Lady Bronya can inherit her iron will...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 408131101-->, {{cx}}<!--SubMission Started: 408131401-->, {{cx}}<!--SubMission Started: 201110402-->, {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon}} Let's have a chat...
+::'''Dunn:''' Alright, what would you like to chat about?
+::<!--Custom String Trigger: Wait_Option_501029701_32-->
+::<!--Custom String Listener: Wait_Option_501029701_32-->
+::{{DIcon|Talk}} I heard you also do a bit of rock and roll?
+:::<!--Custom String Listener: TalkSentence_501029820-->
+:::'''Dunn:''' Haha, it all happened when I was still in cadet school... Although we were reserve officers, we were still students at the end of the day. So we needed some after-school hobbies to spend our excess energy.
+:::'''Dunn:''' I formed a rock band with a few like-minded friends, which was quite famous in the cadet school back then.
+:::{{DIcon|Arrow}} Who was in your band?
+:::<!--Custom String Listener: TalkSentence_501029823-->
+:::'''Dunn:''' Serval, she's our guitarist and lead singer. She was absolutely charming and talented. She totally deserved her position.
+:::'''Dunn:''' I was her keyboardist... and the two of us always worked quite well together. I always felt like we were... Ahem, nothing.
+:::'''Dunn:''' The next one is the drummer &mdash; this one will shock you! Do you want to guess who it is? Here's a hint &mdash; they're also a member of the Silvermane Guards.
+:::{{DIcon|Arrow}} Could it be Gepard?
+::::<!--Custom String Listener: TalkSentence_501029827-->
+::::'''Dunn:''' Uh... he's a high-ranking officer in the Guards for sure, but he doesn't get along with his sister.
+:::{{DIcon|Arrow}} Could it be Pela?
+::::<!--Custom String Listener: TalkSentence_501029829-->
+::::'''Dunn:''' What a guess! She didn't tell you beforehand, did she?
+:::{{DIcon|Arrow}} Could it be Cocolia?
+::::<!--Custom String Listener: TalkSentence_501029831-->
+::::'''Dunn:''' ...Be careful with your words, outsider!
+:::<!--Custom String Trigger: TalkSentence_501029832-->
+:::<!--Custom String Listener: TalkSentence_501029832-->
+:::'''Dunn:''' The correct answer is Pela. Hard to believe, right? The petite, meticulous intelligence officer is actually a drummer in a rock band... I guess there's too much pressure on the job?
+:::'''Dunn:''' I heard that Pela and Serval still do band practice and live performances together regularly, just like old times...
+:::{{DIcon|Arrow}} There were only three of you in the band?
+:::<!--Custom String Listener: TalkSentence_501029835-->
+:::'''Dunn:''' No, I remember there was another person... Who was it again? I can't believe it, I actually can't remember who it was...
+:::{{DIcon|Arrow}} Doesn't a rock band need a bass player?
+::::<!--Custom String Listener: TalkSentence_501029837-->
+::::'''Dunn:''' Ah&mdash;yes, yes, the bass player! I just remembered it after hearing it from you. Haha...but what was his name again? Wait, was the bass player a guy or a girl...
+::::<!--Custom String Trigger: TalkSentence_501029839-->
+::::<!--Custom String Listener: TalkSentence_501029839-->
+::::'''Dunn:''' ...Eh, never mind. I just can't remember. Don't worry about that person, it's not important.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I don't know much about rock bands, sorry.
+::::<!--Custom String Listener: TalkSentence_501029839-->
+::::'''Dunn:''' ...Eh, never mind. I just can't remember. Don't worry about that person, it's not important.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You and Serval...
+:::<!--Custom String Listener: TalkSentence_501029841-->
+:::'''Dunn:''' ...
+:::'''Dunn:''' It's history already. Sometimes letting go is the best choice...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What kind of job did you do in the military?
+:::<!--Custom String Listener: TalkSentence_501029844-->
+:::'''Dunn:''' I am responsible for the general management of the support lines in the restricted zone. Munitions, logistics, energy... all of these are under my control.
+:::'''Dunn:''' I am also responsible for direct communication with the front line. If the front line was breached... my boys and I would have to form the last line of defense to prevent the enemy from infiltrating the city.
+:::{{DIcon|Return}} That sounds dangerous.
+::::<!--Custom String Listener: TalkSentence_501029847-->
+::::'''Dunn:''' Fortunately, we have Captain Gepard... So things like that have never happened.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} That doesn't sound very dangerous.
+::::<!--Custom String Listener: TalkSentence_501029849-->
+::::'''Dunn:''' It's all thanks to Captain Gepard... At least so far, there has never been a record of a Fragmentum monster getting out of the restricted zone.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: TalkSentence_501029851-->
+:::'''Dunn:''' Later!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 408131101-->, {{cx}}<!--SubMission Started: 408131401-->, {{cx}}<!--SubMission Started: 201110402-->, {{cx}}<!--SubMission Started: 201110306-->, {{cx}}<!--SubMission Started: 301111204-->, and {{cx}}<!--SubMission Started: 101110107-->)
+:{{DIcon|Exit}} I have other things to do. Talk to you later.
+::'''Dunn:''' Later!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Silvermane Lieutenant
+|zhs  = 银鬃尉官
+|zht  = 銀鬃尉官
+|ja   = シルバーメイン・尉官
+|ko   = 실버메인 사관
+|es   = Teniente Crinargenta
+|fr   = Lieutenant de la crinière d'argent
+|ru   = Лейтенант Среброгривых Стражей
+|th   = Silvermane Lieutenant
+|vi   = Hiệu Úy Bờm Bạc
+|de   = Silbermähnen-Leutnant
+|id   = Silvermane Lieutenant
+|pt   = Tenente Crinalva
+}}
+==Change History==
+{{Change History|TODO}}

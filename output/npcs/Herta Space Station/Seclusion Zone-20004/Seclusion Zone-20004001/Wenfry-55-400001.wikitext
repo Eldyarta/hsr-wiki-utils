@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wenfry#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Wenfry.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Wenfry''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_55_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000142: Config/Level/Mission/5000030/Act/Act900000142.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500014301
+	]
+}</pre>
+::'''Wenfry:''' It's suuuuper boring to be cooped up here all day. Everything here is boring... Um, except for Wubbaboo... and Wendy.
+::'''Wenfry:''' Mm, you look funny. I've never seen such a tall... Um, are you that... space station researcher that Wubbaboo talks about?
+::{{DIcon|Arrow}} It's not my fault I grew so tall.
+:::<!--Custom String Listener: TalkSentence_500014205-->
+:::'''Wenfry:''' I hear that researchers are typically humans. Wubbaboo says that their caretaker is kinda short, about the same height as us.
+:::'''Wenfry:''' I'm surprised to see a researcher as tall as you. It's disappointing for me to see the human species being so unstable.
+::{{DIcon|Arrow}} Take a guess!
+:::<!--Custom String Listener: TalkSentence_500014208-->
+:::'''Wenfry:''' Guess if I'll take a guess.
+:::It lets out a disgruntled snort, which sounds like a purr coming from the throat of a small feline creature.
+::<!--Custom String Trigger: TalkSentence_500014210-->
+::<!--Custom String Listener: TalkSentence_500014210-->
+::It gives the hem of your clothing a serious sniff and frowns disapprovingly.
+::'''Wenfry:''' The smell on you is quite strange. There's a metallic, rusty scent, a faint freshness, and... so many different senses? Is this what they call the "researcher" smell?
+::'''Wenfry:''' Yes, Wubbaboo said you guys have to do research regularly... I see now... The space station is really fascinating, even the smells are so complex. It's amazing... Unlike me, stuck in this lousy place all day with nothing much to do...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000143: Config/Level/Mission/5000030/Act/Act900000143.json-->
+::'''Wenfry:''' It's suuuuper boring to be cooped up here all day. Everything here is boring... Um, except for Wubbaboo... and Wendy.
+::'''Wenfry:''' Oh, it's you again. What's up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to ask...
+::<!--Custom String Trigger: Wait_Option_900000144_43-->
+::<!--Custom String Listener: Wait_Option_900000144_43-->
+::{{DIcon|Talk}} Do you know Wubbaboo too?
+:::<!--Custom String Listener: TalkSentence_500014404-->
+:::'''Wenfry:''' Yes, there's a Wubbaboo here. I had a chat with it, and it said it sneaked out from some sort of compartment in the space station, even told me a lot of stories about the space station.
+:::'''Wenfry:''' Wubbaboo seems a bit slow... That's why it's being manipulated by that pretentious Joseph guy. I pointed that out to Wubbaboo, but my advice fell on deaf ears...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Would you like to visit the other zones?
+:::<!--Custom String Listener: TalkSentence_500014407-->
+:::'''Wenfry:''' As in to sightsee? Oh, please, don't treat me like one of those Wubbaboo. I'm nothing like it, I don't spend my days goofing around.
+:::'''Wenfry:''' I've thought it all through. Based on Wubbaboo's description and my evaluation of my intelligence level, I don't think there's much difference between me and the researchers as mentioned by Wubbaboo. I'm sure I can be a researcher too.
+:::'''Wenfry:''' I'm going to secretly work on my research. If everything goes well, I'll be able to blow Miss Ruan Mei away with my result!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are there so many Wens on the space station?
+:::<!--Custom String Listener: TalkSentence_500014411-->
+:::'''Wenfry:''' I heard from the Wubbaboo that the Department of Ecolurgy researcher who took care of it was a kid named Wen Deliao or something. Many people in that department, old or young, have Wen as their last name. It seems to be a tradition of that department.
+:::'''Wenfry:''' As the most promising lifeform under Miss Ruan Mei's guidance, I believe I'll one day lead the Department of Ecolurgy. So, I've changed my name in advance to blend in with everyone else when the day comes.
+:::{{DIcon|Arrow}} Are you sure you didn't mishear the name?
+::::<!--Custom String Listener: TalkSentence_500014414-->
+::::'''Wenfry:''' I was sure the name is "Wen Deliao." You can find out for yourself if you don't believe me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What kind of tradition is that?
+::::<!--Custom String Listener: TalkSentence_500014416-->
+::::'''Wenfry:''' I wondered about that before, and I figured there are two possible explanations &mdash; either everyone on the planet has the last name of Wen, or all researchers that join the Department of Ecolurgy are required to have a codename. I believe it's the latter.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500014418-->
+:::'''Wenfry:''' Well, you'd better take your leave. I need some time alone.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll leave you to it.
+::'''Wenfry:''' Sure, let's talk again soon. Next time... you can share your experience at the space station with me.
+::'''Wenfry:''' I should probably change my perception of the space station researchers, they don't seem to be that much more intelligent than I am... Looks like I have what it takes to be a researcher too.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

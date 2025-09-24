@@ -1,0 +1,133 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dagra#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Loitering Man
+|image           = NPC Dagra.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Dagra''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_205_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504055001: Config/Level/Mission/5040550/Act/Act504055001.json-->
+::'''Dagra:''' Hey there, friend! Interested in knick-knacks? I've got ritual candlesticks from Ladon, fine cheese from Aidonia, and toys handmade by the Holy Maiden herself &mdash; all at great prices!
+::{{DIcon|Arrow}} They aren't counterfeit, are they?
+:::<!--Custom String Listener: TalkSentence_504055003-->
+:::'''Dagra:''' What an accusation! By {{Rubi|Talanton|Law Titan}}, I swear what I advertise is what you get! Not a word of falsehood! Besides, how could I possibly procure counterfeits?
+::{{DIcon|Arrow}} Where did all these items come from?
+:::<!--Custom String Listener: TalkSentence_504055005-->
+:::'''Dagra:''' It's all about sourcing! By {{Rubi|Talanton|Law Titan}}, I swear these are all directly from the producers, genuinely honest dealings!
+::<!--Custom String Trigger: TalkSentence_504055006-->
+::<!--Custom String Listener: TalkSentence_504055006-->
+::'''Dagra:''' Take this feather pen from Idilia, for instance. Made from feathers shed by Aquila! That city-state is miles away. Even if a dromas gorged itself and ran at full speed, it would have to leave in the Month of Strife and only get there in the Month of Fortune.
+::'''Dagra:''' Funny enough, a group of pilgrims from that place came through yesterday, bringing loads of offerings. One of them caught my eye &mdash; it looked pretty unique &mdash; so I snagged it for the stock. There's only one, so it's first come, first served!
+::{{DIcon|Arrow}} Stolen? I'm reporting this.
+:::<!--Custom String Listener: TalkSentence_504055009-->
+:::'''Dagra:''' Ah, as expected, you don't understand me either. Trust me. Don't bother reporting it. It'll just end with the guards pocketing bribes for nothing.
+:::'''Dagra:''' I'll explain the whole thing to you, but don't waste your time on such people. Associating with those who can be bought with Balance Coins is bad luck for me!
+::{{DIcon|Arrow}} Guard &mdash;!
+:::<!--Custom String Listener: TalkSentence_504055012-->
+:::A nearby guard glances at you but remains indifferent.
+:::'''Dagra:''' Ah, you don't understand me either. I'll explain the whole thing, but don't waste your time on such people. Dealing with anyone who can be bought off with Balance Coins just feels like inviting bad luck!
+::<!--Custom String Trigger: TalkSentence_504055014-->
+::<!--Custom String Listener: TalkSentence_504055014-->
+::'''Dagra:''' Don't lump me in with those thieves. I am a disciple of Talanton, and I would never engage in corruption! Besides, I'm not short on money, so I wouldn't steal to make ends meet!
+::'''Dagra:''' But think about it &mdash; what would happen to those offerings if I didn't take them? They'd either be secretly pocketed by the priests or tossed into the sea. Does that sound right to you? Absolutely not!
+::'''Dagra:''' As a follower of {{Rubi|Talanton|Law Titan}}, it is my solemn duty to ensure every item is assessed with fairness and justice. For this cause, I'm even willing to bear the shame of being called a thief.
+::{{DIcon|Arrow}} I'm struggling to understand this.
+::{{DIcon|Arrow}} So you consider yourself a righteous man?
+::<!--Custom String Listener: TalkSentence_504055019-->
+::'''Dagra:''' Nevermind then. This is the law I uphold, and my conscience is clear.
+::'''Dagra:''' Anyway, if you're not buying, maybe we can both excuse ourselves. But if you're interested, we can keep talking.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504055002: Config/Level/Mission/5040550/Act/Act504055002.json-->
+::'''Dagra:''' &mdash; Mythemis' seals and chilled pies make from offering fruits! Everything's for sale, all at great prices!
+::'''Dagra:''' Hey, it's you. So, what do you say? Interested in making a deal?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to ask...
+::'''Dagra:''' Go ahead. Business is slow right now.
+::<!--Custom String Trigger: Wait_Option_504055003_48-->
+::<!--Custom String Listener: Wait_Option_504055003_48-->
+::{{DIcon|Talk}} Tell me your philosophy again?
+:::<!--Custom String Listener: TalkSentence_504055113-->
+:::'''Dagra:''' "I, Dagra, a devoted disciple of Talanton, swear upon the scales &mdash; I shall fight tirelessly for the fair valuation of all things, abiding by the law within my heart. Let this conviction stand, until death... and beyond!"
+:::'''Dagra:''' As for the guards, they just don't get it. They call it theft and want the priests to arrest me. But aren't the priests the same ones secretly stuffing their own pockets? Ridiculous!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you ever taken anything from the Holy Maiden?
+:::<!--Custom String Listener: TalkSentence_504055116-->
+:::'''Dagra:''' Ah, to tell the truth, I do owe the Holy Maiden an apology. The last time I was stocking up, I accidentally took one of her handmade creations, and she's seen me as a thief ever since. But her trinkets... I've got to admit, they're revolutionary creations!
+:::'''Dagra:''' Just imagine &mdash; a miniaturized version of Janus's Hidden Passage, a cup that enables long-distance communication, and even animated models of wondrous beasts... I couldn't help myself. I was so eager to show these wonders to the world that I ended up taking a few more.
+:::{{DIcon|Arrow}} The Holy Maiden would never waste anything.
+:::{{DIcon|Arrow}} Even after all that, you still insist you're not stealing?
+:::<!--Custom String Listener: TalkSentence_504055120-->
+:::'''Dagra:''' Hold on. Perhaps you've heard that all things belonging to the Holy Maiden are ultimately confiscated by the priests, with the excuse of "returning borrowed time to destiny"... But let's be honest. Anyone with a bit of sense knows what's going on.
+:::'''Dagra:''' If I don't take them, they'll just end up benefiting those priests. What would the Holy Maiden have left? Nothing!
+:::'''Dagra:''' Ah, the path of a faithful disciple is always riddled with thorns.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Quit taking what isn't yours and live an honest life.
+:::<!--Custom String Listener: TalkSentence_504055124-->
+:::'''Dagra:''' Ha, that's your law to follow, not mine. But I get it. Running into someone so devoted to justice around here is a rare thing. I'm sure Talanton would commend you for it.
+:::'''Dagra:''' Farewell. May the Fate Titans bless you!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Quit taking what isn't yours and live an honest life.
+::'''Dagra:''' Ha, that's your law to follow, not mine. But I get it. Running into someone so devoted to justice around here is a rare thing. I'm sure Talanton would commend you for it.
+::'''Dagra:''' Farewell. May the Fate Titans bless you!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Dagra
+|zhs  = 达格拉
+|zht  = 達格拉
+|ja   = ダゲーラ
+|ko   = 다그라
+|es   = Dagra
+|fr   = Dagra
+|ru   = Даграл
+|th   = Dagra
+|vi   = Dagra
+|de   = Dagra
+|id   = Dagra
+|pt   = Dagra
+}}
+==Change History==
+{{Change History|TODO}}

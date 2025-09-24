@@ -1,0 +1,95 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tall Auntie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Food Stall Owner
+|image           = NPC Tall Auntie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Tall Auntie''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_285_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 502064101: Config/Level/NPCDialogue/P10202/NPCAct/Act502064101.json-->
+:'''Tall Auntie:''' Welcome! I only sell authentic Luofu snacks! Freshly baked!
+:'''Tall Auntie:''' Want to try some local Luofu snacks, customer? You'll love them!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} What have you got for sale?
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 285,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 26,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502064201: Config/Level/NPCDialogue/P10202/NPCAct/Act502064201.json-->
+::'''Tall Auntie:''' My business is booming! More and more tourists are flocking the Aurum Alley, and our authentic Luofu snacks are selling like hotcakes!
+::'''Tall Auntie:''' The storytelling and crosstalk comedy sessions you arranged for me are well-received too. Some people sit down and order something to eat just because they are drawn to the performances. That makes our business even better.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502064201-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I don't have an appetite now.
+::'''Tall Auntie:''' Thank you for stopping by!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tall Auntie
+|zhs  = 高阿姨
+|zht  = 高阿姨
+|ja   = コウおばちゃん
+|ko   = 키 큰 이모
+|es   = Mujer alta
+|fr   = Grande Tatie
+|ru   = Тётя Каланча
+|th   = คุณน้าตัวสูง
+|vi   = Dì Cao
+|de   = Großes Tantchen
+|id   = Bibi Tinggi
+|pt   = Tia Alta
+}}
+==Change History==
+{{Change History|TODO}}

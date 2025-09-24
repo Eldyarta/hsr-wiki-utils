@@ -1,0 +1,1052 @@
+<%-- [PAGE_INFO]
+PageTitle=#Professor Owl#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Professor Owl.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Penacony Paperfold University College
+|relatives       = 
+}}
+'''Professor Owl''' is an NPC on [[Penacony]], located in [[Penacony Paperfold University College]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Penacony Paperfold University College|npc_63_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 506010001: Config/Level/Mission/5060100/Act/Act506010001.json-->
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Professor Owl:''' Hoot hoot... These playful children, they've all gone missing.
+:::'''Professor Owl:''' What a headache, hoot.
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_506011004-->
+::;(If {{F|FSV_MeetOrigamiOwl}} is undefined 0)
+::::'''Professor Owl:''' Hoot hoot... I've never seen you before. Are you a new transfer student?
+::::'''Professor Owl:''' My apologies, I'm in a bit of trouble here &mdash; I won't be able to help you handle your admission process right now.
+::::'''Professor Owl:''' Today was supposed to be Paperfold Woods's final exam day, but once those children heard about the exam, they all fled without a trace while I wasn't looking, hoot hoot!
+::;(If {{F|FSV_MeetOrigamiOwl}} is not undefined 0)
+::::'''Professor Owl:''' Hoot hoot... It's you, the distinguished new student.
+::::'''Professor Owl:''' Today was supposed to be Paperfold Woods's final exam day, but once those children heard about the exam, they all fled without a trace while I wasn't looking, hoot hoot.
+:::{{DIcon|Arrow}} Final exam?
+:::<!--Custom String Listener: TalkSentence_506011010-->
+:::'''Professor Owl:''' Hoot hoot, I advocate in learning through play, so the children study through games and practical tasks. As the birds grow, I will slowly add stringent educational methods like textbook tests.
+:::'''Professor Owl:''' But these lil' fellas inherently yearn for freedom, and protest these tests &mdash; an evil presence they deem alien in the Dreamville, hoot.
+:::'''Professor Owl:''' I just got done searching for a round &mdash; they turn tail and fly away the moment they see me. These old wings of mine are no match for them in speed... Not only is my back sore now, I didn't even manage to retrieve a little birdie, hoot.
+:::'''Professor Owl:''' But, hoot hoot... New student, I see you're quick on your feet, and you're affable &mdash; the birds will surely trust you. How about helping me out?
+:::{{DIcon|Arrow}} This is my specialty.
+:::{{DIcon|Arrow}} Just let me know what you need.
+:::{{DIcon|Arrow}} Count me in. Exams are a major event in a bird's life.
+:::<!--Custom String Listener: TalkSentence_506011017-->
+:::'''Professor Owl:''' Hoot hoot, such a helpful student! Well then, look for those mischievous children in my stead, and pass along a message: When exams are over, this old bird will take them to the town and buy tasty Dreamy Cones! Pinky promise, hoot!
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Professor Owl:''' Hoot hoot hoot...
+::::'''Professor Owl:''' Hoot hoot! The children have all obediently returned!
+::::'''Professor Owl:''' Distinguished new student, thank you for assisting Paperfold Woods' educational process. You must accept my token of appreciation.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200301
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200302
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200302
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Inverse":true}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Professor Owl:''' Hoot hoot...
+:::::'''Professor Owl:''' 1... 2... 3... Already so many children persuaded to come home.
+:::::'''Professor Owl:''' I knew the birds liked you. This is a token of appreciation from this old bird. Please take it.
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200301
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+:::::'''Professor Owl:''' I will stay here and wait for the returning birds. I'm leaving the search to you! This old bird will surely repay you lavishly, hoot.
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 506010002: Config/Level/Mission/5060100/Act/Act506010002.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Professor Owl:''' Hoot hoot... Excellent, all the children have obediently returned!
+:::::'''Professor Owl:''' Distinguished new student, thank you for assisting Paperfold Woods' educational process. You must accept my token of appreciation.
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200301
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200302
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Inverse":true}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::::'''Professor Owl:''' Hoot hoot... Excellent, all the children have obediently returned! We can start the exam!
+::::::'''Professor Owl:''' Distinguished new student, thank you for assisting Paperfold Woods' educational process. You must accept my token of appreciation.
+:::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200302
+			}
+		}
+	]
+}</pre>
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Inverse":true}-->}})
+::::::'''Professor Owl:''' Hoot hoot... Distinguished new student, join our classes if you have time. The birds will be happy to see you.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Professor Owl:''' Hoot hoot... The children have all returned with you. They really trust you so much.
+:::::'''Professor Owl:''' Thank you for your trouble, new student. This is a token of this old bird's appreciation. Please accept it, hoot.
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200301
+			}
+		}
+	]
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200301}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Professor Owl:''' Hoot hoot... Slow does it, and there's no rush. I will wait for all the children to return before starting the exam.
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+:::{{DIcon}} About yourself...
+::::'''Professor Owl:''' I am Professor Owl. I helped a group of amazing friends build Dreamville, hoot.
+::::'''Professor Owl:''' ...But, that was many, many years ago. I am now the origami birds' teacher. A bird's energy and spirit do whittle eventually &mdash; we must entrust the skies of tomorrow to the next generation, hoot.
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":6}},"EquationType":"GreaterEqual"}-->}})
+:{{DIcon}} About Paperfold Woods...
+::::'''Professor Owl:''' Hoot hoot! Paperfold Woods is this old bird's proudest creation, hoot!
+::::'''Professor Owl:''' It is a teacher's duty to plant the seeds of dreams for the children &mdash; from the inaugural building block class to the subsequent music note classes and Gold Coin Classes. I hope that every bird will be able to find their own beautiful dream, hoot.
+::::<!--Ends the current performance-->
+::;(If {{Mission|Dream Song|showChapter=0}} has been completed and {{F|FSV_OrigamiCount}} is undefined 1)
+:{{DIcon|Origami Bird}} What about your apprentices...
+::::What about your apprentices...
+::::Professor Owl is obviously somewhat puzzled at this sudden question &mdash; he clears his throat, and hastily composes himself.
+::::'''Professor Owl:''' Cuckoo, you've already seen them in other places. Why the curiosity?
+::::'''??:''' Professor Owl, Professor Owl, tweet...
+::::A chatter of cacophony reaches your ears &mdash; five rotund figures fly over with their flappy wings.
+::::'''Pink Bird:''' Professor Owl, I'm your student, Dr. Blues, tweet!
+::::'''Blue Bird:''' That's not right, tweet!!! We agreed to play our roles according to color &mdash; you're Lady Vermilion, and I should be Dr. Blues, tweet.
+::::'''Pink Bird:''' But I love Dr. Blues' pieces the most, tweet. I wanna be Dr. Blues, tweet!
+::::{{DIcon|Arrow}} What are you all doing?
+::::<!--Custom String Listener: TalkSentence_506015009-->
+::::'''Yellow Bird:''' Tweet, tweet, all birds line up and start over, I'll take the lead... We're the students that Professor Owl is most proud of...
+::::'''All Birds:''' ...The most outstanding five origami birds of legend, tweeeet!!!
+::::'''Professor Owl:''' Hoot hoot...
+::::'''Green Bird:''' He's doing it again. Professor's making that face again, tweet!
+::::{{DIcon|Arrow}} What face?
+::::{{DIcon|Arrow}} What's wrong with Professor Owl?
+::::<!--Custom String Listener: TalkSentence_506015015-->
+::::'''Red Bird:''' Professor Owl loves telling the story of the five origami birds: Young Master Gold, Boss Red, Verdant Manager, Lady Vermilion, and Dr. Blues... All the birds grew up hearing these names, tweet. Each time they are mentioned, the Professor's always beams with pride.
+::::{{tx}}
+:::<pre>{
+	"$type": "RPG.GameCore.PropReqInteract",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvPropEx",
+		"FetchType": "SinglePropByPropID",
+		"SinglePropID": {
+			"GroupID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 63
+				}
+			},
+			"ID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 300005
+				}
+			}
+		},
+		"PropIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 300005
+			}
+		}
+	},
+	"InteractID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1010
+		}
+	}
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"Inverse":true}-->}} and {{Mission|Dream Song|showChapter=0}} has been completed and {{F|FSV_OrigamiCount}} is undefined 1)
+:{{DIcon}} I need a few hints.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":11}},"Inverse":true}-->}})
+:::::'''Professor Owl:''' Hoot hoot... The mind gets hazier with age.
+:::::'''Professor Owl:''' If I could imbibe a magic coin, I could probably recall more details, hoot.
+:::::{{DIcon|Arrow}} (Take out an Aideen Token)
+::::::<!--Custom String Listener: TalkSentence_506011324-->
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 11
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerSound",
+			"SoundName": {
+				"Value": "Ev_vo_origamibirds_appear"
+			},
+			"EmitterType": "TargetEvaluator",
+			"TargetType": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 506011324,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"PrevDuration": 0.1,
+			"KeepDuration": 0.1,
+			"PostDuration": 0.1,
+			"KeepDisplay": true,
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 506011325
+					}
+				]
+			},
+			"Action": [
+				{
+					"$type": "RPG.GameCore.ScrTrfActTaskList",
+					"TaskList": [
+						{
+							"$type": "RPG.GameCore.TriggerSound",
+							"SoundName": {
+								"Value": "Ev_sfx_origamibird_eatcoin"
+							},
+							"EmitterType": "DefaultEmitter"
+						}
+					]
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.CharacterTriggerFreeStyle",
+			"TargetAlias": {
+				"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+				"FetchType": "SingleNpcByOwnerGroupAndID",
+				"SingleNpcKey": {
+					"Custom": true,
+					"Key": "TargetNPC"
+				},
+				"SingleNpcID": {
+					"GroupNpcID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 400001
+						}
+					}
+				},
+				"SingleUniqueName": {
+					"Value": "InteractTarget_OrigamiBird01"
+				},
+				"NpcIDInOwnerGroup": {
+					"IsDynamic": false,
+					"FixedValue": {
+						"Value": 400001
+					}
+				}
+			},
+			"StoryAvatarID": "NPC_Special_OrigamiBird_00",
+			"StoryMotionID": 900090014
+		},
+		{
+			"$type": "RPG.GameCore.WaitSecond",
+			"WaitTime": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 0.1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 506011326,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 11
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 64
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011327
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 65
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011328
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 66
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011329
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 67
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011330
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 68
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011331
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 69
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011332
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 70
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011333
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 71
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011334
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 72
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011335
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 73
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011336
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 74
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011337
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 75
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011338
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 76
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011339
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 77
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011340
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 78
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011341
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 79
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011342
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 80
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011343
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 81
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011344
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 82
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011345
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 83
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 506011346
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_506011350"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::{{DIcon|Arrow}} Never mind.
+::::::<!--Custom String Listener: TalkSentence_506011350-->
+::::::'''Professor Owl:''' No worries. This old bird will try to jog his memory by rattling this rusty brain, hoot.
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":11}},"Inverse":true}-->}})
+:::::'''Professor Owl:''' Hoot hoot, thank you for helping me out, else this old bird would be in knots trying to deal with these kids.
+:::::'''Professor Owl:''' I'll try to recall where the other kids went. I'm counting on you to bring back these playful ones, hoot.
+::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{Mission|Dream Song|showChapter=0}} has been completed and {{F|FSV_OrigamiCount}} is undefined 1)
+:{{DIcon|Exit}} Catch you next time.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Professor Owl:''' Hoot hoot, you are always welcome to attend class in Paperfold Woods.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200302}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Professor Owl:''' Hoot hoot, I'll be leaving these little rascals to you.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Professor Owl
+|zhs  = 猫头鹰老师
+|zht  = 貓頭鷹老師
+|ja   = フクロウ先生
+|ko   = 부엉이 선생
+|es   = Profesor Búho
+|fr   = Professeur Hibou
+|ru   = Профессор Филин
+|th   = ศาสตราจารย์นกฮูก
+|vi   = Thầy Cú Mèo
+|de   = Professor Eule
+|id   = Profesor Burung Hantu
+|pt   = Professor Coruja
+}}
+==Change History==
+{{Change History|TODO}}

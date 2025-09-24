@@ -1,0 +1,133 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Phainon's Memory)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Phainon's Memory).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''(Phainon's Memory)''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_174_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504112002: Config/Level/Mission/5041120/Act/Act504112002.json-->
+:<!--Custom String Trigger: Wait_TimeLJ-->
+:<!--Custom String Listener: Wait_TimeLJ-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<!--0.5-second delay-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	}
+}</pre>
+:'''Pythias:''' Phainon, you once said you wanted to leave Aedes Elysiae and explore the wider world. How's that going?
+:{{DIcon|Arrow}} Everything's ready now.
+::<!--Custom String Listener: TalkSentence_504112103-->
+::'''Pythias:''' Good to hear. Life here is quiet, but out there... you'll need to stay sharp.
+:{{DIcon|Arrow}} There are still a few things I haven't figured out...
+::<!--Custom String Listener: TalkSentence_504112105-->
+::'''Pythias:''' Hehe, ever since childhood, you've always had a careful mind &mdash; always planing ahead.
+::'''Pythias:''' But it's okay. Even if you decide to stay, I'll still support you. There's value in adventure, yes &mdash; but living a quiet, steady life is also a choice worth making.
+:<!--Custom String Trigger: TalkSentence_504112107-->
+:<!--Custom String Listener: TalkSentence_504112107-->
+:'''Pythias:''' Just don't pressure yourself. Whatever you choose, as long as it's what your heart tells you... that's enough.
+:'''Pythias:''' As for the info of the Grove you asked me to look into, I've managed to dig up a few leads.
+:'''Pythias:''' Though I've never been there myself, they say the sages of its various schools are all brilliant minds &mdash; learned, skilled, and deeply respected. Studying under one of them would surely take you far.
+:{{DIcon|Arrow}} In that case... I've gotta see this myself.
+:{{DIcon|Arrow}} Just wait till I come back a master!
+:<!--Custom String Listener: TalkSentence_504112112-->
+:'''Pythias:''' Hehe, that's the spirit. But... I've also heard the Grove of Epiphany places great value on open debate and independent thinking. The academic scene is extremely free &mdash; so much so that bizarre and radical theories pop up all the time.
+:'''Pythias:''' If you really plan to go, you'll need to keep your eyes sharp. Learn what you can, but don't lose your way.
+:{{DIcon|Arrow}} I'll keep that in mind.
+:<!--Custom String Listener: TalkSentence_504112115-->
+:'''Pythias:''' Well, I've rambled enough &mdash; you must've had your fill. Off with you now.
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	},
+	"Hide": false
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

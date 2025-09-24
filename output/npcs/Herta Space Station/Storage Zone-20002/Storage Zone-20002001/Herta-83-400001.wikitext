@@ -1,0 +1,456 @@
+<%-- [PAGE_INFO]
+PageTitle=#Herta#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Herta.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Storage Zone
+|relatives       = 
+}}
+'''Herta''' is an NPC on [[Herta Space Station]], located in [[Storage Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Storage Zone|npc_83_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 200032002-->)
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_4"
+			}
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission not Started: 200032002-->)
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_5"
+			}
+		}
+	]
+}</pre>
+;(Unused &mdash; 500002106_1)
+:<!--Custom String Listener: 500002106_1-->
+::'''Herta:''' Stop staring at my puppet all the time! I don't find the view of your nostrils that enjoyable.
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_2)
+:<!--Custom String Listener: 500002106_2-->
+::'''Herta:''' If you don't have anything better to do, go test my Simulated Universe. Quit wandering about the station carrying a Stellaron. People will have to wipe you down everywhere if it explodes.
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_3)
+:<!--Custom String Listener: 500002106_3-->
+::'''Herta:''' You look like you need work. How about assisting me with a tiny little experiment?
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_4)
+:<!--Custom String Listener: 500002106_4-->
+::'''Herta:''' State your business and stop blocking my view.
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_5)
+:<!--Custom String Listener: 500002106_5-->
+::'''Herta:''' ...
+::No reaction from the puppet, looks like Herta hasn't come online yet.
+::<!--Ends the current performance-->
+:<!--Trigger PerformanceE 500002106: Config/Level/NPC/W0/NPC_DefaultStory_500002106.json-->
+;(If {{cx}}<!--SubMission Started: 200032002-->)
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.25
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_4"
+			}
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission not Started: 200032002-->)
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 0.2
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "500002106_5"
+			}
+		}
+	]
+}</pre>
+:<!--Custom String Trigger: Talk_404002102-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 200032002-->)
+:{{DIcon|?}} There are strange bubbles at the space station...
+::<!--Trigger PerformanceE 404001602: Config/Level/Mission/4040016/Act/Act404001602.json-->
+::'''Herta:''' Oh, this is a top secret. Outsiders can never know that I own this thing. You must sign a non-disclosure agreement first.
+::{{DIcon|Arrow}} What's inside?
+:::<!--Custom String Listener: TalkSentence_404001609-->
+:::'''Herta:''' I won't tell you a thing before you sign the agreement.
+:::<!--Custom String Trigger: TalkSentence_404001614-->
+:::<!--Custom String Listener: TalkSentence_404001614-->
+:::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+:::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+:::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+::::<!--Custom String Listener: TalkSentence_404001617-->
+::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+:::{{DIcon|Arrow}} Law of the Imaginary?
+::::<!--Custom String Listener: TalkSentence_404001619-->
+::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+:::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+::::<!--Custom String Listener: TalkSentence_404001621-->
+::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+:::<!--Custom String Trigger: TalkSentence_404001622-->
+:::<!--Custom String Listener: TalkSentence_404001622-->
+:::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+:::<!--Custom String Trigger: Wait_Option_404001602_44-->
+:::<!--Custom String Listener: Wait_Option_404001602_44-->
+:::{{DIcon|Talk}} Memory Bubble?
+::::<!--Custom String Listener: TalkSentence_404001624-->
+::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The Garden of Recollection?
+::::<!--Custom String Listener: TalkSentence_404001627-->
+::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Who are the Memokeepers?
+::::<!--Custom String Listener: TalkSentence_404001630-->
+::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Can I touch the bubble now?
+::::<!--Custom String Listener: TalkSentence_404001633-->
+::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+::::<!--Custom String Trigger: Talk_404011602-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Fine. I'll sign it.
+:::<!--Custom String Listener: TalkSentence_404001611-->
+:::'''Herta:''' Great...
+:::<!--Custom String Trigger: TalkSentence_404001614-->
+:::<!--Custom String Listener: TalkSentence_404001614-->
+:::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+:::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+:::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+::::<!--Custom String Listener: TalkSentence_404001617-->
+::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+:::{{DIcon|Arrow}} Law of the Imaginary?
+::::<!--Custom String Listener: TalkSentence_404001619-->
+::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+:::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+::::<!--Custom String Listener: TalkSentence_404001621-->
+::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+:::<!--Custom String Trigger: TalkSentence_404001622-->
+:::<!--Custom String Listener: TalkSentence_404001622-->
+:::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+:::<!--Custom String Trigger: Wait_Option_404001602_44-->
+:::<!--Custom String Listener: Wait_Option_404001602_44-->
+:::{{DIcon|Talk}} Memory Bubble?
+::::<!--Custom String Listener: TalkSentence_404001624-->
+::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The Garden of Recollection?
+::::<!--Custom String Listener: TalkSentence_404001627-->
+::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Who are the Memokeepers?
+::::<!--Custom String Listener: TalkSentence_404001630-->
+::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Can I touch the bubble now?
+::::<!--Custom String Listener: TalkSentence_404001633-->
+::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+::::<!--Custom String Trigger: Talk_404011602-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'll consider it.
+:::<!--Custom String Listener: TalkSentence_404001613-->
+:::'''Herta:''' Suit yourself.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200032002--> and {{cx}}<!--SubMission Started: 200032002-->)
+:{{DIcon|Exit}} I'll stop bothering you.
+::<!--Trigger PerformanceE 500002103: Config/Level/NPC/W0/NPC_DefaultStory_500002103.json-->
+::'''Herta:''' Yep, yep, whatever.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_500002103-->
+;(Unused &mdash; 500002106_1)
+:<!--Custom String Listener: 500002106_1-->
+::'''Herta:''' Stop staring at my puppet all the time! I don't find the view of your nostrils that enjoyable.
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_2)
+:<!--Custom String Listener: 500002106_2-->
+::'''Herta:''' If you don't have anything better to do, go test my Simulated Universe. Quit wandering about the station carrying a Stellaron. People will have to wipe you down everywhere if it explodes.
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_3)
+:<!--Custom String Listener: 500002106_3-->
+::'''Herta:''' You look like you need work. How about assisting me with a tiny little experiment?
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_4)
+:<!--Custom String Listener: 500002106_4-->
+::'''Herta:''' State your business and stop blocking my view.
+::<!--Ends the current performance-->
+;(Unused &mdash; 500002106_5)
+:<!--Custom String Listener: 500002106_5-->
+::'''Herta:''' ...
+::No reaction from the puppet, looks like Herta hasn't come online yet.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Herta
+|zhs  = 黑塔
+|zht  = 黑塔
+|ja   = ヘルタ
+|ko   = 헤르타
+|es   = Herta
+|fr   = Herta
+|ru   = Герта
+|th   = Herta
+|vi   = Herta
+|de   = Herta
+|id   = Herta
+|pt   = Herta
+}}
+==Change History==
+{{Change History|TODO}}

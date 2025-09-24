@@ -1,0 +1,139 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hygilos#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Thief's Hand Owner
+|image           = NPC Hygilos.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Hygilos''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_38_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504035001: Config/Level/Mission/5040350/Act/Act504035001.json-->
+::'''Hygilos:''' Hey friend. Looking for something that soars as easily as it breathes?
+::'''Hygilos:''' You've come to the right place &mdash; welcome to the "Whimsy Hand"!
+::{{DIcon|Arrow}} What kinda shop is this?
+:::<!--Custom String Listener: TalkSentence_504035004-->
+:::'''Hygilos:''' Aha, you must be a guest from afar. Here in Okhema, everyone knows of my famed shop, Hygilos and his Whimsy Hand!
+::{{DIcon|Arrow}} I'm just passing by.
+:::<!--Custom String Listener: TalkSentence_504035006-->
+:::'''Hygilos:''' Hah, a fortunate encounter then. We've got a discount on right now. If you're not in a rush, care to step in for a browse?
+::<!--Custom String Trigger: TalkSentence_504035007-->
+::<!--Custom String Listener: TalkSentence_504035007-->
+::'''Hygilos:''' I'm not selling just anything &mdash; it's remnant power from Titans. For a fee of Balance Coins, and you can hire Old Hygilos' elite operator team to remotely activate the Whimsy Hand. You can do anything you want with it!
+::{{DIcon|Arrow}} I can control it myself?
+:::<!--Custom String Listener: TalkSentence_504035009-->
+:::'''Hygilos:''' Of course, of course. Controlling it is quite easy, while mastery is a bit harder. If you hire my team, you can save the time of practicing. Like the saying goes, time is Balance Coins.
+::{{DIcon|Arrow}} There are no limitations?
+:::<!--Custom String Listener: TalkSentence_504035011-->
+:::'''Hygilos:''' Of course, the operators only listen to what you say. Be it something you want to catch, or some rooftop you want to tear down, they get the job done with no questions asked.
+:::'''Hygilos:''' But I do have to remind you that our establishment is filed with the Council of Elders... They might be the ones who'll nag if you're making some major moves...
+::<!--Custom String Trigger: TalkSentence_504035013-->
+::<!--Custom String Listener: TalkSentence_504035013-->
+::'''Hygilos:''' No matter what, our encounter is surely fate. I'll remember your dashing demeanor. I'll give you a discount if you have need of my shop's services in future!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504035002: Config/Level/Mission/5040350/Act/Act504035002.json-->
+::'''Hygilos:''' The Great Zagreus is a great Titan, unlike those compassionless mobs with disputed morals.
+::'''Hygilos:''' Bah, don't sweat it. I'm just griping. All right, friend, you here to chat with me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Got a moment to chat?
+::'''Hygilos:''' Why of course. You look like my next big client, it's only right to build a good relationship with you.
+::<!--Custom String Trigger: Wait_Option_504035003_39-->
+::<!--Custom String Listener: Wait_Option_504035003_39-->
+::{{DIcon|Talk}} Talk about the Thief's Hand.
+:::<!--Custom String Listener: TalkSentence_504035103-->
+:::'''Hygilos:''' No no no, "thief" is such a harsh word. Say "Whimsy Hand" instead. I mean, it's the divine relic that Great Zagreus left to us, after all.
+:::'''Hygilos:''' This thing's different from the other Titans' treasures. It's picky about its controller. If you screw up the controls, you'll be the one sent flying instead. My team's been carefully assembled over many Light Calendar years to accrue such expertise.
+:::'''Hygilos:''' You've probably seen it in many places. It's said that this hand will be located where Great Zagreus made their last heist, for future generations to steal from again. Brilliant! Absolutely brilliant!
+:::'''Hygilos:''' When it comes to the technical stuff, Old Hygilos isn't really in the know &mdash; you'd be better off checking with the craftsmen. It's too complex to explain... And even now, the corpus of this deity still harbors plenty of secrets! Take the Trial of Whimsy, for instance...
+:::'''Hygilos:''' Collecting those funny-faced coins earns you treasures, which are themselves odd bits and bobs. And what's more, they're named after the Great Zagreus? It's the oddest of oddities.
+:::'''Hygilos:''' Rumor has it, gathering a hundred Coins of Whimsy might just prompt the great Zagreus themself to steal your most coveted item for you! Fascinating, isn't it? It's a pity they're so hard to come by these days.
+::;(If {{cx}}<!--SubMission Started: 304002001-->)
+::::'''Hygilos:''' I can give you a guide if you're really interested in it. I penned it myself.
+:::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}<!--SubMission not Started: 304002001-->)
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why did you choose to set up a shop?
+:::<!--Custom String Listener: TalkSentence_504035109-->
+:::'''Hygilos:''' Oho, it appears that you are very curious about my unique business acumen. To be honest, though, this shop has been open for about a decade. This was someone else's idea at first, but I later shifted my business focus.
+:::'''Hygilos:''' The origin of this industry was a business model invented by Great Zagreus' disciples, way back when the Titan still manifested themself, providing an easy means of prospering for those inherently indolent.
+:::'''Hygilos:''' Those brethren, though possessed of smarts, were reluctant to engage in honest work. They wanted to earn Balance Coins, so they had to resort to robbery, er, I mean chatting with people on the streets. But rob... chatting was an art form by themselves.
+:::'''Hygilos:''' And so the Whimsy Fund was founded. People could invest Balance Coins in the brethren, and they would use the money to fuel the device for robbery, I mean, communication. No matter what they ro... received through communication, the proceeds would be split with the investor.
+:::{{DIcon|Arrow}} Genius.
+:::{{DIcon|Arrow}} Heinous.
+:::<!--Custom String Listener: TalkSentence_504035115-->
+:::'''Hygilos:''' Of course, whether the commission would be gained was still at our fellows' whims in the end... With high risks come rich rewards, as they say. A pity though that soon this industry was shut down by Talanton's thugs.
+:::'''Hygilos:''' At that time, I happened to overhear that the craftsmen had completely figured it all out about this Hand, so I stole... borrowed some experience.
+:::'''Hygilos:''' By combining this relic with Amphoreus' most advanced business model, this shop was born &mdash; criminally profitable!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have other businesses?
+:::<!--Custom String Listener: TalkSentence_504035119-->
+:::'''Hygilos:''' Plenty! The antiques displayed around the shop were all excavated from ruins by the Whimsy Hand. Some of them even retain vestiges of the other Titans' authority. It's a veritable vault of treasures. Though many of their uses are unknown &mdash; you'll have to try your luck.
+:::'''Hygilos:''' Other than that, our most popular services are "substitute debaters" and "acting Verax Leo responders." I will personally step in and ensure the opponent is left tongue-tied with my eloquence, leaving you to reap all the ensuing respect and admiration!
+:::'''Hygilos:''' My mantra is &mdash; with enough Balance Coins, everything lasts forever! If you've got a request, be sure to swing by to check us out! I will guarantee your hard-earned Balance Coins turned into solutions!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Goodbye.
+:::<!--Custom String Listener: TalkSentence_504035123-->
+:::'''Hygilos:''' Be well, friend. Stop by often, eh?
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Goodbye.
+::'''Hygilos:''' Be well, friend. Stop by often, eh?
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hygilos
+|zhs  = 希吉拉
+|zht  = 希吉拉
+|ja   = シギラ
+|ko   = 히길로스
+|es   = Higilos
+|fr   = Hygilos
+|ru   = Хигилос
+|th   = Hygilos
+|vi   = Hygilos
+|de   = Hygilos
+|id   = Hygilos
+|pt   = Hyglios
+}}
+==Change History==
+{{Change History|TODO}}

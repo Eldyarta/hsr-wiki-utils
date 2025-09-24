@@ -1,0 +1,179 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hinkel#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Head of Ecology
+|image           = NPC Hinkel.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Hinkel''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_8_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500010105_100-->
+:<!--Custom String Listener: Wait_Option_500010105_100-->
+:{{DIcon|Talk}} Is there anything I can help you with?
+::<!--Custom String Listener: TalkSentence_500010214-->
+::'''Hinkel:''' I'm afraid not.
+::'''Hinkel:''' As a guest from the Astral Express, you should stay in a safer area.
+::'''Hinkel:''' This job is very dangerous. If anything happens to you, I really don't know how I would explain it to Asta.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} It must be dangerous to establish safe zones, right?
+::<!--Custom String Listener: TalkSentence_500010218-->
+::'''Hinkel:''' Remnants of the Legion are taking advantage of the complex terrain there to hide in.
+::'''Hinkel:''' You might get ambushed if you are not careful.
+::'''Hinkel:''' However, we will proceed with safety as our top priority. We are not in a rush. Don't worry.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What are the main aspects of the work regarding post-disaster recovery?
+::<!--Custom String Listener: TalkSentence_500010222-->
+::'''Hinkel:''' Apart from infrastructure maintenance, the most important aspect is the staff's mental health.
+::'''Hinkel:''' Disasters are physically destructive, but the buildings can be rebuilt. It is the human heart that is irreparable.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Thank you for your hard work. I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500010225-->
+::'''Hinkel:''' Thank you for your understanding. Please stay away from the affected areas that have not opened up yet. Stay safe.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Hinkel:''' Let me know if you have any questions. I'm very busy with the post-disaster recovery work.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Hinkel:''' Thank you for your understanding. Please stay away from the affected areas that have not opened up yet. Stay safe.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000019: Config/Level/NPC/W0/NPC_DefaultStory_500000201.json-->
+::<!--Custom String Trigger: TalkSentence_500010202-->
+::<!--Custom String Listener: TalkSentence_500010202-->
+::'''Hinkel:''' To not waste any personnel or resources, let's allocate our supplies as quickly as possible.
+::'''Hinkel:''' I need a comprehensive damage evaluation of the Curios as soon as possible.
+::'''Hinkel:''' ...With all due respect, you've been watching me for a while as I command the reconstruction and revival of the space station. How may I help you?
+::<!--Custom String Trigger: Wait_Option_500010105_88-->
+::<!--Custom String Listener: Wait_Option_500010105_88-->
+::{{DIcon|Arrow}} Are you responsible for the space station revival?
+:::<!--Custom String Listener: TalkSentence_500010206-->
+:::'''Hinkel:''' I'm Hinkel, head of the Department of Ecology. I'm currently in charge of post-disaster recovery and the establishment of safe zones.
+:::'''Hinkel:''' If you are an outsider, you should leave. Do not interfere with our work.
+::{{DIcon|Arrow}} How long will it take to complete the restoration?
+:::<!--Custom String Listener: TalkSentence_500010209-->
+:::'''Hinkel:''' It's hard to say, but we promise that the space station will resume normal operation as soon as possible.
+:::'''Hinkel:''' Currently, the progress of establishing safe zones is slow. Remnants of the Legion are still entrenched in the ruins.
+:::'''Hinkel:''' Please don't go there in case it gets dangerous.
+::<!--Custom String Trigger: Wait_Option_500010105_97-->
+::<!--Custom String Listener: Wait_Option_500010105_97-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000020: Config/Level/NPC/W0/NPC_DefaultStory_500000200.json-->
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Hinkel:''' Let me know if you have any questions. I'm very busy with the post-disaster recovery work.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405002902-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002901: Config/Level/Mission/4050029/Act/Act405002901.json-->
+::'''Hinkel:''' Oh, it just so happens that the Seed Isle has newly developed a batch of meal replacement foods. Hold on, I need to get the process done on the terminal.
+::'''Hinkel:''' Found it. Please sign here. Since you are taking the resource supplies for someone else, you need to write down both your name and your client's name.
+::'''Hinkel:''' Agent: (Trailblazer), Consignor: Pom-Pom. OK, identification passed. I will arrange for staff to transport the things you need for you later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405002902-->
+:{{DIcon}} I have a few more questions for you...
+::<!--Custom String Trigger: Wait_Option_500010105_100-->
+::<!--Custom String Listener: Wait_Option_500010105_100-->
+::{{DIcon|Talk}} Is there anything I can help you with?
+:::<!--Custom String Listener: TalkSentence_500010214-->
+:::'''Hinkel:''' I'm afraid not.
+:::'''Hinkel:''' As a guest from the Astral Express, you should stay in a safer area.
+:::'''Hinkel:''' This job is very dangerous. If anything happens to you, I really don't know how I would explain it to Asta.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} It must be dangerous to establish safe zones, right?
+:::<!--Custom String Listener: TalkSentence_500010218-->
+:::'''Hinkel:''' Remnants of the Legion are taking advantage of the complex terrain there to hide in.
+:::'''Hinkel:''' You might get ambushed if you are not careful.
+:::'''Hinkel:''' However, we will proceed with safety as our top priority. We are not in a rush. Don't worry.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are the main aspects of the work regarding post-disaster recovery?
+:::<!--Custom String Listener: TalkSentence_500010222-->
+:::'''Hinkel:''' Apart from infrastructure maintenance, the most important aspect is the staff's mental health.
+:::'''Hinkel:''' Disasters are physically destructive, but the buildings can be rebuilt. It is the human heart that is irreparable.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Thank you for your hard work. I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500010225-->
+:::'''Hinkel:''' Thank you for your understanding. Please stay away from the affected areas that have not opened up yet. Stay safe.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I shouldn't keep you.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Hinkel:''' Thank you for your understanding. Please stay away from the affected areas that have not opened up yet. Stay safe.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290202)
+:<!--Custom String Listener: TalkSentence_405290202-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hinkel
+|zhs  = 辛克尔
+|zht  = 辛克爾
+|ja   = シンクル
+|ko   = 힌켈
+|es   = Hinkel
+|fr   = Hinkel
+|ru   = Хинкель
+|th   = Hinkel
+|vi   = Hinkel
+|de   = Hinkel
+|id   = Hinkel
+|pt   = Hinkel
+}}
+==Change History==
+{{Change History|TODO}}

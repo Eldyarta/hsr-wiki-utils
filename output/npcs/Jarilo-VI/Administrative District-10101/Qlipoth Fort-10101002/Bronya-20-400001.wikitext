@@ -1,0 +1,294 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bronya#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Bronya.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Qlipoth Fort
+|relatives       = 
+}}
+'''Bronya''' is an NPC on [[Jarilo-VI]], located in [[Qlipoth Fort]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Qlipoth Fort|npc_20_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201150108,
+		"Type": "submission_state_equal",
+		"Param1": 201150108,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201150108: Config/Level/Mission/2011501/Act/Act201150108.json-->
+:'''Bronya:''' Before the Eternal Freeze? I do know about it, but I can't recite it all by memory.
+:'''Bronya:''' If you are really interested, you should look on the shelf over there for a set of books called ''Belobog Chronicles''. They might be helpful references.
+:'''Bronya:''' What got you suddenly interested in researching that history anyway? Did something happen?
+:{{DIcon|Arrow}} Long story. It all started with an ad...
+:{{DIcon|Arrow}} I'm on a research mission for the Express' data bank.
+:<!--Custom String Listener: TalkSentence_201340341-->
+:'''Bronya:''' I see...
+:'''Bronya:''' ...Oh. What was that sound?
+<pre>{
+	"$type": "RPG.GameCore.PlayMessage",
+	"MessageSectionID": 1112800
+}</pre>
+:'''Bronya:''' Pfft... I totally get it now.
+:'''Bronya:''' That ''Chronicle'' is on the bookshelf. Feel free to have a look. If you can't find it, just let me know. I'll help you look.
+:'''Bronya:''' The name Interastral Peace Appliances... does seem to ring a bell.
+:'''Bronya:''' Interastral Peace Appliances... Interastral Peace...
+:'''Bronya:''' Interastral Peace Corporation... I've read about it before in the Guardians' history textbook. I think it's some kind of interstellar organization that has massive influences all over the cosmos. It has something to do with Preservation...
+:'''Bronya:''' Oh... never mind. They're all followers of the Amber Lord, but they probably have nothing to do with Belobog. So I need not worry about them for now.
+:{{DIcon|Arrow}} Not necessarily.
+::<!--Custom String Listener: TalkSentence_201340350-->
+::'''Bronya:''' Hmmm... maybe you're right. But I still believe they might be a net positive for Belobog if there comes a time when we do make contact with them in the future.
+::'''Bronya:''' Alright. Go and find the book you need. Just let me know if you need any help.
+:{{DIcon|Arrow}} I'll go look for the records then. Thank you.
+::<!--Custom String Listener: TalkSentence_201340353-->
+::'''Bronya:''' You're welcome. I hope Qlipoth Fort's book collection will be of use to you.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201150108-->
+:'''Bronya:''' Of course, I do, (Trailblazer). I've always benefited lots from our discussions.
+:<!--Custom String Trigger: Wait_Option_501029101_15-->
+:<!--Custom String Listener: Wait_Option_501029101_15-->
+:{{DIcon|Talk}} How does it feel to be the Supreme Guardian?
+::<!--Custom String Listener: TalkSentence_501029107-->
+::'''Bronya:''' For me, it's just a title and nothing more. I'll still stick to doing the right thing with or without this title.
+::'''Bronya:''' ...But not from the point of view of the people. For them, the Supreme Guardian is a powerful symbol &mdash; not just of the city's leadership, but also of a future with hope.
+::'''Bronya:''' So I have to re-examine my thinking more critically. I have to always bear in mind that every decision I make could affect the lives of thousands of people...
+::'''Bronya:''' It's a heavy load to bear. To be honest, I don't even know if I can do it. But I'm lucky &mdash; because I don't have to go through it all alone.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What plans do you have next?
+::<!--Custom String Listener: TalkSentence_501029112-->
+::'''Bronya:''' The number one priority is to revitalize Belobog... Ah, it still sounds so vague, doesn't it?
+::'''Bronya:''' As for specific actions, I think the number one priority is to reorganize the economy of Belobog.
+::'''Bronya:''' The blockade has had a huge impact on the Overworld and Underworld economies. Right now, ordinary miners in the Underworld can't bear the high cost of living in the Administrative District.
+::'''Bronya:''' If things don't get better, then you can forget about reintegrating the Overworld and the Underworld. I've booked meetings with several of the finance ministers to try to hammer out a basic direction for reforms.
+::'''Bronya:''' &mdash; Of course, this is only the first step in a great revitalization plan. I hope it will be a strong start.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About Cocolia...
+::<!--Custom String Listener: TalkSentence_501029118-->
+::'''Bronya:''' ...Keep your voice down, (Trailblazer).
+::'''Bronya:''' As for Mom... All I can do is keep myself from remembering how she looked before she passed.
+::'''Bronya:''' (Trailblazer), no matter what she might look like to you, Madam Cocolia was my only living family. Everything that has made me into the person I am... I owe it to her teachings.
+::'''Bronya:''' I don't know when she started going astray, but this whole time, all she's ever done has been to shower me with love... And I don't think that's the Stellaron's influence.
+::'''Bronya:''' Honestly speaking, the thought of not seeing her again... always wells me up with tears. Yet, now is not the time for me to show my vulnerable side.
+::'''Bronya:''' So, let's talk about something else, (Trailblazer).
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Is Seele here?
+::<!--Custom String Listener: TalkSentence_501029123-->
+::'''Bronya:''' She wants to get stuck into some material change, rather than stick around in this lifeless office. She was always thinking about the Underworld. You can't stop someone like that from leaving.
+::'''Bronya:''' Seele is a doer. She can't do what she does best at the negotiation table. She knows where her strengths lie... And as a friend and fellow fighter, I support her choice.
+::'''Bronya:''' Besides, if I send a signal asking for her help... I know she'll return to me. And that's all I need.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Thanks for your time, Bronya.
+::<!--Custom String Listener: Wait_Option_501029101_12-->
+::<!--Ends the current performance-->
+:'''Bronya:''' You're still here, (Trailblazer).
+:'''Bronya:''' Despite Belobog being in a terrible state these days... You can always find its charming side, if only you look carefully enough.
+:'''Bronya:''' I trust you have a meticulous eye for beauty, Trailblazer. I hope you have a great time in Belobog.
+:<!--Ends the current performance-->
+:'''Bronya:''' So long, (Trailblazer). I wish you all the best on your journey.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000037: Config/Level/NPC/W1/NPC_DefaultStory_501029101.json-->
+::'''Bronya:''' If you walk with your head down and your heart full of fear, your steps will grow heavier and your spirit will suffer.
+::'''Bronya:''' But if you find something to look up to and move forward with hope, then your steps will grow lighter... and if you should fall, you'll be on your feet before you know it.
+::'''Bronya:''' ...Thank you for teaching me this, Trailblazers.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000038: Config/Level/NPC/W1/NPC_DefaultStory_501029103.json-->
+::'''Bronya:''' You're still here, (Trailblazer).
+::'''Bronya:''' Despite Belobog being in a terrible state these days... You can always find its charming side, if only you look carefully enough.
+::'''Bronya:''' I trust you have a meticulous eye for beauty, Trailblazer. I hope you have a great time in Belobog.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003707-->)
+:{{DIcon|undefined}} Please give me some management advice...
+::<!--Trigger PerformanceE 405003006: Config/Level/Mission/4050030/Act/Act405003006.json-->
+::'''Bronya:''' I've been thinking about this as well recently. If you ask the old me, you may get countless professional-sounding answers.
+::'''Bronya:''' But now, I have only one answer for you.
+::'''Bronya:''' Think from everyone's point of view. Because every decision I make may affect the lives of countless people...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003707-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has been completed)
+:{{DIcon}} Can we talk about dealings with the IPC?
+::<!--Trigger PerformanceE 501029103: Config/Level/Mission/5010291/Act/Act501029103.json-->
+::'''Bronya:''' Of course we can talk about that! There's much that is worth discussing... We're both free, what's on your mind?
+::<!--Custom String Trigger: Wait_Option_501029103_12-->
+::<!--Custom String Listener: Wait_Option_501029103_12-->
+::{{DIcon|Talk}} What do you think about Topaz?
+:::<!--Custom String Listener: TalkSentence_501029143-->
+:::'''Bronya:''' Miss Topaz... She is very complex.
+:::'''Bronya:''' From the letter she gave me, I could sense her sincerity. Yet she would also withhold important information from me, and coerce and manipulate us into doing what she desires.
+:::'''Bronya:''' However, I can feel that she is sincerely working for the future of this planet from the bottom of her heart, even if not everyone can accept her methods.
+:::{{DIcon|Arrow}} She is very calculated.
+::::<!--Custom String Listener: TalkSentence_501029147-->
+::::'''Bronya:''' You're right. It's a relief that she is on our side... I guess this is what you'd call a blessing in disguise, right? Though Belobog experienced a great trial, it also gained a powerful ally because of it.
+::::<!--Custom String Trigger: TalkSentence_501029151-->
+::::<!--Custom String Listener: TalkSentence_501029151-->
+::::'''Bronya:''' My wish is that this will make the IPC abandon their idea of interfering with Jarilo-VI. I hope Miss Topaz's promise carries enough weight...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} She is a trustworthy person.
+::::<!--Custom String Listener: TalkSentence_501029149-->
+::::'''Bronya:''' This is something we agree on. Though the power that she represents and the calculated schemes that she has displayed have caused us to remain guarded.
+::::'''Bronya:''' It's a relief that she is on our side now... I guess this is what you'd call a blessing in disguise, right? Though Belobog experienced a great trial, it also gained a powerful ally because of it.
+::::<!--Custom String Trigger: TalkSentence_501029151-->
+::::<!--Custom String Listener: TalkSentence_501029151-->
+::::'''Bronya:''' My wish is that this will make the IPC abandon their idea of interfering with Jarilo-VI. I hope Miss Topaz's promise carries enough weight...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You almost signed the contract back then.
+:::<!--Custom String Listener: TalkSentence_501029153-->
+:::'''Bronya:''' That's right... At that moment, I was on the verge of breaking down. Fortunately, Miss Himeko appeared in time and explained the whole picture.
+:::'''Bronya:''' I wonder why Topaz didn't mention the numbers and probability in her letter... Was she confident enough in herself? Or did she deliberately hide them from me?
+:::'''Bronya:''' ...Well, that's no longer important. What I need to reflect on is how I felt at that moment, I almost caved to the pressure... At that moment, all I wanted was to escape my responsibilities, once and for all.
+:::'''Bronya:''' If things had not turned around, I may have betrayed the trust of all our citizens... and Seele's, too. I must learn from this lesson and continue to grow. My will must be stronger!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} There are many IPC people in the city.
+:::<!--Custom String Listener: TalkSentence_501029158-->
+:::'''Bronya:''' Indeed, I permitted them to station in Belobog.
+:::'''Bronya:''' Those that are stationed here are all Topaz's most trusted employees. It seems they call this place an "Exo-Technical Support Dispatch Zone."
+:::'''Bronya:''' Whatever the case, we can definitely make use of the IPC's technology. If they can know their place and assist the citizens in their work, Belobog may even complete this "tech-leap" they speak of within a generation...
+:::'''Bronya:''' Can you imagine, (Trailblazer)? There may come a day &mdash; once I step down from my role as Supreme Guardian &mdash; that we could really set out to travel together. This is no longer just a pipe dream.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the Engine of Creation and Pillars of Creation...
+:::<!--Custom String Listener: TalkSentence_501029163-->
+:::'''Bronya:''' When you went in search of Topaz, I immediately made an appeal to the people on the Belobog city radio.
+:::'''Bronya:''' I told the citizens everything behind the events surrounding the IPC, and urged them to pick up their tools and join the Silvermane guards northward, to direct their efforts toward the rebuilding of the Engine of Creation.
+:::'''Bronya:''' And you all saw the outcome. The citizens of Belobog &mdash; regardless of background and status, both Underworlder and Overworlder &mdash; have all come together to contribute to maintaining the freedom and autonomy of this world.
+:::'''Bronya:''' I'm so happy, (Trailblazer)... I no longer have to concoct a lie this time. I don't have to sacrifice my sincerity for the sake of stability.
+:::'''Bronya:''' Perhaps, one day... people will also be able to calmly accept "that truth."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Thanks for your time, Bronya.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::'''Bronya:''' So long, (Trailblazer). I wish you all the best on your journey.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029103-->
+;(If {{cx}}<!--SubMission Started: 201150108-->)
+:{{DIcon|undefined}} Do you know about Belobog's history before the Eternal Freeze?
+::<!--Trigger PerformanceE 201150108: Config/Level/Mission/2011501/Act/Act201150108.json-->
+::'''Bronya:''' Before the Eternal Freeze? I do know about it, but I can't recite it all by memory.
+::'''Bronya:''' If you are really interested, you should look on the shelf over there for a set of books called ''Belobog Chronicles''. They might be helpful references.
+::'''Bronya:''' What got you suddenly interested in researching that history anyway? Did something happen?
+::{{DIcon|Arrow}} Long story. It all started with an ad...
+::{{DIcon|Arrow}} I'm on a research mission for the Express' data bank.
+::<!--Custom String Listener: TalkSentence_201340341-->
+::'''Bronya:''' I see...
+::'''Bronya:''' ...Oh. What was that sound?
+:<pre>{
+	"$type": "RPG.GameCore.PlayMessage",
+	"MessageSectionID": 1112800
+}</pre>
+::'''Bronya:''' Pfft... I totally get it now.
+::'''Bronya:''' That ''Chronicle'' is on the bookshelf. Feel free to have a look. If you can't find it, just let me know. I'll help you look.
+::'''Bronya:''' The name Interastral Peace Appliances... does seem to ring a bell.
+::'''Bronya:''' Interastral Peace Appliances... Interastral Peace...
+::'''Bronya:''' Interastral Peace Corporation... I've read about it before in the Guardians' history textbook. I think it's some kind of interstellar organization that has massive influences all over the cosmos. It has something to do with Preservation...
+::'''Bronya:''' Oh... never mind. They're all followers of the Amber Lord, but they probably have nothing to do with Belobog. So I need not worry about them for now.
+::{{DIcon|Arrow}} Not necessarily.
+:::<!--Custom String Listener: TalkSentence_201340350-->
+:::'''Bronya:''' Hmmm... maybe you're right. But I still believe they might be a net positive for Belobog if there comes a time when we do make contact with them in the future.
+:::'''Bronya:''' Alright. Go and find the book you need. Just let me know if you need any help.
+::{{DIcon|Arrow}} I'll go look for the records then. Thank you.
+:::<!--Custom String Listener: TalkSentence_201340353-->
+:::'''Bronya:''' You're welcome. I hope Qlipoth Fort's book collection will be of use to you.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201150108-->
+;(If {{cx}}<!--SubMission Started: 201150108-->)
+:{{DIcon}} Do you have time to chat, Bronya?
+::'''Bronya:''' Of course, I do, (Trailblazer). I've always benefited lots from our discussions.
+::<!--Custom String Trigger: Wait_Option_501029101_15-->
+::<!--Custom String Listener: Wait_Option_501029101_15-->
+::{{DIcon|Talk}} How does it feel to be the Supreme Guardian?
+:::<!--Custom String Listener: TalkSentence_501029107-->
+:::'''Bronya:''' For me, it's just a title and nothing more. I'll still stick to doing the right thing with or without this title.
+:::'''Bronya:''' ...But not from the point of view of the people. For them, the Supreme Guardian is a powerful symbol &mdash; not just of the city's leadership, but also of a future with hope.
+:::'''Bronya:''' So I have to re-examine my thinking more critically. I have to always bear in mind that every decision I make could affect the lives of thousands of people...
+:::'''Bronya:''' It's a heavy load to bear. To be honest, I don't even know if I can do it. But I'm lucky &mdash; because I don't have to go through it all alone.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What plans do you have next?
+:::<!--Custom String Listener: TalkSentence_501029112-->
+:::'''Bronya:''' The number one priority is to revitalize Belobog... Ah, it still sounds so vague, doesn't it?
+:::'''Bronya:''' As for specific actions, I think the number one priority is to reorganize the economy of Belobog.
+:::'''Bronya:''' The blockade has had a huge impact on the Overworld and Underworld economies. Right now, ordinary miners in the Underworld can't bear the high cost of living in the Administrative District.
+:::'''Bronya:''' If things don't get better, then you can forget about reintegrating the Overworld and the Underworld. I've booked meetings with several of the finance ministers to try to hammer out a basic direction for reforms.
+:::'''Bronya:''' &mdash; Of course, this is only the first step in a great revitalization plan. I hope it will be a strong start.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Cocolia...
+:::<!--Custom String Listener: TalkSentence_501029118-->
+:::'''Bronya:''' ...Keep your voice down, (Trailblazer).
+:::'''Bronya:''' As for Mom... All I can do is keep myself from remembering how she looked before she passed.
+:::'''Bronya:''' (Trailblazer), no matter what she might look like to you, Madam Cocolia was my only living family. Everything that has made me into the person I am... I owe it to her teachings.
+:::'''Bronya:''' I don't know when she started going astray, but this whole time, all she's ever done has been to shower me with love... And I don't think that's the Stellaron's influence.
+:::'''Bronya:''' Honestly speaking, the thought of not seeing her again... always wells me up with tears. Yet, now is not the time for me to show my vulnerable side.
+:::'''Bronya:''' So, let's talk about something else, (Trailblazer).
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is Seele here?
+:::<!--Custom String Listener: TalkSentence_501029123-->
+:::'''Bronya:''' She wants to get stuck into some material change, rather than stick around in this lifeless office. She was always thinking about the Underworld. You can't stop someone like that from leaving.
+:::'''Bronya:''' Seele is a doer. She can't do what she does best at the negotiation table. She knows where her strengths lie... And as a friend and fellow fighter, I support her choice.
+:::'''Bronya:''' Besides, if I send a signal asking for her help... I know she'll return to me. And that's all I need.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Thanks for your time, Bronya.
+:::<!--Custom String Listener: Wait_Option_501029101_12-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 201150108-->)
+:{{DIcon|Exit}} Goodbye, Bronya.
+::'''Bronya:''' So long, (Trailblazer). I wish you all the best on your journey.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405300602)
+:<!--Custom String Listener: TalkSentence_405300602-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bronya
+|zhs  = 布洛妮娅
+|zht  = 布洛妮婭
+|ja   = ブローニャ
+|ko   = 브로냐
+|es   = Bronya
+|fr   = Bronya
+|ru   = Броня
+|th   = Bronya
+|vi   = Bronya
+|de   = Bronya
+|id   = Bronya
+|pt   = Bronya
+}}
+==Change History==
+{{Change History|TODO}}

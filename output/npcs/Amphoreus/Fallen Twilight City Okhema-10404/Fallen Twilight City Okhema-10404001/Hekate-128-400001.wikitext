@@ -1,0 +1,98 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hekate#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Exploration Team Leader
+|image           = NPC Hekate.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Fallen Twilight City" Okhema
+|relatives       = 
+}}
+'''Hekate''' is an NPC on [[Amphoreus]], located in [["Fallen Twilight City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Fallen Twilight City" Okhema|npc_128_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504088001: Config/Level/Mission/5040880/Act/Act504088001.json-->
+:'''Hekate:''' My lord, this is the frontline against the black tide. Advance no further.
+:<!--Custom String Trigger: Wait_Option_504088001_8-->
+:<!--Custom String Listener: Wait_Option_504088001_8-->
+:{{DIcon|Talk}} Why are you here?
+::<!--Custom String Listener: TalkSentence_504088003-->
+::'''Hekate:''' Black tide creations breached defenses. When our expedition came to aid... the carnage defied description.
+::'''Hekate:''' We only managed to secure this position when guards and craftsmen rushed over from the marketplace to reinforce us.
+::'''Hekate:''' The captain of the city gate... fell to the black tide, fulfilling his duty to the sky father. I've taken command of our forces here now.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How's the situation?
+::<!--Custom String Listener: TalkSentence_504088007-->
+::'''Hekate:''' We've driven back the black tide, but fresh creatures continue to attack in waves. We're holding, but worse than the attacks is how despair has begun to infect our ranks.
+::'''Hekate:''' There's no time to rest or tend to our wounds. We watch our friends fall, unable even to retrieve their bodies. And still the black tide continues relentlessly&mdash;
+::'''Hekate:''' The worst part? Sometimes you recognize the faces of your fallen comrades among these creatures.
+::'''Hekate:''' Sorry... I shouldn't burden you with such grim thoughts.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} We just need to hold out until "Era Nova"...
+::<!--Custom String Listener: TalkSentence_504088012-->
+::'''Hekate:''' Whether we journey to a new world or {{Rubi|Thanatos|Death Titan}} draws his hands over our eyes... anything would be better than this endless fight...
+::'''Hekate:''' If Kephale is truly merciful, they would bring this suffering to a swifter end.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} Stay strong.
+::<!--Custom String Listener: TalkSentence_504088015-->
+::'''Hekate:''' We've sounded the call to arms. With any luck, reinforcements will arrive soon and we might finally have a moment to breathe.
+::'''Hekate:''' Please go help the others instead. We can hold our ground here.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hekate
+|zhs  = 赫卡忒
+|zht  = 赫卡忒
+|ja   = ヘカテー
+|ko   = 헤카테
+|es   = Hécate
+|fr   = Hécate
+|ru   = Геката
+|th   = Hekate
+|vi   = Hekate
+|de   = Hekate
+|id   = Hekate
+|pt   = Hékate
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,104 @@
+<%-- [PAGE_INFO]
+PageTitle=#Brutus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Survivor
+|image           = NPC Brutus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Fallen Twilight City" Okhema
+|relatives       = 
+}}
+'''Brutus''' is an NPC on [[Amphoreus]], located in [["Fallen Twilight City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Fallen Twilight City" Okhema|npc_124_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504084001: Config/Level/Mission/5040840/Act/Act504084001.json-->
+::'''Brutus:''' Marcus... he wasn't lying... he was right. It's all my fault...
+::'''Brutus:''' Uh, hello? Have you seen a guy named Marcus? He's a big, simpleminded guy, used to hang around here a lot.
+::<!--Custom String Trigger: Wait_Option_504084002_16-->
+::<!--Custom String Listener: Wait_Option_504084002_16-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504084002: Config/Level/Mission/5040840/Act/Act504084002.json-->
+::'''Brutus:''' Ah, Marcus... I'm starting to understand him now... Maybe he really can hear some mysterious calls. It's just a shame...
+::<!--Custom String Trigger: Wait_Option_504084002_16-->
+::<!--Custom String Listener: Wait_Option_504084002_16-->
+::<!--Custom String Listener: Wait_Option_504084002_16-->
+:{{DIcon|Talk}} Who is Marcus?
+::<!--Custom String Listener: TalkSentence_504084103-->
+::'''Brutus:''' A retired soldier, always talking about strange encounters with the black tide. I always thought he was just making up stories, using the misfortunes my family went through as material...
+::'''Brutus:''' My family died in the black tide, and when I fled to Okhema to stay with relatives, Marcus was always hanging around the street nearby.
+::'''Brutus:''' He kept saying that the people taken by the black tide would return, that they might even call out to the living. I was furious. I just wanted my family to rest in peace.
+::'''Brutus:''' So every time he told his stories, I'd argue with him. Thanatos up above watches over every soul equally... but now, I'm not so sure... Maybe Marcus really can hear some mysterious calls after all.
+::'''Brutus:''' The day disaster struck, I was pinned under a collapsed cabinet. He saved me, but not long after, he started acting strange again, constantly shouting "Don't take them away" before rushing out.
+::'''Brutus:''' No one has seen him since. If you have any information about his whereabouts, please contact me immediately... I owe him too much...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Any news about Marcus?
+::<!--Custom String Listener: TalkSentence_504084110-->
+::'''Brutus:''' The guards told me they found a body outside the city that looked like Marcus. But I haven't confirmed it yet &mdash; they said I must wait until the remains are prepared before I can go see.
+::'''Brutus:''' I pray it's not him... It must be a mistake... I'll keep searching. Regardless, he saved me &mdash; I can't abandon him now.
+::'''Brutus:''' ...That body, I hope it's not him. By Thanatos, spare this poor soul.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you think of Marcus?
+::<!--Custom String Listener: TalkSentence_504084114-->
+::'''Brutus:''' He's a good man, though perhaps... not right in the mind. He always believed he failed his comrades, claimed he saw the captain's face in the black tide, and heard comrades calling him.
+::'''Brutus:''' I used to think it nonsense, and accused him of disrespecting the dead. But lately... I've started dreaming, too. My wife calling from afar, children running through rose bushes...
+::'''Brutus:''' Ah... Marcus... perhaps he was right after all.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I must go now.
+::<!--Custom String Listener: TalkSentence_504084118-->
+::'''Brutus:''' Contact me immediately if you hear anything about Marcus.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

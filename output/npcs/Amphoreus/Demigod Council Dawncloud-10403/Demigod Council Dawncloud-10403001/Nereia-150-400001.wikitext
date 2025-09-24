@@ -1,0 +1,134 @@
+<%-- [PAGE_INFO]
+PageTitle=#Nereia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Priest
+|image           = NPC Nereia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Nereia''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_150_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504066001: Config/Level/Mission/5040660/Act/Act504066001.json-->
+::'''Nereia:''' Worldbearing Titan most high, will you once again answer my prayers?
+::'''Nereia:''' Ah, sorry... I've lost my composure. Lately, I can't help but talk to myself. Are you here looking for guidance as well?
+::{{DIcon|Arrow}} And you are?
+:::<!--Custom String Listener: TalkSentence_504066004-->
+:::'''Nereia:''' I'm Nereia, just an ordinary priest. By the grace of {{Rubi|Kephale|Worldbearing Titan}}, I strive to offer whatever small comfort I can to the faithful.
+:::'''Nereia:''' By the way, you look unfamiliar, and your clothes don't seem like ours. This must be your first time here, yes? This is the holiest place in Okhema.
+:::'''Nereia:''' If you ever find yourself in need, don't hesitate to come find me. Our doors are always open to the lost.
+:::'''Nereia:''' Here, even the most hopeless soul can find a sliver of hope. I've seen many spirits teetering on the edge of life and death, only to be reborn under Kephale's guidance.
+:::{{DIcon|Arrow}} Reborn?
+::::<!--Custom String Listener: TalkSentence_504066011-->
+::::'''Nereia:''' There are two kinds of "death" in this world &mdash; the death of the body and the floundering of the soul. As for the former, I can do nothing, but the latter...
+::::'''Nereia:''' As long as there's a flicker of light in the heart, darkness will never consume it. Kephale's teachings will always lead the way.
+:::{{DIcon|Arrow}} The lost?
+::::<!--Custom String Listener: TalkSentence_504066014-->
+::::'''Nereia:''' Hmm... The black tide ravages everything, and people are searching for shelter. Okhema, perhaps, is the last hope for all of us.
+::::'''Nereia:''' This is the mission {{Rubi|Kephale|Worldbearing Titan}} has given me. In these turbulent times, we must help and support one another.
+:::<!--Custom String Trigger: TalkSentence_504066016-->
+:::<!--Custom String Listener: TalkSentence_504066016-->
+:::'''Nereia:''' I've served in the temple since I was little. Back then, {{Rubi|Kephale|Worldbearing Titan}} would often perform miracles, responding to the prayers of the faithful...
+:::'''Nereia:''' But now... Alas, things are different, but at least I can still offer some comfort to others.
+:::'''Nereia:''' Sorry for rambling so much. I hope it didn't trouble you. May {{Rubi|Kephale|Worldbearing Titan}}'s light guide your way forward.
+::{{DIcon|Exit}} Sorry to intrude. I'm just watching.
+:::<!--Custom String Listener: TalkSentence_504066006-->
+:::'''Nereia:''' I see... you must be a foreigner who's just arrived in Okhema, right? Many come seeking refuge.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504066002: Config/Level/Mission/5040660/Act/Act504066002.json-->
+::'''Nereia:''' ...So many years have passed... Laughter and tears are all part of Okhema's memories.
+::'''Nereia:''' Ah, it's you, young one. What brings you here?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} There's something I'd like to ask you.
+::<!--Custom String Trigger: Wait_Option_504066003_44-->
+::<!--Custom String Listener: Wait_Option_504066003_44-->
+::{{DIcon|Talk}} Have you ever received a response from Kephale?
+:::<!--Custom String Listener: TalkSentence_504066203-->
+:::'''Nereia:''' Yes, but that was many years ago. Back then, I was still young, just a new priest. Kephale's voice was so warm, giving me great courage and strength.
+:::'''Nereia:''' Now, looking back, that miracle feels as if it happened just yesterday. But now... it's been a long time since Kephale spoke. But I always think... maybe this silence is a test too.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How are things in Okhema lately?
+:::<!--Custom String Listener: TalkSentence_504066206-->
+:::'''Nereia:''' I spend most of my days serving Kephale and rarely venture outside, so I know little about the rest of Okhema.
+:::'''Nereia:''' However, the black tide spreads ceaselessly, and every day brings new refugees. When they pray, even their voices tremble. I'm afraid the overall situation in Okhema is far from hopeful.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why did you become a priest?
+:::<!--Custom String Listener: TalkSentence_504066209-->
+:::'''Nereia:''' It's a long story... In my childhood, I suffered from an eye condition. It was a miracle from {{Rubi|Kephale|Worldbearing Titan}} that saved me and restored my sight.
+:::'''Nereia:''' Since then, I dedicated the rest of my life to repaying their benevolence, even if it's been long since they last answered my prayers... I'm ashamed to say that sometimes, even I waver.
+:::'''Nereia:''' But I know I must persevere, seeing so many others hold onto their faith in Kephale. At the very least, I can still do something for others. We are all each other's light &mdash; This is what {{Rubi|Kephale|Worldbearing Titan}} teaches us.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you met other priests?
+:::<!--Custom String Listener: TalkSentence_504066213-->
+:::'''Nereia:''' Of course. I'm not the only one who serves {{Rubi|Kephale|Worldbearing Titan}}. My colleagues and I work together, fulfilling our respective roles.
+:::'''Nereia:''' Though, amusingly, they often say that I'm too gentle and too forgiving with the followers. But to me, this very compassion is what embodies {{Rubi|Kephale's|Worldbearing Titan}} most important teaching.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to ask.
+:::<!--Custom String Listener: TalkSentence_504066216-->
+:::'''Nereia:''' Very well.
+:::'''Nereia:''' By Kephale, may we all find the courage to move forward in the darkness...
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll let you get back to your work.
+::'''Nereia:''' Goodbye, young one. May {{Rubi|Kephale|Worldbearing Titan}} guide you.
+::'''Nereia:''' By Kephale, may we all find the courage to move forward in the darkness...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Nereia
+|zhs  = 涅柔娅
+|zht  = 涅柔婭
+|ja   = ネレイア
+|ko   = 네레이아
+|es   = Nereia
+|fr   = Néréia
+|ru   = Нерея
+|th   = Nereia
+|vi   = Nereia
+|de   = Nereia
+|id   = Nereia
+|pt   = Nereia
+}}
+==Change History==
+{{Change History|TODO}}

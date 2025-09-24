@@ -1,0 +1,179 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mingxi#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Young Secretary
+|image           = NPC Mingxi.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Mingxi''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_29_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Phase": "Finish",
+		"ID": 8003214
+	},
+	{
+		"Type": "SubMission",
+		"ID": 800321401
+	}
+]
+</pre>
+;(If {{cx}}<!--SubMission Started: 800321401-->)
+::<!--Trigger PerformanceE 800320226: Config/Level/Mission/8003202/Act/Act800320226.json-->
+::{{A|VO side2 jrx mingxi 159.ogg}} '''Mingxi:''' Now that you're here, let's get started on the dock-related work.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800320226-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800321502-->)
+::<!--Trigger PerformanceE 800321501: Config/Level/Mission/8003215/Act/Act800321501.json-->
+::{{A|VO side2 jrx mingxi 180.ogg}} '''Mingxi:''' Thanks to your help, the lease was paid off and the dock capacity is increasing. I told the workers to clear out areas that weren't utilized and use them to store extra cargo.
+::{{A|VO side2 jrx mingxi 181.ogg}} '''Mingxi:''' Now the dock can support collaboration with more businesses. Let's keep working together for the revival of Aurum Alley!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800321501-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800321602-->)
+::<!--Trigger PerformanceE 800321601: Config/Level/Mission/8003216/Act/Act800321601.json-->
+::{{A|VO side2 jrx mingxi 214.ogg}} '''Mingxi:''' Thanks to your help, the dock is running at full capacity. Just like last time, I told the workers to clear out areas that weren't utilized and use them to store extra cargo.
+::{{A|VO side2 jrx mingxi 215.ogg}} '''Mingxi:''' We now have the additional capacity to work with more businesses and have also opened a new route leading to the port. With streamlined logistics planning, I think we'll see a revitalized Alley in no time!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800321601-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800321701-->)
+::<!--Trigger PerformanceE 800320404: Config/Level/Mission/8003204/Act/Act800320404.json-->
+::{{A|VO side2 jrx mingxi 185.ogg}} '''Mingxi:''' In order to reward you and Sushang for your long hours of work, the Merchant Guild has ordered some gourmet snacks from Tall Auntie, so you can rest for a bit and prepare for the revival of Aurum Alley.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800320404-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800321801-->)
+::<!--Trigger PerformanceE 800320704: Config/Level/Mission/8003207/Act/Act800320704.json-->
+::{{A|VO side2 jrx mingxi 185.ogg}} '''Mingxi:''' In order to reward you and Sushang for your long hours of work, the Merchant Guild has ordered some gourmet snacks from Tall Auntie, so you can rest for a bit and prepare for the revival of Aurum Alley.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800320704-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800321901-->)
+::<!--Trigger PerformanceE 800321004: Config/Level/Mission/8003210/Act/Act800321004.json-->
+::{{A|VO side2 jrx mingxi 185.ogg}} '''Mingxi:''' In order to reward you and Sushang for your long hours of work, the Merchant Guild has ordered some gourmet snacks from Tall Auntie, so you can rest for a bit and prepare for the revival of Aurum Alley.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800321004-->
+;(Otherwise)
+::<!--Trigger PerformanceE 800310101: Config/Level/NPCDialogue/P10202/F10202004_G29/Act/Act_800310101.json-->
+::'''Mingxi:''' Regardless of the IPC's wishes, positive changes need to be made to Aurum Alley. Do you have any work plans for today?
+::<!--Custom String Trigger: leave-->
+::<!--Custom String Listener: leave-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 800321701-->, {{cx}}<!--SubMission not Started: 800321801-->, or {{cx}}<!--SubMission not Started: 800321901-->)
+:<!--Open NPC Menu-->
+:{{DIcon|Travel Log}} Take care of the affairs in Aurum Alley
+:{{DIcon|Talk}} Can I have a casual chat with you?
+::<!--Trigger PerformanceE 502063101: Config/Level/NPCDialogue/P10202/NPCAct/Act502063101.json-->
+::'''Mingxi:''' Sure, but I'm not as erudite as the president, and if you don't mind...
+::<!--Custom String Trigger: Wait_Option_502063101_856-->
+::<!--Custom String Listener: Wait_Option_502063101_856-->
+::{{DIcon|Talk}} You are popular in Aurum Alley, right?
+:::<!--Custom String Listener: TalkSentence_502063108-->
+:::'''Mingxi:''' Yeah, I guess so, thanks to the kind merchants in the alley...
+:::'''Mingxi:''' Being a secretary means dealing with a wide variety of people, and we've become acquainted over time.
+:::'''Mingxi:''' According to the president, it's easy to be sincere with someone once, but it's hard to be sincere all the time.
+:::'''Mingxi:''' As you see, everyone has been nice to me. Perhaps this is the result of my sincerity.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you think of the Interastral Peace Corporation?
+:::<!--Custom String Listener: TalkSentence_502063113-->
+:::'''Mingxi:''' Well, I can be frank with you, but please keep my words a secret from my colleagues...
+:::'''Mingxi:''' In their eyes, IPC is no different than a ruthless beast that leaves only devastation in its wake in the business world... However, as a customer who uses IPC products every day and knows about its origins, I don't think my colleagues' claims really make sense.
+:::'''Mingxi:''' I don't think words that are used to describe people, such as "treacherous" or "courageous," can be used to describe a corporation.
+:::'''Mingxi:''' Obviously, a corporation is not a "living being," nor does it have only one "face." It's something more complicated. It's not a ruthless beast or a righteous person... if you know what I mean.
+:::{{DIcon|Arrow}} So, you don't have any remarks on IPC?
+::::<!--Custom String Listener: TalkSentence_502063118-->
+::::'''Mingxi:''' Well, from a business point of view, the IPC is definitely a success.
+::::'''Mingxi:''' ...As for other aspects, I don't know what to say as I don't know much about it.
+::::<!--Custom String Trigger: TalkSentence_502063123-->
+::::<!--Custom String Listener: TalkSentence_502063123-->
+::::'''Mingxi:''' But in fact, the IPC plays different roles when it comes to advertising, procurement, and debt collection...
+::::'''Mingxi:''' So, I think it's biased to evaluate a corporation based solely on its "representatives."
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you saying that your colleagues view the IPC in the same way they view people?
+::::<!--Custom String Listener: TalkSentence_502063121-->
+::::'''Mingxi:''' In the same way they view people? Yeah, in a sense that's what they've been doing.
+::::'''Mingxi:''' Whenever they talk about the IPC, they do it in a way as if it were Dongfang Qixing or Louis Fleming.
+::::<!--Custom String Trigger: TalkSentence_502063123-->
+::::<!--Custom String Listener: TalkSentence_502063123-->
+::::'''Mingxi:''' But in fact, the IPC plays different roles when it comes to advertising, procurement, and debt collection...
+::::'''Mingxi:''' So, I think it's biased to evaluate a corporation based solely on its "representatives."
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're not standing here all the time, are you?
+:::<!--Custom String Listener: TalkSentence_502063126-->
+:::'''Mingxi:''' You know why I'm standing here &mdash; I'm standing here so that you can find me at any time!
+:::'''Mingxi:''' I'm supposed to sit in my office dealing with business work, but I don't remember how long I've been standing here without a chance to sit down.
+:::'''Mingxi:''' My colleagues in Aurum Alley often come to me and bring me snacks, and they are tasty.
+:::'''Mingxi:''' *Sigh* I hope they haven't taken the chair out of my office.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Now if you'll excuse me.
+:::<!--Custom String Listener: TalkSentence_502063131-->
+:::'''Mingxi:''' Yeah, sure, I've got some work to do, too. Feel free to come to me if you have any questions.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502063101-->
+:{{DIcon|Exit}} Now if you'll excuse me.
+::'''Mingxi:''' Yeah, sure, I've got some work to do, too. Feel free to come to me if you have any questions.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502063133)
+:<!--Custom String Listener: TalkSentence_502063133-->
+::'''Mingxi:''' Yeah, sure, I've got some work to do, too. Feel free to come to me if you have any questions.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mingxi
+|zhs  = 明曦
+|zht  = 明曦
+|ja   = 明輝
+|ko   = 명희
+|es   = Mingxi
+|fr   = Mingxi
+|ru   = Минси
+|th   = Mingxi
+|vi   = Mingxi
+|de   = Mingxi
+|id   = Mingxi
+|pt   = Mingxi
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,121 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wendy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Wendy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Wendy''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_54_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000139: Config/Level/Mission/5000030/Act/Act900000139.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500014002
+	]
+}</pre>
+::'''Wendy:''' Hi, there! I am... um, Wenfry gave me a name... What was it again? Ah, it's Wendy! My name is Wendy!
+::'''Wendy:''' You look different from us... Are you a space station researcher? Can you share some stories about your department with me?
+::{{DIcon|Arrow}} (Tell her about your experience at the space station)
+:::<!--Custom String Listener: TalkSentence_500013905-->
+:::'''Wendy:''' That's awesome! But... I'm having trouble following many of the things you said. Alas, if Wenfry were here, I'm sure she could get it. I wish I were as smart as her.
+::{{DIcon|Arrow}} I'm not a researcher, but I'm greater than one.
+:::<!--Custom String Listener: TalkSentence_500013907-->
+:::'''Wendy:''' Eh? How come you're here if you aren't a researcher? I thought you came down from up there.
+::<!--Custom String Trigger: TalkSentence_500013908-->
+::<!--Custom String Listener: TalkSentence_500013908-->
+::'''Wendy:''' You must be very smart given how tall you are. Wenfry is slightly taller and so much more knowledgeable than me...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000140: Config/Level/Mission/5000030/Act/Act900000140.json-->
+::'''Wendy:''' Ah, it's you again! I met you before, and I asked you whether you were a researcher last time! My name is...
+::'''Wendy:''' My name is... um, Wenfry gave me a name... What was it again? Ah, it's Wendy! My name is Wendy!
+::'''Wendy:''' How can I help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I have some questions for you...
+::<!--Custom String Trigger: Wait_Option_900000141_43-->
+::<!--Custom String Listener: Wait_Option_900000141_43-->
+::{{DIcon|Talk}} Why are there so many Wens on the space station?
+:::<!--Custom String Listener: TalkSentence_500014104-->
+:::'''Wendy:''' According to Wenfry, "Wen" is the official last name of space station researchers. It might be some sort of initiation ritual for them.
+:::'''Wendy:''' Ms. Wenfry also said that the researchers were all brilliant people. I wanted to be smart like them, so she gave both of us a researcher name.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Who is this Wenfry?
+:::<!--Custom String Listener: TalkSentence_500014107-->
+:::'''Wendy:''' Wenfry is my best friend! We even have a similar peachy scent, though hers is stronger.
+:::'''Wendy:''' That's why she's smarter and more knowledgeable than me. Although we've never left this place since we were little, she's able to keep abreast of things. *sigh* If only I were as smart as her...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you trying to find out about the space station?
+:::<!--Custom String Listener: TalkSentence_500014110-->
+:::'''Wendy:''' Wenfry said it was boring here. That's how I feel too. She also said we could go up to take a look at the space station, but we haven't found the route.
+:::'''Wendy:''' Ms. Wenfry tells me about the space station whenever she has time, but she's not always free, so...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500014113-->
+:::'''Wendy:''' Sure, let's talk another time.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll leave you to it.
+::'''Wendy:''' Sure thing! Come talk to me more when you're free. It gets pretty boring sometimes.
+::'''Wendy:''' I heard the space station is just above us, I wonder what life there is like? I really wanna go take a look with Wenfry...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

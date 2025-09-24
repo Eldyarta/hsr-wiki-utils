@@ -1,0 +1,153 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lucretia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Vet
+|image           = NPC Lucretia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Lucretia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_350_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504025001: Config/Level/Mission/5040250/Act/Act504025001.json-->
+::'''Lucretia:''' Oh, a fresh face? Hello there, my name's Lucretia and I'm the vet around here.
+::'''Lucretia:''' Is this your first time here? Did you come to see the precious babies in our workshop, our dromases? They're my big babies. I mean... Dromases are a gift from Georios!
+::{{DIcon|Arrow}} Yeah, I just came to Okhema not long ago.
+:::<!--Custom String Listener: TalkSentence_504025005-->
+:::'''Lucretia:''' I see. I was wondering why you aren't dressed up like a local.
+::{{DIcon|Arrow}} No, I'm just passing by.
+:::<!--Custom String Listener: TalkSentence_504025007-->
+:::'''Lucretia:''' That's fine. If you want, you can just hang around here for a while. The little fellas like a bit of action.
+::<!--Custom String Trigger: TalkSentence_504025008-->
+::<!--Custom String Listener: TalkSentence_504025008-->
+::'''Lucretia:''' In any case, it's always nice to make a new friend. Here, let me introduce you to these docile big 'uns next to you. They're real sweeties around the workshop and don't let their big size fool you, because they're normally very obedient.
+::{{DIcon|Arrow}} Okay. Can I pet them?
+:::<!--Custom String Listener: TalkSentence_504025010-->
+:::'''Lucretia:''' I'm sorry... Not right now. The little fellas have been acting out a little recently, and I'm afraid it could cause trouble.
+:::<!--Custom String Trigger: TalkSentence_504025013-->
+:::<!--Custom String Listener: TalkSentence_504025013-->
+:::'''Lucretia:''' A few days back when I was checking in on them, the little fellas were acting out a little... In the past, whenever they were afraid, they'd still line up obediently and would just grumble a few notes... But now they've turned feral...
+:::'''Lucretia:''' Out of consideration for your safety, please look but don't touch.
+:::{{DIcon|Arrow}} Did something happen to them?
+:::{{DIcon|Arrow}} What do you mean by "acting out"?
+:::<!--Custom String Listener: TalkSentence_504025018-->
+:::'''Lucretia:''' Well... They suddenly started behaving in a way they've never done before. You know, I may not have been a vet for very long, but my family has been looking after dromases for generations. To be blunt, I've probably got more of them as friends than I do people...
+:::'''Lucretia:''' But not long ago, a caravan reported back to me that on the way back to Okhema, their dromases stopped and refused to walk. They started "singing" instead. They couldn't be pressed on no matter what.
+:::'''Lucretia:''' That sound... according to the caravan, was really sharp. But you have to understand that normally their voices are very low, and they don't usually make high-pitched shrieks.
+:::'''Lucretia:''' At first, I didn't believe what they said. But yesterday around the Curtain-Fall Hour, I heard them doing it, and it freaked me out.
+:::{{DIcon|Arrow}} Have you been able to find out why?
+::::<!--Custom String Listener: TalkSentence_504025023-->
+::::'''Lucretia:''' Not yet. I've been recording their anomalous behaviors, and hope to be able to put together some conclusions then.
+:::{{DIcon|Arrow}} It sounds a little weird...
+::::<!--Custom String Listener: TalkSentence_504025025-->
+::::'''Lucretia:''' Right! They're usually so well-behaved and praised for their obedience. I never saw this coming, with the loud singing disturbing people &mdash; we've had to field complaints from neighbors several times now.
+:::<!--Custom String Trigger: TalkSentence_504025026-->
+:::<!--Custom String Listener: TalkSentence_504025026-->
+:::'''Lucretia:''' Right now, I'm a little skeptical about whether it's some kind of ancient habit &mdash; perhaps a habit so ancient that it was how they naturally were prior to Georios gifting them to us. But, through years of domestication, they have rarely displayed this to humans, likely due to changes in their living conditions.
+:::'''Lucretia:''' Because that noise... It sounds just like an ancient horn, rousing me to action. I can feel some special kind of emotion within it. Don't tell me... this year we'll be getting yet another "restless Creation Season"?
+:::{{DIcon|Arrow}} Time for another mating season...
+:::{{DIcon|Arrow}} "Restless Creation Season"? Interesting...
+:::<!--Custom String Listener: TalkSentence_504025030-->
+:::'''Lucretia:''' Why are you looking at me like that? Are you afraid they're going to lunge out and attack everyone? Don't worry &mdash; they're just a little kooky, that's all.
+:::'''Lucretia:''' Perhaps it's because they've reached puberty, but they're still very gentle by nature and would never harm a fly. We've got a new coworker at the workshop who likes to tickle their chins and who sometimes rides them to pet their heads &mdash; but they never show the slightest resistance.
+:::'''Lucretia:''' But then again, I really do find it strange... What happened to the little guys? *sigh* Unfortunately I still don't have any clue...
+::{{DIcon|Exit}} I'm sorry. I'm actually just passing through...
+:::<!--Custom String Listener: TalkSentence_504025012-->
+:::'''Lucretia:''' I see, sorry. I thought that... Well, I hope I didn't bug you there!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504025002: Config/Level/Mission/5040250/Act/Act504025002.json-->
+::'''Lucretia:''' That's strange... What happened to the little guys? Hey, it's you! What's up, can't get enough of our dromases? Or maybe... are you here to chat with me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to ask...
+::'''Lucretia:''' Haha, the little guys are just acting a little weird today. They're all healthy and injury-free. So I pretty much have a bunch of free time today if you want to chat about anything.
+::<!--Custom String Trigger: Wait_Option_504025003_64-->
+::<!--Custom String Listener: Wait_Option_504025003_64-->
+::{{DIcon|Talk}} Could you please tell me a little about dromases?
+:::<!--Custom String Listener: TalkSentence_504025204-->
+:::'''Lucretia:''' Where to begin? Hmm... How about their skin: It may look rough on the surface, but it actually feels like warm cobbles due to their body temperature being slightly higher than ours. They're great to pet on a cold day.
+:::'''Lucretia:''' But I think what's most amazing about them is their stomach, it's basically like a small alchemical workstation. I have no idea how they can digest so many weird shapes and minerals. Just the chewing sound makes my ears hurt.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any other abnormal behaviors recently?
+:::<!--Custom String Listener: TalkSentence_504025207-->
+:::'''Lucretia:''' Hmm. They seem to be more sensitive to a few places... Like for example the sandpit for bathing. They used to love rolling around in there before, but now they won't go near it no matter what you say.
+:::'''Lucretia:''' Luckily, my coworkers were smart enough to bring a few buckets of sand and pour them over themselves, cleansing their bodies with sand. They didn't hate it.
+:::'''Lucretia:''' And what's more, the thing that worries me most: Their eyes have changed. Dromas eyes are small, but very bright. They used to be moist and calm, giving you this feeling of contentment.
+:::'''Lucretia:''' But now, they sometimes betray a hint of... How to put it? A look of simultaneous confusion and vigilance, as if guarding against something but also as if confused about something... I've tried therapy with their keeper several times, but it hasn't worked so far.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you please tell me the story of the Earth Titan?
+:::<!--Custom String Listener: TalkSentence_504025212-->
+:::'''Lucretia:''' Oh, the story of the Earth Titan is an interesting one. You ever heard about how the dromases came about? They say that they grew out of Georios' back! Just like... Um... Just like how the hair grows out of our heads.
+:::'''Lucretia:''' Some people also believe that dromases can predict disasters. Don't laugh, it's true! Once, when I was very young, I saw a herd of dromases suddenly grow restless. Not long after, a giant tree nearby fell. I remember being weak at the knees with fright.
+:::'''Lucretia:''' However, the most interesting one is also the ancient rumor: It claims that when the Earth Titan begins to slumber, the dromases will make a ruckus, like how children can prank the household after the parent has gone to sleep.
+:::'''Lucretia:''' Would you say that Georios is now taking a nap, so these big fellas are starting to grow restless?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_504025217-->
+:::'''Lucretia:''' Despite the dromases behaving a little abnormally these days, they're still our gift from Georios no matter what happens!
+:::'''Lucretia:''' If you like dromases, I hope you can come visit them often. No matter how weird they might be, they're still always gentle, cuddly, and... maybe one day they'll make a return to normal!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have anything to talk about.
+::'''Lucretia:''' That's fine. Come find me if you're ever interested in dromases. After all, my life is really bland, and I've got a one-track mind when it comes to dromases. There's not much else for me to chat about.
+::'''Lucretia:''' Despite the dromases behaving a little abnormally these days, they're still our gift from Georios no matter what happens!
+::'''Lucretia:''' If you like dromases, I hope you can come visit them often. No matter how weird they might be, they're still always gentle, cuddly, and... maybe one day they'll make a return to normal!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lucretia
+|zhs  = 卢克雷提娅
+|zht  = 盧克雷提婭
+|ja   = ルクレティア
+|ko   = 루크레티아
+|es   = Lucrecia
+|fr   = Lucrèce
+|ru   = Лукреция
+|th   = Lucretia
+|vi   = Lucretia
+|de   = Lucretia
+|id   = Lucretia
+|pt   = Lucrécia
+}}
+==Change History==
+{{Change History|TODO}}

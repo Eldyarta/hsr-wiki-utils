@@ -1,0 +1,146 @@
+<%-- [PAGE_INFO]
+PageTitle=#Aphrea#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Tailor Shop Owner
+|image           = NPC Aphrea.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Aphrea''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_42_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504004001: Config/Level/Mission/5040040/Act/Act504004001.json-->
+::'''Juno:''' ...What happened yesterday? Why didn't you show up?
+::'''Aphrea:''' Let me be straight: I'm already married. So, please stop trying to set me up with someone else.
+::'''Juno:''' That modest Mountain Dweller with no riches or prospects... Does he even measure up to you? Just ditch him!
+::'''Aphrea:''' Please stop badmouthing him, Aunt Juno. Vulcan is a gentle soul. He's caring, patient, and persistent...
+::'''Juno:''' So what, Aphrea? Seriously, take my advice: With your beauty, why settle for him when you could have a queue of admirers eager to do anything just for your attention?
+::'''Aphrea:''' But I'm in love with him. That's what matters.
+::'''Juno:''' Tsk, you youngsters and your idealism... Marriage isn't a game. Rush into things now, and you'll regret it forever!
+::'''Aphrea:''' ...
+::'''Juno:''' In my view, the man I introduced you to is remarkable. He was a prominent noble in his previous city, and even though he's in Okhema now, his heritage and status make him stand out.
+::'''Aphrea:''' No.
+::'''Juno:''' Huh, what do you mean, "no"? It's your fortune that he might choose you, but why are you... Don't be ungrateful! I'm doing this for your sake!
+::'''Aphrea:''' For my sake? Hah! You know, when people say "for your sake," what they really mean is, "I'm doing this for myself, and you're just a means to an end."
+::'''Juno:''' W&mdash;Watch your tone when talking to your elder!
+::'''Aphrea:''' What about my cousin, who's the same age as me? Why didn't you introduce her instead? Let me guess... it's because her appearance doesn't meet his "standards," right?
+::'''Juno:''' Wh&mdash;Where are your manners!? You used to be so kind... but now? Must be the influence of that uncouth Mountain Dweller... I always knew those folks couldn't handle civilized society...
+::'''Aphrea:''' Well, I beg to differ. Take a good look in the mirror and see how worked-up you are over this. Notice that? My Vulcan looks leagues above that.
+::'''Juno:''' Tsk...
+::'''Aphrea:''' I've got a piece of advice for you too, Aunt Juno. Stay. Out. Of. My. Business.
+::'''Aphrea:''' Just like you said, I have a queue of admirers eager to do anything just for my attention. If you upset me too much, one of them might do something foolish to you. I can't keep an eye on those men all day, can I?
+::'''Juno:''' ...H&mdash;How dare you threaten me...? Just... just you wait!
+::'''Aphrea:''' Phew... Finally, some peace and quiet. Ah, what a lovely day today.
+::'''Aphrea:''' Hey, there! Welcome to Goldweaver tailor! What can I help you with today?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504004002: Config/Level/Mission/5040040/Act/Act504004002.json-->
+::'''Aphrea:''' Hey, there! Welcome to Goldweaver tailor! What can I help you with today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} What do you have in stock?
+::'''Aphrea:''' Since we're a tailor's shop, you can expect to find fabrics and ready-made garments. Take a look around and see if anything catches your eye!
+::<!--Custom String Trigger: Wait_Option_504004005_72-->
+::<!--Custom String Listener: Wait_Option_504004005_72-->
+::{{DIcon|Talk}} White linen, please.
+:::<!--Custom String Listener: TalkSentence_504004213-->
+:::'''Aphrea:''' White linen is a staple fabric in Okhema. It's everywhere &mdash; chances are, nine out of ten people you see are wearing clothes made from it.
+:::'''Aphrea:''' Check this out! The white linen we carry is a new variety grown in the Garden of Life. It's soft, breathable, and drapes like a dream. Here, feel it! It's light as a butterfly, isn't it?
+:::'''Aphrea:''' Have you thought about ordering a set of our local attire? Your fair skin, lovely hair, and beautiful eye color would make you look stunning in one.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Purple silk, please.
+:::<!--Custom String Listener: TalkSentence_504004217-->
+:::'''Aphrea:''' This purple silk originally came from the city-state of Pyria in the east. Farmers there specialized in raising a unique worm that produced silk. They spun the strands into silk and dyed it purple using a special powder from spiral shells.
+:::'''Aphrea:''' But Pyria has long been a thing of the past. Today's purple silk is synthetic, and the dye was changed to blue brassica stones and redleaf grass.
+:::'''Aphrea:''' Due to its intricate method of production, this silk tends to be on the pricier side. It's often used for crafting formal wear at festivals and grand events.
+:::'''Aphrea:''' For everyday wear... Well, if you know someone who's always serious and stern, maybe you could recommend it to them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Golden silk, please.
+:::<!--Custom String Listener: TalkSentence_504004222-->
+:::'''Aphrea:''' You've got a keen eye! This silk you're looking at is spun by Lady Aglaea herself! It's a gem of this humble shop!
+:::'''Aphrea:''' Let me share this tale with you! Legend has it that a Flame-Chase Chrysos Heir once battled the gods alone, and her hands were stained with the golden ichor of the Titans. When she returned home, she discovered that all the silk she spun turned a dazzling golden hue.
+:::'''Aphrea:''' In fact, its golden color comes from a dye made from a rare ore. But even so, the golden silk is quite pricey and only within reach for a select few.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_504004226-->
+:::'''Aphrea:''' No worries at all! Feel free to drop in whenever you need.
+:::<!--Ends the current performance-->
+:{{DIcon}} You seem to be in a bit of trouble.
+::'''Aphrea:''' Well, you see, I recently got married, but everyone is convinced that I'm too good for my husband.
+::'''Aphrea:''' All because Vulcan is an outlander, a Mountain Dweller... They even asked me if I was forced into marrying him, heh.
+::<!--Custom String Trigger: Wait_Option_504004003_47-->
+::<!--Custom String Listener: Wait_Option_504004003_47-->
+::{{DIcon|Talk}} What's wrong with Mountain Dwellers?
+:::<!--Custom String Listener: TalkSentence_504004104-->
+:::'''Aphrea:''' Beats me! I mean, what's wrong with Mountain Dwellers!? Sure, he might seem a little dull, but once you get to know him, you'll see his heart of gold!
+:::'''Aphrea:''' Tsk, all this chatter about being "unattractive and dim-witted"... and blah blah... Heh, if I wanted eye candy, I'd just gaze at myself in the mirror. A beautiful soul is what truly counts!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How are things really going between you two?
+:::<!--Custom String Listener: TalkSentence_504004107-->
+:::'''Aphrea:''' It's PURE BLISS! You know, while I've had plenty of admirers, they're more interested in possessing something beautiful for themselves.
+:::'''Aphrea:''' But only Vulcan sees the real me. He always hears me out, values my thoughts, and supports my ambitions. He's simply my soul mate!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} You've definitely got a mind of your own.
+:::<!--Custom String Listener: TalkSentence_504004110-->
+:::'''Aphrea:''' Thanks for saying that! It's all thanks to the wisdom of Lady Aglaea. She might come off as... intimidating, but deep down, she has a gentle soul.
+:::'''Aphrea:''' She's taught me a lot, especially about... beauty. It's not just about pleasing the eye, but about nourishing the soul.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let us talk next time.
+::'''Aphrea:''' Catch you later! Drop by anytime if you need a hand with anything.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Aphrea
+|zhs  = 阿芙罗
+|zht  = 阿芙羅
+|ja   = アウロ
+|ko   = 아프리나
+|es   = Afrea
+|fr   = Aphaïa
+|ru   = Афрея
+|th   = Aphrea
+|vi   = Aphrea
+|de   = Aphrea
+|id   = Aphrea
+|pt   = Aphrea
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,359 @@
+<%-- [PAGE_INFO]
+PageTitle=#Old Garmentmaker#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Old Garmentmaker.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Old Garmentmaker''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_177_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}}}-->}})
+:::<!--Trigger PerformanceE 504118002: Config/Level/Mission/5041180/Act/Act504118002.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}}}-->}})
+::::'''Old Garmentmaker:''' We meet again, my esteemed guest.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}}}-->}})
+::::'''Old Garmentmaker:''' The curtains of memories never fall, my esteemed guest.
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}}}-->}})
+::;(First interaction)
+::::<!--Trigger PerformanceE 504118001: Config/Level/Mission/5041180/Act/Act504118001.json-->
+::::'''Old Garmentmaker:''' Well hello, my esteemed guest... we meet again.
+::::{{DIcon|Arrow}} This has to be a dream.
+:::::<!--Custom String Listener: TalkSentence_504118003-->
+:::::'''Old Garmentmaker:''' In a way, you're right. I exist here thanks to your active imagination.
+::::{{DIcon|Arrow}} Are you from the new world?
+:::::<!--Custom String Listener: TalkSentence_504118005-->
+:::::'''Old Garmentmaker:''' I don't believe so. My connection to you is more intimate than to the outside world.
+::::<!--Custom String Trigger: TalkSentence_504118006-->
+::::<!--Custom String Listener: TalkSentence_504118006-->
+::::'''Old Garmentmaker:''' Aedes Elysiae is influenced by a unique power that molds me from your memories &mdash; magic, one might say.
+::::'''Old Garmentmaker:''' In this form, I inherit the ability to sense weavers and the duty to collect nymphs. I'm sure you recall my former purpose.
+::::'''Old Garmentmaker:''' Regardless, thank you for your continued assistance. If you find any nymphs, please lend a hand.
+::;(Subsequent interactions)
+::::<!--Trigger PerformanceE 504118002: Config/Level/Mission/5041180/Act/Act504118002.json-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}}}-->}})
+:::::'''Old Garmentmaker:''' We meet again, my esteemed guest.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}}}-->}})
+:::::'''Old Garmentmaker:''' The curtains of memories never fall, my esteemed guest.
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}})
+:{{DIcon|undefined}} I've found all the nymphs here.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":1}},"Inverse":true}-->}})
+:::::'''Old Garmentmaker:''' Thank you for your dedicated work, my esteemed guest. The symphony of weaver chirps reminds me of a special prophecy.
+:::::'''Old Garmentmaker:''' "At the climax of the symphony." Hmm... The fairies of Aedes Elysiae have a passion for music, excel at playing harps, and use their melodies to create a festive atmosphere.
+:::::'''Old Garmentmaker:''' Go search for the fairy harp. You should find something in the depths of the Membrance Maze.
+:::::'''Old Garmentmaker:''' The prophecy mentions a "wind chime" and melody too. Perhaps it's related to this nymph carrying a wind chime.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":1}},"Inverse":true}-->}})
+:::::'''Old Garmentmaker:''' Congratulations, my esteemed guest. You've ventured to the frontier of time and completed the prophesied trials.
+:::::'''Old Garmentmaker:''' Prophecies are simply forgotten chronicles that, once fulfilled by one's own actions, become embedded in memory.
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200620
+			}
+		}
+	]
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":4044401}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":1}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}},"Inverse":true}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}})
+:{{DIcon}} Can you give me more hints?
+::::'''Old Garmentmaker:''' "At the climax of the symphony." Hmm... The fairies of Aedes Elysiae have a passion for music, excel at playing harps, and use their melodies to create a festive atmosphere.
+::::'''Old Garmentmaker:''' Go search for the fairy harp. You should find something in the depths of the Membrance Maze.
+::::'''Old Garmentmaker:''' The prophecy mentions a "wind chime" and melody too. Perhaps it's related to this nymph carrying a wind chime.
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200620}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}})
+:{{DIcon|undefined}} Where are the remaining nymphs?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":24}},"Inverse":true}-->}})
+:::::'''Old Garmentmaker:''' Provide me with {{Color|keyword|nobold=1|Memory Crystal Shards}}, and I'll weave them into golden threads to track down the nymphs.
+:::::{{DIcon|Arrow}} Provide Memory Crystal Shards.
+::::::<!--Custom String Listener: Wait_Option_504118002_29-->
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 24
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 504118105
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 24
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 178
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118106
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 179
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118107
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 180
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118108
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 181
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118109
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 182
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118110
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 183
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118111
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 184
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118112
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 185
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118113
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 186
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118114
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 187
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504118115
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504118117"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::{{DIcon|Arrow}} Nope~
+::::::<!--Custom String Listener: TalkSentence_504118117-->
+::::::'''Old Garmentmaker:''' Please understand, my esteemed guest. I need more power associated with memories to heighten my sensitivity to nymphs.
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":24}},"Inverse":true}-->}})
+:::::'''Old Garmentmaker:''' Forgetting is far more challenging than remembering. My mind is consumed with the nymph I'm currently tracking. Let's focus on recalling it first.
+::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I'll get back to work.
+::::'''Old Garmentmaker:''' The curtains of memories never fall, my esteemed guest. I will remain here, waiting.
+::::<!--Ends the current performance-->
+::<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "6127"
+	}
+}</pre>
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+:;(If [[Fate's Ensemble]] is active)
+:::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+:::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+:;(If [[Fate's Ensemble]] is active)
+:::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Garmentmaker"
+|zhs  = 「衣匠」
+|zht  = 「衣匠」
+|ja   = 「ラフトラ」
+|ko   = 「의상공」
+|es   = Sastre
+|fr   = Costumière
+|ru   = Швея
+|th   = "หุ่นตัดชุด"
+|vi   = Thợ May
+|de   = Kleidermacherin
+|id   = "Garmentmaker"
+|pt   = "Confeccionadora"
+}}
+==Change History==
+{{Change History|TODO}}

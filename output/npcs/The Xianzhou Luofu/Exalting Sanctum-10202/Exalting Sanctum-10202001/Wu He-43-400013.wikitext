@@ -1,0 +1,198 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wu He#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Butterfly Immersia's Director
+|image           = NPC Wu He.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Wu He''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400013}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502019101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502019101.json-->
+::'''Wu He:''' ...If everyone thought like you did, the art of Butterfly Immersia would be wiped out! If master Zi Run had listened to these so-called "business interests" back then, "The Bridge to Grandma's Home" would've never even been released!
+::'''Nanjie:''' Ha, then you can take your artistic dreams and your bridge &mdash; and jump off it into a lake! Do you think I said this to cause you pain? Why can't we all make a little money together? Why have you gotta be so pig-headed...
+::'''Wu He:''' But... Art cannot be measured by commercial impact alone! Why would you try to make a living in this industry if you have no respect for art at all?
+::{{DIcon|Arrow}} Fight! Fight!
+:::<!--Custom String Listener: TalkSentence_502019105-->
+:::'''Wu He:''' ...And who are you? Egging us on to fight like this... What can you get out of this?
+::{{DIcon|Arrow}} You two: Quit arguing!
+:::<!--Custom String Listener: TalkSentence_502019108-->
+:::'''Wu He:''' Oh, I... I'm really sorry about that. We kind of went a bit goblin mode there and should've paid more attention to our surroundings.
+::{{DIcon|Arrow}} You guys wait here. I'll go find the Realm-Keeping Commission.
+:::<!--Custom String Listener: TalkSentence_502019111-->
+:::'''Wu He:''' No no no, please don't bother the Realm-Keeping Commission with this little tiff of ours.
+::'''Nanjie:''' *sigh* Wu He, calm down. Let's not put on a show for people.
+::<!--Custom String Trigger: TalkSentence_502019113-->
+::<!--Custom String Listener: TalkSentence_502019113-->
+::'''Wu He:''' I'm arguing with you out of creative license, right... Let me explain to the {{MC|f=girl|m=boy}} here &mdash; we're Butterfly Immersia creatives. She's Nanjie, the producer &mdash; and I'm the director, Wu He.
+::'''Nanjie:''' Let's stop there, for you to get calmed down. Sorry to make you laugh. Have you got anything you'd like to say?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502019102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502019102.json-->
+::'''Wu He:''' ...Modern media breaks down, pulverizes, and distills every soul capable of aesthetic beauty into a "creative assembly line" &mdash; then has the cheek to turn around and tell us "The creative assembly line doesn't need any more creativity"!
+::'''Nanjie:''' But whoever has the resources to create art also has the right to create art... Uh... Hold on a minute... Are you looking for us? What's up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502019201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502019201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502019201.json-->
+::'''Wu He:''' I sure did... I was just chatting with Nanjie about it. Before it started growing, we had to spend budget on visual effects if we wanted to shoot that...
+::'''Wu He:''' But now we can shoot the real thing &mdash; the effects are brilliant and we also save on our bottom line.
+::'''Nanjie:''' However, we'll probably need permits from all the relevant departments before we can shoot immersia scenes there... And we'll probably have to wrangle with that for far too long.
+::'''Wu He:''' Isn't this public relations hassle exactly the kind of thing a producer does?
+::'''Nanjie:''' Passing all the pressure of this partnership over to me once again... But it's cool. I'm actually keen to shoot a martial arts immersia on top of the Ambrosial Arbor. We can call it "Treetop Death Match: Arbor Awakened." Sounds awesome, right?
+::'''Wu He:''' You really have no taste...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502019201-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502019201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Have you guys heard about what happened to the Ambrosial Arbor?
+::<!--Trigger PerformanceE 502019104: Config/Level/NPCDialogue/P10202/NPCAct/Act502019104.json-->
+::'''Wu He:''' Are you talking about the fact that the Ambrosial Arbor no longer sprouts? That's old news to me. Nanjie even advised me to make some immersias about it while it is still a hot topic.
+::'''Nanjie:''' Such a great opportunity is hard to come by! You should make immersias about it when the topic is still the talk of the town. In this way, you don't even need to spend much on promotions.
+::'''Wu He:''' I don't think it's a good idea. Firstly, we don't know the inside story. Secondly, we won't have the chance to shoot on-site. No one would like to watch such contrived stuff.
+::'''Nanjie:''' Don't be so rigid. An immersia about the Ambrosial Arbor doesn't have to include scenes of the real tree. We can film it from the perspectives of the clerks and Cloud Knights from the Realm-Keeping Commission. Just throw in some action scenes and special effects to create tension, and the immersia will do fine.
+::'''Wu He:''' If that's the case, the title of the immersia should be ''Legend of Ambrosial Arbor: Prequel'', since the story is only told halfway.
+::'''Nanjie:''' Next, we can release one titled ''Agent 001'' about an agent from the Seat of Divine Foresight who runs into some troublemakers on his way to investigate the Ambrosial Arbor...
+::'''Nanjie:''' Some funny incidents take place along the way. In the end, everyone realizes the Ambrosial Arbor crisis is nothing but a misunderstanding. It will be a comedy and a crowd-pleaser.
+::'''Wu He:''' ...Forget it. You know nothing about immersias...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502019104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502019201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} Just a casual chat...
+::<!--Trigger PerformanceE 502019103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502019103.json-->
+::'''Nanjie:''' Is it possible that you've got a fan here? Alright, keep talking, Wu He.
+::<!--Custom String Trigger: Wait_Option_502019101_29-->
+::<!--Custom String Listener: Wait_Option_502019101_29-->
+::{{DIcon|Talk}} What's Butterfly Immersia all about?
+:::<!--Custom String Listener: TalkSentence_502019118-->
+:::'''Wu He:''' Butterfly Immersia is a unique art form found in Xianzhou. It combines ancient foxian illusions with modern artifex tech to create an incredibly real dreamland that completely immerses the audience right in the middle of the scene.
+:::{{DIcon|Arrow}} Wow, sounds pretty awesome...
+::::<!--Custom String Listener: TalkSentence_502019120-->
+::::'''Nanjie:''' Actually, it's all just virtual reality tech.
+::::<!--Custom String Trigger: TalkSentence_502019124-->
+::::<!--Custom String Listener: TalkSentence_502019124-->
+::::'''Wu He:''' How can Butterfly Immersia be the same as VR? Its core revolves around a base of foxian magic!
+::::'''Wu He:''' It fully engrosses the five senses and blurs reality with illusion creating a purely artistic time in space: The alternation of the subjective with the objective...
+::::{{DIcon|Arrow}} So what exactly is the difference, then...
+::::<!--Custom String Listener: TalkSentence_502019127-->
+::::'''Wu He:''' The exact... difference... is that... This is culture! This is art! It's art, you know!
+::::'''Nanjie:''' There's really not much difference. It's basically just VR.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Isn't this virtual reality...
+::::<!--Custom String Listener: TalkSentence_502019122-->
+::::'''Wu He:''' Wrong! Butterfly Immersia is a unique cultural legacy and art form found only on Xianzhou, not some crazy...
+::::'''Nanjie:''' Don't make it so complicated. The essence is basically virtual reality.
+::::<!--Custom String Trigger: TalkSentence_502019124-->
+::::<!--Custom String Listener: TalkSentence_502019124-->
+::::'''Wu He:''' How can Butterfly Immersia be the same as VR? Its core revolves around a base of foxian magic!
+::::'''Wu He:''' It fully engrosses the five senses and blurs reality with illusion creating a purely artistic time in space: The alternation of the subjective with the objective...
+::::{{DIcon|Arrow}} So what exactly is the difference, then...
+::::<!--Custom String Listener: TalkSentence_502019127-->
+::::'''Wu He:''' The exact... difference... is that... This is culture! This is art! It's art, you know!
+::::'''Nanjie:''' There's really not much difference. It's basically just VR.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you guys do for a living?
+:::<!--Custom String Listener: TalkSentence_502019130-->
+:::'''Nanjie:''' We're affiliates of Elsholtzia Fantasy Entertainment, the greatest Butterfly Immersia production studio in all of Xianzhou. I'm the producer, and he's the director.
+:::'''Wu He:''' The largest production studio? The IPC has poured vast quantities of capital into the genre, creating their own Interastral Peace Entertainment subsidiary. Elsholtzia Fantasy Entertainment is done for &mdash; it's over!
+:::'''Nanjie:''' Sorry, he gets a bit emotional sometimes. Interastral Peace Entertainment is just trying to test out a new kind of homegrown entertainment format called "Empathic Immersia" &mdash; which is different from our traditional performing art.
+:::'''Nanjie:''' Empathic Immersia will provide a dreamworld with multiple different story directions.
+:::{{DIcon|Arrow}} I know this. You mean "video games," right?
+::::<!--Custom String Listener: TalkSentence_502019135-->
+::::'''Wu He:''' Pretty much, it's trivial pap...
+::::<!--Custom String Trigger: TalkSentence_502019138-->
+::::<!--Custom String Listener: TalkSentence_502019138-->
+::::'''Nanjie:''' It's a pity that our director Wu He is such a snob, saying that "Empathic Immersia is not a legitimate art form."
+::::'''Wu He:''' Empathic Immersia cannot be an art form, because it lacks a true artist in its ranks. If I were contracted to do some Empathic Immersia instead of those suits at the company dilly-dallying, then maybe it could have become a true art form...
+::::'''Nanjie:''' So let me get this straight: Now Empathic Immersia is a legitimate art form again?
+::::'''Wu He:''' I'm just worried that perhaps there'll come a day when people won't remember that Butterfly Immersia is actually a cultural relic of Xianzhou foxians, but instead just think it's this product invented by the IPC... I can't help but shudder when I contemplate such a future...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Sounds really advanced...
+::::<!--Custom String Listener: TalkSentence_502019137-->
+::::'''Nanjie:''' Actually, it really does use quite advanced tech.
+::::<!--Custom String Trigger: TalkSentence_502019138-->
+::::<!--Custom String Listener: TalkSentence_502019138-->
+::::'''Nanjie:''' It's a pity that our director Wu He is such a snob, saying that "Empathic Immersia is not a legitimate art form."
+::::'''Wu He:''' Empathic Immersia cannot be an art form, because it lacks a true artist in its ranks. If I were contracted to do some Empathic Immersia instead of those suits at the company dilly-dallying, then maybe it could have become a true art form...
+::::'''Nanjie:''' So let me get this straight: Now Empathic Immersia is a legitimate art form again?
+::::'''Wu He:''' I'm just worried that perhaps there'll come a day when people won't remember that Butterfly Immersia is actually a cultural relic of Xianzhou foxians, but instead just think it's this product invented by the IPC... I can't help but shudder when I contemplate such a future...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So what are your next plans for the future, then?
+:::<!--Custom String Listener: TalkSentence_502019143-->
+:::'''Nanjie:''' Next? Keep on convincing Wu He to shoot a few immersia scenes so that we don't starve to death.
+:::'''Wu He:''' We're not starving to death. Don't be so short-sighted. I have to give serious consideration as to whether or not I decide to get into this Empathic Immersia thing...
+:::'''Nanjie:''' I know you're angry, but... It's not necessarily taking things in a different direction. In my opinion, our company is too small scale. Butterfly Immersia has a constant stream of new content being released, and shouldn't stop at just entertainment.
+:::'''Nanjie:''' Their technology is already capable of creating a large-scale VR community, rather than just some video game.
+:::'''Wu He:''' What do you mean?
+:::'''Nanjie:''' If it were me, I'd be hungry to create a Butterfly Immersia in which billions of Xianzhou people would love to live!
+:::'''Wu He:''' You producers... Besides money and favors, what else do you know about the ways of the world?
+:::'''Wu He:''' I'm telling you, have you ever considered that something like this already exists out there in the cosmos? Like, on a planet called Punklorde?
+:::'''Nanjie:''' ...I, I... of course I know! But, Punklorde hasn't validated a profitable business model yet!
+:::'''Wu He:''' Pah! Because there, it's free to access the metafield.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I won't bother you two. I've nothing else to say.
+:::<!--Custom String Listener: TalkSentence_502019152-->
+:::'''Nanjie:''' Okay. Well, if you ever get the chance, you simply have to experience Butterfly Immersia at least once.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502019103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502019201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I won't bother you two. I've nothing else to say.
+::'''Nanjie:''' Okay. Well, if you ever get the chance, you simply have to experience Butterfly Immersia at least once.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wu He
+|zhs  = 武赫
+|zht  = 武赫
+|ja   = 武赫
+|ko   = 무혁
+|es   = Wu He
+|fr   = Wu&nbsp;He
+|ru   = У Хэ
+|th   = Wu He
+|vi   = Wu He
+|de   = Wu He
+|id   = Wu He
+|pt   = Wu He
+}}
+==Change History==
+{{Change History|TODO}}

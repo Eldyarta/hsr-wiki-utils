@@ -1,0 +1,183 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fulin#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = ''Yaoqing Sports'' Journalist
+|image           = NPC Fulin.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Fulin''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_259_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502160001: Config/Level/Mission/5021600/Act/Act502160001.json-->
+::'''Fulin:''' Excuse me, could you spare a moment of your time for a quick interview? It's only a few questions and won't take up too much time!
+::'''Fulin:''' Ah, you must be wondering who I am. I'm Fulin, a correspondent on the Skysplitter from ''Yaoqing Sports'', an official media partner.
+::{{DIcon|Arrow}} Sure, ask away.
+:::<!--Custom String Listener: TalkSentence_502160104-->
+:::'''Fulin:''' Thank you so much!
+::{{DIcon|Arrow}} Um... I don't watch competitive sports.
+:::<!--Custom String Listener: TalkSentence_502160106-->
+:::'''Fulin:''' No problem. I have a separate list of questions for interviewees who don't watch competitive sports.
+::{{DIcon|Arrow}} No comment. I'm not at liberty to say anything.
+:::<!--Custom String Listener: TalkSentence_502160108-->
+:::'''Fulin:''' Chill, my friend! Don't be so uptight. You can just feed me information that doesn't break the rules.
+::<!--Custom String Trigger: TalkSentence_502160109-->
+::<!--Custom String Listener: TalkSentence_502160109-->
+::'''Fulin:''' Let's start off with this: Do you know of the incident whereby General Feixiao foiled the borisin's nefarious plans?
+::{{DIcon|Arrow}} Yes, I was actually involved in it.
+:::<!--Custom String Listener: TalkSentence_502160111-->
+:::'''Fulin:''' Whoa, I hit the jackpot!
+::{{DIcon|Arrow}} Not at all. Don't ask me about it...
+:::<!--Custom String Listener: TalkSentence_502160113-->
+:::'''Fulin:''' Oh... Then can you pretend that you were involved in it? Please...!
+::<!--Custom String Trigger: TalkSentence_502160114-->
+::<!--Custom String Listener: TalkSentence_502160114-->
+::'''Fulin:''' Why do you think the borisin boarded the Skysplitter?
+::{{DIcon|Arrow}} I don't know. Try asking the borisin?
+:::<!--Custom String Listener: TalkSentence_502160116-->
+:::'''Fulin:''' Oh, they don't know what made them do it either.
+::{{DIcon|Arrow}} It was all part of the general's plan.
+:::<!--Custom String Listener: TalkSentence_502160118-->
+:::'''Fulin:''' Eh, uninspiring happily-ever-afters like this aren't going to catch any reader's interest.
+::{{DIcon|Arrow}} They were probably trying to run away!
+:::<!--Custom String Listener: TalkSentence_502160120-->
+:::'''Fulin:''' Yes, they were indeed trying to escape... But where's the plot twist!? Booooring!
+::<!--Custom String Trigger: TalkSentence_502160121-->
+::<!--Custom String Listener: TalkSentence_502160121-->
+::'''Fulin:''' How about this: "Even as the Cloud Knights relentlessly hunted her down in a series of incidents, General Feixiao remained steadfast, leaving no stone unturned in her search for the truth as she stayed on her guard. It turns out the borisin had long since infiltrated the top-level Cloud Knights. The Skysplitter was, in fact, the culmination of the diabolical plans that the borisin had been scheming over the last few decades."
+::{{DIcon|Arrow}} Are you sure that content won't get you in trouble?
+:::<!--Custom String Listener: TalkSentence_502160123-->
+:::'''Fulin:''' Nah, it's nothing beyond the standard of usual gossip in the world of sports. It's just clickbait! Everybody knows not to take it seriously.
+::{{DIcon|Arrow}} That's fake news! This interview is over.
+:::<!--Custom String Listener: TalkSentence_502160125-->
+:::'''Fulin:''' Eh, I'm just embellishing the truth a little.
+::<!--Custom String Trigger: TalkSentence_502160126-->
+::<!--Custom String Listener: TalkSentence_502160126-->
+::'''Fulin:''' Relax, it'll be fine. It's all part of the routine. If you help me with the interview, I'll provide you assistance in other ways. It's a win-win situation. I'm sure you've heard of how the media can influence public opinion, right? I can give you everything you dream of...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502160002: Config/Level/Mission/5021600/Act/Act502160002.json-->
+::'''Fulin:''' Why, hello! I was just thinking about my next article. So, are you looking for help with influencing public opinion?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} What benefits can you offer?
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 259,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 65,
+	"TaskID": []
+}</pre>
+::'''Fulin:''' Mass-published press releases, disparaging articles, bots... You name it, I have it.
+::<!--Ends the current performance-->
+:{{DIcon}} I have a few questions to ask you...
+::<!--Custom String Trigger: Wait_Option_502160003_54-->
+::<!--Custom String Listener: Wait_Option_502160003_54-->
+::{{DIcon|Talk}} Is the misleading article gonna land you in trouble?
+:::<!--Custom String Listener: TalkSentence_502160202-->
+:::'''Fulin:''' Not at all. An '''attention-grabbing''' headline can solve everything.
+:::{{DIcon|Arrow}} That's just clickbait, isn't it?
+:::{{DIcon|Arrow}} I kind of get it.
+:::<!--Custom String Listener: TalkSentence_502160205-->
+:::'''Fulin:''' Think about it: When you see a push notification for a piece of news on your phone, what's the first thing you see, apart from the accompanying image?
+:::'''Fulin:''' The article's headline, right? See, the headline decides which article a user opens and reads first.
+:::'''Fulin:''' If you don't compose an attention-grabbing headline, your readership drops, the statistics fall, and the algorithms stop pushing articles with low click numbers to users. Next thing you know, your column is axed, and you're out of a job.
+:::'''Fulin:''' Besides, if the reader didn't derive any emotional value from the article, they wouldn't spread the news on their own accord either.
+:::'''Fulin:''' Before lambasting me, those that despise me for writing clickbait should do some self-reflection and think about what kind of headline they'd click on in the first place!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You should be a novelist instead of a journalist.
+:::<!--Custom String Listener: TalkSentence_502160211-->
+:::'''Fulin:''' *sigh* Honestly, I've toyed with the idea of a career change more times than I can count.
+:::'''Fulin:''' It was my dream once upon a time to write a swordplay epic, but such works don't receive much support on serialization platforms anymore. A job as a full-time novelist is just impossible nowadays. That's why I joined ''Yaoqing Sports''.
+:::'''Fulin:''' When I first started out, I was a proper journalist who cared about accurate reporting too. Unfortunately, the analytics for my work was absolutely dismal.
+:::'''Fulin:''' Later, I took on a gig pursuing a lead about betting on fixed boxing matches. I couldn't score any interviews with the parties involved, so I cooked up a story about the match-fixing process. Guess what? People just lapped it up!
+:::'''Fulin:''' Everybody knew the article was a lie, but they couldn't help but want to read it. You see what I mean, don't you? This isn't actually that different from writing novels. In that case, there's no point in a career switch anymore.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So, are your public opinion services reliable?
+:::<!--Custom String Listener: TalkSentence_502160217-->
+:::'''Fulin:''' Ahem! These things aren't meant to be discussed so openly, but you needn't worry about the outcome.
+:::<!--Custom String Trigger: Wait_Option_502160003_74-->
+:::<!--Custom String Listener: Wait_Option_502160003_74-->
+:::{{DIcon|Talk}} "Enemy's scandals"?
+::::<!--Custom String Listener: TalkSentence_502160219-->
+::::'''Fulin:''' Uh-huh. You don't always need to draw steel against a powerful enemy to take them down. A scandal can do the trick too.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} "Laudatory press releases"?
+::::<!--Custom String Listener: TalkSentence_502160221-->
+::::'''Fulin:''' You know how it goes: Sing the praises of somebody enough times, and life will naturally be made easier for them.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} "Paid bots"?
+::::<!--Custom String Listener: TalkSentence_502160223-->
+::::'''Fulin:''' That's right. Not everyone behind their net alias is a real individual, and these bots are mixed in with those that are.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That doesn't sound like the right thing to do!
+::::<!--Custom String Listener: TalkSentence_502160225-->
+::::'''Fulin:''' Indeed, it isn't.
+::::'''Fulin:''' That's why you have to discard your moral values, so you won't feel the prick of conscience. You can come back again when you've made up your mind.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll stop bothering you for now.
+:::<!--Custom String Listener: TalkSentence_502160228-->
+:::'''Fulin:''' Sure. See you around, and don't forget to follow my column in ''Yaoqing Sports''!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll stop bothering you for now.
+::'''Fulin:''' Sure. See you around, and don't forget to follow my column in ''Yaoqing Sports''!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fulin
+|zhs  = 馥林
+|zht  = 馥林
+|ja   = 香林
+|ko   = 복림
+|es   = Fulin
+|fr   = Fulin
+|ru   = Фулинь
+|th   = Fulin
+|vi   = Fulin
+|de   = Fulin
+|id   = Fulin
+|pt   = Fulin
+}}
+==Change History==
+{{Change History|TODO}}

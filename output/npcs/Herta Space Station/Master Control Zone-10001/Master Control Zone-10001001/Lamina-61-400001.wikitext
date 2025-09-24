@@ -1,0 +1,152 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lamina#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 3 Ecology Researcher
+|image           = NPC Lamina.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Lamina''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_61_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500209400_287-->
+:<!--Custom String Listener: Wait_Option_500209400_287-->
+:{{DIcon|Talk}} About Capote...
+::<!--Custom String Listener: TalkSentence_500209404-->
+::'''Lamina:''' He's actually been to see me, and his attitude was... a bit weird. I'm not saying he did anything funny, just... for someone who's usually so high and mighty to suddenly act so low feels really weird.
+::'''Lamina:''' I couldn't even say anything when he stated how deeply he had reflected on himself and how sorry he was.
+::'''Lamina:''' I don't know if I've totally put that time behind me and didn't care about what he could have said, or I never thought he'd apologize and was surprised he actually did it.
+::'''Lamina:''' Anyways, I couldn't say anything to him and gave him zero responses.
+::'''Lamina:''' But now that I think about it, he did show a look that I had never seen on his face before. Maybe that's... a "sincere" look? I hope he can keep being so sincere in the future.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What are your plans for the future?
+::<!--Custom String Listener: TalkSentence_500209410-->
+::'''Lamina:''' Well... I've been doing mundane work all this time, but I somehow got to know lots of people in different departments.
+::'''Lamina:''' Maybe a bit of good luck actually came from this. Lots of the previous Capote Fan Club members are senior researchers with independent projects under their care.
+::'''Lamina:''' We knew each other because of our frequent interactions before. They got me to apply for some internal positions, and I managed to pass the interviews for a few projects. I'll probably be a "researcher" by the next time we meet.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You are a very brave person.
+::<!--Custom String Listener: TalkSentence_500209414-->
+::'''Lamina:''' I don't know about being brave...
+::'''Lamina:''' If I really am brave, shouldn't I have said no to him the first time he oppressed me? Or should I have talked with him earlier, so that things wouldn't have to go down this way?
+::'''Lamina:''' But instead of blaming myself for not having done enough, it's better to just admit that I've changed. I chose to face myself in this way and closed that chapter of my past.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all for now.
+::<!--Custom String Listener: TalkSentence_500209419-->
+::'''Lamina:''' I'm going to start preparing for the preliminary work of the research project now. Hope we get the chance to chat again in the future.
+::<!--Ends the current performance-->
+:'''Lamina:''' Hey, we meet again. What can I help you with?
+:<!--Ends the current performance-->
+:'''Lamina:''' Anyways, thank you for saying these things to me.
+:'''Lamina:''' I'm going to start preparing for the preliminary work of the research project now. Hope we get the chance to chat again in the future.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000015: Config/Level/NPC/W0/NPC_DefaultStory_500000905.json-->
+::'''Lamina:''' Ah... it's you, (Trailblazer). Long time no see. What can I help you &mdash; Ah, sorry, I sometimes still revert to my old secretary mode.
+::'''Lamina:''' I don't need to play the role of that man's personal secretary anymore. It takes a bit of time to adjust, but I know I'll get better at it.
+::{{DIcon|Arrow}} It feels like you're a lot more energized than before.
+:::<!--Custom String Listener: TalkSentence_500209304-->
+:::'''Lamina:''' I did have some difficulties at first. After all, it was kind of hard to re-position myself when such a busy work schedule just suddenly stopped.
+:::'''Lamina:''' But I soon realized many previous Capote fans were in the same boat as me. We all felt a part of our lives was forcibly taken from us, and we can't help but feel empty.
+:::'''Lamina:''' So, we banded together and met up frequently to talk about our lives and work. Now everyone feels much better.
+::{{DIcon|Arrow}} How does life feel nowadays?
+:::<!--Custom String Listener: TalkSentence_500209308-->
+:::'''Lamina:''' Feels... "new," I guess?
+:::'''Lamina:''' I did have some plans for self-development when I first arrived at the space station, but those plans were all worn away during my time working as Capote's secretary.
+:::'''Lamina:''' Now that I'm free, I feel like I'm a newcomer at the space station once again. Everything seems so new and the future is so full of possibilities.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000016: Config/Level/NPC/W0/NPC_DefaultStory_500000904.json-->
+::'''Lamina:''' Hey, we meet again. What can I help you with?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to chat with you more.
+::<!--Custom String Trigger: Wait_Option_500209400_287-->
+::<!--Custom String Listener: Wait_Option_500209400_287-->
+::{{DIcon|Talk}} About Capote...
+:::<!--Custom String Listener: TalkSentence_500209404-->
+:::'''Lamina:''' He's actually been to see me, and his attitude was... a bit weird. I'm not saying he did anything funny, just... for someone who's usually so high and mighty to suddenly act so low feels really weird.
+:::'''Lamina:''' I couldn't even say anything when he stated how deeply he had reflected on himself and how sorry he was.
+:::'''Lamina:''' I don't know if I've totally put that time behind me and didn't care about what he could have said, or I never thought he'd apologize and was surprised he actually did it.
+:::'''Lamina:''' Anyways, I couldn't say anything to him and gave him zero responses.
+:::'''Lamina:''' But now that I think about it, he did show a look that I had never seen on his face before. Maybe that's... a "sincere" look? I hope he can keep being so sincere in the future.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are your plans for the future?
+:::<!--Custom String Listener: TalkSentence_500209410-->
+:::'''Lamina:''' Well... I've been doing mundane work all this time, but I somehow got to know lots of people in different departments.
+:::'''Lamina:''' Maybe a bit of good luck actually came from this. Lots of the previous Capote Fan Club members are senior researchers with independent projects under their care.
+:::'''Lamina:''' We knew each other because of our frequent interactions before. They got me to apply for some internal positions, and I managed to pass the interviews for a few projects. I'll probably be a "researcher" by the next time we meet.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You are a very brave person.
+:::<!--Custom String Listener: TalkSentence_500209414-->
+:::'''Lamina:''' I don't know about being brave...
+:::'''Lamina:''' If I really am brave, shouldn't I have said no to him the first time he oppressed me? Or should I have talked with him earlier, so that things wouldn't have to go down this way?
+:::'''Lamina:''' But instead of blaming myself for not having done enough, it's better to just admit that I've changed. I chose to face myself in this way and closed that chapter of my past.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_500209419-->
+:::'''Lamina:''' I'm going to start preparing for the preliminary work of the research project now. Hope we get the chance to chat again in the future.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have anything else to say.
+::'''Lamina:''' Anyways, thank you for saying these things to me.
+::'''Lamina:''' I'm going to start preparing for the preliminary work of the research project now. Hope we get the chance to chat again in the future.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_500209328)
+:<!--Custom String Listener: TalkSentence_500209328-->
+::'''Lamina:''' I'm going to start preparing for the preliminary work of the research project now. Hope we get the chance to chat again in the future.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lamina
+|zhs  = 拉明娜
+|zht  = 拉明娜
+|ja   = ラミナ
+|ko   = 라미나
+|es   = Lamina
+|fr   = Lamina
+|ru   = Ламина
+|th   = Lamina
+|vi   = Lamina
+|de   = Lamina
+|id   = Lamina
+|pt   = Lamina
+}}
+==Change History==
+{{Change History|TODO}}

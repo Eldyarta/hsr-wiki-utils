@@ -1,0 +1,504 @@
+<%-- [PAGE_INFO]
+PageTitle=#Celine#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Performer
+|image           = NPC Celine.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Celine''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400013}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Finish: 200120106-->)
+::<!--Trigger PerformanceE 504049005: Config/Level/Mission/5040490/Act/Act504049005.json-->
+::'''Celine:''' He said that my strings stirred his heart, and to that tune, his flute played all through the night.
+::'''Celine:''' I can feel something deep in the harmony... I know I'm still young, but I'm sure he's the one... la la la...
+::'''Celine:''' Hey, are you here to hear this young lady sing again, or is there something else?
+::<!--Custom String Trigger: Wait_Option_504049005_901-->
+::<!--Custom String Listener: Wait_Option_504049005_901-->
+::{{DIcon|Arrow}} I want to ask...
+:::<!--Custom String Listener: Wait_Option_504049005_90-->
+:::{{DIcon|Talk}} Are you about to go on stage?
+::::<!--Custom String Listener: TalkSentence_504049404-->
+::::'''Celine:''' Oh, I have Miss Tamila to thank for this. I once starred as the lead in a new play, but the critics brushed it off as being too cliché.
+::::'''Celine:''' Thankfully, Miss Tamila and I are close friends now. She introduced me to an up-and-coming director, and, lucky me, he cast me as the lead in his next production.
+::::<!--Custom String Trigger: Wait_Option_504049005_90-->
+::::<!--Custom String Listener: Wait_Option_504049005_90-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Are you still in touch with Tamila?
+:::::<!--Custom String Listener: TalkSentence_504049407-->
+:::::'''Celine:''' Absolutely, I'll always be grateful to Miss Tamila for her kindness.
+:::::'''Celine:''' I message her every day to keep in touch, but Miss Tamila has been swamped lately, spending most of her time in the recording studio. Sometimes it takes her a while to reply.
+:::::'''Celine:''' The music company holds her in high regard, calling her deep voice a "smoky tone" that's perfect for jazz. I haven't experienced that style of music myself, but I'm genuinely thrilled for her success.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Why isn't Tamila here?
+:::::<!--Custom String Listener: TalkSentence_504049411-->
+:::::'''Celine:''' Oh, didn't I tell you? Miss Tamila was discovered by an agent from the IPC and has left Belobog to further her career.
+:::::'''Celine:''' I've long believed that the Golden Theater isn't worthy of Miss Tamila. She's meant for a future that's far more expansive and dazzling.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Are you close with Tamila?
+:::::<!--Custom String Listener: TalkSentence_504049414-->
+:::::'''Celine:''' That's a weird question to ask. Miss Tamila has done so much for me &mdash; she helped me step out of her shadow and showed me the way to the spotlight.
+:::::'''Celine:''' I'd gladly stick by her side for life if it meant showing her how grateful I am. Honestly, the way you put it makes it sound like I have something against her, which is just ridiculous.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I don't have any more questions.
+:::::<!--Custom String Listener: TalkSentence_504049417-->
+:::::'''Celine:''' No worries, I was just about to continue practicing my singing.
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Are you still in touch with Tamila?
+::::<!--Custom String Listener: TalkSentence_504049407-->
+::::'''Celine:''' Absolutely, I'll always be grateful to Miss Tamila for her kindness.
+::::'''Celine:''' I message her every day to keep in touch, but Miss Tamila has been swamped lately, spending most of her time in the recording studio. Sometimes it takes her a while to reply.
+::::'''Celine:''' The music company holds her in high regard, calling her deep voice a "smoky tone" that's perfect for jazz. I haven't experienced that style of music myself, but I'm genuinely thrilled for her success.
+::::<!--Custom String Trigger: Wait_Option_504049005_90-->
+::::<!--Custom String Listener: Wait_Option_504049005_90-->
+::::{{DIcon|Talk}} Are you about to go on stage?
+:::::<!--Custom String Listener: TalkSentence_504049404-->
+:::::'''Celine:''' Oh, I have Miss Tamila to thank for this. I once starred as the lead in a new play, but the critics brushed it off as being too cliché.
+:::::'''Celine:''' Thankfully, Miss Tamila and I are close friends now. She introduced me to an up-and-coming director, and, lucky me, he cast me as the lead in his next production.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Why isn't Tamila here?
+:::::<!--Custom String Listener: TalkSentence_504049411-->
+:::::'''Celine:''' Oh, didn't I tell you? Miss Tamila was discovered by an agent from the IPC and has left Belobog to further her career.
+:::::'''Celine:''' I've long believed that the Golden Theater isn't worthy of Miss Tamila. She's meant for a future that's far more expansive and dazzling.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Are you close with Tamila?
+:::::<!--Custom String Listener: TalkSentence_504049414-->
+:::::'''Celine:''' That's a weird question to ask. Miss Tamila has done so much for me &mdash; she helped me step out of her shadow and showed me the way to the spotlight.
+:::::'''Celine:''' I'd gladly stick by her side for life if it meant showing her how grateful I am. Honestly, the way you put it makes it sound like I have something against her, which is just ridiculous.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I don't have any more questions.
+:::::<!--Custom String Listener: TalkSentence_504049417-->
+:::::'''Celine:''' No worries, I was just about to continue practicing my singing.
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Why isn't Tamila here?
+::::<!--Custom String Listener: TalkSentence_504049411-->
+::::'''Celine:''' Oh, didn't I tell you? Miss Tamila was discovered by an agent from the IPC and has left Belobog to further her career.
+::::'''Celine:''' I've long believed that the Golden Theater isn't worthy of Miss Tamila. She's meant for a future that's far more expansive and dazzling.
+::::<!--Custom String Trigger: Wait_Option_504049005_90-->
+::::<!--Custom String Listener: Wait_Option_504049005_90-->
+::::{{DIcon|Talk}} Are you about to go on stage?
+:::::<!--Custom String Listener: TalkSentence_504049404-->
+:::::'''Celine:''' Oh, I have Miss Tamila to thank for this. I once starred as the lead in a new play, but the critics brushed it off as being too cliché.
+:::::'''Celine:''' Thankfully, Miss Tamila and I are close friends now. She introduced me to an up-and-coming director, and, lucky me, he cast me as the lead in his next production.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Are you still in touch with Tamila?
+:::::<!--Custom String Listener: TalkSentence_504049407-->
+:::::'''Celine:''' Absolutely, I'll always be grateful to Miss Tamila for her kindness.
+:::::'''Celine:''' I message her every day to keep in touch, but Miss Tamila has been swamped lately, spending most of her time in the recording studio. Sometimes it takes her a while to reply.
+:::::'''Celine:''' The music company holds her in high regard, calling her deep voice a "smoky tone" that's perfect for jazz. I haven't experienced that style of music myself, but I'm genuinely thrilled for her success.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Are you close with Tamila?
+:::::<!--Custom String Listener: TalkSentence_504049414-->
+:::::'''Celine:''' That's a weird question to ask. Miss Tamila has done so much for me &mdash; she helped me step out of her shadow and showed me the way to the spotlight.
+:::::'''Celine:''' I'd gladly stick by her side for life if it meant showing her how grateful I am. Honestly, the way you put it makes it sound like I have something against her, which is just ridiculous.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I don't have any more questions.
+:::::<!--Custom String Listener: TalkSentence_504049417-->
+:::::'''Celine:''' No worries, I was just about to continue practicing my singing.
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Are you close with Tamila?
+::::<!--Custom String Listener: TalkSentence_504049414-->
+::::'''Celine:''' That's a weird question to ask. Miss Tamila has done so much for me &mdash; she helped me step out of her shadow and showed me the way to the spotlight.
+::::'''Celine:''' I'd gladly stick by her side for life if it meant showing her how grateful I am. Honestly, the way you put it makes it sound like I have something against her, which is just ridiculous.
+::::<!--Custom String Trigger: Wait_Option_504049005_90-->
+::::<!--Custom String Listener: Wait_Option_504049005_90-->
+::::{{DIcon|Talk}} Are you about to go on stage?
+:::::<!--Custom String Listener: TalkSentence_504049404-->
+:::::'''Celine:''' Oh, I have Miss Tamila to thank for this. I once starred as the lead in a new play, but the critics brushed it off as being too cliché.
+:::::'''Celine:''' Thankfully, Miss Tamila and I are close friends now. She introduced me to an up-and-coming director, and, lucky me, he cast me as the lead in his next production.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Are you still in touch with Tamila?
+:::::<!--Custom String Listener: TalkSentence_504049407-->
+:::::'''Celine:''' Absolutely, I'll always be grateful to Miss Tamila for her kindness.
+:::::'''Celine:''' I message her every day to keep in touch, but Miss Tamila has been swamped lately, spending most of her time in the recording studio. Sometimes it takes her a while to reply.
+:::::'''Celine:''' The music company holds her in high regard, calling her deep voice a "smoky tone" that's perfect for jazz. I haven't experienced that style of music myself, but I'm genuinely thrilled for her success.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Why isn't Tamila here?
+:::::<!--Custom String Listener: TalkSentence_504049411-->
+:::::'''Celine:''' Oh, didn't I tell you? Miss Tamila was discovered by an agent from the IPC and has left Belobog to further her career.
+:::::'''Celine:''' I've long believed that the Golden Theater isn't worthy of Miss Tamila. She's meant for a future that's far more expansive and dazzling.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I don't have any more questions.
+:::::<!--Custom String Listener: TalkSentence_504049417-->
+:::::'''Celine:''' No worries, I was just about to continue practicing my singing.
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I don't have any more questions.
+::::<!--Custom String Listener: TalkSentence_504049417-->
+::::'''Celine:''' No worries, I was just about to continue practicing my singing.
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} I've got to go. Bye.
+:::<!--Custom String Listener: Wait_Option_504049005_902-->
+:::'''Celine:''' Bye bye. I'll go back to practicing my singing now.
+:::'''Celine:''' La la la. "Chasing a mirage, I lose sight of the path in the fog. I only wish for a steady journey through life."
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 200120106-->)
+:;(First interaction)
+:::<!--Trigger PerformanceE 501026801: Config/Level/Mission/5010268/Act/Act501026801.json-->
+:::'''Celine:''' Ah, ah, ah, ah! La, la, la, la!
+:::'''Celine:''' Sorry, I didn't notice there were people around. I'm not disturbing you, am I?
+:::{{DIcon|Arrow}} You have a great voice.
+:::{{DIcon|Arrow}} I wasn't bothered at all.
+:::<!--Custom String Listener: TalkSentence_501024505-->
+:::'''Celine:''' Okay, I shall continue warming up my voice... Oh, no! The play isn't open to the public yet. I'd better not spoil it. I am so forgetful!
+:::'''Celine:''' Anyway, the play is still in rehearsal. I'm the leading.... actress' voice. If you like the song, we can meet again in the theater.
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 501026802: Config/Level/Mission/5010268/Act/Act501026802.json-->
+:::'''Celine:''' He said that my strings stirred his heart, and to that tune, his flute played all through the night.
+:::'''Celine:''' I can feel something deep in the harmony... I know I'm still young, but I'm sure he's the one... la la la...
+:::'''Celine:''' Huh. Are you here for my singing again? That won't do. You need to enjoy the performance in the theater... Or are you here for something else?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Celine's recent troubles...
+:::<!--Trigger PerformanceE 301140101: Config/Level/Mission/3011401/Act/Act301140101.json-->
+:::'''Celine:''' I'm happy with my lot at the moment, dubbing voices for Tamila and being her shadow. What's wrong with that?
+:::'''Celine:''' But yeah... I can't help thinking sometimes how wonderful it must be to stand in that spotlight like Tamila... how wonderful it must feel...
+:::'''Celine:''' So I've been watching Tamila's sparkling on-stage performances, like a painter copying a famous painting, trying to copy everything Tamila does...
+:::'''Celine:''' But! Even though I can perfectly emulate all of Tamila's behaviors, I'm still lacking that key piece of her soul...
+:::{{DIcon|Arrow}} Soul?
+:::<!--Custom String Listener: TalkSentence_301140107-->
+:::'''Celine:''' Yeah, soul... my mimicry's already pretty much perfect, but the presence and gravitas contained in all those micro-expressions is something I haven't been able to master...
+:::'''Celine:''' I know that anyone can just copy her body as long as you practice hard enough... but I'll need to copy her soul if I want to truly become Tamila.
+:::'''Celine:''' Can you help me?
+:::{{DIcon|Arrow}} Stealing souls is black magic, and forbidden...
+::::<!--Custom String Listener: TalkSentence_301140111-->
+::::'''Celine:''' Oh dear. No! I'm not a witch. Why would you say it like that?
+:::{{DIcon|Arrow}} How can I help you?
+::::<!--Custom String Listener: TalkSentence_301140113-->
+::::'''Celine:''' Well... don't worry. It's not a difficult job~
+:::{{DIcon|Arrow}} Then I will do my best!
+::::<!--Custom String Listener: TalkSentence_301140115-->
+::::'''Celine:''' Ah, that makes me so happy! Thank you~
+:::<!--Custom String Trigger: TalkSentence_301140116-->
+:::<!--Custom String Listener: TalkSentence_301140116-->
+:::'''Celine:''' I would like you to visit the store where Tamila often goes and ask the staff in secret what Tamila's likes and hobbies are beyond the limelight.
+:::'''Celine:''' Perhaps if I can learn what those are, then I can understand a bit more about Tamila's soul.
+:::'''Celine:''' And with that, I'll be able to be like Tamila and shine brightly onstage.
+:::<!--Custom String Trigger: Wait_Option_301140101_29-->
+:::<!--Custom String Listener: Wait_Option_301140101_29-->
+:::{{DIcon|Talk}} Can't you just go yourself?
+::::<!--Custom String Listener: TalkSentence_301140120-->
+::::'''Celine:''' I'm just studying to be like her because she's my idol. It'll be super awkward if any of the staff catches me~
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why don't I just ask her directly?
+::::<!--Custom String Listener: TalkSentence_301140122-->
+::::'''Celine:''' No, don't... she's a smart lady. If you ask her so suddenly and directly, she'll definitely know what I'm up to... *sigh* My passion is a fire that has to burn in secret~
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Where should I go for you?
+::::<!--Custom String Listener: TalkSentence_301140124-->
+::::'''Celine:''' Go to the florist first~ I heard Tamila buys a few bouquets of flowers every week for her room... *sigh* how elegant~!
+::::'''Celine:''' The florist definitely knows the kind of flowers that she likes~ Please, find out for me~
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140101-->
+:;(If {{cx}}<!--SubMission Started: 301140103--> and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Relaying Vaska's reply...
+:::<!--Trigger PerformanceE 301140103: Config/Level/Mission/3011401/Act/Act301140103.json-->
+:::'''Celine:''' Rainbows... interesting~ For someone as glorious as Tamila, her floral preference is so... "ordinarily beautiful."
+:::'''Celine:''' I thought that she'd definitely buy some precious rare flowers instead, to match her noble self... But actually, there is this craving and desire in her soul...
+:::'''Celine:''' Thank you! I feel a little bit closer to her soul, now. Please, take this as a thank-you.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140103-->
+:;(If {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140201: Config/Level/Mission/3011402/Act/Act301140201.json-->
+:::'''Celine:''' Yeah~ Actually it's been going really well~ Since you gave me that precious intel about Tamila, I felt... closer and closer to her...
+:::'''Celine:''' I'm starting to feel the mystery surrounding her is gradually becoming clearer to me...
+:::'''Celine:''' But... it's obviously not enough... I remember Miss Vaska was saying that Tamila and her have different tastes in novels... then, maybe her taste in fiction can showcase a little more of her soul?
+:::'''Celine:''' Can you help me out with one more favor? Go to the bookstore over in the Administrative District and ask if Tamila has any favorite books...
+:::'''Celine:''' Please~
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140201-->
+:;(If {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Relay Fizz's reply...
+:::<!--Trigger PerformanceE 301140203: Config/Level/Mission/3011402/Act/Act301140203.json-->
+:::'''Celine:''' It's no surprise that Tamila would love a romance novel...
+:::'''Celine:''' But I've never read this particular one. Your intel is highly useful. Thank you~
+:::'''Celine:''' Maybe hidden within this novel are Tamila's secret thoughts about love...
+:::'''Celine:''' Thanks lots for helping me with this! Take this as a token of my appreciation~
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140203-->
+:;(If {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140301: Config/Level/Mission/3011403/Act/Act301140301.json-->
+:::'''Celine:''' Thanks to you, things are getting better and better~ I'm getting a clearer picture of Tamila's soul.
+:::'''Celine:''' That novel ''Evening Ember at the Goethe Hotel''... to be honest, I'm not sure I really get it completely...
+:::'''Celine:''' But I'll make sure that I fall in love with this novel~
+:::'''Celine:''' I've been thinking about what Tamila said that time to Fizz back at the store... "It's such a blessing to read this book over and over again in a cozy warm bedroom with my flowers."
+:::'''Celine:''' Maybe a warm bedroom is the crucial piece of the puzzle here~
+:::'''Celine:''' A few days back, I heard Tamila complaining backstage that her heater at home is broken. That being the case, she'll definitely go to the workshop to get it fixed.
+:::'''Celine:''' Please, can you go and ask at the workshop what level Tamila turns her heater up to?
+:::{{DIcon|Arrow}} That's... starting to get a little too personal.
+:::{{DIcon|Arrow}} Will Serval even answer this kind of question?
+:::<!--Custom String Listener: TalkSentence_301140711-->
+:::'''Celine:''' Just go and ask for me~ If you can't, it's okay and I won't blame you. But please~
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140301-->
+:;(If {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Relay Serval's reply...
+:::<!--Trigger PerformanceE 301140303: Config/Level/Mission/3011403/Act/Act301140303.json-->
+:::'''Celine:''' You couldn't get the info? No, this is far more intel than I ever could have imagined. Thank you so much~
+:::'''Celine:''' Based on Serval's story, Tamila dragged the heater to the workshop all by herself~ No servants, assistants, or a manager helping her out &mdash; just her dragging it herself...
+:::'''Celine:''' So that's what Tamila's soul is like... I'm gradually coming to comprehensively understand everything about her...
+:::{{DIcon|Arrow}} I don't quite get it...
+:::{{DIcon|Arrow}} What do you mean by Tamila's soul?
+:::<!--Custom String Listener: TalkSentence_301140907-->
+:::'''Celine:''' Ah, sorry~ I was talking to myself again. I didn't mean to confuse you~
+:::'''Celine:''' I just think that this whole time, I've just been really shallow about what I've learned from Tamila. What I really need to mimic from her soul is hidden in her everyday life offstage.
+:::'''Celine:''' It's not her character and performance onstage that shape her unique soul, but rather it's her offstage everyday love for life that makes her so precious and dazzling~
+:::'''Celine:''' Thank you. Starting today, I can finally become the second Tamila. This reminds me of the lyrics of a beautiful song~
+:::'''Celine:''' "Madam~ madam~ that shadow behind you has gone~ but I see your reflection~ still in the mirror~"
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140303-->
+:;(If {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140401: Config/Level/Mission/3011404/Act/Act301140401.json-->
+:::'''Celine:''' Thanks to you~ everything's going great. I can already see my dazzling figure on stage... One day, I'm going to be just like her...
+:::'''Celine:''' Speaking of which &mdash; can you please help me out with just one little thing?
+:::{{DIcon|Arrow}} Go on.
+::::<!--Custom String Listener: TalkSentence_301141006-->
+::::'''Celine:''' All this intel you've brought me is fantastic, but it's still second-hand info... and by the time it reaches me, it's already third-hand...
+::::'''Celine:''' Could you please go and see for yourself how Tamila looks when she's offstage?
+::::'''Celine:''' I heard that she's going to buy some more books today. Please, can you go to the bookstore and observe how she buys her books? Thank you so much~
+::::----
+::::<!--Custom String Trigger: Mission_301140401_02-->
+:::{{DIcon|Exit}} There's more?
+::::<!--Custom String Listener: TalkSentence_301141007-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140401-->
+:;(If {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything about Tamila...
+:::<!--Trigger PerformanceE 301140403: Config/Level/Mission/3011404/Act/Act301140403.json-->
+:::'''Celine:''' Ooh, I see... I have a deeper understanding of Tamila now.
+:::'''Celine:''' Thank you. Here's a token of my appreciation!
+:::'''Celine:''' "Your Highness, Your Highness~! You must shield yourself from all mirrors of the world, even the serene lakes! You must ask for her true name and banish that duplicitous succubus!"
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140403-->
+:;(If {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140501: Config/Level/Mission/3011405/Act/Act301140501.json-->
+:::'''Celine:''' Thanks to you~ everything's going great. I can already see my dazzling figure on stage... One day, I'm going to be just like her...
+:::'''Celine:''' Speaking of which &mdash; can you please help me out with just one little thing?
+:::{{DIcon|Arrow}} Go on.
+::::<!--Custom String Listener: TalkSentence_301141306-->
+::::'''Celine:''' All this intel you've brought me is fantastic, but it's still second-hand info... and by the time it reaches me, it's already third-hand...
+::::'''Celine:''' Could you please go and see for yourself how Tamila looks when she's offstage?
+::::'''Celine:''' I heard that she's going to buy some more flowers today. Please, can you go to the florist and observe how she buys her bouquets? Thank you so much~
+::::----
+::::<!--Custom String Trigger: Mission_301140501_02-->
+:::{{DIcon|Exit}} There's more?
+::::<!--Custom String Listener: TalkSentence_301141307-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140501-->
+:;(If {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything about Tamila...
+:::<!--Trigger PerformanceE 301140503: Config/Level/Mission/3011405/Act/Act301140503.json-->
+:::'''Celine:''' Ooh, I see... I have a deeper understanding of Tamila now.
+:::'''Celine:''' Thank you. Here's a token of my appreciation!
+:::'''Celine:''' "Your Highness, Your Highness~! You must shield yourself from all mirrors of the world, even the serene lakes! You must ask for her true name and banish that duplicitous succubus!"
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140503-->
+:;(If {{cx}}<!--SubMission Started: 301140601-->, {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140601: Config/Level/Mission/3011406/Act/Act301140601.json-->
+:::'''Celine:''' Thanks to you~ everything's going great. I can already see my dazzling figure on stage... One day, I'm going to be just like her...
+:::'''Celine:''' Speaking of which &mdash; can you please help me out with just one little thing?
+:::{{DIcon|Arrow}} Go on.
+::::<!--Custom String Listener: TalkSentence_301141606-->
+::::'''Celine:''' All this intel you've brought me is fantastic, but it's still second-hand info... and by the time it reaches me, it's already third-hand...
+::::'''Celine:''' Could you please go and see for yourself how Tamila looks when she's offstage?
+::::'''Celine:''' I heard that she's going for a walk in the plaza today. Please, can you go to the plaza and observe what she's up to? Thank you so much~
+::::----
+::::<!--Custom String Trigger: Mission_301140601_02-->
+:::{{DIcon|Exit}} There's more?
+::::<!--Custom String Listener: TalkSentence_301141607-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140601-->
+:;(If {{cx}}<!--SubMission Started: 301140603-->, {{cx}}<!--SubMission Started: 301140601-->, {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything about Tamila...
+:::<!--Trigger PerformanceE 301140603: Config/Level/Mission/3011406/Act/Act301140603.json-->
+:::'''Celine:''' Ooh, I see... I have a deeper understanding of Tamila now.
+:::'''Celine:''' Thank you. Here's a token of my appreciation!
+:::'''Celine:''' "Your Highness, Your Highness~! You must shield yourself from all mirrors of the world, even the serene lakes! You must ask for her true name and banish that duplicitous succubus!"
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140603-->
+:;(If {{cx}}<!--SubMission Started: 301140701-->, {{cx}}<!--SubMission Started: 301140603-->, {{cx}}<!--SubMission Started: 301140601-->, {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140701: Config/Level/Mission/3011407/Act/Act301140701.json-->
+:::'''Celine:''' Thanks to you~ everything's going great. I can already see my dazzling figure on stage... One day, I'm going to be just like her...
+:::'''Celine:''' Speaking of which &mdash; can you please help me out with just one little thing?
+:::{{DIcon|Arrow}} Go on.
+::::<!--Custom String Listener: TalkSentence_301141906-->
+::::'''Celine:''' All this intel you've brought me is fantastic, but it's still second-hand info... and by the time it reaches me, it's already third-hand...
+::::'''Celine:''' Could you please go and see for yourself how Tamila looks when she's offstage?
+::::'''Celine:''' I heard that she's going to the workshop today. Please, can you go to the workshop and observe what she's up to? Thank you so much~
+::::----
+::::<!--Custom String Trigger: Mission_301140701_02-->
+:::{{DIcon|Exit}} There's more?
+::::<!--Custom String Listener: TalkSentence_301141907-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140701-->
+:;(If {{cx}}<!--SubMission Started: 301140703-->, {{cx}}<!--SubMission Started: 301140701-->, {{cx}}<!--SubMission Started: 301140603-->, {{cx}}<!--SubMission Started: 301140601-->, {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything about Tamila...
+:::<!--Trigger PerformanceE 301140703: Config/Level/Mission/3011407/Act/Act301140703.json-->
+:::'''Celine:''' Ooh, I see... I have a deeper understanding of Tamila now.
+:::'''Celine:''' Thank you. Here's a token of my appreciation!
+:::'''Celine:''' "Your Highness, Your Highness~! You must shield yourself from all mirrors of the world, even the serene lakes! You must ask for her true name and banish that duplicitous succubus!"
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140703-->
+:;(If {{cx}}<!--SubMission Started: 301140801-->, {{cx}}<!--SubMission Started: 301140703-->, {{cx}}<!--SubMission Started: 301140701-->, {{cx}}<!--SubMission Started: 301140603-->, {{cx}}<!--SubMission Started: 301140601-->, {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything going well?
+:::<!--Trigger PerformanceE 301140801: Config/Level/Mission/3011408/Act/Act301140801.json-->
+:::'''Celine:''' Thanks to you~ everything's going great. I can already see my dazzling figure on stage... One day, I'm going to be just like her...
+:::'''Celine:''' Speaking of which &mdash; can you please help me out with just one little thing?
+:::{{DIcon|Arrow}} Go on.
+::::<!--Custom String Listener: TalkSentence_301142206-->
+::::'''Celine:''' All this intel you've brought me is fantastic, but it's still second-hand info... and by the time it reaches me, it's already third-hand...
+::::'''Celine:''' Could you please go and see for yourself how Tamila looks when she's offstage?
+::::'''Celine:''' I heard that she's going to the Goethe Hotel today. Please, can you go to the hotel and observe what she's up to? Thank you so much~
+::::----
+::::<!--Custom String Trigger: Mission_301140801_02-->
+:::{{DIcon|Exit}} There's more?
+::::<!--Custom String Listener: TalkSentence_301142207-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140801-->
+:;(If {{cx}}<!--SubMission Started: 301140803-->, {{cx}}<!--SubMission Started: 301140801-->, {{cx}}<!--SubMission Started: 301140703-->, {{cx}}<!--SubMission Started: 301140701-->, {{cx}}<!--SubMission Started: 301140603-->, {{cx}}<!--SubMission Started: 301140601-->, {{cx}}<!--SubMission Started: 301140503-->, {{cx}}<!--SubMission Started: 301140501-->, {{cx}}<!--SubMission Started: 301140403-->, {{cx}}<!--SubMission Started: 301140401-->, {{cx}}<!--SubMission Started: 301140303-->, {{cx}}<!--SubMission Started: 301140301-->, {{cx}}<!--SubMission Started: 301140203-->, {{cx}}<!--SubMission Started: 301140201-->, {{cx}}<!--SubMission Started: 301140103-->, and {{cx}}<!--SubMission Started: 301140101-->)
+:{{DIcon|undefined}} Everything about Tamila...
+:::<!--Trigger PerformanceE 301140803: Config/Level/Mission/3011408/Act/Act301140803.json-->
+:::'''Celine:''' Ooh, I see... I have a deeper understanding of Tamila now.
+:::'''Celine:''' Thank you. Here's a token of my appreciation!
+:::'''Celine:''' "Your Highness, Your Highness~! You must shield yourself from all mirrors of the world, even the serene lakes! You must ask for her true name and banish that duplicitous succubus!"
+:::----
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_301140803-->
+::{{DIcon}} I'd like to know more about Tamila...
+:::<!--Trigger PerformanceE 501026803: Config/Level/Mission/5010268/Act/Act501026803.json-->
+:::'''Celine:''' You are as curious as a child. But I don't have much to offer.
+:::'''Celine:''' Although Tamila's voice is a bit deep, her acting and singing skills are not much of a problem. She's got a lot of fans.
+:::'''Celine:''' It's just that... she seems to be unhappy with me, which I'm a little confused about...
+:::<!--Custom String Trigger: Wait_Option_5010245_37-->
+:::<!--Custom String Listener: Wait_Option_5010245_37-->
+:::{{DIcon|Talk}} Why is she unhappy with you?
+::::<!--Custom String Listener: TalkSentence_501024526-->
+::::'''Celine:''' I don't know... Maybe I'm overthinking it but during the rehearsals recently, I felt that Tamila didn't want to lip-sync...
+::::'''Celine:''' Also... *sigh* I shouldn't say this but I don't feel comfortable with Tamila's recent public criticism of the lyrics.
+::::'''Celine:''' Although the songs she criticized were for her character, I was responsible for the voice-over.
+::::'''Celine:''' It just feels like she was aiming that at me... Have I done something to get on her bad side?
+::::{{DIcon|Arrow}} Musicals need voice-overs?
+:::::<!--Custom String Listener: TalkSentence_501026815-->
+:::::'''Celine:''' Usually, no. But the director insisted that I do the voice over for Tamila's songs.
+:::::'''Celine:''' He said, "Tamila's voice isn't catchy and girly enough."
+:::::'''Celine:''' This is my private affair. Please don't be bothered by it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Then why is she considered the mainstay of the theater?
+:::::<!--Custom String Listener: TalkSentence_501026818-->
+:::::'''Celine:''' Shhh, don't say that. Tamila's performance skills are top-notch and the audience loves her.
+:::::'''Celine:''' It's just that the director said that Tamila's voice isn't catchy and girly enough, so he invited me to do the singing.
+:::::'''Celine:''' This is my private affair. Please don't be bothered by it.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why don't you perform on stage yourself?
+::::<!--Custom String Listener: TalkSentence_501024531-->
+::::'''Celine:''' I've been thinking about that lately... I want to set foot on a new path.
+::::'''Celine:''' I've loved singing since I was a little girl... I could sing all day long, no matter what the song is.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Did anything happen between the two of you?
+::::<!--Custom String Listener: TalkSentence_501024534-->
+::::'''Celine:''' I don't think so. We teamed up a few times and it always went well.
+::::'''Celine:''' As for outside of the theater... well, Tamila is a star, after all, so I really don't have much contact with her. I don't know what she could be mad about.
+::::'''Celine:''' ...maybe I'm just overthinking it. It's probably just because we have different perspectives.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Maybe she is jealous of your voice.
+::::<!--Custom String Listener: TalkSentence_501024538-->
+::::'''Celine:''' Shhh. Don't speak so rashly. Tamila's voice is deep but I think it's very touching, especially when she's singing lyrical type songs...
+::::'''Celine:''' For example, the contralto in ''Back to the Night'' is something that's beyond me. "I saw the tears in your eyes tonight, will you still love me after dawn~"
+::::'''Celine:''' Tamila is a natural beauty and she has a great stage presence. I'm sure she isn't jealous of me... Let's not think too negatively about people.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Don't let it bother you too much.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_501026803-->
+:;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+:::<!--Trigger PerformanceE 501026805: Config/Level/Mission/5010268/Act/Act501026805.json-->
+:::'''Celine:''' Ah, it's you! Well, I've been taking several roles in different musicals. Just the rehearsal times have me so busy that I can hardly stop to catch my breath!
+:::{{DIcon|Arrow}} Are you going to be a big star?
+::::<!--Custom String Listener: TalkSentence_501024185-->
+::::'''Celine:''' Oh my, don't say that. I'm not going to be some big star. I was the lead actress in a new play, but critics panned it as being too cliché...
+::::'''Celine:''' They even said something like, "Belobog has changed, but its musicals are still singing the same ole tune." The point is, after that, I start taking on small roles. I want to polish my acting chops.
+:::{{DIcon|Arrow}} Congratulations!
+::::<!--Custom String Listener: TalkSentence_501024187-->
+::::'''Celine:''' There's nothing to congratulate me for. I've just been landing several small parts. Even just rushing to venues is no easy feat.
+::::'''Celine:''' I had a lead role in a new play, but it didn't get good reviews...
+::::'''Celine:''' Some critics said that Belobog has changed, but its musicals are still singing the same old tune. The point is, after that, I start taking on small roles. I want to polish my acting chops.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_501026805-->
+:;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} I've got to go. Bye.
+:::<!--Trigger PerformanceE 501026804: Config/Level/Mission/5010268/Act/Act501026804.json-->
+:::'''Celine:''' Bye bye. I'll go back to practicing my singing now.
+:::'''Celine:''' La la la. "Chasing a mirage, I lose sight of the path in the fog. I only wish for a steady journey through life."
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_501026804-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Celine
+|zhs  = 塞琳
+|zht  = 塞琳
+|ja   = セリーヌ
+|ko   = 셀린느
+|es   = Celine
+|fr   = Céline
+|ru   = Селина
+|th   = Celine
+|vi   = Celine
+|de   = Celine
+|id   = Celine
+|pt   = Celine
+}}
+==Change History==
+{{Change History|TODO}}

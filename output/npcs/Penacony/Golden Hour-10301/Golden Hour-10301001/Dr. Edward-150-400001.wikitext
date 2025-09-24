@@ -1,0 +1,1716 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dr. Edward#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Dr. Edward.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Dr. Edward''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_150_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802022003-->)
+::<!--Trigger PerformanceE 802022002: Config/Level/Mission/8020220/Act/Act802022002.json-->
+::'''Dr. Edward:''' Dear guest, the feedback on your playthrough experience for ''Hanu's Prison Break'' has been submitted to the dream bubble producers &mdash; several Dreamweavers are very excited!
+::'''Dr. Edward:''' They've asked me to pass this dream bubble to you as a gift for the very first loyal player!
+::'''Dr. Edward:''' Apparently, this dream bubble contains deleted scenes from ''Hanu's Prison Break''. As for how to watch it... You'll find out after a few more rounds.
+::<!--Custom String Trigger: Talk_End_802022003-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 802022003-->)
+:;(If {{cx}}<!--SubMission Finish: 802021902-->)
+:::<!--Trigger PerformanceE 802020120: Config/Level/Mission/8020219/Act/Act802020120.json-->
+:::'''Dr. Edward:''' Welcome to Dreamscape Sales Store! Dr. Edward at your service!
+:::'''Dr. Edward:''' What kind of a dream would you like to experience now?
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 802021902-->)
+::;(If {{cx}}<!--SubMission Started: 802021903-->)
+::::<!--Trigger PerformanceE 802020101: Config/Level/Mission/8020219/Act/Act802020101.json-->
+::::'''Dr. Edward:''' Trailblazer from the Astral Express, we meet again!
+::::'''Dr. Edward:''' Fancy a visit to my Dreamscape Sales Store? I have a new batch of dream bubbles coming to the shelf...
+::::'''Dr. Edward:''' The batch has a pretty exciting theme. Those who have tried it are full of praise... I'm sure you'll like it!
+::::{{DIcon|Arrow}} Is it about war?
+::::{{DIcon|Arrow}} Is it about relationships?
+::::{{DIcon|Arrow}} Is it about garbage picking?
+::::<!--Custom String Listener: TalkSentence_802020007-->
+::::'''Dr. Edward:''' Haha, I knew you would be interested! Still remember the slogan of my store? "Dr. Edward knows more about your preferences than you do!"
+::::'''Dr. Edward:''' Please allow me to keep the suspense going for now, as I don't want to give any spoilers. You'll have to enter the dream bubble yourself to find out what it's about!
+::::<!--Ends the current performance-->
+::::<!--Custom String Trigger: MissionTalk_802021903-->
+::;(If {{cx}}<!--SubMission not Started: 802021903-->)
+::::<!--Trigger PerformanceE 503031001: Config/Level/Mission/5030310/Act/Act503031001.json-->
+::::'''Dr. Edward:''' Welcome to Dreamscape Sales Store! Dr. Edward at your service!
+::::'''Dr. Edward:''' What kind of a dream would you like to experience now?
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 802022003-->)
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 802021902-->)
+:{{DIcon|Travel Log}} Start the dream bubble
+;(If {{cx}}<!--SubMission Finish: 802021902--> and {{cx}}<!--SubMission not Started: 802021902-->)
+:{{DIcon|Travel Log}} I want to play ''Hanu's Prison Break''!
+::<!--Trigger PerformanceE 802020119: Config/Level/Mission/8020219/Act/Act802020119.json-->
+::'''Dr. Edward:''' No problem, my dear. I'll load the dream bubble for you.
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.BlockInputController",
+	"Enable": true,
+	"ActionNameList": []
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.RaidCollection.RaidCollectionMainPage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "54,1"
+	},
+	"OnUIEnter": [
+		{
+			"$type": "RPG.GameCore.ExitTransitionLoadingUI"
+		},
+		{
+			"$type": "RPG.GameCore.BlockInputController",
+			"ActionNameList": []
+		}
+	],
+	"OnUIExitImmediately": [
+		{
+			"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha",
+			"DitherAlpha": 1
+		},
+		{
+			"$type": "RPG.GameCore.UnLockPlayerControl"
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission Finish: 103610206--> and {{cx}}<!--performance 103610207 has been seen-->)
+:{{DIcon|?}} Look at the dream gifted by Tingyun.
+::You handed over the dream bubble gifted by Tingyun.
+::{{A|VO chapter3 44 edward 108.ogg}} '''Dr. Edward:''' Oh... this is quite the dream&mdash;full of twists and turns, with all the right elements. I'd be willing to buy it back at a high price. Think about it.
+::{{DIcon|Arrow}} I'll let you know after I've seen it.
+::{{DIcon|Arrow}} Hard pass.
+::<!--Custom String Listener: TalkSentence_136120708-->
+::{{A|VO chapter3 44 edward 109.ogg}} '''Dr. Edward:''' Then, please close your eyes&mdash;
+:;(Screen fades to black)
+::As usual, the dream bubble smoothly presents you with a myriad of scenes&mdash;
+::However, you're very familiar with this dream. It's almost the same as your travels on the Luofu.
+::The only difference is that the foxian lady, Tingyun, who was travelling with you, never encountered the Lord Ravager. Instead, she helped you solve that crisis of her own free will.
+::You have a similar memory.
+::But you decide to keep this dream.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 202180104-->)
+:{{DIcon|undefined}} Can tell me more about Black Swan's dream bubble?
+::<!--Trigger PerformanceE 202180102: Config/Level/Mission/2021801/Act/Act202180102.json-->
+::{{A|VO side3 huahuo edward 110.ogg}} '''Dr. Edward:''' Are you ready to experience Miss Black Swan's dreamscape? Please close your eyes, and rest your forehead on the dream bubble.
+::{{DIcon|Arrow}} (Touch the dream bubble)
+:::<!--Custom String Listener: ALL_TALK_END_1-->
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 202180104,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:::{{A|VO side3 huahuo edward 108.ogg}} '''Dr. Edward:''' Oh yes, I nearly forgot &mdash; that elegant girl mentioned something before she left&mdash;
+:::{{A|VO side3 huahuo blackswan 101.ogg}} '''???:''' "The nature of this memory is special. Don't ruin the dreamscape experience for anyone else by spoiling the ending."
+::{{DIcon|Exit}} Hang on a second...
+:::<!--Custom String Listener: TalkSentence_202190018-->
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 202180104,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1
+		]
+	}
+}</pre>
+:::{{A|VO side3 huahuo edward 111.ogg}} '''Dr. Edward:''' If you need time to prepare, we can humbly wait as long as you need.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:;(If {{F|MissionCV-2021801-1}} is undefined 1)
+::<!--Custom String Trigger: 202180104_OpenRaid-->
+;(If {{cx}}<!--SubMission Finish: 103030310-->)
+:{{DIcon|Shop}} Let's see what you have.
+::'''Dr. Edward:''' Certainly. Please feel free to browse!
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 150,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 39,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 103030310-->)
+:{{DIcon}} Can we talk for a while?
+::'''Dr. Edward:''' Certainly. Engaging in conversation with guests is within the scope of our services!
+::<!--Custom String Trigger: Wait_Option_503031003_29-->
+::<!--Custom String Listener: Wait_Option_503031003_29-->
+:;(If the player has greater than or equal to {{Item|Nameless's Memory Bubble|20|x=1}})
+:::{{DIcon|Talk}} Touch the Memory Bubble.
+::::<!--Custom String Listener: TalkSentence_103030301-->
+::::{{A|VO chapter3 2 pompom 101.ogg}} '''Pom-Pom:''' ...Trailblazer from the Astral Express, do you plead guilty?
+::::{{DIcon|Arrow}} How come Pom-Pom is here!?
+::::{{DIcon|Arrow}} Am I Akivili now?
+::::{{DIcon|Arrow}} What's going on?
+::::<!--Custom String Listener: TalkSentence_103030305-->
+::::{{A|VO chapter3 2 edward 114.ogg}} '''Dr. Edward:''' (I won't make any explanatory or leading comments on the content of this dream bubble. In the dream bubble, you'll be living through another person's past memories &mdash; you will experience what the original owner of the memory once experienced.)
+::::{{A|VO chapter3 2 edward 115.ogg}} '''Dr. Edward:''' (If any details are missing from the dream bubble, your subconscious will make up for it by substituting the missing content with something similar.)
+::::{{A|VO chapter3 2 pompom 102.ogg}} '''Pom-Pom:''' The sins you've committed are beyond pardon, but I respect every individual's right to carry out volunteer work...
+::::{{A|VO chapter3 2 pompom 103.ogg}} '''Pom-Pom:''' ...Give this place a thorough cleaning!
+::::'''Akivili?:''' ...I'm listening.
+::::{{DIcon|Arrow}} Why isn't there any sound now?
+::::{{DIcon|Arrow}} Who's speaking?
+::::{{DIcon|Arrow}} Do I have to do the voiceover for Akivili myself?
+::::<!--Custom String Listener: TalkSentence_103030313-->
+::::{{A|VO chapter3 2 edward 116.ogg}} '''Dr. Edward:''' (My apologies. When I received this dream bubble, some of the audio tracks were missing... Perhaps, even the memoria is unable to transmit the voice of Akivili.)
+::::{{A|VO chapter3 2 edward 117.ogg}} '''Dr. Edward:''' (However, I can make some adjustments to the dream bubble to improve your experience, meaning you can choose anyone's voice for Akivili's. As long as it's a voice you're familiar with, I'll be able to replicate it in your subconscious!)
+::::{{DIcon|Arrow}} Anyone's voice will do?
+:::::<!--Custom String Listener: TalkSentence_103030316-->
+:::::{{A|VO chapter3 2 edward 118.ogg}} '''Dr. Edward:''' (Well, it must be someone you're close to, unless you're willing to accept a very unpleasant listening experience.)
+::::{{DIcon|Arrow}} Does it have to be the voice of someone I'm close to?
+:::::<!--Custom String Listener: TalkSentence_103030318-->
+:::::{{A|VO chapter3 2 edward 119.ogg}} '''Dr. Edward:''' (Yes, unless you're willing to accept a very unpleasant listening experience.)
+::::{{DIcon|Arrow}} That's quite a convenient feature.
+:::::<!--Custom String Listener: TalkSentence_103030320-->
+:::::{{A|VO chapter3 2 edward 120 m.ogg}} {{A|VO chapter3 2 edward 120 f.ogg}} '''Dr. Edward:''' (The subconscious has vast potential, {{MC|m=sir|f=madam}}!)
+::::<!--Custom String Trigger: TalkSentence_103030321-->
+::::<!--Custom String Listener: TalkSentence_103030321-->
+::::{{A|VO chapter3 2 edward 121.ogg}} '''Dr. Edward:''' (Well, please make a decision! I'll do my best to fulfill your needs.)
+::::<!--Custom String Trigger: Wait_Option_103030199_82-->
+::::<!--Custom String Listener: Wait_Option_103030199_82-->
+::::{{DIcon|Arrow}} March 7th.
+:::::<!--Custom String Listener: TalkSentence_103030323-->
+:::::{{A|VO chapter3 2 edward 122.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 106.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::{{A|VO chapter3 2 mar7th 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 109.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::{{A|VO chapter3 2 mar7th 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 mar7th 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030338-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030340-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030342-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030343-->
+:::::<!--Custom String Listener: TalkSentence_103030343-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 mar7th 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 mar7th 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 mar7th 106.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Dan Heng.
+:::::<!--Custom String Listener: TalkSentence_103030351-->
+:::::{{A|VO chapter3 2 edward 123.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030366-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030368-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030370-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030371-->
+:::::<!--Custom String Listener: TalkSentence_103030371-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 danheng 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 danheng 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 danheng 106.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Pom-Pom.
+:::::<!--Custom String Listener: TalkSentence_103030379-->
+:::::{{A|VO chapter3 2 edward 124.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 107.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 110.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 113.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030394-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030396-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030398-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030399-->
+:::::<!--Custom String Listener: TalkSentence_103030399-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 pompom 117.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 pompom 119.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 pompom 121.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Let me see who else...
+:::::<!--Custom String Listener: Wait_Option_103030199_174-->
+:::::{{DIcon|Arrow}} Himeko.
+::::::<!--Custom String Listener: TalkSentence_103030408-->
+::::::{{A|VO chapter3 2 edward 125.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030423-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030425-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030427-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030428-->
+::::::<!--Custom String Listener: TalkSentence_103030428-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 himeko 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 himeko 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 himeko 106.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Welt.
+::::::<!--Custom String Listener: TalkSentence_103030436-->
+::::::{{A|VO chapter3 2 edward 126.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030451-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030453-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030455-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030456-->
+::::::<!--Custom String Listener: TalkSentence_103030456-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 welt 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 welt 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 welt 106.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Myself, of course!
+::::::<!--Custom String Listener: TalkSentence_103030464-->
+::::::{{A|VO chapter3 2 edward 127.ogg}} '''Dr. Edward:''' (What an odd request... but no matter! Dr. Edward will make it happen!)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 105 m.ogg}} {{A|VO chapter3 2 player 105 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 107 m.ogg}} {{A|VO chapter3 2 player 107 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 109 m.ogg}} {{A|VO chapter3 2 player 109 f.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030479-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030481-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030483-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030484-->
+::::::<!--Custom String Listener: TalkSentence_103030484-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 player 111 m.ogg}} {{A|VO chapter3 2 player 111 f.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 player 113 m.ogg}} {{A|VO chapter3 2 player 113 f.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 player 115 m.ogg}} {{A|VO chapter3 2 player 115 f.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Myself in a different gender, of course!
+::::::<!--Custom String Listener: TalkSentence_103030492-->
+::::::{{A|VO chapter3 2 edward 128.ogg}} '''Dr. Edward:''' (Your voice in a different gender? That's slightly challenging... but no matter! Dr. Edward will make it happen!)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 106 m.ogg}} {{A|VO chapter3 2 player 106 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 108 m.ogg}} {{A|VO chapter3 2 player 108 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 110 m.ogg}} {{A|VO chapter3 2 player 110 f.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030507-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030509-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030511-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030512-->
+::::::<!--Custom String Listener: TalkSentence_103030512-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 player 112 m.ogg}} {{A|VO chapter3 2 player 112 f.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 player 114 m.ogg}} {{A|VO chapter3 2 player 114 f.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 player 116 m.ogg}} {{A|VO chapter3 2 player 116 f.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Return}} Give me another minute...
+::::::<!--Custom String Listener: Wait_Option_103030199_82-->
+::::::{{DIcon|Arrow}} March 7th.
+:::::::<!--Custom String Listener: TalkSentence_103030323-->
+:::::::{{A|VO chapter3 2 edward 122.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 106.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::::{{A|VO chapter3 2 mar7th 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 109.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::::{{A|VO chapter3 2 mar7th 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 mar7th 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030338-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030340-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030342-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030343-->
+:::::::<!--Custom String Listener: TalkSentence_103030343-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 mar7th 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 mar7th 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 mar7th 106.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} Dan Heng.
+:::::::<!--Custom String Listener: TalkSentence_103030351-->
+:::::::{{A|VO chapter3 2 edward 123.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030366-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030368-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030370-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030371-->
+:::::::<!--Custom String Listener: TalkSentence_103030371-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 danheng 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 danheng 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 danheng 106.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} Pom-Pom.
+:::::::<!--Custom String Listener: TalkSentence_103030379-->
+:::::::{{A|VO chapter3 2 edward 124.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 107.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 110.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 113.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030394-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030396-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030398-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030399-->
+:::::::<!--Custom String Listener: TalkSentence_103030399-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 pompom 117.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 pompom 119.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 pompom 121.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why does everyone call you "Dr. Edward"?
+::::<!--Custom String Listener: TalkSentence_503031013-->
+::::'''Dr. Edward:''' Why? Because it's the name given by my mother!
+::::'''Dr. Edward:''' Well, just kidding. I'm the embodiment of this Dreamscape Sales Store, and it's impossible for me to have any blood relatives. Haha...
+::::'''Dr. Edward:''' About your question, this name was given to me by a certain leader of the Iris Family long ago. He had a great love for movies, and "Dr. Edward" was a prominent character in his favorite film.
+::::'''Dr. Edward:''' Unfortunately, I've never seen that movie myself. After all, I need to view thousands of dreams every day, and it's much more entertaining than watching movies!
+::::{{DIcon|Talk}} What do you know about the Watchmaker?
+::::<!--Custom String Listener: TalkSentence_503031018-->
+::::'''Dr. Edward:''' Ah, the illustrious Watchmaker... Many people have come to this splendid City of Dreams, aspiring to follow in his footsteps!
+::::'''Dr. Edward:''' Unfortunately, I don't know much about this great man, but I do have an extensive collection of his legends and dreams!
+::::'''Dr. Edward:''' By the way, there is a special offer available today. For only 56 million Alfalfa credits, you can get the entire compilation of "Legends of the Watchmaker" dreams, meticulously edited by Dr. Edward himself!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Charmony Festival?
+::::<!--Custom String Listener: TalkSentence_503031022-->
+::::'''Dr. Edward:''' You don't know about it? The Charmony Festival is a grand carnival held by The Family in each Amber Era. It brings together numerous stars of the universe to herald {{Rubi|the Great One|Xipe}}!
+::::'''Dr. Edward:''' Rumor has it that during the Charmony Festival, the renowned Robin will grace all the Twelve Hours of Penacony with her enchanting voice... What an extraordinary fest!
+::::'''Dr. Edward:''' By the way, I have prepared the ultimate dream collection for the previous five Charmony Festivals. They are for 36 million Alfalfa credits only!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you get your dreams?
+::::<!--Custom String Listener: TalkSentence_503031026-->
+::::'''Dr. Edward:''' You are quite a curious customer! If this were a restaurant in reality, you'd probably inquire about their supply chain, right?
+::::'''Dr. Edward:''' Just kidding. Well, I'm always open and honest about this aspect!
+::::'''Dr. Edward:''' First and foremost, all the dreams available here have been authorized by their owners, except for cases where the dreams are too old or the owners have passed away.
+::::'''Dr. Edward:''' Most of the dreams come from voluntary contributions by guests. Guests familiar with the Golden Hour know well that Dr. Edward acquires interesting dreams at a fair price!
+::::'''Dr. Edward:''' In addition, there are a few more unique dreams... Oops, I almost forgot, that part is a secret! Like the private menus in restaurants, they are exclusive to certain guests!
+::::'''Dr. Edward:''' So, if you're interested in sharing your dreams and making a profit, feel free to come here to talk to Dr. Edward about your dreams!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503031033-->
+::::Are you leaving now? Maybe you'd like to explore what's in the store?
+::::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::::<!--Ends the current performance-->
+:;(If the player does not have greater than or equal to {{Item|Nameless's Memory Bubble|20|x=1}})
+:::{{DIcon|Talk}} Why does everyone call you "Dr. Edward"?
+::::<!--Custom String Listener: TalkSentence_503031013-->
+::::'''Dr. Edward:''' Why? Because it's the name given by my mother!
+::::'''Dr. Edward:''' Well, just kidding. I'm the embodiment of this Dreamscape Sales Store, and it's impossible for me to have any blood relatives. Haha...
+::::'''Dr. Edward:''' About your question, this name was given to me by a certain leader of the Iris Family long ago. He had a great love for movies, and "Dr. Edward" was a prominent character in his favorite film.
+::::'''Dr. Edward:''' Unfortunately, I've never seen that movie myself. After all, I need to view thousands of dreams every day, and it's much more entertaining than watching movies!
+::::{{DIcon|Talk}} What do you know about the Watchmaker?
+::::<!--Custom String Listener: TalkSentence_503031018-->
+::::'''Dr. Edward:''' Ah, the illustrious Watchmaker... Many people have come to this splendid City of Dreams, aspiring to follow in his footsteps!
+::::'''Dr. Edward:''' Unfortunately, I don't know much about this great man, but I do have an extensive collection of his legends and dreams!
+::::'''Dr. Edward:''' By the way, there is a special offer available today. For only 56 million Alfalfa credits, you can get the entire compilation of "Legends of the Watchmaker" dreams, meticulously edited by Dr. Edward himself!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Charmony Festival?
+::::<!--Custom String Listener: TalkSentence_503031022-->
+::::'''Dr. Edward:''' You don't know about it? The Charmony Festival is a grand carnival held by The Family in each Amber Era. It brings together numerous stars of the universe to herald {{Rubi|the Great One|Xipe}}!
+::::'''Dr. Edward:''' Rumor has it that during the Charmony Festival, the renowned Robin will grace all the Twelve Hours of Penacony with her enchanting voice... What an extraordinary fest!
+::::'''Dr. Edward:''' By the way, I have prepared the ultimate dream collection for the previous five Charmony Festivals. They are for 36 million Alfalfa credits only!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you get your dreams?
+::::<!--Custom String Listener: TalkSentence_503031026-->
+::::'''Dr. Edward:''' You are quite a curious customer! If this were a restaurant in reality, you'd probably inquire about their supply chain, right?
+::::'''Dr. Edward:''' Just kidding. Well, I'm always open and honest about this aspect!
+::::'''Dr. Edward:''' First and foremost, all the dreams available here have been authorized by their owners, except for cases where the dreams are too old or the owners have passed away.
+::::'''Dr. Edward:''' Most of the dreams come from voluntary contributions by guests. Guests familiar with the Golden Hour know well that Dr. Edward acquires interesting dreams at a fair price!
+::::'''Dr. Edward:''' In addition, there are a few more unique dreams... Oops, I almost forgot, that part is a secret! Like the private menus in restaurants, they are exclusive to certain guests!
+::::'''Dr. Edward:''' So, if you're interested in sharing your dreams and making a profit, feel free to come here to talk to Dr. Edward about your dreams!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503031033-->
+::::Are you leaving now? Maybe you'd like to explore what's in the store?
+::::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 103030310-->)
+:{{DIcon}} I have some dreams to share with you.
+::'''Dr. Edward:''' Oh? Then I'm willing to offer a good price if they are particularly interesting.
+::{{DIcon|Arrow}} Share your dreams about Belobog.
+:::<!--Custom String Listener: TalkSentence_503031053-->
+:::You start describing your wild dream to Dr. Edward.
+:::In your dream, Hook, the Pitch-Dark Lord, becomes the Supreme Guardian of Belobog. The Antimatter Legion, absent from Jarilo-VI for a thousand years, makes a comeback, intending to fulfill their unfinished mission.
+:::The invasion is led by a powerful Lord Ravager, engulfing the entire planet in dark clouds and despair. The people of Belobog await their impending doom...
+:::...But the doom never comes! The almighty Hook, the Pitch-Dark Lord, pilots the Imperial Engine of Creation that underwent hundreds of modifications, appearing in the sky above Qlipoth Fort, emitting a dazzling light that pierces through the dark clouds!
+:::The Imperial Engine of Creation wields the fully evolved Diggertron in God-Emperor Mode, shattering Lord Ravager's armor with a single strike and liberating the people of Belobog from the clutches of terror!
+:::'''Dr. Edward:''' ...What an outstanding dream! I'd love to purchase it!
+:::'''Dr. Edward:''' Please accept these {{Rubi|Alfalfa credits|credits}}. Your contribution will undoubtedly bring immense joy to other guests!
+:::<!--Custom String Trigger: Talk_404030901-->
+::{{DIcon|Arrow}} Share your dreams about the Xianzhou ship.
+:::<!--Custom String Listener: TalkSentence_503031061-->
+:::You start describing your romantic dream to Dr. Edward.
+:::In your dream, you assume the role of a sword master from the Xianzhou ship Yaoqing. Young, famous, and skilled, you intend to leave your school and head to the Luofu to compete for the coveted title of Sword Champion.
+:::However, on the day of your planned departure, your junior foxian soror, who is just over a hundred years old, dissuades you from pursuing the title. She persuades you to secretly escape from the Xianzhou ship, embarking on a stellar voyage together.
+:::As you both stand at the starport, she tenderly touches the scabbard hanging from your waist. Her other hand gently tucks a strand of hair behind your ear, while tears shimmer in the corners of her eyes.
+:::"Senior frater, the life of a foxian is a fleeting three hundred years... Are you willing to forsake the empty title of 'Sword Champion' and accompany me for the remainder of my fleeting existence?"
+:::A profound warmth fills your being. You tightly grasp her shoulders, drawing nearer, and softly whisper into her ear...
+:::'''Dr. Edward:''' ...Stop! Please just stop right there!
+:::{{DIcon|Arrow}} But I'm not finished yet.
+:::{{DIcon|Arrow}} The story is reaching its climactic part...
+:::<!--Custom String Listener: TalkSentence_503031070-->
+:::'''Dr. Edward:''' Exactly! You might not be fully aware, but open-ended endings have gained popularity among guests these days.
+:::'''Dr. Edward:''' While I'm certain your dream has a remarkable ending, stopping it at this juncture can optimize its... well... market appeal!
+:::'''Dr. Edward:''' Please accept these {{Rubi|Alfalfa credits|credits}}. Your contribution will undoubtedly bring immense joy to other guests!
+:::<!--Custom String Trigger: Talk_404031001-->
+::{{DIcon|Arrow}} Share your dreams about the Stellaron Hunter.
+:::<!--Custom String Listener: TalkSentence_503031074-->
+:::You start describing your wondrous dream to Dr. Edward.
+:::In this dream, you assume the role of an ordinary elementary school student, residing in an ordinary city of an ordinary country on an ordinary planet.
+:::Interestingly, this dream is one of the most peculiar ones you have ever had, as you have no concept of what a typical school is like.
+:::You have a short female classmate named Silver Wolf. From what you recall, she often plays games under her desk during class, yet manages to maintain good grades.
+:::There is a bad boy named Blade in your class. He is usually quiet, but even the worst bullies are afraid to mess with him. Although he frequently neglects homework and fails exams, no teacher dares to reprimand him.
+:::The class president, Kafka, is a symbol of perfection in every aspect, be it her looks, grades, or charisma. However, you always have a hunch that she conceals a dark side.
+:::To everyone's surprise, these three individuals with such contrasting personalities are actually close friends. One day, after school, the three of them gather around your desk...
+:::'''Dr. Edward:''' ...I apologize for the interruption, {{MC|f=miss|m=sir}}, but it appears that some dangerous individuals from the most wanted list have emerged in your dream.
+:::'''Dr. Edward:''' Furthermore, you seem to have intentionally glorified them. Unfortunately, the rules dictate that I'm not allowed to purchase such dreams.
+:::'''Dr. Edward:''' Please feel free to share more of your dreams!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 103030310-->)
+:{{DIcon|Exit}} Perhaps next time.
+::Are you leaving now? Maybe you'd like to explore what's in the store?
+::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 103030310-->)
+:{{DIcon|Shop}} Let's see what you have.
+::'''Dr. Edward:''' Certainly. Please feel free to browse!
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 150,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 39,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 103030310-->)
+:{{DIcon}} Can we talk for a while?
+::'''Dr. Edward:''' Certainly. Engaging in conversation with guests is within the scope of our services!
+::<!--Custom String Trigger: Wait_Option_503031003_29-->
+::<!--Custom String Listener: Wait_Option_503031003_29-->
+::<!--Custom String Listener: Wait_Option_503031003_29-->
+:;(If the player has greater than or equal to {{Item|Nameless's Memory Bubble|20|x=1}})
+:::{{DIcon|Talk}} Touch the Memory Bubble.
+::::<!--Custom String Listener: TalkSentence_103030301-->
+::::{{A|VO chapter3 2 pompom 101.ogg}} '''Pom-Pom:''' ...Trailblazer from the Astral Express, do you plead guilty?
+::::{{DIcon|Arrow}} How come Pom-Pom is here!?
+::::{{DIcon|Arrow}} Am I Akivili now?
+::::{{DIcon|Arrow}} What's going on?
+::::<!--Custom String Listener: TalkSentence_103030305-->
+::::{{A|VO chapter3 2 edward 114.ogg}} '''Dr. Edward:''' (I won't make any explanatory or leading comments on the content of this dream bubble. In the dream bubble, you'll be living through another person's past memories &mdash; you will experience what the original owner of the memory once experienced.)
+::::{{A|VO chapter3 2 edward 115.ogg}} '''Dr. Edward:''' (If any details are missing from the dream bubble, your subconscious will make up for it by substituting the missing content with something similar.)
+::::{{A|VO chapter3 2 pompom 102.ogg}} '''Pom-Pom:''' The sins you've committed are beyond pardon, but I respect every individual's right to carry out volunteer work...
+::::{{A|VO chapter3 2 pompom 103.ogg}} '''Pom-Pom:''' ...Give this place a thorough cleaning!
+::::'''Akivili?:''' ...I'm listening.
+::::{{DIcon|Arrow}} Why isn't there any sound now?
+::::{{DIcon|Arrow}} Who's speaking?
+::::{{DIcon|Arrow}} Do I have to do the voiceover for Akivili myself?
+::::<!--Custom String Listener: TalkSentence_103030313-->
+::::{{A|VO chapter3 2 edward 116.ogg}} '''Dr. Edward:''' (My apologies. When I received this dream bubble, some of the audio tracks were missing... Perhaps, even the memoria is unable to transmit the voice of Akivili.)
+::::{{A|VO chapter3 2 edward 117.ogg}} '''Dr. Edward:''' (However, I can make some adjustments to the dream bubble to improve your experience, meaning you can choose anyone's voice for Akivili's. As long as it's a voice you're familiar with, I'll be able to replicate it in your subconscious!)
+::::{{DIcon|Arrow}} Anyone's voice will do?
+:::::<!--Custom String Listener: TalkSentence_103030316-->
+:::::{{A|VO chapter3 2 edward 118.ogg}} '''Dr. Edward:''' (Well, it must be someone you're close to, unless you're willing to accept a very unpleasant listening experience.)
+::::{{DIcon|Arrow}} Does it have to be the voice of someone I'm close to?
+:::::<!--Custom String Listener: TalkSentence_103030318-->
+:::::{{A|VO chapter3 2 edward 119.ogg}} '''Dr. Edward:''' (Yes, unless you're willing to accept a very unpleasant listening experience.)
+::::{{DIcon|Arrow}} That's quite a convenient feature.
+:::::<!--Custom String Listener: TalkSentence_103030320-->
+:::::{{A|VO chapter3 2 edward 120 m.ogg}} {{A|VO chapter3 2 edward 120 f.ogg}} '''Dr. Edward:''' (The subconscious has vast potential, {{MC|m=sir|f=madam}}!)
+::::<!--Custom String Trigger: TalkSentence_103030321-->
+::::<!--Custom String Listener: TalkSentence_103030321-->
+::::{{A|VO chapter3 2 edward 121.ogg}} '''Dr. Edward:''' (Well, please make a decision! I'll do my best to fulfill your needs.)
+::::<!--Custom String Trigger: Wait_Option_103030199_82-->
+::::<!--Custom String Listener: Wait_Option_103030199_82-->
+::::{{DIcon|Arrow}} March 7th.
+:::::<!--Custom String Listener: TalkSentence_103030323-->
+:::::{{A|VO chapter3 2 edward 122.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 106.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::{{A|VO chapter3 2 mar7th 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 109.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::{{A|VO chapter3 2 mar7th 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 mar7th 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030338-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030340-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030342-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030343-->
+:::::<!--Custom String Listener: TalkSentence_103030343-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 mar7th 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 mar7th 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 mar7th 106.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Dan Heng.
+:::::<!--Custom String Listener: TalkSentence_103030351-->
+:::::{{A|VO chapter3 2 edward 123.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030366-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030368-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030370-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030371-->
+:::::<!--Custom String Listener: TalkSentence_103030371-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 danheng 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 danheng 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 danheng 106.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Pom-Pom.
+:::::<!--Custom String Listener: TalkSentence_103030379-->
+:::::{{A|VO chapter3 2 edward 124.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 107.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 110.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 113.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030394-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030396-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030398-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030399-->
+:::::<!--Custom String Listener: TalkSentence_103030399-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 pompom 117.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 pompom 119.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 pompom 121.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Let me see who else...
+:::::<!--Custom String Listener: Wait_Option_103030199_174-->
+:::::{{DIcon|Arrow}} Himeko.
+::::::<!--Custom String Listener: TalkSentence_103030408-->
+::::::{{A|VO chapter3 2 edward 125.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030423-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030425-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030427-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030428-->
+::::::<!--Custom String Listener: TalkSentence_103030428-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 himeko 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 himeko 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 himeko 106.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Welt.
+::::::<!--Custom String Listener: TalkSentence_103030436-->
+::::::{{A|VO chapter3 2 edward 126.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030451-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030453-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030455-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030456-->
+::::::<!--Custom String Listener: TalkSentence_103030456-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 welt 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 welt 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 welt 106.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Myself, of course!
+::::::<!--Custom String Listener: TalkSentence_103030464-->
+::::::{{A|VO chapter3 2 edward 127.ogg}} '''Dr. Edward:''' (What an odd request... but no matter! Dr. Edward will make it happen!)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 105 m.ogg}} {{A|VO chapter3 2 player 105 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 107 m.ogg}} {{A|VO chapter3 2 player 107 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 109 m.ogg}} {{A|VO chapter3 2 player 109 f.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030479-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030481-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030483-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030484-->
+::::::<!--Custom String Listener: TalkSentence_103030484-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 player 111 m.ogg}} {{A|VO chapter3 2 player 111 f.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 player 113 m.ogg}} {{A|VO chapter3 2 player 113 f.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 player 115 m.ogg}} {{A|VO chapter3 2 player 115 f.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Myself in a different gender, of course!
+::::::<!--Custom String Listener: TalkSentence_103030492-->
+::::::{{A|VO chapter3 2 edward 128.ogg}} '''Dr. Edward:''' (Your voice in a different gender? That's slightly challenging... but no matter! Dr. Edward will make it happen!)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 106 m.ogg}} {{A|VO chapter3 2 player 106 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 108 m.ogg}} {{A|VO chapter3 2 player 108 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 110 m.ogg}} {{A|VO chapter3 2 player 110 f.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030507-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030509-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030511-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030512-->
+::::::<!--Custom String Listener: TalkSentence_103030512-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 player 112 m.ogg}} {{A|VO chapter3 2 player 112 f.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 player 114 m.ogg}} {{A|VO chapter3 2 player 114 f.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 player 116 m.ogg}} {{A|VO chapter3 2 player 116 f.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Return}} Give me another minute...
+::::::<!--Custom String Listener: Wait_Option_103030199_82-->
+::::::{{DIcon|Arrow}} March 7th.
+:::::::<!--Custom String Listener: TalkSentence_103030323-->
+:::::::{{A|VO chapter3 2 edward 122.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 106.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::::{{A|VO chapter3 2 mar7th 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 109.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::::{{A|VO chapter3 2 mar7th 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 mar7th 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030338-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030340-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030342-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030343-->
+:::::::<!--Custom String Listener: TalkSentence_103030343-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 mar7th 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 mar7th 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 mar7th 106.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} Dan Heng.
+:::::::<!--Custom String Listener: TalkSentence_103030351-->
+:::::::{{A|VO chapter3 2 edward 123.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030366-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030368-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030370-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030371-->
+:::::::<!--Custom String Listener: TalkSentence_103030371-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 danheng 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 danheng 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 danheng 106.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} Pom-Pom.
+:::::::<!--Custom String Listener: TalkSentence_103030379-->
+:::::::{{A|VO chapter3 2 edward 124.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 107.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 110.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 113.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030394-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030396-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030398-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030399-->
+:::::::<!--Custom String Listener: TalkSentence_103030399-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 pompom 117.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 pompom 119.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 pompom 121.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why does everyone call you "Dr. Edward"?
+::::<!--Custom String Listener: TalkSentence_503031013-->
+::::'''Dr. Edward:''' Why? Because it's the name given by my mother!
+::::'''Dr. Edward:''' Well, just kidding. I'm the embodiment of this Dreamscape Sales Store, and it's impossible for me to have any blood relatives. Haha...
+::::'''Dr. Edward:''' About your question, this name was given to me by a certain leader of the Iris Family long ago. He had a great love for movies, and "Dr. Edward" was a prominent character in his favorite film.
+::::'''Dr. Edward:''' Unfortunately, I've never seen that movie myself. After all, I need to view thousands of dreams every day, and it's much more entertaining than watching movies!
+::::{{DIcon|Talk}} What do you know about the Watchmaker?
+::::<!--Custom String Listener: TalkSentence_503031018-->
+::::'''Dr. Edward:''' Ah, the illustrious Watchmaker... Many people have come to this splendid City of Dreams, aspiring to follow in his footsteps!
+::::'''Dr. Edward:''' Unfortunately, I don't know much about this great man, but I do have an extensive collection of his legends and dreams!
+::::'''Dr. Edward:''' By the way, there is a special offer available today. For only 56 million Alfalfa credits, you can get the entire compilation of "Legends of the Watchmaker" dreams, meticulously edited by Dr. Edward himself!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Charmony Festival?
+::::<!--Custom String Listener: TalkSentence_503031022-->
+::::'''Dr. Edward:''' You don't know about it? The Charmony Festival is a grand carnival held by The Family in each Amber Era. It brings together numerous stars of the universe to herald {{Rubi|the Great One|Xipe}}!
+::::'''Dr. Edward:''' Rumor has it that during the Charmony Festival, the renowned Robin will grace all the Twelve Hours of Penacony with her enchanting voice... What an extraordinary fest!
+::::'''Dr. Edward:''' By the way, I have prepared the ultimate dream collection for the previous five Charmony Festivals. They are for 36 million Alfalfa credits only!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you get your dreams?
+::::<!--Custom String Listener: TalkSentence_503031026-->
+::::'''Dr. Edward:''' You are quite a curious customer! If this were a restaurant in reality, you'd probably inquire about their supply chain, right?
+::::'''Dr. Edward:''' Just kidding. Well, I'm always open and honest about this aspect!
+::::'''Dr. Edward:''' First and foremost, all the dreams available here have been authorized by their owners, except for cases where the dreams are too old or the owners have passed away.
+::::'''Dr. Edward:''' Most of the dreams come from voluntary contributions by guests. Guests familiar with the Golden Hour know well that Dr. Edward acquires interesting dreams at a fair price!
+::::'''Dr. Edward:''' In addition, there are a few more unique dreams... Oops, I almost forgot, that part is a secret! Like the private menus in restaurants, they are exclusive to certain guests!
+::::'''Dr. Edward:''' So, if you're interested in sharing your dreams and making a profit, feel free to come here to talk to Dr. Edward about your dreams!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503031033-->
+::::Are you leaving now? Maybe you'd like to explore what's in the store?
+::::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::::<!--Ends the current performance-->
+:;(If the player does not have greater than or equal to {{Item|Nameless's Memory Bubble|20|x=1}})
+:::{{DIcon|Talk}} Why does everyone call you "Dr. Edward"?
+::::<!--Custom String Listener: TalkSentence_503031013-->
+::::'''Dr. Edward:''' Why? Because it's the name given by my mother!
+::::'''Dr. Edward:''' Well, just kidding. I'm the embodiment of this Dreamscape Sales Store, and it's impossible for me to have any blood relatives. Haha...
+::::'''Dr. Edward:''' About your question, this name was given to me by a certain leader of the Iris Family long ago. He had a great love for movies, and "Dr. Edward" was a prominent character in his favorite film.
+::::'''Dr. Edward:''' Unfortunately, I've never seen that movie myself. After all, I need to view thousands of dreams every day, and it's much more entertaining than watching movies!
+::::{{DIcon|Talk}} What do you know about the Watchmaker?
+::::<!--Custom String Listener: TalkSentence_503031018-->
+::::'''Dr. Edward:''' Ah, the illustrious Watchmaker... Many people have come to this splendid City of Dreams, aspiring to follow in his footsteps!
+::::'''Dr. Edward:''' Unfortunately, I don't know much about this great man, but I do have an extensive collection of his legends and dreams!
+::::'''Dr. Edward:''' By the way, there is a special offer available today. For only 56 million Alfalfa credits, you can get the entire compilation of "Legends of the Watchmaker" dreams, meticulously edited by Dr. Edward himself!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Charmony Festival?
+::::<!--Custom String Listener: TalkSentence_503031022-->
+::::'''Dr. Edward:''' You don't know about it? The Charmony Festival is a grand carnival held by The Family in each Amber Era. It brings together numerous stars of the universe to herald {{Rubi|the Great One|Xipe}}!
+::::'''Dr. Edward:''' Rumor has it that during the Charmony Festival, the renowned Robin will grace all the Twelve Hours of Penacony with her enchanting voice... What an extraordinary fest!
+::::'''Dr. Edward:''' By the way, I have prepared the ultimate dream collection for the previous five Charmony Festivals. They are for 36 million Alfalfa credits only!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you get your dreams?
+::::<!--Custom String Listener: TalkSentence_503031026-->
+::::'''Dr. Edward:''' You are quite a curious customer! If this were a restaurant in reality, you'd probably inquire about their supply chain, right?
+::::'''Dr. Edward:''' Just kidding. Well, I'm always open and honest about this aspect!
+::::'''Dr. Edward:''' First and foremost, all the dreams available here have been authorized by their owners, except for cases where the dreams are too old or the owners have passed away.
+::::'''Dr. Edward:''' Most of the dreams come from voluntary contributions by guests. Guests familiar with the Golden Hour know well that Dr. Edward acquires interesting dreams at a fair price!
+::::'''Dr. Edward:''' In addition, there are a few more unique dreams... Oops, I almost forgot, that part is a secret! Like the private menus in restaurants, they are exclusive to certain guests!
+::::'''Dr. Edward:''' So, if you're interested in sharing your dreams and making a profit, feel free to come here to talk to Dr. Edward about your dreams!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503031033-->
+::::Are you leaving now? Maybe you'd like to explore what's in the store?
+::::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::::<!--Ends the current performance-->
+:;(If the player has greater than or equal to {{Item|Nameless's Memory Bubble|20|x=1}})
+:::{{DIcon|Talk}} Touch the Memory Bubble.
+::::<!--Custom String Listener: TalkSentence_103030301-->
+::::{{A|VO chapter3 2 pompom 101.ogg}} '''Pom-Pom:''' ...Trailblazer from the Astral Express, do you plead guilty?
+::::{{DIcon|Arrow}} How come Pom-Pom is here!?
+::::{{DIcon|Arrow}} Am I Akivili now?
+::::{{DIcon|Arrow}} What's going on?
+::::<!--Custom String Listener: TalkSentence_103030305-->
+::::{{A|VO chapter3 2 edward 114.ogg}} '''Dr. Edward:''' (I won't make any explanatory or leading comments on the content of this dream bubble. In the dream bubble, you'll be living through another person's past memories &mdash; you will experience what the original owner of the memory once experienced.)
+::::{{A|VO chapter3 2 edward 115.ogg}} '''Dr. Edward:''' (If any details are missing from the dream bubble, your subconscious will make up for it by substituting the missing content with something similar.)
+::::{{A|VO chapter3 2 pompom 102.ogg}} '''Pom-Pom:''' The sins you've committed are beyond pardon, but I respect every individual's right to carry out volunteer work...
+::::{{A|VO chapter3 2 pompom 103.ogg}} '''Pom-Pom:''' ...Give this place a thorough cleaning!
+::::'''Akivili?:''' ...I'm listening.
+::::{{DIcon|Arrow}} Why isn't there any sound now?
+::::{{DIcon|Arrow}} Who's speaking?
+::::{{DIcon|Arrow}} Do I have to do the voiceover for Akivili myself?
+::::<!--Custom String Listener: TalkSentence_103030313-->
+::::{{A|VO chapter3 2 edward 116.ogg}} '''Dr. Edward:''' (My apologies. When I received this dream bubble, some of the audio tracks were missing... Perhaps, even the memoria is unable to transmit the voice of Akivili.)
+::::{{A|VO chapter3 2 edward 117.ogg}} '''Dr. Edward:''' (However, I can make some adjustments to the dream bubble to improve your experience, meaning you can choose anyone's voice for Akivili's. As long as it's a voice you're familiar with, I'll be able to replicate it in your subconscious!)
+::::{{DIcon|Arrow}} Anyone's voice will do?
+:::::<!--Custom String Listener: TalkSentence_103030316-->
+:::::{{A|VO chapter3 2 edward 118.ogg}} '''Dr. Edward:''' (Well, it must be someone you're close to, unless you're willing to accept a very unpleasant listening experience.)
+::::{{DIcon|Arrow}} Does it have to be the voice of someone I'm close to?
+:::::<!--Custom String Listener: TalkSentence_103030318-->
+:::::{{A|VO chapter3 2 edward 119.ogg}} '''Dr. Edward:''' (Yes, unless you're willing to accept a very unpleasant listening experience.)
+::::{{DIcon|Arrow}} That's quite a convenient feature.
+:::::<!--Custom String Listener: TalkSentence_103030320-->
+:::::{{A|VO chapter3 2 edward 120 m.ogg}} {{A|VO chapter3 2 edward 120 f.ogg}} '''Dr. Edward:''' (The subconscious has vast potential, {{MC|m=sir|f=madam}}!)
+::::<!--Custom String Trigger: TalkSentence_103030321-->
+::::<!--Custom String Listener: TalkSentence_103030321-->
+::::{{A|VO chapter3 2 edward 121.ogg}} '''Dr. Edward:''' (Well, please make a decision! I'll do my best to fulfill your needs.)
+::::<!--Custom String Trigger: Wait_Option_103030199_82-->
+::::<!--Custom String Listener: Wait_Option_103030199_82-->
+::::{{DIcon|Arrow}} March 7th.
+:::::<!--Custom String Listener: TalkSentence_103030323-->
+:::::{{A|VO chapter3 2 edward 122.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 106.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::{{A|VO chapter3 2 mar7th 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 109.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::{{A|VO chapter3 2 mar7th 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 mar7th 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030338-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030340-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030342-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030343-->
+:::::<!--Custom String Listener: TalkSentence_103030343-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 mar7th 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 mar7th 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 mar7th 106.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Dan Heng.
+:::::<!--Custom String Listener: TalkSentence_103030351-->
+:::::{{A|VO chapter3 2 edward 123.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 danheng 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030366-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030368-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030370-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030371-->
+:::::<!--Custom String Listener: TalkSentence_103030371-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 danheng 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 danheng 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 danheng 106.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Pom-Pom.
+:::::<!--Custom String Listener: TalkSentence_103030379-->
+:::::{{A|VO chapter3 2 edward 124.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 107.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 110.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::{{A|VO chapter3 2 pompom 113.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::<!--Custom String Listener: TalkSentence_103030394-->
+::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::<!--Custom String Listener: TalkSentence_103030396-->
+::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::<!--Custom String Listener: TalkSentence_103030398-->
+::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::<!--Custom String Trigger: TalkSentence_103030399-->
+:::::<!--Custom String Listener: TalkSentence_103030399-->
+:::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::{{A|VO chapter3 2 pompom 117.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::{{A|VO chapter3 2 pompom 119.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::{{A|VO chapter3 2 pompom 121.ogg}} '''Akivili?:''' Who?
+:::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Let me see who else...
+:::::<!--Custom String Listener: Wait_Option_103030199_174-->
+:::::{{DIcon|Arrow}} Himeko.
+::::::<!--Custom String Listener: TalkSentence_103030408-->
+::::::{{A|VO chapter3 2 edward 125.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 himeko 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030423-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030425-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030427-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030428-->
+::::::<!--Custom String Listener: TalkSentence_103030428-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 himeko 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 himeko 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 himeko 106.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Welt.
+::::::<!--Custom String Listener: TalkSentence_103030436-->
+::::::{{A|VO chapter3 2 edward 126.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 welt 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030451-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030453-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030455-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030456-->
+::::::<!--Custom String Listener: TalkSentence_103030456-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 welt 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 welt 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 welt 106.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Myself, of course!
+::::::<!--Custom String Listener: TalkSentence_103030464-->
+::::::{{A|VO chapter3 2 edward 127.ogg}} '''Dr. Edward:''' (What an odd request... but no matter! Dr. Edward will make it happen!)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 105 m.ogg}} {{A|VO chapter3 2 player 105 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 107 m.ogg}} {{A|VO chapter3 2 player 107 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 109 m.ogg}} {{A|VO chapter3 2 player 109 f.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030479-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030481-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030483-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030484-->
+::::::<!--Custom String Listener: TalkSentence_103030484-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 player 111 m.ogg}} {{A|VO chapter3 2 player 111 f.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 player 113 m.ogg}} {{A|VO chapter3 2 player 113 f.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 player 115 m.ogg}} {{A|VO chapter3 2 player 115 f.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} Myself in a different gender, of course!
+::::::<!--Custom String Listener: TalkSentence_103030492-->
+::::::{{A|VO chapter3 2 edward 128.ogg}} '''Dr. Edward:''' (Your voice in a different gender? That's slightly challenging... but no matter! Dr. Edward will make it happen!)
+::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 106 m.ogg}} {{A|VO chapter3 2 player 106 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 108 m.ogg}} {{A|VO chapter3 2 player 108 f.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+::::::{{A|VO chapter3 2 player 110 m.ogg}} {{A|VO chapter3 2 player 110 f.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+:::::::<!--Custom String Listener: TalkSentence_103030507-->
+:::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+:::::::<!--Custom String Listener: TalkSentence_103030509-->
+:::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+:::::::<!--Custom String Listener: TalkSentence_103030511-->
+:::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+::::::<!--Custom String Trigger: TalkSentence_103030512-->
+::::::<!--Custom String Listener: TalkSentence_103030512-->
+::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+::::::{{A|VO chapter3 2 player 112 m.ogg}} {{A|VO chapter3 2 player 112 f.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+::::::{{A|VO chapter3 2 player 114 m.ogg}} {{A|VO chapter3 2 player 114 f.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+::::::{{A|VO chapter3 2 player 116 m.ogg}} {{A|VO chapter3 2 player 116 f.ogg}} '''Akivili?:''' Who?
+::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+::::::<!--Custom String Trigger: TalkSentence_103030520-->
+::::::<!--Custom String Listener: TalkSentence_103030520-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Return}} Give me another minute...
+::::::<!--Custom String Listener: Wait_Option_103030199_82-->
+::::::{{DIcon|Arrow}} March 7th.
+:::::::<!--Custom String Listener: TalkSentence_103030323-->
+:::::::{{A|VO chapter3 2 edward 122.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 106.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::::{{A|VO chapter3 2 mar7th 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 109.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this accusation?
+:::::::{{A|VO chapter3 2 mar7th 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 mar7th 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030338-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030340-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030342-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030343-->
+:::::::<!--Custom String Listener: TalkSentence_103030343-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 mar7th 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 mar7th 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 mar7th 106.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} Dan Heng.
+:::::::<!--Custom String Listener: TalkSentence_103030351-->
+:::::::{{A|VO chapter3 2 edward 123.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 101.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 102.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 danheng 103.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030366-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030368-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030370-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030371-->
+:::::::<!--Custom String Listener: TalkSentence_103030371-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 danheng 104.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 danheng 105.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 danheng 106.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} Pom-Pom.
+:::::::<!--Custom String Listener: TalkSentence_103030379-->
+:::::::{{A|VO chapter3 2 edward 124.ogg}} '''Dr. Edward:''' (Splendid! I'm rendering it as we speak...)
+:::::::{{A|VO chapter3 2 edward 129.ogg}} '''Dr. Edward:''' (...The replication is complete! Now, you can enjoy an enhanced Dreamscape experience.)
+:::::::{{A|VO chapter3 2 pompom 104.ogg}} '''Pom-Pom:''' Do you, as well as the other passengers, take responsibility for the following malicious conduct?
+:::::::{{A|VO chapter3 2 pompom 105.ogg}} '''Pom-Pom:''' You rode snowmobiles into the Taikiyan Stadium and disrupted the match, causing the match to be suspended. Because of you, Twenty Trailblazers were forced to repair the severely damaged exterior of the stadium for three months without pay...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 107.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 108.ogg}} '''Pom-Pom:''' You sneaked into the Hyai'i Zoo and splurged half an Amber Era's crew budget on 250 Nosewalker cubs. You kept them in the restroom, where they were left to breed and multiply uncontrollably, causing other carriages to be filled with sewage...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 110.ogg}} '''Akivili?:''' ...Yes, I plead guilty.
+:::::::{{A|VO chapter3 2 pompom 111.ogg}} '''Pom-Pom:''' You barged into the kitchen of the dining carriage, claiming that the whole area needed disinfection. This resulted in the loss of 42 Crispy Crumbly Pom-Pom Pies. And because you also took the last serving of the Express Special in the fridge, I was left starving...
+:::::::{{A|VO chapter3 2 pompom 112.ogg}} '''Pom-Pom:''' ...Do you plead guilty to this charge?
+:::::::{{A|VO chapter3 2 pompom 113.ogg}} '''Akivili?:''' The first one is clearly a result of your own doing... But I do admit to consuming the last serving of the Express Special.
+:::::::{{A|VO chapter3 2 pompom 114.ogg}} '''Pom-Pom:''' Ahem. Don't get carried away just yet. This is only the beginning of your list of culinary offenses!
+:::::::{{A|VO chapter3 2 pompom 115.ogg}} '''Pom-Pom:''' There are cases of entire entries disappearing from the Express data bank, the plants in the Parlor Car being watered with SoulGlad, disrupting the conductor's rest with noise, and a break-in to the conductor's exclusive snack vault.
+:::::::{{DIcon|Arrow}} What do all these have to do with Akivili?
+::::::::<!--Custom String Listener: TalkSentence_103030394-->
+::::::::{{A|VO chapter3 2 edward 130.ogg}} '''Dr. Edward:''' (Let me reiterate that I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} This trailblazing expedition of yours is indeed an "Elating" one...
+::::::::<!--Custom String Listener: TalkSentence_103030396-->
+::::::::{{A|VO chapter3 2 edward 131.ogg}} '''Dr. Edward:''' (Perhaps it is, but I won't make any explanatory or leading comments on the content of this dream bubble.)
+:::::::{{DIcon|Arrow}} Did SoulGlad really exist in that era?
+::::::::<!--Custom String Listener: TalkSentence_103030398-->
+::::::::{{A|VO chapter3 2 edward 132.ogg}} '''Dr. Edward:''' (My apologies. By order of the Alfalfa Family, delicious, thirst-quenching SoulGlad is the only brand of beverage permitted to appear in recorded dreamscapes.)
+:::::::<!--Custom String Trigger: TalkSentence_103030399-->
+:::::::<!--Custom String Listener: TalkSentence_103030399-->
+:::::::{{A|VO chapter3 2 pompom 116.ogg}} '''Pom-Pom:''' And that's not even half the list! There are a total of 46 cases of malicious conduct! Do you admit to being the culprit in every case?
+:::::::{{A|VO chapter3 2 pompom 117.ogg}} '''Akivili?:''' Sorry... I am indeed the worst Nameless in the universe.
+:::::::{{A|VO chapter3 2 pompom 118.ogg}} '''Pom-Pom:''' ...No, you are not.
+:::::::{{A|VO chapter3 2 pompom 119.ogg}} '''Akivili?:''' Could there be anyone worse than me?
+:::::::{{A|VO chapter3 2 pompom 120.ogg}} '''Pom-Pom:''' Of course there is.
+:::::::{{A|VO chapter3 2 pompom 121.ogg}} '''Akivili?:''' Who?
+:::::::{{A|VO chapter3 2 pompom 122.ogg}} '''Pom-Pom:''' That guy who blew up the train into two pieces.
+:::::::<!--Custom String Trigger: TalkSentence_103030520-->
+:::::::<!--Custom String Listener: TalkSentence_103030520-->
+:::::::<!--Ends the current performance-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why does everyone call you "Dr. Edward"?
+::::<!--Custom String Listener: TalkSentence_503031013-->
+::::'''Dr. Edward:''' Why? Because it's the name given by my mother!
+::::'''Dr. Edward:''' Well, just kidding. I'm the embodiment of this Dreamscape Sales Store, and it's impossible for me to have any blood relatives. Haha...
+::::'''Dr. Edward:''' About your question, this name was given to me by a certain leader of the Iris Family long ago. He had a great love for movies, and "Dr. Edward" was a prominent character in his favorite film.
+::::'''Dr. Edward:''' Unfortunately, I've never seen that movie myself. After all, I need to view thousands of dreams every day, and it's much more entertaining than watching movies!
+::::{{DIcon|Talk}} What do you know about the Watchmaker?
+::::<!--Custom String Listener: TalkSentence_503031018-->
+::::'''Dr. Edward:''' Ah, the illustrious Watchmaker... Many people have come to this splendid City of Dreams, aspiring to follow in his footsteps!
+::::'''Dr. Edward:''' Unfortunately, I don't know much about this great man, but I do have an extensive collection of his legends and dreams!
+::::'''Dr. Edward:''' By the way, there is a special offer available today. For only 56 million Alfalfa credits, you can get the entire compilation of "Legends of the Watchmaker" dreams, meticulously edited by Dr. Edward himself!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Charmony Festival?
+::::<!--Custom String Listener: TalkSentence_503031022-->
+::::'''Dr. Edward:''' You don't know about it? The Charmony Festival is a grand carnival held by The Family in each Amber Era. It brings together numerous stars of the universe to herald {{Rubi|the Great One|Xipe}}!
+::::'''Dr. Edward:''' Rumor has it that during the Charmony Festival, the renowned Robin will grace all the Twelve Hours of Penacony with her enchanting voice... What an extraordinary fest!
+::::'''Dr. Edward:''' By the way, I have prepared the ultimate dream collection for the previous five Charmony Festivals. They are for 36 million Alfalfa credits only!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you get your dreams?
+::::<!--Custom String Listener: TalkSentence_503031026-->
+::::'''Dr. Edward:''' You are quite a curious customer! If this were a restaurant in reality, you'd probably inquire about their supply chain, right?
+::::'''Dr. Edward:''' Just kidding. Well, I'm always open and honest about this aspect!
+::::'''Dr. Edward:''' First and foremost, all the dreams available here have been authorized by their owners, except for cases where the dreams are too old or the owners have passed away.
+::::'''Dr. Edward:''' Most of the dreams come from voluntary contributions by guests. Guests familiar with the Golden Hour know well that Dr. Edward acquires interesting dreams at a fair price!
+::::'''Dr. Edward:''' In addition, there are a few more unique dreams... Oops, I almost forgot, that part is a secret! Like the private menus in restaurants, they are exclusive to certain guests!
+::::'''Dr. Edward:''' So, if you're interested in sharing your dreams and making a profit, feel free to come here to talk to Dr. Edward about your dreams!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503031033-->
+::::Are you leaving now? Maybe you'd like to explore what's in the store?
+::::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::::<!--Ends the current performance-->
+:;(If the player does not have greater than or equal to {{Item|Nameless's Memory Bubble|20|x=1}})
+:::{{DIcon|Talk}} Why does everyone call you "Dr. Edward"?
+::::<!--Custom String Listener: TalkSentence_503031013-->
+::::'''Dr. Edward:''' Why? Because it's the name given by my mother!
+::::'''Dr. Edward:''' Well, just kidding. I'm the embodiment of this Dreamscape Sales Store, and it's impossible for me to have any blood relatives. Haha...
+::::'''Dr. Edward:''' About your question, this name was given to me by a certain leader of the Iris Family long ago. He had a great love for movies, and "Dr. Edward" was a prominent character in his favorite film.
+::::'''Dr. Edward:''' Unfortunately, I've never seen that movie myself. After all, I need to view thousands of dreams every day, and it's much more entertaining than watching movies!
+::::{{DIcon|Talk}} What do you know about the Watchmaker?
+::::<!--Custom String Listener: TalkSentence_503031018-->
+::::'''Dr. Edward:''' Ah, the illustrious Watchmaker... Many people have come to this splendid City of Dreams, aspiring to follow in his footsteps!
+::::'''Dr. Edward:''' Unfortunately, I don't know much about this great man, but I do have an extensive collection of his legends and dreams!
+::::'''Dr. Edward:''' By the way, there is a special offer available today. For only 56 million Alfalfa credits, you can get the entire compilation of "Legends of the Watchmaker" dreams, meticulously edited by Dr. Edward himself!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Charmony Festival?
+::::<!--Custom String Listener: TalkSentence_503031022-->
+::::'''Dr. Edward:''' You don't know about it? The Charmony Festival is a grand carnival held by The Family in each Amber Era. It brings together numerous stars of the universe to herald {{Rubi|the Great One|Xipe}}!
+::::'''Dr. Edward:''' Rumor has it that during the Charmony Festival, the renowned Robin will grace all the Twelve Hours of Penacony with her enchanting voice... What an extraordinary fest!
+::::'''Dr. Edward:''' By the way, I have prepared the ultimate dream collection for the previous five Charmony Festivals. They are for 36 million Alfalfa credits only!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you get your dreams?
+::::<!--Custom String Listener: TalkSentence_503031026-->
+::::'''Dr. Edward:''' You are quite a curious customer! If this were a restaurant in reality, you'd probably inquire about their supply chain, right?
+::::'''Dr. Edward:''' Just kidding. Well, I'm always open and honest about this aspect!
+::::'''Dr. Edward:''' First and foremost, all the dreams available here have been authorized by their owners, except for cases where the dreams are too old or the owners have passed away.
+::::'''Dr. Edward:''' Most of the dreams come from voluntary contributions by guests. Guests familiar with the Golden Hour know well that Dr. Edward acquires interesting dreams at a fair price!
+::::'''Dr. Edward:''' In addition, there are a few more unique dreams... Oops, I almost forgot, that part is a secret! Like the private menus in restaurants, they are exclusive to certain guests!
+::::'''Dr. Edward:''' So, if you're interested in sharing your dreams and making a profit, feel free to come here to talk to Dr. Edward about your dreams!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503031033-->
+::::Are you leaving now? Maybe you'd like to explore what's in the store?
+::::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 103030310-->)
+:{{DIcon|Exit}} Perhaps next time.
+::Are you leaving now? Maybe you'd like to explore what's in the store?
+::'''Dr. Edward:''' Well, I'll look forward to your next visit! Remember, Dr. Edward knows more about your preferences than you do!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

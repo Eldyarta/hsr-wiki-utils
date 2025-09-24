@@ -1,0 +1,97 @@
+<%-- [PAGE_INFO]
+PageTitle=#Aquafis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Aquafis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Aquafis''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_748_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Finish: 803210113-->)
+:;(First interaction)
+:::<!--Trigger PerformanceE 803210006: Config/Level/Mission/8032100/Act/Act803210006.json-->
+:::'''Aquafis:''' You've come. You didn't disappoint me. Here's my Seal Slammers: Ultimate Evolution. Come try it out!
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 803210007: Config/Level/Mission/8032100/Act/Act803210007.json-->
+:::'''Aquafis:''' Seal Slammers: Ultimate Evolution. Come try it out!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Tell me about the challenge again.
+:::'''Aquafis:''' No problem! The so-called Seal Slammers: Ultimate Evolution means that I've arranged the baby seal lineup for each stage by hand, complete with an array of difficulties. A challenge for true masters.
+:::'''Aquafis:''' Of course, you can always choose the difficulty you want. It's all up to you if you want to train or break through your limits.
+:::'''Aquafis:''' I'm right here. If you want more practice, come find me.
+:;(If {{cx}}<!--SubMission Finish: 803211101-->)
+:{{DIcon}} Give me something insane!
+:::'''Aquafis:''' Hah hah! You're brave. You wanna challenge the hardest Super Insane Stage? Show me everything you've got and let me see if you're crazy enough!
+:::<!--Custom String Trigger: TriggerPerformance_G748_lv5-->
+::{{DIcon}} Give me something challenging!
+:::'''Aquafis:''' As you wish. Keep your eyes peeled in the following challenge. Don't say I didn't warn you!
+:::<!--Custom String Trigger: TriggerPerformance_G748_lv4-->
+::{{DIcon}} Give me something simple!
+:::'''Aquafis:''' No problem. Let's start with something easy to warm up. We'll have a friendly match.
+:::<!--Custom String Trigger: TriggerPerformance_G748_lv2-->
+::{{DIcon|Exit}} There's something I have to do.
+:::'''Aquafis:''' ...Youngsters are always busy. Being busy is nice and all, but remember to come play with me!
+:::<!--Custom String Trigger: TriggerPerformance_G748_Fail_lv2-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: TriggerPerformance_G748_Start-->
+;(If {{cx}}<!--SubMission not Finish: 803210113-->)
+::<!--Custom String Trigger: TriggerPerformance_G748-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

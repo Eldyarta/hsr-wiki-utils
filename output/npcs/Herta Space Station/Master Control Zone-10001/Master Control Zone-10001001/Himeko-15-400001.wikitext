@@ -1,0 +1,139 @@
+<%-- [PAGE_INFO]
+PageTitle=#Himeko#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Himeko.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Himeko''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_15_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 100030115,
+		"Type": "submission_state_equal",
+		"Param1": 100030115,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030115: Config/Level/Mission/1000301/Act/Act100030115.json-->
+:{{A|VO chapter0 3 himeko 110 m.ogg}} {{A|VO chapter0 3 himeko 110 f.ogg}} '''Himeko:''' What's the matter, (Trailblazer)? You seem to have something on your mind.
+:<!--Custom String Trigger: TalkSentence_100021143-->
+:<!--Custom String Listener: TalkSentence_100021143-->
+:{{DIcon|Talk}} I'd like to learn about the Astral Express.
+::<!--Custom String Listener: TalkSentence_100021144-->
+::{{A|VO chapter0 3 himeko 111.ogg}} '''Himeko:''' Basically speaking, it's a train that travels through space. But more specifically, the Astral Express was a creation of the Aeon, Akivili the Trailblazer.
+::{{A|VO chapter0 3 himeko 112.ogg}} '''Himeko:''' As for what the Trailblaze, the Aeons, and Akivili are all about, let's talk about it when things have calmed down a little. I don't wanna overwhelm you now, do I?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I'd like to learn about Light Cones.
+::<!--Custom String Listener: TalkSentence_100021147-->
+::{{A|VO chapter0 3 himeko 113.ogg}} '''Himeko:''' Light Cones were created by the Garden of Recollection. These followers of the Aeon of {{Rubi|Remembrance|Fuli}} refined memory fragments to create Light Cones, which preserve memories.
+::{{A|VO chapter0 3 himeko 114.ogg}} '''Himeko:''' But you've already realized it, haven't you? Since Light Cones can preserve memories, they can also preserve experiences and abilities. That's why Light Cones are extremely precious rare items under level-2 restriction by the {{Rubi|Interastral Peace Corporation|Galactic Monopoly}}.
+::{{A|VO chapter0 3 himeko 115.ogg}} '''Himeko:''' As far as I know, only the IPC possesses Light Cone technology authorized by the Garden of Recollection. I couldn't say what deal Herta made with the Garden, but knowing her, it was likely off the books...
+::{{A|VO chapter0 3 himeko 116.ogg}} '''Himeko:''' You should cherish every Light Cone. They are all precious memories of their original owners.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you... know who I am?
+::<!--Custom String Listener: TalkSentence_100021157-->
+::{{A|VO chapter0 3 himeko 117.ogg}} '''Himeko:''' Who exactly you are escapes me, but you seem familiar to me.
+::{{A|VO chapter0 3 himeko 118.ogg}} '''Himeko:''' I have a couple of hunches, but I can't prove any at this point. So, they'll be my little secrets for now.
+::{{A|VO chapter0 3 himeko 119.ogg}} '''Himeko:''' Are you concerned about your past? You seem like someone who prefers to look forward rather than back... Or maybe I'm just describing myself.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any more questions.
+::<!--Custom String Listener: TalkSentence_100021161-->
+::{{A|VO chapter0 3 himeko 120.ogg}} '''Himeko:''' Come to me anytime if you have more questions.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030115_Talk-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 100030115
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030115: Config/Level/Mission/1000301/Act/Act100030115.json-->
+:{{A|VO chapter0 3 himeko 110 m.ogg}} {{A|VO chapter0 3 himeko 110 f.ogg}} '''Himeko:''' What's the matter, (Trailblazer)? You seem to have something on your mind.
+:<!--Custom String Trigger: TalkSentence_100021143-->
+:<!--Custom String Listener: TalkSentence_100021143-->
+:{{DIcon|Talk}} I'd like to learn about the Astral Express.
+::<!--Custom String Listener: TalkSentence_100021144-->
+::{{A|VO chapter0 3 himeko 111.ogg}} '''Himeko:''' Basically speaking, it's a train that travels through space. But more specifically, the Astral Express was a creation of the Aeon, Akivili the Trailblazer.
+::{{A|VO chapter0 3 himeko 112.ogg}} '''Himeko:''' As for what the Trailblaze, the Aeons, and Akivili are all about, let's talk about it when things have calmed down a little. I don't wanna overwhelm you now, do I?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I'd like to learn about Light Cones.
+::<!--Custom String Listener: TalkSentence_100021147-->
+::{{A|VO chapter0 3 himeko 113.ogg}} '''Himeko:''' Light Cones were created by the Garden of Recollection. These followers of the Aeon of {{Rubi|Remembrance|Fuli}} refined memory fragments to create Light Cones, which preserve memories.
+::{{A|VO chapter0 3 himeko 114.ogg}} '''Himeko:''' But you've already realized it, haven't you? Since Light Cones can preserve memories, they can also preserve experiences and abilities. That's why Light Cones are extremely precious rare items under level-2 restriction by the {{Rubi|Interastral Peace Corporation|Galactic Monopoly}}.
+::{{A|VO chapter0 3 himeko 115.ogg}} '''Himeko:''' As far as I know, only the IPC possesses Light Cone technology authorized by the Garden of Recollection. I couldn't say what deal Herta made with the Garden, but knowing her, it was likely off the books...
+::{{A|VO chapter0 3 himeko 116.ogg}} '''Himeko:''' You should cherish every Light Cone. They are all precious memories of their original owners.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you... know who I am?
+::<!--Custom String Listener: TalkSentence_100021157-->
+::{{A|VO chapter0 3 himeko 117.ogg}} '''Himeko:''' Who exactly you are escapes me, but you seem familiar to me.
+::{{A|VO chapter0 3 himeko 118.ogg}} '''Himeko:''' I have a couple of hunches, but I can't prove any at this point. So, they'll be my little secrets for now.
+::{{A|VO chapter0 3 himeko 119.ogg}} '''Himeko:''' Are you concerned about your past? You seem like someone who prefers to look forward rather than back... Or maybe I'm just describing myself.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any more questions.
+::<!--Custom String Listener: TalkSentence_100021161-->
+::{{A|VO chapter0 3 himeko 120.ogg}} '''Himeko:''' Come to me anytime if you have more questions.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030115_Talk-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Himeko
+|zhs  = 姬子
+|zht  = 姬子
+|ja   = 姫子
+|ko   = 히메코
+|es   = Himeko
+|fr   = Himeko
+|ru   = Химеко
+|th   = Himeko
+|vi   = Himeko
+|de   = Himeko
+|id   = Himeko
+|pt   = Himeko
+}}
+==Change History==
+{{Change History|TODO}}

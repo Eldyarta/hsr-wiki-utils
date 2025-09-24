@@ -1,0 +1,225 @@
+<%-- [PAGE_INFO]
+PageTitle=#Chiyi#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Jailer
+|image           = NPC Chiyi.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Chiyi''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_114_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502010001: Config/Level/Mission/5020100/Act/Act502010001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450101
+	]
+}</pre>
+::'''Chiyi:''' Greetings, you must be (Trailblazer). I am Chiyi, the Jailer overseeing this unit of the Shackling Prison. Madam Xueyi has informed me that you're here to investigate a case. You are free to enter most areas of the Shackling Prison.
+::'''Chiyi:''' However, I am dutifully obliged to remind you that the Shackling Prison is where the Xianzhou Luofu imprisons our most dangerous felons. (Trailblazer), {{MC|m=sir|f=madam}}, we seek your cooperation to keep everything you see and hear in the Shackling Prison to yourself, as laid out in our confidentiality regulations.
+::{{DIcon|Arrow}} So I'm not supposed to be allowed in here then?
+:::<!--Custom String Listener: TalkSentence_502010004-->
+:::'''Chiyi:''' The Ten-Lords Commission imposes a mandatory and stringent assessment on those who wish to enter the Shackling Prison, so that all remand and detention orders within the facility can be performed without disruptions. Since you're here for an investigation, you're naturally granted the relevant permissions.
+::{{DIcon|Arrow}} And if I unintentionally tell them to someone...?
+:::<!--Custom String Listener: TalkSentence_502010007-->
+:::'''Chiyi:''' The Shackling Prison has been operating securely for centuries. If intruders were to infiltrate out of nowhere, it would mean that someone has divulged details of the structural floor plan and routes of the Shackling Prison. Many spiritfarers will end up losing their lives during such an infiltration. I trust you are aware of the grave consequences that come with leaking secrets.
+::'''Chiyi:''' Madam Xueyi has mentioned that you are a trusted ally of the Xianzhou. It is rare to hear her offering such a high remark about anyone, so I am happy to trust that you'll keep mum about the secrets of the Shackling Prison.
+::<!--Custom String Trigger: TalkSentence_502010009-->
+::<!--Custom String Listener: TalkSentence_502010009-->
+::'''Chiyi:''' I am more than happy to put my trust in you, (Trailblazer). But it is my professional obligation to remind you, once again, that the Shackling Prison is not a place where people walk about freely. Please be cautious in your investigation here.
+::'''Chiyi:''' The Shackling Prison has a convoluted layout, and we detain prisoners of various factions here. Feel free to come to me anytime if you need help with something. If you have no other questions, I'll leave you to it, (Trailblazer).
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502010002: Config/Level/Mission/5020100/Act/Act502010002.json-->
+::'''Chiyi:''' Some birds are never meant to be locked up in cages. They were born to be free... But those that cannot be locked up will have to be shot down with a bow and arrow.
+::'''Chiyi:''' The Shackling Prison is a complicated area, and we detain prisoners of all sorts here. Feel free to come to me anytime if you need help with something, (Trailblazer).
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 434012503-->)
+:{{DIcon|?}} I found this book, ''A Study into the Mara-Struck'', in the prison...
+::<!--Trigger PerformanceD 434012503: Story/Discussion/Mission/4340125/DS434012503.json-->
+::I found this book, ''A Study into the Mara-Struck'', in the prison...
+::'''Chiyi:''' What's so special about this book?
+::This book had been searched by folks everywhere but no one found it, and it had been concealed in this prison without anyone knowing... You recount the tale to Chiyi, and she listens with comprehension.
+::'''Chiyi:''' If I were to take into account these two incidents, it seems to suggest that no one was able to find the book due to its confinement within the prison.
+::'''Chiyi:''' However, it's clear that this is merely a coincidence. The Shackling Prison will not take in an ordinary book for no reason &mdash; indeed, we confine only those books of peculiar and perilous nature. They are not to be handled lightly or allowed to be taken away so easily.
+::'''Chiyi:''' Hence, I believe the book is near the prison for other reasons.
+::{{DIcon|Arrow}} Perhaps it was left behind by a prison guard?
+:::<!--Custom String Listener: TalkSentence_434032208-->
+:::'''Chiyi:''' Maybe it was left behind by a careless guard, and no one has reported it as lost until today.
+:::Perhaps it was left behind by a prisoner?
+::{{DIcon|Arrow}} Perhaps it was left behind by a prisoner?
+:::<!--Custom String Listener: TalkSentence_434032210-->
+::'''Chiyi:''' All prisoners go through a rigorous checking process for their admission and transfer, and their belongings are registered, so this is not possible.
+::<!--Custom String Trigger: TalkSentence_434032211-->
+::<!--Custom String Listener: TalkSentence_434032211-->
+::'''Chiyi:''' (Trailblazer), have you thought of other possibilities?
+::{{DIcon|Arrow}} There are numerous possibilities in this world...
+:::<!--Custom String Listener: TalkSentence_434032213-->
+:::'''Chiyi:''' Exactly. It's frequently remarked that destiny's possibilities resemble a complex web, yet upon closer inspection, it seems more akin to a single thread &mdash; if only this book can speak, maybe it could unveil the secret of that thread. Alas, it can't.
+:::Even if we discovered the secret, it would only satisfy our curiosity now.
+::{{DIcon|Arrow}} Even if we discovered the secret, it would only satisfy our curiosity now.
+:::<!--Custom String Listener: TalkSentence_434032215-->
+::'''Chiyi:''' Didn't you look for me to satisfy your curiosity?
+::<!--Custom String Trigger: TalkSentence_434032216-->
+::<!--Custom String Listener: TalkSentence_434032216-->
+::'''Chiyi:''' Indeed, I'm unable to provide (Trailblazer) with a satisfactory answer. Even within the confines of the Shackling Prison, ordinary inmates maintain a degree of constrained autonomy. Hence, it's not impossible that this book was authored by an inmate within the prison walls...
+::'''Chiyi:''' Strange things often happen in the Shackling Prison, and as a Jailer, I have seen too many unexplainable things. Even if I were to turn a blind eye, I couldn't convince myself...
+::'''Chiyi:''' As such, I recommend adopting the "principle of parsimony" &mdash; when you have multiple inferences competing in your mind, go for the simplest one... Maybe it's not necessarily the truth itself, but it may be the most compelling inference.
+::'''Chiyi:''' So, (Trailblazer), close your eyes and focus on what's on your mind.
+::...When you first boarded the Xianzhou, your data bank had persistently notified you of numerous titles yet to be acquired... Despite the varied motivations of those who sought the book, whether deliberate or inadvertent, none succeeded in locating ''A Study into the Mara-Struck''.
+::...Moreover, The Shackling Prison is a place for dangerous offenders. You witnessed some '''non-human''' criminals in this prison... so it seems plausible that a book would be locked up here.
+::Chiyi recommends the "principle of parsimony," hoping you'll cut through the clutter and find a more concise conclusion. In that case...
+::{{DIcon|Arrow}} This book must have been arrested.
+:::<!--Custom String Listener: TalkSentence_434032224-->
+:::While this reasoning may seem fantastical, it holds a succinct truth. The book committed a crime and was captured. It should have appeared sooner, yet fate plays a cruel joke on it. It was confined in The Shackling Prison, a place you couldn't access at first...
+:::This book was left behind by a prisoner.
+:::The cell is for prisoners. Books aren't prisoners, so the book must have been left behind by a prisoner near the cell. As for how the book came into the possession of the prisoner... that'll further complicate a simple question.
+:::The designers forgot to put it in that game.
+::{{DIcon|Arrow}} This book was left behind by a prisoner.
+:::<!--Custom String Listener: TalkSentence_434032226-->
+:::The cell is for prisoners. Books aren't prisoners, so the book must have been left behind by a prisoner near the cell. As for how the book came into the possession of the prisoner... that'll further complicate a simple question.
+:::The designers forgot to put it in that game.
+::{{DIcon|Arrow}} The designers forgot to put it in that game.
+:::<!--Custom String Listener: TalkSentence_434032228-->
+::Shh!
+::Are you suggesting they left it out of the version that officially went live, failed to fix it in time in later versions, and then waited until now to pass it off with an excuse that "the book got arrested"?
+::All right, based on the "principle of parsimony," this is not impossible! As such, they have prepared a small gift for you as compensation. Please accept it and never mention this incident again.
+::<!--Custom String Trigger: TalkSentence_434032231-->
+::<!--Custom String Listener: TalkSentence_434032231-->
+::'''Chiyi:''' It appears you've obtained a sufficiently straightforward answer. I understand the effort involved in pursuing this matter. As a jailer, I will reward you for your effort and dedication to knowledge! Thank you for your hard work!
+::{{tx}}
+::<!--Ends the current performance-->
+:{{DIcon}} I have some questions for you...
+::'''Chiyi:''' Please go ahead and ask your question.
+::<!--Custom String Trigger: Wait_Option_502010003_62-->
+::<!--Custom String Listener: Wait_Option_502010003_62-->
+::{{DIcon|Talk}} I want to learn about the Shackling Prison's history.
+:::<!--Custom String Listener: TalkSentence_502010103-->
+:::'''Chiyi:''' I am no research historian, so I may not be familiar with the complete history of The Shackling Prison. It has been established eons ago that the exact date of its construction is long-lost to time. The facility we are at is just one of the many units of The Shackling Prison system on the Luofu.
+:::'''Chiyi:''' According to the previous Jailer, this unit of the Shackling Prison was jointly built by Xianzhou natives and the Vidyadhara. And it checks out because if not for the Vidyadhara's cloudhymn magic, it wouldn't be possible to build this colossal structure underwater.
+:::'''Chiyi:''' Even today, the Vidyadhara Preceptors would send Vidyadhara youths skilled in cloudhymn magic to join the spiritfarers in maintaining the prison's flood barriers... The Ten-Lords Commission and The Shackling Prison are eternally grateful for the Vidyadhara's contribution.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to know more about what you do.
+:::<!--Custom String Listener: TalkSentence_502010107-->
+:::'''Chiyi:''' To put things simply, my duty is to ensure all prisoners in The Shackling Prison remain within the prison area. If any one of them were to take even half a step beyond the boundaries of the prison, I am expected to employ any possible measure to force them right back.
+:::'''Chiyi:''' The prison guards have to perpetually keep their guards up around these serious felons. The more I interact with them, the more it grinds down on my mentality &mdash; Their desire to leave this facility burns as blazing hot as fiery brands.
+:::{{DIcon|Arrow}} But you're the Jailer. Can't you ignore them?
+::::<!--Custom String Listener: TalkSentence_502010110-->
+::::'''Chiyi:''' I used to harbor that naive thought too, believing that I could just block them out and go about my duties.
+::::'''Chiyi:''' But I need to be able to pick up on their intentions through their words and behavior, which they employ to shield their true thoughts. And while I'm doing that, quick-witted and intelligent prisoners would also use that fact to study me.
+::::'''Chiyi:''' I'm not good at battles of wits. Those make me feel like I'm on a chopping board waiting to be butchered by whoever has the knife... Trust me, it's not a nice feeling to have.
+::::'''Chiyi:''' There are too many prisoners locked away in The Shackling Prison. Morality aside, these people are the cream of the crop in terms of talent and capacities &mdash; This is precisely why they have to be locked away in The Shackling Prison.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are there any particularly strange prisoners?
+::::<!--Custom String Listener: TalkSentence_502010115-->
+::::'''Chiyi:''' There was an outworlder who got sent in for committing multiple murders. According to the records, he was known as "The Spoon Murderer" because he once used an iron spoon to persistently cause harm to the victim.
+::::'''Chiyi:''' I had assumed he wouldn't cause any trouble if he was locked away in a solitary cell. Yet he somehow managed to get his hands on an iron spoon that he endlessly tapped the wall of his cell with, eventually driving the prisoner in his neighboring cell into a mental breakdown.
+::::'''Chiyi:''' The tapping lasted for decades. I shouldn't have underestimated the damage such faintly perceptible noises could do to a person's psyche. I suppose you can say that I gained some experience after that...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to ask.
+:::<!--Custom String Listener: TalkSentence_502010119-->
+:::'''Chiyi:''' Sure, come look for me anytime if you have more questions.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll leave you to work then.
+::'''Chiyi:''' Sure, come look for me anytime if you have more questions.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502010012)
+:<!--Custom String Listener: TalkSentence_502010012-->
+::'''Chiyi:''' Please go ahead and ask your question.
+::<!--Custom String Trigger: Wait_Option_502010001_22-->
+::<!--Custom String Listener: Wait_Option_502010001_22-->
+::{{DIcon|Talk}} I want to learn about the Shackling Prison's history.
+:::<!--Custom String Listener: TalkSentence_502010014-->
+:::'''Chiyi:''' I am no research historian, so I may not be familiar with the complete history of the Shackling Prison. It has been established eons ago that the exact date of its construction is long-lost to time. The facility we are at is just one unit of the Shackling Prison system on the Luofu.
+:::'''Chiyi:''' According to the previous Jailer, this unit of the Shackling Prison was jointly built by Xianzhou natives and the Vidyadhara. And it checks out because if not for the Vidyadhara's cloudhymn magic, it wouldn't be possible to build this colossal structure underwater.
+:::'''Chiyi:''' Even today, the Vidyadhara Preceptors would send Vidyadhara youths skilled in cloudhymn magic to join the spiritfarers in maintaining the prison's flood barriers... The Ten-Lords Commission and The Shackling Prison are eternally grateful for the Vidyadhara's contribution.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to know more about what you do.
+:::<!--Custom String Listener: TalkSentence_502010018-->
+:::'''Chiyi:''' To put things simply, my duty is to ensure all prisoners in The Shackling Prison remain within the prison area. If any one of them were to take even half a step beyond the boundaries of the prison, I am expected to employ any possible measure to force them right back.
+:::'''Chiyi:''' The prison guards have to perpetually keep their guards up around these serious felons. The more I interact with them, the more it grinds down on my mentality &mdash; Their desire to leave this facility burns as blazing hot as fiery brands.
+:::{{DIcon|Arrow}} But you're the Jailer. Can't you ignore them?
+::::<!--Custom String Listener: TalkSentence_502010021-->
+::::'''Chiyi:''' I used to harbor that naive thought too, believing that I could just block them out and go about my duties.
+::::'''Chiyi:''' But I need to be able to pick up on their intentions through their words and behavior, which they employ to shield their true thoughts. And while I'm doing that, quick-witted and intelligent prisoners would also use that fact to study me.
+::::'''Chiyi:''' I'm not good at battles of wits. Those make me feel like I'm on a chopping board waiting to be butchered by whoever has the knife... Trust me, it's not a nice feeling to have.
+::::'''Chiyi:''' There are too many prisoners locked away in The Shackling Prison. Morality aside, these people are the cream of the crop in terms of talent and capacities &mdash; This is precisely why they have to be locked away in The Shackling Prison.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are there any particularly strange prisoners?
+::::<!--Custom String Listener: TalkSentence_502010026-->
+::::'''Chiyi:''' There was an outworlder who got sent in for committing multiple murders. According to the records, he was known as "The Spoon" because he once used an iron spoon to persistently cause harm to the victim.
+::::'''Chiyi:''' I had assumed he wouldn't cause any trouble if he was locked away in a solitary cell. Yet he somehow managed to get his hands on an iron spoon that he endlessly tapped the wall of his cell with, eventually driving the prisoner in his neighboring cell into a mental breakdown.
+::::'''Chiyi:''' The tapping lasted for decades. I shouldn't have underestimated the damage such faintly perceptible noises could do to a person's psyche. I suppose you can say that I gained some experience after that...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to ask.
+:::<!--Custom String Listener: TalkSentence_502010030-->
+:::'''Chiyi:''' Sure, come look for me anytime if you have more questions.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502010032)
+:<!--Custom String Listener: TalkSentence_502010032-->
+::'''Chiyi:''' Sure, come look for me anytime if you have more questions.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Chiyi
+|zhs  = 赤衣
+|zht  = 赤衣
+|ja   = 赤衣
+|ko   = 적의
+|es   = Chiyi
+|fr   = Chiyi
+|ru   = Чии
+|th   = Chiyi
+|vi   = Chiyi
+|de   = Chiyi
+|id   = Chiyi
+|pt   = Chiyi
+}}
+==Change History==
+{{Change History|TODO}}

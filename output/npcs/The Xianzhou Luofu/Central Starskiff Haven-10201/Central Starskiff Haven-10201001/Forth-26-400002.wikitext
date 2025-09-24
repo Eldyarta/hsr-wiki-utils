@@ -1,0 +1,329 @@
+<%-- [PAGE_INFO]
+PageTitle=#Forth#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Crosstalk Lover
+|image           = NPC Forth.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Forth''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_26_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 102050107,
+		"Type": "submission_state_equal",
+		"Param1": 102050107,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceD 102050107: Config/Level/Mission/1020501/Act/Act102050107.json-->
+:{{A|VO chapter2 2 mar7th 114.ogg}} '''March 7th:''' Excuse me, any chance you saw a foxian lady pass by?
+:{{A|VO chapter2 2 awang 101.ogg}} '''Forth:''' Well that's a heck of a question, miss! I'd say nearly one in every two people passing through Starskiff Haven is foxian. We might have seen the lady you're looking for, but we wouldn't have batted an eyelid.
+:{{A|VO chapter2 2 alai 101.ogg}} '''Back'n:''' He's not lying. Still, if you describe her a little, maybe it'll jog our memory.
+:{{DIcon|Arrow}} She's... foxian?
+::<!--Custom String Listener: TalkSentence_102050706-->
+::{{A|VO chapter2 2 awang 102.ogg}} '''Forth:''' Write that down, write that down!
+:{{DIcon|Arrow}} She's... pretty.
+::<!--Custom String Listener: TalkSentence_102050708-->
+::{{A|VO chapter2 2 awang 103.ogg}} '''Forth:''' "Pretty?" That's too generic for a foxian. Even if you don't count the ladies, there are plenty of gents that fit that description like a glove...
+:<!--Custom String Trigger: TalkSentence_102050709-->
+:<!--Custom String Listener: TalkSentence_102050709-->
+:{{A|VO chapter2 2 alai 102.ogg}} '''Back'n:''' As tedious as it is, I'm afraid you'll have to describe her in more detail. Please don't say "two ears, one tail."
+:{{DIcon|Arrow}} (Show Tingyun's photo.)
+:<!--Custom String Listener: TalkSentence_102050711-->
+:{{A|VO chapter2 2 awang 104.ogg}} '''Forth:''' ...I can put my hand on my heart and say I remember this fine lady.
+:{{A|VO chapter2 2 alai 103.ogg}} '''Back'n:''' Nonsense. I've been stood next to you this whole time and I don't remember anyone like her.
+:{{A|VO chapter2 2 awang 105.ogg}} '''Forth:''' Well, I may not have seen her in person, but her beauty feels like a long-lost acquaintance... How wonderful to be reunited with her after so long!
+:{{A|VO chapter2 2 alai 104 m.ogg}} {{A|VO chapter2 2 alai 104 f.ogg}} '''Back'n:''' Oh dear. I'm sorry, my friend here appears to have lost touch with reality.
+:{{A|VO chapter2 2 mar7th 115.ogg}} '''March 7th:''' Are you two professional time-wasters or something?
+:{{A|VO chapter2 2 awang 106.ogg}} '''Forth:''' Please accept our apologies! Me and my partner do double act comedy in the Sleepless Earl &mdash; the teahouse round the corner. As you can probably guess, with all these curfews and lockdowns, we've hardly had an audience the past few days. We figured we'd find a spot on the street and do some rehearsal &mdash; just to stop us getting rusty.
+:{{A|VO chapter2 2 alai 105.ogg}} '''Back'n:''' Then you guys swung by asking for this foxian lady, so we thought we'd give you a bit of improv &mdash; free of charge I might add.
+:{{A|VO chapter2 2 awang 107.ogg}} '''Forth:''' Stay calm, stay calm! I did see the girl you're looking for. She took a turn from here into Starwatcher Avenue. I'd suggest you head over that way &mdash; she might still be there.
+:{{A|VO chapter2 2 mar7th 116.ogg}} '''March 7th:''' I find it hard to trust anything you've just said...
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_102050107_01-->
+:'''Forth:''' I can give something worth a bit more than that.
+:<!--Custom String Trigger: Wait_Option_502011002_55-->
+:<!--Custom String Listener: Wait_Option_502011002_55-->
+:{{DIcon|Talk}} I'd like to hear another skit.
+::<!--Custom String Listener: TalkSentence_502110103-->
+::'''Forth:''' You can't talk about Starskiff Haven without mentioning the Palace of Astrum, and you can't talk about the Palace of Astrum without mentioning Madam Yukong.
+::'''Back'n:''' I once saw Madam Yukong with her Cloudkite Resplendent Longbow, shooting with tremendous accuracy from a hundred feet away. Truly a sight to&mdash;
+::'''Forth:''' Hang on, "a hundred feet"? Are you saying if I stood 101 feet away, I could just pluck her arrows out of the air?
+::'''Back'n:''' It's a figure of speech. Generally speaking, Madam Yukong's arrows are a threat from even 5000 feet.
+::'''Forth:''' So you're saying if I stood 5001 feet away, I could catch her arrows.
+::'''Back'n:''' *Xianzhou profanity* &mdash; why do you have to catch her arrows???
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Are you guys practicing your crosstalk here?
+::<!--Custom String Listener: TalkSentence_502110110-->
+::'''Forth:''' Hi! We're both port workers, so we just come here to practice whenever we find the time. It's not really convenient elsewhere.
+::'''Back'n:''' We're usually really busy and can never find the time. Luckily, the port is close by, so we can squeeze in some practice. It's the kind of thing you get better at by practicing.
+::'''Forth:''' Speaking of which, Mr. Xiyan over at the Sleepless Earl is a fan of ours, so we sometimes perform a few skits at the teahouse. We don't earn much money, but the experience is priceless.
+::'''Back'n:''' We are gonna head to some bigger stages for our skits in the future. Right, my bro?
+::{{DIcon|Arrow}} You guys are gonna be stars in the future.
+::{{DIcon|Arrow}} The artist's path is long and difficult.
+::<!--Custom String Listener: TalkSentence_502110116-->
+::'''Forth:''' Then I'll have to give you an autograph while I can. Who knows how much it'll be worth in the future?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll come back next time.
+::<!--Custom String Listener: ALL_TALK_END-->
+::'''Forth:''' Alright, you must be tired after listening to us for so long. Catch you next time!
+::<!--Ends the current performance-->
+:'''Forth:''' Alright, you must be tired after listening to us for so long. Catch you next time!
+:<!--Ends the current performance-->
+:'''Forth:''' Let me show you what I can do recounting a restaurant menu. Steamed lamb, steamed lamb, steamed lamb, steamed lamb...
+:'''Back'n:''' So your shop only has one dish?
+:'''Back'n:''' Ah, here comes our esteemed audience! Are you looking for something from us, or do you want us to do another skit for you?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000081: Config/Level/NPC/W2/NPC_DefaultStory_502011001.json-->
+::'''Forth:''' ...Check out this prediction from the Divination Commission of the Xianzhou Luofu. It may be accurate, but there are rules around this stuff.
+::'''Back'n:''' Yep! As the saying goes, "the Divination Commission has three taboos"!
+::'''Forth:''' "Don't touch the board; don't touch the frame; don't touch the net."
+::'''Back'n:''' Why are you making the Divination Commission sound like a sport? They actually say, "No insincere divination, no unjust divination, and no unpracticed divination."
+::'''Forth:''' Quit your nagging. Let's just stop here and leave it up to everyone else to decide who's the real Divination Commission diviner.
+::'''Back'n:''' ...Hang on, you're a Divination Commission diviner? Wow, I had no idea.
+::'''Forth:''' If you could tell, that would give away the game.
+::'''Forth:''' I predicted a storm was coming yesterday, and just like that, a gale started blowing in the middle of the night. Isn't that proof enough that I'm a Divination Commission diviner?
+::{{DIcon|Arrow}} It's just a little wind.
+:::<!--Custom String Listener: TalkSentence_502110010-->
+:::'''Forth:''' What do you mean by "just a little wind" &mdash; it was gale force, and it kept on blowing for the whole night!
+::{{DIcon|Arrow}} How come I didn't feel any wind?
+:::<!--Custom String Listener: TalkSentence_502110012-->
+:::'''Forth:''' No wind? Do you sleep in the basement? It was gale force, and it kept on blowing for the whole night!
+::<!--Custom String Trigger: TalkSentence_502110013-->
+::<!--Custom String Listener: TalkSentence_502110013-->
+::'''Forth:''' Do you remember how there are several stone lions outside of the gates of the Seat of Divine Foresight?
+::'''Back'n:''' Yes, I even took a picture of them before: Big round eyes, roaring at the sky... they look majestic.
+::'''Forth:''' The wind last night was roaring. I was asleep, but then I heard the sounds of something being smashed over at the Seat of Divine Foresight. And when I came to Starskiff Haven this morning, gosh, a stone lion had been blown by the wind all the way to the harbor.
+::{{DIcon|Arrow}} A stone lion blown to Starskiff Haven?
+:::<!--Custom String Listener: TalkSentence_502110017-->
+:::'''Forth:''' What, you think I'm exaggerating? Go ask him if you don't believe me.
+::{{DIcon|Arrow}} How'd the lion come over with a delve in between?
+:::<!--Custom String Listener: TalkSentence_502110019-->
+:::'''Forth:''' Gah, there were gale-force winds yesterday, yes? That starskiff was also blown away, and this stone lion was carried here by the skiff.
+:::'''Forth:''' You definitely think this is a bunch of hogwash, don't you? Go ask him if you don't believe me.
+::<!--Custom String Trigger: Wait_Option_502011001_32-->
+::<!--Custom String Listener: Wait_Option_502011001_32-->
+::{{DIcon|Arrow}} You say the wind carried the stone lion all the way here?
+::<!--Custom String Listener: TalkSentence_502110022-->
+::'''Back'n:''' Nonsense! That stone lion's heavy as a boulder. How could the wind have possibly carried it to Starskiff Haven?
+::'''Forth:''' Get your story straight!
+::'''Back'n:''' Hey! I thought you said you didn't want it! Simmer down, that stone lion belongs to the Seat of Divine Foresight, so it's sentient. When it gets cold from the bellowing winds, it knows how to find a warmer place. That's why it came to Starskiff Haven.
+::{{DIcon|Arrow}} Ah, is that right?
+:::<!--Custom String Listener: TalkSentence_502110026-->
+:::'''Forth:''' Your ability to comprehend things really is incredible.
+::{{DIcon|Arrow}} It's a good story. I should use it one day.
+:::<!--Custom String Listener: TalkSentence_502110028-->
+:::'''Back'n:''' Nah, it's impossible. The whole thing's a bunch of bunk.
+::{{DIcon|Arrow}} And where is this huge lion right now?
+:::<!--Custom String Listener: TalkSentence_502110030-->
+:::'''Forth:''' *sigh* The wind has stopped, hasn't it? So it went back to the Seat of Divine Foresight to do its job.
+::<!--Custom String Trigger: TalkSentence_502110031-->
+::<!--Custom String Listener: TalkSentence_502110031-->
+::'''Back'n:''' Thanks for coming to join us. My name's Back'n &mdash; and he's Forth. We come to the harbor here to practice our crosstalk comedy. Are you looking for something from us, or do you want us to do another skit for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000082: Config/Level/NPC/W2/NPC_DefaultStory_502011004.json-->
+::'''Forth:''' Let me show you what I can do recounting a restaurant menu. Steamed lamb, steamed lamb, steamed lamb, steamed lamb...
+::'''Back'n:''' So your shop only has one dish?
+::'''Back'n:''' Ah, here comes our esteemed audience! Are you looking for something from us, or do you want us to do another skit for you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 800324602-->)
+:{{DIcon|undefined}} (Ask their permission to make recordings.)
+::<!--Trigger PerformanceD 800324602: Config/Level/Mission/8003246/Act/Act800324602.json-->
+::'''Back'n:''' Alas, looks like our audience has some other ideas today.
+::'''Forth:''' Come on, it's one thing to joke about others and a whole different thing to joke about our audience. If we do that, we'll end up becoming the joke in this business.
+::'''Back'n:''' Yeah, you laugh at your customer...
+::'''Forth:''' And you end up a bummer!
+::'''Back'n:''' You make an ill-timed joke...
+::'''Forth:''' And you'll be broke! Wait, wait, we're not making terrible jokes. We're straying from the point, so let's get back to the folks!
+::{{DIcon|Arrow}} How about I record the crosstalk improv you just had?
+:::<!--Custom String Listener: TalkSentence_813246030-->
+:::'''Back'n:''' Nah, forget it. It's terrible, not catchy at all.
+::{{DIcon|Arrow}} Can you guys give me a definite answer?
+:::<!--Custom String Listener: TalkSentence_813246032-->
+:::'''Back'n:''' Not so fast. We'll have to talk about it.
+::{{DIcon|Arrow}} Now your audience wants a "yes" answer...
+:::<!--Custom String Listener: TalkSentence_813246034-->
+:::'''Back'n:''' Don't worry. We were just improvising, and you'll get an answer from us soon.
+::<!--Custom String Trigger: TalkSentence_813246035-->
+::<!--Custom String Listener: TalkSentence_813246035-->
+::'''Back'n:''' There's still much room for our improvisation, but let's put it on hold for now. The recording thing sounds good to me, but I need my partner's opinion before making a final decision.
+::'''Forth:''' Well... I'm not sure about that...
+::'''Back'n:''' But why not? It's just doing our regular customer a favor, right? A flat-out rejection will make us seem heartless.
+::'''Forth:''' It's not like I want to reject your request outright, but Back'n and I are just crosstalk lovers. We don't have enough experience to put on a great show yet.
+::'''Back'n:''' We've put on a few decent shows, but that's all about it. To be frank, we've had fewer successful performances than the coins in my pocket.
+::'''Forth:''' I just can't guarantee that our crosstalk comedy will really attract any customers for Tall Auntie's stall in Aurum Alley.
+::'''Forth:''' Yeah, we might be older than you, but we don't have much more experience in crosstalk performance. We just don't want to leave any negative impressions on our potential audience.
+::{{DIcon|Arrow}} Why don't you guys do live performances instead?
+:::<!--Custom String Listener: TalkSentence_813246043-->
+:::'''Back'n:''' Because we simply don't have the time. We're just crosstalk lovers, and we've got work to do at the dock on work days.
+::{{DIcon|Arrow}} Don't worry. You will be generously paid.
+:::<!--Custom String Listener: TalkSentence_813246045-->
+:::'''Forth:''' Hah, do we look like we are solely motivated by money? We've got our own jobs to do.
+:::'''Back'n:''' I've known him since I was a kid, and I know him well. He gets into the crosstalk industry for fun, and he doesn't really expect us to hit it big with our performances.
+::{{DIcon|Arrow}} I think you guys are overthinking things...
+:::<!--Custom String Listener: TalkSentence_813246048-->
+:::'''Forth:''' As newcomers in this industry, we can't be too careful with our new career.
+::<!--Custom String Trigger: TalkSentence_813246049-->
+::<!--Custom String Listener: TalkSentence_813246049-->
+::'''Forth:''' Yeah, please understand our concerns and don't make things too difficult for us.
+::'''Back'n:''' Please don't bring up the recording thing again, but if you ever want to listen to our crosstalk, you're always welcome here.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800324602-->
+;(If {{cx}}<!--SubMission Started: 800324604--> and {{cx}}<!--SubMission Started: 800324602-->)
+:{{DIcon|undefined}} (Tell them Mr. Xiyan's words.)
+::<!--Trigger PerformanceE 800324604: Config/Level/Mission/8003246/Act/Act800324604.json-->
+::'''Forth:''' Hmm, yeah, he's got a point. I should've realized that sooner.
+::'''Back'n:''' It's never too late to make things right. Plus, I'd do anything for a chance to give a warm-up performance for Mr. Xiyan.
+::'''Forth:''' If I ever got a chance to do this in my dreams, I'd wake myself up from laughing so hard.
+::'''Back'n:''' Then what are we waiting for?
+::'''Forth:''' Sure thing! Let's do this!
+::{{DIcon|Arrow}} (Record Back'n & Forth's performance.)
+::<!--Custom String Listener: TalkSentence_813246083-->
+::'''Forth:''' We'll swing by Tall Auntie's stall when we're free and get some feedback from our audience.
+::'''Back'n:''' Yeah, take your time, and please convey our thanks to her.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800324604-->
+;(If {{cx}}<!--SubMission Started: 102050107-->)
+:{{DIcon}} The Hound Chases the Fox
+::<!--Trigger PerformanceD 102050107: Config/Level/Mission/1020501/Act/Act102050107.json-->
+::{{A|VO chapter2 2 mar7th 114.ogg}} '''March 7th:''' Excuse me, any chance you saw a foxian lady pass by?
+::{{A|VO chapter2 2 awang 101.ogg}} '''Forth:''' Well that's a heck of a question, miss! I'd say nearly one in every two people passing through Starskiff Haven is foxian. We might have seen the lady you're looking for, but we wouldn't have batted an eyelid.
+::{{A|VO chapter2 2 alai 101.ogg}} '''Back'n:''' He's not lying. Still, if you describe her a little, maybe it'll jog our memory.
+::{{DIcon|Arrow}} She's... foxian?
+:::<!--Custom String Listener: TalkSentence_102050706-->
+:::{{A|VO chapter2 2 awang 102.ogg}} '''Forth:''' Write that down, write that down!
+::{{DIcon|Arrow}} She's... pretty.
+:::<!--Custom String Listener: TalkSentence_102050708-->
+:::{{A|VO chapter2 2 awang 103.ogg}} '''Forth:''' "Pretty?" That's too generic for a foxian. Even if you don't count the ladies, there are plenty of gents that fit that description like a glove...
+::<!--Custom String Trigger: TalkSentence_102050709-->
+::<!--Custom String Listener: TalkSentence_102050709-->
+::{{A|VO chapter2 2 alai 102.ogg}} '''Back'n:''' As tedious as it is, I'm afraid you'll have to describe her in more detail. Please don't say "two ears, one tail."
+::{{DIcon|Arrow}} (Show Tingyun's photo.)
+::<!--Custom String Listener: TalkSentence_102050711-->
+::{{A|VO chapter2 2 awang 104.ogg}} '''Forth:''' ...I can put my hand on my heart and say I remember this fine lady.
+::{{A|VO chapter2 2 alai 103.ogg}} '''Back'n:''' Nonsense. I've been stood next to you this whole time and I don't remember anyone like her.
+::{{A|VO chapter2 2 awang 105.ogg}} '''Forth:''' Well, I may not have seen her in person, but her beauty feels like a long-lost acquaintance... How wonderful to be reunited with her after so long!
+::{{A|VO chapter2 2 alai 104 m.ogg}} {{A|VO chapter2 2 alai 104 f.ogg}} '''Back'n:''' Oh dear. I'm sorry, my friend here appears to have lost touch with reality.
+::{{A|VO chapter2 2 mar7th 115.ogg}} '''March 7th:''' Are you two professional time-wasters or something?
+::{{A|VO chapter2 2 awang 106.ogg}} '''Forth:''' Please accept our apologies! Me and my partner do double act comedy in the Sleepless Earl &mdash; the teahouse round the corner. As you can probably guess, with all these curfews and lockdowns, we've hardly had an audience the past few days. We figured we'd find a spot on the street and do some rehearsal &mdash; just to stop us getting rusty.
+::{{A|VO chapter2 2 alai 105.ogg}} '''Back'n:''' Then you guys swung by asking for this foxian lady, so we thought we'd give you a bit of improv &mdash; free of charge I might add.
+::{{A|VO chapter2 2 awang 107.ogg}} '''Forth:''' Stay calm, stay calm! I did see the girl you're looking for. She took a turn from here into Starwatcher Avenue. I'd suggest you head over that way &mdash; she might still be there.
+::{{A|VO chapter2 2 mar7th 116.ogg}} '''March 7th:''' I find it hard to trust anything you've just said...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_102050107_01-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{cx}}<!--SubMission Started: 102050107-->)
+:{{DIcon|Talk}} Do you know the inside story about what happened to the Ambrosial Arbor?
+::<!--Trigger PerformanceE 90000132: Config/Level/NPCDialogue/P10202/NPCAct/Act90000132.json-->
+::'''Forth:''' Huh? Hold on, {{MC|f=miss|m=mister}}. Are you making fun of us?
+::'''Back'n:''' It isn't very nice of you to do that. Others may not know it, but we have long seen &mdash; uhm &mdash; the gorgeous foxian girl you came to look for earlier.
+::'''Forth:''' Oh, that's Miss Tingyun. She's not just anyone. She's the Sky-Faring Commission Amicassador.
+::'''Back'n:''' If there were any inside stories, you and Miss Tingyun would know it better than anyone else.
+::'''Forth:''' You can tell us a little about it if it's fine with you. Don't worry about us leaking the secret! We'll stay tight-lipped!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000132-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{cx}}<!--SubMission Started: 102050107-->)
+:{{DIcon|Talk}} About the Aurum Alley crosstalk comedy recording...
+::<!--Trigger PerformanceE 90000133: Config/Level/NPCDialogue/P10202/NPCAct/Act90000133.json-->
+::'''Forth:''' Ah, yes. We haven't thanked you properly for that.
+::'''Back'n:''' We weren't any good as crosstalk comedians, so we only recorded our performance for fun.
+::'''Forth:''' As it turns out, people love it! Many have come these days to enjoy our performance and told us they found out about us through Tall Auntie.
+::'''Back'n:''' If things go on at this rate, we'll soon be able to turn pro and be one of the mainstream crosstalk comedians!
+::'''Forth:''' Back'n, I think you're getting a little carried away.
+::'''Back'n:''' Am I? Hee-hee, I'm sorry about that.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000133-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{cx}}<!--SubMission Started: 102050107-->)
+:{{DIcon}} Alright, give me another skit worth my penny.
+::'''Forth:''' I can give something worth a bit more than that.
+::<!--Custom String Trigger: Wait_Option_502011002_55-->
+::<!--Custom String Listener: Wait_Option_502011002_55-->
+::{{DIcon|Talk}} I'd like to hear another skit.
+:::<!--Custom String Listener: TalkSentence_502110103-->
+:::'''Forth:''' You can't talk about Starskiff Haven without mentioning the Palace of Astrum, and you can't talk about the Palace of Astrum without mentioning Madam Yukong.
+:::'''Back'n:''' I once saw Madam Yukong with her Cloudkite Resplendent Longbow, shooting with tremendous accuracy from a hundred feet away. Truly a sight to&mdash;
+:::'''Forth:''' Hang on, "a hundred feet"? Are you saying if I stood 101 feet away, I could just pluck her arrows out of the air?
+:::'''Back'n:''' It's a figure of speech. Generally speaking, Madam Yukong's arrows are a threat from even 5000 feet.
+:::'''Forth:''' So you're saying if I stood 5001 feet away, I could catch her arrows.
+:::'''Back'n:''' *Xianzhou profanity* &mdash; why do you have to catch her arrows???
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you guys practicing your crosstalk here?
+:::<!--Custom String Listener: TalkSentence_502110110-->
+:::'''Forth:''' Hi! We're both port workers, so we just come here to practice whenever we find the time. It's not really convenient elsewhere.
+:::'''Back'n:''' We're usually really busy and can never find the time. Luckily, the port is close by, so we can squeeze in some practice. It's the kind of thing you get better at by practicing.
+:::'''Forth:''' Speaking of which, Mr. Xiyan over at the Sleepless Earl is a fan of ours, so we sometimes perform a few skits at the teahouse. We don't earn much money, but the experience is priceless.
+:::'''Back'n:''' We are gonna head to some bigger stages for our skits in the future. Right, my bro?
+:::{{DIcon|Arrow}} You guys are gonna be stars in the future.
+:::{{DIcon|Arrow}} The artist's path is long and difficult.
+:::<!--Custom String Listener: TalkSentence_502110116-->
+:::'''Forth:''' Then I'll have to give you an autograph while I can. Who knows how much it'll be worth in the future?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll come back next time.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::'''Forth:''' Alright, you must be tired after listening to us for so long. Catch you next time!
+:::<!--Ends the current performance-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{cx}}<!--SubMission Started: 102050107-->)
+:{{DIcon|Exit}} I'll come back next time.
+::'''Forth:''' Alright, you must be tired after listening to us for so long. Catch you next time!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Forth
+|zhs  = 阿往
+|zht  = 阿往
+|ja   = 往
+|ko   = 가리
+|es   = Parallá
+|fr   = Retour
+|ru   = Толкай
+|th   = Forth
+|vi   = Forth
+|de   = Hin
+|id   = Dut
+|pt   = Volta
+}}
+==Change History==
+{{Change History|TODO}}

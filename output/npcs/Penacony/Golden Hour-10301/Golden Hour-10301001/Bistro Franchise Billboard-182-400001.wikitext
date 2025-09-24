@@ -1,0 +1,138 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bistro Franchise Billboard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Bistro Franchise Billboard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Bistro Franchise Billboard''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_182_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503034011: Config/Level/Mission/5030340/Act/Act503034011.json-->
+::'''Bistro Franchise Billboard:''' Hey, how's it going?
+::{{DIcon|Arrow}} I haven't eaten.
+:::<!--Custom String Listener: TalkSentence_503034103-->
+:::'''Bistro Franchise Billboard:''' You haven't eaten? Come to Yuluxe's Culinary Chain! You'll be full and satisfied.
+::{{DIcon|Arrow}} I have eaten.
+:::<!--Custom String Listener: TalkSentence_503034105-->
+:::'''Bistro Franchise Billboard:''' You have eaten? Come to Yuluxe's Culinary Chain anyway! Our food will make you want more.
+::{{DIcon|Arrow}} No one gets hungry in a dream...
+:::<!--Custom String Listener: TalkSentence_503034107-->
+:::'''Bistro Franchise Billboard:''' You aren't hungry? Come to Yuluxe's Culinary Chain anyway! We'll build your dreamland with our yummy treats.
+:::<!--Custom String Trigger: Talk_454010201-->
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503034012: Config/Level/Mission/5030340/Act/Act503034012.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034111,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034112,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034113,
+					"ProtectTime": 0.3
+				}
+			]
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_454010201-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bistro Franchise Billboard
+|zhs  = 餐饮连锁广告牌
+|zht  = 餐飲連鎖看板
+|ja   = レストランチェーンの看板
+|ko   = 요식업 체인점 광고판
+|es   = Anuncio de cadena de restaurantes
+|fr   = Publicité pour une franchise de bistro
+|ru   = Реклама сети бистро
+|th   = ป้ายโฆษณาอาหารและเครื่องดื่ม
+|vi   = Bảng Quảng Cáo Chuỗi Nhà Hàng Nhượng Quyền
+|de   = Werbetafel für Bistro-Franchise
+|id   = Papan Iklan Restoran Waralaba
+|pt   = Painel Publicitário de Franquia Bistrô
+}}
+==Change History==
+{{Change History|TODO}}

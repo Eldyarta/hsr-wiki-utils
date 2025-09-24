@@ -1,0 +1,332 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yuluo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Alchemy Commission Chief Alchemist
+|image           = NPC Yuluo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Yuluo''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_79_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502049101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502049101.json-->
+::'''Yuluo:''' What in the world is going on? Why are things in such a mess?
+::'''Yuluo:''' I didn't even get to meet anyone I knew when I got back, and I just got promoted to chief alchemist all of a sudden. *Sigh*...
+::{{DIcon|Arrow}} Congratulations!
+:::<!--Custom String Listener: TalkSentence_502049105-->
+:::'''Yuluo:''' Thanks... *Sigh*...
+::{{DIcon|Arrow}} What exactly is going on?
+:::<!--Custom String Listener: TalkSentence_502049107-->
+:::'''Yuluo:''' ...Are you asking me? I&mdash;I have no idea too!
+:::'''Yuluo:''' Hang on. Forget what I said.
+::<!--Custom String Trigger: TalkSentence_502049109-->
+::<!--Custom String Listener: TalkSentence_502049109-->
+::'''Yuluo:''' Hey, what brings you here?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502049201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502049201.json-->
+::'''Yuluo:''' I didn't even get to meet anyone I knew when I got back, and I just got promoted to chief alchemist all of a sudden. *Sigh*...
+::'''Yuluo:''' Ah, it's you again. Anything new with the Alchemy Commission?
+::{{DIcon|Arrow}} Why are you asking me? Aren't you the chief alchemist?
+:::<!--Custom String Listener: T502049204-->
+:::'''Yuluo:''' So what? I only received my appointment notice suddenly on my way back. I still can't make heads or tails of the situation here. *Sigh*...
+::{{DIcon|Arrow}} Um, I was just passing by.
+:::<!--Custom String Listener: T502049206-->
+:::'''Yuluo:''' That's better than me. Since I've just gotten back, I know little about the Alchemy Commission's affairs, let alone the latest happenings on the Luofu.
+::<!--Custom String Trigger: end201-->
+::<!--Custom String Listener: end201-->
+::'''Yuluo:''' Now, what can I do for you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404025001-->)
+:{{DIcon|?}} Do you need to retrieve any books?
+::<!--Trigger PerformanceD 404025001: Config/Level/Mission/4040250/Act/Act404025001.json-->
+:;(If {{cx}}<!--SubMission Finish: 202020104-->)
+:::'''Yuluo:''' Oh, aren't you the one who asked for the ''Compendium of Remedies'' last time? I helped you last time, so could you do me a favor in return?
+:::<!--Custom String Trigger: TalkSentence_414250007-->
+:;(If {{cx}}<!--SubMission not Finish: 202020104-->)
+:::'''Yuluo:''' ...Well, some books have gone missing from the Alchemy Commission, and, well, they're essentially some very troublesome texts. That, and Lady Dan Shu hasn't left me any clues. How am I supposed to get them back?...
+:::'''Yuluo:''' ...Ah, I forgot again. I shouldn't call her "Lady" now. So, what brings you here?
+:::{{DIcon|Arrow}} Is there anything I can help with?
+::<!--Custom String Listener: TalkSentence_414250007-->
+::'''Yuluo:''' Please forgive me for this awkward situation. Actually, in addition to medical texts, we also keep some "forbidden tomes" here in the Alchemy Commission. They are supposed to be carefully preserved, but now they've been stolen.
+::'''Yuluo:''' I guess the theft has something to do with the Disciples of Sanctus Medicus as well. I've asked the Seat of Divine Foresight, but they haven't found any clues about the forbidden tomes. It's turning into a real headache for me.
+::'''Yuluo:''' Oh, by your astonished expression, I can tell that you actually want to say "Come on! Has the Alchemy Commission ever done anything right!?" Well, now you see how perilous my position as the chief alchemist is.
+::<!--Custom String Trigger: Wait_Option_404025001_23-->
+::<!--Custom String Listener: Wait_Option_404025001_23-->
+::{{DIcon|Talk}} Why is the Alchemy Commission keeping those forbidden tomes?
+:::<!--Custom String Listener: TalkSentence_414250011-->
+:::'''Yuluo:''' Because these tomes are also medical texts &mdash; in a sense, they themselves are a treatment method. Just by reading them, patients will experience miraculous things.
+:::'''Yuluo:''' For example, some patients who read the "Cure for Insomnia" fall asleep for a long time, while others who read "Fight Sleepiness" never fall asleep again...
+:::{{DIcon|Arrow}} Aren't they super dangerous?
+::::<!--Custom String Listener: TalkSentence_414250014-->
+::::'''Yuluo:''' As long as you don't understand their contents, they should be safe.
+::::<!--Custom String Trigger: TalkSentence_414250020-->
+::::<!--Custom String Listener: TalkSentence_414250020-->
+::::'''Yuluo:''' There is a certain "reading barrier" for those forbidden tomes, so they are completely harmless to the majority of people.
+::::'''Yuluo:''' However, if they fall into the hands of someone who is skilled at deciphering them... it pains me to imagine the terrible things that could happen. They must be retrieved as soon as possible.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You should destroy such dangerous books before it's too late...
+::::<!--Custom String Listener: TalkSentence_414250016-->
+::::'''Yuluo:''' Some healers in the Alchemy Commission also advocate for the destruction of the forbidden tomes just like you... but in my opinion, since those tomes have medicinal value, they can be really helpful if they end up in the right hands.
+::::<!--Custom String Trigger: TalkSentence_414250020-->
+::::<!--Custom String Listener: TalkSentence_414250020-->
+::::'''Yuluo:''' There is a certain "reading barrier" for those forbidden tomes, so they are completely harmless to the majority of people.
+::::'''Yuluo:''' However, if they fall into the hands of someone who is skilled at deciphering them... it pains me to imagine the terrible things that could happen. They must be retrieved as soon as possible.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Sounds like the Curios in the space station, don't you agree?
+::::<!--Custom String Listener: TalkSentence_414250018-->
+::::'''Yuluo:''' You mean the one from the Genius Society? Yeah, I heard she's got some unusual collectibles on her space station.
+::::'''Yuluo:''' ...In a way, the Alchemy Commission is doing the same thing, but we're more specialized in the field of medicine.
+::::<!--Custom String Trigger: TalkSentence_414250020-->
+::::<!--Custom String Listener: TalkSentence_414250020-->
+::::'''Yuluo:''' There is a certain "reading barrier" for those forbidden tomes, so they are completely harmless to the majority of people.
+::::'''Yuluo:''' However, if they fall into the hands of someone who is skilled at deciphering them... it pains me to imagine the terrible things that could happen. They must be retrieved as soon as possible.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is it okay to spill your secrets like this?
+:::<!--Custom String Listener: TalkSentence_414250023-->
+:::'''Yuluo:''' Don't worry. A lot of members in the Alchemy Commission know about the forbidden tomes, and some of them have a reputation for having loose lips.
+:::'''Yuluo:''' Retrieving these tomes won't be easy if we rely solely on our own intelligence network. That's why I need your help with this. After all, it is Madam Qingzu from the Seat of Divine Foresight who recommended you to me.
+:::'''Yuluo:''' Since I need your help, it's my duty to tell you everything I know about this issue, otherwise it'd be a hassle, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I can't guarantee that I'll find them...
+:::<!--Custom String Listener: TalkSentence_414250027-->
+:::'''Yuluo:''' Don't worry. I understand how tough this task is, and I'm not expecting you to bring them back anytime soon. We have no clue what Lady Dan Shu or the Disciples of Sanctus Medicus did, after all.
+:::<!--Custom String Trigger: TalkSentence_414250030-->
+:::<!--Custom String Listener: TalkSentence_414250030-->
+:::'''Yuluo:''' So, you need to retrieve these three scrolls: The ''Manuscript of Wisdom'', the ''Manuscript of Silence'', and the ''Manuscript of Delirium''. While I don't have many leads on them, I'll do my best to answer any questions you might have.
+:::<!--Custom String Trigger: Wait_Option_404025001_48-->
+:::<!--Custom String Listener: Wait_Option_404025001_48-->
+:::{{DIcon|Talk}} The ''Manuscript of Wisdom''?
+::::<!--Custom String Listener: TalkSentence_414250032-->
+::::'''Yuluo:''' Once, an illiterate person read this book and suddenly became incredibly intelligent. Although they weren't on par with the members of the Genius Society, they became way smarter than ordinary people.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The ''Manuscript of Silence''?
+::::<!--Custom String Listener: TalkSentence_414250034-->
+::::'''Yuluo:''' Once, a blind person read this book and claimed that they could hear the Sound of Silence, although no one knows exactly where such Sound of Silence comes from.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The ''Manuscript of Delirium''?
+::::<!--Custom String Listener: TalkSentence_414250036-->
+::::'''Yuluo:''' Once, a reckless person tried to read this book, but as soon as they opened it, they started convulsing and then passed out.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I see. I'll come back to you once I find them all.
+::::<!--Custom String Listener: TalkSentence_414250038-->
+::::'''Yuluo:''' I leave it in your capable hands.
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} I see. I'll handle it.
+:::<!--Custom String Listener: TalkSentence_414250029-->
+:::'''Yuluo:''' Awesome! I wasn't sure if you'd help me when Madam Qingzu recommended you, but now I can see that she was right to have faith in you!
+:::<!--Custom String Trigger: TalkSentence_414250030-->
+:::<!--Custom String Listener: TalkSentence_414250030-->
+:::'''Yuluo:''' So, you need to retrieve these three scrolls: The ''Manuscript of Wisdom'', the ''Manuscript of Silence'', and the ''Manuscript of Delirium''. While I don't have many leads on them, I'll do my best to answer any questions you might have.
+:::<!--Custom String Trigger: Wait_Option_404025001_48-->
+:::<!--Custom String Listener: Wait_Option_404025001_48-->
+:::{{DIcon|Talk}} The ''Manuscript of Wisdom''?
+::::<!--Custom String Listener: TalkSentence_414250032-->
+::::'''Yuluo:''' Once, an illiterate person read this book and suddenly became incredibly intelligent. Although they weren't on par with the members of the Genius Society, they became way smarter than ordinary people.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The ''Manuscript of Silence''?
+::::<!--Custom String Listener: TalkSentence_414250034-->
+::::'''Yuluo:''' Once, a blind person read this book and claimed that they could hear the Sound of Silence, although no one knows exactly where such Sound of Silence comes from.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The ''Manuscript of Delirium''?
+::::<!--Custom String Listener: TalkSentence_414250036-->
+::::'''Yuluo:''' Once, a reckless person tried to read this book, but as soon as they opened it, they started convulsing and then passed out.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I see. I'll come back to you once I find them all.
+::::<!--Custom String Listener: TalkSentence_414250038-->
+::::'''Yuluo:''' I leave it in your capable hands.
+::::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404025001-->
+;(If {{cx}}<!--SubMission Started: 404025102-->)
+:{{DIcon|?}} I'm here to return the forbidden tomes.
+:;(If {{cx}}<!--Hidden Mission ID 4040252--> has been completed and {{cx}}<!--Hidden Mission ID 4040253--> has been completed)
+:::<!--Trigger PerformanceE 404025401: Config/Level/Mission/4040254/Act/Act404025401.json-->
+:;(If {{cx}}<!--Hidden Mission ID 4040252--> has not been completed and {{cx}}<!--Hidden Mission ID 4040253--> has not been completed)
+:::<!--Trigger PerformanceE 404025102: Config/Level/Mission/4040251/Act/Act404025102.json-->
+;(If {{cx}}<!--SubMission Started: 404025202-->)
+:{{DIcon|?}} I'm here to return the forbidden tomes.
+:;(If {{cx}}<!--Hidden Mission ID 4040251--> has been completed and {{cx}}<!--Hidden Mission ID 4040253--> has been completed)
+:::<!--Trigger PerformanceE 404025402: Config/Level/Mission/4040254/Act/Act404025402.json-->
+:;(If {{cx}}<!--Hidden Mission ID 4040251--> has not been completed and {{cx}}<!--Hidden Mission ID 4040253--> has not been completed)
+:::<!--Trigger PerformanceE 404025202: Config/Level/Mission/4040252/Act/Act404025202.json-->
+;(If {{cx}}<!--SubMission Started: 404025303-->)
+:{{DIcon|?}} I'm here to return the forbidden tomes.
+:;(If {{cx}}<!--Hidden Mission ID 4040251--> has been completed and {{cx}}<!--Hidden Mission ID 4040252--> has been completed)
+:::<!--Trigger PerformanceE 404025403: Config/Level/Mission/4040254/Act/Act404025403.json-->
+:;(If {{cx}}<!--Hidden Mission ID 4040251--> has not been completed and {{cx}}<!--Hidden Mission ID 4040252--> has not been completed)
+:::<!--Trigger PerformanceE 404025303: Config/Level/Mission/4040253/Act/Act404025303.json-->
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502049102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502049102.json-->
+::'''Yuluo:''' Just so you know, I've only been back for a short while, and I'm not very familiar with things around here in Luofu. If you want to ask for directions or about the latest happenings, I might not be very helpful, just so you know.
+::<!--Custom String Trigger: Wait_Option_502049102_289-->
+::<!--Custom String Listener: Wait_Option_502049102_289-->
+::{{DIcon|Talk}} I heard that the remnants of the Disciples of Sanctus Medicus are causing trouble here.
+:::<!--Custom String Listener: TalkSentence_502049113-->
+:::'''Yuluo:''' Oh, I heard about that on my way back. I'm surprised you know about it too.
+:::'''Yuluo:''' It seems to be true. The Cloud Knights have sealed off some areas and are hunting them down.
+:::'''Yuluo:''' Still, I have no idea about the details...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did you become the chief alchemist?
+:::<!--Custom String Listener: TalkSentence_502049117-->
+:::'''Yuluo:''' I have no clue. I was participating in a medical conference outside the Luofu when I was suddenly notified of the promotion via a message.
+:::'''Yuluo:''' I left the conference halfway and quickly packed my bags. When I got back, not a single soul was there to arrange the handover.
+:::'''Yuluo:''' I was told that something huge had happened, and the Cloud Knights were doing an investigation, so everything had to be put off. So, I'm left here, clueless.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have the lowdown on the situation?
+:::<!--Custom String Listener: TalkSentence_502049121-->
+:::'''Yuluo:''' Huh? Lowdown? What happened again? How come I didn't hear anything?
+:::'''Yuluo:''' What on earth happened? *Sob* Why has no one told me about it? If you find anything, please share it with me as well.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How come you don't know anything?
+:::<!--Custom String Listener: TalkSentence_502049124-->
+:::'''Yuluo:''' How should I know!? I really don't know anything!
+:::'''Yuluo:''' I wasn't even away for that long! Why do I feel like the whole world has changed? Is this still the Alchemy Commission I know? What happened...?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Forget it. I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502049127-->
+:::'''Yuluo:''' About Lady Dan Shu... Life truly is unpredictable...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502049102-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} How's your life as the chief alchemist?
+::<!--Trigger PerformanceE 502049301: Config/Level/NPCDialogue/P10202/NPCAct/Act502049301.json-->
+::'''Yuluo:''' I'm more familiar with the job now, but I still don't think I can handle it. I'm just not cut out to be a leader.
+::'''Yuluo:''' Ugh, I just can't take it. I spend every day thinking about how to escape to another planet...
+::'''Yuluo:''' But I can't do it. As you know, the public image of the Alchemy Commission has been greatly undermined after what took place previously. I know most healers and alchemists aren't cultists, and they need my support.
+::'''Yuluo:''' Although the future is challenging, the Alchemy Commission will regain the people's trust.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502049301-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Forget it. I don't have any more questions.
+::'''Yuluo:''' About Lady Dan Shu... Life truly is unpredictable...
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_414251056)
+:<!--Custom String Listener: TalkSentence_414251056-->
+::You return the ''Manuscript of Wisdom'' and explain how you've retrieved it.
+::'''Yuluo:''' Looks like the ''Manuscript of Wisdom'' is quite dangerous indeed. Thankfully, it hasn't caused any severe consequences so far.
+::'''Yuluo:''' Perhaps this ''Manuscript of Wisdom'' is not meant for humans, but rather to break the bans of ingenia... As you know, all ingenium creations have been deprived of their wisdom after the Aurum Rebellion.
+::'''Yuluo:''' If this is the case... we were really lucky that it didn't cause any disasters while it was in the wrong hands.
+::'''Yuluo:''' Thanks to your help, all the lost forbidden tomes have been safely returned without causing any calamities.
+::'''Yuluo:''' Madam Qingzu was right to have faith in you. Without your help, it would have taken me forever to find these lost manuscripts...
+::'''Yuluo:''' Here's your hard-earned payment. I might need your help again in the future. See you then.
+
+:<!--Custom String Listener: TalkSentence_414251056-->
+::You return the ''Manuscript of Wisdom'' and explain how you've retrieved it.
+::'''Yuluo:''' Looks like the ''Manuscript of Wisdom'' is quite dangerous indeed. Thankfully, it hasn't caused any severe consequences so far.
+::'''Yuluo:''' Perhaps this ''Manuscript of Wisdom'' is not meant for humans, but rather to break the bans of ingenia... As you know, all ingenium creations have been deprived of their wisdom after the Aurum Rebellion.
+::'''Yuluo:''' If this is the case... we were really lucky that it didn't cause any disasters while it was in the wrong hands.
+;(Unused &mdash; ActNotFinish_404025102)
+:<!--Custom String Listener: ActNotFinish_404025102-->
+::<!--Ends the current performance-->
+
+:<!--Custom String Listener: ActNotFinish_404025102-->
+::<!--Ends the current performance-->
+;(Unused &mdash; ActNotFinish_404025202)
+:<!--Custom String Listener: ActNotFinish_404025202-->
+::<!--Ends the current performance-->
+
+:<!--Custom String Listener: ActNotFinish_404025202-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_414252039)
+:<!--Custom String Listener: TalkSentence_414252039-->
+::You return the ''Manuscript of Silence'' and explain how you've retrieved it.
+::'''Yuluo:''' I know you're worried that Lady Dan Shu might try to possess Xiaoyu's body or something, but please rest assured. My investigation suggests otherwise.
+::'''Yuluo:''' Based on what we've found together... I suspect it was forbidden because this tome's user would subconsciously project emotions onto it and even personify it.
+::'''Yuluo:''' The ''Manuscript of Silence'' always chooses those who listen carefully as its target and uses their unusually sharp auditory sense to create a virtual world and confuse their sensations.
+::'''Yuluo:''' Of course, this is detrimental to their mental health, and will have an impact on their social life... That's why the ''Manuscript of Silence'' is listed as one of the forbidden tomes.
+::'''Yuluo:''' So, don't worry. Lady Dan Shu has been gone for a long time, and Xiaoyu is just an innocent girl who misses her too much.
+::'''Yuluo:''' What Lady Dan Shu did was indeed outrageous, but her concern for Xiaoyu was genuine. Living beings can be so complex, right?
+::'''Yuluo:''' Thanks to your help, all the lost forbidden tomes have been safely returned without causing any calamities.
+::'''Yuluo:''' Madam Qingzu was right to have faith in you. Without your help, it would have taken me forever to find these lost manuscripts...
+::'''Yuluo:''' Here's your hard-earned payment. I might need your help again in the future. See you then.
+
+:<!--Custom String Listener: TalkSentence_414252039-->
+::You return the ''Manuscript of Silence'' and explain how you've retrieved it.
+::'''Yuluo:''' I know you're worried that Lady Dan Shu might try to possess Xiaoyu's body or something, but please rest assured. My investigation suggests otherwise.
+::'''Yuluo:''' Based on what we've found together... I suspect it was forbidden because this tome's user would subconsciously project emotions onto it and even personify it.
+::'''Yuluo:''' The ''Manuscript of Silence'' always chooses those who listen carefully as its target and uses their unusually sharp auditory sense to create a virtual world and confuse their sensations.
+::'''Yuluo:''' Of course, this is detrimental to their mental health, and will have an impact on their social life... That's why the ''Manuscript of Silence'' is listed as one of the forbidden tomes.
+::'''Yuluo:''' So, don't worry. Lady Dan Shu has been gone for a long time, and Xiaoyu is just an innocent girl who misses her too much.
+::'''Yuluo:''' What Lady Dan Shu did was indeed outrageous, but her concern for Xiaoyu was genuine. Living beings can be so complex, right?
+;(Unused &mdash; ActNotFinish_404025303)
+:<!--Custom String Listener: ActNotFinish_404025303-->
+::<!--Ends the current performance-->
+
+:<!--Custom String Listener: ActNotFinish_404025303-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_414253036)
+:<!--Custom String Listener: TalkSentence_414253036-->
+::You return the ''Manuscript of Delirium'' and explain how you've retrieved it.
+::'''Yuluo:''' So it was stolen by those interns... You know, I was wondering why Lady Dan Shu's remnants would steal this book, because they should be well aware that this book is totally worthless.
+::'''Yuluo:''' This book actually contains a lot of prescriptions that shouldn't be made public. The author added some little gadgets to prevent its secrets from being leaked. I believe you were knocked out by an electric current, right?
+::'''Yuluo:''' "Once an unauthorized reader opens this book, it will release a powerful electric shock and knock them out..."
+::'''Yuluo:''' At least, this is what I've heard. As for "transplanting memories," that's simply too wild to be true. It's impossible without the help of the Garden of Recollection... Wait, what if they're really involved?
+::'''Yuluo:''' Well, anyway, these horror legends will keep young people with unwanted curiosity about the forbidden tomes at bay.
+::'''Yuluo:''' Thanks to your help, all the lost forbidden tomes have been safely returned without causing any calamities.
+::'''Yuluo:''' Madam Qingzu was right to have faith in you. Without your help, it would have taken me forever to find these lost manuscripts...
+::'''Yuluo:''' Here's your hard-earned payment. I might need your help again in the future. See you then.
+
+:<!--Custom String Listener: TalkSentence_414253036-->
+::You return the ''Manuscript of Delirium'' and explain how you've retrieved it.
+::'''Yuluo:''' So it was stolen by those interns... You know, I was wondering why Lady Dan Shu's remnants would steal this book, because they should be well aware that this book is totally worthless.
+::'''Yuluo:''' This book actually contains a lot of prescriptions that shouldn't be made public. The author added some little gadgets to prevent its secrets from being leaked. I believe you were knocked out by an electric current, right?
+::'''Yuluo:''' "Once an unauthorized reader opens this book, it will release a powerful electric shock and knock them out..."
+::'''Yuluo:''' At least, this is what I've heard. As for "transplanting memories," that's simply too wild to be true. It's impossible without the help of the Garden of Recollection... Wait, what if they're really involved?
+::'''Yuluo:''' Well, anyway, these horror legends will keep young people with unwanted curiosity about the forbidden tomes at bay.
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yuluo
+|zhs  = 玉络
+|zht  = 玉絡
+|ja   = 玉絡
+|ko   = 옥란
+|es   = Yuluo
+|fr   = Yuluo
+|ru   = Юйло
+|th   = Yuluo
+|vi   = Yuluo
+|de   = Yuluo
+|id   = Yuluo
+|pt   = Yuluo
+}}
+==Change History==
+{{Change History|TODO}}

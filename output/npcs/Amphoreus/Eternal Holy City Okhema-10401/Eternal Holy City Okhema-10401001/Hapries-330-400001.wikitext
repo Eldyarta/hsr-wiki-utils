@@ -1,0 +1,114 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hapries#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Strange Merchant
+|image           = NPC Hapries.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Hapries''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_330_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504023001: Config/Level/Mission/5040230/Act/Act504023001.json-->
+::Before he even opens his mouth, you already catch a wonderful scent coming off him &mdash; like a combination of frankincense and myrrh.
+::'''Hapries:''' Yo, excuse me. Did you just smell this treasure in my bag?
+::'''Hapries:''' It's a long story... But if you're down to listen, then I'm keen to tell it.
+::{{DIcon|Arrow}} Tell me a story before selling me something. The oldest trick in the book.
+:::<!--Custom String Listener: TalkSentence_504023006-->
+:::'''Hapries:''' Oh, I can tell you know the business well. Well then I, Hapries, have really put my foot in it.
+:::'''Hapries:''' This stuff in my bag is the long-lost Silphion Soap. Its raw material, Silphion, grows in the mountains just outside the suburbs of our home. Due to the black tide, it's a spice that can never be harvested ever again.
+:::'''Hapries:''' Back in my hometown, people always say Silphion was planted by {{Rubi|Cerces|Reason Titan}}, and that it only grows in the mountains.
+:::'''Hapries:''' As you've just experienced, soaps made from this plant have a rich diffused scent and lengthy aftertaste. Long-term use is also good for your skincare regime, too!
+:::'''Hapries:''' What do you say... If you're interested, we can find some place quiet to inspect the wares... There are too many people around here, and I'm worried about getting mugged.
+::{{DIcon|Arrow}} What if I say I don't wanna listen to it?
+:::<!--Custom String Listener: TalkSentence_504023012-->
+:::'''Hapries:''' Well, if you're not interested in stories, we just find some place quiet to inspect the wares... Silphion soap is a precious commodity and there's lots of people around here. I'm worried we might get mugged.
+::<!--Custom String Trigger: Wait_Option_504023001_20-->
+::<!--Custom String Listener: Wait_Option_504023001_20-->
+::{{DIcon|Arrow}} ..."Some place quiet"?
+:::<!--Custom String Listener: TalkSentence_504023014-->
+:::'''Hapries:''' Uh... What's up?
+:::{{DIcon|Arrow}} All you're missing is the word "Scammer" written across your forehead.
+::::<!--Custom String Listener: TalkSentence_504023016-->
+::::'''Hapries:''' Uh, was it that obvious?
+::::<!--Custom String Trigger: TalkSentence_504023020-->
+:::{{DIcon|Arrow}} Even Mr. Cold Feet can spin a better tale than you.
+::::<!--Custom String Listener: TalkSentence_504023018-->
+::::'''Hapries:''' ...? Mr. Cold Feet... Is that supposed to be a famous hustler?
+::::<!--Custom String Trigger: TalkSentence_504023020-->
+:::{{DIcon|Arrow}} Bro, these kinds of blackmail scams are really out of fashion these days.
+:::<!--Custom String Listener: TalkSentence_504023020-->
+:::'''Hapries:''' ...No no, what I mean is I've never thought of cheating or scamming people about anything before!
+:::'''Hapries:''' So, what I mean is I only just got here, too. I used to be a real homebody and couldn't find a way to earn a crust in Okhema, so I learned this trick from their teleslate...
+:::'''Hapries:''' ...Pfft! What am I doing just spilling the beans like that? Well then, how about this...
+:::'''Hapries:''' Take these Balance Coins, and I'll never claim that what I'm selling is Silphion soap ever again... But it's still fine to claim that it's top-notch pre-black tide soap! Homemade by my own mom in the backyard! Now she's passed, this really became something you can never get again, y'know!
+:::'''Hapries:''' ...
+:::'''Hapries:''' What am I saying all this stupid stuff for?
+:::'''Hapries:''' Whatever. Pretend you never saw that &mdash; the deal didn't work out, but the friendship remains. If you want to ask more about spices later, it would be beyond great if you could keep humble Hapries from the Marmoreal Market in your thoughts.
+::{{DIcon|Exit}} No thanks, not interested.
+:::<!--Custom String Listener: TalkSentence_504023028-->
+:::'''Hapries:''' I see...
+:::'''Hapries:''' It's fine, the deal might not have worked out but the friendship remains! If you want to ask more about spices later, it would be beyond great if you could keep humble Hapries from the Marmoreal Market in your thoughts. Heehee...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504023002: Config/Level/Mission/5040230/Act/Act504023002.json-->
+::'''Hapries:''' The deal didn't work out, but our friendship prevails! I don't know much about other things, but I do know my spices and my soaps...
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hapries
+|zhs  = 阿普里斯
+|zht  = 阿普里斯
+|ja   = アプリエス
+|ko   = 하프리스
+|es   = Aprus
+|fr   = Hapriés
+|ru   = Априс
+|th   = Hapries
+|vi   = Hapries
+|de   = Hapries
+|id   = Hapries
+|pt   = Hapries
+}}
+==Change History==
+{{Change History|TODO}}

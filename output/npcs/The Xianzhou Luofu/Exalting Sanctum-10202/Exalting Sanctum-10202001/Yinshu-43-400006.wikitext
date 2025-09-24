@@ -1,0 +1,207 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yinshu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Shopkeeping Kid
+|image           = NPC Yinshu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Yinshu''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400006}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502016101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502016101.json-->
+::'''Yinshu:''' ...This is a bookstore. If you want to read or pick out a book, just go in and browse around. Call me when you want to pay.
+::{{DIcon|Arrow}} Got anything you can recommend?
+:::<!--Custom String Listener: TalkSentence_502016103-->
+:::'''Yinshu:''' I don't really read that much, so I can't really recommend anything... Well, the front of the shop is where we keep our bestsellers. There's gotta be a reason why they're bestsellers. Why not start there?
+:::'''Yinshu:''' "Views of the Universe from a Starskiff" is a record of wondrous exoplanets by a foxian explorer... Oh, you're from an exoplanet anyways. In that case, hang on and let me think...
+:::'''Yinshu:''' How about this one here, "Otherworldly Delights"? It's a collection of short supernatural stories written by the boss here.
+::{{DIcon|Arrow}} Boss, you could be a little more enthusiastic.
+:::<!--Custom String Listener: TalkSentence_502016107-->
+:::'''Yinshu:''' ...Bookstores are for selling books. Besides, I'm not the boss here. I just help with running a few chores. I'm not in charge of sales here.
+:::'''Yinshu:''' But then again, the boss here doesn't really give a darn about business at all. Here... This is a collection of short supernatural stories he's written, called "Otherworldly Delights."
+::<!--Custom String Trigger: TalkSentence_502016109-->
+::<!--Custom String Listener: TalkSentence_502016109-->
+::'''Yinshu:''' I'm a relative of the owner. He likes listening to other people's conversations, saying that it's good inspiration as an author.
+::'''Yinshu:''' You may have seen him over in Starskiff Haven. He does storytelling in some teahouse called Sleepless Earl or other, calling himself something like "Mr. Xiyan."
+::{{DIcon|Arrow}} I may have met him in Starskiff Haven.
+:::<!--Custom String Listener: TalkSentence_502016112-->
+:::'''Yinshu:''' He likes getting attention. I'd be truly surprised if you haven't seen him.
+::{{DIcon|Arrow}} Why are there storytellers aboard Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502016114-->
+:::'''Yinshu:''' Have you seen storytellers on other planets? When you put it like that... I can tell you've probably already seen it before.
+:::'''Yinshu:''' All I know is, storytelling is a traditional form of performative art. I don't know much else. But perhaps the boss is using his gig as a storyteller to hang out at the teahouse and hear all kinds of supernatural and weird tales.
+::<!--Custom String Trigger: TalkSentence_502016116-->
+::<!--Custom String Listener: TalkSentence_502016116-->
+::'''Yinshu:''' How I wish he could pay a little more attention to his bookstore business... Ah well. Have you got any books there that you'd like to buy?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502016102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502016102.json-->
+::'''Yinshu:''' You pay, then pick out the "bookmark" you like, hold them close to your jade abacus, and download them to read later.
+::'''Yinshu:''' If you don't have a jade abacus or if you just like the feeling of a book in your hands, just grab one off the shelf. Scroll rolls, bound bamboo strips, printed and bound paper books &mdash; we've got all the formats. Anyway, just come see me if you'd like to buy a book.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I'd like to buy a book.
+:{{DIcon}} I'd like to chat with you some more.
+::<!--Trigger PerformanceE 502016103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502016103.json-->
+::'''Yinshu:''' Okay. Well, as you can see, I've nothing to do, so let's chat.
+::<!--Custom String Trigger: Wait_Option_502016101_35-->
+::<!--Custom String Listener: Wait_Option_502016101_35-->
+::{{DIcon|Talk}} About supernatural tales aboard the Xianzhou...
+:::<!--Custom String Listener: TalkSentence_502016122-->
+:::'''Yinshu:''' The boss here is obsessed with all the supernatural stories told on this ship, and even pays through the nose to make visits to other Xianzhou ships. He never really finds anything, but he has fun along the way.
+:::'''Yinshu:''' In fact, most of these stories are just due to otherworldly species or mere coincidence. The Xianzhou people aren't really flustered by any of that, and barely raise an eyebrow.
+:::'''Yinshu:''' But the boss says that no matter how brilliant this world is, people always need to have dark and ghostly stories.
+:::'''Yinshu:''' "Reality isn't interesting, and what's interesting isn't real. Adding flourish is normal, and vagueness adds flavor." He's got this phrase etched onto his belt.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About recent bestsellers...
+:::<!--Custom String Listener: TalkSentence_502016127-->
+:::'''Yinshu:''' There's a new suspense novel out that's very popular, but I haven't read it yet, so can't go over the exact details. But if you're interested in such stories, just buy it and you'll know for sure.
+:::'''Yinshu:''' On Xianzhou, we have immortal people, novel technology, and fantastical visitors from exoplanets... But somehow everyone wants to read about primitive crimes conducted in snowbound manor houses with no Cloud Knights, no technology, and no super powers...
+:::'''Yinshu:''' I don't really get it. Perhaps that's the charm of mystery novels?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The appearance of books on Xianzhou all seem kind of retro...
+:::<!--Custom String Listener: TalkSentence_502016131-->
+:::'''Yinshu:''' Ah yes, tourists often make this remark.
+:::'''Yinshu:''' In fact, if you want, you can take the corresponding "bookmark" you like from the books, hold them close to your jade abacus, and download them to read later.
+:::'''Yinshu:''' I personally like downloading and reading off my jade abacus, but there's always people who like the feeling of holding paper books in their hands. The longer people live, the more they crave this kind of ceremony.
+:::'''Yinshu:''' Tsk, these physical books are such a pain. They take up space and need daily cleaning.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll be back next time.
+:::<!--Custom String Listener: TalkSentence_502016136-->
+:::'''Yinshu:''' Away you go, then. Take care.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502016104-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502016201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502016201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502016201.json-->
+::'''Yinshu:''' *sigh*
+::{{DIcon|Arrow}} What's with all the sighing?
+::<!--Custom String Listener: TalkSentence_502016204-->
+::'''Yinshu:''' You are the twenty-seventh person to mention this to me today.
+::'''Yinshu:''' I see, I see... Mr. Xiyan would probably be interested in this.
+::'''Yinshu:''' But I'm just a kid helping out here. Hope this thing doesn't impact my work...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502016201-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502016201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Finally, the Ambrosial Arbor crisis is over... What's your take?
+::<!--Trigger PerformanceE 502016105: Config/Level/NPCDialogue/P10202/NPCAct/Act502016105.json-->
+::'''Yinshu:''' Alright! Alright! Just stop with all the Ambrosial Arbor stuff!
+::{{DIcon|Arrow}} You didn't answer my question...
+::{{DIcon|Arrow}} Wh&mdash;What's the rush?
+::<!--Custom String Listener: TalkSentence_502016305-->
+::'''Yinshu:''' There have been 52 people who came to talk to me about this matter. Among them, 48 asked me whether there were readables that discussed the secrets behind the growth and ceasing of the Ambrosial Arbor.
+::'''Yinshu:''' As a mere bookstore assistant, I have no say in the writing and publishing of readables... Alas... They should pester those editors instead. Anyway, I have no stock of those readables here.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502016105-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502016201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I'll be back next time.
+::'''Yinshu:''' Away you go, then. Take care.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 202030714-->)
+:{{DIcon|undefined}} Interact
+::<!--Trigger PerformanceE 202030714: Config/Level/Mission/2020307/Act/Act202030714.json-->
+::{{A|VO side2 lc1 yinshu 113.ogg}} '''Yinshu:''' Where did Yunshen get to, I asked him to watch the shop while I used my voucher... He's often hanging around here &mdash; always seemed nice enough. *sigh* Not trustworthy after all.
+::{{A|VO side2 lc1 mar7th 189.ogg}} '''March 7th:''' That crook wanted to cheat us out of 500 strales.
+::{{A|VO side2 lc1 yinshu 114.ogg}} '''Yinshu:''' What? You didn't give him the money, did you?
+::{{A|VO side2 lc1 mar7th 190.ogg}} '''March 7th:''' Of course not! We scared him off.
+::{{A|VO side2 lc1 yinshu 115.ogg}} '''Yinshu:''' You two are incredible. I'll have to have a word with him later... Ugh, asking him to help was my mistake &mdash; I apologize.
+::{{DIcon|Arrow}} No worries! You weren't to know.
+:::<!--Custom String Listener: TalkSentence_202071707-->
+:::{{A|VO side2 lc1 mar7th 191.ogg}} '''March 7th:''' That's right. Making mistakes is part of growing up.
+:::{{A|VO side2 lc1 yinshu 116.ogg}} '''Yinshu:''' Here &mdash; a little something for the inconvenience. It's yummy.
+::{{DIcon|Arrow}} It was a bit of a goof, huh...
+:::<!--Custom String Listener: TalkSentence_202071710-->
+:::{{A|VO side2 lc1 yinshu 117.ogg}} '''Yinshu:''' Mm-hmm, I won't be so quick to leave my post in the future.
+:::{{A|VO side2 lc1 yinshu 118.ogg}} '''Yinshu:''' Here &mdash; a little something for the inconvenience. It's yummy.
+::<!--Custom String Trigger: TalkSentence_202071712-->
+::<!--Custom String Listener: TalkSentence_202071712-->
+::{{A|VO side2 lc1 yinshu 119.ogg}} '''Yinshu:''' It'd be best if Mr. Xiyan didn't find out about this... He doesn't show up very often, but he's the manager here. I'll be in big trouble if he finds out what happened.
+::{{A|VO side2 lc1 mar7th 192.ogg}} '''March 7th:''' Don't worry, we can keep a secret. Just make sure it doesn't happen again!
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202030723-->
+;(If {{cx}}<!--SubMission Finish: 202030721--> and {{cx}}<!--SubMission Finish: 202030714-->)
+:{{DIcon|undefined}} Interact
+::<!--Trigger PerformanceE 202030721: Config/Level/Mission/2020307/Act/Act202030721.json-->
+::{{A|VO side2 lc1 yinshu 120.ogg}} '''Yinshu:''' Where did Yunshen get to, I asked him to watch the shop while I used my voucher... He's often hanging around here &mdash; always seemed nice enough. *sigh* Not trustworthy after all.
+::{{A|VO side2 lc1 mar7th 193.ogg}} '''March 7th:''' That crook cheated us out of 500 strales.
+::{{A|VO side2 lc1 yinshu 121.ogg}} '''Yinshu:''' What!? I apologize, this is my fault &mdash; I'll have a word with him later. Let me give you your money back first.
+::{{DIcon|Arrow}} No need, you couldn't have known this would happen.
+:::<!--Custom String Listener: TalkSentence_202071805-->
+:::{{A|VO side2 lc1 mar7th 194.ogg}} '''March 7th:''' Yeah, it's his problem, not yours.
+:::{{A|VO side2 lc1 yinshu 122.ogg}} '''Yinshu:''' *sigh* At the end of the day, this wouldn't have happened if I'd stayed at my post.
+:::{{A|VO side2 lc1 yinshu 123.ogg}} '''Yinshu:''' Here &mdash; a little something for the inconvenience. It's yummy.
+::{{DIcon|Arrow}} Thanks very much.
+:::<!--Custom String Listener: TalkSentence_202071809-->
+:::{{A|VO side2 lc1 mar7th 195.ogg}} '''March 7th:''' Hey, you're gonna take it!? Yinshu, this isn't your fault &mdash; you don't have to do this.
+:::{{A|VO side2 lc1 yinshu 124.ogg}} '''Yinshu:''' *sigh* At the end of the day, this wouldn't have happened if I'd stayed at my post.
+:::{{A|VO side2 lc1 mar7th 196.ogg}} '''March 7th:''' This is your hard-earned money. Looking after a bookshop is no easy task.
+:::{{A|VO side2 lc1 yinshu 125.ogg}} '''Yinshu:''' Th&mdash;Thanks... In that case, have this instead &mdash; it's tasty.
+::<!--Custom String Trigger: TalkSentence_202071813-->
+::<!--Custom String Listener: TalkSentence_202071813-->
+::{{A|VO side2 lc1 mar7th 197.ogg}} '''March 7th:''' Aw, that's so kind of you! You just made a loyal customer out of me.
+::{{A|VO side2 lc1 yinshu 126.ogg}} '''Yinshu:''' Glad to hear that! Please come by anytime!
+::{{A|VO side2 lc1 yinshu 127.ogg}} '''Yinshu:''' It'd be best if Mr. Xiyan didn't find out about this... He doesn't show up very often, but he's the manager here. I'll be in big trouble if he finds out what happened.
+::{{A|VO side2 lc1 mar7th 198.ogg}} '''March 7th:''' Don't worry, we can keep a secret. Just make sure it doesn't happen again!
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202030723-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yinshu
+|zhs  = 隐书
+|zht  = 隱書
+|ja   = 隠書
+|ko   = 은서
+|es   = Yinshu
+|fr   = Yinshu
+|ru   = Иньшу
+|th   = Yinshu
+|vi   = Yinshu
+|de   = Yinshu
+|id   = Yinshu
+|pt   = Yinshu
+}}
+==Change History==
+{{Change History|TODO}}

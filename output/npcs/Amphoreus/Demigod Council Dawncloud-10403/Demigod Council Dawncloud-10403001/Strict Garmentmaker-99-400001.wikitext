@@ -1,0 +1,363 @@
+<%-- [PAGE_INFO]
+PageTitle=#Strict Garmentmaker#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Strict Garmentmaker.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Strict Garmentmaker''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_99_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}})
+:::<!--Trigger PerformanceE 504069002: Config/Level/Mission/5040690/Act/Act504069002.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}})
+::::'''Strict Garmentmaker:''' You've come to see me, which means you've made progress... at least I hope so.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}})
+::::'''Strict Garmentmaker:''' There are no more nymphs here. You've done what was needed, hero.
+::::'''Strict Garmentmaker:''' There should be more nymphs elsewhere. Go help my fellow garmentmakers.
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}})
+::;(First interaction)
+::::<!--Trigger PerformanceE 504069001: Config/Level/Mission/5040690/Act/Act504069001.json-->
+::::'''Strict Garmentmaker:''' Look at Dawncloud Cliff &mdash; even here, closest to the Dawn Device, I can smell the stench of conspiracy and sophistry.
+::::'''Strict Garmentmaker:''' The elders bask in the glory of the Dawn Device, yet they lack the determination of the sky father to bear the weight of the world. They only dare to stab heroes in the back with poisoned daggers...
+::::{{DIcon|Arrow}} Got it. This one's the Sarcastic Garmentmaker.
+::::{{DIcon|Arrow}} Even Aglaea herself wouldn't be as talkative as you.
+::::{{DIcon|Arrow}} The Council of Elders isn't that bad, is it?
+::::<!--Custom String Listener: TalkSentence_504069006-->
+::::'''Strict Garmentmaker:''' I don't mean to target anyone, but the thought of citizens being deceived by sweet words makes it hard to suppress the anger in my chest...
+::::'''Strict Garmentmaker:''' I hope you don't forget your task, honored guest. We all have unfinished missions.
+::;(Subsequent interactions)
+::::<!--Trigger PerformanceE 504069002: Config/Level/Mission/5040690/Act/Act504069002.json-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}})
+:::::'''Strict Garmentmaker:''' You've come to see me, which means you've made progress... at least I hope so.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}})
+:::::'''Strict Garmentmaker:''' There are no more nymphs here. You've done what was needed, hero.
+:::::'''Strict Garmentmaker:''' There should be more nymphs elsewhere. Go help my fellow garmentmakers.
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} I've found all the nymphs here.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Strict Garmentmaker:''' A fine achievement, honored guest. Now, I will begin unraveling one of the many prophecies.
+:::::'''Strict Garmentmaker:''' "The chirping of insects guides the pilgrim's path." Quite straightforward.
+:::::'''Strict Garmentmaker:''' In Dawncloud Cliff, the only path that can be called a pilgrim's path is the long staircase at the Titan Cliff.
+:::::'''Strict Garmentmaker:''' ...
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Strict Garmentmaker:''' You've already obtained the stone slab, honored guest. I hope you're not here to waste my time.
+:::::'''Strict Garmentmaker:''' This is the reward prepared for you. Take it. Only this can give me a sense of participation.
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200611
+			}
+		}
+	]
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}},"Inverse":true}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon}} Can you give me more hints?
+::::'''Strict Garmentmaker:''' "The chirping of insects guides the pilgrim's path." Quite straightforward.
+::::'''Strict Garmentmaker:''' In Dawncloud Cliff, the only path that can be called a pilgrim's path is the long staircase at the Titan Cliff.
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200611}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} Where are the remaining nymphs?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":18}},"Inverse":true}-->}})
+:::::'''Strict Garmentmaker:''' You should have been more perceptive. I can remind you, as long as you provide {{Color|keyword|nobold=1|Memory Crystal Shards}}.
+:::::{{DIcon|Arrow}} Provide Memory Crystal Shards.
+::::::<!--Custom String Listener: TalkSentence_504069204-->
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 18
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 504069204
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 18
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 100
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069205
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 101
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069206
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 102
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069207
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 103
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069208
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 104
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069209
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 105
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069210
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 106
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069211
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 107
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069212
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 108
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069213
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 109
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 504069214
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504069216"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::{{DIcon|Arrow}} Nope~
+::::::<!--Custom String Listener: TalkSentence_504069216-->
+::::::'''Strict Garmentmaker:''' Without Memory Crystal Shards, how can we trace the nymphs? Come back when you have some.
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":18}},"Inverse":true}-->}})
+:::::'''Strict Garmentmaker:''' You're already tasked with finding a nymph. Focus on completing that first.
+::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyMirrorTakenDiff"}-->}})
+:{{DIcon|undefined}} Help me recall the captured nymphs.
+::::'''Strict Garmentmaker:''' As you wish, I will summon the nymphs you once touched back with golden threads. I hope this lightens your burden somewhat.
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyMirrorTakenDiff"}-->}})
+:{{DIcon|Exit}} I'll get back to work.
+::::'''Strict Garmentmaker:''' Even I must admit, you are indeed a dutiful hero. May your path be smooth.
+::::<!--Ends the current performance-->
+::<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "6127"
+	}
+}</pre>
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+:;(If [[Fate's Ensemble]] is active)
+:::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+:::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+:;(If [[Fate's Ensemble]] is active)
+:::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Garmentmaker"
+|zhs  = 「衣匠」
+|zht  = 「衣匠」
+|ja   = 「ラフトラ」
+|ko   = 「의상공」
+|es   = Sastre
+|fr   = Costumière
+|ru   = Швея
+|th   = "หุ่นตัดชุด"
+|vi   = Thợ May
+|de   = Kleidermacherin
+|id   = "Garmentmaker"
+|pt   = "Confeccionadora"
+}}
+==Change History==
+{{Change History|TODO}}

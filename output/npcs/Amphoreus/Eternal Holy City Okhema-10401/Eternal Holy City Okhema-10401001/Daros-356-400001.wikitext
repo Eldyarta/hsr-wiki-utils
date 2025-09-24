@@ -1,0 +1,295 @@
+<%-- [PAGE_INFO]
+PageTitle=#Daros#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Baths Attendant
+|image           = NPC Daros.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Daros''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_356_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504028001: Config/Level/Mission/5040280/Act/Act504028001.json-->
+::'''Daros:''' Is there something I can help you with, dear customer?
+::{{DIcon|Arrow}} I accidentally triggered this conversation.
+:::<!--Custom String Listener: TalkSentence_504028004-->
+:::'''Daros:''' I see. Don't mind me.
+:::<!--Custom String Trigger: TalkSentence_504028006-->
+::{{DIcon|Exit}} Nothing. Just browsing.
+::<!--Custom String Listener: TalkSentence_504028006-->
+::'''Daros:''' Take your time. Call me if you need anything.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+:;(First interaction)
+:::<!--Trigger PerformanceE 504028002: Config/Level/Mission/5040280/Act/Act504028002.json-->
+:::'''Daros:''' Dear customer, do you need something?
+:::{{DIcon|Arrow}} I accidentally triggered this conversation again.
+::::<!--Custom String Listener: TalkSentence_504028104-->
+::::'''Daros:''' Alright. That's fine.
+::::<!--Custom String Trigger: TalkSentence_504028106-->
+:::{{DIcon|Exit}} Nothing. Just browsing.
+:::<!--Custom String Listener: TalkSentence_504028106-->
+:::'''Daros:''' This place is quite spacious. It's perfect for relaxing, don't you think? ...Take your time browsing.
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+::;(First interaction)
+::::<!--Trigger PerformanceE 504028003: Config/Level/Mission/5040280/Act/Act504028003.json-->
+::::'''Daros:''' Dear customer, do you...
+::::{{DIcon|Arrow}} I acci&mdash;...
+::::{{DIcon|Arrow}} Nothing. Just browsing.
+::::<!--Custom String Listener: TalkSentence_504028205-->
+::::'''Daros:''' ...I can see that you have a lot of time on your hands.
+::::'''Daros:''' If that is the case, I wonder if I could ask you for a favor? There is a lot of noise coming from outside. It sounds like there are some unwelcome visitors starting trouble out there...
+::::'''Daros:''' As an attendant, it is my duty to go and settle this. Could I ask you to stay here and keep an eye on things for me?
+::::{{DIcon|Arrow}} I'll go and mediate for you!
+:::::<!--Custom String Listener: TalkSentence_504028209-->
+:::::'''Daros:''' That... Well, if you insist. Although, a word of warning: If they are unreasonable, I ask that you do not rush to take physical action. I see you possess great strength and I fear that they could be injured or worse. That would make things difficult for me.
+:::::'''Daros:''' Conversely, feel free to use my name. If the unwelcome guests are the ones that I imagine, tell them that Daros would like them to calm down. That should help.
+::::;(Screen fades to black)
+:::::Hesitant at his assurance, you pull out your bat and prepare to "mediate" the situation. When you arrive, it is clear that a number of uncivilized-looking guys are intimidating passersby.
+:::::As this place has not been "trailblazed" previously, the group is unfazed by your appearance. In fact, they seem to be raring for a fight.
+:::::You remember the words of the attendant...
+:::::<!--Custom String Trigger: Wait_Option_504028003_52-->
+:::::<!--Custom String Listener: Wait_Option_504028003_52-->
+:::::{{DIcon|Talk}} Nonsense. I'll beat them up first and we can talk later.
+::::::<!--Custom String Listener: TalkSentence_504028215-->
+:::::;(Screen fades to black)
+::::::Before you make your move, you spend a few seconds in reflection. There's a chance that Aglaea might have something to say about this... Maybe you should let them go with their lives this time...?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Maybe try dropping his name?
+::::::<!--Custom String Listener: TalkSentence_504028217-->
+:::::;(Screen fades to black)
+::::::As soon as you mention the attendant's name, the group's faces drop. Without saying a word, they bow in apology and run for the hills...
+::::::<!--Custom String Trigger: TalkSentence_504028224-->
+::::::<!--Custom String Listener: TalkSentence_504028224-->
+::::::'''Daros:''' I'm glad that is settled... Thank you, dear customer.
+::::::{{DIcon|Arrow}} Just who are...
+::::::{{DIcon|Arrow}} What happened?
+::::::<!--Custom String Listener: TalkSentence_504028227-->
+::::::'''Daros:''' Ahh, those troublesome customers were from Castrum Kremnos. Some of them recognized me... Let's just say they showed their fellow countryman some respect.
+::::::'''Daros:''' Either way, I owe you one, dear customer. If you are bored, I would be happy to help you kill some time.
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Alright, I'll look after your things.
+:::::<!--Custom String Listener: TalkSentence_504028220-->
+:::::'''Daros:''' Thank you, dear customer. I'll be right back.
+::::;(Screen fades to black)
+:::::As soon as the attendant leaves, you prick up your ears and try to listen in on the situation outside.
+:::::The rabble of noise turns to silence before turning into... wails? You only manage to overhear a few muddled words... Are they saying "Kremnos Cleaner"...?
+:::::After everything returns to quiet, the attendant returns as if nothing had happened.
+:::::<!--Custom String Trigger: TalkSentence_504028224-->
+:::::<!--Custom String Listener: TalkSentence_504028224-->
+:::::'''Daros:''' I'm glad that is settled... Thank you, dear customer.
+:::::{{DIcon|Arrow}} Just who are...
+:::::{{DIcon|Arrow}} What happened?
+:::::<!--Custom String Listener: TalkSentence_504028227-->
+:::::'''Daros:''' Ahh, those troublesome customers were from Castrum Kremnos. Some of them recognized me... Let's just say they showed their fellow countryman some respect.
+:::::'''Daros:''' Either way, I owe you one, dear customer. If you are bored, I would be happy to help you kill some time.
+:::::<!--Ends the current performance-->
+::;(Subsequent interactions)
+::::<!--Trigger PerformanceE 504028004: Config/Level/Mission/5040280/Act/Act504028004.json-->
+::::'''Daros:''' Relax and be joyous, you who live without concern~ Time is fleeting. Soon it shall take you to meet Thanatos~
+::::'''Daros:''' ...I am sorry you had to see that, dear customer. My old job left me with some bad habits. Please forgive me.
+::::<!--Ends the current performance-->
+::::<!--Open NPC Menu-->
+::::{{DIcon}} Can we talk?
+:::::'''Daros:''' Of course. If there is anything you wish to know, I shall do my best to answer your questions.
+:::::<!--Custom String Trigger: Wait_Option_504028005_93-->
+:::::<!--Custom String Listener: Wait_Option_504028005_93-->
+:::::{{DIcon|Talk}} What do you do for work, sir?
+::::::<!--Custom String Listener: TalkSentence_504028404-->
+::::::'''Daros:''' ...
+::::::'''Daros:''' I am an "attendant." I ensure the cleanliness of the baths while providing services for customers in need.
+::::::{{DIcon|Arrow}} Really?
+::::::{{DIcon|Arrow}} And before that?
+::::::<!--Custom String Listener: TalkSentence_504028408-->
+::::::'''Daros:''' ...Hah. Dear customer, you are most perceptive... But this can get you into trouble, you know...
+::::::'''Daros:''' My apologies. That sounded threatening. There is no need to worry. This is Okhema, after all. Under the protection of Kephale, even if I tell you everything, our lives will remain unchanged.
+::::::'''Daros:''' I was an "attendant" in the past, too. However, back in Castrum Kremnos, my employers preferred to refer to me as a "cleaner" or a "problem-solver."
+::::::'''Daros:''' Every so often, they would come to me and ask me to go on a "sweep" to restore the purity of Talanton's scales... As for how I did that, I will spare you the details. I fear that you will not enjoy them.
+::::::{{DIcon|Arrow}} ...Do you still do this work now?
+:::::::<!--Custom String Listener: TalkSentence_504028413-->
+:::::::'''Daros:''' No... After Castrum Kremnos was destroyed, I roamed various places, but only the holy city of {{Rubi|Kephale|Worldbearing Titan}} would take in a stained fugitive like myself. I made a vow to myself at that moment that I would never again take up my cleaning equipment unless there was an absolute need.
+:::::::'''Daros:''' The Council of Elders once hinted that I should take up my old post. However, a number of esteemed persons came forward and "declined" on my behalf. Nowadays, such methods are no longer feasible; nor do they have any meaning.
+:::::::<!--Custom String Trigger: TalkSentence_504028417-->
+:::::::<!--Custom String Listener: TalkSentence_504028417-->
+:::::::'''Daros:''' This man before you is merely an attendant. When my services are required in the baths, I shall appear. That is all.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} I don't understand.
+:::::::<!--Custom String Listener: TalkSentence_504028416-->
+:::::::'''Daros:''' Of course. Whether you understand or not, being cautious can never be a bad thing.
+:::::::<!--Custom String Trigger: TalkSentence_504028417-->
+:::::::<!--Custom String Listener: TalkSentence_504028417-->
+:::::::'''Daros:''' This man before you is merely an attendant. When my services are required in the baths, I shall appear. That is all.
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Tell me your story!
+::::::<!--Custom String Listener: TalkSentence_504028419-->
+::::::'''Daros:''' The only stories an attendant has are work stories. If you do not mind, then...
+:::::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028420,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028421,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028422,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028423,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028424,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028425,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028426,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028427,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028428,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028429,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028430,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504028431,
+					"ProtectTime": 0
+				}
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} No worries. I'll leave you to it.
+::::::<!--Custom String Listener: TalkSentence_504028433-->
+::::::'''Daros:''' Alright, please enjoy yourself, dear customer. If you need anything, please come and ask.
+::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} No worries. I'll leave you to it.
+:::::'''Daros:''' Alright, please enjoy yourself, dear customer. If you need anything, please come and ask.
+:::::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Daros
+|zhs  = 达罗
+|zht  = 達羅
+|ja   = ダロ
+|ko   = 다로스
+|es   = Daros
+|fr   = Daros
+|ru   = Дарос
+|th   = Daros
+|vi   = Daros
+|de   = Daros
+|id   = Daros
+|pt   = Daros
+}}
+==Change History==
+{{Change History|TODO}}

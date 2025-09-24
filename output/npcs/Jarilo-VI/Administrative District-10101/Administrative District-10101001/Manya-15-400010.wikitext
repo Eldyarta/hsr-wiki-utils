@@ -1,0 +1,922 @@
+<%-- [PAGE_INFO]
+PageTitle=#Manya#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Administrative Official
+|image           = NPC Manya.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Manya''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400010}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301020103,
+		"Type": "submission_state_equal",
+		"Param1": 301020103,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301020103: Config/Level/Mission/3010201/Act/Act301020103.json-->
+:'''Manya:''' What? Who? I don't understand what you are saying. You are strange...
+:{{DIcon|Arrow}} I brought a picture of him...
+::<!--Custom String Listener: TalkSentence_301020154-->
+::'''Manya:''' Picture...? Photo...? Hmm, it feels a little weird... but show it to me anyway.
+:{{DIcon|Arrow}} He said your families have some history.
+::<!--Custom String Listener: TalkSentence_301020156-->
+::'''Manya:''' History...? Strange, I've never heard of him...
+:<!--Custom String Trigger: TalkSentence_301020157-->
+:<!--Custom String Listener: TalkSentence_301020157-->
+:'''Manya:''' Wait, this man...
+:'''Manya:''' Oh, I remember now. This is the son of the Limestein family, right? They say he is young and rich, but actually, he is quite old...
+:'''Manya:''' Why is he looking for me all of a sudden? No, wait! Don't be impulsive, Manya! You have to be careful!
+:'''Manya:''' The Limesteins are wealthy, but they're also new money. They have no aristocratic roots...
+:'''Manya:''' Wallace is 38 years and 2 months old. He's never held a public office, and I hear he's a complete loafer. The Limestein family doesn't appear to like him much either...
+:{{DIcon|Arrow}} How do you know so much about...
+:{{DIcon|Arrow}} Why are you hesitating?
+:<!--Custom String Listener: TalkSentence_301020164-->
+:'''Manya:''' In the short term, I'd be in with a chance of joining the upper classes! But the Limesteins have so many enemies, and no real foundation in political circles. If they were to lose their influence, or if Wallace were to be discarded by his family...
+:'''Manya:''' ...Then I might also be affected, and my career will be ruined!
+:'''Manya:''' No, I can't be friends with him! Please tell Wallace that I'm flattered, but it's better for us to keep our distance.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301020103-->
+<pre>
+[
+	{
+		"ID": 301120102,
+		"Type": "submission_state_equal",
+		"Param1": 301120102,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301120102: Config/Level/Mission/3011201/Act/Act301120102.json-->
+:<!--Custom String Trigger: ManyaTalk1-->
+:<!--Custom String Listener: ManyaTalk1-->
+:'''Manya:''' So you want to give a thesis... to the Supreme Guardian?
+:'''Manya:''' *sigh* It's impossible to hand it over directly to the Supreme Guardian. But handing over public research results for auditing by the appropriate authorities is well within the rules.
+:'''Manya:''' But I need some details about you. What school did you graduate from?
+:{{DIcon|Arrow}} The sky is my alma mater...
+:{{DIcon|Arrow}} The earth is my classroom...
+:<!--Custom String Listener: TalkSentence_301120135-->
+;(Return to previous option selection (cloneCheckString))
+<pre>
+[
+	{
+		"ID": 301120104,
+		"Type": "submission_state_equal",
+		"Param1": 301120104,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301120104: Config/Level/Mission/3011201/Act/Act301120104.json-->
+:'''Manya:''' Huh? What are you talking about?
+:{{DIcon|Arrow}} The answer to that question was "the same."
+:<!--Custom String Listener: TalkSentence_301120514-->
+:<!--Custom String Trigger: ManyaTalk1-->
+:<!--Custom String Listener: ManyaTalk1-->
+:'''Manya:''' Question? Which question...
+:'''Manya:''' Ah, now I remember! Didn't I send you packing last time? What are you doing back here bugging me again?
+:{{DIcon|Arrow}} ...Please, help me out one last time.
+:{{DIcon|Arrow}} ...That's what a real scientist would do.
+:<!--Custom String Listener: TalkSentence_301120518-->
+:<!--Custom String Trigger: ManyaHoldHead-->
+:<!--Custom String Listener: ManyaHoldHead-->
+:'''Manya:''' This guy's a real stalker and a pain in the behind. Alright then, I'll bend the rules for you just this once &mdash; but you have to guess it right, okay?
+:'''Manya:''' Let me see then... prime numbers or natural ones, which are there more of... This is the first question, right? The right answer is... ahem, hang on a sec...
+:'''Manya:''' ..."The same." Well, how 'bout that, you're correct.
+:'''Manya:''' Okay, I can't just go back on a promise that I've made, can I? So I'll apply to the Ministry of Education with your thesis then. Run along then, and wait for my news. We'll notify you when ready.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301120104-->
+<pre>
+[
+	{
+		"ID": 301120202,
+		"Type": "submission_state_equal",
+		"Param1": 301120202,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301120202: Config/Level/Mission/3011202/Act/Act301120202.json-->
+:<!--Custom String Trigger: ManyaTalk1-->
+:<!--Custom String Listener: ManyaTalk1-->
+:'''Manya:''' Oh, it's you. You're here right on time. I was just setting off to look for you. The Ministry of Education has some feedback for you, and they sent this chap to ask you a few questions.
+:{{DIcon|Arrow}} More questions?
+:<!--Custom String Listener: TalkSentence_301120219-->
+:<!--Custom String Trigger: OfficerTalk1-->
+:<!--Custom String Listener: OfficerTalk1-->
+:'''Ministry of Education Officer:''' This is just standard procedure to avoid pointless waste of resources. Please bear with me a moment.
+:'''Ministry of Education Officer:''' Please also trust me when I say that these questions are very easy. If you have the skills to complete a scientific thesis, then you should be able to handle a few simple questions from me.
+:'''Ministry of Education Officer:''' Question one... Gosh, this is certainly very long. I think it's better if you just take a look for yourself...
+:<!--Custom String Trigger: ShowReading1-->
+:<!--Custom String Listener: ShowReading1-->
+<pre>{
+	"$type": "RPG.GameCore.ClearTalkUI"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190303
+		}
+	}
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.ShowTalkUI",
+	"Show": true
+}</pre>
+:<!--Custom String Trigger: QuestionOption1-->
+:<!--Custom String Listener: QuestionOption1-->
+:'''Ministry of Education Officer:''' Mmm? Finished yet? Answer me, how many cars have had their wheels stolen?
+:{{DIcon|Arrow}} 42.
+::<!--Custom String Listener: TalkSentence_301120225-->
+::<!--Custom String Trigger: OfficerHoldHead-->
+::<!--Custom String Listener: OfficerHoldHead-->
+::'''Ministry of Education Officer:''' Ah, how unfortunate, that's incorrect. It seems like there's no need for us to continue.
+::'''Ministry of Education Officer:''' Of course, you shouldn't be discouraged! Keep working on your studies, and then come back to try again.
+::<!--Custom String Trigger: Talk_301120202-->
+::<!--Custom String Listener: Talk_301120202-->
+::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Fourteen.
+::<!--Custom String Listener: TalkSentence_301120228-->
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Arrow}} Twenty-eight.
+::<!--Custom String Listener: TalkSentence_301120245-->
+::<!--Custom String Trigger: OfficerHoldHead-->
+::<!--Custom String Listener: OfficerHoldHead-->
+::'''Ministry of Education Officer:''' Ah, how unfortunate, that's incorrect. It seems like there's no need for us to continue.
+::'''Ministry of Education Officer:''' Of course, you shouldn't be discouraged! Keep working on your studies, and then come back to try again.
+::<!--Custom String Trigger: Talk_301120202-->
+::<!--Custom String Listener: Talk_301120202-->
+::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Why does each car only lose one wheel?
+::<!--Custom String Listener: TalkSentence_301120248-->
+::<!--Custom String Trigger: OfficerHoldHead-->
+::<!--Custom String Listener: OfficerHoldHead-->
+::'''Ministry of Education Officer:''' That's not the point here! Tsk... forget about it. Seems like there's no need for us to continue here.
+::'''Ministry of Education Officer:''' Of course, you shouldn't be discouraged! Keep working on your studies, and then come back to try again.
+::<!--Custom String Trigger: Talk_301120202-->
+::<!--Custom String Listener: Talk_301120202-->
+::<!--Ends the current performance-->
+:{{DIcon|Loupe}} Let me see the question again...
+::<!--Custom String Listener: ShowReading1-->
+:<pre>{
+	"$type": "RPG.GameCore.ClearTalkUI"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190303
+		}
+	}
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowTalkUI",
+	"Show": true
+}</pre>
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+;(Unused &mdash; ManyaHoldHead)
+:<!--Custom String Listener: ManyaHoldHead-->
+<pre>
+[
+	{
+		"ID": 301120204,
+		"Type": "submission_state_equal",
+		"Param1": 301120204,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301120204: Config/Level/Mission/3011202/Act/Act301120204.json-->
+:<!--Custom String Trigger: OfficerTalk1-->
+:<!--Custom String Listener: OfficerTalk1-->
+:'''Ministry of Education Officer:''' Huh? Didn't this {{MC|f=lady|m=gentleman}} just come in to inquire about their thesis? Why then all of a sudden...
+:{{DIcon|Arrow}} Give me one more chance!
+::<!--Custom String Listener: TalkSentence_301120546-->
+::'''Ministry of Education Officer:''' I... I'm afraid this will impact the fairness of our process. However...
+::<!--Custom String Trigger: Wait_Option_301120204_16-->
+::<!--Custom String Listener: Wait_Option_301120204_16-->
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Arrow}} I was just acting stupid then.
+::<!--Custom String Listener: TalkSentence_301120548-->
+::'''Ministry of Education Officer:''' Hahaha, now that's a sentence I have to put up with daily &mdash; and often. Most students underperforming in examinations fail to place the blame on themselves. And yet...
+::<!--Custom String Trigger: Wait_Option_301120204_16-->
+::<!--Custom String Listener: Wait_Option_301120204_16-->
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+:<!--Custom String Trigger: Talk_301120204-->
+;(Unused &mdash; OfficerAkimbo01)
+:<!--Custom String Listener: OfficerAkimbo01-->
+<pre>
+[
+	{
+		"ID": 201140905,
+		"Type": "submission_state_equal",
+		"Param1": 201140905,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201140905: Config/Level/Mission/2011409/Act/Act201140905.json-->
+:'''Manya:''' ...Mmm, do you mean Cyrille "the Fool"?
+:'''Manya:''' Of course. I mean, anyone who's studied a little history has heard of her, right?
+:'''Manya:''' What made you suddenly interested in this piece of ancient history? I don't have the time for random trivia right now... There's a huge stack of documents on my desk waiting for my approval.
+:{{DIcon|Arrow}} I found something...
+::<!--Custom String Listener: TalkSentence_201340193-->
+::'''Manya:''' Huh? What...
+:{{DIcon|Arrow}} I brought something back from Cyrille.
+::<!--Custom String Listener: TalkSentence_201340195-->
+::'''Manya:''' ...Is this some kind of sick joke?
+:<!--Custom String Trigger: TalkSentence_201340196-->
+:<!--Custom String Listener: TalkSentence_201340196-->
+:'''Manya:''' Ah, okay... I guess, taking a look won't rob me of much time. What is it? Let me have a check, would you?
+:'''Manya:''' It's... this...
+:'''Manya:''' I'm flabbergasted! You might've just found an incredible antique item...
+:'''Manya:''' Based on the ''Belobog Conventions for the Preservation of Ancient Relics'', any antiques found by civilians must be turned over to the Architects for proper preservation. I will have to hold on to this ornament that you've found.
+:{{DIcon|Arrow}} What? This is robbery in plain sight!
+:{{DIcon|Arrow}} Then what's in it for me, huh?
+:<!--Custom String Listener: TalkSentence_201340201-->
+:'''Manya:''' Relax, I won't leave you empty-handed. I'm highly confident that this thing is an authentic relic... I'm sure you'll be compensated handsomely.
+:'''Manya:''' Mmm, that's right &mdash; do you know much about Belobog's history? You can find out more about Cyrille "the Fool" in this pamphlet. Take it as a souvenir from the Administrative Department.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201140905-->
+<pre>
+[
+	{
+		"ID": 404012701,
+		"Type": "submission_state_equal",
+		"Param1": 404012709,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Manya:''' Unsent letters? This falls within the scope of duties of the Administrative Department, but...
+:'''Manya:''' Alas... fine. Let me take a look.
+;(If {{cx}}<!--SubMission Started: 404012705-->)
+:<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140078
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140078,
+			"TriggerCustomString": "Talk_404012705"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission not Started: 404012705-->)
+:;(If {{cx}}<!--SubMission Started: 404012706-->)
+::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140079
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140079,
+			"TriggerCustomString": "Talk_404012706"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:;(If {{cx}}<!--SubMission not Started: 404012706-->)
+::;(If {{cx}}<!--SubMission Started: 404012707-->)
+:::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140080
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140080,
+			"TriggerCustomString": "Talk_404012707"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::;(If {{cx}}<!--SubMission not Started: 404012707-->)
+:::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140081
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140081,
+			"TriggerCustomString": "Talk_404012708"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:'''Manya:''' I just said I'm on break... Fine, if you insist.
+:<!--Custom String Trigger: loop_501023703_2-->
+:<!--Custom String Listener: loop_501023703_2-->
+:{{DIcon|Talk}} What kind of work do you do exactly?
+::<!--Custom String Listener: TalkSentence_501023732-->
+::'''Manya:''' Excellent question! My job involves a little bit of everything, but vital to keeping things running smoothly in Belobog! You could say I'm the unsung hero of the city.
+::'''Manya:''' I'm responsible for grassroots affairs in the Administrative District, listening to basic requests from people, and solving day-to-day issues.
+::{{DIcon|Talk}} In that case, can you hear out my request?
+::<!--Custom String Listener: TalkSentence_501023735 -->
+::'''Manya:''' Of course! But you will need to reserve a slot. My work hours are from 9:00 AM to 12:00 PM, and 2:00 PM to 5:00 PM. I handle administrative and civil affairs during these times.
+::'''Manya:''' I'm currently on break. As a public official, separating professional and private time is of basic importance.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How do I make an official appointment?
+::<!--Custom String Listener: TalkSentence_501023738-->
+::'''Manya:''' Please fill out a form at counter 236 on the second floor of Qlipoth Fort. Then have a staff member stamp it at window 35 on the third floor.
+::'''Manya:''' After stamping, please head to window 155 on the first floor and wait in line for the proof of appointment. The formal processing usually takes one month after the appointment has been made.
+::'''Manya:''' To inquire about the specific processes, please consult the window staff when making the appointment.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You're just trying to slack off, aren't you?
+::<!--Custom String Listener: TalkSentence_501023742-->
+::'''Manya:''' What would make you think that? But I don't blame you. Many have the same misunderstanding, thinking this is just a job where you can kick your feet up.
+::'''Manya:''' A job where I just "Clock in, drink tea, read the newspaper, chit-chat with colleagues, and stare at the time, waiting to get off." But that's all nonsense.
+::'''Manya:''' Please lose these false impressions of grassroots public officials. Our days are busy ones indeed.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Nothing else.
+::<!--Custom String Listener: TalkSentence_501023746-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100002904,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Manya:''' How have things been? As you can see, it's just the same old, same old. Doing the same work for the same pay.
+:{{DIcon|Arrow}} Didn't the Town Hall send you to the Underworld?
+::<!--Custom String Listener: TalkSentence_501023753-->
+::'''Manya:''' The Town Hall has already allocated suitable personnel for that. Our administrative officials naturally want to do things by the book.
+::'''Manya:''' Also, the livelihoods of people in the Underworld is not within my job responsibilities. If you want to inquire about the Underworld, please submit your inquiries to an Underworld interim administrative official.
+:{{DIcon|Arrow}} Oh, I assumed you had been promoted.
+::<!--Custom String Listener: TalkSentence_501023756-->
+::'''Manya:''' ...Sorry to disappoint you. I am still an Administrative Official responsible for handling matters related to civil affairs in the Administrative District.
+::'''Manya:''' Her Excellency, the Supreme Guardian, is optimizing the structure for officials in the Town Hall. But I advise you not to give credence to any gossip before the final results are announced. Everything will be subject to notices posted in Qlipoth Fort.
+:<!--Custom String Trigger: TalkSentence_501023759-->
+:<!--Custom String Listener: TalkSentence_501023759-->
+:'''Manya:''' Ugh. Citizen... If there is no problem, then please refrain from obstructing my work. In order to ensure the regular connection between the Overworld and Underworld, Town Hall officials at every rank are working overtime. I don't have time for idle chatter.
+:<!--Ends the current performance-->
+:'''Manya:''' You again? I just said I'm on break... Fine, so what exactly do you want to know?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Manya:''' It's okay. It is my duty to serve every citizen.
+:'''Manya:''' Now, if you could just give me some privacy...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501023701: Config/Level/Mission/5010237/Act/Act501023701.json-->
+::'''Manya:''' Sorry, I'm busy. Please make an appointment. If you already have an appointment... well, I'm on break, so you can get a number and wait until you are called. It's expected to be your turn in an hour...
+::{{DIcon|Arrow}} You just said you were busy...
+:::<!--Custom String Listener: TalkSentence_501023702-->
+:::'''Manya:''' Of course, administrative staff are always busy. There are always so many things to think about... Admin works are like messy yarns, and there are only a few administrators to gather the threads into skeins. How could I not be busy?
+:::'''Manya:''' I'm going through work details in my brain even during my breaks. So, please don't interrupt my work, thank you.
+::{{DIcon|Arrow}} But everyone's waiting...
+:::<!--Custom String Listener: TalkSentence_501023725-->
+:::'''Manya:''' My job is to help citizens solve problems. If I can't get enough rest, how can I help others effectively?
+:::'''Manya:''' A reasonable time allotment for both work and break helps improve efficiency. I understand your anxiety, but I'll have to ask you to be patient.
+::'''Manya:''' Do you understand, my friend?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000031: Config/Level/NPC/W1/NPC_DefaultStory_1000029.json-->
+::'''Manya:''' You again? I just said I'm on break... Fine, so what exactly do you want to know?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|undefined}} Wallace wants to be friends with you.
+::<!--Trigger PerformanceE 301020103: Config/Level/Mission/3010201/Act/Act301020103.json-->
+::'''Manya:''' What? Who? I don't understand what you are saying. You are strange...
+::{{DIcon|Arrow}} I brought a picture of him...
+:::<!--Custom String Listener: TalkSentence_301020154-->
+:::'''Manya:''' Picture...? Photo...? Hmm, it feels a little weird... but show it to me anyway.
+::{{DIcon|Arrow}} He said your families have some history.
+:::<!--Custom String Listener: TalkSentence_301020156-->
+:::'''Manya:''' History...? Strange, I've never heard of him...
+::<!--Custom String Trigger: TalkSentence_301020157-->
+::<!--Custom String Listener: TalkSentence_301020157-->
+::'''Manya:''' Wait, this man...
+::'''Manya:''' Oh, I remember now. This is the son of the Limestein family, right? They say he is young and rich, but actually, he is quite old...
+::'''Manya:''' Why is he looking for me all of a sudden? No, wait! Don't be impulsive, Manya! You have to be careful!
+::'''Manya:''' The Limesteins are wealthy, but they're also new money. They have no aristocratic roots...
+::'''Manya:''' Wallace is 38 years and 2 months old. He's never held a public office, and I hear he's a complete loafer. The Limestein family doesn't appear to like him much either...
+::{{DIcon|Arrow}} How do you know so much about...
+::{{DIcon|Arrow}} Why are you hesitating?
+::<!--Custom String Listener: TalkSentence_301020164-->
+::'''Manya:''' In the short term, I'd be in with a chance of joining the upper classes! But the Limesteins have so many enemies, and no real foundation in political circles. If they were to lose their influence, or if Wallace were to be discarded by his family...
+::'''Manya:''' ...Then I might also be affected, and my career will be ruined!
+::'''Manya:''' No, I can't be friends with him! Please tell Wallace that I'm flattered, but it's better for us to keep our distance.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020103-->
+;(If {{cx}}<!--SubMission Started: 301120102--> and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|undefined}} I have this thesis here...
+::<!--Trigger PerformanceE 301120102: Config/Level/Mission/3011201/Act/Act301120102.json-->
+::<!--Custom String Trigger: ManyaTalk1-->
+::<!--Custom String Listener: ManyaTalk1-->
+::'''Manya:''' So you want to give a thesis... to the Supreme Guardian?
+::'''Manya:''' *sigh* It's impossible to hand it over directly to the Supreme Guardian. But handing over public research results for auditing by the appropriate authorities is well within the rules.
+::'''Manya:''' But I need some details about you. What school did you graduate from?
+::{{DIcon|Arrow}} The sky is my alma mater...
+::{{DIcon|Arrow}} The earth is my classroom...
+::<!--Custom String Listener: TalkSentence_301120135-->
+:;(Return to previous option selection (cloneCheckString))
+;(If {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|undefined}} "The same."
+::<!--Trigger PerformanceE 301120104: Config/Level/Mission/3011201/Act/Act301120104.json-->
+::'''Manya:''' Huh? What are you talking about?
+::{{DIcon|Arrow}} The answer to that question was "the same."
+::<!--Custom String Listener: TalkSentence_301120514-->
+::<!--Custom String Trigger: ManyaTalk1-->
+::<!--Custom String Listener: ManyaTalk1-->
+::<!--Custom String Listener: ManyaTalk1-->
+::'''Manya:''' Question? Which question...
+::'''Manya:''' Ah, now I remember! Didn't I send you packing last time? What are you doing back here bugging me again?
+::{{DIcon|Arrow}} ...Please, help me out one last time.
+::{{DIcon|Arrow}} ...That's what a real scientist would do.
+::<!--Custom String Listener: TalkSentence_301120518-->
+::<!--Custom String Trigger: ManyaHoldHead-->
+::<!--Custom String Listener: ManyaHoldHead-->
+::<!--Custom String Listener: ManyaHoldHead-->
+::'''Manya:''' This guy's a real stalker and a pain in the behind. Alright then, I'll bend the rules for you just this once &mdash; but you have to guess it right, okay?
+::'''Manya:''' Let me see then... prime numbers or natural ones, which are there more of... This is the first question, right? The right answer is... ahem, hang on a sec...
+::'''Manya:''' ..."The same." Well, how 'bout that, you're correct.
+::'''Manya:''' Okay, I can't just go back on a promise that I've made, can I? So I'll apply to the Ministry of Education with your thesis then. Run along then, and wait for my news. We'll notify you when ready.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301120104-->
+;(If {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|undefined}} I'm here to ask about that thesis paper.
+::<!--Trigger PerformanceE 301120202: Config/Level/Mission/3011202/Act/Act301120202.json-->
+::<!--Custom String Trigger: ManyaTalk1-->
+::<!--Custom String Listener: ManyaTalk1-->
+::<!--Custom String Listener: ManyaTalk1-->
+::<!--Custom String Listener: ManyaTalk1-->
+::'''Manya:''' Oh, it's you. You're here right on time. I was just setting off to look for you. The Ministry of Education has some feedback for you, and they sent this chap to ask you a few questions.
+::{{DIcon|Arrow}} More questions?
+::<!--Custom String Listener: TalkSentence_301120219-->
+::<!--Custom String Trigger: OfficerTalk1-->
+::<!--Custom String Listener: OfficerTalk1-->
+::'''Ministry of Education Officer:''' This is just standard procedure to avoid pointless waste of resources. Please bear with me a moment.
+::'''Ministry of Education Officer:''' Please also trust me when I say that these questions are very easy. If you have the skills to complete a scientific thesis, then you should be able to handle a few simple questions from me.
+::'''Ministry of Education Officer:''' Question one... Gosh, this is certainly very long. I think it's better if you just take a look for yourself...
+::<!--Custom String Trigger: ShowReading1-->
+::<!--Custom String Listener: ShowReading1-->
+:<pre>{
+	"$type": "RPG.GameCore.ClearTalkUI"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190303
+		}
+	}
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowTalkUI",
+	"Show": true
+}</pre>
+::<!--Custom String Trigger: QuestionOption1-->
+::<!--Custom String Listener: QuestionOption1-->
+::'''Ministry of Education Officer:''' Mmm? Finished yet? Answer me, how many cars have had their wheels stolen?
+::{{DIcon|Arrow}} 42.
+:::<!--Custom String Listener: TalkSentence_301120225-->
+:::<!--Custom String Trigger: OfficerHoldHead-->
+:::<!--Custom String Listener: OfficerHoldHead-->
+:::'''Ministry of Education Officer:''' Ah, how unfortunate, that's incorrect. It seems like there's no need for us to continue.
+:::'''Ministry of Education Officer:''' Of course, you shouldn't be discouraged! Keep working on your studies, and then come back to try again.
+:::<!--Custom String Trigger: Talk_301120202-->
+:::<!--Custom String Listener: Talk_301120202-->
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Fourteen.
+:::<!--Custom String Listener: TalkSentence_301120228-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Arrow}} Twenty-eight.
+:::<!--Custom String Listener: TalkSentence_301120245-->
+:::<!--Custom String Trigger: OfficerHoldHead-->
+:::<!--Custom String Listener: OfficerHoldHead-->
+:::'''Ministry of Education Officer:''' Ah, how unfortunate, that's incorrect. It seems like there's no need for us to continue.
+:::'''Ministry of Education Officer:''' Of course, you shouldn't be discouraged! Keep working on your studies, and then come back to try again.
+:::<!--Custom String Trigger: Talk_301120202-->
+:::<!--Custom String Listener: Talk_301120202-->
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Why does each car only lose one wheel?
+:::<!--Custom String Listener: TalkSentence_301120248-->
+:::<!--Custom String Trigger: OfficerHoldHead-->
+:::<!--Custom String Listener: OfficerHoldHead-->
+:::'''Ministry of Education Officer:''' That's not the point here! Tsk... forget about it. Seems like there's no need for us to continue here.
+:::'''Ministry of Education Officer:''' Of course, you shouldn't be discouraged! Keep working on your studies, and then come back to try again.
+:::<!--Custom String Trigger: Talk_301120202-->
+:::<!--Custom String Listener: Talk_301120202-->
+:::<!--Ends the current performance-->
+::{{DIcon|Loupe}} Let me see the question again...
+:::<!--Custom String Listener: ShowReading1-->
+::<pre>{
+	"$type": "RPG.GameCore.ClearTalkUI"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190303
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowTalkUI",
+	"Show": true
+}</pre>
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+;(If {{cx}}<!--SubMission Started: 301120204-->, {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|undefined}} "Fourteen."
+::<!--Trigger PerformanceE 301120204: Config/Level/Mission/3011202/Act/Act301120204.json-->
+::<!--Custom String Trigger: OfficerTalk1-->
+::<!--Custom String Listener: OfficerTalk1-->
+::<!--Custom String Listener: OfficerTalk1-->
+::'''Ministry of Education Officer:''' Huh? Didn't this {{MC|f=lady|m=gentleman}} just come in to inquire about their thesis? Why then all of a sudden...
+::{{DIcon|Arrow}} Give me one more chance!
+:::<!--Custom String Listener: TalkSentence_301120546-->
+:::'''Ministry of Education Officer:''' I... I'm afraid this will impact the fairness of our process. However...
+:::<!--Custom String Trigger: Wait_Option_301120204_16-->
+:::<!--Custom String Listener: Wait_Option_301120204_16-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Arrow}} I was just acting stupid then.
+:::<!--Custom String Listener: TalkSentence_301120548-->
+:::'''Ministry of Education Officer:''' Hahaha, now that's a sentence I have to put up with daily &mdash; and often. Most students underperforming in examinations fail to place the blame on themselves. And yet...
+:::<!--Custom String Trigger: Wait_Option_301120204_16-->
+:::<!--Custom String Listener: Wait_Option_301120204_16-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::<!--Custom String Trigger: Talk_301120204-->
+;(If {{cx}}<!--SubMission Started: 404012705-->, {{cx}}<!--SubMission Started: 404012706-->, {{cx}}<!--SubMission Started: 404012707-->, or {{cx}}<!--SubMission Started: 404012708-->, {{cx}}<!--SubMission Started: 301120204-->, {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|?}} I found some unsent letters.
+::'''Manya:''' Unsent letters? This falls within the scope of duties of the Administrative Department, but...
+::'''Manya:''' Alas... fine. Let me take a look.
+:;(If {{cx}}<!--SubMission Started: 404012705-->)
+::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140078
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140078,
+			"TriggerCustomString": "Talk_404012705"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:;(If {{cx}}<!--SubMission not Started: 404012705-->)
+::;(If {{cx}}<!--SubMission Started: 404012706-->)
+:::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140079
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140079,
+			"TriggerCustomString": "Talk_404012706"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+::;(If {{cx}}<!--SubMission not Started: 404012706-->)
+:::;(If {{cx}}<!--SubMission Started: 404012707-->)
+::::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140080
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140080,
+			"TriggerCustomString": "Talk_404012707"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:::;(If {{cx}}<!--SubMission not Started: 404012707-->)
+::::<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140081
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140081,
+			"TriggerCustomString": "Talk_404012708"
+		}
+	],
+	"SlotNum": 1,
+	"InfoText": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitSucceed": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission Started: 201140905-->, {{cx}}<!--SubMission Started: 404012705-->, {{cx}}<!--SubMission Started: 404012706-->, {{cx}}<!--SubMission Started: 404012707-->, or {{cx}}<!--SubMission Started: 404012708-->, {{cx}}<!--SubMission Started: 301120204-->, {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|undefined}} Do you know the Supreme Guardian Cyrille?
+::<!--Trigger PerformanceE 201140905: Config/Level/Mission/2011409/Act/Act201140905.json-->
+::'''Manya:''' ...Mmm, do you mean Cyrille "the Fool"?
+::'''Manya:''' Of course. I mean, anyone who's studied a little history has heard of her, right?
+::'''Manya:''' What made you suddenly interested in this piece of ancient history? I don't have the time for random trivia right now... There's a huge stack of documents on my desk waiting for my approval.
+::{{DIcon|Arrow}} I found something...
+:::<!--Custom String Listener: TalkSentence_201340193-->
+:::'''Manya:''' Huh? What...
+::{{DIcon|Arrow}} I brought something back from Cyrille.
+:::<!--Custom String Listener: TalkSentence_201340195-->
+:::'''Manya:''' ...Is this some kind of sick joke?
+::<!--Custom String Trigger: TalkSentence_201340196-->
+::<!--Custom String Listener: TalkSentence_201340196-->
+::'''Manya:''' Ah, okay... I guess, taking a look won't rob me of much time. What is it? Let me have a check, would you?
+::'''Manya:''' It's... this...
+::'''Manya:''' I'm flabbergasted! You might've just found an incredible antique item...
+::'''Manya:''' Based on the ''Belobog Conventions for the Preservation of Ancient Relics'', any antiques found by civilians must be turned over to the Architects for proper preservation. I will have to hold on to this ornament that you've found.
+::{{DIcon|Arrow}} What? This is robbery in plain sight!
+::{{DIcon|Arrow}} Then what's in it for me, huh?
+::<!--Custom String Listener: TalkSentence_201340201-->
+::'''Manya:''' Relax, I won't leave you empty-handed. I'm highly confident that this thing is an authentic relic... I'm sure you'll be compensated handsomely.
+::'''Manya:''' Mmm, that's right &mdash; do you know much about Belobog's history? You can find out more about Cyrille "the Fool" in this pamphlet. Take it as a souvenir from the Administrative Department.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201140905-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 201140905-->, {{cx}}<!--SubMission Started: 404012705-->, {{cx}}<!--SubMission Started: 404012706-->, {{cx}}<!--SubMission Started: 404012707-->, or {{cx}}<!--SubMission Started: 404012708-->, {{cx}}<!--SubMission Started: 301120204-->, {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon}} How have things been?
+::'''Manya:''' How have things been? As you can see, it's just the same old, same old. Doing the same work for the same pay.
+::{{DIcon|Arrow}} Didn't the Town Hall send you to the Underworld?
+:::<!--Custom String Listener: TalkSentence_501023753-->
+:::'''Manya:''' The Town Hall has already allocated suitable personnel for that. Our administrative officials naturally want to do things by the book.
+:::'''Manya:''' Also, the livelihoods of people in the Underworld is not within my job responsibilities. If you want to inquire about the Underworld, please submit your inquiries to an Underworld interim administrative official.
+::{{DIcon|Arrow}} Oh, I assumed you had been promoted.
+:::<!--Custom String Listener: TalkSentence_501023756-->
+:::'''Manya:''' ...Sorry to disappoint you. I am still an Administrative Official responsible for handling matters related to civil affairs in the Administrative District.
+:::'''Manya:''' Her Excellency, the Supreme Guardian, is optimizing the structure for officials in the Town Hall. But I advise you not to give credence to any gossip before the final results are announced. Everything will be subject to notices posted in Qlipoth Fort.
+::<!--Custom String Trigger: TalkSentence_501023759-->
+::<!--Custom String Listener: TalkSentence_501023759-->
+::'''Manya:''' Ugh. Citizen... If there is no problem, then please refrain from obstructing my work. In order to ensure the regular connection between the Overworld and Underworld, Town Hall officials at every rank are working overtime. I don't have time for idle chatter.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 201140905-->, {{cx}}<!--SubMission Started: 404012705-->, {{cx}}<!--SubMission Started: 404012706-->, {{cx}}<!--SubMission Started: 404012707-->, or {{cx}}<!--SubMission Started: 404012708-->, {{cx}}<!--SubMission Started: 301120204-->, {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon}} There's something else I want to ask.
+::'''Manya:''' I just said I'm on break... Fine, if you insist.
+::<!--Custom String Trigger: loop_501023703_2-->
+::<!--Custom String Listener: loop_501023703_2-->
+::{{DIcon|Talk}} What kind of work do you do exactly?
+:::<!--Custom String Listener: TalkSentence_501023732-->
+:::'''Manya:''' Excellent question! My job involves a little bit of everything, but vital to keeping things running smoothly in Belobog! You could say I'm the unsung hero of the city.
+:::'''Manya:''' I'm responsible for grassroots affairs in the Administrative District, listening to basic requests from people, and solving day-to-day issues.
+:::{{DIcon|Talk}} In that case, can you hear out my request?
+:::<!--Custom String Listener: TalkSentence_501023735 -->
+:::'''Manya:''' Of course! But you will need to reserve a slot. My work hours are from 9:00 AM to 12:00 PM, and 2:00 PM to 5:00 PM. I handle administrative and civil affairs during these times.
+:::'''Manya:''' I'm currently on break. As a public official, separating professional and private time is of basic importance.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How do I make an official appointment?
+:::<!--Custom String Listener: TalkSentence_501023738-->
+:::'''Manya:''' Please fill out a form at counter 236 on the second floor of Qlipoth Fort. Then have a staff member stamp it at window 35 on the third floor.
+:::'''Manya:''' After stamping, please head to window 155 on the first floor and wait in line for the proof of appointment. The formal processing usually takes one month after the appointment has been made.
+:::'''Manya:''' To inquire about the specific processes, please consult the window staff when making the appointment.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're just trying to slack off, aren't you?
+:::<!--Custom String Listener: TalkSentence_501023742-->
+:::'''Manya:''' What would make you think that? But I don't blame you. Many have the same misunderstanding, thinking this is just a job where you can kick your feet up.
+:::'''Manya:''' A job where I just "Clock in, drink tea, read the newspaper, chit-chat with colleagues, and stare at the time, waiting to get off." But that's all nonsense.
+:::'''Manya:''' Please lose these false impressions of grassroots public officials. Our days are busy ones indeed.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Nothing else.
+:::<!--Custom String Listener: TalkSentence_501023746-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 201140905-->, {{cx}}<!--SubMission Started: 404012705-->, {{cx}}<!--SubMission Started: 404012706-->, {{cx}}<!--SubMission Started: 404012707-->, or {{cx}}<!--SubMission Started: 404012708-->, {{cx}}<!--SubMission Started: 301120204-->, {{cx}}<!--SubMission Started: 301120202-->, {{cx}}<!--SubMission Started: 301120104-->, {{cx}}<!--SubMission Started: 301120102-->, and {{cx}}<!--SubMission Started: 301020103-->)
+:{{DIcon|Exit}} Nothing... Sorry to bother you during your break.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Manya:''' It's okay. It is my duty to serve every citizen.
+::'''Manya:''' Now, if you could just give me some privacy...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; OfficerAkimbo01)
+:<!--Custom String Listener: OfficerAkimbo01-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Manya
+|zhs  = 曼娅
+|zht  = 曼婭
+|ja   = マンヤ
+|ko   = 마냐
+|es   = Manya
+|fr   = Manya
+|ru   = Маня
+|th   = Manya
+|vi   = Manya
+|de   = Manya
+|id   = Manya
+|pt   = Manya
+}}
+==Change History==
+{{Change History|TODO}}

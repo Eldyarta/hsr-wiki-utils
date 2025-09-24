@@ -1,0 +1,227 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yujin#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Cloudbreadth Sleeves Owner
+|image           = NPC Yujin.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Yujin''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_21_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 401510210,
+		"Type": "submission_state_equal",
+		"Param1": 401510210,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Yujin:''' Mmm? "That teacher"... Again... Okay, I know, I know. Give me a minute.
+:'''Yujin:''' This parcel here, it's got everything "that teacher" needs. He's already paid for it, so you can just take it over for him.
+:<!--Ends the current performance-->
+:'''Yujin:''' Do tell!
+:<!--Custom String Trigger: Wait_Option_502010102_56-->
+:<!--Custom String Listener: Wait_Option_502010102_56-->
+:{{DIcon|Talk}} What's the difference between haute couture and ready-made?
+::<!--Custom String Listener: TalkSentence_502101103-->
+::'''Yujin:''' Haute couture clothings are premium items that are custom-tailored. The tailor personally handcrafts everything and quantity is limited. Every customer's size must be adhered to, with finer adjustments made to the completed article after.
+::'''Yujin:''' Our hauteur lines are all styled in Xianzhou designs. We're not the bandwagon type &mdash; each series is specially themed and packaged.
+::'''Yujin:''' Ready-made clothes cost much less than haute couture clothes. Plebeians, if you will, and can't be considered trendy. Tailors will slap on out-of-style patterns on these and hail them as "classics" of the heyday.
+::'''Yujin:''' Sometimes, they don't even bother with any designs, and plaster the clothes with their shop logo. And they're a hit with Outworlders for some reason! I hear used clothes have been auctioned off for ridiculous prices... It's an affront to this industry, I say!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you have any outfits to recommend?
+::<!--Custom String Listener: TalkSentence_502101108-->
+::'''Yujin:''' Pick a simple style, and never blindly go for the complicated. Our shop's advice is to stay away from the gaudy when buying haute couture pieces. Get the more obscure ones instead. That is the style befitting Xianzhou's elegance.
+::'''Yujin:''' To elaborate, when it comes to picking fabric and color, pick items that are skin-friendly and of neutral tones, such as wool-made ones, in colors like dark, brown, and almond.
+::'''Yujin:''' A true mark of a Xianzhou native is to buy the right one, not the most expensive one.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Has Jing Yuan really visited your shop?
+::<!--Custom String Listener: TalkSentence_502101112-->
+::'''Yujin:''' Haha, the general has visited before, but it was a... wayward occasion.
+::'''Yujin:''' Madam Qingzu of the Seat of Divine Foresight previously made a tailor's appointment with us, but when General Jing Yuan arrived, he just picked the cheapest ready-made clothes before trying to leave.
+::'''Yujin:''' Persuaded by Madam Qingzu, he reluctantly let our tailors measure him. But while we were fussing over him, the general closed his eyes and fell asleep...
+::'''Yujin:''' We arranged for the Seat's soldiers to help the general head back, but as soon as those Cloud Knights arrived, the general became energized and quickly left, as if the weariness were never there.
+::'''Yujin:''' I remember... I think he ordered dress attire for formal occasions.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Forget about it. I'll come back next time.
+::<!--Custom String Listener: TalkSentence_502101115-->
+::'''Yujin:''' It is Cloudbreadth Sleeves' honor to have entertained an esteemed guest such as yourself! Do let us know in advance the next time you come. We will close up the store just to specially welcome you!
+::<!--Ends the current performance-->
+:'''Yujin:''' It is Cloudbreadth Sleeves' honor to have entertained an esteemed guest such as yourself! Do let us know in advance the next time you come. We will close up the store just to specially welcome you!
+:<!--Ends the current performance-->
+:'''Yujin:''' (Trailblazer), you have come! Welcome!
+:'''Yujin:''' Look at your usual garb. Though underneath all that low-profile black and gold lies telltale signs of luxury, it is not Xianzhou clothes, and a pity at that.
+:'''Yujin:''' Incidentally, our tailors have come up with a few pieces from the Everyouth line. It is a custom line that we are about to launch; it hasn't been officially released to the public yet.
+:'''Yujin:''' Hold on while I get a colleague to bring it out for you to try on. Would you like to take a look at anything else in the meantime?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000065: Config/Level/NPC/W2/NPC_DefaultStory_502010101.json-->
+::'''Yujin:''' Hello, welcome to Cloudbreadth Sleeves. Our shop's interior is undergoing renovation at the moment, and isn't available to customers. How may I help you?
+::{{DIcon|Arrow}} I'm fine, just browsing.
+:::<!--Custom String Listener: TalkSentence_502101003-->
+:::'''Yujin:''' Please help yourself then.
+::{{DIcon|Arrow}} Do you have anything popular you can recommend?
+:::<!--Custom String Listener: TalkSentence_502101005-->
+:::'''Yujin:''' ...Oh, yes.
+::<!--Custom String Trigger: TalkSentence_502101006-->
+::<!--Custom String Listener: TalkSentence_502101006-->
+::'''Yujin:''' You look somewhat unfamiliar. I trust that you haven't been on Xianzhou long? Cloudbreadth Sleeves is Xianzhou's most prestigious place of couture. Even General Jing Yuan himself has to respect our tailors.
+::'''Yujin:''' Forgive me for being blunt: Cloudbreadth Sleeves may be haute couture, but our prices are justified. All Outworlders who come to Xianzhou order their clothes here. Could I interest you in ordering a few custom-made pieces?
+::<!--Custom String Trigger: Wait_Option_502010101_19-->
+::<!--Custom String Listener: Wait_Option_502010101_19-->
+::{{DIcon|Arrow}} Can I try one on first?
+:::<!--Custom String Listener: TalkSentence_502101011-->
+:::'''Yujin:''' Oh, about that, our shop's haute couture has limited quantities. You have to pay in advance to try them out.
+:::'''Yujin:''' And this is a new item, so we don't have any discounts available. Are you fine with this?
+::{{DIcon|Arrow}} I'll pass. Do you have ordinary ready-made clothes?
+:::<!--Custom String Listener: TalkSentence_502101014-->
+:::'''Yujin:''' The ready-made ones? The most popular among Outworlders is the "Classic Xianzhou Floral" series. But we're sold out right now.
+:::'''Yujin:''' Honestly, mass-produced and ready-made lines are outdated and preferred only by Outworlders. We don't stock many of those, and we won't be re-supplying on short notice.
+::<!--Custom String Trigger: TalkSentence_502101016-->
+::<!--Custom String Listener: TalkSentence_502101016-->
+::'''Yujin:''' Well, if you aren't looking for haute couture, we're pressed for time to entertain you. Please see yourself out.
+::<!--Custom String Trigger: Wait_Option_502010101_28-->
+::<!--Custom String Listener: Wait_Option_502010101_28-->
+::{{DIcon|Arrow}} Do you greet Jing Yuan with this attitude as well?
+:::<!--Custom String Listener: TalkSentence_502101018-->
+:::'''Yujin:''' Of course not, Jing... ahem, General Jing Yuan is an esteemed guest of our Cloudbreadth Sleeves. It's only natural he be treated as one.
+:::{{DIcon|Arrow}} I'll just go ask my bro Jing Yuan about this.
+:::<!--Custom String Listener: TalkSentence_502101020-->
+:::'''Yujin:''' Oo-er, wait, you... no, you-you know General Jing Yuan!?
+::{{DIcon|Arrow}} In this day and age, the service presented here is unacceptable!
+:::<!--Custom String Listener: TalkSentence_502101022-->
+:::'''Yujin:''' Hold it, hold it. I've been in this business for decades. Everything I say has always been in the customer's best interests.
+:::'''Yujin:''' You may think it's a slight to you, but even if General Jing Yuan himself comes to tailor his attire, I would address him similarly.
+:::{{DIcon|Arrow}} All right then, I'll ask him right now.
+:::<!--Custom String Listener: TalkSentence_502101025-->
+:::'''Yujin:''' Hang on, you, no wait- esteemed customer, you know General Jing Yuan!?
+::<!--Custom String Trigger: TalkSentence_502101026-->
+::<!--Custom String Listener: TalkSentence_502101026-->
+::'''Yujin:''' Ooh, please forgive me! You're a friend of General Jing Yuan's! This is all a misunderstanding! I wouldn't let you try ready-made clothes because they're all run-of-the-mill fashion lines. How could they be a match for someone who looks as {{MC|f=gorgeous|m=dashing}} as you! Away with them, I say!
+::'''Yujin:''' At Cloudbreadth Sleeves, we arrange for tailors to serve our esteemed guests without fail. We've prepared a small gift for you. Please accept it, and let us put all this behind us.
+::'''Yujin:''' If it would please you, how about you leave an address and time, and I shall make an appointment? Don't worry. I've already arranged for express passage for you. How about it? Is there anything else you need?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000066: Config/Level/NPC/W2/NPC_DefaultStory_502010104.json-->
+::'''Yujin:''' (Trailblazer), you have come! Welcome!
+::'''Yujin:''' Look at your usual garb. Though underneath all that low-profile black and gold lies telltale signs of luxury, it is not Xianzhou clothes, and a pity at that.
+::'''Yujin:''' Incidentally, our tailors have come up with a few pieces from the Everyouth line. It is a custom line that we are about to launch; it hasn't been officially released to the public yet.
+::'''Yujin:''' Hold on while I get a colleague to bring it out for you to try on. Would you like to take a look at anything else in the meantime?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 202090127-->)
+:{{DIcon|undefined}} I'd like to buy the latest arrivals in women's clothing.
+::<!--Trigger PerformanceD 202090134: Config/Level/Mission/2020901/Act/Act202090134.json-->
+::----
+::'''Yujin:''' Got it. I recommend that you buy the latest women's cropped jacket with a stand-up collar from the Nimbus Chronicles series. I'm sure you'll like it.
+::'''Cong:''' I&mdash;I've asked her to meet me at the Starskiff Haven. She seems to have something to tell me too. I must succeed this time.
+::'''Gloomy Poet:''' ...I have a bad feeling about this.
+::'''Cong:''' Don't jinx it.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202090134-->
+;(If {{cx}}<!--SubMission Started: 401510210-->)
+:{{DIcon}} I'll help "that teacher" with his fetch errand.
+::'''Yujin:''' Mmm? "That teacher"... Again... Okay, I know, I know. Give me a minute.
+::'''Yujin:''' This parcel here, it's got everything "that teacher" needs. He's already paid for it, so you can just take it over for him.
+::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{cx}}<!--SubMission Started: 401510210-->)
+:{{DIcon|Talk}} The Ambrosial Arbor crisis has finally come to an end...
+::<!--Trigger PerformanceE 90000138: Config/Level/NPCDialogue/P10202/NPCAct/Act90000138.json-->
+::'''Yujin:''' Indeed... Let me tell you a pattern: Every time a crisis takes place on the Luofu, it's the high-end consumer goods like us that always bear the brunt.
+::'''Yujin:''' When the Ambrosial Arbor first started growing, everyone was terrified. Who would think to purchase haute couture clothing at such moments in their lives? The out-of-season ready-made clothes are becoming as cheap as dishcloths!
+::'''Yujin:''' You know what? Praying to the Reignbow really works. See how the Ambrosial Arbor crisis got sorted out and the tree stopped growing? Thank goodness, thank goodness... I want to enjoy my peaceful life again!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000126-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{cx}}<!--SubMission Started: 401510210-->)
+:{{DIcon}} About your shop, I am somewhat curious...
+::'''Yujin:''' Do tell!
+::<!--Custom String Trigger: Wait_Option_502010102_56-->
+::<!--Custom String Listener: Wait_Option_502010102_56-->
+::{{DIcon|Talk}} What's the difference between haute couture and ready-made?
+:::<!--Custom String Listener: TalkSentence_502101103-->
+:::'''Yujin:''' Haute couture clothings are premium items that are custom-tailored. The tailor personally handcrafts everything and quantity is limited. Every customer's size must be adhered to, with finer adjustments made to the completed article after.
+:::'''Yujin:''' Our hauteur lines are all styled in Xianzhou designs. We're not the bandwagon type &mdash; each series is specially themed and packaged.
+:::'''Yujin:''' Ready-made clothes cost much less than haute couture clothes. Plebeians, if you will, and can't be considered trendy. Tailors will slap on out-of-style patterns on these and hail them as "classics" of the heyday.
+:::'''Yujin:''' Sometimes, they don't even bother with any designs, and plaster the clothes with their shop logo. And they're a hit with Outworlders for some reason! I hear used clothes have been auctioned off for ridiculous prices... It's an affront to this industry, I say!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any outfits to recommend?
+:::<!--Custom String Listener: TalkSentence_502101108-->
+:::'''Yujin:''' Pick a simple style, and never blindly go for the complicated. Our shop's advice is to stay away from the gaudy when buying haute couture pieces. Get the more obscure ones instead. That is the style befitting Xianzhou's elegance.
+:::'''Yujin:''' To elaborate, when it comes to picking fabric and color, pick items that are skin-friendly and of neutral tones, such as wool-made ones, in colors like dark, brown, and almond.
+:::'''Yujin:''' A true mark of a Xianzhou native is to buy the right one, not the most expensive one.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Has Jing Yuan really visited your shop?
+:::<!--Custom String Listener: TalkSentence_502101112-->
+:::'''Yujin:''' Haha, the general has visited before, but it was a... wayward occasion.
+:::'''Yujin:''' Madam Qingzu of the Seat of Divine Foresight previously made a tailor's appointment with us, but when General Jing Yuan arrived, he just picked the cheapest ready-made clothes before trying to leave.
+:::'''Yujin:''' Persuaded by Madam Qingzu, he reluctantly let our tailors measure him. But while we were fussing over him, the general closed his eyes and fell asleep...
+:::'''Yujin:''' We arranged for the Seat's soldiers to help the general head back, but as soon as those Cloud Knights arrived, the general became energized and quickly left, as if the weariness were never there.
+:::'''Yujin:''' I remember... I think he ordered dress attire for formal occasions.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Forget about it. I'll come back next time.
+:::<!--Custom String Listener: TalkSentence_502101115-->
+:::'''Yujin:''' It is Cloudbreadth Sleeves' honor to have entertained an esteemed guest such as yourself! Do let us know in advance the next time you come. We will close up the store just to specially welcome you!
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{cx}}<!--SubMission Started: 401510210-->)
+:{{DIcon|Exit}} Forget about it. I'll come back next time.
+::'''Yujin:''' It is Cloudbreadth Sleeves' honor to have entertained an esteemed guest such as yourself! Do let us know in advance the next time you come. We will close up the store just to specially welcome you!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yujin
+|zhs  = 予衿
+|zht  = 予衿
+|ja   = 予衿
+|ko   = 여진
+|es   = Yujin
+|fr   = Yujin
+|ru   = Юйцзинь
+|th   = Yujin
+|vi   = Yujin
+|de   = Yujin
+|id   = Yujin
+|pt   = Yujin
+}}
+==Change History==
+{{Change History|TODO}}

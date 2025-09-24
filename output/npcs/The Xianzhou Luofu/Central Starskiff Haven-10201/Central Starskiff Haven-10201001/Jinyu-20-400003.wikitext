@@ -1,0 +1,194 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jinyu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Hospitable Vidyadhara Lady
+|image           = NPC Jinyu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Jinyu''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_20_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Jinyu:''' Sure, ask away.
+:<!--Custom String Trigger: Wait_Option_502010802_47-->
+:<!--Custom String Listener: Wait_Option_502010802_47-->
+:{{DIcon|Talk}} Were you always as romantic as this before you lost your memory?
+::<!--Custom String Listener: TalkSentence_502108103-->
+::'''Jinyu:''' I can't remember a thing about what I was like before I lost my memory, but those who know me say I remain the same way no matter how many times I molt. Besides, if you only had memories for thirty days, you'd be as spontaneous with love as me.
+::'''Jinyu:''' ...It seems that since I was so passionate about romance in my previous lives, I am always meeting people who claim to love me "forever." I'm truly sorry, but I just can't remember who they were.
+::'''Jinyu:''' Maybe I really did find love! But that version of me is completely different from who I currently am. I don't want to pretend that I'm still that person and to fake my love for others. I'm looking for my true love in this life that I'm living right now!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} It must be a real hassle having such a short memory.
+::<!--Custom String Listener: TalkSentence_502108107-->
+::'''Jinyu:''' To be honest, yes. All my friends and memories just get completely wiped after a month, as though the whole world had abandoned me.
+::'''Jinyu:''' But having a short memory isn't all that bad. Most of our best memories are brief, just like parties are all destined to end. It's the loneliness between those moments that feels like forever.
+::'''Jinyu:''' If I had to face centuries of loneliness and repetition just like everyone else aboard Xianzhou... well, I can't imagine someone like me lasting very long like that.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Are you keeping a diary of all this?
+::<!--Custom String Listener: TalkSentence_502108111-->
+::'''Jinyu:''' Who keeps a diary? Do you write in a diary? I don't.
+::'''Jinyu:''' The person I was in the past never kept any diary, and present-day me doesn't really want to leave anything for the future. Even if my debt of love is impossible to explain, I still don't really care for it.
+::'''Jinyu:''' I'm definitely sincere and passionate about every relationship. That's enough for me. If destiny is a thing, then let's fall in love once more &mdash; my arms are always open.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} We'll meet again if destiny permits it.
+::<!--Custom String Listener: TalkSentence_502108115-->
+::'''Jinyu:''' Sure, I feel like we'll meet again anyway.
+::<!--Ends the current performance-->
+:'''Jinyu:''' Sure, I feel like we'll meet again anyway.
+:<!--Ends the current performance-->
+:'''Jinyu:''' Hold on, you look familiar... I may only have memories from a month ago, but I have vague recollections of you.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000055: Config/Level/NPC/W2/NPC_DefaultStory_502010801.json-->
+::'''Jinyu:''' Oof! Sorry, have we met?
+::{{DIcon|Arrow}} No, we haven't met before.
+:::<!--Custom String Listener: TalkSentence_502108003-->
+:::'''Jinyu:''' Then we're strangers &mdash; and I'm relieved. I'm really sorry for bothering you.
+:::'''Jinyu:''' ...But we can start to get to know each other now. My name's Jinyu. Nice to meet you.
+::{{DIcon|Arrow}} Have you already forgotten who I am?
+:::<!--Custom String Listener: TalkSentence_502108006-->
+:::'''Jinyu:''' Ah! We know each other, do we? I'm sorry. I've totally forgotten about you.
+:::'''Jinyu:''' Even though we may know each other, let's treat this as us meeting for the first time. My name's Jinyu. Nice to meet you.
+::<!--Custom String Trigger: Wait_Option_502010801_17-->
+::<!--Custom String Listener: Wait_Option_502010801_17-->
+::{{DIcon|Arrow}} I'm (Trailblazer), and the pleasure is all mine.
+::{{DIcon|Arrow}} ... (Trailblazer).
+::{{DIcon|Arrow}} ...
+::<!--Custom String Listener: TalkSentence_502108012-->
+::'''Jinyu:''' You don't wish to tell me your name? I see. Not like that I'll remember it anyway.
+::<!--Custom String Trigger: TalkSentence_502108013-->
+::<!--Custom String Listener: TalkSentence_502108013-->
+::'''Jinyu:''' Phew... This may be out of the blue, but I'm actually evading the pursuit of my countless ex-lovers. I thought you were one of them, but apparently not.
+::{{DIcon|Arrow}} You have had countless lovers? Such a player!
+:::<!--Custom String Listener: TalkSentence_502108015-->
+:::'''Jinyu:''' You're mistaken, my heart can only belong to one. When I like someone, it's hard to like another.
+:::'''Jinyu:''' But these lovers are from my past reincarnations. I don't know them, but they know me.
+::{{DIcon|Arrow}} And how do you know I'm not one of them?
+:::<!--Custom String Listener: TalkSentence_502108018-->
+:::'''Jinyu:''' If you were, you'd surely know what illness has stricken me. But with that sweet, innocent face of yours, I'm certain you have no clue.
+:::'''Jinyu:''' If you know what rare illness I have, you would understand very quickly.
+::<!--Custom String Trigger: TalkSentence_502108023-->
+::<!--Custom String Listener: TalkSentence_502108023-->
+::'''Jinyu:''' We Vidyadhara usually stay young by molting after living for centuries. Any damage done to the body will be repaired during the molting process, but our memories are completely wiped.
+::'''Jinyu:''' As for me and my condition, well, my body compacts this five or six-century process into just one month. After one month, I'd have forgotten about our meeting here and now &mdash; and this love story, too.
+::'''Jinyu:''' How about it? Do you understand after hearing me out? I haven't found a lover in this life, and perhaps we're just right for each other.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000056: Config/Level/NPC/W2/NPC_DefaultStory_502010804.json-->
+::'''Jinyu:''' Hold on, you look familiar... I may only have memories from a month ago, but I have vague recollections of you.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to know more about your past.
+::'''Jinyu:''' Sure, ask away.
+::<!--Custom String Trigger: Wait_Option_502010802_47-->
+::<!--Custom String Listener: Wait_Option_502010802_47-->
+::{{DIcon|Talk}} Were you always as romantic as this before you lost your memory?
+:::<!--Custom String Listener: TalkSentence_502108103-->
+:::'''Jinyu:''' I can't remember a thing about what I was like before I lost my memory, but those who know me say I remain the same way no matter how many times I molt. Besides, if you only had memories for thirty days, you'd be as spontaneous with love as me.
+:::'''Jinyu:''' ...It seems that since I was so passionate about romance in my previous lives, I am always meeting people who claim to love me "forever." I'm truly sorry, but I just can't remember who they were.
+:::'''Jinyu:''' Maybe I really did find love! But that version of me is completely different from who I currently am. I don't want to pretend that I'm still that person and to fake my love for others. I'm looking for my true love in this life that I'm living right now!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} It must be a real hassle having such a short memory.
+:::<!--Custom String Listener: TalkSentence_502108107-->
+:::'''Jinyu:''' To be honest, yes. All my friends and memories just get completely wiped after a month, as though the whole world had abandoned me.
+:::'''Jinyu:''' But having a short memory isn't all that bad. Most of our best memories are brief, just like parties are all destined to end. It's the loneliness between those moments that feels like forever.
+:::'''Jinyu:''' If I had to face centuries of loneliness and repetition just like everyone else aboard Xianzhou... well, I can't imagine someone like me lasting very long like that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you keeping a diary of all this?
+:::<!--Custom String Listener: TalkSentence_502108111-->
+:::'''Jinyu:''' Who keeps a diary? Do you write in a diary? I don't.
+:::'''Jinyu:''' The person I was in the past never kept any diary, and present-day me doesn't really want to leave anything for the future. Even if my debt of love is impossible to explain, I still don't really care for it.
+:::'''Jinyu:''' I'm definitely sincere and passionate about every relationship. That's enough for me. If destiny is a thing, then let's fall in love once more &mdash; my arms are always open.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} We'll meet again if destiny permits it.
+:::<!--Custom String Listener: TalkSentence_502108115-->
+:::'''Jinyu:''' Sure, I feel like we'll meet again anyway.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} We'll meet again if destiny permits it.
+::'''Jinyu:''' Sure, I feel like we'll meet again anyway.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502108010)
+:<!--Custom String Listener: TalkSentence_502108010-->
+::'''Jinyu:''' Hahaha, so you're a real shy one, huh?
+::<!--Custom String Trigger: TalkSentence_502108013-->
+::<!--Custom String Listener: TalkSentence_502108013-->
+::'''Jinyu:''' Phew... This may be out of the blue, but I'm actually evading the pursuit of my countless ex-lovers. I thought you were one of them, but apparently not.
+::{{DIcon|Arrow}} You have had countless lovers? Such a player!
+:::<!--Custom String Listener: TalkSentence_502108015-->
+:::'''Jinyu:''' You're mistaken, my heart can only belong to one. When I like someone, it's hard to like another.
+:::'''Jinyu:''' But these lovers are from my past reincarnations. I don't know them, but they know me.
+::{{DIcon|Arrow}} And how do you know I'm not one of them?
+:::<!--Custom String Listener: TalkSentence_502108018-->
+:::'''Jinyu:''' If you were, you'd surely know what illness has stricken me. But with that sweet, innocent face of yours, I'm certain you have no clue.
+:::'''Jinyu:''' If you know what rare illness I have, you would understand very quickly.
+::<!--Custom String Trigger: TalkSentence_502108023-->
+::<!--Custom String Listener: TalkSentence_502108023-->
+::'''Jinyu:''' We Vidyadhara usually stay young by molting after living for centuries. Any damage done to the body will be repaired during the molting process, but our memories are completely wiped.
+::'''Jinyu:''' As for me and my condition, well, my body compacts this five or six-century process into just one month. After one month, I'd have forgotten about our meeting here and now &mdash; and this love story, too.
+::'''Jinyu:''' How about it? Do you understand after hearing me out? I haven't found a lover in this life, and perhaps we're just right for each other.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502108021)
+:<!--Custom String Listener: TalkSentence_502108021-->
+::'''Jinyu:''' Yippee! But before we make things official, I want to make something clear first.
+::'''Jinyu:''' Once you know about my condition, it's okay if you decide to reject me.
+::<!--Custom String Trigger: TalkSentence_502108023-->
+::<!--Custom String Listener: TalkSentence_502108023-->
+::'''Jinyu:''' We Vidyadhara usually stay young by molting after living for centuries. Any damage done to the body will be repaired during the molting process, but our memories are completely wiped.
+::'''Jinyu:''' As for me and my condition, well, my body compacts this five or six-century process into just one month. After one month, I'd have forgotten about our meeting here and now &mdash; and this love story, too.
+::'''Jinyu:''' How about it? Do you understand after hearing me out? I haven't found a lover in this life, and perhaps we're just right for each other.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jinyu
+|zhs  = 锦余
+|zht  = 錦余
+|ja   = 錦余
+|ko   = 금여
+|es   = Jinyu
+|fr   = Jinyu
+|ru   = Цзиньюй
+|th   = Jinyu
+|vi   = Jin Yu
+|de   = Jinyu
+|id   = Jinyu
+|pt   = Jinyu
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,139 @@
+<%-- [PAGE_INFO]
+PageTitle=#Anderson#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Bartender
+|image           = NPC Anderson.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Anderson''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_48_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030201: Config/Level/Mission/5030302/Act/Act503030201.json-->
+::'''Anderson:''' Greetings, {{MC|f=beautiful lady|m=handsome sir}}. It is an honor to meet such a {{MC|f=beautiful|m=handsome}} guest as yourself. Allow me to prepare a drink for you.
+::'''Anderson:''' Well, this recipe is improved based on that famous Galaxy Ranger's recipe... rum, soda, lime, mint, and a touch of sugar, and you will get the unique mix: {{Rubi|Galactic Voyager|Mojito}}.
+::{{DIcon|Arrow}} Sounds good!
+:::<!--Custom String Listener: TalkSentence_503030204-->
+:::'''Anderson:''' Haha, I had a feeling you would enjoy it...
+::{{DIcon|Arrow}} Isn't it too ordinary?
+:::<!--Custom String Listener: TalkSentence_503030206-->
+:::'''Anderson:''' Oh, my apologies... How about this? Blended with Kapo-Kali, Lemon Lazuli, golden pine nut, and orange crystal, with a subtle touch of absinthe and anise? I call it "Rebirth."
+::{{DIcon|Arrow}} But I'm not an adult yet...
+:::<!--Custom String Listener: TalkSentence_503030208-->
+:::'''Anderson:''' Oh... my apologies... Let me prepare a more suitable drink for you.
+:::'''Anderson:''' Here, a Penacony specialty &mdash; Classic SoulGlad, if you please.
+::<!--Custom String Trigger: TalkSentence_503030210-->
+::<!--Custom String Listener: TalkSentence_503030210-->
+::'''Anderson:''' I see you are not quite accustomed to this place... Are you new to Penacony?
+::'''Anderson:''' If you are not in a rush to enter the dream world, please feel free to frequent here. This small bar has a huge stage...
+::'''Anderson:''' With so many customers here, this place is a vast repository of information and a fertile ground for stories.
+::'''Anderson:''' If you have questions or are seeking information, please come here and order a drink &mdash; a drink for a story. I guarantee my stories will satisfy your curiosity.
+::'''Anderson:''' And of course, if you have splendid stories to exchange for drinks... I'd be delighted to hear them.
+::'''Anderson:''' Here, this is on the house. Don't forget to come here often.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404032601-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030202: Config/Level/Mission/5030302/Act/Act503030202.json-->
+::'''Anderson:''' Greetings, {{MC|f=beautiful lady|m=handsome sir}}. What would you like today?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Let's see what you have here.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 48,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 38,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} Any recommended beverage?
+::'''Anderson:''' Well, I believe each guest has their own "exclusive special drink."
+::'''Anderson:''' However, as the bartender, I would like to recommend the most popular yet enjoyable option, the Classic SoulGlad.
+::'''Anderson:''' I recommend trying this concoction, even if it's just to blend in.
+::<!--Custom String Trigger: Wait_Option_503030203_46-->
+::<!--Custom String Listener: Wait_Option_503030203_46-->
+::{{DIcon|Talk}} Do you enjoy gossiping?
+:::<!--Custom String Listener: TalkSentence_503030235-->
+:::'''Anderson:''' Well... don't you find the process of mixing drinks interesting?
+:::'''Anderson:''' Combine base ingredients, both related and unrelated, in specific proportions to create a variety of intriguing beverages.
+:::'''Anderson:''' To transform common ingredients into something extraordinary through certain rules and techniques... I find this process... fascinating.
+:::'''Anderson:''' Therefore, what some may refer to as "gossip," or rather, the information and stories, can be treated as ingredients and mixed, gaining a richer flavor compared to mundane spices.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why aren't you bartending in the Dreamscape?
+:::<!--Custom String Listener: TalkSentence_503030240-->
+:::'''Anderson:''' Hah... a great question. While I'm a bartender, I don't particularly enjoy the feeling of indulgence.
+:::'''Anderson:''' People tend to indulge in fleeting, unreal pleasures, whether it's through wine or dreams.
+:::'''Anderson:''' But to be honest, it doesn't appeal to me... People come to {{Rubi|the City of Dreams|Penacony}} to pursue what they cannot attain in reality. As for me, I am already content with my current life.
+::;(If {{cx}}<!--Hidden Mission ID 4040326--> has been completed)
+:::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}<!--Hidden Mission ID 4040326--> has not been completed)
+::::'''Anderson:''' Please take your drink, esteemed guest. I hope you find as much happiness in contentment as I do.
+::::<!--Custom String Trigger: Talk_404032601-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::<!--Custom String Listener: TalkSentence_503030245-->
+:::'''Anderson:''' Take care. You are always welcome here.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} See you next time.
+::'''Anderson:''' Looking forward to seeing you next time.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Anderson
+|zhs  = 安德森
+|zht  = 安德森
+|ja   = アンダーソン
+|ko   = 앤더슨
+|es   = Anderson
+|fr   = Anderson
+|ru   = Андерсон
+|th   = Anderson
+|vi   = Anderson
+|de   = Anderson
+|id   = Anderson
+|pt   = Anderson
+}}
+==Change History==
+{{Change History|TODO}}

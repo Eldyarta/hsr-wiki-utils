@@ -1,0 +1,136 @@
+<%-- [PAGE_INFO]
+PageTitle=#Herklas#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Kremnos Vanguards
+|image           = NPC Herklas.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Bloodbathed Battlefront" Castrum Kremnos
+|relatives       = 
+}}
+'''Herklas''' is an NPC on [[Amphoreus]], located in [["Bloodbathed Battlefront" Castrum Kremnos]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Bloodbathed Battlefront" Castrum Kremnos|npc_200_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504031001: Config/Level/Mission/5040310/Act/Act504031001.json-->
+::'''Herklas:''' I know. I'll say: "I am Herklas. I vow upon my honor that I won't abandon my friends, even in death!"
+::'''Herklas:''' ...No, still lacks some panache. Got to have a more dashing opener. As a stalwart Kremnos vanguard handpicked by Lord Krateros, I mustn't lose face.
+::{{DIcon|Arrow}} Your opener?
+:::<!--Custom String Listener: TalkSentence_504031005-->
+:::'''Herklas:''' Yes. One day, I will take to the field and battle Castrum Kremnos' enemies. When the day comes, my opening lines must leave the deepest impression, or I will disgrace the vanguards...
+::{{DIcon|Arrow}} "I'll fight ten!"
+:::<!--Custom String Listener: TalkSentence_504031007-->
+:::'''Herklas:''' Mm... It's got flair, but is ten too few?
+:::'''Herklas:''' I heard that when King Eurypon personally fought in battle, he slew a hundred enemies on the field! As a Kremnos vanguard, I have to at least take out twenty.
+::{{DIcon|Arrow}} Kremnos vanguard? Krateros?
+:::<!--Custom String Listener: TalkSentence_504031010-->
+:::'''Herklas:''' What, never heard of this before? There aren't many greenhorn recruits like you around...
+::<!--Custom String Trigger: TalkSentence_504031011-->
+::<!--Custom String Listener: TalkSentence_504031011-->
+::'''Herklas:''' The Kremnos vanguard are the most elite soldiers in Castrum Kremnos. We possess the finest weapons and most stringent military discipline in all the city, and are led directly by King Eurypon. Other soldiers hold us in the highest regard.
+::'''Herklas:''' Krateros of the King's Aegis, once gifted me a shield, encouraging me to garner glory on the battlefield... But many days have passed, and yet I remain still at this post &mdash; no opportunity to leave the city and quell enemy forces.
+::'''Herklas:''' We are duty-bound to protect the capital, but as {{Rubi|children of Gorgo|Kremnos Warriors}}, what greater glory is there than spilling our lifeblood on the battlefield?
+::'''Herklas:''' So I practice every strike, over and over, waiting for the day I will thrust the tip of my lance through an enemy, or be impaled by my enemy.
+::'''Herklas:''' One fine day, my moment will arrive. My death will haunt the enemy with lingering fear, and my comrades will weep passionately over my coffin...
+::'''Herklas:''' That's the ideal I harbor &mdash; the warrior's ideal ending.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504031002: Config/Level/Mission/5040310/Act/Act504031002.json-->
+::'''Herklas:''' Valorous death before glorious return! My lance seeks the enemy, even today.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Let's talk about something.
+:::'''Herklas:''' Sure, a war of words is also a battlefield. We can learn much from within.
+:::<!--Custom String Trigger: Wait_Option_504031003_44-->
+:::<!--Custom String Listener: Wait_Option_504031003_44-->
+:::{{DIcon|Talk}} Tell me about Krateros.
+::::<!--Custom String Listener: TalkSentence_504031204-->
+::::'''Herklas:''' Lord Krateros is a King's Aegis, whose sole duty is to assist King Eurypon. His experience is unrivaled as a veteran soldier, and both his body and armor bear countless scars &mdash; all symbols of glory.
+::::'''Herklas:''' He is one of only five who hold such elite status. They are exemplars among the Kremnos vanguards, and most bosom comrades of the King. When the king is not around, they wield the utmost authority among the ranks.
+::::'''Herklas:''' It's said that when the king personally led the army in a siege against Okhema, their warpath was paved with fury and song, but they carelessly fell into a dastardly Okheman trap...
+::::'''Herklas:''' In that critical moment when the king was about to be captured, Krateros tore through the enemy encirclement with nothing but a sword and shield, the king right behind him.
+::::'''Herklas:''' After the battle, the king gifted him with a silver shield, honoring his feat of saving the king... What I would give to have this chance to perform such a heroic deed.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where is your shield?
+::::<!--Custom String Listener: TalkSentence_504031210-->
+::::'''Herklas:''' I left it at home... That shield is a symbol of glory. If I accidentally scratched it, that would be a taint on glory itself!
+::::'''Herklas:''' You might think it a joke, but while the quality of Castrum Kremnos shields far surpasses the smithing capabilities of other cities, their methods of production are long lost. Every shield in existence is an ancient heirloom, and can't withstand much roughhousing.
+::::'''Herklas:''' Besides, blocking and parrying isn't a warrior's way. Offense is the best defense. If I had to bring it into every battle, where would I get a chance to pursue a glorious death?
+::::'''Herklas:''' But I hear some warriors are masters at throwing shields, and have their shield return to them after they throw it out... So much more convenient than javelins. Perhaps it's time I learn to do that?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How can I become a warrior?
+::::<!--Custom String Listener: TalkSentence_504031215-->
+::::'''Herklas:''' Glory is of course the most essential for warriors. Castrum Kremnos has an ancient saying: "The body may die, but glory cannot be abandoned." What better way to prove your honor than to topple a formidable foe?
+::::'''Herklas:''' I hear that there's a type of monster called a {{Rubi|Steelclaw Beast|Bladed Black Velvet}} roaming outside the city. It excels at burrowing with claws as long as swords on its paws, capable of cleaving through the finest armaments in a flash. Ordinary soldiers aren't a match for it.
+::::'''Herklas:''' If you can slay such a monster, you'd be more than qualified to be a Kremnos Warrior. Alas, the problem lies in finding a live Steelclaw Beast... They've almost all been killed off.
+::::'''Herklas:''' Good thing there's another option now &mdash; monsters from the black tide. They're said to have hundreds of eyes and arms, their bodies lined with spines, leaving even the bravest of warriors quaking in their boots...
+::::'''Herklas:''' I'd also like to try slaying a couple, if I had the chance.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you know Ulixes?
+::::<!--Custom String Listener: TalkSentence_504031221-->
+::::'''Herklas:''' Ulixes? That coward? Hmph, of course I've heard of him...
+::::'''Herklas:''' He fancies himself an instructor of new recruits, but his teachings contain nary a shred of glory. Instead, he harps all day about how "you can forsake glory, but never your life" &mdash; is that how a warrior should live his creed?
+::::'''Herklas:''' I hear he once led a company to fight against the black tide. His comrades all chose death in glory, leaving only him alive... Hah, he could have been a deserter for all we know!
+::::'''Herklas:''' I'm ever-disdainful of scum who desecrate glory like him, so I confronted him to a duel, but was bested by his conniving tricks... I will be sure to seek him out for another fight in future!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let's end our chat here.
+::::<!--Custom String Listener: TalkSentence_504031226-->
+::::'''Herklas:''' All right, it's time for a break anyway.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} May you find glory soon.
+:::'''Herklas:''' Thank you, friend. I trust that day will come.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Herklas
+|zhs  = 赫克鲁斯
+|zht  = 赫克魯斯
+|ja   = へクレス
+|ko   = 헤크라스
+|es   = Hercles
+|fr   = Héraclès
+|ru   = Геркулес
+|th   = Herklas
+|vi   = Herklas
+|de   = Herklas
+|id   = Herklas
+|pt   = Herklas
+}}
+==Change History==
+{{Change History|TODO}}

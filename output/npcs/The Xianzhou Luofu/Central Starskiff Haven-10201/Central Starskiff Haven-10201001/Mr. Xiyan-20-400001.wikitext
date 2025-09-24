@@ -1,0 +1,549 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mr. Xiyan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Sleepless Earl's Storyteller
+|image           = NPC Mr. Xiyan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Mr. Xiyan''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_20_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 102050116,
+		"Type": "submission_state_equal",
+		"Param1": 102050116,
+		"Param2": 1
+	}
+]
+</pre>
+:{{A|VO chapter2 2 xiyan 101.ogg}} '''Mr. Xiyan:''' Ah, new patrons I see! Looking for some refreshment at the teahouse?
+:{{A|VO chapter2 2 xiyan 102.ogg}} '''Mr. Xiyan:''' Sadly there have been fewer and fewer bookings since the lockdown, so we decided just now to close the Sleepless Earl until further notice. We'll reopen once the Cloud Knights finish addressing their "security concerns."
+:{{DIcon|Arrow}} Did you see a foxian girl pass by here?
+::<!--Custom String Listener: TalkSentence_102051905-->
+::{{A|VO chapter2 2 xiyan 103.ogg}} '''Mr. Xiyan:''' Unfortunately yes, the boss is never far away.
+::{{DIcon|Arrow}} Miss Tingyun... is your boss?
+::<!--Custom String Listener: TalkSentence_102051907-->
+::{{A|VO chapter2 2 xiyan 104.ogg}} '''Mr. Xiyan:''' No, no, my apologies, different foxian. If it's Miss Tingyun you're looking for, she was here a moment ago...
+:{{DIcon|Arrow}} (Show Tingyun's photo.)
+::<!--Custom String Listener: TalkSentence_102051909-->
+::{{A|VO chapter2 2 mar7th 120.ogg}} '''March 7th:''' Any chance you've seen this lady?
+::{{A|VO chapter2 2 xiyan 105.ogg}} '''Mr. Xiyan:''' Ah, so it's Miss Tingyun you're looking for...
+:<!--Custom String Trigger: TalkSentence_102051911-->
+:<!--Custom String Listener: TalkSentence_102051911-->
+:{{A|VO chapter2 2 xiyan 106.ogg}} '''Mr. Xiyan:''' She ordered a cup of Immortal's Delight and went on her way. I saw her checking out the food stalls over there, that might be a good place to start.
+:{{A|VO chapter2 2 mar7th 121.ogg}} '''March 7th:''' *sigh* Here we are sweating over our training while she's busy sampling dim sum!
+:<!--Ends the current performance-->
+:'''Mr. Xiyan:''' ... You put me in a difficult spot. Storytellers don't have much except a few books stored in our heads. I'll become a pauper if I ever told them all.
+:'''Mr. Xiyan:''' If you're willing to listen to a bit of gossip, then I can certainly fill you in.
+:<!--Custom String Trigger: Wait_Option_502010402_29-->
+:<!--Custom String Listener: Wait_Option_502010402_29-->
+:{{DIcon|Talk}} Tell me more about tea, then.
+::<!--Custom String Listener: TalkSentence_502104104-->
+::'''Mr. Xiyan:''' Let me tell you about the Whale-Tide Spring tea, then. They say "one cup of Whale-Tide Spring invigorates the sense and brings the beauty of clouds." Lay back, imbibe, and watch the starry seas.
+::'''Mr. Xiyan:''' It's said that the Vidyadhara high elder roiled the ancient seas like thunder, and submerged the Scalegorge Waterscape delve. Dozens of years later, the Vidyadhara descendants found a flourishing tea tree on a floating isle &mdash; its sturdy branches were beautiful, and its leaves lush like jade.
+::'''Mr. Xiyan:''' Ahh... thinking over such half-truths and legends really lends the tea some extra texture. Don't you think?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I want to hear about the legends of Xianzhou.
+::<!--Custom String Listener: TalkSentence_502104108-->
+::'''Mr. Xiyan:''' I could tell you of the Cloud Knight Sword Champion known as the Transcendent Flash... but it's far too long. Just the chapter about the Roaming Star Rahu destroying the Xianzhou Cangcheng takes three whole days and three whole nights.
+::'''Mr. Xiyan:''' The Xianzhou natives don't mind this story at all... but seeing as you are an Outworlder, I don't want to waste your precious time &mdash; so I will spare you from it.
+::'''Mr. Xiyan:''' Ahhh, but... if you would flatter me by coming to my show, then that's another matter entirely.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Tell me more about your connection to the owner here.
+::<!--Custom String Listener: TalkSentence_502104112-->
+::'''Mr. Xiyan:''' Well well well! You have a keen eye. I can't hide that from you.
+::'''Mr. Xiyan:''' Her parents are old friends of mine, and they left her this teahouse here as a kind of a test.
+::'''Mr. Xiyan:''' Most foxian traders learn their skills this way. I was asked by her parents to help her run the business from behind the scenes, offering a little guidance or two.
+::'''Mr. Xiyan:''' But she is incredibly talented and intelligent. Soon enough, she'll be able to take charge of everything by herself.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} There are storytellers aboard Xianzhou?
+::<!--Custom String Listener: TalkSentence_502104118-->
+::'''Mr. Xiyan:''' Hahaha, I hear this from Outworlders all the time: "Xianzhou is so technologically advanced. Why do you still have storytellers?"
+::'''Mr. Xiyan:''' I know what the question's really asking though. They want to say "there's so much to do on Xianzhou, yet there's something as old-fashioned as this?" Some even consider my presence tacky, that I'm out of place on Starskiff Haven.
+::'''Mr. Xiyan:''' Storytelling is indeed a declining art. Few wishes to carry on this tradition, which is a problem. Far more serious is the lack of a stage &mdash; be it storytelling or crosstalk, these are art forms that require an audience.
+::'''Mr. Xiyan:''' I know of artistes who rely on their performance for a living. The theater is a thing of the past, and there's nowhere to sing opera... An art form meeting its demise just like that... a true pity.
+::'''Mr. Xiyan:''' And so you see me and ask: What's a storyteller doing, manning a teahouse? If it weren't for the little owner providing me with a venue and food, us old artistes wouldn't be able to feed ourselves.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_502104117-->
+::'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+::<!--Ends the current performance-->
+:'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+:<!--Ends the current performance-->
+:'''Mr. Xiyan:''' Snobs they come and snobs they go, and good friends and manners are hard to come by. A storyteller on stage and a friend below, an acquaintance is worth more than thousands of gold.
+:'''Mr. Xiyan:''' Unfortunately, you're still far too early for the show. But stick around if you don't mind listening to me chat about tea.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000051: Config/Level/NPC/W2/NPC_DefaultStory_502010401.json-->
+::'''Mr. Xiyan:''' Curved wood must be bent again to reach straightness, and finding truth from exaggerations and lies takes knack. When the real is fake, the fake is also real, and you need to toss a coin to hear my spiel.
+::'''Mr. Xiyan:''' I am Xiyan, a humble storyteller at the Sleepless Earl. If you'd like to listen to a few novel-length tales, you might have to wait here for a while.
+::'''Mr. Xiyan:''' ...Then again, though there is still time for the story sessions, if you were to sip some tea and listen to a few tunes, it wouldn't be a complete waste of time, would it?
+::{{DIcon|Arrow}} You are a storyteller, but also involved with running the tea house here?
+:::<!--Custom String Listener: TalkSentence_502104005-->
+:::'''Mr. Xiyan:''' {{MC|m=Good sir|f=Madam}}, don't talk like that. If the tea house has business, then more patrons will come to drink tea. With many patrons, I then can make friends and earn a little money for myself.
+:::'''Mr. Xiyan:''' Besides, the tea at the Sleepless Earl isn't too shabby. If you'd like some recommendations, I'd say order a pot of Hunter Maofeng tea. Satisfaction guaranteed.
+::{{DIcon|Arrow}} Great. I was just about to order some tea.
+:::<!--Custom String Listener: TalkSentence_502104008-->
+:::'''Mr. Xiyan:''' Then you've come to the right place. The Sleepless Earl is the premier tea spot aboard the Xianzhou Luofu. Don't let the innkeeper's young age fool you. Her research on how to simmer tea leaves is unrivaled.
+:::'''Mr. Xiyan:''' If you wouldn't mind my humble opinion, order a pot of Hunter Maofeng tea. Satisfaction guaranteed.
+::<!--Custom String Trigger: TalkSentence_502104010-->
+::<!--Custom String Listener: TalkSentence_502104010-->
+::'''Mr. Xiyan:''' Some guests are tea aficionados, and often pontificate about all kinds of expert tea lore at the Sleepless Earl. I'm not a smart man, but I have memorized some facts and can show them off. Would you be interested?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000052: Config/Level/NPC/W2/NPC_DefaultStory_502010404.json-->
+::'''Mr. Xiyan:''' Snobs they come and snobs they go, and good friends and manners are hard to come by. A storyteller on stage and a friend below, an acquaintance is worth more than thousands of gold.
+::'''Mr. Xiyan:''' Unfortunately, you're still far too early for the show. But stick around if you don't mind listening to me chat about tea.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 800221108-->)
+:{{DIcon|undefined}} I heard you're looking for me...
+::<!--Trigger PerformanceD 800221101: Config/Level/Mission/8002211/Act/Act800221101.json-->
+::----
+::'''Mr. Xiyan:''' Ah, would you look at this brain of mine? Lost in my storytelling world again, how could I just forget about that? Which reminds me &mdash; I have a favor to ask you.
+::'''Mr. Xiyan:''' There's been a lot going on aboard the Xianzhou recently, with the Ambrosial Arbor's new growth and those Disciples of Sanctus Medicus causing a ruckus... And all the news feeds report that you've played no small part, (Trailblazer), in keeping the peace.
+::'''Mr. Xiyan:''' But there's no literature out there on the market right now really capitalizing on this. I'm just thinking, why not get ahead of the curve and make a bit of a killing at the box office, hmm?
+::'''Mr. Xiyan:''' And so, I humbly invite you to tell me of your heroic exploits. I'll definitely spin out a brilliant story if I could just get my hands on those first-hand accounts of yours!
+::{{DIcon|Arrow}} You summoned me for this triviality?
+::{{DIcon|Arrow}} So, you want a recap of what happened?
+::<!--Custom String Listener: TalkSentence_812300107-->
+::'''Mr. Xiyan:''' Wonderful! If you could be so kind!
+::Mr. Xiyan takes out his phone and prepares to record your tales.
+::"In a world where memes and cringe collide, one Trailblazer must rise to the challenge! It all started with this cute girl known as Little Miss March... and then some old wise man called Grandpa Yang..." You rattle off your journey so far aboard the Luofu in a deep dramatic voice, adopting the style of the hit web drama "3-Minute Butterfly Immersia."
+::"This {{MC|m=man|f=woman}} who called {{MC|m=him|f=her}}self "Galactic Baseballer" was locked in a heated battle against the master primus of the Disciples of Sanctus Medicus... And for the Xianzhou, this was a battle for life and death!"
+::{{DIcon|Arrow}} Evildoers, meet thy maker!
+::<!--Custom String Listener: All_Talk_End-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800221101-->
+;(If {{cx}}<!--SubMission Started: 800222101--> and {{cx}}<!--SubMission Started: 800221108-->)
+:{{DIcon|undefined}} Is it time to write Act II...
+::<!--Trigger PerformanceE 800222101: Config/Level/Mission/8002221/Act/Act800222101.json-->
+::----
+::'''Mr. Xiyan:''' You see, you can't take care of much when you're busy. I almost forgot we agreed to meet.
+::'''Mr. Xiyan:''' I've been keeping myself busy, coming up with the rest of the plot. But we may have a problem to which I haven't been able to find an answer yet...
+::'''Mr. Xiyan:''' Based on your original story... After taking out the Disciples of Sanctus Medicus, you almost immediately fought your decisive battle against the Lord Ravager Phantylia. Don't you think that's pushing the story along too fast?
+::'''Mr. Xiyan:''' If that's all I had, why, I'd finish telling this story in a single session. I wouldn't get the chance to set up one of my cliffhangers goading everyone into buying tickets for tomorrow. "Stay tuned for next time with Mr. Xiyan..."
+::'''Mr. Xiyan:''' And I tell you what, the Protagonist Model isn't perfect enough if we do the plot this way. So, I've come up with an idea. I'm not sure what you think, so I'd like to run it by you...
+::'''Mr. Xiyan:''' Nameless, you're not the only one, right? Those other heroes have also thrown themselves into this adventure. Is it possible to perhaps fudge things a little so that YOU will be the one doing those deeds?
+::{{DIcon|Arrow}} Wouldn't that make me a fraud!?
+:::<!--Custom String Listener: TalkSentence_812310108-->
+:::'''Mr. Xiyan:''' Yeah, but... I mean, uh, no...?
+:::'''Mr. Xiyan:''' What I mean is, could some of the Nameless' heroic deeds be pulled together and attributed to a single archetypal character?
+:::'''Mr. Xiyan:''' Creating archetypes like this makes it easier for our audience to become emotionally involved. How about it?
+::{{DIcon|Arrow}} That's okay, I guess. After all, I am the protagonist.
+:::<!--Custom String Listener: TalkSentence_812310112-->
+:::'''Mr. Xiyan:''' I'm so happy to hear you say that.
+::<!--Custom String Trigger: TalkSentence_812310113-->
+::<!--Custom String Listener: TalkSentence_812310113-->
+::'''Mr. Xiyan:''' So then, are there any companions whose exploits are suitable for us to add to our story?
+::{{DIcon|Arrow}} There's one called Dan Heng...
+::{{DIcon|Arrow}} There's this other companion who also came to Xianzhou...
+::<!--Custom String Listener: TalkSentence_812310116-->
+::'''Mr. Xiyan:''' This high elder story of yours is interesting, but a little tricky to pull off. It branches off in all directions with some red herrings. It's way different from the masterpieces I've personally written about the High-Cloud Quintet.
+::'''Mr. Xiyan:''' Therefore, a drastic adaptation is required! We'll cut off everything apart from the beginning and the end. Maybe we can fix this story after all.
+::'''Mr. Xiyan:''' I've got a rough idea... Let's go to Scalegorge Waterscape then. Perhaps we'll be able to find our inspiration beneath the Statue of the High Elder.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800222101-->
+;(If {{cx}}<!--SubMission Started: 800222105-->, {{cx}}<!--SubMission Started: 800222101-->, and {{cx}}<!--SubMission Started: 800221108-->)
+:{{DIcon|undefined}} Any new stories?
+::<!--Trigger PerformanceE 800222118: Config/Level/Mission/8002221/Act/Act800222118.json-->
+::'''Mr. Xiyan:''' {{MC|m=Mister|f=Miss}} (Trailblazer), hello! You can't let go of my spellbinding story, can you? Who can resist being the protagonist of their own epic adventure?
+::'''Mr. Xiyan:''' Haha, the Protagonist Model is so incredibly useful that I've ended up writing a few more stories. I wonder what you think of them?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800222118-->
+;(If {{cx}}<!--SubMission Started: 800223101-->, {{cx}}<!--SubMission Started: 800222105-->, {{cx}}<!--SubMission Started: 800222101-->, and {{cx}}<!--SubMission Started: 800221108-->)
+:{{DIcon|undefined}} When are we going to be done with our storytelling?
+::<!--Trigger PerformanceD 800223101: Config/Level/Mission/8002231/Act/Act800223101.json-->
+::----
+::'''Mr. Xiyan:''' Hmm... I was so busy with all this storytelling that I almost forgot. I've made preparations for this, just you wait and see!
+::'''Mr. Xiyan:''' Our next scene: "Warrior Quells Phantylia, Hero Earns Regalia." I've already put this whole scene together, but I'm just waiting for your final confirmation.
+::'''Mr. Xiyan:''' Let's go, straight to Scalegorge Waterscape. I've prepared a little surprise for you.
+::{{DIcon|Arrow}} I've got a bad feeling about this...
+::{{DIcon|Arrow}} Define "surprise." Explain to me like I'm 5.
+:::<!--Custom String Listener: TalkSentence_812320106-->
+:::'''Mr. Xiyan:''' It'd spoil everything if I just told you now. You'll see soon enough.
+:::<!--Custom String Trigger: TalkSentence_812320107-->
+::<!--Custom String Listener: TalkSentence_812320107-->
+::'''Mr. Xiyan:''' Don't worry. Everyone can vouch for my reliability. Catch you at Scalegorge Waterscape!
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800223101-->
+;(If {{cx}}<!--SubMission Finish: 800223112--> and {{cx}}<!--performance 800223129 has been seen-->, {{cx}}<!--SubMission Started: 800223101-->, {{cx}}<!--SubMission Started: 800222105-->, {{cx}}<!--SubMission Started: 800222101-->, and {{cx}}<!--SubMission Started: 800221108-->)
+:{{DIcon|undefined}} Any new stories?
+::<!--Trigger PerformanceE 800223129: Config/Level/Mission/8002231/Act/Act800223129.json-->
+::'''Mr. Xiyan:''' {{MC|m=Mr.|f=Miss}} (Trailblazer), I'm still fleshing out the stories in the ''Legend of the Trailblazer''.
+::'''Mr. Xiyan:''' By the way, I made up a few side stories. Would you like to hear them?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: OpenUI_FantasticStoryChallengePage-->
+;(If {{cx}}<!--SubMission Started: 800324603-->, {{cx}}<!--SubMission Finish: 800223112--> and {{cx}}<!--performance 800223129 has been seen-->, {{cx}}<!--SubMission Started: 800223101-->, {{cx}}<!--SubMission Started: 800222105-->, {{cx}}<!--SubMission Started: 800222101-->, and {{cx}}<!--SubMission Started: 800221108-->)
+:{{DIcon|undefined}} (Ask his permission to make recordings.)
+::<!--Trigger PerformanceE 800324603: Config/Level/Mission/8003246/Act/Act800324603.json-->
+::'''Mr. Xiyan:''' I see your point. Actually I've prepared some shows for the Sleepless Earl. Feel free to record them if you want.
+::{{DIcon|Arrow}} (Record Mr. Xiyan's storytelling shows.)
+::<!--Custom String Listener: TalkSentence_813246055-->
+::{{Black Screen|Mr. Xiyan puts a lot of emotion into his performance...}}
+::'''Mr. Xiyan:''' It's always great to have more listeners. An art form that's in decline deserves a chance to survive.
+::'''Mr. Xiyan:''' Hmm? Why are you sighing? Is there anything wrong with my performance? Or are you worried about something else?
+::{{DIcon|Arrow}} (Tell him that you were rejected by Back'n & Forth.)
+::<!--Custom String Listener: TalkSentence_813246059-->
+::'''Mr. Xiyan:''' Well, crosstalk, just like storytelling, seems to be on the decline these days. I totally understand why they are so cautious. After all, crosstalk shows aren't exactly a reliable source of income anymore.
+::'''Mr. Xiyan:''' But they're new and inexperienced, so it's natural for them to have misunderstandings about the industry. If you want to record their crosstalk shows, I have a way to persuade them.
+::{{DIcon|Arrow}} Please elaborate.
+:::<!--Custom String Listener: TalkSentence_813246062-->
+:::'''Mr. Xiyan:''' It's simple, actually. You were just pulled into their way of thinking.
+::{{DIcon|Arrow}} Please enlighten me!
+:::<!--Custom String Listener: TalkSentence_813246064-->
+:::'''Mr. Xiyan:''' I wouldn't go so far as to say I'm going to "enlighten" you, but I do have a thing or two to share with you.
+::{{DIcon|Arrow}} ...How about us two record a crosstalk show together?
+:::<!--Custom String Listener: TalkSentence_813246066-->
+:::'''Mr. Xiyan:''' Hmm, perhaps not. This would be a great opportunity for the two up-and-coming crosstalk comedians.
+::<!--Custom String Trigger: TalkSentence_813246067-->
+::<!--Custom String Listener: TalkSentence_813246067-->
+::'''Mr. Xiyan:''' Whether it's crosstalk or storytelling, it's all about constant practice in front of the audience. It's just like the Cloud Knights' daily training.
+::'''Mr. Xiyan:''' Always performing in the same place can actually be detrimental to their growth, although I understand that they still have jobs to do. Honing crosstalk skills is all about accepting feedback from the audience and making constant improvements.
+::'''Mr. Xiyan:''' Recording their performance could be beneficial for them, as it means they'll have a bigger audience to test out their new materials and get more feedback. This is way better than talking to themselves!
+::{{DIcon|Arrow}} That's true, indeed!
+:::<!--Custom String Listener: TalkSentence_813246071-->
+:::'''Mr. Xiyan:''' Indeed... Ugh, my bad, I didn't mean to come off as arrogant. Sorry about that.
+::{{DIcon|Arrow}} That makes sense. I'll talk with them again.
+:::<!--Custom String Listener: TalkSentence_813246073-->
+:::'''Mr. Xiyan:''' Hang on. There's one more thing I'd like to say.
+::<!--Custom String Trigger: TalkSentence_813246074-->
+::<!--Custom String Listener: TalkSentence_813246074-->
+::'''Mr. Xiyan:''' You remember what I said, right? Just tell my words to them and they'll understand.
+::'''Mr. Xiyan:''' And if they're still hesitant, just tell them that I'm planning to start a storytelling show in Aurum Alley, and that I'd like to use their crosstalk as a warm-up act.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800324603-->
+;(If {{cx}}<!--SubMission Started: 404026004-->)
+:{{DIcon|?}} Excuse me. What do you know about guqin music?
+::<!--Trigger PerformanceE 404026004: Config/Level/Mission/4040260/Act/Act404026004.json-->
+::'''Mr. Xiyan:''' Not a lot. But...
+::'''Mr. Xiyan:''' If you're asking, "Do you know any stories about guqin?" or "Who knows about guqin?" then you've come to the right place.
+::'''Mr. Xiyan:''' So you know about Ms. Gongyu, who plays the guqin in the Exalting Sanctum, right? If it's the guqin, she'll definitely be able to help you.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404026004-->
+;(If {{Mission|Tales of the Fantastic|showChapter=0}} has been started)
+:{{DIcon|Travel Log}} Tales of the Fantastic
+::<!--Custom String Trigger: OpenUI_FantasticStoryChallengePage-->
+;(If {{cx}}<!--Hidden Mission ID 8017102--> has been started)
+:{{DIcon|Talk}} I've met your pet already.
+::'''Mr. Xiyan:''' Ah, you met my little Youci~ How about it? Isn't it fascinating?
+::{{DIcon|Arrow}} Really, quite fascinating.
+:::<!--Custom String Listener: TalkSentence_817101503-->
+:::'''Mr. Xiyan:''' Indeed! I knew you'd take a liking to it.
+::{{DIcon|Arrow}} Not at all...
+:::<!--Custom String Listener: TalkSentence_817101505-->
+:::'''Mr. Xiyan:''' Not at all? *sigh* That's no surprise... The Nameless is vastly experienced. Nothing I have in my humble possession could hope to satisfy you~
+::{{DIcon|Arrow}} Actually, it was pretty weird.
+:::<!--Custom String Listener: TalkSentence_817101507-->
+:::'''Mr. Xiyan:''' Hahaha, indeed! I actually think this "weirdness" is what's most fascinating about it.
+::<!--Custom String Trigger: TalkSentence_817101508-->
+::<!--Custom String Listener: TalkSentence_817101508-->
+::'''Mr. Xiyan:''' So then, have you encountered any... special circumstances?
+::{{DIcon|Arrow}} It chatted with me.
+::<!--Custom String Listener: TalkSentence_817101510-->
+::'''Mr. Xiyan:''' Ah? It chatted with you? ...This... looks like she wasn't lying. This bird can actually... Don't mind me. I'm just talking to myself.
+::'''Mr. Xiyan:''' Was there anything else? Such as... Did it give you anything?
+::{{DIcon|Arrow}} It gave me a feather.
+::<!--Custom String Listener: TalkSentence_817101513-->
+::'''Mr. Xiyan:''' Aha, I knew it'd gift a feather to you! They're really good, and you should take good care of it.
+::{{DIcon|Arrow}} What's the feather for?
+::<!--Custom String Listener: TalkSentence_817101515-->
+::'''Mr. Xiyan:''' Just look at how light and transparent it is, like some small object sculpted from gemstone. Go sell it for money~ One feather is worth all you can earn across several days of storytelling!
+::'''Mr. Xiyan:''' When you have the time, spare some time and chat with it more... I often find myself busy with work, and I fear it grows lonely. Seeing as it only chats with you, perhaps it has taken a liking to you?
+::'''Mr. Xiyan:''' And besides, those feathers most assuredly are REALLY good~
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 102050116--> and {{cx}}<!--Hidden Mission ID 8017102--> has been started)
+:{{DIcon}} The Hound Chases the Fox
+::{{A|VO chapter2 2 xiyan 101.ogg}} '''Mr. Xiyan:''' Ah, new patrons I see! Looking for some refreshment at the teahouse?
+::{{A|VO chapter2 2 xiyan 102.ogg}} '''Mr. Xiyan:''' Sadly there have been fewer and fewer bookings since the lockdown, so we decided just now to close the Sleepless Earl until further notice. We'll reopen once the Cloud Knights finish addressing their "security concerns."
+::{{DIcon|Arrow}} Did you see a foxian girl pass by here?
+:::<!--Custom String Listener: TalkSentence_102051905-->
+:::{{A|VO chapter2 2 xiyan 103.ogg}} '''Mr. Xiyan:''' Unfortunately yes, the boss is never far away.
+:::{{DIcon|Arrow}} Miss Tingyun... is your boss?
+:::<!--Custom String Listener: TalkSentence_102051907-->
+:::{{A|VO chapter2 2 xiyan 104.ogg}} '''Mr. Xiyan:''' No, no, my apologies, different foxian. If it's Miss Tingyun you're looking for, she was here a moment ago...
+::{{DIcon|Arrow}} (Show Tingyun's photo.)
+:::<!--Custom String Listener: TalkSentence_102051909-->
+:::{{A|VO chapter2 2 mar7th 120.ogg}} '''March 7th:''' Any chance you've seen this lady?
+:::{{A|VO chapter2 2 xiyan 105.ogg}} '''Mr. Xiyan:''' Ah, so it's Miss Tingyun you're looking for...
+::<!--Custom String Trigger: TalkSentence_102051911-->
+::<!--Custom String Listener: TalkSentence_102051911-->
+::{{A|VO chapter2 2 xiyan 106.ogg}} '''Mr. Xiyan:''' She ordered a cup of Immortal's Delight and went on her way. I saw her checking out the food stalls over there, that might be a good place to start.
+::{{A|VO chapter2 2 mar7th 121.ogg}} '''March 7th:''' *sigh* Here we are sweating over our training while she's busy sampling dim sum!
+::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has been started)
+:{{DIcon|Talk}} It's time for you to update your story, isn't it?
+::<!--Trigger PerformanceE 90000128: Config/Level/NPCDialogue/P10202/NPCAct/Act90000128.json-->
+::'''Mr. Xiyan:''' Yes, many of my stories have to be updated soon... I have to amend those parts that talk about how the Ambrosial Arbor has never resurrected for millennia.
+::'''Mr. Xiyan:''' Alas... it's a very tedious process to spot and rectify all these errors in the stories... If I say anything wrong, my audience seriously won't tip me!
+::'''Mr. Xiyan:''' Who would have thought the Ambrosial Arbor would significantly affect my work in this way... I bet even the Plagues Author couldn't have expected this, haha.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000128-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has been started)
+:{{DIcon}} Don't just tell me about tea. Tell me one of your stories.
+::'''Mr. Xiyan:''' ... You put me in a difficult spot. Storytellers don't have much except a few books stored in our heads. I'll become a pauper if I ever told them all.
+::'''Mr. Xiyan:''' If you're willing to listen to a bit of gossip, then I can certainly fill you in.
+::<!--Custom String Trigger: Wait_Option_502010402_29-->
+::<!--Custom String Listener: Wait_Option_502010402_29-->
+::{{DIcon|Talk}} Tell me more about tea, then.
+:::<!--Custom String Listener: TalkSentence_502104104-->
+:::'''Mr. Xiyan:''' Let me tell you about the Whale-Tide Spring tea, then. They say "one cup of Whale-Tide Spring invigorates the sense and brings the beauty of clouds." Lay back, imbibe, and watch the starry seas.
+:::'''Mr. Xiyan:''' It's said that the Vidyadhara high elder roiled the ancient seas like thunder, and submerged the Scalegorge Waterscape delve. Dozens of years later, the Vidyadhara descendants found a flourishing tea tree on a floating isle &mdash; its sturdy branches were beautiful, and its leaves lush like jade.
+:::'''Mr. Xiyan:''' Ahh... thinking over such half-truths and legends really lends the tea some extra texture. Don't you think?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to hear about the legends of Xianzhou.
+:::<!--Custom String Listener: TalkSentence_502104108-->
+:::'''Mr. Xiyan:''' I could tell you of the Cloud Knight Sword Champion known as the Transcendent Flash... but it's far too long. Just the chapter about the Roaming Star Rahu destroying the Xianzhou Cangcheng takes three whole days and three whole nights.
+:::'''Mr. Xiyan:''' The Xianzhou natives don't mind this story at all... but seeing as you are an Outworlder, I don't want to waste your precious time &mdash; so I will spare you from it.
+:::'''Mr. Xiyan:''' Ahhh, but... if you would flatter me by coming to my show, then that's another matter entirely.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about your connection to the owner here.
+:::<!--Custom String Listener: TalkSentence_502104112-->
+:::'''Mr. Xiyan:''' Well well well! You have a keen eye. I can't hide that from you.
+:::'''Mr. Xiyan:''' Her parents are old friends of mine, and they left her this teahouse here as a kind of a test.
+:::'''Mr. Xiyan:''' Most foxian traders learn their skills this way. I was asked by her parents to help her run the business from behind the scenes, offering a little guidance or two.
+:::'''Mr. Xiyan:''' But she is incredibly talented and intelligent. Soon enough, she'll be able to take charge of everything by herself.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} There are storytellers aboard Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502104118-->
+:::'''Mr. Xiyan:''' Hahaha, I hear this from Outworlders all the time: "Xianzhou is so technologically advanced. Why do you still have storytellers?"
+:::'''Mr. Xiyan:''' I know what the question's really asking though. They want to say "there's so much to do on Xianzhou, yet there's something as old-fashioned as this?" Some even consider my presence tacky, that I'm out of place on Starskiff Haven.
+:::'''Mr. Xiyan:''' Storytelling is indeed a declining art. Few wishes to carry on this tradition, which is a problem. Far more serious is the lack of a stage &mdash; be it storytelling or crosstalk, these are art forms that require an audience.
+:::'''Mr. Xiyan:''' I know of artistes who rely on their performance for a living. The theater is a thing of the past, and there's nowhere to sing opera... An art form meeting its demise just like that... a true pity.
+:::'''Mr. Xiyan:''' And so you see me and ask: What's a storyteller doing, manning a teahouse? If it weren't for the little owner providing me with a venue and food, us old artistes wouldn't be able to feed ourselves.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502104117-->
+:::'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has been started)
+:{{DIcon|Exit}} I don't have any more questions.
+::'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+::<!--Ends the current performance-->
+;(If {{Mission|Youci's Clever Decor|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has been started)
+:{{DIcon|Talk}} I've met your pet already.
+::'''Mr. Xiyan:''' Ah, you met my little Youci~ How about it? Isn't it fascinating?
+::{{DIcon|Arrow}} Really, quite fascinating.
+:::<!--Custom String Listener: TalkSentence_817101503-->
+:::<!--Custom String Listener: TalkSentence_817101503-->
+:::'''Mr. Xiyan:''' Indeed! I knew you'd take a liking to it.
+::{{DIcon|Arrow}} Not at all...
+:::<!--Custom String Listener: TalkSentence_817101505-->
+:::<!--Custom String Listener: TalkSentence_817101505-->
+:::'''Mr. Xiyan:''' Not at all? *sigh* That's no surprise... The Nameless is vastly experienced. Nothing I have in my humble possession could hope to satisfy you~
+::{{DIcon|Arrow}} Actually, it was pretty weird.
+:::<!--Custom String Listener: TalkSentence_817101507-->
+:::<!--Custom String Listener: TalkSentence_817101507-->
+:::'''Mr. Xiyan:''' Hahaha, indeed! I actually think this "weirdness" is what's most fascinating about it.
+::<!--Custom String Trigger: TalkSentence_817101508-->
+::<!--Custom String Listener: TalkSentence_817101508-->
+::'''Mr. Xiyan:''' So then, have you encountered any... special circumstances?
+::{{DIcon|Arrow}} It chatted with me.
+::<!--Custom String Listener: TalkSentence_817101510-->
+::'''Mr. Xiyan:''' Ah? It chatted with you? ...This... looks like she wasn't lying. This bird can actually... Don't mind me. I'm just talking to myself.
+::'''Mr. Xiyan:''' Was there anything else? Such as... Did it give you anything?
+::{{DIcon|Arrow}} It gave me a feather.
+::<!--Custom String Listener: TalkSentence_817101513-->
+::'''Mr. Xiyan:''' Aha, I knew it'd gift a feather to you! They're really good, and you should take good care of it.
+::{{DIcon|Arrow}} What's the feather for?
+::<!--Custom String Listener: TalkSentence_817101515-->
+::'''Mr. Xiyan:''' Just look at how light and transparent it is, like some small object sculpted from gemstone. Go sell it for money~ One feather is worth all you can earn across several days of storytelling!
+::'''Mr. Xiyan:''' When you have the time, spare some time and chat with it more... I often find myself busy with work, and I fear it grows lonely. Seeing as it only chats with you, perhaps it has taken a liking to you?
+::'''Mr. Xiyan:''' And besides, those feathers most assuredly are REALLY good~
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 102050116--> and {{cx}}<!--Hidden Mission ID 8017102--> has not been started)
+:{{DIcon}} The Hound Chases the Fox
+::{{A|VO chapter2 2 xiyan 101.ogg}} '''Mr. Xiyan:''' Ah, new patrons I see! Looking for some refreshment at the teahouse?
+::{{A|VO chapter2 2 xiyan 102.ogg}} '''Mr. Xiyan:''' Sadly there have been fewer and fewer bookings since the lockdown, so we decided just now to close the Sleepless Earl until further notice. We'll reopen once the Cloud Knights finish addressing their "security concerns."
+::{{DIcon|Arrow}} Did you see a foxian girl pass by here?
+:::<!--Custom String Listener: TalkSentence_102051905-->
+:::<!--Custom String Listener: TalkSentence_102051905-->
+:::{{A|VO chapter2 2 xiyan 103.ogg}} '''Mr. Xiyan:''' Unfortunately yes, the boss is never far away.
+:::{{DIcon|Arrow}} Miss Tingyun... is your boss?
+:::<!--Custom String Listener: TalkSentence_102051907-->
+:::{{A|VO chapter2 2 xiyan 104.ogg}} '''Mr. Xiyan:''' No, no, my apologies, different foxian. If it's Miss Tingyun you're looking for, she was here a moment ago...
+::{{DIcon|Arrow}} (Show Tingyun's photo.)
+:::<!--Custom String Listener: TalkSentence_102051909-->
+:::<!--Custom String Listener: TalkSentence_102051909-->
+:::{{A|VO chapter2 2 mar7th 120.ogg}} '''March 7th:''' Any chance you've seen this lady?
+:::{{A|VO chapter2 2 xiyan 105.ogg}} '''Mr. Xiyan:''' Ah, so it's Miss Tingyun you're looking for...
+::<!--Custom String Trigger: TalkSentence_102051911-->
+::<!--Custom String Listener: TalkSentence_102051911-->
+::{{A|VO chapter2 2 xiyan 106.ogg}} '''Mr. Xiyan:''' She ordered a cup of Immortal's Delight and went on her way. I saw her checking out the food stalls over there, that might be a good place to start.
+::{{A|VO chapter2 2 mar7th 121.ogg}} '''March 7th:''' *sigh* Here we are sweating over our training while she's busy sampling dim sum!
+::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has not been started)
+:{{DIcon|Talk}} It's time for you to update your story, isn't it?
+::<!--Trigger PerformanceE 90000128: Config/Level/NPCDialogue/P10202/NPCAct/Act90000128.json-->
+::'''Mr. Xiyan:''' Yes, many of my stories have to be updated soon... I have to amend those parts that talk about how the Ambrosial Arbor has never resurrected for millennia.
+::'''Mr. Xiyan:''' Alas... it's a very tedious process to spot and rectify all these errors in the stories... If I say anything wrong, my audience seriously won't tip me!
+::'''Mr. Xiyan:''' Who would have thought the Ambrosial Arbor would significantly affect my work in this way... I bet even the Plagues Author couldn't have expected this, haha.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000128-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has not been started)
+:{{DIcon}} Don't just tell me about tea. Tell me one of your stories.
+::'''Mr. Xiyan:''' ... You put me in a difficult spot. Storytellers don't have much except a few books stored in our heads. I'll become a pauper if I ever told them all.
+::'''Mr. Xiyan:''' If you're willing to listen to a bit of gossip, then I can certainly fill you in.
+::<!--Custom String Trigger: Wait_Option_502010402_29-->
+::<!--Custom String Listener: Wait_Option_502010402_29-->
+::<!--Custom String Listener: Wait_Option_502010402_29-->
+::{{DIcon|Talk}} Tell me more about tea, then.
+:::<!--Custom String Listener: TalkSentence_502104104-->
+:::'''Mr. Xiyan:''' Let me tell you about the Whale-Tide Spring tea, then. They say "one cup of Whale-Tide Spring invigorates the sense and brings the beauty of clouds." Lay back, imbibe, and watch the starry seas.
+:::'''Mr. Xiyan:''' It's said that the Vidyadhara high elder roiled the ancient seas like thunder, and submerged the Scalegorge Waterscape delve. Dozens of years later, the Vidyadhara descendants found a flourishing tea tree on a floating isle &mdash; its sturdy branches were beautiful, and its leaves lush like jade.
+:::'''Mr. Xiyan:''' Ahh... thinking over such half-truths and legends really lends the tea some extra texture. Don't you think?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to hear about the legends of Xianzhou.
+:::<!--Custom String Listener: TalkSentence_502104108-->
+:::'''Mr. Xiyan:''' I could tell you of the Cloud Knight Sword Champion known as the Transcendent Flash... but it's far too long. Just the chapter about the Roaming Star Rahu destroying the Xianzhou Cangcheng takes three whole days and three whole nights.
+:::'''Mr. Xiyan:''' The Xianzhou natives don't mind this story at all... but seeing as you are an Outworlder, I don't want to waste your precious time &mdash; so I will spare you from it.
+:::'''Mr. Xiyan:''' Ahhh, but... if you would flatter me by coming to my show, then that's another matter entirely.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about your connection to the owner here.
+:::<!--Custom String Listener: TalkSentence_502104112-->
+:::'''Mr. Xiyan:''' Well well well! You have a keen eye. I can't hide that from you.
+:::'''Mr. Xiyan:''' Her parents are old friends of mine, and they left her this teahouse here as a kind of a test.
+:::'''Mr. Xiyan:''' Most foxian traders learn their skills this way. I was asked by her parents to help her run the business from behind the scenes, offering a little guidance or two.
+:::'''Mr. Xiyan:''' But she is incredibly talented and intelligent. Soon enough, she'll be able to take charge of everything by herself.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} There are storytellers aboard Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502104118-->
+:::'''Mr. Xiyan:''' Hahaha, I hear this from Outworlders all the time: "Xianzhou is so technologically advanced. Why do you still have storytellers?"
+:::'''Mr. Xiyan:''' I know what the question's really asking though. They want to say "there's so much to do on Xianzhou, yet there's something as old-fashioned as this?" Some even consider my presence tacky, that I'm out of place on Starskiff Haven.
+:::'''Mr. Xiyan:''' Storytelling is indeed a declining art. Few wishes to carry on this tradition, which is a problem. Far more serious is the lack of a stage &mdash; be it storytelling or crosstalk, these are art forms that require an audience.
+:::'''Mr. Xiyan:''' I know of artistes who rely on their performance for a living. The theater is a thing of the past, and there's nowhere to sing opera... An art form meeting its demise just like that... a true pity.
+:::'''Mr. Xiyan:''' And so you see me and ask: What's a storyteller doing, manning a teahouse? If it weren't for the little owner providing me with a venue and food, us old artistes wouldn't be able to feed ourselves.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502104117-->
+:::'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Tell me more about tea, then.
+:::<!--Custom String Listener: TalkSentence_502104104-->
+:::'''Mr. Xiyan:''' Let me tell you about the Whale-Tide Spring tea, then. They say "one cup of Whale-Tide Spring invigorates the sense and brings the beauty of clouds." Lay back, imbibe, and watch the starry seas.
+:::'''Mr. Xiyan:''' It's said that the Vidyadhara high elder roiled the ancient seas like thunder, and submerged the Scalegorge Waterscape delve. Dozens of years later, the Vidyadhara descendants found a flourishing tea tree on a floating isle &mdash; its sturdy branches were beautiful, and its leaves lush like jade.
+:::'''Mr. Xiyan:''' Ahh... thinking over such half-truths and legends really lends the tea some extra texture. Don't you think?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to hear about the legends of Xianzhou.
+:::<!--Custom String Listener: TalkSentence_502104108-->
+:::'''Mr. Xiyan:''' I could tell you of the Cloud Knight Sword Champion known as the Transcendent Flash... but it's far too long. Just the chapter about the Roaming Star Rahu destroying the Xianzhou Cangcheng takes three whole days and three whole nights.
+:::'''Mr. Xiyan:''' The Xianzhou natives don't mind this story at all... but seeing as you are an Outworlder, I don't want to waste your precious time &mdash; so I will spare you from it.
+:::'''Mr. Xiyan:''' Ahhh, but... if you would flatter me by coming to my show, then that's another matter entirely.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about your connection to the owner here.
+:::<!--Custom String Listener: TalkSentence_502104112-->
+:::'''Mr. Xiyan:''' Well well well! You have a keen eye. I can't hide that from you.
+:::'''Mr. Xiyan:''' Her parents are old friends of mine, and they left her this teahouse here as a kind of a test.
+:::'''Mr. Xiyan:''' Most foxian traders learn their skills this way. I was asked by her parents to help her run the business from behind the scenes, offering a little guidance or two.
+:::'''Mr. Xiyan:''' But she is incredibly talented and intelligent. Soon enough, she'll be able to take charge of everything by herself.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} There are storytellers aboard Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502104118-->
+:::'''Mr. Xiyan:''' Hahaha, I hear this from Outworlders all the time: "Xianzhou is so technologically advanced. Why do you still have storytellers?"
+:::'''Mr. Xiyan:''' I know what the question's really asking though. They want to say "there's so much to do on Xianzhou, yet there's something as old-fashioned as this?" Some even consider my presence tacky, that I'm out of place on Starskiff Haven.
+:::'''Mr. Xiyan:''' Storytelling is indeed a declining art. Few wishes to carry on this tradition, which is a problem. Far more serious is the lack of a stage &mdash; be it storytelling or crosstalk, these are art forms that require an audience.
+:::'''Mr. Xiyan:''' I know of artistes who rely on their performance for a living. The theater is a thing of the past, and there's nowhere to sing opera... An art form meeting its demise just like that... a true pity.
+:::'''Mr. Xiyan:''' And so you see me and ask: What's a storyteller doing, manning a teahouse? If it weren't for the little owner providing me with a venue and food, us old artistes wouldn't be able to feed ourselves.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502104117-->
+:::'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has not been started)
+:{{DIcon|Exit}} I don't have any more questions.
+::'''Mr. Xiyan:''' Okay, let's chat again when you have the time.
+::<!--Ends the current performance-->
+;(If {{Mission|Youci's Clever Decor|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--SubMission Started: 102050116-->, and {{cx}}<!--Hidden Mission ID 8017102--> has not been started)
+:{{DIcon|Talk}} I've met your pet already.
+::'''Mr. Xiyan:''' Ah, you met my little Youci~ How about it? Isn't it fascinating?
+::{{DIcon|Arrow}} Really, quite fascinating.
+:::<!--Custom String Listener: TalkSentence_817101503-->
+:::<!--Custom String Listener: TalkSentence_817101503-->
+:::<!--Custom String Listener: TalkSentence_817101503-->
+:::'''Mr. Xiyan:''' Indeed! I knew you'd take a liking to it.
+::{{DIcon|Arrow}} Not at all...
+:::<!--Custom String Listener: TalkSentence_817101505-->
+:::<!--Custom String Listener: TalkSentence_817101505-->
+:::<!--Custom String Listener: TalkSentence_817101505-->
+:::'''Mr. Xiyan:''' Not at all? *sigh* That's no surprise... The Nameless is vastly experienced. Nothing I have in my humble possession could hope to satisfy you~
+::{{DIcon|Arrow}} Actually, it was pretty weird.
+:::<!--Custom String Listener: TalkSentence_817101507-->
+:::<!--Custom String Listener: TalkSentence_817101507-->
+:::<!--Custom String Listener: TalkSentence_817101507-->
+:::'''Mr. Xiyan:''' Hahaha, indeed! I actually think this "weirdness" is what's most fascinating about it.
+::<!--Custom String Trigger: TalkSentence_817101508-->
+::<!--Custom String Listener: TalkSentence_817101508-->
+::'''Mr. Xiyan:''' So then, have you encountered any... special circumstances?
+::{{DIcon|Arrow}} It chatted with me.
+::<!--Custom String Listener: TalkSentence_817101510-->
+::'''Mr. Xiyan:''' Ah? It chatted with you? ...This... looks like she wasn't lying. This bird can actually... Don't mind me. I'm just talking to myself.
+::'''Mr. Xiyan:''' Was there anything else? Such as... Did it give you anything?
+::{{DIcon|Arrow}} It gave me a feather.
+::<!--Custom String Listener: TalkSentence_817101513-->
+::'''Mr. Xiyan:''' Aha, I knew it'd gift a feather to you! They're really good, and you should take good care of it.
+::{{DIcon|Arrow}} What's the feather for?
+::<!--Custom String Listener: TalkSentence_817101515-->
+::'''Mr. Xiyan:''' Just look at how light and transparent it is, like some small object sculpted from gemstone. Go sell it for money~ One feather is worth all you can earn across several days of storytelling!
+::'''Mr. Xiyan:''' When you have the time, spare some time and chat with it more... I often find myself busy with work, and I fear it grows lonely. Seeing as it only chats with you, perhaps it has taken a liking to you?
+::'''Mr. Xiyan:''' And besides, those feathers most assuredly are REALLY good~
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mr. Xiyan
+|zhs  = 西衍先生
+|zht  = 西衍先生
+|ja   = シエン先生
+|ko   = 서연 선생
+|es   = Sr. Xiyan
+|fr   = Monsieur Xiyan
+|ru   = Господин Сиянь
+|th   = คุณ Xiyan
+|vi   = Xiyan Tiên Sinh
+|de   = Herr Xiyan
+|id   = Tuan Xiyan
+|pt   = Sr. Xiyan
+}}
+==Change History==
+{{Change History|TODO}}

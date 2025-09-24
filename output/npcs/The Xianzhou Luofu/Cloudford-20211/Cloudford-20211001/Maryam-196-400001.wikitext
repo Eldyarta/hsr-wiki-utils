@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maryam#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Outworld Merchant
+|image           = NPC Maryam.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Maryam''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_196_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502039101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502039101.json-->
+::'''Maryam:''' Seems like the Sky-Faring Commission has updated their regulations yet again, mostly about detentions and compensation due to the Ambrosial Arbor's new growth. But there doesn't seem to be anything about document approvals...
+::'''Maryam:''' Hello there boss, are you also a traveling merchant from beyond the sky? My name is Maryam, and I'm mostly involved with the distribution and sales of Cybercity superconducting alloys. Let's talk if you're interested.
+::<!--Custom String Trigger: Wait_Option_502039101_152-->
+::<!--Custom String Listener: Wait_Option_502039101_152-->
+::{{DIcon|Talk}} I'm no Outworld traveling merchant, and I'm not into business.
+:::<!--Custom String Listener: TalkSentence_502039105-->
+:::'''Maryam:''' Doesn't matter whether you're an Outworld traveling merchant or not. I'm more concerned about another vendor trying to sell Cybercity superconducting alloys out here.
+:::'''Maryam:''' On the Xianzhou, there's a saying: "Your peers are your rivals" &mdash; and another one: "Rivals will always run into each other," meaning rivals tread a narrow path alongside each other. We are no rivals, so the road we take should surely widen out.
+:::'''Maryam:''' But not necessarily for that traveling merchant over there called Sinclair. I suggest you keep away from him whether you're our rival or not for longevity's sake. We're all short-life species here, so life is to be cherished.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Why would a traveling merchant come to Cloudford?
+:::<!--Custom String Listener: TalkSentence_502039109-->
+:::'''Maryam:''' You really do sound like an outsider when you ask questions like that, boss.
+:::'''Maryam:''' I loaded up a bunch of my stock into the Trove of Verdure here in Cloudford. Despite the Sky-Faring Commission guaranteeing security for me, there's always an abomination or two nearby, so I often stop in to check on my stock.
+:::'''Maryam:''' Also, I just feel... It's just a feeling I've got that Xianzhou people have an unusual conception of time.
+:::'''Maryam:''' For them, ten years is like a snap of the fingers, so when they tell you things like "soon," you have to keep on pressing them because in their minds, it's not an urgent matter.
+:::'''Maryam:''' This matter can't wait though, so you will see me chasing up that guy named Maozhen every single day.
+:::'''Maryam:''' So I'm stuck here. All I can do is check up on the Sky-Faring Commission's regulations and pace around anxiously. If you're down for a casual chat with me, it'd be a great way to pass the time &mdash; how about it?
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502039201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502039201.json-->
+::'''Maryam:''' This time my application was submitted first. And Master Sinclair should really reconsider his position.
+::'''Maryam:''' Oh, you're still here, boss? Wanna have another chat? I'm not up to anything anyway.
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} Let's have a small chat.
+::<!--Trigger PerformanceE 502039102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502039102.json-->
+::'''Maryam:''' That's all I could ask for. What would you like to chat about?
+::<!--Custom String Trigger: Wait_Option_502039102_175-->
+::<!--Custom String Listener: Wait_Option_502039102_175-->
+::{{DIcon|Talk}} I'm guessing you and that Sinclair guy don't get along?
+:::<!--Custom String Listener: TalkSentence_502039118-->
+:::'''Maryam:''' Honestly, if you ask me, I've never taken him seriously.
+:::'''Maryam:''' Master Sinclair always thinks I'm out to get him, and that I'm this evil mastermind stealing his business. When I offer a price, he lowers it, and so I put out another price. And he lowers it again...
+:::'''Maryam:''' I suspect he's here for charity instead of business. I didn't mind at first, but after thinking it through, as an experienced traveling merchant, how could I show any weakness in front of this oaf.
+:::'''Maryam:''' So if he wants to lower the price, I shall accompany him down. I'll get my documents from the Sky-Faring Commission approved before he does, too. That'll show him how a serious merchant gets business done.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you know of a traveling merchant with a coffin?
+:::<!--Custom String Listener: TalkSentence_502039123-->
+:::'''Maryam:''' A traveling merchant with a coffin? Not that I've seen... But then again, I don't know all the traveling merchants here. If I knew that Sinclair was already selling superconducting alloys, I wouldn't even have gotten into this trade. What rotten luck.
+:::'''Maryam:''' But this "merchant with a coffin" you're asking about sounds very mysterious. I once saw a show on IPM with this solo gunslinger dragging along a coffin as he stalks the muddy wilderness, saving a girl from bandits' clutches.
+:::'''Maryam:''' The gunslinger had this troubled past that's etched onto a face clouded by memories. At one point I thought the coffin would be empty &mdash; every time someone asked him what was in the coffin, he replied that it was himself.
+:::'''Maryam:''' Then I guessed that it was a close friend or family member. A "symbol of misfortune" that forced him to drag the coffin out of guilt. But nobody mentioned any rotting stench emanating from within.
+:::'''Maryam:''' Later, I thought there must be a treasure or fortune inside, and the coffin was just a red herring. You may have heard that some cosmic treasures don't fare well under natural light...
+:::'''Maryam:''' So in the end, right, what does the gunslinger pull out of the coffin? A fully-automatic heavy energy machine gun! Ahahaha, what a surprise. Think about it! He's a gunslinger, so what else could be in the coffin?
+:::'''Maryam:''' So if the "traveling merchant with a coffin" you mentioned is a traveling merchant, there should be goods for sale stuffed inside the coffin.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You sound really experienced when it comes to waiting for official documents.
+:::<!--Custom String Listener: TalkSentence_502039131-->
+:::'''Maryam:''' It's... complicated.
+:::'''Maryam:''' When I was back on my home planet, getting a business license was always a real pain. It usually took a year. At first, I was pretty angry and anxious. But later on, I became more calm about it.
+:::'''Maryam:''' In the end, when the official document was finally issued, I didn't feel the kind of joy you'd expect. I was just so numb from waiting so long that I couldn't even get hyped up to celebrate.
+:::'''Maryam:''' There'll always be things that are a pain, and "Not having official documents" won't be the worst. I mean, as long as nobody deliberately messes things up, it'll get done sooner or later... Fortunately our luck held out until we got there in the end.
+:::'''Maryam:''' Hey, but I wouldn't call this any kind of "experience." Please forgive me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::<!--Custom String Listener: TalkSentence_502039137-->
+:::'''Maryam:''' Off you go. Take care.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502039102-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::I'm busy, so I'll be heading off.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maryam
+|zhs  = 麦尔彦
+|zht  = 麥爾彥
+|ja   = マリアム
+|ko   = 마리얌
+|es   = Maryam
+|fr   = Maryam
+|ru   = Марьям
+|th   = Maryam
+|vi   = Maryam
+|de   = Maryam
+|id   = Maryam
+|pt   = Maryam
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,199 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lynx#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Lynx.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Outlying Snow Plains
+|relatives       = 
+}}
+'''Lynx''' is an NPC on [[Jarilo-VI]], located in [[Outlying Snow Plains]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Outlying Snow Plains|npc_78_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501030901: Config/Level/Mission/5010309/Act/Act501030901.json-->
+::'''Lynx:''' *yawns* I'm so drowsy, it's so warm...
+::'''Lynx:''' ...Oh, there you are. Sorry if I seem a bit drowsy, but that's what happens when it gets hot.
+::Lynx softly slaps her cheeks.
+::'''Lynx:''' All right, I'm awake. What brings you all the way here to the Snow Plains?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501030902: Config/Level/Mission/5010309/Act/Act501030902.json-->
+::'''Lynx:''' Oh, you're here, too? Are you here on an expedition just like me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I've found some ancient coins...
+::<!--Trigger PerformanceE 501030903: Config/Level/Mission/5010309/Act/Act501030903.json-->
+::'''Lynx:''' Oh, show them to me.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 78,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 27,
+	"TaskID": []
+}</pre>
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030903-->
+:{{DIcon}} I'm just here for a chat...
+::<!--Trigger PerformanceE 501030904: Config/Level/Mission/5010309/Act/Act501030904.json-->
+::'''Lynx:''' Sure, I don't have any research tasks today. What do you wanna talk about?
+::<!--Custom String Trigger: Wait_Option_501030904_75-->
+::<!--Custom String Listener: Wait_Option_501030904_75-->
+::{{DIcon|Talk}} So, you're an extreme environments explorer?
+:::<!--Custom String Listener: TalkSentence_501030954-->
+:::'''Lynx:''' Yup, I'm a member of the Belobog Snow Plains research team.
+:::'''Lynx:''' You probably haven't heard of this organization... Our job got called off during Supreme Guardian Cocolia's tenure, and we faded out of the public eye.
+:::'''Lynx:''' But to tell you the truth, we used to go on unauthorized expeditions into the Snow Plains from time to time back then...
+:::'''Lynx:''' ...Please don't tell Lady Bronya though. She might get upset &mdash; even though our work now have her blessings.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your relationship with the Landau family?
+:::<!--Custom String Listener: TalkSentence_501030959-->
+:::'''Lynx:''' Well... we don't always see eye to eye, but we're not standing eyeball to eyeball, either.
+:::'''Lynx:''' I really like hanging out with my sister. She's so cheerful and is so talented in so many things. I admire that about her.
+:::'''Lynx:''' As for my big brother... He's hardworking and extremely righteous... I just wish he didn't worry about me so much.
+:::'''Lynx:''' Please... don't mention this to anyone, especially not Serval. She'd get all puffed up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your relationship with Pela?
+:::<!--Custom String Listener: TalkSentence_501030964-->
+:::'''Lynx:''' She's a good friend of mine. We go way back to our days at the Belobog Cadet School.
+:::'''Lynx:''' The first time we met was at the school library. At the time, I happened to pick up her unfinished writing, something like ''Tales'', and returned it to her.
+:::'''Lynx:''' I was pretty surprised to find out that she was a fan of ''Tales'' too, so I was curious about her opinion on it... But Pela was so shy that she didn't really say anything.
+:::'''Lynx:''' Later on... we met again in Serval's band.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're a member of the band, right?
+:::<!--Custom String Listener: TalkSentence_501030969-->
+:::'''Lynx:''' Yeah, I'm the keyboard player.
+:::'''Lynx:''' Dunn was the keyboard player for Mechanical Fever before I joined, but he got caught up in military duties after graduation and had to leave the band, so I filled in.
+:::'''Lynx:''' But from what I heard, there was actually another member before me, a bass player I think? But then they just disappeared, and I heard they had some connection with my sister and Madam Cocolia...
+:::'''Lynx:''' ...But these are just baseless rumors, and I don't really know the details. So, don't take this wild story too seriously.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_501030974-->
+:::'''Lynx:''' Hmm, yeah. Feel free to come to me if you have any more questions.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030904-->
+:{{DIcon|Exit}} Then I'll leave you to your research.
+::<!--Trigger PerformanceE 501030905: Config/Level/Mission/5010309/Act/Act501030905.json-->
+::'''Lynx:''' So long, (Trailblazer). I wish you a smooth ride ahead.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030905-->
+;(Unused &mdash; Wait_Option_501030901_14)
+:<!--Custom String Listener: Wait_Option_501030901_14-->
+::'''Lynx:''' Oh, show them to me.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 78,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 27,
+	"TaskID": []
+}</pre>
+;(Unused &mdash; TalkSentence_501030908)
+:<!--Custom String Listener: TalkSentence_501030908-->
+::'''Lynx:''' Sure, I don't have any research tasks today. What do you wanna talk about?
+::<!--Custom String Trigger: Wait_Option_501030901_18-->
+::<!--Custom String Listener: Wait_Option_501030901_18-->
+::{{DIcon|Talk}} So, you're an extreme environments explorer?
+:::<!--Custom String Listener: TalkSentence_501030910-->
+:::'''Lynx:''' Yup, I'm a member of the Belobog Snow Plains research team.
+:::'''Lynx:''' You probably haven't heard of this organization... Our job got called off during Supreme Guardian Cocolia's tenure, and we faded out of the public eye.
+:::'''Lynx:''' But to tell you the truth, we used to go on unauthorized expeditions into the Snow Plains from time to time back then...
+:::'''Lynx:''' ...Please don't tell Lady Bronya though. She might get upset &mdash; even though our work now have her blessings.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your relationship with the Landau family?
+:::<!--Custom String Listener: TalkSentence_501030915-->
+:::'''Lynx:''' Well... we don't always see eye to eye, but we're not standing eyeball to eyeball, either.
+:::'''Lynx:''' I really like hanging out with my sister. She's so cheerful and is so talented in so many things. I admire that about her.
+:::'''Lynx:''' As for my big brother... He's hardworking and extremely righteous... I just wish he didn't worry about me so much.
+:::'''Lynx:''' Please... don't mention this to anyone, especially not Serval. She'd get all puffed up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your relationship with Pela?
+:::<!--Custom String Listener: TalkSentence_501030920-->
+:::'''Lynx:''' She's a good friend of mine. We go way back to our days at the Belobog Cadet School.
+:::'''Lynx:''' The first time we met was at the school library. At the time, I happened to pick up her unfinished writing, something like ''Tales'', and returned it to her.
+:::'''Lynx:''' I was pretty surprised to find out that she was a fan of ''Tales'' too, so I was curious about her opinion on it... But Pela was so shy that she didn't really say anything.
+:::'''Lynx:''' Later on... we met again in Serval's band.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You're a member of the band, right?
+:::<!--Custom String Listener: TalkSentence_501030925-->
+:::'''Lynx:''' Yeah, I'm the keyboard player.
+:::'''Lynx:''' Dunn was the keyboard player for Mechanical Fever before I joined, but he got caught up in military duties after graduation and had to leave the band, so I filled in.
+:::'''Lynx:''' But from what I heard, there was actually another member before me, a bass player I think? But then they just disappeared, and I heard they had some connection with my sister and Madam Cocolia...
+:::'''Lynx:''' ...But these are just baseless rumors, and I don't really know the details. So, don't take this wild story too seriously.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_501030930-->
+:::'''Lynx:''' Hmm, yeah. Feel free to come to me if you have any more questions.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_501030932)
+:<!--Custom String Listener: TalkSentence_501030932-->
+::'''Lynx:''' So long, (Trailblazer). I wish you a smooth ride ahead.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lynx
+|zhs  = 玲可
+|zht  = 玲可
+|ja   = リンクス
+|ko   = 링스
+|es   = Lynx
+|fr   = Lynx
+|ru   = Рысь
+|th   = Lynx
+|vi   = Lynx
+|de   = Lynx
+|id   = Lynx
+|pt   = Lynx
+}}
+==Change History==
+{{Change History|TODO}}

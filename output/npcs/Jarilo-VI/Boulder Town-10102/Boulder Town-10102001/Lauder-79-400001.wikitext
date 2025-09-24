@@ -1,0 +1,101 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lauder#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Grocery Store Worker
+|image           = NPC Lauder.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Lauder''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_79_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Shop Assistant:''' Take a look. We don't have everything in stock.
+<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 79,
+	"ConfigID": 400001
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.ShowWorldShop",
+	"ShopType": 20,
+	"ShopID": 402
+}</pre>
+:<!--Ends the current performance-->
+:'''Lauder:''' Yo, welcome to Lauder's humble shop! Don't hesitate to lemme know what you need!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I want to buy something.
+::<!--Trigger PerformanceE 501030104: Config/Level/Mission/5010301/Act/Act501030104.json-->
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 79,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowWorldShop",
+	"ShopType": 14,
+	"ShopID": 402
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030104-->
+:{{DIcon|Exit}} It's okay.
+::<!--Trigger PerformanceE 501030105: Config/Level/Mission/5010301/Act/Act501030105.json-->
+::'''Lauder:''' Come back again when you've got time!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030105-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,364 @@
+<%-- [PAGE_INFO]
+PageTitle=#Molly#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Technology Staff
+|image           = NPC Molly.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Molly''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_169_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: TalkSentence_501026914-->
+:<!--Custom String Listener: TalkSentence_501026914-->
+:'''Molly:''' Mm-hmm...
+:<!--Custom String Trigger: Wait_Option_5010269_28-->
+:<!--Custom String Listener: Wait_Option_5010269_28-->
+:{{DIcon|Arrow}} What's bothering you?
+::<!--Custom String Listener: TalkSentence_501026916-->
+::'''Molly:''' It's about the guards... I'm in no position to talk about it.
+::'''Molly:''' They don't like me and they're giving me a hard time... I don't know why they are like this! I'm just trying to do my job. That's it.
+::'''Molly:''' Anyway, it was so depressing in the army, so I came out to get some fresh air.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Are you always this grumpy?
+::<!--Custom String Listener: TalkSentence_501026920-->
+::'''Molly:''' Me? Grumpy? How can you tell?
+::<!--Custom String Trigger: Wait_Option_5010269_35-->
+::<!--Custom String Listener: Wait_Option_5010269_35-->
+::{{DIcon|Arrow}} From every word you've just yelled...
+::<!--Custom String Listener: TalkSentence_501026922-->
+::'''Molly:''' It's not like I'm on a bad date or something... This is just how I talk.
+::'''Molly:''' Forget it. I assure you that this is not how I normally am.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} What does a technical consultant do?
+::<!--Custom String Listener: TalkSentence_501026925-->
+::'''Molly:''' My job is to coordinate engineering projects and monitor product quality. Oh, also, when there is a need to outsource a military project, I will participate in the negotiations and assist in the selection of vendors.
+::'''Molly:''' I've been so worn out at work lately... Who said that using your head to work is easier than physical labor?
+::<!--Custom String Trigger: Wait_Option_5010269_43-->
+::<!--Custom String Listener: Wait_Option_5010269_43-->
+::{{DIcon|Arrow}} Why don't you leave the garrison?
+:::<!--Custom String Listener: TalkSentence_501026928-->
+:::'''Molly:''' What will people think of me if I leave because of this little setback?
+:::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} It's good to push yourself when you are young.
+:::<!--Custom String Listener: TalkSentence_501026931-->
+:::'''Molly:''' ...You think I didn't know that?
+:::'''Molly:''' Whatever. I have to learn to control my temper...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 201110110--> and {{cx}}<!--performance 501026901 has not been seen-->)
+:<!--Trigger PerformanceE 501026909: Config/Level/Mission/5010269/Act/Act501026909.json-->
+:'''Molly:''' Ah... What should I do...
+:'''(Trailblazer):''' (Molly doesn't seem to notice me...)
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 201110110--> and {{cx}}<!--performance 501026901 has not been seen-->)
+:<!--Trigger PerformanceE 501026902: Config/Level/Mission/5010269/Act/Act501026902.json-->
+:{{A|VO vo ambient w1 greeting molly 101.ogg}} {{A|VO vo ambient w1 greeting molly 102.ogg}} '''Molly:''' What the heck is the Procurement Department doing? These parts are all defective! Man. They really know how to grind my gears! Am I nothing to them!?
+:'''Molly:''' ...Ah, sorry, I didn't see you there. Can I help you?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501026901: Config/Level/Mission/5010269/Act/Act501026901.json-->
+::<!--Custom String Trigger: TalkSentence_501026901-->
+::<!--Custom String Listener: TalkSentence_501026901-->
+::'''Molly:''' *sigh*... I'm so annoyed.
+::<!--Custom String Trigger: Wait_Option_5010269_7-->
+::<!--Custom String Listener: Wait_Option_5010269_7-->
+::{{DIcon|Arrow}} What's wrong?
+:::<!--Custom String Listener: TalkSentence_501026903-->
+:::'''Molly:''' I've got a lot on my mind... What? You've never seen someone express emotion before?
+::{{DIcon|Arrow}} (Brief silence)
+:::<!--Custom String Listener: TalkSentence_501026905-->
+:::'''Molly:''' ...Hey! What are you looking at? Have you never seen someone express a little emotion before?
+::<!--Custom String Trigger: Wait_Option_5010269_13-->
+::<!--Custom String Listener: Wait_Option_5010269_13-->
+::{{DIcon|Arrow}} Why are you yelling?
+::{{DIcon|Arrow}} I was just passing by...
+::<!--Custom String Listener: TalkSentence_501026908-->
+::'''Molly:''' Sorry, I shouldn't have lost my temper. You showed up at a bad time...
+::'''Molly:''' I'm Molly, the executive consultant of Silvermane Guards' Technology Division. Who are you?
+::<!--Custom String Trigger: Wait_Option_5010269_19-->
+::<!--Custom String Listener: Wait_Option_5010269_19-->
+::{{DIcon|Arrow}} I'm (Trailblazer).
+::<!--Custom String Listener: TalkSentence_501026911-->
+::'''Molly:''' That's an interesting title... Huh? Why am I commenting on people's names again? Sorry.
+::'''Molly:''' Is there something important you wanted to see me about? I'm not in the mood for small talk...
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I wanted to ask you...
+::<!--Trigger PerformanceE 501026903: Config/Level/Mission/5010269/Act/Act501026903.json-->
+::<!--Custom String Trigger: TalkSentence_501026914-->
+::<!--Custom String Listener: TalkSentence_501026914-->
+::'''Molly:''' Mm-hmm...
+::<!--Custom String Trigger: Wait_Option_5010269_28-->
+::<!--Custom String Listener: Wait_Option_5010269_28-->
+::{{DIcon|Arrow}} What's bothering you?
+:::<!--Custom String Listener: TalkSentence_501026916-->
+:::'''Molly:''' It's about the guards... I'm in no position to talk about it.
+:::'''Molly:''' They don't like me and they're giving me a hard time... I don't know why they are like this! I'm just trying to do my job. That's it.
+:::'''Molly:''' Anyway, it was so depressing in the army, so I came out to get some fresh air.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are you always this grumpy?
+:::<!--Custom String Listener: TalkSentence_501026920-->
+:::'''Molly:''' Me? Grumpy? How can you tell?
+:::<!--Custom String Trigger: Wait_Option_5010269_35-->
+:::<!--Custom String Listener: Wait_Option_5010269_35-->
+:::{{DIcon|Arrow}} From every word you've just yelled...
+:::<!--Custom String Listener: TalkSentence_501026922-->
+:::'''Molly:''' It's not like I'm on a bad date or something... This is just how I talk.
+:::'''Molly:''' Forget it. I assure you that this is not how I normally am.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What does a technical consultant do?
+:::<!--Custom String Listener: TalkSentence_501026925-->
+:::'''Molly:''' My job is to coordinate engineering projects and monitor product quality. Oh, also, when there is a need to outsource a military project, I will participate in the negotiations and assist in the selection of vendors.
+:::'''Molly:''' I've been so worn out at work lately... Who said that using your head to work is easier than physical labor?
+:::<!--Custom String Trigger: Wait_Option_5010269_43-->
+:::<!--Custom String Listener: Wait_Option_5010269_43-->
+:::{{DIcon|Arrow}} Why don't you leave the garrison?
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::'''Molly:''' What will people think of me if I leave because of this little setback?
+::::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's good to push yourself when you are young.
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::'''Molly:''' ...You think I didn't know that?
+::::'''Molly:''' Whatever. I have to learn to control my temper...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501026903-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501026907: Config/Level/Mission/5010269/Act/Act501026907.json-->
+::'''Molly:''' Ugh, how do you think I've been? I've just been so angry with my coworkers...
+::'''Molly:''' I just feel like... I've grown numb to it already. There's really no reason for me to put up with the military. Whatever nonsense they get up to has no bearing on my life. So why should I be making myself miserable?
+::'''Molly:''' ...Is this really the life that I want? Back then, I did everything I could to get into the Technology Division, but I didn't do all that just so I could lie back and wait for my life to be over.
+::{{DIcon|Arrow}} You are doing the right thing. Keep at it.
+:::<!--Custom String Listener: TalkSentence_501026967-->
+:::'''Molly:''' Easier said than done.
+::{{DIcon|Arrow}} I don't think you need to put yourself through all that either.
+:::<!--Custom String Listener: TalkSentence_501026969-->
+:::'''Molly:''' You're right, but I don't dare to imagine how things would change if I give up everything. Am I really going to stand here and watch Belobog get worse by the day?
+:::'''Molly:''' To be honest, I'm scared. It's not just because the environment is getting worse. What's even more terrifying is that I will end up just like those people. I'll become the worst version of myself.
+::{{DIcon|Arrow}} Whatever you're passionate about is what your life really is...
+:::<!--Custom String Listener: TalkSentence_501026972-->
+:::'''Molly:''' So you're saying... I should do what I truly love?
+:::'''Molly:''' But after all the upsetting things I've experienced... I feel as if I'll never find something that I can completely throw myself into.
+::<!--Custom String Trigger: TalkSentence_501026974-->
+::<!--Custom String Listener: TalkSentence_501026974-->
+::'''Molly:''' I don't know how long I'll be able to hold on... but I will try to stick with it a little longer. It was nice chatting with you. Thanks.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501026907-->
+:{{DIcon|Exit}} Have a nice day. Bye.
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010269_24)
+:<!--Custom String Listener: Wait_Option_5010269_24-->
+::{{DIcon|Arrow}} I wanted to ask you...
+::<!--Custom String Listener: TalkSentence_501026914-->
+::<!--Custom String Listener: TalkSentence_501026914-->
+::'''Molly:''' Mm-hmm...
+::<!--Custom String Trigger: Wait_Option_5010269_28-->
+::<!--Custom String Listener: Wait_Option_5010269_28-->
+::<!--Custom String Listener: Wait_Option_5010269_28-->
+::{{DIcon|Arrow}} What's bothering you?
+:::<!--Custom String Listener: TalkSentence_501026916-->
+:::<!--Custom String Listener: TalkSentence_501026916-->
+:::'''Molly:''' It's about the guards... I'm in no position to talk about it.
+:::'''Molly:''' They don't like me and they're giving me a hard time... I don't know why they are like this! I'm just trying to do my job. That's it.
+:::'''Molly:''' Anyway, it was so depressing in the army, so I came out to get some fresh air.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are you always this grumpy?
+:::<!--Custom String Listener: TalkSentence_501026920-->
+:::<!--Custom String Listener: TalkSentence_501026920-->
+:::'''Molly:''' Me? Grumpy? How can you tell?
+:::<!--Custom String Trigger: Wait_Option_5010269_35-->
+:::<!--Custom String Listener: Wait_Option_5010269_35-->
+:::<!--Custom String Listener: Wait_Option_5010269_35-->
+:::{{DIcon|Arrow}} From every word you've just yelled...
+:::<!--Custom String Listener: TalkSentence_501026922-->
+:::<!--Custom String Listener: TalkSentence_501026922-->
+:::'''Molly:''' It's not like I'm on a bad date or something... This is just how I talk.
+:::'''Molly:''' Forget it. I assure you that this is not how I normally am.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What does a technical consultant do?
+:::<!--Custom String Listener: TalkSentence_501026925-->
+:::<!--Custom String Listener: TalkSentence_501026925-->
+:::'''Molly:''' My job is to coordinate engineering projects and monitor product quality. Oh, also, when there is a need to outsource a military project, I will participate in the negotiations and assist in the selection of vendors.
+:::'''Molly:''' I've been so worn out at work lately... Who said that using your head to work is easier than physical labor?
+:::<!--Custom String Trigger: Wait_Option_5010269_43-->
+:::<!--Custom String Listener: Wait_Option_5010269_43-->
+:::<!--Custom String Listener: Wait_Option_5010269_43-->
+:::{{DIcon|Arrow}} Why don't you leave the garrison?
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::'''Molly:''' What will people think of me if I leave because of this little setback?
+::::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's good to push yourself when you are young.
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::'''Molly:''' ...You think I didn't know that?
+::::'''Molly:''' Whatever. I have to learn to control my temper...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Why don't you leave the garrison?
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::'''Molly:''' What will people think of me if I leave because of this little setback?
+::::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's good to push yourself when you are young.
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::'''Molly:''' ...You think I didn't know that?
+::::'''Molly:''' Whatever. I have to learn to control my temper...
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Molly:''' My job is to coordinate engineering projects and monitor product quality. Oh, also, when there is a need to outsource a military project, I will participate in the negotiations and assist in the selection of vendors.
+:::'''Molly:''' I've been so worn out at work lately... Who said that using your head to work is easier than physical labor?
+:::<!--Custom String Trigger: Wait_Option_5010269_43-->
+:::<!--Custom String Listener: Wait_Option_5010269_43-->
+:::{{DIcon|Arrow}} Why don't you leave the garrison?
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::'''Molly:''' What will people think of me if I leave because of this little setback?
+::::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's good to push yourself when you are young.
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::'''Molly:''' ...You think I didn't know that?
+::::'''Molly:''' Whatever. I have to learn to control my temper...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} What's bothering you?
+:::<!--Custom String Listener: TalkSentence_501026916-->
+:::'''Molly:''' It's about the guards... I'm in no position to talk about it.
+:::'''Molly:''' They don't like me and they're giving me a hard time... I don't know why they are like this! I'm just trying to do my job. That's it.
+:::'''Molly:''' Anyway, it was so depressing in the army, so I came out to get some fresh air.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are you always this grumpy?
+:::<!--Custom String Listener: TalkSentence_501026920-->
+:::'''Molly:''' Me? Grumpy? How can you tell?
+:::<!--Custom String Trigger: Wait_Option_5010269_35-->
+:::<!--Custom String Listener: Wait_Option_5010269_35-->
+:::{{DIcon|Arrow}} From every word you've just yelled...
+:::<!--Custom String Listener: TalkSentence_501026922-->
+:::'''Molly:''' It's not like I'm on a bad date or something... This is just how I talk.
+:::'''Molly:''' Forget it. I assure you that this is not how I normally am.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What does a technical consultant do?
+:::<!--Custom String Listener: TalkSentence_501026925-->
+:::'''Molly:''' My job is to coordinate engineering projects and monitor product quality. Oh, also, when there is a need to outsource a military project, I will participate in the negotiations and assist in the selection of vendors.
+:::'''Molly:''' I've been so worn out at work lately... Who said that using your head to work is easier than physical labor?
+:::<!--Custom String Trigger: Wait_Option_5010269_43-->
+:::<!--Custom String Listener: Wait_Option_5010269_43-->
+:::{{DIcon|Arrow}} Why don't you leave the garrison?
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::'''Molly:''' What will people think of me if I leave because of this little setback?
+::::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's good to push yourself when you are young.
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::'''Molly:''' ...You think I didn't know that?
+::::'''Molly:''' Whatever. I have to learn to control my temper...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::'''Molly:''' Mm-hmm...
+::<!--Custom String Trigger: Wait_Option_5010269_28-->
+::<!--Custom String Listener: Wait_Option_5010269_28-->
+::{{DIcon|Arrow}} What's bothering you?
+:::<!--Custom String Listener: TalkSentence_501026916-->
+:::'''Molly:''' It's about the guards... I'm in no position to talk about it.
+:::'''Molly:''' They don't like me and they're giving me a hard time... I don't know why they are like this! I'm just trying to do my job. That's it.
+:::'''Molly:''' Anyway, it was so depressing in the army, so I came out to get some fresh air.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are you always this grumpy?
+:::<!--Custom String Listener: TalkSentence_501026920-->
+:::'''Molly:''' Me? Grumpy? How can you tell?
+:::<!--Custom String Trigger: Wait_Option_5010269_35-->
+:::<!--Custom String Listener: Wait_Option_5010269_35-->
+:::{{DIcon|Arrow}} From every word you've just yelled...
+:::<!--Custom String Listener: TalkSentence_501026922-->
+:::'''Molly:''' It's not like I'm on a bad date or something... This is just how I talk.
+:::'''Molly:''' Forget it. I assure you that this is not how I normally am.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What does a technical consultant do?
+:::<!--Custom String Listener: TalkSentence_501026925-->
+:::'''Molly:''' My job is to coordinate engineering projects and monitor product quality. Oh, also, when there is a need to outsource a military project, I will participate in the negotiations and assist in the selection of vendors.
+:::'''Molly:''' I've been so worn out at work lately... Who said that using your head to work is easier than physical labor?
+:::<!--Custom String Trigger: Wait_Option_5010269_43-->
+:::<!--Custom String Listener: Wait_Option_5010269_43-->
+:::{{DIcon|Arrow}} Why don't you leave the garrison?
+::::<!--Custom String Listener: TalkSentence_501026928-->
+::::'''Molly:''' What will people think of me if I leave because of this little setback?
+::::'''Molly:''' Forget it, I'll try to endure it. Maybe everything will be better soon...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's good to push yourself when you are young.
+::::<!--Custom String Listener: TalkSentence_501026931-->
+::::'''Molly:''' ...You think I didn't know that?
+::::'''Molly:''' Whatever. I have to learn to control my temper...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Molly
+|zhs  = 茉莉
+|zht  = 茉莉
+|ja   = モリー
+|ko   = 몰리
+|es   = Molly
+|fr   = Molly
+|ru   = Молли
+|th   = Molly
+|vi   = Molly
+|de   = Molly
+|id   = Molly
+|pt   = Molly
+}}
+==Change History==
+{{Change History|TODO}}

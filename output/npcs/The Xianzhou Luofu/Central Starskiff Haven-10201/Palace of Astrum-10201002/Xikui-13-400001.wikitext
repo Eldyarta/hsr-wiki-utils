@@ -1,0 +1,313 @@
+<%-- [PAGE_INFO]
+PageTitle=#Xikui#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Helm Master's Secretary
+|image           = NPC Xikui.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Palace of Astrum
+|relatives       = 
+}}
+'''Xikui''' is an NPC on [[The Xianzhou Luofu]], located in [[Palace of Astrum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Palace of Astrum|npc_13_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 202030213,
+		"Type": "submission_state_equal",
+		"Param1": 202030213,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 202030213: Config/Level/Mission/2020302/Act/Act202030213.json-->
+:'''Xikui:''' I've heard all about it from Tantan. I didn't expect you to have a traffic accident after only half a day as a speed tester.
+:'''Xikui:''' Isn't it a talent of some kind to be able to show up every time an accident happens? Wouldn't you say so?
+:{{DIcon|Arrow}} I like your sense of humor.
+::<!--Custom String Listener: TalkSentence_202012304-->
+::'''Xikui:''' Well, if it's a talent, it must be put to good use.
+:{{DIcon|Arrow}} Didn't think you'd be so witty...
+::<!--Custom String Listener: TalkSentence_202012306-->
+::'''Xikui:''' Haha, I'm just stating a fact.
+:<!--Custom String Trigger: TalkSentence_202012307-->
+:<!--Custom String Listener: TalkSentence_202012307-->
+:'''Xikui:''' This pilot dares to speed at a place just outside the Palace of Astrum. They have no respect for the Sky-Faring Commission!
+:'''Xikui:''' You and Tantan have done an investigation on the field. If we match the cycrane footage, we should be able to find the starskiff that caused the accident soon.
+:'''Xikui:''' Which cycrane footage do you want to see first?
+:<!--Custom String Trigger: Wait_Option_202030213_427-->
+:<!--Custom String Listener: Wait_Option_202030213_427-->
+:{{DIcon|Talk}} Cycrane at the southwest entrance.
+::<!--Custom String Listener: TalkSentence_202012311-->
+::'''Xikui:''' From this angle, it seems that there is some problem with the starskiff's engine.
+::'''Xikui:''' Doesn't look like the original engine... looks like it's been illegally modified.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Cycrane at the southeast entrance.
+::<!--Custom String Listener: TalkSentence_202012314-->
+::'''Xikui:''' From this angle, the colors of the different starskiffs are obvious.
+::'''Xikui:''' I don't know how much eyewitness testimony you got.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Cycrane at the northeast entrance.
+::<!--Custom String Listener: TalkSentence_202012317-->
+::'''Xikui:''' This photo is more useful, you can see different starskiffs going in different directions.
+::'''Xikui:''' Have you found out where the offending starskiff went?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Leave the photo to me and Tantan.
+::<!--Custom String Listener: TalkSentence_202012320-->
+::'''Xikui:''' I'll leave this to you and Tantan.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_202030213-->
+:'''Xikui:''' Ah, I get it. You want to know more about me? Fine, ask away.
+:<!--Custom String Trigger: Wait_Option_502011902_712-->
+:<!--Custom String Listener: Wait_Option_502011902_712-->
+:{{DIcon|Talk}} Have you always been this pretty?
+::<!--Custom String Listener: TalkSentence_502119103-->
+::'''Xikui:''' Oh, that sweet tongue. I wonder how many have been struck down by your glibness, {{MC|f=young lady|m=young man}}?
+::'''Xikui:''' Then again, I've always been confident in my looks, which is why I believe your words are sincere. Thank you, and you are very cute too, totally my style.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About work...
+::<!--Custom String Listener: TalkSentence_502119116-->
+::'''Xikui:''' Stop asking about what I do in detail. I'm not going to report my work to someone other than Madam Yukong.
+::'''Xikui:''' But I'll tell you a principle I stick to at work: Leaving work on time. Work with maximum efficiency while at work, but the moment I punch out, I turn work mode off.
+::'''Xikui:''' Just look around the Sky-Faring Commission &mdash; many love working overtime to prove their efforts. They refuse to get off on time, preferring to dawdle away till late at night. They even think themselves hardworking.
+::'''Xikui:''' Me? I'm different. I'll finish up my tasks in a jiffy, and I'm gone when it's time to leave. "Leaving on time" and "sleeping early" are a girl's best friends to looking good.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About Madam Yukong...
+::<!--Custom String Listener: TalkSentence_502119121-->
+::'''Xikui:''' Madam Yukong? She's the best boss I've ever met. You've only seen what she's like when she's working: Strict and serious. She's actually quite adorable in private.
+::'''Xikui:''' I've even received dresses gifted by Madam Yukong. I have to say, her taste is impeccable. I frequently wear those dresses of hers when I go out.
+::'''Xikui:''' Also, my looks regularly invite trouble from persistent men who don't know their place. It's times like these when Madam Yukong is so dependable.
+::'''Xikui:''' "If you ever harass Xikui again, I won't just eject you out of the Sky-Faring Commission, and I'll also flush you off Luofu."
+::'''Xikui:''' Honestly, when I first cast my eyes on Madam Yukong, my heart skipped a beat.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have anything else to ask. See you next time.
+::<!--Custom String Listener: TalkSentence_502119127-->
+::'''Xikui:''' All right, till next time then.
+::<!--Ends the current performance-->
+:'''Xikui:''' All right, till next time then.
+:<!--Ends the current performance-->
+:'''Xikui:''' Look, a new request report &mdash; it's a program about traffic regulations by the Sky-Faring Commission's speed testers. Interesting...
+:'''Xikui:''' Hmm? What is it, {{MC|f=young lady|m=young man}}? What can I do for you today?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000085: Config/Level/NPC/W2/NPC_DefaultStory_502011901.json-->
+::'''Xikui:''' Management Strategy for Reporting Starskiff Traffic, check. Safety Inspection Guide, check. The life satisfaction survey for the new Outworlder batch, check. Documents are in order... now to confirm the schedule for the meeting.
+::'''Xikui:''' Mm, there's still time. The relevant documentation for the Alchemy Commission's medicinal exports... requires confirmation from the person in charge. Also... souvenir bag orders for the merchant guilds should have arrived. I'll send someone to pick them up later.
+::'''Xikui:''' Hmm? What is it, {{MC|f=young lady|m=young man}}? You've been staring at me for a while. How may I help you?
+::{{DIcon|Arrow}} What are you busy with?
+:::<!--Custom String Listener: TalkSentence_502119005-->
+:::'''Xikui:''' I am Madam Yukong's secretary, charged with handling much documentation... I won't go into detail about my job scope.
+:::'''Xikui:''' You're not really interested in arranging work and poring over corporate files, are you?
+::{{DIcon|Arrow}} I just thought you looked nice, is all.
+:::<!--Custom String Listener: TalkSentence_502119008-->
+:::'''Xikui:''' Hahaha, I'll accept your compliment then.
+:::'''Xikui:''' You know I am Madam Yukong's secretary, yes? Looking good is also part of my job in the Sky-Faring Commission.
+:::'''Xikui:''' Haha, are you serious? I was just kidding.
+::{{DIcon|Arrow}} I'm not a {{MC|f=young lady|m=young man}}.
+:::<!--Custom String Listener: TalkSentence_502119012-->
+:::'''Xikui:''' Hahaha, how cute.
+:::'''Xikui:''' Well then, here's the first tip from the Chief Secretary of the Head of the Sky-Faring Commission: Don't ever judge a book by its cover on Xianzhou. Anyone you talk to could be hundreds of years old. That is the norm here.
+:::'''Xikui:''' Also, second tip: When someone older than you speaks, it's best to just listen.
+::<!--Custom String Trigger: TalkSentence_502119015-->
+::<!--Custom String Listener: TalkSentence_502119015-->
+::'''Xikui:''' Hold on, I remember you. "An important guest of Xianzhou," "General Jing Yuan's appointed savior"... From the perspective of an insignificant secretary, you're a major character.
+::<!--Custom String Trigger: Wait_Option_502011901_687-->
+::<!--Custom String Listener: Wait_Option_502011901_687-->
+::{{DIcon|Arrow}} Oooh, am I really that important?
+:::<!--Custom String Listener: TalkSentence_502119017-->
+:::'''Xikui:''' More than you think, I can assure you.
+::{{DIcon|Arrow}} "General Jing Yuan's appointed savior"?
+:::<!--Custom String Listener: TalkSentence_502119019-->
+:::'''Xikui:''' Oh, you don't believe me?
+:::'''Xikui:''' I just made that up, this "savior" honorific. Though I'm sure that General Jing Yuan thinks so as well.
+::{{DIcon|Arrow}} What are you up to, lavishing me with such praise?
+:::<!--Custom String Listener: TalkSentence_502119022-->
+:::'''Xikui:''' Hmm? What am I up to? Just to make you like me, of course. I'm so cute, and you've got nothing to lose by returning the favor. Is that so surprising?
+:::{{DIcon|Arrow}} You're a sight for sore eyes.
+::::<!--Custom String Listener: TalkSentence_502119024-->
+::::'''Xikui:''' Oh, falling in love so quickly? I really must hand it to myself then.
+:::{{DIcon|Arrow}} I'm not falling for this.
+::::<!--Custom String Listener: TalkSentence_502119026-->
+::::'''Xikui:''' Falling? I don't know what you're talking about.
+::<!--Custom String Trigger: TalkSentence_502119027-->
+::<!--Custom String Listener: TalkSentence_502119027-->
+::'''Xikui:''' All right, all right. I've got business to attend do. See that pile of work here? I still want to clock off work on time. It was fun teasing you, so here's a small gift for you.
+::'''Xikui:''' If there's nothing else, I'm getting back to work.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000086: Config/Level/NPC/W2/NPC_DefaultStory_502011904.json-->
+::'''Xikui:''' Look, a new request report &mdash; it's a program about traffic regulations by the Sky-Faring Commission's speed testers. Interesting...
+::'''Xikui:''' Hmm? What is it, {{MC|f=young lady|m=young man}}? What can I do for you today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404021303-->)
+:{{DIcon|?}} You're as busy as a bee...
+::<!--Trigger PerformanceD 404021303: Config/Level/Mission/4040213/Act/Act404021303.json-->
+::'''Xikui:''' Yeah, I was so busy, I almost kicked myself in the face. All in a day's work at the Sky-Faring Commission! Time for the guilds' list to be updated once again...
+::'''Xikui:''' So, if you're here to invite me out for tea or theater, forget it.
+::{{DIcon|Arrow}} Does it ever feel like someone here is slacking off?
+:::<!--Custom String Listener: TalkSentence_404021327-->
+:::'''Xikui:''' Yeah. I mean, I only see you sauntering around as you do... Hang on, what's Yanming doing right now? He's staring daggers at us over here. Is he mad about something?
+::{{DIcon|Arrow}} Shouldn't you hand over the guilds' list work to the guild to do themselves?
+:::<!--Custom String Listener: TalkSentence_404021329-->
+:::'''Xikui:''' *sigh* It's common practice for our secretary to process all of this paperwork. The Amicassadors of all the guilds are tied down just from handling all of this year's materials...
+:::'''Xikui:''' Hang on, what's Yanming doing right now? He's staring daggers at us over here. Is he mad about something?
+::<!--Custom String Trigger: TalkSentence_404021331-->
+::<!--Custom String Listener: TalkSentence_404021331-->
+::'''Xikui:''' Tsk, we're both working for the same Sky-Faring Commission, how is he able to slack off so openly?
+::'''Xikui:''' Excuse me. I need to have a word with him.
+::----
+::You watch as the two of them start bickering, each ducking the other's questions &mdash; bringing up each other's backers, whispering about other colleagues' incompetence, shouting about an already oversaturated workload.
+::Yanming finally breaks for pause, just as Xikui takes the chance to shove a pile of documents into Yanming's hands &mdash; as if piercing him straight through the heart with a rapier.
+::At last, victory. Yanming is stunned, before he slinks away, dejected. The curtain falls on another trivial scene from the Palace of Astrum's millennia-old office drama.
+::----
+::<!--Custom String Trigger: YanmingZhanyong-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404021303_Finish-->
+;(If {{cx}}<!--SubMission Started: 202030213--> and {{cx}}<!--SubMission Started: 404021303-->)
+:{{DIcon|undefined}} Is this where we can check on the accident footage?
+::<!--Trigger PerformanceE 202030213: Config/Level/Mission/2020302/Act/Act202030213.json-->
+::'''Xikui:''' I've heard all about it from Tantan. I didn't expect you to have a traffic accident after only half a day as a speed tester.
+::'''Xikui:''' Isn't it a talent of some kind to be able to show up every time an accident happens? Wouldn't you say so?
+::{{DIcon|Arrow}} I like your sense of humor.
+:::<!--Custom String Listener: TalkSentence_202012304-->
+:::'''Xikui:''' Well, if it's a talent, it must be put to good use.
+::{{DIcon|Arrow}} Didn't think you'd be so witty...
+:::<!--Custom String Listener: TalkSentence_202012306-->
+:::'''Xikui:''' Haha, I'm just stating a fact.
+::<!--Custom String Trigger: TalkSentence_202012307-->
+::<!--Custom String Listener: TalkSentence_202012307-->
+::'''Xikui:''' This pilot dares to speed at a place just outside the Palace of Astrum. They have no respect for the Sky-Faring Commission!
+::'''Xikui:''' You and Tantan have done an investigation on the field. If we match the cycrane footage, we should be able to find the starskiff that caused the accident soon.
+::'''Xikui:''' Which cycrane footage do you want to see first?
+::<!--Custom String Trigger: Wait_Option_202030213_427-->
+::<!--Custom String Listener: Wait_Option_202030213_427-->
+::{{DIcon|Talk}} Cycrane at the southwest entrance.
+:::<!--Custom String Listener: TalkSentence_202012311-->
+:::'''Xikui:''' From this angle, it seems that there is some problem with the starskiff's engine.
+:::'''Xikui:''' Doesn't look like the original engine... looks like it's been illegally modified.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Cycrane at the southeast entrance.
+:::<!--Custom String Listener: TalkSentence_202012314-->
+:::'''Xikui:''' From this angle, the colors of the different starskiffs are obvious.
+:::'''Xikui:''' I don't know how much eyewitness testimony you got.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Cycrane at the northeast entrance.
+:::<!--Custom String Listener: TalkSentence_202012317-->
+:::'''Xikui:''' This photo is more useful, you can see different starskiffs going in different directions.
+:::'''Xikui:''' Have you found out where the offending starskiff went?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Leave the photo to me and Tantan.
+:::<!--Custom String Listener: TalkSentence_202012320-->
+:::'''Xikui:''' I'll leave this to you and Tantan.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202030213-->
+;(If {{cx}}<!--Hidden Mission ID 2020802--> has been completed, {{cx}}<!--SubMission Started: 202030213-->, and {{cx}}<!--SubMission Started: 404021303-->)
+:{{DIcon|Talk}} What happened to those who vandalized the roost?
+::<!--Trigger PerformanceE 90000125: Config/Level/NPC/W2/Act90000125.json-->
+::'''Xikui:''' Oh, I'm surprised you still remember that. Let me think... I suppose it's included in my recent work log...
+::'''Xikui:''' I remember now. The Seat of Divine Foresight took over the case later, and the Sky-Faring Commission had kept a record of the case.
+::'''Xikui:''' According to the Seat of Divine Foresight, the arrested provided information about many accomplices. I believe things will work out smoothly.
+::'''Xikui:''' We owe this to you... Speaking of which, many of my colleagues have been talking about you lately, and Madam Yukong also thinks highly of you. I think I'm a little jealous.
+::'''Xikui:''' Once again, thank you for your help!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000125-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--Hidden Mission ID 2020802--> has been completed, {{cx}}<!--SubMission Started: 202030213-->, and {{cx}}<!--SubMission Started: 404021303-->)
+:{{DIcon|Talk}} About Tingyun...
+::<!--Trigger PerformanceE 90000136: Config/Level/NPCDialogue/P10202/NPCAct/Act90000136.json-->
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has been completed)
+:::'''Xikui:''' A while ago, while tidying up my room, I found a book titled ''A Guide to Merchants and Mysteries'' in my bookshelf. Tingyun lent it to me, and I keep forgetting to return it to her all this time.
+:::'''Xikui:''' I really hope that I would be able to personally return this book to her one day...
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has not been completed)
+:::'''Xikui:''' Many are looking for her. As much as I want to find her, Madam Yukong doesn't allow me to do so.
+:::'''Xikui:''' I guess it's because Madam Yukong doesn't want me to get as deeply involved in the matter as her, knowing how slim the chance of finding Tingyun is.
+:::'''Xikui:''' Since that's the case, I can only stay by Madam Yukong's side and help her get through the trying times in my own way.
+:::'''Xikui:''' Ahhh... I feel so bad and powerless. I can't help but feel small and insignificant when such emotions hit me...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000136-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--Hidden Mission ID 2020802--> has been completed, {{cx}}<!--SubMission Started: 202030213-->, and {{cx}}<!--SubMission Started: 404021303-->)
+:{{DIcon}} I want to talk to you some more...
+::'''Xikui:''' Ah, I get it. You want to know more about me? Fine, ask away.
+::<!--Custom String Trigger: Wait_Option_502011902_712-->
+::<!--Custom String Listener: Wait_Option_502011902_712-->
+::{{DIcon|Talk}} Have you always been this pretty?
+:::<!--Custom String Listener: TalkSentence_502119103-->
+:::'''Xikui:''' Oh, that sweet tongue. I wonder how many have been struck down by your glibness, {{MC|f=young lady|m=young man}}?
+:::'''Xikui:''' Then again, I've always been confident in my looks, which is why I believe your words are sincere. Thank you, and you are very cute too, totally my style.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About work...
+:::<!--Custom String Listener: TalkSentence_502119116-->
+:::'''Xikui:''' Stop asking about what I do in detail. I'm not going to report my work to someone other than Madam Yukong.
+:::'''Xikui:''' But I'll tell you a principle I stick to at work: Leaving work on time. Work with maximum efficiency while at work, but the moment I punch out, I turn work mode off.
+:::'''Xikui:''' Just look around the Sky-Faring Commission &mdash; many love working overtime to prove their efforts. They refuse to get off on time, preferring to dawdle away till late at night. They even think themselves hardworking.
+:::'''Xikui:''' Me? I'm different. I'll finish up my tasks in a jiffy, and I'm gone when it's time to leave. "Leaving on time" and "sleeping early" are a girl's best friends to looking good.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Madam Yukong...
+:::<!--Custom String Listener: TalkSentence_502119121-->
+:::'''Xikui:''' Madam Yukong? She's the best boss I've ever met. You've only seen what she's like when she's working: Strict and serious. She's actually quite adorable in private.
+:::'''Xikui:''' I've even received dresses gifted by Madam Yukong. I have to say, her taste is impeccable. I frequently wear those dresses of hers when I go out.
+:::'''Xikui:''' Also, my looks regularly invite trouble from persistent men who don't know their place. It's times like these when Madam Yukong is so dependable.
+:::'''Xikui:''' "If you ever harass Xikui again, I won't just eject you out of the Sky-Faring Commission, and I'll also flush you off Luofu."
+:::'''Xikui:''' Honestly, when I first cast my eyes on Madam Yukong, my heart skipped a beat.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have anything else to ask. See you next time.
+:::<!--Custom String Listener: TalkSentence_502119127-->
+:::'''Xikui:''' All right, till next time then.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{cx}}<!--Hidden Mission ID 2020802--> has been completed, {{cx}}<!--SubMission Started: 202030213-->, and {{cx}}<!--SubMission Started: 404021303-->)
+:{{DIcon|Exit}} I don't have anything else to ask. See you next time.
+::'''Xikui:''' All right, till next time then.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Xikui
+|zhs  = 夕葵
+|zht  = 夕葵
+|ja   = 夕葵
+|ko   = 서유
+|es   = Xikui
+|fr   = Xikui
+|ru   = Сикуй
+|th   = Xikui
+|vi   = Xikui
+|de   = Xikui
+|id   = Xikui
+|pt   = Xikui
+}}
+==Change History==
+{{Change History|TODO}}

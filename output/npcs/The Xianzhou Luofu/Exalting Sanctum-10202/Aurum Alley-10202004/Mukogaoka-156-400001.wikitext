@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mukogaoka#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Outworld Tourist
+|image           = NPC Mukogaoka.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Mukogaoka''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_156_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502056101: Config/Level/NPCDialogue/P10202/NPCAct/Act502056101.json-->
+::'''Mukogaoka:''' It's just like what the guide said. It's totally worth the time...
+::'''Mukogaoka:''' As expected from Aurum Alley. Even its air is full of the scents of ordinary life.
+::{{DIcon|Arrow}} Guide? What guide?
+:::<!--Custom String Listener: TalkSentence_502056105-->
+:::'''Mukogaoka:''' The tourist guide, of course. "Get to Know the Real Luofu in 30 Days." That's the one I got. It may not be as popular as the other Luofu sightseeing guides, but I think it's the most practical one.
+::{{DIcon|Arrow}} Is Aurum Alley really that famous?
+:::<!--Custom String Listener: TalkSentence_502056107-->
+:::'''Mukogaoka:''' It's relatively famous, but not by that much, and especially not for the superficial kids who only care about shopping and taking photos. However, it's a great attraction among seasoned travelers like us.
+::<!--Custom String Trigger: TalkSentence_502056108-->
+::<!--Custom String Listener: TalkSentence_502056108-->
+::'''Mukogaoka:''' Sure, I'm here to enjoy myself, but I'm different from those superficial tourists. I'm not interested in the Starskiff Haven shops that only pander to visitors.
+::'''Mukogaoka:''' This isn't my first trip to Xianzhou. This time, I came only to experience the most authentic Luofu customs and culture.
+::{{DIcon|Arrow}} Aren't you a tourist, too?
+:::<!--Custom String Listener: TalkSentence_502056111-->
+:::'''Mukogaoka:''' There are all sorts of tourists, and I think of myself as a seasoned one. I've written many guides and reviews over the years, and I even got recognized as an honorary member online. You can't even buy that kind of recognition with money, you know?
+::{{DIcon|Arrow}} How could one experience local customs and culture?
+:::<!--Custom String Listener: TalkSentence_502056113-->
+:::'''Mukogaoka:''' It's not that hard. All you need is some time and dedication. Make sure to talk to the locals and eat at their favorite restaurants. And if you're lucky, attend local festivals and carnivals.
+:::'''Mukogaoka:''' Walk around more, ask more questions, and join in on the fun. Don't hunker down in hotels and souvenir shops all day. And, most importantly, respect the local culture. A good traveler is always open-minded!
+::<!--Custom String Trigger: TalkSentence_502056115-->
+::<!--Custom String Listener: TalkSentence_502056115-->
+::'''Mukogaoka:''' Judging by your outfit, you must be a tourist from the outside world, right? Feel free to ask me if you have any questions about sightseeing.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502056301: Config/Level/NPCDialogue/P10202/NPCAct/Act502056301.json-->
+::'''Mukogaoka:''' It's just like what the guide said. It's totally worth the time...
+::'''Mukogaoka:''' As expected from Aurum Alley. Even its air is full of the scents of ordinary life.
+::'''Mukogaoka:''' Hmm, you again? What's up? If you have any questions about sightseeing, you've come to the right person. It's only natural for us tourists to help each other out!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502056201: Config/Level/NPCDialogue/P10202/NPCAct/Act502056201.json-->
+::<!--Custom String Trigger: Wait_Option_502056201_379-->
+::<!--Custom String Listener: Wait_Option_502056201_379-->
+::{{DIcon|Talk}} Any recommended stores?
+:::<!--Custom String Listener: TalkSentence_502056203-->
+:::'''Mukogaoka:''' Stores... Well, there are lots of stores in Starskiff Haven, but many of them target tourists. I'm afraid you won't find the best deals there.
+:::'''Mukogaoka:''' Personally, I'd recommend the stores in Aurum Alley. For example, Spices Supreme is a restaurant only frequented by the locals. I strongly recommend you to try the unique and affordable dishes there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What souvenirs should I buy on my Xianzhou trip?
+:::<!--Custom String Listener: TalkSentence_502056206-->
+:::'''Mukogaoka:''' Souvenirs... Well, my suggestion would be "mung bean soda." Take it back to your friends and relatives, and make sure they try it...
+:::'''Mukogaoka:''' Once they've tried it, they won't be pestering you for souvenirs anymore, guaranteed. I mean, come on, you're on a trip. Just relax and stop worrying about the "social obligations" back home.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's so special about Aurum Alley?
+:::<!--Custom String Listener: TalkSentence_502056209-->
+:::'''Mukogaoka:''' Well, how should I put it... Aurum Alley is frequented by locals. I swear some store owners and staff even know each other. Sure, it doesn't have as many tourists as Starskiff Haven, and looks pretty ordinary at first glance.
+:::'''Mukogaoka:''' But it's got an indescribable vibe... Like the feeling of "ordinary life and everyday neighbors" in an old alley, you know?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502056212-->
+:::'''Mukogaoka:''' Well, if you have any ideas to share about sightseeing, I'm all ears.
+:::'''Mukogaoka:''' I just love the atmosphere of ordinary life in this alley. It is not easy to find something as interesting as Aurum Alley these days on the Luofu...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502056201-->
+:{{DIcon|Exit}} I'd better leave you to it.
+::'''Mukogaoka:''' Don't worry. I'm here for sightseeing anyway. I've got plenty of time on my hands.
+::'''Mukogaoka:''' I just love the atmosphere of ordinary life in this alley. It is not easy to find something as interesting as Aurum Alley these days on the Luofu...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mukogaoka
+|zhs  = 向之丘
+|zht  = 向之丘
+|ja   = 向ヶ丘
+|ko   = 무코가오카
+|es   = Mukogaoka
+|fr   = Mukogaoka
+|ru   = Мукогаока
+|th   = Mukogaoka
+|vi   = Mukogaoka
+|de   = Mukogaoka
+|id   = Mukogaoka
+|pt   = Mukogaoka
+}}
+==Change History==
+{{Change History|TODO}}

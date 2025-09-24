@@ -1,0 +1,96 @@
+<%-- [PAGE_INFO]
+PageTitle=#Milimem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Village Chief's Assistant"
+|image           = NPC Milimem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Milimem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_29_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{F|FSV_ActivityCerydra}} is greater than or equal to 1)
+::<!--Trigger PerformanceE 504131005: Config/Level/Mission/5041310/Act/Act504131005.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106052
+}</pre>
+::'''Milimem:''' Mem... back in my adventuring days, I once tasted a loaf of bread longer than a fairy's ear. The moment I bit into it, the rich scent of grain seemed to take up residence in my mouth and refused to leave for days, mem.
+::'''Milimem:''' Somehow, I still feel that the dishes from your restaurant fall just a little short of that flavor I remember. What exactly is missing, mem?
+::{{DIcon|Arrow}} Is it the ingredients?
+::{{DIcon|Arrow}} Is it the cookware?
+::{{DIcon|Arrow}} Is it the technique?
+::<!--Custom String Listener: TalkSentence_504131406-->
+::'''Milimem:''' Or maybe... it's just that my heart is no longer as young as it used to be, mem...
+;(If {{F|FSV_ActivityCerydra}} is not greater than or equal to 1)
+::<!--Trigger PerformanceE 504115003: Config/Level/Mission/5041150/Act/Act504115003.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106052
+}</pre>
+::'''Milimem:''' I'm furious, memi! I told the fairies to water the fields regularly, and they called me a delusional dreamer!
+::'''Milimem:''' Why does the sky rain? Why do springs flow downhill? And why do we pour water into the fields?
+::'''Milimem:''' So many crafts have been lost. So much knowledge forgotten. So many lovely poems have become nothing but meaningless notes of "Memi Memi Memi"!
+::'''Milimem:''' Back when I wandered far and wide, I saw wheat fields blanketing the hills &mdash; every ear of grain as big as a fairy's hand.
+::'''Milimem:''' Alas... I bet you've never seen that either, memi.
+::{{DIcon|Arrow}} How did you ever leave that place?
+::<!--Custom String Listener: TalkSentence_504115207-->
+::'''Milimem:''' I've forgotten. Maybe I moved here. Or maybe... maybe I dreamed of the Maze long ago, memi.
+::'''Milimem:''' Alas, every generation, worse than the last, memi.
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,144 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sushang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Sushang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Sushang''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_224_400005}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 102040310: Config/Level/Mission/1020403/Act/Act102040310.json-->
+:{{A|VO chapter2 Ag1 sushang 139.ogg}} '''Sushang:''' Let's hurry and get on the starskiff!
+:<!--Custom String Trigger: Wait_Option_102040310_45-->
+:<!--Custom String Listener: Wait_Option_102040310_45-->
+:{{DIcon|Talk}} I'd like to ask something...
+::<!--Custom String Listener: TalkSentence_102040472-->
+::{{A|VO chapter2 Ag1 sushang 140.ogg}} '''Sushang:''' Hmm? Something else?
+::<!--Custom String Trigger: Wait_Option_102040310_48-->
+::<!--Custom String Listener: Wait_Option_102040310_48-->
+::{{DIcon|Talk}} Is it okay to change our route?
+:::<!--Custom String Listener: TalkSentence_102040474-->
+:::{{A|VO chapter2 Ag1 sushang 141.ogg}} '''Sushang:''' I dunno... I think we should be okay. Let's get out of here first and talk about it when we're in the clear.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What will happen at Starskiff Haven?
+:::<!--Custom String Listener: TalkSentence_102040476-->
+:::{{A|VO chapter2 Ag1 sushang 142.ogg}} '''Sushang:''' There should be a dedicated evacuation team waiting for us. You can go with them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I have other questions...
+:::<!--Custom String Listener: Wait_Option_102040310_45-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Let's talk about you.
+::::<!--Custom String Listener: TalkSentence_102040479-->
+::::{{A|VO chapter2 Ag1 sushang 143.ogg}} '''Sushang:''' Uh, not the best time...?
+::::<!--Custom String Trigger: Wait_Option_102040310_57-->
+::::<!--Custom String Listener: Wait_Option_102040310_57-->
+::::{{DIcon|Talk}} Thank you for guiding us all the way here.
+:::::<!--Custom String Listener: TalkSentence_102040481-->
+:::::{{A|VO chapter2 Ag1 sushang 144.ogg}} '''Sushang:''' No need to thank me, just a Cloud Knight doing her job!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What are your plans after this?
+:::::<!--Custom String Listener: TalkSentence_102040483-->
+:::::{{A|VO chapter2 Ag1 sushang 145.ogg}} '''Sushang:''' Umm, that depends on the higher-ups. If there are still civilians to evacuate, then I'll need to come back.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let me have a think first...
+::::<!--Custom String Listener: TalkSentence_102040486-->
+::::{{A|VO chapter2 Ag1 sushang 146.ogg}} '''Sushang:''' Okay, but think fast.
+::::<!--Ends the current performance-->
+:{{DIcon|Talk}} Let's talk about you.
+::<!--Custom String Listener: TalkSentence_102040479-->
+::{{A|VO chapter2 Ag1 sushang 143.ogg}} '''Sushang:''' Uh, not the best time...?
+::<!--Custom String Trigger: Wait_Option_102040310_57-->
+::<!--Custom String Listener: Wait_Option_102040310_57-->
+::{{DIcon|Talk}} Thank you for guiding us all the way here.
+:::<!--Custom String Listener: TalkSentence_102040481-->
+:::{{A|VO chapter2 Ag1 sushang 144.ogg}} '''Sushang:''' No need to thank me, just a Cloud Knight doing her job!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are your plans after this?
+:::<!--Custom String Listener: TalkSentence_102040483-->
+:::{{A|VO chapter2 Ag1 sushang 145.ogg}} '''Sushang:''' Umm, that depends on the higher-ups. If there are still civilians to evacuate, then I'll need to come back.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I have other questions...
+:::<!--Custom String Listener: Wait_Option_102040310_45-->
+:::{{DIcon|Talk}} I'd like to ask something...
+::::<!--Custom String Listener: TalkSentence_102040472-->
+::::{{A|VO chapter2 Ag1 sushang 140.ogg}} '''Sushang:''' Hmm? Something else?
+::::<!--Custom String Trigger: Wait_Option_102040310_48-->
+::::<!--Custom String Listener: Wait_Option_102040310_48-->
+::::{{DIcon|Talk}} Is it okay to change our route?
+:::::<!--Custom String Listener: TalkSentence_102040474-->
+:::::{{A|VO chapter2 Ag1 sushang 141.ogg}} '''Sushang:''' I dunno... I think we should be okay. Let's get out of here first and talk about it when we're in the clear.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What will happen at Starskiff Haven?
+:::::<!--Custom String Listener: TalkSentence_102040476-->
+:::::{{A|VO chapter2 Ag1 sushang 142.ogg}} '''Sushang:''' There should be a dedicated evacuation team waiting for us. You can go with them.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Let me have a think first...
+::::<!--Custom String Listener: TalkSentence_102040486-->
+::::{{A|VO chapter2 Ag1 sushang 146.ogg}} '''Sushang:''' Okay, but think fast.
+::::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let me have a think first...
+::<!--Custom String Listener: TalkSentence_102040486-->
+::{{A|VO chapter2 Ag1 sushang 146.ogg}} '''Sushang:''' Okay, but think fast.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_102040310-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sushang
+|zhs  = 素裳
+|zht  = 素裳
+|ja   = 素裳
+|ko   = 소상
+|es   = Sushang
+|fr   = Sushang
+|ru   = Сушан
+|th   = Sushang
+|vi   = Sushang
+|de   = Sushang
+|id   = Sushang
+|pt   = Sushang
+}}
+==Change History==
+{{Change History|TODO}}

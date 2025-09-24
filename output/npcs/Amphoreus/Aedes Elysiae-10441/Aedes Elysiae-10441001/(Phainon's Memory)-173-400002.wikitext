@@ -1,0 +1,167 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Phainon's Memory)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Phainon's Memory).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''(Phainon's Memory)''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_173_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504108002: Config/Level/Mission/5041080/Act/Act504108002.json-->
+:<!--Custom String Trigger: Wait_TimeLJ-->
+:<!--Custom String Listener: Wait_TimeLJ-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<!--0.5-second delay-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	}
+}</pre>
+:'''Piso:''' Mr. Phainon! Over here &mdash; shhh, keep it down...
+:<!--Custom String Trigger: Wait_Option_504108002_33-->
+:<!--Custom String Listener: Wait_Option_504108002_33-->
+:{{DIcon|Talk}} What trouble have you gotten yourself into this time?
+::<!--Custom String Listener: TalkSentence_504108103-->
+::'''Piso:''' This one really wasn't my fault! As my dad's birthday's coming up, I thought I'd make him some gloves outta leather, so I've been out in the woods a lot lately.
+::'''Piso:''' But... but I skipped a few classes to do it, and now Miss Pythias is on my tail...
+::<!--Custom String Trigger: Wait_Option_504108002_37-->
+::<!--Custom String Listener: Wait_Option_504108002_37-->
+::{{DIcon|Arrow}} Couldn't you just explain everything to your dad?
+:::<!--Custom String Listener: TalkSentence_504108106-->
+:::'''Piso:''' No way! That'd spoil the fun! If I can't get him shocked and impressed at the same time, all this effort will go to waste!
+:::'''Piso:''' And besides... does he look like someone who listens to explanations? Every time it's the same thing &mdash; no questions, just the cane!
+:::<!--Custom String Trigger: TalkSentence_504108119-->
+:::<!--Custom String Listener: TalkSentence_504108119-->
+:::'''Piso:''' Anyway, don't worry, Mr. Phainon. I'm your number one follower. Even if you leave to explore the world, I'll keep all the brats here in line.
+:::'''Piso:''' And when you two become legendary heroes, Livia and I will come join you. You've gotta tell us all about your adventures and feed us tons of delicious stuff!
+:::'''Piso:''' It's a deal. Don't you dare forget!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} A few classes, huh?
+:::<!--Custom String Listener: TalkSentence_504108109-->
+:::'''Piso:''' D&mdash;Don't sweat the details! It's not like I skipped class just to goof off this time...
+:::'''Piso:''' But promise me, Mr. Phainon, you won't rat me out, okay? Or my behind's really gonna be toast.
+:::'''Piso:''' If my dad asks, just say I'm by the granary. That's where I usually hide anyway.
+:::<!--Custom String Trigger: TalkSentence_504108119-->
+:::<!--Custom String Listener: TalkSentence_504108119-->
+:::'''Piso:''' Anyway, don't worry, Mr. Phainon. I'm your number one follower. Even if you leave to explore the world, I'll keep all the brats here in line.
+:::'''Piso:''' And when you two become legendary heroes, Livia and I will come join you. You've gotta tell us all about your adventures and feed us tons of delicious stuff!
+:::'''Piso:''' It's a deal. Don't you dare forget!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Once I leave the village...
+::<!--Custom String Listener: TalkSentence_504108113-->
+::'''Piso:''' Alright, alright, I get it already &mdash; you've said it a million times. I know what's coming.
+::'''Piso:''' Listen to dad, practice archery, no picky eating, no skipping class, no bullying Livia... Did I miss anything?
+::{{DIcon|Arrow}} You've got a good memory, I'll give you that.
+:::<!--Custom String Listener: TalkSentence_504108116-->
+:::'''Piso:''' Of course! If Professor Pythias nagged like you do, I'd probably be top of the class.
+:::<!--Custom String Trigger: TalkSentence_504108119-->
+:::<!--Custom String Listener: TalkSentence_504108119-->
+:::'''Piso:''' Anyway, don't worry, Mr. Phainon. I'm your number one follower. Even if you leave to explore the world, I'll keep all the brats here in line.
+:::'''Piso:''' And when you two become legendary heroes, Livia and I will come join you. You've gotta tell us all about your adventures and feed us tons of delicious stuff!
+:::'''Piso:''' It's a deal. Don't you dare forget!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Remembering it isn't enough. You gotta do it.
+:::<!--Custom String Listener: TalkSentence_504108118-->
+:::'''Piso:''' Everything except that last one is fine. That girl's fierce. I mean, who'd even dare to bully her?
+:::<!--Custom String Trigger: TalkSentence_504108119-->
+:::<!--Custom String Listener: TalkSentence_504108119-->
+:::'''Piso:''' Anyway, don't worry, Mr. Phainon. I'm your number one follower. Even if you leave to explore the world, I'll keep all the brats here in line.
+:::'''Piso:''' And when you two become legendary heroes, Livia and I will come join you. You've gotta tell us all about your adventures and feed us tons of delicious stuff!
+:::'''Piso:''' It's a deal. Don't you dare forget!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I've got stuff to take care of. See ya.
+::<!--Custom String Listener: TalkSentence_504108123-->
+::'''Piso:''' Got it. I need to find a better hiding spot anyway... Catch you later!
+:<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	},
+	"Hide": false
+}</pre>
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

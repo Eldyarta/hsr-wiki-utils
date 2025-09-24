@@ -1,0 +1,302 @@
+<%-- [PAGE_INFO]
+PageTitle=#Petros#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Holy City Guard
+|image           = NPC Petros.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Petros''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_325_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033100: Config/Level/Mission/5040330/Act/Act504033100.json-->
+::'''Petros:''' ...
+::A burly guard looks at you, silent as ever.
+::Strange, by this time you would normally have started chatting. Maybe give it another try?
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+:;(First interaction)
+:::<!--Trigger PerformanceE 504033101: Config/Level/Mission/5040330/Act/Act504033101.json-->
+:::'''Petros:''' ...
+:::You can't even be sure whether a pair of eyes lurks behind that deep slit in the helmet.
+:::Perhaps more attempts are required to initiate a conversation. Give it another go!
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+::;(First interaction)
+::::<!--Trigger PerformanceE 504033102: Config/Level/Mission/5040330/Act/Act504033102.json-->
+::::'''Petros:''' ...
+::::Is he truly looking at you, or is it the mist behind you that's caught his gaze?
+::::You can't be certain, but surely your enthusiasm has made an impression &mdash; although it might not have.
+::::Your intuition suggests you're on the verge of breaking through his social anxiety. Give it another try!
+::::<!--Ends the current performance-->
+::;(Subsequent interactions)
+:::;(First interaction)
+:::::<!--Trigger PerformanceE 504033103: Config/Level/Mission/5040330/Act/Act504033103.json-->
+:::::'''Petros:''' ...
+:::::Come on, this is the fourth attempt, and this big guy still hasn't reacted?
+:::::Akivili above, you've marked this silent one for conversation. Now, show him what it means to forge a Trailblazing friendship!
+:::::{{DIcon|Arrow}} I'm gathering materials for a friend. Can I take a photo?
+::::::<!--Custom String Listener: TalkSentence_504038234-->
+::::::'''Petros:''' ...Sure.
+:::::;(Screen fades to black)
+::::::You pull out your camera and take a cool artistic shot, yet the big guy doesn't move an inch.
+:::::{{DIcon|Arrow}} "What a cool helmet!"
+::::::<!--Custom String Listener: TalkSentence_504038237-->
+::::::'''Petros:''' ...They're all the same.
+::::::'''Petros:''' But, thank you.
+:::::{{DIcon|Arrow}} Perform a handstand.
+::::::<!--Custom String Listener: TalkSentence_504038238-->
+:::::;(Screen fades to black)
+::::::You pulled off a series of one-handed handstand flips that even Guinaifen would cheer for.
+::::::The big guy doesn't talk, but he claps.
+:::::<!--Custom String Trigger: TalkSentence_504038242-->
+:::::<!--Custom String Listener: TalkSentence_504038242-->
+:::::'''Petros:''' ...Warrior of the outlands.
+:::::'''Petros:''' You're strong. Saw it that day. Appreciate.
+:::::'''Petros:''' I'm, on duty. Goodbye.
+:::::The guard turns away, ignoring you completely. Shortly thereafter, whispers begin to echo around you.
+:::::'''Chattering Voice:''' Incredible. I've spent years in Okhema and this is the first time I've seen this guard acknowledge anyone. Normally, he never responds, no matter how loudly we call.
+:::::'''Chattering Voice:''' Yeah, check this out &mdash; hey man, Mountain Dweller bro! The weather's pretty good today, isn't it?
+:::::He doesn't even turn his head.
+:::::'''Chattering Voice:''' No one knows how that visitor did it. It is truly a rare event...
+:::::{{DIcon|Arrow}} ...Nice weather today, huh?
+::::::<!--Custom String Listener: TalkSentence_504038251-->
+::::::'''Petros:''' ...It's, alright.
+:::::{{DIcon|Arrow}} Do you have a problem with them?
+::::::<!--Custom String Listener: TalkSentence_504038253-->
+::::::'''Petros:''' ...No.
+:::::<!--Custom String Trigger: Wait_Option_504033003_95-->
+:::::<!--Custom String Listener: Wait_Option_504033003_95-->
+:::::{{DIcon|Arrow}} Why do you only respond to me?
+:::::<!--Custom String Listener: TalkSentence_504038255-->
+:::::'''Petros:''' ...Words of warrior, more important.
+:::::<!--Ends the current performance-->
+:::;(Subsequent interactions)
+:::::<!--Trigger PerformanceE 504033004: Config/Level/Mission/5040330/Act/Act504033004.json-->
+:::::'''Petros:''' ...
+:::::'''Petros:''' Warrior.
+:::::'''Petros:''' ...
+:::::<!--Ends the current performance-->
+:::::<!--Open NPC Menu-->
+:::::{{DIcon}} I'd like to chat with you.
+::::::'''Petros:''' I am, on duty... Never mind, speak.
+::::::<!--Custom String Trigger: Wait_Option_504033005_116-->
+::::::<!--Custom String Listener: Wait_Option_504033005_116-->
+::::::{{DIcon|Talk}} Regarding your people, the Mountain Dwellers...
+:::::::<!--Custom String Listener: TalkSentence_504038404-->
+:::::::'''Petros:''' ...Curious about, Georios' people, you are first.
+:::::::'''Petros:''' Born with dromases. Cradle, crowded.
+:::::::'''Petros:''' Kephale gave, humans wisdom and resilience. Cerces gave, creations only wisdom. By Georios' time, little left.
+:::::::'''Petros:''' Georios gave us, lot of earth, making us tall and strong. We talk with, our arms.
+:::::::'''Petros:''' Still, we are mocked. No good jobs. Some became, blacksmiths. Others just iron blocks. We praise Kephale, praise Talanton. We are now guards.
+:::::::'''Petros:''' We envy dromases. They have wisdom. At least, more than us.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Tell me a story about you!
+:::::::<!--Custom String Listener: TalkSentence_504038411-->
+:::::::'''Petros:''' ...Only truths, no stories.
+::::::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038412,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038413,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038414,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038415,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038416,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038417,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038418,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038419,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038420,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038421,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038422,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504038423,
+					"ProtectTime": 0
+				}
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Exit}} No worries, guarding the city is tough work!
+:::::::<!--Custom String Listener: TalkSentence_504038425-->
+:::::::'''Petros:''' Yeah.
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Yeah.
+::::::'''Petros:''' Yeah.
+::::::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_504038217)
+:<!--Custom String Listener: TalkSentence_504038217-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

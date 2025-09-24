@@ -1,0 +1,85 @@
+<%-- [PAGE_INFO]
+PageTitle=#Museum Booth Attendant#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Museum Booth Attendant.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Museum Booth Attendant''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_192_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Museum Booth Attendant:''' Welcome to the Belobog History and Culture Museum. Miss Pela has notified me that you can enter free of charge!
+:'''Museum Booth Attendant:''' Would you like to enter the museum?
+:{{DIcon|Arrow}} Please take me in.
+::<!--Custom String Listener: TalkSentence_501190163-->
+::'''Museum Booth Attendant:''' Alright, please follow me!
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1010109
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} Bye.
+::<!--Custom String Listener: ALL_TALK_END-->
+::'''Museum Booth Attendant:''' Come back next time!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

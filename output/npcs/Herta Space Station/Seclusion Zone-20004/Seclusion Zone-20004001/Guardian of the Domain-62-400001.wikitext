@@ -1,0 +1,128 @@
+<%-- [PAGE_INFO]
+PageTitle=#Guardian of the Domain#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Guardian of the Domain.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Guardian of the Domain''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_62_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000164: Config/Level/Mission/5000030/Act/Act900000164.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500016501
+	]
+}</pre>
+::'''Guardian of the Domain:''' Ahem, let me introduce myself. You can call me "Guardian of the Domain" like everyone else, as I'll watch this place till my death.
+::'''Guardian of the Domain:''' You can probably tell I'm the bigwig here from my name. I don't chat with every Tom, Dick, and Harry I run into. You know what I'm saying?
+::{{DIcon|Arrow}} That name is so awkward...
+:::<!--Custom String Listener: TalkSentence_500016405-->
+:::'''Guardian of the Domain:''' No, it's a reflection of the truth. With my strong jumping ability and far-reaching vision, I have the obligation and the capability to look out into the distance and maintain peace in this place.
+:::'''Guardian of the Domain:''' Do you know how dangerous it is out there? Flying monsters are everywhere, so everyone seeks my help to make sure the area outside is clear before heading out.
+::{{DIcon|Arrow}} Who gave you the name?
+:::<!--Custom String Listener: TalkSentence_500016408-->
+:::'''Guardian of the Domain:''' Do you think Miss Ruan Mei named me? She didn't. She called me Pan-fried Egg Tart, which is what I was born as.
+:::'''Guardian of the Domain:''' But now that I've matured, such a soft name doesn't fit me anymore. I need a more confident vibe to impress Miss Ruan Mei.
+::<!--Custom String Trigger: TalkSentence_500016410-->
+::<!--Custom String Listener: TalkSentence_500016410-->
+::'''Guardian of the Domain:''' I find the way you speak quite assertive from our conversation earlier. The creations here always flatter me, and I'm not on the same wavelength as them.
+::'''Guardian of the Domain:''' When I talk to you... Hmm, how should I put it? I feel like we share a rapport, like we're both leaders. This is great! I've finally found the right person to share my management plan!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000165: Config/Level/Mission/5000030/Act/Act900000165.json-->
+::'''Guardian of the Domain:''' Oh, it's you! This is great! I've finally found the right person to share my management plan!
+:'''Guardian of the Domain:''' If you have anything to say or ask, feel free to fire away!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to ask...
+::<!--Custom String Trigger: Wait_Option_900000166_613-->
+::<!--Custom String Listener: Wait_Option_900000166_613-->
+::{{DIcon|Talk}} Do they know you're their leader?
+:::<!--Custom String Listener: TalkSentence_500016604-->
+:::'''Guardian of the Domain:''' Well... Anyone with enough sense would know it, I guess.
+:::'''Guardian of the Domain:''' Miss Ruan Mei spent a long time deciding on my recipe. In the end, she added lots of ambition and self-confidence to me. I'm superior to everyone else!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Your management plan?
+:::<!--Custom String Listener: TalkSentence_500016607-->
+:::'''Guardian of the Domain:''' Wait till I gather all the creations. I'll get everyone to write letters to Miss Ruan Mei every day. Every letter is to include compliments for me so that Miss Ruan Mei will know how excellent I am.
+:::'''Guardian of the Domain:''' When the time comes, she'll probably wonder why such an extraordinary talent like me is wasting my time here. Then, she'll take me with her and give me her guidance...
+:::'''Guardian of the Domain:''' Of course, I'm not an ungrateful rat. I'll put in a good word for the smart ones with Miss Ruan Mei.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What exactly are you watching for?
+:::<!--Custom String Listener: TalkSentence_500016611-->
+:::'''Guardian of the Domain:''' Well, I'll watch this place until the return of Miss Ruan Mei... She's our creator, and I'll keep waiting for her to come back...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500016613-->
+:::'''Guardian of the Domain:''' No problem. Let's do this again next time.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Guardian of the Domain:''' Oh, sure.
+::'''Guardian of the Domain:''' Miss Ruan Mei has many creations. Since we're staying, growing, and working together, there has to be someone in charge. As you can see, I have stepped up to be one. Is that understandable?
+::'''Guardian of the Domain:''' I'm not like those ignorant brats outside, mainly because we have different statuses.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

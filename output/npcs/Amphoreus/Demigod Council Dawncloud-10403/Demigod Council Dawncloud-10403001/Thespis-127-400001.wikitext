@@ -1,0 +1,180 @@
+<%-- [PAGE_INFO]
+PageTitle=#Thespis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Playwright
+|image           = NPC Thespis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Thespis''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_127_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504062001: Config/Level/Mission/5040620/Act/Act504062001.json-->
+::'''Thespis:''' Ah, esteemed guest, please wait a moment &mdash; you're not a native of Okhema, are you?
+::{{DIcon|Arrow}} ...Are there many outworlders like me here?
+:::<!--Custom String Listener: TalkSentence_504062003-->
+:::'''Thespis:''' Actually, I am an outworlder, too.
+::{{DIcon|Arrow}} I grew up watching the Worldbearing Titan!
+:::<!--Custom String Listener: TalkSentence_504062005-->
+:::'''Thespis:''' Haha, you've got a sense of humor...
+::<!--Custom String Trigger: TalkSentence_504062006-->
+::<!--Custom String Listener: TalkSentence_504062006-->
+::'''Thespis:''' Well, let me introduce myself. I'm Thespis Mylonopoulos, a playwright from Milios.
+::'''Thespis:''' I've been away from my homeland for so long that my memories of it have started to blur, merging with my impressions of Okhema. I need a "landmark" to keep them distinct.
+::'''Thespis:''' Look at that colossal {{Rubi|Kephale|Worldbearing Titan}}, who gazes down at us silently, and its imposing presence is uniquely profound here on Dawncloud.
+::'''Thespis:''' ...When my homeland fell, I was touring Okhema. Left without a home, I've lived here ever since. Now, I've spent more years in Okhema than I ever did in Milios.
+::'''Thespis:''' ...I'm sorry, but what was your homeland like?
+::{{DIcon|Arrow}} I can no longer recall.
+:::<!--Custom String Listener: TalkSentence_504062012-->
+:::'''Thespis:''' Seems like we share a similar predicament.
+::{{DIcon|Arrow}} That was an Express traveling between the stars!
+:::<!--Custom String Listener: TalkSentence_504062014-->
+:::'''Thespis:''' I'm not sure I understand, but I'll take it that you see the stars as your homeland.
+::{{DIcon|Arrow}} The sound of a whistle stretching for miles...
+:::<!--Custom String Listener: TalkSentence_504062016-->
+:::'''Thespis:''' ...That must be the sound you heard when you left your homeland.
+::<!--Custom String Trigger: TalkSentence_504062017-->
+::<!--Custom String Listener: TalkSentence_504062017-->
+::'''Thespis:''' I often ask the outworlders here in Okhema about their homelands. Though their descriptions vary, there's a common "melody" to them &mdash; as if all homelands share a single origin.
+::'''Thespis:''' It's an invisible city, one that serves as the eternal resting place for our souls. My greatest wish in life is to create a timeless play inspired by my homeland.
+::'''Thespis:''' Sorry to take up so much of your time. Please accept this small token. Of course, if you're a fan of theater, we can talk more...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504062002: Config/Level/Mission/5040620/Act/Act504062002.json-->
+::'''Thespis:''' Life is short, and the people we truly know and understand might number only in the hundreds. But theater opens a window, letting us gaze closely into corners of humanity we'd otherwise never touch.
+::'''Thespis:''' My homeland &mdash; that unseen city &mdash; is gradually taking shape in my mind. I believe that by talking with you, I'll find even more inspiration. So, what do you say? Shall we continue this conversation?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to chat with you.
+::'''Thespis:''' Of course, I enjoy casual conversations. Whether it's about homeland, theater, or the present moment, let's see where our thoughts take us.
+::<!--Custom String Trigger: Wait_Option_504062003_46-->
+::<!--Custom String Listener: Wait_Option_504062003_46-->
+::{{DIcon|Talk}} You're writing a play inspired by your homeland?
+:::<!--Custom String Listener: TalkSentence_504062204-->
+:::'''Thespis:''' Yes. But it's both my homeland and not my homeland &mdash; it's a homeland shared by countless others.
+:::'''Thespis:''' Imagine a city floating above the clouds, structured like a dried bath sponge. Wherever people live, that part of the city "absorbs water" and swells. The "water" represents the desires and memories of its citizens.
+:::'''Thespis:''' Because of this, many fundamentally different cities appear in the clouds under the same name. It's the holy city for believers, the fashion capital for trendsetters, a library for scholars, a barracks for warriors...
+:::'''Thespis:''' Over time, the name of the city gained so many meanings that people stopped using it altogether. Instead, they simply called it "The City."
+:::'''Thespis:''' However, there's something strange about this city &mdash; everyone, from neighbors to passersby, feels uneasy about the parts of the city they cannot see.
+:::'''Thespis:''' For example, believers fear that scholars' research will strip the city of its mystery. Scholars worry that warriors' adventures bring too many enemies to the city. Warriors resent trendsetters for their decadence, while trendsetters despise believers for their complacency.
+:::'''Thespis:''' These citizens complain about everything, yet they all agree on one thing: Only {{Rubi|Thanatos|Death Titan}}, treats them all fairly.
+:::'''Thespis:''' Well... That's what the city looks like as a stage for my tragic play.
+:::{{DIcon|Arrow}} Wait... I don't get it!
+::::<!--Custom String Listener: TalkSentence_504062213-->
+::::'''Thespis:''' I strive to create works that appeal to both the refined and the common audience. Your feedback will certainly help me improve.
+::::<!--Custom String Trigger: TalkSentence_504062216-->
+::::<!--Custom String Listener: TalkSentence_504062216-->
+::::'''Thespis:''' I've decided to name this city "Milios" &mdash; a tribute to my homeland, destroyed in the black tide.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I completely understand.
+::::<!--Custom String Listener: TalkSentence_504062215-->
+::::'''Thespis:''' Wonderful! I was a bit worried that the audience might not understand at first.
+::::<!--Custom String Trigger: TalkSentence_504062216-->
+::::<!--Custom String Listener: TalkSentence_504062216-->
+::::'''Thespis:''' I've decided to name this city "Milios" &mdash; a tribute to my homeland, destroyed in the black tide.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Would you mind sharing your experiences?
+:::<!--Custom String Listener: TalkSentence_504062218-->
+:::'''Thespis:''' My experiences, huh... Where should I begin? As you can see, I'm a native of Milios, not Okhema. But the reason I settled here might be quite different from most outsiders.
+:::'''Thespis:''' It happened many years ago... Back then, I thought I was a rising star. A few actor friends and I, driven by shared ambition, scraped together enough money to embark on a grand tour around the world.
+:::'''Thespis:''' Okhema was our fourth stop. It was here that our performances finally received genuine applause. Encouraged, we decided to stay a little longer, hoping to gain more experience and earn a bit of wealth.
+:::'''Thespis:''' Though honestly, the main reason was that we were broke. We had no choice but to stay and make enough money to afford our journey home.
+:::'''Thespis:''' Little did we know, that decision saved our lives. Just two months later, Milios was consumed by the black tide. They say no one survived.
+:::'''Thespis:''' And so, my homeland became my eternal spiritual sanctuary. Haha.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I'm not very familiar with theater. Do you have any particular creative philosophy?
+:::<!--Custom String Listener: TalkSentence_504062225-->
+:::'''Thespis:''' Philosophy? Hmm... I've written plenty of plays, but I wouldn't say I have anything grand enough to be called a "philosophy."
+:::'''Thespis:''' "Write with genuine emotions?" That's something kids learn from their first reading lessons.
+:::'''Thespis:''' "Serve societal reality with your work?" Honestly, if you don't, you can't make a living in this field.
+:::'''Thespis:''' As for debates like "tragedy is deeper than comedy" or "comedy is more constructive than tragedy"... I don't really care. I'm open to trying different story structures.
+:::'''Thespis:''' If there's one kind of story I absolutely refuse to write, it's the kind that fails to move me &mdash; no matter what I do.
+:::'''Thespis:''' People often say that deeply understanding a character's life and emotions is an actor's preparation. For a playwright, this is even more essential.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you really make money in theater?
+:::<!--Custom String Listener: TalkSentence_504062232-->
+:::'''Thespis:''' Haha! That's a good one. Yes, money is the foundation of everything. Nobody remembers a play that leads to bankruptcy.
+:::'''Thespis:''' But, just like the finest ingredients only need the simplest seasoning, when it comes to making money through art, the most crucial thing is "to become your own audience."
+:::{{DIcon|Arrow}} You mean if you like it, it'll sell?
+::::<!--Custom String Listener: TalkSentence_504062235-->
+::::'''Thespis:''' ...You could put it that way.
+::::<!--Custom String Trigger: TalkSentence_504062238-->
+::::<!--Custom String Listener: TalkSentence_504062238-->
+::::'''Thespis:''' Sometimes, there's an inherent conflict between the market and the act of creation itself. Let me give you an example. Imagine a playwright known for romantic dramas.
+::::'''Thespis:''' In this age consumed by the black tide, many audiences have lost interest in love stories. For this playwright, the real challenge isn't just writing &mdash; they must understand why people have turned away from romance.
+::::'''Thespis:''' If they can't figure that out... even if they produce a masterpiece in the purest artistic sense, it'll likely go unappreciated, or worse, unnoticed.
+::::'''Thespis:''' Every work of art is just a ripple in the tide of its time. Those who strive to escape their era &mdash; the so-called "true artists" &mdash; often find it hard to sustain themselves through their creations.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You buy out tickets to your own shows?
+::::<!--Custom String Listener: TalkSentence_504062237-->
+::::'''Thespis:''' Haha! Who can truly make a living off their art?
+::::<!--Custom String Trigger: TalkSentence_504062238-->
+::::<!--Custom String Listener: TalkSentence_504062238-->
+::::'''Thespis:''' Sometimes, there's an inherent conflict between the market and the act of creation itself. Let me give you an example. Imagine a playwright known for romantic dramas.
+::::'''Thespis:''' In this age consumed by the black tide, many audiences have lost interest in love stories. For this playwright, the real challenge isn't just writing &mdash; they must understand why people have turned away from romance.
+::::'''Thespis:''' If they can't figure that out... even if they produce a masterpiece in the purest artistic sense, it'll likely go unappreciated, or worse, unnoticed.
+::::'''Thespis:''' Every work of art is just a ripple in the tide of its time. Those who strive to escape their era &mdash; the so-called "true artists" &mdash; often find it hard to sustain themselves through their creations.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Well, I'll leave you to your creation.
+:::<!--Custom String Listener: TalkSentence_504062243-->
+:::'''Thespis:''' Haha, feel free to come back if you want to talk. Take care.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Well, I'll leave you to your creation.
+::'''Thespis:''' Haha, feel free to come back if you want to talk. Take care.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Thespis
+|zhs  = 忒斯庇斯
+|zht  = 忒斯庇斯
+|ja   = テスピス
+|ko   = 테스피스
+|es   = Tespis
+|fr   = Thespis
+|ru   = Феспис
+|th   = Thespis
+|vi   = Thespis
+|de   = Thespis
+|id   = Thespis
+|pt   = Thespis
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sightless Orphan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Sightless Orphan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Sightless Orphan''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_65_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000173: Config/Level/Mission/5000030/Act/Act900000173.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500017402
+	]
+}</pre>
+::'''Sightless Orphan:''' I see the way to the space station, but how do I get there?
+::'''Sightless Orphan:''' Oh, hello. This is my first time running into a human here.
+::'''Sightless Orphan:''' You seem surprised to hear me speak.
+::{{DIcon|Arrow}} How come you can speak human language?
+:::<!--Custom String Listener: TalkSentence_500017306-->
+:::'''Sightless Orphan:''' After meeting some of Ruan Mei's creations, you should have realized there are no definite rules as to how Ruan Mei uses her boundless intellect.
+:::'''Sightless Orphan:''' Perhaps, the ways different life forms communicate with each other are far more diverse than we can imagine. So, it's not much of a surprise that I can speak your language.
+::{{DIcon|Arrow}} Your voice is quite special.
+:::<!--Custom String Listener: TalkSentence_500017309-->
+:::'''Sightless Orphan:''' Haha, thanks for your compliment. Ruan Mei created me and granted me a unique way of surviving and thinking. Maybe it's those things that shape my voice.
+::<!--Custom String Trigger: TalkSentence_500017310-->
+::<!--Custom String Listener: TalkSentence_500017310-->
+::'''Sightless Orphan:''' This is called the seclusion zone on the space station, right? I found related records from the little robot.
+::'''Sightless Orphan:''' I can feel Ruan Mei's aura on you, so I suppose you two have met before. You're probably more familiar with this zone than I am, but I've also learned a thing or two after exploring alone for a long time.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000174: Config/Level/Mission/5000030/Act/Act900000174.json-->
+::'''Sightless Orphan:''' I see the way to the space station, but how do I get there?
+::'''Sightless Orphan:''' Hey, here we are again. I've learned a thing or two after exploring this place alone for a long time.
+:'''Sightless Orphan:''' If you're interested or have any questions, I'll do my best to answer them.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to ask...
+::<!--Custom String Trigger: Wait_Option_900000175_812-->
+::<!--Custom String Listener: Wait_Option_900000175_812-->
+::{{DIcon|Talk}} Do you need my help getting to other zones?
+:::<!--Custom String Listener: TalkSentence_500017504-->
+:::'''Sightless Orphan:''' I know how to go. I have to take something called an "elevator" or "shuttle," right?
+:::'''Sightless Orphan:''' Thanks for your kind offer, but some paths are meant to be taken alone. That's how I can find the answer I'm looking for.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you looking for Ruan Mei?
+:::<!--Custom String Listener: TalkSentence_500017507-->
+:::'''Sightless Orphan:''' Yes. Actually, I've been taking the scenic route, in the hopes that I'll uncover the secrets of life before meeting her. Also...
+:::'''Sightless Orphan:''' I'd like to find where I belong in this vast universe.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I'm very curious what you taste like?
+:::<!--Custom String Listener: TalkSentence_500017510-->
+:::'''Sightless Orphan:''' I'm fermented dough sprinkled with some pepper and salt to develop into a different texture.
+:::It gives you a wink, and what it says seems to be hinting at something.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there anything interesting going on?
+:::<!--Custom String Listener: TalkSentence_500017513-->
+:::'''Sightless Orphan:''' I suggest you have a chat with my peers. Just like me, they are Ruan Mei's creations, and their perception of themselves may sound intriguing to you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500017515-->
+:::'''Sightless Orphan:''' Until we meet again.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Sightless Orphan:''' Until we meet again. I hope I'll have already found my answer by then.
+::'''Sightless Orphan:''' I will explore alone until the fog has lifted from my head...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,907 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wen Shiling#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Implement Researcher
+|image           = NPC Wen Shiling.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Wen Shiling''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_10_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500010117_940-->
+:<!--Custom String Listener: Wait_Option_500010117_940-->
+:{{DIcon|Talk}} What kind of Curio does Master Capote usually prefer?
+::<!--Custom String Listener: TalkSentence_500011418-->
+::'''Wen Shiling:''' You're asking the right person. I've gotta be the only person in the space station who can answer this question!
+::'''Wen Shiling:''' I know Master Capote's hobbies like the back of my hand. I even remember he adds three and a half cubes of sugar to his coffee.
+::'''Wen Shiling:''' As for the Curios... Ehem, you think you can fool me into answering this? As I said, the Curios are distributed according to regulations, instead of the researcher's preferences!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What is the Department of Implement Arts' regulations in terms of distributing Curios?
+::<!--Custom String Listener: TalkSentence_500011422-->
+::'''Wen Shiling:''' It's... it's none of your business! The space station has its own rules and regulations, so does our department.
+::'''Wen Shiling:''' The Curios I distribute to Master Capote are through the normal procedure. Don't think too much about it.
+::'''Wen Shiling:''' Anyway, the Department of Implement Arts is very busy. Don't ask around even if you don't believe me. Save us some troubles.
+::'''Wen Shiling:''' Jeez, I hate newbies like you who always try to get to the bottom of everything!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Give me a Curio, too.
+::<!--Custom String Listener: TalkSentence_500011427-->
+::'''Wen Shiling:''' Huh!? Do you even know what you're talking about? I can't just give a Curio to a random person!
+::'''Wen Shiling:''' Except for Master Capote, no one gets Curios without going through the normal process. No one gets to choose Curios. You think a newbie like you can match Master Capote's knowledge and standard?
+::'''Wen Shiling:''' ...
+::'''Wen Shiling:''' Ehem, I mean, your researcher level is too low. You can't apply for a Curio for your research at the moment. Anything else is none of your business!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all I have to ask.
+::<!--Custom String Listener: TalkSentence_500011432-->
+::'''Wen Shiling:''' Phew, finally. I spent so much effort introducing the basics of the space station to you, but you're interested in things you shouldn't know!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Wen Shiling:''' What a headache. Which one should I give to Master Capote...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Wen Shiling:''' Phew, finally. I spent so much effort introducing the basics of the space station to you, but you're interested in things you shouldn't know!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(If {{Mission|Spirit Traces|showChapter=0}} has been completed)
+:;(First interaction)
+:::<!--Trigger PerformanceE 90000009: Config/Level/NPC/W0/NPC_DefaultStory_500001405.json-->
+:::'''Wen Shiling:''' Liars are unforgivable! Even death cannot redeem them!
+:::'''Wen Shiling:''' Hmph, I'm going to finish writing this report very soon... Just you wait, Capote!
+:::{{DIcon|Arrow}} Aren't you Master Capote's biggest fan?
+::::<!--Custom String Listener: TalkSentence_500214304-->
+::::'''Wen Shiling:''' Bah! I've never wronged you, so don't give me a title that brings bad luck!
+::::'''Wen Shiling:''' It's all over once I stopped being his fan. Please show me some respect!
+:::{{DIcon|Arrow}} What did Capote do?
+::::<!--Custom String Listener: TalkSentence_500214307-->
+::::'''Wen Shiling:''' Don't you remember? You were there too! Ugh, I don't want to relive that terrible experience ever again.
+::::'''Wen Shiling:''' Anyways, just remember that Capote is despicable!
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 90000010: Config/Level/NPC/W0/NPC_DefaultStory_500001404.json-->
+:::'''Wen Shiling:''' Firstly I need to do the inventory for reclaimed Curios, then do regular quality control at the warehouse, then I promised Adler to go find the weird thing that talks... Great, no time to write my report today either!
+;(If {{Mission|Spirit Traces|showChapter=0}} has not been completed)
+:;(First interaction)
+:::<!--Trigger PerformanceE 90000001: Config/Level/NPC/W0/NPC_DefaultStory_500001401.json-->
+:::<!--Custom String Trigger: TalkSentence_500011402-->
+:::<!--Custom String Listener: TalkSentence_500011402-->
+:::{{A|VO vo ambient w0 greeting staffK 101.ogg}} {{A|VO vo ambient w0 greeting staffK 102.ogg}} '''Wen Shiling:''' What a headache. Which one should I give to Master Capote...
+:::'''Wen Shiling:''' Hmm, why don't I give both Curios to him? That way I don't have to worry that he might not like it.
+:::'''Wen Shiling:''' But if he dislikes both of them, wouldn't it be twice as bad? Master Capote is going to hate me...
+:::'''Wen Shiling:''' Ahhh, what should I do?
+:::<!--Custom String Trigger: Wait_Option_500010117_925-->
+:::<!--Custom String Listener: Wait_Option_500010117_925-->
+:::{{DIcon|Arrow}} Do you have the right to give Curios as a gift?
+::::<!--Custom String Listener: TalkSentence_500011407-->
+::::'''Wen Shiling:''' Ah! Who are you? How did you suddenly show up behind me? Were you eavesdropping on me!?
+::::'''Wen Shiling:''' You don't look like you belong to any department... Phew, I'm relieved.
+::::'''Wen Shiling:''' I'm Wen Shiling, a researcher from the Department of Implement Arts. According to the regulations... I'm supposed to give these Curios to Master Capote.
+:::{{DIcon|Arrow}} Who is Master Capote?
+::::<!--Custom String Listener: TalkSentence_500011411-->
+::::'''Wen Shiling:''' What? You don't know Master Capote? You didn't only arrive today, did you? Or did the Legion break your head during their invasion and gave you amnesia?
+::::'''Wen Shiling:''' Fine fine. Let me reintroduce Master Capote to you.
+::::'''Wen Shiling:''' If you asked who is the most dazzling star on the space station other than Madam Herta, it would definitely be Master Capote.
+::::'''Wen Shiling:''' He is gentle and modest, mature and composed. His inner excellence gives him a perfect appearance... Ahhhh! One's appearance is shaped by one's mind!
+::::'''Wen Shiling:''' But don't you dare to do anything to Master Capote! I am his number-one fan on the space station!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 90000002: Config/Level/NPC/W0/NPC_DefaultStory_500001400.json-->
+:::<!--Custom String Trigger: TalkSentence_500010702-->
+:::<!--Custom String Listener: TalkSentence_500010702-->
+:::<!--Custom String Listener: TalkSentence_500010702-->
+:::'''Wen Shiling:''' What a headache. Which one should I give to Master Capote...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon}} Lab assistant work...
+::<!--Trigger PerformanceE 800017704: Config/Level/Mission/8000177/Act/Act800017704.json-->
+::'''Wen Shiling:''' I still have work I need to get done! This can go on the backlog. Come back when I tell you to.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800017704-->
+;(If {{cx}}<!--SubMission Started: 800017001--> and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} I heard you are looking for me...
+::<!--Trigger PerformanceE 800017001: Config/Level/Mission/8000170/Act/Act800017001.json-->
+::'''Wen Shiling:''' Yep. I've heard others say "When in trouble, look for (Trailblazer)," so I thought I'd give it a try even though I didn't know what to expect... Of course, you'll be rewarded if you help me with this task, but I just don't know if you're up to it.
+::{{DIcon|Arrow}} Let's talk about rewards first.
+:::<!--Custom String Listener: TalkSentence_801700104-->
+:::'''Wen Shiling:''' Oh no no no! Shouldn't we talk about the task first, and rewards later? Do you even have any scientific integrity?
+::{{DIcon|Arrow}} With the right rewards, no mission is impossible.
+:::<!--Custom String Listener: TalkSentence_801700106-->
+:::'''Wen Shiling:''' You talk big, but don't underestimate the difficulty of my assignment.
+::<!--Custom String Trigger: TalkSentence_801700107-->
+::<!--Custom String Listener: TalkSentence_801700107-->
+::'''Wen Shiling:''' On the space station, performance review requires a quarterly summary report of research projects. As you know, a lot of stuff has happened recently. And I'm a bit nervous about my research report.
+::'''Wen Shiling:''' So, Special Assistant (Trailblazer), your mission is to assist me in completing multiple projects efficiently and safely during this time and compiling them into reports!
+::'''Wen Shiling:''' Don't worry, you just need to collect experimental samples and supplies for me. Just leave the rest of the research work to me!
+::'''Wen Shiling:''' Ahem, that being said, let's get down to brass tacks.
+::'''Wen Shiling:''' The first round of experiments mainly revolves around the "Voidranger: Tramplers" of the "Antimatter Legion." The research title shall be named... Let me think... It shall be named "A Brief Analysis of Force Distribution on Quadruped Tramplers."
+::'''Wen Shiling:''' In addition to getting some samples on Tramplers, you'll also need to collect some {{Color|keyword|nobold=1|Metal}}. The exact amount has been specified in this memo I wrote for you.
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 1,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017001"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "MainFinish_8000170"
+			}
+		}
+	],
+	"OnQuestion2": [],
+	"OnQuestion3": [],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017001"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017001"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017001-->
+;(If {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+::<!--Trigger PerformanceE 800017101: Config/Level/Mission/8000171/Act/Act800017101.json-->
+::'''Wen Shiling:''' Time to get to work! Your assistance was great the last time~ Hope you can keep it up for this mission as well!
+::'''Wen Shiling:''' The second round of experiments still revolves around "Voidranger: Tramplers." However, the focus is no longer on its legs, but on its "tail." This time around, the research topic shall be "A Brief Analysis of the Hydrophobic Nature of Tramplers' Rear Appendage"!
+::'''Wen Shiling:''' In addition to getting some samples on Tramplers, you'll also need to collect some {{Color|keyword|nobold=1|Solid Water}}. The exact amount has been specified in this memo I wrote for you.
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 2,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017101"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "MainFinish_8000171"
+			}
+		}
+	],
+	"OnQuestion2": [],
+	"OnQuestion3": [],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017101"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017101"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017101-->
+;(If {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+::<!--Trigger PerformanceE 800017201: Config/Level/Mission/8000172/Act/Act800017201.json-->
+::'''Wen Shiling:''' Hehehe, the team leader commended me for that Trampler Tail report, and said that my analysis was very crafty!
+::'''Wen Shiling:''' So, it seems to be a good time for a new subject of research! How about that... that... "Blaze Out of Space"! As for the research title... Well, I suppose it should be "A Brief Analysis of the Thermal Properties of Extraterrestrial Blaze"!
+::{{DIcon|Arrow}} That's quite a crafty subject...
+::{{DIcon|Arrow}} Is it okay to be this casual about research...
+:::<!--Custom String Listener: TalkSentence_801720106-->
+:::'''Wen Shiling:''' Hey! I'm a bona fide researcher of the space station! It's science! How can you just casually call it "casual"!?
+:::<!--Custom String Trigger: TalkSentence_801720107-->
+::<!--Custom String Listener: TalkSentence_801720107-->
+::'''Wen Shiling:''' You just go along and collect materials. Leave the rest to me! Just remember to bring back more {{Color|keyword|nobold=1|Core of Ice}} this time.
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 3,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017201"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "MainFinish_8000172"
+			}
+		}
+	],
+	"OnQuestion2": [],
+	"OnQuestion3": [],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017201"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017201"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017201-->
+;(If {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+::<!--Trigger PerformanceE 800017301: Config/Level/Mission/8000173/Act/Act800017301.json-->
+::'''Wen Shiling:''' My experimental work is going very smoothly~ Already more than halfway through! For that last report on Blaze Out of Space, the team leader said my conclusion was quite bold!
+::'''Wen Shiling:''' Good thing I found out the team leader's fave drink is coffee beforehand... Hehehe...
+::'''Wen Shiling:''' Anyway, now it seems the performance review matter is no longer a big issue. All that's left is to hit the quota. We'll beat them at their own game and use the previous "Blaze Out of Space" to study its application in metal smelting!
+::'''Wen Shiling:''' Remember to bring more {{Color|keyword|nobold=1|Metal}} back this time, which is essential for this experiment!
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 4,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017301"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "MainFinish_8000173"
+			}
+		}
+	],
+	"OnQuestion2": [],
+	"OnQuestion3": [],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017301"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017301"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017301-->
+;(If {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{cx}}<!--SubMission Started: 800017401-->, {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+::<!--Trigger PerformanceE 800017401: Config/Level/Mission/8000174/Act/Act800017401.json-->
+::'''Wen Shiling:''' Hey, I was thinking, should I do some more "avant-garde" projects and venture into the lesser-known areas of study?
+::{{DIcon|Arrow}} You are pretty "avant-garde" already...
+:::<!--Custom String Listener: TalkSentence_801740104-->
+:::'''Wen Shiling:''' Oh really? Haha, I guess you're right. The team leader did say something similar when he praised me.
+::{{DIcon|Arrow}} You wanna redefine the whole concept of research itself?
+:::<!--Custom String Listener: TalkSentence_801740106-->
+:::'''Wen Shiling:''' Yep yep, You're right! The team leader did say something similar when he praised me for my last research report!
+::<!--Custom String Trigger: TalkSentence_801740107-->
+::<!--Custom String Listener: TalkSentence_801740107-->
+::'''Wen Shiling:''' But at the end of the day, I can't be satisfied with the current results, I need more innovation! For this reason, I consulted a lot of resources... and found an experiment that can only be completed with your assistance!
+::'''Wen Shiling:''' The experimental sample comes from a chubby robot. I've never seen it before, but acquiring some sample materials shouldn't be an issue, right?
+::'''Wen Shiling:''' In addition to the materials related to this robot, I also need some {{Color|keyword|nobold=1|Meteoric Alloy}}. I'll leave this to you!
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 5,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017401"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "MainFinish_8000174"
+			}
+		}
+	],
+	"OnQuestion2": [],
+	"OnQuestion3": [],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017401"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017401"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017401-->
+;(If {{cx}}<!--SubMission Started: 800017402-->, {{cx}}<!--SubMission Started: 800017401-->, {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{cx}}<!--SubMission Started: 800017501-->, {{cx}}<!--SubMission Started: 800017402-->, {{cx}}<!--SubMission Started: 800017401-->, {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+::<!--Trigger PerformanceE 800017501: Config/Level/Mission/8000175/Act/Act800017501.json-->
+::'''Wen Shiling:''' I, Wen Shiling, am the owner of this robot project! Oh no... That sounds a bit cheeky, doesn't it?
+::{{DIcon|Arrow}} Remember to do the experiments once you finish daydreaming.
+::{{DIcon|Arrow}} Already sleep-talking even before getting off work?
+:::<!--Custom String Listener: TalkSentence_801750105-->
+:::'''Wen Shiling:''' I&mdash;I'm not daydreaming! I was just... practicing lines!
+:::<!--Custom String Trigger: TalkSentence_801750106-->
+::<!--Custom String Listener: TalkSentence_801750106-->
+::'''Wen Shiling:''' The team leader was at a loss for words after reading my last experiment report! And the other team members were also blown away and couldn't stop shaking in admiration. They were so impressed that they were sweating bullets.
+::'''Wen Shiling:''' In the end, the team leader said that after I finish this round's report, they're going to help me with funding for my independent research. You see, they're starting to move me up now!
+::'''Wen Shiling:''' So this time, in addition to bringing me some materials for that robot, you also need to bring some {{Color|keyword|nobold=1|Basic Ingredients}}. After all, doing research can take up a lot of energy...
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 6,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017501"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "MainFinish_8000175"
+			}
+		}
+	],
+	"OnQuestion2": [],
+	"OnQuestion3": [],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017501"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017501"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017501-->
+;(If {{cx}}<!--SubMission Started: 800017502-->, {{cx}}<!--SubMission Started: 800017501-->, {{cx}}<!--SubMission Started: 800017402-->, {{cx}}<!--SubMission Started: 800017401-->, {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{cx}}<!--SubMission Started: 800017701-->, {{cx}}<!--SubMission Started: 800017502-->, {{cx}}<!--SubMission Started: 800017501-->, {{cx}}<!--SubMission Started: 800017402-->, {{cx}}<!--SubMission Started: 800017401-->, {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+::<!--Trigger PerformanceE 800017701: Config/Level/Mission/8000177/Act/Act800017701.json-->
+::'''Wen Shiling:''' Well, actually, I can pass the performance review without finishing this last experiment. After all, my robot project has already immensely impressed the team leader!
+::'''Wen Shiling:''' The project report for the funding application has already been submitted. This last one... well, it's just to fill the quota! After all, the key to scientific research is rigor, so there must be no less than seven reports.
+::'''Wen Shiling:''' But rigor is just the foundation. The most important thing is innovation! Henceforth, the name "Shiling" will be forever etched into the field of science!
+::{{DIcon|Arrow}} It's pretty rigorous indeed, at least by the numbers.
+::{{DIcon|Arrow}} You're doing some new stuff alright.
+:::<!--Custom String Listener: TalkSentence_801770107-->
+:::'''Wen Shiling:''' Hey, I am not the kind of person who forgets those who have helped me. I also noted you down as my experimental assistant, so you can wait for the Lead Researcher to give you your reward.
+:::<!--Custom String Trigger: TalkSentence_801770108-->
+::<!--Custom String Listener: TalkSentence_801770108-->
+::'''Wen Shiling:''' Anyway, this time, you can do as you please. Choose any one of the three research topics that have been studied before.
+::'''Wen Shiling:''' In addition to the sample material... bring back some {{Color|keyword|nobold=1|Protein Rice}}! Hmph... The final project report revolves around the connection between Protein Rice and mysterious creatures!
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.MonsterResearchSubmit",
+	"ActivityMonsterResearchID": 7,
+	"OnQuestion1": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "MainFinish_8000177"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017701"
+			}
+		}
+	],
+	"OnQuestion2": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "MainFinish_8000177"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017701"
+			}
+		}
+	],
+	"OnQuestion3": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "MainFinish_8000177"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Submit_800017701"
+			}
+		}
+	],
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Cancel_800017701"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "FirstTimeFail_800017701"
+			}
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_800017701-->
+;(If {{cx}}<!--SubMission Started: 800017702-->, {{cx}}<!--SubMission Started: 800017701-->, {{cx}}<!--SubMission Started: 800017502-->, {{cx}}<!--SubMission Started: 800017501-->, {{cx}}<!--SubMission Started: 800017402-->, {{cx}}<!--SubMission Started: 800017401-->, {{cx}}<!--SubMission Started: 800017302-->, {{cx}}<!--SubMission Started: 800017301-->, {{cx}}<!--SubMission Started: 800017202-->, {{cx}}<!--SubMission Started: 800017201-->, {{cx}}<!--SubMission Started: 800017102-->, {{cx}}<!--SubMission Started: 800017101-->, {{cx}}<!--SubMission Started: 800017003-->, {{cx}}<!--SubMission Started: 800017001-->, and {{cx}}<!--Hidden Mission ID 8000178--> has been started, {{Mission|Experimental Report 1|showChapter=0}} has been completed, {{Mission|Experimental Report 2|showChapter=0}} has not been started, {{Mission|Experimental Report 3|showChapter=0}} has not been started, {{Mission|Experimental Report 4|showChapter=0}} has not been started, {{Mission|Experimental Report 5|showChapter=0}} has not been started, {{Mission|Experimental Report 6|showChapter=0}} has not been started, or {{Mission|Experimental Report 7|showChapter=0}} has not been started, and {{Mission|Experimental Report 7|showChapter=0}} has not been completed)
+:{{DIcon|undefined}} Lab assistant work...
+;(If {{Mission|Spirit Traces|showChapter=0}} has been completed)
+:{{DIcon}} There's something else I want to ask.
+::<!--Custom String Trigger: Wait_Option_500214400_411-->
+::<!--Custom String Listener: Wait_Option_500214400_411-->
+::{{DIcon|Talk}} What report are you writing?
+:::<!--Custom String Listener: TalkSentence_500214404-->
+:::'''Wen Shiling:''' A report that summarizes Capote's sins! I know a lot of secrets as his former top fan... Other people can't even imagine it!
+:::'''Wen Shiling:''' Pity that I'm writing so slowly. I blame Adler &mdash; he comes to bother me every day, otherwise I'd have finished this ages ago and published it on the space station's anonymous forum.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Did the Master Capote Fan Club disband?
+:::<!--Custom String Listener: TalkSentence_500214407-->
+:::'''Wen Shiling:''' Of course it did! We couldn't get away fast enough. But I hear some people plan to keep supporting him and want to "be there for him as he changes."
+:::'''Wen Shiling:''' I don't get those people at all! Scoundrels like Capote don't deserve any care! I don't get it. I really don't!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Those Curios you gave Capote...
+:::<!--Custom String Listener: TalkSentence_500214410-->
+:::'''Wen Shiling:''' Shhh! I told you that because we are friends, but that doesn't mean you can say it out loud! What if other people hear?
+:::'''Wen Shiling:''' I already got the relevant parties to take back those Curios. Don't you worry about it. Just treat it as water under the bridge! Don't mention it ever again!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: TalkSentence_500214414-->
+:::'''Wen Shiling:''' Just you wait, Capote! When I finished my work, tidied up the Curio report, supervised Curio reclamation, and went with Adler to... Ugh! How come I still have so much work to do!?
+:::<!--Ends the current performance-->
+;(If {{Mission|Spirit Traces|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I'll leave you to it.
+::'''Wen Shiling:''' Just you wait, Capote! When I finished my work, tidied up the Curio report, supervised Curio reclamation, and went with Adler to... Ugh! How come I still have so much work to do!?
+::<!--Ends the current performance-->
+;(If {{Mission|Spirit Traces|showChapter=0}} has not been completed)
+:{{DIcon}} I've got something to ask you.
+::<!--Custom String Trigger: Wait_Option_500010117_940-->
+::<!--Custom String Listener: Wait_Option_500010117_940-->
+::{{DIcon|Talk}} What kind of Curio does Master Capote usually prefer?
+:::<!--Custom String Listener: TalkSentence_500011418-->
+:::'''Wen Shiling:''' You're asking the right person. I've gotta be the only person in the space station who can answer this question!
+:::'''Wen Shiling:''' I know Master Capote's hobbies like the back of my hand. I even remember he adds three and a half cubes of sugar to his coffee.
+:::'''Wen Shiling:''' As for the Curios... Ehem, you think you can fool me into answering this? As I said, the Curios are distributed according to regulations, instead of the researcher's preferences!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is the Department of Implement Arts' regulations in terms of distributing Curios?
+:::<!--Custom String Listener: TalkSentence_500011422-->
+:::'''Wen Shiling:''' It's... it's none of your business! The space station has its own rules and regulations, so does our department.
+:::'''Wen Shiling:''' The Curios I distribute to Master Capote are through the normal procedure. Don't think too much about it.
+:::'''Wen Shiling:''' Anyway, the Department of Implement Arts is very busy. Don't ask around even if you don't believe me. Save us some troubles.
+:::'''Wen Shiling:''' Jeez, I hate newbies like you who always try to get to the bottom of everything!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Give me a Curio, too.
+:::<!--Custom String Listener: TalkSentence_500011427-->
+:::'''Wen Shiling:''' Huh!? Do you even know what you're talking about? I can't just give a Curio to a random person!
+:::'''Wen Shiling:''' Except for Master Capote, no one gets Curios without going through the normal process. No one gets to choose Curios. You think a newbie like you can match Master Capote's knowledge and standard?
+:::'''Wen Shiling:''' ...
+:::'''Wen Shiling:''' Ehem, I mean, your researcher level is too low. You can't apply for a Curio for your research at the moment. Anything else is none of your business!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I have to ask.
+:::<!--Custom String Listener: TalkSentence_500011432-->
+:::'''Wen Shiling:''' Phew, finally. I spent so much effort introducing the basics of the space station to you, but you're interested in things you shouldn't know!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{Mission|Spirit Traces|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} That's all I have to ask.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Wen Shiling:''' Phew, finally. I spent so much effort introducing the basics of the space station to you, but you're interested in things you shouldn't know!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017001)
+:<!--Custom String Listener: Submit_800017001-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' And that should be it! Come, here are your rewards! What? You don't know what this {{Color|keyword|nobold=1|"All Good Potion"}} does?
+::'''Wen Shiling:''' It's... you can try it out for yourself! The researchers all agree that this liquid is harmless. But, still, don't come blame me if anything goes wrong.
+::{{DIcon|Arrow}} How much research is there afterward?
+::<!--Custom String Listener: TalkSentence_801700307-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.Activity.ActivityMonsterResearch.ActivityMonsterResearchEnterPage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "HideGoto"
+	},
+	"OnUIExitImmediately": []
+}</pre>
+::'''Wen Shiling:''' Here! These are my report notes &mdash; some are today's reports and some are... future research plans.
+::'''Wen Shiling:''' They're all a bit rough and messy, so just go with it. Don't even bother asking me if you can't understand, since I myself haven't figured them all out yet!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017001)
+:<!--Custom String Listener: Cancel_800017001-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017003)
+:<!--Custom String Listener: Submit_800017003-->
+::<!--Trigger PerformanceE 800017003: Config/Level/Mission/8000170/Act/Act800017003.json-->
+::'''Wen Shiling:''' And that should be it! Come, here are your rewards! What? You don't know what this {{Color|keyword|nobold=1|"All Good Potion"}} does?
+::'''Wen Shiling:''' It's... you can try it out for yourself! The researchers all agree that this liquid is harmless. But, still, don't come blame me if anything goes wrong.
+::{{DIcon|Arrow}} How much research is there afterward?
+::<!--Custom String Listener: TalkSentence_801700307-->
+::<!--Custom String Listener: TalkSentence_801700307-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.Activity.ActivityMonsterResearch.ActivityMonsterResearchEnterPage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "HideGoto"
+	},
+	"OnUIExitImmediately": []
+}</pre>
+::'''Wen Shiling:''' Here! These are my report notes &mdash; some are today's reports and some are... future research plans.
+::'''Wen Shiling:''' They're all a bit rough and messy, so just go with it. Don't even bother asking me if you can't understand, since I myself haven't figured them all out yet!
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.Activity.ActivityMonsterResearch.ActivityMonsterResearchEnterPage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "HideGoto"
+	},
+	"OnUIExitImmediately": []
+}</pre>
+::'''Wen Shiling:''' Here! These are my report notes &mdash; some are today's reports and some are... future research plans.
+::'''Wen Shiling:''' They're all a bit rough and messy, so just go with it. Don't even bother asking me if you can't understand, since I myself haven't figured them all out yet!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017003)
+:<!--Custom String Listener: Cancel_800017003-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017101)
+:<!--Custom String Listener: Submit_800017101-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017101)
+:<!--Custom String Listener: Cancel_800017101-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017102)
+:<!--Custom String Listener: Submit_800017102-->
+::<!--Trigger PerformanceE 800017102: Config/Level/Mission/8000171/Act/Act800017102.json-->
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017102)
+:<!--Custom String Listener: Cancel_800017102-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017201)
+:<!--Custom String Listener: Submit_800017201-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017201)
+:<!--Custom String Listener: Cancel_800017201-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017202)
+:<!--Custom String Listener: Submit_800017202-->
+::<!--Trigger PerformanceE 800017102: Config/Level/Mission/8000171/Act/Act800017102.json-->
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017202)
+:<!--Custom String Listener: Cancel_800017202-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017301)
+:<!--Custom String Listener: Submit_800017301-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017301)
+:<!--Custom String Listener: Cancel_800017301-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017302)
+:<!--Custom String Listener: Submit_800017302-->
+::<!--Trigger PerformanceE 800017102: Config/Level/Mission/8000171/Act/Act800017102.json-->
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017302)
+:<!--Custom String Listener: Cancel_800017302-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017401)
+:<!--Custom String Listener: Submit_800017401-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017401)
+:<!--Custom String Listener: Cancel_800017401-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017402)
+:<!--Custom String Listener: Submit_800017402-->
+::<!--Trigger PerformanceE 800017102: Config/Level/Mission/8000171/Act/Act800017102.json-->
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017402)
+:<!--Custom String Listener: Cancel_800017402-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017501)
+:<!--Custom String Listener: Submit_800017501-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017501)
+:<!--Custom String Listener: Cancel_800017501-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017502)
+:<!--Custom String Listener: Submit_800017502-->
+::<!--Trigger PerformanceE 800017102: Config/Level/Mission/8000171/Act/Act800017102.json-->
+::'''Wen Shiling:''' And thaaaat's that! This report is perfect! After I submit it to the team leader, I will prepare for the next experiment!
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017502)
+:<!--Custom String Listener: Cancel_800017502-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Submit_800017701)
+:<!--Custom String Listener: Submit_800017701-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017701)
+:<!--Custom String Listener: Cancel_800017701-->
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.CharacterDisableLookAt",
+	"CharacterUniqueName": "WSL",
+	"Disable": false
+}</pre>
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+;(Unused &mdash; Cancel_800017702)
+:<!--Custom String Listener: Cancel_800017702-->
+::<!--Trigger PerformanceE 800017099: Config/Level/Mission/8000170/Act/Act800017099.json-->
+::'''Wen Shiling:''' Just hand the stuff to me once you're done collecting. I have other matters to attend to right now...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wen Shiling
+|zhs  = 温世玲
+|zht  = 溫世玲
+|ja   = 温世玲
+|ko   = 온세영
+|es   = Wen Shiling
+|fr   = Wen&nbsp;Shiling
+|ru   = Вэнь Шилин
+|th   = Wen Shiling
+|vi   = Wen Shiling
+|de   = Wen Shiling
+|id   = Wen Shiling
+|pt   = Wen Shiling
+}}
+==Change History==
+{{Change History|TODO}}

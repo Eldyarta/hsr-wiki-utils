@@ -1,0 +1,477 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sunday#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Sunday.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Party Car
+|relatives       = 
+}}
+'''Sunday''' is an NPC on [[Astral Express]], located in [[Party Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Party Car|npc_106_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 503114007: Config/Level/Mission/5031140/Act/Act503114007.json-->
+:'''Sunday:''' May I help you, {{MC|f=ma'am|m=sir}}?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Just wanted to chat with you, Sunny.
+::'''Sunday:''' ...I'll tell you everything I know, but I'd prefer not to be called that in the future.
+::<!--Custom String Trigger: Wait_Option_503114008_16-->
+::<!--Custom String Listener: Wait_Option_503114008_16-->
+::{{DIcon|Talk}} Life on the Express...
+:::<!--Custom String Listener: TalkSentence_503115104-->
+:::'''Sunday:''' Please ask away. But I might not have a lot to share since I've only recently came on board.
+:::<!--Custom String Trigger: Wait_Option_503114008_19-->
+:::<!--Custom String Listener: Wait_Option_503114008_19-->
+:::{{DIcon|Talk}} About the companions on the Express...
+::::<!--Custom String Listener: TalkSentence_503115106-->
+::::'''Sunday:''' I'm trying to connect with everyone using my new identity, but I may need some time due to my personality.
+::::'''Sunday:''' Mr. Yang showed me the captivating way of the Trailblaze during our travels. Truth be told, you've all been great teachers.
+::::'''Sunday:''' The conductor taught me about the history of the Nameless, Dan Heng showed me the extensive knowledge stored in the data bank, and even from Miss March 7th, I've learned...
+::::'''Sunday:''' ...
+::::'''Sunday:''' A lot.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About your book...
+::::<!--Custom String Listener: TalkSentence_503115112-->
+::::'''Sunday:''' It was a gift I received, and it arrived blank.
+::::'''Sunday:''' Did you mistake it for some type of classic text or something? It's not entirely inaccurate, though. I wrote some pages myself.
+::::'''Sunday:''' In a way, it symbolizes a chapter of my life.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you been up to lately?
+::::<!--Custom String Listener: TalkSentence_503115116-->
+::::'''Sunday:''' Most of the time, I've been reflecting in solitude while waiting for our departure.
+::::'''Sunday:''' I wanted to contribute, but I wasn't sure how. The conductor just told me to wait patiently.
+::::'''Sunday:''' Yet... as I look at the spacious car, I feel a strong urge to organize it that likely stems from boredom...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Talk about something else...
+::::<!--Custom String Listener: Wait_Option_503114008_16-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} About Sunday...
+:::::<!--Custom String Listener: TalkSentence_503115121-->
+:::::'''Sunday:''' My past isn't worth mentioning. But may I ask what piqued your curiosity?
+:::::<!--Custom String Trigger: Wait_Option_503114008_38-->
+:::::<!--Custom String Listener: Wait_Option_503114008_38-->
+:::::{{DIcon|Talk}} About The Family...
+::::::<!--Custom String Listener: TalkSentence_503115123-->
+::::::'''Sunday:''' The Planet of Festivities is certainly well-known, but among The Family's many territories, it is merely a "hotel" at best.
+::::::'''Sunday:''' Perhaps we'll visit more domains of the Harmony someday. I'll make sure to excuse myself to avoid any complications.
+::::::'''Sunday:''' There is but one place that lingers in my thoughts, though.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About the IPC...
+::::::<!--Custom String Listener: TalkSentence_503115127-->
+::::::'''Sunday:''' The shadow of Lady Bonajade still looms over me.
+::::::'''Sunday:''' She shared some intriguing words with me before she left. She said that if I cannot find the answer I seek among the stars, the Strategic Investment Department... will be the last refuge for the lost.
+::::::'''Sunday:''' Perhaps one day, someone will find me and ask me to pay the price of freedom. I am ready for that, and I will certainly not be a burden to any of you.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About Robin...
+::::::<!--Custom String Listener: TalkSentence_503115131-->
+::::::'''Sunday:''' You may find this confusing, but among my worries, she is not one of them.
+::::::'''Sunday:''' She can take care of herself... I should have admitted that long ago.
+::::::'''Sunday:''' All I want is to lead the way for her. It's not about sibling rivalry. There are unknown hardships ahead, and I wish to face them first.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About your outfit...
+::::::<!--Custom String Listener: TalkSentence_503115135-->
+::::::'''Sunday:''' I am a fugitive, after all, and I shouldn't draw attention. I changed out of the family head's outfit the moment I gained my freedom.
+::::::'''Sunday:''' Even though I was about to start my penance, I wanted to keep it for its sentimental value, but I lost it in Penacony.
+::::::'''Sunday:''' Perhaps this is some sort of sign.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} I have another question...
+::::::<!--Custom String Listener: Wait_Option_503114008_16-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Talk}} About the destination...
+:::::::<!--Custom String Listener: TalkSentence_503115140-->
+:::::::'''Sunday:''' It's funny that I never imagined I would be traveling with the Nameless one day.
+:::::::<!--Custom String Trigger: Wait_Option_503114008_59-->
+:::::::<!--Custom String Listener: Wait_Option_503114008_59-->
+:::::::{{DIcon|Talk}} Are you planning to join the trailblazing journey?
+::::::::<!--Custom String Listener: TalkSentence_503115142-->
+::::::::'''Sunday:''' You mean, will I disembark when we reach the destination? Absolutely, I want to explore more of the world for the sake of my ascetic journey.
+::::::::'''Sunday:''' Even without the power of the Order, I will do my utmost to lend a hand if needed.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Any destinations you're interested in?
+::::::::<!--Custom String Listener: TalkSentence_503115145-->
+::::::::'''Sunday:''' I do have a few ideas in mind, but as a mere hitchhiker, it's not really my place to weigh in.
+::::::::'''Sunday:''' Creating a paradise remains my lifelong ambition. When I obtained permission and accessed the data bank, I came across many references to this concept throughout the universe.
+::::::::'''Sunday:''' They go by different names &mdash; Kingdom of Heaven, Pure Land, Blissful Realm... Hopefully, I can visit these places to see if they truly live up to their names.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} About the Eternal Centurion...
+::::::::<!--Custom String Listener: TalkSentence_503115149-->
+::::::::'''Sunday:''' Are you concerned that I won't be able to escape its wrath, no matter where I go? Rest assured, if that were truly a possibility, I wouldn't have made the request to board the Express.
+::::::::'''Sunday:''' The Family may wish to eliminate me, but as long as I'm not rallying a sizable army, they wouldn't go so far as to involve the Eternal Centurion.
+::::::::'''Sunday:''' Since its inception, it was never meant to be used against a single person.
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Exit}} That's all for now.
+:::::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::::'''Sunday:''' My best regards, as always.
+:::::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} About the destination...
+:::::<!--Custom String Listener: TalkSentence_503115140-->
+:::::'''Sunday:''' It's funny that I never imagined I would be traveling with the Nameless one day.
+:::::<!--Custom String Trigger: Wait_Option_503114008_59-->
+:::::<!--Custom String Listener: Wait_Option_503114008_59-->
+:::::{{DIcon|Talk}} Are you planning to join the trailblazing journey?
+::::::<!--Custom String Listener: TalkSentence_503115142-->
+::::::'''Sunday:''' You mean, will I disembark when we reach the destination? Absolutely, I want to explore more of the world for the sake of my ascetic journey.
+::::::'''Sunday:''' Even without the power of the Order, I will do my utmost to lend a hand if needed.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Any destinations you're interested in?
+::::::<!--Custom String Listener: TalkSentence_503115145-->
+::::::'''Sunday:''' I do have a few ideas in mind, but as a mere hitchhiker, it's not really my place to weigh in.
+::::::'''Sunday:''' Creating a paradise remains my lifelong ambition. When I obtained permission and accessed the data bank, I came across many references to this concept throughout the universe.
+::::::'''Sunday:''' They go by different names &mdash; Kingdom of Heaven, Pure Land, Blissful Realm... Hopefully, I can visit these places to see if they truly live up to their names.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About the Eternal Centurion...
+::::::<!--Custom String Listener: TalkSentence_503115149-->
+::::::'''Sunday:''' Are you concerned that I won't be able to escape its wrath, no matter where I go? Rest assured, if that were truly a possibility, I wouldn't have made the request to board the Express.
+::::::'''Sunday:''' The Family may wish to eliminate me, but as long as I'm not rallying a sizable army, they wouldn't go so far as to involve the Eternal Centurion.
+::::::'''Sunday:''' Since its inception, it was never meant to be used against a single person.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} That's all for now.
+:::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::'''Sunday:''' My best regards, as always.
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} About Sunday...
+:::<!--Custom String Listener: TalkSentence_503115121-->
+:::'''Sunday:''' My past isn't worth mentioning. But may I ask what piqued your curiosity?
+:::<!--Custom String Trigger: Wait_Option_503114008_38-->
+:::<!--Custom String Listener: Wait_Option_503114008_38-->
+:::{{DIcon|Talk}} About The Family...
+::::<!--Custom String Listener: TalkSentence_503115123-->
+::::'''Sunday:''' The Planet of Festivities is certainly well-known, but among The Family's many territories, it is merely a "hotel" at best.
+::::'''Sunday:''' Perhaps we'll visit more domains of the Harmony someday. I'll make sure to excuse myself to avoid any complications.
+::::'''Sunday:''' There is but one place that lingers in my thoughts, though.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the IPC...
+::::<!--Custom String Listener: TalkSentence_503115127-->
+::::'''Sunday:''' The shadow of Lady Bonajade still looms over me.
+::::'''Sunday:''' She shared some intriguing words with me before she left. She said that if I cannot find the answer I seek among the stars, the Strategic Investment Department... will be the last refuge for the lost.
+::::'''Sunday:''' Perhaps one day, someone will find me and ask me to pay the price of freedom. I am ready for that, and I will certainly not be a burden to any of you.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About Robin...
+::::<!--Custom String Listener: TalkSentence_503115131-->
+::::'''Sunday:''' You may find this confusing, but among my worries, she is not one of them.
+::::'''Sunday:''' She can take care of herself... I should have admitted that long ago.
+::::'''Sunday:''' All I want is to lead the way for her. It's not about sibling rivalry. There are unknown hardships ahead, and I wish to face them first.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About your outfit...
+::::<!--Custom String Listener: TalkSentence_503115135-->
+::::'''Sunday:''' I am a fugitive, after all, and I shouldn't draw attention. I changed out of the family head's outfit the moment I gained my freedom.
+::::'''Sunday:''' Even though I was about to start my penance, I wanted to keep it for its sentimental value, but I lost it in Penacony.
+::::'''Sunday:''' Perhaps this is some sort of sign.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have another question...
+::::<!--Custom String Listener: Wait_Option_503114008_16-->
+::::{{DIcon|Talk}} Life on the Express...
+:::::<!--Custom String Listener: TalkSentence_503115104-->
+:::::'''Sunday:''' Please ask away. But I might not have a lot to share since I've only recently came on board.
+:::::<!--Custom String Trigger: Wait_Option_503114008_19-->
+:::::<!--Custom String Listener: Wait_Option_503114008_19-->
+:::::{{DIcon|Talk}} About the companions on the Express...
+::::::<!--Custom String Listener: TalkSentence_503115106-->
+::::::'''Sunday:''' I'm trying to connect with everyone using my new identity, but I may need some time due to my personality.
+::::::'''Sunday:''' Mr. Yang showed me the captivating way of the Trailblaze during our travels. Truth be told, you've all been great teachers.
+::::::'''Sunday:''' The conductor taught me about the history of the Nameless, Dan Heng showed me the extensive knowledge stored in the data bank, and even from Miss March 7th, I've learned...
+::::::'''Sunday:''' ...
+::::::'''Sunday:''' A lot.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About your book...
+::::::<!--Custom String Listener: TalkSentence_503115112-->
+::::::'''Sunday:''' It was a gift I received, and it arrived blank.
+::::::'''Sunday:''' Did you mistake it for some type of classic text or something? It's not entirely inaccurate, though. I wrote some pages myself.
+::::::'''Sunday:''' In a way, it symbolizes a chapter of my life.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} What have you been up to lately?
+::::::<!--Custom String Listener: TalkSentence_503115116-->
+::::::'''Sunday:''' Most of the time, I've been reflecting in solitude while waiting for our departure.
+::::::'''Sunday:''' I wanted to contribute, but I wasn't sure how. The conductor just told me to wait patiently.
+::::::'''Sunday:''' Yet... as I look at the spacious car, I feel a strong urge to organize it that likely stems from boredom...
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} Talk about something else...
+::::::<!--Custom String Listener: Wait_Option_503114008_16-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Talk}} About the destination...
+:::::::<!--Custom String Listener: TalkSentence_503115140-->
+:::::::'''Sunday:''' It's funny that I never imagined I would be traveling with the Nameless one day.
+:::::::<!--Custom String Trigger: Wait_Option_503114008_59-->
+:::::::<!--Custom String Listener: Wait_Option_503114008_59-->
+:::::::{{DIcon|Talk}} Are you planning to join the trailblazing journey?
+::::::::<!--Custom String Listener: TalkSentence_503115142-->
+::::::::'''Sunday:''' You mean, will I disembark when we reach the destination? Absolutely, I want to explore more of the world for the sake of my ascetic journey.
+::::::::'''Sunday:''' Even without the power of the Order, I will do my utmost to lend a hand if needed.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Any destinations you're interested in?
+::::::::<!--Custom String Listener: TalkSentence_503115145-->
+::::::::'''Sunday:''' I do have a few ideas in mind, but as a mere hitchhiker, it's not really my place to weigh in.
+::::::::'''Sunday:''' Creating a paradise remains my lifelong ambition. When I obtained permission and accessed the data bank, I came across many references to this concept throughout the universe.
+::::::::'''Sunday:''' They go by different names &mdash; Kingdom of Heaven, Pure Land, Blissful Realm... Hopefully, I can visit these places to see if they truly live up to their names.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} About the Eternal Centurion...
+::::::::<!--Custom String Listener: TalkSentence_503115149-->
+::::::::'''Sunday:''' Are you concerned that I won't be able to escape its wrath, no matter where I go? Rest assured, if that were truly a possibility, I wouldn't have made the request to board the Express.
+::::::::'''Sunday:''' The Family may wish to eliminate me, but as long as I'm not rallying a sizable army, they wouldn't go so far as to involve the Eternal Centurion.
+::::::::'''Sunday:''' Since its inception, it was never meant to be used against a single person.
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Exit}} That's all for now.
+:::::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::::'''Sunday:''' My best regards, as always.
+:::::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} About the destination...
+:::::<!--Custom String Listener: TalkSentence_503115140-->
+:::::'''Sunday:''' It's funny that I never imagined I would be traveling with the Nameless one day.
+:::::<!--Custom String Trigger: Wait_Option_503114008_59-->
+:::::<!--Custom String Listener: Wait_Option_503114008_59-->
+:::::{{DIcon|Talk}} Are you planning to join the trailblazing journey?
+::::::<!--Custom String Listener: TalkSentence_503115142-->
+::::::'''Sunday:''' You mean, will I disembark when we reach the destination? Absolutely, I want to explore more of the world for the sake of my ascetic journey.
+::::::'''Sunday:''' Even without the power of the Order, I will do my utmost to lend a hand if needed.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Any destinations you're interested in?
+::::::<!--Custom String Listener: TalkSentence_503115145-->
+::::::'''Sunday:''' I do have a few ideas in mind, but as a mere hitchhiker, it's not really my place to weigh in.
+::::::'''Sunday:''' Creating a paradise remains my lifelong ambition. When I obtained permission and accessed the data bank, I came across many references to this concept throughout the universe.
+::::::'''Sunday:''' They go by different names &mdash; Kingdom of Heaven, Pure Land, Blissful Realm... Hopefully, I can visit these places to see if they truly live up to their names.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About the Eternal Centurion...
+::::::<!--Custom String Listener: TalkSentence_503115149-->
+::::::'''Sunday:''' Are you concerned that I won't be able to escape its wrath, no matter where I go? Rest assured, if that were truly a possibility, I wouldn't have made the request to board the Express.
+::::::'''Sunday:''' The Family may wish to eliminate me, but as long as I'm not rallying a sizable army, they wouldn't go so far as to involve the Eternal Centurion.
+::::::'''Sunday:''' Since its inception, it was never meant to be used against a single person.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} Talk about something else...
+::::::<!--Custom String Listener: Wait_Option_503114008_16-->
+::::::{{DIcon|Talk}} Life on the Express...
+:::::::<!--Custom String Listener: TalkSentence_503115104-->
+:::::::'''Sunday:''' Please ask away. But I might not have a lot to share since I've only recently came on board.
+:::::::<!--Custom String Trigger: Wait_Option_503114008_19-->
+:::::::<!--Custom String Listener: Wait_Option_503114008_19-->
+:::::::{{DIcon|Talk}} About the companions on the Express...
+::::::::<!--Custom String Listener: TalkSentence_503115106-->
+::::::::'''Sunday:''' I'm trying to connect with everyone using my new identity, but I may need some time due to my personality.
+::::::::'''Sunday:''' Mr. Yang showed me the captivating way of the Trailblaze during our travels. Truth be told, you've all been great teachers.
+::::::::'''Sunday:''' The conductor taught me about the history of the Nameless, Dan Heng showed me the extensive knowledge stored in the data bank, and even from Miss March 7th, I've learned...
+::::::::'''Sunday:''' ...
+::::::::'''Sunday:''' A lot.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} About your book...
+::::::::<!--Custom String Listener: TalkSentence_503115112-->
+::::::::'''Sunday:''' It was a gift I received, and it arrived blank.
+::::::::'''Sunday:''' Did you mistake it for some type of classic text or something? It's not entirely inaccurate, though. I wrote some pages myself.
+::::::::'''Sunday:''' In a way, it symbolizes a chapter of my life.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} What have you been up to lately?
+::::::::<!--Custom String Listener: TalkSentence_503115116-->
+::::::::'''Sunday:''' Most of the time, I've been reflecting in solitude while waiting for our departure.
+::::::::'''Sunday:''' I wanted to contribute, but I wasn't sure how. The conductor just told me to wait patiently.
+::::::::'''Sunday:''' Yet... as I look at the spacious car, I feel a strong urge to organize it that likely stems from boredom...
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(Return to previous option selection (cloneCheckString))
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Exit}} That's all for now.
+:::::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::::'''Sunday:''' My best regards, as always.
+:::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} That's all for now.
+:::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::'''Sunday:''' My best regards, as always.
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} About the destination...
+:::<!--Custom String Listener: TalkSentence_503115140-->
+:::'''Sunday:''' It's funny that I never imagined I would be traveling with the Nameless one day.
+:::<!--Custom String Trigger: Wait_Option_503114008_59-->
+:::<!--Custom String Listener: Wait_Option_503114008_59-->
+:::{{DIcon|Talk}} Are you planning to join the trailblazing journey?
+::::<!--Custom String Listener: TalkSentence_503115142-->
+::::'''Sunday:''' You mean, will I disembark when we reach the destination? Absolutely, I want to explore more of the world for the sake of my ascetic journey.
+::::'''Sunday:''' Even without the power of the Order, I will do my utmost to lend a hand if needed.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Any destinations you're interested in?
+::::<!--Custom String Listener: TalkSentence_503115145-->
+::::'''Sunday:''' I do have a few ideas in mind, but as a mere hitchhiker, it's not really my place to weigh in.
+::::'''Sunday:''' Creating a paradise remains my lifelong ambition. When I obtained permission and accessed the data bank, I came across many references to this concept throughout the universe.
+::::'''Sunday:''' They go by different names &mdash; Kingdom of Heaven, Pure Land, Blissful Realm... Hopefully, I can visit these places to see if they truly live up to their names.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the Eternal Centurion...
+::::<!--Custom String Listener: TalkSentence_503115149-->
+::::'''Sunday:''' Are you concerned that I won't be able to escape its wrath, no matter where I go? Rest assured, if that were truly a possibility, I wouldn't have made the request to board the Express.
+::::'''Sunday:''' The Family may wish to eliminate me, but as long as I'm not rallying a sizable army, they wouldn't go so far as to involve the Eternal Centurion.
+::::'''Sunday:''' Since its inception, it was never meant to be used against a single person.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Talk about something else...
+::::<!--Custom String Listener: Wait_Option_503114008_16-->
+::::{{DIcon|Talk}} Life on the Express...
+:::::<!--Custom String Listener: TalkSentence_503115104-->
+:::::'''Sunday:''' Please ask away. But I might not have a lot to share since I've only recently came on board.
+:::::<!--Custom String Trigger: Wait_Option_503114008_19-->
+:::::<!--Custom String Listener: Wait_Option_503114008_19-->
+:::::{{DIcon|Talk}} About the companions on the Express...
+::::::<!--Custom String Listener: TalkSentence_503115106-->
+::::::'''Sunday:''' I'm trying to connect with everyone using my new identity, but I may need some time due to my personality.
+::::::'''Sunday:''' Mr. Yang showed me the captivating way of the Trailblaze during our travels. Truth be told, you've all been great teachers.
+::::::'''Sunday:''' The conductor taught me about the history of the Nameless, Dan Heng showed me the extensive knowledge stored in the data bank, and even from Miss March 7th, I've learned...
+::::::'''Sunday:''' ...
+::::::'''Sunday:''' A lot.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About your book...
+::::::<!--Custom String Listener: TalkSentence_503115112-->
+::::::'''Sunday:''' It was a gift I received, and it arrived blank.
+::::::'''Sunday:''' Did you mistake it for some type of classic text or something? It's not entirely inaccurate, though. I wrote some pages myself.
+::::::'''Sunday:''' In a way, it symbolizes a chapter of my life.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} What have you been up to lately?
+::::::<!--Custom String Listener: TalkSentence_503115116-->
+::::::'''Sunday:''' Most of the time, I've been reflecting in solitude while waiting for our departure.
+::::::'''Sunday:''' I wanted to contribute, but I wasn't sure how. The conductor just told me to wait patiently.
+::::::'''Sunday:''' Yet... as I look at the spacious car, I feel a strong urge to organize it that likely stems from boredom...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} About Sunday...
+:::::<!--Custom String Listener: TalkSentence_503115121-->
+:::::'''Sunday:''' My past isn't worth mentioning. But may I ask what piqued your curiosity?
+:::::<!--Custom String Trigger: Wait_Option_503114008_38-->
+:::::<!--Custom String Listener: Wait_Option_503114008_38-->
+:::::{{DIcon|Talk}} About The Family...
+::::::<!--Custom String Listener: TalkSentence_503115123-->
+::::::'''Sunday:''' The Planet of Festivities is certainly well-known, but among The Family's many territories, it is merely a "hotel" at best.
+::::::'''Sunday:''' Perhaps we'll visit more domains of the Harmony someday. I'll make sure to excuse myself to avoid any complications.
+::::::'''Sunday:''' There is but one place that lingers in my thoughts, though.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About the IPC...
+::::::<!--Custom String Listener: TalkSentence_503115127-->
+::::::'''Sunday:''' The shadow of Lady Bonajade still looms over me.
+::::::'''Sunday:''' She shared some intriguing words with me before she left. She said that if I cannot find the answer I seek among the stars, the Strategic Investment Department... will be the last refuge for the lost.
+::::::'''Sunday:''' Perhaps one day, someone will find me and ask me to pay the price of freedom. I am ready for that, and I will certainly not be a burden to any of you.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About Robin...
+::::::<!--Custom String Listener: TalkSentence_503115131-->
+::::::'''Sunday:''' You may find this confusing, but among my worries, she is not one of them.
+::::::'''Sunday:''' She can take care of herself... I should have admitted that long ago.
+::::::'''Sunday:''' All I want is to lead the way for her. It's not about sibling rivalry. There are unknown hardships ahead, and I wish to face them first.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About your outfit...
+::::::<!--Custom String Listener: TalkSentence_503115135-->
+::::::'''Sunday:''' I am a fugitive, after all, and I shouldn't draw attention. I changed out of the family head's outfit the moment I gained my freedom.
+::::::'''Sunday:''' Even though I was about to start my penance, I wanted to keep it for its sentimental value, but I lost it in Penacony.
+::::::'''Sunday:''' Perhaps this is some sort of sign.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} I have another question...
+::::::<!--Custom String Listener: Wait_Option_503114008_16-->
+::::::{{DIcon|Talk}} Life on the Express...
+:::::::<!--Custom String Listener: TalkSentence_503115104-->
+:::::::'''Sunday:''' Please ask away. But I might not have a lot to share since I've only recently came on board.
+:::::::<!--Custom String Trigger: Wait_Option_503114008_19-->
+:::::::<!--Custom String Listener: Wait_Option_503114008_19-->
+:::::::{{DIcon|Talk}} About the companions on the Express...
+::::::::<!--Custom String Listener: TalkSentence_503115106-->
+::::::::'''Sunday:''' I'm trying to connect with everyone using my new identity, but I may need some time due to my personality.
+::::::::'''Sunday:''' Mr. Yang showed me the captivating way of the Trailblaze during our travels. Truth be told, you've all been great teachers.
+::::::::'''Sunday:''' The conductor taught me about the history of the Nameless, Dan Heng showed me the extensive knowledge stored in the data bank, and even from Miss March 7th, I've learned...
+::::::::'''Sunday:''' ...
+::::::::'''Sunday:''' A lot.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} About your book...
+::::::::<!--Custom String Listener: TalkSentence_503115112-->
+::::::::'''Sunday:''' It was a gift I received, and it arrived blank.
+::::::::'''Sunday:''' Did you mistake it for some type of classic text or something? It's not entirely inaccurate, though. I wrote some pages myself.
+::::::::'''Sunday:''' In a way, it symbolizes a chapter of my life.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} What have you been up to lately?
+::::::::<!--Custom String Listener: TalkSentence_503115116-->
+::::::::'''Sunday:''' Most of the time, I've been reflecting in solitude while waiting for our departure.
+::::::::'''Sunday:''' I wanted to contribute, but I wasn't sure how. The conductor just told me to wait patiently.
+::::::::'''Sunday:''' Yet... as I look at the spacious car, I feel a strong urge to organize it that likely stems from boredom...
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Exit}} That's all for now.
+:::::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::::'''Sunday:''' My best regards, as always.
+:::::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} That's all for now.
+:::::<!--Custom String Listener: TalkSentence_503115154-->
+:::::'''Sunday:''' My best regards, as always.
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_503115154-->
+:::'''Sunday:''' My best regards, as always.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 424040718--> or {{cx}}<!--SubMission not Finish: 104010123-->)
+:{{DIcon}} Regarding Amphoreus...
+::'''Sunday:''' Are we leaving for the next stop?
+::{{DIcon}} How much do you know about Amphoreus?
+:::<!--Custom String Listener: TalkSentence_503115203-->
+:::'''Sunday:''' Nothing, I've not even heard of the name.
+:::'''Sunday:''' I've been managing The Family's affairs since young, leaving me little time to travel afar.
+:::'''Sunday:''' And the world I know often... only consists of places where music tours are held. I've never explored them in depth.
+::{{DIcon|Exit}} Nothing much. Still have to wait.
+:::<!--Custom String Listener: TalkSentence_503115207-->
+:::'''Sunday:''' My best regards, as always.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} It's nothing.
+::'''Sunday:''' My best regards, as always.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sunday
+|zhs  = 星期日
+|zht  = 星期日
+|ja   = サンデー
+|ko   = 선데이
+|es   = Sunday
+|fr   = Sunday
+|ru   = Воскресенье
+|th   = Sunday
+|vi   = Sunday
+|de   = Sonntag
+|id   = Sunday
+|pt   = Sunday
+}}
+==Change History==
+{{Change History|TODO}}

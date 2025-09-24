@@ -1,0 +1,302 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cong#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Inventor
+|image           = NPC Cong.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Cong''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400011}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502017101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502017101.json-->
+::'''Cong:''' Like willow leaves moving at a speed of knots, super duper love you lots.
+::'''Cong:''' Autumn winds and moon rises on buildings glow, love can also move as slow.
+::'''Cong:''' ...Writing poetry is so easy. Why doesn't she like me? What am I missing?
+::{{DIcon|Arrow}} I wouldn't like you either.
+:::<!--Custom String Listener: TalkSentence_502017105-->
+:::'''Cong:''' It's pure emotion. Can't you hear that? I feel like I'm on equal grounds with the seven sacred poets of Xianzhou.
+::{{DIcon|Arrow}} This poem of yours is terrible...
+:::<!--Custom String Listener: TalkSentence_502017107-->
+:::'''Cong:''' You don't like it...? Look, "knots" and "lots"... it all rhymes... four lines of heptameter.
+::<!--Custom String Trigger: TalkSentence_502017108-->
+::<!--Custom String Listener: TalkSentence_502017108-->
+::'''Cong:''' ...Ah, forget about it. I'm not arguing with you. To be honest, I don't even really get what's so good about poetry, and can't really tell what's good poetry.
+::'''Cong:''' You, however, seem to have unique insights into poetry. Tell me, other people pour out their love and emotion, and I'm here writing out my true feelings too. What am I doing wrong?
+::{{DIcon|Arrow}} It's missing the sense of culture and taste...
+:::<!--Custom String Listener: TalkSentence_502017111-->
+:::'''Cong:''' Culture? Taste? What's that? Don't just invent new words to trick me.
+:::'''Cong:''' ...Maybe you aren't tricking me. *sigh* You're right. I'm lacking in culture and taste.
+::{{DIcon|Arrow}} I actually think you write with your own style!
+:::<!--Custom String Listener: TalkSentence_502017114-->
+:::'''Cong:''' My own style... Thank you. Even though I can't really tell if this is meant as a compliment or consolation.
+:::'''Cong:''' But in the end, even if you do like it, she doesn't like it. So it's useless...
+::<!--Custom String Trigger: TalkSentence_502017116-->
+::<!--Custom String Listener: TalkSentence_502017116-->
+::'''Cong:''' *sigh* ...Anyways, do you need anything?
+::<!--Custom String Trigger: Wait_Option_502017101_30-->
+::<!--Custom String Listener: Wait_Option_502017101_30-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502017104: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502017104.json-->
+::'''Cong:''' You're a sorrowful sigh at the end of the world, while I am just an insignificant screw. I'm at a loss, helpless in ways to mend your broken heart. Oh, Jingzhai...
+::'''Cong:''' Oh, you're here. What brings you here?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 202090102-->)
+:{{DIcon|undefined}} Did you put up the Lost and Found notices?
+::<!--Trigger PerformanceE 202090103: Config/Level/Mission/2020901/Act/Act202090103.json-->
+::'''Cong:''' ...I have indeed put up many Lost and Found notices. Which one specifically are you talking about?
+::<!--Custom String Trigger: Wait_Option_202090103_53-->
+::<!--Custom String Listener: Wait_Option_202090103_53-->
+:<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140229
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140229,
+			"TriggerCustomString": "ItemSelect_202090102_1"
+		}
+	],
+	"SlotNum": 1,
+	"SimpleTalk": {},
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "All_Talk_End"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "All_Talk_End"
+			}
+		}
+	]
+}</pre>
+:;(If {{F|MissionCV-2020901-undefined}} is undefined 1)
+::<!--Custom String Trigger: Talk_202090103-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502017201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502017201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502017201.json-->
+::'''Cong:''' I composed a poem for this. Listen up. I'll chant it for you...
+::'''Cong:''' Ahem... Scalegorge waters surge and flow; mighty tree you grow and grow; a sip for you, a sip for me; growing like a kebab tree.
+::'''Cong:''' Huh? Do you like it? ...Uh, I can tell by your expression that you're not a fan... Forget it, I'll come up with another.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502017201-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502017201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} I want to chat with you...
+::<!--Trigger PerformanceE 502017105: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502017105.json-->
+::'''Cong:''' Alright. It's not like I have any inspiration... What are you after? Is it about artifex technology?
+::<!--Custom String Trigger: TalkSentence_502017402-->
+::<!--Custom String Listener: TalkSentence_502017402-->
+::{{DIcon|Talk}} You know about artifex technology?
+:::<!--Custom String Listener: TalkSentence_502017403-->
+:::'''Cong:''' Yeah, I'm an artisan at the Artisanship Commission, and I'm kind of a big deal. My boss loves me and he said, "Cong, if you just work on your EQ a little, you'll be a Master Artisan in another hundred years."
+:::'''Cong:''' Frankly speaking, I think he's right, as I really don't have a high EQ... But, I've heard them say that I've gotten better lately. If it's not sarcasm, it probably means I have improved.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you still write poems now?
+:::<!--Custom String Listener: TalkSentence_502017406-->
+:::'''Cong:''' I do, but I no longer rely on the Poetic Genius Ingenia. I prefer to write the poems myself.
+:::'''Cong:''' It turns out that writing poems isn't as serious a business as I used to think... I've fallen in love with it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What about those Poetic Genius Ingenia?
+:::<!--Custom String Listener: TalkSentence_502017409-->
+:::'''Cong:''' I talked to them about their thoughts and left them to pursue what they desired.
+:::'''Cong:''' The Gloomy Poet is a quirky one. It told me that the right amount of melancholy makes it feel safe, so it asked me to adjust its settings. You can still bump into it if you're lucky.
+:::'''Cong:''' What exactly is melancholy then, you might ask? When you're experiencing the emotion, you'll be in agony. When you aren't, you'll miss it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What about Jingzhai...
+:::<!--Custom String Listener: TalkSentence_502017413-->
+:::'''Cong:''' I know what she thinks, and I will leave her alone.
+:::'''Cong:''' However, it'll take a long time before I can convince myself to give up on her. Anyone who's been through this would understand.
+:::'''Cong:''' Don't worry. I won't neglect my job at the Artisanship Commission.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else to ask.
+:::<!--Custom String Listener: All_Talk_End-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502017105-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has not been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502017201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} I want to chat with you...
+::<!--Trigger PerformanceE 502017103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502017103.json-->
+::'''Cong:''' Alright. It's not like I have any inspiration, is it... What are you after? Is it about artifex technology?
+::<!--Custom String Trigger: 502017103_Option-->
+::<!--Custom String Listener: 502017103_Option-->
+::{{DIcon|Talk}} You know artifex technology?
+:::<!--Custom String Listener: TalkSentence_502017120-->
+:::'''Cong:''' Yeah, I'm an artisan at the Artisanship Commission, and I'm kind of a big deal. My boss loves me and he said, "Cong, if you just work on your EQ a little, you'll be a Master Artisan in another hundred years."
+:::'''Cong:''' But honestly, I hate hearing that. In this day and era, why are there still stereotyped notions that engineers have high IQ and low EQ?
+:::'''Cong:''' Ack... But that's all a load of bull. If only my poetry were half as good as my artifex skills, I wouldn't be so anxious right now.
+:::{{DIcon|Arrow}} Everyone's got their own strengths.
+::::<!--Custom String Listener: TalkSentence_502017124-->
+::::'''Cong:''' That may be true, but it doesn't fix my problem. *sigh*...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Artifex skills can also be used to write poetry.
+::::<!--Custom String Listener: TalkSentence_502017126-->
+::::'''Cong:''' ...To tell you the truth, that's what I think, too. I'm trying to find a way to do just that.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you so obsessed with writing poetry?
+:::<!--Custom String Listener: TalkSentence_502017128-->
+:::'''Cong:''' Well, it's not for her... I don't really know you, so I don't want to say too much.
+:::'''Cong:''' Anyway, I like this girl. But she doesn't like guys like me... The guys she likes use strange melodies to string together all these strange words, and they just recite them all from memory...
+:::'''Cong:''' In short... this girl loves poets. However, as you can see, I'm slightly lacking when it comes to the poetry department.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you tried any other forms of literature?
+:::<!--Custom String Listener: TalkSentence_502017132-->
+:::'''Cong:''' Yeah, I tried some Xianzhou sonnets... What do you think about this one?
+:::'''Cong:''' "Emerald mounts hold a love fledgling, but I'm way more handsome than Yanqing. So annoying, yet you make my heart sing, you pretty thing."
+:::'''Cong:''' I feel like sonnets allow me to express myself more freely, and produce a more polished result than poetry. What do you think?
+:::{{DIcon|Arrow}} Beautifully written.
+::::<!--Custom String Listener: TalkSentence_502017136-->
+::::'''Cong:''' That means we have similar taste. I showed it to my boss, but he just told me to shred it up, swallow it, and never show it to anyone ever again.
+::::'''Cong:''' He's so weird. We already have a shredder in the Artisanship Commission.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} ...this word, "Yanqing," seems a little abrupt.
+::::<!--Custom String Listener: TalkSentence_502017139-->
+::::'''Cong:''' You have such a bad understanding of poetry, and you're trying to appraise poems?
+::::'''Cong:''' I mention "Yanqing" here as a literary device. I'm saying here that I'm even more handsome, dashing, and graceful than the genius fighter...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Yeah? Why do I feel slightly disgusted?
+::::<!--Custom String Listener: TalkSentence_502017142-->
+::::'''Cong:''' ...
+::::'''Cong:''' I feel attacked, but totally acceptable. Thank you for your honesty.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I think writing poetry requires some training.
+:::<!--Custom String Listener: TalkSentence_502017145-->
+:::'''Cong:''' I know what you mean. This is just the same as developing new artifex tech. Poetry has its rules and techniques. As long as I can solve these problems, then I'll have achieved that level of training.
+:::'''Cong:''' The rules refer to the special rhythm upon which Xianzhou poetry relies. As long as all the different permutations that conform to the rhythm can be exhaustively listed out, then we can define the limits of this rule.
+:::'''Cong:''' These rules are a piece of cake, and it's the techniques that're particularly hard. But no matter who I ask, they always come back to me with "you can't talk about technique with poetry. That's not romantic." But can't technology be romantic, too?
+:::'''Cong:''' For example: "On the staff the goldsmith waves large profit obese, white paper flies stages to rescue the goose"... This is the most humanistic verse I've strung together out of the automated word-combination logarithms. I don't understand what it's trying to say, but can't you sense the elegance of technology here?
+:::'''Cong:''' As for artisans at the Artisanship Commission, failure is a required step on the road to success. I'll try some other things out once I'm prepared.
+:::'''Cong:''' I'll have to keep trying to write poetry on my own until I come up with a better way... *sigh* writing poems sure is difficult.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else to ask.
+:::<!--Custom String Listener: TalkSentence_502017152-->
+:::'''Cong:''' So long. Catch you again later.
+:::<!--Custom String Trigger: 502017103_END-->
+:::<!--Custom String Listener: 502017103_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502017103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502017201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor no longer sprouts...
+::<!--Trigger PerformanceE 502017106: Config/Level/NPCDialogue/P10202/NPCAct/Act502017106.json-->
+::'''Cong:''' Indeed, everything is finally over. By the way, I have written a poem with inspiration from the Ambrosial Arbor Crisis. Please listen...
+::'''Cong:''' Nothing is certain when it comes to the growth of the tree, just like the dry hair strands of me. Alas, the environment must be to blame!
+::'''Cong:''' I think it's quite well-written... Um, what's with your expression...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502017106-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502017201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I have nothing else to ask.
+::'''Cong:''' So long. Catch you again later.
+::<!--Ends the current performance-->
+;(Unused &mdash; ItemSelect_202090102_1)
+:<!--Custom String Listener: ItemSelect_202090102_1-->
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 202090102,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1
+		]
+	},
+	"CustomValue": 1
+}</pre>
+::'''Cong:''' Oh, that one. The Gloomy Poet. Have you found any clues about it?
+::{{DIcon|Arrow}} When you put it like that, it sounds like there are multiple poets?
+:::<!--Custom String Listener: TalkSentence_202021504-->
+:::'''Cong:''' Mmm, that's right. I made several other poets besides the gloomy one.
+:::{{DIcon|Arrow}} Y&mdash;you can't be serious about getting them all back, can you?
+:::<!--Custom String Listener: TalkSentence_202021506-->
+:::'''Cong:''' Of course I want them all back!
+::{{DIcon|Arrow}} I know where the Baroumbrella is...
+:::<!--Custom String Listener: TalkSentence_202021508-->
+:::'''Cong:''' Excellent. I never thought I'd get such a speedy reply.
+::{{DIcon|Arrow}} No clues at the moment &mdash; but I can help you out.
+:::<!--Custom String Listener: TalkSentence_202021510-->
+:::'''Cong:''' That's great! I've always wanted a good helper just like you!
+::<!--Custom String Trigger: TalkSentence_202021511-->
+::<!--Custom String Listener: TalkSentence_202021511-->
+::'''Cong:''' They say, "Gloominess is the backbone of poetry." If a poet is melancholic enough, the most beautiful poetic verse will flow out... I had such high hopes for this Gloomy Poet.
+::'''Cong:''' I set its Gloomy setting very high, and it ended up wailing for half a day at the sight of a buttonhole missing a button.
+::'''Cong:''' In the end, just like all other artistic youths, it got lost in the hustle and bustle of city life before it ever got the chance to write a decent piece... Ahem, I hope circumstances haven't forced it to have to get a job. That wouldn't be very poetic, would it?
+::{{DIcon|Arrow}} When we met, it was very sentimental.
+:::<!--Custom String Listener: TalkSentence_202021515-->
+:::'''Cong:''' Sounds like it hasn't forgotten its roots... But it's time for it to come home.
+::{{DIcon|Arrow}} It's so depressed that it can't communicate at all.
+:::<!--Custom String Listener: TalkSentence_202021517-->
+:::'''Cong:''' That's not really the case here. While being overly depressed is a serious illness for humans, for an ingenium it counts as a malfunction.
+:::'''Cong:''' That's why the Xianzhou expressly prohibits most ingenia from imitating human emotion. Emotions are not only superfluous to machines &mdash; they are dangerous.
+:::'''Cong:''' *sigh* I have my reasons for wanting it to be depressed, so I'm stuck bringing despair to this bot.
+::{{DIcon|Arrow}} Don't be so dramatic. Give it a whack and it'll be fine.
+:::<!--Custom String Listener: TalkSentence_202021521-->
+:::'''Cong:''' If you break it, then you have to pay me for labor and materials.
+::<!--Custom String Trigger: TalkSentence_202021522-->
+::<!--Custom String Listener: TalkSentence_202021522-->
+::'''Cong:''' Come on {{MC|f=miss|m=mister}}, help me out. {{Color|keyword|nobold=1|Open up its back flap, find its jade abacus core, and give it a solid repair job}}.
+::'''Cong:''' As long as you can reduce the Gloomy setting, it'll probably come back with you.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cong
+|zhs  = 小聪
+|zht  = 小聰
+|ja   = 聡
+|ko   = 총명
+|es   = Cong
+|fr   = Cong
+|ru   = Цун
+|th   = Cong
+|vi   = Cong
+|de   = Cong
+|id   = Cong
+|pt   = Cong
+}}
+==Change History==
+{{Change History|TODO}}

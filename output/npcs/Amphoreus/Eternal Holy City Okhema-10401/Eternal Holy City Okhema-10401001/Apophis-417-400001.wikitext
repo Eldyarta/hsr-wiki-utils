@@ -1,0 +1,138 @@
+<%-- [PAGE_INFO]
+PageTitle=#Apophis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Apophis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Apophis''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_417_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 803210112-->)
+:----
+::'''Apophis:''' This is going to be a headache to clean up. Please don't make it worse.
+::{{DIcon|Arrow}} Is the Black Grail a part of the collab too!?
+:::<!--Custom String Listener: TalkSentence_803216803-->
+:::'''Apophis:''' Please say something I can understand.
+::{{DIcon|Arrow}} Time for you to save up some good karma.
+:::<!--Custom String Listener: TalkSentence_803216805-->
+:::'''Apophis:''' What? I've always been a good person.
+::<!--Custom String Trigger: TalkSentence_803216806-->
+::<!--Custom String Listener: TalkSentence_803216806-->
+::'''Apophis:''' I'll leave the investigation to you.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 803210203-->)
+::<!--Trigger PerformanceD 803210203: Story/Discussion/Mission/8032102/DS803210203.json-->
+::{{tx}}
+::{{tx}}
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: ShowUI_G417-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 803210311-->)
+:----
+::'''Apophis:''' (Trailblazer), no time for chit-chat. The hopes of "Seal Slammers" rest entirely on you. You have to defeat that thief!
+::<!--Ends the current performance-->
+;(Otherwise)
+:----
+:;(If {{Mission|Seal Slammers: Championship|showChapter=0}} has been completed)
+:::'''Apophis:''' The annual Phagousa celebration, a once-in-a-lifetime water carnival! Welcome back to the baths, Champion. Even though the tournament is over, passion lives on. One more match of Seal Slammers?
+:;(If {{Mission|Seal Slammers: Championship|showChapter=0}} has not been completed)
+:::'''Apophis:''' The annual Phagousa celebration, a once-in-a-lifetime water carnival! Contestant (Trailblazer), the Seal Slammers is in full swing. Are you ready for the next match?
+::{{DIcon|Travel Log}} I love slamming stuff. I wanna slam stuff now!
+:::<!--Custom String Listener: TalkSentence_803210203-->
+:::'''Apophis:''' There we have it. Seal Slammers &mdash; begins!
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::{{DIcon|Exit}} I'm not ready yet.
+:::<!--Custom String Listener: TalkSentence_803210205-->
+:::'''Apophis:''' We'll wait for both parties to get ready. Give it your all!
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult"
+}</pre>
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.PerformanceEndSeq",
+	"Cases": [
+		{
+			"Case": 1,
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.TriggerGroupEventOnDialogEnd",
+					"EventName": {
+						"Value": "ShowUI_G417"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"OnSuccess": [
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		}
+	]
+}</pre>
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

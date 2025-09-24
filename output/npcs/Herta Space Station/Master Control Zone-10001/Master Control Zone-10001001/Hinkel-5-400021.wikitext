@@ -1,0 +1,215 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hinkel#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Head of Ecology
+|image           = NPC Hinkel.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Hinkel''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_5_400021}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 100030113,
+		"Type": "submission_state_equal",
+		"Param1": 100030113,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030113: Config/Level/Mission/1000301/Act/Act100030113.json-->
+:{{A|VO chapter0 3 staffB 101.ogg}} '''Hinkel:''' Push the stick down, Alfred... Sorry, sorry, I got the wrong person.
+:{{DIcon|Arrow}} Let me help.
+:<!--Custom String Listener: TalkSentence_100021205-->
+:{{A|VO chapter0 3 staffB 102.ogg}} '''Hinkel:''' Thanks, kid. We're doing some pre-checks for the satellite remote sensing. I'll hold down the button to monitor the signal, and you push the control stick according to my instructions.
+:{{A|VO chapter0 3 staffB 103.ogg}} '''Hinkel:''' But first let's talk about the controls. "Up" is the spectrometer, "Down" is the filter, "Left" is the reference level, and "Right" is the attenuator.
+:{{A|VO chapter0 3 staffB 104.ogg}} '''Hinkel:''' Our pre-checks have three steps. Turning on the spectrometer, then the attenuator, and finally outputting the signal to the filter.
+:{{A|VO chapter0 3 staffB 105.ogg}} '''Hinkel:''' It's quite a bit to remember... You got everything?
+:{{DIcon|Arrow}} Got it.
+:{{DIcon|Arrow}} Could you repeat that again?
+::<!--Custom String Listener: TalkSentence_100021211-->
+::{{A|VO chapter0 3 staffB 106.ogg}} '''Hinkel:''' Don't worry, I'll go over it again.
+::{{A|VO chapter0 3 staffB 107.ogg}} '''Hinkel:''' The controls are "Up" for the spectrometer, "Down" for the filter, "Left" for the reference level, and "Right" for the attenuator.
+::{{A|VO chapter0 3 staffB 108.ogg}} '''Hinkel:''' The pre-checks have three steps. Turning on the spectrometer, then the attenuator, and finally outputting the signal to the filter.
+::<!--Custom String Trigger: TalkSentence_100021210-->
+:<!--Custom String Listener: TalkSentence_100021210-->
+:{{A|VO chapter0 3 staffB 109.ogg}} '''Hinkel:''' Are you ready? Three, two, one...
+:{{DIcon|Talk}} Up, down, left
+::<!--Custom String Listener: TalkSentence_100021216-->
+::{{A|VO chapter0 3 staffB 110.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+::{{A|VO chapter0 3 staffB 111.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::<!--Custom String Trigger: TalkSentence_100021210-->
+::<!--Custom String Listener: TalkSentence_100021210-->
+::{{A|VO chapter0 3 staffB 109.ogg}} '''Hinkel:''' Are you ready? Three, two, one...
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} Down, up, right
+:::<!--Custom String Listener: TalkSentence_100021219-->
+:::{{A|VO chapter0 3 staffB 112.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+:::{{A|VO chapter0 3 staffB 113.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Up, right, down
+:::<!--Custom String Listener: TalkSentence_100021222-->
+:::{{A|VO chapter0 3 staffB 114.ogg}} '''Hinkel:''' Wonderful, thank you.
+:::{{A|VO chapter0 3 staffB 115.ogg}} '''Hinkel:''' That was very helpful of you, kid. Alfred was the researcher in charge of this &mdash; he was in the storage zone earlier... He didn't make it back.
+:::{{A|VO chapter0 3 staffB 116.ogg}} '''Hinkel:''' Abraham was close to him. I don't know how to tell him about it...
+:::{{A|VO chapter0 3 staffB 117.ogg}} '''Hinkel:''' The top priority is to preserve the space station and concentrate on the work at hand.
+:::<!--Ends the current performance-->
+:{{DIcon|Talk}} Down, up, right
+::<!--Custom String Listener: TalkSentence_100021219-->
+::{{A|VO chapter0 3 staffB 112.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+::{{A|VO chapter0 3 staffB 113.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::<!--Custom String Trigger: TalkSentence_100021210-->
+::<!--Custom String Listener: TalkSentence_100021210-->
+::{{A|VO chapter0 3 staffB 109.ogg}} '''Hinkel:''' Are you ready? Three, two, one...
+::{{DIcon|Talk}} Up, down, left
+:::<!--Custom String Listener: TalkSentence_100021216-->
+:::{{A|VO chapter0 3 staffB 110.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+:::{{A|VO chapter0 3 staffB 111.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::;(Return to previous option selection (cloneCheckString))
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} Up, right, down
+:::<!--Custom String Listener: TalkSentence_100021222-->
+:::{{A|VO chapter0 3 staffB 114.ogg}} '''Hinkel:''' Wonderful, thank you.
+:::{{A|VO chapter0 3 staffB 115.ogg}} '''Hinkel:''' That was very helpful of you, kid. Alfred was the researcher in charge of this &mdash; he was in the storage zone earlier... He didn't make it back.
+:::{{A|VO chapter0 3 staffB 116.ogg}} '''Hinkel:''' Abraham was close to him. I don't know how to tell him about it...
+:::{{A|VO chapter0 3 staffB 117.ogg}} '''Hinkel:''' The top priority is to preserve the space station and concentrate on the work at hand.
+:::<!--Ends the current performance-->
+:{{DIcon|Talk}} Up, right, down
+::<!--Custom String Listener: TalkSentence_100021222-->
+::{{A|VO chapter0 3 staffB 114.ogg}} '''Hinkel:''' Wonderful, thank you.
+::{{A|VO chapter0 3 staffB 115.ogg}} '''Hinkel:''' That was very helpful of you, kid. Alfred was the researcher in charge of this &mdash; he was in the storage zone earlier... He didn't make it back.
+::{{A|VO chapter0 3 staffB 116.ogg}} '''Hinkel:''' Abraham was close to him. I don't know how to tell him about it...
+::{{A|VO chapter0 3 staffB 117.ogg}} '''Hinkel:''' The top priority is to preserve the space station and concentrate on the work at hand.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030113_Talk-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 100030113
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030113: Config/Level/Mission/1000301/Act/Act100030113.json-->
+:{{A|VO chapter0 3 staffB 101.ogg}} '''Hinkel:''' Push the stick down, Alfred... Sorry, sorry, I got the wrong person.
+:{{DIcon|Arrow}} Let me help.
+:<!--Custom String Listener: TalkSentence_100021205-->
+:{{A|VO chapter0 3 staffB 102.ogg}} '''Hinkel:''' Thanks, kid. We're doing some pre-checks for the satellite remote sensing. I'll hold down the button to monitor the signal, and you push the control stick according to my instructions.
+:{{A|VO chapter0 3 staffB 103.ogg}} '''Hinkel:''' But first let's talk about the controls. "Up" is the spectrometer, "Down" is the filter, "Left" is the reference level, and "Right" is the attenuator.
+:{{A|VO chapter0 3 staffB 104.ogg}} '''Hinkel:''' Our pre-checks have three steps. Turning on the spectrometer, then the attenuator, and finally outputting the signal to the filter.
+:{{A|VO chapter0 3 staffB 105.ogg}} '''Hinkel:''' It's quite a bit to remember... You got everything?
+:{{DIcon|Arrow}} Got it.
+:{{DIcon|Arrow}} Could you repeat that again?
+::<!--Custom String Listener: TalkSentence_100021211-->
+::{{A|VO chapter0 3 staffB 106.ogg}} '''Hinkel:''' Don't worry, I'll go over it again.
+::{{A|VO chapter0 3 staffB 107.ogg}} '''Hinkel:''' The controls are "Up" for the spectrometer, "Down" for the filter, "Left" for the reference level, and "Right" for the attenuator.
+::{{A|VO chapter0 3 staffB 108.ogg}} '''Hinkel:''' The pre-checks have three steps. Turning on the spectrometer, then the attenuator, and finally outputting the signal to the filter.
+::<!--Custom String Trigger: TalkSentence_100021210-->
+:<!--Custom String Listener: TalkSentence_100021210-->
+:{{A|VO chapter0 3 staffB 109.ogg}} '''Hinkel:''' Are you ready? Three, two, one...
+:{{DIcon|Talk}} Up, down, left
+::<!--Custom String Listener: TalkSentence_100021216-->
+::{{A|VO chapter0 3 staffB 110.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+::{{A|VO chapter0 3 staffB 111.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::<!--Custom String Trigger: TalkSentence_100021210-->
+::<!--Custom String Listener: TalkSentence_100021210-->
+::{{A|VO chapter0 3 staffB 109.ogg}} '''Hinkel:''' Are you ready? Three, two, one...
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} Down, up, right
+:::<!--Custom String Listener: TalkSentence_100021219-->
+:::{{A|VO chapter0 3 staffB 112.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+:::{{A|VO chapter0 3 staffB 113.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Up, right, down
+:::<!--Custom String Listener: TalkSentence_100021222-->
+:::{{A|VO chapter0 3 staffB 114.ogg}} '''Hinkel:''' Wonderful, thank you.
+:::{{A|VO chapter0 3 staffB 115.ogg}} '''Hinkel:''' That was very helpful of you, kid. Alfred was the researcher in charge of this &mdash; he was in the storage zone earlier... He didn't make it back.
+:::{{A|VO chapter0 3 staffB 116.ogg}} '''Hinkel:''' Abraham was close to him. I don't know how to tell him about it...
+:::{{A|VO chapter0 3 staffB 117.ogg}} '''Hinkel:''' The top priority is to preserve the space station and concentrate on the work at hand.
+:::<!--Ends the current performance-->
+:{{DIcon|Talk}} Down, up, right
+::<!--Custom String Listener: TalkSentence_100021219-->
+::{{A|VO chapter0 3 staffB 112.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+::{{A|VO chapter0 3 staffB 113.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::<!--Custom String Trigger: TalkSentence_100021210-->
+::<!--Custom String Listener: TalkSentence_100021210-->
+::{{A|VO chapter0 3 staffB 109.ogg}} '''Hinkel:''' Are you ready? Three, two, one...
+::{{DIcon|Talk}} Up, down, left
+:::<!--Custom String Listener: TalkSentence_100021216-->
+:::{{A|VO chapter0 3 staffB 110.ogg}} '''Hinkel:''' Wrong order, kid. Let me demonstrate.
+:::{{A|VO chapter0 3 staffB 111.ogg}} '''Hinkel:''' Push the control stick up to activate the spectrometer, then right for the attenuator, and finally down for the filter.
+::;(Return to previous option selection (cloneCheckString))
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} Up, right, down
+:::<!--Custom String Listener: TalkSentence_100021222-->
+:::{{A|VO chapter0 3 staffB 114.ogg}} '''Hinkel:''' Wonderful, thank you.
+:::{{A|VO chapter0 3 staffB 115.ogg}} '''Hinkel:''' That was very helpful of you, kid. Alfred was the researcher in charge of this &mdash; he was in the storage zone earlier... He didn't make it back.
+:::{{A|VO chapter0 3 staffB 116.ogg}} '''Hinkel:''' Abraham was close to him. I don't know how to tell him about it...
+:::{{A|VO chapter0 3 staffB 117.ogg}} '''Hinkel:''' The top priority is to preserve the space station and concentrate on the work at hand.
+:::<!--Ends the current performance-->
+:{{DIcon|Talk}} Up, right, down
+::<!--Custom String Listener: TalkSentence_100021222-->
+::{{A|VO chapter0 3 staffB 114.ogg}} '''Hinkel:''' Wonderful, thank you.
+::{{A|VO chapter0 3 staffB 115.ogg}} '''Hinkel:''' That was very helpful of you, kid. Alfred was the researcher in charge of this &mdash; he was in the storage zone earlier... He didn't make it back.
+::{{A|VO chapter0 3 staffB 116.ogg}} '''Hinkel:''' Abraham was close to him. I don't know how to tell him about it...
+::{{A|VO chapter0 3 staffB 117.ogg}} '''Hinkel:''' The top priority is to preserve the space station and concentrate on the work at hand.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030113_Talk-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hinkel
+|zhs  = 辛克尔
+|zht  = 辛克爾
+|ja   = シンクル
+|ko   = 힌켈
+|es   = Hinkel
+|fr   = Hinkel
+|ru   = Хинкель
+|th   = Hinkel
+|vi   = Hinkel
+|de   = Hinkel
+|id   = Hinkel
+|pt   = Hinkel
+}}
+==Change History==
+{{Change History|TODO}}

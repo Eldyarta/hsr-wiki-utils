@@ -1,0 +1,632 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tantan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Commissioned Speed Tester
+|image           = NPC Tantan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Tantan''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_23_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 202030102,
+		"Type": "submission_state_equal",
+		"Param1": 202030102,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 202030102: Config/Level/Mission/2020301/Act/Act202030102.json-->
+:'''Tantan:''' You're the person sent by the Palace of Astrum to experience being a starskiff speed tester, aren't you?
+:'''Tantan:''' Hold this. We're starting soon.
+:{{DIcon|Arrow}} Don't I need any training?
+:<!--Custom String Listener: TalkSentence_202010104-->
+:'''Tantan:''' Stand on the bridge and hold on to the counter, then look down and count how many starskiffs go past in a set time period. Once you're done, just tell me the count.
+:{{DIcon|Arrow}} That's so easy!
+::<!--Custom String Listener: TalkSentence_202010106-->
+::'''Tantan:''' ...Are you saying that counting skiffs on the bridge is not challenging enough?
+::'''Tantan:''' Now do you know the kind of work I've been doing all this time?
+:{{DIcon|Arrow}} What a relaxing job...
+::<!--Custom String Listener: TalkSentence_202010109-->
+::'''Tantan:''' "Is your job really that boring?" "Is this what people mean by getting paid to do nothing?"
+::'''Tantan:''' You didn't say it out loud, but I know what you're thinking...
+:{{DIcon|Arrow}} This is too hard!
+::<!--Custom String Listener: TalkSentence_202010112-->
+::'''Tantan:''' ...
+::'''Tantan:''' Hearing you say that makes me feel a little better. You're not saying that just to console me, are you?
+::'''Tantan:''' Of course, you might also just be sarcastic.
+:<!--Custom String Trigger: TalkSentence_202010115-->
+:<!--Custom String Listener: TalkSentence_202010115-->
+:'''Tantan:''' Ahem. So, the position of starskiff speed tester is known by everyone in the Palace of Astrum as the bottom of the occupational pecking order. Anyone who got sent here for a one-day experience would think that this job is an insult to their intelligence and skills.
+:'''Tantan:''' Why do we need someone to supervise when we could just deploy an ingenium to measure the speed and issue a ticket?
+:'''Tantan:''' Most people are just judging the job based on first impressions. Statistics can of course be done by a machine, but when there is trouble, it is still necessary to rely on humans like us.
+:'''Tantan:''' How 'bout this, to give you an idea about how troublesome this job is, let's have a small quiz.
+:'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+:'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+:'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} That should add some challenge to the experience. What do you think?
+:'''Tantan:''' We can start once you're ready.
+:<!--Custom String Trigger: Wait_Option_202030102_36-->
+:<!--Custom String Listener: Wait_Option_202030102_36-->
+:{{DIcon|Talk}} Wait, I have some questions.
+::<!--Custom String Listener: Wait_Option_202030102_39-->
+::{{DIcon|Talk}} What are the rules again?
+:::<!--Custom String Listener: TalkSentence_202010126-->
+:::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+:::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+:::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+:::<!--Custom String Trigger: Wait_Option_202030102_39-->
+:::<!--Custom String Listener: Wait_Option_202030102_39-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What models are there?
+::::<!--Custom String Listener: TalkSentence_202010130-->
+::::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+::::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+::::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_202030102_36-->
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Let's start!
+:::::<!--Custom String Listener: Talk_202010123-->
+:::::<!--Custom String Trigger: Talk_202030102-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Wait, I'm not ready.
+:::::<!--Custom String Listener: TalkSentence_202010135-->
+:::::'''Tantan:''' No worries. We can start once you're ready.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What models are there?
+:::<!--Custom String Listener: TalkSentence_202010130-->
+:::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+:::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+:::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+:::<!--Custom String Trigger: Wait_Option_202030102_39-->
+:::<!--Custom String Listener: Wait_Option_202030102_39-->
+:::{{DIcon|Talk}} What are the rules again?
+::::<!--Custom String Listener: TalkSentence_202010126-->
+::::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+::::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+::::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_202030102_36-->
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Let's start!
+:::::<!--Custom String Listener: Talk_202010123-->
+:::::<!--Custom String Trigger: Talk_202030102-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Wait, I'm not ready.
+:::::<!--Custom String Listener: TalkSentence_202010135-->
+:::::'''Tantan:''' No worries. We can start once you're ready.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Return}} I don't have any other questions.
+:::<!--Custom String Listener: Wait_Option_202030102_36-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Let's start!
+::::<!--Custom String Listener: Talk_202010123-->
+::::<!--Custom String Trigger: Talk_202030102-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Wait, I'm not ready.
+::::<!--Custom String Listener: TalkSentence_202010135-->
+::::'''Tantan:''' No worries. We can start once you're ready.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Let's start!
+::<!--Custom String Listener: Talk_202010123-->
+::<!--Custom String Trigger: Talk_202030102-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} Wait, I'm not ready.
+::<!--Custom String Listener: TalkSentence_202010135-->
+::'''Tantan:''' No worries. We can start once you're ready.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Act202030102_Over-->
+<pre>
+[
+	{
+		"ID": 202030201,
+		"Type": "submission_state_equal",
+		"Param1": 202030201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 202030201: Config/Level/Mission/2020302/Act/Act202030201.json-->
+:'''Tantan:''' I think we can try again. The more we try, the better we can see how effective this is.
+:{{DIcon|Arrow}} No problem. Let's do it again.
+:{{DIcon|Arrow}} ...Whatever you say.
+::<!--Custom String Listener: TalkSentence_202010404-->
+::'''Tantan:''' Come on, help me one more time.
+::<!--Custom String Trigger: TalkSentence_202010405-->
+:<!--Custom String Listener: TalkSentence_202010405-->
+:'''Tantan:''' Are you ready? We'll start whenever you are.
+:<!--Custom String Trigger: Wait_Option_202030201_16-->
+:<!--Custom String Listener: Wait_Option_202030201_16-->
+:{{DIcon|Talk}} Wait, I have some questions.
+::<!--Custom String Listener: Wait_Option_202030201_19-->
+::{{DIcon|Talk}} What are the rules again?
+:::<!--Custom String Listener: TalkSentence_202010409-->
+:::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+:::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+:::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+:::<!--Custom String Trigger: Wait_Option_202030201_19-->
+:::<!--Custom String Listener: Wait_Option_202030201_19-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What models are there?
+::::<!--Custom String Listener: TalkSentence_202010413-->
+::::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+::::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+::::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_202030201_16-->
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Let's start!
+:::::<!--Custom String Listener: TalkSentence_202010406-->
+:::::<!--Custom String Trigger: Talk_202030201-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Wait, I'm not ready.
+:::::<!--Custom String Listener: TalkSentence_202010418-->
+:::::'''Tantan:''' No worries. We can start once you're ready.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What models are there?
+:::<!--Custom String Listener: TalkSentence_202010413-->
+:::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+:::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+:::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+:::<!--Custom String Trigger: Wait_Option_202030201_19-->
+:::<!--Custom String Listener: Wait_Option_202030201_19-->
+:::{{DIcon|Talk}} What are the rules again?
+::::<!--Custom String Listener: TalkSentence_202010409-->
+::::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+::::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+::::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_202030201_16-->
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Let's start!
+:::::<!--Custom String Listener: TalkSentence_202010406-->
+:::::<!--Custom String Trigger: Talk_202030201-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Wait, I'm not ready.
+:::::<!--Custom String Listener: TalkSentence_202010418-->
+:::::'''Tantan:''' No worries. We can start once you're ready.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Return}} I don't have any other questions.
+:::<!--Custom String Listener: Wait_Option_202030201_16-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Let's start!
+::::<!--Custom String Listener: TalkSentence_202010406-->
+::::<!--Custom String Trigger: Talk_202030201-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Wait, I'm not ready.
+::::<!--Custom String Listener: TalkSentence_202010418-->
+::::'''Tantan:''' No worries. We can start once you're ready.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Let's start!
+::<!--Custom String Listener: TalkSentence_202010406-->
+::<!--Custom String Trigger: Talk_202030201-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} Wait, I'm not ready.
+::<!--Custom String Listener: TalkSentence_202010418-->
+::'''Tantan:''' No worries. We can start once you're ready.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: ActOver_202030201-->
+:'''Tantan:''' I'm always ready to assuage the public's doubts. That's part of my duty as a speed tester at the Sky-Faring Commission as well. Just ask away.
+:<!--Custom String Trigger: Wait_Option_502011602_34-->
+:<!--Custom String Listener: Wait_Option_502011602_34-->
+:{{DIcon|Talk}} What do speed testers usually do?
+::<!--Custom String Listener: TalkSentence_502116103-->
+::'''Tantan:''' Mmm? Are you interested in my everyday work?
+::'''Tantan:''' My everyday job is pretty boring. I just stand here and measure the speeds of every starskiff going past. If I catch anyone speeding, I stop them and firmly educate them about the law.
+::'''Tantan:''' This job may be boring, but it's extremely important. Every year, many Xianzhou natives die a premature death due to dangerous driving &mdash; despite their natural longevity.
+::'''Tantan:''' But no matter how boring the job might be, the fulfillment alone can still be more enjoyable than just lazily sleeping in on the weekends. Wouldn't you say so?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do many people speed?
+::<!--Custom String Listener: TalkSentence_502116108-->
+::'''Tantan:''' Actually, Xianzhou natives are relatively decent at driving... ahem, no offense intended. People here can live a very long life and are relatively calm, so they don't drive too fast.
+::'''Tantan:''' But there are also some long-life species that don't obey the speed limit. They feel like they've lived for so long that nothing could possibly happen to them, so they speed like crazy in their starskiffs... resulting in rather... uh, unfortunate situations.
+::'''Tantan:''' I've been thinking &mdash; how about I give a professional lecture about traffic safety for the public?
+::'''Tantan:''' I've come up with a name for it already: ''Tantan's Tenet''! Or ''In Tandem With Tantan''. What do you think?
+::{{DIcon|Arrow}} A bit of a tongue-twister...
+:::<!--Custom String Listener: TalkSentence_502116113-->
+:::'''Tantan:''' Hmm... you're not wrong. Maybe there are other names that could roll off the tongue a little easier.
+:::<!--Custom String Trigger: TalkSentence_502116116-->
+:::<!--Custom String Listener: TalkSentence_502116116-->
+:::'''Tantan:''' Since my name's Tantan and it's a lecture about traffic safety, why don't I call it...
+:::'''Tantan:''' ''Traffic Safety with Tantan''! Ah, it's perfect. Once I get some free time, I'll report back to the Sky-Faring Commission and put in a submission for it...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Perhaps it could be a bit more straightforward?
+:::<!--Custom String Listener: TalkSentence_502116115-->
+:::'''Tantan:''' Makes sense... more straightforward... got it!
+:::<!--Custom String Trigger: TalkSentence_502116116-->
+:::<!--Custom String Listener: TalkSentence_502116116-->
+:::'''Tantan:''' Since my name's Tantan and it's a lecture about traffic safety, why don't I call it...
+:::'''Tantan:''' ''Traffic Safety with Tantan''! Ah, it's perfect. Once I get some free time, I'll report back to the Sky-Faring Commission and put in a submission for it...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you get very busy at work?
+::<!--Custom String Listener: TalkSentence_502116119-->
+::'''Tantan:''' Way too busy. It's one thing to measure every starskiff's speed, but it's another to count the number of starskiffs in rush-hour traffic. And I have to enforce the law for each case... like I am right now. It's just another thing to do. My job is never done.
+::'''Tantan:''' Sometimes, things get really complicated... like a hit-and-run during rush-hour traffic... If only I have a clone to get everything done. As much as I love this job, it's sometimes just too hard to handle.
+::'''Tantan:''' That's why I've found a few traffic volunteers to help me out here. Say, if you've got the spare time, would you like to contribute to the peace and order aboard Xianzhou? Naturally, it's just a volunteer position but I won't be sending you home empty-handed.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Does it get very dangerous?
+::<!--Custom String Listener: TalkSentence_502116123-->
+::'''Tantan:''' In law enforcement circles, my job is pretty safe. There's no violent crime, and no truly bad crooks...
+::'''Tantan:''' If there's a hit-and-run, I'll give chase in my starskiff. I guess if you call that dangerous, then that's as dangerous as it gets.
+::'''Tantan:''' Judging by your appearance, you're no ordinary citizen. Haha, I bet my sense of "danger" doesn't really sound like much to you.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I have nothing else...
+::<!--Custom String Listener: TalkSentence_502116128-->
+::'''Tantan:''' So long then~ Take care driving out there, and pay attention to the traffic! ...Oh yeah, if you do ever want to be a traffic volunteer, come find me.
+::<!--Ends the current performance-->
+:'''Tantan:''' So long then~ Take care driving out there, and pay attention to the traffic! ...Oh yeah, if you do ever want to be a traffic volunteer, come find me.
+:<!--Ends the current performance-->
+:'''Tantan:''' "Accidents only take one second to happen, but the pain can last a thousand years." Cherish life, and obey the law &mdash; Oh, it's you again.
+:'''Tantan:''' What can I do for you today? And make it snappy, please &mdash; I'm kinda busy today.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000077: Config/Level/NPC/W2/NPC_DefaultStory_502011601.json-->
+::'''Tantan:''' Citizen! Please pay attention to where you're stepping.
+::{{DIcon|Arrow}} Who are you again?
+:::<!--Custom String Listener: TalkSentence_502116003-->
+:::'''Tantan:''' The name's Tantan, and I'm a speed tester for the Sky-Faring Commission.
+:::'''Tantan:''' I'm on duty here right now, making sure no one is speeding with their starskiffs and ensuring traffic safety.
+::{{DIcon|Arrow}} What are you doing?
+:::<!--Custom String Listener: TalkSentence_502116006-->
+:::'''Tantan:''' I'm on duty here right now, making sure no one is speeding with their starskiffs and ensuring traffic safety.
+:::'''Tantan:''' Oh, I forgot to introduce myself... My name's Tantan, and I'm a speed tester for the Sky-Faring Commission.
+::<!--Custom String Trigger: TalkSentence_502116008-->
+::<!--Custom String Listener: TalkSentence_502116008-->
+::'''Tantan:''' Of all the accidents that can happen in life, traffic accidents are the most common and most deadly. So please don't let your guard down when it comes to traffic safety.
+::{{DIcon|Arrow}} Thanks for the reminder. I'll keep that in mind.
+:::<!--Custom String Listener: TalkSentence_502116010-->
+:::'''Tantan:''' It's my job. I dream that one day, Xianzhou will be free of any crashes.
+::{{DIcon|Arrow}} No worries. I'm built differently.
+:::<!--Custom String Listener: TalkSentence_502116012-->
+:::'''Tantan:''' Nonsense. You only get one chance at life, whether you're a Xianzhou native or an Outworlder. Don't waste it on such a trivial matter.
+::<!--Custom String Trigger: TalkSentence_502116013-->
+::<!--Custom String Listener: TalkSentence_502116013-->
+::'''Tantan:''' Remember: Accidents only take one second to happen, but the pain can last a thousand years. Never forget that.
+::'''Tantan:''' Huh? Is there anything else you need assistance with? If it's anything about traffic safety, feel free to ask me any time.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000078: Config/Level/NPC/W2/NPC_DefaultStory_502011604.json-->
+::'''Tantan:''' "Accidents only take one second to happen, but the pain can last a thousand years." Cherish life, and obey the law &mdash; Oh, it's you again.
+::'''Tantan:''' What can I do for you today? And make it snappy, please &mdash; I'm kinda busy today.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 202030102-->)
+:{{DIcon|undefined}} The Palace of Astrum sent me...
+::<!--Trigger PerformanceE 202030102: Config/Level/Mission/2020301/Act/Act202030102.json-->
+::'''Tantan:''' You're the person sent by the Palace of Astrum to experience being a starskiff speed tester, aren't you?
+::'''Tantan:''' Hold this. We're starting soon.
+::{{DIcon|Arrow}} Don't I need any training?
+::<!--Custom String Listener: TalkSentence_202010104-->
+::'''Tantan:''' Stand on the bridge and hold on to the counter, then look down and count how many starskiffs go past in a set time period. Once you're done, just tell me the count.
+::{{DIcon|Arrow}} That's so easy!
+:::<!--Custom String Listener: TalkSentence_202010106-->
+:::'''Tantan:''' ...Are you saying that counting skiffs on the bridge is not challenging enough?
+:::'''Tantan:''' Now do you know the kind of work I've been doing all this time?
+::{{DIcon|Arrow}} What a relaxing job...
+:::<!--Custom String Listener: TalkSentence_202010109-->
+:::'''Tantan:''' "Is your job really that boring?" "Is this what people mean by getting paid to do nothing?"
+:::'''Tantan:''' You didn't say it out loud, but I know what you're thinking...
+::{{DIcon|Arrow}} This is too hard!
+:::<!--Custom String Listener: TalkSentence_202010112-->
+:::'''Tantan:''' ...
+:::'''Tantan:''' Hearing you say that makes me feel a little better. You're not saying that just to console me, are you?
+:::'''Tantan:''' Of course, you might also just be sarcastic.
+::<!--Custom String Trigger: TalkSentence_202010115-->
+::<!--Custom String Listener: TalkSentence_202010115-->
+::'''Tantan:''' Ahem. So, the position of starskiff speed tester is known by everyone in the Palace of Astrum as the bottom of the occupational pecking order. Anyone who got sent here for a one-day experience would think that this job is an insult to their intelligence and skills.
+::'''Tantan:''' Why do we need someone to supervise when we could just deploy an ingenium to measure the speed and issue a ticket?
+::'''Tantan:''' Most people are just judging the job based on first impressions. Statistics can of course be done by a machine, but when there is trouble, it is still necessary to rely on humans like us.
+::'''Tantan:''' How 'bout this, to give you an idea about how troublesome this job is, let's have a small quiz.
+::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} That should add some challenge to the experience. What do you think?
+::'''Tantan:''' We can start once you're ready.
+::<!--Custom String Trigger: Wait_Option_202030102_36-->
+::<!--Custom String Listener: Wait_Option_202030102_36-->
+::{{DIcon|Talk}} Wait, I have some questions.
+:::<!--Custom String Listener: Wait_Option_202030102_39-->
+:::{{DIcon|Talk}} What are the rules again?
+::::<!--Custom String Listener: TalkSentence_202010126-->
+::::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+::::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+::::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+::::<!--Custom String Trigger: Wait_Option_202030102_39-->
+::::<!--Custom String Listener: Wait_Option_202030102_39-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} What models are there?
+:::::<!--Custom String Listener: TalkSentence_202010130-->
+:::::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+:::::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+:::::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I don't have any other questions.
+:::::<!--Custom String Listener: Wait_Option_202030102_36-->
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Let's start!
+::::::<!--Custom String Listener: Talk_202010123-->
+::::::<!--Custom String Trigger: Talk_202030102-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Wait, I'm not ready.
+::::::<!--Custom String Listener: TalkSentence_202010135-->
+::::::'''Tantan:''' No worries. We can start once you're ready.
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} What models are there?
+::::<!--Custom String Listener: TalkSentence_202010130-->
+::::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+::::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+::::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+::::<!--Custom String Trigger: Wait_Option_202030102_39-->
+::::<!--Custom String Listener: Wait_Option_202030102_39-->
+::::{{DIcon|Talk}} What are the rules again?
+:::::<!--Custom String Listener: TalkSentence_202010126-->
+:::::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+:::::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+:::::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Return}} I don't have any other questions.
+:::::<!--Custom String Listener: Wait_Option_202030102_36-->
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Let's start!
+::::::<!--Custom String Listener: Talk_202010123-->
+::::::<!--Custom String Trigger: Talk_202030102-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Wait, I'm not ready.
+::::::<!--Custom String Listener: TalkSentence_202010135-->
+::::::'''Tantan:''' No worries. We can start once you're ready.
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_202030102_36-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Let's start!
+:::::<!--Custom String Listener: Talk_202010123-->
+:::::<!--Custom String Trigger: Talk_202030102-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Wait, I'm not ready.
+:::::<!--Custom String Listener: TalkSentence_202010135-->
+:::::'''Tantan:''' No worries. We can start once you're ready.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Let's start!
+:::<!--Custom String Listener: Talk_202010123-->
+:::<!--Custom String Trigger: Talk_202030102-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} Wait, I'm not ready.
+:::<!--Custom String Listener: TalkSentence_202010135-->
+:::'''Tantan:''' No worries. We can start once you're ready.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Act202030102_Over-->
+;(If {{cx}}<!--SubMission Started: 202030201--> and {{cx}}<!--SubMission Started: 202030102-->)
+:{{DIcon|undefined}} Would you like to test again?
+::<!--Trigger PerformanceE 202030201: Config/Level/Mission/2020302/Act/Act202030201.json-->
+::'''Tantan:''' I think we can try again. The more we try, the better we can see how effective this is.
+::{{DIcon|Arrow}} No problem. Let's do it again.
+::{{DIcon|Arrow}} ...Whatever you say.
+:::<!--Custom String Listener: TalkSentence_202010404-->
+:::'''Tantan:''' Come on, help me one more time.
+:::<!--Custom String Trigger: TalkSentence_202010405-->
+::<!--Custom String Listener: TalkSentence_202010405-->
+::'''Tantan:''' Are you ready? We'll start whenever you are.
+::<!--Custom String Trigger: Wait_Option_202030201_16-->
+::<!--Custom String Listener: Wait_Option_202030201_16-->
+::{{DIcon|Talk}} Wait, I have some questions.
+:::<!--Custom String Listener: Wait_Option_202030201_19-->
+:::{{DIcon|Talk}} What are the rules again?
+::::<!--Custom String Listener: TalkSentence_202010409-->
+::::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+::::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+::::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+::::<!--Custom String Trigger: Wait_Option_202030201_19-->
+::::<!--Custom String Listener: Wait_Option_202030201_19-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} What models are there?
+:::::<!--Custom String Listener: TalkSentence_202010413-->
+:::::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+:::::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+:::::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I don't have any other questions.
+:::::<!--Custom String Listener: Wait_Option_202030201_16-->
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Let's start!
+::::::<!--Custom String Listener: TalkSentence_202010406-->
+::::::<!--Custom String Trigger: Talk_202030201-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Wait, I'm not ready.
+::::::<!--Custom String Listener: TalkSentence_202010418-->
+::::::'''Tantan:''' No worries. We can start once you're ready.
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} What models are there?
+::::<!--Custom String Listener: TalkSentence_202010413-->
+::::'''Tantan:''' At the moment, there are only two types of starskiffs allowed on the streets of the Starskiff Haven: {{Color|keyword|nobold=1|passenger-type and cargo-type}}.
+::::'''Tantan:''' {{Color|keyword|nobold=1|Freight starskiffs}} are differentiated by the amount of cargo they carry, and are typically colored {{Color|keyword|nobold=1|either in red or green.}}
+::::'''Tantan:''' Although {{Color|keyword|nobold=1|passenger starskiffs}} do vary, they generally come in {{Color|keyword|nobold=1|blue, green, or white.}}
+::::<!--Custom String Trigger: Wait_Option_202030201_19-->
+::::<!--Custom String Listener: Wait_Option_202030201_19-->
+::::{{DIcon|Talk}} What are the rules again?
+:::::<!--Custom String Listener: TalkSentence_202010409-->
+:::::'''Tantan:''' {{Color|keyword|nobold=1|Starskiffs of different colors and models will pass through the lanes in Starskiff Haven.}}
+:::::'''Tantan:''' {{Color|keyword|nobold=1|You will need to remember the models and colors of all starskiffs that pass by within the specified time period, and I will ask you a few questions at the end.}}
+:::::'''Tantan:''' For example, I might ask {{Color|keyword|nobold=1|"How many blue passenger starskiffs went past?"}} You will need to answer my questions according to your observation.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Return}} I don't have any other questions.
+:::::<!--Custom String Listener: Wait_Option_202030201_16-->
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Let's start!
+::::::<!--Custom String Listener: TalkSentence_202010406-->
+::::::<!--Custom String Trigger: Talk_202030201-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Exit}} Wait, I'm not ready.
+::::::<!--Custom String Listener: TalkSentence_202010418-->
+::::::'''Tantan:''' No worries. We can start once you're ready.
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_202030201_16-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Let's start!
+:::::<!--Custom String Listener: TalkSentence_202010406-->
+:::::<!--Custom String Trigger: Talk_202030201-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} Wait, I'm not ready.
+:::::<!--Custom String Listener: TalkSentence_202010418-->
+:::::'''Tantan:''' No worries. We can start once you're ready.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Let's start!
+:::<!--Custom String Listener: TalkSentence_202010406-->
+:::<!--Custom String Trigger: Talk_202030201-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} Wait, I'm not ready.
+:::<!--Custom String Listener: TalkSentence_202010418-->
+:::'''Tantan:''' No worries. We can start once you're ready.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: ActOver_202030201-->
+;(If {{cx}}<!--SubMission Started: 202030201--> and {{cx}}<!--SubMission Started: 202030102-->)
+:{{DIcon}} There's something else I want to ask.
+::'''Tantan:''' I'm always ready to assuage the public's doubts. That's part of my duty as a speed tester at the Sky-Faring Commission as well. Just ask away.
+::<!--Custom String Trigger: Wait_Option_502011602_34-->
+::<!--Custom String Listener: Wait_Option_502011602_34-->
+::{{DIcon|Talk}} What do speed testers usually do?
+:::<!--Custom String Listener: TalkSentence_502116103-->
+:::'''Tantan:''' Mmm? Are you interested in my everyday work?
+:::'''Tantan:''' My everyday job is pretty boring. I just stand here and measure the speeds of every starskiff going past. If I catch anyone speeding, I stop them and firmly educate them about the law.
+:::'''Tantan:''' This job may be boring, but it's extremely important. Every year, many Xianzhou natives die a premature death due to dangerous driving &mdash; despite their natural longevity.
+:::'''Tantan:''' But no matter how boring the job might be, the fulfillment alone can still be more enjoyable than just lazily sleeping in on the weekends. Wouldn't you say so?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do many people speed?
+:::<!--Custom String Listener: TalkSentence_502116108-->
+:::'''Tantan:''' Actually, Xianzhou natives are relatively decent at driving... ahem, no offense intended. People here can live a very long life and are relatively calm, so they don't drive too fast.
+:::'''Tantan:''' But there are also some long-life species that don't obey the speed limit. They feel like they've lived for so long that nothing could possibly happen to them, so they speed like crazy in their starskiffs... resulting in rather... uh, unfortunate situations.
+:::'''Tantan:''' I've been thinking &mdash; how about I give a professional lecture about traffic safety for the public?
+:::'''Tantan:''' I've come up with a name for it already: ''Tantan's Tenet''! Or ''In Tandem With Tantan''. What do you think?
+:::{{DIcon|Arrow}} A bit of a tongue-twister...
+::::<!--Custom String Listener: TalkSentence_502116113-->
+::::'''Tantan:''' Hmm... you're not wrong. Maybe there are other names that could roll off the tongue a little easier.
+::::<!--Custom String Trigger: TalkSentence_502116116-->
+::::<!--Custom String Listener: TalkSentence_502116116-->
+::::'''Tantan:''' Since my name's Tantan and it's a lecture about traffic safety, why don't I call it...
+::::'''Tantan:''' ''Traffic Safety with Tantan''! Ah, it's perfect. Once I get some free time, I'll report back to the Sky-Faring Commission and put in a submission for it...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Perhaps it could be a bit more straightforward?
+::::<!--Custom String Listener: TalkSentence_502116115-->
+::::'''Tantan:''' Makes sense... more straightforward... got it!
+::::<!--Custom String Trigger: TalkSentence_502116116-->
+::::<!--Custom String Listener: TalkSentence_502116116-->
+::::'''Tantan:''' Since my name's Tantan and it's a lecture about traffic safety, why don't I call it...
+::::'''Tantan:''' ''Traffic Safety with Tantan''! Ah, it's perfect. Once I get some free time, I'll report back to the Sky-Faring Commission and put in a submission for it...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you get very busy at work?
+:::<!--Custom String Listener: TalkSentence_502116119-->
+:::'''Tantan:''' Way too busy. It's one thing to measure every starskiff's speed, but it's another to count the number of starskiffs in rush-hour traffic. And I have to enforce the law for each case... like I am right now. It's just another thing to do. My job is never done.
+:::'''Tantan:''' Sometimes, things get really complicated... like a hit-and-run during rush-hour traffic... If only I have a clone to get everything done. As much as I love this job, it's sometimes just too hard to handle.
+:::'''Tantan:''' That's why I've found a few traffic volunteers to help me out here. Say, if you've got the spare time, would you like to contribute to the peace and order aboard Xianzhou? Naturally, it's just a volunteer position but I won't be sending you home empty-handed.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Does it get very dangerous?
+:::<!--Custom String Listener: TalkSentence_502116123-->
+:::'''Tantan:''' In law enforcement circles, my job is pretty safe. There's no violent crime, and no truly bad crooks...
+:::'''Tantan:''' If there's a hit-and-run, I'll give chase in my starskiff. I guess if you call that dangerous, then that's as dangerous as it gets.
+:::'''Tantan:''' Judging by your appearance, you're no ordinary citizen. Haha, I bet my sense of "danger" doesn't really sound like much to you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else...
+:::<!--Custom String Listener: TalkSentence_502116128-->
+:::'''Tantan:''' So long then~ Take care driving out there, and pay attention to the traffic! ...Oh yeah, if you do ever want to be a traffic volunteer, come find me.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 202030201--> and {{cx}}<!--SubMission Started: 202030102-->)
+:{{DIcon|Exit}} I have nothing else...
+::'''Tantan:''' So long then~ Take care driving out there, and pay attention to the traffic! ...Oh yeah, if you do ever want to be a traffic volunteer, come find me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tantan
+|zhs  = 檀檀
+|zht  = 檀檀
+|ja   = 檀
+|ko   = 단단
+|es   = Tantan
+|fr   = Tantan
+|ru   = Таньтань
+|th   = Tantan
+|vi   = Tantan
+|de   = Tantan
+|id   = Tantan
+|pt   = Tantan
+}}
+==Change History==
+{{Change History|TODO}}

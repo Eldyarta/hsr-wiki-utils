@@ -1,0 +1,1322 @@
+<%-- [PAGE_INFO]
+PageTitle=#Alina#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Little Charmer
+|image           = NPC Alina.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Alina''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_81_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301042301,
+		"Type": "submission_state_equal",
+		"Param1": 301042301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301042301: Config/Level/Mission/3010423/Act/Act301042301.json-->
+:<!--Custom String Trigger: TalkSentence_301043102-->
+:<!--Custom String Listener: TalkSentence_301043102-->
+:'''Alina:''' Wow, did you come here for this? I am so happy.
+:'''Alina:''' Yeah, something did happen. Recently a strange rumor has been circulating in the clinic that "If you write your wish on a piece of paper and let a pigeon carry it to the sky, your wish will be conveyed to Alina..."
+:'''Alina:''' Don't you find this strange? They can just come to me directly. Why bother doing all that?
+:'''Alina:''' As a result, there are now pieces of paper flying around the streets everywhere. Of course I am happy to get so many letters, but I'm also worried that this may become a problem for others.
+:'''Alina:''' I don't want people to be punished. Can you please find that pigeon before Natasha finds out?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301042301-->
+<pre>
+[
+	{
+		"ID": 301042303,
+		"Type": "submission_state_equal",
+		"Param1": 301042303,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301042303: Config/Level/Mission/3010423/Act/Act301042303.json-->
+:<!--Custom String Trigger: TalkSentence_301043502-->
+:<!--Custom String Listener: TalkSentence_301043502-->
+:'''Alina:''' You didn't find the pigeon, but you found a strange paper ball? Let me see... is this...
+:'''Alina:''' ...
+:'''Alina:''' I see. I think I have an idea what the "pigeon" is now. {{MC|m=Sir|f=Ma'am}}, can you find more paper balls like this for me? I think there are three more.
+:'''Alina:''' As for what's written on it... Well, I think I better keep this a secret for Julian.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301042303-->
+<pre>
+[
+	{
+		"ID": 301042308,
+		"Type": "submission_state_equal",
+		"Param1": 301042308,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301042308: Config/Level/Mission/3010423/Act/Act301042308.json-->
+:<!--Custom String Trigger: TalkSentence_301043802-->
+:<!--Custom String Listener: TalkSentence_301043802-->
+:'''Alina:''' So, you've found all the other paper balls? Please show them to me.
+:'''Alina:''' Let me see. There's one from Eric, one from Romeo, now this one, plus the previous one from Julian... We've got everyone's "letters" here.
+:'''Alina:''' So "let a pigeon carry it to the sky" just means "crumple up a paper ball and throw it into the air." Come on, can't they at least fold a paper airplane?
+:'''Alina:''' This way, no one will get in trouble with Natasha. Thank you, you are the best!
+:'''Alina:''' You mean how am I going to deal with all these paper balls? Hehe, just leave them to me... Of course I'm going to treasure their wishes.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301042308-->
+:<!--Custom String Trigger: Wait_Option_5010279_25-->
+:<!--Custom String Listener: Wait_Option_5010279_25-->
+:{{DIcon|Talk}} Are you expecting a gift?
+::<!--Custom String Listener: TalkSentence_501027914-->
+::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::<!--Custom String Listener: Wait_Option_5010279_28-->
+::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501027916-->
+:::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::<!--Custom String Trigger: TalkSentence_501027919-->
+:::<!--Custom String Listener: TalkSentence_501027919-->
+:::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::'''Alina:''' I just hope everyone can get along...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::<!--Custom String Listener: TalkSentence_501027918-->
+:::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::<!--Custom String Trigger: TalkSentence_501027919-->
+:::<!--Custom String Listener: TalkSentence_501027919-->
+:::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::'''Alina:''' I just hope everyone can get along...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::<!--Custom String Listener: TalkSentence_501027923-->
+::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::<!--Custom String Listener: Wait_Option_5010279_39-->
+::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::<!--Custom String Listener: TalkSentence_501027925-->
+::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::<!--Custom String Listener: Wait_Option_5010279_44-->
+::{{DIcon|Arrow}} I feel...
+::{{DIcon|Arrow}} She is referring to something else...
+::<!--Custom String Listener: TalkSentence_501027929-->
+::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} People must like you a lot, Alina.
+::<!--Custom String Listener: TalkSentence_501027931-->
+::'''Alina:''' Not really... Hehe...
+::'''Alina:''' You just made my day! Thank you!
+::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::<!--Custom String Listener: Wait_Option_5010279_53-->
+::{{DIcon|Arrow}} Why?
+::<!--Custom String Listener: TalkSentence_501027935-->
+::'''Alina:''' ... Hmm...
+::'''Alina:''' I'm not sure why.
+::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I've got to go.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100006205,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Alina:''' Mmm? Are you asking me if I've gotten any nice gifts recently? Well... Recently, there's been a big bag of snow-white popping candy, and also a cute fluffy bunny rabbit!
+:'''Alina:''' Oh yeah, I also heard from my parents that we'll be able to go to the Overworld soon... I can't wait~
+:{{DIcon|Arrow}} Hope you enjoy yourself!
+::<!--Custom String Listener: TalkSentence_501024185-->
+::'''Alina:''' Thank you, {{MC|f=ma'am|m=sir}}.
+:{{DIcon|Arrow}} Alina, you must love the Overworld, right?
+::<!--Custom String Listener: TalkSentence_501024187-->
+::'''Alina:''' Course I do! The kids in the Overworld all wear beautiful clothes, and they all get pretty little gifts.
+:<!--Custom String Trigger: TalkSentence_501024189-->
+:<!--Custom String Listener: TalkSentence_501024189-->
+:'''Alina:''' My parents told me that they used to live up there until they were "bankrupted" and we had to move down here. If I get the chance, I'm definitely gonna try and go back up there to the Overworld.
+:'''Alina:''' When I go to the Overworld... I'm gonna ask the Mole kids if they wanna come with me. 'Cos it's boring just playing by yourself.
+:'''Alina:''' ...I don't need to ask Julian. He'll definitely come with me, heehee.
+:<!--Ends the current performance-->
+:'''Alina:''' It's you again!
+:'''Alina:''' Are you here to see me? I'm so happy!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Alina:''' Bye bye!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501027901: Config/Level/Mission/5010279/Act/Act501027901.json-->
+::<!--Custom String Trigger: TalkSentence_501027901-->
+::<!--Custom String Listener: TalkSentence_501027901-->
+::'''Alina:''' Huh? Oh, I can't take your gift!
+::'''Alina:''' But if you really, really want... I guess I can take it... but I don't wanna...
+::<!--Custom String Trigger: Wait_Option_5010279_9-->
+::<!--Custom String Listener: Wait_Option_5010279_9-->
+::{{DIcon|Arrow}} ...Huh?
+::<!--Custom String Listener: TalkSentence_501027904-->
+::'''Alina:''' Oh, so you didn't bring a gift...
+::'''Alina:''' So... what are you here for? I'm really busy. Please don't take too much of my time.
+::<!--Custom String Trigger: Wait_Option_5010279_14-->
+::<!--Custom String Listener: Wait_Option_5010279_14-->
+::{{DIcon|Arrow}} I'm just taking a stroll...
+:::<!--Custom String Listener: TalkSentence_501027907-->
+::{{DIcon|Arrow}} Nothing really...
+:::<!--Custom String Listener: TalkSentence_501027909-->
+::'''Alina:''' Hmm? I see...
+::<!--Custom String Trigger: TalkSentence_501027910-->
+::<!--Custom String Listener: TalkSentence_501027910-->
+::'''Alina:''' It's okay. Alina thinks you are sooo cute... I like being friends with cute people!
+::'''Alina:''' It's really nice to meet you!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000050: Config/Level/NPC/W1/NPC_DefaultStory_100006201.json-->
+::'''Alina:''' It's you again!
+::'''Alina:''' Are you here to see me? I'm so happy!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301042301-->)
+:{{DIcon|undefined}} I hear you need help.
+::<!--Trigger PerformanceE 301042301: Config/Level/Mission/3010423/Act/Act301042301.json-->
+::<!--Custom String Trigger: TalkSentence_301043102-->
+::<!--Custom String Listener: TalkSentence_301043102-->
+::'''Alina:''' Wow, did you come here for this? I am so happy.
+::'''Alina:''' Yeah, something did happen. Recently a strange rumor has been circulating in the clinic that "If you write your wish on a piece of paper and let a pigeon carry it to the sky, your wish will be conveyed to Alina..."
+::'''Alina:''' Don't you find this strange? They can just come to me directly. Why bother doing all that?
+::'''Alina:''' As a result, there are now pieces of paper flying around the streets everywhere. Of course I am happy to get so many letters, but I'm also worried that this may become a problem for others.
+::'''Alina:''' I don't want people to be punished. Can you please find that pigeon before Natasha finds out?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042301-->
+;(If {{cx}}<!--SubMission Started: 301042303--> and {{cx}}<!--SubMission Started: 301042301-->)
+:{{DIcon|undefined}} I found this.
+::<!--Trigger PerformanceE 301042303: Config/Level/Mission/3010423/Act/Act301042303.json-->
+::<!--Custom String Trigger: TalkSentence_301043502-->
+::<!--Custom String Listener: TalkSentence_301043502-->
+::'''Alina:''' You didn't find the pigeon, but you found a strange paper ball? Let me see... is this...
+::'''Alina:''' ...
+::'''Alina:''' I see. I think I have an idea what the "pigeon" is now. {{MC|m=Sir|f=Ma'am}}, can you find more paper balls like this for me? I think there are three more.
+::'''Alina:''' As for what's written on it... Well, I think I better keep this a secret for Julian.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042303-->
+;(If {{cx}}<!--SubMission Started: 301042308-->, {{cx}}<!--SubMission Started: 301042303-->, and {{cx}}<!--SubMission Started: 301042301-->)
+:{{DIcon|undefined}} Are these enough?
+::<!--Trigger PerformanceE 301042308: Config/Level/Mission/3010423/Act/Act301042308.json-->
+::<!--Custom String Trigger: TalkSentence_301043802-->
+::<!--Custom String Listener: TalkSentence_301043802-->
+::'''Alina:''' So, you've found all the other paper balls? Please show them to me.
+::'''Alina:''' Let me see. There's one from Eric, one from Romeo, now this one, plus the previous one from Julian... We've got everyone's "letters" here.
+::'''Alina:''' So "let a pigeon carry it to the sky" just means "crumple up a paper ball and throw it into the air." Come on, can't they at least fold a paper airplane?
+::'''Alina:''' This way, no one will get in trouble with Natasha. Thank you, you are the best!
+::'''Alina:''' You mean how am I going to deal with all these paper balls? Hehe, just leave them to me... Of course I'm going to treasure their wishes.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042308-->
+;(If {{cx}}<!--SubMission Started: 301042308-->, {{cx}}<!--SubMission Started: 301042303-->, and {{cx}}<!--SubMission Started: 301042301-->)
+:{{DIcon}} Let's get to know each other...
+::<!--Custom String Trigger: Wait_Option_5010279_25-->
+::<!--Custom String Listener: Wait_Option_5010279_25-->
+::{{DIcon|Talk}} Are you expecting a gift?
+:::<!--Custom String Listener: TalkSentence_501027914-->
+:::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+:::<!--Custom String Trigger: Wait_Option_5010279_28-->
+:::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027916-->
+::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+::::<!--Custom String Trigger: TalkSentence_501027919-->
+::::<!--Custom String Listener: TalkSentence_501027919-->
+::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+::::'''Alina:''' I just hope everyone can get along...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What kind of gifts do they give you?
+::::<!--Custom String Listener: TalkSentence_501027918-->
+::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+::::<!--Custom String Trigger: TalkSentence_501027919-->
+::::<!--Custom String Listener: TalkSentence_501027919-->
+::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+::::'''Alina:''' I just hope everyone can get along...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+:::<!--Custom String Listener: TalkSentence_501027923-->
+:::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+:::<!--Custom String Trigger: Wait_Option_5010279_39-->
+:::<!--Custom String Listener: Wait_Option_5010279_39-->
+:::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+:::<!--Custom String Listener: TalkSentence_501027925-->
+:::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+:::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+:::<!--Custom String Trigger: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} People must like you a lot, Alina.
+:::<!--Custom String Listener: TalkSentence_501027931-->
+:::'''Alina:''' Not really... Hehe...
+:::'''Alina:''' You just made my day! Thank you!
+:::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+:::<!--Custom String Trigger: Wait_Option_5010279_53-->
+:::<!--Custom String Listener: Wait_Option_5010279_53-->
+:::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501027935-->
+:::'''Alina:''' ... Hmm...
+:::'''Alina:''' I'm not sure why.
+:::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+:::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+:::'''Alina:''' I think... maybe that's why they don't want to play with me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301042308-->, {{cx}}<!--SubMission Started: 301042303-->, and {{cx}}<!--SubMission Started: 301042301-->)
+:{{DIcon}} How have things been?
+::'''Alina:''' Mmm? Are you asking me if I've gotten any nice gifts recently? Well... Recently, there's been a big bag of snow-white popping candy, and also a cute fluffy bunny rabbit!
+::'''Alina:''' Oh yeah, I also heard from my parents that we'll be able to go to the Overworld soon... I can't wait~
+::{{DIcon|Arrow}} Hope you enjoy yourself!
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Alina:''' Thank you, {{MC|f=ma'am|m=sir}}.
+::{{DIcon|Arrow}} Alina, you must love the Overworld, right?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Alina:''' Course I do! The kids in the Overworld all wear beautiful clothes, and they all get pretty little gifts.
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Alina:''' My parents told me that they used to live up there until they were "bankrupted" and we had to move down here. If I get the chance, I'm definitely gonna try and go back up there to the Overworld.
+::'''Alina:''' When I go to the Overworld... I'm gonna ask the Mole kids if they wanna come with me. 'Cos it's boring just playing by yourself.
+::'''Alina:''' ...I don't need to ask Julian. He'll definitely come with me, heehee.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301042308-->, {{cx}}<!--SubMission Started: 301042303-->, and {{cx}}<!--SubMission Started: 301042301-->)
+:{{DIcon|Exit}} See you.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Alina:''' Bye bye!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010279_22)
+:<!--Custom String Listener: Wait_Option_5010279_22-->
+::{{DIcon|Arrow}} Let's get to know each other...
+::<!--Custom String Listener: Wait_Option_5010279_25-->
+::<!--Custom String Listener: Wait_Option_5010279_25-->
+::{{DIcon|Talk}} Are you expecting a gift?
+:::<!--Custom String Listener: TalkSentence_501027914-->
+:::<!--Custom String Listener: TalkSentence_501027914-->
+:::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+:::<!--Custom String Trigger: Wait_Option_5010279_28-->
+:::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027916-->
+::::<!--Custom String Listener: TalkSentence_501027916-->
+::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::{{DIcon|Arrow}} What kind of gifts do they give you?
+::::<!--Custom String Listener: TalkSentence_501027918-->
+::::<!--Custom String Listener: TalkSentence_501027918-->
+::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::<!--Custom String Trigger: TalkSentence_501027919-->
+:::<!--Custom String Listener: TalkSentence_501027919-->
+:::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::'''Alina:''' I just hope everyone can get along...
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027916-->
+::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::{{DIcon|Arrow}} What kind of gifts do they give you?
+::::<!--Custom String Listener: TalkSentence_501027918-->
+::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::<!--Custom String Trigger: TalkSentence_501027919-->
+:::<!--Custom String Listener: TalkSentence_501027919-->
+:::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::'''Alina:''' I just hope everyone can get along...
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+:::<!--Custom String Trigger: Wait_Option_5010279_28-->
+:::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027916-->
+::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::{{DIcon|Arrow}} What kind of gifts do they give you?
+::::<!--Custom String Listener: TalkSentence_501027918-->
+::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::<!--Custom String Trigger: TalkSentence_501027919-->
+:::<!--Custom String Listener: TalkSentence_501027919-->
+:::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::'''Alina:''' I just hope everyone can get along...
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+:::<!--Custom String Listener: TalkSentence_501027923-->
+:::<!--Custom String Listener: TalkSentence_501027923-->
+:::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+:::<!--Custom String Trigger: Wait_Option_5010279_39-->
+:::<!--Custom String Listener: Wait_Option_5010279_39-->
+:::<!--Custom String Listener: Wait_Option_5010279_39-->
+:::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+:::<!--Custom String Listener: TalkSentence_501027925-->
+:::<!--Custom String Listener: TalkSentence_501027925-->
+:::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+:::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+:::<!--Custom String Trigger: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+:::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+:::<!--Custom String Trigger: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+:::<!--Custom String Listener: TalkSentence_501027925-->
+:::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+:::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+:::<!--Custom String Trigger: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+:::<!--Custom String Trigger: Wait_Option_5010279_39-->
+:::<!--Custom String Listener: Wait_Option_5010279_39-->
+:::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+:::<!--Custom String Listener: TalkSentence_501027925-->
+:::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+:::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+:::<!--Custom String Trigger: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} People must like you a lot, Alina.
+:::<!--Custom String Listener: TalkSentence_501027931-->
+:::<!--Custom String Listener: TalkSentence_501027931-->
+:::'''Alina:''' Not really... Hehe...
+:::'''Alina:''' You just made my day! Thank you!
+:::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+:::<!--Custom String Trigger: Wait_Option_5010279_53-->
+:::<!--Custom String Listener: Wait_Option_5010279_53-->
+:::<!--Custom String Listener: Wait_Option_5010279_53-->
+:::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501027935-->
+:::<!--Custom String Listener: TalkSentence_501027935-->
+:::'''Alina:''' ... Hmm...
+:::'''Alina:''' I'm not sure why.
+:::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+:::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+:::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Alina:''' ... Hmm...
+:::'''Alina:''' I'm not sure why.
+:::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+:::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+:::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501027935-->
+:::'''Alina:''' ... Hmm...
+:::'''Alina:''' I'm not sure why.
+:::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+:::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+:::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Alina:''' Not really... Hehe...
+:::'''Alina:''' You just made my day! Thank you!
+:::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+:::<!--Custom String Trigger: Wait_Option_5010279_53-->
+:::<!--Custom String Listener: Wait_Option_5010279_53-->
+:::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501027935-->
+:::'''Alina:''' ... Hmm...
+:::'''Alina:''' I'm not sure why.
+:::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+:::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+:::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Are you expecting a gift?
+:::<!--Custom String Listener: TalkSentence_501027914-->
+:::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+:::<!--Custom String Trigger: Wait_Option_5010279_28-->
+:::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027916-->
+::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::{{DIcon|Arrow}} What kind of gifts do they give you?
+::::<!--Custom String Listener: TalkSentence_501027918-->
+::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::<!--Custom String Trigger: TalkSentence_501027919-->
+:::<!--Custom String Listener: TalkSentence_501027919-->
+:::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::'''Alina:''' I just hope everyone can get along...
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+:::<!--Custom String Listener: TalkSentence_501027923-->
+:::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+:::<!--Custom String Trigger: Wait_Option_5010279_39-->
+:::<!--Custom String Listener: Wait_Option_5010279_39-->
+:::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+:::<!--Custom String Listener: TalkSentence_501027925-->
+:::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+:::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+:::<!--Custom String Trigger: Wait_Option_5010279_44-->
+:::<!--Custom String Listener: Wait_Option_5010279_44-->
+:::{{DIcon|Arrow}} I feel...
+:::{{DIcon|Arrow}} She is referring to something else...
+:::<!--Custom String Listener: TalkSentence_501027929-->
+:::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+::::{{DIcon|Arrow}} Why?
+:::::<!--Custom String Listener: TalkSentence_501027916-->
+:::::'''Alina:''' Well... I don't know. Maybe they are just nice.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} People must like you a lot, Alina.
+::::<!--Custom String Listener: TalkSentence_501027931-->
+::::'''Alina:''' Not really... Hehe...
+::::'''Alina:''' You just made my day! Thank you!
+::::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+::::<!--Custom String Trigger: Wait_Option_5010279_53-->
+::::<!--Custom String Listener: Wait_Option_5010279_53-->
+::::{{DIcon|Arrow}} Why?
+::::<!--Custom String Listener: TalkSentence_501027935-->
+::::'''Alina:''' ... Hmm...
+::::'''Alina:''' I'm not sure why.
+::::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+::::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+::::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} People must like you a lot, Alina.
+:::<!--Custom String Listener: TalkSentence_501027931-->
+:::'''Alina:''' Not really... Hehe...
+:::'''Alina:''' You just made my day! Thank you!
+:::'''Alina:''' Actually, some kids in the clinic don't want to play with me...
+:::<!--Custom String Trigger: Wait_Option_5010279_53-->
+:::<!--Custom String Listener: Wait_Option_5010279_53-->
+:::{{DIcon|Arrow}} Why?
+:::<!--Custom String Listener: TalkSentence_501027935-->
+:::'''Alina:''' ... Hmm...
+:::'''Alina:''' I'm not sure why.
+:::'''Alina:''' A lot of kids in the clinic don't have moms and dads, but my mom and dad come to see me sometimes...
+:::'''Alina:''' When my mom and dad are here to pick me up, those kids always hide far away. They don't want other people to see them...
+:::'''Alina:''' I think... maybe that's why they don't want to play with me.
+:::<!--Custom String Trigger: Wait_Option_5010279_25-->
+:::<!--Custom String Listener: Wait_Option_5010279_25-->
+:::{{DIcon|Talk}} Are you expecting a gift?
+::::<!--Custom String Listener: TalkSentence_501027914-->
+::::'''Alina:''' You didn't know? The kids in the clinic give me gifts every day.
+::::<!--Custom String Trigger: Wait_Option_5010279_28-->
+::::<!--Custom String Listener: Wait_Option_5010279_28-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What kind of gifts do they give you?
+:::::<!--Custom String Listener: TalkSentence_501027918-->
+:::::'''Alina:''' All kinds of things. Hehe... my favorite is the plush toys.
+:::::<!--Custom String Trigger: TalkSentence_501027919-->
+:::::<!--Custom String Listener: TalkSentence_501027919-->
+:::::'''Alina:''' I'm happy to get gifts but sometimes there are too many, and I feel pressured... It's not nice to say no to gifts, so I accept them all.
+:::::'''Alina:''' You know what? Sometimes kids even fight over giving me gifts...
+:::::'''Alina:''' I just hope everyone can get along...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do they give you gifts... What are they up to?
+::::<!--Custom String Listener: TalkSentence_501027923-->
+::::'''Alina:''' Hey! What are you asking me that for?... Don't be a jerk!
+::::<!--Custom String Trigger: Wait_Option_5010279_39-->
+::::<!--Custom String Listener: Wait_Option_5010279_39-->
+::::{{DIcon|Arrow}} Why am I a jerk all of a sudden...?
+::::<!--Custom String Listener: TalkSentence_501027925-->
+::::'''Alina:''' They just want to... A lot of kids want to give me things and tell me they like me...
+::::'''Alina:''' Grown-ups call that "pursuing someone," but I don't really understand...
+::::<!--Custom String Trigger: Wait_Option_5010279_44-->
+::::<!--Custom String Listener: Wait_Option_5010279_44-->
+::::{{DIcon|Arrow}} I feel...
+::::{{DIcon|Arrow}} She is referring to something else...
+::::<!--Custom String Listener: TalkSentence_501027929-->
+::::'''Alina:''' Sorry, what did you say? You can tell me if you have any problems.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I've got to go.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Little Girl
+|zhs  = 小女孩
+|zht  = 小女孩
+|ja   = 女の子
+|ko   = 여자아이
+|es   = Niña
+|fr   = Petite fille
+|ru   = Девочка
+|th   = เด็กผู้หญิง
+|vi   = Bé Gái
+|de   = Kleines Mädchen
+|id   = Anak Perempuan
+|pt   = Menina
+}}
+==Change History==
+{{Change History|TODO}}

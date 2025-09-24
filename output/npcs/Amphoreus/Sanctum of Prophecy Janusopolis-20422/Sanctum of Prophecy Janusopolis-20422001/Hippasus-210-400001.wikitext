@@ -1,0 +1,124 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hippasus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Pilgrim
+|image           = NPC Hippasus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Hippasus''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_210_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504050001: Config/Level/Mission/5040500/Act/Act504050001.json-->
+::'''Hippasus:''' Janusopolis... It's really what you'd expect from the heart of Amphoreus. Being able to make it here, I feel like my life has been worth something.
+::{{DIcon|Arrow}} The view really is beautiful.
+:::<!--Custom String Listener: TalkSentence_504050003-->
+:::'''Hippasus:''' It sure is. Although, my visit here has far more meaning than the average man's.
+::{{DIcon|Arrow}} The view looks pretty average to me?
+:::<!--Custom String Listener: TalkSentence_504050005-->
+:::'''Hippasus:''' Haha, you're not wrong, young one. Though the city of Janus is majestic, it is also a place where people live their normal daily lives, no different to Okhema or Aidonia. However, in my eyes...
+::<!--Custom String Trigger: TalkSentence_504050006-->
+::<!--Custom String Listener: TalkSentence_504050006-->
+::'''Hippasus:''' ...Now that I have traveled all of Amphoreus and arrived at its center, I have completed the final pilgrimage of my life. The meaning this place holds to me far exceeds the picturesque sights of the holy city.
+::'''Hippasus:''' Legend has it that during the Era Chrysea a thousand years ago, the three Calamity Titans had not yet descended on this world. Back then, people could travel to the ends of the earth with ease and personally witness the miracles of the {{Rubi|Gate of Infinity|Passage Titan}} within the endless ocean.
+::'''Hippasus:''' Unfortunately, the Strife of the Titans broke out and the black tide was born... People were no longer able to make pilgrimages to the {{Rubi|Janus|Passage Titan}} at the end of the earth. Their only way to express their reverence was to journey to this city.
+::'''Hippasus:''' I am a stubborn old man, and I want to follow in the footsteps of my ancestors in the Era Chrysea and visit every corner of the known world... Fortunately, the Gods showed me mercy and protected me from harm along the way. Youngster, if you are interested, I can tell you the differences between the pilgrimages of today and ancient times.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504050002: Config/Level/Mission/5040500/Act/Act504050002.json-->
+::'''Hippasus:''' Youngster, if you are interested, I can tell you the differences between the pilgrimages of today and ancient times.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Alright, I'm down to learn.
+::'''Hippasus:''' Perfect. Although, I am no priest, all I can tell you is things I have learned along my travels.
+::'''Hippasus:''' The pilgrimage of the Era Chrysea, the significance of the City of Janus, the legend of the Gates of Janus... I'd say that's all I can really tell you about.
+::<!--Custom String Trigger: Wait_Option_504050003_34-->
+::<!--Custom String Listener: Wait_Option_504050003_34-->
+::{{DIcon|Talk}} Tell me about the pilgrimages of the Era Chrysea.
+:::<!--Custom String Listener: TalkSentence_504050205-->
+:::'''Hippasus:''' Back in the Era Chrysea, travelling was extremely safe as there was no black tide or war. In order to show their reverence to the Titans, people would often make pilgrimages to certain locations where Titans would perform miracles.
+:::'''Hippasus:''' Let me take Janusopolis as an example: This is the center of the earth as defined by {{Rubi|Janus|Passage Titan}} using the divine power of the Gate of Infinity... If you travel in any direction from here, the distance to the end of the world is almost the same.
+:::'''Hippasus:''' So, in the Era Chrysea, people would not conduct their pilgrimages from all directions to arrive here. On the contrary, they would start their pilgrimages from here and try their best to make it to the end of the world to personally pass through the gates that Janus themself had set there.
+:::'''Hippasus:''' Unfortunately, in modern times, people are completely encircled by the black tide and can no longer make this journey... Even if they wish to do as the ancients did, they can only make a symbolic journey around the world. They cannot pass through the black tide to pilgrimage to the true end of the world.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about the significance of the City of Janus.
+:::<!--Custom String Listener: TalkSentence_504050210-->
+:::'''Hippasus:''' The City of Janus is not only the holy land where {{Rubi|Janus|Passage Titan}} once left their mark, it also served as the center where the Fate Titans would declare prophecies to the world... It is the geographical center of all of Amphoreus.
+:::'''Hippasus:''' Janus awakened before the world had even been born: The chaotic land where they stood back then was the predecessor of the Janusopolis that we know today.
+:::'''Hippasus:''' It was because Janus created a path for the world that the Pillar Titans were able to create the sky, earth, and sea.
+:::'''Hippasus:''' So, there is a faction of priests who believe that the Gates of Janus standing at the ends of the earth originated in Janusopolis, the starting point of this world.
+:::'''Hippasus:''' It was the birth of the world during the Era Creatura, the expansion of the skies, the earth, and the sea that pushed them to the distant borders where they now stand.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about the legend of the Gates of Janus
+:::<!--Custom String Listener: TalkSentence_504050216-->
+:::'''Hippasus:''' According to records left behind from the Era Chrysea, the Gates of Janus are a countless number of doors set up by {{Rubi|Janus|Passage Titan}} along the edge of the world.
+:::'''Hippasus:''' If you locate one in the Endless Seas, you need only to pass through it, and you can miraculously travel anywhere in the world instantly &mdash;
+:::'''Hippasus:''' You could return straight here, to Janusopolis, for instance. Legend has it that once you pass through the Gates of Janus, your ship will obtain the ability to soar through the skies like the Flying Amphora of Okhema.
+:::'''Hippasus:''' Unfortunately, the ends of the earth have now long since been devoured by the black tide... There is no way for us to test whether these records are true or not. Perhaps they are just stories that the ancients made up?
+:::'''Hippasus:''' Ah, what a pity that we do not live in the Era Chrysea.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I think I'm good.
+:::<!--Custom String Listener: TalkSentence_504050222-->
+:::'''Hippasus:''' Haha, I'm not a priest, so all I can tell you is what I have heard along my travels. There is no guarantee it is all true.
+:::'''Hippasus:''' Youngster... Life is a pilgrimage. You need only be devout to your beliefs.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Nevertheless, I have things to do.
+::'''Hippasus:''' Hahaha, it is best for youngsters like yourself to keep busy!
+::'''Hippasus:''' Life is a pilgrimage. You need only be devout to your beliefs. That is the greatest form of piety.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hippasus
+|zhs  = 希帕索斯
+|zht  = 希帕索斯
+|ja   = ヒパソルス
+|ko   = 히파수스
+|es   = Hipasus
+|fr   = Hippasus
+|ru   = Гиппас
+|th   = Hippasus
+|vi   = Hippasus
+|de   = Hippasus
+|id   = Hippasus
+|pt   = Hípaso
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,155 @@
+<%-- [PAGE_INFO]
+PageTitle=#Ctesiphona#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Librarium Administrator
+|image           = NPC Ctesiphona.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Ctesiphona''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_39_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504003001: Config/Level/Mission/5040030/Act/Act504003001.json-->
+::'''Ctesiphona:''' ...
+::'''Ctesiphona:''' ...
+::'''Ctesiphona:''' ...
+::The young woman before you sits frozen, her gaze vacant, seemingly detached from the bustling city around her, lost in a world of her own as if she is surreal...
+::...Or rather, she is sleeping.
+::{{DIcon|Arrow}} (yelling) Someone's stealing books!
+:::<!--Custom String Listener: TalkSentence_504003007-->
+::{{DIcon|Arrow}} (Leave quietly. Do not disturb her.)
+:::<!--Custom String Listener: TalkSentence_504003009-->
+::'''Ctesiphona:''' !
+::<!--Custom String Trigger: TalkSentence_504003010-->
+::<!--Custom String Listener: TalkSentence_504003010-->
+::'''Ctesiphona:''' Did I experience... a rebirth? Just moments ago, I was bound to the Dawn Device, facing my brother's judgment. His visage grew fierce as he uttered the command, instantly eradicating the Titan blood from within me...
+::'''Ctesiphona:''' ...In my previous life, I was the prophesied savior of Amphoreus. My birth instilled hope in every faithful disciple of Cerces, with the Grove sparing no expense in bringing me up for the day when I am prophesied to stand against the encroaching black tide.
+::'''Ctesiphona:''' Little did they suspect that I was the great-great-great-great... granddaughter of Thanatos' clandestine lineage, fated to sow death and disorder in the realm of mortals. Following Cerces' will, my brother imbibed the golden blood and executed me personally to prevent further calamity.
+::'''Ctesiphona:''' In this new life, I vow to reclaim what is rightfully mine...
+::{{DIcon|Arrow}} Wait a sec. This is getting too whimsical!
+::{{DIcon|Arrow}} The time I was reincarnated as the librarium owner.
+::{{DIcon|Arrow}} Let's just skip the ads.
+::<!--Custom String Listener: TalkSentence_504003017-->
+::'''Ctesiphona:''' Hmm... I guess... I must've been dreaming about the new story I wrote last night, hehehe.
+::'''Ctesiphona:''' I've gotten used to the routine of running the store and sleeping by day, and writing at night, but coming up with a plot on the spot is a first for me. Maybe my tale is just too engrossing this time!
+::'''Ctesiphona:''' Hey, you! Forget what I just said and don't mention it to anyone. If my brother finds out... I'm toast.
+::{{DIcon|Arrow}} But it's nice to have dreams, right?
+:::<!--Custom String Listener: TalkSentence_504003021-->
+:::'''Ctesiphona:''' Well... simply put... he thinks that we as followers of Cerces should not...
+::{{DIcon|Arrow}} Would he "instantly eradicate" you?
+:::<!--Custom String Listener: TalkSentence_504003023-->
+:::'''Ctesiphona:''' Well, something like that. Simply put... he thinks that we as followers of Cerces should not...
+::<!--Custom String Trigger: TalkSentence_504003024-->
+::<!--Custom String Listener: TalkSentence_504003024-->
+::'''Ctesiphona:''' Shh... we've got a customer. Let's catch up later.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504003002: Config/Level/Mission/5040030/Act/Act504003002.json-->
+::'''Ctesiphona:''' ...Cerces Followers' Librarium. How may I help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I'd like to buy some books.
+::'''Ctesiphona:''' Let me know what you're looking for. There are books I don't put up for sale...
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 39,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 71,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} Tell me more about it...
+::'''Ctesiphona:''' ...Brother alarm lifted! Remember, what I say is just between us.
+::<!--Custom String Trigger: Wait_Option_504003003_51-->
+::<!--Custom String Listener: Wait_Option_504003003_51-->
+::{{DIcon|Talk}} You mentioned your faith in Cerces...
+:::<!--Custom String Listener: TalkSentence_504003103-->
+:::'''Ctesiphona:''' Yeah! My family has upheld faith in Cerces for generations, upholding the dissemination of knowledge as a sacred duty, and this librarium is a legacy from our ancestors. My brother is a super duper erudite scholar who read so much that he already earned his place as a Garden of Life scholar.
+:::'''Ctesiphona:''' My brother, the great scholar, thinks my made-up stories about underdogs and reincarnation are indecency. If he found them out, he'd probably say that they don't match Cerces' notion of rationality and could provoke the Titans.
+:::'''Ctesiphona:''' So, I have to juggle running the store during the day and writing novels in secret at night.
+:::{{DIcon|Arrow}} Are followers of Cerces so conservative?
+:::{{DIcon|Arrow}} Why not just give up your faith in Cerces?
+:::<!--Custom String Listener: TalkSentence_504003108-->
+:::'''Ctesiphona:''' Hey, don't blame Cerces. All my overflowing inspirations actually come from the Bough of Rift, which can see into the past and future.
+:::'''Ctesiphona:''' Blame my brother. You old stiff, Theophis! Cerces has lived over 800 brilliant divine lives through my pen! Isn't that more exciting than being a dull Titan on your altar!?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How can I buy the books you've written?
+:::<!--Custom String Listener: TalkSentence_504003111-->
+:::'''Ctesiphona:''' Shh... Keep your voice down. You never know who might be listening.
+:::'''Ctesiphona:''' I stash them away in a secret compartment in the back room to keep them safe from my brother's prying eyes. If you're interested, I can fetch you a couple.
+:::'''Ctesiphona:''' Speaking of that, there's a new challenge for me. Nowadays, customers prefer lighter fiction. Quick-paced plots, humorous tales, and mini comedy tablets featuring 30-second stories are flying off the shelves.
+:::'''Ctesiphona:''' With more authors joining in, I'm running out of space to store their books in my secret compartment. I need to find a solution...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why don't you talk about it with your brother?
+:::<!--Custom String Listener: TalkSentence_504003116-->
+:::'''Ctesiphona:''' Even though I complain about his outdated views, deep down I don't really want him to change.
+:::'''Ctesiphona:''' Our parents died in the black tide disaster long ago. He was just a six-year-old child back then, but he had to provide for both of us. As time passed, he worked on rebuilding our family librarium, while also doing the best he could to nurture me intellectually.
+:::'''Ctesiphona:''' Even though I'm an adult now, he still feels responsible for me... It's just that the line between care and overprotection is a bit blurry, hehe.
+:::'''Ctesiphona:''' I don't blame him. I'd rather work harder on my own if keeping everything a secret makes life easier for him.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_504003121-->
+:::'''Ctesiphona:''' Let me know what you're looking for. There are books I don't put up for sale...
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::'''Ctesiphona:''' Let me know what you're looking for. There are books I don't put up for sale...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Ctesiphona
+|zhs  = 克帖西芬
+|zht  = 克帖西芬
+|ja   = クチセフィン
+|ko   = 크테시포나
+|es   = Ctesífone
+|fr   = Ctésiphona
+|ru   = Ктесифона
+|th   = Ctesiphona
+|vi   = Ctesiphona
+|de   = Ctesiphona
+|id   = Ctesiphona
+|pt   = Ctesiphona
+}}
+==Change History==
+{{Change History|TODO}}

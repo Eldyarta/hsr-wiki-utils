@@ -1,0 +1,133 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Phainon's Memory)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Phainon's Memory).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''(Phainon's Memory)''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_175_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504113002: Config/Level/Mission/5041130/Act/Act504113002.json-->
+:<!--Custom String Trigger: Wait_TimeLJ-->
+:<!--Custom String Listener: Wait_TimeLJ-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<!--0.5-second delay-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	}
+}</pre>
+:'''Livia:''' Phainon! I prepared a farewell gift for you. Aren't you happy?
+:<!--Custom String Trigger: Wait_Option_504113002_27-->
+:<!--Custom String Listener: Wait_Option_504113002_27-->
+:{{DIcon|Talk}} What kind of gift?
+::<!--Custom String Listener: TalkSentence_504113106-->
+::'''Livia:''' Heh heh, I can't show it to you yet, or it won't be a surprise.
+::'''Livia:''' Buuut... to make up for it, I can tell you a little secret &mdash; that dummy Piso also prepared something for you! He's just way too shy to say anything.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Take care of yourself, alright?
+::<!--Custom String Listener: TalkSentence_504113109-->
+::'''Livia:''' I will! Livia's going to study hard and learn lots and lots of things!
+::'''Livia:''' Then, when I'm a big kid, I'll drag that dummy Piso with me, and we'll go on adventures and save the world together!
+::'''Livia:''' Hey, Phainon... how much longer do you think it'll take for us to be as amazing as you?
+::{{DIcon|Arrow}} Don't worry. It won't be long.
+:::<!--Custom String Listener: TalkSentence_504113113-->
+:::'''Livia:''' How I wish I could grow up faster... Why do the days in Aedes Elysiae have to go by so sloooow...
+::{{DIcon|Arrow}} Growing up isn't always a good thing.
+:::<!--Custom String Listener: TalkSentence_504113115-->
+:::'''Livia:''' I know. But I still wanna go outside, and see all sorts of exciting things. Agh...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	},
+	"Hide": false
+}</pre>
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

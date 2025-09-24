@@ -1,0 +1,271 @@
+<%-- [PAGE_INFO]
+PageTitle=#Aechenus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Priest
+|image           = NPC Aechenus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Aechenus''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_204_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"Phase": "Finish",
+		"ID": 434017405
+	}
+]
+</pre>
+;(If {{cx}}<!--performance 504050009 has not been seen-->)
+::<!--Trigger PerformanceE 504050010: Config/Level/Mission/5040500/Act/Act504050010.json-->
+:;(If {{cx}}<!--SubMission not Finish: 434017409-->)
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 434017402,
+	"MissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			1,
+			2
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:;(If {{F|MissionCV-4340174-undefined}} is undefined 2)
+:::'''Aechenus:''' My Lord, it is an honor to see you again. The treasure that you bestowed to me before has been accepted by the Fate Titans. Is there something that I can help you with?
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:;(If {{F|MissionCV-4340174-undefined}} is not undefined 2)
+::;(If {{F|MissionCV-4340174-1}} is undefined 2)
+::::'''Aechenus:''' My Lord, it is an honor to see you again. The treasure that you bestowed to me before has been accepted by the Fate Titans. Is there something that I can help you with?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::;(If {{F|MissionCV-4340174-1}} is not undefined 2)
+::::'''Aechenus:''' My Lord, could it be that you have had a change of heart and wish to show your piety to the Temple of the Three Fates in exchange for a prophecy?
+::::{{DIcon|Arrow}} I want to hear my prophecy.
+:::::<!--Custom String Listener: TalkSentence_504050905-->
+::::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_SelectConsumeItem",
+	"SubmissionID": 434017409,
+	"OnlyPerformance": false,
+	"ItemIDList": [
+		2,
+		122000,
+		140004
+	],
+	"ItemHiddenIDList": [],
+	"ItemInvisibleIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 2,
+			"TriggerCustomString": "Item434017402"
+		},
+		{
+			"Item1": 122000,
+			"TriggerCustomString": "Item434017402"
+		},
+		{
+			"Item1": 140004,
+			"TriggerCustomString": "Item434017402"
+		}
+	],
+	"SlotNum": 1,
+	"SimpleTalk": {},
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504050904,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504050904,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::::{{DIcon|Exit}} You're not getting a penny from me.
+:::::<!--Custom String Listener: TalkSentence_504050904-->
+:::::'''Aechenus:''' Very well, My Lord. Then I must remind you: There is no such thing as a free prophecy in this world. May the {{Rubi|Janus|Passage Titan}} guide your path.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::<!--Custom String Trigger: PER504050010-->
+:;(If {{F|MissionCV-4340174-1}} is undefined 2 or {{F|MissionCV-4340174-undefined}} is undefined 2)
+::<!--Open NPC Menu-->
+::{{DIcon}} What kind of Titan is Janus?
+:::'''Aechenus:''' The Gate of Infinity, Janus, is the Passage Titan and eldest sister of the Three Titans of Fate. They show the future of each city and guide the paths of the people. They are even referred to as the most perfect among all Titans.
+:::'''Aechenus:''' When compared to their eternal glory, the other Titans are... to put it politely, a little lackluster.
+:::{{DIcon|Arrow}} They are not all-knowing and all-powerful like Kephale.
+::::<!--Custom String Listener: TalkSentence_504051005-->
+::::'''Aechenus:''' They say that history is written by the winners, and that is precisely what has happened with the constant praise of Kephale in mythology. This so-called all-knowing and all-powerful nature comes from nothing more than the fact that Okhema is the most prospering city in Amphoreus.
+::::'''Aechenus:''' If Janusopolis were to one day become the only legitimate Titan territory, I'm sure that the historical accounts would be suitably cleared.
+::::'''Aechenus:''' I want to... I've already prepared what I would write. Historical account of Amphoreus, chapter one: The Gate of Infinity splits the heavens and the earth...
+:::{{DIcon|Arrow}} Nikador will have your head for saying that.
+::::<!--Custom String Listener: TalkSentence_504051009-->
+::::'''Aechenus:''' Nikador looks ferocious, but has no spine. They're all brawn and no brain. They sit at the same table as Zagreus and are barely worth a mention.
+::::{{DIcon|Arrow}} You'll change your tune when the Kremnoans get here.
+::::{{DIcon|Arrow}} I'm a Kremnoan spy. I will report back to send troops here.
+:::::<!--Custom String Listener: TalkSentence_504051012-->
+:::::'''Aechenus:''' What? ...Who are you trying to scare? My Lord, the Kremnoans are savages. There is no way they would be adorned with such elaborate finery as you are.
+:::::<!--Custom String Trigger: TalkSentence_504051013-->
+::::<!--Custom String Listener: TalkSentence_504051013-->
+::::'''Aechenus:''' The Temple of the Three Fates is located in Janusopolis. Not even the crazed Kremnoans would dare offend the home of the Fate Titans without proper consideration.
+::::'''Aechenus:''' Even if the Kremnoans did have a plot against Janusopolis, we need simply unite the nations through our prophecies. What is there to fear about Castrum Kremnos?
+:::{{DIcon|Arrow}} I think Cerces and Mnestia shine pretty bright.
+::::<!--Custom String Listener: TalkSentence_504051016-->
+::::'''Aechenus:''' Hah! Everyone has heard the stories of these two Titans and their frolicking. One of their brains is as dense as wood, and the other is blinded by love. They have no place on the stage of Titans.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+::{{DIcon}} Tell me about the Holy Maiden.
+:::'''Aechenus:''' I assume you have learned of the red-haired Holy Maiden from the common folk of Janusopolis?
+:::'''Aechenus:''' If you ask me... I find it simply outrageous that she is the great Holy Maiden, fated to bear the prophecies of the Fate Titans, and all she wants to do is talk with common folk!
+:::'''Aechenus:''' The previous Holy Maiden was particularly insistent on doing things her way. She even gave Titan food offerings to the citizens! It was a complete misuse of power.
+:::'''Aechenus:''' Fortunately, we have imposed harsher restrictions on the current Holy Maiden. The majority of citizens only know of the Holy Maiden's existence. They have never actually seen what she looks like.
+::{{DIcon}} I saw you stuff my treasure into your pocket.
+:::'''Aechenus:''' ...I shall not deceive you, My Lord. The Three Titans of Fate do not personally accept all offerings. It is the duty of a priest to make sure that all excess offerings are handled properly.
+:::'''Aechenus:''' Sometimes we even have to pay out of our own pockets to make up a suitable offering and obtain prophecies for our allies.
+:::'''Aechenus:''' I am truly dedicated to Janusopolis alone. It is an objective fact that I also need to earn a certain amount of fortune and renown for myself that I am able to do more for the Fate Titans within the church.
+:::'''Aechenus:''' You must know that not all priests are as forthright and sincere as I am. There are many that are far more shrewd and subtle. If these priests were able to monopolize the power to obtain prophecies from the Titans... That would spell trouble for Janusopolis.
+::{{DIcon}} How will the prophecy guide my homeland?
+::;(If {{cx}}<!--SubMission Finish: 434017410-->)
+::::'''Aechenus:''' The prophecies are often vague and hard to understand. I will translate it and make it easier for you to understand &mdash;
+::::'''Aechenus:''' Oronyx lifts the distant veil, the scale of Talanton proclaims your innocence, and Janus guides those who are lost in the misty maze of destiny...
+::::'''Aechenus:''' Oh, Thalassopolis! Fate is like a bird with no legs. It can only nest in the land of the Three Fates.
+::::'''Aechenus:''' The cold grasp of Thanatos has grasped your ankle... You must follow the phantom across the river if you are to find a future for your city.
+::::{{DIcon|Arrow}} The prophecy is nonsense.
+::::{{DIcon|Arrow}} Great, we have a prophecy! We're saved!
+::::<!--Custom String Listener: TalkSentence_504051308-->
+::::'''Aechenus:''' The prophecy of the Temple of the Three Fates is absolute, and they have never been mistaken before. My Lord, you must return home immediately and rescue your home from its dim fate.
+::::You try your best to hold back your laughter as you watch the priest putting on their dramatic rendition.
+::;(If {{cx}}<!--SubMission not Finish: 434017410-->)
+::::'''Aechenus:''' Esteemed guest from Thalassopolis, please be patient. We are still yet to consult the Fate Titans for your prophecy.
+::::'''Aechenus:''' Perhaps you should come and find me in a few days. I know that the Titans will provide you with the most accurate guidance possible.
+::{{DIcon|Exit}} Let's leave it there for now.
+:::'''Aechenus:''' May we meet again, esteemed guest from Thalassopolis. May the {{Rubi|Janus|Passage Titan}} guide your path.
+::<!--Ends the current performance-->
+;(Unused &mdash; Item434017402)
+:<!--Custom String Listener: Item434017402-->
+::'''Aechenus:''' Wh&mdash;What is this object? The waves of people that come and make offerings to the Temple of the Three Fates dwarf even the waves of Phagousa in their volume. Yet, I have never seen an item like this before...
+::'''Aechenus:''' Please accept my sincerest apologies, My Lord. The Temple of the Three Fates is a sacred location, and the Holy Maiden is powerless to protect it. We must keep it under tight guard.
+::'''Aechenus:''' The Fate Titans have recognized your piety. We will obtain a prophecy for you. May your home &mdash; Thalassopolis &mdash; long remain safe and sound.
+::The priest stuffs the item you handed over into his pocket with a gleeful grin on his face. Well then, how will the Fate Titans divine a future for a place that you made up? Your curiosity is truly piqued.
+:<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 434017402,
+	"TargetMissionCustomValue": {
+		"Index": 1,
+		"Name": "OldValue_1",
+		"ValidValueParamList": [
+			1,
+			2
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4340174,
+		"MissionCustomValue": {
+			"Index": 1,
+			"Name": "OldValue_1",
+			"ValidValueParamList": [
+				1,
+				2
+			]
+		}
+	},
+	"ValueB": {
+		"DirectValue": 1
+	}
+}</pre>
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Aechenus
+|zhs  = 埃赫那
+|zht  = 埃赫那
+|ja   = アルヘナ
+|ko   = 이오나
+|es   = Aquenus
+|fr   = Achénus
+|ru   = Эхенус
+|th   = Aechenus
+|vi   = Aechenus
+|de   = Aechenus
+|id   = Aechenus
+|pt   = Aechenus
+}}
+==Change History==
+{{Change History|TODO}}

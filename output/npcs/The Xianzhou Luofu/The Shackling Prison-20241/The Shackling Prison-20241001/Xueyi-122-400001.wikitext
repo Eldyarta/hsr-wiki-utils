@@ -1,0 +1,168 @@
+<%-- [PAGE_INFO]
+PageTitle=#Xueyi#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Xueyi.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Xueyi''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_122_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502100001: Config/Level/Mission/5021000/Act/Act502100001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450119
+	]
+}</pre>
+::'''Xueyi:''' (Trailblazer), the Shackling Prison is still trying to have peace and order restored. It is not safe, so please try not to wander around.
+::{{DIcon|Arrow}} Don't worry. I can take care of myself.
+:::<!--Custom String Listener: TalkSentence_502100003-->
+:::'''Xueyi:''' I wouldn't be worried if I could turn into a cycrane and come back either.
+::{{DIcon|Arrow}} I'm sure you'll keep me safe.
+:::<!--Custom String Listener: TalkSentence_502100005-->
+:::'''Xueyi:''' You may be asking too much of a defenseless little cycrane like me.
+::<!--Custom String Trigger: TalkSentence_502100006-->
+::<!--Custom String Listener: TalkSentence_502100006-->
+::'''Xueyi:''' ...
+::'''Xueyi:''' Why aren't you laughing?
+::'''Xueyi:''' It's a joke. Hanya said that I should try cracking more jokes when conversing with others.
+::{{DIcon|Arrow}} *laughs out loud*
+:::<!--Custom String Listener: TalkSentence_502100010-->
+:::'''Xueyi:''' You laughed! I'm glad.
+::{{DIcon|Arrow}} Sorry! I forgot to laugh!
+:::<!--Custom String Listener: TalkSentence_502100012-->
+:::'''Xueyi:''' There's no need to apologize. I should have made a funnier joke.
+::{{DIcon|Arrow}} It's not a very funny joke...
+:::<!--Custom String Listener: TalkSentence_502100014-->
+:::'''Xueyi:''' I see. It seems I must ask Hanya for more advice.
+::<!--Custom String Trigger: TalkSentence_502100015-->
+::<!--Custom String Listener: TalkSentence_502100015-->
+::'''Xueyi:''' Joking aside, why have you come here today? Is there something you wish to discuss?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502100002: Config/Level/Mission/5021000/Act/Act502100002.json-->
+::'''Xueyi:''' (Trailblazer), if you aren't busy, why don't you join me for a chat?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I wanted to chat with you.
+::'''Xueyi:''' I see. What do you wish to talk about?
+::<!--Custom String Trigger: Wait_Option_502100003_61-->
+::<!--Custom String Listener: Wait_Option_502100003_61-->
+::{{DIcon|Talk}} Why are you still at the Shackling Prison?
+:::<!--Custom String Listener: TalkSentence_502100303-->
+:::'''Xueyi:''' By the Ten Lords' order, the Shackling Prison's repairs must be personally presided over by a trusted judge. I've thus been temporarily stationed here to supervise the repairs.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to transform into a cycrane or aurumaton too...
+:::<!--Custom String Listener: TalkSentence_502100305-->
+:::'''Xueyi:''' Transformation is far less interesting than it looks. Have you any idea why I choose to possess this fragile vessel of a puppet over a powerful aurumaton when I'm dispatched on an expedition?
+:::'''Xueyi:''' It is because when a person's consciousness dwells in a body they are unfamiliar with, they experience a burning sensation so overwhelming that even hiding within an ice cave would provide scant respite.
+:::'''Xueyi:''' But I must also admit that crushing abominations with my own fists as an aurumaton... does feel satisfying.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's Hanya doing?
+:::<!--Custom String Listener: TalkSentence_502100309-->
+:::'''Xueyi:''' I don't see my sister every day, so I'm not always sure how she is, either. Moreover, she only ever brings favorable news whenever we meet, which makes me concerned if she's really doing fine.
+:::'''Xueyi:''' That said, she used to only relate encounters she had at work to me, but she now tells me stories about her friends outside of work too.
+:::'''Xueyi:''' Like that heliobus Huohuo has, Sushang, Guinaifen, and you. I could just be imagining it, but I find her more cheerful compared to before.
+:::'''Xueyi:''' We sisters are people whose lives have come to an eternal standstill, yet all of you are still willing to be her friends despite that. For that, I thank you all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Talk to you later.
+:::<!--Custom String Listener: TalkSentence_502100314-->
+:::'''Xueyi:''' Okay. Feel free to come and chat with me anytime.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Talk to you later.
+::'''Xueyi:''' Okay. Feel free to come and chat with me anytime.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502100017)
+:<!--Custom String Listener: TalkSentence_502100017-->
+::'''Xueyi:''' I see. What do you wish to talk about?
+::<!--Custom String Trigger: Wait_Option_502100001_29-->
+::<!--Custom String Listener: Wait_Option_502100001_29-->
+::{{DIcon|Talk}} Why are you still at the Shackling Prison?
+:::<!--Custom String Listener: TalkSentence_502100019-->
+:::'''Xueyi:''' By the Ten Lords' order, the Shackling Prison's repairs must be personally presided over by a trusted judge. I've thus been temporarily stationed here to supervise the repairs.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to transform into a cycrane or aurumaton too...
+:::<!--Custom String Listener: TalkSentence_502100021-->
+:::'''Xueyi:''' Transformation is far less interesting than it looks. Have you any idea why I choose to possess this fragile vessel of a puppet over a powerful aurumaton when I'm dispatched on an expedition?
+:::'''Xueyi:''' It is because when a person's consciousness dwells in a body they are unfamiliar with, they experience a burning sensation so overwhelming that even hiding within an ice cave would provide scant respite.
+:::'''Xueyi:''' But I must also admit that crushing abominations with my own fists as an aurumaton... does feel satisfying.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's Hanya doing?
+:::<!--Custom String Listener: TalkSentence_502100025-->
+:::'''Xueyi:''' I don't see my sister every day, so I'm not always sure how she is, either. Moreover, she only ever brings favorable news whenever we meet, which makes me concerned if she's really doing fine.
+:::'''Xueyi:''' That said, she used to only relate encounters she had at work to me, but she now tells me stories about her friends outside of work too.
+:::'''Xueyi:''' Like that heliobus Huohuo has, Sushang, Guinaifen, and you. I could just be imagining it, but I find her more cheerful compared to before.
+:::'''Xueyi:''' We sisters are people whose lives have come to an eternal standstill, yet all of you are still willing to be her friends despite that. For that, I thank you all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Talk to you later.
+:::<!--Custom String Listener: TalkSentence_502100030-->
+:::'''Xueyi:''' Okay. Feel free to come and chat with me anytime.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502100032)
+:<!--Custom String Listener: TalkSentence_502100032-->
+::'''Xueyi:''' Okay. Feel free to come and chat with me anytime.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Xueyi
+|zhs  = 雪衣
+|zht  = 雪衣
+|ja   = 雪衣
+|ko   = 설의
+|es   = Xueyi
+|fr   = Xueyi
+|ru   = Сюэи
+|th   = Xueyi
+|vi   = Xueyi
+|de   = Xueyi
+|id   = Xueyi
+|pt   = Xueyi
+}}
+==Change History==
+{{Change History|TODO}}

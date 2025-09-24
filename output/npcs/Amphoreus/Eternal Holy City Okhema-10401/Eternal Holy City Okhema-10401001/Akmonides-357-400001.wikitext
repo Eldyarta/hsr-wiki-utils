@@ -1,0 +1,220 @@
+<%-- [PAGE_INFO]
+PageTitle=#Akmonides#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Busybody
+|image           = NPC Akmonides.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Akmonides''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_357_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033027: Config/Level/Mission/5040330/Act/Act504033027.json-->
+::'''Annoyed Youth:''' I think you're just trying to ruin our family's reputation! I always thought of you as a good brother, but turns out I was wrong! You can't judge a person just by their face!
+::'''Gloomy Teen:''' ...I've already told you. My brother could never do such a thing. Besides, if we're being honest, your suspicion is far greater than ours, isn't it?
+::'''Annoyed Youth:''' What&mdash;? How dare you slander me like that? Are you looking for a fight?!
+::'''Gloomy Teen:''' You were the one who provoked me first, and now you have the nerve to lose your temper...
+::As the tension between the two keeps building, you watch closely, not wanting to miss the exciting moment when the fight kicks off.
+:<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10401_F10401001_G357",
+	"AnchorName": "Anchor2",
+	"IsActive": false
+}</pre>
+::'''Akmonides:''' Haha... Friend, you seem quite intrigued. Would you like to know what exactly they're arguing about?
+::'''Akmonides:''' It only takes 50 Balance Coins. I'll explain everything, including the background, clearly to you.
+::{{DIcon|Arrow}} Alright...
+:::<!--Custom String Listener: TalkSentence_504040609-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002006,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504040609,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504040612"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504040612_2"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504040611"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} Forget it. I'm not that curious.
+:::<!--Custom String Listener: TalkSentence_504040611-->
+:::'''Akmonides:''' *Sigh* Alright, alright, consider it a gesture of friendship. I'll give you this information for free...
+:::<!--Custom String Trigger: TalkSentence_504040612_2-->
+:::<!--Custom String Listener: TalkSentence_504040612_2-->
+:::'''Akmonides:''' Here, that young man who looks like he might explode at any moment &mdash; his family runs a general store. Their main business is supplying expedition teams with provisions when they head out of the city.
+:::'''Akmonides:''' As for that gloomy guy who looks like he hasn't slept in three days, he belongs to a fairly well-known local expedition team. He's actually the younger brother of the team's leader.
+:::'''Akmonides:''' A while ago, their squad went out to explore a new area. By sheer bad luck, they ran into the black tide, and the casualties were severe. After barely managing to escape with their lives, they tried to gather themselves and head back to the city, only to find that there was an issue with their supplies.
+:::'''Akmonides:''' The backup food was all near expiry and about to spoil, and the medical kits were put together from leftover scraps &mdash; clearly, there was an inside job.
+:::'''Akmonides:''' These two guys, in order to investigate, came to the bath to gather information. They found out that "the captain of that expedition made some secret deal with the old shopkeeper some time ago" &mdash; and that's when the argument started~
+:::'''Gloomy Teen:''' ...I'll say it one last time. Stop causing trouble. Use your wooden little brain and think carefully about what you actually came here to do.
+:::'''Annoyed Youth:''' Am I being unreasonable? Clearly, it's you who's guilty and trying to change the subject! Nice try!
+:::'''Akmonides:''' Look at that. These two have grown up together, years of friendship, and yet when something like this happens, it's just like a chimera biting another chimera &mdash; just as messy as a mouthful of fur, haha~
+:::{{DIcon|Arrow}} Ah, that message wasn't from you, was it...
+::::<!--Custom String Listener: TalkSentence_504040621-->
+::::'''Akmonides:''' Ah, I just love smart people like you! You think they're a bit noisy too, don't you?
+:::{{DIcon|Arrow}} Are you really not a Masked Fool?
+::::<!--Custom String Listener: TalkSentence_504040623-->
+::::'''Akmonides:''' The Masked... Fool? What's that? Sounds intriguing &mdash; could you tell me about it in detail later?
+:::<!--Custom String Trigger: TalkSentence_504040624-->
+:::<!--Custom String Listener: TalkSentence_504040624-->
+:::'''Akmonides:''' I say, you two &mdash; don't you think that's enough? Everyone's staring at you now. Are you sure you want to keep this show going on?
+::<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10401_F10401001_G357",
+	"AnchorName": "Anchor2"
+}</pre>
+:::'''Annoyed Youth:''' Huh? Weren't you the one who told us &mdash;
+:::'''Akmonides:''' Are you questioning the information I provided?
+:::'''Gloomy Teen:''' ...That's not what he means. It's just that your "making a secret deal" comment is a bit too vague...
+:::'''Akmonides:''' Exactly! Which is why you'll have to figure out the rest yourselves. Or do you expect me to break it all down and explain every detail? That would cost you extra, you know.
+:::'''Annoyed Youth:''' You...!
+:::'''Akmonides:''' *Sigh* Fine, fine. Since you've worked so hard entertaining everyone here, I'll throw in a freebie &mdash; take a good look at the medical expenses for the expedition team over the past few months. If you're lucky, you might catch a big rock rat.
+:::'''Annoyed Youth:''' What? Uncle Libius would never...
+:::'''Gloomy Teen:''' I see. Thank you. Let's go, Ifris. We'll talk later if you need.
+:::'''Akmonides:''' Thank you for your visit, and we look forward to seeing you again next time~
+::<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10401_F10401001_G357",
+	"AnchorName": "Anchor2",
+	"IsActive": false
+}</pre>
+:::'''Akmonides:''' Alright, the noisy ones are gone now. We can have a good chat, can't we, my outlander friend~
+:::'''Akmonides:''' Thalassopolis, right? I haven't heard of that name before. So, there's a city like that in Amphoreus?
+:::'''Akmonides:''' I've seen a great many outsiders and know plenty of things, but judging from your novel appearance and unusual behavior, and...
+:::'''Akmonides:''' Haha, come and talk to me about your home, friend. I'm very interested.
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033028: Config/Level/Mission/5040330/Act/Act504033028.json-->
+::'''Akmonides:''' Hey &mdash; friend, what a delightful coincidence it is to meet you! You wanna chat? I'll be here anytime! And for free too!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon|Shop}} Seek information.
+:::'''Akmonides:''' Hah. Wanna have some fun? Then you found the right person. Don't worry &mdash; I run an honest business. My intel is always clearly priced, and I'd never scam a friend~
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 357,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 75,
+	"TaskID": []
+}</pre>
+::{{DIcon}} Talk to him.
+:::'''Akmonides:''' Oh, you're finally willing to talk with me about this? I've been waiting for so long that Phagousa is about to wake up.
+:::'''Akmonides:''' Okay, so talk to me. What is your home like? And what did you encounter on your road here?
+:::<!--Custom String Trigger: Wait_Option_504033079_9-->
+:::<!--Custom String Listener: Wait_Option_504033079_9-->
+:::{{DIcon|Talk}} Talk about your "home."
+::::<!--Custom String Listener: TalkSentence_504040708-->
+::::'''Akmonides:''' It's hard to imagine that... This Herta, kin to Cerces, possess such power, is capable of building such a large and intricate tower. And to use that as a display of her rare treasures too... I fear this feat is more than comparable to Thalesus' efforts.
+::::'''Akmonides:''' Your "Nameless" exploration team... Do they also explore the world on the back of a giant beast? How romantic.
+::::'''Akmonides:''' I knew you were interesting, friend. From the moment I first laid eyes on you, I knew we had a special bond.
+:::{{DIcon|Talk}} Talk about your travels.
+::::<!--Custom String Listener: TalkSentence_504040713-->
+::::'''Akmonides:''' ...
+::::'''Akmonides:''' How strange. I have never heard of any of these cities you've been to.
+::::'''Akmonides:''' Haha, don't be nervous, friend. I don't mean anything. Just feeling a bit emotional.
+::::'''Akmonides:''' Look... Though I have a little bit of skill, a little bit more capability than most people here, hearing your story makes me think that my life here is too dull!
+::::'''Akmonides:''' I really want to adventure about like you. Want to see what waits beyond the heights of Oronyx, and where the end of the Thanatos' River of Souls lies...
+::::'''Akmonides:''' ...Thalassopolis, right?
+::::'''Akmonides:''' Is your exploration team still short-handed? How about you bring me with you on the way back? I really want to see that rabbit-like kin of Janus that you mentioned.
+:::{{DIcon|Talk}} You remind me of someone familiar.
+::::<!--Custom String Listener: TalkSentence_504040722-->
+::::'''Akmonides:''' Haha, then maybe we are long-lost brothers that share a single parent.
+::::'''Akmonides:''' Though, that follower of Zagreus you talk of does sound interesting. And that tavern in the city of... Penacony, was it?
+::::'''Akmonides:''' You haven't been there either, right? How about next time we both find a way to get in and take a look?
+:::{{DIcon|Exit}} That's enough chit-chat for now.
+::::<!--Custom String Listener: TalkSentence_504040727-->
+::::'''Akmonides:''' Leaving already? But we haven't talked enough yet...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::'''Akmonides:''' I'll miss you, friend &mdash; so, so much. You'll come back and see me, right?
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Akmonides
+|zhs  = 阿克蒙
+|zht  = 阿克蒙
+|ja   = アクモン
+|ko   = 아크모니데스
+|es   = Akmónides
+|fr   = Achéménide
+|ru   = Акмонидис
+|th   = Akmonides
+|vi   = Akmonides
+|de   = Akmonides
+|id   = Akmonides
+|pt   = Akmonides
+}}
+==Change History==
+{{Change History|TODO}}

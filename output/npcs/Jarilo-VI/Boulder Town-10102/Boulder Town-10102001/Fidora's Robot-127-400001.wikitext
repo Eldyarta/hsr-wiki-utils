@@ -1,0 +1,1623 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fidora's Robot#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Fidora's Robot.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Fidora's Robot''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_127_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404011603,
+		"Type": "submission_state_equal",
+		"Param1": 404011603,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011603: Config/Level/Mission/4040116/Act/Act404011603.json-->
+:'''Fidora's Robot:''' Hello, (Trailblazer). I am gathering datasets that can be used for emotional interactivity.
+:'''Fidora's Robot:''' My master Fidora said that you can provide me with a suitable dataset. During the learning process, I will randomly present you with a social interaction. Please answer based on your personal experiences.
+:'''Fidora's Robot:''' Your conversation will be recorded and parsed word-by-word.
+:{{DIcon|Arrow}} I'll have to choose carefully...
+:{{DIcon|Arrow}} Things are starting to get a little tense...
+:<!--Custom String Listener: TalkSentence_411160119-->
+:'''Fidora's Robot:''' Initiating learning phase: Are you ready?
+:{{DIcon|Arrow}} Ready.
+::<!--Custom String Listener: TalkSentence_411160122-->
+::'''Fidora's Robot:''' Scenario 1.
+::'''Fidora's Robot:''' Fidora has been in high spirits lately, and she invites me to watch a bout at the Fight Club.
+::'''Fidora's Robot:''' After the winning punch from the boxer Fidora is backing, she looks at me in anticipation of me saying something.
+::'''Fidora's Robot:''' As her friend, what should my reply be at this time?
+::<!--Custom String Trigger: Training01_Loop-->
+::<!--Custom String Listener: Training01_Loop-->
+::{{DIcon|Talk}} Describe the scenario for me once more.
+:::<!--Custom String Listener: Loop01-->
+:::'''Fidora's Robot:''' Fidora has been in high spirits lately, and she invites me to watch a bout at the Fight Club.
+:::'''Fidora's Robot:''' After the winning punch from the boxer Fidora is backing, she looks at me in anticipation of me saying something.
+:::'''Fidora's Robot:''' As her friend, what should my reply be at this time?
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Arrow}} What an amazing punch that was!
+:::<!--Custom String Listener: TalkSentence_411160130-->
+:::<!--Custom String Trigger: Trigger1-->
+:::<!--Custom String Listener: Trigger1-->
+:::<!--Custom String Listener: Trigger4-->
+:::<!--Custom String Trigger: TriggerA-->
+:::<!--Custom String Trigger: Training01_Finish-->
+:::<!--Custom String Listener: Training01_Finish-->
+:::'''Fidora's Robot:''' Learning...
+:::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+:::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+:::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::<!--Custom String Trigger: Training02_Loop-->
+:::<!--Custom String Listener: Training02_Loop-->
+:::{{DIcon|Talk}} Describe the scenario for me once more.
+::::<!--Custom String Listener: Loop02-->
+::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} It's brilliant. Can you teach me?
+::::<!--Custom String Listener: TalkSentence_411160138-->
+::::<!--Custom String Trigger: Trigger4-->
+::::<!--Custom String Listener: Trigger4-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+:::::<!--Custom String Trigger: TriggerB-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+:::::<!--Custom String Trigger: TriggerC-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} That's the extent of your singing?
+::::<!--Custom String Listener: TalkSentence_411160139-->
+::::<!--Custom String Trigger: Trigger5-->
+::::<!--Custom String Listener: Trigger5-->
+::::<!--Custom String Trigger: TriggerB-->
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+:::::<!--Custom String Trigger: TriggerC-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} Abnormal noise levels detected.
+::::<!--Custom String Listener: TalkSentence_411160140-->
+::::<!--Custom String Trigger: Trigger6-->
+::::<!--Custom String Listener: Trigger6-->
+::::<!--Custom String Trigger: TriggerC-->
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+:::::<!--Custom String Trigger: TriggerB-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::{{DIcon|Arrow}} Is that all you need to become a fighter?
+:::<!--Custom String Listener: TalkSentence_411160131-->
+:::<!--Custom String Trigger: Trigger2-->
+:::<!--Custom String Listener: Trigger2-->
+:::<!--Custom String Listener: Trigger5-->
+:::<!--Custom String Trigger: TriggerB-->
+:::<!--Custom String Trigger: Training01_Finish-->
+:::<!--Custom String Listener: Training01_Finish-->
+:::'''Fidora's Robot:''' Learning...
+:::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+:::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+:::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::<!--Custom String Trigger: Training02_Loop-->
+:::<!--Custom String Listener: Training02_Loop-->
+:::{{DIcon|Talk}} Describe the scenario for me once more.
+::::<!--Custom String Listener: Loop02-->
+::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} It's brilliant. Can you teach me?
+::::<!--Custom String Listener: TalkSentence_411160138-->
+::::<!--Custom String Trigger: Trigger4-->
+::::<!--Custom String Listener: Trigger4-->
+::::<!--Custom String Trigger: TriggerA-->
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+:::::<!--Custom String Trigger: TriggerC-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} That's the extent of your singing?
+::::<!--Custom String Listener: TalkSentence_411160139-->
+::::<!--Custom String Trigger: Trigger5-->
+::::<!--Custom String Listener: Trigger5-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+:::::<!--Custom String Trigger: TriggerA-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+:::::<!--Custom String Trigger: TriggerC-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} Abnormal noise levels detected.
+::::<!--Custom String Listener: TalkSentence_411160140-->
+::::<!--Custom String Trigger: Trigger6-->
+::::<!--Custom String Listener: Trigger6-->
+::::<!--Custom String Trigger: TriggerC-->
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+:::::<!--Custom String Trigger: TriggerA-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::{{DIcon|Arrow}} You spilled some drink on my chrome.
+:::<!--Custom String Listener: TalkSentence_411160132-->
+:::<!--Custom String Trigger: Trigger3-->
+:::<!--Custom String Listener: Trigger3-->
+:::<!--Custom String Listener: Trigger6-->
+:::<!--Custom String Trigger: TriggerC-->
+:::<!--Custom String Trigger: Training01_Finish-->
+:::<!--Custom String Listener: Training01_Finish-->
+:::'''Fidora's Robot:''' Learning...
+:::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+:::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+:::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::<!--Custom String Trigger: Training02_Loop-->
+:::<!--Custom String Listener: Training02_Loop-->
+:::{{DIcon|Talk}} Describe the scenario for me once more.
+::::<!--Custom String Listener: Loop02-->
+::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} It's brilliant. Can you teach me?
+::::<!--Custom String Listener: TalkSentence_411160138-->
+::::<!--Custom String Trigger: Trigger4-->
+::::<!--Custom String Listener: Trigger4-->
+::::<!--Custom String Trigger: TriggerA-->
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+:::::<!--Custom String Trigger: TriggerB-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} That's the extent of your singing?
+::::<!--Custom String Listener: TalkSentence_411160139-->
+::::<!--Custom String Trigger: Trigger5-->
+::::<!--Custom String Listener: Trigger5-->
+::::<!--Custom String Trigger: TriggerB-->
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+:::::<!--Custom String Trigger: TriggerA-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} Abnormal noise levels detected.
+::::<!--Custom String Listener: TalkSentence_411160140-->
+::::<!--Custom String Trigger: Trigger6-->
+::::<!--Custom String Listener: Trigger6-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::<!--Custom String Trigger: Training02_Finish-->
+::::<!--Custom String Listener: Training02_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training03_Loop-->
+::::<!--Custom String Listener: Training03_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop03-->
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I can split it with you!
+:::::<!--Custom String Listener: TalkSentence_411160144-->
+:::::<!--Custom String Trigger: Trigger7-->
+:::::<!--Custom String Listener: Trigger7-->
+:::::<!--Custom String Trigger: TriggerA-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+:::::<!--Custom String Listener: TalkSentence_411160145-->
+:::::<!--Custom String Trigger: Trigger8-->
+:::::<!--Custom String Listener: Trigger8-->
+:::::<!--Custom String Trigger: TriggerB-->
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Insufficient funds available.
+:::::<!--Custom String Listener: TalkSentence_411160146-->
+:::::<!--Custom String Trigger: Trigger9-->
+:::::<!--Custom String Listener: Trigger9-->
+:::::<!--Custom String Listener: Trigger6-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training03_Finish-->
+:::::<!--Custom String Listener: Training03_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::----
+:::::Using your own style, you help it get through a ton of scenarios...
+:::::'''Fidora:''' You crushed it!
+:::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+:::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: 4040116_Finish-->
+:{{DIcon|Exit}} H&mdash;Hang on...
+::<!--Custom String Listener: TalkSentence_411160123-->
+::'''Fidora's Robot:''' You can come back here any time to practice. Goodbye!
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 404011604,
+		"Type": "submission_state_equal",
+		"Param1": 404011604,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011604: Config/Level/Mission/4040116/Act/Act404011604.json-->
+:'''Fidora's Robot:''' Training module finished. Please try again later.
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 404011609,
+		"Type": "submission_state_equal",
+		"Param1": 404011609,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011609: Config/Level/Mission/4040116/Act/Act404011609.json-->
+;(If {{cx}}<!--SubMission Started: 404011615-->)
+::'''Fidora's Robot:''' Hello, I'm Fidora's emotional interactive robot. Nice to meet you!
+;(If {{cx}}<!--SubMission not Started: 404011615-->)
+:;(If {{cx}}<!--SubMission Started: 404011616-->)
+:::'''Fidora's Robot:''' What are you looking at? Have you never seen a robot before?
+:;(If {{cx}}<!--SubMission not Started: 404011616-->)
+::;(If {{cx}}<!--SubMission Started: 404011617-->)
+::::'''Fidora's Robot:''' System prompt: You are standing on an intended travel pathway. Please step aside to avoid any harm.
+::;(If {{cx}}<!--SubMission not Started: 404011617-->)
+::::'''Fidora's Robot:''' What are you looking at? █ █ ██ Error, error █ ██ █ Hello, nice to meet you!
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 404011603
+	},
+	{
+		"Type": "SubMission",
+		"ID": 404011604
+	},
+	{
+		"Type": "SubMission",
+		"ID": 404011609
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404011603-->)
+:{{DIcon|?}} Interact
+::<!--Trigger PerformanceE 404011603: Config/Level/Mission/4040116/Act/Act404011603.json-->
+::'''Fidora's Robot:''' Hello, (Trailblazer). I am gathering datasets that can be used for emotional interactivity.
+::'''Fidora's Robot:''' My master Fidora said that you can provide me with a suitable dataset. During the learning process, I will randomly present you with a social interaction. Please answer based on your personal experiences.
+::'''Fidora's Robot:''' Your conversation will be recorded and parsed word-by-word.
+::{{DIcon|Arrow}} I'll have to choose carefully...
+::{{DIcon|Arrow}} Things are starting to get a little tense...
+::<!--Custom String Listener: TalkSentence_411160119-->
+::'''Fidora's Robot:''' Initiating learning phase: Are you ready?
+::{{DIcon|Arrow}} Ready.
+:::<!--Custom String Listener: TalkSentence_411160122-->
+:::'''Fidora's Robot:''' Scenario 1.
+:::'''Fidora's Robot:''' Fidora has been in high spirits lately, and she invites me to watch a bout at the Fight Club.
+:::'''Fidora's Robot:''' After the winning punch from the boxer Fidora is backing, she looks at me in anticipation of me saying something.
+:::'''Fidora's Robot:''' As her friend, what should my reply be at this time?
+:::<!--Custom String Trigger: Training01_Loop-->
+:::<!--Custom String Listener: Training01_Loop-->
+:::{{DIcon|Talk}} Describe the scenario for me once more.
+::::<!--Custom String Listener: Loop01-->
+::::'''Fidora's Robot:''' Fidora has been in high spirits lately, and she invites me to watch a bout at the Fight Club.
+::::'''Fidora's Robot:''' After the winning punch from the boxer Fidora is backing, she looks at me in anticipation of me saying something.
+::::'''Fidora's Robot:''' As her friend, what should my reply be at this time?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} What an amazing punch that was!
+::::<!--Custom String Listener: TalkSentence_411160130-->
+::::<!--Custom String Trigger: Trigger1-->
+::::<!--Custom String Listener: Trigger1-->
+::::<!--Custom String Listener: Trigger4-->
+::::<!--Custom String Trigger: TriggerA-->
+::::<!--Custom String Trigger: Training01_Finish-->
+::::<!--Custom String Listener: Training01_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training02_Loop-->
+::::<!--Custom String Listener: Training02_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop02-->
+:::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+:::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} It's brilliant. Can you teach me?
+:::::<!--Custom String Listener: TalkSentence_411160138-->
+:::::<!--Custom String Trigger: Trigger4-->
+:::::<!--Custom String Listener: Trigger4-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+::::::<!--Custom String Trigger: TriggerB-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+::::::<!--Custom String Trigger: TriggerC-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} That's the extent of your singing?
+:::::<!--Custom String Listener: TalkSentence_411160139-->
+:::::<!--Custom String Trigger: Trigger5-->
+:::::<!--Custom String Listener: Trigger5-->
+:::::<!--Custom String Trigger: TriggerB-->
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+::::::<!--Custom String Trigger: TriggerC-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Abnormal noise levels detected.
+:::::<!--Custom String Listener: TalkSentence_411160140-->
+:::::<!--Custom String Trigger: Trigger6-->
+:::::<!--Custom String Listener: Trigger6-->
+:::::<!--Custom String Trigger: TriggerC-->
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+::::::<!--Custom String Trigger: TriggerB-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} Is that all you need to become a fighter?
+::::<!--Custom String Listener: TalkSentence_411160131-->
+::::<!--Custom String Trigger: Trigger2-->
+::::<!--Custom String Listener: Trigger2-->
+::::<!--Custom String Listener: Trigger5-->
+::::<!--Custom String Trigger: TriggerB-->
+::::<!--Custom String Trigger: Training01_Finish-->
+::::<!--Custom String Listener: Training01_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training02_Loop-->
+::::<!--Custom String Listener: Training02_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop02-->
+:::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+:::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} It's brilliant. Can you teach me?
+:::::<!--Custom String Listener: TalkSentence_411160138-->
+:::::<!--Custom String Trigger: Trigger4-->
+:::::<!--Custom String Listener: Trigger4-->
+:::::<!--Custom String Trigger: TriggerA-->
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+::::::<!--Custom String Trigger: TriggerC-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} That's the extent of your singing?
+:::::<!--Custom String Listener: TalkSentence_411160139-->
+:::::<!--Custom String Trigger: Trigger5-->
+:::::<!--Custom String Listener: Trigger5-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+::::::<!--Custom String Trigger: TriggerA-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+::::::<!--Custom String Trigger: TriggerC-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Abnormal noise levels detected.
+:::::<!--Custom String Listener: TalkSentence_411160140-->
+:::::<!--Custom String Trigger: Trigger6-->
+:::::<!--Custom String Listener: Trigger6-->
+:::::<!--Custom String Trigger: TriggerC-->
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+::::::<!--Custom String Trigger: TriggerA-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::{{DIcon|Arrow}} You spilled some drink on my chrome.
+::::<!--Custom String Listener: TalkSentence_411160132-->
+::::<!--Custom String Trigger: Trigger3-->
+::::<!--Custom String Listener: Trigger3-->
+::::<!--Custom String Listener: Trigger6-->
+::::<!--Custom String Trigger: TriggerC-->
+::::<!--Custom String Trigger: Training01_Finish-->
+::::<!--Custom String Listener: Training01_Finish-->
+::::'''Fidora's Robot:''' Learning...
+::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::<!--Custom String Trigger: Training02_Loop-->
+::::<!--Custom String Listener: Training02_Loop-->
+::::{{DIcon|Talk}} Describe the scenario for me once more.
+:::::<!--Custom String Listener: Loop02-->
+:::::'''Fidora's Robot:''' Fidora has recently learned a new song. Through comparative audio analysis, I've discovered that her vocals are very different from the original.
+:::::'''Fidora's Robot:''' Even so, Fidora always hums along to this song involuntarily. One day, she suddenly asks me whether her singing is good or not.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} It's brilliant. Can you teach me?
+:::::<!--Custom String Listener: TalkSentence_411160138-->
+:::::<!--Custom String Trigger: Trigger4-->
+:::::<!--Custom String Listener: Trigger4-->
+:::::<!--Custom String Trigger: TriggerA-->
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+::::::<!--Custom String Trigger: TriggerB-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} That's the extent of your singing?
+:::::<!--Custom String Listener: TalkSentence_411160139-->
+:::::<!--Custom String Trigger: Trigger5-->
+:::::<!--Custom String Listener: Trigger5-->
+:::::<!--Custom String Trigger: TriggerB-->
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+::::::<!--Custom String Trigger: TriggerA-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::{{DIcon|Arrow}} Abnormal noise levels detected.
+:::::<!--Custom String Listener: TalkSentence_411160140-->
+:::::<!--Custom String Trigger: Trigger6-->
+:::::<!--Custom String Listener: Trigger6-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::<!--Custom String Trigger: Training02_Finish-->
+:::::<!--Custom String Listener: Training02_Finish-->
+:::::'''Fidora's Robot:''' Learning...
+:::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+:::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+:::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+:::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::<!--Custom String Trigger: Training03_Loop-->
+:::::<!--Custom String Listener: Training03_Loop-->
+:::::{{DIcon|Talk}} Describe the scenario for me once more.
+::::::<!--Custom String Listener: Loop03-->
+::::::'''Fidora's Robot:''' Fidora has recently discovered that Balaway is selling several never-before-seen ancient relics at astronomical prices.
+::::::'''Fidora's Robot:''' Fidora wants to buy things, but also wants to save money. At this frustrating juncture, she hopes you can come up with an idea.
+::::::'''Fidora's Robot:''' As her friend, what should I say at such a time?
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} I can split it with you!
+::::::<!--Custom String Listener: TalkSentence_411160144-->
+::::::<!--Custom String Trigger: Trigger7-->
+::::::<!--Custom String Listener: Trigger7-->
+::::::<!--Custom String Trigger: TriggerA-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Save it. How much do you have left in your purse?
+::::::<!--Custom String Listener: TalkSentence_411160145-->
+::::::<!--Custom String Trigger: Trigger8-->
+::::::<!--Custom String Listener: Trigger8-->
+::::::<!--Custom String Trigger: TriggerB-->
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+:::::{{DIcon|Arrow}} Insufficient funds available.
+::::::<!--Custom String Listener: TalkSentence_411160146-->
+::::::<!--Custom String Trigger: Trigger9-->
+::::::<!--Custom String Listener: Trigger9-->
+::::::<!--Custom String Listener: Trigger6-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::<!--Custom String Trigger: Training03_Finish-->
+::::::<!--Custom String Listener: Training03_Finish-->
+::::::'''Fidora's Robot:''' Learning...
+::::::'''Fidora's Robot:''' Learning complete. Initiating next scenario.
+::::::----
+::::::Using your own style, you help it get through a ton of scenarios...
+::::::'''Fidora:''' You crushed it!
+::::::'''Fidora:''' Thank you! It learned lots of on-the-spot reactions. Perhaps it really can communicate with people normally.
+::::::'''Fidora:''' How is everything going to turn out... I can't wait to see!
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::::::<!--Ends the current performance-->
+::::::<!--Custom String Trigger: 4040116_Finish-->
+::{{DIcon|Exit}} H&mdash;Hang on...
+:::<!--Custom String Listener: TalkSentence_411160123-->
+:::'''Fidora's Robot:''' You can come back here any time to practice. Goodbye!
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011604--> and {{cx}}<!--SubMission not Started: 404011609--> and {{cx}}<!--SubMission Started: 404011603-->)
+:{{DIcon|?}} Interact
+::<!--Trigger PerformanceE 404011604: Config/Level/Mission/4040116/Act/Act404011604.json-->
+::'''Fidora's Robot:''' Training module finished. Please try again later.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011609--> and {{cx}}<!--SubMission not Started: 404011603-->, {{cx}}<!--SubMission Started: 404011604--> and {{cx}}<!--SubMission not Started: 404011609-->, and {{cx}}<!--SubMission Started: 404011603-->)
+:{{DIcon|?}} Interact
+::<!--Trigger PerformanceE 404011609: Config/Level/Mission/4040116/Act/Act404011609.json-->
+:;(If {{cx}}<!--SubMission Started: 404011615-->)
+:::'''Fidora's Robot:''' Hello, I'm Fidora's emotional interactive robot. Nice to meet you!
+:;(If {{cx}}<!--SubMission not Started: 404011615-->)
+::;(If {{cx}}<!--SubMission Started: 404011616-->)
+::::'''Fidora's Robot:''' What are you looking at? Have you never seen a robot before?
+::;(If {{cx}}<!--SubMission not Started: 404011616-->)
+:::;(If {{cx}}<!--SubMission Started: 404011617-->)
+:::::'''Fidora's Robot:''' System prompt: You are standing on an intended travel pathway. Please step aside to avoid any harm.
+:::;(If {{cx}}<!--SubMission not Started: 404011617-->)
+:::::'''Fidora's Robot:''' What are you looking at? █ █ ██ Error, error █ ██ █ Hello, nice to meet you!
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Automaton Beetle
+|zhs  = 自动机兵「甲虫」
+|zht  = 自動機兵「甲蟲」
+|ja   = 自動機兵「ジューク」
+|ko   = 자동 기갑병 「비틀」
+|es   = Escarabajo Autómata
+|fr   = Automate scarabée
+|ru   = Автоматон-жук
+|th   = Automaton Beetle
+|vi   = Cỗ Máy Tự Động "Bọ Cánh Cứng"
+|de   = Automaton: Käfer
+|id   = Automaton Beetle
+|pt   = Autômato Insectoide
+}}
+==Change History==
+{{Change History|TODO}}

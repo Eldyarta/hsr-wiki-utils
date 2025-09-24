@@ -1,0 +1,235 @@
+<%-- [PAGE_INFO]
+PageTitle=#Baroumbrella#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Mushroom"
+|image           = NPC Baroumbrella.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Baroumbrella''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400012}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502018101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502018101.json-->
+::{{A|VO vo ambient w2 greeting yqsan 101.ogg}} {{A|VO vo ambient w2 greeting yqsan 102.ogg}} '''Baroumbrella:''' ...
+::'''Baroumbrella:''' ...
+::'''Baroumbrella:''' Hello.
+::'''Baroumbrella:''' Could you please move over a tad?
+::{{DIcon|Arrow}} Who's talking?
+:::<!--Custom String Listener: TalkSentence_502018106-->
+:::'''Baroumbrella:''' It's me.
+:::'''Baroumbrella:''' Do you also think mushrooms shouldn't talk?
+::{{DIcon|Arrow}} I can... but why?
+:::<!--Custom String Listener: TalkSentence_502018109-->
+:::'''Baroumbrella:''' Because I'm a sunbathing mushroom.
+:::'''Baroumbrella:''' But you blocked off the light.
+:::'''Baroumbrella:''' Do you also think mushrooms shouldn't sunbathe?
+::<!--Custom String Trigger: TalkSentence_502018112-->
+::<!--Custom String Listener: TalkSentence_502018112-->
+::'''Baroumbrella:''' Oh, I'm so sad.
+::{{DIcon|Arrow}} Sorry, I didn't mean to offend...
+:::<!--Custom String Listener: TalkSentence_502018114-->
+:::'''Baroumbrella:''' That's alright.
+:::'''Baroumbrella:''' Nobody cares about how a mushroom feels.
+::{{DIcon|Arrow}} But you're an umbrella.
+:::<!--Custom String Listener: TalkSentence_502018117-->
+:::'''Baroumbrella:''' That's what everyone says.
+::<!--Custom String Trigger: TalkSentence_502018118-->
+::<!--Custom String Listener: TalkSentence_502018118-->
+::'''Baroumbrella:''' People say I'm an "Artisanship Commission's Civil Maintenance Unit Type-A."
+::'''Baroumbrella:''' But I'm a mushroom.
+::'''Baroumbrella:''' Oh, now I feel even sadder.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502018102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502018102.json-->
+::'''Baroumbrella:''' ...
+::'''Baroumbrella:''' ...
+::'''Baroumbrella:''' Do you often talk to mushrooms?
+::'''Baroumbrella:''' Oh, I'm so sad.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 202090102--> and {{cx}}<!--performance 202090102 has been seen-->)
+:{{DIcon|undefined}} Excuse me, are you a mushroom that can write poetry?
+::<!--Trigger PerformanceE 202090102: Config/Level/Mission/2020901/Act/Act202090102.json-->
+::'''Baroumbrella:''' You are asking a mushroom whether it can write poetry.
+::'''Baroumbrella:''' How do you think the mushroom will respond?
+::{{DIcon|Arrow}} "I can't write poetry."
+:::<!--Custom String Listener: TalkSentence_202021404-->
+:::'''Baroumbrella:''' That's right.
+::{{DIcon|Arrow}} "I'm just a mushroom."
+:::<!--Custom String Listener: TalkSentence_202021406-->
+:::'''Baroumbrella:''' That's right.
+::{{DIcon|Arrow}} "I can write poetry. I'm the best at writing poetry!"
+:::<!--Custom String Listener: TalkSentence_202021408-->
+:::'''Baroumbrella:''' ...
+:::'''Baroumbrella:''' Have you really seen this kind of mushroom before?
+::<!--Custom String Trigger: TalkSentence_202021410-->
+::<!--Custom String Listener: TalkSentence_202021410-->
+::'''Gloomy Poet:''' Oh, I feel true pity for this bias of yours that's exclusive to primates belonging to the family hominid and genus homo.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202090102-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502018201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502018201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502018201.json-->
+::'''Baroumbrella:''' No.
+::'''Baroumbrella:''' It's probably because I'm just a mushroom.
+::'''Baroumbrella:''' Mushrooms only care about the ground and not things way up at that kind of altitude.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502018201-->
+;(If {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed and {{cx}}<!--performance 202090147 has been seen--> and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502018201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} Why are you a mushroom again?
+::<!--Trigger PerformanceE 202090147: Config/Level/Mission/2020901/Act/Act202090147.json-->
+::'''Gloomy Poet:''' I've always been a mushroom.
+::'''Gloomy Poet:''' ... Fine, let me explain.
+::'''Gloomy Poet:''' After thinking about it, I think I am more suited for gloominess. Originally, I just wanted Master Cong to format me and be done with everything. But... the experiences I had with you all were also very precious, so I decided not to.
+::'''Gloomy Poet:''' Now, just treat me as a stranger mushroom, and let that be the mutual understanding between us.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202090147-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed and {{cx}}<!--performance 202090147 has been seen-->, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502018201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Have you heard that the Ambrosial Arbor has stopped sprouting?
+::<!--Trigger PerformanceE 502018104: Config/Level/NPCDialogue/P10202/NPCAct/Act502018104.json-->
+::'''Baroumbrella:''' No.
+::'''Baroumbrella:''' I've not heard about it and do not care.
+::'''Baroumbrella:''' I just want to start spinning like a little tornado.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502018104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed and {{cx}}<!--performance 202090147 has been seen-->, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502018201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} I'm curious...
+::<!--Trigger PerformanceE 502018103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502018103.json-->
+::'''Baroumbrella:''' I'll tell you everything I know.
+::'''Baroumbrella:''' Even though I'm just a mushroom.
+::<!--Custom String Trigger: Wait_Option_502018101_38-->
+::<!--Custom String Listener: Wait_Option_502018101_38-->
+::{{DIcon|Talk}} What the heck are you?
+:::<!--Custom String Listener: TalkSentence_502018125-->
+:::'''Baroumbrella:''' I'd call myself a mushroom.
+:::'''Baroumbrella:''' What would you say I am?
+:::{{DIcon|Arrow}} Fine then. You're a mushroom.
+::::<!--Custom String Listener: TalkSentence_502018128-->
+::::'''Baroumbrella:''' Really?
+::::'''Baroumbrella:''' But you sound reluctant.
+::::<!--Custom String Trigger: TalkSentence_502018137-->
+::::<!--Custom String Listener: TalkSentence_502018137-->
+::::'''Baroumbrella:''' Oh, I'm so sad.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You still look like an umbrella to me...
+::::<!--Custom String Listener: TalkSentence_502018131-->
+::::'''Baroumbrella:''' Of course, Mushrooms are shaped like an umbrella.
+::::'''Baroumbrella:''' I think you're a little biased against mushrooms.
+::::<!--Custom String Trigger: TalkSentence_502018137-->
+::::<!--Custom String Listener: TalkSentence_502018137-->
+::::'''Baroumbrella:''' Oh, I'm so sad.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Could you actually be a robot?
+::::<!--Custom String Listener: TalkSentence_502018134-->
+::::'''Baroumbrella:''' Possible.
+::::'''Baroumbrella:''' Maybe I'm a robot mushroom.
+::::'''Baroumbrella:''' Then wouldn't that mean I'm not pure-blooded?
+::::<!--Custom String Trigger: TalkSentence_502018137-->
+::::<!--Custom String Listener: TalkSentence_502018137-->
+::::'''Baroumbrella:''' Oh, I'm so sad.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you here?
+:::<!--Custom String Listener: TalkSentence_502018139-->
+:::'''Baroumbrella:''' Because I'm a failure of a mushroom.
+:::{{DIcon|Arrow}} How did you fail?
+:::{{DIcon|Arrow}} But you're a mushroom...
+:::<!--Custom String Listener: TalkSentence_502018142-->
+:::'''Baroumbrella:''' Do you also think mushrooms shouldn't fail?
+:::'''Baroumbrella:''' Ugh, I'm used to it.
+:::<!--Custom String Trigger: TalkSentence_502018144-->
+:::<!--Custom String Listener: TalkSentence_502018144-->
+:::'''Baroumbrella:''' Actually, I used to have a master.
+:::'''Baroumbrella:''' He was a skilled craftsman at the Artisanship Commission.
+:::'''Baroumbrella:''' My master wants me to help him write poetry.
+:::'''Baroumbrella:''' I said, "but I'm just a mushroom."
+:::{{DIcon|Arrow}} And so you failed.
+::::<!--Custom String Listener: TalkSentence_502018149-->
+::::'''Baroumbrella:''' Yes.
+::::'''Baroumbrella:''' I'm just a mushroom who can't write poems.
+::::<!--Custom String Trigger: TalkSentence_502018157-->
+::::<!--Custom String Listener: TalkSentence_502018157-->
+::::'''Baroumbrella:''' Oh, I'm so sad.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Isn't that poetry?
+::::<!--Custom String Listener: TalkSentence_502018152-->
+::::'''Baroumbrella:''' What is poetry?
+::::'''Baroumbrella:''' I don't understand the first thing about it.
+::::'''Baroumbrella:''' Because I'm a mushroom.
+::::<!--Custom String Trigger: TalkSentence_502018157-->
+::::<!--Custom String Listener: TalkSentence_502018157-->
+::::'''Baroumbrella:''' Oh, I'm so sad.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Sadness overwhelms you...
+::::<!--Custom String Listener: TalkSentence_502018156-->
+::::'''Baroumbrella:''' You've learned how to give quick answers.
+::::<!--Custom String Trigger: TalkSentence_502018157-->
+::::<!--Custom String Listener: TalkSentence_502018157-->
+::::'''Baroumbrella:''' Oh, I'm so sad.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502018159-->
+:::'''Baroumbrella:''' May your path be filled with many mushrooms.
+:::'''Baroumbrella:''' Bye.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502018103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, {{Mission|Poetic Genius Ingenium|showChapter=0}} has been completed and {{cx}}<!--performance 202090147 has been seen-->, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502018201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} So long, mushroom.
+::'''Baroumbrella:''' May your path be filled with many mushrooms.
+::'''Baroumbrella:''' Bye.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Baroumbrella
+|zhs  = 阴晴伞
+|zht  = 陰晴傘
+|ja   = 晴雲傘
+|ko   = 변덕 우산
+|es   = Detesol
+|fr   = Barombrelle
+|ru   = Фунгизонтик
+|th   = Baroumbrella
+|vi   = Ô Nắng Mưa
+|de   = Baroumbrella
+|id   = Baroumbrella
+|pt   = Chuvismelo
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,359 @@
+<%-- [PAGE_INFO]
+PageTitle=#"Garmentmaker"#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC "Garmentmaker".png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''"Garmentmaker"''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_100_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}})
+:::<!--Trigger PerformanceE 304006006: Config/Level/Mission/3040060/Act/Act304006006.json-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}})
+::::'''Cheerful Garmentmaker:''' Hello, dear guest. How have you been getting on with things?
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}})
+::::'''Cheerful Garmentmaker:''' Esteemed guest, there are no more nymphs left here &mdash; you're just too amazing!
+::::'''Cheerful Garmentmaker:''' There should be still more nymphs elsewhere. Why not lend a hand to my fellow Garmentmakers? Allow me to thank you on their behalf!
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}})
+::;(First interaction)
+::::<!--Trigger PerformanceE 304006005: Config/Level/Mission/3040060/Act/Act304006005.json-->
+::::'''Cheerful Garmentmaker:''' The sunlight has not yet faded from Janusopolis... How charming it is. Thanks to you, I'm able to witness this view with my own eyes.
+::::'''Cheerful Garmentmaker:''' Pity. I am but a Garmentmaker, not Lady Aglaea herself. Were she here, she'd surely have more to say.
+::::{{DIcon|Arrow}} You speak differently.
+::::{{DIcon|Arrow}} Do Garmentmakers have self-awareness?
+::::<!--Custom String Listener: TalkSentence_304006405-->
+::::'''Cheerful Garmentmaker:''' I apologize if I startled you, dear guest. It wasn't intentional... Compared to other Garmentmakers, I have indeed been imbued with a greater degree of soul essence.
+::::'''Cheerful Garmentmaker:''' This place is far too removed from the era we once lived in. Even Lady Aglaea's golden threads cannot reach it. To better fulfill my tasks, I must possess autonomous judgment.
+::::'''Cheerful Garmentmaker:''' Aside from myself, other Garmentmakers have also received this blessing &mdash; the Scribe Garmentmaker for instance. We inherited certain talents from Lady Aglaea...
+::::'''Cheerful Garmentmaker:''' Ah, it seems I've said too much. Let us return to the matter at hand, dear guest.
+::;(Subsequent interactions)
+::::<!--Trigger PerformanceE 304006006: Config/Level/Mission/3040060/Act/Act304006006.json-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}})
+:::::'''Cheerful Garmentmaker:''' Hello, dear guest. How have you been getting on with things?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}})
+:::::'''Cheerful Garmentmaker:''' Esteemed guest, there are no more nymphs left here &mdash; you're just too amazing!
+:::::'''Cheerful Garmentmaker:''' There should be still more nymphs elsewhere. Why not lend a hand to my fellow Garmentmakers? Allow me to thank you on their behalf!
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} I have gathered all the nymphs here.
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Cheerful Garmentmaker:''' Marvelous, esteemed guest! And now, I shall begin to unfurl one of the many prophecies.
+:::::'''Cheerful Garmentmaker:''' Let me see... "Beneath the Worshiper's Footpath, the worshiped one departs."
+:::::'''Cheerful Garmentmaker:''' This drawing... could it be some kind of ritual? I don't quite get it...
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}],"Inverse":true}-->}})
+:::::'''Cheerful Garmentmaker:''' Let me see... eh? You actually managed to obtain the slate already? Esteemed guest, you're absolutely incredible!
+:::::'''Cheerful Garmentmaker:''' As expected, true heroes don't need prophecies to find their own path. You've been a great help!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200608
+			}
+		}
+	]
+}</pre>
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}},"Inverse":true}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon}} Can you give me some hints?
+::::'''Cheerful Garmentmaker:''' Hmm, if I were to take a stab at it... this looks like it depicts a location. And these numbers... they might mean something.
+::::'''Cheerful Garmentmaker:''' Sorry, that's all I've got... I'm not the smartest Garmentmaker.
+::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200608}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}})
+:{{DIcon|undefined}} Where are the uncollected nymphs?
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":16}},"Inverse":true}-->}})
+:::::'''Cheerful Garmentmaker:''' I can follow the golden thread to ascertain their whereabouts, but consumes {{Color|keyword|nobold=1|Memory Crystal Shards}} in order to do so.
+:::::{{DIcon|Arrow}} Provide Memory Crystal Shards.
+::::::<!--Custom String Listener: Wait_Option_304006007_118-->
+:::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 16
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 304006604
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 16
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 101
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006605
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 102
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006606
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 103
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006607
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 104
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006608
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 105
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006609
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 106
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006610
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 107
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006611
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 108
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006612
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 109
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006613
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 110
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 304006614
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_304006616"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+:::::{{DIcon|Arrow}} Nope~
+::::::<!--Custom String Listener: TalkSentence_304006616-->
+::::::'''Cheerful Garmentmaker:''' Hmm... I cannot provide their services if you have no Memory Crystal Shards... Come again another time, dear guest.
+::::::<!--Custom String Trigger: TalkSentence_304006617-->
+::::::<!--Custom String Listener: TalkSentence_304006617-->
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":16}},"Inverse":true}-->}})
+:::::'''Cheerful Garmentmaker:''' You're truly diligent, dear guest. Even though I've already revealed the location of one nymph, perhaps we shouldn't push ourselves too hard? Take your time...
+::::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I'll get back to work.
+::::'''Cheerful Garmentmaker:''' Thank you, and don't wear yourself out.
+::::<!--Ends the current performance-->
+::<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "6127"
+	}
+}</pre>
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+:;(If [[Fate's Ensemble]] is active)
+:::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+:::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+:;(If [[Fate's Ensemble]] is active)
+:::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Garmentmaker"
+|zhs  = 「衣匠」
+|zht  = 「衣匠」
+|ja   = 「ラフトラ」
+|ko   = 「의상공」
+|es   = Sastre
+|fr   = Costumière
+|ru   = Швея
+|th   = "หุ่นตัดชุด"
+|vi   = Thợ May
+|de   = Kleidermacherin
+|id   = "Garmentmaker"
+|pt   = "Confeccionadora"
+}}
+==Change History==
+{{Change History|TODO}}

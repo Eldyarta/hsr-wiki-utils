@@ -1,0 +1,178 @@
+<%-- [PAGE_INFO]
+PageTitle=#Guangda#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Realm-Keeping Orderly
+|image           = NPC Guangda.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Guangda''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400015}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502025101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502025101.json-->
+::'''Guangda:''' Ah, two centuries passed, and then two centuries more... If I don't get my promotion, I'll undergo my hatching rebirth soon...
+::{{DIcon|Arrow}} Promotion?
+:::<!--Custom String Listener: TalkSentence_502025103-->
+:::'''Guangda:''' Yeah. In one of our lifetimes, Vidyadhara have to serve as officers or clerks so we get a taste of what it's like to be a public servant, right?
+::{{DIcon|Arrow}} That's a real shame.
+:::<!--Custom String Listener: TalkSentence_502025105-->
+:::'''Guangda:''' Sure is. Unfortunately, we're the only ones who think it's a real shame. If only management felt the same way.
+::{{DIcon|Arrow}} In your next life, go all out.
+:::<!--Custom String Listener: TalkSentence_502025107-->
+:::'''Guangda:''' Haha, I'm afraid that I'll be a lowly orderly in my next life. I've started to wonder how exactly things ended up during my previous life.
+::<!--Custom String Trigger: TalkSentence_502025108-->
+::<!--Custom String Listener: TalkSentence_502025108-->
+::'''Guangda:''' Hey, that's enough for now. Let's not linger on such a morose topic.
+::'''Guangda:''' I'm Guangda, a lowly orderly from the Realm-Keeping Commission. If you have any issues to handle, I suggest you visit our Chancery offices...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502025102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502025102.json-->
+::'''Guangda:''' Please head inside the Chancery office for any official business. I'm just a lowly orderly...
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502025301 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Did you notice the Ambrosial Arbor was growing once again?
+::<!--Trigger PerformanceE 502025301: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502025301.json-->
+::'''Guangda:''' How could I miss it!
+::'''Guangda:''' Drop it. The Seat of Divine Foresight put out a mandate demanding that we stand on strict guard duty during this sensitive period of regrowth. We absolutely cannot afford any secondary problems to occur.
+::'''Guangda:''' *sigh* Please don't let there be another accident. Please don't let there be another accident... If anything else happens, they'll take my pension away.
+::'''Guangda:''' ...Or at least, please don't let there be any accidents in my jurisdiction...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502025301-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502025301 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Do you know that the Ambrosial Arbor no longer sprouts?
+::<!--Trigger PerformanceE 502025104: Config/Level/NPCDialogue/P10202/NPCAct/Act502025104.json-->
+::'''Guangda:''' You bet. A couple of days ago, we were asked to appease the public alongside the Cloud Knights.
+::'''Guangda:''' It is tiring, but it's worth it... After working so hard to protect the peace, we can finally loosen up a bit.
+::'''Guangda:''' I can really use a break, and I already have plans in my mind for what I want to do during the vacation... I'll spend a few days going on a trip and enjoying good food... just the thought of it puts me in a good mood.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502025104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502025301 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} I want to chat with you...
+::<!--Trigger PerformanceE 502025103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502025103.json-->
+::'''Guangda:''' As long as we don't talk about work, I'll chat about anything.
+::<!--Custom String Trigger: Wait_Option_502025101_24-->
+::<!--Custom String Listener: Wait_Option_502025101_24-->
+::{{DIcon|Talk}} Do you really work here at the Realm-Keeping Commission?
+:::<!--Custom String Listener: TalkSentence_502025113-->
+:::'''Guangda:''' Haha, is it that obvious?
+:::'''Guangda:''' Actually, I'm one of the armed guards at the Realm-Keeping Commission. There's usually nothing much to do, so I just stand by the door and keep watch.
+:::{{DIcon|Arrow}} Didn't you just say that you were an orderly, though?
+::::<!--Custom String Listener: TalkSentence_502025116-->
+::::'''Guangda:''' Yeah, I thought you'd already forgotten. Haha!
+:::{{DIcon|Arrow}} Where's your weapon, then?
+::::<!--Custom String Listener: TalkSentence_502025118-->
+::::'''Guangda:''' No.
+:::<!--Custom String Trigger: TalkSentence_502025119-->
+:::<!--Custom String Listener: TalkSentence_502025119-->
+:::'''Guangda:''' So... the Realm-Keeping Commission doesn't actually have any armed guards, and I'm just a lowly orderly after all.
+:::{{DIcon|Arrow}} Shame.
+::::<!--Custom String Listener: TalkSentence_502025121-->
+::::'''Guangda:''' I think so too, a real shame.
+::::'''Guangda:''' If you ever get the chance to give us a rating, please can you make this suggestion? That the Realm-Keeping Commission should have some armed guards. Thanks a lot!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What do orderlies do, then?
+::::<!--Custom String Listener: TalkSentence_502025124-->
+::::'''Guangda:''' Hahaha, so you're really interested in that, huh? ...Alright, I'll tell you.
+::::'''Guangda:''' It's really simple, actually. Diplomatically, we say we carry out executive orders. But really, it's just a bunch of menial tasks. We slog through chores, run errands, and get paid the lowest rank of wages...
+::::'''Guangda:''' Do you know this old Xianzhou saying? "Starskiffs need to fly high, but not burn energy"...
+::::'''Guangda:''' ...This saying sums up the life of us orderlies at the Realm-Keeping Commission.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What sort of place is the Realm-Keeping Commission?
+:::<!--Custom String Listener: TalkSentence_502025129-->
+:::'''Guangda:''' Oh, that's a great question. Let me think...
+:::'''Guangda:''' On the surface, we're the department that handles general affairs aboard the Xianzhou. The census, resource allocation, environmental protections, time calibration... We get up to all of these kinds of things.
+:::{{DIcon|Arrow}} Sounds pretty incredible.
+::::<!--Custom String Listener: TalkSentence_502025132-->
+::::'''Guangda:''' To be blunt, it's just a bunch of everyday chores like listening to daily problems, allocating food stocks, cleaning up after people, and notifying the public about the time.
+::::'''Guangda:''' It sounds really lofty and amazing, but...
+::::<!--Custom String Trigger: TalkSentence_502025139-->
+::::<!--Custom String Listener: TalkSentence_502025139-->
+::::'''Guangda:''' Take for example our Chancery. It deals with all kinds of difficult details that people run into in their everyday lives.
+::::'''Guangda:''' It could be as small as the city's appearance, right up to a large civil lawsuit... If you can think of anything that the government should be doing, then come to us.
+::::'''Guangda:''' But I should personally advise you to try solving things first yourself... After all, once all the tasks have been allocated, it's always a lowly orderly like me who has to suffer.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} So what do you actually get up to on the sly, then?
+::::<!--Custom String Listener: TalkSentence_502025135-->
+::::'''Guangda:''' Hold on! I was just about to tell you.
+::::<!--Custom String Trigger: TalkSentence_502025139-->
+::::<!--Custom String Listener: TalkSentence_502025139-->
+::::'''Guangda:''' Take for example our Chancery. It deals with all kinds of difficult details that people run into in their everyday lives.
+::::'''Guangda:''' It could be as small as the city's appearance, right up to a large civil lawsuit... If you can think of anything that the government should be doing, then come to us.
+::::'''Guangda:''' But I should personally advise you to try solving things first yourself... After all, once all the tasks have been allocated, it's always a lowly orderly like me who has to suffer.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I know! More chores, right?
+::::<!--Custom String Listener: TalkSentence_502025137-->
+::::'''Guangda:''' Amazing, you've hit the nail on the head! Have you considered applying for the Divination Commission? They should get paid better than we do.
+::::'''Guangda:''' Haha, just kidding. Let me continue telling you what we get up to &mdash; after all, that's also part of our job...
+::::<!--Custom String Trigger: TalkSentence_502025139-->
+::::<!--Custom String Listener: TalkSentence_502025139-->
+::::'''Guangda:''' Take for example our Chancery. It deals with all kinds of difficult details that people run into in their everyday lives.
+::::'''Guangda:''' It could be as small as the city's appearance, right up to a large civil lawsuit... If you can think of anything that the government should be doing, then come to us.
+::::'''Guangda:''' But I should personally advise you to try solving things first yourself... After all, once all the tasks have been allocated, it's always a lowly orderly like me who has to suffer.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Nice chat.
+:::<!--Custom String Listener: TalkSentence_502025143-->
+:::'''Guangda:''' Take care. I'd better get back to it...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502025103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502025301 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I'm heading off, then.
+::'''Guangda:''' Take care. I'd better get back to it...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Guangda
+|zhs  = 广大
+|zht  = 廣大
+|ja   = 広大
+|ko   = 광태
+|es   = Guangda
+|fr   = Guangda
+|ru   = Гуанда
+|th   = Guangda
+|vi   = Guangda
+|de   = Guangda
+|id   = Guangda
+|pt   = Guangda
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,95 @@
+<%-- [PAGE_INFO]
+PageTitle=#Singler#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Investigative Journalist
+|image           = NPC Singler.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Singler''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_629_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051003: Config/Level/Mission/5030510/Act/Act503051003.json-->
+::----
+::'''Singler:''' ...You want to talk with me? Of course, the atmosphere is very relaxed, it's perfect for talking about what's on your mind.
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051033-->
+::----
+::----
+::'''Singler:''' As you invited me to talk, you should probably start?
+::{{DIcon|Arrow}} I want to know what you think about this lounge.
+:::<!--Custom String Listener: TalkSentence_503051035-->
+:::'''Singler:''' I like it a lot! I fear there is nowhere else in the Dreamscape that you can find a place with such a... human touch.
+:::'''Singler:''' It may just be monsters that live here, but they're a lot kinder and friendly than those visitors. They're a lot warmer than that harmony-touting family, too!
+:::'''Singler:''' If you want somewhere that can really help you relax, you won't find better than here.
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051039-->
+:::'''Singler:''' ...You? That's a real direct way of speaking to someone you're chatting with. You really don't seem to grasp the concept of taking it slow.
+:::'''Singler:''' From what I have learned in this lounge, both the owner and the monsters seem to trust you a lot. This means that you are at least a kind person, you don't just see them as things you can order around as you please.
+:::'''Singler:''' Your empathy already makes you far better than the people drowning in this Dreamscape and only seeking to indulge in fun. I think you are quite outstanding &mdash; It's not flattery. I really do this so.
+::----
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051006: Config/Level/Mission/5030510/Act/Act503051006.json-->
+::----
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+::----
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Singler
+|zhs  = 辛格勒
+|zht  = 辛格勒
+|ja   = シングラー
+|ko   = 싱글러
+|es   = Singler
+|fr   = Singler
+|ru   = Синглер
+|th   = Singler
+|vi   = Singler
+|de   = Singler
+|id   = Singler
+|pt   = Singler
+}}
+==Change History==
+{{Change History|TODO}}

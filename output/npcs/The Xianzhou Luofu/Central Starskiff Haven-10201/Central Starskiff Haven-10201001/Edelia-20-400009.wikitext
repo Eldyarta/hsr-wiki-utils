@@ -1,0 +1,215 @@
+<%-- [PAGE_INFO]
+PageTitle=#Edelia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Tourist of Xianzhou
+|image           = NPC Edelia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Edelia''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_20_400009}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Edelia:''' Sure, a casual chat it is then. It's not like I've got anywhere else to be.
+:<!--Custom String Trigger: Wait_Option_502011702_473-->
+:<!--Custom String Listener: Wait_Option_502011702_473-->
+:{{DIcon|Talk}} Did you get any information on immortality?
+::<!--Custom String Listener: TalkSentence_502117103-->
+::'''Edelia:''' ...You sure ask hard-hitting questions. Xianzhou has rules &mdash; we should not be talking about this in public.
+::'''Edelia:''' Then again, this isn't some clandestine secret. Do you realize how much of an eyecatcher the Ambrosial Arbor is? Anyone can find high ground on the Xianzhou Luofu and see it clear as day.
+::'''Edelia:''' Even if everyone's traps are sealed shut, that giant Ambrosial Arbor won't stay silent. It will soon tell us what the secret is. The Jade Gate's closure is the first clue.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you do to make money now?
+::<!--Custom String Listener: TalkSentence_502117107-->
+::'''Edelia:''' Once the boss of the Petrichor Inn knew of my plight, they promised to introduce some jobs to me.
+::'''Edelia:''' An Outworlder business owner had me write fake comments for short videos as a part-time gig. It was simple and entry-level, so I gave it a shot.
+::'''Edelia:''' Under each video, I wrote, "Children love this, great for sensitive skin too." I did that for LOTS of videos.
+::'''Edelia:''' In the end, that business owner was taken away by the Realm-Keeping Commission, and I didn't get paid. All that work down the drain.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What plans do you have next?
+::<!--Custom String Listener: TalkSentence_502117112-->
+::'''Edelia:''' Next? No different from now, I guess. Doing menial jobs, and just waiting. I feel that this puzzle to immortality is like trying to contain fire with paper &mdash; it can't be kept under wraps forever...
+::'''Edelia:''' Perhaps I'll get the chance to become long-life species. I can still make my decision when that time comes... then again, Xianzhou might not necessarily let me leave then.
+::{{DIcon|Arrow}} Why do you want to become immortal?
+:::<!--Custom String Listener: TalkSentence_502117115-->
+:::'''Edelia:''' You say it like you were not interested in immortality at all.
+:::<!--Custom String Trigger: TalkSentence_502117118-->
+:::<!--Custom String Listener: TalkSentence_502117118-->
+:::'''Edelia:''' I have witnessed the vastness of the cosmos. One lifetime is too short to satisfy my curiosity.
+:::'''Edelia:''' If I had infinite life, I would travel through the entirety of the universe. You get that, don't you?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I don't think I'll ever get that chance.
+:::<!--Custom String Listener: TalkSentence_502117117-->
+:::'''Edelia:''' I'm not that obsessed with the notion. If it's really not possible, I'll just leave.
+:::<!--Custom String Trigger: TalkSentence_502117118-->
+:::<!--Custom String Listener: TalkSentence_502117118-->
+:::'''Edelia:''' I have witnessed the vastness of the cosmos. One lifetime is too short to satisfy my curiosity.
+:::'''Edelia:''' If I had infinite life, I would travel through the entirety of the universe. You get that, don't you?
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I have nothing else to ask.
+::<!--Custom String Listener: TalkSentence_502117121-->
+::'''Edelia:''' All right, be careful on your travels. If you find any work I can do, please let me know. If you hear anything about the secret to immortality... you know, don't hog it all.
+::<!--Ends the current performance-->
+:'''Edelia:''' All right, be careful on your travels. If you find any work I can do, please let me know. If you hear anything about the secret to immortality... you know, don't hog it all.
+:<!--Ends the current performance-->
+:'''Edelia:''' I've heard from the Petrichor Inn owner that this shop used to be called the "Cloud-Striding Hotel for Travelers Near and Far," and it eventually went out of business because its name was such a mouthful.
+:'''Edelia:''' The Xianzhou natives love attributing past events to trivial matters to show that "everything is in the details," but I reserve my judgment for that.
+:'''Edelia:''' I've heard plenty of gossip, but nothing about the secret to immortality... Why are you talking about these? Do you have business with me?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000061: Config/Level/NPC/W2/NPC_DefaultStory_502011701.json-->
+::'''Edelia:''' *sigh* My travel expenses can be reimbursed. It's the expenses that can't be reimbursed that annoy me. Am I going to have to moonlight even when I have a proper job...?
+::'''Edelia:''' Heh, are you stranded on Xianzhou just like me?
+::{{DIcon|Arrow}} Indeed.
+:::<!--Custom String Listener: TalkSentence_502117004-->
+:::'''Edelia:''' I knew it! I have something to ask you...
+::{{DIcon|Arrow}} I am a true Xianzhou native, born and raised!
+:::<!--Custom String Listener: TalkSentence_502117006-->
+:::'''Edelia:''' You've got "Outworlder" written all over your face. Jokes aside, I have something to ask you...
+::<!--Custom String Trigger: TalkSentence_502117007-->
+::<!--Custom String Listener: TalkSentence_502117007-->
+::'''Edelia:''' Oh, I forgot to introduce myself. I am Edelia. I came to Xianzhou as a commercial legal adviser on a business trip, and am stranded here for a while.
+::'''Edelia:''' I wanna ask if there is a way for Outworlders to make a living here? Rather, how do you usually earn money?
+::<!--Custom String Trigger: Wait_Option_502011701_445-->
+::<!--Custom String Listener: Wait_Option_502011701_445-->
+::{{DIcon|Arrow}} I have someone on Xianzhou...
+:::<!--Custom String Listener: TalkSentence_502117010-->
+:::'''Edelia:''' Someone? You mean to say you have a friend on Xianzhou who can transfer money to you?
+:::'''Edelia:''' Wonderful! I always hear the Xianzhou natives say "even across the heavens, the like-minded cross paths." This must be it.
+::{{DIcon|Arrow}} I mainly work as a grunt...
+:::<!--Custom String Listener: TalkSentence_502117013-->
+:::'''Edelia:''' I see. You are an individual of labor too... But it's hard to find even the most menial of jobs now.
+::{{DIcon|Arrow}} I actually have more wealth than you can imagine.
+:::<!--Custom String Listener: TalkSentence_502117015-->
+:::'''Edelia:''' Oh, is that so? I should've known better than to ask you...
+::<!--Custom String Trigger: TalkSentence_502117016-->
+::<!--Custom String Listener: TalkSentence_502117016-->
+::'''Edelia:''' I was dispatched to Xianzhou because of work, but have been unable to leave since the Jade Gate's closure... That's the main reason for my situation.
+::'''Edelia:''' But I've changed my mind after hearing certain information, and am not in a hurry to leave now... A secret that everyone is interested in is hiding in Xianzhou. Surely you know this, even as an Outworlder?
+::<!--Custom String Trigger: Wait_Option_502011701_456-->
+::<!--Custom String Listener: Wait_Option_502011701_456-->
+::{{DIcon|Arrow}} Immortality?
+:::<!--Custom String Listener: TalkSentence_502117019-->
+:::'''Edelia:''' Shh! This isn't something that should be casually discussed in front of an inn.
+::{{DIcon|Arrow}} I don't get your drift. Please elaborate.
+:::<!--Custom String Listener: TalkSentence_502117021-->
+:::'''Edelia:''' *sigh* You sure know how to play dumb. Then again... it's not something to be discussed openly here.
+::<!--Custom String Trigger: TalkSentence_502117022-->
+::<!--Custom String Listener: TalkSentence_502117022-->
+::'''Edelia:''' Outworlders who covet immortality will be... peacefully deported by the Sky-Faring Commission. Hardened offenders will face prison time.
+::'''Edelia:''' Here, this is for you. To keep your mouth shut. Don't breathe a word of this to anyone.
+::'''Edelia:''' I'll have to find something to do later to stay longer on Xianzhou. Do you have anything else to ask?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000062: Config/Level/NPC/W2/NPC_DefaultStory_502011704.json-->
+::'''Edelia:''' I've heard from the Petrichor Inn owner that this shop used to be called the "Cloud-Striding Hotel for Travelers Near and Far," and it eventually went out of business because its name was such a mouthful.
+::'''Edelia:''' The Xianzhou natives love attributing past events to trivial matters to show that "everything is in the details," but I reserve my judgment for that.
+::'''Edelia:''' I've heard plenty of gossip, but nothing about the secret to immortality... Why are you talking about these? Do you have business with me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Just a casual chat.
+::'''Edelia:''' Sure, a casual chat it is then. It's not like I've got anywhere else to be.
+::<!--Custom String Trigger: Wait_Option_502011702_473-->
+::<!--Custom String Listener: Wait_Option_502011702_473-->
+::{{DIcon|Talk}} Did you get any information on immortality?
+:::<!--Custom String Listener: TalkSentence_502117103-->
+:::'''Edelia:''' ...You sure ask hard-hitting questions. Xianzhou has rules &mdash; we should not be talking about this in public.
+:::'''Edelia:''' Then again, this isn't some clandestine secret. Do you realize how much of an eyecatcher the Ambrosial Arbor is? Anyone can find high ground on the Xianzhou Luofu and see it clear as day.
+:::'''Edelia:''' Even if everyone's traps are sealed shut, that giant Ambrosial Arbor won't stay silent. It will soon tell us what the secret is. The Jade Gate's closure is the first clue.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you do to make money now?
+:::<!--Custom String Listener: TalkSentence_502117107-->
+:::'''Edelia:''' Once the boss of the Petrichor Inn knew of my plight, they promised to introduce some jobs to me.
+:::'''Edelia:''' An Outworlder business owner had me write fake comments for short videos as a part-time gig. It was simple and entry-level, so I gave it a shot.
+:::'''Edelia:''' Under each video, I wrote, "Children love this, great for sensitive skin too." I did that for LOTS of videos.
+:::'''Edelia:''' In the end, that business owner was taken away by the Realm-Keeping Commission, and I didn't get paid. All that work down the drain.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What plans do you have next?
+:::<!--Custom String Listener: TalkSentence_502117112-->
+:::'''Edelia:''' Next? No different from now, I guess. Doing menial jobs, and just waiting. I feel that this puzzle to immortality is like trying to contain fire with paper &mdash; it can't be kept under wraps forever...
+:::'''Edelia:''' Perhaps I'll get the chance to become long-life species. I can still make my decision when that time comes... then again, Xianzhou might not necessarily let me leave then.
+:::{{DIcon|Arrow}} Why do you want to become immortal?
+::::<!--Custom String Listener: TalkSentence_502117115-->
+::::'''Edelia:''' You say it like you were not interested in immortality at all.
+::::<!--Custom String Trigger: TalkSentence_502117118-->
+::::<!--Custom String Listener: TalkSentence_502117118-->
+::::'''Edelia:''' I have witnessed the vastness of the cosmos. One lifetime is too short to satisfy my curiosity.
+::::'''Edelia:''' If I had infinite life, I would travel through the entirety of the universe. You get that, don't you?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I don't think I'll ever get that chance.
+::::<!--Custom String Listener: TalkSentence_502117117-->
+::::'''Edelia:''' I'm not that obsessed with the notion. If it's really not possible, I'll just leave.
+::::<!--Custom String Trigger: TalkSentence_502117118-->
+::::<!--Custom String Listener: TalkSentence_502117118-->
+::::'''Edelia:''' I have witnessed the vastness of the cosmos. One lifetime is too short to satisfy my curiosity.
+::::'''Edelia:''' If I had infinite life, I would travel through the entirety of the universe. You get that, don't you?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have nothing else to ask.
+:::<!--Custom String Listener: TalkSentence_502117121-->
+:::'''Edelia:''' All right, be careful on your travels. If you find any work I can do, please let me know. If you hear anything about the secret to immortality... you know, don't hog it all.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Now that the crisis is over, have you found a job?
+::<!--Trigger PerformanceE 90000135: Config/Level/NPCDialogue/P10202/NPCAct/Act90000135.json-->
+::'''Edelia:''' Can you not bring that up... If you ask me, I'd say the impact of the Arbor is quite significant. The crisis might be over, but many Xianzhou business owners haven't shaken it off just yet.
+::'''Edelia:''' As long-life species, they can afford to rest for years, but it's different for us Outworlders... There are many odd jobs available out there, but I'd prefer something more stable. That way, I can stay on Xianzhou for a longer time!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000135-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I have nothing else to ask.
+::'''Edelia:''' All right, be careful on your travels. If you find any work I can do, please let me know. If you hear anything about the secret to immortality... you know, don't hog it all.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Edelia
+|zhs  = 艾德嘉
+|zht  = 艾德嘉
+|ja   = エディア
+|ko   = 에델리아
+|es   = Edelia
+|fr   = Edelia
+|ru   = Эделия
+|th   = Edelia
+|vi   = Edelia
+|de   = Edelia
+|id   = Edelia
+|pt   = Edelia
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,295 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sushang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Sushang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Sushang''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_219_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 102040304: Config/Level/Mission/1020403/Act/Act102040304.json-->
+::{{A|VO chapter2 Ag1 sushang 105.ogg}} '''Sushang:''' Silent but deadly... are you sure that nickname isn't annoying you?
+::{{DIcon|Arrow}} Not at all.
+:::<!--Custom String Listener: TalkSentence_102040365-->
+:::{{A|VO chapter2 Ag1 sushang 106.ogg}} '''Sushang:''' Huh, I should learn to be this easygoing...
+::{{DIcon|Arrow}} I don't mind.
+:::<!--Custom String Listener: TalkSentence_102040367-->
+:::{{A|VO chapter2 Ag1 sushang 107.ogg}} '''Sushang:''' It's good to have a sense of humor!
+::{{DIcon|Arrow}} (Remain Silent)
+:::<!--Custom String Listener: TalkSentence_102040369-->
+:::{{A|VO chapter2 Ag1 sushang 108.ogg}} '''Sushang:''' *sigh* ...I mean, you're kinda living up to the first bit right now.
+:::{{A|VO chapter2 Ag1 sushang 109.ogg}} '''Sushang:''' We can move out any time. Let me know when you're ready.
+::<!--Custom String Trigger: Wait_Option_102040304_18-->
+::<!--Custom String Listener: Wait_Option_102040304_18-->
+::{{DIcon|!}} Let's go.
+:::<!--Custom String Listener: 102040304_end-->
+:::----
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to ask something...
+:::<!--Custom String Listener: TalkSentence_102040373-->
+:::{{A|VO chapter2 Ag1 sushang 110.ogg}} '''Sushang:''' Hmm? Go ahead. I'll tell you everything I know~
+:::<!--Custom String Trigger: Wait_Option_102040304_22-->
+:::<!--Custom String Listener: Wait_Option_102040304_22-->
+:::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::<!--Custom String Listener: TalkSentence_102040375-->
+::::{{A|VO chapter2 Ag1 sushang 111.ogg}} '''Sushang:''' I heard they found an Antimatter Legion bomb... Out of safety, they locked down the entire ship. They'll only re-open it after they've removed the bomb... I don't know if all that's true, though.
+::::{{A|VO chapter2 Ag1 sushang 112.ogg}} '''Sushang:''' Anyway, the higher-ups didn't say anything &mdash; they just got me to evacuate the civilians at Cloudford.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Had you met this Luocha before?
+::::<!--Custom String Listener: TalkSentence_102040378-->
+::::{{A|VO chapter2 Ag1 sushang 113.ogg}} '''Sushang:''' Nope, I met him when I met you.
+::::{{A|VO chapter2 Ag1 sushang 114.ogg}} '''Sushang:''' But now that you mention it... maybe I did see him somewhere? He seems a bit familiar...
+::::{{A|VO chapter2 Ag1 sushang 115.ogg}} '''Sushang:''' Where would that have been...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040304_18-->
+::::{{DIcon|!}} Let's go.
+:::::<!--Custom String Listener: 102040304_end-->
+:::::----
+:::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Let's talk about you.
+:::::<!--Custom String Listener: TalkSentence_102040383-->
+:::::{{A|VO chapter2 Ag1 sushang 116.ogg}} '''Sushang:''' Me? There's not much to talk about...
+:::::<!--Custom String Trigger: Wait_Option_102040304_34-->
+:::::<!--Custom String Listener: Wait_Option_102040304_34-->
+:::::{{DIcon|Talk}} When did you join the Cloud Knights?
+::::::<!--Custom String Listener: TalkSentence_102040385-->
+::::::{{A|VO chapter2 Ag1 sushang 117.ogg}} '''Sushang:''' Not that long ago... but I've been receiving strict Cloud Knight military training since I was a child!
+::::::{{A|VO chapter2 Ag1 sushang 118.ogg}} '''Sushang:''' My parents are both famous on the Yaoqing! I wouldn't be here otherwise. They've been training me ever since I was born!
+::::::{{A|VO chapter2 Ag1 sushang 119.ogg}} '''Sushang:''' Don't look down on me just because I'm a new recruit~
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} You're from the Yaoqing?
+::::::<!--Custom String Listener: TalkSentence_102040389-->
+::::::{{A|VO chapter2 Ag1 sushang 120.ogg}} '''Sushang:''' Yep. Have you been there before?
+::::::{{A|VO chapter2 Ag1 sushang 121.ogg}} '''Sushang:''' I think the Yaoqing and the Luofu have different characteristics. I might be a Luofu Cloud Knight now, but I still think the Yaoqing is better... For example, when it comes to leadership, I don't think General Jing Yuan is as reliable as our madam general back on the Yaoqing...
+::::::{{A|VO chapter2 Ag1 sushang 122.ogg}} '''Sushang:''' Uh, a&mdash;actually, forget about that last sentence. Just pretend I never said it.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Let me have a think first...
+:::::<!--Custom String Listener: TalkSentence_102040394-->
+:::::{{A|VO chapter2 Ag1 sushang 123.ogg}} '''Sushang:''' Okay, but think fast.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Let's talk about you.
+:::<!--Custom String Listener: TalkSentence_102040383-->
+:::{{A|VO chapter2 Ag1 sushang 116.ogg}} '''Sushang:''' Me? There's not much to talk about...
+:::<!--Custom String Trigger: Wait_Option_102040304_34-->
+:::<!--Custom String Listener: Wait_Option_102040304_34-->
+:::{{DIcon|Talk}} When did you join the Cloud Knights?
+::::<!--Custom String Listener: TalkSentence_102040385-->
+::::{{A|VO chapter2 Ag1 sushang 117.ogg}} '''Sushang:''' Not that long ago... but I've been receiving strict Cloud Knight military training since I was a child!
+::::{{A|VO chapter2 Ag1 sushang 118.ogg}} '''Sushang:''' My parents are both famous on the Yaoqing! I wouldn't be here otherwise. They've been training me ever since I was born!
+::::{{A|VO chapter2 Ag1 sushang 119.ogg}} '''Sushang:''' Don't look down on me just because I'm a new recruit~
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You're from the Yaoqing?
+::::<!--Custom String Listener: TalkSentence_102040389-->
+::::{{A|VO chapter2 Ag1 sushang 120.ogg}} '''Sushang:''' Yep. Have you been there before?
+::::{{A|VO chapter2 Ag1 sushang 121.ogg}} '''Sushang:''' I think the Yaoqing and the Luofu have different characteristics. I might be a Luofu Cloud Knight now, but I still think the Yaoqing is better... For example, when it comes to leadership, I don't think General Jing Yuan is as reliable as our madam general back on the Yaoqing...
+::::{{A|VO chapter2 Ag1 sushang 122.ogg}} '''Sushang:''' Uh, a&mdash;actually, forget about that last sentence. Just pretend I never said it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040304_18-->
+::::{{DIcon|!}} Let's go.
+:::::<!--Custom String Listener: 102040304_end-->
+:::::----
+:::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} I'd like to ask something...
+:::::<!--Custom String Listener: TalkSentence_102040373-->
+:::::{{A|VO chapter2 Ag1 sushang 110.ogg}} '''Sushang:''' Hmm? Go ahead. I'll tell you everything I know~
+:::::<!--Custom String Trigger: Wait_Option_102040304_22-->
+:::::<!--Custom String Listener: Wait_Option_102040304_22-->
+:::::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::::<!--Custom String Listener: TalkSentence_102040375-->
+::::::{{A|VO chapter2 Ag1 sushang 111.ogg}} '''Sushang:''' I heard they found an Antimatter Legion bomb... Out of safety, they locked down the entire ship. They'll only re-open it after they've removed the bomb... I don't know if all that's true, though.
+::::::{{A|VO chapter2 Ag1 sushang 112.ogg}} '''Sushang:''' Anyway, the higher-ups didn't say anything &mdash; they just got me to evacuate the civilians at Cloudford.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Had you met this Luocha before?
+::::::<!--Custom String Listener: TalkSentence_102040378-->
+::::::{{A|VO chapter2 Ag1 sushang 113.ogg}} '''Sushang:''' Nope, I met him when I met you.
+::::::{{A|VO chapter2 Ag1 sushang 114.ogg}} '''Sushang:''' But now that you mention it... maybe I did see him somewhere? He seems a bit familiar...
+::::::{{A|VO chapter2 Ag1 sushang 115.ogg}} '''Sushang:''' Where would that have been...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Let me have a think first...
+:::::<!--Custom String Listener: TalkSentence_102040394-->
+:::::{{A|VO chapter2 Ag1 sushang 123.ogg}} '''Sushang:''' Okay, but think fast.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Let me have a think first...
+:::<!--Custom String Listener: TalkSentence_102040394-->
+:::{{A|VO chapter2 Ag1 sushang 123.ogg}} '''Sushang:''' Okay, but think fast.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 102040314: Config/Level/Mission/1020403/Act/Act102040314.json-->
+::{{A|VO chapter2 Ag1 sushang 124.ogg}} '''Sushang:''' Well? Can we move out?
+::<!--Custom String Trigger: Wait_Option_102040314_10-->
+::<!--Custom String Listener: Wait_Option_102040314_10-->
+::{{DIcon|!}} Let's go.
+:::<!--Custom String Listener: 102040304_end-->
+:::----
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to ask...
+:::<!--Custom String Listener: TalkSentence_102040398-->
+:::{{A|VO chapter2 Ag1 sushang 110.ogg}} '''Sushang:''' Hmm? Go ahead. I'll tell you everything I know~
+:::<!--Custom String Trigger: Wait_Option_102040314_14-->
+:::<!--Custom String Listener: Wait_Option_102040314_14-->
+:::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::<!--Custom String Listener: TalkSentence_102040400-->
+::::{{A|VO chapter2 Ag1 sushang 111.ogg}} '''Sushang:''' I heard that they found an Antimatter Legion bomb, and the entire Luofu needs to be locked down for safety's sake. They'll only re-open after they've removed the bomb... I don't know if that's true.
+::::{{A|VO chapter2 Ag1 sushang 112.ogg}} '''Sushang:''' Anyways, the higher-ups didn't say anything. They just got me to come evacuate the civilians in Cloudford.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you know this man, Luocha?
+::::<!--Custom String Listener: TalkSentence_102040403-->
+::::{{A|VO chapter2 Ag1 sushang 113.ogg}} '''Sushang:''' Nope. I met him and you at the same time.
+::::{{A|VO chapter2 Ag1 sushang 114.ogg}} '''Sushang:''' But now that you've asked... maybe I did see him somewhere? He seems a bit familiar...
+::::{{A|VO chapter2 Ag1 sushang 115.ogg}} '''Sushang:''' Where would it be...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040314_10-->
+::::{{DIcon|!}} Let's go.
+:::::<!--Custom String Listener: 102040304_end-->
+:::::----
+:::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Let's talk about you.
+:::::<!--Custom String Listener: TalkSentence_102040408-->
+:::::{{A|VO chapter2 Ag1 sushang 116.ogg}} '''Sushang:''' Me? There's not much to talk about...
+:::::<!--Custom String Trigger: Wait_Option_102040314_26-->
+:::::<!--Custom String Listener: Wait_Option_102040314_26-->
+:::::{{DIcon|Talk}} When did you join the Cloud Knights?
+::::::<!--Custom String Listener: TalkSentence_102040410-->
+::::::{{A|VO chapter2 Ag1 sushang 117.ogg}} '''Sushang:''' Not that long ago... but I've been receiving strict Cloud Knight military training since I was a child!
+::::::{{A|VO chapter2 Ag1 sushang 118.ogg}} '''Sushang:''' My parents are both famous on the Yaoqing! ...I wouldn't be here otherwise. They've been training me ever since I was born!
+::::::{{A|VO chapter2 Ag1 sushang 119.ogg}} '''Sushang:''' Don't look down on me just because I'm a new recruit~
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} You're from the Yaoqing?
+::::::<!--Custom String Listener: TalkSentence_102040414-->
+::::::{{A|VO chapter2 Ag1 sushang 120.ogg}} '''Sushang:''' Yep. Have you been there before?
+::::::{{A|VO chapter2 Ag1 sushang 121.ogg}} '''Sushang:''' I feel the Yaoqing and the Luofu have different characteristics. I might be a Luofu Cloud Knight now, but I still think the Yaoqing is better... For example, when it comes to leadership, I don't feel General Jing Yuan is as reliable as our madam general back on the Yaoqing...
+::::::{{A|VO chapter2 Ag1 sushang 122.ogg}} '''Sushang:''' Um, actually, forget about that last sentence. Just pretend I never said it.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} One second.
+:::::<!--Custom String Listener: TalkSentence_102040419-->
+:::::{{A|VO chapter2 Ag1 sushang 146.ogg}} '''Sushang:''' Okay. Please be quick!
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Let's talk about you.
+:::<!--Custom String Listener: TalkSentence_102040408-->
+:::{{A|VO chapter2 Ag1 sushang 116.ogg}} '''Sushang:''' Me? There's not much to talk about...
+:::<!--Custom String Trigger: Wait_Option_102040314_26-->
+:::<!--Custom String Listener: Wait_Option_102040314_26-->
+:::{{DIcon|Talk}} When did you join the Cloud Knights?
+::::<!--Custom String Listener: TalkSentence_102040410-->
+::::{{A|VO chapter2 Ag1 sushang 117.ogg}} '''Sushang:''' Not that long ago... but I've been receiving strict Cloud Knight military training since I was a child!
+::::{{A|VO chapter2 Ag1 sushang 118.ogg}} '''Sushang:''' My parents are both famous on the Yaoqing! ...I wouldn't be here otherwise. They've been training me ever since I was born!
+::::{{A|VO chapter2 Ag1 sushang 119.ogg}} '''Sushang:''' Don't look down on me just because I'm a new recruit~
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You're from the Yaoqing?
+::::<!--Custom String Listener: TalkSentence_102040414-->
+::::{{A|VO chapter2 Ag1 sushang 120.ogg}} '''Sushang:''' Yep. Have you been there before?
+::::{{A|VO chapter2 Ag1 sushang 121.ogg}} '''Sushang:''' I feel the Yaoqing and the Luofu have different characteristics. I might be a Luofu Cloud Knight now, but I still think the Yaoqing is better... For example, when it comes to leadership, I don't feel General Jing Yuan is as reliable as our madam general back on the Yaoqing...
+::::{{A|VO chapter2 Ag1 sushang 122.ogg}} '''Sushang:''' Um, actually, forget about that last sentence. Just pretend I never said it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I have other questions...
+::::<!--Custom String Listener: Wait_Option_102040314_10-->
+::::{{DIcon|!}} Let's go.
+:::::<!--Custom String Listener: 102040304_end-->
+:::::----
+:::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} I'd like to ask...
+:::::<!--Custom String Listener: TalkSentence_102040398-->
+:::::{{A|VO chapter2 Ag1 sushang 110.ogg}} '''Sushang:''' Hmm? Go ahead. I'll tell you everything I know~
+:::::<!--Custom String Trigger: Wait_Option_102040314_14-->
+:::::<!--Custom String Listener: Wait_Option_102040314_14-->
+:::::{{DIcon|Talk}} How much do you know about the Luofu being sealed off?
+::::::<!--Custom String Listener: TalkSentence_102040400-->
+::::::{{A|VO chapter2 Ag1 sushang 111.ogg}} '''Sushang:''' I heard that they found an Antimatter Legion bomb, and the entire Luofu needs to be locked down for safety's sake. They'll only re-open after they've removed the bomb... I don't know if that's true.
+::::::{{A|VO chapter2 Ag1 sushang 112.ogg}} '''Sushang:''' Anyways, the higher-ups didn't say anything. They just got me to come evacuate the civilians in Cloudford.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Do you know this man, Luocha?
+::::::<!--Custom String Listener: TalkSentence_102040403-->
+::::::{{A|VO chapter2 Ag1 sushang 113.ogg}} '''Sushang:''' Nope. I met him and you at the same time.
+::::::{{A|VO chapter2 Ag1 sushang 114.ogg}} '''Sushang:''' But now that you've asked... maybe I did see him somewhere? He seems a bit familiar...
+::::::{{A|VO chapter2 Ag1 sushang 115.ogg}} '''Sushang:''' Where would it be...
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} One second.
+:::::<!--Custom String Listener: TalkSentence_102040419-->
+:::::{{A|VO chapter2 Ag1 sushang 146.ogg}} '''Sushang:''' Okay. Please be quick!
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_102040419-->
+:::{{A|VO chapter2 Ag1 sushang 146.ogg}} '''Sushang:''' Okay. Please be quick!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sushang
+|zhs  = 素裳
+|zht  = 素裳
+|ja   = 素裳
+|ko   = 소상
+|es   = Sushang
+|fr   = Sushang
+|ru   = Сушан
+|th   = Sushang
+|vi   = Sushang
+|de   = Sushang
+|id   = Sushang
+|pt   = Sushang
+}}
+==Change History==
+{{Change History|TODO}}

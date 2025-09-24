@@ -1,0 +1,167 @@
+<%-- [PAGE_INFO]
+PageTitle=#Turner#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Food Stall Owner
+|image           = NPC Turner.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Turner''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_135_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Turner:''' Ack, look here &mdash; isn't this our old friend (Trailblazer)?
+:'''Turner:''' What's up? Hankering for some local Boulder Town snacks to fill your belly?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404011902-->)
+:{{DIcon|?}} Tell me about this Competitive Eater Championship.
+::<!--Trigger PerformanceE 404011901: Config/Level/Mission/4040119/Act/Act404011901.json-->
+::'''Food Stall Owner:''' ...Oh. I see. That's what you're here for!
+::'''Food Stall Owner:''' Let me lay it out for you. The rules are simple. See these plates of already fried Rock Crabs? As soon as I start the clock, you need to do everything you can to stuff all that crab meat into your mouth. If you get five plates knocked out in twenty seconds, then everything in this stall is free for you to enjoy!
+::'''Food Stall Owner:''' What do you think? Want to give it a go?
+::{{DIcon|Arrow}} Ready.
+:::<!--Custom String Listener: TalkSentence_404011913-->
+:::'''Food Stall Owner:''' That's what I'm talking about! Just looking at you, I can tell you've got confidence to spare! Remember to get a bottle of water. You don't want to choke on a big hunk of crab!
+:::'''Food Stall Owner:''' Come to the front of the stall when you are ready. The challenge will start whenever you want!
+:::----
+:::'''Food Stall Owner:''' Come one, and come all! Feast your eyes on this! We have another brave soul who has come to take on the challenge for the title of Boulder Town's Competitive Eater Champion.
+:::'''Rowdy Diner:''' Do they have what it takes? Their expression at least looks confident.
+:::'''Bystanding Diner:''' You must be joking? Look, {{MC|f=she|m=he}} is as skinny as a bean pole...
+:::'''Food Stall Owner:''' ...Courageous challenger, tell us, what is your name?
+:::{{DIcon|Arrow}} (Trailblazer).
+::::<!--Custom String Listener: TalkSentence_404011923-->
+::::'''Food Stall Owner:''' (Trailblazer) &mdash; remember this name. In just a moment, {{MC|f=she|m=he}} could very well be Boulder Town's Competitive Eater Champion worthy of our admiration!
+:::{{DIcon|Arrow}} (Thinks for a moment) ...Call me "the Stinging Crab."
+::::<!--Custom String Listener: TalkSentence_404011925-->
+::::'''Food Stall Owner:''' Wow. Did you hear that? Has there ever been a greater coincidence? The challenger made the word "crab" part of their name!
+::::'''Food Stall Owner:''' "The Stinging Crab" &mdash; remember this name. In just a moment, {{MC|f=she|m=he}} very well could be Boulder Town's Competitive Eater Champion worthy of our admiration!
+:::<!--Custom String Trigger: TalkSentence_404011927-->
+:::<!--Custom String Listener: TalkSentence_404011927-->
+:::'''Food Stall Owner:''' Are you ready? I will count down from three, then start the clock. Don't forget. The challenge is only considered complete when you eat five plates of Deep-fried Rock Crabs in twenty seconds!
+:::'''Food Stall Owner:''' Three... Two... One...
+:::'''Food Stall Owner:''' ...Go!
+:::<!--Custom String Trigger: 4040119_GameStar-->
+:::<!--Custom String Listener: 4040119_GameStar-->
+:::<!--10-second delay-->
+:::<!--Custom String Trigger: 4040119_long-->
+:::<!--Custom String Listener: 4040119_long-->
+:::<!--Custom String Trigger: 4040119_End1-->
+:::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Take the first bite.
+:::<!--Custom String Listener: TalkSentence_404011931-->
+:::You are blown away by the fresh, fragrant, and rich flavor that hits your mouth. You've never imagined that you could enjoy such a delectable flavor in the Underworld.
+:::{{DIcon|Arrow}} Take the second bite.
+:::<!--Custom String Listener: TalkSentence_404011933-->
+:::The second bite of crab meat fills up all of your mouth. It's a little greasy, but you would still consider it tasty. You are certain that you can see this challenge through to the end.
+:::{{DIcon|Arrow}} Take the third bite.
+:::<!--Custom String Listener: TalkSentence_404011935-->
+:::The third bite... These stupid additives. You feel thirsty and nauseous. You also complain internally about having no option in the settings to speed up the text display.
+:::{{DIcon|Arrow}} Take... the fourth... bite...
+:::<!--Custom String Listener: TalkSentence_404011937-->
+:::You can still stomach reading this text???
+:::Alright. I'll tell you a little something. The Rock Crab isn't a decapod. It's actually a type of creature that &mdash; according to the common species classification system &mdash; is difficult to classify, but it's something like an arthropod. Who cares? It's a crab that spits bubbles, just like how you are on the verge of spitting up everything you've just eaten...
+:::{{DIcon|Arrow}} The... final... bite...
+:::<!--Custom String Listener: TalkSentence_404011940-->
+:::<!--Custom String Listener: 4040119_long-->
+:::<!--Custom String Trigger: 4040119_End1-->
+:::<!--Ends the current performance-->
+:::----
+::{{DIcon|Exit}} I need to step away for a moment to warm up...
+:::<!--Custom String Listener: TalkSentence_404011916-->
+:::'''Food Stall Owner:''' No problem! You can come back and start the challenge anytime, so long as my stall is open.
+:::'''Food Stall Owner:''' See ya later, pal!
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404018701-->, {{cx}}<!--SubMission Started: 404018702-->, {{cx}}<!--SubMission Started: 404018703-->, {{cx}}<!--SubMission Started: 404018704-->, {{cx}}<!--SubMission Started: 404018705-->, {{cx}}<!--SubMission Started: 404018706-->, or {{cx}}<!--SubMission Started: 404018707--> and {{cx}}<!--SubMission Started: 404011902-->)
+:{{DIcon|?}} Those free snacks that you've mentioned before...
+::<!--Trigger PerformanceE 404018701: Config/Level/Mission/4040187/Act/Act404018701.json-->
+::'''Turner:''' Of course, oh yes! We do business here with integrity. Look here, this one's fresh out of the pan &mdash; have a bite, and enjoy!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404018707-->
+::<!--Custom String Trigger: Talk_404018706-->
+::<!--Custom String Trigger: Talk_404018705-->
+::<!--Custom String Trigger: Talk_404018704-->
+::<!--Custom String Trigger: Talk_404018703-->
+::<!--Custom String Trigger: Talk_404018702-->
+::<!--Custom String Trigger: Talk_404018701-->
+;(If {{cx}}<!--SubMission Started: 404018708-->, {{cx}}<!--SubMission Started: 404018701-->, {{cx}}<!--SubMission Started: 404018702-->, {{cx}}<!--SubMission Started: 404018703-->, {{cx}}<!--SubMission Started: 404018704-->, {{cx}}<!--SubMission Started: 404018705-->, {{cx}}<!--SubMission Started: 404018706-->, or {{cx}}<!--SubMission Started: 404018707-->, and {{cx}}<!--SubMission Started: 404011902-->)
+:{{DIcon|?}} Those free snacks that you've mentioned before...
+::<!--Trigger PerformanceE 404018708: Config/Level/Mission/4040187/Act/Act404018708.json-->
+::'''Turner:''' Uh, look &mdash; I've given you a free sample of one of everything on the menu here...
+::'''Turner:''' We're a business, not a charity, right? Hope you can forgive us...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404018708-->
+:{{DIcon|Shop}} I want to buy something.
+::<!--Trigger PerformanceE 501030602: Config/Level/Mission/5010306/Act/Act501030602.json-->
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 135,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 10,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030602-->
+:{{DIcon|Exit}} That's all.
+::<!--Trigger PerformanceE 501030603: Config/Level/Mission/5010306/Act/Act501030603.json-->
+::'''Turner:''' Remember, nobody can live without food. Come back next time for a feed!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030603-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

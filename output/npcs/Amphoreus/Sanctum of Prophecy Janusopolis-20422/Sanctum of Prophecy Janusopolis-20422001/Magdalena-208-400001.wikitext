@@ -1,0 +1,155 @@
+<%-- [PAGE_INFO]
+PageTitle=#Magdalena#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Amiable Woman
+|image           = NPC Magdalena.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Magdalena''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_208_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504052001: Config/Level/Mission/5040520/Act/Act504052001.json-->
+::'''Magdalena:''' Ah, what a splendid day indeed... Are you here to visit? You're a tad late, unfortunately.
+::'''Magdalena:''' The last of the sweet treats has just been given away. Had you arrived a moment sooner, you could have snagged the final batch.
+::{{DIcon|Arrow}} Are you the temple's chef?
+:::<!--Custom String Listener: TalkSentence_504052004-->
+:::'''Magdalena:''' No, I'm merely a humble maid, though I've had the privilege of serving the Holy Maiden. I've undertaken various tasks here in the temple &mdash; sweeping, laundry, assisting in sacred rituals...
+:::'''Magdalena:''' But what I love most is baking. There's something about a sweet that can brighten a gloomy day. Amid all the grave responsibilities in the temple, it's these little joys that I hold dear.
+:::<!--Custom String Trigger: TalkSentence_504052011-->
+:::<!--Custom String Listener: TalkSentence_504052011-->
+:::'''Magdalena:''' I still recall how the Holy Maiden once savored these desserts, calling them "heartwarming."
+:::'''Magdalena:''' Years have flown by, but it feels like it all happened just yesterday. Time does fly...
+:::{{DIcon|Arrow}} Have you been working here long?
+::::<!--Custom String Listener: TalkSentence_504052014-->
+::::'''Magdalena:''' Indeed. I was sent here to aid the Holy Maiden since I was old enough to walk. I've spent decades within these walls.
+::::'''Magdalena:''' I had sleek, jet-black hair and not a wrinkle in sight back then. Quite a different story from today.
+:::{{DIcon|Arrow}} ...I am hungry now.
+::::<!--Custom String Listener: TalkSentence_504052017-->
+::::'''Magdalena:''' Ha, perhaps it's the remnant scents of today's baking. I only use the finest ingredients, after all.
+::::'''Magdalena:''' Every morning, I wake early to sift the finest flour and strain the purest honey. The sweet aroma is so tempting, even I can't help but start to drool.
+:::<!--Custom String Trigger: TalkSentence_504052019-->
+:::<!--Custom String Listener: TalkSentence_504052019-->
+:::'''Magdalena:''' Over the years, I've seen many come to seek the Titans' prophecy or search for something profound within these temple walls.
+:::'''Magdalena:''' But some might just need a place to think or a listening ear... Everyone has their own tale to tell.
+:::'''Magdalena:''' {{MC|f=My girl|m=My boy}}, though your quest is unknown to me, feel free to stop by anytime for a chat over hot tea and treats. You might just find what you're looking for.
+::{{DIcon|Arrow}} Is there something special about this dessert?
+:::<!--Custom String Listener: TalkSentence_504052007-->
+:::'''Magdalena:''' It's my secret recipe, cherished by all in the temple for years. Every time I open the oven, the aroma alone draws a crowd, all eager for a taste.
+:::'''Magdalena:''' The funny thing is, after all these years serving in the temple, people remember not so much me, but more so the sweet treats I bake.
+:::<!--Custom String Trigger: TalkSentence_504052011-->
+:::<!--Custom String Listener: TalkSentence_504052011-->
+:::'''Magdalena:''' I still recall how the Holy Maiden once savored these desserts, calling them "heartwarming."
+:::'''Magdalena:''' Years have flown by, but it feels like it all happened just yesterday. Time does fly...
+:::{{DIcon|Arrow}} Have you been working here long?
+::::<!--Custom String Listener: TalkSentence_504052014-->
+::::'''Magdalena:''' Indeed. I was sent here to aid the Holy Maiden since I was old enough to walk. I've spent decades within these walls.
+::::'''Magdalena:''' I had sleek, jet-black hair and not a wrinkle in sight back then. Quite a different story from today.
+:::{{DIcon|Arrow}} ...I am hungry now.
+::::<!--Custom String Listener: TalkSentence_504052017-->
+::::'''Magdalena:''' Ha, perhaps it's the remnant scents of today's baking. I only use the finest ingredients, after all.
+::::'''Magdalena:''' Every morning, I wake early to sift the finest flour and strain the purest honey. The sweet aroma is so tempting, even I can't help but start to drool.
+:::<!--Custom String Trigger: TalkSentence_504052019-->
+:::<!--Custom String Listener: TalkSentence_504052019-->
+:::'''Magdalena:''' Over the years, I've seen many come to seek the Titans' prophecy or search for something profound within these temple walls.
+:::'''Magdalena:''' But some might just need a place to think or a listening ear... Everyone has their own tale to tell.
+:::'''Magdalena:''' {{MC|f=My girl|m=My boy}}, though your quest is unknown to me, feel free to stop by anytime for a chat over hot tea and treats. You might just find what you're looking for.
+::{{DIcon|Exit}} Sorry to intrude. I was just passing by.
+:::<!--Custom String Listener: TalkSentence_504052010-->
+:::'''Magdalena:''' Oh dear, I do tend to ramble on as I get older. I hope I haven't kept you from your plans, youngster.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504052002: Config/Level/Mission/5040520/Act/Act504052002.json-->
+::'''Magdalena:''' Ah, there you are again, {{MC|f=my girl|m=my boy}}. I knew today was going to be good.
+::'''Magdalena:''' Do you need something, or are you craving some sweets? I just put a fresh batch in the oven. Care to wait a bit?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I was hoping to chat with you.
+:::'''Magdalena:''' Sure, we can chat about anything. It's not often someone's interested in an old lady's ramblings.
+:::<!--Custom String Trigger: Wait_Option_504052003_47-->
+:::<!--Custom String Listener: Wait_Option_504052003_47-->
+:::{{DIcon|Talk}} Can you show me how to make these sweet treats?
+::::<!--Custom String Listener: TalkSentence_504052113-->
+::::'''Magdalena:''' Ah, finally someone wants to learn this! Everyone just loves eating, but no one wants to bother making it. It's quite simple &mdash; you just need to put in some effort. Come on. I'll teach you, so pay attention.
+::::'''Magdalena:''' First, sift the flour well and choose only the purest honey. Then, you need to put your heart into the process of baking. It's crucial to tailor the dough to suit individual tastes and to get the baking just right.
+::::'''Magdalena:''' Most importantly, when baking, always offer a prayer to the Titans, blessing those who will enjoy your treats. Skipping this step means they just won't taste as delightful.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Did you serve the Holy Maiden once?
+::::<!--Custom String Listener: TalkSentence_504052117-->
+::::'''Magdalena:''' Yes, I once served as a maid for a previous Holy Maiden. Despite her title, she was just a young girl. She'd even sneak a piece of dessert away while having snacks, and when I asked her why, she said she wanted to save it to share with me later.
+::::'''Magdalena:''' Her gaze always made my heart melt. Even though I had no children of my own at that time... *cough* It may sound sacrilegious, but I felt as if she were no different from a daughter to me.
+::::'''Magdalena:''' But let's keep this conversation between us. It wouldn't be right to spread such personal reflections.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you normally do around the temple?
+::::<!--Custom String Listener: TalkSentence_504052121-->
+::::'''Magdalena:''' What else can I do? My days are filled with simple, essential chores.
+::::'''Magdalena:''' Cleaning the temple, then prepare treats. Sometimes the young priests seek wisdom from us elders. When it's quiet, I just sit here, offering tea to those who pass by.
+::::'''Magdalena:''' Life might be simple, but it's fulfilling. This temple is my home.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have much else to say.
+::::<!--Custom String Listener: TalkSentence_504052125-->
+::::'''Magdalena:''' No worries. You carry on with your day. It's rare these days for anyone to care for an old lady's stories.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} It's okay. I just came to check on you.
+:::'''Magdalena:''' Ah, you're too kind. If you ever need a break, feel free to come over and talk to me anytime.
+:::'''Magdalena:''' May the Titans bless you, youngster... and all those who wander in search of clarity.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,138 @@
+<%-- [PAGE_INFO]
+PageTitle=#Spheroid Billboard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Spheroid Billboard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Spheroid Billboard''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_181_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503034009: Config/Level/Mission/5030340/Act/Act503034009.json-->
+::'''Spheroid Billboard:''' Hey, there! Are you still moving around on foot? How tiring!
+::{{DIcon|Arrow}} Yup. What else can I do?
+:::<!--Custom String Listener: TalkSentence_503034083-->
+:::'''Spheroid Billboard:''' Now, let me enlighten you.
+::{{DIcon|Arrow}} I won't get tired in a dream.
+:::<!--Custom String Listener: TalkSentence_503034085-->
+:::'''Spheroid Billboard:''' You may not feel tired physically, but what of your spirit? Who wouldn't enjoy going on a car ride?
+::{{DIcon|Arrow}} I can teleport around.
+:::<!--Custom String Listener: TalkSentence_503034087-->
+:::'''Spheroid Billboard:''' Well... what's the rush? You'll miss out on the scenic view along the way.
+::<!--Custom String Trigger: TalkSentence_503034088-->
+::<!--Custom String Listener: TalkSentence_503034088-->
+::'''Spheroid Billboard:''' By purchasing our Utopon Motion Maverick, you'll enjoy a kingly experience in your dream! There's a promotion for this vehicle now!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503034010: Config/Level/Mission/5030340/Act/Act503034010.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034091,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034092,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034093,
+					"ProtectTime": 0.3
+				}
+			]
+		}
+	]
+}</pre>
+:<!--Custom String Trigger: Talk_454010201-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Spheroid Billboard
+|zhs  = 球笼广告牌
+|zht  = 球籠看板
+|ja   = スフェロイドの看板
+|ko   = 스페로이드 광고판
+|es   = Anuncio de esferoide
+|fr   = Publicité pour sphéroïdes
+|ru   = Реклама сфероидов
+|th   = ป้ายโฆษณา Spheroid
+|vi   = Bảng Quảng Cáo Lồng Cầu
+|de   = Werbetafel für Sphäroide
+|id   = Papan Iklan Spheroid
+|pt   = Painel Publicitário de Esferoide
+}}
+==Change History==
+{{Change History|TODO}}

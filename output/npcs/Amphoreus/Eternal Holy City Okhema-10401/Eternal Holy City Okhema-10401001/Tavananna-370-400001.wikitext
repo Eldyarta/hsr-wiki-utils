@@ -1,0 +1,117 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tavananna#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Refugee Lady
+|image           = NPC Tavananna.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Tavananna''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_370_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504011001: Config/Level/Mission/5040110/Act/Act504011001.json-->
+::'''Tavananna:''' Greetings, unfamiliar child. The world is full of agony, and life is brimming with misery and mishaps. However, don't fret about it. We can all obtain a momentary peace here in this beautiful holy city.
+::'''Tavananna:''' My name is Tavananna, hailing all the way from Hattusili in the far east. While my homeland was a paradise before the black tide &mdash; praise the {{Rubi|Pillar of Stone|Earth Titan}} &mdash; its charm would pale in comparison to the splendor of {{Rubi|the holy city under Kephale's wings|Okhema}}.
+::'''Tavananna:''' Are you new around here, unfamiliar child? Whether it's this hanging gardens or the grand bath nearby, these are the best spots for us citizens to while away the hours when we are idle.
+::{{DIcon|Arrow}} I'm not really that idle.
+:::<!--Custom String Listener: TalkSentence_504011005-->
+:::'''Tavananna:''' Ah, a busy bee, I see, but remember to balance work and play. Early to bed, early to rise, eat well, and skip those icy drinks... When trouble comes knocking, take a breather, because rushing leads to blunders.
+::{{DIcon|Arrow}} Looks like you're not too bothered about all the calamity.
+:::<!--Custom String Listener: TalkSentence_504011007-->
+:::'''Tavananna:''' ...Hah, don't let those rowdy youngsters get under your skin. They're making a fair share of doomsayers &mdash; it's all just noise! Have you seen what the government posts on teleslates every day? With the Council of Elders and the Chrysos Heirs joining forces, what could possibly go wrong?
+::<!--Custom String Trigger: TalkSentence_504011008-->
+::<!--Custom String Listener: TalkSentence_504011008-->
+::'''Tavananna:''' Child, please don't mind us oldies nagging. It's fate that's brought us together. Here... this little "greeting gift" is for you. Take it, my child.
+::'''Tavananna:''' You're welcome. I don't have many hobbies besides watching you youngsters enjoy yourselves. Your happiness is mine, so keep that positive vibe going, alright?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504011002: Config/Level/Mission/5040110/Act/Act504011002.json-->
+::'''Tavananna:''' People say: If the {{Rubi|Janus|Passage Titan}} closes a door to you, you can be certain that they have opened a window somewhere.
+::'''Tavananna:''' Even though baguettes are hard to find while the {{Rubi|Georios|Earth Titan}} slumbers, rest assured, because the benevolent {{Rubi|Phagousa|Ocean Titan}} will certainly bless us with their sweet chiffon cakes.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} May I ask you something, granny?
+::'''Tavananna:''' No problem at all. While I may not be as wise as the Lion's Maw of Truth, and I'm an outlander myself... time is one thing us elders have in abundance.
+::<!--Custom String Trigger: Wait_Option_504011003_33-->
+::<!--Custom String Listener: Wait_Option_504011003_33-->
+::{{DIcon|Talk}} Ask about Okhema.
+:::<!--Custom String Listener: TalkSentence_504011103-->
+:::'''Tavananna:''' Oh, you're interested in this holy city? Books are great for learning about the city, but these days, teleslates make things so much easier. Here, let me read you a bit from the {{Rubi|goodwill inscriptions|public service announcements}}.
+:::'''Tavananna:''' "Outlanders from distant lands, welcome to Okhema, the sanctum under the watchful eye of Kephale. This is the Eternal City, shielded by the vigilant Chrysos Heirs, the last paradise in Amphoreus."
+:::'''Tavananna:''' "Welcome, citizens from all directions. Within these walls, we extend to you our open arms, sharing eternal peace and joy."
+:::'''Tavananna:''' See? Just follow a few {{Rubi|Nebula Plazas|public accounts}}, and even us outlanders can get the lowdown on {{Rubi|Kephale's holy city|Okhema}}.
+:::'''Tavananna:''' I even ordered my dress from the great tailor Aphrea's store using my teleslate. These gadgets have become essential for our daily lives now.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Ask about other cities.
+:::<!--Custom String Listener: TalkSentence_504011109-->
+:::'''Tavananna:''' The outside world? Well, I know it's pretty chaotic out there everywhere except in {{Rubi|Kephale's holy city|Okhema}}, and that black tide is a real menace. In the blink of an eye, it can swallow a whole city, and you'll barely have enough time to run for your life.
+:::'''Tavananna:''' But everything's safe in {{Rubi|Kephale's holy city|Okhema}}! If you ever run into trouble, just head to the Council of Elders or find the Chrysos Heirs. Your only trouble might be a bit of boredom... haha.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Ask about Tavananna.
+:::<!--Custom String Listener: TalkSentence_504011112-->
+:::'''Tavananna:''' About me...? Oh, my life's simple, enjoying my leisure time and family moments.
+:::'''Tavananna:''' ...It's a shame my husband and kids are always tied up, too busy to share moments with this old lady.
+:::'''Tavananna:''' No need to feel obligated, really. I'm not trying to guilt-trip you into sticking around. Just handle your business! No stress!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} (That's pretty much all I wanted to ask.)
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll be out of your hair now.
+::'''Tavananna:''' Aha, you youngsters are always on the move. Always doing whatever you want. Good! And hey, don't forget to take a break in the garden or a dip in the hot spring... Just don't push yourself too hard, okay?
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tavananna
+|zhs  = 塔瓦纳安娜
+|zht  = 塔瓦納安娜
+|ja   = タワナアンナ
+|ko   = 타바난나
+|es   = Tavananna
+|fr   = Tavananna
+|ru   = Тавананна
+|th   = Tavananna
+|vi   = Tavananna
+|de   = Tavananna
+|id   = Tavananna
+|pt   = Tavananna
+}}
+==Change History==
+{{Change History|TODO}}

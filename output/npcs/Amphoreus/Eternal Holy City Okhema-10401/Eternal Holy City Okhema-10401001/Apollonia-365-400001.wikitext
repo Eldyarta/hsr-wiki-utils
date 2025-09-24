@@ -1,0 +1,117 @@
+<%-- [PAGE_INFO]
+PageTitle=#Apollonia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Mathematician
+|image           = NPC Apollonia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Apollonia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_365_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504010001: Config/Level/Mission/5040100/Act/Act504010001.json-->
+::'''Apollonia:''' ...Greetings. Welcome to the library of the largest bath in the world. Theoretically, you can access any book published in Okhema, as long as you don't mind waiting a few days after filling out a book-transfer form.
+::{{DIcon|Arrow}} You're an administrator here?
+:::<!--Custom String Listener: TalkSentence_504010003-->
+:::'''Apollonia:''' Yeah, although many outlanders like me are working here as part-time administrators.
+::{{DIcon|Arrow}} Sounds like you're not too excited about your job.
+:::<!--Custom String Listener: TalkSentence_504010005-->
+:::'''Apollonia:''' Well, I'm here as a refugee, and this job is just to make ends meet temporarily. So it's natural I'm not too excited about it, right?
+::<!--Custom String Trigger: TalkSentence_504010006-->
+::<!--Custom String Listener: TalkSentence_504010006-->
+::'''Apollonia:''' ...Let me introduce myself. I'm Apollonia. I used to research math and astronomy in a small city that was later overrun by the black tide.
+::'''Apollonia:''' As you might be aware, astronomy research is prohibited in Okhema, and only a few scholars in the Grove secretly manage to sneak a peek. With a flood of recent refugees, they don't have enough work for specialists like me and had to recommend me to work here in this bath.
+::'''Apollonia:''' ...Or maybe because the professor who wrote my letter of recommendation wasn't so popular.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504010002: Config/Level/Mission/5040100/Act/Act504010002.json-->
+::'''Apollonia:''' Reading is nourishment for the soul. Even a few pages each day can accumulate over a year, and you'll learn a great deal.
+::'''Apollonia:''' Wouldn't it be a dream to read books all day for a living?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} How about telling me more about your research?
+::'''Apollonia:''' Oh, really? You're interested in my research? Well, in that case, I'm all fired up.
+::<!--Custom String Trigger: Wait_Option_504010003_32-->
+::<!--Custom String Listener: Wait_Option_504010003_32-->
+::{{DIcon|Talk}} Tell me more about your research from your previous city.
+:::<!--Custom String Listener: TalkSentence_504010103-->
+:::'''Apollonia:''' Oh? You're interested in {{Rubi|Aquila Curves|Conic Section}} too? I penned a comprehensive book called ''On Aquila Curves'' spanning eight volumes. It's a shame my manuscripts were lost in the black tide.
+:::'''Apollonia:''' But no worries, I recall all the details. Give me another year, and I'll rewrite all the propositions and methods to prove them... maybe I'll even do better than before!
+:::'''Apollonia:''' It's just that... astronomy in Okhema... you know how it is. While ''On Aquila Curves'' is a book in pure mathematics, its title might deter people from exploring it, let alone securing a sponsor for publication.
+:::'''Apollonia:''' But no worries... I believe that, as long as the Chrysos Heirs resolve the prophesied issues, the night sky will eventually return. By then, the starry sky will no longer be a forbidden topic anymore.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about your research after arriving in Okhema.
+:::<!--Custom String Listener: TalkSentence_504010108-->
+:::'''Apollonia:''' I heard someone griping about how boring the bath's decor looks, and it got me thinking about coming up with some new mosaic designs to bring in some fresh aspirations.
+:::'''Apollonia:''' In the end, I designed a program on the tablet and wrote algorithms to find pentagon-shaped mosaics that could cover the floor smoothly, and I discovered 15 different patterns. But when I mentioned the idea to an architect, they warned me that mass-producing pentagonal tiles might be too costly.
+:::'''Apollonia:''' Perhaps I should share this idea with some smart vendor at the Marmoreal Market to turn it into producing jigsaws or puzzle toys? But then again, toy design is not my forte, and this whole concept might not click with them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about the Grove.
+:::<!--Custom String Listener: TalkSentence_504010112-->
+:::'''Apollonia:''' Well... despite being a researcher, I'm not well-versed in the Grove. As I mentioned, a not-so-popular professor wrote a recommendation letter for me...
+:::'''Apollonia:''' "If individuals tend to presume a lack of mental acuity on the part of the author when faced with intricate explanations, I strongly suggest delving into Apollonia's work &mdash; ''On Aquila Curves''."
+:::'''Apollonia:''' "Through this exploration, one will find that no intellectual (regardless of their talent) can articulate such intricate concepts in a manner that can be understood through skim-reading."
+:::'''Apollonia:''' ...Hmmm, could that style have contributed to his lack of popularity?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} (That's pretty much all I wanted to ask.)
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Working for a salary is no walk in the park.
+::'''Apollonia:''' Indeed! I have a feeling that you have had a hard time as well. Talk to you later!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Apollonia
+|zhs  = 阿波罗尼娅
+|zht  = 阿波羅尼婭
+|ja   = アポロニア
+|ko   = 아폴로니아
+|es   = Apolonia
+|fr   = Apollonia
+|ru   = Аполлония
+|th   = Apollonia
+|vi   = Apollonia
+|de   = Apollonia
+|id   = Apollonia
+|pt   = Apolônia
+}}
+==Change History==
+{{Change History|TODO}}

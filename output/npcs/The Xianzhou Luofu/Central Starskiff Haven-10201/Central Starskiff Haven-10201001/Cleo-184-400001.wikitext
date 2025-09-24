@@ -1,0 +1,134 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cleo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Intelligentsia Guild Member
+|image           = NPC Cleo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Cleo''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_184_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502069101: Config/Level/NPCDialogue/P10202/NPCAct/Act502069101.json-->
+::'''Cleo:''' So this is the Xianzhou Luofu... Ah, what an eye-opener...
+::'''Cleo:''' Hmm... hello? I've only been here for a short while... May I know your name?
+::{{DIcon|Arrow}} I'm (Trailblazer).
+::<!--Custom String Listener: TalkSentence_502069105-->
+::'''Cleo:''' !!!
+::'''Cleo:''' Y&mdash;You are my... my {{MC|f=junior soror|m=junior frater}}! Master told me about you!
+::'''Cleo:''' Oh! Where are my manners? I'm sorry. I was got a bit too carried away.
+::'''Cleo:''' I'm Cleo, a scholar of the Intelligentsia Guild, under the tutelage of Master Todd Riordan. Master has written to me many times urging me to come to the Xianzhou ship, and he told me that he had found a {{MC|f=junior soror|m=junior frater}} for me. Just when I was wondering what my new peer would be like, you appeared before my eyes!
+::'''Cleo:''' Oddly enough... I lost contact with Master Todd shortly after I received his last letter.
+::'''Cleo:''' So I came to the Xianzhou ship looking for him, but to no avail... Have you met with Master lately, (Trailblazer)?
+::{{DIcon|Arrow}} (Don't tell Cleo what happened to Todd.)
+:::<!--Custom String Listener: TalkSentence_502069112-->
+:::<!--Custom String Trigger: Talk_202020501-->
+:::'''Cleo:''' Now this is terrible. One of the Guild's exchange programs needs his signature before it can officially kick off.
+:::'''Cleo:''' Wait, he hasn't gone somewhere dangerous to investigate the source of the calamity on the Luofu, has he? That old man... He just won't stop getting himself into trouble.
+::{{DIcon|Arrow}} (Tell Cleo what happened to Todd.)
+:::<!--Custom String Listener: TalkSentence_502069115-->
+:::<!--Custom String Trigger: Talk_202020502-->
+:::'''Cleo:''' ...Well, let's find a more private place to talk about "immortality."
+:::'''Cleo:''' Ever since Master came to the Xianzhou ship, he had been pushing to resume this subject, despite the opposition from other scholars. At that time, I was still an inexperienced scholar and didn't quite understand his decision.
+:::'''Cleo:''' After all, the Guild had tried many times, but to no avail. We had only meager funds and scholars for the subject... I was convinced that the subject was impossible.
+:::'''Cleo:''' But I didn't expect Master to... In the end, he glimpsed the secrets of truth, even though it cost him dearly... Perhaps he eventually entered the threshold of "Erudition"?
+:::'''Cleo:''' To be honest, his fate is enviable to me... Will a mediocrity like me ever achieve anything as he did? Maybe I won't even have a chance to approach the threshold of "Erudition" in my life...
+::<!--Custom String Trigger: TalkSentence_502069120-->
+::<!--Custom String Listener: TalkSentence_502069120-->
+::'''Cleo:''' I still remember how he urged me to come here in his last letter. Who would have thought that by the time I arrived, he...
+::'''Cleo:''' ...I'm sorry, but I'm not in the mood for pleasantries right now. If there's nothing important to discuss, please leave me alone for a while.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502069201: Config/Level/NPCDialogue/P10202/NPCAct/Act502069201.json-->
+::'''Cleo:''' It's you, (Trailblazer)... I initially thought that with a new {{MC|f=junior soror|m=junior frater}} on the Xianzhou, our research would have a worthy successor...
+::'''Cleo:''' Your arrival would have been a joy to us all, if not for Master's... Well... I'm sorry for being so depressed. What do you have for me this time?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502069301: Config/Level/NPCDialogue/P10202/NPCAct/Act502069301.json-->
+::<!--Custom String Trigger: Wait_Option_502069301_118-->
+::<!--Custom String Listener: Wait_Option_502069301_118-->
+::{{DIcon|Talk}} Are you going to continue your master's research?
+:::<!--Custom String Listener: TalkSentence_502069303-->
+:::'''Cleo:''' I'm afraid I can't, as currently I'm occupied with another subject commissioned by the Guild.
+:::'''Cleo:''' I need to work with Herta of the Genius Society as the general editor for her new magnum opus. Objectively speaking, this project is of vital importance, and once it succeeds, we Candelagraphos will be recorded in history.
+:::'''Cleo:''' But on the other hand, I can't just give up Master's project and his legacy... I need some time. Maybe I'll come up with a solution.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you going to do next?
+:::<!--Custom String Listener: TalkSentence_502069307-->
+:::'''Cleo:''' Well, I'll stay on the Xianzhou ship, but instead of continuing Master's research, I'll experience the unique customs and culture here. I don't want to waste a precious opportunity.
+:::'''Cleo:''' Maybe you haven't heard about it. The Guild has cut its budget for field research and greatly reduced the number of scholars sent to other worlds. It's not easy to come here anymore.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you think of Todd?
+:::<!--Custom String Listener: TalkSentence_502069310-->
+:::'''Cleo:''' It's hard to describe him in just a few words. For me, he was my mentor who brought me to the Candelagraphos and guided me to the Path of Erudition.
+:::'''Cleo:''' Although I didn't always understand his ideas and sometimes he seemed too stubborn, I knew that he meant no harm, and that his aloofness was simply because he was a pure scholar.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502069313-->
+:::'''Cleo:''' I see.
+:::'''Cleo:''' If Master were still here, (Trailblazer), I guess we would have become peers by now.
+:::'''Cleo:''' While I'm nowhere near as erudite as Master, I'm an authorized scholar in any case. If you have any questions, please feel free to discuss them with me.
+:::'''Cleo:''' As for Master's subject... Ah, forget it. I need to calm down, and perhaps I'll figure out something later.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any more questions.
+::'''Cleo:''' If Master were still here, (Trailblazer), I guess we would have become peers by now.
+::'''Cleo:''' While I'm nowhere near as erudite as Master, I'm an authorized scholar in any case. If you have any questions, please feel free to discuss them with me.
+::'''Cleo:''' As for Master's subject... Ah, forget it. I need to calm down, and perhaps I'll figure out something later.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cleo
+|zhs  = 克利欧
+|zht  = 克莉歐
+|ja   = クリオ
+|ko   = 클리오
+|es   = Cleo
+|fr   = Cléo
+|ru   = Клео
+|th   = Cleo
+|vi   = Cleo
+|de   = Cleo
+|id   = Cleo
+|pt   = Cleo
+}}
+==Change History==
+{{Change History|TODO}}

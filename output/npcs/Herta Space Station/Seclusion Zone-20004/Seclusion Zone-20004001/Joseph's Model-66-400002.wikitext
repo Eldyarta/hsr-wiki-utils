@@ -1,0 +1,161 @@
+<%-- [PAGE_INFO]
+PageTitle=#Joseph's Model#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Kind Wubbaboo
+|image           = NPC Joseph's Model.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Joseph's Model''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_66_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--performance 900000177 has been seen-->)
+:;(If {{Mission|Requiem Mass|showChapter=0}} has been completed)
+:::<!--Trigger PerformanceE 900000177: Config/Level/Mission/5000030/Act/Act900000177.json-->
+::<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500017802
+	]
+}</pre>
+:::'''Joseph's Model:''' Hello, Wubbie? It's (Trailblazer)!
+:::{{DIcon|Arrow}} What are you doing here?
+::::<!--Custom String Listener: TalkSentence_500017704-->
+::::'''Joseph's Model:''' Get down here... Wubbie... Play!
+:::{{DIcon|Arrow}} You recognize me?
+::::<!--Custom String Listener: TalkSentence_500017706-->
+::::'''Joseph's Model:''' Yes, I do! Space station! Hero! My hero!
+:::<!--Custom String Trigger: TalkSentence_500017707-->
+:::<!--Custom String Listener: TalkSentence_500017707-->
+:::'''Joseph's Model:''' {{MC|f=Miss|m=Mister}}, woo? Play with me, woo?
+:::'''Joseph's Model:''' I'm here! Very familiar, woo!
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+:::{{DIcon}} I'd like to ask...
+::::<!--Custom String Trigger: Wait_Option_900000179_887-->
+::::<!--Custom String Listener: Wait_Option_900000179_887-->
+::::{{DIcon|Talk}} How did you end up becoming someone else's model?
+:::::<!--Custom String Listener: TalkSentence_500017904-->
+:::::'''Joseph's Model:''' Joseph said, woo, get down and play, boo... and I said yes.
+:::::'''Joseph's Model:''' Everyone wanted to woowoo, put things on woo me. Woo, I said yes!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Where did you sneak in from?
+:::::<!--Custom String Listener: TalkSentence_500017907-->
+:::::'''Joseph's Model:''' Shuttle, woo... I got stuck in a gap under the shuttle. It hurt a lot, woo.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} It's dangerous here. You should go back.
+:::::<!--Custom String Listener: TalkSentence_500017909-->
+:::::'''Joseph's Model:''' I want to play here. I don't want to go back.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I have no more questions.
+:::::<!--Custom String Listener: TalkSentence_500017911-->
+:::::'''Joseph's Model:''' Woo!
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I have no more questions.
+::::'''Joseph's Model:''' Woo!
+::::'''Joseph's Model:''' Play with me? Next time, woo-woo? Wubba-woo!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:;(If {{Mission|Requiem Mass|showChapter=0}} has not been completed)
+:::<!--Trigger PerformanceE 900000176: Config/Level/Mission/5000030/Act/Act900000176.json-->
+:::'''Joseph's Model:''' Woo... Woo-woo? Wubba-woo?
+:::You don't have a clue what Wubbaboo is saying. You should probably seek help from a researcher who can understand it.
+:::Adler from the Department of Ecology is said to be close with Wubbaboo...
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 900000177 has not been seen-->)
+::<!--Trigger PerformanceE 900000178: Config/Level/Mission/5000030/Act/Act900000178.json-->
+::'''Joseph's Model:''' {{MC|f=Miss|m=Mister}}, woo? Play with me, woo?
+::'''Joseph's Model:''' I'm here! Very familiar, woo!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I'd like to ask...
+:::<!--Custom String Trigger: Wait_Option_900000179_887-->
+:::<!--Custom String Listener: Wait_Option_900000179_887-->
+:::{{DIcon|Talk}} How did you end up becoming someone else's model?
+::::<!--Custom String Listener: TalkSentence_500017904-->
+::::'''Joseph's Model:''' Joseph said, woo, get down and play, boo... and I said yes.
+::::'''Joseph's Model:''' Everyone wanted to woowoo, put things on woo me. Woo, I said yes!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Where did you sneak in from?
+::::<!--Custom String Listener: TalkSentence_500017907-->
+::::'''Joseph's Model:''' Shuttle, woo... I got stuck in a gap under the shuttle. It hurt a lot, woo.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} It's dangerous here. You should go back.
+::::<!--Custom String Listener: TalkSentence_500017909-->
+::::'''Joseph's Model:''' I want to play here. I don't want to go back.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have no more questions.
+::::<!--Custom String Listener: TalkSentence_500017911-->
+::::'''Joseph's Model:''' Woo!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I have no more questions.
+:::'''Joseph's Model:''' Woo!
+:::'''Joseph's Model:''' Play with me? Next time, woo-woo? Wubba-woo!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

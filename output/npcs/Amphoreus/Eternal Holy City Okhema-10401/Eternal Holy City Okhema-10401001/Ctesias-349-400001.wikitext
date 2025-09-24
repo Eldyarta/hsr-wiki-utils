@@ -1,0 +1,156 @@
+<%-- [PAGE_INFO]
+PageTitle=#Ctesias#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Dromas Caretaker
+|image           = NPC Ctesias.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Ctesias''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_349_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033012: Config/Level/Mission/5040330/Act/Act504033012.json-->
+::'''Ctesias:''' Five doors open wide, two steps in stride, a basket full of parting sighs&mdash;
+::'''Ctesias:''' Yellow earth so dry, black earth so soft, red earth stirred in a humble fry&mdash;
+::{{DIcon|Arrow}} Is this some kind of tongue twister?
+:::<!--Custom String Listener: TalkSentence_504039104-->
+:::'''Ctesias:''' That's right! This is the dromases' recipe, and getting it wrong could lead to malnutrition.
+::{{DIcon|Arrow}} That particular?
+:::<!--Custom String Listener: TalkSentence_504039106-->
+:::'''Ctesias:''' Absolutely! I can proudly say dromases eat better than I do!
+::<!--Custom String Trigger: TalkSentence_504039107-->
+::<!--Custom String Listener: TalkSentence_504039107-->
+::'''Ctesias:''' Oh! I recognize you, great warrior of the outlands! This is truly an honor!
+::'''Ctesias:''' I am Ctesias, one of the caretakers here, but I'd prefer you call me "Chef of the Dromases"!
+::'''Ctesias:''' Whether it's "Four Flavors Redsoil Roast," "Earthbound Delight," or "Ground Buns" &mdash; I can whip them all up!
+::{{DIcon|Arrow}} Can humans eat it?
+:::<!--Custom String Listener: TalkSentence_504039111-->
+:::'''Ctesias:''' Uh, you can, technically &mdash; it won't kill you, but this is actual soil... you probably wouldn't want to...
+:::{{DIcon|Arrow}} Lemme have a taste!
+::::<!--Custom String Listener: TalkSentence_504039113-->
+::::'''Ctesias:''' You really were going to eat it! I didn't think there was anyone else who would try dirt other than me. In that case, I'll leave you to it.
+::::'''Ctesias:''' Here, fresh from the pot &mdash; Four Flavors Redsoil Roast. Just give me a heads-up before you dig in, so I can look the other way.
+:::;(Screen fades to black)
+::::You simply put the elegantly prepared, charred piece of... soil in your mouth and took a small lick.
+::::&mdash;A supernova ignites in your mouth, only to collapse into a black hole, pulling in every sensation and swallowing all perception.
+::::You are the earth.
+::::...
+::::Some time later...
+::::'''Ctesias:''' Quite a kick, right? They just love the flavor. By the seventh glass of water, the taste should start to fade &mdash; that's what I've learned from experience.
+:::{{DIcon|Arrow}} Actually, let's forget it.
+::::<!--Custom String Listener: TalkSentence_504039122-->
+::::'''Ctesias:''' Yep, indigestible. Best not to compete with them for it.
+::{{DIcon|Arrow}} Can they actually tell the difference?
+:::<!--Custom String Listener: TalkSentence_504039124-->
+:::'''Ctesias:''' Oh, absolutely! Ever since we expanded the menu, the other caretakers say they've become a lot more docile!
+::<!--Custom String Trigger: TalkSentence_504039125-->
+::<!--Custom String Listener: TalkSentence_504039125-->
+::'''Ctesias:''' It's great to see you, great warrior! If you ever want to feed the dromases or just chat with them, feel free to stop by!
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033013: Config/Level/Mission/5040330/Act/Act504033013.json-->
+::'''Ctesias:''' Too much sandy soil isn't good for them. Redsoil has just the right nutrients... *licks* Hmm, this taste seems right... ptooey.
+::'''Ctesias:''' Oh! Great warrior! Are you here to visit these big guys today?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I'm surprised that...
+:::'''Ctesias:''' Hmm? What's that? Just ask away!
+:::<!--Custom String Trigger: Wait_Option_504033014_449-->
+:::<!--Custom String Listener: Wait_Option_504033014_449-->
+:::{{DIcon|Talk}} Is there a special way to feed the soil?
+::::<!--Custom String Listener: TalkSentence_504039304-->
+::::'''Ctesias:''' Remember when we first met, and I was singing a little song? That's a simplified feeding guide.
+::::'''Ctesias:''' Give them five pieces at Entry Hour to build a bond, and two pieces at Action Hour to curb their cravings. But their main meal is at Parting Hour when everyone else is asleep. That's when the dromases gather together to munch &mdash; it's their dinner time.
+::::'''Ctesias:''' We use redsoil because it's cheap and easy to find, while dry yellowsoil and sticky blacksoil are their favorite delicacies. If they're ever feeling down, you can mix some in as a treat!
+::::'''Ctesias:''' Figuring all this out took quite a bit of effort, and I owed a lot to the Mountain Dwellers for their ideas. Creations of Georios have a kind of natural telepathy. I have to admit, I'm a bit envious.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do they only eat earth?
+::::<!--Custom String Listener: TalkSentence_504039309-->
+::::'''Ctesias:''' Uh... just between us, they can actually eat most of what humans can. Georios just gave them the ability to digest the essence of the earth.
+::::'''Ctesias:''' So if you're out camping, and your meal mysteriously vanishes the moment you turn your back, and you spot a dromas nearby, munching on dirt and sneaking glances at you &mdash; no doubt about it. It's got a craving!
+::::'''Ctesias:''' Still, there are some ingredients that can cause allergies, like poultry eggs... hard to say why. Maybe it's because Georios and Aquila don't exactly see eye to eye.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You take your job seriously...
+::::<!--Custom String Listener: TalkSentence_504039313-->
+::::'''Ctesias:''' Heh, well, to be honest, when I was a kid, a dromas saved my life. Ever since, I've wanted to be a caretaker and make things better for them. Now, I've finally made that dream come true.
+::::{{DIcon|Arrow}} Hmm? Tell me more about how you were saved.
+:::::<!--Custom String Listener: TalkSentence_504039315-->
+:::::'''Ctesias:''' It wasn't anything serious. My family and I were transporting goods outside the city when a direwolf attacked us. Just as it lunged, a passing wild dromas knocked it out cold with a swing of its tail.
+:::::'''Ctesias:''' Things like this happen pretty often. That's why they say dromases are humans' best friends. By the way, chimeras don't get that title. Apparently, their standards for friendship are way higher...
+:::::<!--Custom String Trigger: TalkSentence_504039321-->
+:::::<!--Custom String Listener: TalkSentence_504039321-->
+:::::'''Ctesias:''' Anyway, I love what I do. I'm not looking to switch things up anytime soon.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Any progress on your work?
+:::::<!--Custom String Listener: TalkSentence_504039318-->
+:::::'''Ctesias:''' I've compiled an earth quality chart detailing the nutritional values of various soil types and noting common hazards. It serves as a practical guide for Earth Scouts seeking the best spots for their needs.
+:::::'''Ctesias:''' Those Grove scholars and even the Council of Elders has approached me because of my work. They've invited me to join Okhema's exploration teams, saying that my talents go far beyond just tending to the creatures.
+:::::'''Ctesias:''' That won't work for me. Who would take care of these big guys if I left?
+:::::<!--Custom String Trigger: TalkSentence_504039321-->
+:::::<!--Custom String Listener: TalkSentence_504039321-->
+:::::'''Ctesias:''' Anyway, I love what I do. I'm not looking to switch things up anytime soon.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I won't keep you any longer, Chef!
+::::<!--Custom String Listener: TalkSentence_504039323-->
+::::'''Ctesias:''' Heh, I'm embarrassed. Make sure to swing by and hang out with us again soon, great warrior!
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I won't keep you any longer, Chef!
+:::'''Ctesias:''' Heh, I'm embarrassed. Make sure to swing by and hang out with us again soon, great warrior!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Ctesias
+|zhs  = 克特西
+|zht  = 克特西
+|ja   = コルテス
+|ko   = 크테시아스
+|es   = Ctesias
+|fr   = Ctésias
+|ru   = Ктисиас
+|th   = Ctesias
+|vi   = Ctesias
+|de   = Ctesias
+|id   = Ctesias
+|pt   = Ctesias
+}}
+==Change History==
+{{Change History|TODO}}

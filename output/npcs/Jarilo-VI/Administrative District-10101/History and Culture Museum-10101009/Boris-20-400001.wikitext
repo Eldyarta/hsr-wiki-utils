@@ -1,0 +1,224 @@
+<%-- [PAGE_INFO]
+PageTitle=#Boris#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Artifact Restorer
+|image           = NPC Boris.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = History and Culture Museum
+|relatives       = 
+}}
+'''Boris''' is an NPC on [[Jarilo-VI]], located in [[History and Culture Museum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|History and Culture Museum|npc_20_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission not Started: 800120704-->, {{cx}}<!--SubMission not Started: 800120804-->, {{cx}}<!--SubMission not Started: 800120904-->, {{cx}}<!--SubMission not Started: 800121604-->, and {{cx}}<!--SubMission not Started: 800121704-->)
+;(First interaction)
+::<!--Trigger PerformanceE 501190201: Config/Level/Mission/5011902/Act/Act501190201.json-->
+::'''Boris:''' Hey, who are you? This is the restoration room of the museum, nothing here is on display...
+::{{DIcon|Arrow}} Pela sent me to help.
+:::<!--Custom String Listener: TalkSentence_501190203-->
+:::'''Boris:''' Miss Pela sent you to help...
+::{{DIcon|Arrow}} I'm the hero of Belobog.
+:::<!--Custom String Listener: TalkSentence_501190205-->
+:::'''Boris:''' The hero of Belobog...
+::{{DIcon|Arrow}} I'm (Trailblazer).
+:::<!--Custom String Listener: TalkSentence_501190207-->
+:::'''Boris:''' (Trailblazer)...
+::<!--Custom String Trigger: TalkSentence_501190208-->
+::<!--Custom String Listener: TalkSentence_501190208-->
+::'''Boris:''' Oh, now I remember! Haha, my forgetfulness!
+::'''Boris:''' Pleased to meet you, I'm the museum's artifact restorer, Boris! So sorry for not recognizing you earlier.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501190202: Config/Level/Mission/5011902/Act/Act501190202.json-->
+::'''Boris:''' Hey, why'd you come back to the restoration room?
+::'''Boris:''' Are you... looking to have a chat with me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I want to chat with you...
+::<!--Trigger PerformanceE 501190203: Config/Level/Mission/5011902/Act/Act501190203.json-->
+::'''Boris:''' Hah hah, that's rare, someone wanting to chat with me, an artifact restorer! What would you like to talk about? I'm down for anything!
+::<!--Custom String Trigger: Wait_Option_501190203_42-->
+::<!--Custom String Listener: Wait_Option_501190203_42-->
+::{{DIcon|Talk}} What does the museum do?
+:::<!--Custom String Listener: TalkSentence_501190224-->
+:::'''Boris:''' Well, it's a museum, so naturally, it puts up all kinds of relics and artifacts on display.
+:::'''Boris:''' This museum in particular doesn't have much in its collection, and you know the reason for it &mdash; the Eternal Freeze, the Fragmentum... They took so much from us.
+:::'''Boris:''' However, we still collected everything we can and restored them so that we can put them on display. Because of that, the museum is at least somewhat decent.
+:::'''Boris:''' Anyway... please understand &mdash; if you feel dissatisfied during the tour &mdash; this is the best that we can do.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What does your job entail?
+:::<!--Custom String Listener: TalkSentence_501190229-->
+:::'''Boris:''' As an artifact restorer, my job is naturally to restore various cultural and historical pieces. Most of the artifacts and scale models that you can see in the exhibition hall were basically restored by me.
+:::'''Boris:''' Speaking of which, I was once an outstanding graduate from the Belobog College of Arts back then, specializing in sculptures. Uldan hired me to help create models, and I ended up having a job here as a restorer...
+:::'''Boris:''' *sigh* There are still too few professionals in Belobog.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no further questions.
+:::<!--Custom String Listener: TalkSentence_501190233-->
+:::'''Boris:''' Take care! Enjoy our exhibition.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501190203-->
+:{{DIcon|Exit}} I'm heading off, then.
+::'''Boris:''' Take care! Enjoy our exhibition.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 800120702-->)
+:{{DIcon|undefined}} I'm here to help restore some relics.
+::<!--Trigger PerformanceE 800120702: Config/Level/Mission/8001207/Act/Act800120702.json-->
+::'''Boris:''' Ha! I was just wondering when you'd be in &mdash; come on then. Let's get to it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120702-->
+;(If {{cx}}<!--SubMission Started: 800120802--> and {{cx}}<!--SubMission Started: 800120702-->)
+:{{DIcon|undefined}} I'm here to help restore some relics.
+::<!--Trigger PerformanceE 800120802: Config/Level/Mission/8001208/Act/Act800120802.json-->
+::'''Boris:''' Ha! I was just wondering when you'd be in &mdash; come on then. Let's get to it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120802-->
+;(If {{cx}}<!--SubMission Started: 800120902-->, {{cx}}<!--SubMission Started: 800120802-->, and {{cx}}<!--SubMission Started: 800120702-->)
+:{{DIcon|undefined}} I'm here to help restore some relics.
+::<!--Trigger PerformanceE 800120902: Config/Level/Mission/8001209/Act/Act800120902.json-->
+::'''Boris:''' Ha! I was just wondering when you'd be in &mdash; come on then. Let's get to it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120902-->
+;(If {{cx}}<!--SubMission Started: 800121602-->, {{cx}}<!--SubMission Started: 800120902-->, {{cx}}<!--SubMission Started: 800120802-->, and {{cx}}<!--SubMission Started: 800120702-->)
+:{{DIcon|undefined}} I'm here to help with restoring exhibits.
+::<!--Trigger PerformanceE 800121602: Config/Level/Mission/8001216/Act/Act800121602.json-->
+::'''Boris:''' (Trailblazer)! Great, I'm desperate for help!
+::'''Boris:''' This model is way out of date. I need to do some research... You take care of this first.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121602-->
+;(If {{cx}}<!--SubMission Started: 800121702-->, {{cx}}<!--SubMission Started: 800121602-->, {{cx}}<!--SubMission Started: 800120902-->, {{cx}}<!--SubMission Started: 800120802-->, and {{cx}}<!--SubMission Started: 800120702-->)
+:{{DIcon|undefined}} I'm here to help with restoring exhibits.
+::<!--Trigger PerformanceE 800121702: Config/Level/Mission/8001217/Act/Act800121702.json-->
+::'''Boris:''' (Trailblazer)! Great, I'm desperate for help!
+::'''Boris:''' This model is way out of date. I need to do some research... You take care of this first.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800121702-->
+;(If {{cx}}<!--SubMission Started: 800122302-->)
+:{{DIcon|undefined}} Heard you were looking for me?
+::<!--Trigger PerformanceE 800122302: Config/Level/Mission/8001223/Act/Act800122302.json-->
+::'''Boris:''' (Trailblazer)! You're finally here! I've been looking everywhere for you!
+::'''Boris:''' I'm modeling the {{Color|keyword|nobold=1|Trailblazer's bat}} right now... This is your unique weapon, right?
+::'''Boris:''' Please, can you do me a favor? If I can see your dashing figure in a real fight, it'll give me a better understanding of this weapon. That way, I can breathe a soul into the model!
+::'''Boris:''' Can you give me a demonstration of how you use this in combat, please? Just for a little bit!
+::{{DIcon|Arrow}} Alright. What should I do?
+::<!--Custom String Listener: TalkSentence_800122317-->
+::'''Boris:''' Haha, thanks for that. I knew you'd help out.
+::'''Boris:''' Then I'll catch you at {{Color|keyword|nobold=1|Backwater Pass}} later, then!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800122302-->
+;(If {{cx}}<!--SubMission Started: 800122402--> and {{cx}}<!--SubMission Started: 800122302-->)
+:{{DIcon|undefined}} Heard you were looking for me?
+::<!--Trigger PerformanceE 800122402: Config/Level/Mission/8001224/Act/Act800122402.json-->
+::'''Boris:''' (Trailblazer)! You're finally here! I've been looking everywhere for you!
+::'''Boris:''' I'm modeling {{Color|keyword|nobold=1|Alisa Rand's Lance}} right now... I heard you're currently in possession of it, yes?
+::'''Boris:''' Please, can you do me a favor? If I can see your dashing figure in a real fight, it'll give me a better understanding of this weapon. That way, I can breathe a soul into the model!
+::'''Boris:''' Can you give me a demonstration of how you use this in combat, please? Just for a little bit!
+::{{DIcon|Arrow}} Alright. What should I do?
+::<!--Custom String Listener: TalkSentence_800122417-->
+::'''Boris:''' Haha, thanks for that. I knew you'd help out.
+::'''Boris:''' Then I'll catch you at {{Color|keyword|nobold=1|Backwater Pass}} later, then!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800122402-->
+;(If {{cx}}<!--SubMission Started: 800120704-->)
+::<!--Trigger PerformanceE 800120703: Config/Level/Mission/8001207/Act/Act800120703.json-->
+::'''Boris:''' Not too bad! Thanks to you, this batch of relics has all been restored ahead of schedule!
+::'''Boris:''' I'm off to touch base with Uldan then about exhibiting them &mdash; don't forget to come back to the exhibition hall when you get the chance to check out the fruits of your labor!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120704-->
+;(If {{cx}}<!--SubMission Started: 800120804-->)
+::<!--Trigger PerformanceE 800120803: Config/Level/Mission/8001208/Act/Act800120803.json-->
+::'''Boris:''' Not too bad! Thanks to you, this batch of relics has all been restored ahead of schedule!
+::'''Boris:''' I'm off to touch base with Uldan then about exhibiting them &mdash; don't forget to come back to the exhibition hall when you get the chance to check out the fruits of your labor!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120804-->
+;(If {{cx}}<!--SubMission Started: 800120904-->)
+:<!--Trigger PerformanceE 800120903: Config/Level/Mission/8001209/Act/Act800120903.json-->
+:'''Boris:''' Not too bad! Thanks to you, this batch of relics has all been restored ahead of schedule!
+:'''Boris:''' I'm off to touch base with Uldan then about exhibiting them &mdash; don't forget to come back to the exhibition hall when you get the chance to check out the fruits of your labor!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800120904-->
+;(If {{cx}}<!--SubMission Started: 800121604-->)
+:<!--Trigger PerformanceE 800121603: Config/Level/Mission/8001216/Act/Act800121603.json-->
+:'''Boris:''' Hey, you're not too bad at this. Respect!
+:'''Boris:''' Thanks to you, that's pretty much done.
+:{{DIcon|Arrow}} Can this thing be used in real-life scenarios?
+::<!--Custom String Listener: TalkSentence_800121624-->
+::'''Boris:''' Hey, don't try using this old relic. If anything happens to it, I'd lose my mind.
+:{{DIcon|Arrow}} Maybe we should just chuck it in the trash?
+::<!--Custom String Listener: TalkSentence_800121626-->
+::'''Boris:''' Well, I guess the folks down at the theater would just love to extort quite a sum from us if we did that.
+:<!--Custom String Trigger: TalkSentence_800121627-->
+:<!--Custom String Listener: TalkSentence_800121627-->
+:'''Boris:''' In any case, good job. I'll go tell Uldan about this, and put these things in the display cabinet.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800121604-->
+;(If {{cx}}<!--SubMission Started: 800121704-->)
+:<!--Trigger PerformanceE 800121703: Config/Level/Mission/8001217/Act/Act800121703.json-->
+:'''Boris:''' Hey, you're not too bad at this. Respect!
+:'''Boris:''' Thanks to you, that's pretty much done.
+:{{DIcon|Arrow}} Can this thing be used in real-life scenarios?
+::<!--Custom String Listener: TalkSentence_800121624-->
+::<!--Custom String Listener: TalkSentence_800121624-->
+::'''Boris:''' Hey, don't try using this old relic. If anything happens to it, I'd lose my mind.
+:{{DIcon|Arrow}} Maybe we should just chuck it in the trash?
+::<!--Custom String Listener: TalkSentence_800121626-->
+::<!--Custom String Listener: TalkSentence_800121626-->
+::'''Boris:''' Well, I guess the folks down at the theater would just love to extort quite a sum from us if we did that.
+:<!--Custom String Trigger: TalkSentence_800121627-->
+:<!--Custom String Listener: TalkSentence_800121627-->
+:'''Boris:''' In any case, good job. I'll go tell Uldan about this, and put these things in the display cabinet.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800121704-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

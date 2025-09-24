@@ -1,0 +1,122 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mung "Sentimental" Bean#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Mung "Sentimental" Bean.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Mung "Sentimental" Bean''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_56_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000145: Config/Level/Mission/5000030/Act/Act900000145.json-->
+::You hear the humming of a rhythmic tune. The energetic tune makes you feel proud of your labor.
+::'''Mung "Sentimental" Bean:''' Dum, da-dum, dee-dum!
+::'''Mung "Sentimental" Bean:''' Are you here to meet Miss Ruan Mei? She's not around at the moment, but she'll be back soon!
+::{{DIcon|Arrow}} You seem very busy.
+:::<!--Custom String Listener: TalkSentence_500014506-->
+:::'''Mung "Sentimental" Bean:''' We can't slack off even though Miss Ruan Mei isn't here.
+::{{DIcon|Arrow}} Don't stand on ceremony. I'm just here for a casual visit.
+:::<!--Custom String Listener: TalkSentence_500014508-->
+:::'''Mung "Sentimental" Bean:''' We're just doing what we should.
+::<!--Custom String Trigger: TalkSentence_500014509-->
+::<!--Custom String Listener: TalkSentence_500014509-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000208: Config/Level/Mission/5000030/Act/Act900000208.json-->
+::You hear the humming of a rhythmic tune. The energetic tune makes you feel proud of your labor.
+::'''Mung "Sentimental" Bean:''' Dum, da-dum, dee-dum!
+::'''Mung "Sentimental" Bean:''' Are you here to meet Miss Ruan Mei? She's not around at the moment, but she'll be back soon!
+:'''Mung "Sentimental" Bean:''' Miss Ruan Mei is coming back to a more comfy working place. I'm sure she'll be thrilled!
+:You see beads of sweat trickling down its face, and its eyes are brimming with anticipation.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Actually...
+::<!--Custom String Trigger: Wait_Option_900000146_162-->
+::<!--Custom String Listener: Wait_Option_900000146_162-->
+::{{DIcon|Talk}} Maybe Ruan Mei can't even see your effort.
+:::<!--Custom String Listener: TalkSentence_500014604-->
+:::'''Mung "Sentimental" Bean:''' Since she has to give her love to so many of her creations, it's perfectly normal for her to overlook us for some time!
+:::'''Mung "Sentimental" Bean:''' It doesn't matter! I'm happy as long as Miss Ruan Mei can enjoy my meticulous service! I believe she'll be touched over time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Maybe Ruan Mei has noticed you for a long time.
+:::<!--Custom String Listener: TalkSentence_500014607-->
+:::'''Mung "Sentimental" Bean:''' R&mdash;Really? It's hard to believe she notices me out of so many of her creations! That's amazing...
+:::'''Mung "Sentimental" Bean:''' There's a chance it's true, isn't it? I must work harder to never let Miss Ruan Mei down!
+:::'''Mung "Sentimental" Bean:''' What should I do about that... Let me finish the work for the entire week today!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Maybe you should stop expecting attention from Ruan Mei.
+:::<!--Custom String Listener: TalkSentence_500014611-->
+:::'''Mung "Sentimental" Bean:''' Miss Ruan Mei is our creator. We can't leave her alone.
+:::'''Mung "Sentimental" Bean:''' How is she going to deal with her troubles without us... I can feel her loneliness just by imagining the situation. No way! I can't let that happen!
+:::'''Mung "Sentimental" Bean:''' We'll always support Miss Ruan Mei at all times and places!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have anything else to say.
+:::<!--Custom String Listener: TalkSentence_500014617-->
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Good luck and let's talk another time.
+::'''Mung "Sentimental" Bean:''' Thanks for your wish! I believe good luck comes with hard work!
+::'''Mung "Sentimental" Bean:''' I have to keep my nose to the grindstone to finish the work today. Hopefully, Miss Ruan Mei will be impressed by our work when she visits!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

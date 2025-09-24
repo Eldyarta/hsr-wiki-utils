@@ -1,0 +1,131 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maintenance Engineer#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = A Man Who Wishes Not to Be Named
+|image           = NPC Maintenance Engineer.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Maintenance Engineer''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_90_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 300070501,
+		"Type": "submission_state_equal",
+		"Param1": 300070501,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300070501: Config/Level/Mission/3000705/Act/Act300070501.json-->
+:'''Maintenance Engineer:''' Back again, (Trailblazer)? Aren't the robots fixed already?
+:{{DIcon|Arrow}} I heard the after-sales services sent staff over?
+::<!--Custom String Listener: TalkSentence_300070503-->
+::'''Maintenance Engineer:''' Yes.
+:{{DIcon|Arrow}} So, did you fix those robots?
+::<!--Custom String Listener: TalkSentence_300070505-->
+::'''Maintenance Engineer:''' Of course, I did. Did you think the Wubbaboo fixed them?
+:<!--Custom String Trigger: TalkSentence_300070506-->
+:<!--Custom String Listener: TalkSentence_300070506-->
+:'''Maintenance Engineer:''' Why are you asking? Oh, I get it... No, I didn't slack off...
+:'''Maintenance Engineer:''' Lead Researcher Asta bought a new batch of robots, and that's why the Interastral Peace Appliances folks came.
+:'''Maintenance Engineer:''' But I fixed the robots already, so this new batch is now our backup.
+:{{DIcon|Arrow}} It appears I've misjudged you.
+::<!--Custom String Listener: TalkSentence_300070510-->
+::'''Maintenance Engineer:''' Not to worry. It's just a misunderstanding.
+:{{DIcon|Arrow}} You're pretty efficient then.
+::<!--Custom String Listener: TalkSentence_300070512-->
+::'''Maintenance Engineer:''' Totally!
+:<!--Custom String Trigger: TalkSentence_300070513-->
+:<!--Custom String Listener: TalkSentence_300070513-->
+:'''Maintenance Engineer:''' Anyways, it's all fixed, and everyone can eat on time! I need to catch some rest myself. It's been pretty exhausting lately!
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 300070501
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300070501: Config/Level/Mission/3000705/Act/Act300070501.json-->
+:'''Maintenance Engineer:''' Back again, (Trailblazer)? Aren't the robots fixed already?
+:{{DIcon|Arrow}} I heard the after-sales services sent staff over?
+::<!--Custom String Listener: TalkSentence_300070503-->
+::'''Maintenance Engineer:''' Yes.
+:{{DIcon|Arrow}} So, did you fix those robots?
+::<!--Custom String Listener: TalkSentence_300070505-->
+::'''Maintenance Engineer:''' Of course, I did. Did you think the Wubbaboo fixed them?
+:<!--Custom String Trigger: TalkSentence_300070506-->
+:<!--Custom String Listener: TalkSentence_300070506-->
+:'''Maintenance Engineer:''' Why are you asking? Oh, I get it... No, I didn't slack off...
+:'''Maintenance Engineer:''' Lead Researcher Asta bought a new batch of robots, and that's why the Interastral Peace Appliances folks came.
+:'''Maintenance Engineer:''' But I fixed the robots already, so this new batch is now our backup.
+:{{DIcon|Arrow}} It appears I've misjudged you.
+::<!--Custom String Listener: TalkSentence_300070510-->
+::'''Maintenance Engineer:''' Not to worry. It's just a misunderstanding.
+:{{DIcon|Arrow}} You're pretty efficient then.
+::<!--Custom String Listener: TalkSentence_300070512-->
+::'''Maintenance Engineer:''' Totally!
+:<!--Custom String Trigger: TalkSentence_300070513-->
+:<!--Custom String Listener: TalkSentence_300070513-->
+:'''Maintenance Engineer:''' Anyways, it's all fixed, and everyone can eat on time! I need to catch some rest myself. It's been pretty exhausting lately!
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maintenance Engineer
+|zhs  = 维修工程师
+|zht  = 維修工程師
+|ja   = メンテナンスエンジニア
+|ko   = 수리 엔지니어
+|es   = Ingeniero de mantenimiento
+|fr   = Ingénieur de maintenance
+|ru   = Инженер по техническому обслуживанию
+|th   = วิศวกรซ่อมบำรุง
+|vi   = Kỹ Sư Sửa Chữa
+|de   = Wartungstechniker
+|id   = Insinyur Pemeliharaan
+|pt   = Engenheiro de Manutenção
+}}
+==Change History==
+{{Change History|TODO}}

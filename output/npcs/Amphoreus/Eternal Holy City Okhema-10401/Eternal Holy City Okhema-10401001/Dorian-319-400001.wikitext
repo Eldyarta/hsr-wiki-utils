@@ -1,0 +1,336 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dorian#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Holy City Guard
+|image           = NPC Dorian.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Dorian''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_319_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504007001: Config/Level/Mission/5040070/Act/Act504007001.json-->
+::'''Dorian:''' Hello, outlander. Have you eaten yet?
+::{{DIcon|Arrow}} Not yet.
+:::<!--Custom String Listener: TalkSentence_504007003-->
+:::'''Dorian:''' Georios says you shouldn't fight while hungry. When I'm done with work, come find me. I'll make you something to eat.
+::{{DIcon|Arrow}} Yeah, I did. How about you?
+:::<!--Custom String Listener: TalkSentence_504007005-->
+:::'''Dorian:''' Not yet. Georios says you shouldn't fight while hungry. When I'm done with work, I'll make myself something to eat.
+::<!--Custom String Trigger: TalkSentence_504007006-->
+::<!--Custom String Listener: TalkSentence_504007006-->
+::'''Dorian:''' Now that you're here, outlander. Help me with this.
+::'''Dorian:''' I caught a Dollo at three quints past the Entry Hour, and it would make great skewers. Should I roast it with salt or with sauce? Or...
+::'''Camilla:''' Stop talking nonsense over there, Dorian! The direwolves are coming in!
+::'''Dorian:''' Oops! Just one moment.
+:;(Screen fades to black)
+::A beast scurries into the city. Just as you are about to intervene, the guard swiftly deals with the intruder in a few strikes.
+::Once the turmoil settles, he is immediately summoned elsewhere and only comes back after a while, looking downcast.
+::'''Dorian:''' Ugh... Hmm...
+::{{DIcon|Arrow}} Got told off?
+:::<!--Custom String Listener: TalkSentence_504007014-->
+:::'''Dorian:''' Got told off by the captain for slacking off as a guard and not taking safety seriously. So I had to stew the Dollo for everyone to make up for it.
+::{{DIcon|Arrow}} You fought well!
+:::<!--Custom String Listener: TalkSentence_504007016-->
+:::'''Dorian:''' Thank you. That's the basic requirement of my work. But I won't cancel out the fault that got me in trouble, so I had to stew the Dollo for everyone to make up for it.
+::<!--Custom String Trigger: TalkSentence_504007017-->
+::<!--Custom String Listener: TalkSentence_504007017-->
+::'''Dorian:''' I'm sorry, outlander. If you're hungry, I'll cook something else for you.
+::'''Dorian:''' Let me introduce myself. I'm Dorian, a child of Georios. I used to be a cook, and now I'm a guard.
+::'''Dorian:''' I'll be protecting Okhema, and when I'm not, I'll be cooking.
+::'''Dorian:''' Now that we know each other, I won't stop you in the future anymore.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504007002: Config/Level/Mission/5040070/Act/Act504007002.json-->
+::'''Dorian:''' Nothing strange going on today.
+::'''Dorian:''' Ah, it's you, outlander. Have you eaten yet?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm starving. Got anything to eat?
+:;(If {{cx}}<!--SubMission Started: 304002011-->)
+:::'''Dorian:''' Yeah, fresh from the pot. Take it.
+:;(If {{cx}}<!--SubMission not Started: 304002011-->)
+:::'''Dorian:''' No, not ready yet. Come back later.
+::<!--Ends the current performance-->
+:{{DIcon}} I'm here for a little chat.
+::'''Dorian:''' Good, I'm free now. I'm so bored that I might as well be growing mushrooms.
+::<!--Custom String Trigger: Wait_Option_504007003_48-->
+::<!--Custom String Listener: Wait_Option_504007003_48-->
+::{{DIcon|Talk}} Why did you stop being a cook?
+:::<!--Custom String Listener: TalkSentence_504007103-->
+:::'''Dorian:''' Because I didn't have a choice.
+:::'''Dorian:''' I was an outlander too. When I came to Okhema, the immigration officer from the Council of Elders asked me what I did, and I told them I was a cook, and a good one.
+:::'''Dorian:''' Then he scolded me, "Georios blessed you with a strong physique, but all you do is whip up meals?"
+:::'''Dorian:''' They shoved armor and weapon into my hands and told me to stand here for long hours every day. But this job isn't suited for me at all.
+:::{{DIcon|Arrow}} Come on! You're pretty skilled.
+::::<!--Custom String Listener: TalkSentence_504007108-->
+::::'''Dorian:''' I'm even more skilled in the kitchen... but they said it's not right for a Mountain Dweller to be a cook. It's a waste of my talents.
+::::<!--Custom String Trigger: TalkSentence_504007111-->
+::::<!--Custom String Listener: TalkSentence_504007111-->
+::::'''Dorian:''' I know, being a guard sounds more like what a Mountain Dweller should do. Plus, I can cook in secret. I can live with that.
+::::'''Dorian:''' Georios made me, and I shouldn't ask for more, but it still feels bad. I want to cry. But I'm a child of Georios, and I mustn't cry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Being a guard is a very important profession.
+::::<!--Custom String Listener: TalkSentence_504007110-->
+::::'''Dorian:''' But cooking is important too. Like guards, cooks help keep people alive and healthy.
+::::<!--Custom String Trigger: TalkSentence_504007111-->
+::::<!--Custom String Listener: TalkSentence_504007111-->
+::::'''Dorian:''' I know, being a guard sounds more like what a Mountain Dweller should do. Plus, I can cook in secret. I can live with that.
+::::'''Dorian:''' Georios made me, and I shouldn't ask for more, but it still feels bad. I want to cry. But I'm a child of Georios, and I mustn't cry.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about your cooking stories!
+:::<!--Custom String Listener: TalkSentence_504007114-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007114,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007115,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007116,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007117,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007118,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007119,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007120,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007121,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007122,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007123,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007124,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007125,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007126,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007127,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007128,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007129,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007130,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007131,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504007132,
+					"ProtectTime": 0
+				}
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How about sharing some stories about guarding the city?
+:::<!--Custom String Listener: TalkSentence_504007134-->
+:::'''Dorian:''' Guarding city is boring. Not much to tell.
+:::'''Dorian:''' ...Trouble comes sometimes. Bad things, bad people. More bad things when I cook.
+:::'''Dorian:''' My job is just to stop them, then the Chrysos Heirs and the Council of Elders take over. That's all. Guarding the city is boring.
+:::'''Dorian:''' I hope I never get new stories about guarding the city.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Well, that's it for now. I'll leave you to your duties.
+:::<!--Custom String Listener: TalkSentence_504007139-->
+:::'''Dorian:''' No duties. Come to me when you're hungry. I'll cook something yummy.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Well, that's it for now. I'll leave you to your duties.
+::'''Dorian:''' No duties. Come to me when you're hungry. I'll cook something yummy.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

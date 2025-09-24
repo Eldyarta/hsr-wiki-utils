@@ -1,0 +1,1200 @@
+<%-- [PAGE_INFO]
+PageTitle=#Emily#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Insight Researcher
+|image           = NPC Emily.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Storage Zone
+|relatives       = 
+}}
+'''Emily''' is an NPC on [[Herta Space Station]], located in [[Storage Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Storage Zone|npc_61_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 300060101,
+		"Type": "submission_state_equal",
+		"Param1": 300060101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300060101: Config/Level/Mission/3000601/Act/Act300060101.json-->
+:'''Emily:''' Ha? Who are you? Who still flirts like this these days? Blah blah "the rumor this," ha &mdash; so tacky!
+:{{DIcon|Arrow}} Can you please talk in a less hostile way?
+::<!--Custom String Listener: TalkSentence_300060105-->
+::'''Emily:''' Why should I care about what you think? If I do, I might as well become the acting lead researcher!
+:{{DIcon|Arrow}} No wonder people say you're difficult...
+::<!--Custom String Listener: TalkSentence_300060107-->
+::'''Emily:''' They can say what they want. I don't care!
+:<!--Custom String Trigger: TalkSentence_300060108-->
+:<!--Custom String Listener: TalkSentence_300060108-->
+:'''Emily:''' If you've got something to say, just say it. What do you want me for?
+:{{DIcon|Arrow}} (Tell her the researchers' suggestions)
+:<!--Custom String Listener: TalkSentence_300060110-->
+:'''Emily:''' Listen up, I don't care what anyone says about me behind my back. Just like Lesley doesn't care what people say about her!
+:'''Emily:''' I'm Emily. This is the way I talk, and nobody is gonna change that!
+:As Emily speaks, a shopping list of books slips out of her pocket.
+:''The Art of Language'', ''Communication Skills'', ''The Communication Collection: 30 Ways to Capture the Hearts of Your Listeners''... You notice that the purchases are all addressed to Emily.
+:{{DIcon|Arrow}} I see you enjoy reading...
+::<!--Custom String Listener: TalkSentence_300060115-->
+:{{DIcon|Arrow}} Didn't you say that you don't care?
+::<!--Custom String Listener: TalkSentence_300060117-->
+:'''Emily:''' ...
+:<!--Custom String Trigger: TalkSentence_300060118-->
+:<!--Custom String Listener: TalkSentence_300060118-->
+:'''Emily:''' Whoops! That's annoying... I... I don't know what to do! People say I don't have good communication skills... I'm aware of that!
+:'''Emily:''' But I... I can't change that quickly, and books only ever write about theory. In practice, it's all useless!
+:{{DIcon|Arrow}} I can coach you.
+::<!--Custom String Listener: TalkSentence_300060121-->
+::'''Emily:''' Really? Coach me? But you look...
+:{{DIcon|Arrow}} Reading is of little use. It must be practiced.
+::<!--Custom String Listener: TalkSentence_300060123-->
+::'''Emily:''' Who doesn't understand that? B&mdash;But how do I practice it?
+:<!--Custom String Trigger: TalkSentence_300060124-->
+:<!--Custom String Listener: TalkSentence_300060124-->
+:'''Emily:''' Sorry, I just... got a little too excited when speaking.
+:'''Emily:''' As you can see, my situation really is a tricky one... If I want to change it, I'll have to learn how to speak from scratch.
+:'''Emily:''' ...Can you coach me? Like, if you want to chat with other people, how do you start the conversation?
+:{{DIcon|Arrow}} How about this...
+::<!--Custom String Listener: Wait_Option_300060101_43-->
+::{{DIcon|Arrow}} Hello?
+:::<!--Custom String Listener: TalkSentence_300060131-->
+:::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+:::<!--Custom String Trigger: Wait_Option_300060101_43-->
+:::<!--Custom String Listener: Wait_Option_300060101_43-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} What's for dinner?
+::::<!--Custom String Listener: TalkSentence_300060137-->
+::::'''Emily:''' Seems... Okay?
+::::<!--Custom String Trigger: TalkSentence_300060139-->
+::::<!--Custom String Listener: TalkSentence_300060139-->
+::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Trigger: 300060101_Finish-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} It sure is windy today.
+::::<!--Custom String Listener: TalkSentence_300060129-->
+::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What are you doing?
+::::<!--Custom String Listener: TalkSentence_300060133-->
+::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Hello, excuse me...
+::::<!--Custom String Listener: TalkSentence_300060135-->
+::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What's for dinner?
+:::<!--Custom String Listener: TalkSentence_300060137-->
+:::'''Emily:''' Seems... Okay?
+:::<!--Custom String Trigger: TalkSentence_300060139-->
+:::<!--Custom String Listener: TalkSentence_300060139-->
+:::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+:::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+:::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Trigger: 300060101_Finish-->
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} It sure is windy today.
+:::<!--Custom String Listener: TalkSentence_300060129-->
+:::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+:::<!--Custom String Trigger: Wait_Option_300060101_43-->
+:::<!--Custom String Listener: Wait_Option_300060101_43-->
+:::{{DIcon|Arrow}} Hello?
+::::<!--Custom String Listener: TalkSentence_300060131-->
+::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's for dinner?
+::::<!--Custom String Listener: TalkSentence_300060137-->
+::::'''Emily:''' Seems... Okay?
+::::<!--Custom String Trigger: TalkSentence_300060139-->
+::::<!--Custom String Listener: TalkSentence_300060139-->
+::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Trigger: 300060101_Finish-->
+::::<!--Ends the current performance-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} What are you doing?
+::::<!--Custom String Listener: TalkSentence_300060133-->
+::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Hello, excuse me...
+::::<!--Custom String Listener: TalkSentence_300060135-->
+::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What are you doing?
+:::<!--Custom String Listener: TalkSentence_300060133-->
+:::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+:::<!--Custom String Trigger: Wait_Option_300060101_43-->
+:::<!--Custom String Listener: Wait_Option_300060101_43-->
+:::{{DIcon|Arrow}} Hello?
+::::<!--Custom String Listener: TalkSentence_300060131-->
+::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's for dinner?
+::::<!--Custom String Listener: TalkSentence_300060137-->
+::::'''Emily:''' Seems... Okay?
+::::<!--Custom String Trigger: TalkSentence_300060139-->
+::::<!--Custom String Listener: TalkSentence_300060139-->
+::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Trigger: 300060101_Finish-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} It sure is windy today.
+::::<!--Custom String Listener: TalkSentence_300060129-->
+::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Hello, excuse me...
+::::<!--Custom String Listener: TalkSentence_300060135-->
+::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Hello, excuse me...
+:::<!--Custom String Listener: TalkSentence_300060135-->
+:::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+:::<!--Custom String Trigger: Wait_Option_300060101_43-->
+:::<!--Custom String Listener: Wait_Option_300060101_43-->
+:::{{DIcon|Arrow}} Hello?
+::::<!--Custom String Listener: TalkSentence_300060131-->
+::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's for dinner?
+::::<!--Custom String Listener: TalkSentence_300060137-->
+::::'''Emily:''' Seems... Okay?
+::::<!--Custom String Trigger: TalkSentence_300060139-->
+::::<!--Custom String Listener: TalkSentence_300060139-->
+::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Trigger: 300060101_Finish-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} It sure is windy today.
+::::<!--Custom String Listener: TalkSentence_300060129-->
+::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What are you doing?
+::::<!--Custom String Listener: TalkSentence_300060133-->
+::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Exit}} I can't think of anything better.
+::<!--Custom String Listener: Wait_Option_300060101_39-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 300060201,
+		"Type": "submission_state_equal",
+		"Param1": 300060201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300060201: Config/Level/Mission/3000602/Act/Act300060201.json-->
+:'''Emily:''' Oh yeah! The phrase you taught me last time was really useful, but if I try to keep on talking... I'd reveal my true colors once again!
+:'''Emily:''' Once the conversation starts, how do I keep going on from there?
+:'''Emily:''' So, I just want to ask you, is there any kind of catch-all phrase that can make any conversation continue smoothly and naturally?
+:{{DIcon|Arrow}} That's quite the request.
+::<!--Custom String Listener: TalkSentence_300060207-->
+::'''Emily:''' Hahaha, do me a favor.
+:{{DIcon|Arrow}} It's pretty tough. Let me think about it...
+::<!--Custom String Listener: TalkSentence_300060209-->
+::'''Emily:''' Please please please. You're a master of language, and you'll definitely come up with something!
+:<!--Custom String Trigger: TalkSentence_300060210-->
+:<!--Custom String Listener: TalkSentence_300060210-->
+:'''Emily:''' So? Have you got anything?
+:{{DIcon|Arrow}} How about this...
+::<!--Custom String Listener: Wait_Option_300060201_22-->
+::{{DIcon|Arrow}} Mmm, I'm all ears.
+:::<!--Custom String Listener: TalkSentence_300060213-->
+:::'''Emily:''' But what if people never asked me if I was listening or not? It feels kinda cringe...
+:::<!--Custom String Trigger: Wait_Option_300060201_22-->
+:::<!--Custom String Listener: Wait_Option_300060201_22-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Ah? Really?
+::::<!--Custom String Listener: TalkSentence_300060217-->
+::::'''Emily:''' This... This one's great.
+::::<!--Custom String Trigger: TalkSentence_300060219-->
+::::<!--Custom String Listener: TalkSentence_300060219-->
+::::'''Emily:''' Mmm, mmm, this one's great, I think &mdash; If I'm chatting, I'll ask "What's for dinner?" followed by "Ah? Really?"
+::::'''Emily:''' ...Nope, feels weird. Like I'm missing something...
+::::{{DIcon|Arrow}} Then add one more phrase...
+:::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::{{DIcon|Arrow}} Go on.
+::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Trigger: 300060201_Finish-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} You're awesome!
+::::::<!--Custom String Listener: TalkSentence_300060223-->
+::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060201_Finish-->
+:::::::<!--Ends the current performance-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Arrow}} Okay.
+:::::::<!--Custom String Listener: TalkSentence_300060225-->
+:::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Okay.
+::::::<!--Custom String Listener: TalkSentence_300060225-->
+::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060201_Finish-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} You're awesome!
+:::::::<!--Custom String Listener: TalkSentence_300060223-->
+:::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I can't think of anything better.
+:::::<!--Custom String Listener: Wait_Option_300060201_18-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Please, go on.
+::::<!--Custom String Listener: TalkSentence_300060215-->
+::::'''Emily:''' This one has a strange friendliness to it. It sounds okay overall &mdash; but there seems to be a bit of sarcasm deep down?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Ah? Really?
+:::<!--Custom String Listener: TalkSentence_300060217-->
+:::'''Emily:''' This... This one's great.
+:::<!--Custom String Trigger: TalkSentence_300060219-->
+:::<!--Custom String Listener: TalkSentence_300060219-->
+:::'''Emily:''' Mmm, mmm, this one's great, I think &mdash; If I'm chatting, I'll ask "What's for dinner?" followed by "Ah? Really?"
+:::'''Emily:''' ...Nope, feels weird. Like I'm missing something...
+:::{{DIcon|Arrow}} Then add one more phrase...
+::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::{{DIcon|Arrow}} Go on.
+:::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Trigger: 300060201_Finish-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} You're awesome!
+:::::<!--Custom String Listener: TalkSentence_300060223-->
+:::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+:::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+:::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::{{DIcon|Arrow}} Go on.
+::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Trigger: 300060201_Finish-->
+::::::<!--Ends the current performance-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Arrow}} Okay.
+::::::<!--Custom String Listener: TalkSentence_300060225-->
+::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+:::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Okay.
+:::::<!--Custom String Listener: TalkSentence_300060225-->
+:::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+:::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+:::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::{{DIcon|Arrow}} Go on.
+::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Trigger: 300060201_Finish-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} You're awesome!
+::::::<!--Custom String Listener: TalkSentence_300060223-->
+::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I can't think of anything better.
+::::<!--Custom String Listener: Wait_Option_300060201_18-->
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Please, go on.
+:::<!--Custom String Listener: TalkSentence_300060215-->
+:::'''Emily:''' This one has a strange friendliness to it. It sounds okay overall &mdash; but there seems to be a bit of sarcasm deep down?
+:::<!--Custom String Trigger: Wait_Option_300060201_22-->
+:::<!--Custom String Listener: Wait_Option_300060201_22-->
+:::{{DIcon|Arrow}} Mmm, I'm all ears.
+::::<!--Custom String Listener: TalkSentence_300060213-->
+::::'''Emily:''' But what if people never asked me if I was listening or not? It feels kinda cringe...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Ah? Really?
+::::<!--Custom String Listener: TalkSentence_300060217-->
+::::'''Emily:''' This... This one's great.
+::::<!--Custom String Trigger: TalkSentence_300060219-->
+::::<!--Custom String Listener: TalkSentence_300060219-->
+::::'''Emily:''' Mmm, mmm, this one's great, I think &mdash; If I'm chatting, I'll ask "What's for dinner?" followed by "Ah? Really?"
+::::'''Emily:''' ...Nope, feels weird. Like I'm missing something...
+::::{{DIcon|Arrow}} Then add one more phrase...
+:::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::{{DIcon|Arrow}} Go on.
+::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Trigger: 300060201_Finish-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} You're awesome!
+::::::<!--Custom String Listener: TalkSentence_300060223-->
+::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060201_Finish-->
+:::::::<!--Ends the current performance-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Arrow}} Okay.
+:::::::<!--Custom String Listener: TalkSentence_300060225-->
+:::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Okay.
+::::::<!--Custom String Listener: TalkSentence_300060225-->
+::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060201_Finish-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} You're awesome!
+:::::::<!--Custom String Listener: TalkSentence_300060223-->
+:::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I can't think of anything better.
+:::::<!--Custom String Listener: Wait_Option_300060201_18-->
+:::::<!--Ends the current performance-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Exit}} I can't think of anything better.
+::<!--Custom String Listener: Wait_Option_300060201_18-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 300060301,
+		"Type": "submission_state_equal",
+		"Param1": 300060301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300060301: Config/Level/Mission/3000603/Act/Act300060301.json-->
+:<!--Custom String Trigger: TalkSentence_300060302-->
+:<!--Custom String Listener: TalkSentence_300060302-->
+:'''Emily:''' Ah? Really? It's been okay. Ah yes, have you eaten yet? And then? Ah, I'm sorry &mdash; I accidentally slipped back into that mode again.
+:{{DIcon|Arrow}} "That mode"?
+::<!--Custom String Listener: TalkSentence_300060304-->
+::'''Emily:''' I mean, the mode you taught me! Don't play dumb.
+:{{DIcon|Arrow}} You're a fast learner.
+::<!--Custom String Listener: TalkSentence_300060306-->
+::'''Emily:''' Heehee, I can pretty much chat freely back and forth with people now.
+:<!--Custom String Trigger: TalkSentence_300060307-->
+:<!--Custom String Listener: TalkSentence_300060307-->
+:'''Emily:''' Normal chats can't faze me now, but... I've got a small problem &mdash; I can't help but reveal my true colors during lab work...
+:'''Emily:''' Maybe it's because my brain hasn't adjusted to it yet, and it's still a beat behind my mouth.
+:'''Emily:''' Teacher, are there any catch-all phrases that I can say when I'm too busy to think?
+:{{DIcon|Arrow}} How about this...
+::<!--Custom String Listener: Wait_Option_300060301_21-->
+::{{DIcon|Arrow}} Got it.
+:::<!--Custom String Listener: TalkSentence_300060312-->
+:::'''Emily:''' Seems a little ill-mannered, like... a little impatient? It won't work!
+:::<!--Custom String Trigger: Wait_Option_300060301_21-->
+:::<!--Custom String Listener: Wait_Option_300060301_21-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Get straight to the point.
+::::<!--Custom String Listener: TalkSentence_300060314-->
+::::'''Emily:''' That seems kind of blunt.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Mmm, mmm, sure, sure.
+::::<!--Custom String Listener: TalkSentence_300060316-->
+::::'''Emily:''' Mmm... Mmm... sure, sure. Wow! That rolls off the tongue!
+::::<!--Custom String Trigger: TalkSentence_300060318-->
+::::<!--Custom String Listener: TalkSentence_300060318-->
+::::'''Emily:''' Mmm, mmm, and then... Ah, sorry, I couldn't help it.
+::::'''Emily:''' Teacher, I thought of something. Sometimes I meet people who love bragging and don't shut up about themselves.
+::::'''Emily:''' To be honest, I don't really want to talk with people like that &mdash; but I also want to be as polite as possible. Is there any catch-all phrase that can be used in these situations?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I can't think of anything better.
+:::::<!--Custom String Listener: Wait_Option_300060301_18-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Get straight to the point.
+:::<!--Custom String Listener: TalkSentence_300060314-->
+:::'''Emily:''' That seems kind of blunt.
+:::<!--Custom String Trigger: Wait_Option_300060301_21-->
+:::<!--Custom String Listener: Wait_Option_300060301_21-->
+:::{{DIcon|Arrow}} Got it.
+::::<!--Custom String Listener: TalkSentence_300060312-->
+::::'''Emily:''' Seems a little ill-mannered, like... a little impatient? It won't work!
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Mmm, mmm, sure, sure.
+::::<!--Custom String Listener: TalkSentence_300060316-->
+::::'''Emily:''' Mmm... Mmm... sure, sure. Wow! That rolls off the tongue!
+::::<!--Custom String Trigger: TalkSentence_300060318-->
+::::<!--Custom String Listener: TalkSentence_300060318-->
+::::'''Emily:''' Mmm, mmm, and then... Ah, sorry, I couldn't help it.
+::::'''Emily:''' Teacher, I thought of something. Sometimes I meet people who love bragging and don't shut up about themselves.
+::::'''Emily:''' To be honest, I don't really want to talk with people like that &mdash; but I also want to be as polite as possible. Is there any catch-all phrase that can be used in these situations?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I can't think of anything better.
+:::::<!--Custom String Listener: Wait_Option_300060301_18-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Mmm, mmm, sure, sure.
+:::<!--Custom String Listener: TalkSentence_300060316-->
+:::'''Emily:''' Mmm... Mmm... sure, sure. Wow! That rolls off the tongue!
+:::<!--Custom String Trigger: TalkSentence_300060318-->
+:::<!--Custom String Listener: TalkSentence_300060318-->
+:::'''Emily:''' Mmm, mmm, and then... Ah, sorry, I couldn't help it.
+:::'''Emily:''' Teacher, I thought of something. Sometimes I meet people who love bragging and don't shut up about themselves.
+:::'''Emily:''' To be honest, I don't really want to talk with people like that &mdash; but I also want to be as polite as possible. Is there any catch-all phrase that can be used in these situations?
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I can't think of anything better.
+::::<!--Custom String Listener: Wait_Option_300060301_18-->
+::::<!--Ends the current performance-->
+:{{DIcon|Exit}} I can't think of anything better.
+::<!--Custom String Listener: Wait_Option_300060301_18-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Wait_Option_500010116_869-->
+:<!--Custom String Listener: Wait_Option_500010116_869-->
+:{{DIcon|Talk}} Are you trying to break the record for drinking coffee?
+::<!--Custom String Listener: TalkSentence_500011313-->
+::'''Emily:''' How... How did you know that? Have you heard about the story of that woman?
+::'''Emily:''' Why am I surprised? People on Seed Isle never shut up. They keep bragging about the legend of Lesley's 11 Cups of Coffee.
+::'''Emily:''' Whatever Lesley can do, I can do it too. And I will do it even better!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About Lesley.
+::<!--Custom String Listener: TalkSentence_500011317-->
+::'''Emily:''' Understand this, I'm Emily! Even though technically I'm her sister, I hope you can get to know me as an independent individual, instead of associating me with that woman, like everybody else.
+::'''Emily:''' I was only born a bit later than her. I am better than her no matter in talent or practice.
+::'''Emily:''' As long as I am given the same opportunity, I'm sure I will be able to create my own legend on the space station...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About rumors on Lesley.
+::<!--Custom String Listener: TalkSentence_500011322-->
+::'''Emily:''' Coffee consumption? Research genius? These rumors are everywhere on the space station. Why do you have to come to me to ask? Are you trying to rile me up?
+::'''Emily:''' If you're here to verify the validity of the rumors, I can tell you with 100% certainty that yes, Lesley is just a genius like that.
+::'''Emily:''' But if you're thinking of getting any insider information or playing some weird games through me... I'm warning you, it's best you drop those thoughts right now!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500011327-->
+::'''Emily:''' That's a wise thing to do. Leave me alone. And stop prying on Lesley.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Emily:''' You again? What do you want to ask this time? I'm very busy! I need to investigate the divine message!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Emily:''' That's a wise thing to do. Leave me alone. And stop prying on Lesley.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000103: Config/Level/NPC/W0/NPC_DefaultStory_500001301.json-->
+::<!--Custom String Trigger: TalkSentence_500011302-->
+::<!--Custom String Listener: TalkSentence_500011302-->
+::'''Emily:''' The ninth cup... Come on, Emily. This is nothing. Just pinch your nose and drink it.
+::'''Emily:''' Yes, pinch your nose. It's just brown liquid.
+::'''Emily:''' *Cough* I can't take it anymore... it's disgusting.
+::<!--Custom String Trigger: Wait_Option_500010116_858-->
+::<!--Custom String Listener: Wait_Option_500010116_858-->
+::{{DIcon|Arrow}} Why are you drinking so much coffee?
+:::<!--Custom String Listener: TalkSentence_500011306-->
+:::'''Emily:''' Who are you? How come I've never seen you?
+:::'''Emily:''' Mind your own business. Whether I drink coffee or not has nothing to do with you!
+::{{DIcon|Arrow}} You don't seem to enjoy drinking coffee.
+:::<!--Custom String Listener: TalkSentence_500011309-->
+:::'''Emily:''' It's none of your business! Who says I can't drink coffee if I don't like it? Is this against the law?
+:::'''Emily:''' At the end of the day, coffee is just a functional beverage. People eat when they are hungry, and people drink coffee when they feel tired!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000104: Config/Level/NPC/W0/NPC_DefaultStory_500001300.json-->
+::'''Emily:''' You again? What do you want to ask this time? I'm very busy! I need to investigate the divine message!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 300060301_Finish-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 300060201_Finish-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 300060101_Finish-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 300060101-->)
+:{{DIcon|undefined}} So you are the rumored...
+::<!--Trigger PerformanceE 300060101: Config/Level/Mission/3000601/Act/Act300060101.json-->
+::'''Emily:''' Ha? Who are you? Who still flirts like this these days? Blah blah "the rumor this," ha &mdash; so tacky!
+::{{DIcon|Arrow}} Can you please talk in a less hostile way?
+:::<!--Custom String Listener: TalkSentence_300060105-->
+:::'''Emily:''' Why should I care about what you think? If I do, I might as well become the acting lead researcher!
+::{{DIcon|Arrow}} No wonder people say you're difficult...
+:::<!--Custom String Listener: TalkSentence_300060107-->
+:::'''Emily:''' They can say what they want. I don't care!
+::<!--Custom String Trigger: TalkSentence_300060108-->
+::<!--Custom String Listener: TalkSentence_300060108-->
+::'''Emily:''' If you've got something to say, just say it. What do you want me for?
+::{{DIcon|Arrow}} (Tell her the researchers' suggestions)
+::<!--Custom String Listener: TalkSentence_300060110-->
+::'''Emily:''' Listen up, I don't care what anyone says about me behind my back. Just like Lesley doesn't care what people say about her!
+::'''Emily:''' I'm Emily. This is the way I talk, and nobody is gonna change that!
+::As Emily speaks, a shopping list of books slips out of her pocket.
+::''The Art of Language'', ''Communication Skills'', ''The Communication Collection: 30 Ways to Capture the Hearts of Your Listeners''... You notice that the purchases are all addressed to Emily.
+::{{DIcon|Arrow}} I see you enjoy reading...
+:::<!--Custom String Listener: TalkSentence_300060115-->
+::{{DIcon|Arrow}} Didn't you say that you don't care?
+:::<!--Custom String Listener: TalkSentence_300060117-->
+::'''Emily:''' ...
+::<!--Custom String Trigger: TalkSentence_300060118-->
+::<!--Custom String Listener: TalkSentence_300060118-->
+::'''Emily:''' Whoops! That's annoying... I... I don't know what to do! People say I don't have good communication skills... I'm aware of that!
+::'''Emily:''' But I... I can't change that quickly, and books only ever write about theory. In practice, it's all useless!
+::{{DIcon|Arrow}} I can coach you.
+:::<!--Custom String Listener: TalkSentence_300060121-->
+:::'''Emily:''' Really? Coach me? But you look...
+::{{DIcon|Arrow}} Reading is of little use. It must be practiced.
+:::<!--Custom String Listener: TalkSentence_300060123-->
+:::'''Emily:''' Who doesn't understand that? B&mdash;But how do I practice it?
+::<!--Custom String Trigger: TalkSentence_300060124-->
+::<!--Custom String Listener: TalkSentence_300060124-->
+::'''Emily:''' Sorry, I just... got a little too excited when speaking.
+::'''Emily:''' As you can see, my situation really is a tricky one... If I want to change it, I'll have to learn how to speak from scratch.
+::'''Emily:''' ...Can you coach me? Like, if you want to chat with other people, how do you start the conversation?
+::{{DIcon|Arrow}} How about this...
+:::<!--Custom String Listener: Wait_Option_300060101_43-->
+:::{{DIcon|Arrow}} Hello?
+::::<!--Custom String Listener: TalkSentence_300060131-->
+::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+::::<!--Custom String Trigger: Wait_Option_300060101_43-->
+::::<!--Custom String Listener: Wait_Option_300060101_43-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What's for dinner?
+:::::<!--Custom String Listener: TalkSentence_300060137-->
+:::::'''Emily:''' Seems... Okay?
+:::::<!--Custom String Trigger: TalkSentence_300060139-->
+:::::<!--Custom String Listener: TalkSentence_300060139-->
+:::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+:::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+:::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Trigger: 300060101_Finish-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} It sure is windy today.
+:::::<!--Custom String Listener: TalkSentence_300060129-->
+:::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What are you doing?
+:::::<!--Custom String Listener: TalkSentence_300060133-->
+:::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Hello, excuse me...
+:::::<!--Custom String Listener: TalkSentence_300060135-->
+:::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's for dinner?
+::::<!--Custom String Listener: TalkSentence_300060137-->
+::::'''Emily:''' Seems... Okay?
+::::<!--Custom String Trigger: TalkSentence_300060139-->
+::::<!--Custom String Listener: TalkSentence_300060139-->
+::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Trigger: 300060101_Finish-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} It sure is windy today.
+::::<!--Custom String Listener: TalkSentence_300060129-->
+::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+::::<!--Custom String Trigger: Wait_Option_300060101_43-->
+::::<!--Custom String Listener: Wait_Option_300060101_43-->
+::::{{DIcon|Arrow}} Hello?
+:::::<!--Custom String Listener: TalkSentence_300060131-->
+:::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What's for dinner?
+:::::<!--Custom String Listener: TalkSentence_300060137-->
+:::::'''Emily:''' Seems... Okay?
+:::::<!--Custom String Trigger: TalkSentence_300060139-->
+:::::<!--Custom String Listener: TalkSentence_300060139-->
+:::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+:::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+:::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Trigger: 300060101_Finish-->
+:::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} What are you doing?
+:::::<!--Custom String Listener: TalkSentence_300060133-->
+:::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Hello, excuse me...
+:::::<!--Custom String Listener: TalkSentence_300060135-->
+:::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What are you doing?
+::::<!--Custom String Listener: TalkSentence_300060133-->
+::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+::::<!--Custom String Trigger: Wait_Option_300060101_43-->
+::::<!--Custom String Listener: Wait_Option_300060101_43-->
+::::{{DIcon|Arrow}} Hello?
+:::::<!--Custom String Listener: TalkSentence_300060131-->
+:::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What's for dinner?
+:::::<!--Custom String Listener: TalkSentence_300060137-->
+:::::'''Emily:''' Seems... Okay?
+:::::<!--Custom String Trigger: TalkSentence_300060139-->
+:::::<!--Custom String Listener: TalkSentence_300060139-->
+:::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+:::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+:::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Trigger: 300060101_Finish-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} It sure is windy today.
+:::::<!--Custom String Listener: TalkSentence_300060129-->
+:::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Hello, excuse me...
+:::::<!--Custom String Listener: TalkSentence_300060135-->
+:::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Hello, excuse me...
+::::<!--Custom String Listener: TalkSentence_300060135-->
+::::'''Emily:''' Isn't that a bit too humble? It's just a chat. We're not asking for any favors here.
+::::<!--Custom String Trigger: Wait_Option_300060101_43-->
+::::<!--Custom String Listener: Wait_Option_300060101_43-->
+::::{{DIcon|Arrow}} Hello?
+:::::<!--Custom String Listener: TalkSentence_300060131-->
+:::::'''Emily:''' I'm concise enough when sending text messages, but if I put it into practice... Would people think I'm a weirdo?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What's for dinner?
+:::::<!--Custom String Listener: TalkSentence_300060137-->
+:::::'''Emily:''' Seems... Okay?
+:::::<!--Custom String Trigger: TalkSentence_300060139-->
+:::::<!--Custom String Listener: TalkSentence_300060139-->
+:::::'''Emily:''' "What's for dinner?"... This sounds very natural. The tone is kind and non-aggressive, and it seems friendly without being overly humble.
+:::::'''Emily:''' Looks like you're pretty good at this stuff! Thanks! I've got a meeting on right now... I'll try this out!
+:::::'''Emily:''' Um... If I have any issues later, can you help me remotely? Please?
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Trigger: 300060101_Finish-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} It sure is windy today.
+:::::<!--Custom String Listener: TalkSentence_300060129-->
+:::::'''Emily:''' It's kinda stupid, right? The AC aboard the space station is so amazing that the wind would never get too strong. This won't do.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} What are you doing?
+:::::<!--Custom String Listener: TalkSentence_300060133-->
+:::::'''Emily:''' Ah, this sentence. I used to say this all the time, but some people say it feels quite aggressive...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Exit}} I can't think of anything better.
+:::<!--Custom String Listener: Wait_Option_300060101_39-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300060201--> and {{cx}}<!--SubMission Started: 300060101-->)
+:{{DIcon|undefined}} I heard you are looking for me?
+::<!--Trigger PerformanceE 300060201: Config/Level/Mission/3000602/Act/Act300060201.json-->
+::'''Emily:''' Oh yeah! The phrase you taught me last time was really useful, but if I try to keep on talking... I'd reveal my true colors once again!
+::'''Emily:''' Once the conversation starts, how do I keep going on from there?
+::'''Emily:''' So, I just want to ask you, is there any kind of catch-all phrase that can make any conversation continue smoothly and naturally?
+::{{DIcon|Arrow}} That's quite the request.
+:::<!--Custom String Listener: TalkSentence_300060207-->
+:::'''Emily:''' Hahaha, do me a favor.
+::{{DIcon|Arrow}} It's pretty tough. Let me think about it...
+:::<!--Custom String Listener: TalkSentence_300060209-->
+:::'''Emily:''' Please please please. You're a master of language, and you'll definitely come up with something!
+::<!--Custom String Trigger: TalkSentence_300060210-->
+::<!--Custom String Listener: TalkSentence_300060210-->
+::'''Emily:''' So? Have you got anything?
+::{{DIcon|Arrow}} How about this...
+:::<!--Custom String Listener: Wait_Option_300060201_22-->
+:::{{DIcon|Arrow}} Mmm, I'm all ears.
+::::<!--Custom String Listener: TalkSentence_300060213-->
+::::'''Emily:''' But what if people never asked me if I was listening or not? It feels kinda cringe...
+::::<!--Custom String Trigger: Wait_Option_300060201_22-->
+::::<!--Custom String Listener: Wait_Option_300060201_22-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Ah? Really?
+:::::<!--Custom String Listener: TalkSentence_300060217-->
+:::::'''Emily:''' This... This one's great.
+:::::<!--Custom String Trigger: TalkSentence_300060219-->
+:::::<!--Custom String Listener: TalkSentence_300060219-->
+:::::'''Emily:''' Mmm, mmm, this one's great, I think &mdash; If I'm chatting, I'll ask "What's for dinner?" followed by "Ah? Really?"
+:::::'''Emily:''' ...Nope, feels weird. Like I'm missing something...
+:::::{{DIcon|Arrow}} Then add one more phrase...
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060101_Finish-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} You're awesome!
+:::::::<!--Custom String Listener: TalkSentence_300060223-->
+:::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+:::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+:::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::::{{DIcon|Arrow}} Go on.
+::::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Custom String Trigger: 300060101_Finish-->
+::::::::<!--Ends the current performance-->
+::::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::::{{DIcon|Arrow}} Okay.
+::::::::<!--Custom String Listener: TalkSentence_300060225-->
+::::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} Okay.
+:::::::<!--Custom String Listener: TalkSentence_300060225-->
+:::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+:::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+:::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::::{{DIcon|Arrow}} Go on.
+::::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Custom String Trigger: 300060101_Finish-->
+::::::::<!--Ends the current performance-->
+:::::::{{DIcon|Arrow}} You're awesome!
+::::::::<!--Custom String Listener: TalkSentence_300060223-->
+::::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} I can't think of anything better.
+::::::<!--Custom String Listener: Wait_Option_300060201_18-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Please, go on.
+:::::<!--Custom String Listener: TalkSentence_300060215-->
+:::::'''Emily:''' This one has a strange friendliness to it. It sounds okay overall &mdash; but there seems to be a bit of sarcasm deep down?
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Ah? Really?
+::::<!--Custom String Listener: TalkSentence_300060217-->
+::::'''Emily:''' This... This one's great.
+::::<!--Custom String Trigger: TalkSentence_300060219-->
+::::<!--Custom String Listener: TalkSentence_300060219-->
+::::'''Emily:''' Mmm, mmm, this one's great, I think &mdash; If I'm chatting, I'll ask "What's for dinner?" followed by "Ah? Really?"
+::::'''Emily:''' ...Nope, feels weird. Like I'm missing something...
+::::{{DIcon|Arrow}} Then add one more phrase...
+:::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::{{DIcon|Arrow}} Go on.
+::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Trigger: 300060101_Finish-->
+::::::<!--Ends the current performance-->
+:::::{{DIcon|Arrow}} You're awesome!
+::::::<!--Custom String Listener: TalkSentence_300060223-->
+::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060101_Finish-->
+:::::::<!--Ends the current performance-->
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::::{{DIcon|Arrow}} Okay.
+:::::::<!--Custom String Listener: TalkSentence_300060225-->
+:::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Okay.
+::::::<!--Custom String Listener: TalkSentence_300060225-->
+::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060101_Finish-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} You're awesome!
+:::::::<!--Custom String Listener: TalkSentence_300060223-->
+:::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I can't think of anything better.
+:::::<!--Custom String Listener: Wait_Option_300060201_18-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Please, go on.
+::::<!--Custom String Listener: TalkSentence_300060215-->
+::::'''Emily:''' This one has a strange friendliness to it. It sounds okay overall &mdash; but there seems to be a bit of sarcasm deep down?
+::::<!--Custom String Trigger: Wait_Option_300060201_22-->
+::::<!--Custom String Listener: Wait_Option_300060201_22-->
+::::{{DIcon|Arrow}} Mmm, I'm all ears.
+:::::<!--Custom String Listener: TalkSentence_300060213-->
+:::::'''Emily:''' But what if people never asked me if I was listening or not? It feels kinda cringe...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Ah? Really?
+:::::<!--Custom String Listener: TalkSentence_300060217-->
+:::::'''Emily:''' This... This one's great.
+:::::<!--Custom String Trigger: TalkSentence_300060219-->
+:::::<!--Custom String Listener: TalkSentence_300060219-->
+:::::'''Emily:''' Mmm, mmm, this one's great, I think &mdash; If I'm chatting, I'll ask "What's for dinner?" followed by "Ah? Really?"
+:::::'''Emily:''' ...Nope, feels weird. Like I'm missing something...
+:::::{{DIcon|Arrow}} Then add one more phrase...
+::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+::::::{{DIcon|Arrow}} Go on.
+:::::::<!--Custom String Listener: TalkSentence_300060227-->
+:::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+:::::::<!--Custom String Trigger: TalkSentence_300060229-->
+:::::::<!--Custom String Listener: TalkSentence_300060229-->
+:::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+:::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+:::::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::::<!--Custom String Listener: ALL_TALK_END-->
+:::::::<!--Custom String Trigger: 300060101_Finish-->
+:::::::<!--Ends the current performance-->
+::::::{{DIcon|Arrow}} You're awesome!
+:::::::<!--Custom String Listener: TalkSentence_300060223-->
+:::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+:::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+:::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::::{{DIcon|Arrow}} Go on.
+::::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Custom String Trigger: 300060101_Finish-->
+::::::::<!--Ends the current performance-->
+::::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::::{{DIcon|Arrow}} Okay.
+::::::::<!--Custom String Listener: TalkSentence_300060225-->
+::::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} Okay.
+:::::::<!--Custom String Listener: TalkSentence_300060225-->
+:::::::'''Emily:''' The tone's a bit flippant, and I don't think it's friendly enough.
+:::::::<!--Custom String Trigger: Wait_Option_300060201_36-->
+:::::::<!--Custom String Listener: Wait_Option_300060201_36-->
+:::::::{{DIcon|Arrow}} Go on.
+::::::::<!--Custom String Listener: TalkSentence_300060227-->
+::::::::'''Emily:''' Hmm... Friendly enough, plus it demonstrates that I care about others. Not bad!
+::::::::<!--Custom String Trigger: TalkSentence_300060229-->
+::::::::<!--Custom String Listener: TalkSentence_300060229-->
+::::::::'''Emily:''' Mmm, these phrases should be enough to deal with future conversations. Thank you.
+::::::::'''Emily:''' I've got a meeting coming up soon with the Department of Implement Arts... I'm a bit spooked about it. If I have any issues later, can you help me remotely? Please?
+::::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::::<!--Custom String Trigger: 300060101_Finish-->
+::::::::<!--Ends the current performance-->
+:::::::{{DIcon|Arrow}} You're awesome!
+::::::::<!--Custom String Listener: TalkSentence_300060223-->
+::::::::'''Emily:''' Flattery's a great idea, but isn't this too sudden? Got anything more suitable for a conversational scenario?
+:::::::;(Return to previous option selection (cloneCheckString))
+::::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} I can't think of anything better.
+::::::<!--Custom String Listener: Wait_Option_300060201_18-->
+::::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Exit}} I can't think of anything better.
+:::<!--Custom String Listener: Wait_Option_300060201_18-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300060301-->, {{cx}}<!--SubMission Started: 300060201-->, and {{cx}}<!--SubMission Started: 300060101-->)
+:{{DIcon|undefined}} I heard you are looking for me?
+::<!--Trigger PerformanceE 300060301: Config/Level/Mission/3000603/Act/Act300060301.json-->
+::<!--Custom String Trigger: TalkSentence_300060302-->
+::<!--Custom String Listener: TalkSentence_300060302-->
+::'''Emily:''' Ah? Really? It's been okay. Ah yes, have you eaten yet? And then? Ah, I'm sorry &mdash; I accidentally slipped back into that mode again.
+::{{DIcon|Arrow}} "That mode"?
+:::<!--Custom String Listener: TalkSentence_300060304-->
+:::'''Emily:''' I mean, the mode you taught me! Don't play dumb.
+::{{DIcon|Arrow}} You're a fast learner.
+:::<!--Custom String Listener: TalkSentence_300060306-->
+:::'''Emily:''' Heehee, I can pretty much chat freely back and forth with people now.
+::<!--Custom String Trigger: TalkSentence_300060307-->
+::<!--Custom String Listener: TalkSentence_300060307-->
+::'''Emily:''' Normal chats can't faze me now, but... I've got a small problem &mdash; I can't help but reveal my true colors during lab work...
+::'''Emily:''' Maybe it's because my brain hasn't adjusted to it yet, and it's still a beat behind my mouth.
+::'''Emily:''' Teacher, are there any catch-all phrases that I can say when I'm too busy to think?
+::{{DIcon|Arrow}} How about this...
+:::<!--Custom String Listener: Wait_Option_300060301_21-->
+:::{{DIcon|Arrow}} Got it.
+::::<!--Custom String Listener: TalkSentence_300060312-->
+::::'''Emily:''' Seems a little ill-mannered, like... a little impatient? It won't work!
+::::<!--Custom String Trigger: Wait_Option_300060301_21-->
+::::<!--Custom String Listener: Wait_Option_300060301_21-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Get straight to the point.
+:::::<!--Custom String Listener: TalkSentence_300060314-->
+:::::'''Emily:''' That seems kind of blunt.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Mmm, mmm, sure, sure.
+:::::<!--Custom String Listener: TalkSentence_300060316-->
+:::::'''Emily:''' Mmm... Mmm... sure, sure. Wow! That rolls off the tongue!
+:::::<!--Custom String Trigger: TalkSentence_300060318-->
+:::::<!--Custom String Listener: TalkSentence_300060318-->
+:::::'''Emily:''' Mmm, mmm, and then... Ah, sorry, I couldn't help it.
+:::::'''Emily:''' Teacher, I thought of something. Sometimes I meet people who love bragging and don't shut up about themselves.
+:::::'''Emily:''' To be honest, I don't really want to talk with people like that &mdash; but I also want to be as polite as possible. Is there any catch-all phrase that can be used in these situations?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} I can't think of anything better.
+::::::<!--Custom String Listener: Wait_Option_300060301_18-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Get straight to the point.
+::::<!--Custom String Listener: TalkSentence_300060314-->
+::::'''Emily:''' That seems kind of blunt.
+::::<!--Custom String Trigger: Wait_Option_300060301_21-->
+::::<!--Custom String Listener: Wait_Option_300060301_21-->
+::::{{DIcon|Arrow}} Got it.
+:::::<!--Custom String Listener: TalkSentence_300060312-->
+:::::'''Emily:''' Seems a little ill-mannered, like... a little impatient? It won't work!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Mmm, mmm, sure, sure.
+:::::<!--Custom String Listener: TalkSentence_300060316-->
+:::::'''Emily:''' Mmm... Mmm... sure, sure. Wow! That rolls off the tongue!
+:::::<!--Custom String Trigger: TalkSentence_300060318-->
+:::::<!--Custom String Listener: TalkSentence_300060318-->
+:::::'''Emily:''' Mmm, mmm, and then... Ah, sorry, I couldn't help it.
+:::::'''Emily:''' Teacher, I thought of something. Sometimes I meet people who love bragging and don't shut up about themselves.
+:::::'''Emily:''' To be honest, I don't really want to talk with people like that &mdash; but I also want to be as polite as possible. Is there any catch-all phrase that can be used in these situations?
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} I can't think of anything better.
+::::::<!--Custom String Listener: Wait_Option_300060301_18-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Mmm, mmm, sure, sure.
+::::<!--Custom String Listener: TalkSentence_300060316-->
+::::'''Emily:''' Mmm... Mmm... sure, sure. Wow! That rolls off the tongue!
+::::<!--Custom String Trigger: TalkSentence_300060318-->
+::::<!--Custom String Listener: TalkSentence_300060318-->
+::::'''Emily:''' Mmm, mmm, and then... Ah, sorry, I couldn't help it.
+::::'''Emily:''' Teacher, I thought of something. Sometimes I meet people who love bragging and don't shut up about themselves.
+::::'''Emily:''' To be honest, I don't really want to talk with people like that &mdash; but I also want to be as polite as possible. Is there any catch-all phrase that can be used in these situations?
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I can't think of anything better.
+:::::<!--Custom String Listener: Wait_Option_300060301_18-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I can't think of anything better.
+:::<!--Custom String Listener: Wait_Option_300060301_18-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300060301-->, {{cx}}<!--SubMission Started: 300060201-->, and {{cx}}<!--SubMission Started: 300060101-->)
+:{{DIcon}} I have a few questions for you...
+::<!--Custom String Trigger: Wait_Option_500010116_869-->
+::<!--Custom String Listener: Wait_Option_500010116_869-->
+::{{DIcon|Talk}} Are you trying to break the record for drinking coffee?
+:::<!--Custom String Listener: TalkSentence_500011313-->
+:::'''Emily:''' How... How did you know that? Have you heard about the story of that woman?
+:::'''Emily:''' Why am I surprised? People on Seed Isle never shut up. They keep bragging about the legend of Lesley's 11 Cups of Coffee.
+:::'''Emily:''' Whatever Lesley can do, I can do it too. And I will do it even better!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Lesley.
+:::<!--Custom String Listener: TalkSentence_500011317-->
+:::'''Emily:''' Understand this, I'm Emily! Even though technically I'm her sister, I hope you can get to know me as an independent individual, instead of associating me with that woman, like everybody else.
+:::'''Emily:''' I was only born a bit later than her. I am better than her no matter in talent or practice.
+:::'''Emily:''' As long as I am given the same opportunity, I'm sure I will be able to create my own legend on the space station...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About rumors on Lesley.
+:::<!--Custom String Listener: TalkSentence_500011322-->
+:::'''Emily:''' Coffee consumption? Research genius? These rumors are everywhere on the space station. Why do you have to come to me to ask? Are you trying to rile me up?
+:::'''Emily:''' If you're here to verify the validity of the rumors, I can tell you with 100% certainty that yes, Lesley is just a genius like that.
+:::'''Emily:''' But if you're thinking of getting any insider information or playing some weird games through me... I'm warning you, it's best you drop those thoughts right now!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500011327-->
+:::'''Emily:''' That's a wise thing to do. Leave me alone. And stop prying on Lesley.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Trigger: 300060301_Finish-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: 300060201_Finish-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: 300060101_Finish-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300060301-->, {{cx}}<!--SubMission Started: 300060201-->, and {{cx}}<!--SubMission Started: 300060101-->)
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Emily:''' That's a wise thing to do. Leave me alone. And stop prying on Lesley.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 300060301_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 300060201_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 300060101_Finish-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Emily
+|zhs  = 埃美丽
+|zht  = 艾蜜莉
+|ja   = エミリア
+|ko   = 에밀리
+|es   = Emily
+|fr   = Emily
+|ru   = Эмили
+|th   = Emily
+|vi   = Emily
+|de   = Emily
+|id   = Emily
+|pt   = Emily
+}}
+==Change History==
+{{Change History|TODO}}

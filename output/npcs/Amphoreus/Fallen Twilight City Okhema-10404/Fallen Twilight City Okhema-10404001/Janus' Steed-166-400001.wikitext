@@ -1,0 +1,166 @@
+<%-- [PAGE_INFO]
+PageTitle=#Janus' Steed#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Janus' Steed.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Fallen Twilight City" Okhema
+|relatives       = 
+}}
+'''Janus' Steed''' is an NPC on [[Amphoreus]], located in [["Fallen Twilight City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Fallen Twilight City" Okhema|npc_166_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 304006001-->)
+::<!--Trigger PerformanceE 304009044: Config/Level/Mission/3040090/Act/Act304009044.json-->
+::The wooden horse stands there, silent. Maybe you missed your chance to speak to it "earlier"... and the "promise" that came with it.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 304006001-->)
+::<!--Trigger PerformanceE 304009045: Config/Level/Mission/3040090/Act/Act304009045.json-->
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::'''Janus' Steed:''' Ha! Just in time. With the memories you've given me as my guide, I grabbed a fresh batch of curiosities from the end of the Passage. They're all in there and the shop's got a major restock!
+::'''Janus' Steed:''' Of course, if you want them, you'll need to pay with more memories. You know the deal.
+::<!--Custom String Trigger: Wait_Option_304009045_16-->
+::<!--Custom String Listener: Wait_Option_304009045_16-->
+::{{DIcon|Shop}} (Take out the Memory Crystal Shard)
+:::<!--Custom String Listener: TalkSentence_504047034-->
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 166,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 76,
+	"TaskID": []
+}</pre>
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Will there be more items later?
+:::<!--Custom String Listener: TalkSentence_304009710-->
+:::'''Janus' Steed:''' Nope, that's it. Didn't I just say it was the end of the Passage? Unless the world resets itself, I've got nowhere else to scavenge more weird and wonderful things for you.
+:::'''Janus' Steed:''' Besides, this is already the second batch. Still not enough for you? You must have a ton of memories to spare.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I want to have a chat with you.
+:::<!--Custom String Listener: TalkSentence_304009713-->
+:::'''Janus' Steed:''' Hmph. Consider yourself lucky &mdash; talking to a divine foal is an honor. If I hadn't left my hometown, I'd charge you for this... Forget it. Just speak your mind.
+:::{{DIcon|Arrow}} Where do you get your stock from?
+::::<!--Custom String Listener: TalkSentence_304009715-->
+::::'''Janus' Steed:''' The dawn of fate, the end of Passage, the rooftops of Talanton's estate, and Cerces' favorite restaurant...
+::::'''Janus' Steed:''' Obviously, I made all that up. In other words &mdash; classified information. Don't ask. Just know they're all treasures.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Era Nova is coming, you...
+::::<!--Custom String Listener: TalkSentence_304009718-->
+::::'''Janus' Steed:''' Era Nova? Oh, that prophecy! No wonder the monsters were acting up, I guess we're in for a ride. I even let an Okheman hide inside the divine foal for a bit.
+::::'''Janus' Steed:''' Eh, works for me. This means I get to see the other divine foals again. And if I run into those slackers, I swear I'm painting their heads green.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll come back next time.
+:::<!--Custom String Listener: TalkSentence_304009721-->
+:::'''Janus' Steed:''' Go ahead. Just don't forget to bring more memories!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

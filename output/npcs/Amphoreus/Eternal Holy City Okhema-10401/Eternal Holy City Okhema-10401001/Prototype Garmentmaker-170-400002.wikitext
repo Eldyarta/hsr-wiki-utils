@@ -1,0 +1,694 @@
+<%-- [PAGE_INFO]
+PageTitle=#Prototype Garmentmaker#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Prototype Garmentmaker.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Prototype Garmentmaker''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_170_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580111: Config/Level/Mission/4015801/Act/Act401580111.json-->
+:;(If {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:::'''Prototype Garmentmaker:''' The winds riding on golden threads bring tidings of your situation. Esteemed guest, has there been any progress?
+:;(If {{Mission|Chirping Secret|showChapter=0}} has not been completed)
+:::'''Garmentmaker:''' Interaction confirmed. Pre-set voice lines are playing...
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} I want to know more details.
+:::'''Prototype Garmentmaker:''' Sure. Ask away.
+:::<!--Custom String Trigger: Wait_Option_401580112_16-->
+:::<!--Custom String Listener: Wait_Option_401580112_16-->
+:::{{DIcon|Talk}} What's a nymph?
+::::<!--Custom String Listener: TalkSentence_401555104-->
+::::'''Prototype Garmentmaker:''' That's a little complicated. In short, nymphs were essentially... human beings who had lived in the Era Chrysea.
+::::'''Prototype Garmentmaker:''' Legend has it that Thanatos sent disciples of Romance to defective cocoons, where they were reborn as butterflies, destined to continue their lives as loyal aides to the Titan.
+::::'''Prototype Garmentmaker:''' In the Era Bellica, {{Rubi|Cerces|Reason Titan}} accidentally lost their divine form. {{Rubi|Mnestia|Romance Titan}}, unable to accept the fact that their lover was injured, collected Cerces' scattered bodies, intending to weave them together with threads to bring them back.
+::::'''Prototype Garmentmaker:''' The former followers of the two also voluntarily joined this arduous journey, and they are the Creation Nymphs. The beautiful and fragile belong to Mnestia, while the brave and strong belong to Cerces.
+::::'''Prototype Garmentmaker:''' Reassembling a divine body is no easy task. The nymph must perceive all things, gathering wisdom and love from the words of others to provide for Mnestia's weaving of the golden threads. Thus, they have an alternate name: "Weavers."
+::::'''Prototype Garmentmaker:''' But this act... is destined to be futile.
+:::{{DIcon|Talk}} How does a nymph assist you?
+::::<!--Custom String Listener: TalkSentence_401555109-->
+::::'''Prototype Garmentmaker:''' As karma has been severed in the current era, the benediction bestowed upon the nymph becomes incredibly precious. If gathered to form a mountain, these benedictions would hold enough power to break even the most unyielding seal.
+::::{{DIcon|Arrow}} Will they agree to it?
+::::<!--Custom String Listener: TalkSentence_401555114-->
+::::'''Prototype Garmentmaker:''' We are all connected to Mnestia in one way or another. Once the reasons are articulated, I believe many will be eager to contribute. After all, this prophecy concerns the Titans themselves.
+::::'''Prototype Garmentmaker:''' Once I have their approval, I'll arrange for their memories and souls, binding their benedictions together with the golden thread... Let's hope this truly succeeds.
+:::{{DIcon|Talk}} Are all the nymphs I found here?
+::::<!--Custom String Listener: TalkSentence_304006002-->
+::::'''Prototype Garmentmaker:''' Yes, the blessings of these nymphs have been extracted by golden needles. To avoid harming their souls, I crafted special insect bodies sewn from the golden threads, allowing them to temporarily reside within.
+::::'''Prototype Garmentmaker:''' The nymphs are my assistants, my messengers, my eyes. We share the title of "Weavers," an inseparable bond. If possible, I hope the holy city can provide them sanctuary as well.
+::::'''Prototype Garmentmaker:''' In the past, nymphs made their home within the "Cocoon of Romance," where they exchanged fascinating secrets. Mnestia's silk threads allowed them to evade the call of the River of Souls, like sailors crossing the sea on a vessel.
+::::'''Prototype Garmentmaker:''' I lived through an era when "Romance" was yet untainted and knew the cocoon's structure. Thus, I attempted to replicate that shelter for them using the golden threads &mdash; what you see now as these insect bodies.
+::::'''Prototype Garmentmaker:''' Though only a temporary measure, it's enough to sustain them until the end of the Flame-Chase Journey.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} About the prophecy...
+:::'''Prototype Garmentmaker:''' Sure. Ask away.
+:::<!--Custom String Trigger: Wait_Option_401580112_16-->
+:::<!--Custom String Listener: Wait_Option_401580112_16-->
+:::<!--Custom String Listener: Wait_Option_401580112_16-->
+:::{{DIcon|Talk}} What are these stone slates?
+::::<!--Custom String Listener: TalkSentence_304006008-->
+::::'''Prototype Garmentmaker:''' Since you've helped so much already, it's time I spoke plainly with you.
+::::'''Prototype Garmentmaker:''' In the Era Bellica, there was a prophetess named Kuma. I encountered her a few times. She never abused prophecy for personal gain, yet she was branded a heretic. Her works were all destroyed, and even her name was erased.
+::::'''Prototype Garmentmaker:''' It's said that she preserved her research in ways unknown and scattered it across Amphoreus. These slates may be her handiwork... but certain details remain unexplained.
+::::'''Prototype Garmentmaker:''' To my knowledge, she was not of the Chrysos Heirs, and her soul has long since fallen into the embrace of Thanatos.
+::::'''Prototype Garmentmaker:''' The content of these slates is of little significance to me &mdash; other than following the prophecy and hunting for the Coreflames, there are no other means to save Amphoreus. However, the method by which these ancient relics have been preserved intrigues me.
+::::'''Prototype Garmentmaker:''' Thanks to prior studies, I have a few preliminary insights, but I need to unlock more fragments to verify them. I'll need your help with that, dear guest.
+:::{{DIcon|Talk}} Why do you pursue prophecies?
+::::<!--Custom String Listener: TalkSentence_304006702-->
+::::'''Prototype Garmentmaker:''' A fascinating question, esteemed guest. First, I should point out that prophecies don't only show the future &mdash; they can also offer clues and reveal hidden truths.
+::::'''Prototype Garmentmaker:''' The priests of Oronyx use prophecies to locate lost things, those of Janus use them to navigate mazes, and those of Talanton use them to prove innocence...
+::::'''Prototype Garmentmaker:''' So you see, prophecies serve many purposes, but deciphering them isn't my main goal &mdash; it's just planting a seed for the future.
+::::'''Prototype Garmentmaker:''' The nymphs themselves hold the most valuable power. Bringing them under my control matters more than interpreting any prophecy.
+::::'''Prototype Garmentmaker:''' Look at these "romantic" butterflies &mdash; so charming yet so fragile... If I could choose, I'd rather be a beetle.
+:::{{DIcon|Talk}} How is your progress?
+::::<!--Custom String Listener: TalkSentence_504071102-->
+::::'''Prototype Garmentmaker:''' Thanks to the stone slates you collected earlier, the golden threads have pointed me in a clearer direction.
+::::'''Prototype Garmentmaker:''' The owner of these slates, the prophetess named Kuma, did indeed commit a taboo: She tried to seize the authority of Romance to transform herself into a nymph and escape Thanatos's grasp.
+::::'''Prototype Garmentmaker:''' Her research has many flaws, but it still holds value for me. With more blessings from the weavers, I can find an effective way to improve it.
+::::'''Prototype Garmentmaker:''' This way, Lady Aglaea's wish can also...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::{{DIcon|Talk}} What's a nymph?
+::::<!--Custom String Listener: TalkSentence_401555104-->
+::::'''Prototype Garmentmaker:''' That's a little complicated. In short, nymphs were essentially... human beings who had lived in the Era Chrysea.
+::::'''Prototype Garmentmaker:''' Legend has it that Thanatos sent disciples of Romance to defective cocoons, where they were reborn as butterflies, destined to continue their lives as loyal aides to the Titan.
+::::'''Prototype Garmentmaker:''' In the Era Bellica, {{Rubi|Cerces|Reason Titan}} accidentally lost their divine form. {{Rubi|Mnestia|Romance Titan}}, unable to accept the fact that their lover was injured, collected Cerces' scattered bodies, intending to weave them together with threads to bring them back.
+::::'''Prototype Garmentmaker:''' The former followers of the two also voluntarily joined this arduous journey, and they are the Creation Nymphs. The beautiful and fragile belong to Mnestia, while the brave and strong belong to Cerces.
+::::'''Prototype Garmentmaker:''' Reassembling a divine body is no easy task. The nymph must perceive all things, gathering wisdom and love from the words of others to provide for Mnestia's weaving of the golden threads. Thus, they have an alternate name: "Weavers."
+::::'''Prototype Garmentmaker:''' But this act... is destined to be futile.
+:::{{DIcon|Talk}} How does a nymph assist you?
+::::<!--Custom String Listener: TalkSentence_401555109-->
+::::'''Prototype Garmentmaker:''' As karma has been severed in the current era, the benediction bestowed upon the nymph becomes incredibly precious. If gathered to form a mountain, these benedictions would hold enough power to break even the most unyielding seal.
+::::{{DIcon|Arrow}} Will they agree to it?
+::::<!--Custom String Listener: TalkSentence_401555114-->
+::::'''Prototype Garmentmaker:''' We are all connected to Mnestia in one way or another. Once the reasons are articulated, I believe many will be eager to contribute. After all, this prophecy concerns the Titans themselves.
+::::'''Prototype Garmentmaker:''' Once I have their approval, I'll arrange for their memories and souls, binding their benedictions together with the golden thread... Let's hope this truly succeeds.
+:::{{DIcon|Talk}} Are all the nymphs I found here?
+::::<!--Custom String Listener: TalkSentence_304006002-->
+::::'''Prototype Garmentmaker:''' Yes, the blessings of these nymphs have been extracted by golden needles. To avoid harming their souls, I crafted special insect bodies sewn from the golden threads, allowing them to temporarily reside within.
+::::'''Prototype Garmentmaker:''' The nymphs are my assistants, my messengers, my eyes. We share the title of "Weavers," an inseparable bond. If possible, I hope the holy city can provide them sanctuary as well.
+::::'''Prototype Garmentmaker:''' In the past, nymphs made their home within the "Cocoon of Romance," where they exchanged fascinating secrets. Mnestia's silk threads allowed them to evade the call of the River of Souls, like sailors crossing the sea on a vessel.
+::::'''Prototype Garmentmaker:''' I lived through an era when "Romance" was yet untainted and knew the cocoon's structure. Thus, I attempted to replicate that shelter for them using the golden threads &mdash; what you see now as these insect bodies.
+::::'''Prototype Garmentmaker:''' Though only a temporary measure, it's enough to sustain them until the end of the Flame-Chase Journey.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} I found something...
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_150056.png"
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_150057.png"
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}})
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_150058.png"
+}</pre>
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}})
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"ImagePath": "SpriteOutput/Mission/TalkItem/SubMission_150059.png"
+}</pre>
+:::'''Prototype Garmentmaker:''' So this is what the prophecy was pointing to? How unexpected.
+:::'''Prototype Garmentmaker:''' Its edges are relatively smooth and doesn't seem to have been damaged by external force. It appears like it deliberately been made to be this way.
+::<pre>{
+	"$type": "RPG.GameCore.TalkFigure",
+	"Show": false
+}</pre>
+:::'''Prototype Garmentmaker:''' In any case, the prophecy has led us here, so this must be of some use. Please, my esteemed guest, keep it first.
+:::'''Prototype Garmentmaker:''' I still have many unsolved prophecies to decipher. Once we've completed them all, we can investigate the deeper meaning behind them.
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}],"Inverse":true}-->}}, {{cx}}<!--performance 401580114 has not been seen--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}],"Inverse":true}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} Can you repeat the prophecy?
+:::'''Prototype Garmentmaker:''' "Butterflies know everything."
+:::'''Prototype Garmentmaker:''' Yes, it is that easy... Perhaps we should focus on these nymphs. What are they trying to convey?
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Inverse":true}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon|undefined}} I have gathered all the nymphs here.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}],"Inverse":true}-->}})
+::::'''Prototype Garmentmaker:''' Thank you, esteemed guest. And now, I shall begin to unfurl one of the many prophecies.
+::::'''Prototype Garmentmaker:''' It appears the weavers are guided by the prophecies... This unusual phenomenon may well hold the key to unlocking their secrets.
+::::'''Prototype Garmentmaker:''' Could it be an image? Or perhaps a clue to a specific location... If you're intrigued, you can try solving it.
+::::'''Prototype Garmentmaker:''' Thank you once again for your aid, esteemed guest.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}],"Inverse":true}-->}})
+::::'''Prototype Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy. Remarkable. You truly bear secrets we could never imagine.
+::::'''Prototype Garmentmaker:''' The weavers will be an invaluable help to the holy city. I have prepared you a small token of my gratitude. Please, take it.
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200601}}}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200602
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200601}}}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200601
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200602
+			}
+		}
+	]
+}</pre>
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon|undefined}} Where are the remaining nymphs?
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":12}},"Inverse":true}-->}})
+::::'''Prototype Garmentmaker:''' The Garmentmaker can follow the golden thread to ascertain their whereabouts, but consumes {{Color|keyword|nobold=1|Memory Crystal Shards}} in order to do so.
+::::{{DIcon|Arrow}} Provide Memory Crystal Shards.
+:::::<!--Custom String Listener: TalkSentence_401555204-->
+::::<pre>{
+	"$type": "RPG.GameCore.ConsumeOrigamiItem",
+	"ColonyID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 12
+		}
+	},
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"TextList": [
+					{
+						"TalkSentenceID": 401554104
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayOrigamiTraceTalk",
+			"ColonyID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 12
+				}
+			},
+			"TalkList": [
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 208
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555205
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 209
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555206
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 210
+						}
+					},
+					"TalkInfo": {
+						"TargetBehaviors": [],
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555207
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 211
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555208
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 212
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555209
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 213
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555210
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 214
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555211
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 215
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555212
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 216
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555213
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 217
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555214
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 218
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555215
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 219
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555216
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 220
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555217
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 221
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555218
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 222
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555219
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 223
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555220
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 224
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555221
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 225
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555222
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 226
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555223
+							}
+						]
+					}
+				},
+				{
+					"GroupID": {
+						"IsDynamic": false,
+						"FixedValue": {
+							"Value": 227
+						}
+					},
+					"TalkInfo": {
+						"SimpleTalkList": [
+							{
+								"TalkSentenceID": 401555224
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_401555226"
+			}
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+::::{{DIcon|Arrow}} I'm not giving it to you.
+:::::<!--Custom String Listener: TalkSentence_401555226-->
+:::::'''Prototype Garmentmaker:''' Hmm... The Garmentmaker cannot provide their services if you have no Memory Crystal Shards... Not even a dromas will work if they are left hungry. Come again another time, dear customer.
+:::::<!--Ends the current performance-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyTrace","ColonyID":{"IsDynamic":false,"FixedValue":{"Value":12}},"Inverse":true}-->}})
+::::'''Prototype Garmentmaker:''' Thank you, my esteemed guest. But a wise man once said, "No man can read two books at the same time."
+::::'''Prototype Garmentmaker:''' The Garmentmaker has already revealed the location of one nymph to you. Until you find it, the whereabouts of the other nymphs will remain a secret.
+:::<pre>{
+	"$type": "RPG.GameCore.SetTraceOrigamiFlag"
+}</pre>
+::::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200601}},"Inverse":true}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"Less"}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon|undefined}} I have found many nymphs.
+:::'''Prototype Garmentmaker:''' Thank you so much, esteemed guest. The weavers will be an invaluable help to the holy city. I have prepared you a small token of my gratitude. Please, take it.
+::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200601
+			}
+		}
+	]
+}</pre>
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200604}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200606}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon|Gear}} About the flickering of the nymphs...
+:::'''Prototype Garmentmaker:''' It seems you've noticed that. What do you need?
+:::{{DIcon|Arrow}} Can you make these nymphs stop flickering?
+::::<!--Custom String Listener: TalkSentence_504071204-->
+::::'''Prototype Garmentmaker:''' You don't like it? I'll go tell the nymphs to behave.
+::::<!--Custom String Trigger: Stop3.0Morse-->
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+:::{{DIcon|Arrow}} Can you make these nymphs flicker again?
+::::<!--Custom String Listener: TalkSentence_504071206-->
+::::'''Prototype Garmentmaker:''' As you wish. I'll go discuss it with the nymphs.
+::::<!--Custom String Trigger: Start3.0Morse-->
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+:::{{DIcon|Exit}} Let's leave it at that for now.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1},{"ItemID":150063,"ItemNum":1},{"ItemID":150065,"ItemNum":1},{"ItemID":150069,"ItemNum":1},{"ItemID":150071,"ItemNum":1},{"ItemID":150074,"ItemNum":1},{"ItemID":150075,"ItemNum":1},{"ItemID":150076,"ItemNum":1},{"ItemID":150077,"ItemNum":1}]}-->}} and {{cx}}<!--performance 504103001 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200604}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200606}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} It seems I've gathered all the stone tablets.
+:::'''Prototype Garmentmaker:''' Let me see... That's right, distinguished guest, this is the entire manuscript of the prophet. The golden thread can extract more information from it.
+:::'''Prototype Garmentmaker:''' Now, perhaps it's time to reveal the full scope of Lady Aglaea's plan to you.
+:::'''Prototype Garmentmaker:''' It began with a small-yet-noble ideal: to resist the black tide. To be precise, to survive it.
+:::'''Prototype Garmentmaker:''' The esteemed guest is already aware of the devastation the black tide has wrought upon the land of Amphoreus. Neither humans nor strange beasts can survive its influence, only one thing is an exception.
+:::{{DIcon|Arrow}} Is it... nymph?
+:::<!--Custom String Listener: TalkSentence_504103008-->
+:::'''Prototype Garmentmaker:''' That's right. I believe the esteemed guest has also witnessed that the weavers are able to temporarily resist the invasion of the black tide. While they cannot move freely within it, the black tide indeed cannot completely engulf them.
+:::'''Prototype Garmentmaker:''' This is the first step from nothing to something. If we can uncover the secrets behind the weavers' mystery, one day, the people of Amphoreus will no longer fear natural disasters.
+:::'''Prototype Garmentmaker:''' But according to the current calculations, the number of nymphs required for the plan is far greater than what we can find. I have no idea where to obtain the remaining nymphs.
+:::'''Prototype Garmentmaker:''' Regardless, thank you for your continued assistance.
+:::<!--Ends the current performance-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyMirrorTakenDiff"}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1},{"ItemID":150063,"ItemNum":1},{"ItemID":150065,"ItemNum":1},{"ItemID":150069,"ItemNum":1},{"ItemID":150071,"ItemNum":1},{"ItemID":150074,"ItemNum":1},{"ItemID":150075,"ItemNum":1},{"ItemID":150076,"ItemNum":1},{"ItemID":150077,"ItemNum":1}]}-->}} and {{cx}}<!--performance 504103001 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200604}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200606}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon|undefined}} Help me recall the captured nymphs.
+:::'''Prototype Garmentmaker:''' As you wish, I will summon the nymphs you once touched back with golden threads. I hope this lightens your burden somewhat.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--performance 504118008 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyMirrorTakenDiff"}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1},{"ItemID":150063,"ItemNum":1},{"ItemID":150065,"ItemNum":1},{"ItemID":150069,"ItemNum":1},{"ItemID":150071,"ItemNum":1},{"ItemID":150074,"ItemNum":1},{"ItemID":150075,"ItemNum":1},{"ItemID":150076,"ItemNum":1},{"ItemID":150077,"ItemNum":1}]}-->}} and {{cx}}<!--performance 504103001 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200604}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200606}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} Some of those nymphs really are bugs!
+:::'''Prototype Garmentmaker:''' Well, nymphs are basically vessels of old memories, so they're very prone to glitches: phasing through walls, blinking around, lagging, freezing in place... I'm sure you've seen plenty of weirdness from them.
+:::'''Prototype Garmentmaker:''' I did try to fix their behavior, but those glitches are so random I couldn't even pinpoint the source...
+:::'''Prototype Garmentmaker:''' Still, I believe that with Era Nova's arrival, everything will become clean and orderly again. Even the nymphs will stop being so "buggy."
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--performance 504118009 has been seen-->, the player has greater than or equal to {{Item|"Fruit of Time"|20|x=1|text="Fruit of Time"}}, {{cx}}<!--performance 504118008 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyMirrorTakenDiff"}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1},{"ItemID":150063,"ItemNum":1},{"ItemID":150065,"ItemNum":1},{"ItemID":150069,"ItemNum":1},{"ItemID":150071,"ItemNum":1},{"ItemID":150074,"ItemNum":1},{"ItemID":150075,"ItemNum":1},{"ItemID":150076,"ItemNum":1},{"ItemID":150077,"ItemNum":1}]}-->}} and {{cx}}<!--performance 504103001 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200604}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200606}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon}} How did the stone tablet turn into an apple?
+:::'''Prototype Garmentmaker:''' Hmm... forgive me, honored guest. This item isn't in my database, and I dare not interpret it without more information.
+:::'''Prototype Garmentmaker:''' To preserve knowledge for generations, people carved words into stone &mdash; the Hymn Tablet carried prophecies across a thousand years this way.
+:::'''Prototype Garmentmaker:''' But the thing you're holding... feels completely different. I've only seen descriptions like this in the oldest heroic epics.
+:::'''Prototype Garmentmaker:''' You must've gone through a tough adventure to get your hands on it. Who knows? Perhaps one day, it'll prove to be vital.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--performance 504118009 has been seen-->, the player has greater than or equal to {{Item|"Fruit of Time"|20|x=1|text="Fruit of Time"}}, {{cx}}<!--performance 504118008 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCheckColonyMirrorTakenDiff"}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1},{"ItemID":150063,"ItemNum":1},{"ItemID":150065,"ItemNum":1},{"ItemID":150069,"ItemNum":1},{"ItemID":150071,"ItemNum":1},{"ItemID":150074,"ItemNum":1},{"ItemID":150075,"ItemNum":1},{"ItemID":150076,"ItemNum":1},{"ItemID":150077,"ItemNum":1}]}-->}} and {{cx}}<!--performance 504103001 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1},{"ItemID":150058,"ItemNum":1},{"ItemID":150057,"ItemNum":1},{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200602}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200604}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200606}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}}}-->}}, and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200607}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}}}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}} and {{cx}}<!--performance 401580115 has been seen-->, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150065,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150063,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150059,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150058,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150057,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150056,"ItemNum":1}]}-->}}, {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150069,"ItemNum":1}]}-->}}, or {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareItemNum","ItemPair":[{"ItemID":150071,"ItemNum":1}]}-->}}, {{Mission|Chirping Secret|showChapter=0}} has been completed, and {{Mission|Chirping Secret|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I'll get back to work.
+:::'''Prototype Garmentmaker:''' Goodbye, I await good news from you.
+:::<!--Ends the current performance-->
+:<pre>{
+	"$type": "RPG.GameCore.TutorialTaskUnlock",
+	"TriggerParam": {
+		"Value": "6127"
+	}
+}</pre>
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 401580100: Config/Level/Mission/4015801/Act/Act401580100.json-->
+:;(If [[Fate's Ensemble]] is active)
+:::'''Garmentmaker:''' Thank you so much, esteemed guest... I notice that you have already obtained the target mentioned in the prophecy.
+:::'''Garmentmaker:''' There must be other blessed nymphs in other areas. Esteemed guest, try taking a look around other Garmentmakers.
+:;(If [[Fate's Ensemble]] is active)
+:::This dummy is covered in dark patterns. Perhaps it will shine with light at some moment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Garmentmaker"
+|zhs  = 「衣匠」
+|zht  = 「衣匠」
+|ja   = 「ラフトラ」
+|ko   = 「의상공」
+|es   = Sastre
+|fr   = Costumière
+|ru   = Швея
+|th   = "หุ่นตัดชุด"
+|vi   = Thợ May
+|de   = Kleidermacherin
+|id   = "Garmentmaker"
+|pt   = "Confeccionadora"
+}}
+==Change History==
+{{Change History|TODO}}

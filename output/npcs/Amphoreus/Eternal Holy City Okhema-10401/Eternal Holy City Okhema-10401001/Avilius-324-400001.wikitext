@@ -1,0 +1,121 @@
+<%-- [PAGE_INFO]
+PageTitle=#Avilius#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Artsy Youth
+|image           = NPC Avilius.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Avilius''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_324_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504008001: Config/Level/Mission/5040080/Act/Act504008001.json-->
+::'''Avilius:''' Welcome to Kephale Plaza. See those dim-witted believers devoted to {{Rubi|Kephale|God of Omniscience}}? They're all about praying to idols made of stone, mud, and paint, imagining that they would receive the gods' blessing like heroes from legends.
+::'''Avilius:''' Here's a tip: If they try to rope you into their rituals and you're not feeling it, but you're not sure how to decline their passionate offers, just tell them you follow {{Rubi|Thanatos|Death Titan}}. It's the perfect excuse to sidestep those awkward moments!
+::{{DIcon|Arrow}} ...I don't quite get it.
+::{{DIcon|Arrow}} Pretend to convert, then repent later?
+::{{DIcon|Arrow}} Can Thanatos terrify crying children into silence?
+::<!--Custom String Listener: TalkSentence_504008006-->
+::'''Avilius:''' Hah, it's not that complicated. The {{Rubi|Titans|gods}} are just a type of natural phenomena. One good thing about Thanatos is that they automatically repel all mortal cultural codes. Even if you decide to throw a party in the graveyard, it wouldn't bother {{Rubi|Thanatos|Death Titan}} one bit.
+::'''Avilius:''' The disciples of other Titans aren't so easy-going. They all claim Kephale can't stand darkness. And now you see this holy city of Kephale doesn't even have a proper {{Rubi|evening|night}}! ...Do you get it now? That's how unreasonable superstitions get?
+::{{DIcon|Arrow}} Sounds like a problem indeed.
+::{{DIcon|Arrow}} That's a bit too exaggerated.
+::{{DIcon|Arrow}} Falling for your words... isn't that a superstition in itself?
+::<!--Custom String Listener: TalkSentence_504008011-->
+::'''Avilius:''' Haha, no need to get all serious! Like they say, "when you push something, you gotta push it far." Without us standing on the other side of morality's scales, the holy city Okhema would become far too holy... and that'd be a pain to live in, don't you think?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504008002: Config/Level/Mission/5040080/Act/Act504008002.json-->
+::'''Avilius:''' They say history tends to reflect the collective views of the past... and that's what worries me about the future. Regardless of the era, humans just can't seem to break free from the same mistakes.
+::'''Avilius:''' But hey, don't stress too much. As long as there are Chrysos Heirs aiming to overthrow and become Titans, and there are still ordinary people like me pretending to be devout, Okhema's vibe won't be too suffocating... especially if they claim to worship {{Rubi|Thanatos|Death Titan}}.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Tell me about your activities as imposter believers.
+::'''Avilius:''' Curious? Well, we've been tight on funds lately, so I can't really invite you... but if you want to learn more about the other side of life in this holy city, I'd love to spill the beans!
+::<!--Custom String Trigger: Wait_Option_504008003_37-->
+::<!--Custom String Listener: Wait_Option_504008003_37-->
+::{{DIcon|Talk}} Ask about how they have gatherings.
+:::<!--Custom String Listener: TalkSentence_504008103-->
+:::'''Avilius:''' Well, it's pretty straightforward. We just post an anonymous message on the teleslate's Forum. "Anyone wants to worship Thanatos together at some Hour?" Insiders who understand what it means will naturally join.
+:::'''Avilius:''' When it comes to how we "worship," it's totally up to the individual... Singing, dancing, chanting, painting... even if your work is ugly. It's all about you having fun! After all, {{Rubi|Thanatos|Death Titan}} treats everyone equally.
+:::'''Avilius:''' But of course, these gatherings can't exactly be held in broad daylight... After all, {{Rubi|Thanatos|the black tide's assumed cause}} isn't exactly a friendly Titan. It's just that they and their true disciples couldn't care less about anything.
+:::'''Avilius:''' To be honest, Castorice dissuaded us at our previous gatherings, saying that Okhema is still a holy city no matter what, and we can't stir up drama like this. While she's gentle most of the time, she can be intimidating with how aloof she is at times!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Ask about how their organization is.
+:::<!--Custom String Listener: TalkSentence_504008108-->
+:::'''Avilius:''' Organization? Oh, come on, how could a bunch of hedonistic {{Rubi|Titan naturalists|materialists}} have an organization? We borrowed Thanatos' name because we wanted to avoid those pesky superstitious rites.
+:::'''Avilius:''' While many folks worship the Titans, only a handful can actually harness the Titan's powers as the priests do.
+:::'''Avilius:''' Most people don't really get any Titan blessings from participating in these ceremonies, but they won't find inner peace and won't feel right without worshipping. Isn't that ironic?
+:::'''Avilius:''' I have respect for genuine priests like lady Tribbie and the others, and I acknowledge them as leaders of humanity &mdash; but that's enough for me. All that extra superstitious stuff is so exhausting.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Ask about the future of the world.
+:::<!--Custom String Listener: TalkSentence_504008113-->
+:::'''Avilius:''' {{Rubi|Evoccultism|The Apotheosis of the Fittest Hypothesis}} tells us that &mdash; We will be destroyed, then reborn!
+:::'''Avilius:''' ...Just kidding. The higher-ups rarely reveal anything about what will happen after they save the world, but for me, that lack of an answer is already an answer in itself.
+:::'''Avilius:''' In other words, no one really knows what's in store for this world in the future, not even the Chrysos Heirs.
+:::'''Avilius:''' To be honest, this isn't being responsible... but we live in a world where prophecies genuinely exist. Even the Titans, who are considered gods, are powerless to change prophecies. That's why I don't think they have the right to be all high and mighty.
+:::'''Avilius:''' Given that the Chrysos Heirs know the outcome but have no idea about how to get there, I think they are already doing a very good job. Some of the criticism they face is just plain unfair.
+:::'''Avilius:''' You might see people calling me cynical, but I've never badmouthed the Chrysos Heirs... Well, at least not Aglaea, Castorice, or Tribbie!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} (That's pretty much all I wanted to ask.)
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I've got some business to attend to today. Catch you later.
+::'''Avilius:''' Business? Good. Staying busy is good. Being idle can often lead to self-inflicted trouble. Well, who knows?
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Avilius
+|zhs  = 恩维尔
+|zht  = 恩維爾
+|ja   = エンヴェル
+|ko   = 아빌리우스
+|es   = Avilius
+|fr   = Avilius
+|ru   = Авилиус
+|th   = Avilius
+|vi   = Avilius
+|de   = Avilius
+|id   = Avilius
+|pt   = Avilius
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,110 @@
+<%-- [PAGE_INFO]
+PageTitle=#Pom-Pom#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Pom-Pom.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Party Car
+|relatives       = 
+}}
+'''Pom-Pom''' is an NPC on [[Astral Express]], located in [[Party Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Party Car|npc_103_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>{
+	"$type": "RPG.GameCore.SetUpPamAIDialogue"
+}</pre>
+:<!--Trigger PerformanceE undefined: undefined-->
+:<!--Open NPC Menu-->
+:{{DIcon|Star}} How's my Trailblaze Level?
+::<!--Trigger PerformanceE 100000199: Config/Level/Mission/1000001/Talk/Act100000199.json-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowTalkUI"
+}</pre>
+::<!--Custom String Trigger: TalkSentence_100009904-->
+::<!--Custom String Listener: TalkSentence_100009904-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.LevelReward.LevelRewardPage",
+	"WaitForExit": true,
+	"OnUIExitImmediately": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+:{{DIcon|Exit}} I'm heading out.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404032502-->)
+:{{DIcon|?}} Pom-Pom, check out this dream bubble.
+::Pom-Pom jumps the moment they see the dream bubble in your hands. You've never seen their chubby feet making it that far from the ground before.
+::'''Pom-Pom:''' Wh&mdash;Where did you get that thing!?
+::'''Pom-Pom:''' L&mdash;Let me take a closer look!
+::'''Pom-Pom:''' ...
+::'''Pom-Pom:''' Agh...
+::{{DIcon|Arrow}} Please don't cry!
+::{{DIcon|Arrow}} What happened?
+::<!--Custom String Listener: TalkSentence_503037369-->
+::Something is glistening in Pom-Pom's eyes. Are they tears? Before you can look closer, they cover their eyes with their large ears, trying to hide their sorrow from you.
+::Pom-Pom manages to pull themselves together several seconds later.
+::'''Pom-Pom:''' (Trailblazer)... many things that have happened on this train aren't within your knowledge. I'll tell you about them when the time is right!
+::'''Pom-Pom:''' Express Special... My favorite Express Special... When will that guy give it back to me?
+::<!--Custom String Trigger: Talk_404032502-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Pom-Pom
+|zhs  = 帕姆
+|zht  = 帕姆
+|ja   = パム
+|ko   = 폼폼
+|es   = Pom-Pom
+|fr   = Pom-Pom
+|ru   = Пом-Пом
+|th   = Pom-Pom
+|vi   = Pom-Pom
+|de   = Pom-Pom
+|id   = Pom-Pom
+|pt   = Pom-Pom
+}}
+==Change History==
+{{Change History|TODO}}

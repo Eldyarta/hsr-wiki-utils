@@ -1,0 +1,112 @@
+<%-- [PAGE_INFO]
+PageTitle=#Vitali#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Props Master
+|image           = NPC Vitali.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Vitali''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_632_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051303: Config/Level/Mission/5030510/Act/Act503051303.json-->
+::'''Vitali:''' ...Hmmm, have I ever seen this transportation thing before? It feels familiar.
+::'''Vitali:''' Ah, forget it! Same-purpose Sweet Dreams Troupe members all look the same! Why bother distinguishing them?
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051344-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Vitali:''' Hey, if you'd like to talk, I'm all ears. Maybe you'd be interested in the props I've trained?
+::{{DIcon|Arrow}} I want to know what you think about this lounge.
+:::<!--Custom String Listener: TalkSentence_503051346-->
+:::'''Vitali:''' You know what? This place is filled with morons! I've heard that some of my fellow Props Masters treat props like companions, but I didn't know they're living here.
+:::'''Vitali:''' I heard those monsters are incredibly obedient, so I came to see how it's done. But what do I find? This is not prop-taming at all! Those fools treat these monsters like their bosses and even mix drinks for them! It's downright hilarious!
+:::'''Vitali:''' Disobedient items deserve a good whipping! I don't care about their moods! They're supposed to work hard for me!
+:::'''Vitali:''' And even if some of them don't feel like working, I have plenty of substitutes!
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051351-->
+:::'''Vitali:''' Oh, dear guest! How dare I have complaints about you? I'm honored that you're interested in my item show.
+:::'''Vitali:''' ...So, would you like to enjoy the show now? A little entertainment in this quiet joint would be the perfect way to kill some time!
+:::{{DIcon|Arrow}} I'll watch the prop-taming show.
+::::<!--Custom String Listener: TalkSentence_503051354-->
+::::'''Vitali:''' Just a moment. It'll start soon.
+:::{{DIcon|Arrow}} ...Perhaps not.
+::::<!--Custom String Listener: TalkSentence_503051356-->
+::::'''Vitali:''' Don't be so quick to say "no." Let me show you how it's done.
+:::<!--Custom String Trigger: Wait_Option_503051303_153-->
+:::<!--Custom String Listener: Wait_Option_503051303_153-->
+:::'''Vitali:''' Ouch! It hurts!! Who the heck did that!?
+:::'''Starlet:''' My bad, I missed.
+:::'''Vitali:''' You useless piece of junk! If I were your master, this whip would... Ouch!!!
+:::'''Starlet:''' My bad, I missed again.
+:::'''Starlet:''' As long as you're sitting there, I can't resist aiming for your head.
+:::'''Vitali:''' You... I'll tell your master! Just you wait! There will be consequences!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051306: Config/Level/Mission/5030510/Act/Act503051306.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Vitali
+|zhs  = 维塔利
+|zht  = 維塔利
+|ja   = ヴィターリ
+|ko   = 비탈리
+|es   = Vitali
+|fr   = Vitali
+|ru   = Виталий
+|th   = Vitali
+|vi   = Vitali
+|de   = Vitali
+|id   = Vitali
+|pt   = Vitali
+}}
+==Change History==
+{{Change History|TODO}}

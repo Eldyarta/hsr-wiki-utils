@@ -1,0 +1,104 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dosolmem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Farmer from the Village"
+|image           = NPC Dosolmem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Dosolmem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_28_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{F|FSV_ActivityCerydra}} is greater than or equal to 1)
+::<!--Trigger PerformanceE 504131001: Config/Level/Mission/5041310/Act/Act504131001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106029
+}</pre>
+::'''Dosolmem:''' Mem! Mem, mem! Come on, greenie cabbage, let's show some spirit, mem!
+::'''Dosolmem:''' Soak up that dew. Soak up that sun. Grow crisp, green leaves and strong, plump hearts. Don't let the greenie cabbage next door outshine you, mem!
+::{{DIcon|Arrow}} Are you talking to vegetables?
+:::<!--Custom String Listener: TalkSentence_504131004-->
+:::'''Dosolmem:''' Yeah, we've got to get those greenie cabbage to give it their all, mem.
+::{{DIcon|Arrow}} The cabbages are in the hot seat now.
+:::<!--Custom String Listener: TalkSentence_504131006-->
+:::'''Dosolmem:''' There's a reason I'm cheering them on, mem!
+::<!--Custom String Trigger: TalkSentence_504131007-->
+::<!--Custom String Listener: TalkSentence_504131007-->
+::'''Dosolmem:''' Ever since the restaurant opened, demand for fruits, veggies, and grains has been sky-high, mem. Even the price of greenie cabbage has shot up like crazy!
+::'''Dosolmem:''' Hehe... once the greenie cabbage harvest comes in strong, I'll be rolling in money and dining out every day, mem~
+::'''Dosolmem:''' But that merchant who buys? Sharp as a tack and super picky. Only the finest greenie cabbage makes the cut.
+::'''Dosolmem:''' So come on, greenie cabbage, step it up and get picked! Picture yourselves on a plate, your bright green leaves making the main dish shine... What a glorious sight that would be!
+::'''Dosolmem:''' And when that day comes, I'll drop by to see you every single day, mem!
+::<!--Ends the current performance-->
+;(If {{F|FSV_ActivityCerydra}} is not greater than or equal to 1)
+::<!--Trigger PerformanceE 504115005: Config/Level/Mission/5041150/Act/Act504115005.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106029
+}</pre>
+::'''Dosolmem:''' Memi! Mem! Lift your head. Don't bow to the dry weather.
+::'''Dosolmem:''' Times are tough right now, but hope is just ahead. Hang in there, memi!
+::'''Dosolmem:''' Push through the mud with everything you've got, and you'll see how beautiful the world is. And me, memi &mdash; I am right here, always waiting by your side!
+::{{DIcon|Arrow}} Are you talking to me?
+::<!--Custom String Listener: TalkSentence_504115405-->
+::'''Dosolmem:''' Shh! Not so loud. I'm talking to the seeds, memi.
+::'''Dosolmem:''' It hasn't rained in ages, the soil's gone dry, and the seeds won't sprout. So I'm cheering them on, memi!
+::'''Dosolmem:''' Hang in there! When you bear fruit, I'll turn you into the most delicious dish in the Maze &mdash; and eat every last bite, memi!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

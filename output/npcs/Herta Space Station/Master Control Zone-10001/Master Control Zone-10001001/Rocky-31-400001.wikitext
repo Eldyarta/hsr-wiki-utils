@@ -1,0 +1,182 @@
+<%-- [PAGE_INFO]
+PageTitle=#Rocky#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Geography Researcher
+|image           = NPC Rocky.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Rocky''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_31_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500010115_804-->
+:<!--Custom String Listener: Wait_Option_500010115_804-->
+:{{DIcon|Talk}} When will Lesley come back?
+::<!--Custom String Listener: TalkSentence_500011218-->
+::'''Rocky:''' Well... I'm not sure. After all, she's the only lucky one who got to visit the Abundance Segmentum in this Amber Era.
+::'''Rocky:''' However, she is bathed in divine blessings every day over there. She must be much happier doing research with other outstanding researchers over there than staying on the space station.
+::'''Rocky:''' Since it is such a happy experience for her, it must be enjoyable to stay there for a longer time, right?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you like Lesley?
+::<!--Custom String Listener: TalkSentence_500011222-->
+::'''Rocky:''' Isn't it... Obvious? She is the one!
+::'''Rocky:''' Unfortunately, I haven't officially confessed my love for her.
+::'''Rocky:''' It's good though. That way I can have more time to pursue her and wait for her response!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Who are the scoundrels from the department next door?
+::<!--Custom String Listener: TalkSentence_500011226-->
+::'''Rocky:''' Those people? They are just a bunch of hooligans looking for trouble!
+::'''Rocky:''' Different departments adopt different research methods. Academic conflict is normal. But some people just take things too personally and come harass other people.
+::'''Rocky:''' That's why I often teach them a good lesson! I'll see if they still dare to look for troubles at the Department of Cosmic Geography!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500011230-->
+::'''Rocky:''' You didn't bother me. It's good to have someone talk to me and distract me.
+::'''Rocky:''' After all, I shouldn't keep thinking about Lesley, should I?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Rocky:''' It's been a while! Do you want to see my new carvings? The texture of this rock is very special!
+:'''Rocky:''' My craftmanship has been improved. My carvings look more and more like her!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Rocky:''' You didn't bother me. It's good to have someone talk to me and distract me.
+:'''Rocky:''' After all, I shouldn't keep thinking about Lesley, should I?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000011: Config/Level/NPC/W0/NPC_DefaultStory_500001201.json-->
+::<!--Custom String Trigger: TalkSentence_500011202-->
+::<!--Custom String Listener: TalkSentence_500011202-->
+::'''Rocky:''' I wonder how she's doing over there...
+::'''Rocky:''' Sigh. I already lost count of how many times I've thought about her today.
+::'''Rocky:''' Whenever I close my eyes, all I can think of is her face... How am I supposed to work?
+::<!--Custom String Trigger: Wait_Option_500010115_788-->
+::<!--Custom String Listener: Wait_Option_500010115_788-->
+::{{DIcon|Arrow}} Who are you thinking about?
+:::<!--Custom String Listener: TalkSentence_500011206-->
+:::'''Rocky:''' Hey! You scared me! I thought it was the scoundrels from the department next door looking for trouble here!
+:::'''Rocky:''' I don't think I've seen you before. Are you a new researcher on the space station?
+:::'''Rocky:''' My name is Rocky. I'm a researcher from the Department of Cosmic Geography.
+:::'''Rocky:''' Who am I thinking about... Her name is Lesley. You may not have heard of the legends about her.
+:::'''Rocky:''' Anyway, if you stay long enough on the space station, I'm sure you'll get to know her in the future.
+::{{DIcon|Arrow}} Is she not on the space station?
+:::<!--Custom String Listener: TalkSentence_500011212-->
+:::'''Rocky:''' As a celebrity researcher of the Department of Insight, she is on a visit to the Abundance segmentum.
+:::'''Rocky:''' Thanks to technological development, although we don't get to see each other, we can communicate via other ways.
+:::'''Rocky:''' Every time I think about her, I carve her face on a rock. Look at these rocks!
+:::'''Rocky:''' But my crafting skill is not very good. The face I carve on the rocks doesn't really look like her. She looks much better than these!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000012: Config/Level/NPC/W0/NPC_DefaultStory_500001200.json-->
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Rocky:''' It's been a while! Do you want to see my new carvings? The texture of this rock is very special!
+::'''Rocky:''' My craftmanship has been improved. My carvings look more and more like her!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I've got something to ask you.
+::<!--Custom String Trigger: Wait_Option_500010115_804-->
+::<!--Custom String Listener: Wait_Option_500010115_804-->
+::{{DIcon|Talk}} When will Lesley come back?
+:::<!--Custom String Listener: TalkSentence_500011218-->
+:::'''Rocky:''' Well... I'm not sure. After all, she's the only lucky one who got to visit the Abundance Segmentum in this Amber Era.
+:::'''Rocky:''' However, she is bathed in divine blessings every day over there. She must be much happier doing research with other outstanding researchers over there than staying on the space station.
+:::'''Rocky:''' Since it is such a happy experience for her, it must be enjoyable to stay there for a longer time, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you like Lesley?
+:::<!--Custom String Listener: TalkSentence_500011222-->
+:::'''Rocky:''' Isn't it... Obvious? She is the one!
+:::'''Rocky:''' Unfortunately, I haven't officially confessed my love for her.
+:::'''Rocky:''' It's good though. That way I can have more time to pursue her and wait for her response!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Who are the scoundrels from the department next door?
+:::<!--Custom String Listener: TalkSentence_500011226-->
+:::'''Rocky:''' Those people? They are just a bunch of hooligans looking for trouble!
+:::'''Rocky:''' Different departments adopt different research methods. Academic conflict is normal. But some people just take things too personally and come harass other people.
+:::'''Rocky:''' That's why I often teach them a good lesson! I'll see if they still dare to look for troubles at the Department of Cosmic Geography!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500011230-->
+:::'''Rocky:''' You didn't bother me. It's good to have someone talk to me and distract me.
+:::'''Rocky:''' After all, I shouldn't keep thinking about Lesley, should I?
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Rocky:''' You didn't bother me. It's good to have someone talk to me and distract me.
+::'''Rocky:''' After all, I shouldn't keep thinking about Lesley, should I?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Rocky
+|zhs  = 洛奇
+|zht  = 洛奇
+|ja   = ロキ
+|ko   = 록키
+|es   = Rocky
+|fr   = Rocky
+|ru   = Рокки
+|th   = Rocky
+|vi   = Rocky
+|de   = Rocky
+|id   = Rocky
+|pt   = Rocky
+}}
+==Change History==
+{{Change History|TODO}}

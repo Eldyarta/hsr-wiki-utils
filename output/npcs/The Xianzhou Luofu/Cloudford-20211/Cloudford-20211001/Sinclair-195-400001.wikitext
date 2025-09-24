@@ -1,0 +1,148 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sinclair#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Outworld Merchant
+|image           = NPC Sinclair.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Sinclair''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_195_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502038101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502038101.json-->
+::'''Sinclair:''' My home planet doesn't have much trade as it is. Why haven't the guild permits been released yet? Y&mdash;You, yeah you! What are you doing?
+::'''Sinclair:''' If you're awaiting documents from the Sky-Faring Commission, you'd better get behind me in line. Go on, then &mdash; get out of the way.
+::{{DIcon|Arrow}} What documents? I'm getting in line too!
+:::<!--Custom String Listener: TalkSentence_502038105-->
+:::'''Sinclair:''' You don't understand anything, do you? You just came here to rubberneck.
+::{{DIcon|Arrow}} I'm not waiting for documents from the Sky-Faring Commission.
+:::<!--Custom String Listener: TalkSentence_502038107-->
+:::'''Sinclair:''' Hey hey, why didn't you say so? Did you have to wait for me to say all that before you made things clear?
+::<!--Custom String Trigger: TalkSentence_502038108-->
+::<!--Custom String Listener: TalkSentence_502038108-->
+::'''Sinclair:''' Since you're not an Outworlder merchant waiting here for documents, then I suppose we aren't rivals.
+::'''Sinclair:''' On the contrary, that Maryam &mdash; hohoho! What a wreck, it's a disgrace just to be within spitting distance of her.
+::'''Sinclair:''' If we followed the Aigaian Customs of my homeworld, I would have challenged her to a "duel" and fought for dignity with my fists. A shame we're on the Xianzhou. Know what I'm saying? All uppity and civilized, can't get into a scrap here...
+::<!--Custom String Trigger: Wait_Option_502038101_83-->
+::<!--Custom String Listener: Wait_Option_502038101_83-->
+::{{DIcon|Talk}} I've heard that people still duel on the Xianzhou.
+:::<!--Custom String Listener: TalkSentence_502038112-->
+:::'''Sinclair:''' Let me guess, you're a fan of ''Protecting Starskiff Haven'', right? That program is so superficial. They get it all wrong.
+:::'''Sinclair:''' Besides, every time I want to "duel," that guild rep with a big tail will always say, "No fighting! No fighting! Guild approval is a rare privilege reserved for the patient!"
+:::'''Sinclair:''' For the sake of these documents, I had to hold back.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You know it's disorderly conduct.
+:::<!--Custom String Listener: TalkSentence_502038116-->
+:::'''Sinclair:''' Gotta follow the local customs, right? Back in my hometown, it's proper etiquette to settle disputes with a "duel."
+:::'''Sinclair:''' As for those astonishing age restrictions for entertainment... My friend who works in the Entertainment Division keeps telling me how much of a problem the "Restricted for those under 200 years old" rating system is.
+:::'''Sinclair:''' Back on Aigaia, personal weaponry is legislated for ages twelve and up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Have you two come to a disagreement?
+:::<!--Custom String Listener: TalkSentence_502038120-->
+:::'''Sinclair:''' Ever heard of Cybercity superconducting alloys? I had a whole stockpile and was ready to come to the Xianzhou and make it big... Until I found out about Maryam having the same plan and wanting to steal all of my business.
+:::'''Sinclair:''' I can't accept it. I'd rather lose money than let the Sky-Faring Commission buy her stock.
+:::'''Sinclair:''' ...I know I come off as rather aggressive, and my friends back home always remind me that this'll run me out of business one day. If I've offended you just now, please don't take it to heart.
+:::'''Sinclair:''' Take this gift for meeting up with me. If we get a chance to work together in the future, then let's do some business. Do you want to chat more?
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502038201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502038201.json-->
+::'''Sinclair:''' This time, I'm determined to win that guild permit!
+::'''Sinclair:''' That Maryam sure is sharp! If she obtains approval, then I won't be able to go home, so she absolutely must not get it!
+::'''Sinclair:''' You're back. I haven't been approved yet. Are you free now for a quick chat?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask you about something.
+::<!--Trigger PerformanceE 502038102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502038102.json-->
+::'''Sinclair:''' Ask away. If I'm able to answer, I'll be sure to let you know.
+::<!--Custom String Trigger: Wait_Option_502038102_107-->
+::<!--Custom String Listener: Wait_Option_502038102_107-->
+::{{DIcon|Talk}} What's this "Aigaian" you speak of?
+:::<!--Custom String Listener: TalkSentence_502038127-->
+:::'''Sinclair:''' Huh? Are you interested in our Aigaian civilization too? That's great. Let me fill you in so you don't formulate any negative stereotypes.
+:::'''Sinclair:''' Thousands of years ago, our Aigaian civilization was just a group of interstellar herders who did things our own way. Under the guidance of the Navigator Moth, we'd live a nomadic lifestyle across several planets. In many cases, internecine quarrels would break out over resources.
+:::'''Sinclair:''' Until one day, the almighty Planck Aigaia Khan, hero of the Aigaian Khanate, realized an ambition &mdash; with everyone utilizing the same language, culture, and all worshiping the Preservation, why not unite under a powerful alliance together?
+:::'''Sinclair:''' In the end, Planck Khan's cultural and military achievements unified the Aigaia, Gutenberg, Riemann, and Heisenberg Khanates under one banner &mdash; the almighty Aigaian civilization, which we know to this day.
+:::'''Sinclair:''' Later on, the IPC made the first contact with us, and the Aigaian civilization was officially added to the credits macro-economy. Only then could I finally come to the Xianzhou to conduct business affairs.
+:::'''Sinclair:''' Our modern tradition of "dueling" comes from Planck Khan. He felt that human dignity should be demonstrated via a fair "duel" between two individuals.
+:::'''Sinclair:''' So do you get it now? Dueling isn't a barbaric custom at all! Rather, it's our display of human dignity!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you going to do with your batch of goods?
+:::<!--Custom String Listener: TalkSentence_502038135-->
+:::'''Sinclair:''' What can I do? I can't just leave them to rot... *sigh* I don't mean that Cybercity superconducting alloys could ever actually rot. I just mean that I can't go back to my hometown with my tail between my legs and nothing to show for it.
+:::'''Sinclair:''' Ours isn't a hyper-developed star system. Once the IPC settled in, that was the end of our local business economy. So, I teamed up with a few hometown friends, pooling our money to make opportunities for ourselves beyond the sky.
+:::'''Sinclair:''' I ended up being the only one who made it to the Xianzhou Luofu, which was no big deal. People back home wouldn't feel like they were losing their shirts as long as I can get some business going for us.
+:::'''Sinclair:''' I heard they needed these superconducting alloys over at the Artisanship Commission, but not very much. But Maryam popped out of nowhere and wants the business for herself. Now I have to compete with her prices... I'm so anxious!
+:::'''Sinclair:''' She cut her price, then so did I. I had to make this sale and couldn't let her seize the advantage from me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What about making inquiries over at the Sky-Faring Commission?
+:::<!--Custom String Listener: TalkSentence_502038141-->
+:::'''Sinclair:''' C'mon... Do you really think I haven't tried? I've been there many times already.
+:::'''Sinclair:''' The Sky-Faring Commission has been reasonable. I can only blame the Ambrosial Arbor's new growth, the closing of the Jade Gate, and the cessation of trade permits. They have been burned out for a while over at the Sky-Faring Commission and I can understand how hard they've been working.
+:::'''Sinclair:''' After the disaster, I came to realize that there's no such thing as a steady and stable business out there in the universe. Or as a common Xianzhou saying puts it, "It's a matter of time, luck, and fate."
+:::'''Sinclair:''' There's a guy called Maozhen who's keen to help me solve things. I trust he can help me with document approval... So I'm staying here. The key is Maryam... If she could just be a little more sensible.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Catch you again next time.
+:::<!--Custom String Listener: TalkSentence_502038146-->
+:::'''Sinclair:''' Cool. Outworld traders like us need to stick together.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502038102-->
+:{{DIcon|Exit}} Catch you again next time.
+::'''Sinclair:''' Cool. Outworld traders like us need to stick together.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sinclair
+|zhs  = 辛克莱
+|zht  = 辛克萊
+|ja   = シンクレア
+|ko   = 싱클레어
+|es   = Sinclair
+|fr   = Sinclair
+|ru   = Синклер
+|th   = Sinclair
+|vi   = Sinclair
+|de   = Sinclair
+|id   = Sinclair
+|pt   = Sinclair
+}}
+==Change History==
+{{Change History|TODO}}

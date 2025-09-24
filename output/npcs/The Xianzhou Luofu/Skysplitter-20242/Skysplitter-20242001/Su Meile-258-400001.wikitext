@@ -1,0 +1,160 @@
+<%-- [PAGE_INFO]
+PageTitle=#Su Meile#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = SoulGlad Salesperson
+|image           = NPC Su Meile.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Su Meile''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_258_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502150001: Config/Level/Mission/5021500/Act/Act502150001.json-->
+::'''Su Meile:''' Grab a bottle of SoulGlad, and make your dreams a blast! That {{MC|f=lady|m=gentleman}} over there, would you like a bottle of authentic SoulGlad imported directly from Penacony? Multiply your happiness with some SoulGlad as you watch the competition!
+::'''Su Meile:''' During the Drink Up event period, participate in the Uncap and Win event when you purchase SoulGlad. Many exciting rewards are up for grabs!
+::{{DIcon|Arrow}} Is your SoulGlad authentic?
+:::<!--Custom String Listener: TalkSentence_502150104-->
+:::'''Su Meile:''' Of course it's authentic! The reason SoulGlad™ set up an official flagship store on Skysplitter is to ensure that the audience gets to enjoy the most authentic SoulGlad.
+::{{DIcon|Arrow}} Are you sure the Uncap and Win event is not a scam?
+:::<!--Custom String Listener: TalkSentence_502150106-->
+:::'''Su Meile:''' Rest assured, {{MC|f=miss|m=mister}}. The prize draw is supervised by the Realm-Keeping Commission and all the prize probabilities have been clearly stated in public.
+::{{DIcon|Arrow}} I gotta know what kinds of prizes you can offer.
+:::<!--Custom String Listener: TalkSentence_502150108-->
+:::'''Su Meile:''' There are so many! One More Bottle, Miss Robin's concert tickets, Penacony luxury travel packages, and even a year's free supply of SoulGlad!
+::<!--Custom String Trigger: TalkSentence_502150109-->
+::<!--Custom String Listener: TalkSentence_502150109-->
+::'''Su Meile:''' Here, besides Classic SoulGlad, we also have the Sweet Dreams Soda flavor made exclusively for the Xianzhou folk's tastes... However, I still recommend the classic flavor. Sweet Dreams Soda... cannot provide the ultimate experience of happiness.
+::'''Su Meile:''' So, {{MC|f=miss|m=mister}}, how about a bottle of SoulGlad? Promoting products is hard work, you know!
+::{{DIcon|Arrow}} I'm actually cutting down on sugar these days.
+:::<!--Custom String Listener: TalkSentence_502150112-->
+:::'''Su Meile:''' Oh... Maybe we should consider releasing a zero sugar version of SoulGlad. Sales... Uh, health matters, after all!
+::{{DIcon|Arrow}} I'll take one right now!
+:::<!--Custom String Listener: TalkSentence_502150114-->
+:::'''Su Meile:''' Great! I know I'm starting to sound like a broken record, but beverages as good as SoulGlad? They don't even need promoters &mdash; the taste is enough to speak for itself!
+::{{DIcon|Arrow}} I prefer Immortal's Delight.
+:::<!--Custom String Listener: TalkSentence_502150116-->
+:::'''Su Meile:''' Huh? No offense, but Immortal's Delight is the reason why Xianzhou folks can't tell yummy from yucky anymore. That beverage is the scourge of the industry, if you ask me.
+::<!--Custom String Trigger: TalkSentence_502150117-->
+::<!--Custom String Listener: TalkSentence_502150117-->
+::'''Su Meile:''' Well, if you ever feel like a bottle of SoulGlad, just let me know, {{MC|f=miss|m=mister}}!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502150002: Config/Level/Mission/5021500/Act/Act502150002.json-->
+::'''Su Meile:''' We meet again, {{MC|f=miss|m=mister}}! Up for a bottle of SoulGlad today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Would be nice to have some SoulGlad right now...
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 258,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 64,
+	"TaskID": []
+}</pre>
+::'''Su Meile:''' Well, if you ever feel like a bottle of SoulGlad, you know where to find me.
+::<!--Ends the current performance-->
+:{{DIcon}} Can we chat?
+::'''Su Meile:''' Sure, I'm not looking after a customer anyway.
+::<!--Custom String Trigger: Wait_Option_502150003_42-->
+::<!--Custom String Listener: Wait_Option_502150003_42-->
+::{{DIcon|Talk}} Is SoulGlad selling well in Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502150203-->
+:::'''Su Meile:''' Not exactly. It's not that easy to penetrate the beverage market here.
+:::'''Su Meile:''' For one thing, the locals are highly particular about how their beverages taste. More often than not, beverages from other worlds have to be adapted to cater to the dietary preferences of the Xianzhou people. Sweet Dreams Soda has compromised too much on the flavor &mdash; I feel that you can't really call it "SoulGlad" anymore.
+:::'''Su Meile:''' For another, the local beverage brands are all established with long histories, and they're even inexpensive to boot. People aren't willing to splurge much on beverages that they consume on a regular basis.
+:::{{DIcon|Arrow}} Slash the prices. Go for low profit but high sales.
+::::<!--Custom String Listener: TalkSentence_502150207-->
+::::'''Su Meile:''' A price war? Are you sure that would work?
+::::'''Su Meile:''' It's true that our prices don't work to our benefit. High-concentration syrup, memoria, cross-galactic freight costs, and even Sky-Faring Commission's import duties... Our production costs are much higher than those of local Xianzhou beverages.
+::::'''Su Meile:''' However, SoulGlad™ is planning to heavily invest in the Xianzhou local market. If we set up a factory here, the scales of commerce will definitely start to tip in our favor.
+::::<!--Custom String Trigger: TalkSentence_502150214-->
+::::<!--Custom String Listener: TalkSentence_502150214-->
+::::'''Su Meile:''' But for now... Things aren't looking too good on the sales front.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Try changing your marketing strategy?
+::::<!--Custom String Listener: TalkSentence_502150211-->
+::::'''Su Meile:''' My thoughts exactly. I'm planning to invite a Xianzhou local celeb as our brand ambassador. What kind of celebrity do you think will make a good fit?
+::::'''Su Meile:''' A popular influencer like Guinaifen will get plenty of attention from youths, I reckon.
+::::'''Su Meile:''' But visitors to the Skysplitter are likely to find Master Yanqing more interesting. We even have the campaign slogan ready: "Chill out with the Frosty Blade. Chill out with a SoulGlad™."
+::::<!--Custom String Trigger: TalkSentence_502150214-->
+::::<!--Custom String Listener: TalkSentence_502150214-->
+::::'''Su Meile:''' But for now... Things aren't looking too good on the sales front.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You don't seem to be promoting Sweet Dreams Soda at all.
+:::<!--Custom String Listener: TalkSentence_502150216-->
+:::'''Su Meile:''' Mm... I'll put it this way: Sweet Dreams Soda isn't SoulGlad in my book.
+:::'''Su Meile:''' Not only does its recipe call for reduced syrup levels, but it even includes local Xianzhou herbs as ingredients. Call the mishmash of flavors what you want, but it's not SoulGlad.
+:::'''Su Meile:''' SoulGlad owes its universe-spanning popularity to its one-of-a-kind flavor. By messing up its flavor profile with random additions, it's no different from forsaking what makes SoulGlad sell in the first place. The notion absolutely boggles my mind.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you selling SoulGlad in the Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502150220-->
+:::'''Su Meile:''' Boss' orders.
+:::'''Su Meile:''' I know, I know... It's a disappointing answer. I could spin a grand story about how much I love SoulGlad's culture and how I dream of it becoming a beverage that everybody in the cosmos knows and loves, but I don't want to lie.
+:::'''Su Meile:''' According to my boss, I'm the top salesperson in Penacony, and thus the one "most suitable" for trailblazing a path to a new market. "To whom much is given, much is required," or something like that... A ton of empty promises later, the next thing I know, I'd been thrown onto an airship bound for Xianzhou.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502150224-->
+:::'''Su Meile:''' Well, if you ever feel like a bottle of SoulGlad, you know where to find me.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have anything to talk about today.
+::'''Su Meile:''' Well, if you ever feel like a bottle of SoulGlad, you know where to find me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Su Meile
+|zhs  = 苏美乐
+|zht  = 蘇美樂
+|ja   = スミレ
+|ko   = 솔메르
+|es   = Su Meile
+|fr   = Su Meile
+|ru   = Су Лада
+|th   = Su Meile
+|vi   = Su Meile
+|de   = Su Meile
+|id   = Su Meile
+|pt   = Su Meile
+}}
+==Change History==
+{{Change History|TODO}}

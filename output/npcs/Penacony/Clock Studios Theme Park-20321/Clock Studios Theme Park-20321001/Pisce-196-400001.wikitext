@@ -1,0 +1,633 @@
+<%-- [PAGE_INFO]
+PageTitle=#Pisce#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Pisce.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''Pisce''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_196_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802210204--> and {{cx}}<!--SubMission Finish: 802211101-->)
+::<!--Trigger PerformanceE 802210205: Config/Level/Mission/8022102/Act/Act802210205.json-->
+::'''Pisce:''' Director, have you already finished making Brother Hanu's extra story? I heard that the Extra you shot explored Hanu's past from all kinds of angles. The animator for Brother Hanu's can't stop praising your narrative skills!
+::'''Pisce:''' The animator is usually known for his arrogance, so we're going to need you to help him come up with some ideas. We're really sorry about this...
+::{{DIcon|Arrow}} That's alright.
+:::<!--Custom String Listener: TalkSentence_802214123-->
+:::'''Pisce:''' Ah, the director sure is considerate.
+::{{DIcon|Arrow}} What about the reward?
+:::<!--Custom String Listener: TalkSentence_802214125-->
+:::'''Pisce:''' Uh... I'm sure you've gained some knowledge during the directing process, right?
+::{{DIcon|Arrow}} Then show me a token of your appreciation.
+:::<!--Custom String Listener: TalkSentence_802214127-->
+:::'''Pisce:''' *cough* So, like, the production team's been a bit stretched on the budget side of things recently. We hope you understand.
+::<!--Custom String Trigger: TalkSentence_802214129-->
+::<!--Custom String Listener: TalkSentence_802214129-->
+::'''Pisce:''' The repeating that's to follow is still editing the movie. The refurbishment fund of the theme park, the fate of Clock Studios, Mr. Watchmaker's expectation, and the future of Clockie... They are all in your hands, director!
+::<!--Custom String Trigger: Wait_Option_802210105_129-->
+::<!--Custom String Listener: Wait_Option_802210105_129-->
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to ask you something.
+:::<!--Custom String Listener: TalkSentence_802210504-->
+:::'''Pisce:''' Sure! An in-depth understanding of the subject is essential in creating a masterpiece. Just ask away! I'll tell you everything I know.
+:::<!--Custom String Trigger: Wait_Option_802210105_133-->
+:::<!--Custom String Listener: Wait_Option_802210105_133-->
+:::{{DIcon|Talk}} What is ''Dreamjoy Memoir'' about?
+::::<!--Custom String Listener: TalkSentence_802210506-->
+::::'''Pisce:''' The series revolves around the story of Dreamville, where Clockie and his friends live &mdash; I bet you already know this.
+::::'''Pisce:''' The series will delve into Clockie's arrival in Dreamville, his experiences of sharing life's ups and downs with the townspeople, and his contributions to the town's growth and development... It can be seen as a comprehensive collection of Clockie's story from the very beginning.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How is animation production done in Penacony?
+::::<!--Custom String Listener: TalkSentence_802210509-->
+::::'''Pisce:''' Producing animations in Penacony is pretty simple. Apart from the common techniques like smart illustration, mental projection, and algorithmic generation, there's also the Sweet Dreams Troupe which is skilled in drawing and capable of recreating the vintage hand-drawn graphic style...
+::::'''Pisce:''' But here at Clock Studios, our storyboards are all hand-drawn by Mr. Watchmaker. He insists that our animators create the content for each frame themselves by hand.
+::::'''Pisce:''' As animation technology in the universe continues to advance, the graphics of films nowadays become increasingly sophisticated. Still, none of those works can rival the hand-drawn ''Clockie'' in Penacony. We're proud of that!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the destruction of the theme park.
+::::<!--Custom String Listener: TalkSentence_802210513-->
+::::'''Pisce:''' Oh, the mere mention of it saddens me. The theme park has always been one of our most important sources of offline revenue, but it was unexpectedly shut down by the Bloodhound Family for what they called a safety inspection...
+::::'''Pisce:''' Guess what happened after their inspection? The screen in the theater was split in half, and the Sweet Dreams Troupe were all turned into Dreamjolt Troupe. They even tried talking their way out of it by saying the destruction was the doing of some outsiders. How ridiculous!
+::::'''Pisce:''' That's not all. Later, a bunch of Nightingale Family members showed up, asserting that the destruction was unusual and exhibited signs of some... power of Nihility? Anyway, they inundated us with a barrage of technical terms and demanded an exorbitant repair fee that we simply couldn't accept.
+::::'''Pisce:''' Shortly after, the Iris Family representative approached us and proposed to acquire our copyrights. If you ask me, those lineages are probably in cahoots with each other to take advantage of us when we're down and claim Clockie as their own!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About your impression of the Watchmaker.
+::::<!--Custom String Listener: TalkSentence_802210518-->
+::::'''Pisce:''' Well... Although I've worked at Clock Studios for most of my life, I've only met the chairman once...
+::::'''Pisce:''' It was an interview for my promotion. He actually held the interview at a party on the cruise ship "The Sunset."
+::::'''Pisce:''' I already had a little too much to drink when I was dragged to a guest room deep in the corridor, inside of which was an immaculately dressed gentleman wearing a hat. He sat next to a window, staring into the distance at the colorful ocean of dream bubbles.
+::::'''Pisce:''' He asked, "In your opinion, what does ''Clockie'' bring to the people?" I replied, "Happiness, laughter, heartwarming moments, and a bit of reflection on the sweet dreams." Honestly, the last one was just me blabbering away in my state at the time.
+::::'''Pisce:''' He chuckled at my answer before dismissing me from the room. The following day, I received the appointment notice from the executive producer... What a mysterious guy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any other questions.
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::'''Pisce:''' Well, time and tide wait for no man. It'd be best if you could complete the editing as soon as possible so that we can get through this rough patch sooner.
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210203--> and {{cx}}<!--SubMission Finish: 802212004-->)
+::<!--Trigger PerformanceE 802210207: Config/Level/Mission/8022102/Act/Act802210207.json-->
+::'''Pisce:''' You're back. How did it feel shooting the ad?
+::{{DIcon|Arrow}} Pretty rad.
+:::<!--Custom String Listener: TalkSentence_802214141-->
+:::'''Pisce:''' It did have lots of action-heavy elements, didn't it? Must've been no big deal to you though.
+::{{DIcon|Arrow}} Pretty boring.
+:::<!--Custom String Listener: TalkSentence_802214143-->
+:::'''Pisce:''' Compared to a film, a commercial can only be considered an appetizer.
+::{{DIcon|Arrow}} So-so.
+:::<!--Custom String Listener: TalkSentence_802214145-->
+:::'''Pisce:''' Haha, editing a film is probably still more interesting!
+::<!--Custom String Trigger: TalkSentence_802214147-->
+::<!--Custom String Listener: TalkSentence_802214147-->
+::'''Pisce:''' Many fans look forward to ''Dreamjoy Memoir''. Let's keep up the editing!
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::{{DIcon|Exit}} Hold on, let me take a break.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::'''Pisce:''' Alright, I'll be here waiting.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210208--> and {{cx}}<!--SubMission Finish: 802212404-->)
+::<!--Trigger PerformanceE 802210209: Config/Level/Mission/8022102/Act/Act802210209.json-->
+::'''Pisce:''' You're back. I just got a call from the Iris Family. They praised your professionalism while shooting the commercial to heaven and back. Everyone's looking forward to the results of your completed work!
+::{{DIcon|Arrow}} Piece of cake.
+:::<!--Custom String Listener: TalkSentence_802214160-->
+:::'''Pisce:''' Haha, commercials must be nothing to you, compared to undertaking a film.
+:::<!--Custom String Trigger: TalkSentence_802214163-->
+::{{DIcon|Arrow}} What else do you need me for?
+::<!--Custom String Listener: TalkSentence_802214163-->
+::'''Pisce:''' Many fans look forward to ''Dreamjoy Memoir''. Let's keep up the editing!
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::{{DIcon|Exit}} Hold on, let me take a break.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::'''Pisce:''' Alright, I'll be here waiting.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210204--> and {{cx}}<!--SubMission not Finish: 802211101-->)
+::<!--Trigger PerformanceE 802210204: Config/Level/Mission/8022102/Act/Act802210204.json-->
+::'''Pisce:''' Filming extra stories for characters is a glorious tradition that Clock Studios has continued to the very present. The characters who didn't get to be fully shaped in the main flick can showcase their uniqueness in extra stories and gain more popularity.
+::'''Pisce:''' You can find animators to complete this extra story. Those animation-obsessed artists are all wearing various characters as headwear. You should be able to identify them immediately.
+::'''Pisce:''' I'm counting on you to shoot the Extra! Under your directions, our characters will definitely be classics that echo down the annals of cinema!
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210207--> and {{cx}}<!--SubMission not Finish: 802212404-->)
+::<!--Trigger PerformanceE 802210208: Config/Level/Mission/8022102/Act/Act802210208.json-->
+::'''Pisce:''' Even Sweet Dreams Troupe from the Iris Family has contacted us for collaboration. The crimes committed by Dreamjolt Troupe are on the rise lately, so they want to salvage their reputation by associating themselves with the Clockie franchise.
+::'''Pisce:''' We've had some differences with them, but there are no eternal enemies in the business world. If you're interested, you can handle the collaboration. It's a good opportunity to hone your Directorial Skills.
+::'''Pisce:''' Good luck, director. The grave responsibility of completing the commercial awaits! If you can make a fantastic film, then you definitely can make a grand commercial!
+::{{DIcon|Travel Log}} Continue editing
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::{{DIcon|Exit}} Shoot the Commercial first.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::'''Pisce:''' You can definitely produce a great advertisement!
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210205--> and {{cx}}<!--SubMission not Finish: 802212004-->)
+::<!--Trigger PerformanceE 802210206: Config/Level/Mission/8022102/Act/Act802210206.json-->
+::'''Pisce:''' By the way, some clients in Penacony's shopping district have shown interest in our film, and want to collaborate with us to produce some advertisements. This will definitely bring us more revenue!
+::'''Pisce:''' With more funding, the filming process will also go smoother, and the resources available to you will increase...
+::'''Pisce:''' This task will be up to you!
+::{{DIcon|Travel Log}} Continue editing
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::{{DIcon|Exit}} Shoot the Commercial first.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210102-->)
+::<!--Trigger PerformanceE 802210103: Config/Level/Mission/8022101/Act/Act802210103.json-->
+::'''Pisce:''' So, dear guest, for Clockie's future, please keep us posted if you know anything about the Watchmaker's whereabouts or someone who's {{Color|keyword|nobold=1|familiar with his story}}!
+::{{DIcon|Arrow}} I'm familiar with the Watchmaker's story.
+:::<!--Custom String Listener: TalkSentence_802210303-->
+:::'''Pisce:''' Really? Now isn't the time to joke around!
+:::<!--Custom String Trigger: Wait_Option_802210103_93-->
+:::<!--Custom String Listener: Wait_Option_802210103_93-->
+:::{{DIcon|Talk}} I'm telling the truth.
+::::<!--Custom String Listener: TalkSentence_802210305-->
+::::'''Pisce:''' Well... It's not that I find you untrustworthy, but there are simply too many things that are untrue in dreams. I'd appreciate it if you could show me some proof.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} (Present the invitation letter from the Watchmaker)
+::::<!--Custom String Listener: TalkSentence_802210307-->
+::::'''Pisce:''' I see you're Mr. Watchmaker's guest. Please forgive my rudeness... Still, it only proves that Mr. Watchmaker invited you here. It doesn't mean you know him well.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} (Present the Watchmaker's hat)
+::::<!--Custom String Listener: TalkSentence_802210309-->
+::::'''Pisce:''' This is... Mr. Watchmaker's hat!
+::::<!--Custom String Trigger: TalkSentence_802210310-->
+::::<!--Custom String Listener: TalkSentence_802210310-->
+::::'''Pisce:''' Yes, I'm pretty sure this is it. He was wearing this hat when I met him. I heard it's something very important to him, but now it's in your hands...
+::::'''Pisce:''' I understand, dear guest. You may be the only one who can save the ''Dreamjoy Memoir'' movie series now.
+::::'''Pisce:''' Please follow me to the theater... I'll show you the work Mr. Watchmaker left behind. Seeing that this is your first time doing any {{Color|keyword|nobold=1|editing}}, I'll guide you through the basics. Are you ready?
+::::{{DIcon|Arrow}} Ready.
+:::::<!--Custom String Listener: TalkSentence_802214111-->
+:::::<!--Custom String Trigger: ActivitMovie_OpenTempUI-->
+:::::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::::{{DIcon|Exit}} I'm not ready yet.
+:::::<!--Custom String Listener: TalkSentence_802214112-->
+:::::'''Pisce:''' That's fine. Come find me when you are.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't really know. Good luck.
+:::<!--Custom String Listener: TalkSentence_802210313-->
+:::'''Pisce:''' Thanks for your wish! We'll give it our all to rescue Clockie!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 802210102--> and {{cx}}<!--SubMission not Finish: 802210207-->)
+::<!--Trigger PerformanceE 802210105: Config/Level/Mission/8022101/Act/Act802210105.json-->
+::'''Pisce:''' Director, can we start editing now?
+::<!--Custom String Trigger: Wait_Option_802210105_129-->
+::<!--Custom String Listener: Wait_Option_802210105_129-->
+::<!--Custom String Listener: Wait_Option_802210105_129-->
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to ask you something.
+:::<!--Custom String Listener: TalkSentence_802210504-->
+:::'''Pisce:''' Sure! An in-depth understanding of the subject is essential in creating a masterpiece. Just ask away! I'll tell you everything I know.
+:::<!--Custom String Trigger: Wait_Option_802210105_133-->
+:::<!--Custom String Listener: Wait_Option_802210105_133-->
+:::{{DIcon|Talk}} What is ''Dreamjoy Memoir'' about?
+::::<!--Custom String Listener: TalkSentence_802210506-->
+::::'''Pisce:''' The series revolves around the story of Dreamville, where Clockie and his friends live &mdash; I bet you already know this.
+::::'''Pisce:''' The series will delve into Clockie's arrival in Dreamville, his experiences of sharing life's ups and downs with the townspeople, and his contributions to the town's growth and development... It can be seen as a comprehensive collection of Clockie's story from the very beginning.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How is animation production done in Penacony?
+::::<!--Custom String Listener: TalkSentence_802210509-->
+::::'''Pisce:''' Producing animations in Penacony is pretty simple. Apart from the common techniques like smart illustration, mental projection, and algorithmic generation, there's also the Sweet Dreams Troupe which is skilled in drawing and capable of recreating the vintage hand-drawn graphic style...
+::::'''Pisce:''' But here at Clock Studios, our storyboards are all hand-drawn by Mr. Watchmaker. He insists that our animators create the content for each frame themselves by hand.
+::::'''Pisce:''' As animation technology in the universe continues to advance, the graphics of films nowadays become increasingly sophisticated. Still, none of those works can rival the hand-drawn ''Clockie'' in Penacony. We're proud of that!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the destruction of the theme park.
+::::<!--Custom String Listener: TalkSentence_802210513-->
+::::'''Pisce:''' Oh, the mere mention of it saddens me. The theme park has always been one of our most important sources of offline revenue, but it was unexpectedly shut down by the Bloodhound Family for what they called a safety inspection...
+::::'''Pisce:''' Guess what happened after their inspection? The screen in the theater was split in half, and the Sweet Dreams Troupe were all turned into Dreamjolt Troupe. They even tried talking their way out of it by saying the destruction was the doing of some outsiders. How ridiculous!
+::::'''Pisce:''' That's not all. Later, a bunch of Nightingale Family members showed up, asserting that the destruction was unusual and exhibited signs of some... power of Nihility? Anyway, they inundated us with a barrage of technical terms and demanded an exorbitant repair fee that we simply couldn't accept.
+::::'''Pisce:''' Shortly after, the Iris Family representative approached us and proposed to acquire our copyrights. If you ask me, those lineages are probably in cahoots with each other to take advantage of us when we're down and claim Clockie as their own!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About your impression of the Watchmaker.
+::::<!--Custom String Listener: TalkSentence_802210518-->
+::::'''Pisce:''' Well... Although I've worked at Clock Studios for most of my life, I've only met the chairman once...
+::::'''Pisce:''' It was an interview for my promotion. He actually held the interview at a party on the cruise ship "The Sunset."
+::::'''Pisce:''' I already had a little too much to drink when I was dragged to a guest room deep in the corridor, inside of which was an immaculately dressed gentleman wearing a hat. He sat next to a window, staring into the distance at the colorful ocean of dream bubbles.
+::::'''Pisce:''' He asked, "In your opinion, what does ''Clockie'' bring to the people?" I replied, "Happiness, laughter, heartwarming moments, and a bit of reflection on the sweet dreams." Honestly, the last one was just me blabbering away in my state at the time.
+::::'''Pisce:''' He chuckled at my answer before dismissing me from the room. The following day, I received the appointment notice from the executive producer... What a mysterious guy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_802210105_129-->
+::::{{DIcon|Travel Log}} Begin editing.
+:::::<!--Custom String Listener: TalkSentence_802210502-->
+:::::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Maybe next time.
+:::::<!--Custom String Listener: TalkSentence_802210525-->
+:::::<!--Custom String Listener: TalkSentence_802210525-->
+:::::'''Pisce:''' Well, time and tide wait for no man. It'd be best if you could complete the editing as soon as possible so that we can get through this rough patch sooner.
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Ends the current performance-->
+:::'''Pisce:''' You can definitely produce a great advertisement!
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::'''Pisce:''' Alright, I'll be here waiting.
+:::<!--Ends the current performance-->
+:::'''Pisce:''' Alright, I'll be here waiting.
+:::<!--Ends the current performance-->
+:::'''Pisce:''' Well, time and tide wait for no man. It'd be best if you could complete the editing as soon as possible so that we can get through this rough patch sooner.
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to ask you something.
+:::<!--Custom String Listener: TalkSentence_802210504-->
+:::'''Pisce:''' Sure! An in-depth understanding of the subject is essential in creating a masterpiece. Just ask away! I'll tell you everything I know.
+:::<!--Custom String Trigger: Wait_Option_802210105_133-->
+:::<!--Custom String Listener: Wait_Option_802210105_133-->
+:::{{DIcon|Talk}} What is ''Dreamjoy Memoir'' about?
+::::<!--Custom String Listener: TalkSentence_802210506-->
+::::'''Pisce:''' The series revolves around the story of Dreamville, where Clockie and his friends live &mdash; I bet you already know this.
+::::'''Pisce:''' The series will delve into Clockie's arrival in Dreamville, his experiences of sharing life's ups and downs with the townspeople, and his contributions to the town's growth and development... It can be seen as a comprehensive collection of Clockie's story from the very beginning.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How is animation production done in Penacony?
+::::<!--Custom String Listener: TalkSentence_802210509-->
+::::'''Pisce:''' Producing animations in Penacony is pretty simple. Apart from the common techniques like smart illustration, mental projection, and algorithmic generation, there's also the Sweet Dreams Troupe which is skilled in drawing and capable of recreating the vintage hand-drawn graphic style...
+::::'''Pisce:''' But here at Clock Studios, our storyboards are all hand-drawn by Mr. Watchmaker. He insists that our animators create the content for each frame themselves by hand.
+::::'''Pisce:''' As animation technology in the universe continues to advance, the graphics of films nowadays become increasingly sophisticated. Still, none of those works can rival the hand-drawn ''Clockie'' in Penacony. We're proud of that!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the destruction of the theme park.
+::::<!--Custom String Listener: TalkSentence_802210513-->
+::::'''Pisce:''' Oh, the mere mention of it saddens me. The theme park has always been one of our most important sources of offline revenue, but it was unexpectedly shut down by the Bloodhound Family for what they called a safety inspection...
+::::'''Pisce:''' Guess what happened after their inspection? The screen in the theater was split in half, and the Sweet Dreams Troupe were all turned into Dreamjolt Troupe. They even tried talking their way out of it by saying the destruction was the doing of some outsiders. How ridiculous!
+::::'''Pisce:''' That's not all. Later, a bunch of Nightingale Family members showed up, asserting that the destruction was unusual and exhibited signs of some... power of Nihility? Anyway, they inundated us with a barrage of technical terms and demanded an exorbitant repair fee that we simply couldn't accept.
+::::'''Pisce:''' Shortly after, the Iris Family representative approached us and proposed to acquire our copyrights. If you ask me, those lineages are probably in cahoots with each other to take advantage of us when we're down and claim Clockie as their own!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About your impression of the Watchmaker.
+::::<!--Custom String Listener: TalkSentence_802210518-->
+::::'''Pisce:''' Well... Although I've worked at Clock Studios for most of my life, I've only met the chairman once...
+::::'''Pisce:''' It was an interview for my promotion. He actually held the interview at a party on the cruise ship "The Sunset."
+::::'''Pisce:''' I already had a little too much to drink when I was dragged to a guest room deep in the corridor, inside of which was an immaculately dressed gentleman wearing a hat. He sat next to a window, staring into the distance at the colorful ocean of dream bubbles.
+::::'''Pisce:''' He asked, "In your opinion, what does ''Clockie'' bring to the people?" I replied, "Happiness, laughter, heartwarming moments, and a bit of reflection on the sweet dreams." Honestly, the last one was just me blabbering away in my state at the time.
+::::'''Pisce:''' He chuckled at my answer before dismissing me from the room. The following day, I received the appointment notice from the executive producer... What a mysterious guy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_802210105_129-->
+::::{{DIcon|Travel Log}} Begin editing.
+:::::<!--Custom String Listener: TalkSentence_802210502-->
+:::::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::::<!--Ends the current performance-->
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Maybe next time.
+:::::<!--Custom String Listener: TalkSentence_802210525-->
+:::::<!--Custom String Listener: TalkSentence_802210525-->
+:::::'''Pisce:''' Well, time and tide wait for no man. It'd be best if you could complete the editing as soon as possible so that we can get through this rough patch sooner.
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::'''Pisce:''' Well, time and tide wait for no man. It'd be best if you could complete the editing as soon as possible so that we can get through this rough patch sooner.
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 802210207--> and {{cx}}<!--SubMission not Finish: 802210311-->)
+::<!--Trigger PerformanceE 802210302: Config/Level/Mission/8022103/Act/Act802210302.json-->
+::'''Pisce:''' Director, the Iris Family conducts the movie review at the {{Color|keyword|nobold=1|Penacony Grand Theater}}. The reels of banned movies are kept there.
+::'''Pisce:''' You're an important guest of The Family. If you have the time, I wonder whether you can ask The Family for a favor and return ''Dreamjoy Secrecy&ast;''s film reel &mdash; Of course, provided this doesn't interfere with your editing job.
+::{{DIcon|Travel Log}} Continue editing
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Listener: TalkSentence_802210502-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::{{DIcon|Exit}} Let me go find a member of The Family.
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::<!--Custom String Listener: TalkSentence_802210525-->
+:::'''Pisce:''' Thanks a lot! Looking forward to hearing the good news!
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210312-->)
+::<!--Trigger PerformanceD 802210317: Story/Discussion/Mission/8022103/DS802210317.json-->
+::'''Pisce:''' Why are you here again? ''Dreamjoy Memoir'' is now showing, and the business of the Clock Studios is on the rise. There's no need for The Family to be involved!
+::'''Mimosa:''' Are you sure? Have you completed the final work?
+::'''Pisce:''' That... is all because of The Family's interference! To think you can use this method to threaten us... How shameless...
+::'''Mimosa:''' That's not true. Here, you can have the film reel.
+::'''Pisce:''' Huh?
+::'''Mimosa:''' You must be on a tight schedule now, isn't it? Then stop wasting time. I'll also help with the animation later.
+::'''Pisce:''' Wh&mdash;What are you up to this time? I'm not going to fall into your trap. We'll wait for the director to be back...
+::'''Pisce:''' Ah! Director, you're back! Where did you go? What took you so long?
+::{{DIcon|Arrow}} I was finding the reel.
+:::<!--Custom String Listener: TalkSentence_802212010-->
+:::'''Pisce:''' Could it be that you've sent this lady to give us the film reel? No doubt you're the hero of Penacony! This is such an honor!
+:::I went to negotiate with Mimosa.
+:::'''Pisce:''' Well... You're incredible. Just with a few words from you, and she's personally delivered the film reel to us!
+:::I went to the Watchmaker's house.
+::{{DIcon|Arrow}} I went to negotiate with Mimosa.
+:::<!--Custom String Listener: TalkSentence_802212012-->
+:::'''Pisce:''' Well... You're incredible. Just with a few words from you, and she's personally delivered the film reel to us!
+:::I went to the Watchmaker's house.
+::{{DIcon|Arrow}} I went to the Watchmaker's house.
+:::<!--Custom String Listener: TalkSentence_802212014-->
+::'''Pisce:''' Oh my goodness! Is he doing okay?
+::<!--Custom String Trigger: TalkSentence_802212015-->
+::<!--Custom String Listener: TalkSentence_802212015-->
+::'''Mimosa:''' Let me explain. This is what happened...
+::{{tx}}
+::'''Mr. Domescreen:''' Will I be able to find a carefree heart? Just look at me right now: Wretched and socially inept!
+::'''Mr. Domescreen:''' Err... I know my take wasn't quite right, but my screen just does not contain anything gloomy or introverted!
+::'''Lalasky:''' Hmm, this industrious trashcan still needs enlightenment, scouring the world for wisdom and truth. The road is a long and difficult one...
+::'''Lalasky:''' Hmph, but outside this show, my can's wisdom is more than enough!
+::'''Bubble Hound:''' Arf, arf arf, arooo...
+::'''Bubble Hound:''' Have you noticed? This bark isn't quite similar to the last one.
+::'''Clockie:''' Let's go, comrades. Forward we go!
+::This Clockie can only repeat fixed lines. It might be a *prop* made by the Iris Family.
+::'''Villain Actor:''' Haha, Clockie! You're dead meat this time!
+::'''Villain Actor:''' I'll teach you a lesson, Clockie!
+::'''Pisce:''' Please follow me to the theater... I'll show you the work Mr. Watchmaker left behind. Seeing that this is your first time doing any {{Color|keyword|nobold=1|editing}}, I'll guide you through the basics. Are you ready?
+::Ready.
+::I'm not ready yet.
+::'''Pisce:''' That's fine. Come find me when you are.
+::'''Pisce:''' This is the material used to shoot {{Color|keyword|nobold=1|Extra Stories}}. You can find animators to complete this extra story. Those animation-obsessed artists are all wearing various characters as headwear. You should be able to identify them immediately.
+::'''Pisce:''' Filming extra stories for characters is a glorious tradition that Clock Studios has continued to the very present. The characters who didn't get to be fully shaped in the main flick can showcase their uniqueness in extra stories and gain more popularity.
+::'''Pisce:''' Do you have time now? Let me explain the details.
+::Go on.
+::'''Pisce:''' Director, have you already finished making Mr. Soda's extra story? I heard that the Extra you shot was all kinds of thrilling. The animator can't stop praising your skill!
+::'''Pisce:''' You can find animators to complete this extra story. Those animation-obsessed artists are all wearing various characters as headwear. You should be able to identify them immediately.
+::'''Pisce:''' I'm counting on you to shoot the Extra! Under your directions, our characters will definitely be classics that echo down the annals of cinema!
+::'''Pisce:''' Director, have you already finished making Brother Hanu's extra story? I heard that the Extra you shot explored Hanu's past from all kinds of angles. The animator for Brother Hanu's can't stop praising your narrative skills!
+::'''Pisce:''' The animator is usually known for his arrogance, so we're going to need you to help him come up with some ideas. We're really sorry about this...
+::That's alright.
+::'''Pisce:''' Ah, the director sure is considerate.
+::What about the reward?
+::'''Pisce:''' Uh... I'm sure you've gained some knowledge during the directing process, right?
+::Then show me a token of your appreciation.
+::'''Pisce:''' *cough* So, like, the production team's been a bit stretched on the budget side of things recently. We hope you understand.
+::'''Pisce:''' The repeating that's to follow is still editing the movie. The refurbishment fund of the theme park, the fate of Clock Studios, Mr. Watchmaker's expectation, and the future of Clockie... They are all in your hands, director!
+::'''Shocked Theme Park Employee:''' Look. The strange markings in the sky have disappeared!
+::'''Cheerful Theme Park Employee:''' My word, that must be the work of the new director...
+::'''Pisce:''' Director, do you have time to direct the {{Color|keyword|nobold=1|commercial}} they mentioned? If it's done by you, the commercial will definitely be an epic one!
+::Go shoot the Commercial.
+::'''Pisce:''' Alright, I'll let the advertisers know.
+::'''Pisce:''' With more funding, the filming process will also go smoother, and the resources available to you will increase...
+::'''Pisce:''' The task of shooting the commercial is now in your hands!
+::Continue editing
+::Shoot the Commercial first.
+::'''Pisce:''' This task will be up to you!
+::'''Pisce:''' You're back. How did it feel shooting the ad?
+::Pretty rad.
+::'''Pisce:''' It did have lots of action-heavy elements, didn't it? Must've been no big deal to you though.
+::Pretty boring.
+::'''Pisce:''' Compared to a film, a commercial can only be considered an appetizer.
+::So-so.
+::'''Pisce:''' Haha, editing a film is probably still more interesting!
+::'''Pisce:''' Many fans look forward to ''Dreamjoy Memoir''. Let's keep up the editing!
+::Begin editing.
+::Hold on, let me take a break.
+::'''Pisce:''' Alright, I'll be here waiting.
+::'''Curious Guest:''' Hm? This screen seems different from before...
+::'''Passing Guest:''' I recently heard the ''Dreamjoy Memoir'' movie is super popular. The new director really breathed life back into this place.
+::'''Happy Guest:''' Let's go! I need to see what this director makes next!
+::'''Passionate Guest:''' Look, the screen here's been fixed. The director's turning things around on by their lonesome. Astonishing!
+::'''Curious Guest:''' I wonder who the director is. It's not the legendary Watchmaker, is it?
+::'''Expectant Guest:''' Don't rush. I heard there's going to be a ''Dreamjoy Memoir'' screening event, maybe we'll be able to see things for ourselves then...
+::No problem, leave it to me.
+::'''Pisce:''' You can definitely produce a great advertisement!
+::'''Pisce:''' You're back. I just got a call from the Iris Family. They praised your professionalism while shooting the commercial to heaven and back. Everyone's looking forward to the results of your completed work!
+::Piece of cake.
+::'''Pisce:''' Haha, commercials must be nothing to you, compared to undertaking a film.
+::What else do you need me for?
+::'''Pisce:''' Many fans look forward to ''Dreamjoy Memoir''. Let's keep up the editing!
+::'''Pisce:''' Thanks a lot! Looking forward to hearing the good news!
+::{{DIcon|Arrow}} Begin the final edits.
+:::<!--Custom String Listener: TalkSentence_802214165-->
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+::{{DIcon|Arrow}} Give me a moment.
+:::<!--Custom String Listener: TalkSentence_802214166-->
+:::Give me a moment.
+:::{{tx}}
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult"
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_802210317-->
+::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 802210312--> and {{cx}}<!--SubMission not Finish: 802210401-->)
+::<!--Trigger PerformanceE 802210318: Config/Level/Mission/8022103/Act/Act802210318.json-->
+::'''Pisce:''' Director, the last film reel is ready. You can now proceed with the final editing.
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802212102-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+::{{DIcon|Exit}} Give me a moment.
+:::<!--Custom String Listener: TalkSentence_802212104-->
+:::'''Pisce:''' You need to hurry. The audience is getting antsy!
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 802210401--> and {{cx}}<!--SubMission not Finish: 802210403-->)
+::<!--Trigger PerformanceE 802210413: Config/Level/Mission/8022104/Act/Act802210413.json-->
+::'''Pisce:''' Right. I wonder if the Watchmaker's message managed to get passed to the audience... Director, can you ask the viewers for their opinions?
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 802210407-->)
+::<!--Trigger PerformanceD 802210407: Story/Discussion/Mission/8022104/DS802210407.json-->
+::{{tx}}
+::'''Pisce:''' Director (Trailblazer), what do the viewers think?
+::{{DIcon|Arrow}} They gave it a high rating.
+:::<!--Custom String Listener: TalkSentence_802212903-->
+:::'''Pisce:''' Haha, that's for sure. This movie is arguably the best work of ''Clockie'' in the past 500 years.
+:::It seems like someone has noticed the hidden message.
+::{{DIcon|Arrow}} It seems like someone has noticed the hidden message.
+:::<!--Custom String Listener: TalkSentence_802212905-->
+::'''Pisce:''' Is that so...? Perhaps the Watchmaker is hoping to see more of such viewers so that they can reap the benefits of the animation beyond the joy of it.
+::<!--Custom String Trigger: TalkSentence_802212906-->
+::<!--Custom String Listener: TalkSentence_802212906-->
+::'''Pisce:''' Director, working with you is like returning to the golden age of Clock Studios, when I was still working with the Watchmaker and continuing the adventures of Clockie alongside him.
+::'''Pisce:''' Now that I think about it, we were actually engraving the history of Penacony... I understand why Mr. Watchmaker chose to hide it from everyone. After all, how could the creation of this work bring so much joy if everyone was under such pressure to create it?
+::'''Pisce:''' Clock Studios will continue to move forward with this mission. It will watch over the dream until everyone has the right to "wake up from the dream."
+::'''Pisce:''' So, with the release of the last movie, the story of ''Dreamjoy Memoir'' has also come to an end for now. Thank you for your hard work.
+::{{DIcon|Arrow}} That's it?
+::{{DIcon|Arrow}} It's finally over...
+::{{DIcon|Arrow}} Let's do a hundred more movies!
+::<!--Custom String Listener: TalkSentence_802212913-->
+::'''Pisce:''' Well... we're actually planning on combining the five stories from ''Dreamjoy Memoir'' to create a "super extended version" of the movie for our audience to watch for a long time.
+::{{tx}}
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_802210407-->
+;(Otherwise)
+::<!--Trigger PerformanceE 802210408: Config/Level/Mission/8022104/Act/Act802210408.json-->
+::'''Pisce:''' Director, you're back! Do you want to do some film editing?
+::<!--Custom String Trigger: Wait_Option_802210408_112-->
+::<!--Custom String Listener: Wait_Option_802210408_112-->
+::{{DIcon|Travel Log}} Begin editing.
+:::<!--Custom String Listener: TalkSentence_802213002-->
+:::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I'd like to ask you something.
+:::<!--Custom String Listener: TalkSentence_802213004-->
+:::'''Pisce:''' Sure! An in-depth understanding of the subject is essential in creating a masterpiece. Just ask away! I'll tell you everything I know.
+:::<!--Custom String Trigger: Wait_Option_802210408_118-->
+:::<!--Custom String Listener: Wait_Option_802210408_118-->
+:::{{DIcon|Talk}} What is ''Dreamjoy Memoir'' about?
+::::<!--Custom String Listener: TalkSentence_802213006-->
+::::'''Pisce:''' The series revolves around the story of Dreamville, where Clockie and his friends live &mdash; I bet you already know this.
+::::'''Pisce:''' The series will delve into Clockie's arrival in Dreamville, his experiences of sharing life's ups and downs with the townspeople, and his contributions to the town's growth and development... It can be seen as a comprehensive collection of Clockie's story from the very beginning.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How is animation production done in Penacony?
+::::<!--Custom String Listener: TalkSentence_802213009-->
+::::'''Pisce:''' Producing animations in Penacony is pretty simple. Apart from the common techniques like smart illustration, mental projection, and algorithmic generation, there's also the Sweet Dreams Troupe which is skilled in drawing and capable of recreating the vintage hand-drawn graphic style...
+::::'''Pisce:''' But here at Clock Studios, our storyboards are all hand-drawn by Mr. Watchmaker. He insists that our animators create the content for each frame themselves by hand.
+::::'''Pisce:''' As animation technology in the universe continues to advance, the graphics of films nowadays become increasingly sophisticated. Still, none of those works can rival the hand-drawn ''Clockie'' in Penacony. We're proud of that!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the destruction of the theme park.
+::::<!--Custom String Listener: TalkSentence_802213013-->
+::::'''Pisce:''' Oh, the mere mention of it saddens me. The theme park has always been one of our most important sources of offline revenue, but it was unexpectedly shut down by the Bloodhound Family for what they called a safety inspection...
+::::'''Pisce:''' Guess what happened after their inspection? The screen in the theater was split in half, and the Sweet Dreams Troupe were all turned into Dreamjolt Troupe. They even tried talking their way out of it by saying the destruction was the doing of some outsiders. How ridiculous!
+::::'''Pisce:''' That's not all. Later, a bunch of Nightingale Family members showed up, asserting that the destruction was unusual and exhibited signs of some... power of Nihility? Anyway, they inundated us with a barrage of technical terms and demanded an exorbitant repair fee that we simply couldn't accept.
+::::'''Pisce:''' Shortly after, the Iris Family representative approached us and proposed to acquire our copyrights. If you ask me, those lineages are probably in cahoots with each other to take advantage of us when we're down and claim Clockie as their own!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About your impression of the Watchmaker.
+::::<!--Custom String Listener: TalkSentence_802213018-->
+::::'''Pisce:''' Well... Although I've worked at Clock Studios for most of my life, I've only met the chairman once...
+::::'''Pisce:''' It was an interview for my promotion. He actually held the interview at a party on the cruise ship "The Sunset."
+::::'''Pisce:''' I already had a little too much to drink when I was dragged to a guest room deep in the corridor, inside of which was an immaculately dressed gentleman wearing a hat. He sat next to a window, staring into the distance at the colorful ocean of dream bubbles.
+::::'''Pisce:''' He asked, "In your opinion, what does ''Clockie'' bring to the people?" I replied, "Happiness, laughter, heartwarming moments, and a bit of reflection on the sweet dreams." Honestly, the last one was just me blabbering away in my state at the time.
+::::'''Pisce:''' He chuckled at my answer before dismissing me from the room. The following day, I received the appointment notice from the executive producer... What a mysterious guy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any other questions.
+::::<!--Custom String Listener: Wait_Option_802210408_112-->
+::::{{DIcon|Travel Log}} Begin editing.
+:::::<!--Custom String Listener: TalkSentence_802213002-->
+:::::<!--Custom String Trigger: ActivitMovie_OpenUI-->
+:::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Maybe next time.
+:::::<!--Custom String Listener: TalkSentence_802213025-->
+:::::'''Pisce:''' No problem. You're always welcome to come back and be part of the production!
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_802213025-->
+:::'''Pisce:''' No problem. You're always welcome to come back and be part of the production!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Pisce
+|zhs  = 皮斯
+|zht  = 皮斯
+|ja   = ピース
+|ko   = 피스
+|es   = Pisce
+|fr   = Ichtus
+|ru   = Пис
+|th   = Pisce
+|vi   = Pisce
+|de   = Pisce
+|id   = Pisce
+|pt   = Pisce
+}}
+==Change History==
+{{Change History|TODO}}

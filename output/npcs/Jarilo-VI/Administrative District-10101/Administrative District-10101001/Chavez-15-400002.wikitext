@@ -1,0 +1,607 @@
+<%-- [PAGE_INFO]
+PageTitle=#Chavez#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Enthusiastic Man
+|image           = NPC Chavez.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Chavez''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501027101: Config/Level/Mission/5010271/Act/Act501027101.json-->
+::<!--Custom String Trigger: TalkSentence_501027101-->
+::<!--Custom String Listener: TalkSentence_501027101-->
+::'''Chavez:''' Young person, look over here! Just two minutes of your time can save you from future losses!
+::'''Chavez:''' Has a sneaky kid with dark blue hair ever come up to talk to you?
+::<!--Custom String Trigger: Wait_Option_5010271_8-->
+::<!--Custom String Listener: Wait_Option_5010271_8-->
+::{{DIcon|Arrow}} ...It rings a bell.
+:::<!--Custom String Listener: TalkSentence_501027104-->
+:::'''Chavez:''' You are likely a victim of the "Dark-Blue Scam"!
+::{{DIcon|Arrow}} Isn't that Sampo?
+:::<!--Custom String Listener: TalkSentence_501027106-->
+:::'''Chavez:''' ... Sampo? You've been scammed! That's just an alias. That means... you're a victim of the Dark-Blue Scam!
+::{{DIcon|Arrow}} I've never seen someone like that.
+:::<!--Custom String Listener: TalkSentence_501027108-->
+:::'''Chavez:''' You are likely a potential victim of the Dark-Blue Scam!
+::<!--Custom String Trigger: TalkSentence_501027109-->
+::<!--Custom String Listener: TalkSentence_501027109-->
+::'''Chavez:''' Take my advice, that guy is a serial scammer. Don't believe anything he says!
+::'''Chavez:''' Here, take this. This is a tutorial on preventing scams written by the Dark-Blue Scam Victims Association. Read it carefully and if you have any questions, come to me!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501027102: Config/Level/Mission/5010271/Act/Act501027102.json-->
+::'''Chavez:''' I remember you, young person. Do you have any questions after reading the fraud prevention tutorial?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301150402-->)
+:{{DIcon|undefined}} I'll help you exercise your rightful rights!
+::<!--Trigger PerformanceE 301150402: Config/Level/Mission/3011504/Act/Act301150402.json-->
+::'''Chavez:''' Oh, I didn't think other Society members would be here so soon! Seems like it's a good decision to join charitable organizations.
+::'''Chavez:''' I need you to &mdash; take a photo of me! That's all.
+::{{DIcon|Arrow}} Alright. No problem.
+:::<!--Custom String Listener: TalkSentence_301150705-->
+:::'''Chavez:''' Oh, nice! Please, make me look tall and handsome &mdash; This photo is for my daughter.
+::{{DIcon|Arrow}} Okay, but why?
+:::<!--Custom String Listener: TalkSentence_301150707-->
+:::'''Chavez:''' Hahaha, just take the photo. I'll tell you afterwards.
+:::{{DIcon|Arrow}} Okay. Please make a pose.
+::::<!--Custom String Listener: TalkSentence_301150709-->
+::::'''Chavez:''' Please, make me look tall and handsome &mdash; This photo is for my daughter.
+:::{{DIcon|Arrow}} You are certainly the leader of the Scam Victims Association...
+::::<!--Custom String Listener: TalkSentence_301150711-->
+::::'''Chavez:''' I'm just being smart. It's good to be on your guard around other people!
+::::'''Chavez:''' The camera is all yours! Please, make me look tall and handsome &mdash; This photo is for my daughter.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150402-->
+;(If {{cx}}<!--SubMission Started: 301150406--> and {{cx}}<!--SubMission Started: 301150402-->)
+:{{DIcon|undefined}} I took the pictures.
+::<!--Trigger PerformanceE 301150403: Config/Level/Mission/3011504/Act/Act301150403.json-->
+::'''Chavez:''' You're done? Thank you! Let me have a look...
+::'''Chavez:''' Oh, this is a good photo! I look ten years younger in this, hahaha.
+::{{DIcon|Arrow}} So, this is it?
+:::<!--Custom String Listener: TalkSentence_301150724-->
+:::'''Chavez:''' Yes, thank you for your help! This is a small token of thanks...
+:::'''Chavez:''' ...Um, I feel like I forgot something. What could it be?
+:::'''Chavez:''' Never mind. I'll get to it when I remember. Anyways, please accept my thanks!
+::{{DIcon|Arrow}} Can you tell me now why you want a photo?
+:::<!--Custom String Listener: TalkSentence_301150728-->
+:::'''Chavez:''' Hahaha, that's a long story. Let me think about where to start...
+:::'''Chavez:''' Okay &mdash; You know I spend my time every day promoting techniques against Dark-Blue Scams, right?
+:::'''Chavez:''' Sometimes I stay out in the Plaza all day and only get home late at night. My daughter got upset and said I don't want to play with her, and my family also thinks I'm doing some shady business out here...
+:::'''Chavez:''' So I thought about taking a photo to prove that I'm in fact working during the day!
+:::{{DIcon|Arrow}} Every family has its own troubles.
+::::<!--Custom String Listener: TalkSentence_301150733-->
+::::'''Chavez:''' Hahaha, it's nothing! My family actually gets on very well.
+:::{{DIcon|Arrow}} Isn't the Society all about helping people avoid work?
+::::<!--Custom String Listener: TalkSentence_301150735-->
+::::'''Chavez:''' That's not the whole picture! Think about it &mdash; The Rightful Rights Society helps people to exercise their rightful rights, and my job is to ensure people's rights are not violated...
+::::'''Chavez:''' There is no conflict between my job and the mission of the Society. The Rightful Rights Society is still doing its thing.
+:::<!--Custom String Trigger: TalkSentence_301150737-->
+:::<!--Custom String Listener: TalkSentence_301150737-->
+:::'''Chavez:''' Anyways, that went off on a tangent. Thank you! These are your rewards...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150406-->
+;(If {{cx}}<!--SubMission Started: 301150407-->, {{cx}}<!--SubMission Started: 301150406-->, and {{cx}}<!--SubMission Started: 301150402-->)
+:{{DIcon|undefined}} I took the pictures.
+::<!--Trigger PerformanceE 301150404: Config/Level/Mission/3011504/Act/Act301150404.json-->
+::'''Chavez:''' You're done? Thank you! Let me have a look...
+::'''Chavez:''' Huh, where am I in this photo? I can't see myself in this... This picture is not gonna prove my claims.
+::'''Chavez:''' Never mind. You came all the way out here for this, and I can't ask too much from you. Thank you.
+::{{DIcon|Arrow}} So, this is it?
+:::<!--Custom String Listener: TalkSentence_301150755-->
+:::'''Chavez:''' Yes, thank you for your help! This is a small token of thanks...
+:::'''Chavez:''' ...Um, I feel like I forgot something. What could it be?
+:::'''Chavez:''' Never mind. I'll get to it when I remember. Anyways, please accept my thanks!
+::{{DIcon|Arrow}} Can you tell me now why you want a photo?
+:::<!--Custom String Listener: TalkSentence_301150759-->
+:::'''Chavez:''' Hahaha, that's a long story. Let me think about where to start...
+:::'''Chavez:''' Okay &mdash; You know I spend my time every day promoting techniques against Dark-Blue Scams, right?
+:::'''Chavez:''' Sometimes I stay out in the Plaza all day and only get home late at night. My daughter got upset and said I don't want to play with her, and my family also thinks I'm doing some shady business out here...
+:::'''Chavez:''' So I thought about taking a photo to prove that I'm in fact working during the day!
+:::{{DIcon|Arrow}} Every family has its own troubles.
+::::<!--Custom String Listener: TalkSentence_301150764-->
+::::'''Chavez:''' Hahaha, it's nothing! My family actually gets on very well.
+:::{{DIcon|Arrow}} Isn't the Society all about helping people avoid work?
+::::<!--Custom String Listener: TalkSentence_301150766-->
+::::'''Chavez:''' That's not the whole picture! Think about it &mdash; The Rightful Rights Society helps people to exercise their rightful rights, and my job is to ensure people's rights are not violated...
+::::'''Chavez:''' There is no conflict between my job and the mission of the Society. The Rightful Rights Society is still doing its thing.
+:::<!--Custom String Trigger: TalkSentence_301150768-->
+:::<!--Custom String Listener: TalkSentence_301150768-->
+:::'''Chavez:''' Anyways, that went off on a tangent. Thank you! These are your rewards...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150407-->
+:{{DIcon}} Can I ask a question...?
+::'''Chavez:''' Go ahead! It's our responsibility to help prevent the public from being scammed.
+::<!--Custom String Trigger: Wait_Option_5010271_22-->
+::<!--Custom String Listener: Wait_Option_5010271_22-->
+::{{DIcon|Talk}} ...the Dark-Blue Scam Victims Association?
+:::<!--Custom String Listener: TalkSentence_501027114-->
+:::'''Chavez:''' That's right! The members of the Association are all former victims. We are united to share what we have learned and help the public by raising awareness!
+:::'''Chavez:''' The guide goes over case studies of those who were scammed by the blue-haired swindler. It is evidence of his evil crimes, a painful lesson that we predecessors suffered.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ...How were you scammed?
+:::<!--Custom String Listener: TalkSentence_501027117-->
+:::'''Chavez:''' The first time I met that guy, he asked if I wanted a "parallel universe printer."
+:::'''Chavez:''' Well, I asked him how the printer works... and he immediately started rambling on a bunch of smorgasbord about science stuff. I was almost caught up in it.
+:::'''Chavez:''' Terms like parallel universe, Aeons, and parity anomaly... Swindlers love to use these words related to the universe and Aeons to scam people!
+:::'''Chavez:''' I didn't believe him until he used it to print money. He made two bills with the exact same serial number...
+:::<!--Custom String Trigger: Wait_Option_5010271_31-->
+:::<!--Custom String Listener: Wait_Option_5010271_31-->
+:::{{DIcon|Arrow}} How much did you pay?
+::::<!--Custom String Listener: TalkSentence_501027122-->
+::::'''Chavez:''' Uh... the price isn't important. What's important is that you need to be careful, so the same scam doesn't happen to you.
+:::{{DIcon|Arrow}} Did the printer work?
+::::<!--Custom String Listener: TalkSentence_501027124-->
+::::'''Chavez:''' Of course not, otherwise why do you think I would have joined the association?
+:::<!--Custom String Trigger: TalkSentence_501027125-->
+:::<!--Custom String Listener: TalkSentence_501027125-->
+:::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+:::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+:::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+:::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+:::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+:::<!--Custom String Trigger: Wait_Option_5010271_42-->
+:::<!--Custom String Listener: Wait_Option_5010271_42-->
+:::{{DIcon|Arrow}} ...So you bought an aether lens?
+:::<!--Custom String Listener: TalkSentence_501027131-->
+:::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+:::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+:::<!--Custom String Trigger: Wait_Option_5010271_47-->
+:::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Chavez:''' Recently... I'm preparing an appeal on behalf of the Association. I plan on meeting with Lady Bronya.
+::{{DIcon|Arrow}} Why the Association?
+:::<!--Custom String Listener: TalkSentence_501027147-->
+:::'''Chavez:''' Obviously, this issue involves the Association's fundamental interests.
+::{{DIcon|Arrow}} Why Bronya?
+:::<!--Custom String Listener: TalkSentence_501027149-->
+:::'''Chavez:''' Because Lady Bronya clearly is the only person who can solve our issue.
+::{{DIcon|Arrow}} Take it easy. If there's an issue, we can sit down and discuss it...
+:::<!--Custom String Listener: TalkSentence_501027151-->
+:::'''Chavez:''' Huh? What are you talking about?
+:::'''Chavez:''' ...You misunderstood what I meant! All we want is to make Lady Bronya aware of the Dark-Blue Scam. This issue has implications for the peace and stability of Belobog.
+::<!--Custom String Trigger: TalkSentence_501027153-->
+::<!--Custom String Listener: TalkSentence_501027153-->
+::'''Chavez:''' I heard that the Supreme Guardian Lady Bronya is far more open-minded than the former Supreme Guardian. She is encouraging people at Qlipoth Fort to air their opinions. Everyone has a responsibility to speak... Well, the Dark-Blue Scam Victims Association naturally isn't going to let this opportunity get away.
+::'''Chavez:''' Our request is quite simple. The Silvermane Guards should immediately establish a Dark-Blue Scam Special Task Force that will launch a city-wide search in Belobog to round up this blue-haired con artist...
+::{{DIcon|Arrow}} What will happen after the task force catches him?
+:::<!--Custom String Listener: TalkSentence_501027156-->
+:::'''Chavez:''' That's easy. They should tie this wretched villain up and lock him beneath Qlipoth Fort to be questioned under torture. The interrogation would continue until he has confessed all of his crimes. After that, he'll be hanged outside the city...
+:::{{DIcon|Arrow}} ...That's ambitious.
+::::<!--Custom String Listener: TalkSentence_501027158-->
+::::'''Chavez:''' Are you praising me? I'll assume you are.
+::::'''Chavez:''' The point is, we simply must find that blue-haired swindler. We cannot tolerate such criminal activity!
+:::{{DIcon|Arrow}} I suddenly feel pity for Sampo.
+::::<!--Custom String Listener: TalkSentence_501027161-->
+::::'''Chavez:''' Sampo? That con artist's alias?
+::::'''Chavez:''' Don't ever sympathize with him! You'll either end up losing some money at the minimum, or even see your family fortune go down the drain...
+::{{DIcon|Arrow}} ...That's ambitious.
+:::<!--Custom String Listener: TalkSentence_501027164-->
+:::'''Chavez:''' Are you praising me? I'll assume you are.
+:::'''Chavez:''' The point is, we simply must find that blue-haired swindler. We cannot tolerate such criminal activity!
+::{{DIcon|Arrow}} I suddenly feel pity for Sampo.
+:::<!--Custom String Listener: TalkSentence_501027167-->
+:::'''Chavez:''' Sampo? That con artist's alias?
+:::'''Chavez:''' Don't ever sympathize with him! You'll either end up losing some money at the minimum, or even see your family fortune go down the drain...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} I'll be careful.
+::'''Chavez:''' That's right! Don't fall for his tricks!
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010271_18)
+:<!--Custom String Listener: Wait_Option_5010271_18-->
+::{{DIcon|Arrow}} Can I ask a question...?
+::<!--Custom String Listener: TalkSentence_501027112-->
+::'''Chavez:''' Go ahead! It's our responsibility to help prevent the public from being scammed.
+::<!--Custom String Trigger: Wait_Option_5010271_22-->
+::<!--Custom String Listener: Wait_Option_5010271_22-->
+::<!--Custom String Listener: Wait_Option_5010271_22-->
+::{{DIcon|Talk}} ...the Dark-Blue Scam Victims Association?
+:::<!--Custom String Listener: TalkSentence_501027114-->
+:::<!--Custom String Listener: TalkSentence_501027114-->
+:::'''Chavez:''' That's right! The members of the Association are all former victims. We are united to share what we have learned and help the public by raising awareness!
+:::'''Chavez:''' The guide goes over case studies of those who were scammed by the blue-haired swindler. It is evidence of his evil crimes, a painful lesson that we predecessors suffered.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ...How were you scammed?
+:::<!--Custom String Listener: TalkSentence_501027117-->
+:::<!--Custom String Listener: TalkSentence_501027117-->
+:::'''Chavez:''' The first time I met that guy, he asked if I wanted a "parallel universe printer."
+:::'''Chavez:''' Well, I asked him how the printer works... and he immediately started rambling on a bunch of smorgasbord about science stuff. I was almost caught up in it.
+:::'''Chavez:''' Terms like parallel universe, Aeons, and parity anomaly... Swindlers love to use these words related to the universe and Aeons to scam people!
+:::'''Chavez:''' I didn't believe him until he used it to print money. He made two bills with the exact same serial number...
+:::<!--Custom String Trigger: Wait_Option_5010271_31-->
+:::<!--Custom String Listener: Wait_Option_5010271_31-->
+:::<!--Custom String Listener: Wait_Option_5010271_31-->
+:::{{DIcon|Arrow}} How much did you pay?
+::::<!--Custom String Listener: TalkSentence_501027122-->
+::::<!--Custom String Listener: TalkSentence_501027122-->
+::::'''Chavez:''' Uh... the price isn't important. What's important is that you need to be careful, so the same scam doesn't happen to you.
+::::<!--Custom String Trigger: TalkSentence_501027125-->
+::::<!--Custom String Listener: TalkSentence_501027125-->
+::::<!--Custom String Listener: TalkSentence_501027125-->
+::::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+::::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+::::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+::::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+::::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+::::<!--Custom String Trigger: Wait_Option_5010271_42-->
+::::<!--Custom String Listener: Wait_Option_5010271_42-->
+::::<!--Custom String Listener: Wait_Option_5010271_42-->
+::::{{DIcon|Arrow}} ...So you bought an aether lens?
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+::::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+::::<!--Custom String Trigger: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Did the printer work?
+::::<!--Custom String Listener: TalkSentence_501027124-->
+::::<!--Custom String Listener: TalkSentence_501027124-->
+::::'''Chavez:''' Of course not, otherwise why do you think I would have joined the association?
+::::<!--Custom String Trigger: TalkSentence_501027125-->
+::::<!--Custom String Listener: TalkSentence_501027125-->
+::::<!--Custom String Listener: TalkSentence_501027125-->
+::::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+::::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+::::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+::::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+::::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+::::<!--Custom String Trigger: Wait_Option_5010271_42-->
+::::<!--Custom String Listener: Wait_Option_5010271_42-->
+::::<!--Custom String Listener: Wait_Option_5010271_42-->
+::::{{DIcon|Arrow}} ...So you bought an aether lens?
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+::::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+::::<!--Custom String Trigger: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::{{DIcon|Arrow}} Parallel universes actually exist.
+:::::<!--Custom String Listener: TalkSentence_501027134-->
+:::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+:::::'''Chavez:''' Or... are you working with the blue-haired guy?
+:::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Wow, I am soo scared.
+:::::<!--Custom String Listener: TalkSentence_501027138-->
+:::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+::::;(Return to previous option selection (cloneCheckString))
+::::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+::::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+::::<!--Custom String Trigger: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::{{DIcon|Arrow}} Parallel universes actually exist.
+:::::<!--Custom String Listener: TalkSentence_501027134-->
+:::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+:::::'''Chavez:''' Or... are you working with the blue-haired guy?
+:::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Wow, I am soo scared.
+:::::<!--Custom String Listener: TalkSentence_501027138-->
+:::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} ...So you bought an aether lens?
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+::::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+::::<!--Custom String Trigger: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::{{DIcon|Arrow}} Parallel universes actually exist.
+:::::<!--Custom String Listener: TalkSentence_501027134-->
+:::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+:::::'''Chavez:''' Or... are you working with the blue-haired guy?
+:::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Wow, I am soo scared.
+:::::<!--Custom String Listener: TalkSentence_501027138-->
+:::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+::::;(Return to previous option selection (cloneCheckString))
+::::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+::::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+::::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+::::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+::::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+::::<!--Custom String Trigger: Wait_Option_5010271_42-->
+::::<!--Custom String Listener: Wait_Option_5010271_42-->
+::::{{DIcon|Arrow}} ...So you bought an aether lens?
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+::::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+::::<!--Custom String Trigger: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::{{DIcon|Arrow}} Parallel universes actually exist.
+:::::<!--Custom String Listener: TalkSentence_501027134-->
+:::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+:::::'''Chavez:''' Or... are you working with the blue-haired guy?
+:::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Wow, I am soo scared.
+:::::<!--Custom String Listener: TalkSentence_501027138-->
+:::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+::::;(Return to previous option selection (cloneCheckString))
+::::'''Chavez:''' Of course not, otherwise why do you think I would have joined the association?
+::::<!--Custom String Trigger: TalkSentence_501027125-->
+::::<!--Custom String Listener: TalkSentence_501027125-->
+::::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+::::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+::::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+::::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+::::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+::::<!--Custom String Trigger: Wait_Option_5010271_42-->
+::::<!--Custom String Listener: Wait_Option_5010271_42-->
+::::{{DIcon|Arrow}} ...So you bought an aether lens?
+::::<!--Custom String Listener: TalkSentence_501027131-->
+::::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+::::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+::::<!--Custom String Trigger: Wait_Option_5010271_47-->
+::::<!--Custom String Listener: Wait_Option_5010271_47-->
+::::{{DIcon|Arrow}} Parallel universes actually exist.
+:::::<!--Custom String Listener: TalkSentence_501027134-->
+:::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+:::::'''Chavez:''' Or... are you working with the blue-haired guy?
+:::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Wow, I am soo scared.
+:::::<!--Custom String Listener: TalkSentence_501027138-->
+:::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+::::;(Return to previous option selection (cloneCheckString))
+::;(All choices lead to the following options)
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+:::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+:::<!--Custom String Trigger: Wait_Option_5010271_47-->
+:::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} ...So you bought an aether lens?
+:::<!--Custom String Listener: TalkSentence_501027131-->
+:::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+:::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+:::<!--Custom String Trigger: Wait_Option_5010271_47-->
+:::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+:::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+:::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+:::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+:::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+:::<!--Custom String Trigger: Wait_Option_5010271_42-->
+:::<!--Custom String Listener: Wait_Option_5010271_42-->
+:::{{DIcon|Arrow}} ...So you bought an aether lens?
+:::<!--Custom String Listener: TalkSentence_501027131-->
+:::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+:::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+:::<!--Custom String Trigger: Wait_Option_5010271_47-->
+:::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Chavez:''' Uh... the price isn't important. What's important is that you need to be careful, so the same scam doesn't happen to you.
+:::<!--Custom String Trigger: TalkSentence_501027125-->
+:::<!--Custom String Listener: TalkSentence_501027125-->
+:::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+:::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+:::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+:::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+:::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+:::<!--Custom String Trigger: Wait_Option_5010271_42-->
+:::<!--Custom String Listener: Wait_Option_5010271_42-->
+:::{{DIcon|Arrow}} ...So you bought an aether lens?
+:::<!--Custom String Listener: TalkSentence_501027131-->
+:::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+:::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+:::<!--Custom String Trigger: Wait_Option_5010271_47-->
+:::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} ...the Dark-Blue Scam Victims Association?
+:::<!--Custom String Listener: TalkSentence_501027114-->
+:::'''Chavez:''' That's right! The members of the Association are all former victims. We are united to share what we have learned and help the public by raising awareness!
+:::'''Chavez:''' The guide goes over case studies of those who were scammed by the blue-haired swindler. It is evidence of his evil crimes, a painful lesson that we predecessors suffered.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ...How were you scammed?
+:::<!--Custom String Listener: TalkSentence_501027117-->
+:::'''Chavez:''' The first time I met that guy, he asked if I wanted a "parallel universe printer."
+:::'''Chavez:''' Well, I asked him how the printer works... and he immediately started rambling on a bunch of smorgasbord about science stuff. I was almost caught up in it.
+:::'''Chavez:''' Terms like parallel universe, Aeons, and parity anomaly... Swindlers love to use these words related to the universe and Aeons to scam people!
+:::'''Chavez:''' I didn't believe him until he used it to print money. He made two bills with the exact same serial number...
+:::<!--Custom String Trigger: Wait_Option_5010271_31-->
+:::<!--Custom String Listener: Wait_Option_5010271_31-->
+:::{{DIcon|Arrow}} How much did you pay?
+::::<!--Custom String Listener: TalkSentence_501027122-->
+::::'''Chavez:''' Uh... the price isn't important. What's important is that you need to be careful, so the same scam doesn't happen to you.
+:::{{DIcon|Arrow}} Did the printer work?
+::::<!--Custom String Listener: TalkSentence_501027124-->
+::::'''Chavez:''' Of course not, otherwise why do you think I would have joined the association?
+:::<!--Custom String Trigger: TalkSentence_501027125-->
+:::<!--Custom String Listener: TalkSentence_501027125-->
+:::'''Chavez:''' Ahem, sometime later, after the counterfeiting scam, I bumped into that same blue-haired guy again in an alley in the Commercial District.
+:::'''Chavez:''' I should have had the Silvermane Guards arrest him, but I was so angry and I needed an explanation...
+:::'''Chavez:''' Instead, he asked me with a straight face, "Were you staring at the printer?"
+:::'''Chavez:''' He accused me of not reading the manual and wasting such a genius invention. He even offered to refund the full payment so that he could find another buyer for the parallel universe printer.
+:::'''Chavez:''' He also said, "If the operator keeps staring at the printer, the parallel universe transmission can't happen. The only way to avoid interfering with the transmission process is to observe it with the help of an aether lens."
+:::<!--Custom String Trigger: Wait_Option_5010271_42-->
+:::<!--Custom String Listener: Wait_Option_5010271_42-->
+:::{{DIcon|Arrow}} ...So you bought an aether lens?
+:::<!--Custom String Listener: TalkSentence_501027131-->
+:::'''Chavez:''' Doesn't that sound reasonable? So I was tricked again by his apparent sincerity...
+:::'''Chavez:''' Now I know that nine out of ten people who try to associate their products with any kind of parallel universe theory are scammers!
+:::<!--Custom String Trigger: Wait_Option_5010271_47-->
+:::<!--Custom String Listener: Wait_Option_5010271_47-->
+:::{{DIcon|Arrow}} Parallel universes actually exist.
+::::<!--Custom String Listener: TalkSentence_501027134-->
+::::'''Chavez:''' Haha, are you kidding me? Do you really expect me to believe that?
+::::'''Chavez:''' Or... are you working with the blue-haired guy?
+::::'''Chavez:''' Get out! If you don't leave, I'll have Silvermane Guards come and arrest you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Wow, I am soo scared.
+::::<!--Custom String Listener: TalkSentence_501027138-->
+::::'''Chavez:''' Laugh at me if you want, just remember what I told you... Be careful with anything related to parallel universes!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Chavez
+|zhs  = 查威
+|zht  = 查威
+|ja   = チャーヴィー
+|ko   = 차베스
+|es   = Chávez
+|fr   = Chavez
+|ru   = Чавез
+|th   = Chavez
+|vi   = Chavez
+|de   = Chavez
+|id   = Chavez
+|pt   = Chavez
+}}
+==Change History==
+{{Change History|TODO}}

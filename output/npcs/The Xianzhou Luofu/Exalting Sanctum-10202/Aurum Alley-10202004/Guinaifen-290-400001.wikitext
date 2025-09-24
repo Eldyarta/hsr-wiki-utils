@@ -1,0 +1,136 @@
+<%-- [PAGE_INFO]
+PageTitle=#Guinaifen#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Guinaifen.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Guinaifen''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_290_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 502100101: Config/Level/NPCDialogue/P10202/F10202004_G290/Act502100101.json-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has been completed)
+::'''Guinaifen:''' Hi dear~! You came to play with me? Heh heh! A great hero like you, finding time to play with me can't be easy!
+;(If {{Mission|Foxian Dream|showChapter=0}} has not been completed)
+::'''Guinaifen:''' Ah, if it isn't (Trailblazer)! You're back in Aurum Alley~
+::'''Guinaifen:''' Unfortunately we have no performances scheduled, if you want to see an acrobatics show, I'm afraid we'll have to let you down. Although, I can talk with you for a while if you like~
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has been completed)
+:{{DIcon}} I wanted to chat with you.
+::'''Guinaifen:''' Alright, what did you want to talk about? Let's get it all out~
+::<!--Custom String Trigger: Wait_Option_502100201_54-->
+::<!--Custom String Listener: Wait_Option_502100201_54-->
+::{{DIcon|Talk}} How's it going with Ghostly Grove?
+:::<!--Custom String Listener: TalkSentence_502100204-->
+:::'''Guinaifen:''' It's going great! We've been getting loads of followers since we solved that case~ The Realm-Keeping Commission actually got in touch with me recently and ask me to be their "Luofu myth-buster ambassador!"
+:::'''Guinaifen:''' Uhh... I'm not really sure why an account that deals with the occult has now become the embassy of myth-busting though...
+:::'''Guinaifen:''' Either way, I still do a lot of related live streams. When I get a chance next, the ghost-hunting squad are gonna get together to talk about all our stories and try and get some tips~
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you still perform offline?
+:::<!--Custom String Listener: TalkSentence_502100208-->
+:::'''Guinaifen:''' Of course! You don't think that I'm one of those idiot streamers that gets famous online and completely forgets who I am, do you?
+:::'''Guinaifen:''' These days, the online world changes every minute, going viral and getting cancelled can all happen in the blink of an eye... Acrobatics and folk arts are still where my skills lie.
+:::'''Guinaifen:''' My dad once told me, one can go anywhere in the universe, but they must never forget where they came from. I came from Ms. Yo's acrobatics troupe.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where are you from originally?
+:::<!--Custom String Listener: TalkSentence_502100212-->
+:::'''Guinaifen:''' Originally? Honestly, I don't really remember, I ran away when I was little. I don't think there is life left on that planet anymore.
+:::'''Guinaifen:''' All I remember is that when I was young, I lived in a huge house with an amazing garden plaza. It was about the size of Aurum Alley, actually.
+:::'''Guinaifen:''' I also remember my dad was a great man, he taught me a lot of life lessons. Although, as I grew up, I realized that my dad might've been a corrupt minister... I had to take all of his lessons with a pinch of salt, haha!
+:::'''Guinaifen:''' I ran from my planet and escaped to an IPC mining planet. My siblings and I lived there for many years, but there's not much to say about it.
+:::'''Guinaifen:''' Then finally I came to the Xianzhou and became Little Gui, the street performer you see today~
+:::'''Guinaifen:''' The fortune-teller told me that there is wind in my blood, that I am destined to a life of wandering... But I think this is a good thing! We short-life species only have a limited time and the cosmos is so vast! It would be a shame not to explore it properly~
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's catch up another time~
+:::<!--Custom String Listener: TalkSentence_502100219-->
+:::'''Guinaifen:''' Yeah, another time~ Remember to come back and see me in Aurum Alley whenever! If you don't get time, just send me a tip on my live stream, hehe~
+:::<!--Ends the current performance-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Let's catch up another time~
+::'''Guinaifen:''' Yeah, another time~ Remember to come back and see me in Aurum Alley whenever! If you don't get time, just send me a tip on my live stream, hehe~
+::<!--Ends the current performance-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has not been completed)
+:{{DIcon}} Let's chat!
+::<!--Trigger PerformanceE 502100102: Config/Level/NPCDialogue/P10202/F10202004_G290/Act502100102.json-->
+::'''Guinaifen:''' Sure, okay! What do you want to talk about?
+::<!--Custom String Trigger: Wait_Option_502100102_22-->
+::<!--Custom String Listener: Wait_Option_502100102_22-->
+::{{DIcon|Talk}} How long have you been on the Xianzhou for?
+:::<!--Custom String Listener: TalkSentence_502100108-->
+:::'''Guinaifen:''' Let me think... A few years? Xianzhou people have no sense of time, they all talk about decades and centuries and it's got me all confused.
+:::'''Guinaifen:''' Either way, under a decade! Haha! Although I feel like I've lived here for ages already, since most of the memories I want to hold onto were made here.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you still playing Aetherium Wars?
+:::<!--Custom String Listener: TalkSentence_502100111-->
+:::'''Guinaifen:''' Of course I am! So long as I'm living, I'm playing! Although, I've started streaming lately you know... I've got more and more things to do both online and offline.
+:::'''Guinaifen:''' I don't think I'll be able to be as battle-obsessed as I was before... But! Being a retired player isn't bad~ I am no longer in the game, but people still tell legends of when I was~
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's catch up another time.
+:::<!--Custom String Listener: TalkSentence_502100114-->
+:::'''Guinaifen:''' Okay fam! I'll let you know straight away next time there's an acrobatics performance~
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502100102-->
+;(If {{Mission|Foxian Dream|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} Let's catch up another time.
+::<!--Trigger PerformanceE 502100103: Config/Level/NPCDialogue/P10202/F10202004_G290/Act502100103.json-->
+::'''Guinaifen:''' Okay fam! I'll let you know straight away next time there's an acrobatics performance~
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502100103-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Guinaifen
+|zhs  = 桂乃芬
+|zht  = 桂乃芬
+|ja   = 桂乃芬
+|ko   = 계네빈
+|es   = Guinaifen
+|fr   = Guinaifen
+|ru   = Гуйнайфэнь
+|th   = Guinaifen
+|vi   = Guinaifen
+|de   = Guinaifen
+|id   = Guinaifen
+|pt   = Guinaifen
+}}
+==Change History==
+{{Change History|TODO}}

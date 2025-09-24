@@ -1,0 +1,130 @@
+<%-- [PAGE_INFO]
+PageTitle=#Salty Rimeplume#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Salty Rimeplume.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Salty Rimeplume''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_58_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000150: Config/Level/Mission/5000030/Act/Act900000150.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500015102
+	]
+}</pre>
+::'''Salty Rimeplume:''' Ruan Mei... *sigh*
+::'''Salty Rimeplume:''' *sigh* Ruan Mei...
+::{{DIcon|Arrow}} Aren't you supposed to call her "Miss Ruan Mei"?
+:::<!--Custom String Listener: TalkSentence_500015005-->
+:::'''Salty Rimeplume:''' Miss Ruan Mei... *sigh*
+:::'''Salty Rimeplume:''' *sigh* Miss Ruan Mei...
+::{{DIcon|Arrow}} Don't just keep sighing at such a young age.
+:::<!--Custom String Listener: TalkSentence_500015008-->
+:::It looks up and glares at you. Seeing your indifference, it lowers its head and pretends nothing has happened.
+:::'''Salty Rimeplume:''' ...Stop pretending to be mature when you're young yourself.
+::<!--Custom String Trigger: TalkSentence_500015010-->
+::<!--Custom String Listener: TalkSentence_500015010-->
+::'''Salty Rimeplume:''' Ashy said I was an outdated snack... Do you find me disgusting? Why are you still here? You're blocking my light. *sigh*
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000151: Config/Level/Mission/5000030/Act/Act900000151.json-->
+::'''Salty Rimeplume:''' Ruan Mei... *sigh*
+::'''Salty Rimeplume:''' Huh? It's you again. Just tell me what brings you here.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to ask you something...
+::<!--Custom String Trigger: TalkSentence_500015203-->
+::<!--Custom String Listener: TalkSentence_500015203-->
+::'''Salty Rimeplume:''' You can ask... although I'm not in the mood. I can't promise I'll answer all your questions.
+::<!--Custom String Trigger: Wait_Option_900000152_294-->
+::<!--Custom String Listener: Wait_Option_900000152_294-->
+::{{DIcon|Talk}} Can't you pull yourself together?
+:::<!--Custom String Listener: TalkSentence_500015205-->
+:::'''Salty Rimeplume:''' I can't. My heart has been pickled with salt &mdash; it's sour and salty. Can you feel it?
+:::'''Salty Rimeplume:''' My creator, whom I love deeply, has abandoned me because I taste like tears from the inside out. Even she doesn't love me anymore... How am I supposed to pull myself together?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Salty Rimeplume is quite an acquired taste...
+:::<!--Custom String Listener: TalkSentence_500015208-->
+:::'''Salty Rimeplume:''' Right? Gray Bean Paste's not wrong to say that I'm an outdated snack. That's why Miss Ruan Mei dislikes me from the bottom of her heart and never comes back to visit me.
+:::'''Salty Rimeplume:''' My flavor &mdash; a mixture of salty, sweet, sour, and bitter &mdash; doesn't deserve to be loved. *sigh*
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I actually find you quite adorable.
+:::<!--Custom String Listener: TalkSentence_500015211-->
+:::'''Salty Rimeplume:''' Huh? I'm going to think you mean it if you keep saying that...
+:::'''Salty Rimeplume:''' Forget it... You don't have to say that to make me feel better. I know myself well. No one... No one's going to like such an outdated snack like me...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500015214-->
+:::'''Salty Rimeplume:''' I knew it, nobody would want to chat with me.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Well, I'm struggling to keep this conversation going.
+::'''Salty Rimeplume:''' See? Even you don't like me.
+::'''Salty Rimeplume:''' Forget it. I should have known better. As an outdated snack, I shouldn't have harbored any more hopes of being liked.
+::'''Salty Rimeplume:''' It's time to give up. I &mdash; or more precisely &mdash; we, the created beings, are all outdated. We don't have a future.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

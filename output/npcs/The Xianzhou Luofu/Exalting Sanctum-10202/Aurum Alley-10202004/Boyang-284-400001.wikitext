@@ -1,0 +1,131 @@
+<%-- [PAGE_INFO]
+PageTitle=#Boyang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Owner of Elegance Pagoda
+|image           = NPC Boyang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Boyang''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_284_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502070101: Config/Level/NPCDialogue/P10202/NPCAct/Act502070101.json-->
+::'''Boyang:''' Welcome to my Elegance Pagoda, dear customer! All the fandangles here are carefully prepared by myself.
+::'''Boyang:''' Please feel free to take a look if anything catches your attention. Just, please don't touch them.
+::{{DIcon|Arrow}} What's that supposed to mean, huh?
+:::<!--Custom String Listener: TalkSentence_502070105-->
+:::'''Boyang:''' I apologize if my words caused a misunderstanding. That's not what I meant.
+::{{DIcon|Arrow}} These fandangles must be incredibly expensive, I guess?
+:::<!--Custom String Listener: TalkSentence_502070107-->
+:::'''Boyang:''' No, that is hardly the case. These curios are carefully prepared for those who are "destined" to become their new masters.
+::{{DIcon|Arrow}} Your rules are really weird...
+:::<!--Custom String Listener: TalkSentence_502070109-->
+:::'''Boyang:''' I apologize for the inconvenience, but these rules have been in place in our circle for decades, as reserving fandangles is always a painstaking endeavor.
+::<!--Custom String Trigger: TalkSentence_502070110-->
+::<!--Custom String Listener: TalkSentence_502070110-->
+::'''Boyang:''' For example, some of them must be kept at constant temperature and humidity, and different fandangles have different requirements for storage conditions. That's why I have to prohibit my clients from touching what we have worked so hard to preserve.
+::'''Boyang:''' If you so happen to be destined for one, I'll place it in a bright place and bring a magnifying glass and gloves to you. Then you can admire it to your heart's content.
+::'''Boyang:''' Has anything piqued your interest?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502070301: Config/Level/NPCDialogue/P10202/NPCAct/Act502070301.json-->
+::'''Boyang:''' Oh, it's you again? Welcome to Elegance Pagoda.
+::'''Boyang:''' Feel free to take a look at everything here. Just please don't touch anything.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502070401: Config/Level/NPCDialogue/P10202/NPCAct/Act502070401.json-->
+::'''Boyang:''' I don't really care about the business. Still, the Aurum Alley has become busier and busier because of you, and this has helped me tremendously in expanding my connections.
+::'''Boyang:''' The downside is, there are customers who don't follow the rules here, and I don't even know where they come from... When I ask them to leave, they become upset and start complaining. I'm tired of things like that.
+::'''Boyang:''' Overall, things are positive. The Outworld customers that I've befriended lately are all decent and well-mannered.
+::'''Boyang:''' They said they decided to come here after listening to the revival story of the Aurum Alley. I've made some nice friends because of you, and I really appreciate that.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502070401-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502070201: Config/Level/NPCDialogue/P10202/NPCAct/Act502070201.json-->
+::<!--Custom String Trigger: Wait_Option_502070201_164-->
+::<!--Custom String Listener: Wait_Option_502070201_164-->
+::{{DIcon|Talk}} What's so special about these fandangles?
+:::<!--Custom String Listener: TalkSentence_502070203-->
+:::'''Boyang:''' It's not that I'm bragging, but my family has been in this business for generations. The experience we have passed down for many centuries has allowed me to find the best of the best.
+:::'''Boyang:''' Some fandangles may have flaws in details, but they are genuine products handcrafted by revered artisans and are unique in this Cosmos.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You've set so many rules for your store...
+:::<!--Custom String Listener: TalkSentence_502070206-->
+:::'''Boyang:''' I apologize for the inconvenience, but reserving fandangles is always a painstaking endeavor, and some of them may need to be reserved here for decades before they are finally finished by artisans and delivered to customers.
+:::'''Boyang:''' How am I supposed to deliver these priceless treasures if I don't take good care of them?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You seem to pay particular attention to "destiny."
+:::<!--Custom String Listener: TalkSentence_502070209-->
+:::'''Boyang:''' All the fandangles here were carefully selected and arranged by myself. So naturally, I hope they will find their destined owners.
+:::'''Boyang:''' If I happen to meet a customer who knows how to appreciate fandangles, or who is destined to become the new owner of my fandangles, it'll be a pleasure to do business or just exchange a few words with them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502070212-->
+:::'''Boyang:''' Sure, feel free to come to me if anything catches your eye. It's not often to meet another curio lover these days.
+:::'''Boyang:''' Feel free to look around here. Don't worry, I'm not in a haste to sell my fandangles.
+:::'''Boyang:''' I opened this store mainly to make friends with fandangle lovers. If you find something you really like, I can give you the best price.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502070201-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I don't have any more questions.
+::'''Boyang:''' Sure, feel free to come to me if anything catches your eye. It's not often to meet another curio lover these days.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Boyang
+|zhs  = 泊阳
+|zht  = 泊陽
+|ja   = 泊陽
+|ko   = 백양
+|es   = Boyang
+|fr   = Boyang
+|ru   = Бо Ян
+|th   = Boyang
+|vi   = Boyang
+|de   = Boyang
+|id   = Boyang
+|pt   = Boyang
+}}
+==Change History==
+{{Change History|TODO}}

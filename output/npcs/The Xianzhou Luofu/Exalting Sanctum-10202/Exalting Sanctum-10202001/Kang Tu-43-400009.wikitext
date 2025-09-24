@@ -1,0 +1,169 @@
+<%-- [PAGE_INFO]
+PageTitle=#Kang Tu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = NutriTreasures' Master
+|image           = NPC Kang Tu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Kang Tu''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400009}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502024101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502024101.json-->
+::'''Kang Tu:''' ...Tsk, just seeing you makes my head ache.
+::{{DIcon|Arrow}} What's that supposed to mean?
+::{{DIcon|Arrow}} I'm the one who's having a headache.
+::<!--Custom String Listener: TalkSentence_502024104-->
+::'''Kang Tu:''' Sorry, don't blame me for being so blunt. I'm a healer and your symptoms are clear as day. My initial diagnosis is that your time is quickly running out.
+::'''Kang Tu:''' This isn't the hubris of yet another long-life species, but even by short-life species standards, you've already got one foot in the grave.
+::{{DIcon|Arrow}} C'mon, don't freak me out like that!
+:::<!--Custom String Listener: TalkSentence_502024107-->
+:::'''Kang Tu:''' I didn't want to scare you. I'm just trying to give you a warning. There's an old adage around here, "Good medicine tastes bitter." I hope you take what I said to heart.
+::{{DIcon|Arrow}} Is it really that serious?
+:::<!--Custom String Listener: TalkSentence_502024109-->
+:::'''Kang Tu:''' It really is that serious! You should trust me.
+::<!--Custom String Trigger: TalkSentence_502024110-->
+::<!--Custom String Listener: TalkSentence_502024110-->
+::'''Kang Tu:''' However, I've also got some good news to tell you &mdash; you're lucky to have met me, because it's not too late! You can still have a long life: One hundred, two hundred &mdash; even a thousand years! There is hope for you!
+::'''Kang Tu:''' You just have to make a purchase of longevity supplements from NutriTreasures, and you can live forever just like us Xianzhou people... Everyone who uses this loves it. What do you say? Want to learn more?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502024102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502024102.json-->
+::'''Kang Tu:''' Have you come around yet? NutriTreasures' longevity supplements are highly rated by people who've used them. Why don't I tell you the more detailed benefits about our products?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Do you have any cure-all medicine here?
+:{{DIcon}} ...That's suspicious. I'm just asking.
+::<!--Trigger PerformanceE 502024103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502024103.json-->
+::'''Kang Tu:''' I don't have any NutriTreasures products on me right now... But you can ask anything you want. Famous products like the amnesic meditation therapy device are so reliable that you can buy them with your eyes closed.
+::<!--Custom String Trigger: Wait_Option_502024101_28-->
+::<!--Custom String Listener: Wait_Option_502024101_28-->
+::{{DIcon|Talk}} What's an amnesic meditation therapy device?
+:::<!--Custom String Listener: TalkSentence_502024115-->
+:::'''Kang Tu:''' You must have heard about how the Xianzhou people suffer from the curse of mara. But very few people know that there's actually a cure for it! The Ten-Lords Commission will never admit it, so it's up to people like me to spread the word.
+:::'''Kang Tu:''' The root cause behind mara-struck is the excessive collection of meaningless memories. Hatred, hurt, and irascibility are all unnecessary memories and emotions and are the main culprit of becoming mara-struck!
+:::'''Kang Tu:''' With this amnesic meditation therapy device, you can forget all of those excess negative emotions and liberate your soul from all of these burdens. You, too, can achieve the goal of living out a long life.
+:::{{DIcon|Arrow}} But I don't have any symptoms of being mara-struck.
+::::<!--Custom String Listener: TalkSentence_502024119-->
+::::'''Kang Tu:''' You may not be mara-struck but everyday worries definitely plague you! Our products are designed for use throughout the whole cosmos, and anyone can use them.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Sounds pretty unreliable.
+::::<!--Custom String Listener: TalkSentence_502024121-->
+::::'''Kang Tu:''' That's on me. If only I'd brought it with me, you'd be able to experience for yourself the electric current stripping away all the negative emotions from your soul. You wouldn't need this clumsy explanation of mine at all.
+::::'''Kang Tu:''' Nine out of ten people have become paying customers, and the tenth is definitely thinking about becoming my down line. There's absolutely nothing to worry about.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you sure there's no tricks involved here at all?
+:::<!--Custom String Listener: TalkSentence_502024124-->
+:::'''Kang Tu:''' Please don't say that. We never engage in sham advertising. We hired Testing Officers to conduct rigorous product testing before we launch anything.
+:::'''Kang Tu:''' Two hundred years after testing our product, they're still going strong and in great spirits. Don't delay! Aren't you Outworlders all coming to the Xianzhou Luofu with the express purpose of extending your life?
+:::{{DIcon|Arrow}} Are your Testing Officers all long-life species?
+::::<!--Custom String Listener: TalkSentence_502024127-->
+::::'''Kang Tu:''' ...Do you enjoy calling people out?
+::::'''Kang Tu:''' What if they are? Only long-life species can really understand longevity. After using the product, our Testing Officers have all claimed to feel like they "could live two hundred extra years." That's real qualitative data, and if you don't believe it &mdash; just go ask them!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I didn't come here to extend my lifespan.
+::::<!--Custom String Listener: TalkSentence_502024130-->
+::::'''Kang Tu:''' You're a stubborn one, aren't you? How can any short-life species not want to live long?
+::::'''Kang Tu:''' Once you live to a certain age, you'll find that your limbs aren't as nimble as before, and your memory gets foggy. Then, you'll think back to today &mdash; how such a great opportunity fell right into your lap, but you played it cool instead and ignored your health.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Forget about it. Maybe next time.
+:::<!--Custom String Listener: TalkSentence_502024133-->
+:::'''Kang Tu:''' Alright, you get back to your business then. I'll be here should you ever need me to help you place an order.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502024103-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502024201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502024201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502024201.json-->
+::{{DIcon|Arrow}} Did you notice the Ambrosial Arbor was growing once again?
+::<!--Custom String Listener: TalkSentence_502024202-->
+::'''Kang Tu:''' Yep, I saw it. Speaking of which... Would you like a jar of "Ambrosial Arbor Ointment"?
+::'''Kang Tu:''' The Xianzhou people's health has rapidly deteriorated since the regrowth of the Arbor, so I had to bend the race laws a little bit so I could start hawking my Ambrosial Arbor Ointment.
+::'''Kang Tu:''' Pre-order now for just 300 strales. You don't want to miss out!
+::{{DIcon|Arrow}} You don't have any at the moment?
+:::<!--Custom String Listener: TalkSentence_502024206-->
+:::'''Kang Tu:''' If I don't, does that mean you don't want it? There're plenty of people queuing up for it.
+:::'''Kang Tu:''' Just let it go if you don't want it.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+::{{DIcon|Arrow}} I'll pass.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502024201-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502024201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor stops growing without any reason...
+::<!--Trigger PerformanceE 502024104: Config/Level/NPCDialogue/P10202/NPCAct/Act502024104.json-->
+::'''Kang Tu:''' What do you mean? I'll say, it's the lack of water that causes the Ambrosial Arbor to stop growing.
+::'''Kang Tu:''' The Xianzhou residents' health awareness is still lacking. The Ambrosial Arbor now is a good reminder for all of us to drink enough water.
+::'''Kang Tu:''' I know a Vidyadhara healer who used to be a Preceptor with outstanding medical skills. He once told me that we needed to drink 800 glasses of water daily, so we could never supply ourselves with enough water just by drinking. The Vidyadhara has a secret for this...
+::'''Kang Tu:''' Still, it was a secret of the Vidyadhara. It was after some persuasive reasoning, did I finally convince the master to share the formula with me, which I followed and developed the Hundredfold Compressed Water to benefit the people on the Xianzhou.
+::'''Kang Tu:''' With just eight bottles a day, you can meet your daily hydration needs. It's only a nominal cost of 500 strales. You don't want to miss out!
+::{{DIcon|Arrow}} You don't have any at the moment?
+:::<!--Custom String Listener: TalkSentence_502024308-->
+:::'''Kang Tu:''' If I don't, does that mean you don't want it? There're plenty of people who do.
+:::'''Kang Tu:''' It's fine if you don't want it.
+::{{DIcon|Arrow}} I'll pass.
+:::<!--Custom String Listener: TalkSentence_502024311-->
+:::'''Kang Tu:''' Just go if you don't want it. Don't come back and beg me for it later.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502024104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502024201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} Forget about it. Maybe next time.
+::'''Kang Tu:''' Alright, you get back to your business then. I'll be here should you ever need me to help you place an order.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Kang Tu
+|zhs  = 康图
+|zht  = 康圖
+|ja   = 康図
+|ko   = 강두
+|es   = Kang Tu
+|fr   = Kang&nbsp;Tu
+|ru   = Кан Ту
+|th   = Kang Tu
+|vi   = Kang Tu
+|de   = Kang Tu
+|id   = Kang Tu
+|pt   = Kang Tu
+}}
+==Change History==
+{{Change History|TODO}}

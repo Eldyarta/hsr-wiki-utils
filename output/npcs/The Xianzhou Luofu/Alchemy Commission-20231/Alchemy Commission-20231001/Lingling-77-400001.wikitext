@@ -1,0 +1,151 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lingling#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Vidyadhara Merchant
+|image           = NPC Lingling.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Lingling''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_77_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502047101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502047101.json-->
+::'''Lingling:''' Normal resumption of hatching rebirth assistance services! "Dispose of all your troubles, leave old grudges in the dust."
+::'''Lingling:''' Hello there, dear customer. You don't look like a Vidyadhara, so I'm guessing you don't require any hatching rebirth assistance?
+::'''Lingling:''' Could it be that you came to the Alchemy Commission to buy some medicine? I've got some genuine Scalegorge Waterscape medicine with me. What do you need? Draconic Tears, or perhaps Tian Dong? Dragon scale coral, or cyan poria maybe?
+::<!--Custom String Trigger: Wait_Option_502047101_145-->
+::<!--Custom String Listener: Wait_Option_502047101_145-->
+::{{DIcon|Talk}} What exactly do you do?
+:::<!--Custom String Listener: TalkSentence_502047106-->
+:::'''Lingling:''' Never seen someone work part-time jobs before?
+:::'''Lingling:''' I'm the manager assigned to the Alchemy Commission delve to provide hatching rebirth assistance for the Vidyadhara. Whenever one of our race volunteers to undergo hatching rebirth, they can report to the Preceptors before coming to someone like me on the floating isles, then get ready to submerge into the waters for hatching rebirth.
+:::'''Lingling:''' It's a steady job, but it doesn't pay much. So I also sling a little medicine on the side. You know how it is. The Alchemy Commission will usually have merchants visiting who are keen on purchasing medicines.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} What's that slogan you just said?
+:::<!--Custom String Listener: TalkSentence_502047110-->
+:::'''Lingling:''' You mean "Dispose of all your troubles, leave old grudges in the dust"?
+:::'''Lingling:''' I just made that up myself. But our Vidyadhara tradition involves casting off everything from their previous lives. It's hardly a surprise that those submerging here may be carrying a few things with them that are difficult to let go of.
+:::'''Lingling:''' I let them stow items with me while the rebirth happens.
+:::'''Lingling:''' I don't think you're here to buy any medicine. I wonder if you're interested in some of the stuff left behind by these hatching rebirth Vidyadhara? I'll cut you a deal! Just one low storage fee.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} How can you sell the stuff if they're just asking you to hold onto it?
+:::<!--Custom String Listener: TalkSentence_502047115-->
+:::'''Lingling:''' Ah, so you don't know about the Vidyadhara way. We give away all of our worldly possessions before being reborn. Anything left over is requisitioned by the state.
+:::'''Lingling:''' Even though it's all stuff people "struggle to let go of," it's really all just small sentimental trinkets: Engraved love pendants, letters from old friends, or even works they've personally created...
+:::'''Lingling:''' *Sigh* But what was once of utmost importance becomes of zero relevance when this ancient sea cleanses away all memory and hatches new life. Without exception, no Vidyadhara has ever returned post-resurrection to ask for any of these relics back.
+:::'''Lingling:''' So really they're just out-of-fashion goods consigned to the bottom of the heap. I have no choice but to sell them off regularly.
+:::'''Lingling:''' The "value" of these personal items is conferred by life experiences... So you don't really have to give it much thought. Just pick out anything you like.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Okay, let me have a look.
+:::<!--Custom String Listener: TalkSentence_502047121-->
+:::'''Lingling:''' Alright! I love customers who are open to new things.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502047201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502047201.json-->
+::'''Lingling:''' You're back. We've had some hatching rebirth customers leave behind a few more items recently. Please have a good look.
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Let me see what you have.
+:{{DIcon|Talk}} Can we chat for a bit?
+::<!--Trigger PerformanceE 502047102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502047102.json-->
+::'''Lingling:''' Okay, we can keep chatting on if you wish. However, if another customer comes along, I'll have to attend to them.
+::<!--Custom String Trigger: Wait_Option_502047102_174-->
+::<!--Custom String Listener: Wait_Option_502047102_174-->
+::{{DIcon|Talk}} What do people leave behind when they undergo hatching rebirth?
+:::<!--Custom String Listener: TalkSentence_502047128-->
+:::'''Lingling:''' Most things people are unwilling to part ways with are connected to experiences from their life. It's really all just small sentimental trinkets: Engraved love pendants, letters from old friends, or even works they've personally created...
+:::'''Lingling:''' Some people even leave a letter behind for their future self, wishing them all the best and imploring them not to commit the same mistakes they did. The intention is good, but as for its usefulness... It is practically useless.
+:::'''Lingling:''' After rebirth, "you" are not the same "you" as before. Who cares about how your previous life was lived, or what suggestions might get passed on? You're better off bequeathing a valuable pendant or whatever for the future benefit of your fellows!
+:::{{DIcon|Arrow}} You really do have a cunning scheme.
+::::<!--Custom String Listener: TalkSentence_502047132-->
+::::'''Lingling:''' Please don't say that, my dear customer. I only accept things that people don't want.
+::::<!--Custom String Trigger: TalkSentence_502047135-->
+::::<!--Custom String Listener: TalkSentence_502047135-->
+::::'''Lingling:''' On second thought, this is the reality of the sacred Vidyadhara reincarnation cycle. Long granted us eternal life of the flesh, but also blessed us with the opportunity to absolve ourselves from the sins of our previous lives.
+::::'''Lingling:''' Wouldn't it be a tremendous tragedy if someone was eternally stuck with the same thoughts and the same ego?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} So after hatching rebirth you're a new "you"?
+::::<!--Custom String Listener: TalkSentence_502047134-->
+::::'''Lingling:''' Exactly. From what I've seen, most Vidyadhara lack emotions fresh after their rebirth, and are unable to understand the sentiments of their previous selves. Not a single one has ever been able to identify which one of these items used to belong to them.
+::::<!--Custom String Trigger: TalkSentence_502047135-->
+::::<!--Custom String Listener: TalkSentence_502047135-->
+::::'''Lingling:''' On second thought, this is the reality of the sacred Vidyadhara reincarnation cycle. Long granted us eternal life of the flesh, but also blessed us with the opportunity to absolve ourselves from the sins of our previous lives.
+::::'''Lingling:''' Wouldn't it be a tremendous tragedy if someone was eternally stuck with the same thoughts and the same ego?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The medicines of Scalegorge Waterscape sound simply miraculous.
+:::<!--Custom String Listener: TalkSentence_502047138-->
+:::'''Lingling:''' Really? I guess lots of Outworlders usually do find Xianzhou medicine to be rather wonderful.
+:::'''Lingling:''' Take these leaves, fruit, bark, and rhizomes for instance... They're miraculous ingredients, mostly evolved following exposure to the power of the Ambrosial Arbor. And they have even more potent effects once used to make medicines.
+:::'''Lingling:''' I'm no Alchemy Commission healer or anything and barely know the basics. But still, I hear this medicine is really popular beyond Xianzhou. Though I can't vouch for whether that's true or not.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_502047142-->
+:::'''Lingling:''' I warmly invite you to visit again next time.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502047102-->
+:{{DIcon|Exit}} That's all for now.
+::'''Lingling:''' I warmly invite you to visit again next time.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lingling
+|zhs  = 泠泠
+|zht  = 泠泠
+|ja   = 冷
+|ko   = 링링
+|es   = Lingling
+|fr   = Lingling
+|ru   = Линлин
+|th   = Lingling
+|vi   = Lingling
+|de   = Lingling
+|id   = Lingling
+|pt   = Lingling
+}}
+==Change History==
+{{Change History|TODO}}

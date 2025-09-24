@@ -1,0 +1,573 @@
+<%-- [PAGE_INFO]
+PageTitle=#Alexis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Newspaper Seller
+|image           = NPC Alexis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Alexis''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_2_400005}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 4,
+	"TaskID": []
+}</pre>
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_501027405-->
+:<!--Custom String Listener: TalkSentence_501027405-->
+:'''Alexis:''' Sorry, you caught me during work hours, but if you want to buy a newspaper...
+:<!--Custom String Trigger: Wait_Option_5010274_13-->
+:<!--Custom String Listener: Wait_Option_5010274_13-->
+:{{DIcon|Talk}} How's business?
+::<!--Custom String Listener: TalkSentence_501027407-->
+::'''Alexis:''' Business? Hehe. Just enough to keep from starving.
+::'''Alexis:''' Selling these in the streets is hard work... It would be nice if you could contribute a little to my profits. Then, I may be able to afford to eat something different for once!
+::'''Alexis:''' What do you think? You get the news, I get a good meal. It's a win-win! A good deal, right?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Any big news lately?
+::<!--Custom String Listener: TalkSentence_501027411-->
+::'''Alexis:''' Hmm, that's a good question! Let me see...
+::'''Alexis:''' How about this one &mdash; What did the man in black tell Mr. Bova, the minister, that made him leave the party in a hurry?
+::<!--Custom String Trigger: Wait_Option_5010274_21-->
+::<!--Custom String Listener: Wait_Option_5010274_21-->
+::{{DIcon|Arrow}} What happened?
+::<!--Custom String Listener: TalkSentence_501027414-->
+::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+::<!--Custom String Trigger: Wait_Option_5010274_25-->
+::<!--Custom String Listener: Wait_Option_5010274_25-->
+::{{DIcon|Arrow}} How?
+::<!--Custom String Listener: TalkSentence_501027416-->
+::'''Alexis:''' You want to know?
+::<!--Custom String Trigger: Wait_Option_5010274_29-->
+::<!--Custom String Listener: Wait_Option_5010274_29-->
+::{{DIcon|Arrow}} Of course!
+:::<!--Custom String Listener: TalkSentence_501027418-->
+:::'''Alexis:''' I have a great idea to help with your urgent needs!
+:::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+:::<!--Custom String Trigger: Wait_Option_5010274_37-->
+:::<!--Custom String Listener: Wait_Option_5010274_37-->
+:::{{DIcon|Arrow}} Are you for real?
+:::<!--Custom String Listener: TalkSentence_501027424-->
+:::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are you messing with me?
+:::<!--Custom String Listener: TalkSentence_501027421-->
+:::'''Alexis:''' Huh? No!
+:::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+:::<!--Custom String Trigger: Wait_Option_5010274_37-->
+:::<!--Custom String Listener: Wait_Option_5010274_37-->
+:::{{DIcon|Arrow}} Are you for real?
+:::<!--Custom String Listener: TalkSentence_501027424-->
+:::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll leave you to your work.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100006005,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Alexis:''' Recently? I've been living large. Haha... You've heard, right? Belobog is about to go through some big changes!
+:{{DIcon|Arrow}} Of course, I've heard.
+::<!--Custom String Listener: TalkSentence_501024185-->
+::'''Alexis:''' Haha, you're really up with the play!
+::'''Alexis:''' On the down-low... I heard from my contacts at the newspapers that when the old Supreme Guardian had her accident, the only one at the scene was Lady Bronya... doesn't that seem suspicious?
+:{{DIcon|Arrow}} Wow, are you serious?
+::<!--Custom String Listener: TalkSentence_501024187-->
+::'''Alexis:''' Would I lie to you? Look, I sell newspapers for a living, and I'm the first to hear the news every day &mdash; all first-hand, every word of it is true!
+::'''Alexis:''' On the down-low... I heard from my contacts at the newspapers that when the old Supreme Guardian had her accident, the only one at the scene was Lady Bronya... doesn't that seem suspicious?
+:{{DIcon|Arrow}} To tell you the truth, I saw with my own eyes that the Supreme Guardian...
+::<!--Custom String Listener: TalkSentence_501027437-->
+::'''Alexis:''' Huh, then you have to tell me about it... What happened to the Supreme Guardian?
+::'''Alexis:''' Haha, just kidding! Don't make fun of me. On the down-low... I had it confirmed from my contacts at the newspapers that when the old Supreme Guardian had her accident, the only one at the scene was Lady Bronya...
+:<!--Custom String Trigger: TalkSentence_501024189-->
+:<!--Custom String Listener: TalkSentence_501024189-->
+:'''Alexis:''' ...Ahem, well no matter what, Belobog is in the teeth of a storm now &mdash; and in this line of business, you've got to take ya chances! You know what they say: "An opportunity lost is an opportunity wasted"... right?
+:<!--Ends the current performance-->
+:'''Alexis:''' News! We got the news! Don't miss it!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501027401: Config/Level/Mission/5010274/Act/Act501027401.json-->
+::<!--Custom String Trigger: TalkSentence_501027401-->
+::<!--Custom String Listener: TalkSentence_501027401-->
+::'''Alexis:''' We got the news! Today's paper! Hot off the press!
+::'''Alexis:''' Hah! A new face! Interested in a newspaper?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000035: Config/Level/NPC/W1/NPC_DefaultStory_100006001.json-->
+::'''Alexis:''' News! We got the news! Don't miss it!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Yes, please.
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 4,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} Let's have a chat...
+::<!--Custom String Trigger: TalkSentence_501027405-->
+::<!--Custom String Listener: TalkSentence_501027405-->
+::'''Alexis:''' Sorry, you caught me during work hours, but if you want to buy a newspaper...
+::<!--Custom String Trigger: Wait_Option_5010274_13-->
+::<!--Custom String Listener: Wait_Option_5010274_13-->
+::{{DIcon|Talk}} How's business?
+:::<!--Custom String Listener: TalkSentence_501027407-->
+:::'''Alexis:''' Business? Hehe. Just enough to keep from starving.
+:::'''Alexis:''' Selling these in the streets is hard work... It would be nice if you could contribute a little to my profits. Then, I may be able to afford to eat something different for once!
+:::'''Alexis:''' What do you think? You get the news, I get a good meal. It's a win-win! A good deal, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any big news lately?
+:::<!--Custom String Listener: TalkSentence_501027411-->
+:::'''Alexis:''' Hmm, that's a good question! Let me see...
+:::'''Alexis:''' How about this one &mdash; What did the man in black tell Mr. Bova, the minister, that made him leave the party in a hurry?
+:::<!--Custom String Trigger: Wait_Option_5010274_21-->
+:::<!--Custom String Listener: Wait_Option_5010274_21-->
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll leave you to your work.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Alexis:''' Recently? I've been living large. Haha... You've heard, right? Belobog is about to go through some big changes!
+::{{DIcon|Arrow}} Of course, I've heard.
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Alexis:''' Haha, you're really up with the play!
+:::'''Alexis:''' On the down-low... I heard from my contacts at the newspapers that when the old Supreme Guardian had her accident, the only one at the scene was Lady Bronya... doesn't that seem suspicious?
+::{{DIcon|Arrow}} Wow, are you serious?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Alexis:''' Would I lie to you? Look, I sell newspapers for a living, and I'm the first to hear the news every day &mdash; all first-hand, every word of it is true!
+:::'''Alexis:''' On the down-low... I heard from my contacts at the newspapers that when the old Supreme Guardian had her accident, the only one at the scene was Lady Bronya... doesn't that seem suspicious?
+::{{DIcon|Arrow}} To tell you the truth, I saw with my own eyes that the Supreme Guardian...
+:::<!--Custom String Listener: TalkSentence_501027437-->
+:::'''Alexis:''' Huh, then you have to tell me about it... What happened to the Supreme Guardian?
+:::'''Alexis:''' Haha, just kidding! Don't make fun of me. On the down-low... I had it confirmed from my contacts at the newspapers that when the old Supreme Guardian had her accident, the only one at the scene was Lady Bronya...
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Alexis:''' ...Ahem, well no matter what, Belobog is in the teeth of a storm now &mdash; and in this line of business, you've got to take ya chances! You know what they say: "An opportunity lost is an opportunity wasted"... right?
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} I'll leave you to your work.
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010274_8)
+:<!--Custom String Listener: Wait_Option_5010274_8-->
+::{{DIcon|Arrow}} Yes, please.
+::{{DIcon|Arrow}} Let's have a chat...
+::<!--Custom String Listener: TalkSentence_501027405-->
+::<!--Custom String Listener: TalkSentence_501027405-->
+::'''Alexis:''' Sorry, you caught me during work hours, but if you want to buy a newspaper...
+::<!--Custom String Trigger: Wait_Option_5010274_13-->
+::<!--Custom String Listener: Wait_Option_5010274_13-->
+::<!--Custom String Listener: Wait_Option_5010274_13-->
+::{{DIcon|Talk}} How's business?
+:::<!--Custom String Listener: TalkSentence_501027407-->
+:::<!--Custom String Listener: TalkSentence_501027407-->
+:::'''Alexis:''' Business? Hehe. Just enough to keep from starving.
+:::'''Alexis:''' Selling these in the streets is hard work... It would be nice if you could contribute a little to my profits. Then, I may be able to afford to eat something different for once!
+:::'''Alexis:''' What do you think? You get the news, I get a good meal. It's a win-win! A good deal, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any big news lately?
+:::<!--Custom String Listener: TalkSentence_501027411-->
+:::<!--Custom String Listener: TalkSentence_501027411-->
+:::'''Alexis:''' Hmm, that's a good question! Let me see...
+:::'''Alexis:''' How about this one &mdash; What did the man in black tell Mr. Bova, the minister, that made him leave the party in a hurry?
+:::<!--Custom String Trigger: Wait_Option_5010274_21-->
+:::<!--Custom String Listener: Wait_Option_5010274_21-->
+:::<!--Custom String Listener: Wait_Option_5010274_21-->
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Alexis:''' Hmm, that's a good question! Let me see...
+:::'''Alexis:''' How about this one &mdash; What did the man in black tell Mr. Bova, the minister, that made him leave the party in a hurry?
+:::<!--Custom String Trigger: Wait_Option_5010274_21-->
+:::<!--Custom String Listener: Wait_Option_5010274_21-->
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll leave you to your work.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} How's business?
+:::<!--Custom String Listener: TalkSentence_501027407-->
+:::'''Alexis:''' Business? Hehe. Just enough to keep from starving.
+:::'''Alexis:''' Selling these in the streets is hard work... It would be nice if you could contribute a little to my profits. Then, I may be able to afford to eat something different for once!
+:::'''Alexis:''' What do you think? You get the news, I get a good meal. It's a win-win! A good deal, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any big news lately?
+:::<!--Custom String Listener: TalkSentence_501027411-->
+:::'''Alexis:''' Hmm, that's a good question! Let me see...
+:::'''Alexis:''' How about this one &mdash; What did the man in black tell Mr. Bova, the minister, that made him leave the party in a hurry?
+:::<!--Custom String Trigger: Wait_Option_5010274_21-->
+:::<!--Custom String Listener: Wait_Option_5010274_21-->
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll leave you to your work.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::'''Alexis:''' Sorry, you caught me during work hours, but if you want to buy a newspaper...
+::<!--Custom String Trigger: Wait_Option_5010274_13-->
+::<!--Custom String Listener: Wait_Option_5010274_13-->
+::{{DIcon|Talk}} How's business?
+:::<!--Custom String Listener: TalkSentence_501027407-->
+:::'''Alexis:''' Business? Hehe. Just enough to keep from starving.
+:::'''Alexis:''' Selling these in the streets is hard work... It would be nice if you could contribute a little to my profits. Then, I may be able to afford to eat something different for once!
+:::'''Alexis:''' What do you think? You get the news, I get a good meal. It's a win-win! A good deal, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any big news lately?
+:::<!--Custom String Listener: TalkSentence_501027411-->
+:::'''Alexis:''' Hmm, that's a good question! Let me see...
+:::'''Alexis:''' How about this one &mdash; What did the man in black tell Mr. Bova, the minister, that made him leave the party in a hurry?
+:::<!--Custom String Trigger: Wait_Option_5010274_21-->
+:::<!--Custom String Listener: Wait_Option_5010274_21-->
+:::{{DIcon|Arrow}} What happened?
+:::<!--Custom String Listener: TalkSentence_501027414-->
+:::'''Alexis:''' Hold on! Check out this one &mdash; Six out of seven people fainted while eating hot pot. No harmful substances were found in the hot pot. How did this perfect crime happen?
+:::<!--Custom String Trigger: Wait_Option_5010274_25-->
+:::<!--Custom String Listener: Wait_Option_5010274_25-->
+:::{{DIcon|Arrow}} How?
+:::<!--Custom String Listener: TalkSentence_501027416-->
+:::'''Alexis:''' You want to know?
+:::<!--Custom String Trigger: Wait_Option_5010274_29-->
+:::<!--Custom String Listener: Wait_Option_5010274_29-->
+:::{{DIcon|Arrow}} Of course!
+::::<!--Custom String Listener: TalkSentence_501027418-->
+::::'''Alexis:''' I have a great idea to help with your urgent needs!
+::::'''Alexis:''' Here, the answer is right in this newspaper! It's yours as long as you give me some shield...
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you messing with me?
+::::<!--Custom String Listener: TalkSentence_501027421-->
+::::'''Alexis:''' Huh? No!
+::::'''Alexis:''' I'll tell you the answer, right away, after you give me a few shield!
+::::<!--Custom String Trigger: Wait_Option_5010274_37-->
+::::<!--Custom String Listener: Wait_Option_5010274_37-->
+::::{{DIcon|Arrow}} Are you for real?
+::::<!--Custom String Listener: TalkSentence_501027424-->
+::::'''Alexis:''' Take it easy! Take it easy! It's just how the business works. I'm sure you understand...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll leave you to your work.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Alexis
+|zhs  = 亚历克西斯
+|zht  = 亞歷克西斯
+|ja   = アレクシス
+|ko   = 알렉시스
+|es   = Alexis
+|fr   = Alexis
+|ru   = Алексис
+|th   = Alexis
+|vi   = Alexis
+|de   = Alexis
+|id   = Alexis
+|pt   = Alexis
+}}
+==Change History==
+{{Change History|TODO}}

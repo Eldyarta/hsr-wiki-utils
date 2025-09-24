@@ -1,0 +1,88 @@
+<%-- [PAGE_INFO]
+PageTitle=#Food Stall Owner#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Food Stall Owner.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Food Stall Owner''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_78_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 502124101: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502124101.json-->
+:'''Food Stall Owner:''' Tuskpir wraps! Songlotus cakes! Come get 'em while they're hot!
+:'''Food Stall Owner:''' Greetings. Would you like some cheap but delicious Luofu snacks?
+:{{DIcon|Shop}} What are you selling?
+::<!--Custom String Listener: OpenShop-->
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 78,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 18,
+	"TaskID": []
+}</pre>
+::<!--Custom String Trigger: EndPerformance-->
+:{{DIcon|Exit}} I don't want to buy anything right now.
+:<!--Custom String Listener: EndPerformance-->
+:'''Food Stall Owner:''' Thank you for stopping by. Hope to see you next time!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_0-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Food Stall Owner
+|zhs  = 小吃摊主
+|zht  = 小吃攤主
+|ja   = 屋台の店主
+|ko   = 포장마차 주인
+|es   = Dueña del puesto de comida
+|fr   = Propriétaire de stand de nourriture
+|ru   = Владелец киоска
+|th   = เจ้าของแผงขายอาหาร
+|vi   = Chủ Quầy Ăn Vặt
+|de   = Imbissstand-Besitzerin
+|id   = Pemilik Kedai Makanan
+|pt   = Dona de barraca de comida
+}}
+==Change History==
+{{Change History|TODO}}

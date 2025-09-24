@@ -1,0 +1,876 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fidora#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Amateur Mechanic
+|image           = NPC Fidora.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Fidora''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_3_400009}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404011602,
+		"Type": "submission_state_equal",
+		"Param1": 404011602,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011602: Config/Level/Mission/4040116/Act/Act404011602.json-->
+:'''Fidora:''' Wow, this is just the part I've been looking for! As long as I have this...
+:'''Fidora:''' Um, it's awkward to say, but... Could you possibly let me have that? Please, it really would mean a lot to me!
+:{{DIcon|Arrow}} Take it.
+:{{DIcon|Arrow}} It comes with strings attached...
+::<!--Custom String Listener: TalkSentence_411160109-->
+::'''Fidora:''' ...That makes sense. Name your price, then! I'll do my best to put some money together for you...
+::{{DIcon|Arrow}} Just kidding. It's yours.
+::{{DIcon|Arrow}} We'll see, once you've finished.
+:<!--Custom String Listener: TalkSentence_411160108-->
+:'''Fidora:''' ...Thank you! You're so kind! Then I'll hold onto that for you. This component will definitely come in handy.
+:'''Fidora:''' But if we want to build an emotionally interactive robot, a simple module like this won't be enough...
+:'''Fidora:''' ...That's right, we have to code emotion into it! If you have the time, please come and give me a hand.
+:<!--Custom String Trigger: 404011602_Finish-->
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 404011605,
+		"Type": "submission_state_equal",
+		"Param1": 404011615,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011605: Config/Level/Mission/4040116/Act/Act404011605.json-->
+:'''Fidora:''' Outsider, you're finally here!
+:'''Fidora:''' My robot improved in leaps and bounds after learning how to speak from you.
+:'''Fidora:''' The way it speaks... How to put it? A little enthusiastic, but restrained. Always putting me first whenever we run into any problem... If I were making new friends, this would be the kind of personality I'd want!
+:'''Fidora:''' All in all, its training went perfectly &mdash; thank you so much, (Trailblazer)!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404011604_Finish-->
+<pre>
+[
+	{
+		"ID": 404011606,
+		"Type": "submission_state_equal",
+		"Param1": 404011616,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011606: Config/Level/Mission/4040116/Act/Act404011606.json-->
+:'''Fidora:''' Outsider, you're finally here!
+:'''Fidora:''' My robot improved in leaps and bounds after learning how to speak from you.
+:'''Fidora:''' However, the way it speaks is kind of... awkward, and it loves to argue...
+:'''Fidora:''' It's always saying these cruel jokes at my expense... Once or twice would be okay, but it's just too much...
+:{{DIcon|Arrow}} Isn't that... Fun?
+:{{DIcon|Arrow}} You don't seem very happy about it.
+:<!--Custom String Listener: TalkSentence_411160158-->
+:'''Fidora:''' Perhaps it's just me, but I can't really take it...
+:'''Fidora:''' Ah, its training has paid off in any case &mdash; thank you, (Trailblazer)!
+:<!--Custom String Trigger: 404011606_Finish-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404011604_Finish-->
+<pre>
+[
+	{
+		"ID": 404011607,
+		"Type": "submission_state_equal",
+		"Param1": 404011617,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011607: Config/Level/Mission/4040116/Act/Act404011607.json-->
+:'''Fidora:''' Outsider, you're finally here!
+:'''Fidora:''' My robot didn't seem to make any improvements after learning how to speak from you...
+:'''Fidora:''' It still speaks so bluntly, doesn't know how to adapt at all, and doesn't convey any real sense of social interaction.
+:{{DIcon|Arrow}} Shouldn't... things start out by getting to know each other first?
+::<!--Custom String Listener: TalkSentence_411160164-->
+::'''Fidora:''' Then it has to have the will to do so...
+:{{DIcon|Arrow}} You don't seem very happy about it.
+::<!--Custom String Listener: TalkSentence_411160159-->
+::'''Fidora:''' I was just wondering, did it not learn anything? Was that a mechanical failure? Or maybe it didn't study enough samples...
+:<!--Custom String Trigger: OptionEnd-->
+:<!--Custom String Listener: OptionEnd-->
+:'''Fidora:''' Ah, its training has paid off in any case &mdash; thank you, (Trailblazer)!
+:<!--Custom String Trigger: 404011607_Finish-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404011604_Finish-->
+<pre>
+[
+	{
+		"ID": 404011608,
+		"Type": "submission_state_equal",
+		"Param1": 404011618,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404011608: Config/Level/Mission/4040116/Act/Act404011608.json-->
+:'''Fidora:''' Outsider, you're finally here!
+:'''Fidora:''' My robot improved in leaps and bounds after learning how to speak from you.
+:'''Fidora:''' The way it speaks is just... a little cryptic.
+:'''Fidora:''' It's very disjointed when it speaks, sometimes domineering but sometimes gentle &mdash; and sometimes even ignoring me...
+:{{DIcon|Arrow}} Haven't those been an abundant variety of experiences?
+:{{DIcon|Arrow}} You don't seem very happy about it.
+:<!--Custom String Listener: TalkSentence_411160171-->
+:'''Fidora:''' I think there may be a problem with the core systems causing it to lose stability.
+:'''Fidora:''' But as a friend, it's not always a bad thing to have such fresh opinions...
+:{{DIcon|Arrow}} Being spontaneous is totally in right now.
+:{{DIcon|Arrow}} ...Humans can't do that.
+:<!--Custom String Listener: TalkSentence_411160174-->
+:'''Fidora:''' Hey, maybe you're right. Anyway, thank you, (Trailblazer)!
+:<!--Custom String Trigger: 404011608_Finish-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404011604_Finish-->
+:<!--Custom String Trigger: Wait_Option_5010286_28-->
+:<!--Custom String Listener: Wait_Option_5010286_28-->
+;(If {{cx}}<!--SubMission Started: 404011600-->)
+::{{DIcon|Talk}} Are you a mechanic?
+:::<!--Custom String Listener: TalkSentence_501028616-->
+:::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you need a language module for?
+:::<!--Custom String Listener: TalkSentence_501028620-->
+:::'''Fidora:''' It's... Why are you being so nosey?
+:::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+:::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+:::<!--Custom String Trigger: Wait_Option_5010286_37-->
+:::<!--Custom String Listener: Wait_Option_5010286_37-->
+:::{{DIcon|Arrow}} Why do you want to build something like that?
+::::<!--Custom String Listener: TalkSentence_501028624-->
+::::'''Fidora:''' Why? Because it's my dream, of course!
+::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you making an android?
+::::<!--Custom String Listener: TalkSentence_501028627-->
+::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+::::<!--Custom String Listener: TalkSentence_501028630-->
+::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Um... Nothing.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::{{DIcon|Talk}} Are you a mechanic?
+:::<!--Custom String Listener: TalkSentence_501028616-->
+:::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Um... Nothing.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100005205,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Fidora:''' Why are you asking that all of a sudden? Is something big going on at the moment?
+:{{DIcon|Arrow}} You haven't heard? There's chaos at the Great Mine!
+::<!--Custom String Listener: TalkSentence_501028640-->
+::'''Fidora:''' Oh no, really? I've been so focused on my robot that I haven't heard a thing!
+::'''Fidora:''' I remember there being lots of support robots in the Great Mine... What about them, are those little robots all okay?
+::{{DIcon|Arrow}} Ah, actually the Overworld and the Underworld are being reunited...
+:{{DIcon|Arrow}} Haven't you heard? The Overworld and the Underworld are being reunited!
+:{{DIcon|Arrow}} Haven't you heard? Olm meat is half price today!
+::<!--Custom String Listener: TalkSentence_501028645-->
+::'''Fidora:''' Oh no, really? I've been so focused on my robot that I haven't heard a thing!
+::'''Fidora:''' Olm meat isn't my favorite anyway... So this "news" has nothing to do with me. Got any other news for me?
+::{{DIcon|Arrow}} Ah, actually the Overworld and the Underworld are being reunited...
+:<!--Custom String Listener: TalkSentence_501028648-->
+:'''Fidora:''' Oh, so that's how it is~ I heard some people chatting about this, but I thought they were only joking.
+:'''Fidora:''' Reuniting the Overworld and the Underworld... seems like a good idea to me. There's hardly any spare parts down in the Underworld. Just piles of defective junk...
+:'''Fidora:''' It's different in the Overworld. I heard there's a famous "workshop" up there &mdash; I've always wanted to see it! Maybe I can get the language module I've been looking for up there &mdash; or other rare parts...
+:'''Fidora:''' Without further ado, I'll start packing! Thanks so much for this valuable intel!
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011600-->)
+::'''Fidora:''' Hey, it's you again? I haven't found a language module...
+::'''Fidora:''' What's up today?
+;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::'''Fidora:''' Oh, here you are! Look! I've finished building my robot.
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028601: Config/Level/Mission/5010286/Act/Act501028601.json-->
+::<!--Custom String Trigger: TalkSentence_501028601-->
+::<!--Custom String Listener: TalkSentence_501028601-->
+::'''Fidora:''' Hmm... The only thing missing is a language module, right?
+::'''Fidora:''' Where do we get that?
+::<!--Custom String Trigger: Wait_Option_5010286_9-->
+::<!--Custom String Listener: Wait_Option_5010286_9-->
+::{{DIcon|Arrow}} A language module?
+:::<!--Custom String Listener: TalkSentence_501028604-->
+:::'''Fidora:''' Yeah, it's all that's missing. It's hard to get hold of one... *sigh* What a headache.
+::{{DIcon|Arrow}} (Leave her alone)
+:::<!--Custom String Listener: TalkSentence_501028606-->
+:::'''Fidora:''' ... This is so annoying. I can't just take Svarog's, can I? *sigh*
+::<!--Custom String Trigger: TalkSentence_501028607-->
+::<!--Custom String Listener: TalkSentence_501028607-->
+::'''Fidora:''' ...Hmm? When did you get here? Did you hear what I just said...?
+::<!--Custom String Trigger: Wait_Option_5010286_16-->
+::<!--Custom String Listener: Wait_Option_5010286_16-->
+::{{DIcon|Arrow}} I don't think so.
+:::<!--Custom String Listener: TalkSentence_501028609-->
+:::'''Fidora:''' You better not have.
+::{{DIcon|Arrow}} Why are you acting like it's a big deal?
+:::<!--Custom String Listener: TalkSentence_501028611-->
+:::'''Fidora:''' ... So you did hear it!
+::<!--Custom String Trigger: TalkSentence_501028612-->
+::<!--Custom String Listener: TalkSentence_501028612-->
+::'''Fidora:''' *sigh* Whatever. I guess it's okay if you know. It isn't really a huge secret anyway.
+::'''Fidora:''' You seem new here... What can I do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000044: Config/Level/NPC/W1/NPC_DefaultStory_1000052.json-->
+:;(If {{cx}}<!--SubMission Started: 404011600-->)
+:::'''Fidora:''' Hey, it's you again? I haven't found a language module...
+:::'''Fidora:''' What's up today?
+:;(If {{cx}}<!--SubMission not Started: 404011600-->)
+:::'''Fidora:''' Oh, here you are! Look! I've finished building my robot.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon|?}} I found the language module...
+::<!--Trigger PerformanceE 404011602: Config/Level/Mission/4040116/Act/Act404011602.json-->
+::'''Fidora:''' Wow, this is just the part I've been looking for! As long as I have this...
+::'''Fidora:''' Um, it's awkward to say, but... Could you possibly let me have that? Please, it really would mean a lot to me!
+::{{DIcon|Arrow}} Take it.
+::{{DIcon|Arrow}} It comes with strings attached...
+:::<!--Custom String Listener: TalkSentence_411160109-->
+:::'''Fidora:''' ...That makes sense. Name your price, then! I'll do my best to put some money together for you...
+:::{{DIcon|Arrow}} Just kidding. It's yours.
+:::{{DIcon|Arrow}} We'll see, once you've finished.
+::<!--Custom String Listener: TalkSentence_411160108-->
+::'''Fidora:''' ...Thank you! You're so kind! Then I'll hold onto that for you. This component will definitely come in handy.
+::'''Fidora:''' But if we want to build an emotionally interactive robot, a simple module like this won't be enough...
+::'''Fidora:''' ...That's right, we have to code emotion into it! If you have the time, please come and give me a hand.
+::<!--Custom String Trigger: 404011602_Finish-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011615--> and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon}} Fidora's Robot.
+::<!--Trigger PerformanceE 404011605: Config/Level/Mission/4040116/Act/Act404011605.json-->
+::'''Fidora:''' Outsider, you're finally here!
+::'''Fidora:''' My robot improved in leaps and bounds after learning how to speak from you.
+::'''Fidora:''' The way it speaks... How to put it? A little enthusiastic, but restrained. Always putting me first whenever we run into any problem... If I were making new friends, this would be the kind of personality I'd want!
+::'''Fidora:''' All in all, its training went perfectly &mdash; thank you so much, (Trailblazer)!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404011604_Finish-->
+;(If {{cx}}<!--SubMission Started: 404011616-->, {{cx}}<!--SubMission Started: 404011615-->, and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon}} Fidora's Robot.
+::<!--Trigger PerformanceE 404011606: Config/Level/Mission/4040116/Act/Act404011606.json-->
+::'''Fidora:''' Outsider, you're finally here!
+::'''Fidora:''' My robot improved in leaps and bounds after learning how to speak from you.
+::'''Fidora:''' However, the way it speaks is kind of... awkward, and it loves to argue...
+::'''Fidora:''' It's always saying these cruel jokes at my expense... Once or twice would be okay, but it's just too much...
+::{{DIcon|Arrow}} Isn't that... Fun?
+::{{DIcon|Arrow}} You don't seem very happy about it.
+::<!--Custom String Listener: TalkSentence_411160158-->
+::'''Fidora:''' Perhaps it's just me, but I can't really take it...
+::'''Fidora:''' Ah, its training has paid off in any case &mdash; thank you, (Trailblazer)!
+::<!--Custom String Trigger: 404011606_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404011604_Finish-->
+;(If {{cx}}<!--SubMission Started: 404011617-->, {{cx}}<!--SubMission Started: 404011616-->, {{cx}}<!--SubMission Started: 404011615-->, and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon}} Fidora's Robot.
+::<!--Trigger PerformanceE 404011607: Config/Level/Mission/4040116/Act/Act404011607.json-->
+::'''Fidora:''' Outsider, you're finally here!
+::'''Fidora:''' My robot didn't seem to make any improvements after learning how to speak from you...
+::'''Fidora:''' It still speaks so bluntly, doesn't know how to adapt at all, and doesn't convey any real sense of social interaction.
+::{{DIcon|Arrow}} Shouldn't... things start out by getting to know each other first?
+:::<!--Custom String Listener: TalkSentence_411160164-->
+:::'''Fidora:''' Then it has to have the will to do so...
+::{{DIcon|Arrow}} You don't seem very happy about it.
+:::<!--Custom String Listener: TalkSentence_411160159-->
+:::'''Fidora:''' I was just wondering, did it not learn anything? Was that a mechanical failure? Or maybe it didn't study enough samples...
+::<!--Custom String Trigger: OptionEnd-->
+::<!--Custom String Listener: OptionEnd-->
+::'''Fidora:''' Ah, its training has paid off in any case &mdash; thank you, (Trailblazer)!
+::<!--Custom String Trigger: 404011607_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404011604_Finish-->
+;(If {{cx}}<!--SubMission Started: 404011618-->, {{cx}}<!--SubMission Started: 404011617-->, {{cx}}<!--SubMission Started: 404011616-->, {{cx}}<!--SubMission Started: 404011615-->, and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon}} Fidora's Robot.
+::<!--Trigger PerformanceE 404011608: Config/Level/Mission/4040116/Act/Act404011608.json-->
+::'''Fidora:''' Outsider, you're finally here!
+::'''Fidora:''' My robot improved in leaps and bounds after learning how to speak from you.
+::'''Fidora:''' The way it speaks is just... a little cryptic.
+::'''Fidora:''' It's very disjointed when it speaks, sometimes domineering but sometimes gentle &mdash; and sometimes even ignoring me...
+::{{DIcon|Arrow}} Haven't those been an abundant variety of experiences?
+::{{DIcon|Arrow}} You don't seem very happy about it.
+::<!--Custom String Listener: TalkSentence_411160171-->
+::'''Fidora:''' I think there may be a problem with the core systems causing it to lose stability.
+::'''Fidora:''' But as a friend, it's not always a bad thing to have such fresh opinions...
+::{{DIcon|Arrow}} Being spontaneous is totally in right now.
+::{{DIcon|Arrow}} ...Humans can't do that.
+::<!--Custom String Listener: TalkSentence_411160174-->
+::'''Fidora:''' Hey, maybe you're right. Anyway, thank you, (Trailblazer)!
+::<!--Custom String Trigger: 404011608_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404011604_Finish-->
+;(If {{cx}}<!--SubMission Started: 404011618-->, {{cx}}<!--SubMission Started: 404011617-->, {{cx}}<!--SubMission Started: 404011616-->, {{cx}}<!--SubMission Started: 404011615-->, and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon}} I'm wondering...
+::<!--Custom String Trigger: Wait_Option_5010286_28-->
+::<!--Custom String Listener: Wait_Option_5010286_28-->
+:;(If {{cx}}<!--SubMission Started: 404011600-->)
+:::{{DIcon|Talk}} Are you a mechanic?
+::::<!--Custom String Listener: TalkSentence_501028616-->
+::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you need a language module for?
+::::<!--Custom String Listener: TalkSentence_501028620-->
+::::'''Fidora:''' It's... Why are you being so nosey?
+::::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+::::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+::::<!--Custom String Trigger: Wait_Option_5010286_37-->
+::::<!--Custom String Listener: Wait_Option_5010286_37-->
+::::{{DIcon|Arrow}} Why do you want to build something like that?
+:::::<!--Custom String Listener: TalkSentence_501028624-->
+:::::'''Fidora:''' Why? Because it's my dream, of course!
+:::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Are you making an android?
+:::::<!--Custom String Listener: TalkSentence_501028627-->
+:::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+:::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+:::::<!--Custom String Listener: TalkSentence_501028630-->
+:::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+:::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+:::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Um... Nothing.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Started: 404011600-->)
+:::{{DIcon|Talk}} Are you a mechanic?
+::::<!--Custom String Listener: TalkSentence_501028616-->
+::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Um... Nothing.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 404011618-->, {{cx}}<!--SubMission Started: 404011617-->, {{cx}}<!--SubMission Started: 404011616-->, {{cx}}<!--SubMission Started: 404011615-->, and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon}} How have things been?
+::'''Fidora:''' Why are you asking that all of a sudden? Is something big going on at the moment?
+::{{DIcon|Arrow}} You haven't heard? There's chaos at the Great Mine!
+:::<!--Custom String Listener: TalkSentence_501028640-->
+:::'''Fidora:''' Oh no, really? I've been so focused on my robot that I haven't heard a thing!
+:::'''Fidora:''' I remember there being lots of support robots in the Great Mine... What about them, are those little robots all okay?
+:::{{DIcon|Arrow}} Ah, actually the Overworld and the Underworld are being reunited...
+::{{DIcon|Arrow}} Haven't you heard? The Overworld and the Underworld are being reunited!
+::{{DIcon|Arrow}} Haven't you heard? Olm meat is half price today!
+:::<!--Custom String Listener: TalkSentence_501028645-->
+:::'''Fidora:''' Oh no, really? I've been so focused on my robot that I haven't heard a thing!
+:::'''Fidora:''' Olm meat isn't my favorite anyway... So this "news" has nothing to do with me. Got any other news for me?
+:::{{DIcon|Arrow}} Ah, actually the Overworld and the Underworld are being reunited...
+::<!--Custom String Listener: TalkSentence_501028648-->
+::'''Fidora:''' Oh, so that's how it is~ I heard some people chatting about this, but I thought they were only joking.
+::'''Fidora:''' Reuniting the Overworld and the Underworld... seems like a good idea to me. There's hardly any spare parts down in the Underworld. Just piles of defective junk...
+::'''Fidora:''' It's different in the Overworld. I heard there's a famous "workshop" up there &mdash; I've always wanted to see it! Maybe I can get the language module I've been looking for up there &mdash; or other rare parts...
+::'''Fidora:''' Without further ado, I'll start packing! Thanks so much for this valuable intel!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 404011618-->, {{cx}}<!--SubMission Started: 404011617-->, {{cx}}<!--SubMission Started: 404011616-->, {{cx}}<!--SubMission Started: 404011615-->, and {{cx}}<!--SubMission Started: 404011602-->)
+:{{DIcon|Exit}} Nevermind. You can go back to your mechanical research.
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010286_25)
+:<!--Custom String Listener: Wait_Option_5010286_25-->
+::{{DIcon|Arrow}} I'm wondering...
+::<!--Custom String Listener: Wait_Option_5010286_28-->
+::<!--Custom String Listener: Wait_Option_5010286_28-->
+::{{DIcon|Talk}} Are you a mechanic?
+:::<!--Custom String Listener: TalkSentence_501028616-->
+:::<!--Custom String Listener: TalkSentence_501028616-->
+:::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} What do you need a language module for?
+:::::<!--Custom String Listener: TalkSentence_501028620-->
+:::::'''Fidora:''' It's... Why are you being so nosey?
+:::::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+:::::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+:::::<!--Custom String Trigger: Wait_Option_5010286_37-->
+:::::<!--Custom String Listener: Wait_Option_5010286_37-->
+:::::{{DIcon|Arrow}} Why do you want to build something like that?
+::::::<!--Custom String Listener: TalkSentence_501028624-->
+::::::'''Fidora:''' Why? Because it's my dream, of course!
+::::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Are you making an android?
+::::::<!--Custom String Listener: TalkSentence_501028627-->
+::::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+::::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+::::::<!--Custom String Listener: TalkSentence_501028630-->
+::::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+::::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+::::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} What do you need a language module for?
+:::::<!--Custom String Listener: TalkSentence_501028620-->
+:::::'''Fidora:''' It's... Why are you being so nosey?
+:::::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+:::::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+:::::<!--Custom String Trigger: Wait_Option_5010286_37-->
+:::::<!--Custom String Listener: Wait_Option_5010286_37-->
+:::::{{DIcon|Arrow}} Why do you want to build something like that?
+::::::<!--Custom String Listener: TalkSentence_501028624-->
+::::::'''Fidora:''' Why? Because it's my dream, of course!
+::::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Are you making an android?
+::::::<!--Custom String Listener: TalkSentence_501028627-->
+::::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+::::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+::::::<!--Custom String Listener: TalkSentence_501028630-->
+::::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+::::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+::::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What do you need a language module for?
+:::<!--Custom String Listener: TalkSentence_501028620-->
+:::<!--Custom String Listener: TalkSentence_501028620-->
+:::'''Fidora:''' It's... Why are you being so nosey?
+:::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+:::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+:::<!--Custom String Trigger: Wait_Option_5010286_37-->
+:::<!--Custom String Listener: Wait_Option_5010286_37-->
+:::<!--Custom String Listener: Wait_Option_5010286_37-->
+:::{{DIcon|Arrow}} Why do you want to build something like that?
+:::<!--Custom String Listener: TalkSentence_501028624-->
+:::<!--Custom String Listener: TalkSentence_501028624-->
+:::'''Fidora:''' Why? Because it's my dream, of course!
+:::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::<!--Custom String Trigger: Wait_Option_5010286_42-->
+:::<!--Custom String Listener: Wait_Option_5010286_42-->
+:::{{DIcon|Arrow}} Are you making an android?
+:::<!--Custom String Listener: TalkSentence_501028627-->
+:::<!--Custom String Listener: TalkSentence_501028627-->
+:::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+:::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::<!--Custom String Trigger: Wait_Option_5010286_47-->
+:::<!--Custom String Listener: Wait_Option_5010286_47-->
+:::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+:::<!--Custom String Listener: TalkSentence_501028630-->
+:::<!--Custom String Listener: TalkSentence_501028630-->
+:::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+:::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+:::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+:::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+:::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+:::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::'''Fidora:''' Why? Because it's my dream, of course!
+:::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Why do you want to build something like that?
+::::<!--Custom String Listener: TalkSentence_501028624-->
+::::'''Fidora:''' Why? Because it's my dream, of course!
+::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::{{DIcon|Arrow}} Are you making an android?
+::::<!--Custom String Listener: TalkSentence_501028627-->
+::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+::::<!--Custom String Listener: TalkSentence_501028630-->
+::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::'''Fidora:''' It's... Why are you being so nosey?
+:::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+:::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+:::<!--Custom String Trigger: Wait_Option_5010286_37-->
+:::<!--Custom String Listener: Wait_Option_5010286_37-->
+:::{{DIcon|Arrow}} Why do you want to build something like that?
+::::<!--Custom String Listener: TalkSentence_501028624-->
+::::'''Fidora:''' Why? Because it's my dream, of course!
+::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+:::{{DIcon|Arrow}} Are you making an android?
+::::<!--Custom String Listener: TalkSentence_501028627-->
+::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+:::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+::::<!--Custom String Listener: TalkSentence_501028630-->
+::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+:::<!--Custom String Trigger: Wait_Option_5010286_28-->
+:::<!--Custom String Listener: Wait_Option_5010286_28-->
+::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::{{DIcon|Talk}} Are you a mechanic?
+:::::<!--Custom String Listener: TalkSentence_501028616-->
+:::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+:::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+:::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Um... Nothing.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Um... Nothing.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 404011600-->)
+:::{{DIcon|Talk}} Are you a mechanic?
+::::<!--Custom String Listener: TalkSentence_501028616-->
+::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::<!--Custom String Trigger: Wait_Option_5010286_28-->
+::::<!--Custom String Listener: Wait_Option_5010286_28-->
+:::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} What do you need a language module for?
+::::::<!--Custom String Listener: TalkSentence_501028620-->
+::::::'''Fidora:''' It's... Why are you being so nosey?
+::::::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+::::::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+::::::<!--Custom String Trigger: Wait_Option_5010286_37-->
+::::::<!--Custom String Listener: Wait_Option_5010286_37-->
+::::::{{DIcon|Arrow}} Why do you want to build something like that?
+:::::::<!--Custom String Listener: TalkSentence_501028624-->
+:::::::'''Fidora:''' Why? Because it's my dream, of course!
+:::::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} Are you making an android?
+:::::::<!--Custom String Listener: TalkSentence_501028627-->
+:::::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+:::::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+:::::::<!--Custom String Listener: TalkSentence_501028630-->
+:::::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+:::::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+:::::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Um... Nothing.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} Um... Nothing.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} What do you need a language module for?
+::::<!--Custom String Listener: TalkSentence_501028620-->
+::::'''Fidora:''' It's... Why are you being so nosey?
+::::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+::::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+::::<!--Custom String Trigger: Wait_Option_5010286_37-->
+::::<!--Custom String Listener: Wait_Option_5010286_37-->
+::::{{DIcon|Arrow}} Why do you want to build something like that?
+:::::<!--Custom String Listener: TalkSentence_501028624-->
+:::::'''Fidora:''' Why? Because it's my dream, of course!
+:::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+::::{{DIcon|Arrow}} Are you making an android?
+:::::<!--Custom String Listener: TalkSentence_501028627-->
+:::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+:::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+::::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+:::::<!--Custom String Listener: TalkSentence_501028630-->
+:::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+:::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+:::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+::::<!--Custom String Trigger: Wait_Option_5010286_28-->
+::::<!--Custom String Listener: Wait_Option_5010286_28-->
+:::;(If {{cx}}<!--SubMission Started: 404011600-->)
+:::::{{DIcon|Talk}} Are you a mechanic?
+::::::<!--Custom String Listener: TalkSentence_501028616-->
+::::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+::::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+::::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Um... Nothing.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+:::::{{DIcon|Talk}} Are you a mechanic?
+::::::<!--Custom String Listener: TalkSentence_501028616-->
+::::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+::::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+::::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Um... Nothing.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Um... Nothing.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Started: 404011600-->)
+:::{{DIcon|Talk}} Are you a mechanic?
+::::<!--Custom String Listener: TalkSentence_501028616-->
+::::'''Fidora:''' Of course. No one but a mechanic could make robots, could they?
+::::'''Fidora:''' ...Well, actually, many people among the vagrants also possess that skill.
+::::'''Fidora:''' But I'm different from them! They make robots for the Modified Robot Fight &mdash; the robots they make fight each other... I don't get the fun in it.
+::::<!--Custom String Trigger: Wait_Option_5010286_28-->
+::::<!--Custom String Listener: Wait_Option_5010286_28-->
+:::;(If {{cx}}<!--SubMission Started: 404011600-->)
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} What do you need a language module for?
+::::::<!--Custom String Listener: TalkSentence_501028620-->
+::::::'''Fidora:''' It's... Why are you being so nosey?
+::::::'''Fidora:''' Okay, I'll tell you... I'm trying to build a robot that can interact with humans emotionally.
+::::::'''Fidora:''' Not the kind of machine that only follows a program or answers the question you ask &mdash; A robot that understands human language, and speaks and acts like a normal human being.
+::::::<!--Custom String Trigger: Wait_Option_5010286_37-->
+::::::<!--Custom String Listener: Wait_Option_5010286_37-->
+::::::{{DIcon|Arrow}} Why do you want to build something like that?
+:::::::<!--Custom String Listener: TalkSentence_501028624-->
+:::::::'''Fidora:''' Why? Because it's my dream, of course!
+:::::::'''Fidora:''' I want to create a robot with emotions... it's my ultimate goal as an amateur mechanic!
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} Are you making an android?
+:::::::<!--Custom String Listener: TalkSentence_501028627-->
+:::::::'''Fidora:''' Android? What's that? It sounds weird... Right now, all I want to do is to equip the robot with a language module and do some additional optimization and improvement.
+:::::::'''Fidora:''' In my opinion, mechanical structures are much more beautiful than the human body... I'm not stupid enough to try to make a robot look like a human. How boring would that be?
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Arrow}} I thought you were making a humanoid mech that could be driven.
+:::::::<!--Custom String Listener: TalkSentence_501028630-->
+:::::::'''Fidora:''' I've thought about that... I heard that boys all dream of fighting in mechs.
+:::::::'''Fidora:''' I get why they think that's cool. But for me, the most worthwhile research is to make robots that have human emotions...
+:::::::'''Fidora:''' Anyway, that's all. Do you have any other questions?
+::::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} Um... Nothing.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::;(If {{cx}}<!--SubMission not Started: 404011600-->)
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} Um... Nothing.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Um... Nothing.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,134 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wen Shiling#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Implement Researcher
+|image           = NPC Wen Shiling.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Wen Shiling''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_30_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500214400_411-->
+:<!--Custom String Listener: Wait_Option_500214400_411-->
+:{{DIcon|Talk}} What report are you writing?
+::<!--Custom String Listener: TalkSentence_500214404-->
+::'''Wen Shiling:''' A report that summarizes Capote's sins! I know a lot of secrets as his former top fan... Other people can't even imagine it!
+::'''Wen Shiling:''' Pity that I'm writing so slowly. I blame Adler &mdash; he comes to bother me every day, otherwise I'd have finished this ages ago and published it on the space station's anonymous forum.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Did the Master Capote Fan Club disband?
+::<!--Custom String Listener: TalkSentence_500214407-->
+::'''Wen Shiling:''' Of course it did! We couldn't get away fast enough. But I hear some people plan to keep supporting him and want to "be there for him as he changes."
+::'''Wen Shiling:''' I don't get those people at all! Scoundrels like Capote don't deserve any care! I don't get it. I really don't!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Those Curios you gave Capote...
+::<!--Custom String Listener: TalkSentence_500214410-->
+::'''Wen Shiling:''' Shhh! I told you that because we are friends, but that doesn't mean you can say it out loud! What if other people hear?
+::'''Wen Shiling:''' I already got the relevant parties to take back those Curios. Don't you worry about it. Just treat it as water under the bridge! Don't mention it ever again!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all questions I have.
+::<!--Custom String Listener: TalkSentence_500214414-->
+::'''Wen Shiling:''' Just you wait, Capote! When I finished my work, tidied up the Curio report, supervised Curio reclamation, and went with Adler to... Ugh! How come I still have so much work to do!?
+::<!--Ends the current performance-->
+:'''Wen Shiling:''' Firstly I need to do the inventory for reclaimed Curios, then do regular quality control at the warehouse, then I promised Adler to go find the weird thing that talks... Great, no time to write my report today either!
+:<!--Ends the current performance-->
+:'''Wen Shiling:''' Just you wait, Capote! When I finished my work, tidied up the Curio report, supervised Curio reclamation, and went with Adler to... Ugh! How come I still have so much work to do!?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000009: Config/Level/NPC/W0/NPC_DefaultStory_500001405.json-->
+::'''Wen Shiling:''' Liars are unforgivable! Even death cannot redeem them!
+::'''Wen Shiling:''' Hmph, I'm going to finish writing this report very soon... Just you wait, Capote!
+::{{DIcon|Arrow}} Aren't you Master Capote's biggest fan?
+:::<!--Custom String Listener: TalkSentence_500214304-->
+:::'''Wen Shiling:''' Bah! I've never wronged you, so don't give me a title that brings bad luck!
+:::'''Wen Shiling:''' It's all over once I stopped being his fan. Please show me some respect!
+::{{DIcon|Arrow}} What did Capote do?
+:::<!--Custom String Listener: TalkSentence_500214307-->
+:::'''Wen Shiling:''' Don't you remember? You were there too! Ugh, I don't want to relive that terrible experience ever again.
+:::'''Wen Shiling:''' Anyways, just remember that Capote is despicable!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000010: Config/Level/NPC/W0/NPC_DefaultStory_500001404.json-->
+::'''Wen Shiling:''' Firstly I need to do the inventory for reclaimed Curios, then do regular quality control at the warehouse, then I promised Adler to go find the weird thing that talks... Great, no time to write my report today either!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} There's something else I want to ask.
+::<!--Custom String Trigger: Wait_Option_500214400_411-->
+::<!--Custom String Listener: Wait_Option_500214400_411-->
+::{{DIcon|Talk}} What report are you writing?
+:::<!--Custom String Listener: TalkSentence_500214404-->
+:::'''Wen Shiling:''' A report that summarizes Capote's sins! I know a lot of secrets as his former top fan... Other people can't even imagine it!
+:::'''Wen Shiling:''' Pity that I'm writing so slowly. I blame Adler &mdash; he comes to bother me every day, otherwise I'd have finished this ages ago and published it on the space station's anonymous forum.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Did the Master Capote Fan Club disband?
+:::<!--Custom String Listener: TalkSentence_500214407-->
+:::'''Wen Shiling:''' Of course it did! We couldn't get away fast enough. But I hear some people plan to keep supporting him and want to "be there for him as he changes."
+:::'''Wen Shiling:''' I don't get those people at all! Scoundrels like Capote don't deserve any care! I don't get it. I really don't!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Those Curios you gave Capote...
+:::<!--Custom String Listener: TalkSentence_500214410-->
+:::'''Wen Shiling:''' Shhh! I told you that because we are friends, but that doesn't mean you can say it out loud! What if other people hear?
+:::'''Wen Shiling:''' I already got the relevant parties to take back those Curios. Don't you worry about it. Just treat it as water under the bridge! Don't mention it ever again!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: TalkSentence_500214414-->
+:::'''Wen Shiling:''' Just you wait, Capote! When I finished my work, tidied up the Curio report, supervised Curio reclamation, and went with Adler to... Ugh! How come I still have so much work to do!?
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll leave you to it.
+::'''Wen Shiling:''' Just you wait, Capote! When I finished my work, tidied up the Curio report, supervised Curio reclamation, and went with Adler to... Ugh! How come I still have so much work to do!?
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wen Shiling
+|zhs  = 温世玲
+|zht  = 溫世玲
+|ja   = 温世玲
+|ko   = 온세영
+|es   = Wen Shiling
+|fr   = Wen&nbsp;Shiling
+|ru   = Вэнь Шилин
+|th   = Wen Shiling
+|vi   = Wen Shiling
+|de   = Wen Shiling
+|id   = Wen Shiling
+|pt   = Wen Shiling
+}}
+==Change History==
+{{Change History|TODO}}

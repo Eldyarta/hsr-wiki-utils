@@ -1,0 +1,158 @@
+<%-- [PAGE_INFO]
+PageTitle=#Kiryu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Outworld Traveling Merchant
+|image           = NPC Kiryu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Kiryu''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_154_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502054101: Config/Level/NPCDialogue/P10202/NPCAct/Act502054101.json-->
+::'''Kiryu:''' The merchant guild will be coming here soon to discuss business. Take your leave, or I'll make you leave.
+::{{DIcon|Arrow}} I'm not eavesdropping. Aren't you just being too self-conscious?
+:::<!--Custom String Listener: TalkSentence_502054104-->
+:::'''Kiryu:''' ...Too self-conscious? Isn't that a term used to describe kids?
+::{{DIcon|Arrow}} You sure talk big, buddy. You wanna fight?
+:::<!--Custom String Listener: TalkSentence_502054106-->
+:::'''Kiryu:''' ...I've heard the Luofu streets are pretty safe, but now it seems I was mistaken.
+::{{DIcon|Arrow}} Merchant guild? Are you from the Aurum Alley Merchant Guild, too?
+:::<!--Custom String Listener: TalkSentence_502054108-->
+:::'''Kiryu:''' No, we are from... an Outworlder merchant guild. Not the local one you know.
+::<!--Custom String Trigger: TalkSentence_502054109-->
+::<!--Custom String Listener: TalkSentence_502054109-->
+::'''Kiryu:''' ...I see. This isn't a topic to be discussed out in the open. I was being too tough.
+::'''Kiryu:''' I have no intention of arguing with you. My name is Kiryu, and I'm a foreigner doing business on the Xianzhou, where people say "the walls have ears"... not to mention there aren't even any walls here. I was just being careful.
+::'''Kiryu:''' As you may be aware, even innocent people can get into trouble if they hear something they shouldn't... You seem to be a seasoned adventurer. I'm sure you understand what I mean.
+::{{DIcon|Arrow}} Hey, speak up. What trouble am I in?
+:::<!--Custom String Listener: TalkSentence_502054113-->
+:::'''Kiryu:''' If you're asking that question, then it means you haven't heard anything you shouldn't have.
+:::'''Kiryu:''' This is good news. You don't need to know anything more.
+::{{DIcon|Arrow}} You have a discerning eye, don't you?
+:::<!--Custom String Listener: TalkSentence_502054116-->
+:::'''Kiryu:''' Well, I'm an employment agent, after all. I can usually get a sense of what my clients are like from just a few words.
+::<!--Custom String Trigger: TalkSentence_502054117-->
+::<!--Custom String Listener: TalkSentence_502054117-->
+::'''Kiryu:''' If my observation are correct, then you're sharp enough to soon figure out what I'm doing and why I do it. However, you are also sharp enough that I can trust you to know what you can get involved in, and what you shouldn't.
+::'''Kiryu:''' ...So, we're done exchanging pleasantries. There'll be plenty of opportunities for us to do business in the future. Is there anything else you want to discuss?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502054301: Config/Level/NPCDialogue/P10202/NPCAct/Act502054301.json-->
+::'''Kiryu:''' When you've been in the business as long as me, you'll eventually run across daredevils who do not fear death.
+::'''Kiryu:''' Oh, don't get me wrong. I wasn't talking about you. Is there anything else you would like to know?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} How about a casual chat?
+::<!--Trigger PerformanceE 502054201: Config/Level/NPCDialogue/P10202/NPCAct/Act502054201.json-->
+::'''Kiryu:''' You may have realized that I'm not the best at small talk, but I appreciate conversations as long as you don't mind my style of speech.
+::<!--Custom String Trigger: Wait_Option_502054201_228-->
+::<!--Custom String Listener: Wait_Option_502054201_228-->
+::{{DIcon|Talk}} What exactly do you do?
+:::<!--Custom String Listener: TalkSentence_502054204-->
+:::'''Kiryu:''' I'm an employment agent. I introduce jobs to people.
+:::{{DIcon|Arrow}} Are your jobs respectable?
+::::<!--Custom String Listener: TalkSentence_502054206-->
+::::'''Kiryu:''' That depends on how you define "respectable."
+::::'''Kiryu:''' I consider the jobs I offer to be respectable because they have clear goals and fair pay.
+::::<!--Custom String Trigger: TalkSentence_502054211-->
+::::<!--Custom String Listener: TalkSentence_502054211-->
+::::'''Kiryu:''' I only share the details of my jobs with serious job seekers. You should already have enough to go on if you're just shopping around for opportunities.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you saying an employment agent is involved in things I shouldn't know?
+::::<!--Custom String Listener: TalkSentence_502054209-->
+::::'''Kiryu:''' You underestimate "business practices." Apart from the jobs I arrange, there are many things that shouldn't be heard outside of the ears of the intended parties.
+::::'''Kiryu:''' Trust me, being an "employment agent" may be easy at times, but it can get complicated.
+::::<!--Custom String Trigger: TalkSentence_502054211-->
+::::<!--Custom String Listener: TalkSentence_502054211-->
+::::'''Kiryu:''' I only share the details of my jobs with serious job seekers. You should already have enough to go on if you're just shopping around for opportunities.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What brings you to Aurum Alley?
+:::<!--Custom String Listener: TalkSentence_502054213-->
+:::'''Kiryu:''' It's just a job from the higher-ups. They told me to come, so here I am.
+:::{{DIcon|Arrow}} And what if they tell you to join the Antimatter Legion?
+::::<!--Custom String Listener: TalkSentence_502054215-->
+::::'''Kiryu:''' Then I'll join it.
+::::<!--Custom String Trigger: TalkSentence_502054218-->
+::::<!--Custom String Listener: TalkSentence_502054218-->
+::::'''Kiryu:''' As I said, I believe you're sharp enough to figure out in due time what I've been doing.
+::::'''Kiryu:''' It has nothing to do with morals or beliefs. I'm just doing my job for the higher-ups.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What else did the high-ups tell you to do?
+::::<!--Custom String Listener: TalkSentence_502054217-->
+::::'''Kiryu:''' You are too curious for your own good. I don't have anything to say to that question.
+::::<!--Custom String Trigger: TalkSentence_502054218-->
+::::<!--Custom String Listener: TalkSentence_502054218-->
+::::'''Kiryu:''' As I said, I believe you're sharp enough to figure out in due time what I've been doing.
+::::'''Kiryu:''' It has nothing to do with morals or beliefs. I'm just doing my job for the higher-ups.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you know the person next to you?
+:::<!--Custom String Listener: TalkSentence_502054221-->
+:::'''Kiryu:''' Majima? Yes, I do. We share a common benefactor who has told us to get along well, so I gave it a try.
+:::'''Kiryu:''' We're getting along pretty well for now. She has a troubled past where she had to suppress and restrain herself, only to be betrayed in the end. That experience has changed her.
+:::'''Kiryu:''' Whatever she does, I do not blame her. She may appear to have lost her mind, but she sees the world more clearly than most people &mdash; at least, that is what I think.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll catch you again next time.
+:::<!--Custom String Listener: TalkSentence_502054225-->
+:::'''Kiryu:''' Catch you next time.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502054201-->
+:{{DIcon|Exit}} I'll catch you again next time.
+::'''Kiryu:''' Catch you next time.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Kiryu
+|zhs  = 雾生
+|zht  = 霧生
+|ja   = 霧生
+|ko   = 키류
+|es   = Kiryu
+|fr   = Kiryu
+|ru   = Кирю
+|th   = Kiryu
+|vi   = Kiryu
+|de   = Kiryu
+|id   = Kiryu
+|pt   = Kiryu
+}}
+==Change History==
+{{Change History|TODO}}

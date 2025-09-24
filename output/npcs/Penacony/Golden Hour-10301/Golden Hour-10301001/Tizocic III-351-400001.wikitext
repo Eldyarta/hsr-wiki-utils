@@ -1,0 +1,96 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tizocic III#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Emperor"
+|image           = NPC Tizocic III.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Tizocic III''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_351_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 203020302: Config/Level/Mission/2030203/Act/Act203020302.json-->
+<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		424030244
+	],
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByNpcID",
+		"SingleNpcID": {
+			"GroupID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 113
+				}
+			},
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		}
+	}
+}</pre>
+:'''Tizocic III:''' Oh! My dear subject, you're back! Is there anything I can help you with?
+:'''Tizocic III:''' It is my duty and honor to serve my subjects!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_203020302-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tizocic III
+|zhs  = 蒂索克三世
+|zht  = 蒂索克三世
+|ja   = ティソク三世
+|ko   = 티조크 3세
+|es   = Tizocic III
+|fr   = Tizocic III
+|ru   = Тисок III
+|th   = Tizocic III
+|vi   = Tizocic III
+|de   = Tizocic III.
+|id   = Tizocic III
+|pt   = Tizocic III
+}}
+==Change History==
+{{Change History|TODO}}

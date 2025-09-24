@@ -1,0 +1,106 @@
+<%-- [PAGE_INFO]
+PageTitle=#Brona#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Busker
+|image           = NPC Brona.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Brona''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_630_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051105: Config/Level/Mission/5030510/Act/Act503051105.json-->
+::'''Brona:''' Automated machines for service... Are they truly capable of possessing souls, experiencing pleasure, and appreciating art?
+::'''Brona:''' Perhaps I should reflect upon myself during my stay here.
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051174-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Brona:''' Alright, the music here is perfect for a conversation. What would you like to discuss?
+::{{DIcon|Arrow}} I want to know what you think about monsters.
+:::<!--Custom String Listener: TalkSentence_503051176-->
+:::'''Brona:''' Before my arrival in Penacony, I heard that there are automated machines designed for amusement in the Dreamscape. They're obedient and always do their job well. However, tools are tools, and they'll never replace human beings.
+:::'''Brona:''' I'm fine with most things here, but those automated orchestras... What they produce is not music, but soulless cacophony!
+:::'''Brona:''' As for the monsters in the lounge, well... I admit they've presented me with a new perspective on the automated machines. In a way, they can be considered "beings" with a similar perception of the world as we do.
+:::{{DIcon|Arrow}} ...So, how about the automated orchestra?
+::::<!--Custom String Listener: TalkSentence_503051180-->
+::::'''Brona:''' That's a touchy subject. I need to think more about it. But until I come to a conclusion, I won't change my distaste for it.
+::::'''Brona:''' Look, I'm saying all this because... my love for music will never change.
+:::{{DIcon|Arrow}} Will you show them respect?
+::::<!--Custom String Listener: TalkSentence_503051183-->
+::::'''Brona:''' I will... perhaps? I mean, why not? I'm not so bored that I find pleasure in bullying those little creatures.
+::::'''Brona:''' But that doesn't mean I won't criticize automated orchestras!
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051186-->
+:::'''Brona:''' My opinion of you depends on your taste in music.
+:::'''Brona:''' That's the crux of it. I know you're a drinksmith and a skilled conversationalist, but flowery words won't impress me. Only a great melody will win me over.
+:::'''Brona:''' And don't try cheap tricks! The noises coming from automated orchestras don't count as music!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051108: Config/Level/Mission/5030510/Act/Act503051108.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Brona
+|zhs  = 布罗娜
+|zht  = 布羅娜
+|ja   = ブローナ
+|ko   = 브로나
+|es   = Brona
+|fr   = Brona
+|ru   = Брона
+|th   = Brona
+|vi   = Brona
+|de   = Brona
+|id   = Brona
+|pt   = Brona
+}}
+==Change History==
+{{Change History|TODO}}

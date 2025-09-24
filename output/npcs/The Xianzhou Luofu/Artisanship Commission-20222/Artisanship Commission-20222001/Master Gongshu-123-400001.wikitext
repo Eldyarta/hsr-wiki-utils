@@ -1,0 +1,136 @@
+<%-- [PAGE_INFO]
+PageTitle=#Master Gongshu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Smelter Extraordinaire
+|image           = NPC Master Gongshu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Artisanship Commission
+|relatives       = 
+}}
+'''Master Gongshu''' is an NPC on [[The Xianzhou Luofu]], located in [[Artisanship Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Artisanship Commission|npc_123_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502030101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502030101.json-->
+::'''Master Gongshu:''' *sigh* Youths these days... Simply un-teach-a-ble.
+::{{DIcon|Arrow}} You're in an excellent mood today.
+:::<!--Custom String Listener: TalkSentence_502030103-->
+:::'''Master Gongshu:''' Yes, an excellently annoyed mood!
+::{{DIcon|Arrow}} How have the youths wronged you this time?
+:::<!--Custom String Listener: TalkSentence_502030105-->
+:::'''Master Gongshu:''' Oh, I didn't mean you... What are you getting riled up for...
+::{{DIcon|Arrow}} Hmph... Kids today...
+:::<!--Custom String Listener: TalkSentence_502030107-->
+:::'''Master Gongshu:''' ...Aren't you a youth, yourself? Kids shouldn't talk like their elders, it makes you look old.
+::<!--Custom String Trigger: TalkSentence_502030108-->
+::<!--Custom String Listener: TalkSentence_502030108-->
+::'''Master Gongshu:''' Hey, aren't you (Trailblazer)? I'm indebted to you for your help the last time we met.
+::'''Master Gongshu:''' You're different from the kids I teach. You have energy, and you put all your effort into completing your goals because you understand that age has a way of creeping up on you...
+::'''Master Gongshu:''' Forget it. I'm not going to vent my frustrations out on you! Anything I can help you with today?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502030102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502030102.json-->
+::'''Master Gongshu:''' Ah, if it isn't young (Trailblazer)! What are you doing back here at the Artisanship Commission?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Arrow}} Tell me about the Artisanship Commission...
+::<!--Trigger PerformanceE 502030103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502030103.json-->
+::'''Master Gongshu:''' Bwahahaha... Ask away! I'm not afraid of your questions, but I'm afraid you might not understand my answers.
+::<!--Custom String Trigger: Wait_Option_502030101_25-->
+::<!--Custom String Listener: Wait_Option_502030101_25-->
+::{{DIcon|Talk}} What do you usually get up to around here?
+:::<!--Custom String Listener: TalkSentence_502030114-->
+:::'''Master Gongshu:''' They call me "the Smelter Extraordinaire," but I didn't come up with that nickname. As for our day-to-day work, we forge metals here.
+:::'''Master Gongshu:''' However, I, as an artisan, am not really involved in front-line work all the time. I put most of my efforts into developing various household ingenia and improving our artifex designs.
+:::'''Master Gongshu:''' You've probably noticed the intricate and complex designs for all the household appliances on Xianzhou... Lifelike fish suspended into a lamp, exquisite lions carved into doorbells, drones designed to look like birds or mythical beasts...
+:::'''Master Gongshu:''' None of this improves the essential function of these tools, but we still take great pains to craft them well. Another Outworlder once told me that you call this style "Maximalist"?
+:::'''Master Gongshu:''' Designing and iterating all of these different maximalist looks has already taken up hundreds of years of my life.
+:::'''Master Gongshu:''' It took me an age to realize why that Outworlder was so surprised. Because they all &mdash; I mean, you all have a different definition of what "practicality" means.
+:::'''Master Gongshu:''' To us Artisanship Commission veterans, intricacy and detail are just one part of an object's practicality. On the contrary, I just so happen to find the sparseness of your "flashlight" and "suitcase" technology to be rather impractical!
+:::'''Master Gongshu:''' This cognitive difference is only natural from our long-life species' perspective, and of course it's simply impossible for me to explain all this to you... But I think it's actually because we have been living for far too long now.
+:::'''Master Gongshu:''' When you live for hundreds of years, you grow intolerant of boring, lackluster objects. And so we pay great attention to how things look, and value the outside appearance of things just as much as the inner functionality.
+:::'''Master Gongshu:''' Have I prattled on again about my usual cryptic rants? Heh, whoops~
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the job scope at the Artisanship Commission...
+:::<!--Custom String Listener: TalkSentence_502030125-->
+:::'''Master Gongshu:''' Our job scope? Hmm... Now that's far easier to explain! The Artisanship Commission is responsible for the design, manufacturing, and improvement of almost every single item there is aboard the Xianzhou.
+:::'''Master Gongshu:''' It could be something as small as civilian ingenia, of which I am in charge, or something as large as the Sagittarius Starfighter or a Delve... We do it all. As the saying goes: Human ingenuity is as limitless as the heavens!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What about your apprentices...
+:::<!--Custom String Listener: TalkSentence_502030128-->
+:::'''Master Gongshu:''' I can feel my headache returning already!
+:::'''Master Gongshu:''' Do you know why the Artisanship Commission is predominated by Xianzhou people? It's because the Vidyadhara and the foxians don't live as long as we do.
+:::'''Master Gongshu:''' Technological breakthroughs require the mass accumulation of knowledge, and if there's one thing the Xianzhou people are good at, it's accumulation.
+:::'''Master Gongshu:''' As for my darling apprentices, they've all racked up centuries of education and experience, but not a single one of them have shown any signs of success whatsoever! They're as useless as a chocolate teapot.
+:::'''Master Gongshu:''' I think I've figured this out now, though. At least as far as the field of artifex is concerned, being long-lived is both an advantage and a downfall of the Xianzhou people.
+:::'''Master Gongshu:''' There's another world out there where they self-immolate in the pursuit of knowledge by following the path of the Wisdomwalker. They represent the highest classes of intellect imaginable, but only live for a dozen years or so.
+:::'''Master Gongshu:''' I've seen their artisan before: A mere teenager, haggard beyond his years but frighteningly intelligent &mdash; and close to death. He came aboard the Luofu seeking my tutelage, and I gave him my undivided attention.
+:::'''Master Gongshu:''' That artisan was far below my level, and even worse when it came to knowledge and experience, but he possessed a terrifying ambition, incredible imagination, and a top-notch intuition for design...
+:::'''Master Gongshu:''' He'd study with me during the day, then by night he'd frantically record notes about everything he'd learned and thought throughout the day... I later heard that he'd died on his way back home.
+:::'''Master Gongshu:''' But all of his notes were enough to trigger a technological revolution back in his homelands.
+:::'''Master Gongshu:''' But my darling apprentices! They live far too long! Everything can just be put off until tomorrow, because the tomorrows seemingly never end! They're like wet firewood: They don't burn enough, and even if they catch fire, they just pump out a whole load of useless smoke!
+:::'''Master Gongshu:''' As you know, age has a way of catching up with people! The Xianzhou people are not immune either. It's just that our aging process is stretched out to an impossibly long duration, we feel like we're never getting older.
+:::'''Master Gongshu:''' Sometimes, I even wonder... If we only lived to be teenagers, what kind of Artisanship Commission would we end up with?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I have nothing else to ask.
+:::<!--Custom String Listener: TalkSentence_502030142-->
+:::'''Master Gongshu:''' It's back to the grind for me. Take care out there, and see you next time.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502030103-->
+:{{DIcon|Exit}} I have nothing else to ask.
+::'''Master Gongshu:''' It's back to the grind for me. Take care out there, and see you next time.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Master Gongshu
+|zhs  = 公输师傅
+|zht  = 公輸師傅
+|ja   = 公輸先生
+|ko   = 공수 사부
+|es   = Maestro Gongshu
+|fr   = Maître Gongshu
+|ru   = Мастер Гуншу
+|th   = อาจารย์ Gongshu
+|vi   = Sư Phụ Gongshu
+|de   = Meister Gongshu
+|id   = Master Gongshu
+|pt   = Mestre Gongshu
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,313 @@
+<%-- [PAGE_INFO]
+PageTitle=#Young Master Gold#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Young Master Gold.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Young Master Gold''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_40_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 414030303: Config/Level/Mission/4140303/Act/Act414030303.json-->
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::;(If {{cx}}<!--performance 414034101 has been seen-->)
+::::'''Young Master Gold:''' Tweet! You're an unfamiliar face. Is this your first time in Dreamville, tweet?
+::::{{MC|f=The origami bird takes a fancy bow, then twirls its round body and touches the back of your hand gently.|m=The origami bird takes a fancy bow, then twirls its round body and assumes what seems to be a bow.}}
+::::'''Young Master Gold:''' Welcome, {{MC|f=beautiful lady|m=handsome gentleman}}! Welcome to the town's grandest and most magnificent miracle &mdash; Goldleaf Plaza, tweet!
+::;(If {{cx}}<!--performance 414034101 has not been seen-->)
+::::'''Young Master Gold:''' Tweet? Oh my! If it isn't the kind traveler that I met before, tweet.
+::::'''Young Master Gold:''' Hmm... You're just in time!
+::::'''Young Master Gold:''' Welcome to the town's grandest and most magnificent miracle &mdash; Goldleaf Plaza, tweet!
+:::{{DIcon|Arrow}} Goldleaf Plaza?
+:::<!--Custom String Listener: TalkSentence_414030906-->
+:::'''Young Master Gold:''' That's right, tweet! When we mention Dreamville's architecture, the most famous one will be the Goldleaf Plaza in front of you, {{MC|f=lady|m=gentleman}}, tweet.
+:::'''Young Master Gold:''' Every branch has been placed meticulously, and it's embellished with gold leaves and sparkling jewels, tweet! Combining both aesthetics and utility is none other than Dreamville's Goldleaf Plaza, tweet!
+:::{{DIcon|Arrow}} That's so cool!
+::::<!--Custom String Listener: TalkSentence_414030909-->
+::::'''Young Master Gold:''' Tweet tweet! {{MC|f=Lady|m=Gentleman}}, you do have a good eye, tweet!
+:::{{DIcon|Arrow}} Underwhelming.
+::::<!--Custom String Listener: TalkSentence_414030911-->
+::::'''Young Master Gold:''' Uh-huh, that's fine, tweet! Time will filter out better works out for us, tweet!
+:::{{DIcon|Arrow}} I've met someone like you...
+::::<!--Custom String Listener: TalkSentence_414030913-->
+::::The bright golden hue, that flamboyant tone, the way you flaunt your wealth... You've definitely seen these traits in *someone*.
+::::'''Young Master Gold:''' Oho? Dreamville has guests like that, tweet?
+::::{{DIcon|Arrow}} It's a golden guy.
+:::::<!--Custom String Listener: TalkSentence_414030916-->
+:::::'''Young Master Gold:''' Tweet tweet! Must be a sophisticated artist!
+::::{{DIcon|Arrow}} It's an ostentatious one.
+:::::<!--Custom String Listener: TalkSentence_414030918-->
+:::::'''Young Master Gold:''' Ahem, ahem, I've already toned it down plenty, tweet...
+::::{{DIcon|Arrow}} It's a dangerous one.
+:::::<!--Custom String Listener: TalkSentence_414030920-->
+:::::'''Young Master Gold:''' Hehe, danger can be attractive too, tweet!
+:::::Of course, the danger you speak of doesn't mean this at all.
+:::<!--Custom String Trigger: TalkSentence_414030922-->
+:::<!--Custom String Listener: TalkSentence_414030922-->
+:::'''Young Master Gold:''' A pity, since the actual Goldleaf Plaza should be grander and shinier, tweet!
+:::'''Young Master Gold:''' Everyone loves the Goldleaf Plaza, but there's always an idiot who doesn't appreciate its beauty, and even wants to usurp my creation, tweet!
+:::'''Young Master Gold:''' Many of the gems in the plaza have also been stolen, and my assistants have been scared off by Boss Stone, tweet...
+:::'''Young Master Gold:''' Please help me find those missing birds, tweet!
+:::{{DIcon|Arrow}} I'll help you find them.
+::::<!--Custom String Listener: TalkSentence_414030927-->
+::::'''Young Master Gold:''' Mhmm, quick decision. I wasn't wrong about you being a good helper tweet!
+:::{{DIcon|Arrow}} I'll help you find the gems.
+::::<!--Custom String Listener: TalkSentence_414030929-->
+::::'''Young Master Gold:''' I'm never out of gems, but little old me can't possibly complete the Goldleaf Plaza alone, tweet!
+:::{{DIcon|Arrow}} I'll help you beat people up.
+::::<!--Custom String Listener: TalkSentence_414030931-->
+::::'''Young Master Gold:''' Tweet tweet tweet! Gentle birds battle with their tongues, never their talons, tweet!
+:::<!--Custom String Trigger: TalkSentence_414030932-->
+:::<!--Custom String Listener: TalkSentence_414030932-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 414030304: Config/Level/Mission/4140303/Act/Act414030304.json-->
+:;(All choices lead to the following options)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200012}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Young Master Gold:''' Tweet?
+::::'''Young Master Gold:''' Amazing! You've brought back all the helpers, tweet!
+::::'''Young Master Gold:''' I'm never a scrooge, tweet! Take this reward and gift with you as well!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200012
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200013
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200012}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Inverse":true}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200012}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Young Master Gold:''' Tweet?
+:::::'''Young Master Gold:''' Wonderful! You've brought back so many helpers already, tweet!
+:::::'''Young Master Gold:''' I'm never a scrooge, tweet! Take this gift with you as well!
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200013
+			}
+		}
+	]
+}</pre>
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200012}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Young Master Gold:''' Tweet?
+::::'''Young Master Gold:''' Wonderful! You've brought back so many helpers already, tweet!
+::::'''Young Master Gold:''' Here's the reward that I promised, tweet!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200012
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200013}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200012}},"Inverse":true}-->}})
+::::'''Young Master Gold:''' If you see other birds near the Goldleaf Plaza, get them to return to the Great Tree! Don't worry. I won't skimp on the rewards either, tweet!
+::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Young Master Gold
+|zhs  = 黄金公子
+|zht  = 黃金公子
+|ja   = プリンス・ゴールド
+|ko   = 골드 도련님
+|es   = Joven amo Dorado
+|fr   = Jeune maître Gold
+|ru   = Золотой Господин
+|th   = คุณชายทองคำ
+|vi   = Công Tử Hoàng Kim
+|de   = Prinz Gold
+|id   = Tuan Muda Emas
+|pt   = Jovem Mestre Dourado
+}}
+==Change History==
+{{Change History|TODO}}

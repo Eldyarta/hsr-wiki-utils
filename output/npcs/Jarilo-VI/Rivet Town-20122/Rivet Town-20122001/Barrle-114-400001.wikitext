@@ -1,0 +1,84 @@
+<%-- [PAGE_INFO]
+PageTitle=#Barrle#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Old Weapon Testing Ground Guard
+|image           = NPC Barrle.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Rivet Town
+|relatives       = 
+}}
+'''Barrle''' is an NPC on [[Jarilo-VI]], located in [[Rivet Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Rivet Town|npc_114_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Barrle:''' Hello, I am an IPC employee, I am in charge of welcoming travelers. Are you planning a visit to the Old Weapon Testing Ground?
+:{{DIcon|Arrow}} Lead the way.
+::<!--Custom String Listener: TalkSentence_501190163-->
+::'''Barrle:''' Very well, I hope that your visit shows you the sincere intentions of the IPC.
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2013601
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} Maybe later.
+::<!--Custom String Listener: ALL_TALK_END-->
+::'''Barrle:''' Very well, you are always welcome to visit and view the construction project.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

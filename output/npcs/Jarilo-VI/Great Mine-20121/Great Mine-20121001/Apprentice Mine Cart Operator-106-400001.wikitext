@@ -1,0 +1,191 @@
+<%-- [PAGE_INFO]
+PageTitle=#Apprentice Mine Cart Operator#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Apprentice Mine Cart Operator.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Great Mine
+|relatives       = 
+}}
+'''Apprentice Mine Cart Operator''' is an NPC on [[Jarilo-VI]], located in [[Great Mine]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Great Mine|npc_106_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 201040116-->)
+::<!--Trigger PerformanceE 201040148: Config/Level/Mission/2010401/Act/Act201040138.json-->
+::'''Apprentice Mine Cart Operator:''' The master has a reward for you. It's over there. You've earned it.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040115-->)
+::<!--Trigger PerformanceE 201040105: Config/Level/Mission/2010401/Act/Act_201040105.json-->
+:<pre>{
+	"$type": "RPG.GameCore.WaitPerformanceEnd"
+}</pre>
+::<!--Custom String Trigger: Talk_201040115-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040114-->)
+::<!--Trigger PerformanceE 201040145: Config/Level/Mission/2010401/Act/Act201040145.json-->
+::'''Apprentice Mine Cart Operator:''' I'm exhausted... When can we take a break?
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040112-->)
+::<!--Trigger PerformanceE 201040142: Config/Level/Mission/2010402/Act/Act_201040221.json-->
+::'''Apprentice Mine Cart Operator:''' The master has a new puzzle. Go ask him about it if you're interested.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040111-->)
+::<!--Trigger PerformanceE 201040138: Config/Level/Mission/2010401/Act/Act201040138.json-->
+::'''Apprentice Mine Cart Operator:''' The master has a reward for you. It's over there. You've earned it.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040110-->)
+::<!--Trigger PerformanceE 201040135: Config/Level/Mission/2010401/Act/Act201040135.json-->
+::'''Apprentice Mine Cart Operator:''' Operate the controller, change the track, move forward...
+::'''Apprentice Mine Cart Operator:''' *sigh* That's not right... How does it go again?
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040109-->)
+::<!--Trigger PerformanceE 201040135: Config/Level/Mission/2010401/Act/Act201040135.json-->
+::'''Apprentice Mine Cart Operator:''' Operate the controller, change the track, move forward...
+::'''Apprentice Mine Cart Operator:''' *sigh* That's not right... How does it go again?
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040107-->)
+::<!--Trigger PerformanceE 201040132: Config/Level/Mission/2010402/Act/Act_201040221.json-->
+::'''Apprentice Mine Cart Operator:''' The master has a new puzzle. Go ask him about it if you're interested.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040106-->)
+::<!--Trigger PerformanceE 201040126: Config/Level/Mission/2010401/Act/Act_201040126.json-->
+::'''Apprentice Mine Cart Operator:''' The master has a reward for you. It's over there. You've earned it.
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040105-->)
+::<!--Trigger PerformanceE 201040124: Config/Level/Mission/2010401/Act/Act_201040124.json-->
+::'''Apprentice Mine Cart Operator:''' Operate the controller, change the track, move forward, operate the controller again, and then reverse...
+::'''Apprentice Mine Cart Operator:''' Oh jeez, what a drag. Wish I could do something else with my time...
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040104-->)
+::<!--Trigger PerformanceE 201040124: Config/Level/Mission/2010401/Act/Act_201040124.json-->
+::'''Apprentice Mine Cart Operator:''' Operate the controller, change the track, move forward, operate the controller again, and then reverse...
+::'''Apprentice Mine Cart Operator:''' Oh jeez, what a drag. Wish I could do something else with my time...
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201040102-->)
+::<!--Trigger PerformanceE 201040102: Config/Level/Mission/2010401/Act/Act_201040102.json-->
+::'''Senior Mine Cart Operator:''' Watch carefully. This thing is called the turntable controller. You put your hand here, and then do this...
+::'''Senior Mine Cart Operator:''' ...Just where did you pop out from? Do you need me for something?
+::{{DIcon|Arrow}} I'm sent here to be your assistant instructor.
+:::<!--Custom String Listener: TalkSentence_701060117-->
+:::'''Senior Mine Cart Operator:''' Huh? What assistant instructor...
+:::'''Senior Mine Cart Operator:''' Oh... I see. Antonia sent you here, didn't she?
+::{{DIcon|Arrow}} Antonia asked me to come.
+:::<!--Custom String Listener: TalkSentence_701060120-->
+:::'''Senior Mine Cart Operator:''' What? Antonia sent you here?
+:::'''Senior Mine Cart Operator:''' Oh... I see. You must be that "assistant instructor," right?
+::<!--Custom String Trigger: TalkSentence_701060123-->
+::<!--Custom String Listener: TalkSentence_701060123-->
+::'''Senior Mine Cart Operator:''' *sigh* That girl always makes decisions for me without first consulting me. I've told her many times that I can deal with this myself...
+::'''Senior Mine Cart Operator:''' But now that you're here, I can't let you just hang around and do nothing.
+::{{DIcon|Arrow}} Let's get started.
+:::<!--Custom String Listener: TalkSentence_701060125-->
+:::'''Senior Mine Cart Operator:''' Alright, come give me a hand. Help me set things up.
+::{{DIcon|Arrow}} I am happy to just hang around.
+:::<!--Custom String Listener: TalkSentence_701060127-->
+:::'''Senior Mine Cart Operator:''' Ha, good one. We have a rule in the mines &mdash; less talking and more working. I'll however let you take a break after the work's done.
+::<!--Custom String Trigger: AllTalk_End-->
+::<!--Custom String Listener: AllTalk_End-->
+::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 201040150: Config/Level/Mission/2010402/Act/Act_201040226.json-->
+::'''Apprentice Mine Cart Operator:''' ... Oh, it's you. My master is still preparing his new puzzle, so I'm taking the chance to relax for a while...
+::{{DIcon|Arrow}} I still have some more questions...
+:::<!--Custom String Listener: 701060603_Ask-->
+:::{{DIcon|Talk}} What drove you to become a mine cart operator?
+::::<!--Custom String Listener: 701060603_Ask_Mineboy-->
+::::'''Apprentice Mine Cart Operator:''' Hmm? Why the sudden interest?
+::::'''Apprentice Mine Cart Operator:''' Well, I guess, life happens. You see, my parents... they died a long time ago. My master, who was a friend of my father, adopted me.
+::::'''Apprentice Mine Cart Operator:''' The old man has been very good to me. I know he's worried that I wouldn't be able to make a good living in Belobog without the right skills. I guess that's why he decided to pass his skills to me.
+::::'''Apprentice Mine Cart Operator:''' But I just can't help being lazy... I mean, that's okay, right? I'm still young, so I still have plenty of time...
+::::<!--Custom String Trigger: 701060603_Ask-->
+::::<!--Custom String Listener: 701060603_Ask-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Have you been working in these mines for a long time?
+:::::<!--Custom String Listener: 701060603_Ask_Time-->
+:::::'''Apprentice Mine Cart Operator:''' My master said that the mine cart operator is the lifeblood of the mine. The operator ensures the Geomarrow can be continuously transported out of the depths of the mine.
+:::::'''Apprentice Mine Cart Operator:''' Geomarrow can only be delivered to the place it's supposed to go through the tracks we lay.
+:::::'''Apprentice Mine Cart Operator:''' I mean it sounds pretty important... But still I want to do something much bigger in life. I don't want to be trapped in these mines forever.
+:::::'''Apprentice Mine Cart Operator:''' Forget it. I guess there's no point thinking so far ahead... I have to stay here for the time being to repay the debt of kindness I owe to my master. If I think like this, I feel more at ease.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} That's all the questions I have.
+:::::<!--Custom String Listener: 701060603_Cancel-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Have you been working in these mines for a long time?
+::::<!--Custom String Listener: 701060603_Ask_Time-->
+::::'''Apprentice Mine Cart Operator:''' My master said that the mine cart operator is the lifeblood of the mine. The operator ensures the Geomarrow can be continuously transported out of the depths of the mine.
+::::'''Apprentice Mine Cart Operator:''' Geomarrow can only be delivered to the place it's supposed to go through the tracks we lay.
+::::'''Apprentice Mine Cart Operator:''' I mean it sounds pretty important... But still I want to do something much bigger in life. I don't want to be trapped in these mines forever.
+::::'''Apprentice Mine Cart Operator:''' Forget it. I guess there's no point thinking so far ahead... I have to stay here for the time being to repay the debt of kindness I owe to my master. If I think like this, I feel more at ease.
+::::<!--Custom String Trigger: 701060603_Ask-->
+::::<!--Custom String Listener: 701060603_Ask-->
+::::{{DIcon|Talk}} What drove you to become a mine cart operator?
+:::::<!--Custom String Listener: 701060603_Ask_Mineboy-->
+:::::'''Apprentice Mine Cart Operator:''' Hmm? Why the sudden interest?
+:::::'''Apprentice Mine Cart Operator:''' Well, I guess, life happens. You see, my parents... they died a long time ago. My master, who was a friend of my father, adopted me.
+:::::'''Apprentice Mine Cart Operator:''' The old man has been very good to me. I know he's worried that I wouldn't be able to make a good living in Belobog without the right skills. I guess that's why he decided to pass his skills to me.
+:::::'''Apprentice Mine Cart Operator:''' But I just can't help being lazy... I mean, that's okay, right? I'm still young, so I still have plenty of time...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} That's all the questions I have.
+:::::<!--Custom String Listener: 701060603_Cancel-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} That's all the questions I have.
+::::<!--Custom String Listener: 701060603_Cancel-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Nothing else.
+:::<!--Custom String Listener: 701060603_Cancel-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

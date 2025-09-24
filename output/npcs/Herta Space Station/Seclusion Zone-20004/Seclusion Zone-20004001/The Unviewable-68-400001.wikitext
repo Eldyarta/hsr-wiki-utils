@@ -1,0 +1,127 @@
+<%-- [PAGE_INFO]
+PageTitle=#"The Unviewable"#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Buffering
+|image           = NPC "The Unviewable".png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''"The Unviewable"''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_68_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000183: Config/Level/Mission/5000030/Act/Act900000183.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500018401
+	]
+}</pre>
+::'''"The Unviewable":''' 503 tasks pending. Now handling Task #113. Please do not disturb.
+::'''"The Unviewable":''' Please do not disturb... Please do not... Please do not...
+::The little robot suddenly crashes. You decide to...
+::{{DIcon|Arrow}} Force shutdown and reboot!
+::{{DIcon|Arrow}} Disconnect and reconnect.
+::<!--Custom String Listener: TalkSentence_500018307-->
+::A cold robotic voice comes. "Verification initiated. Verification successful. Scanning..."
+::The space station seems to have learned from past lessons by installing a verification program into the function keys of the little robot.
+::What is going on? You are puzzled.
+::'''"The Unviewable":''' Task queue cleared! Current status: Idle. No tasks found. Chatting mode activated.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000184: Config/Level/Mission/5000030/Act/Act900000184.json-->
+::'''"The Unviewable":''' 503 tasks pending. Now handling Task #113. Please do not disturb.
+::'''"The Unviewable":''' Signs of life detected within the field of vision. Identification in progress... Identification successful... Chatting mode automatically activated.
+:'''"The Unviewable":''' Welcome to the counseling and chatting function! What can I do for you?
+:'''"The Unviewable":''' If you are just here for a chat, please be rest assured that the private mode has been activated. I'll provide a safe and private space for you.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to ask...
+::<!--Custom String Trigger: Wait_Option_900000185_1018-->
+::<!--Custom String Listener: Wait_Option_900000185_1018-->
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_500018504-->
+:::'''"The Unviewable":''' I'm designed to provide all kinds of services and support for the space station. Someone sent me here to fix a damaged area.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is your name randomly generated?
+:::<!--Custom String Listener: TalkSentence_500018506-->
+:::'''"The Unviewable":''' No. My name is given by the logistics team.
+:::'''"The Unviewable":''' Are you inquiring about the robot naming feature? Space station researchers are authorized to change my name. Please update me after one natural month, or the changes will not take effect.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's the meaning of your name?
+:::<!--Custom String Listener: TalkSentence_500018509-->
+:::'''"The Unviewable":''' My current name is "No. 76854".
+:::'''"The Unviewable":''' Oh, I see what you mean... Extracting video clip. Please wait...
+:::The little robot plays a video for you, showing several energetic creations of Ruan Mei trying to communicate with it. The robot, however, only mechanically repeats its cleaning task and did not respond.
+:::After the little robot ignored the creations' request to interact for the 190th time, the creatures gave the Little Robot a name full of negative sentiments &mdash; The Unviewable &mdash; to "honor" how boring and rigid it was.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500018514-->
+:::'''"The Unviewable":''' Glad to be at your service. See you next time.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''"The Unviewable":''' Beep... beep... The call has ended.
+::The little robot gets busy again.
+::'''"The Unviewable":''' Currently busy. Please do not disturb. Please do not disturb.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Little Robot
+|zhs  = 小机器人
+|zht  = 小機器人
+|ja   = 小さなロボット
+|ko   = 소형 로봇
+|es   = Robot pequeño
+|fr   = Petit robot
+|ru   = Маленький робот
+|th   = หุ่นยนต์จิ๋ว
+|vi   = Robot Nhỏ
+|de   = Kleiner Roboter
+|id   = Robot Kecil
+|pt   = Robozinho
+}}
+==Change History==
+{{Change History|TODO}}

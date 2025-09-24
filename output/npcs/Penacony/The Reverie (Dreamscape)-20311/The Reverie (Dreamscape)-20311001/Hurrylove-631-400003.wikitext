@@ -1,0 +1,96 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hurrylove#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Billboard in Love
+|image           = NPC Hurrylove.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Hurrylove''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_631_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051203: Config/Level/Mission/5030510/Act/Act503051203.json-->
+::'''Hurrylove:''' I can't help but cry watching their story. I will always let out a cheer for true love.
+::'''Hurrylove:''' Look, they are such a perfect match! I can't help but admire and envy them!
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051234-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Hurrylove:''' My true love, I met her long ago, but... Where is she now?
+::{{DIcon|Arrow}} I want to know what you think about this lounge.
+:::<!--Custom String Listener: TalkSentence_503051236-->
+:::'''Hurrylove:''' I love this place! It's got a sweet aroma in the air!
+:::'''Hurrylove:''' That mysterious drinksmith, she has a similar charm and kindness as my beloved, yet she is heroic and bold, too! It is a shame that my heart has already been taken, and I have no space for another.
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051239-->
+:::'''Hurrylove:''' You mean... No, impossible, my love is resolute and will not be swayed!
+:::'''Hurrylove:''' She has stolen my heart, no specially mixed drink or secret monster-calming technique will shake my faith in love!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051206: Config/Level/Mission/5030510/Act/Act503051206.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hurrylove
+|zhs  = 爱遇见
+|zht  = 愛遇見
+|ja   = ストー・キング
+|ko   = 금사빠
+|es   = Enam Orado
+|fr   = Hamza Mour
+|ru   = Воздыхатель
+|th   = รอเอ๋ยรอรัก
+|vi   = Gặp Gỡ Tình Yêu
+|de   = Hurrylove
+|id   = CintaBersemi
+|pt   = VemMozão
+}}
+==Change History==
+{{Change History|TODO}}

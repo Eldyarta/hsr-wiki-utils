@@ -1,0 +1,358 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maintenance Engineer#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = A Man Who Wishes Not to Be Named
+|image           = NPC Maintenance Engineer.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Supply Zone
+|relatives       = 
+}}
+'''Maintenance Engineer''' is an NPC on [[Herta Space Station]], located in [[Supply Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Supply Zone|npc_11_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200030112,
+		"Type": "submission_state_equal",
+		"Param1": 200030112,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200030112: Config/Level/Mission/2000301/Act/Act200030112.json-->
+:'''Maintenance Engineer:''' Sorry &mdash; huff puff &mdash; I'm sorry!
+:'''Maintenance Engineer:''' Are you (Trailblazer)? Asta already gave me a heads up that you are going to come use the terminal.
+:'''Maintenance Engineer:''' I'm terribly sorry. The computer system in the next room suddenly initiated an auto-update. The researchers didn't have time to save their results. So I went to help them just now.
+:<!--Custom String Trigger: Wait_Option_2000306_198-->
+:<!--Custom String Listener: Wait_Option_2000306_198-->
+:{{DIcon|Arrow}} The terminal did not respond.
+:{{DIcon|Arrow}} Prompted error code 505?
+:<!--Custom String Listener: TalkSentence_200030610-->
+:'''Maintenance Engineer:''' Ahh, I didn't connect the data to the terminal while I was away. Let me turn it on. It'll just take a second...
+:'''Maintenance Engineer:''' It's all set now! Please verify your identity again. And the results will come up when you input your query.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200030112-->
+<pre>
+[
+	{
+		"ID": 200030205,
+		"Type": "submission_state_equal",
+		"Param1": 200030205,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200030205: Config/Level/Mission/2000301/Act/Act200030205.json-->
+:'''Maintenance Engineer:''' What's wrong?
+:<!--Custom String Trigger: Wait_Option_2000307_217-->
+:<!--Custom String Listener: Wait_Option_2000307_217-->
+:{{DIcon|Arrow}} I only found one record.
+::<!--Custom String Listener: TalkSentence_200030703-->
+::'''Maintenance Engineer:''' Good... Oh, you mean you couldn't find the others?
+:{{DIcon|Arrow}} "Insufficient computing power. Try again later?"
+::<!--Custom String Listener: TalkSentence_200030705-->
+::'''Maintenance Engineer:''' Oh, that's normal. The terminal is not broken. It's nothing to worry about.
+:<!--Custom String Trigger: TalkSentence_200030706-->
+:<!--Custom String Listener: TalkSentence_200030706-->
+:'''Maintenance Engineer:''' Although, it won't be operational until tomorrow.
+:<!--Custom String Trigger: Wait_Option_2000307_224-->
+:<!--Custom String Listener: Wait_Option_2000307_224-->
+:{{DIcon|Arrow}} Why?
+:<!--Custom String Listener: TalkSentence_200030708-->
+:'''Maintenance Engineer:''' Because the station was invaded. Originally, we had more than one terminal, connecting units on a much larger scale.
+:<!--Custom String Trigger: TalkSentence_200030709-->
+:<!--Custom String Listener: TalkSentence_200030709-->
+:'''Maintenance Engineer:''' During that debacle, some units were damaged. The computing power of the terminal was thus greatly decreased, not to mention it's only running on a single-core processor right now...
+:'''Maintenance Engineer:''' The lead researcher said she was going to purchase new equipment. But it hasn't arrived yet. Therefore, with the current computing power, you can only query once a day.
+:'''Maintenance Engineer:''' And the current identity verification program has to be activated manually by me every day, so... please {{Color|keyword|nobold=1|come back tomorrow}}. Don't forget to ask me to turn on the verification.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200030205-->
+<pre>
+[
+	{
+		"ID": 200030301,
+		"Type": "submission_state_equal",
+		"Param1": 200030301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200030301: Config/Level/Mission/2000301/Act/Act200030301.json-->
+:'''Maintenance Engineer:''' Here you are!
+:<!--Custom String Trigger: Wait_Option_2000308_237-->
+:<!--Custom String Listener: Wait_Option_2000308_237-->
+:{{DIcon|Arrow}} Please turn on the terminal for me.
+:<!--Custom String Listener: TalkSentence_200030803-->
+:'''Maintenance Engineer:''' Yup, here you go! The optical identity verification program has been set up. The terminal has sufficient computing power. Please feel free to use it.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200030301-->
+<pre>
+[
+	{
+		"ID": 200030306,
+		"Type": "submission_state_equal",
+		"Param1": 200030306,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200030306: Config/Level/Mission/2000301/Act/Act200030306.json-->
+:'''Maintenance Engineer:''' What? Is it broken again?
+:<!--Custom String Trigger: Wait_Option_2000309_252-->
+:<!--Custom String Listener: Wait_Option_2000309_252-->
+:{{DIcon|Arrow}} It kept asking me to refresh...
+::<!--Custom String Listener: TalkSentence_200030903-->
+::'''Maintenance Engineer:''' It seems to be some compatibility issues...
+:{{DIcon|Arrow}} Broken "again?"
+::<!--Custom String Listener: TalkSentence_200030905-->
+::'''Maintenance Engineer:''' Well, it sometimes breaks down during maintenance.
+:<!--Custom String Trigger: TalkSentence_200030906-->
+:<!--Custom String Listener: TalkSentence_200030906-->
+:'''Maintenance Engineer:''' Oh no! This is caused by the old units I installed into the terminal today. They looked good to me at the time and I thought they could boost the terminal's computing power.
+:'''Maintenance Engineer:''' Looks like we'll have to wait until the replacement units are delivered.
+:'''Maintenance Engineer:''' Sorry, please give me some time. Let me remove these units. I assure you the existing computing power won't be affected.
+:'''Maintenance Engineer:''' However, I'm afraid you'll have to {{Color|keyword|nobold=1|come back tomorrow}}. I'm sure by tomorrow there will have been sufficient computing power!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200030306-->
+<pre>
+[
+	{
+		"ID": 200030401,
+		"Type": "submission_state_equal",
+		"Param1": 200030401,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200030401: Config/Level/Mission/2000301/Act/Act200030401.json-->
+:'''Maintenance Engineer:''' We've got enough computing power today. I've reported it to the lead researcher. She said she expects you to get this done today.
+:'''Maintenance Engineer:''' Please let me know when you are done. I'll need to reinforce the terminal's security system.
+:<!--Custom String Trigger: Wait_Option_2000310_269-->
+:<!--Custom String Listener: Wait_Option_2000310_269-->
+:{{DIcon|Arrow}} Sure. Please turn on the terminal for me.
+:<!--Custom String Listener: TalkSentence_200031004-->
+:'''Maintenance Engineer:''' The optical identity verification program is all set. The terminal has sufficient computing power. Please help yourself!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200030401-->
+<pre>
+[
+	{
+		"ID": 200030404,
+		"Type": "submission_state_equal",
+		"Param1": 200030404,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200030404: Config/Level/Mission/2000301/Act/Act200030404.json-->
+:'''Maintenance Engineer:''' Are you done?
+:<!--Custom String Trigger: Wait_Option_2000310_279-->
+:<!--Custom String Listener: Wait_Option_2000310_279-->
+:{{DIcon|Arrow}} Yes, I think I got the result.
+:<!--Custom String Listener: TalkSentence_200031012-->
+:'''Maintenance Engineer:''' Okay. According to the space station data center's regulations, your query access will be terminated as soon as you leave the terminal room. Thank you for your cooperation.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200030404-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 200030112
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200030205
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200030301
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200030306
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200030401
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200030404
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 200030112-->)
+:{{DIcon}} Sensitive Beings (I)
+::<!--Trigger PerformanceE 200030112: Config/Level/Mission/2000301/Act/Act200030112.json-->
+::'''Maintenance Engineer:''' Sorry &mdash; huff puff &mdash; I'm sorry!
+::'''Maintenance Engineer:''' Are you (Trailblazer)? Asta already gave me a heads up that you are going to come use the terminal.
+::'''Maintenance Engineer:''' I'm terribly sorry. The computer system in the next room suddenly initiated an auto-update. The researchers didn't have time to save their results. So I went to help them just now.
+::<!--Custom String Trigger: Wait_Option_2000306_198-->
+::<!--Custom String Listener: Wait_Option_2000306_198-->
+::{{DIcon|Arrow}} The terminal did not respond.
+::{{DIcon|Arrow}} Prompted error code 505?
+::<!--Custom String Listener: TalkSentence_200030610-->
+::'''Maintenance Engineer:''' Ahh, I didn't connect the data to the terminal while I was away. Let me turn it on. It'll just take a second...
+::'''Maintenance Engineer:''' It's all set now! Please verify your identity again. And the results will come up when you input your query.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200030112-->
+;(If {{cx}}<!--SubMission Started: 200030205--> and {{cx}}<!--SubMission Started: 200030112-->)
+:{{DIcon}} Sensitive Beings (I)
+::<!--Trigger PerformanceE 200030205: Config/Level/Mission/2000301/Act/Act200030205.json-->
+::'''Maintenance Engineer:''' What's wrong?
+::<!--Custom String Trigger: Wait_Option_2000307_217-->
+::<!--Custom String Listener: Wait_Option_2000307_217-->
+::{{DIcon|Arrow}} I only found one record.
+:::<!--Custom String Listener: TalkSentence_200030703-->
+:::'''Maintenance Engineer:''' Good... Oh, you mean you couldn't find the others?
+::{{DIcon|Arrow}} "Insufficient computing power. Try again later?"
+:::<!--Custom String Listener: TalkSentence_200030705-->
+:::'''Maintenance Engineer:''' Oh, that's normal. The terminal is not broken. It's nothing to worry about.
+::<!--Custom String Trigger: TalkSentence_200030706-->
+::<!--Custom String Listener: TalkSentence_200030706-->
+::'''Maintenance Engineer:''' Although, it won't be operational until tomorrow.
+::<!--Custom String Trigger: Wait_Option_2000307_224-->
+::<!--Custom String Listener: Wait_Option_2000307_224-->
+::{{DIcon|Arrow}} Why?
+::<!--Custom String Listener: TalkSentence_200030708-->
+::'''Maintenance Engineer:''' Because the station was invaded. Originally, we had more than one terminal, connecting units on a much larger scale.
+::<!--Custom String Trigger: TalkSentence_200030709-->
+::<!--Custom String Listener: TalkSentence_200030709-->
+::'''Maintenance Engineer:''' During that debacle, some units were damaged. The computing power of the terminal was thus greatly decreased, not to mention it's only running on a single-core processor right now...
+::'''Maintenance Engineer:''' The lead researcher said she was going to purchase new equipment. But it hasn't arrived yet. Therefore, with the current computing power, you can only query once a day.
+::'''Maintenance Engineer:''' And the current identity verification program has to be activated manually by me every day, so... please {{Color|keyword|nobold=1|come back tomorrow}}. Don't forget to ask me to turn on the verification.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200030205-->
+;(If {{cx}}<!--SubMission Started: 200030301-->, {{cx}}<!--SubMission Started: 200030205-->, and {{cx}}<!--SubMission Started: 200030112-->)
+:{{DIcon}} Sensitive Beings (I)
+::<!--Trigger PerformanceE 200030301: Config/Level/Mission/2000301/Act/Act200030301.json-->
+::'''Maintenance Engineer:''' Here you are!
+::<!--Custom String Trigger: Wait_Option_2000308_237-->
+::<!--Custom String Listener: Wait_Option_2000308_237-->
+::{{DIcon|Arrow}} Please turn on the terminal for me.
+::<!--Custom String Listener: TalkSentence_200030803-->
+::'''Maintenance Engineer:''' Yup, here you go! The optical identity verification program has been set up. The terminal has sufficient computing power. Please feel free to use it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200030301-->
+;(If {{cx}}<!--SubMission Started: 200030306-->, {{cx}}<!--SubMission Started: 200030301-->, {{cx}}<!--SubMission Started: 200030205-->, and {{cx}}<!--SubMission Started: 200030112-->)
+:{{DIcon}} Sensitive Beings (I)
+::<!--Trigger PerformanceE 200030306: Config/Level/Mission/2000301/Act/Act200030306.json-->
+::'''Maintenance Engineer:''' What? Is it broken again?
+::<!--Custom String Trigger: Wait_Option_2000309_252-->
+::<!--Custom String Listener: Wait_Option_2000309_252-->
+::{{DIcon|Arrow}} It kept asking me to refresh...
+:::<!--Custom String Listener: TalkSentence_200030903-->
+:::'''Maintenance Engineer:''' It seems to be some compatibility issues...
+::{{DIcon|Arrow}} Broken "again?"
+:::<!--Custom String Listener: TalkSentence_200030905-->
+:::'''Maintenance Engineer:''' Well, it sometimes breaks down during maintenance.
+::<!--Custom String Trigger: TalkSentence_200030906-->
+::<!--Custom String Listener: TalkSentence_200030906-->
+::'''Maintenance Engineer:''' Oh no! This is caused by the old units I installed into the terminal today. They looked good to me at the time and I thought they could boost the terminal's computing power.
+::'''Maintenance Engineer:''' Looks like we'll have to wait until the replacement units are delivered.
+::'''Maintenance Engineer:''' Sorry, please give me some time. Let me remove these units. I assure you the existing computing power won't be affected.
+::'''Maintenance Engineer:''' However, I'm afraid you'll have to {{Color|keyword|nobold=1|come back tomorrow}}. I'm sure by tomorrow there will have been sufficient computing power!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200030306-->
+;(If {{cx}}<!--SubMission Started: 200030401-->, {{cx}}<!--SubMission Started: 200030306-->, {{cx}}<!--SubMission Started: 200030301-->, {{cx}}<!--SubMission Started: 200030205-->, and {{cx}}<!--SubMission Started: 200030112-->)
+:{{DIcon}} Sensitive Beings (I)
+::<!--Trigger PerformanceE 200030401: Config/Level/Mission/2000301/Act/Act200030401.json-->
+::'''Maintenance Engineer:''' We've got enough computing power today. I've reported it to the lead researcher. She said she expects you to get this done today.
+::'''Maintenance Engineer:''' Please let me know when you are done. I'll need to reinforce the terminal's security system.
+::<!--Custom String Trigger: Wait_Option_2000310_269-->
+::<!--Custom String Listener: Wait_Option_2000310_269-->
+::{{DIcon|Arrow}} Sure. Please turn on the terminal for me.
+::<!--Custom String Listener: TalkSentence_200031004-->
+::'''Maintenance Engineer:''' The optical identity verification program is all set. The terminal has sufficient computing power. Please help yourself!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200030401-->
+;(If {{cx}}<!--SubMission Started: 200030404-->, {{cx}}<!--SubMission Started: 200030401-->, {{cx}}<!--SubMission Started: 200030306-->, {{cx}}<!--SubMission Started: 200030301-->, {{cx}}<!--SubMission Started: 200030205-->, and {{cx}}<!--SubMission Started: 200030112-->)
+:{{DIcon}} Sensitive Beings (I)
+::<!--Trigger PerformanceE 200030404: Config/Level/Mission/2000301/Act/Act200030404.json-->
+::'''Maintenance Engineer:''' Are you done?
+::<!--Custom String Trigger: Wait_Option_2000310_279-->
+::<!--Custom String Listener: Wait_Option_2000310_279-->
+::{{DIcon|Arrow}} Yes, I think I got the result.
+::<!--Custom String Listener: TalkSentence_200031012-->
+::'''Maintenance Engineer:''' Okay. According to the space station data center's regulations, your query access will be terminated as soon as you leave the terminal room. Thank you for your cooperation.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200030404-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maintenance Engineer
+|zhs  = 维修工程师
+|zht  = 維修工程師
+|ja   = メンテナンスエンジニア
+|ko   = 수리 엔지니어
+|es   = Ingeniero de mantenimiento
+|fr   = Ingénieur de maintenance
+|ru   = Инженер по техническому обслуживанию
+|th   = วิศวกรซ่อมบำรุง
+|vi   = Kỹ Sư Sửa Chữa
+|de   = Wartungstechniker
+|id   = Insinyur Pemeliharaan
+|pt   = Engenheiro de Manutenção
+}}
+==Change History==
+{{Change History|TODO}}

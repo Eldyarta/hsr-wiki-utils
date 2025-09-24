@@ -1,0 +1,853 @@
+<%-- [PAGE_INFO]
+PageTitle=#Balaway the Miner's Lamp#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ancient Relic Appraiser
+|image           = NPC Balaway the Miner's Lamp.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Balaway the Miner's Lamp''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_3_400010}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201050118,
+		"Type": "submission_state_equal",
+		"Param1": 201050118,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceD 201050118: Config/Level/Mission/2010501/Act/Act201050118.json-->
+----
+:{{A|VO Side1 hk1 balaway 101.ogg}} '''Balaway:''' I'm already retired from appraising ancient relics. So unless this detector is some kind of precious treasure...
+:{{A|VO Side1 hk1 hook 195.ogg}} '''Hook:''' Look at this! The detector's probe broke off, can you fix it?
+:{{A|VO Side1 hk1 balaway 102.ogg}} '''Balaway:''' ...
+:{{A|VO Side1 hk1 balaway 103.ogg}} '''Balaway:''' Oh ho ho, this certainly is a rare relic! Let me take a closer look...
+:{{A|VO Side1 hk1 hook 196.ogg}} '''Hook:''' Yes, look extra close! You have to help Hook fix it!
+:{{A|VO Side1 hk1 balaway 104.ogg}} '''Balaway:''' This device... I've been in the business for a long time, but never have I seen an ancient relic like this one before.
+:{{A|VO Side1 hk1 balaway 105.ogg}} '''Balaway:''' I think this is probably beyond repair. But still, it is a rare treasure. Even broken, I'd be willing to pay a high price for it. What do you say?
+:{{DIcon|Arrow}} Can we trust your appraisal?
+::<!--Custom String Listener: TalkSentence_201214209-->
+::{{A|VO Side1 hk1 balaway 106.ogg}} '''Balaway:''' The detector's probe is gone, it's like searching for something without eyes or ears. Now it's nothing more than a pile of junk with no practical value.
+::{{A|VO Side1 hk1 balaway 107.ogg}} '''Balaway:''' I'm willing to offer a generous price for this thing. So, do you want to sell it or not?
+:{{DIcon|Arrow}} Can you tell me more about it? I intend to sell it.
+::<!--Custom String Listener: TalkSentence_201214210-->
+::{{A|VO Side1 hk1 balaway 108.ogg}} '''Balaway:''' The detector's probe is gone, it's like searching for something without eyes or ears. Who's going to want a pile of junk?
+::{{A|VO Side1 hk1 balaway 109.ogg}} '''Balaway:''' I don't believe any other stores will buy it off you. Come on, I'll give you a nice deal.
+:<!--Custom String Trigger: TalkSentence_201214213-->
+:<!--Custom String Listener: TalkSentence_201214213-->
+:{{A|VO Side1 hk1 hook 197.ogg}} '''Hook:''' ...
+:{{DIcon|Arrow}} Boss, I think we should go.
+:{{DIcon|Arrow}} Maybe we should let Fersman decide what to do with it.
+:{{DIcon|Arrow}} We aren't going to sell it to you, you crooked profiteer!
+:<!--Custom String Listener: TalkSentence_201214214-->
+:{{A|VO Side1 hk1 hook 198.ogg}} '''Hook:''' ...
+:{{A|VO Side1 hk1 hook 199.ogg}} '''Hook:''' Alright then, let's go find daddy...
+----
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 201050118_F-->
+<pre>
+[
+	{
+		"ID": 201090214,
+		"Type": "submission_state_equal",
+		"Param1": 201090301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201090214: Config/Level/Mission/2010902/Act/Act201090214.json-->
+:<!--Custom String Trigger: TalkSentence_201235902-->
+:<!--Custom String Listener: TalkSentence_201235902-->
+:{{A|VO Side1 hk3 balaway 101.ogg}} '''Balaway:''' Oh-ho? Did a little bird tell you? Alright, I won't pretend otherwise. Yes, old man Fersman sold it to me.
+:{{A|VO Side1 hk3 balaway 102.ogg}} '''Balaway:''' Sadly, I wasn't able to get hold of the Geomarrow Probe... *sigh* What good is this detector on its own?
+:<!--Custom String Trigger: Wait_Option_2012359_11-->
+:<!--Custom String Listener: Wait_Option_2012359_11-->
+:{{DIcon|Arrow}} Did you send the thief to steal the detector?
+::<!--Custom String Listener: TalkSentence_201235905-->
+::{{A|VO Side1 hk3 balaway 103.ogg}} '''Balaway:''' Thief? I didn't send a thief.
+::{{A|VO Side1 hk3 balaway 104.ogg}} '''Balaway:''' I did arrange for a young apprentice to attend the auction, but he lost out in the bidding.
+:{{DIcon|Arrow}} You didn't attend the auction?
+::<!--Custom String Listener: TalkSentence_201235908-->
+::{{A|VO Side1 hk3 balaway 105.ogg}} '''Balaway:''' I arranged for a young apprentice to attend the auction, but he lost out in the bidding.
+:{{DIcon|Arrow}} Aren't you a scrap collector?
+::<!--Custom String Listener: TalkSentence_201235910-->
+::{{A|VO Side1 hk3 balaway 106.ogg}} '''Balaway:''' Hmph, clearly you don't understand the value of ancient relics.
+:<!--Custom String Trigger: TalkSentence_201235911-->
+:<!--Custom String Listener: TalkSentence_201235911-->
+:{{A|VO Side1 hk3 balaway 107.ogg}} '''Balaway:''' Shame, it's becoming increasingly difficult to find a Geomarrow Probe... The more I think about it, the more I realize that this deal was a big mistake... *sigh*
+:<!--Custom String Trigger: Wait_Option_2012359_21-->
+:<!--Custom String Listener: Wait_Option_2012359_21-->
+:{{DIcon|Arrow}} Why not just sell it to Fersman?
+::<!--Custom String Listener: TalkSentence_201235913-->
+::{{A|VO Side1 hk3 balaway 108.ogg}} '''Balaway:''' Fersman wouldn't want to be the sucker, would he? But maybe I should ask him... It would be great to get rid of it as early as possible...
+:{{DIcon|Arrow}} Fersman has the Geomarrow Probe.
+::<!--Custom String Listener: TalkSentence_201235915-->
+::{{A|VO Side1 hk3 balaway 109.ogg}} '''Balaway:''' ...Really?
+::{{A|VO Side1 hk3 balaway 110.ogg}} '''Balaway:''' Hmph, I'll give you the benefit of the doubt... Let me find Fersman and ask if he intends to sell the probe.
+:{{DIcon|Arrow}} Maybe one day you'll find it.
+::<!--Custom String Listener: TalkSentence_201235918-->
+::{{A|VO Side1 hk3 balaway 111.ogg}} '''Balaway:''' Do you think I don't know how rare that probe is? I need to find out who that buyer at the auction was...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201090214-->
+:<!--Custom String Trigger: Wait_Option_5010289_20-->
+:<!--Custom String Listener: Wait_Option_5010289_20-->
+:{{DIcon|Talk}} What are relics?
+::<!--Custom String Listener: TalkSentence_501028912-->
+::'''Balaway:''' ...Are you sure you're not here to mess with me?
+::'''Balaway:''' Fine, fine. I understand. You are an Outsider. It's normal that you don't know the history of Belobog.
+::'''Balaway:''' Now that you've asked, let me explain to you. Do you know the "Eternal Freeze?"
+::<!--Custom String Trigger: Wait_Option_5010289_25-->
+::<!--Custom String Listener: Wait_Option_5010289_25-->
+::{{DIcon|Arrow}} Yes.
+:::<!--Custom String Listener: TalkSentence_501028916-->
+:::'''Balaway:''' Good. You seem to know some of the history here.
+:::<!--Custom String Trigger: TalkSentence_501028919-->
+:::<!--Custom String Listener: TalkSentence_501028919-->
+:::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I don't know.
+:::<!--Custom String Listener: TalkSentence_501028918-->
+:::'''Balaway:''' ...Are you really from the Outside? You are not lying?
+:::<!--Custom String Trigger: TalkSentence_501028919-->
+:::<!--Custom String Listener: TalkSentence_501028919-->
+:::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What have you appraised?
+::<!--Custom String Listener: TalkSentence_501028926-->
+::'''Balaway:''' Ha! Too many! I can keep talking about it for two or three days.
+::'''Balaway:''' But the most interesting thing is the torture device from the Old World.
+::'''Balaway:''' Like... collar around the neck or anvil that automatically heats up? Tsk tsk, the life of criminals in the Old World must be hard.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What is your appraisal process?
+::<!--Custom String Listener: TalkSentence_501028930-->
+::'''Balaway:''' Well... First of all, people bring their relics to me, okay?
+::'''Balaway:''' After it is handed over to me, I will start to evaluate it. After the appraisal, I will tell them the relevant functions and a price reference.
+::'''Balaway:''' Basically, that's it. The last step is I'll charge according to the difficulty of appraisal.
+::<!--Custom String Trigger: Wait_Option_5010289_45-->
+::<!--Custom String Listener: Wait_Option_5010289_45-->
+::{{DIcon|Arrow}} I'm interested in your appraisal method.
+::{{DIcon|Arrow}} How do you distinguish the difficulty of the appraisal?
+::<!--Custom String Listener: TalkSentence_501028935-->
+::'''Balaway:''' It's a bit complicated. Most smaller items have relatively simple structures. You can find out its function structure by referring to respective documents.
+::'''Balaway:''' The bigger items are the real trouble. Generally speaking, I have to disassemble them and check everything carefully.
+::<!--Custom String Trigger: Wait_Option_5010289_51-->
+::<!--Custom String Listener: Wait_Option_5010289_51-->
+::{{DIcon|Arrow}} Disassemble?
+:::<!--Custom String Listener: TalkSentence_501028938-->
+:::'''Balaway:''' Right. The function and value of relics can only be appraised accurately after they are disassembled.
+:::'''Balaway:''' By the way, once the relics are disassembled, there is a risk that they can't be reassembled.
+:::'''Balaway:''' And the risk... Naturally is to be borne by customers themselves.
+:::<!--Custom String Trigger: TalkSentence_501028945-->
+:::<!--Custom String Listener: TalkSentence_501028945-->
+:::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Refer to documents?
+:::<!--Custom String Listener: TalkSentence_501028942-->
+:::'''Balaway:''' I have collected all the remaining newspapers and magazines left from the Old World.
+:::'''Balaway:''' There are articles that show items with similar appearance and function. They are of a great reference value.
+:::<!--Custom String Trigger: TalkSentence_501028945-->
+:::<!--Custom String Listener: TalkSentence_501028945-->
+:::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I see.
+:::<!--Custom String Listener: TalkSentence_501028945-->
+:::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_501028924)
+:<!--Custom String Listener: TalkSentence_501028924-->
+::'''Balaway:''' Well... It's a long story. This is the announcement. Have a look.
+::<!--FinishPerformanceMission: EventMission_100113-->
+::<!--Custom String Trigger: Wait_Option_5010289_20-->
+::<!--Custom String Listener: Wait_Option_5010289_20-->
+::{{DIcon|Talk}} What are relics?
+:::<!--Custom String Listener: TalkSentence_501028912-->
+:::'''Balaway:''' ...Are you sure you're not here to mess with me?
+:::'''Balaway:''' Fine, fine. I understand. You are an Outsider. It's normal that you don't know the history of Belobog.
+:::'''Balaway:''' Now that you've asked, let me explain to you. Do you know the "Eternal Freeze?"
+:::<!--Custom String Trigger: Wait_Option_5010289_25-->
+:::<!--Custom String Listener: Wait_Option_5010289_25-->
+:::{{DIcon|Arrow}} Yes.
+::::<!--Custom String Listener: TalkSentence_501028916-->
+::::'''Balaway:''' Good. You seem to know some of the history here.
+::::<!--Custom String Trigger: TalkSentence_501028919-->
+::::<!--Custom String Listener: TalkSentence_501028919-->
+::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} I don't know.
+::::<!--Custom String Listener: TalkSentence_501028918-->
+::::'''Balaway:''' ...Are you really from the Outside? You are not lying?
+::::<!--Custom String Trigger: TalkSentence_501028919-->
+::::<!--Custom String Listener: TalkSentence_501028919-->
+::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} What have you appraised?
+:::<!--Custom String Listener: TalkSentence_501028926-->
+:::'''Balaway:''' Ha! Too many! I can keep talking about it for two or three days.
+:::'''Balaway:''' But the most interesting thing is the torture device from the Old World.
+:::'''Balaway:''' Like... collar around the neck or anvil that automatically heats up? Tsk tsk, the life of criminals in the Old World must be hard.
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} What is your appraisal process?
+:::<!--Custom String Listener: TalkSentence_501028930-->
+:::'''Balaway:''' Well... First of all, people bring their relics to me, okay?
+:::'''Balaway:''' After it is handed over to me, I will start to evaluate it. After the appraisal, I will tell them the relevant functions and a price reference.
+:::'''Balaway:''' Basically, that's it. The last step is I'll charge according to the difficulty of appraisal.
+:::<!--Custom String Trigger: Wait_Option_5010289_45-->
+:::<!--Custom String Listener: Wait_Option_5010289_45-->
+:::{{DIcon|Arrow}} I'm interested in your appraisal method.
+:::{{DIcon|Arrow}} How do you distinguish the difficulty of the appraisal?
+:::<!--Custom String Listener: TalkSentence_501028935-->
+:::'''Balaway:''' It's a bit complicated. Most smaller items have relatively simple structures. You can find out its function structure by referring to respective documents.
+:::'''Balaway:''' The bigger items are the real trouble. Generally speaking, I have to disassemble them and check everything carefully.
+:::<!--Custom String Trigger: Wait_Option_5010289_51-->
+:::<!--Custom String Listener: Wait_Option_5010289_51-->
+:::{{DIcon|Arrow}} Disassemble?
+::::<!--Custom String Listener: TalkSentence_501028938-->
+::::'''Balaway:''' Right. The function and value of relics can only be appraised accurately after they are disassembled.
+::::'''Balaway:''' By the way, once the relics are disassembled, there is a risk that they can't be reassembled.
+::::'''Balaway:''' And the risk... Naturally is to be borne by customers themselves.
+::::<!--Custom String Trigger: TalkSentence_501028945-->
+::::<!--Custom String Listener: TalkSentence_501028945-->
+::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} Refer to documents?
+::::<!--Custom String Listener: TalkSentence_501028942-->
+::::'''Balaway:''' I have collected all the remaining newspapers and magazines left from the Old World.
+::::'''Balaway:''' There are articles that show items with similar appearance and function. They are of a great reference value.
+::::<!--Custom String Trigger: TalkSentence_501028945-->
+::::<!--Custom String Listener: TalkSentence_501028945-->
+::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Arrow}} I see.
+::::<!--Custom String Listener: TalkSentence_501028945-->
+::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 404018801,
+		"Type": "submission_state_equal",
+		"Param1": 404018801,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Balaway:''' Ah, what? Are you hard of hearing? I told you, I'm not an appraiser anymore...
+:'''Balaway:''' Huh!? This... This is...
+:'''Balaway:''' Tsk tsk, this is... A rare sight. Truly a rare sight, indeed...
+:'''Balaway:''' Uh... Why are you looking at me like that? All you want anyway is to just exchange these treasures for some money, right? You take this, and I'll take the stone... Remember, don't go snitching about this deal!
+<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404018801,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404018801"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+<pre>
+[
+	{
+		"ID": 100004505,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Balaway:''' Same as always. Anyway, I'm not in the relic appraisal business anymore.
+:'''Balaway:''' However, I've been thinking about getting back into it...
+:{{DIcon|Arrow}} Alright, I've got your back.
+::<!--Custom String Listener: TalkSentence_501024185-->
+::'''Balaway:''' Haha, if that's the case, then I'll give you twenty percent off if you come see me for your appraisals!
+::'''Balaway:''' If the people of Boulder Town were more like you, I'd never have stopped my appraisal business. Fortunately, we'll be allowed up in the Overworld soon...
+:{{DIcon|Arrow}} How can you be so impulsive?
+::<!--Custom String Listener: TalkSentence_501024187-->
+::'''Balaway:''' Hey, I'm just following the trend, right? Haven't you heard the same? They're opening up the Overworld and the Underworld again...
+:<!--Custom String Trigger: TalkSentence_501024189-->
+:<!--Custom String Listener: TalkSentence_501024189-->
+:'''Balaway:''' They're all reasonable people up there in the Overworld. Not like these miners down here in Boulder Town who'd carve me up if I say the wrong thing...
+:'''Balaway:''' Now that my life's not in danger, why don't I start over with my relic appraisal business? Remember to stop by next time and give me some business, haha!
+:<!--Ends the current performance-->
+:'''Balaway:''' Go away. The relic appraisal service is no longer offered...
+:'''Balaway:''' But you can tell me if you have some other business.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Balaway:''' It's more of a pity for me. Forget it...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028901: Config/Level/Mission/5010289/Act/Act501028901.json-->
+::<!--Custom String Trigger: TalkSentence_501028901-->
+::<!--Custom String Listener: TalkSentence_501028901-->
+::'''Balaway:''' "Miner's Lamp" has stopped all appraisal services. The announcement has all the details. Please leave...
+::<!--Custom String Trigger: Wait_Option_5010289_7-->
+::<!--Custom String Listener: Wait_Option_5010289_7-->
+::{{DIcon|Arrow}} Appraisal? Of what?
+::{{DIcon|Arrow}} Announcement? What announcement?
+::<!--Custom String Listener: TalkSentence_501028904-->
+::'''Balaway:''' ...Are you here to cause trouble?
+::'''Balaway:''' What? Hold on... Are you from the Outside? Everyone's talking about your story!
+::'''Balaway:''' Haha, no wonder you don't know me. That was embarrassing. Please excuse me!
+::'''Balaway:''' My name is Balaway. I am an expert in relic appraisal. People all call me Miner's Lamp. Nice to meet you.
+::'''Balaway:''' Anyway, effective from today, I, "Miner's Lamp" Balaway will stop all appraisal services. It's a long story. You can have a look at this notice.
+::'''Balaway:''' Or do you have other business?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000045: Config/Level/NPC/W1/NPC_DefaultStory_1000045.json-->
+::'''Balaway:''' Go away. The relic appraisal service is no longer offered...
+::'''Balaway:''' But you can tell me if you have some other business.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801210101-->)
+:{{DIcon|undefined}} Hey, I heard you've started back up again?
+::<!--Trigger PerformanceE 801210101: Config/Level/Mission/8012101/Act/Act801210101.json-->
+::'''Balaway:''' Shh &mdash; quiet! Who told you that?
+::{{DIcon|Arrow}} Why did you start doing appraisals again?
+:::<!--Custom String Listener: TalkSentence_812100004-->
+:::'''Balaway:''' I'm just meeting the demands of the market. Someone needs to appraise all those treasures being dug up out from the {{Color|keyword|nobold=1|ancient ruins}}. Why not me?
+::{{DIcon|Arrow}} Why so mysterious about everything though?
+:::<!--Custom String Listener: TalkSentence_812100006-->
+:::'''Balaway:''' Because I, Balaway, have a reputation to protect here. Getting back into this line of business isn't anything you want publicly known, otherwise I'll be up to my neck in it &mdash; again.
+:::'''Balaway:''' I won't mince words with you: If you bring me something that isn't from the {{Color|keyword|nobold=1|ancient ruins}}, I won't be interested.
+::<!--Custom String Trigger: Wait_Option_801210101_17-->
+::<!--Custom String Listener: Wait_Option_801210101_17-->
+::{{DIcon|Arrow}} What's up with the ancient ruins?
+::<!--Custom String Listener: TalkSentence_812100009-->
+::'''Balaway:''' Haven't you heard? When the mineral deposits were being prospected, a huge underground ruin was also dug up.
+::'''Balaway:''' It's likely Old World architecture and has plenty of relics buried in it. Loads of relic hunters went there.
+::{{DIcon|Arrow}} Why haven't you gone down yourself?
+:::<!--Custom String Listener: TalkSentence_812100012-->
+:::'''Balaway:''' That's not for me. I can just have other people bring me relics for a nice appraisal fee. Isn't that much safer than doing it myself?
+::{{DIcon|Arrow}} Are there really ancient relics to be found there?
+:::<!--Custom String Listener: TalkSentence_812100014-->
+:::'''Balaway:''' Of course. In the past week alone I've seen more treasure than the entire past year!
+::<!--Custom String Trigger: TalkSentence_812100015-->
+::<!--Custom String Listener: TalkSentence_812100015-->
+::'''Balaway:''' I'm ethically bound to advise you: Some people who go into those ruins never come back out, and some who bring me relics to appraise are covered head-to-toe in wounds.
+::'''Balaway:''' If you're still keen, head to the {{Color|keyword|nobold=1|Great Mine}} and take a look. And if you find anything worth keeping, bring it over to me. Everything's negotiable!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801210101-->
+;(If {{cx}}<!--SubMission Started: 201050118-->)
+:{{DIcon|undefined}} I was wondering if you could have a look at this detector.
+::<!--Trigger PerformanceD 201050118: Config/Level/Mission/2010501/Act/Act201050118.json-->
+::----
+::{{A|VO Side1 hk1 balaway 101.ogg}} '''Balaway:''' I'm already retired from appraising ancient relics. So unless this detector is some kind of precious treasure...
+::{{A|VO Side1 hk1 hook 195.ogg}} '''Hook:''' Look at this! The detector's probe broke off, can you fix it?
+::{{A|VO Side1 hk1 balaway 102.ogg}} '''Balaway:''' ...
+::{{A|VO Side1 hk1 balaway 103.ogg}} '''Balaway:''' Oh ho ho, this certainly is a rare relic! Let me take a closer look...
+::{{A|VO Side1 hk1 hook 196.ogg}} '''Hook:''' Yes, look extra close! You have to help Hook fix it!
+::{{A|VO Side1 hk1 balaway 104.ogg}} '''Balaway:''' This device... I've been in the business for a long time, but never have I seen an ancient relic like this one before.
+::{{A|VO Side1 hk1 balaway 105.ogg}} '''Balaway:''' I think this is probably beyond repair. But still, it is a rare treasure. Even broken, I'd be willing to pay a high price for it. What do you say?
+::{{DIcon|Arrow}} Can we trust your appraisal?
+:::<!--Custom String Listener: TalkSentence_201214209-->
+:::{{A|VO Side1 hk1 balaway 106.ogg}} '''Balaway:''' The detector's probe is gone, it's like searching for something without eyes or ears. Now it's nothing more than a pile of junk with no practical value.
+:::{{A|VO Side1 hk1 balaway 107.ogg}} '''Balaway:''' I'm willing to offer a generous price for this thing. So, do you want to sell it or not?
+::{{DIcon|Arrow}} Can you tell me more about it? I intend to sell it.
+:::<!--Custom String Listener: TalkSentence_201214210-->
+:::{{A|VO Side1 hk1 balaway 108.ogg}} '''Balaway:''' The detector's probe is gone, it's like searching for something without eyes or ears. Who's going to want a pile of junk?
+:::{{A|VO Side1 hk1 balaway 109.ogg}} '''Balaway:''' I don't believe any other stores will buy it off you. Come on, I'll give you a nice deal.
+::<!--Custom String Trigger: TalkSentence_201214213-->
+::<!--Custom String Listener: TalkSentence_201214213-->
+::{{A|VO Side1 hk1 hook 197.ogg}} '''Hook:''' ...
+::{{DIcon|Arrow}} Boss, I think we should go.
+::{{DIcon|Arrow}} Maybe we should let Fersman decide what to do with it.
+::{{DIcon|Arrow}} We aren't going to sell it to you, you crooked profiteer!
+::<!--Custom String Listener: TalkSentence_201214214-->
+::{{A|VO Side1 hk1 hook 198.ogg}} '''Hook:''' ...
+::{{A|VO Side1 hk1 hook 199.ogg}} '''Hook:''' Alright then, let's go find daddy...
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 201050118_F-->
+;(If {{cx}}<!--SubMission Started: 201090301--> and {{cx}}<!--SubMission Started: 201050118-->)
+:{{DIcon|undefined}} Did you buy the vein detector?
+::<!--Trigger PerformanceE 201090214: Config/Level/Mission/2010902/Act/Act201090214.json-->
+::<!--Custom String Trigger: TalkSentence_201235902-->
+::<!--Custom String Listener: TalkSentence_201235902-->
+::{{A|VO Side1 hk3 balaway 101.ogg}} '''Balaway:''' Oh-ho? Did a little bird tell you? Alright, I won't pretend otherwise. Yes, old man Fersman sold it to me.
+::{{A|VO Side1 hk3 balaway 102.ogg}} '''Balaway:''' Sadly, I wasn't able to get hold of the Geomarrow Probe... *sigh* What good is this detector on its own?
+::<!--Custom String Trigger: Wait_Option_2012359_11-->
+::<!--Custom String Listener: Wait_Option_2012359_11-->
+::{{DIcon|Arrow}} Did you send the thief to steal the detector?
+:::<!--Custom String Listener: TalkSentence_201235905-->
+:::{{A|VO Side1 hk3 balaway 103.ogg}} '''Balaway:''' Thief? I didn't send a thief.
+:::{{A|VO Side1 hk3 balaway 104.ogg}} '''Balaway:''' I did arrange for a young apprentice to attend the auction, but he lost out in the bidding.
+::{{DIcon|Arrow}} You didn't attend the auction?
+:::<!--Custom String Listener: TalkSentence_201235908-->
+:::{{A|VO Side1 hk3 balaway 105.ogg}} '''Balaway:''' I arranged for a young apprentice to attend the auction, but he lost out in the bidding.
+::{{DIcon|Arrow}} Aren't you a scrap collector?
+:::<!--Custom String Listener: TalkSentence_201235910-->
+:::{{A|VO Side1 hk3 balaway 106.ogg}} '''Balaway:''' Hmph, clearly you don't understand the value of ancient relics.
+::<!--Custom String Trigger: TalkSentence_201235911-->
+::<!--Custom String Listener: TalkSentence_201235911-->
+::{{A|VO Side1 hk3 balaway 107.ogg}} '''Balaway:''' Shame, it's becoming increasingly difficult to find a Geomarrow Probe... The more I think about it, the more I realize that this deal was a big mistake... *sigh*
+::<!--Custom String Trigger: Wait_Option_2012359_21-->
+::<!--Custom String Listener: Wait_Option_2012359_21-->
+::{{DIcon|Arrow}} Why not just sell it to Fersman?
+:::<!--Custom String Listener: TalkSentence_201235913-->
+:::{{A|VO Side1 hk3 balaway 108.ogg}} '''Balaway:''' Fersman wouldn't want to be the sucker, would he? But maybe I should ask him... It would be great to get rid of it as early as possible...
+::{{DIcon|Arrow}} Fersman has the Geomarrow Probe.
+:::<!--Custom String Listener: TalkSentence_201235915-->
+:::{{A|VO Side1 hk3 balaway 109.ogg}} '''Balaway:''' ...Really?
+:::{{A|VO Side1 hk3 balaway 110.ogg}} '''Balaway:''' Hmph, I'll give you the benefit of the doubt... Let me find Fersman and ask if he intends to sell the probe.
+::{{DIcon|Arrow}} Maybe one day you'll find it.
+:::<!--Custom String Listener: TalkSentence_201235918-->
+:::{{A|VO Side1 hk3 balaway 111.ogg}} '''Balaway:''' Do you think I don't know how rare that probe is? I need to find out who that buyer at the auction was...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201090214-->
+;(If {{cx}}<!--SubMission Started: 201090301--> and {{cx}}<!--SubMission Started: 201050118-->)
+:{{DIcon}} Can we talk...?
+::<!--Custom String Trigger: Wait_Option_5010289_20-->
+::<!--Custom String Listener: Wait_Option_5010289_20-->
+::{{DIcon|Talk}} What are relics?
+:::<!--Custom String Listener: TalkSentence_501028912-->
+:::'''Balaway:''' ...Are you sure you're not here to mess with me?
+:::'''Balaway:''' Fine, fine. I understand. You are an Outsider. It's normal that you don't know the history of Belobog.
+:::'''Balaway:''' Now that you've asked, let me explain to you. Do you know the "Eternal Freeze?"
+:::<!--Custom String Trigger: Wait_Option_5010289_25-->
+:::<!--Custom String Listener: Wait_Option_5010289_25-->
+:::{{DIcon|Arrow}} Yes.
+::::<!--Custom String Listener: TalkSentence_501028916-->
+::::'''Balaway:''' Good. You seem to know some of the history here.
+::::<!--Custom String Trigger: TalkSentence_501028919-->
+::::<!--Custom String Listener: TalkSentence_501028919-->
+::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I don't know.
+::::<!--Custom String Listener: TalkSentence_501028918-->
+::::'''Balaway:''' ...Are you really from the Outside? You are not lying?
+::::<!--Custom String Trigger: TalkSentence_501028919-->
+::::<!--Custom String Listener: TalkSentence_501028919-->
+::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What have you appraised?
+:::<!--Custom String Listener: TalkSentence_501028926-->
+:::'''Balaway:''' Ha! Too many! I can keep talking about it for two or three days.
+:::'''Balaway:''' But the most interesting thing is the torture device from the Old World.
+:::'''Balaway:''' Like... collar around the neck or anvil that automatically heats up? Tsk tsk, the life of criminals in the Old World must be hard.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is your appraisal process?
+:::<!--Custom String Listener: TalkSentence_501028930-->
+:::'''Balaway:''' Well... First of all, people bring their relics to me, okay?
+:::'''Balaway:''' After it is handed over to me, I will start to evaluate it. After the appraisal, I will tell them the relevant functions and a price reference.
+:::'''Balaway:''' Basically, that's it. The last step is I'll charge according to the difficulty of appraisal.
+:::<!--Custom String Trigger: Wait_Option_5010289_45-->
+:::<!--Custom String Listener: Wait_Option_5010289_45-->
+:::{{DIcon|Arrow}} I'm interested in your appraisal method.
+:::{{DIcon|Arrow}} How do you distinguish the difficulty of the appraisal?
+:::<!--Custom String Listener: TalkSentence_501028935-->
+:::'''Balaway:''' It's a bit complicated. Most smaller items have relatively simple structures. You can find out its function structure by referring to respective documents.
+:::'''Balaway:''' The bigger items are the real trouble. Generally speaking, I have to disassemble them and check everything carefully.
+:::<!--Custom String Trigger: Wait_Option_5010289_51-->
+:::<!--Custom String Listener: Wait_Option_5010289_51-->
+:::{{DIcon|Arrow}} Disassemble?
+::::<!--Custom String Listener: TalkSentence_501028938-->
+::::'''Balaway:''' Right. The function and value of relics can only be appraised accurately after they are disassembled.
+::::'''Balaway:''' By the way, once the relics are disassembled, there is a risk that they can't be reassembled.
+::::'''Balaway:''' And the risk... Naturally is to be borne by customers themselves.
+::::<!--Custom String Trigger: TalkSentence_501028945-->
+::::<!--Custom String Listener: TalkSentence_501028945-->
+::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Refer to documents?
+::::<!--Custom String Listener: TalkSentence_501028942-->
+::::'''Balaway:''' I have collected all the remaining newspapers and magazines left from the Old World.
+::::'''Balaway:''' There are articles that show items with similar appearance and function. They are of a great reference value.
+::::<!--Custom String Trigger: TalkSentence_501028945-->
+::::<!--Custom String Listener: TalkSentence_501028945-->
+::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I see.
+::::<!--Custom String Listener: TalkSentence_501028945-->
+::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404018801-->, {{cx}}<!--SubMission Started: 201090301-->, and {{cx}}<!--SubMission Started: 201050118-->)
+:{{DIcon|?}} I'm holding a fistful of crystals...
+::'''Balaway:''' Ah, what? Are you hard of hearing? I told you, I'm not an appraiser anymore...
+::'''Balaway:''' Huh!? This... This is...
+::'''Balaway:''' Tsk tsk, this is... A rare sight. Truly a rare sight, indeed...
+::'''Balaway:''' Uh... Why are you looking at me like that? All you want anyway is to just exchange these treasures for some money, right? You take this, and I'll take the stone... Remember, don't go snitching about this deal!
+:<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404018801,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404018801"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 404018801-->, {{cx}}<!--SubMission Started: 201090301-->, and {{cx}}<!--SubMission Started: 201050118-->)
+:{{DIcon}} How have things been?
+::'''Balaway:''' Same as always. Anyway, I'm not in the relic appraisal business anymore.
+::'''Balaway:''' However, I've been thinking about getting back into it...
+::{{DIcon|Arrow}} Alright, I've got your back.
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Balaway:''' Haha, if that's the case, then I'll give you twenty percent off if you come see me for your appraisals!
+:::'''Balaway:''' If the people of Boulder Town were more like you, I'd never have stopped my appraisal business. Fortunately, we'll be allowed up in the Overworld soon...
+::{{DIcon|Arrow}} How can you be so impulsive?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Balaway:''' Hey, I'm just following the trend, right? Haven't you heard the same? They're opening up the Overworld and the Underworld again...
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Balaway:''' They're all reasonable people up there in the Overworld. Not like these miners down here in Boulder Town who'd carve me up if I say the wrong thing...
+::'''Balaway:''' Now that my life's not in danger, why don't I start over with my relic appraisal business? Remember to stop by next time and give me some business, haha!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 404018801-->, {{cx}}<!--SubMission Started: 201090301-->, and {{cx}}<!--SubMission Started: 201050118-->)
+:{{DIcon|Exit}} Well, it's a pity that you don't do appraisals anymore.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Balaway:''' It's more of a pity for me. Forget it...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010289_17)
+:<!--Custom String Listener: Wait_Option_5010289_17-->
+::{{DIcon|Arrow}} Can we talk...?
+::<!--Custom String Listener: Wait_Option_5010289_20-->
+::{{DIcon|Talk}} What are relics?
+:::<!--Custom String Listener: TalkSentence_501028912-->
+:::'''Balaway:''' ...Are you sure you're not here to mess with me?
+:::'''Balaway:''' Fine, fine. I understand. You are an Outsider. It's normal that you don't know the history of Belobog.
+:::'''Balaway:''' Now that you've asked, let me explain to you. Do you know the "Eternal Freeze?"
+:::<!--Custom String Trigger: Wait_Option_5010289_25-->
+:::<!--Custom String Listener: Wait_Option_5010289_25-->
+:::{{DIcon|Arrow}} Yes.
+::::<!--Custom String Listener: TalkSentence_501028916-->
+::::'''Balaway:''' Good. You seem to know some of the history here.
+:::{{DIcon|Arrow}} I don't know.
+::::<!--Custom String Listener: TalkSentence_501028918-->
+::::'''Balaway:''' ...Are you really from the Outside? You are not lying?
+:::<!--Custom String Trigger: TalkSentence_501028919-->
+:::<!--Custom String Listener: TalkSentence_501028919-->
+:::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+:::<!--Custom String Trigger: Wait_Option_5010289_20-->
+:::<!--Custom String Listener: Wait_Option_5010289_20-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you appraised?
+::::<!--Custom String Listener: TalkSentence_501028926-->
+::::'''Balaway:''' Ha! Too many! I can keep talking about it for two or three days.
+::::'''Balaway:''' But the most interesting thing is the torture device from the Old World.
+::::'''Balaway:''' Like... collar around the neck or anvil that automatically heats up? Tsk tsk, the life of criminals in the Old World must be hard.
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What is your appraisal process?
+::::<!--Custom String Listener: TalkSentence_501028930-->
+::::'''Balaway:''' Well... First of all, people bring their relics to me, okay?
+::::'''Balaway:''' After it is handed over to me, I will start to evaluate it. After the appraisal, I will tell them the relevant functions and a price reference.
+::::'''Balaway:''' Basically, that's it. The last step is I'll charge according to the difficulty of appraisal.
+::::<!--Custom String Trigger: Wait_Option_5010289_45-->
+::::<!--Custom String Listener: Wait_Option_5010289_45-->
+::::{{DIcon|Arrow}} I'm interested in your appraisal method.
+::::{{DIcon|Arrow}} How do you distinguish the difficulty of the appraisal?
+::::<!--Custom String Listener: TalkSentence_501028935-->
+::::'''Balaway:''' It's a bit complicated. Most smaller items have relatively simple structures. You can find out its function structure by referring to respective documents.
+::::'''Balaway:''' The bigger items are the real trouble. Generally speaking, I have to disassemble them and check everything carefully.
+::::<!--Custom String Trigger: Wait_Option_5010289_51-->
+::::<!--Custom String Listener: Wait_Option_5010289_51-->
+::::{{DIcon|Arrow}} Disassemble?
+:::::<!--Custom String Listener: TalkSentence_501028938-->
+:::::'''Balaway:''' Right. The function and value of relics can only be appraised accurately after they are disassembled.
+:::::'''Balaway:''' By the way, once the relics are disassembled, there is a risk that they can't be reassembled.
+:::::'''Balaway:''' And the risk... Naturally is to be borne by customers themselves.
+:::::<!--Custom String Trigger: TalkSentence_501028945-->
+:::::<!--Custom String Listener: TalkSentence_501028945-->
+:::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Refer to documents?
+:::::<!--Custom String Listener: TalkSentence_501028942-->
+:::::'''Balaway:''' I have collected all the remaining newspapers and magazines left from the Old World.
+:::::'''Balaway:''' There are articles that show items with similar appearance and function. They are of a great reference value.
+:::::<!--Custom String Trigger: TalkSentence_501028945-->
+:::::<!--Custom String Listener: TalkSentence_501028945-->
+:::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I see.
+:::::<!--Custom String Listener: TalkSentence_501028945-->
+:::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What have you appraised?
+:::<!--Custom String Listener: TalkSentence_501028926-->
+:::'''Balaway:''' Ha! Too many! I can keep talking about it for two or three days.
+:::'''Balaway:''' But the most interesting thing is the torture device from the Old World.
+:::'''Balaway:''' Like... collar around the neck or anvil that automatically heats up? Tsk tsk, the life of criminals in the Old World must be hard.
+:::<!--Custom String Trigger: Wait_Option_5010289_20-->
+:::<!--Custom String Listener: Wait_Option_5010289_20-->
+:::{{DIcon|Talk}} What are relics?
+::::<!--Custom String Listener: TalkSentence_501028912-->
+::::'''Balaway:''' ...Are you sure you're not here to mess with me?
+::::'''Balaway:''' Fine, fine. I understand. You are an Outsider. It's normal that you don't know the history of Belobog.
+::::'''Balaway:''' Now that you've asked, let me explain to you. Do you know the "Eternal Freeze?"
+::::<!--Custom String Trigger: Wait_Option_5010289_25-->
+::::<!--Custom String Listener: Wait_Option_5010289_25-->
+::::{{DIcon|Arrow}} Yes.
+:::::<!--Custom String Listener: TalkSentence_501028916-->
+:::::'''Balaway:''' Good. You seem to know some of the history here.
+:::::<!--Custom String Trigger: TalkSentence_501028919-->
+:::::<!--Custom String Listener: TalkSentence_501028919-->
+:::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I don't know.
+:::::<!--Custom String Listener: TalkSentence_501028918-->
+:::::'''Balaway:''' ...Are you really from the Outside? You are not lying?
+:::::<!--Custom String Trigger: TalkSentence_501028919-->
+:::::<!--Custom String Listener: TalkSentence_501028919-->
+:::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What is your appraisal process?
+::::<!--Custom String Listener: TalkSentence_501028930-->
+::::'''Balaway:''' Well... First of all, people bring their relics to me, okay?
+::::'''Balaway:''' After it is handed over to me, I will start to evaluate it. After the appraisal, I will tell them the relevant functions and a price reference.
+::::'''Balaway:''' Basically, that's it. The last step is I'll charge according to the difficulty of appraisal.
+::::<!--Custom String Trigger: Wait_Option_5010289_45-->
+::::<!--Custom String Listener: Wait_Option_5010289_45-->
+::::{{DIcon|Arrow}} I'm interested in your appraisal method.
+::::{{DIcon|Arrow}} How do you distinguish the difficulty of the appraisal?
+::::<!--Custom String Listener: TalkSentence_501028935-->
+::::'''Balaway:''' It's a bit complicated. Most smaller items have relatively simple structures. You can find out its function structure by referring to respective documents.
+::::'''Balaway:''' The bigger items are the real trouble. Generally speaking, I have to disassemble them and check everything carefully.
+::::<!--Custom String Trigger: Wait_Option_5010289_51-->
+::::<!--Custom String Listener: Wait_Option_5010289_51-->
+::::{{DIcon|Arrow}} Disassemble?
+:::::<!--Custom String Listener: TalkSentence_501028938-->
+:::::'''Balaway:''' Right. The function and value of relics can only be appraised accurately after they are disassembled.
+:::::'''Balaway:''' By the way, once the relics are disassembled, there is a risk that they can't be reassembled.
+:::::'''Balaway:''' And the risk... Naturally is to be borne by customers themselves.
+:::::<!--Custom String Trigger: TalkSentence_501028945-->
+:::::<!--Custom String Listener: TalkSentence_501028945-->
+:::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} Refer to documents?
+:::::<!--Custom String Listener: TalkSentence_501028942-->
+:::::'''Balaway:''' I have collected all the remaining newspapers and magazines left from the Old World.
+:::::'''Balaway:''' There are articles that show items with similar appearance and function. They are of a great reference value.
+:::::<!--Custom String Trigger: TalkSentence_501028945-->
+:::::<!--Custom String Listener: TalkSentence_501028945-->
+:::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Arrow}} I see.
+:::::<!--Custom String Listener: TalkSentence_501028945-->
+:::::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What is your appraisal process?
+:::<!--Custom String Listener: TalkSentence_501028930-->
+:::'''Balaway:''' Well... First of all, people bring their relics to me, okay?
+:::'''Balaway:''' After it is handed over to me, I will start to evaluate it. After the appraisal, I will tell them the relevant functions and a price reference.
+:::'''Balaway:''' Basically, that's it. The last step is I'll charge according to the difficulty of appraisal.
+:::<!--Custom String Trigger: Wait_Option_5010289_45-->
+:::<!--Custom String Listener: Wait_Option_5010289_45-->
+:::{{DIcon|Arrow}} I'm interested in your appraisal method.
+:::{{DIcon|Arrow}} How do you distinguish the difficulty of the appraisal?
+:::<!--Custom String Listener: TalkSentence_501028935-->
+:::'''Balaway:''' It's a bit complicated. Most smaller items have relatively simple structures. You can find out its function structure by referring to respective documents.
+:::'''Balaway:''' The bigger items are the real trouble. Generally speaking, I have to disassemble them and check everything carefully.
+:::<!--Custom String Trigger: Wait_Option_5010289_51-->
+:::<!--Custom String Listener: Wait_Option_5010289_51-->
+:::{{DIcon|Arrow}} Disassemble?
+::::<!--Custom String Listener: TalkSentence_501028938-->
+::::'''Balaway:''' Right. The function and value of relics can only be appraised accurately after they are disassembled.
+::::'''Balaway:''' By the way, once the relics are disassembled, there is a risk that they can't be reassembled.
+::::'''Balaway:''' And the risk... Naturally is to be borne by customers themselves.
+::::<!--Custom String Trigger: TalkSentence_501028945-->
+:::{{DIcon|Arrow}} Refer to documents?
+::::<!--Custom String Listener: TalkSentence_501028942-->
+::::'''Balaway:''' I have collected all the remaining newspapers and magazines left from the Old World.
+::::'''Balaway:''' There are articles that show items with similar appearance and function. They are of a great reference value.
+::::<!--Custom String Trigger: TalkSentence_501028945-->
+:::{{DIcon|Arrow}} I see.
+:::<!--Custom String Listener: TalkSentence_501028945-->
+:::'''Balaway:''' There is a lot of knowledge about relics, right? It must be eye-opening for laymen like you, haha!
+:::<!--Custom String Trigger: Wait_Option_5010289_20-->
+:::<!--Custom String Listener: Wait_Option_5010289_20-->
+:::{{DIcon|Talk}} What are relics?
+::::<!--Custom String Listener: TalkSentence_501028912-->
+::::'''Balaway:''' ...Are you sure you're not here to mess with me?
+::::'''Balaway:''' Fine, fine. I understand. You are an Outsider. It's normal that you don't know the history of Belobog.
+::::'''Balaway:''' Now that you've asked, let me explain to you. Do you know the "Eternal Freeze?"
+::::<!--Custom String Trigger: Wait_Option_5010289_25-->
+::::<!--Custom String Listener: Wait_Option_5010289_25-->
+::::{{DIcon|Arrow}} Yes.
+:::::<!--Custom String Listener: TalkSentence_501028916-->
+:::::'''Balaway:''' Good. You seem to know some of the history here.
+:::::<!--Custom String Trigger: TalkSentence_501028919-->
+:::::<!--Custom String Listener: TalkSentence_501028919-->
+:::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I don't know.
+:::::<!--Custom String Listener: TalkSentence_501028918-->
+:::::'''Balaway:''' ...Are you really from the Outside? You are not lying?
+:::::<!--Custom String Trigger: TalkSentence_501028919-->
+:::::<!--Custom String Listener: TalkSentence_501028919-->
+:::::'''Balaway:''' Although it's warm inside the wall all year round, there are constant snowstorms outside the wall. If you are really from the Outside, you must have seen it.
+:::::'''Balaway:''' This snowstorm isn't just temporary... Since seven hundred years ago, this heavy snow hasn't stopped for a minute.
+:::::'''Balaway:''' Before the snowstorm, Belobog's technology level was way much higher than it is now. Belobog residents call that "ancient times."
+:::::'''Balaway:''' As the name suggests, relics are antiques from before the Eternal Freeze.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you appraised?
+::::<!--Custom String Listener: TalkSentence_501028926-->
+::::'''Balaway:''' Ha! Too many! I can keep talking about it for two or three days.
+::::'''Balaway:''' But the most interesting thing is the torture device from the Old World.
+::::'''Balaway:''' Like... collar around the neck or anvil that automatically heats up? Tsk tsk, the life of criminals in the Old World must be hard.
+:::;(Return to previous option selection (cloneCheckString))
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

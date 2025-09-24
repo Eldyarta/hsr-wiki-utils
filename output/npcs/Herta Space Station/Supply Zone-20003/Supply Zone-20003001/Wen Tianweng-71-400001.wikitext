@@ -1,0 +1,205 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wen Tianweng#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Maintenance Staff
+|image           = NPC Wen Tianweng.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Supply Zone
+|relatives       = 
+}}
+'''Wen Tianweng''' is an NPC on [[Herta Space Station]], located in [[Supply Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Supply Zone|npc_71_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 300052101,
+		"Type": "submission_state_equal",
+		"Param1": 300052101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052101: Config/Level/Mission/3000521/Act/Act300052101.json-->
+:<!--Custom String Trigger: TalkSentence_300052102-->
+:<!--Custom String Listener: TalkSentence_300052102-->
+:'''Wen Tianweng:''' Well if it isn't the kid from last time! At least you have enough conscience to come hang out with this old fart.
+:'''Wen Tianweng:''' It's nothing important. Just that lately I've had to go fix those blockages every day. I can't move my old bones anymore.
+:'''Wen Tianweng:''' Last time, when I was fixing my motorcycle, I almost knocked down the wall of the maintenance room, like Hosea Lazaro did.
+:<!--Custom String Trigger: Wait_Option_300052101_11-->
+:<!--Custom String Listener: Wait_Option_300052101_11-->
+:{{DIcon|Arrow}} Wow, that's so cool.
+::<!--Custom String Listener: TalkSentence_300052106-->
+::'''Wen Tianweng:''' Pff, that's nothing. Next time I should take you to see the galaxy-class Rose Roydz I hid in the corner of the railway platform. Now that's an eye-opener!
+::'''Wen Tianweng:''' But that's all for later. Now, if you can find me 3 Ultra Nickel Parts, I'll treat you to as many Kapo-Kali as you want!
+:{{DIcon|Arrow}} It doesn't sound like you can't move at all...
+::<!--Custom String Listener: TalkSentence_300052109-->
+::'''Wen Tianweng:''' Really, I am not lying to you. Ouch, I hurt all over...
+::'''Wen Tianweng:''' My tongue, teeth, and my mouth hurt. I can't keep talking nonsense with you, kid.
+::'''Wen Tianweng:''' Now hurry, find me 3 Ultra Nickel Parts. In return, you can have all the Kapo-Kali you want!
+:{{DIcon|Arrow}} So you want to order me around.
+::<!--Custom String Listener: TalkSentence_300052113-->
+::'''Wen Tianweng:''' Hey, how is that ordering you around? Young people should eat more and work more, that's how you stay healthy and out of trouble.
+::'''Wen Tianweng:''' Not to mention, you just have to find 3 Ultra Nickel Parts for me and you can have all the Kapo-Kali you want!
+:<!--Custom String Trigger: TalkSentence_300052115-->
+:<!--Custom String Listener: TalkSentence_300052115-->
+:'''Wen Tianweng:''' You have no idea, the kind of things folks are willing to do just for a sip of that... elixir from heaven!
+:'''Wen Tianweng:''' Go, go, enough chit-chatting. I'll be waiting!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052101-->
+<pre>
+[
+	{
+		"ID": 300052103,
+		"Type": "submission_state_equal",
+		"Param1": 300052103,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052103: Config/Level/Mission/3000521/Act/Act300052103.json-->
+:<!--Custom String Trigger: TalkSentence_300052202-->
+:<!--Custom String Listener: TalkSentence_300052202-->
+:'''Wen Tianweng:''' Well done, {{MC|f=lass|m=boy}}!
+:'''Wen Tianweng:''' With these fine parts, I won't have to worry about my galaxy-class motorcy... I mean, the space station equipment breaking down again!
+:'''Wen Tianweng:''' Here's the "Kapo-Kali" I promised. It's freshly brewed and full of fizz! Off I go, gotta fix that moto... space station equipment.
+:'''Wen Tianweng:''' Okay, laters!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052103-->
+:<!--Custom String Trigger: Wait_Option_500217300_462-->
+:<!--Custom String Listener: Wait_Option_500217300_462-->
+:{{DIcon|Talk}} Are there any gossips from the old days?
+::<!--Custom String Listener: TalkSentence_500217304-->
+::'''Wen Tianweng:''' Oh, I am best qualified to talk about this.
+::'''Wen Tianweng:''' You know Bernard, don't you? The stubborn old guy from the Department of Cosmic Geography who doesn't look very approachable. His eyebrows are fiercer than his eyes.
+::'''Wen Tianweng:''' Don't be fooled by his seeming determination to prevent his apprentice from dating. You never could've guessed that he used to be quite the womanizer back in his younger days.
+::'''Wen Tianweng:''' Back when he was young, Bernard fell in love for the first time with a girl from the Department of Insight. As his brothers, we all helped him to pursue her for a while.
+::'''Wen Tianweng:''' Young love is always full of passion. I guess Bernard just saw his younger self in Rocky, haha.
+::'''Wen Tianweng:''' What's that? You want to know what happened then? Kiddo, I can't spill all the beans in one go. Stay tuned!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Any unforgettable stories?
+::<!--Custom String Listener: TalkSentence_500217311-->
+::'''Wen Tianweng:''' At my age, everything is unforgettable. You know what I mean?
+::'''Wen Tianweng:''' I know young people these days hate to hear this, but nothing is truly unforgettable, and there's nothing you can't get over! If there is, it's only because you've been too lost to figure it out!
+::'''Wen Tianweng:''' Now that you brought it up, I am actually confused. I just remembered so many things all at once. The past really doesn't bear being remembered.
+::'''Wen Tianweng:''' How energetic Gunn used to be... And how strong Bernard was when he first joined us...
+::'''Wen Tianweng:''' *sigh* How things have changed!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What have you been working on lately?
+::<!--Custom String Listener: TalkSentence_500217317-->
+::'''Wen Tianweng:''' I'm retired, so that might not be an accurate question. We normally just say what we've been playing with.
+::'''Wen Tianweng:''' I never got a proper education. I wouldn't understand Fool's Play like Gunn does. My life's work has been all about repairing and handling machines and vehicles, and now that I'm old, that's still the only thing I do.
+::'''Wen Tianweng:''' Here, check this out. Don't think this is some child's plaything! The armored car this miniature model is based on has traveled on more roads than I could count! This model even has a perfect replica of the real thing's mechanized track.
+::'''Wen Tianweng:''' I fixed this thing three times. Three times I managed to bring it back from the brink of death ...
+::'''Wen Tianweng:''' Well, I think I'm done talking. These stories are all water under the bridge.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} No other questions.
+::<!--Custom String Listener: TalkSentence_500217324-->
+::'''Wen Tianweng:''' It was fun chatting with you. I liked it! Come here again when you have time, kiddo. I might not have much in my possession, but I sure have more than enough stories to share.
+::<!--Ends the current performance-->
+:'''Wen Tianweng:''' Kiddo, we meet again. Take a seat.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:'''Wen Tianweng:''' It was fun chatting with you. I liked it! Come here again when you have time, kiddo. I might not have much in my possession, but I sure have more than enough stories to share.
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 90000109: Config/Level/NPC/W0/NPC_DefaultStory_500001700.json-->
+:'''Wen Tianweng:''' Kiddo, we meet again. Take a seat.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to hear more of your gossip...
+::<!--Custom String Trigger: Wait_Option_500217300_462-->
+::<!--Custom String Listener: Wait_Option_500217300_462-->
+::{{DIcon|Talk}} Are there any gossips from the old days?
+:::<!--Custom String Listener: TalkSentence_500217304-->
+:::'''Wen Tianweng:''' Oh, I am best qualified to talk about this.
+:::'''Wen Tianweng:''' You know Bernard, don't you? The stubborn old guy from the Department of Cosmic Geography who doesn't look very approachable. His eyebrows are fiercer than his eyes.
+:::'''Wen Tianweng:''' Don't be fooled by his seeming determination to prevent his apprentice from dating. You never could've guessed that he used to be quite the womanizer back in his younger days.
+:::'''Wen Tianweng:''' Back when he was young, Bernard fell in love for the first time with a girl from the Department of Insight. As his brothers, we all helped him to pursue her for a while.
+:::'''Wen Tianweng:''' Young love is always full of passion. I guess Bernard just saw his younger self in Rocky, haha.
+:::'''Wen Tianweng:''' What's that? You want to know what happened then? Kiddo, I can't spill all the beans in one go. Stay tuned!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any unforgettable stories?
+:::<!--Custom String Listener: TalkSentence_500217311-->
+:::'''Wen Tianweng:''' At my age, everything is unforgettable. You know what I mean?
+:::'''Wen Tianweng:''' I know young people these days hate to hear this, but nothing is truly unforgettable, and there's nothing you can't get over! If there is, it's only because you've been too lost to figure it out!
+:::'''Wen Tianweng:''' Now that you brought it up, I am actually confused. I just remembered so many things all at once. The past really doesn't bear being remembered.
+:::'''Wen Tianweng:''' How energetic Gunn used to be... And how strong Bernard was when he first joined us...
+:::'''Wen Tianweng:''' *sigh* How things have changed!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What have you been working on lately?
+:::<!--Custom String Listener: TalkSentence_500217317-->
+:::'''Wen Tianweng:''' I'm retired, so that might not be an accurate question. We normally just say what we've been playing with.
+:::'''Wen Tianweng:''' I never got a proper education. I wouldn't understand Fool's Play like Gunn does. My life's work has been all about repairing and handling machines and vehicles, and now that I'm old, that's still the only thing I do.
+:::'''Wen Tianweng:''' Here, check this out. Don't think this is some child's plaything! The armored car this miniature model is based on has traveled on more roads than I could count! This model even has a perfect replica of the real thing's mechanized track.
+:::'''Wen Tianweng:''' I fixed this thing three times. Three times I managed to bring it back from the brink of death ...
+:::'''Wen Tianweng:''' Well, I think I'm done talking. These stories are all water under the bridge.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} No other questions.
+:::<!--Custom String Listener: TalkSentence_500217324-->
+:::'''Wen Tianweng:''' It was fun chatting with you. I liked it! Come here again when you have time, kiddo. I might not have much in my possession, but I sure have more than enough stories to share.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::'''Wen Tianweng:''' It was fun chatting with you. I liked it! Come here again when you have time, kiddo. I might not have much in my possession, but I sure have more than enough stories to share.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wen Tianweng
+|zhs  = 温天翁
+|zht  = 溫天翁
+|ja   = 温天翁
+|ko   = 온천옹
+|es   = Wen Tianweng
+|fr   = Wen&nbsp;Tianweng
+|ru   = Вэнь Тяньвэн
+|th   = Wen Tianweng
+|vi   = Wen Tianweng
+|de   = Wen Tianweng
+|id   = Wen Tianweng
+|pt   = Wen Tianweng
+}}
+==Change History==
+{{Change History|TODO}}

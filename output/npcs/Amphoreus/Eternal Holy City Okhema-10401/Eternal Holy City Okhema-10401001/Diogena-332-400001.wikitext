@@ -1,0 +1,108 @@
+<%-- [PAGE_INFO]
+PageTitle=#Diogena#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Weirdo
+|image           = NPC Diogena.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Diogena''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_332_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504009002: Config/Level/Mission/5040090/Act/Act504009002.json-->
+:'''Diogena:''' The golden {{Rubi|Mnestia|Romance Titan}} might fancy the rich over the poor, but the dark {{Rubi|Thanatos|Death Titan}} knocks on every door equally.
+:'''Diogena:''' Just between you and me, I've set up a secret doorbell for them, visible only to the {{Rubi|Titans|gods}}.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Tell me more about yourself.
+::'''Diogena:''' Then I'm sorry to disappoint. My background is pretty ordinary, except for the fact that my family was targeted in an assassination due to my grandpa's position in the Council of Elders, leaving me as the sole survivor.
+::'''Diogena:''' Don't get me wrong: I'm not hurting for money. In fact, our family's mansion in the {{Rubi|Dawncloud|up above}} hasn't changed. Over the years, our servants have also learned to not care about where their masters may be.
+::'''Diogena:''' Anyway, thanks to this city's acceptance of legal inheritance... I can lead a carefree life until the Era Nova, as long as Okhema remains steadfast against the black tide. I sleep, eat, and soak up the sun whenever I please... What a bliss.
+::'''Diogena:''' But of course, if you're up for some casual chat... How about we pick a more specific topic? Interested in tales about {{Rubi|Thanatos|Death Titan}}, {{Rubi|Mnestia|Romance Titan}}, or the Council of Elders?
+::<!--Custom String Trigger: Wait_Option_504009003_40-->
+::<!--Custom String Listener: Wait_Option_504009003_40-->
+::{{DIcon|Talk}} Tell me more about Thanatos.
+:::<!--Custom String Listener: TalkSentence_504009106-->
+:::'''Diogena:''' Well, I may not know what Thanatos is truly like, but I can share how I see Thanatos.
+:::'''Diogena:''' For devout disciples of the Titans, the {{Rubi|Thanatos|Death Titan}} is definitely a horrifying deity. They believe they are the mastermind behind the black tide, destined to bring catastrophe upon {{Rubi|Amphoreus|the world}}.
+:::'''Diogena:''' But in my eyes, Thanatos is actually a good person. That Titan quietly endures all the hatred of the world and even offers a sanctuary for those ostracized by society.
+:::'''Diogena:''' Listen... If someone in Okhema declares themselves a follower of Thanatos, it's likely because they just prefer not to worship the Titans or partake in any rituals that beg for blessings.
+:::'''Diogena:''' After all, the pitch-black {{Rubi|Thanatos|Death Titan}} never needs adoration, and won't bestow blessings on anyone whose life is not meant to be over.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about Mnestia.
+:::<!--Custom String Listener: TalkSentence_504009112-->
+:::'''Diogena:''' I'd love to say that sister Aglaea looks just like {{Rubi|Mnestia|Titan of Love and Beauty}}... but that's not the case.
+:::'''Diogena:''' Sister Aglaea isn't just a side note for that Titan, and the same goes for the other Chrysos Heirs. I believe each of them treads their unique path with their own inspirations.
+:::'''Diogena:''' As for Mnestia... from what I know, that goddess is more like a clumsy old lady. She juggled from Era Bellica to Era Erasa, watching helplessly as the knot in her hands became harder to unravel.
+:::'''Diogena:''' Destiny hasn't got much time left for {{Rubi|Amphoreus|the Old World}}... That's what many whisper in the shadows.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me more about the Council of Elders.
+:::<!--Custom String Listener: TalkSentence_504009117-->
+:::'''Diogena:''' It's rather straightforward: The Council of Elders is a place teeming with the living dead. Some may argue the Council of Elders serves its intended functions... but as a victim, that's not the tale I would tell.
+:::'''Diogena:''' When I had to return there for some business... even amidst the bustling streets, in broad daylight, or when I had a lamp in my hand... I didn't see a living soul.
+:::'''Diogena:''' To be a bit more strict... there might be only a handful truly alive in {{Rubi|Amphoreus|the entire world}}. However... the Chrysos Heirs are here, so I'll hold my tongue on that.
+:::'''Diogena:''' Or maybe, let's put it this way: Amphoreus might actually be under the control of enigmatic forces beyond our grasp... But those who hold such knowledge certainly aren't seated in the Council of Elders.
+:::'''Diogena:''' They just believe they know what's going on... They're even less endearing than Thanatos or that self-proclaimed Evoccultist.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} (That's pretty much all I wanted to ask.)
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} See you next time.
+::'''Diogena:''' Farewell, {{Rubi|destined one|bright lamp}}.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Diogena
+|zhs  = 第欧根娜
+|zht  = 第歐根娜
+|ja   = ディオゲナ
+|ko   = 디오게나
+|es   = Diógena
+|fr   = Diogéna
+|ru   = Диогена
+|th   = Diogena
+|vi   = Diogena
+|de   = Diogena
+|id   = Diogena
+|pt   = Diogena
+}}
+==Change History==
+{{Change History|TODO}}

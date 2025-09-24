@@ -1,0 +1,170 @@
+<%-- [PAGE_INFO]
+PageTitle=#Majima#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Outworld Traveling Merchant
+|image           = NPC Majima.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Majima''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_153_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502053101: Config/Level/NPCDialogue/P10202/NPCAct/Act502053101.json-->
+::'''Majima:''' Hold up. You're not staring at me, are you? Hey, we're a respectable merchant guild over here. Don't ya think of running away. Gimme one good reason for what you've done, or you'll be in big trouble.
+::{{DIcon|Arrow}} Cos you look pretty.
+:::<!--Custom String Listener: TalkSentence_502053104-->
+:::'''Majima:''' A honey-tongued {{MC|f=lass|m=lad}}, aren't you? This is the first time we've met and you're already saying I look good. What a HYPOCRITE. No offense though. I'm a hypocrite, too.
+::{{DIcon|Arrow}} So? Imma look at whatever I want.
+:::<!--Custom String Listener: TalkSentence_502053106-->
+:::'''Majima:''' Tough {{MC|f=lass|m=lad}}, I see. We aren't on my turf, otherwise you'll be getting a good taste of my fists. But we're on the Xianzhou Luofu, so let's just follow their principle of "harmony" or whatever.
+::{{DIcon|Arrow}} Care to tell me what trouble I'll in?
+:::<!--Custom String Listener: TalkSentence_502053108-->
+:::'''Majima:''' Oh! A bodacious {{MC|f=lass|m=lad}} who has a death wish and never listens. Haha, how interesting! We're more alike than you think.
+::{{DIcon|Arrow}} I wasn't looking at you. I was just passing by.
+:::<!--Custom String Listener: TalkSentence_502053110-->
+:::'''Majima:''' Oh, don't try to muddle through, {{MC|f=lass~|m=lad~}}.
+:::'''Majima:''' People's sweat smells different when they're lying. *Sniff* Guess what my keen nose just picked up? This smell... is the smell of...
+:::{{DIcon|Arrow}} A liar!
+::::<!--Custom String Listener: TalkSentence_502053113-->
+::::'''Majima:''' Uh-huh. You know what I'm talking about, don't you?
+:::{{DIcon|Arrow}} Of what?
+::::<!--Custom String Listener: TalkSentence_502053115-->
+::::'''Majima:''' ...You know what I mean. It's the smell of a liar.
+:::{{DIcon|Arrow}} You're a pervert!
+::::<!--Custom String Listener: TalkSentence_502053117-->
+::::'''Majima:''' Heh, I couldn't care less about what you think of me.
+::<!--Custom String Trigger: TalkSentence_502053118-->
+::<!--Custom String Listener: TalkSentence_502053118-->
+::'''Majima:''' I won't give you a hard time today, but be careful. I have my moods, and you might just end up on my bad side the next time I see you.
+::'''Majima:''' And don't walk off. I still call myself an employment agent, so if you have any special skills, you're welcome to come and try your luck here.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502053301: Config/Level/NPCDialogue/P10202/NPCAct/Act502053301.json-->
+::'''Majima:''' Hehe, here you are again. What do you need this time?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I just want to have a casual chat.
+::<!--Trigger PerformanceE 502053201: Config/Level/NPCDialogue/P10202/NPCAct/Act502053201.json-->
+::'''Majima:''' The Xianzhou fossils live leisurely lives, but I don't usually see Outworlders having as much free time on their hands as you. Interesting. What do you wanna talk about?
+::<!--Custom String Trigger: Wait_Option_502053201_141-->
+::<!--Custom String Listener: Wait_Option_502053201_141-->
+::{{DIcon|Talk}} What exactly do you do?
+:::<!--Custom String Listener: TalkSentence_502053204-->
+:::'''Majima:''' I said, I'm an employment agent... I think that's the right term? I basically put people in jobs.
+:::'''Majima:''' If you're having a case of empty pockets, then you can come and hang with me.
+:::{{DIcon|Arrow}} Are your jobs respectable?
+::::<!--Custom String Listener: TalkSentence_502053207-->
+::::'''Majima:''' Respectable jobs? Nah, boring! Come on, don't tell me you actually think I'm a respectable agent?
+::::<!--Custom String Trigger: TalkSentence_502053210-->
+::::<!--Custom String Listener: TalkSentence_502053210-->
+::::'''Majima:''' Everyone knows my jobs pay plenty of dough &mdash; as long as you've got the skills to do them.
+::::'''Majima:''' And if you're not looking for a job, then you'd be rude to keep asking me questions.
+:::{{DIcon|Arrow}} You're an Outworlder putting people in Xianzhou jobs?
+::::<!--Custom String Listener: TalkSentence_502053209-->
+::::'''Majima:''' Who cares about where I work my trade? Shouldn't you care more about what jobs I have available?
+::::<!--Custom String Trigger: TalkSentence_502053210-->
+::::<!--Custom String Listener: TalkSentence_502053210-->
+::::'''Majima:''' Everyone knows my jobs pay plenty of dough &mdash; as long as you've got the skills to do them.
+::::'''Majima:''' And if you're not looking for a job, then you'd be rude to keep asking me questions.
+::::<!--Custom String Listener: TalkSentence_502053214-->
+::::'''Majima:''' Looks like I was right about you. You've got some serious talent. Too bad I don't have any jobs for you right now.
+:::;(Return to previous option selection (cloneCheckString))
+::;(All choices lead to the following options)
+:::{{DIcon|Arrow}} I'm actually looking for a job.
+:::{{DIcon|Arrow}} Fine, never mind then.
+:::<!--Custom String Listener: TalkSentence_502053214-->
+:::'''Majima:''' Looks like I was right about you. You've got some serious talent. Too bad I don't have any jobs for you right now.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What brings you to Aurum Alley?
+:::<!--Custom String Listener: TalkSentence_502053216-->
+:::'''Majima:''' I'm here to help those good locals in Aurum Alley find better jobs, so they don't have to be stuck watching those dusty stores all day.
+:::'''Majima:''' It's always great to embrace a new life, don't you think?
+:::{{DIcon|Arrow}} You're not one of those thugs working for the IPC, are you?
+:::{{DIcon|Arrow}} Why are you trying to get rid of them?
+:::<!--Custom String Listener: TalkSentence_502053220-->
+:::'''Majima:''' Hey, hey, don't go digging where you're not supposed to. You know what I mean?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you know the person next to you?
+:::<!--Custom String Listener: TalkSentence_502053222-->
+:::'''Majima:''' You mean my man Kiryu? Hahahaha, he's my best friend! We're so tight that I want to give him a little squeeze... around the neck.
+:::'''Majima:''' Too bad that we've got work to do. My higher-ups won't have anything nice to say if I got rid of Kiryu.
+:::'''Majima:''' Plus, I can't just go and fight him. This is the Xianzhou Luofu after all. The Realm-Keeping Commission or the Cloud Knights will be all over me. But don't worry, there'll be plenty of opportunities for me in the future. Hahahaha!
+:::{{DIcon|Arrow}} Does Kiryu know about your plans against him?
+::::<!--Custom String Listener: TalkSentence_502053226-->
+::::'''Majima:''' Of course he does! He wouldn't be my best friend and worst enemy otherwise!
+::::<!--Custom String Trigger: TalkSentence_502053230-->
+::::<!--Custom String Listener: TalkSentence_502053230-->
+::::'''Majima:''' Don't worry, Kiryu is very strong. Any other person would have died ages ago.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You're such a weirdo.
+::::<!--Custom String Listener: TalkSentence_502053228-->
+::::'''Majima:''' A weirdo? If you judge me by the standards of ordinary people, then maybe.
+::::'''Majima:''' But honestly, I've never cared about that.
+::::<!--Custom String Trigger: TalkSentence_502053230-->
+::::<!--Custom String Listener: TalkSentence_502053230-->
+::::'''Majima:''' Don't worry, Kiryu is very strong. Any other person would have died ages ago.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll catch you again next time.
+:::<!--Custom String Listener: TalkSentence_502053232-->
+:::'''Majima:''' I'll be staying in Aurum Alley for a while. Feel free to come back for a chat.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502053201-->
+:{{DIcon|Exit}} I'll catch you again next time.
+::'''Majima:''' I'll be staying in Aurum Alley for a while. Feel free to come back for a chat.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Majima
+|zhs  = 真志摩
+|zht  = 真志摩
+|ja   = 真志摩
+|ko   = 마지마
+|es   = Majima
+|fr   = Majima
+|ru   = Мадзима
+|th   = Majima
+|vi   = Majima
+|de   = Majima
+|id   = Majima
+|pt   = Majima
+}}
+==Change History==
+{{Change History|TODO}}

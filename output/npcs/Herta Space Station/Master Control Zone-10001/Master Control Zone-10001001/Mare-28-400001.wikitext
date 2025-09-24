@@ -1,0 +1,280 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mare#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Senior Insight Staff
+|image           = NPC Mare.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Mare''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_28_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404001403,
+		"Type": "submission_state_equal",
+		"Param1": 404001403,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404001403: Config/Level/Mission/4040014/Act/Act404001403.json-->
+:'''Mare:''' W&mdash;Was it inside the book called ''Beneath the Aeons: The Low-Dimensional World As A Will and A Surface Phenomenon''?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404001403_Finish-->
+:<!--Custom String Trigger: TalkSentence_500010516-->
+:<!--Custom String Listener: TalkSentence_500010516-->
+:'''Mare:''' In what field of study? I am not a general scholar...
+:'''Mare:''' If I can't answer your questions, please ask the other researchers.
+;(If {{cx}}<!--SubMission Finish: 200030405-->)
+::<!--Custom String Trigger: Wait_Option_500205300_67-->
+::<!--Custom String Listener: Wait_Option_500205300_67-->
+::{{DIcon|Talk}} Do you like cats?
+:::<!--Custom String Listener: TalkSentence_500205307-->
+:::'''Mare:''' Huh? How did you know that?
+:::'''Mare:''' Cats... How can anyone resist cats? They are so cute and charming, and their purring even helps with sleep.
+:::'''Mare:''' Pity I have no time to look after a real cat... But I collected lots of cat videos, stickers, and photos. Just looking at them makes me happy.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You've always been researching Aeons?
+:::<!--Custom String Listener: TalkSentence_500205311-->
+:::'''Mare:''' Mmm, but it's all a bit superficial, like reading and writing research papers.
+:::'''Mare:''' I am very interested in everything related to the Aeons, but there are too many materials to read... I don't know when I can finish them all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any books to recommend?
+:::<!--Custom String Listener: TalkSentence_500205314-->
+:::'''Mare:''' Books? I do read... a lot, but those books are all related to Aeons.
+:::'''Mare:''' The series The Fall of The Aeons – A Discussion on Cosmic Traditions is pretty good and easy to understand. It's just a bit long...
+:::'''Mare:''' Examples of Cosmic Legends: A Collection of Aeon References in Myths is also quite good. You can try that book when you have time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't think I have anything to ask.
+:::<!--Custom String Listener: TalkSentence_500205319-->
+:::'''Mare:''' Okay. You can come find me again if you have any other questions about the Aeons.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+::<!--Custom String Trigger: Wait_Option_500010108_297-->
+::<!--Custom String Listener: Wait_Option_500010108_297-->
+::{{DIcon|Talk}} Who is the lord you were talking about?
+:::<!--Custom String Listener: TalkSentence_500010519-->
+:::'''Mare:''' Oh! Are you also interested in the invasion? That was a huge event!
+:::'''Mare:''' The enemies in the Legion are cosmic weapons made of antimatter. Do you know what that means?
+:::'''Mare:''' It echos the infatuation and disaster in the Mystic Scroll of Aeons! As a result, I've come to this conclusion...
+:::'''Mare:''' These invaders are followers of Nanook the Destruction! This can't be wrong!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is the Mystic Scroll of Aeons?
+:::<!--Custom String Listener: TalkSentence_500010524-->
+:::'''Mare:''' It's a long story. You can say it's a record of cultures related to Aeons.
+:::'''Mare:''' It is written in a very obscure fashion. Even though I've spent countless days and nights studying it, I can only understand a fraction of its philosophy.
+:::'''Mare:''' But one very important thing is that the content of the Mystic Scroll of Aeons is based on facts, not groundless fabrications.
+:::'''Mare:''' This Legion is the best way to prove this!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you seen that lord?
+:::<!--Custom String Listener: TalkSentence_500010529-->
+:::'''Mare:''' Have I seen that lord? What are you talking about?
+:::'''Mare:''' In ancient times, people were not aware of the exact nature of the sun but they still worshiped the Sun God. For them, the idea of approaching the scorching sun is too much for them to handle.
+:::'''Mare:''' I am already happy that I managed to find clues about the existence of Aeons.
+:::'''Mare:''' If... If I am really being watched by the great Aeons... Heheh...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't think I have anything to ask.
+:::<!--Custom String Listener: TalkSentence_500010534-->
+:::'''Mare:''' Please contact me if you have any other clues about the Aeons!
+:::'''Mare:''' Preferably right away, and only me!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Mare:''' We meet again... I don't know much about anything apart from the Aeons...
+:'''Mare:''' How... can I help you?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 200030405-->)
+::<!--Custom String Trigger: TalkSentence_500010703-->
+::<!--Custom String Listener: TalkSentence_500010703-->
+::'''Mare:''' Okay. You can come find me again if you have any other questions about the Aeons.
+;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Mare:''' Please contact me if you have any other clues about the Aeons!
+::'''Mare:''' Preferably right away, and only me!
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000005: Config/Level/NPC/W0/NPC_DefaultStory_500000501.json-->
+::<!--Custom String Trigger: TalkSentence_500010502-->
+::<!--Custom String Listener: TalkSentence_500010502-->
+::'''Mare:''' Everything happens exactly as predicted in the Mystic Scroll of Aeons, exactly...
+::'''Mare:''' If this is true, the lord must've seen... No, must be watching...
+::'''Mare:''' Gosh, I can't breathe! Oh my gosh!
+::<!--Custom String Trigger: Wait_Option_500010108_280-->
+::<!--Custom String Listener: Wait_Option_500010108_280-->
+::{{DIcon|Arrow}} Are you all right?
+:::<!--Custom String Listener: TalkSentence_500010506-->
+:::'''Mare:''' Okay? I am good! I mean, I am great!
+:::'''Mare:''' Good is an understatement for what I'm feeling right now!
+:::'''Mare:''' How would you feel if you get to see the sun whilst basking in its warmth?
+:::'''Mare:''' That's exactly how I feel right now!
+::{{DIcon|Arrow}} I think you need to go to the Medical Cabin.
+:::<!--Custom String Listener: TalkSentence_500010511-->
+:::'''Mare:''' Medical Cabin? No, I don't think so. Trust me, I know my body just fine.
+:::'''Mare:''' I just got too carried away, making me a bit out of breath.
+:::'''Mare:''' Take a deep breath. Inhale... exhale... right, this is how I adjust my breathing.
+:::'''Mare:''' How strange, my heartbeat is still very fast. It doesn't seem to be working.
+::<!--Custom String Trigger: Wait_Option_500010108_292-->
+::<!--Custom String Listener: Wait_Option_500010108_292-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000006: Config/Level/NPC/W0/NPC_DefaultStory_500000500.json-->
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Mare:''' We meet again... I don't know much about anything apart from the Aeons...
+::'''Mare:''' How... can I help you?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003202-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002904: Config/Level/Mission/4050029/Act/Act405002904.json-->
+::'''Mare:''' Oh... I see, it's an agreement related to the Astral Express, right? The Department of Insight has indeed obtained a batch of interesting documents...
+::'''Mare:''' But I have something to do right now, I'll have someone transfer the information to you later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003202-->
+;(If {{cx}}<!--SubMission Started: 404001403-->)
+:{{DIcon|?}} I found this note. Is it yours?
+::<!--Trigger PerformanceE 404001403: Config/Level/Mission/4040014/Act/Act404001403.json-->
+::'''Mare:''' W&mdash;Was it inside the book called ''Beneath the Aeons: The Low-Dimensional World As A Will and A Surface Phenomenon''?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404001403_Finish-->
+;(If {{cx}}<!--SubMission Started: 404001403-->)
+:{{DIcon}} I have a few questions for you...
+::<!--Custom String Trigger: TalkSentence_500010516-->
+::<!--Custom String Listener: TalkSentence_500010516-->
+::'''Mare:''' In what field of study? I am not a general scholar...
+::'''Mare:''' If I can't answer your questions, please ask the other researchers.
+:;(If {{cx}}<!--SubMission Finish: 200030405-->)
+:::<!--Custom String Trigger: Wait_Option_500205300_67-->
+:::<!--Custom String Listener: Wait_Option_500205300_67-->
+:::{{DIcon|Talk}} Do you like cats?
+::::<!--Custom String Listener: TalkSentence_500205307-->
+::::'''Mare:''' Huh? How did you know that?
+::::'''Mare:''' Cats... How can anyone resist cats? They are so cute and charming, and their purring even helps with sleep.
+::::'''Mare:''' Pity I have no time to look after a real cat... But I collected lots of cat videos, stickers, and photos. Just looking at them makes me happy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You've always been researching Aeons?
+::::<!--Custom String Listener: TalkSentence_500205311-->
+::::'''Mare:''' Mmm, but it's all a bit superficial, like reading and writing research papers.
+::::'''Mare:''' I am very interested in everything related to the Aeons, but there are too many materials to read... I don't know when I can finish them all.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any books to recommend?
+::::<!--Custom String Listener: TalkSentence_500205314-->
+::::'''Mare:''' Books? I do read... a lot, but those books are all related to Aeons.
+::::'''Mare:''' The series The Fall of The Aeons – A Discussion on Cosmic Traditions is pretty good and easy to understand. It's just a bit long...
+::::'''Mare:''' Examples of Cosmic Legends: A Collection of Aeon References in Myths is also quite good. You can try that book when you have time.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't think I have anything to ask.
+::::<!--Custom String Listener: TalkSentence_500205319-->
+::::'''Mare:''' Okay. You can come find me again if you have any other questions about the Aeons.
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+:::<!--Custom String Trigger: Wait_Option_500010108_297-->
+:::<!--Custom String Listener: Wait_Option_500010108_297-->
+:::{{DIcon|Talk}} Who is the lord you were talking about?
+::::<!--Custom String Listener: TalkSentence_500010519-->
+::::'''Mare:''' Oh! Are you also interested in the invasion? That was a huge event!
+::::'''Mare:''' The enemies in the Legion are cosmic weapons made of antimatter. Do you know what that means?
+::::'''Mare:''' It echos the infatuation and disaster in the Mystic Scroll of Aeons! As a result, I've come to this conclusion...
+::::'''Mare:''' These invaders are followers of Nanook the Destruction! This can't be wrong!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What is the Mystic Scroll of Aeons?
+::::<!--Custom String Listener: TalkSentence_500010524-->
+::::'''Mare:''' It's a long story. You can say it's a record of cultures related to Aeons.
+::::'''Mare:''' It is written in a very obscure fashion. Even though I've spent countless days and nights studying it, I can only understand a fraction of its philosophy.
+::::'''Mare:''' But one very important thing is that the content of the Mystic Scroll of Aeons is based on facts, not groundless fabrications.
+::::'''Mare:''' This Legion is the best way to prove this!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Have you seen that lord?
+::::<!--Custom String Listener: TalkSentence_500010529-->
+::::'''Mare:''' Have I seen that lord? What are you talking about?
+::::'''Mare:''' In ancient times, people were not aware of the exact nature of the sun but they still worshiped the Sun God. For them, the idea of approaching the scorching sun is too much for them to handle.
+::::'''Mare:''' I am already happy that I managed to find clues about the existence of Aeons.
+::::'''Mare:''' If... If I am really being watched by the great Aeons... Heheh...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't think I have anything to ask.
+::::<!--Custom String Listener: TalkSentence_500010534-->
+::::'''Mare:''' Please contact me if you have any other clues about the Aeons!
+::::'''Mare:''' Preferably right away, and only me!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404001403-->)
+:{{DIcon|Exit}} I don't think I have anything to ask.
+:;(If {{cx}}<!--SubMission Finish: 200030405-->)
+:::<!--Custom String Trigger: TalkSentence_500010703-->
+:::<!--Custom String Listener: TalkSentence_500010703-->
+:::'''Mare:''' Okay. You can come find me again if you have any other questions about the Aeons.
+:;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+:::<!--Custom String Trigger: TalkSentence_500010702-->
+:::<!--Custom String Listener: TalkSentence_500010702-->
+:::'''Mare:''' Please contact me if you have any other clues about the Aeons!
+:::'''Mare:''' Preferably right away, and only me!
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290502)
+:<!--Custom String Listener: TalkSentence_405290502-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mare
+|zhs  = 梅厄
+|zht  = 梅厄
+|ja   = メイア
+|ko   = 마레
+|es   = Mare
+|fr   = Mare
+|ru   = Мэйр
+|th   = Mare
+|vi   = Mare
+|de   = Mare
+|id   = Mare
+|pt   = Mare
+}}
+==Change History==
+{{Change History|TODO}}

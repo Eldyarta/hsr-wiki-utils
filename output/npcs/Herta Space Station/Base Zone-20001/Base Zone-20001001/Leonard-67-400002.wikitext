@@ -1,0 +1,364 @@
+<%-- [PAGE_INFO]
+PageTitle=#Leonard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Maintenance Staff
+|image           = NPC Leonard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Leonard''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_67_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 800010403,
+		"Type": "submission_state_equal",
+		"Param1": 800010403,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 800010403: Config/Level/Mission/8000104/Act/Act800010403.json-->
+:'''Leonard:''' Wh&mdash;What? You can't mean what's going on here, can you...!
+:'''Leonard:''' Herta knows, too? This time it's game over...
+:{{DIcon|Arrow}} She said she didn't care.
+::<!--Custom String Listener: TalkSentence_800091505-->
+::'''Leonard:''' Yup, isn't the implication for me to beat it? It's over, it's all over... I've offended the last person that should ever be offended. There is no way I could ever keep on staying here like this...
+:{{DIcon|Arrow}} She said she cared about this!
+::<!--Custom String Listener: TalkSentence_800091507-->
+::'''Leonard:''' That's even worse! It's over, it's all over... I've offended the last person that should ever be offended. There is no way I could ever keep on staying here like this...
+:<!--Custom String Trigger: TalkSentence_800091508-->
+:<!--Custom String Listener: TalkSentence_800091508-->
+:'''Leonard:''' Once I've dealt with this mess, I can submit my resignation, curl up, and vanish... But right now, I can't just leave this mess like this...
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800010247-->
+<pre>
+[
+	{
+		"ID": 800010404,
+		"Type": "submission_state_equal",
+		"Param1": 800010404,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 800010404: Config/Level/Mission/8000104/Act/Act800010404.json-->
+:'''Leonard:''' Wh&mdash;What? You can't mean what's going on here, can you...
+:'''Leonard:''' Well... What did the Lead Researcher Asta say?
+:{{DIcon|Arrow}} Asta believes you can fix everything.
+::<!--Custom String Listener: TalkSentence_800091405-->
+::'''Leonard:''' Ah, she really said that? That's great... Looks like I won't have to resign, after all. Thanks for letting me know about all this. I won't let down our lead researcher!
+:{{DIcon|Arrow}} Asta asked me to help you.
+::<!--Custom String Listener: TalkSentence_800091407-->
+::'''Leonard:''' R&mdash;Really? Looks like the lead researcher is still really concerned, but at least I don't have to fall on my sword and resign... Right? Anyway, let's do this!
+:{{DIcon|Arrow}} Asta's really angry.
+::<!--Custom String Listener: TalkSentence_800091409-->
+::'''Leonard:''' Ah? Th&mdash;This... Oh, I've betrayed her trust. If I'd used partition encryption right from the start, we'd never have been hacked...
+::'''Leonard:''' But it's no use regretting things now... Ack, let's get back to solving the problem at hand.
+:<!--Custom String Trigger: TalkSentence_800091410-->
+:<!--Custom String Listener: TalkSentence_800091410-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800010251-->
+:<!--Trigger PerformanceE 800010212: Config/Level/Mission/8000102/Act/Act800010212.json-->
+:'''Leonard:''' What's up? Speak.
+:<!--Custom String Trigger: Wait_Option_800010212_144-->
+:<!--Custom String Listener: Wait_Option_800010212_144-->
+:{{DIcon|Talk}} About you...
+::<!--Custom String Listener: TalkSentence_800090604-->
+::'''Leonard:''' Me?
+::<!--Custom String Trigger: Wait_Option_800010212_147-->
+::<!--Custom String Listener: Wait_Option_800010212_147-->
+::{{DIcon|Talk}} I rarely bump into you.
+:::<!--Custom String Listener: TalkSentence_800090606-->
+:::'''Leonard:''' Oh, that's the special nature of my work. If I'm not maintaining machines in the terminal room, I'll be in someone's office checking up on their computer. Sometimes I have to leave the zone for other jobs, too.
+:::'''Leonard:''' It's just how it is. The maintenance team is understaffed. They can't recruit anyone... So that's why you hardly see me around.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What was your job before?
+:::<!--Custom String Listener: TalkSentence_800090609-->
+:::'''Leonard:''' Before this? I've always been an engineer. I used to work for the Interastral Peace Corporation, and I made rank... P24? P25, I think? I can't remember, for it's been a while since I worked there.
+:::'''Leonard:''' I liked that workplace, but it was too big. A small fry like me could spend half a lifetime there without bumping into any bigwigs...
+:::'''Leonard:''' The space station is different &mdash; you can hardly escape the Lead Researcher Asta. If you're lucky, you can even get your ears chewed off by Madam Herta &mdash; the same Herta from the Genius Society!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I want to ask about something else...
+:::<!--Custom String Listener: Wait_Option_800010212_144-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} About this incident...
+::::<!--Custom String Listener: TalkSentence_800090614-->
+::::'''Leonard:''' Mhm, go ahead.
+::::<!--Custom String Trigger: Wait_Option_800010212_159-->
+::::<!--Custom String Listener: Wait_Option_800010212_159-->
+::::{{DIcon|Talk}} Why's it called Cosmic Warfare?
+:::::<!--Custom String Listener: TalkSentence_800090616-->
+:::::'''Leonard:''' Cosmic Warfare? To be honest... I dunno. I've never heard of this game. I asked all my buddies who know about this kind of thing, and I think it's some kind of an old game.
+:::::'''Leonard:''' It's from the old display screens on those antique interstellar skiffs. Ugh... The type of game only an idle drunk miner could love.
+:::::'''Leonard:''' And the original version of Cosmic Warfare never featured the Antimatter Legion, anyway. She's just played around with the game's engine. As for her aim... I have no idea.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} How much do you know about this hacker?
+:::::<!--Custom String Listener: TalkSentence_800090620-->
+:::::'''Leonard:''' Only what I could read from the program file. I do know a bit about where she's from: Punklorde &mdash; an extremely open cyberworld.
+:::::'''Leonard:''' They're famous for their hackers, and some even regarded reality as a kind of immersive MMORPG. It's a world of promised land stacked with outstanding talent, so I'm not surprised they've produced a Stellaron Hunter there...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} How have you been getting on with things?
+:::::<!--Custom String Listener: TalkSentence_800090623-->
+:::::'''Leonard:''' Not the best... I've done my best to isolate the intruder's viral influence to the monitoring room. I don't have to worry about other troubles throughout the space station, but as for everything else... It all needs more work.
+:::::'''Leonard:''' My supervisor at the Maintenance Department said this is all fine. As of now, the space station has too much on its plate to handle. Since they're not making any further attacks, I should just keep it stabilized here.
+:::::'''Leonard:''' Also, I wrote a script to block off those spam messages all day, every day... It's a little primitive, but it'll still be useful to some extent.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Talk}} About this incident...
+::<!--Custom String Listener: TalkSentence_800090614-->
+::'''Leonard:''' Mhm, go ahead.
+::<!--Custom String Trigger: Wait_Option_800010212_159-->
+::<!--Custom String Listener: Wait_Option_800010212_159-->
+::{{DIcon|Talk}} Why's it called Cosmic Warfare?
+:::<!--Custom String Listener: TalkSentence_800090616-->
+:::'''Leonard:''' Cosmic Warfare? To be honest... I dunno. I've never heard of this game. I asked all my buddies who know about this kind of thing, and I think it's some kind of an old game.
+:::'''Leonard:''' It's from the old display screens on those antique interstellar skiffs. Ugh... The type of game only an idle drunk miner could love.
+:::'''Leonard:''' And the original version of Cosmic Warfare never featured the Antimatter Legion, anyway. She's just played around with the game's engine. As for her aim... I have no idea.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How much do you know about this hacker?
+:::<!--Custom String Listener: TalkSentence_800090620-->
+:::'''Leonard:''' Only what I could read from the program file. I do know a bit about where she's from: Punklorde &mdash; an extremely open cyberworld.
+:::'''Leonard:''' They're famous for their hackers, and some even regarded reality as a kind of immersive MMORPG. It's a world of promised land stacked with outstanding talent, so I'm not surprised they've produced a Stellaron Hunter there...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How have you been getting on with things?
+:::<!--Custom String Listener: TalkSentence_800090623-->
+:::'''Leonard:''' Not the best... I've done my best to isolate the intruder's viral influence to the monitoring room. I don't have to worry about other troubles throughout the space station, but as for everything else... It all needs more work.
+:::'''Leonard:''' My supervisor at the Maintenance Department said this is all fine. As of now, the space station has too much on its plate to handle. Since they're not making any further attacks, I should just keep it stabilized here.
+:::'''Leonard:''' Also, I wrote a script to block off those spam messages all day, every day... It's a little primitive, but it'll still be useful to some extent.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I want to ask about something else...
+:::<!--Custom String Listener: Wait_Option_800010212_144-->
+:::{{DIcon|Talk}} About you...
+::::<!--Custom String Listener: TalkSentence_800090604-->
+::::'''Leonard:''' Me?
+::::<!--Custom String Trigger: Wait_Option_800010212_147-->
+::::<!--Custom String Listener: Wait_Option_800010212_147-->
+::::{{DIcon|Talk}} I rarely bump into you.
+:::::<!--Custom String Listener: TalkSentence_800090606-->
+:::::'''Leonard:''' Oh, that's the special nature of my work. If I'm not maintaining machines in the terminal room, I'll be in someone's office checking up on their computer. Sometimes I have to leave the zone for other jobs, too.
+:::::'''Leonard:''' It's just how it is. The maintenance team is understaffed. They can't recruit anyone... So that's why you hardly see me around.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What was your job before?
+:::::<!--Custom String Listener: TalkSentence_800090609-->
+:::::'''Leonard:''' Before this? I've always been an engineer. I used to work for the Interastral Peace Corporation, and I made rank... P24? P25, I think? I can't remember, for it's been a while since I worked there.
+:::::'''Leonard:''' I liked that workplace, but it was too big. A small fry like me could spend half a lifetime there without bumping into any bigwigs...
+:::::'''Leonard:''' The space station is different &mdash; you can hardly escape the Lead Researcher Asta. If you're lucky, you can even get your ears chewed off by Madam Herta &mdash; the same Herta from the Genius Society!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Trigger PerformanceE 800010208: Config/Level/Mission/8000102/Act/Act800010208.json-->
+:'''Leonard:''' So busy... So busy... So busy...
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 800010206: Config/Level/Mission/8000102/Act/Act800010206.json-->
+:'''Leonard:''' Okay. Come find me anytime you need something.
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 800010208: Config/Level/Mission/8000102/Act/Act800010208.json-->
+:'''Leonard:''' So busy... So busy... So busy...
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 800010403-->)
+:{{DIcon}} Under development. Stay tuned!
+::<!--Trigger PerformanceE 800010403: Config/Level/Mission/8000104/Act/Act800010403.json-->
+::'''Leonard:''' Wh&mdash;What? You can't mean what's going on here, can you...!
+::'''Leonard:''' Herta knows, too? This time it's game over...
+::{{DIcon|Arrow}} She said she didn't care.
+:::<!--Custom String Listener: TalkSentence_800091505-->
+:::'''Leonard:''' Yup, isn't the implication for me to beat it? It's over, it's all over... I've offended the last person that should ever be offended. There is no way I could ever keep on staying here like this...
+::{{DIcon|Arrow}} She said she cared about this!
+:::<!--Custom String Listener: TalkSentence_800091507-->
+:::'''Leonard:''' That's even worse! It's over, it's all over... I've offended the last person that should ever be offended. There is no way I could ever keep on staying here like this...
+::<!--Custom String Trigger: TalkSentence_800091508-->
+::<!--Custom String Listener: TalkSentence_800091508-->
+::'''Leonard:''' Once I've dealt with this mess, I can submit my resignation, curl up, and vanish... But right now, I can't just leave this mess like this...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800010247-->
+;(If {{cx}}<!--SubMission Started: 800010404--> and {{cx}}<!--SubMission Started: 800010403-->)
+:{{DIcon}} Under development. Stay tuned!
+::<!--Trigger PerformanceE 800010404: Config/Level/Mission/8000104/Act/Act800010404.json-->
+::'''Leonard:''' Wh&mdash;What? You can't mean what's going on here, can you...
+::'''Leonard:''' Well... What did the Lead Researcher Asta say?
+::{{DIcon|Arrow}} Asta believes you can fix everything.
+:::<!--Custom String Listener: TalkSentence_800091405-->
+:::'''Leonard:''' Ah, she really said that? That's great... Looks like I won't have to resign, after all. Thanks for letting me know about all this. I won't let down our lead researcher!
+::{{DIcon|Arrow}} Asta asked me to help you.
+:::<!--Custom String Listener: TalkSentence_800091407-->
+:::'''Leonard:''' R&mdash;Really? Looks like the lead researcher is still really concerned, but at least I don't have to fall on my sword and resign... Right? Anyway, let's do this!
+::{{DIcon|Arrow}} Asta's really angry.
+:::<!--Custom String Listener: TalkSentence_800091409-->
+:::'''Leonard:''' Ah? Th&mdash;This... Oh, I've betrayed her trust. If I'd used partition encryption right from the start, we'd never have been hacked...
+:::'''Leonard:''' But it's no use regretting things now... Ack, let's get back to solving the problem at hand.
+::<!--Custom String Trigger: TalkSentence_800091410-->
+::<!--Custom String Listener: TalkSentence_800091410-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800010251-->
+;(If {{cx}}<!--SubMission Started: 800010404--> and {{cx}}<!--SubMission Started: 800010403-->)
+:{{DIcon}} Under development. Stay tuned!
+::<!--Trigger PerformanceE 800010212: Config/Level/Mission/8000102/Act/Act800010212.json-->
+::'''Leonard:''' What's up? Speak.
+::<!--Custom String Trigger: Wait_Option_800010212_144-->
+::<!--Custom String Listener: Wait_Option_800010212_144-->
+::{{DIcon|Talk}} About you...
+:::<!--Custom String Listener: TalkSentence_800090604-->
+:::'''Leonard:''' Me?
+:::<!--Custom String Trigger: Wait_Option_800010212_147-->
+:::<!--Custom String Listener: Wait_Option_800010212_147-->
+:::{{DIcon|Talk}} I rarely bump into you.
+::::<!--Custom String Listener: TalkSentence_800090606-->
+::::'''Leonard:''' Oh, that's the special nature of my work. If I'm not maintaining machines in the terminal room, I'll be in someone's office checking up on their computer. Sometimes I have to leave the zone for other jobs, too.
+::::'''Leonard:''' It's just how it is. The maintenance team is understaffed. They can't recruit anyone... So that's why you hardly see me around.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What was your job before?
+::::<!--Custom String Listener: TalkSentence_800090609-->
+::::'''Leonard:''' Before this? I've always been an engineer. I used to work for the Interastral Peace Corporation, and I made rank... P24? P25, I think? I can't remember, for it's been a while since I worked there.
+::::'''Leonard:''' I liked that workplace, but it was too big. A small fry like me could spend half a lifetime there without bumping into any bigwigs...
+::::'''Leonard:''' The space station is different &mdash; you can hardly escape the Lead Researcher Asta. If you're lucky, you can even get your ears chewed off by Madam Herta &mdash; the same Herta from the Genius Society!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I want to ask about something else...
+::::<!--Custom String Listener: Wait_Option_800010212_144-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} About this incident...
+:::::<!--Custom String Listener: TalkSentence_800090614-->
+:::::'''Leonard:''' Mhm, go ahead.
+:::::<!--Custom String Trigger: Wait_Option_800010212_159-->
+:::::<!--Custom String Listener: Wait_Option_800010212_159-->
+:::::{{DIcon|Talk}} Why's it called Cosmic Warfare?
+::::::<!--Custom String Listener: TalkSentence_800090616-->
+::::::'''Leonard:''' Cosmic Warfare? To be honest... I dunno. I've never heard of this game. I asked all my buddies who know about this kind of thing, and I think it's some kind of an old game.
+::::::'''Leonard:''' It's from the old display screens on those antique interstellar skiffs. Ugh... The type of game only an idle drunk miner could love.
+::::::'''Leonard:''' And the original version of Cosmic Warfare never featured the Antimatter Legion, anyway. She's just played around with the game's engine. As for her aim... I have no idea.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} How much do you know about this hacker?
+::::::<!--Custom String Listener: TalkSentence_800090620-->
+::::::'''Leonard:''' Only what I could read from the program file. I do know a bit about where she's from: Punklorde &mdash; an extremely open cyberworld.
+::::::'''Leonard:''' They're famous for their hackers, and some even regarded reality as a kind of immersive MMORPG. It's a world of promised land stacked with outstanding talent, so I'm not surprised they've produced a Stellaron Hunter there...
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} How have you been getting on with things?
+::::::<!--Custom String Listener: TalkSentence_800090623-->
+::::::'''Leonard:''' Not the best... I've done my best to isolate the intruder's viral influence to the monitoring room. I don't have to worry about other troubles throughout the space station, but as for everything else... It all needs more work.
+::::::'''Leonard:''' My supervisor at the Maintenance Department said this is all fine. As of now, the space station has too much on its plate to handle. Since they're not making any further attacks, I should just keep it stabilized here.
+::::::'''Leonard:''' Also, I wrote a script to block off those spam messages all day, every day... It's a little primitive, but it'll still be useful to some extent.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I don't have any other questions.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} About this incident...
+:::<!--Custom String Listener: TalkSentence_800090614-->
+:::'''Leonard:''' Mhm, go ahead.
+:::<!--Custom String Trigger: Wait_Option_800010212_159-->
+:::<!--Custom String Listener: Wait_Option_800010212_159-->
+:::{{DIcon|Talk}} Why's it called Cosmic Warfare?
+::::<!--Custom String Listener: TalkSentence_800090616-->
+::::'''Leonard:''' Cosmic Warfare? To be honest... I dunno. I've never heard of this game. I asked all my buddies who know about this kind of thing, and I think it's some kind of an old game.
+::::'''Leonard:''' It's from the old display screens on those antique interstellar skiffs. Ugh... The type of game only an idle drunk miner could love.
+::::'''Leonard:''' And the original version of Cosmic Warfare never featured the Antimatter Legion, anyway. She's just played around with the game's engine. As for her aim... I have no idea.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How much do you know about this hacker?
+::::<!--Custom String Listener: TalkSentence_800090620-->
+::::'''Leonard:''' Only what I could read from the program file. I do know a bit about where she's from: Punklorde &mdash; an extremely open cyberworld.
+::::'''Leonard:''' They're famous for their hackers, and some even regarded reality as a kind of immersive MMORPG. It's a world of promised land stacked with outstanding talent, so I'm not surprised they've produced a Stellaron Hunter there...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How have you been getting on with things?
+::::<!--Custom String Listener: TalkSentence_800090623-->
+::::'''Leonard:''' Not the best... I've done my best to isolate the intruder's viral influence to the monitoring room. I don't have to worry about other troubles throughout the space station, but as for everything else... It all needs more work.
+::::'''Leonard:''' My supervisor at the Maintenance Department said this is all fine. As of now, the space station has too much on its plate to handle. Since they're not making any further attacks, I should just keep it stabilized here.
+::::'''Leonard:''' Also, I wrote a script to block off those spam messages all day, every day... It's a little primitive, but it'll still be useful to some extent.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I want to ask about something else...
+::::<!--Custom String Listener: Wait_Option_800010212_144-->
+::::{{DIcon|Talk}} About you...
+:::::<!--Custom String Listener: TalkSentence_800090604-->
+:::::'''Leonard:''' Me?
+:::::<!--Custom String Trigger: Wait_Option_800010212_147-->
+:::::<!--Custom String Listener: Wait_Option_800010212_147-->
+:::::{{DIcon|Talk}} I rarely bump into you.
+::::::<!--Custom String Listener: TalkSentence_800090606-->
+::::::'''Leonard:''' Oh, that's the special nature of my work. If I'm not maintaining machines in the terminal room, I'll be in someone's office checking up on their computer. Sometimes I have to leave the zone for other jobs, too.
+::::::'''Leonard:''' It's just how it is. The maintenance team is understaffed. They can't recruit anyone... So that's why you hardly see me around.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} What was your job before?
+::::::<!--Custom String Listener: TalkSentence_800090609-->
+::::::'''Leonard:''' Before this? I've always been an engineer. I used to work for the Interastral Peace Corporation, and I made rank... P24? P25, I think? I can't remember, for it's been a while since I worked there.
+::::::'''Leonard:''' I liked that workplace, but it was too big. A small fry like me could spend half a lifetime there without bumping into any bigwigs...
+::::::'''Leonard:''' The space station is different &mdash; you can hardly escape the Lead Researcher Asta. If you're lucky, you can even get your ears chewed off by Madam Herta &mdash; the same Herta from the Genius Society!
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I don't have any other questions.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 800010404--> and {{cx}}<!--SubMission Started: 800010403-->)
+:{{DIcon|Exit}} Under development. Stay tuned!
+::<!--Trigger PerformanceE 800010206: Config/Level/Mission/8000102/Act/Act800010206.json-->
+::'''Leonard:''' Okay. Come find me anytime you need something.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maintenance Engineer
+|zhs  = 维修工程师
+|zht  = 維修工程師
+|ja   = メンテナンスエンジニア
+|ko   = 수리 엔지니어
+|es   = Ingeniero de mantenimiento
+|fr   = Ingénieur de maintenance
+|ru   = Инженер по техническому обслуживанию
+|th   = วิศวกรซ่อมบำรุง
+|vi   = Kỹ Sư Sửa Chữa
+|de   = Wartungstechniker
+|id   = Insinyur Pemeliharaan
+|pt   = Engenheiro de Manutenção
+}}
+==Change History==
+{{Change History|TODO}}

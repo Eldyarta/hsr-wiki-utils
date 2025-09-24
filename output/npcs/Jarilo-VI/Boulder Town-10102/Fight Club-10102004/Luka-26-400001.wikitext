@@ -1,0 +1,204 @@
+<%-- [PAGE_INFO]
+PageTitle=#Luka#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Luka.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Fight Club
+|relatives       = 
+}}
+'''Luka''' is an NPC on [[Jarilo-VI]], located in [[Fight Club]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Fight Club|npc_26_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{Mission|Mo Cuishle|showChapter=0}} has not been completed)
+:;(First interaction)
+:::<!--Trigger PerformanceE 404013002: Config/Level/Mission/4040130/Act/Act404013002.json-->
+:::'''Luka:''' ...Hmm? Sorry, I was just thinking about something! Are you here for an autograph? Or...
+:::'''Luka:''' Wait, your outfit... There's no mistake, you must be the famous "Trailblazer"!
+:::{{DIcon|Arrow}} What an honor to meet ya, I'm (Trailblazer).
+::::<!--Custom String Listener: TalkSentence_404003053-->
+::::'''Luka:''' No, no, the honor's all mine! Master Oleg and Seele have mentioned your name many times before.
+:::{{DIcon|Arrow}} You're right. I'm the legend of Belobog.
+::::<!--Custom String Listener: TalkSentence_404003055-->
+::::'''Luka:''' Hahaha, you're just as Master Oleg and Seele described. You really are an interesting one!
+:::<!--Custom String Trigger: TalkSentence_404003056-->
+:::<!--Custom String Listener: TalkSentence_404003056-->
+:::'''Luka:''' What a pity! I was supporting the folks around Boulder Town, dealing with the monsters emerging from the Fragmentum from dawn to dusk. I completely missed you lot's big saving-the-world adventure...
+:::'''Luka:''' But being able to meet a great hero such as yourself right now more than makes up for it!
+:::'''Luka:''' Oh, I got so excited that I almost forgot to formally introduce myself. My name is Luka, and I'm a core member of "Wildfire" just like Seele. You should be very familiar with Chief Oleg, right? He is the master who taught me how to fight.
+:::<!--Custom String Trigger: Wait_Option_404003002_52-->
+:::<!--Custom String Listener: Wait_Option_404003002_52-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 404013003: Config/Level/Mission/4040130/Act/Act404013003.json-->
+:::'''Luka:''' Yo, (Trailblazer)! Were you just in the neighborhood?
+:::'''Luka:''' I was just resting for a bit before getting to my next set of exercises, and I'm just in time to chat with you!
+:::<!--Custom String Trigger: Wait_Option_404003002_52-->
+:::<!--Custom String Listener: Wait_Option_404003002_52-->
+:::<!--Custom String Listener: Wait_Option_404003002_52-->
+:::{{DIcon|Talk}} So I hear you're the 27-time champion?
+::::<!--Custom String Listener: TalkSentence_404003060-->
+::::'''Luka:''' Huh? Hahaha, so you've heard about that, too!
+::::'''Luka:''' I didn't think it was anything worth mentioning compared to what you people have done for Belobog!
+::::'''Luka:''' I didn't compete for glory or anything... Now that I listen to myself say that, it does sound rather pretentious, doesn't it? But it's true. Please believe me!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you fight for Scott?
+::::<!--Custom String Listener: TalkSentence_404003064-->
+::::'''Luka:''' Scott?
+::::'''Luka:''' Umm... You must be referring to the Fight Club's owner, Mr. Scott? No, I'm not acquainted with him.
+::::'''Luka:''' To be honest, I don't really like the set of rules he made. Boxing managers and all that... I don't really think it's necessary. It's too pretentious. I just want to let my own abilities do the talking, and I am not interested in anything else.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What has Wildfire been up to recently?
+::::<!--Custom String Listener: TalkSentence_404003068-->
+::::'''Luka:''' Thanks to you lot, everything's been going much more smoothly for us lately.
+::::'''Luka:''' Of course, the daily sentry and patrol duties can't be dropped, and occasionally I have to help to resolve some small conflicts in the neighborhood... Oh, I shouldn't forget to work with the Silvermane Guards to conduct a few joint exercises soon.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let's spar together if we have the chance.
+::::<!--Custom String Listener: TalkSentence_404003071-->
+::::'''Luka:''' Of course! Being able to trade notes with the savior of Belobog would be a rare opportunity!
+::::'''Luka:''' You look like you're rushing off to help others in trouble, right? Hahaha, I can smell the willingness to help from miles away!
+::::'''Luka:''' See you later, (Trailblazer)! I hope I'll have a chance to see you in the Underworld again!
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why didn't you mention your 27 championship victories?
+:::<!--Custom String Listener: TalkSentence_404003060-->
+:::'''Luka:''' Huh? Hahaha, so you've heard about that, too!
+:::'''Luka:''' I didn't think it was anything worth mentioning compared to what you people have done for Belobog!
+:::'''Luka:''' I didn't compete for glory or anything... Now that I listen to myself say that, it does sound rather pretentious, doesn't it? But it's true. Please believe me!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you fight for Scott?
+:::<!--Custom String Listener: TalkSentence_404003064-->
+:::'''Luka:''' Scott?
+:::'''Luka:''' Umm... You must be referring to the Fight Club's owner, Mr. Scott? No, I'm not acquainted with him.
+:::'''Luka:''' To be honest, I don't really like the set of rules he made. Boxing managers and all that... I don't really think it's necessary. It's too pretentious. I just want to let my own abilities do the talking, and I am not interested in anything else.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What has Wildfire been up to recently?
+:::<!--Custom String Listener: TalkSentence_404003068-->
+:::'''Luka:''' Thanks to you lot, everything's been going much more smoothly for us lately.
+:::'''Luka:''' Of course, the daily sentry and patrol duties can't be dropped, and occasionally I have to help to resolve some small conflicts in the neighborhood... Oh, I shouldn't forget to work with the Silvermane Guards to conduct a few joint exercises soon.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's spar together if we have the chance.
+:::<!--Custom String Listener: TalkSentence_404003071-->
+:::'''Luka:''' Of course! Being able to trade notes with the savior of Belobog would be a rare opportunity!
+:::'''Luka:''' You look like you're rushing off to help others in trouble, right? Hahaha, I can smell the willingness to help from miles away!
+:::'''Luka:''' See you later, (Trailblazer)! I hope I'll have a chance to see you in the Underworld again!
+:::<!--Ends the current performance-->
+;(Otherwise, if {{Mission|Mo Cuishle|showChapter=0}} has been completed)
+:;(First interaction)
+:::<!--Trigger PerformanceE 501031001: Config/Level/Mission/5010310/Act/Act501031001.json-->
+:::'''Luka:''' Hey, (Trailblazer)! Glad to see you here, in the Underworld!
+:::'''Luka:''' How about a friendly spar! What do you say?
+:::{{DIcon|Arrow}} I don't fight for free.
+::::<!--Custom String Listener: TalkSentence_501031004-->
+::::'''Luka:''' Hahahaha, I knew you'd say that! Rumor has it that the great hero of Belobog is stingy! Looks like those rumors about you are true after all!
+:::{{DIcon|Arrow}} I have no interest in bullying someone who's injured.
+::::<!--Custom String Listener: TalkSentence_501031006-->
+::::'''Luka:''' Hahahaha, they're just some scratches! I'll be alive and kicking again in a few minutes!
+:::<!--Custom String Trigger: TalkSentence_501031007-->
+:::<!--Custom String Listener: TalkSentence_501031007-->
+:::'''Luka:''' Such a shame that you're not in the mood for a spar... Fine, let's fight next time! No more excuses, hah!
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 501031002: Config/Level/Mission/5010310/Act/Act501031002.json-->
+:::'''Luka:''' Hey, (Trailblazer)! Glad to see you here, in the Underworld!
+:::'''Luka:''' Hmm? Want to get some exercise and break a sweat?
+::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 501031002: Config/Level/Mission/5010310/Act/Act501031002.json-->
+::'''Luka:''' Hey, (Trailblazer)! Glad to see you here, in the Underworld!
+::'''Luka:''' Hmm? Want to get some exercise and break a sweat?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} We can have a chat.
+::<!--Trigger PerformanceE 501031003: Config/Level/Mission/5010310/Act/Act501031003.json-->
+::'''Luka:''' Chat? Sure thing! You don't get to chat with a great hero every day!
+::<!--Custom String Trigger: Wait_Option_501031003_37-->
+::<!--Custom String Listener: Wait_Option_501031003_37-->
+::{{DIcon|Talk}} Are you the champion of the 28-time fighting champion?
+:::<!--Custom String Listener: TalkSentence_501031014-->
+:::'''Luka:''' Huh? Hahaha! I didn't think you'd remember the number so well!
+:::'''Luka:''' Ah, don't mention it! It's nothing compared to what you've done for Belobog!
+:::'''Luka:''' To be honest, I didn't join the tournament for fame or recognition... Sounds a bit deliberately modest, huh? But trust me, I mean it!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you fighting for Scott?
+:::<!--Custom String Listener: TalkSentence_501031018-->
+:::'''Luka:''' Scott?
+:::'''Luka:''' Oh... You mean the boss of the club? No, I don't really know him well.
+:::'''Luka:''' To be frank, I'm not a fan of his rules, especially the ones about agents and all that... I prefer to focus on my own strength and abilities and not worry about all the fancy stuff.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's Wildfire been up to lately?
+:::<!--Custom String Listener: TalkSentence_501031022-->
+:::'''Luka:''' Thanks to you guys, our work has been a lot easier lately.
+:::'''Luka:''' Of course, we don't slack off on our daily patrols, and sometimes we help the neighborhood resolve conflicts... Oh, and we need to hold some joint exercises with the Silvermane Guards soon. I mustn't forget about that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Your "trial" was special.
+:::<!--Custom String Listener: TalkSentence_501031025-->
+:::'''Luka:''' Ah, you mean the match between me and Svarog?
+:::'''Luka:''' It was special indeed! That match had a lot of meaning to me.
+:::'''Luka:''' It's such a shame that I didn't win the fight... or at least tied. I promised Margie that...
+:::'''Luka:''' ...Ah, never mind! Svarog is indeed an awesome fighter! I guess I'll have to work harder if I want to best him, the strongest fighter!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Until next time, Luka.
+:::<!--Custom String Listener: TalkSentence_501031051-->
+:::'''Luka:''' Yeah, see you, (Trailblazer)!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031003-->
+:{{DIcon|Exit}} Until next time, Luka.
+::<!--Trigger PerformanceE 501031004: Config/Level/Mission/5010310/Act/Act501031004.json-->
+::'''Luka:''' Yeah, see you, (Trailblazer)!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031004-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Luka
+|zhs  = 卢卡
+|zht  = 盧卡
+|ja   = ルカ
+|ko   = 루카
+|es   = Luka
+|fr   = Luka
+|ru   = Лука
+|th   = Luka
+|vi   = Luka
+|de   = Luka
+|id   = Luka
+|pt   = Luka
+}}
+==Change History==
+{{Change History|TODO}}

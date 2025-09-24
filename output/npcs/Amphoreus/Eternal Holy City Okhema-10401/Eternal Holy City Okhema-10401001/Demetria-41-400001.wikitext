@@ -1,0 +1,345 @@
+<%-- [PAGE_INFO]
+PageTitle=#Demetria#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Fruit and Veg Store Owner
+|image           = NPC Demetria.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Demetria''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_41_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504006001: Config/Level/Mission/5040060/Act/Act504006001.json-->
+::'''Demetria:''' These olives today taste pretty good. You should try some... By the way, Hecate's expedition squad set off on another adventure yesterday.
+::'''Cassondra:''' Yeah, they've been moving around a lot lately... Oh, these olives are really something. I'll have a few more.
+::'''Demetria:''' I heard they're prepping for an in-depth exploration up northeast, but that area's been deserted for ages, right? Wonder if there are any dangers lurking...
+::'''Cassondra:''' There are always dangers, but you know how skilled she is, right? Even if she bumps into some wild Titankins, she can probably finagle her way out unscathed.
+::'''Demetria:''' True, but... didn't one of the expeditions get struck by the black tide and suffer heavy losses last month? Hmm, maybe you could do a little divination for me?
+::'''Cassondra:''' Come on... Fine, I'll cut you a deal this time.
+::'''Cassondra:''' See? Told you not to worry. Remember what Talanton teaches us, "Though danger may swoop like an eagle, let your vigilance guide you like a clever fox." Stay alert, and you'll be just fine.
+::'''Cassondra:''' Well, I should get going...
+::'''Demetria:''' Hey, hold on a sec!
+::'''Cassondra:''' What's up? It's just an apple and a pomegranate. You're not going to take them back now, are you? Praise the Scale of Justice, this is my fair payment for the service.
+::'''Demetria:''' Ah, got it. In that case, I suppose Talanton wouldn't approve of me slipping you a few extra figs. What a pity. They were picked at the {{Rubi|Entry Hour|dawn}}, and they look so fresh...
+::'''Cassondra:''' Oh, wait, wait! I'll never say no to figs! Let me try some for you... Hmm, these do taste great... Oh? Do you have a customer now? I'll leave you to it.
+::'''Demetria:''' Welcome... Hey, you must be the outlander brought back by Lord Phainon, right? You seem like quite the charming one.
+::'''Demetria:''' Welcome to Okhema, young one. How are you finding life here so far?
+::{{DIcon|Arrow}} It's okay.
+:::<!--Custom String Listener: TalkSentence_504006018-->
+:::'''Cassondra:''' Aha, it can take some time for everyone to get used to things at first, but once you do, you'll see that Okhema is quite cozy &mdash; that goes for the weather, the surroundings, and the lifestyle.
+::{{DIcon|Arrow}} Living here is a real bliss!
+:::<!--Custom String Listener: TalkSentence_504006020-->
+:::'''Cassondra:''' Aha! That's great to hear! This holy city, blessed by Kephale, remains unharmed by the black tide. Over time, you'll find that Okhema is quite cozy &mdash; that goes for the weather, the surroundings, and the lifestyle.
+::{{DIcon|Arrow}} Some people here seem a bit unfriendly.
+:::<!--Custom String Listener: TalkSentence_504006022-->
+:::'''Cassondra:''' I see... It can take some time for everyone to get used to things at first, but once you do, you'll find that the people here are actually pretty friendly.
+::<!--Custom String Trigger: TalkSentence_504006023-->
+::<!--Custom String Listener: TalkSentence_504006023-->
+::'''Cassondra:''' I hope you and your companions settle in quickly, young one. If you need anything, don't hesitate to ask for my help.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504006002: Config/Level/Mission/5040060/Act/Act504006002.json-->
+::'''Demetria:''' Here we meet again, young one. Interested in checking out the fresh fruits picked today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to check out the fresh fruits here.
+::'''Demetria:''' Sure thing. Feel free to sample anything that catches your eye.
+::{{DIcon|Arrow}} Apple, please.
+:::<!--Custom String Listener: TalkSentence_504006213-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002015,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006213,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006214,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504006215
+					},
+					{
+						"TalkSentenceID": 504006216
+					},
+					{
+						"TalkSentenceID": 504006217
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006218,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006219,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002015"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504006235"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} Pomegranate, please.
+:::<!--Custom String Listener: TalkSentence_504006221-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002016,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006221,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006222,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504006223
+					},
+					{
+						"TalkSentenceID": 504006224
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006225,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002016"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504006235"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} Figs, please.
+:::<!--Custom String Listener: TalkSentence_504006227-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002017,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006227,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006228,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006229,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504006230
+					},
+					{
+						"TalkSentenceID": 504006231
+					},
+					{
+						"TalkSentenceID": 504006232
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504006233,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002017"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504006235"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} I think I'm good for now.
+:::<!--Custom String Listener: TalkSentence_504006235-->
+:::'''Demetria:''' Sure! You're always welcome here, young one.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon}} Do you need my help with anything?
+::'''Demetria:''' Haha, thank you, but there's no need to be a stranger, young one. I enjoy spending time with you young folks. Feel free to drop by anytime for a chat, and that would already make me very happy.
+::'''Demetria:''' But then again... I do have a small favor to ask. Half a year ago, my daughter and son-in-law went on an expedition away from the city, and they haven't been heard from since.
+::'''Demetria:''' So... if you ever find yourself leaving the city, could you be on the lookout for any information about them? I'd really appreciate it!
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Demetria:''' Sure! You're always welcome here, young one.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Demetria
+|zhs  = 德墨忒尔
+|zht  = 德墨忒爾
+|ja   = デメテル
+|ko   = 데미트리아
+|es   = Deméter
+|fr   = Démétria
+|ru   = Деметрия
+|th   = Demetria
+|vi   = Demetria
+|de   = Demetria
+|id   = Demetria
+|pt   = Demétria
+}}
+==Change History==
+{{Change History|TODO}}

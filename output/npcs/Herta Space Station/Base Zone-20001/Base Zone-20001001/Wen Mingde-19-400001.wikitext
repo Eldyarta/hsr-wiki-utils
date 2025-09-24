@@ -1,0 +1,340 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wen Mingde#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Head of Implement Arts
+|image           = NPC Wen Mingde.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Wen Mingde''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_19_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200010201,
+		"Type": "submission_state_equal",
+		"Param1": 200010201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200010201: Config/Level/Mission/2000102/Act/Act200010201.json-->
+:'''Wen Mingde:''' ...Who? Who is interrupting me? If it is the {{Color|keyword|nobold=1|Xenohydro}}, then show yourself at once!
+:'''Wen Mingde:''' Ahem, so it's you, (Trailblazer). You're also here to volunteer in the Curio Collection Squad... Wait, don't come over here!
+:'''Wen Mingde:''' Just say one or two words.
+:{{DIcon|Arrow}} ...
+::<!--Custom String Listener: TriggerTalkSentence_200022705-->
+::'''Wen Mingde:''' I'm not kidding. You have to say one and two.
+::{{DIcon|Arrow}} One.
+::{{DIcon|Arrow}} One, two.
+::{{DIcon|Arrow}} Ahahaha.
+:::<!--Custom String Listener: TriggerTalkSentence_200022712-->
+:::'''Wen Mingde:''' You don't have to laugh like that.
+:::<!--Custom String Trigger: TriggerTalkSentence_200022711-->
+:{{DIcon|Arrow}} One.
+:{{DIcon|Arrow}} Ahahaha.
+::<!--Custom String Listener: TriggerTalkSentence_200022712-->
+::'''Wen Mingde:''' You don't have to laugh like that.
+::<!--Custom String Trigger: TriggerTalkSentence_200022711-->
+:<!--Custom String Listener: TriggerTalkSentence_200022711-->
+:'''Wen Mingde:''' ... No abnormal watery sound in your pronunciation. Pupillary reflex normal, perspiration reaction normal.
+:'''Wen Mingde:''' Okay, now you can come over and let me touch your forehead&mdash;
+:'''Wen Mingde:''' The {{Color|keyword|nobold=1|Xenohydro}} can't achieve this level of likeness... Alas, the lead was once again inconclusive. Even if the recollection of Curios is the top priority in the Declaration of Revival, it is proving to be a difficult task in practice.
+:<!--Custom String Trigger: OptionTalkMission_200010201-->
+:<!--Custom String Listener: OptionTalkMission_200010201-->
+:{{DIcon|Talk}} Xenohydro?
+::<!--Custom String Listener: TriggerTalkSentence_200022717-->
+::'''Wen Mingde:''' As you know, since the establishment of the Herta Space Station, five departments have been established to focus on the collection and study of Curios, including {{Color|keyword|nobold=1|Ecology, Geopolitics, Mysticism, Geography, and Implement Arts}}.
+::'''Wen Mingde:''' This monster invasion caused the loss of roughly half of the hundreds of collections held by each department.
+::'''Wen Mingde:''' They come in all kinds of sizes and shapes. Some are inactive and harmless, some emit poison for no reason, not to mention some biological types of Curios that can plan their own escape, which is a real headache.
+::'''Wen Mingde:''' There is a Curio called the {{Color|keyword|nobold=1|Xenohydro}} that has the ability to replicate the appearance of other people at will. This allows it to wreak havoc and confusion wherever it goes, as it can easily assume various false identities.
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Talk}} Curio Collection?
+::<!--Custom String Listener: TriggerTalkSentence_200022722-->
+::'''Wen Mingde:''' The Curio Collection Squad is an emergency team I put together. The team's mission is to support post-disaster reconstruction and ensure that all of its needs are met during this difficult time.
+::'''Wen Mingde:''' As the name suggests, it is mainly responsible for collecting the Curios that have been displaced due to the recent monster invasion.
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Talk}} Declaration of Revival?
+::<!--Custom String Listener: TriggerTalkSentence_200022725-->
+::'''Wen Mingde:''' Surely, you must have heard of Mrs. Hinkel's famous Declaration of Revival, right?
+::'''Wen Mingde:''' "Our fellow researchers were slaughtered by monsters. Their lifeless forms were cold and woeful..."
+::'''Wen Mingde:''' Woeful...
+::'''Wen Mingde:''' Alas, I can't recall the exact wording. After all, Mrs. Hinkel's style is unique and not easily imitable.
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+:{{DIcon|Arrow}} Well, you truly are a man of dedication, Mr. Wen.
+::<!--Custom String Listener: TriggerTalkSentence_200022730-->
+::'''Wen Mingde:''' *sigh* It's all because of that Xenohydro's trickery. This has been tormenting me to no end! That's why we had to have that conversation earlier.
+::'''Wen Mingde:''' The squad has been searching for the Xenohydro for some time, but to no avail. A member of the squad named {{Color|keyword|nobold=1|Abraham}} has even gone missing... It is true what they say &mdash; when it rains, it pours.
+::{{DIcon|Arrow}} Missing? I can help with this.
+:::<!--Custom String Listener: TriggerTalkSentence_200022733-->
+:::'''Wen Mingde:''' That's great. I was just getting worried that I can't spare anyone to go find him.
+:::'''Wen Mingde:''' Abraham is easy to identify. He is thin, wearing glasses, and always mumbling about "Life is but a path to death."
+:::'''Wen Mingde:''' You don't even pay attention to how he looks. You can just take a moment to listen to the words being said. He somehow always manages to drop this line at least once every five sentences.
+::{{DIcon|Arrow}} Is it the Abraham I know?
+:::<!--Custom String Listener: TriggerTalkSentence_200022737-->
+:::'''Wen Mingde:''' Oh, you know him? He was recently transferred to this squad from Mrs. Hinkel's, always mumbling about...
+:::{{DIcon|Arrow}} Life is but a path to death.
+:::<!--Custom String Listener: TriggerTalkSentence_200022739-->
+:::'''Wen Mingde:''' That's right! He says this at least once out of every five sentences.
+::<!--Custom String Trigger: TriggerTalkSentence_200022741-->
+::<!--Custom String Listener: TriggerTalkSentence_200022741-->
+::'''Wen Mingde:''' According to the squad members, Abraham was last seen in the storage zone.
+::'''Wen Mingde:''' *sigh* Even though Abraham can be quite the downer, which has been a real torture for his colleagues...
+::{{DIcon|Arrow}} Still we can't just leave him.
+::{{DIcon|Arrow}} I can't stand him either.
+:::<!--Custom String Listener: TriggerTalkSentence_200022744-->
+:::'''Wen Mingde:''' But we can't just leave him.
+:::<!--Custom String Trigger: TriggerTalkSentence_200022743-->
+::<!--Custom String Listener: TriggerTalkSentence_200022743-->
+::'''Wen Mingde:''' Right now, all squad members are busy searching for missing Curios. And I'll also have to handle the whole {{Color|keyword|nobold=1|Xenohydro}} situation. So it's all up to you to find {{Color|keyword|nobold=1|Abraham}}.
+::'''Wen Mingde:''' If you bring him back safely, the Department of Implement Arts will reward you quite handsomely.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200010201-->
+:<!--Custom String Trigger: Wait_Option_500010109_373-->
+:<!--Custom String Listener: Wait_Option_500010109_373-->
+:{{DIcon|Talk}} Herta Department of Implement Arts?
+::<!--Custom String Listener: TalkSentence_500010616-->
+::'''Wen Mingde:''' Ha! An important department within the space station, Implement Arts is. We oversee the incoming and outgoing of all our assets, including inventory checks and counts.
+::'''Wen Mingde:''' Furthermore, we maintain close communications with Interastral Peace Corporation. For someone as well-traveled as yourself, I'm sure you've heard of our reputation.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Curio Collection Squad?
+::<!--Custom String Listener: TalkSentence_500010619-->
+::'''Wen Mingde:''' The Curio Collection Squad is a temporary emergency unit established by the space station to address the needs of the post-disaster revival.
+::'''Wen Mingde:''' As the name suggests, it is mainly responsible for collecting the Curios that have been displaced due to the recent monster invasion.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Safe zone?
+::<!--Custom String Listener: TalkSentence_500010622-->
+::'''Wen Mingde:''' It is the very ground on which we stand. The stronghold from which the space station researchers fought back against the Antimatter Legion.
+::'''Wen Mingde:''' Although the situation is generally under control, the monsters have not been completely wiped out.
+::'''Wen Mingde:''' The safe zone is the result of our transition plan, for us to take back all the lost zones. I am confident all the dots will eventually be connected.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500010626-->
+::'''Wen Mingde:''' Good. For any questions you may encounter in the future, my young friend, please do not hesitate to come to me.
+::'''Wen Mingde:''' In the future, there is much I must rely on you for.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Wen Mingde:''' Buddy, it's been awhile.
+:'''Wen Mingde:''' Feel free to ask me if you have any questions.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Wen Mingde:''' Good. For any questions you may encounter in the future, my young friend, please do not hesitate to come to me.
+:'''Wen Mingde:''' In the future, there is much I must rely on you for.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000091: Config/Level/NPC/W0/NPC_DefaultStory_500000601.json-->
+::<!--Custom String Trigger: TalkSentence_500010602-->
+::<!--Custom String Listener: TalkSentence_500010602-->
+::'''Wen Mingde:''' ...Three out of the four Curios are missing. When will we...
+::'''Wen Mingde:''' If it isn't the infamous (Trailblazer)? Surely you are here to volunteer in the Curio Collection Squad, inspired by the Declaration of Revival.
+::<!--Custom String Trigger: Wait_Option_500010109_358-->
+::<!--Custom String Listener: Wait_Option_500010109_358-->
+::{{DIcon|Arrow}} So, you must be Wen Mingde.
+:::<!--Custom String Listener: TalkSentence_500010605-->
+:::'''Wen Mingde:''' (Trailblazer), I have heard good things about you. Please excuse me for this informal reception.
+::{{DIcon|Arrow}} I am just passing by.
+:::<!--Custom String Listener: TalkSentence_500010607-->
+:::'''Wen Mingde:''' It's our destiny to meet. For a talented young person like yourself, this conversation is meant to be...
+::<!--Custom String Trigger: TalkSentence_500010608-->
+::<!--Custom String Listener: TalkSentence_500010608-->
+::'''Wen Mingde:''' Please allow me to introduce myself again. I am Wen Mingde, head of the Herta Department of Implement Arts. I am also the Curio Collection Squad Leader, in charge of establishing safe areas in the base zone.
+::'''Wen Mingde:''' Allow me to be frank. I am currently troubled by the lack of human resources available for the Curio Collection Squad.
+::'''Wen Mingde:''' There are four zones in the space station. With our current capacity, we can only take care of one. If the situation persists, I wonder when we will achieve the objective we have set out in the Declaration of Revival.
+::'''Wen Mingde:''' After calming myself down and giving it some thought, I realized that recruiting external members may be the solution.
+::'''Wen Mingde:''' While I was lingering on that thought, you began a conversation with me. What a pleasant coincidence.
+::'''Wen Mingde:''' If you have any questions, please do not hesitate to let me know.
+::<!--Custom String Trigger: Wait_Option_500010109_370-->
+::<!--Custom String Listener: Wait_Option_500010109_370-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000092: Config/Level/NPC/W0/NPC_DefaultStory_500000600.json-->
+::'''Wen Mingde:''' Buddy, it's been awhile.
+::'''Wen Mingde:''' Feel free to ask me if you have any questions.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003002-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002902: Config/Level/Mission/4050029/Act/Act405002902.json-->
+::'''Wen Mingde:''' Resource supply agreement... Oh right! Lead Researcher Asta told me about it before! I'll get this trivial matter done for you, as long as you don't forget this favor in the future!
+::'''Wen Mingde:''' I will arrange for staff to deliver the things, so you don't need to carry them yourself!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003002-->
+;(If {{cx}}<!--SubMission Started: 200010201-->)
+:{{DIcon|undefined}} Mr. Wen, excuse me...
+::<!--Trigger PerformanceE 200010201: Config/Level/Mission/2000102/Act/Act200010201.json-->
+::'''Wen Mingde:''' ...Who? Who is interrupting me? If it is the {{Color|keyword|nobold=1|Xenohydro}}, then show yourself at once!
+::'''Wen Mingde:''' Ahem, so it's you, (Trailblazer). You're also here to volunteer in the Curio Collection Squad... Wait, don't come over here!
+::'''Wen Mingde:''' Just say one or two words.
+::{{DIcon|Arrow}} ...
+:::<!--Custom String Listener: TriggerTalkSentence_200022705-->
+:::'''Wen Mingde:''' I'm not kidding. You have to say one and two.
+:::{{DIcon|Arrow}} One.
+:::{{DIcon|Arrow}} One, two.
+:::{{DIcon|Arrow}} Ahahaha.
+::::<!--Custom String Listener: TriggerTalkSentence_200022712-->
+::::'''Wen Mingde:''' You don't have to laugh like that.
+::::<!--Custom String Trigger: TriggerTalkSentence_200022711-->
+::{{DIcon|Arrow}} One.
+::{{DIcon|Arrow}} Ahahaha.
+:::<!--Custom String Listener: TriggerTalkSentence_200022712-->
+:::'''Wen Mingde:''' You don't have to laugh like that.
+:::<!--Custom String Trigger: TriggerTalkSentence_200022711-->
+::<!--Custom String Listener: TriggerTalkSentence_200022711-->
+::'''Wen Mingde:''' ... No abnormal watery sound in your pronunciation. Pupillary reflex normal, perspiration reaction normal.
+::'''Wen Mingde:''' Okay, now you can come over and let me touch your forehead&mdash;
+::'''Wen Mingde:''' The {{Color|keyword|nobold=1|Xenohydro}} can't achieve this level of likeness... Alas, the lead was once again inconclusive. Even if the recollection of Curios is the top priority in the Declaration of Revival, it is proving to be a difficult task in practice.
+::<!--Custom String Trigger: OptionTalkMission_200010201-->
+::<!--Custom String Listener: OptionTalkMission_200010201-->
+::{{DIcon|Talk}} Xenohydro?
+:::<!--Custom String Listener: TriggerTalkSentence_200022717-->
+:::'''Wen Mingde:''' As you know, since the establishment of the Herta Space Station, five departments have been established to focus on the collection and study of Curios, including {{Color|keyword|nobold=1|Ecology, Geopolitics, Mysticism, Geography, and Implement Arts}}.
+:::'''Wen Mingde:''' This monster invasion caused the loss of roughly half of the hundreds of collections held by each department.
+:::'''Wen Mingde:''' They come in all kinds of sizes and shapes. Some are inactive and harmless, some emit poison for no reason, not to mention some biological types of Curios that can plan their own escape, which is a real headache.
+:::'''Wen Mingde:''' There is a Curio called the {{Color|keyword|nobold=1|Xenohydro}} that has the ability to replicate the appearance of other people at will. This allows it to wreak havoc and confusion wherever it goes, as it can easily assume various false identities.
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} Curio Collection?
+:::<!--Custom String Listener: TriggerTalkSentence_200022722-->
+:::'''Wen Mingde:''' The Curio Collection Squad is an emergency team I put together. The team's mission is to support post-disaster reconstruction and ensure that all of its needs are met during this difficult time.
+:::'''Wen Mingde:''' As the name suggests, it is mainly responsible for collecting the Curios that have been displaced due to the recent monster invasion.
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} Declaration of Revival?
+:::<!--Custom String Listener: TriggerTalkSentence_200022725-->
+:::'''Wen Mingde:''' Surely, you must have heard of Mrs. Hinkel's famous Declaration of Revival, right?
+:::'''Wen Mingde:''' "Our fellow researchers were slaughtered by monsters. Their lifeless forms were cold and woeful..."
+:::'''Wen Mingde:''' Woeful...
+:::'''Wen Mingde:''' Alas, I can't recall the exact wording. After all, Mrs. Hinkel's style is unique and not easily imitable.
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Arrow}} Well, you truly are a man of dedication, Mr. Wen.
+:::<!--Custom String Listener: TriggerTalkSentence_200022730-->
+:::'''Wen Mingde:''' *sigh* It's all because of that Xenohydro's trickery. This has been tormenting me to no end! That's why we had to have that conversation earlier.
+:::'''Wen Mingde:''' The squad has been searching for the Xenohydro for some time, but to no avail. A member of the squad named {{Color|keyword|nobold=1|Abraham}} has even gone missing... It is true what they say &mdash; when it rains, it pours.
+:::{{DIcon|Arrow}} Missing? I can help with this.
+::::<!--Custom String Listener: TriggerTalkSentence_200022733-->
+::::'''Wen Mingde:''' That's great. I was just getting worried that I can't spare anyone to go find him.
+::::'''Wen Mingde:''' Abraham is easy to identify. He is thin, wearing glasses, and always mumbling about "Life is but a path to death."
+::::'''Wen Mingde:''' You don't even pay attention to how he looks. You can just take a moment to listen to the words being said. He somehow always manages to drop this line at least once every five sentences.
+:::{{DIcon|Arrow}} Is it the Abraham I know?
+::::<!--Custom String Listener: TriggerTalkSentence_200022737-->
+::::'''Wen Mingde:''' Oh, you know him? He was recently transferred to this squad from Mrs. Hinkel's, always mumbling about...
+::::{{DIcon|Arrow}} Life is but a path to death.
+::::<!--Custom String Listener: TriggerTalkSentence_200022739-->
+::::'''Wen Mingde:''' That's right! He says this at least once out of every five sentences.
+:::<!--Custom String Trigger: TriggerTalkSentence_200022741-->
+:::<!--Custom String Listener: TriggerTalkSentence_200022741-->
+:::'''Wen Mingde:''' According to the squad members, Abraham was last seen in the storage zone.
+:::'''Wen Mingde:''' *sigh* Even though Abraham can be quite the downer, which has been a real torture for his colleagues...
+:::{{DIcon|Arrow}} Still we can't just leave him.
+:::{{DIcon|Arrow}} I can't stand him either.
+::::<!--Custom String Listener: TriggerTalkSentence_200022744-->
+::::'''Wen Mingde:''' But we can't just leave him.
+::::<!--Custom String Trigger: TriggerTalkSentence_200022743-->
+:::<!--Custom String Listener: TriggerTalkSentence_200022743-->
+:::'''Wen Mingde:''' Right now, all squad members are busy searching for missing Curios. And I'll also have to handle the whole {{Color|keyword|nobold=1|Xenohydro}} situation. So it's all up to you to find {{Color|keyword|nobold=1|Abraham}}.
+:::'''Wen Mingde:''' If you bring him back safely, the Department of Implement Arts will reward you quite handsomely.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200010201-->
+;(If {{cx}}<!--SubMission Started: 200010201-->)
+:{{DIcon}} I want to ask...
+::<!--Custom String Trigger: Wait_Option_500010109_373-->
+::<!--Custom String Listener: Wait_Option_500010109_373-->
+::{{DIcon|Talk}} Herta Department of Implement Arts?
+:::<!--Custom String Listener: TalkSentence_500010616-->
+:::'''Wen Mingde:''' Ha! An important department within the space station, Implement Arts is. We oversee the incoming and outgoing of all our assets, including inventory checks and counts.
+:::'''Wen Mingde:''' Furthermore, we maintain close communications with Interastral Peace Corporation. For someone as well-traveled as yourself, I'm sure you've heard of our reputation.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Curio Collection Squad?
+:::<!--Custom String Listener: TalkSentence_500010619-->
+:::'''Wen Mingde:''' The Curio Collection Squad is a temporary emergency unit established by the space station to address the needs of the post-disaster revival.
+:::'''Wen Mingde:''' As the name suggests, it is mainly responsible for collecting the Curios that have been displaced due to the recent monster invasion.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Safe zone?
+:::<!--Custom String Listener: TalkSentence_500010622-->
+:::'''Wen Mingde:''' It is the very ground on which we stand. The stronghold from which the space station researchers fought back against the Antimatter Legion.
+:::'''Wen Mingde:''' Although the situation is generally under control, the monsters have not been completely wiped out.
+:::'''Wen Mingde:''' The safe zone is the result of our transition plan, for us to take back all the lost zones. I am confident all the dots will eventually be connected.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500010626-->
+:::'''Wen Mingde:''' Good. For any questions you may encounter in the future, my young friend, please do not hesitate to come to me.
+:::'''Wen Mingde:''' In the future, there is much I must rely on you for.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200010201-->)
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Wen Mingde:''' Good. For any questions you may encounter in the future, my young friend, please do not hesitate to come to me.
+::'''Wen Mingde:''' In the future, there is much I must rely on you for.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290302)
+:<!--Custom String Listener: TalkSentence_405290302-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wen Mingde
+|zhs  = 温明德
+|zht  = 溫明德
+|ja   = 温明徳
+|ko   = 온명덕
+|es   = Wen Mingde
+|fr   = Wen&nbsp;Mingde
+|ru   = Вэнь Миндэ
+|th   = Wen Mingde
+|vi   = Wen Mingde
+|de   = Wen Mingde
+|id   = Wen Mingde
+|pt   = Wen Mingde
+}}
+==Change History==
+{{Change History|TODO}}

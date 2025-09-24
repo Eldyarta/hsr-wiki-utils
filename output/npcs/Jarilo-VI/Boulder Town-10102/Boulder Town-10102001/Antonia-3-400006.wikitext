@@ -1,0 +1,1051 @@
+<%-- [PAGE_INFO]
+PageTitle=#Antonia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Supervisor
+|image           = NPC Antonia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Antonia''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_3_400006}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201040101,
+		"Type": "submission_state_equal",
+		"Param1": 201040101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 701060101: Config/Level/GameplayMission/7010601/Act/Act_701060101.json-->
+:'''Antonia:''' Let's see... oh, yes, there is indeed something that could use your help.
+:'''Antonia:''' An elderly mine cart operator intends to retire, but... he's not really hitting it off with his current apprentice. I guess you already know what I'm getting at. If the apprentice can't complete his training, then the master won't be able to retire in peace.
+:'''Antonia:''' So, I'd like to ask you to be... um... assistant instructor for that not-so-bright apprentice.
+:{{DIcon|Arrow}} Assistant instructor?
+::<!--Custom String Listener: TalkSentence_701060109-->
+:{{DIcon|Arrow}} Uh, no. I know nothing of mining carts.
+::<!--Custom String Listener: TalkSentence_701060109-->
+:{{DIcon|Arrow}} I know just the man for this job. His name is Sampo...
+::<!--Custom String Listener: TalkSentence_701060108-->
+::'''Antonia:''' Huh? No way. He'd bring nothing but trouble.
+:'''Antonia:''' Relax. Though the title is "assistant instructor," it doesn't actually require much technical know-how.
+:'''Antonia:''' That senior mine cart operator is very capable, but he has a bad temper and can be very stubborn. Things would be good if he had a gifted apprentice to begin with, but that's sadly not the case right now... So please find a way to help him.
+:'''Antonia:''' What say you? Can you do me this favor?
+:{{DIcon|Arrow}} Not a problem. Leave it to me.
+:{{DIcon|Arrow}} I suppose I can give it a try...
+:<!--Custom String Listener: TalkSentence_701060114-->
+:'''Antonia:''' They usually stay at the vagrant shelter in the mines. I've already told that senior mine cart operator about this. When you see him, just say my name, and he'll know.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Wait_Option_5010277_24-->
+:<!--Custom String Listener: Wait_Option_5010277_24-->
+:{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::<!--Custom String Listener: TalkSentence_501027715-->
+::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::<!--Custom String Listener: TalkSentence_501027719-->
+::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::<!--Custom String Listener: TalkSentence_501027723-->
+::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all questions I have.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100004805,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Antonia:''' Well, rumor has it that the Overworld and Underworld are opening up to each other again, so I've been busy with that.
+:{{DIcon|Arrow}} Busy doing what?
+::<!--Custom String Listener: TalkSentence_501027733-->
+::'''Antonia:''' It's just a business thing. I'm still ironing out the details with some Overworld entrepreneurs &mdash; even if we're still only at the letter-writing stage.
+:{{DIcon|Arrow}} What do you think about the lifting of the blockade?
+::<!--Custom String Listener: TalkSentence_501027735-->
+::'''Antonia:''' You asking me? I reckon the good outweighs the bad.
+:<!--Custom String Trigger: TalkSentence_501027736-->
+:<!--Custom String Listener: TalkSentence_501027736-->
+:'''Antonia:''' During the days of the blockade, I could only rely on my mining for work &mdash; and despite leaving me with enough money and my miners' wages, this Underworld and its economy are stagnant. There's no trickling down of funds or goods...
+:'''Antonia:''' But now the blockade's lifted &mdash; well, things are completely different. I can invest my assets into anything I want, and I'll wait for that compound interest to start snowballing &mdash; that's how you make money, see.
+:{{DIcon|Arrow}} Who do you invest in?
+:<!--Custom String Listener: TalkSentence_501027739-->
+:'''Antonia:''' Let me think... There's a private manufacturer that makes Geomarrow gear, and another military one that produces robots.
+:'''Antonia:''' Oh yeah, that's right &mdash; I also got in touch with a real estate agent called Lavonne. Her project looks promising... if what she's saying is actually true.
+:'''Antonia:''' In short... I'll have to wait and see.
+:{{DIcon|Arrow}} Any other changes around here besides those?
+:<!--Custom String Listener: TalkSentence_501027743-->
+:'''Antonia:''' Are you an investigative reporter, or is this commercial espionage!? All these detailed questions... But I know I can trust you &mdash; after all, you're the generous soul one who saved our mine.
+:'''Antonia:''' If you ask me, the other biggest change has got to be &mdash; that I've finally got somewhere to spend my money. I've always dreamed of going to the Golden Theater up in the Overworld...
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100004806,
+		"Type": "submission_state_equal",
+		"Param1": 404011701,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Antonia:''' (Trailblazer), you mean...
+:'''Antonia:''' Heh. You must be pretty desperate if you are coming to me for work.
+:'''Antonia:''' I'm not judging. The mining team can never be too big. Anyway, you have tools to work with?
+:{{DIcon|Arrow}} I have two iron hands!
+::<!--Custom String Listener: TalkSentence_404011706-->
+::'''Antonia:''' The way you say that... you're being serious?
+:{{DIcon|Arrow}} How about this baseball bat?
+::<!--Custom String Listener: TalkSentence_404011708-->
+::'''Antonia:''' Hmm. I've seen this thing of yours in action. It definitely is solid, but shouldn't you hold on to it to fight?
+:{{DIcon|Arrow}} No.
+::<!--Custom String Listener: TalkSentence_404011710-->
+::'''Antonia:''' Heh. Aren't you just an honest soul? If you're gonna beg, you better bring a bowl.
+:<!--Custom String Trigger: TalkSentence_404011711-->
+:<!--Custom String Listener: TalkSentence_404011711-->
+:'''Antonia:''' Normally, I don't lend mining tools without a cash deposit or something to serve as collateral... This isn't me being stingy here. It's just the environment. There are way too many people out there who go back on their word and try to nickle and dime me.
+:'''Antonia:''' That said. I do trust you. Hmm. I just so happen to have a mostly new, second-hand pickax. Take it.
+:'''Antonia:''' You still remember that massive Geomarrow in the Great Mine? I suggest you head out that way first and try your luck. Oh, right. If you dig up anything interesting, don't forget to bring it to me for an appraisal.
+:'''Antonia:''' Good luck, (Trailblazer) the rookie miner.
+:<!--Custom String Trigger: Talk_404011701-->
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100004807,
+		"Type": "submission_state_equal",
+		"Param1": 404011705,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Antonia:''' Oh. That. Yeah, I remember. What about it, (Trailblazer)? Everything going well with your mining gig?
+:{{DIcon|Arrow}} Something kind of unexpected happened...
+::<!--Custom String Listener: TalkSentence_404011764-->
+::'''Antonia:''' ...Unexpected?
+::'''Antonia:''' Oh... I think I understand. Let me guess, you broke the pickax, right?
+:{{DIcon|Arrow}} I broke the pickax you lent me.
+::<!--Custom String Listener: TalkSentence_404011767-->
+::'''Antonia:''' ...Huh? You've barely been at it for half a day &mdash;
+::'''Antonia:''' Ahem. Anyway. I suppose I'm partly to blame. I did give professional equipment to an absolute noobie.
+:<!--Custom String Trigger: TalkSentence_404011769-->
+:<!--Custom String Listener: TalkSentence_404011769-->
+:'''Antonia:''' Let me guess... Someone isn't going to take no for an answer and wants me to lend them equipment again. Is that right?
+:{{DIcon|Arrow}} You are right on the money.
+:{{DIcon|Arrow}} They say the third time's the charm.
+:<!--Custom String Listener: TalkSentence_404011772-->
+:'''Antonia:''' ...I get it. I'll trust you one more time. I have one more pickax lying around. Take it.
+:'''Antonia:''' But, ahem, I will be taking a deposit... I hope you can understand.
+:'''Antonia:''' How about just 500 credits?
+:{{DIcon|Arrow}} I won't disappoint you.
+::<!--Custom String Listener: TalkSentence_404011776-->
+:<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011705,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404011776,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 404011777,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 404011778,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011705"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404011780"
+			}
+		}
+	]
+}</pre>
+:{{DIcon|Exit}} Let me think about it...
+::<!--Custom String Listener: TalkSentence_404011780-->
+::'''Antonia:''' Looks like you're really hard up for cash. Give it some thought. I'll be here waiting for you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100004808,
+		"Type": "submission_state_equal",
+		"Param1": 404011708,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Antonia:''' Eh? Dug up anything good? Let me see.
+:'''Antonia:''' Oh, this is...
+:'''Antonia:''' Judging by the appearance, the purity of this Geomarrow crystal has to be at least 85%... Chucking it in the boiler and burning it down to slag would be too wasteful.
+:'''Antonia:''' If you ask me, (Trailblazer), this thing you found just needs a little refinement before being put directly onto the Everwinter Monument up in the Overworld &mdash; Nobody would be able to tell the difference!
+:'''Antonia:''' By the way, aren't you low on funds at the moment? How about you sell me this crystal, huh? I'll give you a fair price. Go ask around, and you won't find a more generous supervisor around here than me!
+:{{DIcon|Arrow}} Deal.
+::<!--Custom String Listener: TalkSentence_404015654-->
+::'''Antonia:''' Delightful! I love doing business with people like you. Come on then. You take the money, and I take the goods.
+:<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011709,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404015655,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011709"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404015662"
+			}
+		}
+	]
+}</pre>
+:{{DIcon|Arrow}} How much you got?
+::<!--Custom String Listener: TalkSentence_404015652-->
+::'''Antonia:''' Let's see... How about 8000 credits?
+::{{DIcon|Arrow}} Deal.
+:::<!--Custom String Listener: TalkSentence_404015654-->
+:::'''Antonia:''' Delightful! I love doing business with people like you. Come on then. You take the money, and I take the goods.
+::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011709,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404015655,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011709"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404015662"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} 10,000.
+:::<!--Custom String Listener: TalkSentence_404015657-->
+:::'''Antonia:''' Whoa! Easy for you to raise the price.
+:::'''Antonia:''' Let me think... Hmmm...
+:::'''Antonia:''' ...Okay, 10,000 it is. Deal. Come on then. You take the money, and I take the goods.
+::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011710,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404015655,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011710"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404015662"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Let me think about it some more...
+:::<!--Custom String Listener: TalkSentence_404015662-->
+:::'''Antonia:''' ...I get that. Feel free to think about it, but not for too long. I don't like to drag things out in business.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let me think about it some more...
+::<!--Custom String Listener: TalkSentence_404015664-->
+::'''Antonia:''' ...I get that. Feel free to think about it, but not for too long. I don't like to drag things out in business.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_404015649)
+:<!--Custom String Listener: TalkSentence_404015649-->
+::'''Antonia:''' Delightful! I love doing business with people like you. Come on then. You take the money, and I take the goods.
+::'''Antonia:''' That's nice, real nice... Take this, (Trailblazer). It's been a pleasure doing business with you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Antonia:''' Hello again, outsider. What brings you here, business or something personal?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Antonia:''' Okay. I'm looking forward to working with you sometime. I have to figure out scheduling, so I'll talk to you later.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501027701: Config/Level/Mission/5010277/Act/Act501027701.json-->
+::<!--Custom String Trigger: TalkSentence_501027701-->
+::<!--Custom String Listener: TalkSentence_501027701-->
+::'''Antonia:''' Can't you see I'm busy? Spit it out and stop bothering me...
+::'''Antonia:''' ...Ah, it's you again! The last time we met, I left in a hurry. I never got a chance to thank you.
+::'''Antonia:''' I'd like to introduce myself again. I'm Antonia, the developer responsible for the Great Mine and the supervisor for the mining teams. As you saw in the mine, a lot of people in the underground count on me to make a living.
+::<!--Custom String Trigger: Wait_Option_5010277_10-->
+::<!--Custom String Listener: Wait_Option_5010277_10-->
+::{{DIcon|Arrow}} Don't you need to supervise the miners?
+:::<!--Custom String Listener: TalkSentence_501027705-->
+:::'''Antonia:''' The team leaders are responsible for supervision.
+:::'''Antonia:''' My job is to coordinate personnel and arrange work schedules. My presence down in the mines will only hinder the miners' work. Why make everyone uncomfortable?
+::{{DIcon|Arrow}} Supervisors make a lot of money, right?
+:::<!--Custom String Listener: TalkSentence_501027708-->
+:::'''Antonia:''' You are quite direct... Ahem, let's put it this way, everyone in the Underworld is practically living on scraps... so compared to most of them, I have a decent life.
+:::'''Antonia:''' The only thing that's worth anything in Underground is Geomarrow, which I happen to have a ton of on hand.
+::<!--Custom String Trigger: TalkSentence_501027710-->
+::<!--Custom String Listener: TalkSentence_501027710-->
+::'''Antonia:''' By the way, I heard that you were working for Wildfire. A kind reminder for you, Oleg's crew takes care of their own, but their pockets aren't deep.
+::'''Antonia:''' Feel free to come to me when you have financial problems.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000043: Config/Level/NPC/W1/NPC_DefaultStory_1000048.json-->
+::'''Antonia:''' Hello again, outsider. What brings you here, business or something personal?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon|undefined}} I heard you are looking for me.
+::<!--Trigger PerformanceE 701060101: Config/Level/GameplayMission/7010601/Act/Act_701060101.json-->
+::'''Antonia:''' Let's see... oh, yes, there is indeed something that could use your help.
+::'''Antonia:''' An elderly mine cart operator intends to retire, but... he's not really hitting it off with his current apprentice. I guess you already know what I'm getting at. If the apprentice can't complete his training, then the master won't be able to retire in peace.
+::'''Antonia:''' So, I'd like to ask you to be... um... assistant instructor for that not-so-bright apprentice.
+::{{DIcon|Arrow}} Assistant instructor?
+:::<!--Custom String Listener: TalkSentence_701060109-->
+::{{DIcon|Arrow}} Uh, no. I know nothing of mining carts.
+:::<!--Custom String Listener: TalkSentence_701060109-->
+::{{DIcon|Arrow}} I know just the man for this job. His name is Sampo...
+:::<!--Custom String Listener: TalkSentence_701060108-->
+:::'''Antonia:''' Huh? No way. He'd bring nothing but trouble.
+::'''Antonia:''' Relax. Though the title is "assistant instructor," it doesn't actually require much technical know-how.
+::'''Antonia:''' That senior mine cart operator is very capable, but he has a bad temper and can be very stubborn. Things would be good if he had a gifted apprentice to begin with, but that's sadly not the case right now... So please find a way to help him.
+::'''Antonia:''' What say you? Can you do me this favor?
+::{{DIcon|Arrow}} Not a problem. Leave it to me.
+::{{DIcon|Arrow}} I suppose I can give it a try...
+::<!--Custom String Listener: TalkSentence_701060114-->
+::'''Antonia:''' They usually stay at the vagrant shelter in the mines. I've already told that senior mine cart operator about this. When you see him, just say my name, and he'll know.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon}} I still have some more questions...
+::<!--Custom String Trigger: Wait_Option_5010277_24-->
+::<!--Custom String Listener: Wait_Option_5010277_24-->
+::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+:::<!--Custom String Listener: TalkSentence_501027715-->
+:::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+:::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+:::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+:::<!--Custom String Listener: TalkSentence_501027719-->
+:::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+:::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+:::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+:::<!--Custom String Listener: TalkSentence_501027723-->
+:::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+:::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+:::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon}} How have things been?
+::'''Antonia:''' Well, rumor has it that the Overworld and Underworld are opening up to each other again, so I've been busy with that.
+::{{DIcon|Arrow}} Busy doing what?
+:::<!--Custom String Listener: TalkSentence_501027733-->
+:::'''Antonia:''' It's just a business thing. I'm still ironing out the details with some Overworld entrepreneurs &mdash; even if we're still only at the letter-writing stage.
+::{{DIcon|Arrow}} What do you think about the lifting of the blockade?
+:::<!--Custom String Listener: TalkSentence_501027735-->
+:::'''Antonia:''' You asking me? I reckon the good outweighs the bad.
+::<!--Custom String Trigger: TalkSentence_501027736-->
+::<!--Custom String Listener: TalkSentence_501027736-->
+::'''Antonia:''' During the days of the blockade, I could only rely on my mining for work &mdash; and despite leaving me with enough money and my miners' wages, this Underworld and its economy are stagnant. There's no trickling down of funds or goods...
+::'''Antonia:''' But now the blockade's lifted &mdash; well, things are completely different. I can invest my assets into anything I want, and I'll wait for that compound interest to start snowballing &mdash; that's how you make money, see.
+::{{DIcon|Arrow}} Who do you invest in?
+::<!--Custom String Listener: TalkSentence_501027739-->
+::'''Antonia:''' Let me think... There's a private manufacturer that makes Geomarrow gear, and another military one that produces robots.
+::'''Antonia:''' Oh yeah, that's right &mdash; I also got in touch with a real estate agent called Lavonne. Her project looks promising... if what she's saying is actually true.
+::'''Antonia:''' In short... I'll have to wait and see.
+::{{DIcon|Arrow}} Any other changes around here besides those?
+::<!--Custom String Listener: TalkSentence_501027743-->
+::'''Antonia:''' Are you an investigative reporter, or is this commercial espionage!? All these detailed questions... But I know I can trust you &mdash; after all, you're the generous soul one who saved our mine.
+::'''Antonia:''' If you ask me, the other biggest change has got to be &mdash; that I've finally got somewhere to spend my money. I've always dreamed of going to the Golden Theater up in the Overworld...
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011701-->, {{cx}}<!--SubMission Finish: 101150231-->, and {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon|?}} I'm looking for some EXTRA DOUGH. You know what I mean?
+::'''Antonia:''' (Trailblazer), you mean...
+::'''Antonia:''' Heh. You must be pretty desperate if you are coming to me for work.
+::'''Antonia:''' I'm not judging. The mining team can never be too big. Anyway, you have tools to work with?
+::{{DIcon|Arrow}} I have two iron hands!
+:::<!--Custom String Listener: TalkSentence_404011706-->
+:::'''Antonia:''' The way you say that... you're being serious?
+::{{DIcon|Arrow}} How about this baseball bat?
+:::<!--Custom String Listener: TalkSentence_404011708-->
+:::'''Antonia:''' Hmm. I've seen this thing of yours in action. It definitely is solid, but shouldn't you hold on to it to fight?
+::{{DIcon|Arrow}} No.
+:::<!--Custom String Listener: TalkSentence_404011710-->
+:::'''Antonia:''' Heh. Aren't you just an honest soul? If you're gonna beg, you better bring a bowl.
+::<!--Custom String Trigger: TalkSentence_404011711-->
+::<!--Custom String Listener: TalkSentence_404011711-->
+::'''Antonia:''' Normally, I don't lend mining tools without a cash deposit or something to serve as collateral... This isn't me being stingy here. It's just the environment. There are way too many people out there who go back on their word and try to nickle and dime me.
+::'''Antonia:''' That said. I do trust you. Hmm. I just so happen to have a mostly new, second-hand pickax. Take it.
+::'''Antonia:''' You still remember that massive Geomarrow in the Great Mine? I suggest you head out that way first and try your luck. Oh, right. If you dig up anything interesting, don't forget to bring it to me for an appraisal.
+::'''Antonia:''' Good luck, (Trailblazer) the rookie miner.
+::<!--Custom String Trigger: Talk_404011701-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011705-->, {{cx}}<!--SubMission Started: 404011701-->, {{cx}}<!--SubMission Finish: 101150231-->, and {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon|?}} Umm... So about making some extra dough...
+::'''Antonia:''' Oh. That. Yeah, I remember. What about it, (Trailblazer)? Everything going well with your mining gig?
+::{{DIcon|Arrow}} Something kind of unexpected happened...
+:::<!--Custom String Listener: TalkSentence_404011764-->
+:::'''Antonia:''' ...Unexpected?
+:::'''Antonia:''' Oh... I think I understand. Let me guess, you broke the pickax, right?
+::{{DIcon|Arrow}} I broke the pickax you lent me.
+:::<!--Custom String Listener: TalkSentence_404011767-->
+:::'''Antonia:''' ...Huh? You've barely been at it for half a day &mdash;
+:::'''Antonia:''' Ahem. Anyway. I suppose I'm partly to blame. I did give professional equipment to an absolute noobie.
+::<!--Custom String Trigger: TalkSentence_404011769-->
+::<!--Custom String Listener: TalkSentence_404011769-->
+::'''Antonia:''' Let me guess... Someone isn't going to take no for an answer and wants me to lend them equipment again. Is that right?
+::{{DIcon|Arrow}} You are right on the money.
+::{{DIcon|Arrow}} They say the third time's the charm.
+::<!--Custom String Listener: TalkSentence_404011772-->
+::'''Antonia:''' ...I get it. I'll trust you one more time. I have one more pickax lying around. Take it.
+::'''Antonia:''' But, ahem, I will be taking a deposit... I hope you can understand.
+::'''Antonia:''' How about just 500 credits?
+::{{DIcon|Arrow}} I won't disappoint you.
+:::<!--Custom String Listener: TalkSentence_404011776-->
+::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011705,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404011776,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 404011777,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 404011778,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011705"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404011780"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Let me think about it...
+:::<!--Custom String Listener: TalkSentence_404011780-->
+:::'''Antonia:''' Looks like you're really hard up for cash. Give it some thought. I'll be here waiting for you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011708-->, {{cx}}<!--SubMission Started: 404011705-->, {{cx}}<!--SubMission Started: 404011701-->, {{cx}}<!--SubMission Finish: 101150231-->, and {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon|?}} I found this.
+::'''Antonia:''' Eh? Dug up anything good? Let me see.
+::'''Antonia:''' Oh, this is...
+::'''Antonia:''' Judging by the appearance, the purity of this Geomarrow crystal has to be at least 85%... Chucking it in the boiler and burning it down to slag would be too wasteful.
+::'''Antonia:''' If you ask me, (Trailblazer), this thing you found just needs a little refinement before being put directly onto the Everwinter Monument up in the Overworld &mdash; Nobody would be able to tell the difference!
+::'''Antonia:''' By the way, aren't you low on funds at the moment? How about you sell me this crystal, huh? I'll give you a fair price. Go ask around, and you won't find a more generous supervisor around here than me!
+::{{DIcon|Arrow}} Deal.
+:::<!--Custom String Listener: TalkSentence_404015654-->
+:::'''Antonia:''' Delightful! I love doing business with people like you. Come on then. You take the money, and I take the goods.
+::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011709,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404015655,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011709"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404015662"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} How much you got?
+:::<!--Custom String Listener: TalkSentence_404015652-->
+:::'''Antonia:''' Let's see... How about 8000 credits?
+:::{{DIcon|Arrow}} Deal.
+::::<!--Custom String Listener: TalkSentence_404015654-->
+::::'''Antonia:''' Delightful! I love doing business with people like you. Come on then. You take the money, and I take the goods.
+:::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011709,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404015655,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011709"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404015662"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Arrow}} 10,000.
+::::<!--Custom String Listener: TalkSentence_404015657-->
+::::'''Antonia:''' Whoa! Easy for you to raise the price.
+::::'''Antonia:''' Let me think... Hmmm...
+::::'''Antonia:''' ...Okay, 10,000 it is. Deal. Come on then. You take the money, and I take the goods.
+:::<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 404011710,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 404015655,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+			"CustomString": {
+				"Value": "Talk_404011710"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_404015662"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} Let me think about it some more...
+::::<!--Custom String Listener: TalkSentence_404015662-->
+::::'''Antonia:''' ...I get that. Feel free to think about it, but not for too long. I don't like to drag things out in business.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Let me think about it some more...
+:::<!--Custom String Listener: TalkSentence_404015664-->
+:::'''Antonia:''' ...I get that. Feel free to think about it, but not for too long. I don't like to drag things out in business.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404011708-->, {{cx}}<!--SubMission Started: 404011705-->, {{cx}}<!--SubMission Started: 404011701-->, {{cx}}<!--SubMission Finish: 101150231-->, and {{cx}}<!--SubMission Started: 201040101-->)
+:{{DIcon|Exit}} That's about it. I will leave you to your work.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Antonia:''' Okay. I'm looking forward to working with you sometime. I have to figure out scheduling, so I'll talk to you later.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_404015649)
+:<!--Custom String Listener: TalkSentence_404015649-->
+::'''Antonia:''' Delightful! I love doing business with people like you. Come on then. You take the money, and I take the goods.
+::'''Antonia:''' That's nice, real nice... Take this, (Trailblazer). It's been a pleasure doing business with you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010277_21)
+:<!--Custom String Listener: Wait_Option_5010277_21-->
+::{{DIcon|Arrow}} I still have some more questions...
+::<!--Custom String Listener: Wait_Option_5010277_24-->
+::<!--Custom String Listener: Wait_Option_5010277_24-->
+::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+:::<!--Custom String Listener: TalkSentence_501027715-->
+:::<!--Custom String Listener: TalkSentence_501027715-->
+:::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+:::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+:::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::::<!--Custom String Listener: TalkSentence_501027719-->
+::::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::::<!--Custom String Listener: TalkSentence_501027723-->
+::::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+:::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+:::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::::<!--Custom String Listener: TalkSentence_501027719-->
+::::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::::<!--Custom String Listener: TalkSentence_501027723-->
+::::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+:::<!--Custom String Listener: TalkSentence_501027719-->
+:::<!--Custom String Listener: TalkSentence_501027719-->
+:::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+:::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+:::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+:::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::::<!--Custom String Listener: TalkSentence_501027715-->
+::::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::::<!--Custom String Listener: TalkSentence_501027723-->
+::::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+:::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+:::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+:::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::::<!--Custom String Listener: TalkSentence_501027715-->
+::::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::::<!--Custom String Listener: TalkSentence_501027723-->
+::::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+:::<!--Custom String Listener: TalkSentence_501027723-->
+:::<!--Custom String Listener: TalkSentence_501027723-->
+:::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+:::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+:::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+:::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::::<!--Custom String Listener: TalkSentence_501027715-->
+::::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::::<!--Custom String Listener: TalkSentence_501027719-->
+::::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+:::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+:::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+:::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::::<!--Custom String Listener: TalkSentence_501027715-->
+::::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::::<!--Custom String Listener: TalkSentence_501027719-->
+::::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+:::<!--Custom String Listener: TalkSentence_501027715-->
+:::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+:::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+:::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::::<!--Custom String Listener: TalkSentence_501027719-->
+::::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::::<!--Custom String Listener: TalkSentence_501027723-->
+::::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+:::<!--Custom String Listener: TalkSentence_501027719-->
+:::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+:::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+:::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+:::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::::<!--Custom String Listener: TalkSentence_501027715-->
+::::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+::::<!--Custom String Listener: TalkSentence_501027723-->
+::::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+::::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+::::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Do you have any recommendations for activities in the underground?
+:::<!--Custom String Listener: TalkSentence_501027723-->
+:::'''Antonia:''' The Fight Club is quite popular. But personally, I wouldn't pay a shield for that kind of cheap show. It's vulgar and low-class.
+:::'''Antonia:''' There is a restaurant, the one owned by Gertie. The food there is quite good... so long as Gertie doesn't come up with some weird recipes on a whim...
+:::'''Antonia:''' Also, I heard there will be a rap concert where the vagrants are? I don't know how to appreciate that kind of thing, so I've never been there. Go check it out if you are interested. Just be careful there.
+:::<!--Custom String Trigger: Wait_Option_5010277_24-->
+:::<!--Custom String Listener: Wait_Option_5010277_24-->
+:::{{DIcon|Talk}} I heard that the mine hasn't been peaceful lately.
+::::<!--Custom String Listener: TalkSentence_501027715-->
+::::'''Antonia:''' Yes. As you saw last time in the mine, it's been a bit chaotic... but it will end. The vagrants will stop messing around sooner or later.
+::::'''Antonia:''' After all, they've got mouths to feed. If they really got rid of all the professional mining teams, those hooligans won't be able to make a living.
+::::'''Antonia:''' They are well aware of this, which is why they have never crossed the line. A small reward goes a long way with them. I just didn't expect the news to get all the way to Svarog this time...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I heard you recruited some of the vagrants into the mining team.
+::::<!--Custom String Listener: TalkSentence_501027719-->
+::::'''Antonia:''' Well, how should I put it...? Life isn't easy. If Boulder Town also gets eroded by the Fragmentum, we will have to find another livelihood. Who wouldn't want some help at a time like that?
+::::'''Antonia:''' But the old miners have their own ideas. They think the vagrants have made a mess of the mining team... and the vagrants aren't happy with their payment and feel that they've lost freedom... In the end, neither side is happy.
+::::'''Antonia:''' But I know what I am doing. This minor setback will not change my mind. Don't worry about it.
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} That's all questions I have.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Antonia
+|zhs  = 安东尼娜
+|zht  = 安東尼娜
+|ja   = アントニア
+|ko   = 안토니아
+|es   = Antonia
+|fr   = Antonia
+|ru   = Антонина
+|th   = Antonia
+|vi   = Antonia
+|de   = Antonia
+|id   = Antonia
+|pt   = Antônia
+}}
+==Change History==
+{{Change History|TODO}}

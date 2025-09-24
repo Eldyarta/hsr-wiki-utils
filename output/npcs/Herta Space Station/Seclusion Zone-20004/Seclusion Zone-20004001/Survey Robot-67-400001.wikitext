@@ -1,0 +1,131 @@
+<%-- [PAGE_INFO]
+PageTitle=#Survey Robot#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Linked
+|image           = NPC Survey Robot.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Survey Robot''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_67_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000180: Config/Level/Mission/5000030/Act/Act900000180.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500018102
+	]
+}</pre>
+::'''Survey Robot:''' Remote signals normal. Signs of life detected within the field of vision.
+::'''Survey Robot:''' Identification in progress... Identification successful. Accept call request?
+::{{DIcon|Arrow}} A call for me? I'll take it!
+:::<!--Custom String Listener: TalkSentence_500018005-->
+:::'''Survey Robot:''' Connecting...
+::{{DIcon|Arrow}} Can I reject it?
+:::<!--Custom String Listener: TalkSentence_500018007-->
+:::'''Survey Robot:''' Checking permissions for researcher (Trailblazer).
+:::'''Survey Robot:''' Checking permissions... Permission for this action not found.
+::<!--Custom String Trigger: TalkSentence_500018009-->
+::<!--Custom String Listener: TalkSentence_500018009-->
+::'''Survey Robot:''' Remote call started. Remote signals normal.
+::A child's exclamation comes from the little robot, and the voice sounds a little familiar to you.
+::'''Survey Robot:''' Hello!
+::'''Survey Robot:''' Is it (Trailblazer)? I'm remotely observing the rare species here. It's a surprise to see you...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000181: Config/Level/Mission/5000030/Act/Act900000181.json-->
+::'''Survey Robot:''' Remote signals normal. Signs of life detected within the field of vision.
+::Remote call started. Remote signals normal.
+::'''Survey Robot:''' Hello! I didn't expect to see you again...
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to ask you something...
+::<!--Custom String Trigger: Wait_Option_900000182_950-->
+::<!--Custom String Listener: Wait_Option_900000182_950-->
+::{{DIcon|Talk}} Who are you?
+:::<!--Custom String Listener: TalkSentence_500018204-->
+:::'''Adler:''' I'm Adler, a researcher from the Department of Ecology. Haven't we met each other before? Don't you recognize me?
+:::'''Adler:''' Never mind... Your voice is a bit distorted, probably because of poor signals on your side. That might be why you can't recognize me...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What exactly is happening over there now?
+:::<!--Custom String Listener: TalkSentence_500018207-->
+:::'''Adler:''' Nothing much, just a new project going on at the Department of Ecology. Apparently a mysterious little life form was discovered at the space station.
+:::'''Adler:''' I'm in charge of monitoring these creatures remotely with a little robot and recording the collected data and their behavior... It sounds a bit dull, but I find it pretty interesting.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you reached any conclusions yet?
+:::<!--Custom String Listener: TalkSentence_500018210-->
+:::'''Adler:''' You bet! I'm Adler, you know? Don't put me in the same category as the incompetent nincompoops at the Department of Ecology.
+:::'''Adler:''' I noticed that these rare creatures exhibit complicated emotions akin to the ones in humans. Sometimes, their thoughts can even contradict each other.
+:::'''Adler:''' For instance, some of them dislike the little robot, are reluctant to work, spend their days napping, and bully the little robot by giving it nasty nicknames. Meanwhile, some are fond of the little robot and even take the initiative to repair it...
+:::'''Adler:''' I can't say for sure whether this can prove they possess brain issues and thought patterns that are similar to those of humans... Anyway, I need to keep on observing.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500018215-->
+:::'''Adler:''' Alright. I'm hanging up.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Survey Robot:''' Beep... beep... The call has ended.
+::'''Survey Robot:''' Detecting remote signals. The line is busy. Please try again later...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Little Robot
+|zhs  = 小机器人
+|zht  = 小機器人
+|ja   = 小さなロボット
+|ko   = 소형 로봇
+|es   = Robot pequeño
+|fr   = Petit robot
+|ru   = Маленький робот
+|th   = หุ่นยนต์จิ๋ว
+|vi   = Robot Nhỏ
+|de   = Kleiner Roboter
+|id   = Robot Kecil
+|pt   = Robozinho
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,449 @@
+<%-- [PAGE_INFO]
+PageTitle=#Kyros#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Restaurant Owner
+|image           = NPC Kyros.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Kyros''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_40_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504005001: Config/Level/Mission/5040050/Act/Act504005001.json-->
+::'''Outlander Customer:''' Hey, I just don't get it. It's odd enough to eat lying down, and now I have to consume the ingredients in a specific order in a single dish!?
+::'''Kyros:''' Please calm down. This "Classical Platter" you ordered is a traditional Okhema dish. Historically, to fully appreciate its flavors, people used to follow...
+::'''Outlander Customer:''' Wait a sec! I came here to eat, not for a history lesson! This is a restaurant &mdash; Can you just focus on serving food!? If you're all about giving lectures, why not do that outside the Marmoreal Palace?
+::'''Kyros:''' ...I apologize for any inconvenience, but food isn't just about the chemical excitations on your tongue. It's also about finding spiritual comfort. Without understanding the historical and cultural significance, it's...
+::'''Outlander Customer:''' Stop it! I've had enough! Are you nuts or what? I already told you I'm not interested! Oh, I see...
+::'''Outlander Customer:''' Oh, I get it now. You're trying to mess with an outlander like me, aren't you? Fine, I won't be eating here, I want my money back!
+::'''Kyros:''' I meant no offense, dear customer. If you really don't want to learn about history, I won't push any further...
+::'''Kyros:''' You...!?
+::'''Outlander Customer:''' I knew you locals wouldn't treat us outlanders with respect! Who are you trying to impress? Talking about Okhema's culture and history? Hah, sounds more like trash destined to be forgotten by time!
+::'''Outlander Customer:''' You say you won't push us, but how many times were we outlanders pushed into things we didn't want? You know what? Even a dromas wouldn't lick the mess you serve! I...
+::'''Kyros:''' Food and culture must be respected... Please don't ever show up in my place again, or you'll do it at your own risk...
+::'''Kyros:''' Hmm? Oh, a new customer. Welcome! What can I get for you today?
+::{{DIcon|Arrow}} Seems like you have some strict rules here.
+:::<!--Custom String Listener: TalkSentence_504005016-->
+:::'''Kyros:''' I'm sorry for any misunderstanding. We don't have rules, just one principle: Never disrespect food.
+:::'''Kyros:''' For those who appreciate food, I'll do my best to serve top-notch dishes.
+::{{DIcon|Arrow}} You won't throw me out too, will you?
+:::<!--Custom String Listener: TalkSentence_504005019-->
+:::'''Kyros:''' I'm sorry for showing such an unsightly scene to you, but please rest assured...
+:::'''Kyros:''' I trust you wouldn't deliberately ruin a good dish, right?
+::{{DIcon|Arrow}} That guy was terribly rude!
+:::<!--Custom String Listener: TalkSentence_504005022-->
+:::'''Kyros:''' I'm sorry for the disturbance, but those who don't value food have no place dining here...
+:::'''Kyros:''' As a chef, I really appreciate hearing what customers think, as long as they show respect for food.
+::<!--Custom String Trigger: TalkSentence_504005024-->
+::<!--Custom String Listener: TalkSentence_504005024-->
+::'''Kyros:''' Well, let's move past that incident. What would you like to eat? Local specialties? Or perhaps something more outlandish that has been lost to time?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504005002: Config/Level/Mission/5040050/Act/Act504005002.json-->
+::'''Kyros:''' What would you like to eat? Local specialties? Or perhaps something more outlandish that has been lost to time?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Take a look at the takeout.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 40,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 73,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} What's the deal with eating while lying down?
+::'''Kyros:''' Well, "reclining dining" is actually an old tradition here in Okhema. Back in the ancient Era Chrysea, people believed that reclining on chairs while dining helped them resonate with the Earth Titan.
+::'''Kyros:''' For them, this unique way of eating wasn't just about the health benefits like aiding digestion. It was a gesture of respect and gratitude towards Georios.
+::'''Kyros:''' As for why I'm promoting this style... In my opinion, a dish loses its root and can no longer be passed down when it's severed from its cultural roots.
+::'''Kyros:''' My goal is to preserve and modernize traditional food culture while keeping pace with the new world.
+::'''Kyros:''' But I understand... Life's busy these days, and not everyone has time to dive into food history and heritage. Guess that's just the way things are, hah...
+::<!--Ends the current performance-->
+:{{DIcon}} What local specialties do you have on the menu?
+::'''Kyros:''' Legend has it that during the Era Chrysea, Okhema's cuisine was meticulous and even extravagant. But as resources dwindled due to the black tide's unceasing invasion, simplicity took over in terms of culinary habits.
+::'''Kyros:''' I'm trying to bring back those lavish historical dishes using the simplest ingredients and techniques. So, I highly recommend our signature dish, the "Classical Platter."
+::'''Kyros:''' Originally, this dish was a complex masterpiece with several dozen steps. I've greatly simplified it while retaining its main flavors, but the order you taste the ingredients in is still crucial... Do you mind if I delve into it?
+::{{DIcon|Arrow}} Not at all. I'm all ears.
+:::<!--Custom String Listener: TalkSentence_504005215-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002012,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504005215
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"BlackMask": true,
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005216,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005217,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005218,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005219,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005220,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005221,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005222,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005223,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002012"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504005232"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} It's okay, I'll just eat it in my own order.
+:::<!--Custom String Listener: TalkSentence_504005225-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002020,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005225,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504005226
+					},
+					{
+						"TalkSentenceID": 504005227
+					},
+					{
+						"TalkSentenceID": 504005228
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005229,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005230,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002020"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504005232"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} I suddenly lost my appetite.
+:::<!--Custom String Listener: TalkSentence_504005232-->
+:::'''Kyros:''' No worries! Looking forward to your next visit.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon}} What foreign dishes do you have on the menu?
+::'''Kyros:''' Over the years, many outlanders have made their home in Okhema due to the black tide. I've been fortunate enough to get some of their recipes and put my own spin on them based on the relevant history and cultures. Here are a couple of my favorites...
+::{{DIcon|Arrow}} Crude Grape Brew.
+:::<!--Custom String Listener: TalkSentence_504005263-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002013,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005263,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005264,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504005265
+					},
+					{
+						"TalkSentenceID": 504005266
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005267,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002013"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504005276"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Arrow}} Fig stew.
+:::<!--Custom String Listener: TalkSentence_504005269-->
+::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304002014,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005269,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005270,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504005271,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayFullScreenTransfer",
+			"TextInfo": {
+				"NotAuto": true,
+				"TextList": [
+					{
+						"TalkSentenceID": 504005272
+					},
+					{
+						"TalkSentenceID": 504005273
+					},
+					{
+						"TalkSentenceID": 504005274
+					}
+				]
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304002014"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "TalkSentence_504005276"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: TalkSentence_504005276-->
+:::'''Kyros:''' No worries! Looking forward to your next visit.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Kyros:''' No worries! Looking forward to your next visit.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Kyros
+|zhs  = 克瑞斯
+|zht  = 克瑞斯
+|ja   = ケレース
+|ko   = 키로스
+|es   = Kiros
+|fr   = Kyros
+|ru   = Кирос
+|th   = Kyros
+|vi   = Kyros
+|de   = Kyros
+|id   = Kyros
+|pt   = Kyros
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,625 @@
+<%-- [PAGE_INFO]
+PageTitle=#Plains Bear Cub#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Plains Bear Cub.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Outlying Snow Plains
+|relatives       = 
+}}
+'''Plains Bear Cub''' is an NPC on [[Jarilo-VI]], located in [[Outlying Snow Plains]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Outlying Snow Plains|npc_85_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501031601: Config/Level/Mission/5010316/Act/Act501031601.json-->
+::'''Plains Bear Cub:''' ...Arf?
+::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::Normally, wild animals are alert around unfamiliar things, but this little one doesn't seem to be bothered by your presence.
+::'''Plains Bear Cub:''' Arf... groo!
+::'''Plains Bear Cub:''' Arf! Groooo!
+::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+::Who could reject an invitation from an adorable little arctic bear cub? You start to approach...
+::'''Plains Bear Cub:''' Groo! Groooo!
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warrior"}-->}})
+::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011501,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warrior"}-->}})
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Rogue"}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011502,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Rogue"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Mage"}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011503,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 3
+}</pre>
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Mage"}-->}})
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Knight"}-->}})
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011504,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 4
+}</pre>
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Knight"}-->}})
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warlock"}-->}})
+::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011505,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 5
+}</pre>
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warlock"}-->}})
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Shaman"}-->}})
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011506,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 6
+}</pre>
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Shaman"}-->}})
+:::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Priest"}-->}})
+::::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011507,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 7
+}</pre>
+::<!--Custom String Trigger: TalkSentence501031610-->
+::<!--Custom String Listener: TalkSentence501031610-->
+::The cub let out a joyous call. There is something laying underneath where the bear was sat... maybe it's a present for you?
+::'''Plains Bear Cub:''' Groo... grooo!
+::The cub seems to be in a great mood. Maybe you could try befriending it...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501031602: Config/Level/Mission/5010316/Act/Act501031602.json-->
+:;(If {{cx}}<!--Hidden Mission ID 4140115--> has been completed)
+:::<!--Custom String Trigger: act501031602-->
+:::<!--Custom String Listener: act501031602-->
+:::'''Plains Bear Cub:''' ...Arf?
+:::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::The cub let out a joyous call. Maybe you could try befriending it...
+:;(If {{cx}}<!--Hidden Mission ID 4140115--> has not been completed)
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warrior"}-->}})
+:::;(If {{cx}}<!--SubMission Started: 414011501-->)
+::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011501,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 1
+}</pre>
+:::::<!--Custom String Trigger: act501031602_2-->
+:::::<!--Custom String Listener: act501031602_2-->
+:::::'''Plains Bear Cub:''' ...Arf?
+:::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::'''Plains Bear Cub:''' Arf... groo!
+:::::'''Plains Bear Cub:''' Arf! Groooo!
+:::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+:::::'''Plains Bear Cub:''' Groo! Groooo!
+:::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+:::::'''Plains Bear Cub:''' Groo... grooo!
+:::::The cub seems to be in a great mood. Maybe you could try befriending it...
+:::;(If {{cx}}<!--SubMission not Started: 414011501-->)
+:::::<!--Custom String Trigger: act501031602-->
+:::::<!--Custom String Listener: act501031602-->
+:::::'''Plains Bear Cub:''' ...Arf?
+:::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::The cub let out a joyous call. Maybe you could try befriending it...
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warrior"}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Rogue"}-->}})
+::::;(If {{cx}}<!--SubMission Started: 414011502-->)
+:::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011502,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 2
+}</pre>
+::::::<!--Custom String Trigger: act501031602_2-->
+::::::<!--Custom String Listener: act501031602_2-->
+::::::'''Plains Bear Cub:''' ...Arf?
+::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::'''Plains Bear Cub:''' Arf... groo!
+::::::'''Plains Bear Cub:''' Arf! Groooo!
+::::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+::::::'''Plains Bear Cub:''' Groo! Groooo!
+::::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+::::::'''Plains Bear Cub:''' Groo... grooo!
+::::::The cub seems to be in a great mood. Maybe you could try befriending it...
+::::;(If {{cx}}<!--SubMission not Started: 414011502-->)
+::::::<!--Custom String Trigger: act501031602-->
+::::::<!--Custom String Listener: act501031602-->
+::::::'''Plains Bear Cub:''' ...Arf?
+::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::The cub let out a joyous call. Maybe you could try befriending it...
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Rogue"}-->}})
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Mage"}-->}})
+:::::;(If {{cx}}<!--SubMission Started: 414011503-->)
+::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011503,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 3
+}</pre>
+:::::::<!--Custom String Trigger: act501031602_2-->
+:::::::<!--Custom String Listener: act501031602_2-->
+:::::::'''Plains Bear Cub:''' ...Arf?
+:::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::::'''Plains Bear Cub:''' Arf... groo!
+:::::::'''Plains Bear Cub:''' Arf! Groooo!
+:::::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+:::::::'''Plains Bear Cub:''' Groo! Groooo!
+:::::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+:::::::'''Plains Bear Cub:''' Groo... grooo!
+:::::::The cub seems to be in a great mood. Maybe you could try befriending it...
+:::::;(If {{cx}}<!--SubMission not Started: 414011503-->)
+:::::::<!--Custom String Trigger: act501031602-->
+:::::::<!--Custom String Listener: act501031602-->
+:::::::'''Plains Bear Cub:''' ...Arf?
+:::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::::The cub let out a joyous call. Maybe you could try befriending it...
+::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Mage"}-->}})
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Knight"}-->}})
+::::::;(If {{cx}}<!--SubMission Started: 414011504-->)
+:::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011504,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 4
+}</pre>
+::::::::<!--Custom String Trigger: act501031602_2-->
+::::::::<!--Custom String Listener: act501031602_2-->
+::::::::'''Plains Bear Cub:''' ...Arf?
+::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::::'''Plains Bear Cub:''' Arf... groo!
+::::::::'''Plains Bear Cub:''' Arf! Groooo!
+::::::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+::::::::'''Plains Bear Cub:''' Groo! Groooo!
+::::::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+::::::::'''Plains Bear Cub:''' Groo... grooo!
+::::::::The cub seems to be in a great mood. Maybe you could try befriending it...
+::::::;(If {{cx}}<!--SubMission not Started: 414011504-->)
+::::::::<!--Custom String Trigger: act501031602-->
+::::::::<!--Custom String Listener: act501031602-->
+::::::::'''Plains Bear Cub:''' ...Arf?
+::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::::The cub let out a joyous call. Maybe you could try befriending it...
+:::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Knight"}-->}})
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warlock"}-->}})
+:::::::;(If {{cx}}<!--SubMission Started: 414011505-->)
+::::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011505,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 5
+}</pre>
+:::::::::<!--Custom String Trigger: act501031602_2-->
+:::::::::<!--Custom String Listener: act501031602_2-->
+:::::::::'''Plains Bear Cub:''' ...Arf?
+:::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::::::'''Plains Bear Cub:''' Arf... groo!
+:::::::::'''Plains Bear Cub:''' Arf! Groooo!
+:::::::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+:::::::::'''Plains Bear Cub:''' Groo! Groooo!
+:::::::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+:::::::::'''Plains Bear Cub:''' Groo... grooo!
+:::::::::The cub seems to be in a great mood. Maybe you could try befriending it...
+:::::::;(If {{cx}}<!--SubMission not Started: 414011505-->)
+:::::::::<!--Custom String Trigger: act501031602-->
+:::::::::<!--Custom String Listener: act501031602-->
+:::::::::'''Plains Bear Cub:''' ...Arf?
+:::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::::::The cub let out a joyous call. Maybe you could try befriending it...
+::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Warlock"}-->}})
+:::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Shaman"}-->}})
+::::::::;(If {{cx}}<!--SubMission Started: 414011506-->)
+:::::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011506,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 6
+}</pre>
+::::::::::<!--Custom String Trigger: act501031602_2-->
+::::::::::<!--Custom String Listener: act501031602_2-->
+::::::::::'''Plains Bear Cub:''' ...Arf?
+::::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::::::'''Plains Bear Cub:''' Arf... groo!
+::::::::::'''Plains Bear Cub:''' Arf! Groooo!
+::::::::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+::::::::::'''Plains Bear Cub:''' Groo! Groooo!
+::::::::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+::::::::::'''Plains Bear Cub:''' Groo... grooo!
+::::::::::The cub seems to be in a great mood. Maybe you could try befriending it...
+::::::::;(If {{cx}}<!--SubMission not Started: 414011506-->)
+::::::::::<!--Custom String Trigger: act501031602-->
+::::::::::<!--Custom String Listener: act501031602-->
+::::::::::'''Plains Bear Cub:''' ...Arf?
+::::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::::::The cub let out a joyous call. Maybe you could try befriending it...
+:::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Shaman"}-->}})
+::::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Priest"}-->}})
+:::::::::;(If {{cx}}<!--SubMission Started: 414011507-->)
+::::::::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414011507,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7
+		]
+	},
+	"CustomValue": 7
+}</pre>
+:::::::::::<!--Custom String Trigger: act501031602_2-->
+:::::::::::<!--Custom String Listener: act501031602_2-->
+:::::::::::'''Plains Bear Cub:''' ...Arf?
+:::::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::::::::'''Plains Bear Cub:''' Arf... groo!
+:::::::::::'''Plains Bear Cub:''' Arf! Groooo!
+:::::::::::The little bear cub calls out to you eagerly, flapping its short and round limbs. It seems as if it's asking you for help.
+:::::::::::'''Plains Bear Cub:''' Groo! Groooo!
+:::::::::::The cub let out a joyous call... maybe the item underneath it was a present it was planning to give you?
+:::::::::::'''Plains Bear Cub:''' Groo... grooo!
+:::::::::::The cub seems to be in a great mood. Maybe you could try befriending it...
+:::::::::;(If {{cx}}<!--SubMission not Started: 414011507-->)
+:::::::::::<!--Custom String Trigger: act501031602-->
+:::::::::::<!--Custom String Listener: act501031602-->
+:::::::::::'''Plains Bear Cub:''' ...Arf?
+:::::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+:::::::::::The cub let out a joyous call. Maybe you could try befriending it...
+::::::::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareTeamLeaderPath","PathType":"Priest"}-->}})
+::::::::::<!--Custom String Trigger: act501031602-->
+::::::::::<!--Custom String Listener: act501031602-->
+::::::::::'''Plains Bear Cub:''' ...Arf?
+::::::::::The little arctic bear cub watches you with its head tilted, flapping its semicircular ears.
+::::::::::The cub let out a joyous call. Maybe you could try befriending it...
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Play with the arctic bear cub.
+::<!--Trigger PerformanceE 501031604: Config/Level/Mission/5010316/Act/Act501031604.json-->
+::'''Plains Bear Cub:''' Groo~ Groo groo!
+::<!--Custom String Trigger: Wait_Option_501031604_62-->
+::<!--Custom String Listener: Wait_Option_501031604_62-->
+::{{DIcon|Talk}} Tell a dad joke.
+:::<!--Custom String Listener: TalkSentence_501031638-->
+:::This is your strong suit! You took the grand prize in the Astral Express dad joke contest you made up in your mind!
+:::<!--Custom String Trigger: Wait_Option_501031604_65-->
+:::<!--Custom String Listener: Wait_Option_501031604_65-->
+:::{{DIcon|Talk}} Tell a joke about work.
+::::<!--Custom String Listener: TalkSentence_501031640-->
+::::'''(Trailblazer):''' Why did the bear get fired?
+::::'''(Trailblazer):''' ...
+::::'''(Trailblazer):''' ...Because it always skipped work in the winter!
+::::'''Plains Bear Cub:''' ...Groo?
+::::You realize you told the worst joke ever. Clearly arctic bears don't hibernate in the winter.
+::::...Better luck next time.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell a joke about a ball.
+::::<!--Custom String Listener: TalkSentence_501031647-->
+::::'''(Trailblazer):''' What kind of ball doesn't bounce?
+::::'''(Trailblazer):''' ...
+::::'''(Trailblazer):''' ...A snowball!
+::::'''Plains Bear Cub:''' ...Groo?
+::::...What about iron balls? Or steel balls? Or osmium alloy balls?
+::::Terrible... This is not the kind of joke someone of your talent should be telling.
+::::...Better luck next time.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell a joke about snowmen.
+::::<!--Custom String Listener: TalkSentence_501031655-->
+::::'''(Trailblazer):''' How should you greet an old snowman?
+::::'''(Trailblazer):''' ...
+::::'''(Trailblazer):''' ...Hello, Mr. Water!
+::::'''Plains Bear Cub:''' ...Groo?
+::::...Dang, no reaction. This was clearly one of your proudest dad jokes... It seems that the arctic bear is a species with high standards when it comes to dad jokes. This is a tough crowd.
+::::...Better luck next time.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Let's do something else.
+::::<!--Custom String Listener: Wait_Option_501031604_62-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Sing a lullaby.
+:::::<!--Custom String Listener: TalkSentence_501031663-->
+:::::'''(Trailblazer):''' Ahem... Ahem!
+:::::You cleared your throat... It's your time to shine!
+:::::'''(Trailblazer):''' Cough... Cough cough!
+:::::Oh no! Your throat isn't feeling great today... Better take a lozenge!
+:::::A refreshing mint flavor bursts from the back of your tongue, moistening your throat and vocal cords... That feels great, no wonder Welt's always gobbling sweets! Now, you are ready.
+:::::'''(Trailblazer):''' Ah... Ahem!
+:::::...Dang, how does that lullaby start again?
+:::::It's right on the tip of your tongue... An adult should know how to be flexible, so you give up the futile struggles &mdash; just take out your phone and check.
+:::::'''Plains Bear Cub:''' Zzz... Zzz...
+:::::As you were wrapped up in all this, the little cub fell asleep.
+:::::That's fine. You should save your wonderful singing voice for someone who really wants to hear it anyway!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Feed it something.
+:::::<!--Custom String Listener: TalkSentence_501031675-->
+:::::You pull a large hazelnut from your pocket, it looks delicious...
+:::::'''Plains Bear Cub:''' ...Groo! Groohoo!
+:::::...Why did you have a hazelnut in your pocket? That's not important, it's already in your hand now.
+:::::{{DIcon|Arrow}} Toss the hazelnut to the cub.
+:::::<!--Custom String Listener: TalkSentence_501031679-->
+:::::The hazelnut soars through the air in a graceful arc.
+:::::'''Plains Bear Cub:''' ...Arf! Groo!
+:::::'''Plains Bear Cub:''' Groo... Hoo... Arf!
+:::::The cub cries out with happiness. If there were such a thing as a friendship level, that would have scored you some great points.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Ignore it for now.
+:::::<!--Custom String Listener: TalkSentence_501031684-->
+:::::The cub seems to have figured out your intentions, it shakes its head slightly as if to express reluctance.
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Sing a lullaby.
+:::<!--Custom String Listener: TalkSentence_501031663-->
+:::'''(Trailblazer):''' Ahem... Ahem!
+:::You cleared your throat... It's your time to shine!
+:::'''(Trailblazer):''' Cough... Cough cough!
+:::Oh no! Your throat isn't feeling great today... Better take a lozenge!
+:::A refreshing mint flavor bursts from the back of your tongue, moistening your throat and vocal cords... That feels great, no wonder Welt's always gobbling sweets! Now, you are ready.
+:::'''(Trailblazer):''' Ah... Ahem!
+:::...Dang, how does that lullaby start again?
+:::It's right on the tip of your tongue... An adult should know how to be flexible, so you give up the futile struggles &mdash; just take out your phone and check.
+:::'''Plains Bear Cub:''' Zzz... Zzz...
+:::As you were wrapped up in all this, the little cub fell asleep.
+:::That's fine. You should save your wonderful singing voice for someone who really wants to hear it anyway!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Feed it something.
+:::<!--Custom String Listener: TalkSentence_501031675-->
+:::You pull a large hazelnut from your pocket, it looks delicious...
+:::'''Plains Bear Cub:''' ...Groo! Groohoo!
+:::...Why did you have a hazelnut in your pocket? That's not important, it's already in your hand now.
+:::{{DIcon|Arrow}} Toss the hazelnut to the cub.
+:::<!--Custom String Listener: TalkSentence_501031679-->
+:::The hazelnut soars through the air in a graceful arc.
+:::'''Plains Bear Cub:''' ...Arf! Groo!
+:::'''Plains Bear Cub:''' Groo... Hoo... Arf!
+:::The cub cries out with happiness. If there were such a thing as a friendship level, that would have scored you some great points.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Ignore it for now.
+:::<!--Custom String Listener: TalkSentence_501031684-->
+:::The cub seems to have figured out your intentions, it shakes its head slightly as if to express reluctance.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031604-->
+:{{DIcon|Exit}} Play with it another time.
+::<!--Trigger PerformanceE 501031605: Config/Level/Mission/5010316/Act/Act501031605.json-->
+::The cub seems to have figured out your intentions. It waves its short little arm as if bidding you farewell.
+::'''Plains Bear Cub:''' Groo... hoo~
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031605-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

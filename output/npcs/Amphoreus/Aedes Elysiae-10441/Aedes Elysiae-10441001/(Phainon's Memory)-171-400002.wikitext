@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Phainon's Memory)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Phainon's Memory).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''(Phainon's Memory)''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_171_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504111002: Config/Level/Mission/5041110/Act/Act504111002.json-->
+:<!--Custom String Trigger: Wait_TimeLJ-->
+:<!--Custom String Listener: Wait_TimeLJ-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<!--0.5-second delay-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	}
+}</pre>
+:'''Phainon:''' Hey, mom. I'm home.
+:'''Audata:''' Hehe, look at your expression... got your bags all packed?
+:'''Phainon:''' Can't hide anything from you, huh... Yeah, I'm all set. Heading out the day after tomorrow.
+:'''Audata:''' You've always been easy to read, my sweet child. Since you were little, I just had to glance your way to know what's on your mind.
+:'''Audata:''' You said... you're going to Castrum Kremnos, right? I wonder how far that is from our Aedes Elysiae?
+:'''Phainon:''' Haha, no clue. I heard that Castrum Kremnos roams around slowly, just like a dromas.
+:'''Phainon:''' Don't worry, mom. Once I finish my studies, I'll come straight home. Who knows? Maybe one day that city will wander right past our village.
+:'''Audata:''' Then I'll have to keep watch from the haystack. Just to see if a mountain-sized dromas is headed for Aedes Elysiae.
+:'''Audata:''' When that day comes, your dad and I will fire up the stove, get a feast ready. You'll see the golden fields, the kitchen smoke curling &mdash; and know you're home.
+:'''Phainon:''' Hah, even without the smoke, I'll always know where home is. I know these wheat fields better than anyone &mdash; except dad, maybe.
+:'''Phainon:''' When I get back... I want honey suncake, with smoked venison and olive juice!
+:'''Audata:''' Knew you'd say that. And if you make any friends, bring them home. The whole village will throw a proper feast to welcome them.
+:'''Phainon:''' You got it! I can't help wondering the people I'll meet out there.
+:'''Audata:''' Hehe... I believe in you. You'll definitely find kind, sincere people to walk beside you.
+:'''Audata:''' Just remember to treat them with the same kindness. Never let their hearts go cold or hopes turn sour, okay?
+:'''Phainon:''' Ah...
+:'''Phainon:''' I won't, mom. I won't let anyone down... not them, not you, and not Dad.
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	},
+	"Hide": false
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

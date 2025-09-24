@@ -1,0 +1,219 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fulie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Amenable Attaboy
+|image           = NPC Fulie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Fulie''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400007}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502023101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502023101.json-->
+::'''Fulie:''' Looking at the rags you're wearing, I can tell you're not a Xianzhou native.
+::'''Fulie:''' I get it. You must be an Outworlder! Are you in any trouble? Just tell me, and I'll help you get things sorted!
+::{{DIcon|Arrow}} How can you help me?
+:::<!--Custom String Listener: TalkSentence_502023104-->
+:::'''Fulie:''' I dunno. It depends on the situation. If I really can't be of any help, then I'll take you to the Realm-Keeping Commission Chancery &mdash; this is their specialty.
+:::'''Fulie:''' And this way, you'll be helping me clock some hours, so don't worry about it.
+::{{DIcon|Arrow}} Is this how you talk to people you've just met for the first time?
+:::<!--Custom String Listener: TalkSentence_502023107-->
+:::'''Fulie:''' Is something wrong? This is how I speak at home, and I've never gotten a reaction like yours.
+:::'''Fulie:''' Eh, you're just helping me clock some hours for my job, never mind then.
+::<!--Custom String Trigger: Wait_Option_502023101_19-->
+::<!--Custom String Listener: Wait_Option_502023101_19-->
+::{{DIcon|Arrow}} What job hours are those?
+:::<!--Custom String Listener: TalkSentence_502023110-->
+:::'''Fulie:''' Oh, you don't know even this? You really are an Outworlder!
+:::'''Fulie:''' Here on Xianzhou, we have to take a series of examinations in order to qualify for our rite of passage. The community service program that I'm volunteering for is a part of this examination &mdash; and if I don't clock enough effective on-the-job hours, I won't be considered an adult.
+::{{DIcon|Arrow}} That sounds offensive.
+:::<!--Custom String Listener: TalkSentence_502023113-->
+:::'''Fulie:''' You're offended because of an offhand comment? I have my own worries, can't you put yourself in my shoes?
+:::'''Fulie:''' Here on Xianzhou, we have to take a series of examinations in order to qualify for our rite of passage. The community service program that I'm volunteering for is a part of this examination.
+:::'''Fulie:''' If I don't clock enough effective on-the-job hours, then I won't be considered an adult. Do you get it?
+::{{DIcon|Arrow}} I can't deal with your attitude...
+:::<!--Custom String Listener: TalkSentence_502023117-->
+:::'''Fulie:''' You're the one with the attitude! You won't even help me out with a favor!
+:::'''Fulie:''' Here on Xianzhou, we have to take a series of examinations in order to qualify for our rite of passage. The community service program that I'm volunteering for is a part of this examination.
+:::'''Fulie:''' If I don't clock enough effective on-the-job hours, then I won't be considered an adult. Do you get it?
+::<!--Custom String Trigger: TalkSentence_502023120-->
+::<!--Custom String Listener: TalkSentence_502023120-->
+::'''Fulie:''' Alright, fine, I gotta stop wasting time. I still have an examination to pass. If you're not gonna help me, then get out of my way.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502023102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502023102.json-->
+::'''Fulie:''' This stupid rite of passage thing is such a pain. Is there really no way for my parents to just do it all for me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502023201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502023201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502023201.json-->
+::'''Fulie:''' Enough already about this darn tree. It's triggering. Ever since this thing started growing again, my parents have been nagging me about it every single day.
+::'''Fulie:''' "Hey! The Ambrosial Arbor is growing up again. How come our darling Fulie hasn't grown up yet?" They babble on and on at me, every day. It's infuriating!
+::'''Fulie:''' The point is, I don't get why they have to make this kind of metaphor... The Ambrosial Arbor growing is far from good news, but me growing up is a good thing! What kind of comparison is that?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502023201-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502023201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} I have a few questions for you.
+::<!--Trigger PerformanceE 502023103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502023103.json-->
+::'''Fulie:''' *sigh* ...Fine, go on.
+::<!--Custom String Trigger: Wait_Option_502023101_37-->
+::<!--Custom String Listener: Wait_Option_502023101_37-->
+::{{DIcon|Talk}} How old are you?
+:::<!--Custom String Listener: TalkSentence_502023124-->
+:::'''Fulie:''' ...249 years old. So what, haven't you ever met a kid this old before?
+:::{{DIcon|Arrow}} Then you're not exactly young.
+::::<!--Custom String Listener: TalkSentence_502023126-->
+::::'''Fulie:''' What does that even mean? Oh, I see &mdash; You're just picking a fight!
+::::'''Fulie:''' So what if I'm still not yet an adult? Is it bothering you? All you people and the people at the Realm-Keeping Commission, just sticking your noses in my business all day, making things tough for me...
+::::<!--Custom String Trigger: TalkSentence_502023134-->
+::::<!--Custom String Listener: TalkSentence_502023134-->
+::::'''Fulie:''' I can have and do anything I want at home, so why should it be any different when I'm at the Realm-Keeping Commission? Why can't I be an adult without passing the requirements? Who gave you the rights?
+::::'''Fulie:''' *sigh* I wish my parents worked at the Realm-Keeping Commission. Then I wouldn't have to deal with all these time-wasters...
+::::'''Fulie:''' Tsk... When I say that out loud, my parents have really let me down here!
+::::'''Fulie:''' They can't even do this one simple thing for me. Useless!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That's still pretty young for Xianzhou natives.
+::::<!--Custom String Listener: TalkSentence_502023129-->
+::::'''Fulie:''' I think so too. But the people at the Realm-Keeping Commission don't &mdash; they keep on urging me to take the rite of passage examination, but they won't let me pass and get my qualification...
+::::'''Fulie:''' Tsk, this is so annoying... These people are just trying to pick on me! All day, just sticking their noses in my business...
+::::<!--Custom String Trigger: TalkSentence_502023134-->
+::::<!--Custom String Listener: TalkSentence_502023134-->
+::::'''Fulie:''' I can have and do anything I want at home, so why should it be any different when I'm at the Realm-Keeping Commission? Why can't I be an adult without passing the requirements? Who gave you the rights?
+::::'''Fulie:''' *sigh* I wish my parents worked at the Realm-Keeping Commission. Then I wouldn't have to deal with all these time-wasters...
+::::'''Fulie:''' Tsk... When I say that out loud, my parents have really let me down here!
+::::'''Fulie:''' They can't even do this one simple thing for me. Useless!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Who's picking on you? Calm down.
+::::<!--Custom String Listener: TalkSentence_502023132-->
+::::'''Fulie:''' You know I haven't passed my rite of passage examination yet, but you still ask me my age. If that isn't the definition of picking on me, what is?
+::::'''Fulie:''' Oh, I think I get it &mdash; you're in cahoots with those guys at the Realm-Keeping Commission! Just sticking their noses in my business all day, making things tough for me...
+::::<!--Custom String Trigger: TalkSentence_502023134-->
+::::<!--Custom String Listener: TalkSentence_502023134-->
+::::'''Fulie:''' I can have and do anything I want at home, so why should it be any different when I'm at the Realm-Keeping Commission? Why can't I be an adult without passing the requirements? Who gave you the rights?
+::::'''Fulie:''' *sigh* I wish my parents worked at the Realm-Keeping Commission. Then I wouldn't have to deal with all these time-wasters...
+::::'''Fulie:''' Tsk... When I say that out loud, my parents have really let me down here!
+::::'''Fulie:''' They can't even do this one simple thing for me. Useless!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How do the Xianzhou people usually qualify for their rite of passage?
+:::<!--Custom String Listener: TalkSentence_502023139-->
+:::'''Fulie:''' I'm not sure about the details. My parents have been handling that part for me so far.
+:::'''Fulie:''' If you really must know, hit up the Realm-Keeping Commission Chancery and ask around for yourself.
+:::{{DIcon|Arrow}} Alright, thank you.
+::::<!--Custom String Listener: TalkSentence_502023152-->
+::::'''Fulie:''' Alright, do you have any other questions? Hurry up and ask, I still have hours to clock...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Aren't you even the slightest bit concerned about such an important occasion?
+::::<!--Custom String Listener: TalkSentence_502023143-->
+::::'''Fulie:''' Ha, what kind of question is this? My parents have already taken care of it, so why should I have to be concerned about it?
+::::{{DIcon|Arrow}} Adults have to take responsibility for themselves.
+:::::<!--Custom String Listener: TalkSentence_502023145-->
+:::::'''Fulie:''' Enough with the life lessons! My ears are getting calloused just from all the "life lessons" thrown at me!
+:::::'''Fulie:''' Besides, only adults have to take responsibility for themselves. I'm not an adult yet, remember?
+:::::<!--Custom String Trigger: TalkSentence_502023149-->
+:::::<!--Custom String Listener: TalkSentence_502023149-->
+:::::'''Fulie:''' We Xianzhou people, we don't grow old &mdash; and anyway, my parents are willing to take care of me for the rest of my life, so I'll just let them.
+:::::'''Fulie:''' What's more, this way I don't even have to think about all those trivial mundane things that happen in life.
+:::::'''Fulie:''' My parents will be happy, and I'll be relieved too... It's great, right?
+:::::<!--Custom String Trigger: TalkSentence_502023152-->
+:::::<!--Custom String Listener: TalkSentence_502023152-->
+:::::'''Fulie:''' Alright, do you have any other questions? Hurry up and ask, I still have hours to clock...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} So you plan on relying on your parents for the rest of your life?
+:::::<!--Custom String Listener: TalkSentence_502023148-->
+:::::'''Fulie:''' So what? They've got arms and legs to help. Who else could I rely on?
+:::::<!--Custom String Trigger: TalkSentence_502023149-->
+:::::<!--Custom String Listener: TalkSentence_502023149-->
+:::::'''Fulie:''' We Xianzhou people, we don't grow old &mdash; and anyway, my parents are willing to take care of me for the rest of my life, so I'll just let them.
+:::::'''Fulie:''' What's more, this way I don't even have to think about all those trivial mundane things that happen in life.
+:::::'''Fulie:''' My parents will be happy, and I'll be relieved too... It's great, right?
+:::::<!--Custom String Trigger: TalkSentence_502023152-->
+:::::<!--Custom String Listener: TalkSentence_502023152-->
+:::::'''Fulie:''' Alright, do you have any other questions? Hurry up and ask, I still have hours to clock...
+::::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's it for now.
+:::<!--Custom String Listener: TalkSentence_502023154-->
+:::'''Fulie:''' Nothing else? Fine, see ya.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502023103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502023201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor has stopped sprouting...
+::<!--Trigger PerformanceE 502023104: Config/Level/NPCDialogue/P10202/NPCAct/Act502023104.json-->
+::'''Fulie:''' Yes. Isn't that great? That's something worth celebrating! Oh, the Ambrosial Arbor is such a nice baby!
+::'''Fulie:''' When the news first came out, I couldn't wait to tell my parents about it. "Hey, even the Ambrosial Arbor is growing up again. How come our darling Fulie hasn't grown up yet?" This is what they used to moan about all the time.
+::'''Fulie:''' Now, I never fail to shut them up every time I say "I can revert just like the Ambrosial Arbor." They finally stopped nagging.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502023104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502023201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I'm off.
+::'''Fulie:''' Nothing else? Fine, see ya.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 302010304-->)
+:{{DIcon|undefined}} (Hand the letter you picked up to Fulie)
+::<!--Trigger PerformanceE 302010303: Config/Level/Mission/3020103/Act/Act302010303.json-->
+::'''Fulie:''' Who is this!? Casually talking about being my "childhood playmate" as if I'm old now! Did Luofu law approve of this?
+::{{DIcon|Arrow}} Is there anyone you know that has gone missing?
+::{{DIcon|Arrow}} Do you have any current "playmates"?
+::<!--Custom String Listener: TalkSentence_302010335-->
+::'''Fulie:''' No! Absolutely not! This letter makes no sense, but I've heard stories like this before.
+::'''Fulie:''' "A person lost at sea uses their wilderness survival skills to survive on a deserted island..." I remember I was the only person who cared about this story. I thought it would be interesting if it really happened.
+::'''Fulie:''' But you said you salvaged this from the sea? That is interesting. Perhaps I should take this to show off to the neighbor's kid. Thanks!
+::'''(Trailblazer):''' (So it's a made-up story? This keeps getting more and more mysterious...)
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010304-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fulie
+|zhs  = 阿浮
+|zht  = 阿浮
+|ja   = 阿浮
+|ko   = 옥부
+|es   = Fulie
+|fr   = Fulie
+|ru   = Малыш Фу
+|th   = Fulie
+|vi   = Fulie
+|de   = Fulie
+|id   = Fulie
+|pt   = Fulie
+}}
+==Change History==
+{{Change History|TODO}}

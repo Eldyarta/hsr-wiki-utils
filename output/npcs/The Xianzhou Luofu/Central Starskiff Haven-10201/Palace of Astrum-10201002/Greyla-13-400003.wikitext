@@ -1,0 +1,208 @@
+<%-- [PAGE_INFO]
+PageTitle=#Greyla#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Architect
+|image           = NPC Greyla.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Palace of Astrum
+|relatives       = 
+}}
+'''Greyla''' is an NPC on [[The Xianzhou Luofu]], located in [[Palace of Astrum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Palace of Astrum|npc_13_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Greyla:''' Sure, though I can tell you as much about Preservation if you're interested. Or we can talk about other topics, of course.
+:<!--Custom String Trigger: Wait_Option_502012102_895-->
+:<!--Custom String Listener: Wait_Option_502012102_895-->
+:{{DIcon|Talk}} What did you see them about?
+::<!--Custom String Listener: TalkSentence_502121103-->
+::'''Greyla:''' You look like someone who gets around. You've seen the destructive Antimatter Legion, right? They threaten every sentient creature in the cosmos!
+::'''Greyla:''' Xianzhou should be contributing every technology they have to the cause of Preservation. I was already being subtle, and yet they mock me!
+::{{DIcon|Arrow}} What did you say to them?
+:::<!--Custom String Listener: TalkSentence_502121106-->
+:::'''Greyla:''' "Xianzhou has tried to cover up reality with sentiments and myths. You should face the truth and see who truly defends the cosmos."
+:::'''Greyla:''' I heard Xianzhou is cruising the cosmos for revenge against Abundance. Still seeking their revenge, in this day and age? I just don't understand that.
+:::<!--Custom String Trigger: TalkSentence_502121111-->
+:::<!--Custom String Listener: TalkSentence_502121111-->
+:::'''Greyla:''' They're too arrogant to supply the Fallow Earth technology, purchase the Architects' fortifications, or let Architects garrison there... Xianzhou is too confident, and that's going to cause them big problems.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Did they really mock you?
+:::<!--Custom String Listener: TalkSentence_502121109-->
+:::'''Greyla:''' That old fox Yukong actually laughed in my face! When I inquired as to what it was she found so humorous, she replied, "I just thought of something funny."
+:::'''Greyla:''' How dare she speak to me like that!
+:::<!--Custom String Trigger: TalkSentence_502121111-->
+:::<!--Custom String Listener: TalkSentence_502121111-->
+:::'''Greyla:''' They're too arrogant to supply the Fallow Earth technology, purchase the Architects' fortifications, or let Architects garrison there... Xianzhou is too confident, and that's going to cause them big problems.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Have you always been doing this sort of work?
+::<!--Custom String Listener: TalkSentence_502121113-->
+::'''Greyla:''' Promoting for Preservation has always been my calling. Xianzhou isn't my first stop and it won't be my last.
+::'''Greyla:''' Before Xianzhou, I visited a planet and persuaded the people there to buy a complete fortification system and made their planet an impregnable fortress.
+::'''Greyla:''' Of course, it would come at the expense of blocking out all sunlight, but that's a small price for safety.
+::'''Greyla:''' Unfortunately, it's hard for the myopic to discern the meaning of long-term benefits and necessary sacrifice, so that planet was utterly destroyed in the end.
+::'''Greyla:''' If I had insisted, perhaps they wouldn't have faced destruction. Thus, I must persuade Xianzhou to look beyond their stubborn ideals.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I didn't expect this from an Architect...
+::<!--Custom String Listener: TalkSentence_502121119-->
+::'''Greyla:''' Have you met any of the other Architects? Well, it's nothing new. Many people have realized Preservation's importance and joined.
+::'''Greyla:''' The Preservation foresaw destructive threats to the cosmos and used its majestic power to keep building the wall. Architects are just ordinary people who want to contribute to the Preservation's endeavor of preventing doom.
+::'''Greyla:''' Unlike Xianzhou, we Architects keep our eyes on the future as well as the present.
+::'''Greyla:''' You should join us if you feel the same way. I can sense Preservation's power in you. Are you one of us already?
+::'''Greyla:''' I guess we're destined to meet. Praise the Amber Lord.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Keep up the good work. I must be going now.
+::<!--Custom String Listener: TalkSentence_502121125-->
+::'''Greyla:''' All right. I've other issues to discuss with them, and I won't give up.
+::<!--Ends the current performance-->
+:'''Greyla:''' All right. I've other issues to discuss with them, and I won't give up.
+:<!--Ends the current performance-->
+:'''Greyla:''' What a circus. The higher-ups of the Sky-Faring Commission speak in riddles, and the receptionist prattles out tongue twisters.
+:'''Greyla:''' "I know you're in a hurry, but slow down," "Take it easy, worry about it later"... I'm getting kicked around every which way like a ball on the field!
+:'''Greyla:''' ...Ah, it's you. What's up? I happen to be free right now.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000087: Config/Level/NPC/W2/NPC_DefaultStory_502012101.json-->
+::'''Greyla:''' Those old short-sighted Xianzhou fogeys are really infuriating...
+::'''Greyla:''' They only see Xianzhou instead of looking at the whole cosmos. It's quite the disappointment. Xianzhou should be doing greater things.
+::'''Greyla:''' What are you looking at me for? I'll criticize Xianzhou if I want, even if I do happen to work for the Sky-Faring Commission.
+::{{DIcon|Arrow}} I'm all for that. Please continue.
+:::<!--Custom String Listener: TalkSentence_502121005-->
+:::'''Greyla:''' You're all for that? You don't even know what I'm for yet! Still, I appreciate the sentiment.
+:::'''Greyla:''' My negotiation with Xianzhou fogeys didn't go well at all.
+::{{DIcon|Arrow}} Just take it easy.
+:::<!--Custom String Listener: TalkSentence_502121008-->
+:::'''Greyla:''' Stop trying to be the peacemaker when you don't even know what I'm pushing for!
+:::'''Greyla:''' ...You'd be livid, too, if it was you talking to them.
+::{{DIcon|Arrow}} It's not wise to rock the boat with the Sky-Faring Commission!
+:::<!--Custom String Listener: TalkSentence_502121011-->
+:::'''Greyla:''' Did they send you to agitate me?
+:::'''Greyla:''' Sorry, I lost my mind there, but you'd know exactly how I feel if you got to meet those fogeys.
+::<!--Custom String Trigger: TalkSentence_502121013-->
+::<!--Custom String Listener: TalkSentence_502121013-->
+::'''Greyla:''' I'm Architect Greyla. I came to Xianzhou for the future of the cosmos.
+::'''Greyla:''' You don't look like a local, so let me tell you &mdash; you can't count on Xianzhou. Those old geezers can barely see what's in front of them, let alone that the whole cosmos is in trouble!
+::'''Greyla:''' Any party concerned with the existence of the cosmos would voluntarily respond to the call of Preservation and protect the civilizations threatened by the Antimatter Legion. However, Xianzhou ignores this duty despite possessing great power!
+::'''Greyla:''' They keep reiterating "Xianzhou has a plan," as if vague platitudes could solve problems!
+::<!--Custom String Trigger: Wait_Option_502012101_877-->
+::<!--Custom String Listener: Wait_Option_502012101_877-->
+::{{DIcon|Arrow}} So you're educating Xianzhou about what to do?
+:::<!--Custom String Listener: TalkSentence_502121018-->
+:::'''Greyla:''' The cosmos weeps, yet Xianzhou pretends not to hear. I'm just a voice for the voiceless victims.
+::{{DIcon|Arrow}} It's just Xianzhou's way of declining politely.
+:::<!--Custom String Listener: TalkSentence_502121020-->
+:::'''Greyla:''' Decline? Why would they decline Preservation?
+::{{DIcon|Arrow}} Xianzhou is truly selfish.
+:::<!--Custom String Listener: TalkSentence_502121022-->
+:::'''Greyla:''' Selfish? You are too generous. Rejecting Preservation is worse than selfish.
+::<!--Custom String Trigger: TalkSentence_502121023-->
+::<!--Custom String Listener: TalkSentence_502121023-->
+::'''Greyla:''' Are you familiar with Xianzhou's past? Throughout their long history, Xianzhou suffered crisis after crisis, but every time instead of learning from history they only became more arrogant, thinking they will always be able to protect themselves.
+::'''Greyla:''' Excuse me for getting riled up, I'm just mad at how stubborn they are. How about we talk about something else instead?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000088: Config/Level/NPC/W2/NPC_DefaultStory_502012104.json-->
+::'''Greyla:''' What a circus. The higher-ups of the Sky-Faring Commission speak in riddles, and the receptionist prattles out tongue twisters.
+::'''Greyla:''' "I know you're in a hurry, but slow down," "Take it easy, worry about it later"... I'm getting kicked around every which way like a ball on the field!
+::'''Greyla:''' ...Ah, it's you. What's up? I happen to be free right now.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Just a chat, right?
+::'''Greyla:''' Sure, though I can tell you as much about Preservation if you're interested. Or we can talk about other topics, of course.
+::<!--Custom String Trigger: Wait_Option_502012102_895-->
+::<!--Custom String Listener: Wait_Option_502012102_895-->
+::{{DIcon|Talk}} What did you see them about?
+:::<!--Custom String Listener: TalkSentence_502121103-->
+:::'''Greyla:''' You look like someone who gets around. You've seen the destructive Antimatter Legion, right? They threaten every sentient creature in the cosmos!
+:::'''Greyla:''' Xianzhou should be contributing every technology they have to the cause of Preservation. I was already being subtle, and yet they mock me!
+:::{{DIcon|Arrow}} What did you say to them?
+::::<!--Custom String Listener: TalkSentence_502121106-->
+::::'''Greyla:''' "Xianzhou has tried to cover up reality with sentiments and myths. You should face the truth and see who truly defends the cosmos."
+::::'''Greyla:''' I heard Xianzhou is cruising the cosmos for revenge against Abundance. Still seeking their revenge, in this day and age? I just don't understand that.
+::::<!--Custom String Trigger: TalkSentence_502121111-->
+::::<!--Custom String Listener: TalkSentence_502121111-->
+::::'''Greyla:''' They're too arrogant to supply the Fallow Earth technology, purchase the Architects' fortifications, or let Architects garrison there... Xianzhou is too confident, and that's going to cause them big problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Did they really mock you?
+::::<!--Custom String Listener: TalkSentence_502121109-->
+::::'''Greyla:''' That old fox Yukong actually laughed in my face! When I inquired as to what it was she found so humorous, she replied, "I just thought of something funny."
+::::'''Greyla:''' How dare she speak to me like that!
+::::<!--Custom String Trigger: TalkSentence_502121111-->
+::::<!--Custom String Listener: TalkSentence_502121111-->
+::::'''Greyla:''' They're too arrogant to supply the Fallow Earth technology, purchase the Architects' fortifications, or let Architects garrison there... Xianzhou is too confident, and that's going to cause them big problems.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you always been doing this sort of work?
+:::<!--Custom String Listener: TalkSentence_502121113-->
+:::'''Greyla:''' Promoting for Preservation has always been my calling. Xianzhou isn't my first stop and it won't be my last.
+:::'''Greyla:''' Before Xianzhou, I visited a planet and persuaded the people there to buy a complete fortification system and made their planet an impregnable fortress.
+:::'''Greyla:''' Of course, it would come at the expense of blocking out all sunlight, but that's a small price for safety.
+:::'''Greyla:''' Unfortunately, it's hard for the myopic to discern the meaning of long-term benefits and necessary sacrifice, so that planet was utterly destroyed in the end.
+:::'''Greyla:''' If I had insisted, perhaps they wouldn't have faced destruction. Thus, I must persuade Xianzhou to look beyond their stubborn ideals.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I didn't expect this from an Architect...
+:::<!--Custom String Listener: TalkSentence_502121119-->
+:::'''Greyla:''' Have you met any of the other Architects? Well, it's nothing new. Many people have realized Preservation's importance and joined.
+:::'''Greyla:''' The Preservation foresaw destructive threats to the cosmos and used its majestic power to keep building the wall. Architects are just ordinary people who want to contribute to the Preservation's endeavor of preventing doom.
+:::'''Greyla:''' Unlike Xianzhou, we Architects keep our eyes on the future as well as the present.
+:::'''Greyla:''' You should join us if you feel the same way. I can sense Preservation's power in you. Are you one of us already?
+:::'''Greyla:''' I guess we're destined to meet. Praise the Amber Lord.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Keep up the good work. I must be going now.
+:::<!--Custom String Listener: TalkSentence_502121125-->
+:::'''Greyla:''' All right. I've other issues to discuss with them, and I won't give up.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Keep up the good work. I must be going now.
+::'''Greyla:''' All right. I've other issues to discuss with them, and I won't give up.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Greyla
+|zhs  = 葛瑞菈
+|zht  = 葛瑞菈
+|ja   = グレイラ
+|ko   = 그레일라
+|es   = Greyla
+|fr   = Greyla
+|ru   = Грейла
+|th   = Greyla
+|vi   = Greyla
+|de   = Greyla
+|id   = Greyla
+|pt   = Greyla
+}}
+==Change History==
+{{Change History|TODO}}

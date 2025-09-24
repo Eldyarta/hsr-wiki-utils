@@ -24,16 +24,20 @@ export class TriggerPerformance extends BaseDialogueTask {
 	floor_id?: number
 	black_screen?: boolean
 	
+	static getPerformanceData(type: InternalTriggerPerformance['PerformanceType'], id: number) {
+		let data = performance[type][id]
+		if (type == 'D' && !data) {
+			data = performance.DS[id]
+		}
+		return data
+	}
+	
 	constructor(data: InternalTriggerPerformance) {
 		super(data)
 		this.performance_type = data.PerformanceType
 		this.performance_id = data.PerformanceID
 		
-		let performanceData = performance[this.performance_type][this.performance_id]
-		
-		if (!performanceData && this.performance_type == 'D') {
-			performanceData = performance.DS[this.performance_id]
-		}
+		let performanceData = TriggerPerformance.getPerformanceData(data.PerformanceType, data.PerformanceID)
 		
 		this.trigger_act = performanceData?.PerformancePath
 		

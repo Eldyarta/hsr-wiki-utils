@@ -1,0 +1,233 @@
+<%-- [PAGE_INFO]
+PageTitle=#Adler#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Ecology Researcher
+|image           = NPC Adler.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Supply Zone
+|relatives       = 
+}}
+'''Adler''' is an NPC on [[Herta Space Station]], located in [[Supply Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Supply Zone|npc_70_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Adler:''' Rare species of course. Those little creatures are so much more interesting than human grown-ups!
+:'''Adler:''' However... the curiosity in your eyes... I don't see that a lot in grown-ups' eyes.
+:'''Adler:''' Let me know if you have any questions. I'll tell you everything I know.
+:<!--Custom String Trigger: Wait_Option_510010104_59-->
+:<!--Custom String Listener: Wait_Option_510010104_59-->
+:{{DIcon|Talk}} What is your favorite rare species?
+::<!--Custom String Listener: TalkSentence_510010108-->
+::'''Adler:''' As a researcher, I treat every rare species equally. I don't have a preference.
+::'''Adler:''' But from my personal perspective... I'd say Wubbaboos are my favorite.
+::'''Adler:''' Although they can be mischievous sometimes, they are very logical and they value relationships a lot.
+::'''Adler:''' They are so much better than the grown-ups in the space station...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What made you study rare species?
+::<!--Custom String Listener: TalkSentence_510010113-->
+::'''Adler:''' Their ways of expression and thinking are very different from human grown-ups.
+::'''Adler:''' But their ways of handling things and the motives behind their behaviors are undeniably often more logical than that of the humans'.
+::'''Adler:''' It's probably their sense of logic that makes me want to study them.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can you understand their language?
+::<!--Custom String Listener: TalkSentence_510010117-->
+::'''Adler:''' Of course.
+::'''Adler:''' You might think I am a kid, but I understand many languages spoken by rare species!
+::'''Adler:''' Their languages are not in the same dimension as ours. They use one syllable to express many different meanings.
+::'''Adler:''' For example, Wubbaboo's short and long whines mean completely different things.
+::'''Adler:''' You can join the Department of Ecology to study it if you are interested.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I better leave you alone.
+::<!--Custom String Listener: TalkSentence_510010123-->
+::'''Adler:''' Please keep me posted if you find out anything about rare species.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Adler:''' We meet again. Did you find any new creatures recently?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Adler:''' Please keep me posted if you find out anything about rare species.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000107: Config/Level/NPC/W0/NPC_DefaultStory_500000101.json-->
+::<!--Custom String Trigger: TalkSentence_500010102-->
+::<!--Custom String Listener: TalkSentence_500010102-->
+::'''Adler:''' How strange... it was right here a minute ago... did my eyes make a mistake? It can't be.
+::<!--Custom String Trigger: Wait_Option_500010104_9-->
+::<!--Custom String Listener: Wait_Option_500010104_9-->
+::{{DIcon|Arrow}} Are you looking for something?
+:::<!--Custom String Listener: TalkSentence_500010104-->
+:::'''Adler:''' Ahhhh!
+:::'''Adler:''' Please don't sneak up behind people, especially when they are concentrating.
+:::'''Adler:''' However... I don't think I've seen you before. Are you a new researcher?
+:::'''Adler:''' Judging from your outfit, you don't look like you are a big shot from the Department of Ecology. Anyway, I better not talk about this with you.
+::{{DIcon|Arrow}} What are you talking about?
+:::<!--Custom String Listener: TalkSentence_500010109-->
+:::'''Adler:''' Of course it's about a rare organism...
+:::'''Adler:''' Hold on, who are you? I don't think I've seen you before.
+:::'''Adler:''' You don't look like you are from the Department of Ecology. Anyway, I better not talk about this with you.
+::<!--Custom String Trigger: Wait_Option_500010104_20-->
+::<!--Custom String Listener: Wait_Option_500010104_20-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000108: Config/Level/NPC/W0/NPC_DefaultStory_500000100.json-->
+::'''Adler:''' We meet again. Did you find any new creatures recently?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 300080000-->)
+:{{DIcon|undefined}} Why do you look so shady...
+::<!--Trigger PerformanceE 300080000: Config/Level/Mission/3000800/Act/Act300080000.json-->
+::'''Adler:''' Now that you've spent some time on the space station, don't you feel this place is... a little abnormal?
+::{{DIcon|Arrow}} Well, you're definitely a case in point.
+:::<!--Custom String Listener: TalkSentence_300080004-->
+:::'''Adler:''' Hey! That was very aggressive. Cut it out!
+::{{DIcon|Arrow}} More than just a little.
+:::<!--Custom String Listener: TalkSentence_300080006-->
+:::'''Adler:''' You're sharp. Seems like I found the right person for this.
+::<!--Custom String Trigger: TalkSentence_300080007-->
+::<!--Custom String Listener: TalkSentence_300080007-->
+::'''Adler:''' I've been collecting ghost stories from the space station... We have lots of Curios in the space station, and our researchers are constantly changing their research directions. When these two clash, they can result in many... odd experiments.
+::'''Adler:''' Some of the experimental results were "left behind" in the space station, and live symbiotically with the researchers in their own way...
+::'''Adler:''' I'm currently investigating the ghost stories circulating in the space station. Some of the following contents may be disturbing... So, only talk to me once you're mentally prepared!
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 300080000_Finish-->
+:{{DIcon}} What creatures do you study?
+::'''Adler:''' Rare species of course. Those little creatures are so much more interesting than human grown-ups!
+::'''Adler:''' However... the curiosity in your eyes... I don't see that a lot in grown-ups' eyes.
+::'''Adler:''' Let me know if you have any questions. I'll tell you everything I know.
+::<!--Custom String Trigger: Wait_Option_510010104_59-->
+::<!--Custom String Listener: Wait_Option_510010104_59-->
+::{{DIcon|Talk}} What is your favorite rare species?
+:::<!--Custom String Listener: TalkSentence_510010108-->
+:::'''Adler:''' As a researcher, I treat every rare species equally. I don't have a preference.
+:::'''Adler:''' But from my personal perspective... I'd say Wubbaboos are my favorite.
+:::'''Adler:''' Although they can be mischievous sometimes, they are very logical and they value relationships a lot.
+:::'''Adler:''' They are so much better than the grown-ups in the space station...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What made you study rare species?
+:::<!--Custom String Listener: TalkSentence_510010113-->
+:::'''Adler:''' Their ways of expression and thinking are very different from human grown-ups.
+:::'''Adler:''' But their ways of handling things and the motives behind their behaviors are undeniably often more logical than that of the humans'.
+:::'''Adler:''' It's probably their sense of logic that makes me want to study them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you understand their language?
+:::<!--Custom String Listener: TalkSentence_510010117-->
+:::'''Adler:''' Of course.
+:::'''Adler:''' You might think I am a kid, but I understand many languages spoken by rare species!
+:::'''Adler:''' Their languages are not in the same dimension as ours. They use one syllable to express many different meanings.
+:::'''Adler:''' For example, Wubbaboo's short and long whines mean completely different things.
+:::'''Adler:''' You can join the Department of Ecology to study it if you are interested.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I better leave you alone.
+:::<!--Custom String Listener: TalkSentence_510010123-->
+:::'''Adler:''' Please keep me posted if you find out anything about rare species.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I better leave you alone.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Adler:''' Please keep me posted if you find out anything about rare species.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_500010113)
+:<!--Custom String Listener: TalkSentence_500010113-->
+::'''Adler:''' Rare species of course. Those little creatures are so much more interesting than human grown-ups!
+::'''Adler:''' However... the curiosity in your eyes... I don't see that a lot in grown-ups' eyes.
+::'''Adler:''' I am Adler, a researcher from the Department of Ecology. Ask me if you have any questions. I'll answer anything I know.
+::<!--Custom String Trigger: Wait_Option_500010104_26-->
+::<!--Custom String Listener: Wait_Option_500010104_26-->
+::{{DIcon|Talk}} What is your favorite rare species?
+:::<!--Custom String Listener: TalkSentence_500010117-->
+:::'''Adler:''' As a researcher, I treat every rare species equally. I don't have a preference.
+:::'''Adler:''' But from my personal perspective... I'd say Wubbaboos are my favorite.
+:::'''Adler:''' Although they can be mischievous sometimes, they are very logical and they value relationships a lot.
+:::'''Adler:''' They are so much better than the grown-ups in the space station...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What made you study rare species?
+:::<!--Custom String Listener: TalkSentence_500010122-->
+:::'''Adler:''' Their ways of expression and thinking are very different from human grown-ups.
+:::'''Adler:''' But their ways of handling things and the motives behind their behaviors are undeniably often more logical than that of the humans'.
+:::'''Adler:''' It's probably their sense of logic that makes me want to study them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you understand their language?
+:::<!--Custom String Listener: TalkSentence_500010126-->
+:::'''Adler:''' Of course.
+:::'''Adler:''' You might think I am a kid, but I understand many languages spoken by rare species!
+:::'''Adler:''' Their languages are not in the same dimension as ours. They use one syllable to express many different meanings.
+:::'''Adler:''' For example, Wubbaboo's short and long whines mean completely different things.
+:::'''Adler:''' You can join the Department of Ecology to study it if you are interested.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: TalkSentence_500010132-->
+:::'''Adler:''' Please keep me posted if you find out anything about rare species.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Adler
+|zhs  = 阿德勒
+|zht  = 阿德勒
+|ja   = アドラー
+|ko   = 아들러
+|es   = Adler
+|fr   = Adler
+|ru   = Адлер
+|th   = Adler
+|vi   = Adler
+|de   = Adler
+|id   = Adler
+|pt   = Adler
+}}
+==Change History==
+{{Change History|TODO}}

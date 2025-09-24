@@ -1,0 +1,153 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Supply Zone
+|relatives       = 
+}}
+'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord)''' is an NPC on [[Herta Space Station]], located in [[Supply Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Supply Zone|npc_136_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501031502: Config/Level/Mission/5010315/Act/Act501031502.json-->
+:;(If {{F|MissionCV-8014106-undefined}} is undefined 1)
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink!
+:::Ever since you decided to return (Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord), the Trotter's greatest joy at the space station has been waiting for your visits. Perhaps, you haven't seen each other in some time?
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink oink... oink, oink oink!
+:;(If {{F|MissionCV-8014106-undefined}} is not undefined 1)
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink?
+:::Ever since you decided to keep (Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord), this Trotter's temperament has become even more unrestricted. It roams as it pleases between the space station and Express, as if specifically following your footsteps.
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink oink... oink, oink oink!
+:::Although it's just a bunch of data, (Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord) really does seem fond of you. Perhaps it even dreams of electric sheep.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501031504: Config/Level/Mission/5010315/Act/Act501031504.json-->
+::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink!
+::The Trotter is trying to get your attention. It does not want to be ignored.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Why not play with it a little?
+::<!--Trigger PerformanceE 501031508: Config/Level/Mission/5010315/Act/Act501031508.json-->
+::The Trotter is wriggling about. It seems to be waiting for you to make a move.
+::<!--Custom String Trigger: Wait_Option_501031505_53-->
+::<!--Custom String Listener: Wait_Option_501031505_53-->
+::{{DIcon|Talk}} (Pat it on the head)
+:::<!--Custom String Listener: TalkSentence_501031519-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink~
+:::The Trotter lets out a squeal of excitement, scrunching up its nose in response. It's very happy.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} (Squeeze its nose)
+:::<!--Custom String Listener: TalkSentence_501031522-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink... oink oink...
+:::The Trotter's nose is extremely sensitive. Something seems to be brewing...
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' OINK!
+:::It is a gigantic sneeze... Thankfully Aether Spirits don't have snot.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} (Tug on its ear)
+:::<!--Custom String Listener: TalkSentence_501031527-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink~
+:::The Trotter's talent for escape is reflected in every part of its body. You try to catch its dexterous ears, but your hand is just not fast enough.
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink~
+:::Did you hear that? That's the oink of victory.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} (Pat its butt)
+:::<!--Custom String Listener: TalkSentence_501031532-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink! Oink...
+:::There is a saying across the cosmos: "One must never touch a Trotter's butt," no matter how cute or small it is.
+:::The Trotter is very displeased with what you have done. It deserves respect, too.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} (That's enough playing)
+:::<!--Custom String Listener: TalkSentence_501031536-->
+:::The Trotter still looks full of energy, but people can't afford to put all of their limited energy into endless play sessions with Trotters.
+:::<!--Ends the current performance-->
+:{{DIcon}} Speak to the Trotter.
+::<!--Trigger PerformanceE 501031509: Config/Level/Mission/5010315/Act/Act501031509.json-->
+::The Trotter tilts its head, as if waiting for you to speak.
+::<!--Custom String Trigger: Wait_Option_501031506_85-->
+::<!--Custom String Listener: Wait_Option_501031506_85-->
+::{{DIcon|Talk}} Good piggy~
+:::<!--Custom String Listener: TalkSentence_501031544-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink! Oink...
+:::The Trotter does not like this name at all. It is not a pig.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} We're friends forever.
+:::<!--Custom String Listener: TalkSentence_501031547-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink~ Oink oink...
+:::The Trotter seems touched by your affection. It seems very affectionate and obedient.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} (Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord), charge!
+:::<!--Custom String Listener: TalkSentence_501031550-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink...
+:::The Trotter does not listen to your command. Maybe it could not find a target, or maybe it's just showing you some attitude.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Return to your coin, (Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord)!
+:::<!--Custom String Listener: TalkSentence_501031553-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink...
+:::The Trotter does not want to obey this order. Life always finds a way...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} (Give up trying to reason with a pig)
+:::<!--Custom String Listener: TalkSentence_501031556-->
+:::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink!
+:::The Trotter is looking at you expectantly, but people can't spend all their time talking to their animal friends.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let's play with it again another time.
+::<!--Trigger PerformanceE 501031507: Config/Level/Mission/5010315/Act/Act501031507.json-->
+::'''(Warp Trotter/Trotter/Bubbles/Puffball/Ivory Menace/Chunky Chops/Turbo Trotter/Trotterlord):''' Oink, oink oink!
+::The Trotter is trying to get your attention. It's working so hard, and you're cold as ice.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Trotter
+|zhs  = 扑满
+|zht  = 撲滿
+|ja   = プーマン
+|ko   = 저금통
+|es   = Chanchito
+|fr   = Magoret
+|ru   = Свинка-копилка
+|th   = Trotter
+|vi   = Heo Đất
+|de   = Sparschwein
+|id   = Treasure Trotter
+|pt   = Cofrinho
+}}
+==Change History==
+{{Change History|TODO}}

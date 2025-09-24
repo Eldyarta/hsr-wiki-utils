@@ -1,0 +1,164 @@
+<%-- [PAGE_INFO]
+PageTitle=#Seymour#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Seymour.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Seymour''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_168_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 401550405-->)
+::<!--Trigger PerformanceE 401550401: Config/Level/Mission/4015504/Act/Act401550401.json-->
+::'''???:''' Oh! You've arrived.
+::'''???:''' Hello, I am the "Main Think-Tank" for the Hexanexus secret society.
+:<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 401550405,
+	"IsShowConsumeFinishTips": true,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 401550238,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 401550239,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Wait_Option_401550401_11"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(Otherwise, if {{cx}}<!--SubMission Started: 401550501--> or {{cx}}<!--Hidden Mission ID 4015505--> has been completed)
+::<!--Trigger PerformanceE 401550402: Config/Level/Mission/4015504/Act/Act401550402.json-->
+::'''Seymour:''' Hi, this is Department IV of the "Hexanexus: Remake" Developers. How may I help you?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I'm here to have a chat with you...
+:::'''Seymour:''' What do you want to talk about?
+:::<!--Custom String Trigger: Wait_Option_401550404_88-->
+:::<!--Custom String Listener: Wait_Option_401550404_88-->
+:::{{DIcon|Talk}} How do you get arrested and sent to jail for developing games?
+::::<!--Custom String Listener: TalkSentence_401550343-->
+::::'''Seymour:''' Something happened to Hexanexus... It's a little hard for me to explain it on my own...
+::::'''Seymour:''' I found the culprits responsible for the Hexanexus private server and punished them through violent means.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Can you also develop games behind bars?
+::::<!--Custom String Listener: TalkSentence_401550346-->
+::::'''Seymour:''' Why not? Whether in the workplace of the Artisanship Commission, the hospital ward of the Alchemy Commission, or the cell of the Ten-Lords Commission, the environment for game development is similar.
+::::'''Seymour:''' In fact, it's oddly liberating to develop games in prison. No more endless meetings or overtime. I have the freedom to develop at my own pace, taking breaks whenever necessary, and being free from the relentless pressure of meeting deadlines.
+::::'''Seymour:''' Of course, the downside is evident &mdash; I'm on the verge of becoming socially withdrawn.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why a "Remake"?
+::::<!--Custom String Listener: TalkSentence_401550350-->
+::::'''Seymour:''' Taking the allure of the "beautifully shaped cube" as an opportunity, many gamers have recently become interested in Hexanexus.
+::::'''Seymour:''' To acquaint gamers unfamiliar with Hexanexus with the series' origin, we decided to remake and release the game as a cornerstone of the series' first anniversary celebrations.
+::::'''Seymour:''' After the remake, we considered whether to use the terms "Remake," "Rebirth," "Remastered," "Return," or "Recall" in our subheading...
+::::'''Seymour:''' Finally, we decided to take the simplest approach and chose "Remake."
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Did the Ten-Lords Commission approve of you leaving Hexanexus lying around?
+::::<!--Custom String Listener: TalkSentence_401550355-->
+::::'''Seymour:''' I'm also surprised. After all, it's The Shackling Prison.
+::::'''Seymour:''' However, Judge Xueyi suggested that strategically placing this Hexanexus on the side of the road could temporarily incapacitate the fugitive for up to half an hour, significantly lowering the chances of successful escape from The Shackling Prison. It's certainly worth a try.
+::::'''Seymour:''' So we came to a consensus. I would provide the puzzles for the Hexanexus, and they could place them in The Shackling Prison for me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: TalkSentence_401550359-->
+::::'''Seymour:''' Just remember that "Hexanexus: Remake" is the world's number one game! I should get to work now.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I don't have any other questions.
+:::'''Seymour:''' Just remember that Hexanexus: Remake is the world's number one game! I should get to work now.
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 401550502-->)
+::<!--Trigger PerformanceE 401550406: Config/Level/Mission/4015504/Act/Act401550406.json-->
+;(Unused &mdash; TalkSentence_401550408)
+:<!--Custom String Listener: TalkSentence_401550408-->
+::'''Seymour:''' Fret not. I've discussed this with the other members of the Hex Club. Our "Hexanexus: Remake" will soon be accessible on the Skysplitter platform as a cross-platform game! It's set to be a completely revamped version, promising gamers an entirely fresh experience.
+::{{DIcon|Arrow}} You people truly have connections everywhere.
+:::<!--Custom String Listener: TalkSentence_401550411-->
+:::'''Seymour:''' Unless you're not keen to play, there's simply no reason you can't play it.
+::{{DIcon|Arrow}} I'd rather have a clean Skysplitter.
+:::<!--Custom String Listener: TalkSentence_401550412-->
+:::'''Seymour:''' Our Hexanexus are sterilized and treated with anti-virus, so please do not worry.
+::<!--Custom String Trigger: TalkSentence_401550415-->
+::<!--Custom String Listener: TalkSentence_401550415-->
+::'''Seymour:''' That's all. Stay tuned!
+::<!--Custom String Trigger: ConsumeItem_4015504_2-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Erinys#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Kremnos Registration Officer
+|image           = NPC Erinys.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Bloodbathed Battlefront" Castrum Kremnos
+|relatives       = 
+}}
+'''Erinys''' is an NPC on [[Amphoreus]], located in [["Bloodbathed Battlefront" Castrum Kremnos]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Bloodbathed Battlefront" Castrum Kremnos|npc_201_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504032001: Config/Level/Mission/5040320/Act/Act504032001.json-->
+::'''Erinys:''' Didn't I already mention it? The trial for the previous batch of gladiators isn't over. You'll have to wait.
+::'''Erinys:''' And this is a trial for groups of three. Where are your companions?
+::'''Irate Gladiator:''' Hah! I've been training for twenty years as a recluse, and have long forgotten how to make friends. Now you're making me find two like-minded comrades? That's deliberate sabotage!
+::'''Erinys:''' On the battlefield, warriors who can work together are far more useful than solitary brutes. Go back. You are not worthy of sacrificing yourself under the radiance of Kremnos.
+::'''Irate Gladiator:''' None will wrest my glory from me! Since you stand in my way, prove yourself with your blade!
+::A burning fire boils beneath the skin of this registration officer. She is about to explode.
+::{{DIcon|Arrow}} Miss, allow me to assist!
+:::<!--Custom String Listener: TalkSentence_504032009-->
+:::'''Erinys:''' No need, I will handle it myself. He has to be taught a lesson.
+:::<!--Custom String Trigger: TalkSentence_504032012-->
+::{{DIcon|Arrow}} You go, bro! Stay sharp!
+::{{DIcon|Arrow}} (Quietly sidle away...)
+::<!--Custom String Listener: TalkSentence_504032012-->
+::'''Erinys:''' Tsk, pathetic! All that hot air about defending glory &mdash; he couldn't even muster enough courage to get up and fight again. One with such shallow resolve dares challenge a priest of Nikador?
+::'''Erinys:''' ...Are you here for the trial too? Not now, and I doubt I need to repeat myself.
+::{{DIcon|Arrow}} We've met before. Do you not remember?
+:::<!--Custom String Listener: TalkSentence_504032016-->
+:::'''Erinys:''' There are many participants. I can't remember every face. If you say we've met, so be it.
+::{{DIcon|Arrow}} I'm not joining. Just looking around.
+:::<!--Custom String Listener: TalkSentence_504032018-->
+:::'''Erinys:''' Too cowardly to offer your life for Nikador? Understandable. You look young. There's no need to hurtle to your death in search of glory.
+::{{DIcon|Arrow}} Stay here and don't wander around.
+:::<!--Custom String Listener: TalkSentence_504032020-->
+:::'''Erinys:''' ...I don't understand. As Nikador's priest in charge of festivities, I will of course remain here and fulfill my duty.
+::<!--Custom String Trigger: TalkSentence_504032021-->
+::<!--Custom String Listener: TalkSentence_504032021-->
+::'''Erinys:''' {{Rubi|The Titan that protects us|Nikador}} abhors peace. Only war will win their favor. And offering one's life in battle is the inevitable ending for every warrior.
+::'''Erinys:''' Should doubt arise on your path to pursuing strife, you may seek me out, and I will help you sever it.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504032002: Config/Level/Mission/5040320/Act/Act504032002.json-->
+::'''Erinys:''' Only a heroic soul may stand by Nikador's side. Warriors, give your bodies, and strive to become heroes!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I have some questions...
+:::'''Erinys:''' Doubt is the nemesis of all warriors. I will help you break it.
+:::<!--Custom String Trigger: Wait_Option_504032003_54-->
+:::<!--Custom String Listener: Wait_Option_504032003_54-->
+:::{{DIcon|Talk}} What is a priest of Nikador like?
+::::<!--Custom String Listener: TalkSentence_504032204-->
+::::'''Erinys:''' Nikador is unlike those cowardly deities. It demands tribute not in the form of flowers, soil, or food, but fresh blood flowing from strife.
+::::'''Erinys:''' But strife does not always mean death. Even a plain old brawl draws blood. All of Nikador's priests are master grapplers, worshiping our god with the clashing of our flesh.
+::::'''Erinys:''' You must know that armies pray for Nikador's blessing before they deploy. It is not a ceremony of baths in fragrant oils and incense, nor is it solemn prayers from texts, but a melee of chaos...
+::::'''Erinys:''' Fifty priests, lined up in formation, wrestle and punch, each strike drawing blood. Soldiers raise their hands high, cupped with honey brew mixed in blood. Those interested will take to the ring as well. Accidental deaths in fights are commonplace.
+::::'''Erinys:''' I have survived three full cycles of this melee... For that gladiator to even dare challenge me is utter idiocy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you think of the festival?
+::::<!--Custom String Listener: TalkSentence_504032210-->
+::::'''Erinys:''' I am a priest of Nikador, and naturally uphold our king's decision. I have also partaken in festivals of other Titans. They are never as bustling as ours &mdash; more akin to a woman's embroidery than a festival.
+::::'''Erinys:''' It is not surprising. Okhemans have never excelled at competitive sports, only immersing themselves in sculpting, dance and poetry, though Kremnoans aren't too shabby at these either.
+::::'''Erinys:''' Janus' disciples prefer a game called Cyclicality Chess, throwing wooden sticks to move chess pieces. They say that chess can elevate oneself and cultivate one's character... How banal.
+::::'''Erinys:''' Kremnoans advocate games where people fight over balls, wrestling, and obstacle races. These sports can hone our technique and summon the blood in our bodies to the fore, allowing us to become faster and stronger.
+::::'''Erinys:''' After all, only a heroic soul can stand alongside Nikador. The weak and cowardly will only be taken away by Thanatos.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have no further questions.
+::::<!--Custom String Listener: TalkSentence_lastoption-->
+::::'''Erinys:''' Only by relinquishing all doubt can we best devote ourselves to Nikador.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Let us speak again when chance allows.
+:::'''Erinys:''' Get ready. Nikador's summoning may descend at any time.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Erinys
+|zhs  = 厄里倪厄斯
+|zht  = 厄里倪厄斯
+|ja   = エリニュス
+|ko   = 에리니스
+|es   = Erinis
+|fr   = Érinyes
+|ru   = Эриния
+|th   = Erinys
+|vi   = Erinys
+|de   = Erinys
+|id   = Erinys
+|pt   = Erinys
+}}
+==Change History==
+{{Change History|TODO}}

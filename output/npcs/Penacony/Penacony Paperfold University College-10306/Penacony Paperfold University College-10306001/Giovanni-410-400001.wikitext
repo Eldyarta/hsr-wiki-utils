@@ -1,0 +1,104 @@
+<%-- [PAGE_INFO]
+PageTitle=#Giovanni#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Giovanni.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Penacony Paperfold University College
+|relatives       = 
+}}
+'''Giovanni''' is an NPC on [[Penacony]], located in [[Penacony Paperfold University College]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Penacony Paperfold University College|npc_410_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 803310104: Config/Level/Mission/8033101/Act/Act803310104.json-->
+:'''Giovanni:''' Mmm? Any more questions?
+:<!--Custom String Trigger: Wait_Option_803310104_185-->
+:<!--Custom String Listener: Wait_Option_803310104_185-->
+:{{DIcon|Talk}} Could you tell me about the game?
+::<!--Custom String Listener: TalkSentence_803310304-->
+::'''Giovanni:''' Let me think... In the test version, the story goes like this: "The little hero bids farewell to their hometown and embarks on an endless adventure across the galaxy, seeking the legendary strongest weapon &mdash; the Bat."
+::'''Giovanni:''' "Under the cunning tricks of the Duke, the righteous Baseballer is caught off guard and falls into a black hole that connects to countless unknown worlds."
+::'''Giovanni:''' And that's where the adventure begins &mdash; "In the black hole, our lucky hero, instead of perishing, discovers the true location of the Ultimate Bat &mdash; it's in the hands of the Black Cloak Demon King!"
+::'''Giovanni:''' "Thus, the brave Baseballer decides to follow the Demon King's trail and challenge them."
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Which of the arcade machines is which again?
+::<!--Custom String Listener: TalkSentence_803310309-->
+:<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10306_F10306001_G412",
+	"AnchorName": "Anchor1"
+}</pre>
+::'''Giovanni:''' If you want to experience the latest "Legend of the Galactic Baseballer: Demon King," look for this one.
+:<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10306_F10306001_G412",
+	"AnchorName": "Anchor2"
+}</pre>
+::'''Giovanni:''' If you want to relive the previous "Legend of the Galactic Baseballer: Departure," use this one.
+:<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10306_F10306001_G412",
+	"AnchorName": "Anchor2",
+	"IsActive": false
+}</pre>
+::'''Giovanni:''' So, enjoy your gaming~
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all I wanted to know.
+::<!--Custom String Listener: TalkSentence_803310313-->
+::'''Giovanni:''' Alright, my projection will be here. If you have any questions, feel free to come find me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Giovanni
+|zhs  = 乔瓦尼
+|zht  = 喬瓦尼
+|ja   = ジョヴァンニ
+|ko   = 지오반니
+|es   = Giovanni
+|fr   = Giovanni
+|ru   = Джованни
+|th   = Giovanni
+|vi   = Giovanni
+|de   = Giovanni
+|id   = Giovanni
+|pt   = Giovanni
+}}
+==Change History==
+{{Change History|TODO}}

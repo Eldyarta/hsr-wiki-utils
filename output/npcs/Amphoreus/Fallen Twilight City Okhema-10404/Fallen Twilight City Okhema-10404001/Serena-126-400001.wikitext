@@ -1,0 +1,122 @@
+<%-- [PAGE_INFO]
+PageTitle=#Serena#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Orphan
+|image           = NPC Serena.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Fallen Twilight City" Okhema
+|relatives       = 
+}}
+'''Serena''' is an NPC on [[Amphoreus]], located in [["Fallen Twilight City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Fallen Twilight City" Okhema|npc_126_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{Mission|The Girl, the Coins, and Homeland|showChapter=0}} has been completed and {{cx}}<!--performance 504086001 has been seen-->)
+::<!--Trigger PerformanceE 504086001: Config/Level/Mission/5040860/Act/Act504086001.json-->
+:;(If {{F|MissionCV-5000408-undefined}} is undefined 1)
+:::'''Serena:''' Good day, {{MC|f=miss|m=mister}}! I've been training with Uncle Dorian lately. While he protects the holy city, I'll guard everyone in my own way &mdash; even if I'm small!
+:;(If {{F|MissionCV-5000408-undefined}} is not undefined 1)
+::;(If {{F|MissionCV-5000408-undefined}} is undefined 2)
+::::'''Serena:''' Oh, it's you, {{MC|f=Miss|m=Mister}}... I've learned many new words recently.
+::::'''Serena:''' Ctesiphona says literacy improves one's chances of becoming a High Priestess in the afterlife to interpret the prophecy... Though I don't see why edicts need interpreting, I'll still try my best!
+::;(If {{F|MissionCV-5000408-undefined}} is not undefined 2)
+:::;(If {{F|MissionCV-5000408-undefined}} is undefined 3)
+:::::'''Serena:''' Ah, {{MC|f=miss|m=mister}}! I've studied sewing with Aphrea for ages, but it never quite suited me.
+:::::'''Serena:''' So I often sneak out to do other things. Luckily, Aphrea's lenient, especially after learning about my time at Dawncloud...
+:::;(If {{F|MissionCV-5000408-undefined}} is not undefined 3)
+:::::'''Serena:''' {{MC|f=Miss|m=Mister}}, do you like the sound of the Water Lyre?
+:::::'''Serena:''' Misia's performance always reminds me of the day I first encountered Kephale. If only I could turn this moving emotion into a song...
+::<!--Custom String Trigger: Wait_Option_504086002_21-->
+::<!--Custom String Listener: Wait_Option_504086002_21-->
+;(If {{Mission|The Girl, the Coins, and Homeland|showChapter=0}} has not been completed and {{cx}}<!--performance 504086001 has not been seen-->)
+::<!--Trigger PerformanceE 504086002: Config/Level/Mission/5040860/Act/Act504086002.json-->
+::'''Serena:''' {{MC|f=Miss|m=Mister}}, you're here. I don't wander as a refugee anymore – Okhema's my final home. I'll protect it with my own strength.
+::<!--Custom String Trigger: Wait_Option_504086002_21-->
+::<!--Custom String Listener: Wait_Option_504086002_21-->
+::<!--Custom String Listener: Wait_Option_504086002_21-->
+:{{DIcon|Talk}} Where are your two little companions?
+::<!--Custom String Listener: TalkSentence_504086103-->
+::'''Serena:''' You remember them! Yason and Lathena – both rascals behave properly now!
+::'''Serena:''' One stopped worrying about meteor strikes, the other runs around the safe zone helping refugees.
+::'''Serena:''' All thanks to Kephale's prophecy we heard at Dawncloud, right?
+::{{DIcon|Arrow}} Shh&mdash; let's keep this secret together.
+::<!--Custom String Listener: TalkSentence_504086107-->
+::'''Serena:''' Shh&mdash; Of course! I'll whisper it only to you: now every adult and child at the market believes I truly heard the sky father's prophecy.
+::'''Serena:''' When they ask "Serena, Serena, when will this end? What should we do?" I say: "Wait peacefully – Kephale will answer our faith."
+::'''Serena:''' That's not lying, is it? Pinky promise – we'll protect the tiny spark of hope in everyone's heart.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Hello, little priestess of Kephale!
+::<!--Custom String Listener: TalkSentence_504086111-->
+::'''Serena:''' Hehe, {{MC|f=miss|m=mister}}, that title makes me blush!
+::'''Serena:''' Look, this is the most open place in the whole market. Many people who come to seek shelter in Okhema pass through here. Including... me, who came here from Icatus.
+::'''Serena:''' But now that the apocalypse is coming, many more people want to leave here and seek shelter in other cities.
+::'''Serena:''' I stand here to remind them – fleeing has no end. Better to stay peacefully in the holy city.
+::'''Serena:''' Okhema is the last home we'll protect... and will ultimately shelter us. It must be.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you think of the "Era Nova" now?
+::<!--Custom String Listener: TalkSentence_504086117-->
+::'''Serena:''' {{MC|f=Miss|m=Mister}}, you worry I think "Era Nova" is just kind guards and you weaving comforting tales for children like me?
+::'''Serena:''' On the contrary – I've realized Kephale's protection never ceased, though it no longer speaks to us.
+::'''Serena:''' Without destiny's mercy, I'd have died in Icatus' black tide. Never reached the holy city, met kind caretakers, nor dared dream of visiting Dawncloud.
+::'''Serena:''' Even hearing the prophecy was sky father's mercy – letting me cradle hope and pass it onward...
+::'''Serena:''' So don't worry! Maybe tomorrow we'll wake to see the sky relit.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Keep it up, smart one.
+::<!--Custom String Listener: TalkSentence_504086123-->
+::'''Serena:''' I will – I'm Serena, blessed by Kephale!
+::'''Serena:''' {{MC|f=Miss|m=Mister}}, let's meet again in the new world!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Serena
+|zhs  = 希瑞雅
+|zht  = 希瑞雅
+|ja   = セレナ
+|ko   = 세레나
+|es   = Serena
+|fr   = Séréna
+|ru   = Серена
+|th   = Serena
+|vi   = Serena
+|de   = Serena
+|id   = Serena
+|pt   = Serena
+}}
+==Change History==
+{{Change History|TODO}}

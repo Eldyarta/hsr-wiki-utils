@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Leonard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Maintenance Staff
+|image           = NPC Leonard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Leonard''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_58_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 800010203,
+		"Type": "submission_state_equal",
+		"Param1": 800010203,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 800010203: Config/Level/Mission/8000102/Act/Act800010203.json-->
+:'''Leonard:''' This computer I have here. Take a look at it and you'll see what I mean.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800010218-->
+<pre>
+[
+	{
+		"ID": 800010205,
+		"Type": "submission_state_equal",
+		"Param1": 800010205,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 800010205: Config/Level/Mission/8000102/Act/Act800010205.json-->
+:'''Leonard:''' What do you think? Do you understand what's going on now?
+:{{DIcon|Arrow}} Piece of cake.
+::<!--Custom String Listener: TalkSentence_800090404-->
+::'''Leonard:''' Um. After all, as she'd put it: This is like a tutorial.
+:{{DIcon|Arrow}} Hard as diamonds.
+::<!--Custom String Listener: TalkSentence_800090406-->
+::'''Leonard:''' Uh... really? That's okay. According to her, it's a multiplayer game. With everyone working together, we'll find a way...
+:{{DIcon|Arrow}} It's like playing a game.
+::<!--Custom String Listener: TalkSentence_800090408-->
+::'''Leonard:''' To be precise, we are the ones playing a game... Even though we don't know what the creator's intentions are.
+:<!--Custom String Trigger: TalkSentence_800090409-->
+:<!--Custom String Listener: TalkSentence_800090409-->
+:'''Leonard:''' It's just as you've seen... One massive taunt. She's developed a game for the entire space station, turning the monitoring room into an arcade.
+:'''Leonard:''' What's her purpose? Buying more time... Or a misdirection? I don't know, who even understands the motivations of a hacker...
+:'''Leonard:''' Anyway, I'll just be cooped up in here trying to fix this problem. Give it a go just like she said if you're interested. Maybe you can beat the game? Gawd, another error!?
+----
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_800010225-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 800010203
+	},
+	{
+		"Type": "SubMission",
+		"ID": 800010205
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 800010203-->)
+:{{DIcon}} Under development. Stay tuned!
+::<!--Trigger PerformanceE 800010203: Config/Level/Mission/8000102/Act/Act800010203.json-->
+::'''Leonard:''' This computer I have here. Take a look at it and you'll see what I mean.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800010218-->
+;(If {{cx}}<!--SubMission Started: 800010205--> and {{cx}}<!--SubMission Started: 800010203-->)
+:{{DIcon|undefined}} Under development. Stay tuned!
+::<!--Trigger PerformanceE 800010205: Config/Level/Mission/8000102/Act/Act800010205.json-->
+::'''Leonard:''' What do you think? Do you understand what's going on now?
+::{{DIcon|Arrow}} Piece of cake.
+:::<!--Custom String Listener: TalkSentence_800090404-->
+:::'''Leonard:''' Um. After all, as she'd put it: This is like a tutorial.
+::{{DIcon|Arrow}} Hard as diamonds.
+:::<!--Custom String Listener: TalkSentence_800090406-->
+:::'''Leonard:''' Uh... really? That's okay. According to her, it's a multiplayer game. With everyone working together, we'll find a way...
+::{{DIcon|Arrow}} It's like playing a game.
+:::<!--Custom String Listener: TalkSentence_800090408-->
+:::'''Leonard:''' To be precise, we are the ones playing a game... Even though we don't know what the creator's intentions are.
+::<!--Custom String Trigger: TalkSentence_800090409-->
+::<!--Custom String Listener: TalkSentence_800090409-->
+::'''Leonard:''' It's just as you've seen... One massive taunt. She's developed a game for the entire space station, turning the monitoring room into an arcade.
+::'''Leonard:''' What's her purpose? Buying more time... Or a misdirection? I don't know, who even understands the motivations of a hacker...
+::'''Leonard:''' Anyway, I'll just be cooped up in here trying to fix this problem. Give it a go just like she said if you're interested. Maybe you can beat the game? Gawd, another error!?
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800010225-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maintenance Engineer
+|zhs  = 维修工程师
+|zht  = 維修工程師
+|ja   = メンテナンスエンジニア
+|ko   = 수리 엔지니어
+|es   = Ingeniero de mantenimiento
+|fr   = Ingénieur de maintenance
+|ru   = Инженер по техническому обслуживанию
+|th   = วิศวกรซ่อมบำรุง
+|vi   = Kỹ Sư Sửa Chữa
+|de   = Wartungstechniker
+|id   = Insinyur Pemeliharaan
+|pt   = Engenheiro de Manutenção
+}}
+==Change History==
+{{Change History|TODO}}

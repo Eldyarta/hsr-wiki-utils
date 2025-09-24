@@ -1,0 +1,570 @@
+<%-- [PAGE_INFO]
+PageTitle=#Furdo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Roaming Judge
+|image           = NPC Furdo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Furdo''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301020303,
+		"Type": "submission_state_equal",
+		"Param1": 301020303,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301020303: Config/Level/Mission/3010201/Act/Act301020303.json-->
+:'''Furdo:''' Wallace? Who is that? Is he a citizen who came to me for legal advice before? With all due respect, I need to see so many people every day... How could I remember each of their names?
+:{{DIcon|Arrow}} He's a Limestein.
+::<!--Custom String Listener: TalkSentence_301020334-->
+::'''Furdo:''' Limestein... Oh, that famous noble family? I think I've heard quite a bit about his deeds.
+::'''Furdo:''' So? What's that got to do with me?
+:{{DIcon|Arrow}} He's rich...
+::<!--Custom String Listener: TalkSentence_301020337-->
+::'''Furdo:''' Uh... so what? What does it have to do with me?
+:<!--Custom String Trigger: Wait_Option_301020303_236-->
+:<!--Custom String Listener: Wait_Option_301020303_236-->
+:{{DIcon|Arrow}} Look at this photo.
+:<!--Custom String Listener: TalkSentence_301020339-->
+:'''Furdo:''' Photo? Why should I look at this photo? You are a bit illogical. And acting without logic is the deadliest thing for us who study law.
+:'''Furdo:''' So, is that Wallace? He's just average-looking, but that car of his does seem pretty nice.
+:'''Furdo:''' Oh, I know what he wants from me! He needs professional legal advice, doesn't he? Tell me, is it about a car insurance contract dispute, or perhaps a traffic accident settlement?
+:{{DIcon|Arrow}} He just wants to be friends with you...
+:{{DIcon|Arrow}} Can't you think of something less dreary?
+:<!--Custom String Listener: TalkSentence_301020344-->
+:'''Furdo:''' So... there is no legal trouble, and this man just wants to be my friend?
+:'''Furdo:''' This is strange and suspicious. I can't understand Wallace's motives... That's not a good sign!
+:'''Furdo:''' Please tell Wallace that I'm sorry, but I can't be his friend. As a judge, I must maintain a good reputation and should never step into any gray area...
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301020303-->
+:<!--Custom String Trigger: Wait_Option_5010272_23-->
+:<!--Custom String Listener: Wait_Option_5010272_23-->
+:{{DIcon|Talk}} You seem upset.
+::<!--Custom String Listener: TalkSentence_501027213-->
+::'''Furdo:''' Huh? Is it that obvious?
+::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+::<!--Custom String Trigger: Wait_Option_5010272_27-->
+::<!--Custom String Listener: Wait_Option_5010272_27-->
+::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+::<!--Custom String Listener: TalkSentence_501027216-->
+::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+::<!--Custom String Trigger: Wait_Option_5010272_35-->
+::<!--Custom String Listener: Wait_Option_5010272_35-->
+::{{DIcon|Arrow}} Wow. You have a hard job.
+:::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+:::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What kind of cases do you consider important?
+::<!--Custom String Listener: TalkSentence_501027225-->
+::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100004305,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Furdo:''' I've got a big case on my hands! It's a shame I'll never be the one to try the case...
+:'''Furdo:''' I guess more specifically, I should say that there's no way this case can be tried... Even Lady Bronya herself would not be able to.
+:{{DIcon|Arrow}} What's this case you're talking about?
+:{{DIcon|Arrow}} Even Bronya can't handle it?
+:<!--Custom String Listener: TalkSentence_501027235-->
+:'''Furdo:''' Yeah. Former Supreme Guardian Cocolia... passed during the Fragmentum disturbance that happened north of Belobog. Her daughter Bronya took over her position after that.
+:'''Furdo:''' Lady Bronya stated that Cocolia went to the source of the Fragmentum and sacrificed herself to protect Belobog... But that's just what she is saying. Who knows what actually happened? There were no other witnesses after all...
+:'''Furdo:''' ...Hmph. Then again, that all has nothing to do with me. Change is opportunity. All I have to do now is take hold of this opportunity and find a way to get myself seated at the court... I don't need to keep arguing with those old hags.
+:{{DIcon|Arrow}} Here's to your success.
+::<!--Custom String Listener: TalkSentence_501027239-->
+::'''Furdo:''' Hopefully your words will bring me good luck... But I think my chances are not particularly good. Maybe Alexandra Plaza is just where I belong...
+:{{DIcon|Arrow}} You don't stand a chance.
+::<!--Custom String Listener: TalkSentence_501027241-->
+::'''Furdo:''' You're right. There's no way it'll work out. Maybe Alexandra Plaza is just where I belong...
+:{{DIcon|Arrow}} Have you thought about being a legal adviser to the Supreme Guardian?
+::<!--Custom String Listener: TalkSentence_501027243-->
+::'''Furdo:''' ...Are you out of your mind!? Me? No way. The law is sacred. A small judge like me isn't worthy of a role like that...
+::'''Furdo:''' Scram. Don't let the guards hear us talking about this...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:'''Furdo:''' Hmm... I remember you. Got some big case?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501027201: Config/Level/Mission/5010272/Act/Act501027201.json-->
+::<!--Custom String Trigger: TalkSentence_501027201-->
+::<!--Custom String Listener: TalkSentence_501027201-->
+::'''Furdo:''' ...Wait! Please file a report with the Silvermane Guards if you encounter any civil disputes. Please don't try to bypass the prosecution and discuss it with the judge directly.
+::<!--Custom String Trigger: Wait_Option_5010272_7-->
+::<!--Custom String Listener: Wait_Option_5010272_7-->
+::{{DIcon|Arrow}} Judge?
+::<!--Custom String Listener: TalkSentence_501027203-->
+::'''Furdo:''' I know what you want to ask. As a judge, how is it that I am standing out in the street instead of in the courthouse, right? Have you heard of the term "Roaming Judge"?
+::'''Furdo:''' ...*sigh* Forget about it. It sounds impressive, but I'm just a legal advisor sent to help the guards. Compared to my work at the court, this is a major waste of time...
+::<!--Custom String Trigger: Wait_Option_5010272_13-->
+::<!--Custom String Listener: Wait_Option_5010272_13-->
+::{{DIcon|Arrow}} Waste of time?
+::{{DIcon|Arrow}} Well, you shouldn't put it like that...
+::<!--Custom String Listener: TalkSentence_501027208-->
+::'''Furdo:''' Don't you think it's a waste of my time to have me out here trying to talk sense into the elderly every day? I was a straight-A student at Belobog Law School. Why am I dealing with trivial family stuff?
+::'''Furdo:''' I should be in charge of more complex, important cases! That's where I shine! You know what I'm talking about, right?
+::'''Furdo:''' ...What's that look on your face? Forget it. You aren't much different from those old-timers... Just come to me when you have a big case.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000027: Config/Level/NPC/W1/NPC_DefaultStory_1000043.json-->
+::'''Furdo:''' Hmm... I remember you. Got some big case?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301020303-->)
+:{{DIcon|undefined}} Wallace wants to be friends with you.
+::<!--Trigger PerformanceE 301020303: Config/Level/Mission/3010201/Act/Act301020303.json-->
+::'''Furdo:''' Wallace? Who is that? Is he a citizen who came to me for legal advice before? With all due respect, I need to see so many people every day... How could I remember each of their names?
+::{{DIcon|Arrow}} He's a Limestein.
+:::<!--Custom String Listener: TalkSentence_301020334-->
+:::'''Furdo:''' Limestein... Oh, that famous noble family? I think I've heard quite a bit about his deeds.
+:::'''Furdo:''' So? What's that got to do with me?
+::{{DIcon|Arrow}} He's rich...
+:::<!--Custom String Listener: TalkSentence_301020337-->
+:::'''Furdo:''' Uh... so what? What does it have to do with me?
+::<!--Custom String Trigger: Wait_Option_301020303_236-->
+::<!--Custom String Listener: Wait_Option_301020303_236-->
+::{{DIcon|Arrow}} Look at this photo.
+::<!--Custom String Listener: TalkSentence_301020339-->
+::'''Furdo:''' Photo? Why should I look at this photo? You are a bit illogical. And acting without logic is the deadliest thing for us who study law.
+::'''Furdo:''' So, is that Wallace? He's just average-looking, but that car of his does seem pretty nice.
+::'''Furdo:''' Oh, I know what he wants from me! He needs professional legal advice, doesn't he? Tell me, is it about a car insurance contract dispute, or perhaps a traffic accident settlement?
+::{{DIcon|Arrow}} He just wants to be friends with you...
+::{{DIcon|Arrow}} Can't you think of something less dreary?
+::<!--Custom String Listener: TalkSentence_301020344-->
+::'''Furdo:''' So... there is no legal trouble, and this man just wants to be my friend?
+::'''Furdo:''' This is strange and suspicious. I can't understand Wallace's motives... That's not a good sign!
+::'''Furdo:''' Please tell Wallace that I'm sorry, but I can't be his friend. As a judge, I must maintain a good reputation and should never step into any gray area...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020303-->
+;(If {{cx}}<!--SubMission Started: 301020303-->)
+:{{DIcon}} Can we talk...?
+::<!--Custom String Trigger: Wait_Option_5010272_23-->
+::<!--Custom String Listener: Wait_Option_5010272_23-->
+::{{DIcon|Talk}} You seem upset.
+:::<!--Custom String Listener: TalkSentence_501027213-->
+:::'''Furdo:''' Huh? Is it that obvious?
+:::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+:::<!--Custom String Trigger: Wait_Option_5010272_27-->
+:::<!--Custom String Listener: Wait_Option_5010272_27-->
+:::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+:::<!--Custom String Listener: TalkSentence_501027216-->
+:::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+:::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+:::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+:::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+:::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+:::<!--Custom String Trigger: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+::::<!--Custom String Listener: TalkSentence_501027223_1-->
+::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+::::<!--Custom String Listener: TalkSentence_501027223-->
+::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What kind of cases do you consider important?
+:::<!--Custom String Listener: TalkSentence_501027225-->
+:::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+:::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 301020303-->)
+:{{DIcon}} How have things been?
+::'''Furdo:''' I've got a big case on my hands! It's a shame I'll never be the one to try the case...
+::'''Furdo:''' I guess more specifically, I should say that there's no way this case can be tried... Even Lady Bronya herself would not be able to.
+::{{DIcon|Arrow}} What's this case you're talking about?
+::{{DIcon|Arrow}} Even Bronya can't handle it?
+::<!--Custom String Listener: TalkSentence_501027235-->
+::'''Furdo:''' Yeah. Former Supreme Guardian Cocolia... passed during the Fragmentum disturbance that happened north of Belobog. Her daughter Bronya took over her position after that.
+::'''Furdo:''' Lady Bronya stated that Cocolia went to the source of the Fragmentum and sacrificed herself to protect Belobog... But that's just what she is saying. Who knows what actually happened? There were no other witnesses after all...
+::'''Furdo:''' ...Hmph. Then again, that all has nothing to do with me. Change is opportunity. All I have to do now is take hold of this opportunity and find a way to get myself seated at the court... I don't need to keep arguing with those old hags.
+::{{DIcon|Arrow}} Here's to your success.
+:::<!--Custom String Listener: TalkSentence_501027239-->
+:::'''Furdo:''' Hopefully your words will bring me good luck... But I think my chances are not particularly good. Maybe Alexandra Plaza is just where I belong...
+::{{DIcon|Arrow}} You don't stand a chance.
+:::<!--Custom String Listener: TalkSentence_501027241-->
+:::'''Furdo:''' You're right. There's no way it'll work out. Maybe Alexandra Plaza is just where I belong...
+::{{DIcon|Arrow}} Have you thought about being a legal adviser to the Supreme Guardian?
+:::<!--Custom String Listener: TalkSentence_501027243-->
+:::'''Furdo:''' ...Are you out of your mind!? Me? No way. The law is sacred. A small judge like me isn't worthy of a role like that...
+:::'''Furdo:''' Scram. Don't let the guards hear us talking about this...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 301020303-->)
+:{{DIcon|Exit}} All right, bye.
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010272_20)
+:<!--Custom String Listener: Wait_Option_5010272_20-->
+::{{DIcon|Arrow}} Can we talk...?
+::<!--Custom String Listener: Wait_Option_5010272_23-->
+::<!--Custom String Listener: Wait_Option_5010272_23-->
+::{{DIcon|Talk}} You seem upset.
+:::<!--Custom String Listener: TalkSentence_501027213-->
+:::<!--Custom String Listener: TalkSentence_501027213-->
+:::'''Furdo:''' Huh? Is it that obvious?
+:::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+:::<!--Custom String Trigger: Wait_Option_5010272_27-->
+:::<!--Custom String Listener: Wait_Option_5010272_27-->
+:::<!--Custom String Listener: Wait_Option_5010272_27-->
+:::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+:::<!--Custom String Listener: TalkSentence_501027216-->
+:::<!--Custom String Listener: TalkSentence_501027216-->
+:::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+:::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+:::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+:::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+:::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+:::<!--Custom String Trigger: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+:::<!--Custom String Listener: TalkSentence_501027223-->
+:::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+::::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+:::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+:::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+:::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+:::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+:::<!--Custom String Trigger: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+::::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+:::<!--Custom String Listener: TalkSentence_501027216-->
+:::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+:::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+:::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+:::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+:::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+:::<!--Custom String Trigger: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+::::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Furdo:''' Huh? Is it that obvious?
+:::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+:::<!--Custom String Trigger: Wait_Option_5010272_27-->
+:::<!--Custom String Listener: Wait_Option_5010272_27-->
+:::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+:::<!--Custom String Listener: TalkSentence_501027216-->
+:::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+:::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+:::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+:::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+:::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+:::<!--Custom String Trigger: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+::::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What kind of cases do you consider important?
+:::<!--Custom String Listener: TalkSentence_501027225-->
+:::<!--Custom String Listener: TalkSentence_501027225-->
+:::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+:::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+:::{{DIcon|Talk}} You seem upset.
+::::<!--Custom String Listener: TalkSentence_501027213-->
+::::'''Furdo:''' Huh? Is it that obvious?
+::::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+::::<!--Custom String Trigger: Wait_Option_5010272_27-->
+::::<!--Custom String Listener: Wait_Option_5010272_27-->
+::::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+::::<!--Custom String Listener: TalkSentence_501027216-->
+::::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+::::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+::::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+::::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+::::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+::::<!--Custom String Trigger: Wait_Option_5010272_35-->
+::::<!--Custom String Listener: Wait_Option_5010272_35-->
+::::{{DIcon|Arrow}} Wow. You have a hard job.
+:::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+:::::<!--Custom String Listener: TalkSentence_501027223-->
+:::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+:::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+:::{{DIcon|Talk}} You seem upset.
+::::<!--Custom String Listener: TalkSentence_501027213-->
+::::'''Furdo:''' Huh? Is it that obvious?
+::::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+::::<!--Custom String Trigger: Wait_Option_5010272_27-->
+::::<!--Custom String Listener: Wait_Option_5010272_27-->
+::::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+::::<!--Custom String Listener: TalkSentence_501027216-->
+::::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+::::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+::::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+::::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+::::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+::::<!--Custom String Trigger: Wait_Option_5010272_35-->
+::::<!--Custom String Listener: Wait_Option_5010272_35-->
+::::{{DIcon|Arrow}} Wow. You have a hard job.
+:::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+:::::<!--Custom String Listener: TalkSentence_501027223-->
+:::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} You seem upset.
+:::<!--Custom String Listener: TalkSentence_501027213-->
+:::'''Furdo:''' Huh? Is it that obvious?
+:::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+:::<!--Custom String Trigger: Wait_Option_5010272_27-->
+:::<!--Custom String Listener: Wait_Option_5010272_27-->
+:::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+:::<!--Custom String Listener: TalkSentence_501027216-->
+:::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+:::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+:::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+:::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+:::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+:::<!--Custom String Trigger: Wait_Option_5010272_35-->
+:::<!--Custom String Listener: Wait_Option_5010272_35-->
+:::{{DIcon|Arrow}} Wow. You have a hard job.
+::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+::::<!--Custom String Listener: TalkSentence_501027223-->
+:::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What kind of cases do you consider important?
+::::<!--Custom String Listener: TalkSentence_501027225-->
+::::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+::::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} What kind of cases do you consider important?
+:::<!--Custom String Listener: TalkSentence_501027225-->
+:::'''Furdo:''' Corruption-related, with evil organizations or personnel involved. Or at least arms smuggling... or scams...
+:::'''Furdo:''' Forget it. Just pretend like I'm talking nonsense. Belobog is too safe to have cases like that. Even if there is a big case, it's out of my reach...
+:::<!--Custom String Trigger: Wait_Option_5010272_23-->
+:::<!--Custom String Listener: Wait_Option_5010272_23-->
+:::{{DIcon|Talk}} You seem upset.
+::::<!--Custom String Listener: TalkSentence_501027213-->
+::::'''Furdo:''' Huh? Is it that obvious?
+::::'''Furdo:''' Dealing with a bunch of ignorant old people, every day &mdash; you would be annoyed too if you were me.
+::::<!--Custom String Trigger: Wait_Option_5010272_27-->
+::::<!--Custom String Listener: Wait_Option_5010272_27-->
+::::{{DIcon|Arrow}} What kind of legal issues do you help them with?
+::::<!--Custom String Listener: TalkSentence_501027216-->
+::::'''Furdo:''' Legal issues? You think too highly of the people of Belobog. What they come to me for has nothing to do with the law. It's all complaints about daily life.
+::::'''Furdo:''' It's always the same thing. The complainant tells me they have been altruistic and taken the big picture into consideration and the offending party has taken advantage of them and is being ungrateful.
+::::'''Furdo:''' You can hear thousands of stories like this at Solwarm Festival family gatherings. Those stories are, in the end, moral blackmail, which I'm not interested in at all.
+::::'''Furdo:''' But I am a legal practitioner after all, so it is my duty to help the public get to know the law. Every time it gets to this part, they start to pretend like they don't understand me.
+::::'''Furdo:''' But who's to blame? After all, the law is always fair and impartial, showing favor to no one?
+::::<!--Custom String Trigger: Wait_Option_5010272_35-->
+::::<!--Custom String Listener: Wait_Option_5010272_35-->
+::::{{DIcon|Arrow}} Wow. You have a hard job.
+:::::<!--Custom String Listener: TalkSentence_501027223_1-->
+:::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Just hearing about it makes my head spin.
+:::::<!--Custom String Listener: TalkSentence_501027223-->
+:::::'''Furdo:''' I know, right!? I can't go on being a Roaming Judge for a second longer.
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Furdo
+|zhs  = 费尔多
+|zht  = 費爾多
+|ja   = フェルド
+|ko   = 퍼르도
+|es   = Furdo
+|fr   = Furdo
+|ru   = Фурдо
+|th   = Furdo
+|vi   = Furdo
+|de   = Furdo
+|id   = Furdo
+|pt   = Furdo
+}}
+==Change History==
+{{Change History|TODO}}

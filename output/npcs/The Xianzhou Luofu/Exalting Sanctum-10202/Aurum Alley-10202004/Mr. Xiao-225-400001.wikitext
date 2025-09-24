@@ -1,0 +1,115 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mr. Xiao#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Artistry Hardware Proprietor
+|image           = NPC Mr. Xiao.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Mr. Xiao''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_225_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502067101: Config/Level/NPCDialogue/P10202/NPCAct/Act502067101.json-->
+::'''Mr. Xiao:''' ...Need something fixed? We guarantee that your ingenium will be good as new.
+::'''Mr. Xiao:''' Of course, if it's outworlder technology, it'll depend on the world...
+::{{DIcon|Arrow}} I didn't come to fix anything.
+:::<!--Custom String Listener: TalkSentence_502067105-->
+:::'''Mr. Xiao:''' But I only fix things, dear customer.
+::{{DIcon|Arrow}} Can you fix my broken heart?
+:::<!--Custom String Listener: TalkSentence_502067107-->
+:::'''Mr. Xiao:''' I'm not good at riddles, dear customer.
+::<!--Custom String Trigger: TalkSentence_502067108-->
+::<!--Custom String Listener: TalkSentence_502067108-->
+::'''Mr. Xiao:''' If you're not here to fix your ingenium marionette, then I'll get back to work.
+::{{DIcon|Arrow}} You didn't even look at me.
+::{{DIcon|Arrow}} Are all craftsmen so dedicated to their work?
+::<!--Custom String Listener: TalkSentence_502067111-->
+::'''Mr. Xiao:''' ...I'm not good at small talk, dear customer. What can I do for you?
+::{{DIcon|Arrow}} Just a casual chat.
+:::<!--Custom String Listener: TalkSentence_502067113-->
+:::'''Mr. Xiao:''' Then please allow me to refuse.
+:::'''Mr. Xiao:''' By the way, take this. A gift for you.
+::{{DIcon|Exit}} I have nothing else.
+:::<!--Custom String Listener: TalkSentence_502067115-->
+:::'''Mr. Xiao:''' See you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502067201: Config/Level/NPCDialogue/P10202/NPCAct/Act502067201.json-->
+::'''Mr. Xiao:''' ...I'm not good at small talk, dear customer. What can I do for you?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+:::<!--Trigger PerformanceE 502067401: Config/Level/NPCDialogue/P10202/NPCAct/Act502067401.json-->
+:::'''Mr. Xiao:''' Not bad. Thanks for asking.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_502067401-->
+:;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Just a casual chat.
+:::<!--Trigger PerformanceE 502067301: Config/Level/NPCDialogue/P10202/NPCAct/Act502067301.json-->
+:::'''Mr. Xiao:''' Then please allow me to refuse.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_502067301-->
+:;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I have nothing else.
+:::'''Mr. Xiao:''' See you.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mr. Xiao
+|zhs  = 霄老大
+|zht  = 霄老大
+|ja   = 霄親方
+|ko   = 소 씨 아저씨
+|es   = Sr. Xiao
+|fr   = Monsieur Xiao
+|ru   = Господин Сяо
+|th   = คุณ Xiao
+|vi   = Ông Chủ Xiao
+|de   = Herr Xiao
+|id   = Tuan Xiao
+|pt   = Sr. Xiao
+}}
+==Change History==
+{{Change History|TODO}}

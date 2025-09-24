@@ -1,0 +1,1804 @@
+<%-- [PAGE_INFO]
+PageTitle=#Julian#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = The Thousand-Faced
+|image           = NPC Julian.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Julian''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_99_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201110501,
+		"Type": "submission_state_equal",
+		"Param1": 201110501,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110501: Config/Level/Mission/2011105/Act/Act201110501.json-->
+:'''Julian:''' I heard Hook say that she took you adventuring in Rivet Town just to find my marbles.
+:'''Julian:''' Thank you very much, {{MC|f=miss|m=mister}}, but don't read too much into it. That's not enough for you to be the second-in-command of The Moles. You gotta get past me &mdash; and I ain't planning on giving up my position just yet!
+:'''Julian:''' ...O&mdash;okay. Just give me my stuff.
+:{{DIcon|Arrow}} (Hand over Julian's things to him)
+:<!--Custom String Listener: TalkSentence_101028306-->
+:'''Julian:''' Is all of this my stuff? Thank you, {{MC|m=mister|f=miss}}! These glass marbles I won... Are these also mine? "For Julian, in 50 years' time"?
+:'''Julian:''' ...Ah, that's the key for the iron gates behind the business street. No one needs it anymore. Thank you so much!
+:'''Julian:''' You've given me so much stuff, {{MC|m=mister|f=miss}}. I have to give you something too &mdash; well, how about this copy of ''The Adventurous Moles''?
+:{{DIcon|Arrow}} The Adventurous Moles?
+:<!--Custom String Listener: TalkSentence_101028310-->
+:'''Julian:''' Oh? {{MC|m=Mister|f=Miss}}, do you know about ''The Adventurous Moles'' too?
+:{{DIcon|Arrow}} I love it!
+::<!--Custom String Listener: TalkSentence_101028312-->
+::'''Julian:''' I read ''The Adventurous Moles'' every night before going to bed. My dreams are full of fun adventures!
+::'''Julian:''' Wait, you're not pretending to like it, are you... let me ask you, who are the three protagonists in the book?
+::{{DIcon|Arrow}} I confess I haven't read it.
+:::<!--Custom String Listener: TalkSentence_101028315-->
+:::'''Julian:''' I knew it, you have to read ''The Adventurous Moles''. It is full of fun adventures.
+::{{DIcon|Arrow}} They are a trio that went to a wizarding school...
+:::<!--Custom String Listener: TalkSentence_101028317-->
+:::'''Julian:''' Hmm, interesting, but you're totally wrong! You should do better and read ''The Adventurous Moles''. It is full of fun adventures.
+::{{DIcon|Arrow}} March 7th, Dan Heng and me.
+:::<!--Custom String Listener: TalkSentence_101028319-->
+:::'''Julian:''' Hmph, you are such a cheeky grownup. You should do better and read ''The Adventurous Moles''.
+:{{DIcon|Arrow}} Sorry, I haven't read it.
+::<!--Custom String Listener: TalkSentence_101028321-->
+::'''Julian:''' Then you have to read it. It's full of interesting adventures!
+:{{DIcon|Arrow}} I can't say I like it.
+::<!--Custom String Listener: TalkSentence_101028323-->
+::'''Julian:''' Stop pretending. You haven't actually read it at all, have you? Tell me who the three protagonists are in the book.
+::{{DIcon|Arrow}} I confess I haven't read it.
+:::<!--Custom String Listener: TalkSentence_101028325-->
+:::'''Julian:''' I knew it, you have to read ''The Adventurous Moles''. It is full of fun adventures.
+::{{DIcon|Arrow}} They are a trio that went to a wizarding school...
+:::<!--Custom String Listener: TalkSentence_101028327-->
+:::'''Julian:''' Hmm, interesting, but you're totally wrong! You should do better and read ''The Adventurous Moles''. It is full of fun adventures.
+::{{DIcon|Arrow}} March 7th, Dan Heng and me.
+:::<!--Custom String Listener: TalkSentence_101028329-->
+:::'''Julian:''' Hmph, you are such a cheeky grownup. You should do better and read ''The Adventurous Moles''.
+:<!--Custom String Trigger: TalkSentence_101028330-->
+:<!--Custom String Listener: TalkSentence_101028330-->
+:'''Julian:''' There are all kinds of stories in ''The Adventurous Moles''... But this edition is a bit strange. It's only got the preface and the table of contents. Here, read the preface.
+<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190902
+		}
+	}
+}</pre>
+:'''Julian:''' The author said in the preface {{Color|keyword|nobold=1|"If you follow the clues in the table of contents, you can find the corresponding locations, where you can collect the pages of the book."}}...
+:'''Julian:''' It seems to be saying that this edition is meant to have book pages, but they are hidden somewhere, and we have to use the table of contents to find clues about those hidden pages.
+<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190901
+		}
+	}
+}</pre>
+:'''Julian:''' Look at the chapter "The Missing Miner's Lamp." It says: {{Color|keyword|nobold=1|"In the Great Mine of Boulder Town..."}} Is that where some of the missing pages are?
+:'''Julian:''' I haven't found anything, and I'm not even sure whether it's really true. But {{MC|m=mister|f=miss}}, if you'd like to know more about ''The Adventurous Moles'', then I can tell you all about that.
+:<!--Custom String Trigger: Wait_Option_201110599_54-->
+:<!--Custom String Listener: Wait_Option_201110599_54-->
+:{{DIcon|Talk}} What is ''The Adventurous Moles'' about?
+::<!--Custom String Listener: TalkSentence_101028336-->
+::'''Julian:''' ''The Adventurous Moles'' has all kinds of great adventures. The Moles would often go into primitive jungles, lost cities, and even outer space...
+::{{DIcon|Return}} Is there a jungle in Belobog?
+:::<!--Custom String Listener: TalkSentence_101028338-->
+:::'''Julian:''' Do grownups have no imagination? The adventures can be fictional, you know.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} Do you believe in the stuff written in the book?
+:::<!--Custom String Listener: TalkSentence_101028340-->
+:::'''Julian:''' Of course I do!
+:::'''Julian:''' You probably think the things written in children's books are made up. Humph, you grownups just don't know better.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What is so interesting about ''The Adventurous Moles''?
+::<!--Custom String Listener: TalkSentence_101028343-->
+::'''Julian:''' All the protagonists in the story are children, but they often achieve things that adults cannot do. And when I read ''The Adventurous Moles'', I feel like I'm on an adventure, too.
+::'''Julian:''' The author always calls the reader "the fourth little mole," so I am also a member of The Moles.
+::{{DIcon|Return}} Adventure stories are indeed fun to read.
+:::<!--Custom String Listener: TalkSentence_101028346-->
+:::'''Julian:''' Oh, how I wish I could go on an epic adventure in a fantasy world of magic and swords, with my very own emergency food!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} Is that how you guys got the name "The Moles"?
+:::<!--Custom String Listener: TalkSentence_101028348-->
+:::'''Julian:''' ...I am not telling you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I see. So it's a fairy tale for naughty kids.
+:::<!--Custom String Listener: TalkSentence_101028350-->
+:::'''Julian:''' Humph, you big grownup dum-dum don't know anything.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Who's the lead in ''The Adventurous Moles''?
+::<!--Custom String Listener: TalkSentence_101028352-->
+::'''Julian:''' Don't you even know the three little moles?
+::'''Julian:''' There's Becky, who is so independent and much cooler than boys; Carbine, who is good at invention and crafting; and Pava, who is strong!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Let me go and see.
+::<!--Custom String Listener: TalkSentence_101028355-->
+::'''Julian:''' {{MC|m=Mister|f=Miss}}, look, the {{Color|keyword|nobold=1|Great Mine}} is mentioned in the table of contents. Maybe there's something there?
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201110501-->
+<pre>
+[
+	{
+		"ID": 201110505,
+		"Type": "submission_state_equal",
+		"Param1": 201110505,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110505: Config/Level/Mission/2011105/Act/Act201110505.json-->
+:'''Julian:''' Wow! {{MC|m=Mister|f=Miss}}, I never expected you to actually find one of the pages of ''The Adventurous Moles''.
+:'''Julian:''' {{MC|m=Mister|f=Miss}}, maybe you can {{Color|keyword|nobold=1|track down all the rest of missing pages with clues from the table of contents!}}
+:{{DIcon|Arrow}} What benefits would there be if I find all the pages?
+::<!--Custom String Listener: TalkSentence_101028360-->
+::'''Julian:''' You go find those pages so that you can let me read them.
+::'''Julian:''' ...But I know what you mean. There's nothing in it for you at all. Only thinking of benefits &mdash; grownups are so greedy for cheap thrills.
+:{{DIcon|Arrow}} I don't know where to look. Help me.
+::<!--Custom String Listener: TalkSentence_101028363-->
+::'''Julian:''' If you ask me again nicely, I might think about it.
+::{{DIcon|Arrow}} Please.
+:::<!--Custom String Listener: TalkSentence_101028365-->
+:::'''Julian:''' Fine, I'll be generous this time.
+:::'''Julian:''' But I don't know where to look either. Otherwise, I would have found them myself. What would I need you for?
+::{{DIcon|Arrow}} Hmph, you cheeky little brat.
+:::<!--Custom String Listener: TalkSentence_101028368-->
+:::'''Julian:''' Hmph, you big grownup dum-dum. It's not like I wanted to tell you in the first place.
+:<!--Custom String Trigger: TalkSentence_101028369-->
+:<!--Custom String Listener: TalkSentence_101028369-->
+:'''Julian:''' But seriously, {{MC|m=Mister|f=Miss}}, I'm actually starting to look forward to reading all those pages now. Please come and find me whenever you've found them all.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201110505-->
+<pre>
+[
+	{
+		"ID": 201110510,
+		"Type": "submission_state_equal",
+		"Param1": 201110510,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110510: Config/Level/Mission/2011105/Act/Act201110510.json-->
+:'''Julian:''' WOW! Did you really find them all?
+:'''Julian:''' ... Hey? Isn't there a page of postscript you haven't found yet?
+:{{DIcon|Arrow}} I don't know where to find the postscript.
+:{{DIcon|Arrow}} Who reads the postscript anyway?
+:<!--Custom String Listener: TalkSentence_101028392-->
+:'''Julian:''' I happen to have the postscript here. There you go, take it.
+:'''Julian:''' Now you have collected the whole book of ''The Adventurous Moles'', great job. You did great, {{MC|m=Mister|f=Miss}}, I myself wouldn't have the patience to find all these missing pages.
+:<!--Custom String Trigger: Wait_Option_201110599_132-->
+:<!--Custom String Listener: Wait_Option_201110599_132-->
+:{{DIcon|Talk}} Where did you find the postscript?
+::<!--Custom String Listener: TalkSentence_101028395-->
+::'''Julian:''' I didn't find it. I've been going on adventures with The Moles every day. I don't have time to look for ''The Adventurous Moles''.
+::'''Julian:''' The postscript was given to me by big sister Natasha. You happened to be missing it, so I gave it to you.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Surely, you're not that impatient?
+::<!--Custom String Listener: TalkSentence_101028398-->
+::'''Julian:''' Hum! Everyone knows that kids are all impatient.
+::'''Julian:''' Besides, the author writes very slowly. I don't know how long I'll have to wait for the next book.
+::'''Julian:''' I have a question for you. The more I look forward to something, the longer I have to wait. Is time being slowed down by expectations?
+::{{DIcon|Return}} Expectation does make waiting longer.
+:::<!--Custom String Listener: TalkSentence_101028402-->
+:::'''Julian:''' Hey, then I should look forward to it less.
+:::'''Julian:''' ... Can I even manage to do that, I wonder?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} No, the author is just being lazy.
+:::<!--Custom String Listener: TalkSentence_101028405-->
+:::'''Julian:''' I see. It seems that I just made an excuse for adults.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Don't you want to read the whole book?
+::<!--Custom String Listener: TalkSentence_101028407-->
+::'''Julian:''' ...I do want to read it, but it's boring if it's just me by myself.
+::'''Julian:''' Oh, {{MC|m=mister|f=miss}}, since you've already collected all the pages for ''The Adventurous Moles'', why don't we bundle them up and give them to a publisher? That way, all children in Belobog can read it.
+::{{DIcon|Arrow}} Great idea.
+::{{DIcon|Arrow}} Yet even more errands to run...
+:::<!--Custom String Listener: TalkSentence_101028411-->
+:::'''Julian:''' {{MC|m=Mister|f=Miss}}, you'll definitely hit a payday if you hand the manuscript to a publisher.
+:::<!--Custom String Trigger: TalkSentence_101028412-->
+::<!--Custom String Listener: TalkSentence_101028412-->
+::'''Julian:''' Go on, then! The Moles and I can't wait to see the new book getting published.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201110510-->
+<pre>
+[
+	{
+		"ID": 301101101,
+		"Type": "submission_state_equal",
+		"Param1": 301101101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301101101: Config/Level/Mission/3011011/Act/Act301101101.json-->
+:<!--Custom String Trigger: TalkSentence_301100102-->
+:<!--Custom String Listener: TalkSentence_301100102-->
+:'''Julian:''' Hey, (Trailblazer)! Come over here &mdash; don't make any sound!
+:<!--Custom String Trigger: Wait_Option_301100101_9-->
+:<!--Custom String Listener: Wait_Option_301100101_9-->
+:{{DIcon|Arrow}} Are we playing hide-and-seek again?
+::<!--Custom String Listener: TalkSentence_301100104-->
+::'''Julian:''' Nah, this time we are going to do something much more fun than hide-and-seek!
+:{{DIcon|Arrow}} How come you are always sneaking around...
+::<!--Custom String Listener: TalkSentence_301100106-->
+::'''Julian:''' What do you mean by sneaking around! I'm the cadre in charge of making plans for The Moles. Covert operations are what I do.
+:<!--Custom String Trigger: TalkSentence_301100107-->
+:<!--Custom String Listener: TalkSentence_301100107-->
+:'''Julian:''' Let me tell you, today we have a top-secret mission! As an honorary member of The Moles, you are now being commandeered by me!
+:<!--Custom String Trigger: Wait_Option_301100101_16-->
+:<!--Custom String Listener: Wait_Option_301100101_16-->
+:{{DIcon|Arrow}} Can I say no?
+::<!--Custom String Listener: TalkSentence_301100109-->
+::'''Julian:''' Of course not!
+:{{DIcon|Arrow}} It's all up to you, boss.
+::<!--Custom String Listener: TalkSentence_301100111-->
+::'''Julian:''' Wh&mdash;what boss? Don't talk nonsense! I will be in trouble if Boss Hook heard it.
+:<!--Custom String Trigger: TalkSentence_301100112-->
+:<!--Custom String Listener: TalkSentence_301100112-->
+:'''Julian:''' Enough chitchat. We're losing the daylight. We can't mess this up.
+:'''Julian:''' Let's go! To the secret gathering place of Wildfire!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301101101-->
+<pre>
+[
+	{
+		"ID": 201050101,
+		"Type": "submission_state_equal",
+		"Param1": 201050101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201050101: Config/Level/Mission/2010501/Act/Act201050101.json-->
+:{{A|VO Side1 hk1 julian 101.ogg}} '''Julian:''' You! Hey, you, stop! You are now a conscript of The Moles!
+:{{DIcon|Arrow}} Hook's little sidekick...
+::<!--Custom String Listener: TalkSentence_201212102-->
+::{{A|VO Side1 hk1 julian 102.ogg}} '''Julian:''' I'm not a sidekick! I'm second-in-command! Argh. You know what? No. This ain't the time.
+:{{DIcon|Arrow}} The young little master of disguise...
+::<!--Custom String Listener: TalkSentence_201212104-->
+::{{A|VO Side1 hk1 julian 103.ogg}} '''Julian:''' Heehee, I, Julian of a Thousand Faces... Wait, it's not the time for this!
+:{{DIcon|Arrow}} ...Who are you?
+::<!--Custom String Listener: TalkSentence_201212123-->
+::{{A|VO Side1 hk1 julian 104.ogg}} '''Julian:''' You kidding? It's me! The second-in-command of The Moles? Julian of a Thousand&mdash; You know what? No. It ain't the time for this.
+:<!--Custom String Trigger: TalkSentence_201212106-->
+:<!--Custom String Listener: TalkSentence_201212106-->
+:{{A|VO Side1 hk1 julian 105.ogg}} '''Julian:''' We got trouble! The boss went to the Great Mine alone with her Diggertron!
+:{{A|VO Side1 hk1 julian 106.ogg}} '''Julian:''' And she refused to let anyone go with her. I feel like she's doing something dangerous... You have to go check on her for us!
+:{{DIcon|Arrow}} Why would she go to the mines?
+::<!--Custom String Listener: TalkSentence_201212108-->
+::{{A|VO Side1 hk1 julian 107.ogg}} '''Julian:''' Fersman is in the mines. It seems like the boss heard some bad news about him, then just ran in there.
+::{{A|VO Side1 hk1 julian 108.ogg}} '''Julian:''' She even took her Diggertron. Is she preparing for a fight with the Vagrants...
+::{{A|VO Side1 hk1 julian 109.ogg}} '''Julian:''' There's lots of bad guys in the mines. Miss Natasha said kids ain't allowed to go in! Go check on her for us now!
+:{{DIcon|Arrow}} Diggertron?
+::<!--Custom String Listener: TalkSentence_201212114-->
+::{{A|VO Side1 hk1 julian 111.ogg}} '''Julian:''' Diggertron is Diggertron! As long as the boss has it with her, you can expect a good fight...
+::{{A|VO Side1 hk1 julian 107.ogg}} '''Julian:''' Fersman is in the mines. It seems like the boss heard some bad news about him, then just ran in there.
+::{{A|VO Side1 hk1 julian 113.ogg}} '''Julian:''' There's lots of bad guys in the mines. Miss Natasha said kids ain't allowed to go in! Go check on her for us now!
+:{{DIcon|Arrow}} Who is Fersman?
+:<!--Custom String Listener: TalkSentence_201212112-->
+:{{A|VO Side1 hk1 julian 110.ogg}} '''Julian:''' He's Hook's daddy, and he's like a daddy to everyone in The Moles! He's like... a great person!
+:{{DIcon|Arrow}} Don't worry, I'll head there right away.
+:{{DIcon|Arrow}} Why would I take orders from a little...
+::<!--Custom String Listener: TalkSentence_201212121-->
+::{{A|VO Side1 hk1 julian 115.ogg}} '''Julian:''' Someone's life is at risk! Forget the minor details!
+::<!--Custom String Trigger: TalkSentence_201212120-->
+:{{DIcon|Arrow}} Alright, I'll go help Pitch-Dark Hook the Great.
+:<!--Custom String Listener: TalkSentence_201212120-->
+:{{A|VO Side1 hk1 julian 116.ogg}} '''Julian:''' Thank you! Please hurry!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 201050101_F-->
+<pre>
+[
+	{
+		"ID": 301101201,
+		"Type": "submission_state_equal",
+		"Param1": 301101201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301101201: Config/Level/Mission/3011012/Act/Act301101201.json-->
+:<!--Custom String Trigger: TalkSentence_301100502-->
+:<!--Custom String Listener: TalkSentence_301100502-->
+:'''Julian:''' Hey, honorary member (Trailblazer)! Here, here, come here!
+:<!--Custom String Trigger: Wait_Option_301100201_9-->
+:<!--Custom String Listener: Wait_Option_301100201_9-->
+:{{DIcon|Arrow}} Yikes, it's you again...
+::<!--Custom String Listener: TalkSentence_301100504-->
+::'''Julian:''' What's that attitude? Sharpen up! And that is an order!
+:{{DIcon|Arrow}} Hats off to you, Captain Julian!
+::<!--Custom String Listener: TalkSentence_301100506-->
+::'''Julian:''' Huh? Oh, okay... At ease! Er, why are you so polite all of a sudden, I'm not used to this!
+:<!--Custom String Trigger: TalkSentence_301100507-->
+:<!--Custom String Listener: TalkSentence_301100507-->
+:'''Julian:''' You haven't forgotten The Moles Reinvigoration Plan, have you? Let me tell you, according to my informant's report, Wildfire needs to send lots of supplies today &mdash; isn't this a good time for The Moles to make a move?
+:<!--Custom String Trigger: Wait_Option_301100201_16-->
+:<!--Custom String Listener: Wait_Option_301100201_16-->
+:{{DIcon|Arrow}} Who is your informant?
+::<!--Custom String Listener: TalkSentence_301100509-->
+::'''Julian:''' It's... Uh, no, I can't tell you! As the Chief Intelligence Officer of The Moles, it is my duty to protect the informant!
+:{{DIcon|Arrow}} What plan was that, I forgot...
+::<!--Custom String Listener: TalkSentence_301100511-->
+::'''Julian:''' Ugh, do all grown-ups have such bad memory?
+::'''Julian:''' Then I'll explain it to you again &mdash; The Moles Reinvigoration Plan is to find the work that Wildfire has neglected and take it up right away!
+::'''Julian:''' If we keep doing this, The Moles will soon build a reputation in the Underworld, and maybe one day replace Wildfire! Hehe...
+:<!--Custom String Trigger: TalkSentence_301100514-->
+:<!--Custom String Listener: TalkSentence_301100514-->
+:'''Julian:''' Alright, that's enough talk. Let's go to the secret gathering place of Wildfire and see what's going on.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301101201-->
+<pre>
+[
+	{
+		"ID": 301101301,
+		"Type": "submission_state_equal",
+		"Param1": 301101301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301101301: Config/Level/Mission/3011013/Act/Act301101301.json-->
+:<!--Custom String Trigger: TalkSentence_301101002-->
+:<!--Custom String Listener: TalkSentence_301101002-->
+:'''Julian:''' Honorary member (Trailblazer), here!
+:'''Julian:''' Hehe, I bumped into you again! You always show up at the right time. This is just perfect.
+:<!--Custom String Trigger: Wait_Option_301100301_10-->
+:<!--Custom String Listener: Wait_Option_301100301_10-->
+:{{DIcon|Arrow}} Have you been stalking me?
+::<!--Custom String Listener: TalkSentence_301101005-->
+::'''Julian:''' Wh&mdash;What are you talking about? You can't just say things like that without any proof...
+:{{DIcon|Arrow}} Captain, what can I do for you?
+::<!--Custom String Listener: TalkSentence_301101007-->
+::'''Julian:''' At ease, honorary member! Let me tell you the details...
+:<!--Custom String Trigger: TalkSentence_301101008-->
+:<!--Custom String Listener: TalkSentence_301101008-->
+:'''Julian:''' I got news from my informant that Wildfire received a large number of delivery orders today, and has been overwhelmed by the workload.
+:'''Julian:''' According to my wise judgment, this is a good opportunity for The Moles, (Trailblazer)! If we can deliver all the orders that they can't handle in time...
+:'''Julian:''' ...Then the goal of The Moles Reinvigoration Plan might be achieved ahead of schedule, isn't it great?
+:<!--Custom String Trigger: Wait_Option_301100301_19-->
+:<!--Custom String Listener: Wait_Option_301100301_19-->
+:{{DIcon|Arrow}} I have an addiction to package delivery...
+:{{DIcon|Arrow}} Healthy competition is always good.
+:<!--Custom String Listener: TalkSentence_301101013-->
+:'''Julian:''' Hmm, you seem to like saying strange things... You think I won't understand just because I'm a kid?
+:'''Julian:''' Alright alright, that's enough chat. Time to go to Wildfire's turf and gather some intel!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301101301-->
+<pre>
+[
+	{
+		"ID": 301101401,
+		"Type": "submission_state_equal",
+		"Param1": 301101401,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301101401: Config/Level/Mission/3011014/Act/Act301101401.json-->
+:'''Julian:''' Hey, honorary member (Trailblazer)! Quick, come here! We have a new mission!
+:'''Julian:''' The Moles' Reinvigoration Plan has reached a critical stage! We must carry forward the spirit of the Moles advocated by Boss Hook! Now's no time to waver! March onward!
+:{{DIcon|Arrow}} ...Seems you learned a lot of new mottos lately.
+::<!--Custom String Listener: TalkSentence_301101504-->
+::'''Julian:''' That's beside the point! The point is to recite the original words spoken by Boss Hook!
+:{{DIcon|Arrow}} No time... Hard work... Onward!
+::<!--Custom String Listener: TalkSentence_301101506-->
+::'''Julian:''' Not bad for an honorary member! That's the spirit!
+:<!--Custom String Trigger: TalkSentence_301101507-->
+:<!--Custom String Listener: TalkSentence_301101507-->
+:'''Julian:''' My source told me earlier that Wildfire just accumulated another batch of goods that needs to be delivered, but they haven't been able to ship them out because of staffing constraints.
+:'''Julian:''' Isn't this our chance? Come on, let's go to Wildfire's Gathering Place and see what's going on!
+:{{DIcon|Arrow}} This is all a scheme by Wildfire...
+::<!--Custom String Listener: TalkSentence_301101510-->
+::'''Julian:''' What? Scheming? That's quite the imagination you've got there.
+::'''Julian:''' Let's go! We have to act quickly before Wildfire has a chance to react!
+:{{DIcon|Arrow}} Lead the way then.
+::<!--Custom String Listener: TalkSentence_301101513-->
+::'''Julian:''' Let's get on with it. We have to act quickly before Wildfire has a chance to react!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301101401-->
+<pre>
+[
+	{
+		"ID": 201110506,
+		"Type": "submission_state_equal",
+		"Param1": 201110506,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110506: Config/Level/Mission/2011105/Act/Act201110506.json-->
+:'''Julian:''' Hmm? So you wanna know where you can find the rest of the missing pages? Well, since you asked nicely, I'll tell you all about it. But don't come blame me if I get anything wrong.
+:'''Julian:''' There are still three more chapters listed in ''The Adventurous Moles&ast;''s table of contents. Which one do you want to ask about?
+:<!--Custom String Trigger: Wait_Option_201110599_105-->
+:<!--Custom String Listener: Wait_Option_201110599_105-->
+:{{DIcon|Talk}} The Unexpected Parchment?
+::<!--Custom String Listener: TalkSentence_101028374-->
+::'''Julian:''' "At an open-air café in Backwater Pass..."
+::'''Julian:''' Backwater Pass, hmmm...? Is that up in the Overworld? And what is an open-air café...
+::'''Julian:''' ...Don't even try to ask me more. I wouldn't know. You probably should go there to take a look for yourself, and you'll find out soon enough.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} "The Crates Are the Keys"?
+::<!--Custom String Listener: TalkSentence_101028378-->
+::'''Julian:''' "In a Rivet Town where storage shelves are placed..."
+::'''Julian:''' "Rivet Town... a cave with storage shelves..." Could that be Dr. Natasha's pharmacy, next to the orphanage?
+::'''Julian:''' ...Don't even try to ask me more. I wouldn't know. You probably should go there to take a look for yourself, and you'll find out soon enough.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Treasure Hunt on the Battlefield?
+::<!--Custom String Listener: TalkSentence_101028382-->
+::'''Julian:''' "...the trenches deep in the Silvermane Guard Restricted Zone, on the way to the Snow Plains..."
+::'''Julian:''' The Silvermane Guard Restricted Zone... is that their base? If it leads to the Snow Plains, would that be right in the deepest part of the base?
+::'''Julian:''' ...Don't even try to ask me more. I wouldn't know. You probably should go there to take a look for yourself, and you'll find out soon enough.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_101028386-->
+::'''Julian:''' Alright. {{MC|m=Mister|f=Miss}}, remember to come find me once you've found every page.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201110506-->
+<pre>
+[
+	{
+		"ID": 201110515,
+		"Type": "submission_state_equal",
+		"Param1": 201110514,
+		"Param2": 3
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201110515: Config/Level/Mission/2011105/Act/Act201110515.json-->
+:'''Julian:''' Yup, it's great. I read the whole thing in one night.
+:'''Julian:''' Well then, when's the author putting out the next book? Don't tell me they won't tie up all the loose ends? No way!
+:{{DIcon|Arrow}} Such fickle readers.
+::<!--Custom String Listener: TalkSentence_101028428-->
+::'''Julian:''' Readers always have been fickle. How can grownups not understand this?
+:{{DIcon|Arrow}} We want another book out NOW!
+::<!--Custom String Listener: TalkSentence_101028430-->
+::'''Julian:''' Correct, it'll be too late by the time I grow up!
+::'''Julian:''' Even though I'll keep reading it once I grow up... I don't care. Just give us a new book, author!
+:<!--Custom String Trigger: TalkSentence_101028432-->
+:<!--Custom String Listener: TalkSentence_101028432-->
+:'''Julian:''' Thanks so much, {{MC|m=mister|f=miss}}. Everybody is super grateful. When you have the time, tell us all about your adventurous stories.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Wait_Option_5010282_33-->
+:<!--Custom String Listener: Wait_Option_5010282_33-->
+:{{DIcon|Talk}} What are you doing here?
+::<!--Custom String Listener: TalkSentence_501028220-->
+::'''Julian:''' Hmmm... you seriously do not understand.
+::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+::<!--Custom String Trigger: Wait_Option_5010282_37-->
+::<!--Custom String Listener: Wait_Option_5010282_37-->
+::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+:::<!--Custom String Listener: TalkSentence_501028223-->
+:::'''Julian:''' Well... um... your praise doesn't excite me...
+:::<!--Custom String Trigger: TalkSentence_501028226-->
+:::<!--Custom String Listener: TalkSentence_501028226-->
+:::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Are you practicing magic?
+:::<!--Custom String Listener: TalkSentence_501028225-->
+:::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::<!--Custom String Trigger: TalkSentence_501028226-->
+:::<!--Custom String Listener: TalkSentence_501028226-->
+:::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How exactly do you disguise yourself?
+::<!--Custom String Listener: TalkSentence_501028228-->
+::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+::<!--Custom String Trigger: Wait_Option_5010282_46-->
+::<!--Custom String Listener: Wait_Option_5010282_46-->
+::{{DIcon|Arrow}} Can't you tell me? Please?
+:::<!--Custom String Listener: TalkSentence_501028230-->
+:::'''Julian:''' No! That's one of The Moles' most important secrets!
+:::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::<!--Custom String Listener: Wait_Option_5010282_55-->
+::{{DIcon|Arrow}} Actually, Hook sent me...
+:::<!--Custom String Listener: TalkSentence_501028233-->
+:::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+:::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+:::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+:::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::;(Return to previous option selection (cloneCheckString))
+:;(All choices lead to the following options)
+::{{DIcon|Arrow}} Hmm... You win.
+::{{DIcon|Arrow}} All right, I give up.
+::<!--Custom String Listener: TalkSentence_501028238-->
+::'''Julian:''' Good. It's better for you to not know everything.
+::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'm okay.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100006305,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Julian:''' Oh, do you mean me, {{MC|f=miss|m=mister}}? Me, I'm... fresh out of snow-white popping candy.
+:{{DIcon|Arrow}} I wasn't asking about that...
+::<!--Custom String Listener: TalkSentence_501028248-->
+::'''Julian:''' Oh... well, there's nothing much going on with me. Just questing with Hook, and practicing my camouflage skills! That's about it.
+::'''Julian:''' Why, has something really big happened? If so, please tell me &mdash; and I'll report back to Hook about it!
+:{{DIcon|Arrow}} What on earth is this snow-white popping candy?
+::<!--Custom String Listener: TalkSentence_501028251-->
+::'''Julian:''' You don't know? It's the most popular snack in all Boulder Town right now! It's not like other candies, because it goes POP POP in your mouth! Awesome, huh?
+::'''Julian:''' Hmm, grown-ups these days really have no idea. Too bad I've finished it all. You can have some next time &mdash; but... you'll have to trade me some information for it!
+:<!--Custom String Trigger: Wait_Option_501029105_18-->
+:<!--Custom String Listener: Wait_Option_501029105_18-->
+:{{DIcon|Arrow}} The Overworld and the Underworld are going to be reunited.
+:<!--Custom String Listener: TalkSentence_501028254-->
+:'''Julian:''' Ah, the Moles already knew all that! {{MC|f=Miss|m=Mister}}, you should know we're smarter than that!
+:'''Julian:''' If you can bring me some more popping candy, I'll tell you how to collect the hottest gossip about the Underworld!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:{{A|VO vo ambient w1 greeting julian 101.ogg}} {{A|VO vo ambient w1 greeting julian 102.ogg}} '''Julian:''' Ah, it's you again! I'm on a classified mission from Boss Hook!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Julian:''' Bye! If you want to learn the disguise technique, bring me some popping candy!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028201: Config/Level/Mission/5010282/Act/Act501028201.json-->
+::<!--Custom String Trigger: TalkSentence_501028201-->
+::<!--Custom String Listener: TalkSentence_501028201-->
+::'''Julian:''' Hmm... I'm out of snow-white popping candy...
+::<!--Custom String Trigger: Wait_Option_5010282_8-->
+::<!--Custom String Listener: Wait_Option_5010282_8-->
+::{{DIcon|Arrow}} Hi, Julian!
+:::<!--Custom String Listener: TalkSentence_501028203-->
+:::'''Julian:''' Hi!
+::{{DIcon|Arrow}} What are you doing?
+:::<!--Custom String Listener: TalkSentence_501028205-->
+:::'''Julian:''' I'm...
+::<!--Custom String Trigger: TalkSentence_501028206-->
+::<!--Custom String Listener: TalkSentence_501028206-->
+::'''Julian:''' Wait, who are you? Mom told me not to talk to strangers.
+::<!--Custom String Trigger: Wait_Option_5010282_15-->
+::<!--Custom String Listener: Wait_Option_5010282_15-->
+::{{DIcon|Arrow}} We played hide-and-seek together before...
+:::<!--Custom String Listener: TalkSentence_501028208-->
+:::'''Julian:''' Hide-and-seek...? That doesn't ring a bell.
+::{{DIcon|Arrow}} You are the one talking to me...
+:::<!--Custom String Listener: TalkSentence_501028210-->
+:::'''Julian:''' ...You came up to me first.
+::<!--Custom String Trigger: TalkSentence_501028211-->
+::<!--Custom String Listener: TalkSentence_501028211-->
+::'''Julian:''' Hey, did you mistake me for someone else?
+::<!--Custom String Trigger: Wait_Option_5010282_22-->
+::<!--Custom String Listener: Wait_Option_5010282_22-->
+::{{DIcon|Arrow}} Did I?
+:::<!--Custom String Listener: TalkSentence_501028213-->
+:::'''Julian:''' Of course. I'm not "Julian of a Thousand Faces."
+::{{DIcon|Arrow}} Pitch-Dark Hook the Great sent me...
+:::<!--Custom String Listener: TalkSentence_501028215-->
+:::'''Julian:''' Huh? Boss Hook? What does she want from Julian of a Thousand Faces?
+::<!--Custom String Trigger: TalkSentence_501028216-->
+::<!--Custom String Listener: TalkSentence_501028216-->
+::'''Julian:''' Oops! I revealed myself.
+::'''Julian:''' Hmm... Fine. I'll stop messing with you. You are right, I'm Julian. What do you want from me?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501028202: Config/Level/Mission/5010282/Act/Act501028202.json-->
+::'''Julian:''' Ah, it's you again! I'm on a classified mission from Boss Hook!
+::'''Julian:''' The goal of the mission is to... get my hands on all the popping candy in Underworld. Hehe!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801412201-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::<!--Trigger PerformanceE 801412103: Config/Level/Mission/8014121/Act/Act801412103.json-->
+::'''Julian:''' Then how about I show you the power of an official Moles member? Don't underestimate me, I've been doing secret training with Hook for ages!
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "2"
+	}
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801412103-->
+;(If {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} Julian, I've got your stuff here.
+::<!--Trigger PerformanceE 201110501: Config/Level/Mission/2011105/Act/Act201110501.json-->
+::'''Julian:''' I heard Hook say that she took you adventuring in Rivet Town just to find my marbles.
+::'''Julian:''' Thank you very much, {{MC|f=miss|m=mister}}, but don't read too much into it. That's not enough for you to be the second-in-command of The Moles. You gotta get past me &mdash; and I ain't planning on giving up my position just yet!
+::'''Julian:''' ...O&mdash;okay. Just give me my stuff.
+::{{DIcon|Arrow}} (Hand over Julian's things to him)
+::<!--Custom String Listener: TalkSentence_101028306-->
+::'''Julian:''' Is all of this my stuff? Thank you, {{MC|m=mister|f=miss}}! These glass marbles I won... Are these also mine? "For Julian, in 50 years' time"?
+::'''Julian:''' ...Ah, that's the key for the iron gates behind the business street. No one needs it anymore. Thank you so much!
+::'''Julian:''' You've given me so much stuff, {{MC|m=mister|f=miss}}. I have to give you something too &mdash; well, how about this copy of ''The Adventurous Moles''?
+::{{DIcon|Arrow}} The Adventurous Moles?
+::<!--Custom String Listener: TalkSentence_101028310-->
+::'''Julian:''' Oh? {{MC|m=Mister|f=Miss}}, do you know about ''The Adventurous Moles'' too?
+::{{DIcon|Arrow}} I love it!
+:::<!--Custom String Listener: TalkSentence_101028312-->
+:::'''Julian:''' I read ''The Adventurous Moles'' every night before going to bed. My dreams are full of fun adventures!
+:::'''Julian:''' Wait, you're not pretending to like it, are you... let me ask you, who are the three protagonists in the book?
+:::{{DIcon|Arrow}} I confess I haven't read it.
+::::<!--Custom String Listener: TalkSentence_101028315-->
+::::'''Julian:''' I knew it, you have to read ''The Adventurous Moles''. It is full of fun adventures.
+:::{{DIcon|Arrow}} They are a trio that went to a wizarding school...
+::::<!--Custom String Listener: TalkSentence_101028317-->
+::::'''Julian:''' Hmm, interesting, but you're totally wrong! You should do better and read ''The Adventurous Moles''. It is full of fun adventures.
+:::{{DIcon|Arrow}} March 7th, Dan Heng and me.
+::::<!--Custom String Listener: TalkSentence_101028319-->
+::::'''Julian:''' Hmph, you are such a cheeky grownup. You should do better and read ''The Adventurous Moles''.
+::{{DIcon|Arrow}} Sorry, I haven't read it.
+:::<!--Custom String Listener: TalkSentence_101028321-->
+:::'''Julian:''' Then you have to read it. It's full of interesting adventures!
+::{{DIcon|Arrow}} I can't say I like it.
+:::<!--Custom String Listener: TalkSentence_101028323-->
+:::'''Julian:''' Stop pretending. You haven't actually read it at all, have you? Tell me who the three protagonists are in the book.
+:::{{DIcon|Arrow}} I confess I haven't read it.
+::::<!--Custom String Listener: TalkSentence_101028325-->
+::::'''Julian:''' I knew it, you have to read ''The Adventurous Moles''. It is full of fun adventures.
+:::{{DIcon|Arrow}} They are a trio that went to a wizarding school...
+::::<!--Custom String Listener: TalkSentence_101028327-->
+::::'''Julian:''' Hmm, interesting, but you're totally wrong! You should do better and read ''The Adventurous Moles''. It is full of fun adventures.
+:::{{DIcon|Arrow}} March 7th, Dan Heng and me.
+::::<!--Custom String Listener: TalkSentence_101028329-->
+::::'''Julian:''' Hmph, you are such a cheeky grownup. You should do better and read ''The Adventurous Moles''.
+::<!--Custom String Trigger: TalkSentence_101028330-->
+::<!--Custom String Listener: TalkSentence_101028330-->
+::'''Julian:''' There are all kinds of stories in ''The Adventurous Moles''... But this edition is a bit strange. It's only got the preface and the table of contents. Here, read the preface.
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190902
+		}
+	}
+}</pre>
+::'''Julian:''' The author said in the preface {{Color|keyword|nobold=1|"If you follow the clues in the table of contents, you can find the corresponding locations, where you can collect the pages of the book."}}...
+::'''Julian:''' It seems to be saying that this edition is meant to have book pages, but they are hidden somewhere, and we have to use the table of contents to find clues about those hidden pages.
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190901
+		}
+	}
+}</pre>
+::'''Julian:''' Look at the chapter "The Missing Miner's Lamp." It says: {{Color|keyword|nobold=1|"In the Great Mine of Boulder Town..."}} Is that where some of the missing pages are?
+::'''Julian:''' I haven't found anything, and I'm not even sure whether it's really true. But {{MC|m=mister|f=miss}}, if you'd like to know more about ''The Adventurous Moles'', then I can tell you all about that.
+::<!--Custom String Trigger: Wait_Option_201110599_54-->
+::<!--Custom String Listener: Wait_Option_201110599_54-->
+::{{DIcon|Talk}} What is ''The Adventurous Moles'' about?
+:::<!--Custom String Listener: TalkSentence_101028336-->
+:::'''Julian:''' ''The Adventurous Moles'' has all kinds of great adventures. The Moles would often go into primitive jungles, lost cities, and even outer space...
+:::{{DIcon|Return}} Is there a jungle in Belobog?
+::::<!--Custom String Listener: TalkSentence_101028338-->
+::::'''Julian:''' Do grownups have no imagination? The adventures can be fictional, you know.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Do you believe in the stuff written in the book?
+::::<!--Custom String Listener: TalkSentence_101028340-->
+::::'''Julian:''' Of course I do!
+::::'''Julian:''' You probably think the things written in children's books are made up. Humph, you grownups just don't know better.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is so interesting about ''The Adventurous Moles''?
+:::<!--Custom String Listener: TalkSentence_101028343-->
+:::'''Julian:''' All the protagonists in the story are children, but they often achieve things that adults cannot do. And when I read ''The Adventurous Moles'', I feel like I'm on an adventure, too.
+:::'''Julian:''' The author always calls the reader "the fourth little mole," so I am also a member of The Moles.
+:::{{DIcon|Return}} Adventure stories are indeed fun to read.
+::::<!--Custom String Listener: TalkSentence_101028346-->
+::::'''Julian:''' Oh, how I wish I could go on an epic adventure in a fantasy world of magic and swords, with my very own emergency food!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Is that how you guys got the name "The Moles"?
+::::<!--Custom String Listener: TalkSentence_101028348-->
+::::'''Julian:''' ...I am not telling you.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I see. So it's a fairy tale for naughty kids.
+::::<!--Custom String Listener: TalkSentence_101028350-->
+::::'''Julian:''' Humph, you big grownup dum-dum don't know anything.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Who's the lead in ''The Adventurous Moles''?
+:::<!--Custom String Listener: TalkSentence_101028352-->
+:::'''Julian:''' Don't you even know the three little moles?
+:::'''Julian:''' There's Becky, who is so independent and much cooler than boys; Carbine, who is good at invention and crafting; and Pava, who is strong!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let me go and see.
+:::<!--Custom String Listener: TalkSentence_101028355-->
+:::'''Julian:''' {{MC|m=Mister|f=Miss}}, look, the {{Color|keyword|nobold=1|Great Mine}} is mentioned in the table of contents. Maybe there's something there?
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110501-->
+;(If {{cx}}<!--SubMission Started: 201110505--> and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} About ''The Adventurous Moles''...
+::<!--Trigger PerformanceE 201110505: Config/Level/Mission/2011105/Act/Act201110505.json-->
+::'''Julian:''' Wow! {{MC|m=Mister|f=Miss}}, I never expected you to actually find one of the pages of ''The Adventurous Moles''.
+::'''Julian:''' {{MC|m=Mister|f=Miss}}, maybe you can {{Color|keyword|nobold=1|track down all the rest of missing pages with clues from the table of contents!}}
+::{{DIcon|Arrow}} What benefits would there be if I find all the pages?
+:::<!--Custom String Listener: TalkSentence_101028360-->
+:::'''Julian:''' You go find those pages so that you can let me read them.
+:::'''Julian:''' ...But I know what you mean. There's nothing in it for you at all. Only thinking of benefits &mdash; grownups are so greedy for cheap thrills.
+::{{DIcon|Arrow}} I don't know where to look. Help me.
+:::<!--Custom String Listener: TalkSentence_101028363-->
+:::'''Julian:''' If you ask me again nicely, I might think about it.
+:::{{DIcon|Arrow}} Please.
+::::<!--Custom String Listener: TalkSentence_101028365-->
+::::'''Julian:''' Fine, I'll be generous this time.
+::::'''Julian:''' But I don't know where to look either. Otherwise, I would have found them myself. What would I need you for?
+:::{{DIcon|Arrow}} Hmph, you cheeky little brat.
+::::<!--Custom String Listener: TalkSentence_101028368-->
+::::'''Julian:''' Hmph, you big grownup dum-dum. It's not like I wanted to tell you in the first place.
+::<!--Custom String Trigger: TalkSentence_101028369-->
+::<!--Custom String Listener: TalkSentence_101028369-->
+::'''Julian:''' But seriously, {{MC|m=Mister|f=Miss}}, I'm actually starting to look forward to reading all those pages now. Please come and find me whenever you've found them all.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110505-->
+;(If {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} About ''The Adventurous Moles''...
+::<!--Trigger PerformanceE 201110506: Config/Level/Mission/2011105/Act/Act201110506.json-->
+::'''Julian:''' Hmm? So you wanna know where you can find the rest of the missing pages? Well, since you asked nicely, I'll tell you all about it. But don't come blame me if I get anything wrong.
+::'''Julian:''' There are still three more chapters listed in ''The Adventurous Moles&ast;''s table of contents. Which one do you want to ask about?
+::<!--Custom String Trigger: Wait_Option_201110599_105-->
+::<!--Custom String Listener: Wait_Option_201110599_105-->
+::{{DIcon|Talk}} The Unexpected Parchment?
+:::<!--Custom String Listener: TalkSentence_101028374-->
+:::'''Julian:''' "At an open-air café in Backwater Pass..."
+:::'''Julian:''' Backwater Pass, hmmm...? Is that up in the Overworld? And what is an open-air café...
+:::'''Julian:''' ...Don't even try to ask me more. I wouldn't know. You probably should go there to take a look for yourself, and you'll find out soon enough.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} "The Crates Are the Keys"?
+:::<!--Custom String Listener: TalkSentence_101028378-->
+:::'''Julian:''' "In a Rivet Town where storage shelves are placed..."
+:::'''Julian:''' "Rivet Town... a cave with storage shelves..." Could that be Dr. Natasha's pharmacy, next to the orphanage?
+:::'''Julian:''' ...Don't even try to ask me more. I wouldn't know. You probably should go there to take a look for yourself, and you'll find out soon enough.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Treasure Hunt on the Battlefield?
+:::<!--Custom String Listener: TalkSentence_101028382-->
+:::'''Julian:''' "...the trenches deep in the Silvermane Guard Restricted Zone, on the way to the Snow Plains..."
+:::'''Julian:''' The Silvermane Guard Restricted Zone... is that their base? If it leads to the Snow Plains, would that be right in the deepest part of the base?
+:::'''Julian:''' ...Don't even try to ask me more. I wouldn't know. You probably should go there to take a look for yourself, and you'll find out soon enough.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_101028386-->
+:::'''Julian:''' Alright. {{MC|m=Mister|f=Miss}}, remember to come find me once you've found every page.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110506-->
+;(If {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} I collected all of ''The Adventurous Moles''...
+::<!--Trigger PerformanceE 201110510: Config/Level/Mission/2011105/Act/Act201110510.json-->
+::'''Julian:''' WOW! Did you really find them all?
+::'''Julian:''' ... Hey? Isn't there a page of postscript you haven't found yet?
+::{{DIcon|Arrow}} I don't know where to find the postscript.
+::{{DIcon|Arrow}} Who reads the postscript anyway?
+::<!--Custom String Listener: TalkSentence_101028392-->
+::'''Julian:''' I happen to have the postscript here. There you go, take it.
+::'''Julian:''' Now you have collected the whole book of ''The Adventurous Moles'', great job. You did great, {{MC|m=Mister|f=Miss}}, I myself wouldn't have the patience to find all these missing pages.
+::<!--Custom String Trigger: Wait_Option_201110599_132-->
+::<!--Custom String Listener: Wait_Option_201110599_132-->
+::{{DIcon|Talk}} Where did you find the postscript?
+:::<!--Custom String Listener: TalkSentence_101028395-->
+:::'''Julian:''' I didn't find it. I've been going on adventures with The Moles every day. I don't have time to look for ''The Adventurous Moles''.
+:::'''Julian:''' The postscript was given to me by big sister Natasha. You happened to be missing it, so I gave it to you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Surely, you're not that impatient?
+:::<!--Custom String Listener: TalkSentence_101028398-->
+:::'''Julian:''' Hum! Everyone knows that kids are all impatient.
+:::'''Julian:''' Besides, the author writes very slowly. I don't know how long I'll have to wait for the next book.
+:::'''Julian:''' I have a question for you. The more I look forward to something, the longer I have to wait. Is time being slowed down by expectations?
+:::{{DIcon|Return}} Expectation does make waiting longer.
+::::<!--Custom String Listener: TalkSentence_101028402-->
+::::'''Julian:''' Hey, then I should look forward to it less.
+::::'''Julian:''' ... Can I even manage to do that, I wonder?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} No, the author is just being lazy.
+::::<!--Custom String Listener: TalkSentence_101028405-->
+::::'''Julian:''' I see. It seems that I just made an excuse for adults.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Don't you want to read the whole book?
+:::<!--Custom String Listener: TalkSentence_101028407-->
+:::'''Julian:''' ...I do want to read it, but it's boring if it's just me by myself.
+:::'''Julian:''' Oh, {{MC|m=mister|f=miss}}, since you've already collected all the pages for ''The Adventurous Moles'', why don't we bundle them up and give them to a publisher? That way, all children in Belobog can read it.
+:::{{DIcon|Arrow}} Great idea.
+:::{{DIcon|Arrow}} Yet even more errands to run...
+::::<!--Custom String Listener: TalkSentence_101028411-->
+::::'''Julian:''' {{MC|m=Mister|f=Miss}}, you'll definitely hit a payday if you hand the manuscript to a publisher.
+::::<!--Custom String Trigger: TalkSentence_101028412-->
+:::<!--Custom String Listener: TalkSentence_101028412-->
+:::'''Julian:''' Go on, then! The Moles and I can't wait to see the new book getting published.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110510-->
+;(If {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} Did you buy ''The Adventurous Moles''?
+::<!--Trigger PerformanceE 201110515: Config/Level/Mission/2011105/Act/Act201110515.json-->
+::'''Julian:''' Yup, it's great. I read the whole thing in one night.
+::'''Julian:''' Well then, when's the author putting out the next book? Don't tell me they won't tie up all the loose ends? No way!
+::{{DIcon|Arrow}} Such fickle readers.
+:::<!--Custom String Listener: TalkSentence_101028428-->
+:::'''Julian:''' Readers always have been fickle. How can grownups not understand this?
+::{{DIcon|Arrow}} We want another book out NOW!
+:::<!--Custom String Listener: TalkSentence_101028430-->
+:::'''Julian:''' Correct, it'll be too late by the time I grow up!
+:::'''Julian:''' Even though I'll keep reading it once I grow up... I don't care. Just give us a new book, author!
+::<!--Custom String Trigger: TalkSentence_101028432-->
+::<!--Custom String Listener: TalkSentence_101028432-->
+::'''Julian:''' Thanks so much, {{MC|m=mister|f=miss}}. Everybody is super grateful. When you have the time, tell us all about your adventurous stories.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110515-->
+;(If {{cx}}<!--SubMission Started: 201050101-->, {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} Don't you have urgent matters for me?
+::<!--Trigger PerformanceE 201050101: Config/Level/Mission/2010501/Act/Act201050101.json-->
+::{{A|VO Side1 hk1 julian 101.ogg}} '''Julian:''' You! Hey, you, stop! You are now a conscript of The Moles!
+::{{DIcon|Arrow}} Hook's little sidekick...
+:::<!--Custom String Listener: TalkSentence_201212102-->
+:::{{A|VO Side1 hk1 julian 102.ogg}} '''Julian:''' I'm not a sidekick! I'm second-in-command! Argh. You know what? No. This ain't the time.
+::{{DIcon|Arrow}} The young little master of disguise...
+:::<!--Custom String Listener: TalkSentence_201212104-->
+:::{{A|VO Side1 hk1 julian 103.ogg}} '''Julian:''' Heehee, I, Julian of a Thousand Faces... Wait, it's not the time for this!
+::{{DIcon|Arrow}} ...Who are you?
+:::<!--Custom String Listener: TalkSentence_201212123-->
+:::{{A|VO Side1 hk1 julian 104.ogg}} '''Julian:''' You kidding? It's me! The second-in-command of The Moles? Julian of a Thousand&mdash; You know what? No. It ain't the time for this.
+::<!--Custom String Trigger: TalkSentence_201212106-->
+::<!--Custom String Listener: TalkSentence_201212106-->
+::{{A|VO Side1 hk1 julian 105.ogg}} '''Julian:''' We got trouble! The boss went to the Great Mine alone with her Diggertron!
+::{{A|VO Side1 hk1 julian 106.ogg}} '''Julian:''' And she refused to let anyone go with her. I feel like she's doing something dangerous... You have to go check on her for us!
+::{{DIcon|Arrow}} Why would she go to the mines?
+:::<!--Custom String Listener: TalkSentence_201212108-->
+:::{{A|VO Side1 hk1 julian 107.ogg}} '''Julian:''' Fersman is in the mines. It seems like the boss heard some bad news about him, then just ran in there.
+:::{{A|VO Side1 hk1 julian 108.ogg}} '''Julian:''' She even took her Diggertron. Is she preparing for a fight with the Vagrants...
+:::{{A|VO Side1 hk1 julian 109.ogg}} '''Julian:''' There's lots of bad guys in the mines. Miss Natasha said kids ain't allowed to go in! Go check on her for us now!
+::{{DIcon|Arrow}} Diggertron?
+:::<!--Custom String Listener: TalkSentence_201212114-->
+:::{{A|VO Side1 hk1 julian 111.ogg}} '''Julian:''' Diggertron is Diggertron! As long as the boss has it with her, you can expect a good fight...
+:::{{A|VO Side1 hk1 julian 107.ogg}} '''Julian:''' Fersman is in the mines. It seems like the boss heard some bad news about him, then just ran in there.
+:::{{A|VO Side1 hk1 julian 113.ogg}} '''Julian:''' There's lots of bad guys in the mines. Miss Natasha said kids ain't allowed to go in! Go check on her for us now!
+::{{DIcon|Arrow}} Who is Fersman?
+::<!--Custom String Listener: TalkSentence_201212112-->
+::{{A|VO Side1 hk1 julian 110.ogg}} '''Julian:''' He's Hook's daddy, and he's like a daddy to everyone in The Moles! He's like... a great person!
+::{{DIcon|Arrow}} Don't worry, I'll head there right away.
+::{{DIcon|Arrow}} Why would I take orders from a little...
+:::<!--Custom String Listener: TalkSentence_201212121-->
+:::{{A|VO Side1 hk1 julian 115.ogg}} '''Julian:''' Someone's life is at risk! Forget the minor details!
+:::<!--Custom String Trigger: TalkSentence_201212120-->
+::{{DIcon|Arrow}} Alright, I'll go help Pitch-Dark Hook the Great.
+::<!--Custom String Listener: TalkSentence_201212120-->
+::{{A|VO Side1 hk1 julian 116.ogg}} '''Julian:''' Thank you! Please hurry!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201050101-->
+;(If {{cx}}<!--SubMission Started: 301101101-->, {{cx}}<!--SubMission Started: 201050101-->, {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} I heard you're looking for me?
+::<!--Trigger PerformanceE 301101101: Config/Level/Mission/3011011/Act/Act301101101.json-->
+::<!--Custom String Trigger: TalkSentence_301100102-->
+::<!--Custom String Listener: TalkSentence_301100102-->
+::'''Julian:''' Hey, (Trailblazer)! Come over here &mdash; don't make any sound!
+::<!--Custom String Trigger: Wait_Option_301100101_9-->
+::<!--Custom String Listener: Wait_Option_301100101_9-->
+::{{DIcon|Arrow}} Are we playing hide-and-seek again?
+:::<!--Custom String Listener: TalkSentence_301100104-->
+:::'''Julian:''' Nah, this time we are going to do something much more fun than hide-and-seek!
+::{{DIcon|Arrow}} How come you are always sneaking around...
+:::<!--Custom String Listener: TalkSentence_301100106-->
+:::'''Julian:''' What do you mean by sneaking around! I'm the cadre in charge of making plans for The Moles. Covert operations are what I do.
+::<!--Custom String Trigger: TalkSentence_301100107-->
+::<!--Custom String Listener: TalkSentence_301100107-->
+::'''Julian:''' Let me tell you, today we have a top-secret mission! As an honorary member of The Moles, you are now being commandeered by me!
+::<!--Custom String Trigger: Wait_Option_301100101_16-->
+::<!--Custom String Listener: Wait_Option_301100101_16-->
+::{{DIcon|Arrow}} Can I say no?
+:::<!--Custom String Listener: TalkSentence_301100109-->
+:::'''Julian:''' Of course not!
+::{{DIcon|Arrow}} It's all up to you, boss.
+:::<!--Custom String Listener: TalkSentence_301100111-->
+:::'''Julian:''' Wh&mdash;what boss? Don't talk nonsense! I will be in trouble if Boss Hook heard it.
+::<!--Custom String Trigger: TalkSentence_301100112-->
+::<!--Custom String Listener: TalkSentence_301100112-->
+::'''Julian:''' Enough chitchat. We're losing the daylight. We can't mess this up.
+::'''Julian:''' Let's go! To the secret gathering place of Wildfire!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301101101-->
+;(If {{cx}}<!--SubMission Started: 301101201-->, {{cx}}<!--SubMission Started: 301101101-->, {{cx}}<!--SubMission Started: 201050101-->, {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} I heard you're looking for me?
+::<!--Trigger PerformanceE 301101201: Config/Level/Mission/3011012/Act/Act301101201.json-->
+::<!--Custom String Trigger: TalkSentence_301100502-->
+::<!--Custom String Listener: TalkSentence_301100502-->
+::'''Julian:''' Hey, honorary member (Trailblazer)! Here, here, come here!
+::<!--Custom String Trigger: Wait_Option_301100201_9-->
+::<!--Custom String Listener: Wait_Option_301100201_9-->
+::{{DIcon|Arrow}} Yikes, it's you again...
+:::<!--Custom String Listener: TalkSentence_301100504-->
+:::'''Julian:''' What's that attitude? Sharpen up! And that is an order!
+::{{DIcon|Arrow}} Hats off to you, Captain Julian!
+:::<!--Custom String Listener: TalkSentence_301100506-->
+:::'''Julian:''' Huh? Oh, okay... At ease! Er, why are you so polite all of a sudden, I'm not used to this!
+::<!--Custom String Trigger: TalkSentence_301100507-->
+::<!--Custom String Listener: TalkSentence_301100507-->
+::'''Julian:''' You haven't forgotten The Moles Reinvigoration Plan, have you? Let me tell you, according to my informant's report, Wildfire needs to send lots of supplies today &mdash; isn't this a good time for The Moles to make a move?
+::<!--Custom String Trigger: Wait_Option_301100201_16-->
+::<!--Custom String Listener: Wait_Option_301100201_16-->
+::{{DIcon|Arrow}} Who is your informant?
+:::<!--Custom String Listener: TalkSentence_301100509-->
+:::'''Julian:''' It's... Uh, no, I can't tell you! As the Chief Intelligence Officer of The Moles, it is my duty to protect the informant!
+::{{DIcon|Arrow}} What plan was that, I forgot...
+:::<!--Custom String Listener: TalkSentence_301100511-->
+:::'''Julian:''' Ugh, do all grown-ups have such bad memory?
+:::'''Julian:''' Then I'll explain it to you again &mdash; The Moles Reinvigoration Plan is to find the work that Wildfire has neglected and take it up right away!
+:::'''Julian:''' If we keep doing this, The Moles will soon build a reputation in the Underworld, and maybe one day replace Wildfire! Hehe...
+::<!--Custom String Trigger: TalkSentence_301100514-->
+::<!--Custom String Listener: TalkSentence_301100514-->
+::'''Julian:''' Alright, that's enough talk. Let's go to the secret gathering place of Wildfire and see what's going on.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301101201-->
+;(If {{cx}}<!--SubMission Started: 301101301-->, {{cx}}<!--SubMission Started: 301101201-->, {{cx}}<!--SubMission Started: 301101101-->, {{cx}}<!--SubMission Started: 201050101-->, {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} I heard you're looking for me?
+::<!--Trigger PerformanceE 301101301: Config/Level/Mission/3011013/Act/Act301101301.json-->
+::<!--Custom String Trigger: TalkSentence_301101002-->
+::<!--Custom String Listener: TalkSentence_301101002-->
+::'''Julian:''' Honorary member (Trailblazer), here!
+::'''Julian:''' Hehe, I bumped into you again! You always show up at the right time. This is just perfect.
+::<!--Custom String Trigger: Wait_Option_301100301_10-->
+::<!--Custom String Listener: Wait_Option_301100301_10-->
+::{{DIcon|Arrow}} Have you been stalking me?
+:::<!--Custom String Listener: TalkSentence_301101005-->
+:::'''Julian:''' Wh&mdash;What are you talking about? You can't just say things like that without any proof...
+::{{DIcon|Arrow}} Captain, what can I do for you?
+:::<!--Custom String Listener: TalkSentence_301101007-->
+:::'''Julian:''' At ease, honorary member! Let me tell you the details...
+::<!--Custom String Trigger: TalkSentence_301101008-->
+::<!--Custom String Listener: TalkSentence_301101008-->
+::'''Julian:''' I got news from my informant that Wildfire received a large number of delivery orders today, and has been overwhelmed by the workload.
+::'''Julian:''' According to my wise judgment, this is a good opportunity for The Moles, (Trailblazer)! If we can deliver all the orders that they can't handle in time...
+::'''Julian:''' ...Then the goal of The Moles Reinvigoration Plan might be achieved ahead of schedule, isn't it great?
+::<!--Custom String Trigger: Wait_Option_301100301_19-->
+::<!--Custom String Listener: Wait_Option_301100301_19-->
+::{{DIcon|Arrow}} I have an addiction to package delivery...
+::{{DIcon|Arrow}} Healthy competition is always good.
+::<!--Custom String Listener: TalkSentence_301101013-->
+::'''Julian:''' Hmm, you seem to like saying strange things... You think I won't understand just because I'm a kid?
+::'''Julian:''' Alright alright, that's enough chat. Time to go to Wildfire's turf and gather some intel!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301101301-->
+;(If {{cx}}<!--SubMission Started: 301101401-->, {{cx}}<!--SubMission Started: 301101301-->, {{cx}}<!--SubMission Started: 301101201-->, {{cx}}<!--SubMission Started: 301101101-->, {{cx}}<!--SubMission Started: 201050101-->, {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon|undefined}} I heard you're looking for me?
+::<!--Trigger PerformanceE 301101401: Config/Level/Mission/3011014/Act/Act301101401.json-->
+::'''Julian:''' Hey, honorary member (Trailblazer)! Quick, come here! We have a new mission!
+::'''Julian:''' The Moles' Reinvigoration Plan has reached a critical stage! We must carry forward the spirit of the Moles advocated by Boss Hook! Now's no time to waver! March onward!
+::{{DIcon|Arrow}} ...Seems you learned a lot of new mottos lately.
+:::<!--Custom String Listener: TalkSentence_301101504-->
+:::'''Julian:''' That's beside the point! The point is to recite the original words spoken by Boss Hook!
+::{{DIcon|Arrow}} No time... Hard work... Onward!
+:::<!--Custom String Listener: TalkSentence_301101506-->
+:::'''Julian:''' Not bad for an honorary member! That's the spirit!
+::<!--Custom String Trigger: TalkSentence_301101507-->
+::<!--Custom String Listener: TalkSentence_301101507-->
+::'''Julian:''' My source told me earlier that Wildfire just accumulated another batch of goods that needs to be delivered, but they haven't been able to ship them out because of staffing constraints.
+::'''Julian:''' Isn't this our chance? Come on, let's go to Wildfire's Gathering Place and see what's going on!
+::{{DIcon|Arrow}} This is all a scheme by Wildfire...
+:::<!--Custom String Listener: TalkSentence_301101510-->
+:::'''Julian:''' What? Scheming? That's quite the imagination you've got there.
+:::'''Julian:''' Let's go! We have to act quickly before Wildfire has a chance to react!
+::{{DIcon|Arrow}} Lead the way then.
+:::<!--Custom String Listener: TalkSentence_301101513-->
+:::'''Julian:''' Let's get on with it. We have to act quickly before Wildfire has a chance to react!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301101401-->
+;(If {{Mission|Old Foreman's Treasure|showChapter=0}} has been completed and {{cx}}<!--performance 501028206 has been seen-->, {{cx}}<!--SubMission Started: 301101401-->, {{cx}}<!--SubMission Started: 301101301-->, {{cx}}<!--SubMission Started: 301101201-->, {{cx}}<!--SubMission Started: 301101101-->, {{cx}}<!--SubMission Started: 201050101-->, {{cx}}<!--SubMission Finish: 201110514--> and {{cx}}<!--performance 201110515 has been seen-->, {{cx}}<!--SubMission Started: 201110510-->, {{cx}}<!--SubMission Started: 201110506-->, {{cx}}<!--SubMission Started: 201110505-->, and {{cx}}<!--SubMission Started: 201110501-->)
+:{{DIcon}} I sorted things out with Fersman.
+::<!--Trigger PerformanceE 501028206: Config/Level/Mission/5010282/Act/Act501028206.json-->
+::'''Julian:''' Oh, that's great! No wonder Hook made you an honorary member. Thank you, {{MC|f=miss|m=mister}}!
+::'''Julian:''' But if everything's sorted... Why has Hook been bawling her eyes out?
+::{{DIcon|Arrow}} Because a father and daughter's love knows no bounds.
+:::<!--Custom String Listener: TalkSentence_501028260-->
+:::'''Julian:''' ...Sounds like lots of water under the bridge. I'll wait for Hook to be in a better mood before I ask her about it.
+::{{DIcon|Arrow}} Don't stick your beak into ladies' affairs.
+:::<!--Custom String Listener: TalkSentence_501028262-->
+:::'''Julian:''' ...You're right. I'm not gonna do it anymore.
+::<!--Custom String Trigger: TalkSentence_501028263-->
+::<!--Custom String Listener: TalkSentence_501028263-->
+::'''Julian:''' After all, Fersman's problem is the Moles' problem, too. And as the Moles' deputy, I really must praise you, o trusty honorary member!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028206-->
+:{{DIcon}} I'm wondering...
+::<!--Trigger PerformanceE 501028203: Config/Level/Mission/5010282/Act/Act501028203.json-->
+::<!--Custom String Trigger: Wait_Option_5010282_33-->
+::<!--Custom String Listener: Wait_Option_5010282_33-->
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_501028220-->
+:::'''Julian:''' Hmmm... you seriously do not understand.
+:::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::<!--Custom String Listener: TalkSentence_501028223-->
+::::'''Julian:''' Well... um... your praise doesn't excite me...
+::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::<!--Custom String Listener: TalkSentence_501028226-->
+::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you practicing magic?
+::::<!--Custom String Listener: TalkSentence_501028225-->
+::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::<!--Custom String Listener: TalkSentence_501028226-->
+::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How exactly do you disguise yourself?
+:::<!--Custom String Listener: TalkSentence_501028228-->
+:::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+:::<!--Custom String Trigger: Wait_Option_5010282_46-->
+:::<!--Custom String Listener: Wait_Option_5010282_46-->
+:::{{DIcon|Arrow}} Can't you tell me? Please?
+::::<!--Custom String Listener: TalkSentence_501028230-->
+::::'''Julian:''' No! That's one of The Moles' most important secrets!
+::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::{{DIcon|Arrow}} Actually, Hook sent me...
+::::<!--Custom String Listener: TalkSentence_501028233-->
+::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::;(Return to previous option selection (cloneCheckString))
+::;(All choices lead to the following options)
+:::{{DIcon|Arrow}} Hmm... You win.
+:::{{DIcon|Arrow}} All right, I give up.
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'm okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028203-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501028205: Config/Level/Mission/5010282/Act/Act501028205.json-->
+::'''Julian:''' Oh, do you mean me, {{MC|f=miss|m=mister}}? Me, I'm... fresh out of snow-white popping candy.
+::{{DIcon|Arrow}} I wasn't asking about that...
+:::<!--Custom String Listener: TalkSentence_501028248-->
+:::'''Julian:''' Oh... well, there's nothing much going on with me. Just questing with Hook, and practicing my camouflage skills! That's about it.
+:::'''Julian:''' Why, has something really big happened? If so, please tell me &mdash; and I'll report back to Hook about it!
+::{{DIcon|Arrow}} What on earth is this snow-white popping candy?
+:::<!--Custom String Listener: TalkSentence_501028251-->
+:::'''Julian:''' You don't know? It's the most popular snack in all Boulder Town right now! It's not like other candies, because it goes POP POP in your mouth! Awesome, huh?
+:::'''Julian:''' Hmm, grown-ups these days really have no idea. Too bad I've finished it all. You can have some next time &mdash; but... you'll have to trade me some information for it!
+::<!--Custom String Trigger: Wait_Option_501029105_18-->
+::<!--Custom String Listener: Wait_Option_501029105_18-->
+::{{DIcon|Arrow}} The Overworld and the Underworld are going to be reunited.
+::<!--Custom String Listener: TalkSentence_501028254-->
+::'''Julian:''' Ah, the Moles already knew all that! {{MC|f=Miss|m=Mister}}, you should know we're smarter than that!
+::'''Julian:''' If you can bring me some more popping candy, I'll tell you how to collect the hottest gossip about the Underworld!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028205-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Have fun. See you.
+::<!--Trigger PerformanceE 501028204: Config/Level/Mission/5010282/Act/Act501028204.json-->
+::'''Julian:''' Bye! If you want to learn the disguise technique, bring me some popping candy!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028204-->
+;(Unused &mdash; Wait_Option_5010282_30)
+:<!--Custom String Listener: Wait_Option_5010282_30-->
+::{{DIcon|Arrow}} I'm wondering...
+::<!--Custom String Listener: Wait_Option_5010282_33-->
+::<!--Custom String Listener: Wait_Option_5010282_33-->
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_501028220-->
+:::<!--Custom String Listener: TalkSentence_501028220-->
+:::'''Julian:''' Hmmm... you seriously do not understand.
+:::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::<!--Custom String Listener: TalkSentence_501028223-->
+::::<!--Custom String Listener: TalkSentence_501028223-->
+::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::{{DIcon|Arrow}} Are you practicing magic?
+::::<!--Custom String Listener: TalkSentence_501028225-->
+::::<!--Custom String Listener: TalkSentence_501028225-->
+::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::<!--Custom String Trigger: TalkSentence_501028226-->
+:::<!--Custom String Listener: TalkSentence_501028226-->
+:::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} How exactly do you disguise yourself?
+::::<!--Custom String Listener: TalkSentence_501028228-->
+::::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+::::<!--Custom String Trigger: Wait_Option_5010282_46-->
+::::<!--Custom String Listener: Wait_Option_5010282_46-->
+::::{{DIcon|Arrow}} Can't you tell me? Please?
+:::::<!--Custom String Listener: TalkSentence_501028230-->
+:::::'''Julian:''' No! That's one of The Moles' most important secrets!
+:::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::{{DIcon|Arrow}} Actually, Hook sent me...
+:::::<!--Custom String Listener: TalkSentence_501028233-->
+:::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+:::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+:::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: TalkSentence_501028238-->
+:::::'''Julian:''' Good. It's better for you to not know everything.
+:::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(All choices lead to the following options)
+::::{{DIcon|Arrow}} Hmm... You win.
+::::{{DIcon|Arrow}} All right, I give up.
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::<!--Custom String Listener: TalkSentence_501028223-->
+::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::{{DIcon|Arrow}} Are you practicing magic?
+::::<!--Custom String Listener: TalkSentence_501028225-->
+::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::<!--Custom String Trigger: TalkSentence_501028226-->
+:::<!--Custom String Listener: TalkSentence_501028226-->
+:::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} How exactly do you disguise yourself?
+::::<!--Custom String Listener: TalkSentence_501028228-->
+::::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+::::<!--Custom String Trigger: Wait_Option_5010282_46-->
+::::<!--Custom String Listener: Wait_Option_5010282_46-->
+::::{{DIcon|Arrow}} Can't you tell me? Please?
+:::::<!--Custom String Listener: TalkSentence_501028230-->
+:::::'''Julian:''' No! That's one of The Moles' most important secrets!
+:::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::{{DIcon|Arrow}} Actually, Hook sent me...
+:::::<!--Custom String Listener: TalkSentence_501028233-->
+:::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+:::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+:::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: TalkSentence_501028238-->
+:::::'''Julian:''' Good. It's better for you to not know everything.
+:::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(All choices lead to the following options)
+::::{{DIcon|Arrow}} Hmm... You win.
+::::{{DIcon|Arrow}} All right, I give up.
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Julian:''' Hmmm... you seriously do not understand.
+:::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::<!--Custom String Listener: TalkSentence_501028223-->
+::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::{{DIcon|Arrow}} Are you practicing magic?
+::::<!--Custom String Listener: TalkSentence_501028225-->
+::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::<!--Custom String Trigger: TalkSentence_501028226-->
+:::<!--Custom String Listener: TalkSentence_501028226-->
+:::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} How exactly do you disguise yourself?
+::::<!--Custom String Listener: TalkSentence_501028228-->
+::::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+::::<!--Custom String Trigger: Wait_Option_5010282_46-->
+::::<!--Custom String Listener: Wait_Option_5010282_46-->
+::::{{DIcon|Arrow}} Can't you tell me? Please?
+:::::<!--Custom String Listener: TalkSentence_501028230-->
+:::::'''Julian:''' No! That's one of The Moles' most important secrets!
+:::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::{{DIcon|Arrow}} Actually, Hook sent me...
+:::::<!--Custom String Listener: TalkSentence_501028233-->
+:::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+:::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+:::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: TalkSentence_501028238-->
+:::::'''Julian:''' Good. It's better for you to not know everything.
+:::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(All choices lead to the following options)
+::::{{DIcon|Arrow}} Hmm... You win.
+::::{{DIcon|Arrow}} All right, I give up.
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} How exactly do you disguise yourself?
+:::<!--Custom String Listener: TalkSentence_501028228-->
+:::<!--Custom String Listener: TalkSentence_501028228-->
+:::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+:::<!--Custom String Trigger: Wait_Option_5010282_46-->
+:::<!--Custom String Listener: Wait_Option_5010282_46-->
+:::<!--Custom String Listener: Wait_Option_5010282_46-->
+:::{{DIcon|Arrow}} Can't you tell me? Please?
+::::<!--Custom String Listener: TalkSentence_501028230-->
+::::<!--Custom String Listener: TalkSentence_501028230-->
+::::'''Julian:''' No! That's one of The Moles' most important secrets!
+::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::{{DIcon|Arrow}} Actually, Hook sent me...
+::::<!--Custom String Listener: TalkSentence_501028233-->
+::::<!--Custom String Listener: TalkSentence_501028233-->
+::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::<!--Custom String Trigger: Wait_Option_5010282_33-->
+::::<!--Custom String Listener: Wait_Option_5010282_33-->
+::::{{DIcon|Talk}} What are you doing here?
+:::::<!--Custom String Listener: TalkSentence_501028220-->
+:::::'''Julian:''' Hmmm... you seriously do not understand.
+:::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::::<!--Custom String Listener: TalkSentence_501028223-->
+::::::'''Julian:''' Well... um... your praise doesn't excite me...
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Are you practicing magic?
+::::::<!--Custom String Listener: TalkSentence_501028225-->
+::::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I'm okay.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::<!--Custom String Trigger: Wait_Option_5010282_33-->
+::::<!--Custom String Listener: Wait_Option_5010282_33-->
+::::{{DIcon|Talk}} What are you doing here?
+:::::<!--Custom String Listener: TalkSentence_501028220-->
+:::::'''Julian:''' Hmmm... you seriously do not understand.
+:::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::::<!--Custom String Listener: TalkSentence_501028223-->
+::::::'''Julian:''' Well... um... your praise doesn't excite me...
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Are you practicing magic?
+::::::<!--Custom String Listener: TalkSentence_501028225-->
+::::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I'm okay.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Hmm... You win.
+::::{{DIcon|Arrow}} All right, I give up.
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::<!--Custom String Trigger: Wait_Option_5010282_33-->
+::::<!--Custom String Listener: Wait_Option_5010282_33-->
+::::{{DIcon|Talk}} What are you doing here?
+:::::<!--Custom String Listener: TalkSentence_501028220-->
+:::::'''Julian:''' Hmmm... you seriously do not understand.
+:::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::::<!--Custom String Listener: TalkSentence_501028223-->
+::::::'''Julian:''' Well... um... your praise doesn't excite me...
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Are you practicing magic?
+::::::<!--Custom String Listener: TalkSentence_501028225-->
+::::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I'm okay.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::{{DIcon|Arrow}} Hmm... You win.
+::::{{DIcon|Arrow}} All right, I give up.
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::<!--Custom String Trigger: Wait_Option_5010282_33-->
+::::<!--Custom String Listener: Wait_Option_5010282_33-->
+::::{{DIcon|Talk}} What are you doing here?
+:::::<!--Custom String Listener: TalkSentence_501028220-->
+:::::'''Julian:''' Hmmm... you seriously do not understand.
+:::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::::<!--Custom String Listener: TalkSentence_501028223-->
+::::::'''Julian:''' Well... um... your praise doesn't excite me...
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Are you practicing magic?
+::::::<!--Custom String Listener: TalkSentence_501028225-->
+::::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+::::::<!--Custom String Trigger: TalkSentence_501028226-->
+::::::<!--Custom String Listener: TalkSentence_501028226-->
+::::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I'm okay.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::;(All choices lead to the following options)
+:::{{DIcon|Arrow}} Hmm... You win.
+:::{{DIcon|Arrow}} All right, I give up.
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+:::{{DIcon|Talk}} What are you doing here?
+::::<!--Custom String Listener: TalkSentence_501028220-->
+::::'''Julian:''' Hmmm... you seriously do not understand.
+::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+::::<!--Custom String Listener: Wait_Option_5010282_37-->
+::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+:::::<!--Custom String Listener: TalkSentence_501028223-->
+:::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Are you practicing magic?
+:::::<!--Custom String Listener: TalkSentence_501028225-->
+:::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+:::{{DIcon|Talk}} What are you doing here?
+::::<!--Custom String Listener: TalkSentence_501028220-->
+::::'''Julian:''' Hmmm... you seriously do not understand.
+::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+::::<!--Custom String Listener: Wait_Option_5010282_37-->
+::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+:::::<!--Custom String Listener: TalkSentence_501028223-->
+:::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Are you practicing magic?
+:::::<!--Custom String Listener: TalkSentence_501028225-->
+:::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Hmm... You win.
+:::{{DIcon|Arrow}} All right, I give up.
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+:::{{DIcon|Talk}} What are you doing here?
+::::<!--Custom String Listener: TalkSentence_501028220-->
+::::'''Julian:''' Hmmm... you seriously do not understand.
+::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+::::<!--Custom String Listener: Wait_Option_5010282_37-->
+::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+:::::<!--Custom String Listener: TalkSentence_501028223-->
+:::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Are you practicing magic?
+:::::<!--Custom String Listener: TalkSentence_501028225-->
+:::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Julian:''' No! That's one of The Moles' most important secrets!
+:::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::{{DIcon|Arrow}} Hmm... You win.
+:::{{DIcon|Arrow}} All right, I give up.
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+:::{{DIcon|Talk}} What are you doing here?
+::::<!--Custom String Listener: TalkSentence_501028220-->
+::::'''Julian:''' Hmmm... you seriously do not understand.
+::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+::::<!--Custom String Listener: Wait_Option_5010282_37-->
+::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+:::::<!--Custom String Listener: TalkSentence_501028223-->
+:::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Are you practicing magic?
+:::::<!--Custom String Listener: TalkSentence_501028225-->
+:::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_501028220-->
+:::'''Julian:''' Hmmm... you seriously do not understand.
+:::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+:::<!--Custom String Trigger: Wait_Option_5010282_37-->
+:::<!--Custom String Listener: Wait_Option_5010282_37-->
+:::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+::::<!--Custom String Listener: TalkSentence_501028223-->
+::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::{{DIcon|Arrow}} Are you practicing magic?
+::::<!--Custom String Listener: TalkSentence_501028225-->
+::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::<!--Custom String Trigger: TalkSentence_501028226-->
+:::<!--Custom String Listener: TalkSentence_501028226-->
+:::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How exactly do you disguise yourself?
+::::<!--Custom String Listener: TalkSentence_501028228-->
+::::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+::::<!--Custom String Trigger: Wait_Option_5010282_46-->
+::::<!--Custom String Listener: Wait_Option_5010282_46-->
+::::{{DIcon|Arrow}} Can't you tell me? Please?
+:::::<!--Custom String Listener: TalkSentence_501028230-->
+:::::'''Julian:''' No! That's one of The Moles' most important secrets!
+:::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+::::{{DIcon|Arrow}} Actually, Hook sent me...
+:::::<!--Custom String Listener: TalkSentence_501028233-->
+:::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+:::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+:::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+:::::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::::<!--Custom String Listener: TalkSentence_501028238-->
+:::::'''Julian:''' Good. It's better for you to not know everything.
+:::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+::::;(Return to previous option selection (cloneCheckString))
+:::;(All choices lead to the following options)
+::::{{DIcon|Arrow}} Hmm... You win.
+::::{{DIcon|Arrow}} All right, I give up.
+::::<!--Custom String Listener: TalkSentence_501028238-->
+::::'''Julian:''' Good. It's better for you to not know everything.
+::::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} How exactly do you disguise yourself?
+:::<!--Custom String Listener: TalkSentence_501028228-->
+:::'''Julian:''' Hmm... It's a secret. I'm not going to tell you...
+:::<!--Custom String Trigger: Wait_Option_5010282_46-->
+:::<!--Custom String Listener: Wait_Option_5010282_46-->
+:::{{DIcon|Arrow}} Can't you tell me? Please?
+::::<!--Custom String Listener: TalkSentence_501028230-->
+::::'''Julian:''' No! That's one of The Moles' most important secrets!
+::::'''Julian:''' As the right-hand man to Boss Hook, I would never reveal such important information! You might as well give up!
+:::{{DIcon|Arrow}} Actually, Hook sent me...
+::::<!--Custom String Listener: TalkSentence_501028233-->
+::::'''Julian:''' Hook? I mean... Pitch-Dark Hook the Great! How dare you address her by just that name!
+::::'''Julian:''' Hmph, I won't be fooled by that excuse! If Boss Hook wanted to know anything from me, she would ask me herself!
+::::'''Julian:''' Haha, your pathetic face tells me that... I saw through your trick.
+:::<!--Custom String Trigger: Wait_Option_5010282_55-->
+:::<!--Custom String Listener: Wait_Option_5010282_55-->
+:::{{DIcon|Arrow}} Hmm... You win.
+:::{{DIcon|Arrow}} All right, I give up.
+:::<!--Custom String Listener: TalkSentence_501028238-->
+:::'''Julian:''' Good. It's better for you to not know everything.
+:::'''Julian:''' If you can bring me a thousand packets of snow-white popping candy... I'll consider teaching you my disguise technique!
+:::<!--Custom String Trigger: Wait_Option_5010282_33-->
+:::<!--Custom String Listener: Wait_Option_5010282_33-->
+:::{{DIcon|Talk}} What are you doing here?
+::::<!--Custom String Listener: TalkSentence_501028220-->
+::::'''Julian:''' Hmmm... you seriously do not understand.
+::::'''Julian:''' I, Julian of a Thousand Faces, am honing my own disguise skills!
+::::<!--Custom String Trigger: Wait_Option_5010282_37-->
+::::<!--Custom String Listener: Wait_Option_5010282_37-->
+::::{{DIcon|Arrow}} But you're very skilled already, aren't you?
+:::::<!--Custom String Listener: TalkSentence_501028223-->
+:::::'''Julian:''' Well... um... your praise doesn't excite me...
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Are you practicing magic?
+:::::<!--Custom String Listener: TalkSentence_501028225-->
+:::::'''Julian:''' Magic? No. Magic doesn't exist. My disguise is based on pure craftsmanship and skill!
+:::::<!--Custom String Trigger: TalkSentence_501028226-->
+:::::<!--Custom String Listener: TalkSentence_501028226-->
+:::::'''Julian:''' ...Anyway, the next time we play hide-and-seek, you won't be able to find me! I am 100% sure of that!
+::::;(Return to previous option selection (cloneCheckString))
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Julian
+|zhs  = 尤利安
+|zht  = 尤利安
+|ja   = ジュリアン
+|ko   = 줄리안
+|es   = Julian
+|fr   = Julian
+|ru   = Джулиан
+|th   = Julian
+|vi   = Julian
+|de   = Julian
+|id   = Julian
+|pt   = Julian
+}}
+==Change History==
+{{Change History|TODO}}

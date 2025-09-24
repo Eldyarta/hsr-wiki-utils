@@ -1,0 +1,136 @@
+<%-- [PAGE_INFO]
+PageTitle=#Marcus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Braggart"
+|image           = NPC Marcus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Marcus''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_322_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504019001: Config/Level/Mission/5040190/Act/Act504019001.json-->
+::'''Marcus:''' That arrow, it pierced its eye... No, it was its heart...
+::'''Marcus:''' Ah! Who are you? A messenger sent by Thanatos? I... I am not ready yet!
+::{{DIcon|Arrow}} Calm down. I'm just a passerby.
+::{{DIcon|Arrow}} Thanatos? What are you talking about?
+::<!--Custom String Listener: TalkSentence_504019006-->
+::'''Marcus:''' I see... My apologies. I sometimes struggle to tell the difference between reality and fantasy. You're new to Okhema, right? I am Marcus, and I used to be a border guard.
+::'''Marcus:''' I should have been taken by the black tide... Why did it leave me behind?
+::{{DIcon|Arrow}} Can you tell me what happened?
+:::<!--Custom String Listener: TalkSentence_504019009-->
+:::'''Marcus:''' What happened...? I, I... I can't quite remember... I just remember... That day, the black tide came. Wait, why were we there again?
+::{{DIcon|Arrow}} Are you okay? Do you need help?
+:::<!--Custom String Listener: TalkSentence_504019011-->
+:::'''Marcus:''' I'm okay. I just... My head hurts... The past is a blur. Give me a moment...
+::<!--Custom String Trigger: TalkSentence_504019012-->
+::<!--Custom String Listener: TalkSentence_504019012-->
+::'''Marcus:''' I remember... That day, the black tide attacked, and we were ordered to guard the border.
+::'''Marcus:''' The sky was suddenly eclipsed by the Veil of Evernight as the prophecy of Oronyx came to pass. Then... Then the monsters appeared. Endless numbers of them...
+::'''Marcus:''' My allies, my captain... They were devoured by the black tide one-by-one. No! That's not right! The light of Aquila dispelled the darkness! I remember we were actually victorious!
+::'''Marcus:''' Do you believe me? We were victorious, weren't we? Kephale will praise us for our courage, won't they?
+::{{DIcon|Arrow}} I believe you. You were extremely courageous.
+:::<!--Custom String Listener: TalkSentence_504019017-->
+:::'''Marcus:''' Really? Thank you... The people around here don't trust me very much. Only you and a very small number of people believe me. Thank you. So few are ever willing to listen to me talk about this.
+::{{DIcon|Arrow}} Maybe you need to see a doctor?
+:::<!--Custom String Listener: TalkSentence_504019019-->
+:::'''Marcus:''' A doctor? No, only Thanatos can bring me peace... But I am not ready yet. I cannot close my eyes yet. Every time I do, I see them all being devoured by the black tide...
+::<!--Custom String Trigger: TalkSentence_504019020-->
+::<!--Custom String Listener: TalkSentence_504019020-->
+::'''Marcus:''' I keep thinking... Those people that were taken... Have they already found peace in the kingdom of Thanatos?
+::'''Marcus:''' But I clearly remember... That arrow, it pierced its eye... No, it was its heart... Everyone was saved and we held a feast together! But now... Why am I the only one... that is trapped in this place? Where are they all?
+::'''Marcus:''' Something's not right... I can't remember. I really can't...
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504019002: Config/Level/Mission/5040190/Act/Act504019002.json-->
+::'''Marcus:''' ...I can't remember. I really can't... Oh! It's you! May Janus bless you for coming to speak with me again.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I want to chat with you...
+:::'''Marcus:''' What would you like to chat about? The people here don't really trust me. Very few people are willing to listen to my ramblings.
+:::<!--Custom String Trigger: Wait_Option_504019003_56-->
+:::<!--Custom String Listener: Wait_Option_504019003_56-->
+:::{{DIcon|Talk}} Can you tell me about what you experienced again?
+::::<!--Custom String Listener: TalkSentence_504019204-->
+::::'''Marcus:''' What I experienced? Which part? The part about how we battled bravely under the guidance of Nikador? Or... How we were eventually defeated?
+::::'''Marcus:''' Let me think... One time I came across a group of terrifying black tide creatures. They looked like a kind of giant jellyfish, but they had human faces. Those faces... Those faces looked so familiar to me.
+::::'''Marcus:''' I remember I raised my bow and hit the biggest one. I prayed to Aquila to give me strength and accuracy. Then... Then I fired my arrow and got a direct hit!
+::::'''Marcus:''' But... But that face... No, it can't be! It was my captain's face! No, it couldn't have been!
+::::'''Marcus:''' No, no, no. That's not right. I remember my captain was by my side handing me bow and arrow... Maybe this was all some kind of trick by Zagreus. Maybe we never actually went into battle. Maybe this was all some terrifying dream...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How have you been feeling lately?
+::::<!--Custom String Listener: TalkSentence_504019210-->
+::::'''Marcus:''' Me? I am great. Really great. It's just that I hear voices sometimes... Do you hear them? Those screams?
+::::'''Marcus:''' No, don't pay them any mind. It's probably just the wind. Sometimes I go to the public baths. People say that Phagousa's blessing can cleanse all impurities, but... But why can it never wash away those memories?
+::::'''Marcus:''' Last night, I dreamt that I returned to my hometown. Everything was so quiet and beautiful. Then, suddenly, the black tide poured out from the earth and devoured everything. I wanted to run, but my legs felt heavy.
+::::'''Marcus:''' Sometimes I wish I could be like the Mountain Dwellers. They never seem to be disturbed by nightmares. Perhaps Georios has given them some kind of special blessing?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} If you ever need to talk, you can come to me.
+::::<!--Custom String Listener: TalkSentence_504019215-->
+::::'''Marcus:''' Thank you. Knowing that there is someone here who is willing to listen to me is already a great comfort.
+::::'''Marcus:''' Recently I've been praying to Thanatos like the others do around here. I beg Thanatos to take me and allow me to see my comrades again. However, the only response I ever get is the sound of my own breathing.
+::::'''Marcus:''' Sometimes I imagine where my comrades are now. Perhaps they are sleeping under the protection of Oronyx? Perhaps they have become stars to watch over Amphoreus for the rest of time?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any more questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I've got to go. Talk to you later.
+:::'''Marcus:''' Either way, thank you for coming to see me. Just knowing that there is someone in this world that remembers our past battles is enough for me...
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Marcus
+|zhs  = 马尔库斯
+|zht  = 馬爾庫斯
+|ja   = マルクス
+|ko   = 마커스
+|es   = Marcus
+|fr   = Marcus
+|ru   = Маркус
+|th   = Marcus
+|vi   = Marcus
+|de   = Marcus
+|id   = Marcus
+|pt   = Marcus
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,145 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sabrina#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Border Star Princess
+|image           = NPC Sabrina.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Sabrina''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_51_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030301: Config/Level/Mission/5030303/Act/Act503030301.json-->
+::'''Sabrina:''' Hey, aren't you that big shot who caused a commotion in the lobby? Let's get acquainted!
+::{{DIcon|Arrow}} ...I'm (Trailblazer).
+:::<!--Custom String Listener: TalkSentence_503030303-->
+:::'''Sabrina:''' (Trailblazer)? A great name. I'll keep it in mind.
+::{{DIcon|Arrow}} I'm Galactic Baseballer.
+:::<!--Custom String Listener: TalkSentence_503030305-->
+:::'''Sabrina:''' Galactic Baseballer? What an impressive name! Noble and unique, perfectly suited to you!
+::{{DIcon|Arrow}} Am I famous?
+:::<!--Custom String Listener: TalkSentence_503030307-->
+:::'''Sabrina:''' I may not know you personally, but your appearance and demeanor convey to me that you are no ordinary person!
+::<!--Custom String Trigger: TalkSentence_503030308-->
+::<!--Custom String Listener: TalkSentence_503030308-->
+::'''Sabrina:''' I'm Sabrina, Princess of Jarilo-VIII. It's an honor to meet you.
+::'''(Trailblazer):''' Jarilo... VIII?
+::'''Sabrina:''' Oh, it's a remote planet, and it's understandable if you have never heard of it.
+::'''(Trailblazer):''' But there are only six planets in Jarilo...
+::'''Sabrina:''' Um... I mean... it's actually a moon! Yeah, a moon orbiting Jarilo-VI!
+::{{DIcon|Arrow}} You must have heard of Bronya, right?
+:::<!--Custom String Listener: TalkSentence_503030314-->
+:::'''Sabrina:''' Bron... Naya? Sounds familiar. Who is that person?
+::{{DIcon|Arrow}} What's your royal family's last name?
+:::<!--Custom String Listener: TalkSentence_503030316-->
+:::'''Sabrina:''' Last name, let me see... Oh, it's Piggot! Yeah, my full name is Sabrina Piggot!
+:::'''(Trailblazer):''' Have you heard of Bronya Rand?
+::<!--Custom String Trigger: TalkSentence_503030318-->
+::<!--Custom String Listener: TalkSentence_503030318-->
+::'''Sabrina:''' ...Well, you know... this is just a little joke! You know? The kind of joke to break the ice when meeting a stranger.
+::'''Sabrina:''' While I'm not a princess, I'm far from a nobody. I'm a merchant from Abelane, and I'm within the top 5,000, or maybe even top 100 wealthiest individuals in the entire universe.
+::'''Sabrina:''' I've come to Penacony to make some new friends who share similar interests and backgrounds.
+::'''Sabrina:''' If you have any friends who enjoy socializing and hold a similar status and position to us, don't hesitate to introduce me to them!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030302: Config/Level/Mission/5030303/Act/Act503030302.json-->
+::'''Sabrina:''' Hey, if it isn't... that kind {{MC|m=sir|f=lady}}? Great to see you again!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} So, what's my name?
+::'''Sabrina:''' Of course I know! You are... the individual we met before, right?
+::{{DIcon|Arrow}} You haven't remembered my name at all.
+::<!--Custom String Listener: TalkSentence_503030338-->
+::'''Sabrina:''' ...Well, you see... Your outfit is so striking that it practically introduces you.
+::'''Sabrina:''' To be honest, with the flow of guests in this hotel, it's challenging to remember everyone's name... Could you please remind me of yours?
+::<!--Custom String Trigger: Wait_Option_503030303_57-->
+::<!--Custom String Listener: Wait_Option_503030303_57-->
+::{{DIcon|Talk}} I'm (Trailblazer).
+:::<!--Custom String Listener: TalkSentence_503030341-->
+:::'''Sabrina:''' Oh, (Trailblazer), what a lovely name! I'll make sure to remember it this time.
+:::'''(Trailblazer):''' ...Do you really expect me to believe that?
+:::'''Sabrina:''' Well... Ahaha, well then, have a pleasant day.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the guests in this hotel...
+:::<!--Custom String Listener: TalkSentence_503030345-->
+:::'''Sabrina:''' You've come to the right person! I've been in the lobby, observing the guests all day!
+:::'''Sabrina:''' I can easily discern who's wealthy, who's not, and who's trying to show off! Just one glance, and I can tell whether they're a gem or a grain of sand!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why don't you enter the Dreamscape?
+:::<!--Custom String Listener: TalkSentence_503030348-->
+:::'''Sabrina:''' I&mdash;It's because... Well, making friends here, in this lobby, is much more convenient than trying to do it in the dream!
+:::'''Sabrina:''' Those people in the dream can easily change their looks and even identity! And you never know their true race or gender! You surely don't want friends like that, right?...
+:::Suddenly, a mysterious voice echoes in your mind, "Insight check: Successful."
+:::{{DIcon|Arrow}} Is it about saving money?
+:::<!--Custom String Listener: TalkSentence_503030352-->
+:::'''Sabrina:''' ...How, how could it be! I... I'm a successful merchant from Ab... Abenela! And I'm within the top 1,000, or maybe even top 500 wealthiest individuals in the entire universe!
+:::Abenela? Your keen memory reminds you that her previous claim was "Abelane"...
+:::Does such a star really exist? You can't help but wonder. Perhaps it does, but her identity as a "wealthy merchant" is just as fabricated as her claim of being a "Princess of Jarilo-VIII."
+:::'''Sabrina:''' ...Wh&mdash;Why aren't you saying anything? Are you hungry? The restaurant has the Stargazer slice cakes today. Why don't you... go and grab some?
+:::She looks nervous, with a tinge of embarrassment and awkwardness.
+:::Clearly, even something significant as "forgetting the name of the person you're talking to" has a less noticeable impact on her. Perhaps you unintentionally hit a nerve.
+:::'''Sabrina:''' I... Oh... I just remembered that I have an appointment to attend, so I'll take my leave, alright?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's enough chit-chat for now.
+:::<!--Custom String Listener: TalkSentence_503030360-->
+:::'''Sabrina:''' Yeah, yeah... I look forward to our next conversation.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Thank you.
+::The woman still wears a polite smile, but you notice a hint of fatigue in her expression.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sabrina
+|zhs  = 萨宾娜
+|zht  = 薩賓娜
+|ja   = サビンナ
+|ko   = 사브리나
+|es   = Sabrina
+|fr   = Sabrina
+|ru   = Сабрина
+|th   = Sabrina
+|vi   = Sabrina
+|de   = Sabrina
+|id   = Sabrina
+|pt   = Sabrina
+}}
+==Change History==
+{{Change History|TODO}}

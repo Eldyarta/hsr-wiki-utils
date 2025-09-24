@@ -1,0 +1,112 @@
+<%-- [PAGE_INFO]
+PageTitle=#Empousa#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Bloodthirster"
+|image           = NPC Empousa.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Bloodbathed Battlefront" Castrum Kremnos
+|relatives       = 
+}}
+'''Empousa''' is an NPC on [[Amphoreus]], located in [["Bloodbathed Battlefront" Castrum Kremnos]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Bloodbathed Battlefront" Castrum Kremnos|npc_202_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033061: Config/Level/Mission/5040330/Act/Act504033061.json-->
+::'''Empousa:''' *hic*... Such a momentous day, of course we must have a drink with... *hic* sanguine honey brew. Praise King Eurypon and his warriors!
+::{{DIcon|Arrow}} Why are you hiccupping?
+:::<!--Custom String Listener: TalkSentence_504044003-->
+:::'''Empousa:''' Don't mind me... *hic* I just drank too quickly. The sanguine honey brew at the celebration is sweet as nectar itself. It may just be pomegranate juice, but it surely evokes a different flavor when drank at a feast.
+::{{DIcon|Arrow}} Sanguine honey brew?
+:::<!--Custom String Listener: TalkSentence_504044005-->
+:::'''Empousa:''' Yes... *hic* The designated beverage of Kremnos warriors. It may just be pomegranate juice, but drinking it at a feast brings out an extraordinarily sweet flavor within.
+::<!--Custom String Trigger: TalkSentence_504044006-->
+::<!--Custom String Listener: TalkSentence_504044006-->
+::'''Empousa:''' True Kremnos warriors should slake their thirst in blood! ...But for someone like me who'd never get a chance to step foot on the battlefield, I'll have to make do with this honey brew.
+::'''Empousa:''' This stuff invigorates both body and mind, enriches your blood and improves its circulation. Wounds or no, you can't go wrong with a cup a day. When you're done with the trial, I'll help you prep a cup too &mdash; if you make it out alive, that is. Haha!
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033062: Config/Level/Mission/5040330/Act/Act504033062.json-->
+::'''Empousa:''' Drink this sanguine honey brew... *hic* ...and embrace glory and strength!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I still have some more questions...
+:::'''Empousa:''' Sure, but... *hic* My speech is a little impaired, so do be patient.
+:::<!--Custom String Trigger: Wait_Option_504033063_1545-->
+:::<!--Custom String Listener: Wait_Option_504033063_1545-->
+:::{{DIcon|Talk}} Why do you call pomegranate juice fresh blood?
+::::<!--Custom String Listener: TalkSentence_504044204-->
+::::'''Empousa:''' You mean this sanguine honey brew? Haha... *hic* ...Lemme tell you a horrifying secret &mdash; this stuff didn't use to be made from pomegranates, though I wouldn't know if this was true.
+::::'''Empousa:''' The honey brew we're drinking now is a creation of Phagousa's disciples. Back when Nikador was humiliated by Phagousa, the former ordered the latter to offer their citizens' blood as an apology, or they'd personally drain the blood from the people...
+::::'''Empousa:''' Phagousa's nature isn't so brutal. In replacement, they gave Nikador pomegranate juice which looked a lot like blood, and had their disciples distribute them into the hands of everyone in Castrum Kremnos... *hic* This sure is tasty. When you think about it, actual blood probably tastes all fishy and salty, no...?
+::::'''Empousa:''' Anyway, Nikador had a sip of this fine brew imbued with divinity, expressed utter satisfaction, and rescinded the punishment on Phagousa's city, with knowledge of the honey brew's production as a condition.
+::::'''Empousa:''' The Kremnoans later improved upon this recipe, turning it into what we drink today. Even Phagousa's disciples can't get its flavor down completely!
+::::'''Empousa:''' ...*sigh* Back then, Nikador was so valiant and mighty, able to subdue entire armies with just their spear tip. But now...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You sure you're fine drinking so much?
+::::<!--Custom String Listener: TalkSentence_504044211-->
+::::'''Empousa:''' I'm awright... Even if this honey brew was blessed by Phagousa, it'll only keep one heartily indulged without any of the drunkenness...
+::::'''Empousa:''' And to a Kremnos Warrior, a belly's capacity is also part of battle ability &mdash; heroes must be good at both fighting and drinking! How else would we last through the victory banquet!
+::::'''Empousa:''' I'll tell you another little secret: Our crown prince loves pomegranate juice, too. He usually prefers adding milk to it to get it all pinky. It's hilarious! Don't tell anyone else about this, though...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm leaving. Don't drink too much.
+::::<!--Custom String Listener: TalkSentence_504044215-->
+::::'''Empousa:''' It's fiiiine. I can still have another cup.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm leaving. Don't drink too much.
+:::'''Empousa:''' It's fiiiine. I can still have another cup.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Empousa
+|zhs  = 恩普莎
+|zht  = 恩普莎
+|ja   = エムプサ
+|ko   = 엠푸사
+|es   = Empousa
+|fr   = Empousa
+|ru   = Эмпуса
+|th   = Empousa
+|vi   = Empousa
+|de   = Empousa
+|id   = Empousa
+|pt   = Empousa
+}}
+==Change History==
+{{Change History|TODO}}

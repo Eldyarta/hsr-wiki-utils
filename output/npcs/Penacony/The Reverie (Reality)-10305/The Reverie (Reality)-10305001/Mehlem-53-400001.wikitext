@@ -1,0 +1,123 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mehlem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Roboball Fan
+|image           = NPC Mehlem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Mehlem''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_53_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030501: Config/Level/Mission/5030305/Act/Act503030501.json-->
+::'''Mehlem:''' Hey, did you watch the Roboball game last night? It was an outstanding spectacle that must not be missed!
+::{{DIcon|Arrow}} Roboball? What is that...?
+:::<!--Custom String Listener: TalkSentence_503030503-->
+:::'''Mehlem:''' What!? You don't know what Roboball is? Which peripheral planetary system did you come from...?
+:::'''Mehlem:''' Taikiyan Roboball is the most popular sport in the entire universe!
+::{{DIcon|Arrow}} Wait, they even have Roboball matches here?
+:::<!--Custom String Listener: TalkSentence_503030506-->
+:::'''Mehlem:''' Absolutely! This is Penacony after all. You can literally find anything here!
+::<!--Custom String Trigger: TalkSentence_503030507-->
+::<!--Custom String Listener: TalkSentence_503030507-->
+::'''Mehlem:''' You must be new here, right?... You really should check it out at the Moment of Stars...
+::{{DIcon|Arrow}} What is the Moment of Stars?
+::<!--Custom String Listener: TalkSentence_503030509-->
+::'''Mehlem:''' ...Hey! How can you be so clueless about Penacony? You didn't sneak into this place, did you...?
+::'''Mehlem:''' Well... What a question, how brazen indeed! I'll answer these questions when I feel the need!
+::'''Mehlem:''' Listen up, the so-called City of Dreams is made of 12 discreet dream worlds, each corresponding to a "moment" on the clock.
+::'''Mehlem:''' The "Moment of Stars" is the eleventh dreamscape, where you'll find all sorts of clubs and various competitions all day... Spheroid, Roboball, Unicycler... you name it!
+::'''Mehlem:''' Alright, I've told you enough. Go watch a few games before coming back to talk to me. I'm not too keen on discussing with laypeople.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030502: Config/Level/Mission/5030305/Act/Act503030502.json-->
+::'''Mehlem:''' The Roboball game last night was thrilling! You know what? SoulGlad seriously should have snagged No. 23 from the other team!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} How was the game last night?
+::'''Mehlem:''' Let's just say... there was a huge gap between the finalist teams. What a landslide victory! Hahaha!
+::'''Mehlem:''' You know what? SoulGlad seriously should have snagged No. 23 from the other team! His teammates were incompetent nincompoops and didn't even know to pass him the ball when it really mattered! Those tender feet can't even play support decently!
+::'''Mehlem:''' Don't you agree?
+::<!--Custom String Trigger: Wait_Option_503030503_47-->
+::<!--Custom String Listener: Wait_Option_503030503_47-->
+::{{DIcon|Talk}} I totally agree.
+:::<!--Custom String Listener: TalkSentence_503030530-->
+:::'''Mehlem:''' Ah, what a disaster! I spent a fortune hoping for an epic game, the ticket price wasn't worth it at all, although the food was decent...
+:::'''Mehlem:''' Hah, SoulGlad... they're still waiting for him to come back? No way, man! I'm telling you! I didn't spend a fortune to watch such a letdown of a game!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you think about it?
+:::<!--Custom String Listener: TalkSentence_503030533-->
+:::'''Mehlem:''' Well... I wonder what's up with No. 11 for next season. I heard his contract is all tangled up, leaving him unable to play or secure a transfer. What a shame, but it's his own fault for signing with SoulGlad.
+:::'''Mehlem:''' I'll post on the forum and demand a change in the management. Those old geezers need to hit the road and bring in some fresh blood to create a new Space Powerhouse! That's how you make a real impact!
+:::'''Mehlem:''' Hmm? I need to answer questions before signing up for this forum?... "Do you know about the foul play in Roboball?"
+:::{{DIcon|Arrow}} I know nothing about Roboball.
+::::<!--Custom String Listener: TalkSentence_503030537-->
+::::'''Mehlem:''' Tsk, so you're clueless, too. Well, guess I'll need to find someone who has actually played Roboball to give me a hand...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Hold up, you don't even know the rules?
+::::<!--Custom String Listener: TalkSentence_503030539-->
+::::'''Mehlem:''' ...Who says you must know the rules to enjoy the game? So narrow-minded!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Anything else you'd like to add?
+:::<!--Custom String Listener: TalkSentence_503030541-->
+:::'''Mehlem:''' No, guess I'll need to find someone who knows Roboball to give me a hand...
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Mehlem:''' Alright... time to get busy myself...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mehlem
+|zhs  = 梅汉姆
+|zht  = 梅漢姆
+|ja   = メイヘム
+|ko   = 메흘렘
+|es   = Mehlem
+|fr   = Mehlem
+|ru   = Мэхлем
+|th   = Mehlem
+|vi   = Mehlem
+|de   = Mehlem
+|id   = Mehlem
+|pt   = Mehlem
+}}
+==Change History==
+{{Change History|TODO}}

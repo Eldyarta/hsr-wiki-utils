@@ -1,0 +1,329 @@
+<%-- [PAGE_INFO]
+PageTitle=#Thea#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Mobile Phone Expert
+|image           = NPC Thea.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Pillars of Creation
+|relatives       = 
+}}
+'''Thea''' is an NPC on [[Jarilo-VI]], located in [[Pillars of Creation]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Pillars of Creation|npc_19_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501031201: Config/Level/NPCDialogue/P20135/NPCAct/Act501031201.json-->
+::'''Thea:''' Hey, {{MC|f=Miss|m=Mister}}! Are you experiencing issues with your phone such as lagging, overheating, or system-based stoppages? I can help you upgrade your system.
+::'''Thea:''' For just a tiny amount of credits, your phone will gain a new lease on life and its operating system will function smoother than the Star Rail that lines the cosmos...
+::<!--Custom String Trigger: Wait_Option_501031201_10-->
+::<!--Custom String Listener: Wait_Option_501031201_10-->
+::{{DIcon|Talk}} What kind of upgrade are we talking about?
+:::<!--Custom String Listener: TalkSentence_501031204-->
+:::'''Thea:''' Ahem, it's actually about an exclusive piece of technology from my company, and I'm the only person on this planet who can access it.
+:::'''Thea:''' I can't reveal too much about it since it's exclusive.
+:::'''Thea:''' Anyway, give it a try and see for yourself. And don't worry. I won't charge you if you're not satisfied.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} (Pretend to be clueless) Star Rail?
+:::<!--Custom String Listener: TalkSentence_501031208-->
+:::'''Thea:''' It's the track on which the Astral Express runs. You must have heard of them, right? Those elusive star-seeking travelers...
+:::'''Thea:''' Rumor has it that they were the ones who brought "portable communicators" &mdash; known to us as phones &mdash; to this planet. But apparently, they don't care about customer service at all. How irresponsible!
+:::'''Thea:''' That's why we of the IPC are here to clean up their mess!
+:::<!--Custom String Trigger: Wait_Option_501031201_20-->
+:::<!--Custom String Listener: Wait_Option_501031201_20-->
+:::{{DIcon|Talk}} Please help me upgrade my phone.
+::::<!--Custom String Listener: TalkSentence_501031212-->
+::::'''Thea:''' No problem. I've already helped over two dozen customers.
+::::'''Thea:''' Next, I'll access data from the other side of the galaxy and transfer it straight from the IPC's headquarters into your device.
+::::'''Thea:''' (Pretending to work hard) Hmmm... Hyaa... Hah! Look, it's done.
+::::{{DIcon|Arrow}} And then what?
+::::<!--Custom String Listener: TalkSentence_501031216-->
+::::'''Thea:''' And then voilà! Now, enjoy its ultra-smooth operating system!
+::::'''Thea:''' Just check it out! Look at its interface and these animations, and experience this perfectly designed haptic pressure sensors and tap-feedback system...
+::::'''Thea:''' ...Ahem, sorry, I used to work in the user experience department, so I'm a bit obsessed with these details...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Well, I'm from the Astral Express.
+::::<!--Custom String Listener: TalkSentence_501031220-->
+::::'''Thea:''' Wait, you? This... I mean... You know...
+::::'''Thea:''' I didn't mean to badmouth you! I'm just... you know... just trying to provide more reliable warranty services for the locals!
+::::'''Thea:''' These folks take forever to even unlock their phones. Without professional guidance like mine, they'd fall prey to all sorts of sneaky auto-pay services...
+::::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501031202: Config/Level/NPCDialogue/P20135/NPCAct/Act501031202.json-->
+::'''Thea:''' Hey there, {{MC|f=Miss|m=Mister}}. If you ever have any questions about phones, feel free to drop by anytime.
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Can we talk...?
+::<!--Trigger PerformanceE 501031203: Config/Level/NPCDialogue/P20135/NPCAct/Act501031203.json-->
+::<!--Custom String Trigger: TalkSentence_501031251-->
+::<!--Custom String Listener: TalkSentence_501031251-->
+:;(If {{cx}}<!--SubMission Started: 414010901-->)
+:::{{DIcon|Talk}} Are you sticking around here?
+::::<!--Custom String Listener: TalkSentence_501031246-->
+::::'''Thea:''' Well, someone has to teach the locals how to use these phones. I've already done my best to keep the charges as low as possible.
+::::'''Thea:''' Thanks to me, the miners here are getting the hang of it. Isn't that a good thing?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} How did you solve the issues with the phones?
+::::<!--Custom String Listener: TalkSentence_501031252-->
+::::'''Thea:''' Well... Fine, I can tell you, but this is just between us, alright?
+::::'''Thea:''' As you know, all the major operating systems are developed and maintained by the IPC...
+::::'''Thea:''' To save computing power, the IPC has marked devices as "discarded" if their system hasn't been updated in a long time. As a result, the owners of those devices can't enjoy the latest features or optimizations...
+::::'''Thea:''' Locals may experience issues such as lagging or overheating on their phones, but it's simply because they don't know how to upgrade the system...
+::::{{DIcon|Arrow}} So, you're planning to make a fortune out of this?
+:::::<!--Custom String Listener: TalkSentence_501031257-->
+:::::'''Thea:''' Hey, that's hardly the case at all! I swear I was telling you the truth... And to be honest, even a simple system upgrade can be an exclusive gimmick on a remote planet like this.
+:::::'''Thea:''' Just please don't tell anyone... Director Topaz threw the book at those troublemakers in the Underworld... I'm just a phone tinkerer who hasn't done anything to put the residents in harm's way.
+:::::'''Thea:''' ...How about you take this thing for now? The fewer complications the better. Just treat this as the beginning of a new friendship...
+::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414010901,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1
+		]
+	},
+	"CustomValue": 1
+}</pre>
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I'll report this to Topaz.
+:::::<!--Custom String Listener: TalkSentence_501031261-->
+:::::'''Thea:''' No, no! Please don't! I'm just a small-time employee, and all I want is to make ends meet...
+:::::'''Thea:''' Director Topaz threw the book at those troublemakers in the Underworld... I'm just a phone tinkerer who hasn't done anything to put the residents in harm's way.
+:::::'''Thea:''' ...How about you take this thing for now? The fewer complications the better. Just treat this as the beginning of a new friendship...
+::::<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 414010901,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"isLocal": true,
+		"ValidValueParamList": [
+			0,
+			1
+		]
+	},
+	"CustomValue": 1
+}</pre>
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I have some questions about the IPC...
+::::<!--Custom String Listener: Wait_Option_501031203_68-->
+::::{{DIcon|Talk}} What do you make of Topaz?
+:::::<!--Custom String Listener: TalkSentence_501031266-->
+:::::'''Thea:''' Director Topaz? Well, I'm just a low-level employee, and I don't really have a chance to talk with her.
+:::::'''Thea:''' But according to everyone, she's sociable, loves her work, and more importantly, has a kind heart.
+:::::'''Thea:''' I think she's probably the least terrible among all the eleven directors in my department.
+:::::<!--Custom String Trigger: Wait_Option_501031203_68-->
+:::::<!--Custom String Listener: Wait_Option_501031203_68-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} Are there many planets indebted to IPC?
+::::::<!--Custom String Listener: TalkSentence_501031270-->
+::::::'''Thea:''' I can't say for sure, as I don't have access to certain statistics.
+::::::'''Thea:''' However, we do have a Marketing Development Department that focuses on bringing new planets into the galactic market.
+::::::'''Thea:''' Sometimes, those planets will borrow startup funds from us, dreaming of becoming major players in the galaxy in an Amber Era or two.
+::::::'''Thea:''' However, these planets bite off more than they can chew, and they often end up becoming targets for my department.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} How much do you get paid?
+::::::<!--Custom String Listener: TalkSentence_501031275-->
+::::::'''Thea:''' Hey, you see... it's a trade secret.
+::::::{{DIcon|Arrow}} Just spill the beans!
+::::::{{DIcon|Arrow}} What's so secretive about it?
+::::::<!--Custom String Listener: TalkSentence_501031278-->
+::::::'''Thea:''' I'm sorry, but I just can't spill the beans on that one!
+::::::'''Thea:''' It's a totally off-limits topic within IPC, and whoever breaks the rules will be fried... I mean, fired.
+::::::'''Thea:''' It's not that I'm trying to keep it from you. Go ask anyone else, and they'll give you the same answer.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} I have other matters to attend to.
+::::::<!--Custom String Listener: TalkSentence_501031282-->
+::::::'''Thea:''' Drop by anytime!
+::::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} Are there many planets indebted to IPC?
+:::::<!--Custom String Listener: TalkSentence_501031270-->
+:::::'''Thea:''' I can't say for sure, as I don't have access to certain statistics.
+:::::'''Thea:''' However, we do have a Marketing Development Department that focuses on bringing new planets into the galactic market.
+:::::'''Thea:''' Sometimes, those planets will borrow startup funds from us, dreaming of becoming major players in the galaxy in an Amber Era or two.
+:::::'''Thea:''' However, these planets bite off more than they can chew, and they often end up becoming targets for my department.
+:::::<!--Custom String Trigger: Wait_Option_501031203_68-->
+:::::<!--Custom String Listener: Wait_Option_501031203_68-->
+:::::{{DIcon|Talk}} What do you make of Topaz?
+::::::<!--Custom String Listener: TalkSentence_501031266-->
+::::::'''Thea:''' Director Topaz? Well, I'm just a low-level employee, and I don't really have a chance to talk with her.
+::::::'''Thea:''' But according to everyone, she's sociable, loves her work, and more importantly, has a kind heart.
+::::::'''Thea:''' I think she's probably the least terrible among all the eleven directors in my department.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} How much do you get paid?
+::::::<!--Custom String Listener: TalkSentence_501031275-->
+::::::'''Thea:''' Hey, you see... it's a trade secret.
+::::::{{DIcon|Arrow}} Just spill the beans!
+::::::{{DIcon|Arrow}} What's so secretive about it?
+::::::<!--Custom String Listener: TalkSentence_501031278-->
+::::::'''Thea:''' I'm sorry, but I just can't spill the beans on that one!
+::::::'''Thea:''' It's a totally off-limits topic within IPC, and whoever breaks the rules will be fried... I mean, fired.
+::::::'''Thea:''' It's not that I'm trying to keep it from you. Go ask anyone else, and they'll give you the same answer.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} I have other matters to attend to.
+::::::<!--Custom String Listener: TalkSentence_501031282-->
+::::::'''Thea:''' Drop by anytime!
+::::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} How much do you get paid?
+:::::<!--Custom String Listener: TalkSentence_501031275-->
+:::::'''Thea:''' Hey, you see... it's a trade secret.
+:::::{{DIcon|Arrow}} Just spill the beans!
+:::::{{DIcon|Arrow}} What's so secretive about it?
+:::::<!--Custom String Listener: TalkSentence_501031278-->
+:::::'''Thea:''' I'm sorry, but I just can't spill the beans on that one!
+:::::'''Thea:''' It's a totally off-limits topic within IPC, and whoever breaks the rules will be fried... I mean, fired.
+:::::'''Thea:''' It's not that I'm trying to keep it from you. Go ask anyone else, and they'll give you the same answer.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I have other matters to attend to.
+:::::<!--Custom String Listener: TalkSentence_501031282-->
+:::::'''Thea:''' Drop by anytime!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I have other matters to attend to.
+::::<!--Custom String Listener: TalkSentence_501031282-->
+::::'''Thea:''' Drop by anytime!
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Started: 414010901-->)
+:::{{DIcon|Talk}} Are you sticking around here?
+::::<!--Custom String Listener: TalkSentence_501031246-->
+::::'''Thea:''' Well, someone has to teach the locals how to use these phones. I've already done my best to keep the charges as low as possible.
+::::'''Thea:''' Thanks to me, the miners here are getting the hang of it. Isn't that a good thing?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I have some questions about the IPC...
+::::<!--Custom String Listener: Wait_Option_501031203_68-->
+::::{{DIcon|Talk}} What do you make of Topaz?
+:::::<!--Custom String Listener: TalkSentence_501031266-->
+:::::'''Thea:''' Director Topaz? Well, I'm just a low-level employee, and I don't really have a chance to talk with her.
+:::::'''Thea:''' But according to everyone, she's sociable, loves her work, and more importantly, has a kind heart.
+:::::'''Thea:''' I think she's probably the least terrible among all the eleven directors in my department.
+:::::<!--Custom String Trigger: Wait_Option_501031203_68-->
+:::::<!--Custom String Listener: Wait_Option_501031203_68-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} Are there many planets indebted to IPC?
+::::::<!--Custom String Listener: TalkSentence_501031270-->
+::::::'''Thea:''' I can't say for sure, as I don't have access to certain statistics.
+::::::'''Thea:''' However, we do have a Marketing Development Department that focuses on bringing new planets into the galactic market.
+::::::'''Thea:''' Sometimes, those planets will borrow startup funds from us, dreaming of becoming major players in the galaxy in an Amber Era or two.
+::::::'''Thea:''' However, these planets bite off more than they can chew, and they often end up becoming targets for my department.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} How much do you get paid?
+::::::<!--Custom String Listener: TalkSentence_501031275-->
+::::::'''Thea:''' Hey, you see... it's a trade secret.
+::::::{{DIcon|Arrow}} Just spill the beans!
+::::::{{DIcon|Arrow}} What's so secretive about it?
+::::::<!--Custom String Listener: TalkSentence_501031278-->
+::::::'''Thea:''' I'm sorry, but I just can't spill the beans on that one!
+::::::'''Thea:''' It's a totally off-limits topic within IPC, and whoever breaks the rules will be fried... I mean, fired.
+::::::'''Thea:''' It's not that I'm trying to keep it from you. Go ask anyone else, and they'll give you the same answer.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} I have other matters to attend to.
+::::::<!--Custom String Listener: TalkSentence_501031282-->
+::::::'''Thea:''' Drop by anytime!
+::::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} Are there many planets indebted to IPC?
+:::::<!--Custom String Listener: TalkSentence_501031270-->
+:::::'''Thea:''' I can't say for sure, as I don't have access to certain statistics.
+:::::'''Thea:''' However, we do have a Marketing Development Department that focuses on bringing new planets into the galactic market.
+:::::'''Thea:''' Sometimes, those planets will borrow startup funds from us, dreaming of becoming major players in the galaxy in an Amber Era or two.
+:::::'''Thea:''' However, these planets bite off more than they can chew, and they often end up becoming targets for my department.
+:::::<!--Custom String Trigger: Wait_Option_501031203_68-->
+:::::<!--Custom String Listener: Wait_Option_501031203_68-->
+:::::{{DIcon|Talk}} What do you make of Topaz?
+::::::<!--Custom String Listener: TalkSentence_501031266-->
+::::::'''Thea:''' Director Topaz? Well, I'm just a low-level employee, and I don't really have a chance to talk with her.
+::::::'''Thea:''' But according to everyone, she's sociable, loves her work, and more importantly, has a kind heart.
+::::::'''Thea:''' I think she's probably the least terrible among all the eleven directors in my department.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} How much do you get paid?
+::::::<!--Custom String Listener: TalkSentence_501031275-->
+::::::'''Thea:''' Hey, you see... it's a trade secret.
+::::::{{DIcon|Arrow}} Just spill the beans!
+::::::{{DIcon|Arrow}} What's so secretive about it?
+::::::<!--Custom String Listener: TalkSentence_501031278-->
+::::::'''Thea:''' I'm sorry, but I just can't spill the beans on that one!
+::::::'''Thea:''' It's a totally off-limits topic within IPC, and whoever breaks the rules will be fried... I mean, fired.
+::::::'''Thea:''' It's not that I'm trying to keep it from you. Go ask anyone else, and they'll give you the same answer.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} I have other matters to attend to.
+::::::<!--Custom String Listener: TalkSentence_501031282-->
+::::::'''Thea:''' Drop by anytime!
+::::::<!--Ends the current performance-->
+::::{{DIcon|Talk}} How much do you get paid?
+:::::<!--Custom String Listener: TalkSentence_501031275-->
+:::::'''Thea:''' Hey, you see... it's a trade secret.
+:::::{{DIcon|Arrow}} Just spill the beans!
+:::::{{DIcon|Arrow}} What's so secretive about it?
+:::::<!--Custom String Listener: TalkSentence_501031278-->
+:::::'''Thea:''' I'm sorry, but I just can't spill the beans on that one!
+:::::'''Thea:''' It's a totally off-limits topic within IPC, and whoever breaks the rules will be fried... I mean, fired.
+:::::'''Thea:''' It's not that I'm trying to keep it from you. Go ask anyone else, and they'll give you the same answer.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I have other matters to attend to.
+:::::<!--Custom String Listener: TalkSentence_501031282-->
+:::::'''Thea:''' Drop by anytime!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I have other matters to attend to.
+::::<!--Custom String Listener: TalkSentence_501031282-->
+::::'''Thea:''' Drop by anytime!
+::::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have other matters to attend to.
+::<!--Trigger PerformanceE 501031204: Config/Level/NPCDialogue/P20135/NPCAct/Act501031204.json-->
+::'''Thea:''' Drop by anytime!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031204-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

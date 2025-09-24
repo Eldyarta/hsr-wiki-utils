@@ -1,0 +1,142 @@
+<%-- [PAGE_INFO]
+PageTitle=#Karpos#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Artist
+|image           = NPC Karpos.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Karpos''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_362_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033032: Config/Level/Mission/5040330/Act/Act504033032.json-->
+::'''Karpos:''' Wait a second! Hey, the master passing by!
+::'''Karpos:''' I've seen you before! You were the one who made that statue at the entrance!
+::{{DIcon|Arrow}} What statue?
+::{{DIcon|Arrow}} You must have mistaken me for someone else.
+::<!--Custom String Listener: TalkSentence_504041105-->
+::'''Karpos:''' I can't be mistaken! It was that floating, rotating sculpture with a bluish glow. I saw it with my own eyes &mdash; you and your black-haired companion, accompanied Lady Aglaea, placed that object there at the entrance of the baths.
+::{{DIcon|Arrow}} Ah, the Space Anchor...
+:::<!--Custom String Listener: TalkSentence_504041107-->
+:::'''Karpos:''' "Space Anchor"? That's quite the poetic and unique name...
+::{{DIcon|Arrow}} Well, it's not really a statue...
+:::<!--Custom String Listener: TalkSentence_504041109-->
+:::'''Karpos:''' I knew it! It must be some cutting-edge form of artistic expression. I just called it a "statue" as a placeholder.
+::<!--Custom String Trigger: TalkSentence_504041110-->
+::<!--Custom String Listener: TalkSentence_504041110-->
+::'''Karpos:''' The baths are always crowded, so it's not unusual to find something new being placed here. But the design of that piece was so avant-garde that every time I passed by, I couldn't help but take a second look.
+::'''Karpos:''' Now that I've caught you, I'm determined to find out the material and craftsmanship behind it.
+::{{DIcon|Arrow}} Sorry, I have no idea.
+::{{DIcon|Arrow}} You'd have to ask my friend...
+::<!--Custom String Listener: TalkSentence_504041114-->
+::'''Karpos:''' That's... such a pity. The eerie glow reminded me so much of the Evernight Veil. I had thought you were also someone blessed by Oronyx.
+::'''Karpos:''' To be honest, I am a mural artist for this Marmoreal Palace. Recently, I've been struggling with a lack of inspiration, but this object has reignited my creative drive... I hope you wouldn't mind if I used it as a reference for my work?
+::{{DIcon|Arrow}} A Space Anchor personified?
+:::<!--Custom String Listener: TalkSentence_504041117-->
+:::'''Karpos:''' Anthropomorphizing... I must say, that's a great idea! I've even thought of a title for the piece &mdash; let's call it "The Spinning Dancer of the Outlands"!
+::{{DIcon|Arrow}} Sure, go ahead. Show me once it's finished.
+:::<!--Custom String Listener: TalkSentence_504041119-->
+:::'''Karpos:''' Oh, absolutely! I was half expecting you to charge me a licensing fee.
+::<!--Custom String Trigger: TalkSentence_504041120-->
+::<!--Custom String Listener: TalkSentence_504041120-->
+::'''Karpos:''' Master, you're such a great person. Your sense of dressing style is so unique &mdash; clearly someone who enjoys breaking the rules.
+::'''Karpos:''' Unlike that talkative {{Rubi|Daros|Baths Attendant}} &mdash;"Miss Karpos, please don't bring your easel into the pool," or "Miss Karpos, we're closing now, so please return during the Lucid Hour."
+::'''Karpos:''' If your mind is full of those rules and restrictions, how can you be a good painter? Don't you think so, master?
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033033: Config/Level/Mission/5040330/Act/Act504033033.json-->
+::'''Karpos:''' Art comes from life, and life is all about soaking in the bath. As long as I'm here in the baths, inspiration will flow endlessly, just like Phagousa's honey brew.
+::'''Karpos:''' But honestly, it would be great if the brush could paint by itself &mdash; Master, since you're here, why don't you contribute some inspiration to me?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Want to chat?
+:::'''Karpos:''' Chat? That sounds great, as long as you don't mind if what we talk about becomes the theme for my next piece!
+:::<!--Custom String Trigger: Wait_Option_504033034_959-->
+:::<!--Custom String Listener: Wait_Option_504033034_959-->
+:::{{DIcon|Talk}} What have you created before?
+::::<!--Custom String Listener: TalkSentence_504041304-->
+::::'''Karpos:''' Haha, who even remembers that? Master, you probably don't remember how many pieces of bread you've eaten either, right?
+::::'''Karpos:''' In most cases, as long as I get inspiration worth putting paint to, I'll find a place to paint on the spot. Sometimes, if I can't fully express that feeling on the wall, I'll paint it somewhere else, like on bottles or jars.
+::::'''Karpos:''' As for themes &mdash; I've done 30% Titan legends, 20% stories of Chrysos Heirs, 10% daily life, and the rest are all {{Rubi| the curtains of Oronyx|night scenes}}, which is perfect for painting a circular view on a jar.
+::::'''Karpos:''' Actually, my house is full of bottles and jars. That's one of the reasons I come to the bath every day...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Can you make a living with art?
+::::<!--Custom String Listener: TalkSentence_504041309-->
+::::'''Karpos:''' What a question &mdash; definitely not!
+::::'''Karpos:''' However, this period is an exception... Many wealthy individuals are anticipating the value fluctuations after salvation, and they will deliberately seek out artworks that "might appreciate in value" to collect.
+::::'''Karpos:''' So if I'm short on Balance Coins, I'll just focus on painting the Chrysos Heirs and their Flame-Chase Journey. The payment will be enough to cover the cost of new paints &mdash; you have no idea how expensive those good paints are. Some even have to be taken from the bowls of dromases.
+::::'''Karpos:''' However, recently, the Council of Elders has been commissioning me to create some promotional works. They pay quite generously, but...
+::::'''Karpos:''' ...In their eyes, "original art" is more like a "tool." Every time I paint something for them, it just depresses me. So I just grab a random sketch from the pile of discarded drafts, add a few strokes, and hand it over.
+::::'''Karpos:''' They like it, and I stay calm. It's a win-win.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you been painting lately?
+::::<!--Custom String Listener: TalkSentence_504041316-->
+::::'''Karpos:''' Lately? Mostly collaborating with an old senior to restore murals... It's a big job, spread all over the city. If I weren't so admiring of that senior, I wouldn't even want to take on this work.
+::::'''Karpos:''' But that's not the only reason... I'll tell you a secret. Every time a mural is restored, the artist in charge adds a few strokes of their own. You might think it's nothing, but small changes add up over time. For example &mdash;
+::::'''Karpos:''' If I told you that the symbols of Georios at the city gates, which have been there for a thousand Light Calendar years, were originally the story of Aquila, could you imagine that?
+::::'''Karpos:''' Just the thought that prophecies and historical records might have gradually become distorted due to similar circumstances makes me feel a bit sorrowful. Honestly, it dampens any enthusiasm I have.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let's catch up another time.
+::::<!--Custom String Listener: TalkSentence_504041321-->
+::::'''Karpos:''' Alright, take care... I should probably head out after soaking for a little longer... no, maybe two more rounds...?
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Let's catch up another time.
+:::'''Karpos:''' Alright, take care... I should probably head out after soaking for a little longer... no, maybe two more rounds...?
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Karpos
+|zhs  = 柯珀丝
+|zht  = 柯珀絲
+|ja   = コパース
+|ko   = 카르포스
+|es   = Carpos
+|fr   = Carpos
+|ru   = Карпос
+|th   = Karpos
+|vi   = Karpos
+|de   = Karpos
+|id   = Karpos
+|pt   = Karpos
+}}
+==Change History==
+{{Change History|TODO}}

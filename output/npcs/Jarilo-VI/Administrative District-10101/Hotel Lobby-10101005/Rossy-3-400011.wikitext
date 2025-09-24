@@ -1,0 +1,207 @@
+<%-- [PAGE_INFO]
+PageTitle=#Rossy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Young Master
+|image           = NPC Rossy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Hotel Lobby
+|relatives       = 
+}}
+'''Rossy''' is an NPC on [[Jarilo-VI]], located in [[Hotel Lobby]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Hotel Lobby|npc_3_400011}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501027001: Config/Level/Mission/5010270/Act/Act501027001.json-->
+::'''Rossy:''' *sigh* Have you read today's ''Crystal Daily''? What kind of news is that!? If the media keeps going on like this, Belobog will eventually be doomed!
+::<!--Custom String Trigger: Wait_Option_5010270_7-->
+::<!--Custom String Listener: Wait_Option_5010270_7-->
+::{{DIcon|Arrow}} Are you talking to me?
+:::<!--Custom String Listener: TalkSentence_501027003-->
+:::'''Rossy:''' Of course. Who else would I be talking to? Do I look like someone who talks to himself in the street? It's not like I'm old man Dominic.
+::{{DIcon|Arrow}} What does that have to do with me?
+:::<!--Custom String Listener: TalkSentence_501027005-->
+:::'''Rossy:''' We share a home. It's called Belobog. How can you call yourself a citizen of Belobog if you don't even care about the news in our city?
+::<!--Custom String Trigger: TalkSentence_501027006-->
+::<!--Custom String Listener: TalkSentence_501027006-->
+::'''Rossy:''' Look at the front page of the ''Crystal Daily''. The content that the newspaper puts out is just junk, tabloid-level stuff. What's going on in their heads? Can you really put this stuff on the front page? I'm about to blow a gasket here!
+::<!--Custom String Trigger: Wait_Option_5010270_14-->
+::<!--Custom String Listener: Wait_Option_5010270_14-->
+::{{DIcon|Arrow}} You don't have to make it sound so extreme.
+:::<!--Custom String Listener: TalkSentence_501027008-->
+:::'''Rossy:''' I bet you're not someone who follows the news. Anyone who is ambitious should pay attention to the world and think more, like I do. That way they can contribute to the development of Belobog!
+::{{DIcon|Arrow}} You sure seem to have plenty of time on your hands.
+:::<!--Custom String Listener: TalkSentence_501027010-->
+:::'''Rossy:''' Hey, I'm making a reasonable suggestion, alright? Belobog is getting better because of people like me &mdash; people who keep offering their insight!
+::<!--Custom String Trigger: TalkSentence_501027011-->
+::<!--Custom String Listener: TalkSentence_501027011-->
+::'''Rossy:''' Hmm, you really don't know anything. How about I give you a lecture right now!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501027002: Config/Level/Mission/5010270/Act/Act501027002.json-->
+::'''Rossy:''' Jeez, have a look at this! Even the advertisement in the middle column of this newspaper is annoying... I've got to say something!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301150103-->)
+:{{DIcon|undefined}} Why haven't you gone to your volunteer work yet?
+::<!--Trigger PerformanceE 301150103: Config/Level/Mission/3011501/Act/Act301150103.json-->
+::'''Rossy:''' Heh, I was actually waiting for someone to give me the book &mdash; I don't have the specific book in the Tales series that I wanted to read, so I had to burrow it...
+::'''Rossy:''' Then my dad popped out of nowhere, and the book owner probably ran away... Seriously, what is this mess? Now I have to waste time waiting for the person to bring the book back...
+::'''Rossy:''' Anyways, thank you for saving me! I'll be heading to Old Goethe's once I get the book &mdash; But if you see him first, please let him know.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150103-->
+;(If {{cx}}<!--SubMission Started: 301020203--> and {{cx}}<!--SubMission Started: 301150103-->)
+:{{DIcon|undefined}} Wallace wants to be friends with you.
+::<!--Trigger PerformanceE 301020203: Config/Level/Mission/3010201/Act/Act301020203.json-->
+::'''Rossy:''' What? Wallace Limestein? Did I hear you right?
+::'''Rossy:''' No way! The Limesteins are dandies who are always reckless with money. My father warned me long ago not to get involved with them!
+::{{DIcon|Arrow}} Maybe this photo will change your mind?
+::<!--Custom String Listener: TalkSentence_301020235-->
+::'''Rossy:''' Photo? What photo? Let me see...
+::'''Rossy:''' What's this? Is that Wallace? He's surrounded by a bunch of kids... These are not his children, are they?
+::'''Rossy:''' Gosh, I can't, I can't stand the sight of children! Do you know that nearly forty percent of the annual income of adults over age thirty in Belobog is spent on children?
+::'''Rossy:''' No wonder the mental health of adults in today's society is poor. All the money we've worked so hard for has been invested in these kids!
+::'''Rossy:''' Take this picture away. I don't like it. Wallace sent you here to grind my gears, didn't he? Tell him that I, Rossy, will never be his friend!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020203-->
+:{{DIcon}} I'm listening...
+::<!--Custom String Trigger: TalkSentence_501027013-->
+::<!--Custom String Listener: TalkSentence_501027013-->
+::'''Rossy:''' Here, let me show you how to read this newspaper...
+::<!--Custom String Trigger: Wait_Option_5010270_25-->
+::<!--Custom String Listener: Wait_Option_5010270_25-->
+::{{DIcon|Talk}} What's the paper say?
+:::<!--Custom String Listener: TalkSentence_501027015-->
+:::'''Rossy:''' Listen to this malarkey: "Today, the Minister of Culture and Education, Mr. Bova, attended..."
+:::'''Rossy:''' Oh wait, Bova is my father... *cough* Let's look at the next one.
+:::'''Rossy:''' "Head of the Limesteins shares the family's corporate culture, 'Cultivating a direwolf spirit to come together and transcend limitations.'"...
+:::'''Rossy:''' Are you hearing this nonsense? What's this, "direwolf spirit"? He is encouraging young people to work themselves to an early grave. This Limestein is trying to squeeze them for their labor so the Limesteins can keep up their lavish lifestyles!
+:::'''Rossy:''' *sigh* It's all tricks...
+:::'''Rossy:''' Judging from your garish outfit, I suppose you're some rich kid who couldn't possibly appreciate the hardships normal people face. Whatever. People like you typically don't get it anyway.
+:::<!--Custom String Trigger: Wait_Option_5010270_34-->
+:::<!--Custom String Listener: Wait_Option_5010270_34-->
+:::{{DIcon|Arrow}} Huh, why do you think I'm a rich kid?
+::::<!--Custom String Listener: TalkSentence_501027023-->
+::::'''Rossy:''' Did I hit the nail on the head? You should develop some empathy so that you can see all the world's troubles like me...
+:::{{DIcon|Arrow}} Aren't you also rich &mdash; as the son of a government official?
+::::<!--Custom String Listener: TalkSentence_501027025-->
+::::'''Rossy:''' I'm not like this Limestein guy. What? Does being the son of an official automatically put someone above the common people? That's an unacceptable stereotype!
+:::<!--Custom String Trigger: Wait_Option_5010270_40-->
+:::<!--Custom String Listener: Wait_Option_5010270_40-->
+:::{{DIcon|Arrow}} Alright. You've got a point.
+::::<!--Custom String Listener: TalkSentence_501027028_1-->
+::::'''Rossy:''' Never mind. It's useless trying to explain it to you. People your age don't know the meaning of independent thinking...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I think you're just bored.
+::::<!--Custom String Listener: TalkSentence_501027028_2-->
+::::'''Rossy:''' Hey, I have my own problems, too. Okay?
+::::'''Rossy:''' Never mind. It's useless trying to explain it to you. People your age don't know the meaning of independent thinking...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You have a problem with everyone, don't you?
+:::<!--Custom String Listener: TalkSentence_501027032-->
+:::'''Rossy:''' It's just common angst, don't you get it? Never mind. Let's just continue reading the news.
+:::'''Rossy:''' ...Get a load of this guy. Check out what's on the third page. It kills me! "Belobog's outer ring heating system continues to malfunction. Now recruiting emergency repair workers"...
+:::'''Rossy:''' They sure have tough skin, printing something like this. The Overworld's heating system has always been a headache with its constant need for repairs.
+:::'''Rossy:''' Emergency repairs are nothing more than temporary fixes. We can survive the Eternal Freeze. The problem is all this busy work isn't going to solve the real issue. Is all this effort really worth it?
+:::'''Rossy:''' The way I see it, Belobog Heating Corporation shouldn't be trusted! The Supreme Guardian should step in and revamp all of the city's heating pipes!
+:::'''Rossy:''' If the people at Belobog Heating can't figure out such a simple problem, then leave it to me!
+:::<!--Custom String Trigger: Wait_Option_5010270_52-->
+:::<!--Custom String Listener: Wait_Option_5010270_52-->
+:::{{DIcon|Arrow}} I'm sure they reached this conclusion after weighing all the costs.
+::::<!--Custom String Listener: TalkSentence_501027037-->
+::::'''Rossy:''' Hmph. You've never fixed the heating system yourself. It's easy to be an armchair professional!
+::::<!--Custom String Trigger: TalkSentence_501027041-->
+::::<!--Custom String Listener: TalkSentence_501027041-->
+::::'''Rossy:''' Anyway, why am I talking to you about this? Not everyone of my age sees the big picture...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Are you going to pay for the renovation of all the pipes?
+::::<!--Custom String Listener: TalkSentence_501027039-->
+::::'''Rossy:''' Don't you try and morally blackmail me. I know that trick and I won't fall for it!
+::::'''Rossy:''' Based on your logic, I would have to learn to produce milk myself if I say I'm not a fan of Moo-Moo Milk. That's ridiculous!
+::::<!--Custom String Trigger: TalkSentence_501027041-->
+::::<!--Custom String Listener: TalkSentence_501027041-->
+::::'''Rossy:''' Anyway, why am I talking to you about this? Not everyone of my age sees the big picture...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} (Remain Silent)
+:::<!--Custom String Listener: TalkSentence_501027043-->
+:::'''Rossy:''' What are you doing here?
+:::'''Rossy:''' If you are bored, why don't you work for Belobog's heating system and contribute to society!? Why waste your best years here?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Was there... anything else? If not, I'm gonna go.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Rossy:''' Geez. The moral decay of this place grows more severe by the day. Mark my words. Belobog is on the brink of collapse!
+::'''Rossy:''' Look at this. This is today's edition of the ''Crystal Daily''. Here. Look at the front page headline. Do you see it?
+::'''Rossy:''' "Supreme Guardian Bronya to organize survey team for exploration beyond the walls: First explorers on the Snow Plains in 700 years."
+::'''Rossy:''' Hey, look how riled up I am... Just glancing at this headline is more than I can take!
+::{{DIcon|Arrow}} Isn't this good news?
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Rossy:''' How could you call this good? People your age don't get it, including that new Supreme Guardian Bronya. You have no semblance of empathy! Belobog is finished...
+:::<!--Custom String Trigger: TalkSentence_501024189-->
+::{{DIcon|Arrow}} Care to enlighten me?
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Rossy:''' Do I need to spell it out for you? The former Guardian has passed away not long ago, and now you've got Bronya jumping at the chance to organize a "survey team beyond the walls..." This clearly reflects her inability to make good policy!
+::'''Rossy:''' What is Belobog lacking right now? The awareness that there's nothing but wind and snow beyond our city walls? How wasteful do you have to be to take our limited resources and put them into something so insignificant?
+::'''(Trailblazer):''' (His complaints are endless... I better not waste any more time here.)
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} You can stay here and keep lecturing.
+::'''Rossy:''' Huh? Wow, it's getting late. My mom wants me home for dinner. See you later!
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_301150302)
+:<!--Custom String Listener: TalkSentence_301150302-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Rossy
+|zhs  = 罗希
+|zht  = 羅希
+|ja   = ロシ
+|ko   = 로시
+|es   = Rossy
+|fr   = Rossy
+|ru   = Росси
+|th   = Rossy
+|vi   = Rossy
+|de   = Rossy
+|id   = Rossy
+|pt   = Rossy
+}}
+==Change History==
+{{Change History|TODO}}

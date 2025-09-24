@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Sanjin#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divination Commission Diviner
+|image           = NPC Sanjin.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Divination Commission
+|relatives       = 
+}}
+'''Sanjin''' is an NPC on [[The Xianzhou Luofu]], located in [[Divination Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Divination Commission|npc_180_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502051101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502051101.json-->
+::'''Sanjin:''' "Only one divination per day"! I must bear this in mind!
+::'''Sanjin:''' Sorry, my mind was elsewhere just now, and I didn't notice your presence... Well, today is not a good day for divination. Let's do it some other time.
+::{{DIcon|Arrow}} What does "only one divination per day" mean?
+:::<!--Custom String Listener: TalkSentence_502051105-->
+:::'''Sanjin:''' Diviners deal with specific issues. We have to maintain an objective, rational, and calm approach to prevent the result from becoming our subjective opinion.
+::{{DIcon|Arrow}} Why isn't today a good day for divination?
+:::<!--Custom String Listener: TalkSentence_502051107-->
+:::'''Sanjin:''' I feel restless and distracted today... This is bad.
+::<!--Custom String Trigger: TalkSentence_502051108-->
+::<!--Custom String Listener: TalkSentence_502051108-->
+::'''Sanjin:''' Diviners should believe in objective facts, so being too emotional will affect the result. Let me ask you a question, and you'll be able to understand it. Why would people want to do divination for the second time?
+::{{DIcon|Arrow}} Because they have doubts about the first result.
+:::<!--Custom String Listener: TalkSentence_502051110-->
+:::'''Sanjin:''' Exactly. That's the direct reason.
+::{{DIcon|Arrow}} Because they want to verify the first result.
+:::<!--Custom String Listener: TalkSentence_502051112-->
+:::'''Sanjin:''' It's just a nice way to put it. Doesn't it show that they have doubts about the first result?
+::{{DIcon|Arrow}} Because they want to change the previous result.
+:::<!--Custom String Listener: TalkSentence_502051114-->
+:::'''Sanjin:''' Divination only describes upcoming facts, which can't be changed by another divination. They just refuse to believe the result.
+::<!--Custom String Trigger: TalkSentence_502051115-->
+::<!--Custom String Listener: TalkSentence_502051115-->
+::'''Sanjin:''' A friend of mine once told me that it is taboo for diviners to doubt the results and try to divine twice.
+::'''Sanjin:''' Ironically, she left the Divination Commission because of her accurate divination. This is really saddening.
+::'''Sanjin:''' Forgive me for going off-topic here... I've seen you before. You are the hero whom Master Fu Xuan regards highly. Here is a small gift for you. Is there anything else I can do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502051201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502051201.json-->
+::'''Sanjin:''' If only Ruoyue was here... She's a better diviner than me...
+::'''Sanjin:''' There you are. Is there anything else I can do for you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask you a few things...
+::<!--Trigger PerformanceE 502051102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502051102.json-->
+::'''Sanjin:''' Ask away, though I don't know much. If it's about something too complicated, I'm afraid you'll have to ask the Managing Diviners.
+::<!--Custom String Trigger: backoption-->
+::<!--Custom String Listener: backoption-->
+::{{DIcon|Talk}} I'd like to ask about your friend...
+:::<!--Custom String Listener: TalkSentence_502051121-->
+:::'''Sanjin:''' Her name is Ruoyue, and you've probably passed by her divination shop in the Exalting Sanctum Plaza called the Looking Bronze. After leaving the Divination Commission, she went back home to take over her family business.
+:::'''Sanjin:''' Before the disaster in Ambrosial Arbor happened, she already saw the trigram vacillate between the Mountain and Water trigrams to a terrible degree. Yet, the sign that came suddenly didn't point to a specific time and reason and couldn't be shown again. Therefore, no diviners took her divination seriously.
+:::'''Sanjin:''' Later, Ruoyue left the Commission due to various reasons. She said she was satisfied with her current life, but I'm not sure she meant it.
+:::{{DIcon|Arrow}} Forecasting doesn't guarantee immediate changes.
+::::<!--Custom String Listener: TalkSentence_502051125-->
+::::'''Sanjin:''' "It's to provide a basis for people to make a wiser decision." I understand, but... I just feel somewhat sorry for it.
+::::<!--Custom String Trigger: TalkSentence_502051129-->
+::::<!--Custom String Listener: TalkSentence_502051129-->
+::::'''Sanjin:''' What would happen if the commission received her report back then? Alas, I shouldn't be talking about the what-ifs as a diviner.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Perhaps, it's a good thing to leave here.
+::::<!--Custom String Listener: TalkSentence_502051127-->
+::::'''Sanjin:''' I'm not sure about that.
+::::'''Sanjin:''' But I can see her eyes sparkling after quitting her job. She seems healthier than those diviners who always look lethargic.
+::::<!--Custom String Trigger: TalkSentence_502051129-->
+::::<!--Custom String Listener: TalkSentence_502051129-->
+::::'''Sanjin:''' What would happen if the commission received her report back then? Alas, I shouldn't be talking about the what-ifs as a diviner.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The Divination Commission as a workplace is so...
+:::<!--Custom String Listener: TalkSentence_502051131-->
+:::'''Sanjin:''' Hahahaha, do you want to say "harsh"? That's not really the case.
+:::'''Sanjin:''' Everyone knows what's on the minds of the three Managing Diviners. As the master diviner doesn't address the issue directly, the three still assume that the competition between them is a secret... It's quite amusing to see them scheming against each other at work.
+:::'''Sanjin:''' About Ruoyue, I heard that Lady Fu Xuan had predicted her departure from the Divination Commission before, so she allowed her to leave.
+:::'''Sanjin:''' The Managing Diviners were left ashamed because of Ruoyue's divination about the Ambrosial Arbor disaster. Perhaps, letting her go is the master diviner's way to protect her... Of course, no one can be sure about this except the master diviner herself.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I heard that you guys are not on good terms with those from the Artisanship Commission.
+:::<!--Custom String Listener: TalkSentence_502051136-->
+:::'''Sanjin:''' Let's not talk about things that will undermine the spirit of unity.
+:::'''Sanjin:''' We helped them to calculate the damage after the Ambrosial Arbor disaster. This shows that our relationship is fine.
+:::'''Sanjin:''' Still, I must criticize them for telling everyone that working in the Divination Commission is a breeze, and we spend most of the time enjoying snacks...
+:::'''Sanjin:''' There is no such thing in this world! When we say that about ourselves, we mean it as a joke. One day, I received a text message from a friend asking me whether diviners were really so free. I was speechless.
+:::'''Sanjin:''' Those at the Artisanship Commission handle lots of projects and are paid well. With just one invention, they can live off the royalties for decades. Isn't it much better than the job at the Divination Commission?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502051142-->
+:::'''Sanjin:''' Okay. See you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502051102-->
+:{{DIcon|Exit}} I don't have any other questions.
+::'''Sanjin:''' Okay. See you.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Sanjin
+|zhs  = 散锦
+|zht  = 散錦
+|ja   = 散錦
+|ko   = 산진
+|es   = Sanjin
+|fr   = Sanjin
+|ru   = Саньцзинь
+|th   = Sanjin
+|vi   = Sanjin
+|de   = Sanjin
+|id   = Sanjin
+|pt   = Sanjin
+}}
+==Change History==
+{{Change History|TODO}}

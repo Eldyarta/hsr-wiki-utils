@@ -1,0 +1,282 @@
+<%-- [PAGE_INFO]
+PageTitle=#Chartonus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Grand Craftsman"
+|image           = NPC Chartonus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Chartonus''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_36_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+:----
+:;(Screen fades to black)
+::*ding* *ding* *ding* This tall blacksmith is forging iron.
+::In your eyes, his weapon forging process is unsophisticated, unpretentious. Apart from exhibiting more strength and producing louder clanging, he doesn't seem too different from the most ordinary blacksmiths in Amphoreus.
+::But... *ding* *ding* *ding*
+::You notice a few pieces of quenched iron billets in his hands, glowing with an apparently unusual sheen.
+::{{DIcon|Arrow}} Try interrupting him.
+:::<!--Custom String Listener: TalkSentence_504034006-->
+::;(Screen fades to black)
+:::'''Chartonus:''' ...
+:::*ding* *ding* *ding* ...Nope, the blacksmith ignores you completely.
+:::<!--Custom String Trigger: TalkSentence_504034009-->
+::{{DIcon|Arrow}} Wait for him to finish.
+::<!--Custom String Listener: TalkSentence_504034009-->
+:;(Screen fades to black)
+::Good thing this burly smith is almost done. The billet sizzles when doused in water, and Chartonus finally turns around to meet you.
+::'''Chartonus:''' ...Long have you waited, warrior of the outlands.
+::{{DIcon|Arrow}} It's all right. I was just admiring your craft.
+::{{DIcon|Arrow}} You knew I was waiting for you!
+::<!--Custom String Listener: TalkSentence_504034013-->
+::'''Chartonus:''' Sorry, distracted I cannot be, while the smithing goes on.
+::'''Chartonus:''' The earnest Titan, Georios. Its creations, the mountain dwellers are. Meticulous... a lineage unbroken.
+::{{DIcon|Arrow}} That iron billet feels very special...
+:::<!--Custom String Listener: TalkSentence_504034016-->
+:::'''Chartonus:''' Billet, ordinary it was. The tempering process, blessed by Titans it was.
+:::<!--Custom String Trigger: TalkSentence_504034018-->
+::{{DIcon|Arrow}} What kind of Titan is Georios?
+::<!--Custom String Listener: TalkSentence_504034018-->
+::'''Chartonus:''' The Pillar of Stone, Georios, the Earth Titan, God of the Mountains.
+::'''Chartonus:''' Steady and diligent, Georios likes. Forge, grain, and strength, all shall gain.
+::'''Chartonus:''' Hammer strikes, shape not alone. Earth's blessing, grasp strength, within seal it is.
+::{{DIcon|Arrow}} So it's enchanted with magic!
+:::<!--Custom String Listener: TalkSentence_504034022-->
+:::'''Chartonus:''' Magic... what is it? Craft, or raw material, is it?
+::{{DIcon|Arrow}} No wonder Dan Heng's spear was cut in half.
+:::<!--Custom String Listener: TalkSentence_504034024-->
+:::'''Chartonus:''' Very special, his weapon is, that Lord Dan Heng.
+:::'''Chartonus:''' Craftsmanship like this, seen before, I have not. No Titan's blessing it has, yet sharp and strong it is.
+::{{DIcon|Arrow}} You crafted all the Chrysos Heirs' weapons?
+:::<!--Custom String Listener: TalkSentence_504034027-->
+:::'''Chartonus:''' The Chrysos Heirs, trust me, they do.
+::<!--Custom String Trigger: TalkSentence_504034028-->
+::<!--Custom String Listener: TalkSentence_504034028-->
+::'''Chartonus:''' ...
+::'''Chartonus:''' Continue my work, I shall, if nothing else there is, warrior of the outlands.
+;(Subsequent interactions)
+:----
+:;(Screen fades to black)
+::*ding* *ding* *ding* The Grand Craftsman is busy forging.
+::Seeing your presence, the Grand Craftsman puts down his hammer.
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504000225
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504000226
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+::{{A|VO vo ambient w4 v300 greeting hatuonusi 101.ogg}} {{A|VO vo ambient w4 v300 greeting hatuonusi 102.ogg}} '''Chartonus:''' Warrior of the outlands, what need you have?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I'd like to buy an amazing weapon.
+::'''Chartonus:''' ...Thank you. Chartonus' proud creations, you may look at as you please.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 36,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 72,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} I want to have a chat with you.
+::'''Chartonus:''' Chat, I do not well. Worry, you should not.
+::<!--Custom String Trigger: Wait_Option_504034003_64-->
+::<!--Custom String Listener: Wait_Option_504034003_64-->
+::{{DIcon|Talk}} How do I choose a good weapon in Amphoreus?
+:::<!--Custom String Listener: TalkSentence_504034103-->
+:::'''Chartonus:''' Sharp and strong, a good weapon is... Like a hard rock, the red earth is.
+:::'''Chartonus:''' Majestic and cold, a better weapon is... Like a throne, the chariot is.
+:::{{DIcon|Arrow}} What's the difference?
+:::<!--Custom String Listener: TalkSentence_504034106-->
+:::'''Chartonus:''' Forge weapons, Georios does. Temper weapons, Nikador shall.
+:::'''Chartonus:''' Explain well, I cannot. "Have become used to it," said once Phainon.
+:::'''Chartonus:''' "Drenched in too much blood," said too Mydei.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How well do you know the Chrysos Heirs?
+:::<!--Custom String Listener: TalkSentence_504034110-->
+:::'''Chartonus:''' Good weapons, I craft for Chrysos Heirs. From weapons, my knowledge begins.
+:::<!--Custom String Trigger: Wait_Option_504034003_76-->
+:::<!--Custom String Listener: Wait_Option_504034003_76-->
+:::{{DIcon|Talk}} Mydei?
+::::<!--Custom String Listener: TalkSentence_504034112-->
+::::'''Chartonus:''' His weapon, many times, Mydei has broken. A hum, I hear, when fixing the surviving weapons.
+::::'''Chartonus:''' Cross the battlefield, through seas of blood, one shall. Only then, silent war cries, find you will.
+::::'''Chartonus:''' Mostly like that, Kremnoan weapons are. Different, Mydei's is.
+::::'''Chartonus:''' Divinity, majesty, compassion, there are. Rusted blood, many strange scents, mixed they are.
+::::'''Chartonus:''' ...Misperception, perhaps it is.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Phainon?
+::::<!--Custom String Listener: TalkSentence_504034118-->
+::::'''Chartonus:''' Lacks soul, Phainon's weapon does. Understand, I do not, why for such a resolute warrior, it is so.
+::::'''Chartonus:''' Perhaps the weapon, not fitting it is. Perhaps hesitation there is, with destiny.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Aglaea?
+::::<!--Custom String Listener: TalkSentence_504034121-->
+::::'''Chartonus:''' Need, Aglaea does not. Like her style, sharp and merciless, gold thread is.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tribbie?
+::::<!--Custom String Listener: TalkSentence_504034123-->
+::::'''Chartonus:''' Weapons, little girls have not. But often, see them I do.
+::::'''Chartonus:''' Sometimes like thunder, the sound of hammering is. Startled, they are, when nearby by chance.
+::::'''Chartonus:''' Little toys, they cannot make. Seek my help, they occasionally do.
+::::'''Chartonus:''' Small rocket launchers, metal wings, iron horses... Craft them, I can. Adorable, they are.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Got it, no more questions from me.
+::::<!--Custom String Listener: Wait_Option_504034003_64-->
+::::{{DIcon|Talk}} How do I choose a good weapon in Amphoreus?
+:::::<!--Custom String Listener: TalkSentence_504034103-->
+:::::'''Chartonus:''' Sharp and strong, a good weapon is... Like a hard rock, the red earth is.
+:::::'''Chartonus:''' Majestic and cold, a better weapon is... Like a throne, the chariot is.
+:::::{{DIcon|Arrow}} What's the difference?
+:::::<!--Custom String Listener: TalkSentence_504034106-->
+:::::'''Chartonus:''' Forge weapons, Georios does. Temper weapons, Nikador shall.
+:::::'''Chartonus:''' Explain well, I cannot. "Have become used to it," said once Phainon.
+:::::'''Chartonus:''' "Drenched in too much blood," said too Mydei.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} The Mountain Dwellers sure have a lot of stories.
+:::::<!--Custom String Listener: TalkSentence_504034129-->
+:::::'''Chartonus:''' Too long, too long, the stories of the Mountain Dweller are. Busy, my hands are. Time to tell, I have not. Apologies, I offer.
+:::::{{DIcon|Arrow}} Just for a bit!
+:::::<!--Custom String Listener: TalkSentence_504034131-->
+:::::'''Chartonus:''' Long history, Mountain Dwellers have. Their bodies, Georios shaped.
+:::::'''Chartonus:''' Strong, Earth Titan's children are. For fairness, wisdom, Cerces gives not.
+:::::<!--1-second delay-->
+:::::'''Chartonus:''' Slaves, Mountain Dwellers once were. Taken, they were, to be blacksmiths, guards, miners, and keepers.
+:::::'''Chartonus:''' Now Mountain Dwellers in Okhema, my people are. Used by Kremnoans, they once were.
+:::::<!--1-second delay-->
+:::::'''Chartonus:''' Love peace, Mountain Dwellers do. Yet, safe from war, hiding in mountains is not.
+:::::'''Chartonus:''' With other civilizations, we exchange. Fortunate or unfortunate, think deeply we do not. Willing to ponder, we are not.
+:::::<!--1-second delay-->
+:::::'''Chartonus:''' Slow, Mountain Dwellers run. Curled up, we did when leaving the mountains, like rolling stones.
+:::::'''Chartonus:''' Fear us, common folk did. But kind, everyone was. Accepted, we slowly were. "Gentle giants," they called us.
+:::::<!--1-second delay-->
+:::::'''Chartonus:''' Think little, work plenty, Mountain Dwellers do. Renowned for years, our forging skills and masonry have been.
+:::::'''Chartonus:''' Kingdoms, we have not. In cities, we live. Content with stability, we are.
+:::::<!--1-second delay-->
+:::::'''Chartonus:''' Ores and soil, Mountain Dwellers like. Explosives and cold water, Mountain Dwellers hate.
+:::::'''Chartonus:''' The city of Phagousa's faith, we rarely visit. Okhema, our favorite, it is so far.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Let's leave it there for now.
+:::::<!--Custom String Listener: TalkSentence_504034144-->
+:::::'''Chartonus:''' Farewell, warrior. Bless you, the earth does.
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} The Mountain Dwellers sure have a lot of stories.
+:::<!--Custom String Listener: TalkSentence_504034129-->
+:::'''Chartonus:''' Too long, too long, the stories of the Mountain Dweller are. Busy, my hands are. Time to tell, I have not. Apologies, I offer.
+:::{{DIcon|Arrow}} Just for a bit!
+:::<!--Custom String Listener: TalkSentence_504034131-->
+:::'''Chartonus:''' Long history, Mountain Dwellers have. Their bodies, Georios shaped.
+:::'''Chartonus:''' Strong, Earth Titan's children are. For fairness, wisdom, Cerces gives not.
+:::<!--1-second delay-->
+:::'''Chartonus:''' Slaves, Mountain Dwellers once were. Taken, they were, to be blacksmiths, guards, miners, and keepers.
+:::'''Chartonus:''' Now Mountain Dwellers in Okhema, my people are. Used by Kremnoans, they once were.
+:::<!--1-second delay-->
+:::'''Chartonus:''' Love peace, Mountain Dwellers do. Yet, safe from war, hiding in mountains is not.
+:::'''Chartonus:''' With other civilizations, we exchange. Fortunate or unfortunate, think deeply we do not. Willing to ponder, we are not.
+:::<!--1-second delay-->
+:::'''Chartonus:''' Slow, Mountain Dwellers run. Curled up, we did when leaving the mountains, like rolling stones.
+:::'''Chartonus:''' Fear us, common folk did. But kind, everyone was. Accepted, we slowly were. "Gentle giants," they called us.
+:::<!--1-second delay-->
+:::'''Chartonus:''' Think little, work plenty, Mountain Dwellers do. Renowned for years, our forging skills and masonry have been.
+:::'''Chartonus:''' Kingdoms, we have not. In cities, we live. Content with stability, we are.
+:::<!--1-second delay-->
+:::'''Chartonus:''' Ores and soil, Mountain Dwellers like. Explosives and cold water, Mountain Dwellers hate.
+:::'''Chartonus:''' The city of Phagousa's faith, we rarely visit. Okhema, our favorite, it is so far.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's leave it there for now.
+:::<!--Custom String Listener: TalkSentence_504034144-->
+:::'''Chartonus:''' Farewell, warrior. Bless you, the earth does.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let's leave it there for now.
+::'''Chartonus:''' Farewell, warrior. Bless you, the earth does.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

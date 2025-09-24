@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yanqing#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Yanqing.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Seat of Divine Foresight
+|relatives       = 
+}}
+'''Yanqing''' is an NPC on [[The Xianzhou Luofu]], located in [[Seat of Divine Foresight]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seat of Divine Foresight|npc_30_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 502085101: Config/Level/NPCDialogue/P10202/NPCAct/Act502085101.json-->
+:'''Yanqing:''' (Trailblazer), is there something important you want to discuss with me?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Frosty Blade's Trial|showChapter=0}} has been completed)
+:{{DIcon|Talk}} About the blindfolded lady you met...
+::<!--Trigger PerformanceE 502085301: Config/Level/NPCDialogue/P10202/NPCAct/Act502085301.json-->
+::'''Yanqing:''' It's hard to believe that lady is Jingliu, the previous Sword Champion of the Xianzhou Luofu and the general's teacher in martial arts...
+::'''Yanqing:''' Life can really be funny sometimes. I've never suffered such a loss in sword fighting before, but lately I've been getting beaten left and right. It's almost like I'm making up for lost time all at once, haha.
+::'''Yanqing:''' Of course, I know that being young and inexperienced means taking some losses is inevitable... but I just can't accept it if I don't come out on top.
+::'''Yanqing:''' The general told me it was good to feel defeated, as it could motivate me to keep honing my skills. I'm sure I'll become a better swordsman the next time we meet!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502085201-->
+;(If {{Mission|Frosty Blade's Trial|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Not really. I just want to have a chat with you.
+::<!--Trigger PerformanceE 502085201: Config/Level/NPCDialogue/P10202/NPCAct/Act502085201.json-->
+::'''Yanqing:''' Have a chat with me? Sure, I can do that, since I'm not working on anything at the moment. What would you like to talk about?
+::<!--Custom String Trigger: Wait_Option_502085201_12-->
+::<!--Custom String Listener: Wait_Option_502085201_12-->
+::{{DIcon|Talk}} Do you feel stressed out at work?
+:::<!--Custom String Listener: TalkSentence_502085206-->
+:::'''Yanqing:''' My job is to protect the general. Does that sound stressful to you?
+:::'''Yanqing:''' But sometimes, I do feel the pressure. The general sees the potential in me and teaches me swordsmanship and military strategies. I always hope to have some achievements under my belt to return his favor.
+:::'''Yanqing:''' However, after sparring with the general for some time, I think my skills have plateaued. You know how that is.
+:::'''Yanqing:''' I can't see the general as my enemy, so I can't feel the sense of danger that one would have on an actual battlefield. This is definitely going to impede my progress in swordsmanship.
+:::'''Yanqing:''' Besides, from the recent trial I've gone through, I've learned that there's always a wider world out there with more powerful swordfighters than me. And my sword will eventually have to face enemies from beyond the Luofu... So I must be prepared.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you bought any nice swords lately?
+:::<!--Custom String Listener: TalkSentence_502085212-->
+:::'''Yanqing:''' Swords... I haven't bought any recently... Or rather, I had to temporarily cut down on my sword purchases. *sigh*
+:::{{DIcon|Arrow}} Does the general not allow you to buy them?
+:::{{DIcon|Arrow}} Have you used up all your pocket money?
+:::<!--Custom String Listener: TalkSentence_502085215-->
+:::'''Yanqing:''' Nah, that's not it. It's just that I've always been so obsessed with buying so many swords until one day I suddenly realized that my room was full of them, and I had barely enough space to walk around inside my own room...
+:::'''Yanqing:''' Having pestered the general every now and then to allow me to buy swords, I can't ask the general to arrange another room for me now, can I? Surprisingly, what stands in the way of my hobby is nothing but the size of my room...
+:::'''Yanqing:''' The general suggests that I can sell some of my swords to get back the money, but they are my prized possessions! I just can't do it!
+:::'''Yanqing:''' Well, for now I just gotta hold back and resist the urge to spend recklessly... Yep, definitely can't give in to impulse buys anymore... *sigh* This is gonna be so hard for me! I know I'll inevitably come across tempting swords that will test my self-control in the future.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: TalkSentence_502085220-->
+:::'''Yanqing:''' Take care! I look forward to sparring with you one day.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502085301-->
+;(If {{Mission|Frosty Blade's Trial|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I've got to go.
+::'''Yanqing:''' Take care! I look forward to sparring with you one day.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 602020121 has been seen--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByMainMissionFinish","MainMissionID":6020201}-->}})
+:{{DIcon|Talk}} Sorry for getting in your way when you were going after Kafka.
+::<!--Trigger PerformanceE 602020121: Config/Level/Mission/6020201/Act/Act602020121.json-->
+::'''Yanqing:''' ...What are you talking about? Wasn't that just a communication error? You didn't mean it. I don't mind.
+::'''(Trailblazer):''' (Kafka used Spirit Whisper to implant suggestions into him. He doesn't remember anymore.)
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_602020121-->
+;(Unused &mdash; TalkSentence_502085221)
+:<!--Custom String Listener: TalkSentence_502085221-->
+::'''Yanqing:''' Take care! I look forward to sparring with you one day.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yanqing
+|zhs  = 彦卿
+|zht  = 彥卿
+|ja   = 彦卿
+|ko   = 연경
+|es   = Yanqing
+|fr   = Yanqing
+|ru   = Яньцин
+|th   = Yanqing
+|vi   = Yanqing
+|de   = Yanqing
+|id   = Yanqing
+|pt   = Yanqing
+}}
+==Change History==
+{{Change History|TODO}}

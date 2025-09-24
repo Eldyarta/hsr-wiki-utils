@@ -1,0 +1,168 @@
+<%-- [PAGE_INFO]
+PageTitle=#Zelos#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Holy Land Guard
+|image           = NPC Zelos.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Zelos''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_206_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504056001: Config/Level/Mission/5040560/Act/Act504056001.json-->
+::'''Zelos:''' Forgive my intrusion, esteemed one. I noticed you emerging from the temple, a place reserved for authorized personnel. Given your attire, you don't appear to be a regular pilgrim. May I ask who you are?
+::{{DIcon|Arrow}} The Holy Maiden asked for me to be here.
+:::<!--Custom String Listener: TalkSentence_504056003-->
+:::'''Zelos:''' How could it be... are you a guest of the Holy Maiden?
+:::'''Zelos:''' I've heard the Holy Maiden rarely shows herself in public. If she personally invited you, then you must be a priest of considerable rank! It's truly an honor to meet you!
+::{{DIcon|Arrow}} I am from the future.
+:::<!--Custom String Listener: TalkSentence_504056006-->
+:::'''Zelos:''' The future... Are you alluding to the power of time? Could it be that you are an Oronyx priest from other cities?
+:::'''Zelos:''' Ah, that would make sense. I recently learned that the Holy Maiden was expecting an esteemed guest. It's truly an honor to meet you!
+::<!--Custom String Trigger: TalkSentence_504056008-->
+::<!--Custom String Listener: TalkSentence_504056008-->
+::'''Zelos:''' Esteemed one, though we've just met, I have a small favor to ask. Please forgive me... You've seen the Holy Maiden, so could you share what she's like?
+::{{DIcon|Arrow}} Have you not seen her?
+:::<!--Custom String Listener: TalkSentence_504056010-->
+:::'''Zelos:''' Regrettably... I'm just a guard, and I don't have the privilege to enter the inner sanctum...
+::{{DIcon|Arrow}} I know little about her myself...
+:::<!--Custom String Listener: TalkSentence_504056012-->
+:::'''Zelos:''' I see, well... I'm just a guard, never allowed inside the inner sanctum, so I'm curious...
+::<!--Custom String Trigger: TalkSentence_504056013-->
+::<!--Custom String Listener: TalkSentence_504056013-->
+::'''Zelos:''' Even a few words would be appreciated. Please share!
+::'''Zelos:''' Ah... just as the prophecy foretold, she truly is a kind soul. Esteemed one, please accept this token of my gratitude &mdash; consider it my humble tribute to destiny.
+::{{DIcon|Arrow}} I'm afraid I can't accept this.
+:::<!--Custom String Listener: TalkSentence_504056017-->
+:::'''Zelos:''' Ah... I forgot you're from a foreign city. Customs here in Janusopolis must be unfamiliar to you.
+::{{DIcon|Arrow}} Such generosity, isn't it?
+:::<!--Custom String Listener: TalkSentence_504056019-->
+:::'''Zelos:''' No, no, the fact that you didn't comment on how little it is has me on edge. Oh... I forgot you're from a foreign city, and our customs must be unfamiliar to you.
+::<!--Custom String Trigger: TalkSentence_504056020-->
+::<!--Custom String Listener: TalkSentence_504056020-->
+::'''Zelos:''' Such integrity, esteemed one, so unlike the temple's priests... I'm deeply grateful. Noble one, if there's anything you wish to know, please feel free to inquire. I'll share everything I can!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504056002: Config/Level/Mission/5040560/Act/Act504056002.json-->
+::'''Zelos:''' Priest from the outlands, it's good to see you again! You look great today. Destiny must favor you! How may I assist you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Let's chat.
+::'''Zelos:''' Yes, esteemed one, please speak!
+::<!--Custom String Trigger: Wait_Option_504056003_49-->
+::<!--Custom String Listener: Wait_Option_504056003_49-->
+::{{DIcon|Talk}} What is your view on the Titan faith?
+:::<!--Custom String Listener: TalkSentence_504056113-->
+:::'''Zelos:''' No, no, as a mere guard, how could I dare to comment on something as sacred as a ritual? The very thought makes me uneasy...
+:::'''Zelos:''' Rest assured, I heed the teachings of the priests. &mdash; {{Rubi|Janus|Passage Titan}} guides our path, and the scriptures of {{Rubi|Talanton|Law Titan}} are the foundation of every guard!
+:::'''Zelos:''' Rather than that, tell me more about the Holy Maiden! What is she like? Is she truly as graceful and commanding as the prophecy foretold?
+:::Considering this is the "past," revealing a little should be fine, but you don't know which Holy Maiden he's referring to, so...
+:::{{DIcon|Arrow}} (Tell him about Tribbie)
+::::<!--Custom String Listener: TalkSentence_504056118-->
+::::You describe your impression of Tribbie, carefully leaving out any mention of her height...
+::::'''Zelos:''' Oh, so spirited and full of life! She's exactly as the prophecy foretold, just like the previous Holy Maiden. What a wonderful legacy!
+::::<!--Custom String Trigger: TalkSentence_504056126-->
+::::<!--Custom String Listener: TalkSentence_504056126-->
+::::'''Zelos:''' Thank you, Honorable Priest! Your words are a blessing to me. I truly am fortunate.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} (Talk about Trinnon)
+::::<!--Custom String Listener: TalkSentence_504056121-->
+::::You describe your impression of Trinnon, carefully leaving out any mention of her height...
+::::'''Zelos:''' Oh, such a calm and intelligent young woman. Her dedication to duty is truly inspiring... What a remarkable individual!
+::::<!--Custom String Trigger: TalkSentence_504056126-->
+::::<!--Custom String Listener: TalkSentence_504056126-->
+::::'''Zelos:''' Thank you, Honorable Priest! Your words are a blessing to me. I truly am fortunate.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} (Talk about Trianne)
+::::<!--Custom String Listener: TalkSentence_504056124-->
+::::You describe your impression of Trianne, carefully leaving out any mention of her height...
+::::'''Zelos:''' Oh, a lively and spirited Holy Maiden! Even with destiny's favor, she still retains her innocence. How rare and precious!
+::::<!--Custom String Trigger: TalkSentence_504056126-->
+::::<!--Custom String Listener: TalkSentence_504056126-->
+::::'''Zelos:''' Thank you, Honorable Priest! Your words are a blessing to me. I truly am fortunate.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You are indeed faithful.
+:::<!--Custom String Listener: TalkSentence_504056128-->
+:::'''Zelos:''' ...Oh, to receive your acknowledgment is the greatest honor... I am deeply grateful.
+:::'''Zelos:''' In my hometown of Oleinus, I've always been deeply devoted to my faith. My contributions to the Titans are among the highest in the city. From a young age, my family taught me the sacred rituals of prayer, instilling in me a hope to one day dedicate my life fully to the faith.
+:::'''Zelos:''' Now, I have come to Janusopolis as I wished, but was told I am not eligible to enter the sacred temple. Fortunately, my robust physique allowed me to become a guard, dedicate seventy percent of my salary to the Titans, and continue the practice of my faith.
+:::'''Zelos:''' Some of my peers make fun of me, saying the priests are self-serving and that what I'm doing is pointless. But my family always taught me that "faith is about devotion, not about being right or wrong," and I'm truly grateful for that lesson.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there another way to see the Holy Maiden?
+:::<!--Custom String Listener: TalkSentence_504056133-->
+:::'''Zelos:''' Esteemed one, are you suggesting...? According to the rules, using Janus' Maze for divination requires a guard's presence, which... would allow me to enter the inner sanctum without breaking the law?
+:::{{DIcon|Arrow}} I haven't said anything yet.
+:::{{DIcon|Arrow}} So you've been planning this, eh?
+:::<!--Custom String Listener: TalkSentence_504056136-->
+:::'''Zelos:''' You caught me. This is a scenario I've rehearsed in my mind a thousand times, and I've planned the route in detail. Esteemed one, there's no time to waste! We should...
+:::{{DIcon|Arrow}} What's the matter?
+:::{{DIcon|Arrow}} Don't hesitate!
+:::<!--Custom String Listener: TalkSentence_504056139-->
+:::'''Zelos:''' ...Forget it. I shouldn't have misinterpreted your kindness... Please forgive me. I had no intention of being disrespectful. It's just that... at that moment... I recalled the prophecy.
+:::'''Zelos:''' "To keep the passage radiant, the successor must live in seclusion, undisturbed." This was the first prophecy issued centuries ago by the Holy Maiden countless generations ago, conveyed through the priests of the Temple of the Three Fates hundreds of Light Calendar years ago.
+:::'''Zelos:''' I've heard the Holy Maiden is approachable and kind, and those allowed into the temple are often faithful disciples. Perhaps the "disturbance" refers to unaware individuals like myself.
+:::'''Zelos:''' Your words about the Holy Maiden are more than enough to inspire my faith! Rest assured, I will do everything to protect Janusopolis from all threats!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I won't bother you anymore, farewell.
+:::<!--Custom String Listener: TalkSentence_504056144-->
+:::'''Zelos:''' Yes! Safe travels, noble priest. May the Holy Maiden's mercy be with you, and with me as well!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I won't bother you anymore, farewell.
+::'''Zelos:''' Yes! Safe travels, noble priest. May the Holy Maiden's mercy be with you, and with me as well!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Zelos
+|zhs  = 泽洛
+|zht  = 澤洛
+|ja   = ゼルオ
+|ko   = 젤로스
+|es   = Zelo
+|fr   = Zélos
+|ru   = Зерос
+|th   = Zelos
+|vi   = Zelos
+|de   = Zelos
+|id   = Zelos
+|pt   = Zelos
+}}
+==Change History==
+{{Change History|TODO}}

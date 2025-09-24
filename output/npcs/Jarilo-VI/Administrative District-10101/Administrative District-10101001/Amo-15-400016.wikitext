@@ -1,0 +1,274 @@
+<%-- [PAGE_INFO]
+PageTitle=#Amo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Novelist
+|image           = NPC Amo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Amo''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400016}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501024201: Config/Level/Mission/5010242/Act/Act501024201.json-->
+::<!--Custom String Trigger: TalkSentence_501024232-->
+::<!--Custom String Listener: TalkSentence_501024232-->
+::'''Amo:''' ...
+::<!--Custom String Trigger: Wait_Option_5010242_8-->
+::<!--Custom String Listener: Wait_Option_5010242_8-->
+::{{DIcon|Talk}} Let's talk about your works...
+:::<!--Custom String Listener: Wait_Option_5010242_10-->
+:::{{DIcon|Arrow}} What do you write then?
+::::<!--Custom String Listener: TalkSentence_501024248_1-->
+::::'''Amo:''' I wrote some horror novels, the quality of which can be described with the name of the genre according to some critics. Some say those novels should never have been written in the first place. For the disaster fiction I did, same critiques also apply.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What kind of rubbish have you produced?
+::::<!--Custom String Listener: TalkSentence_501024248-->
+::::'''Amo:''' I wrote some horror novels, the quality of which can be described with the name of the genre according to some critics. Some say those novels should never have been written in the first place. For the disaster fiction I did, same critiques also apply.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about your ghostwriting.
+:::<!--Custom String Listener: TalkSentence_501024250-->
+:::'''Amo:''' Have you heard of ''Tale of the Winterlands'', the fiction that was recently banned? The publisher was actually quite happy with the quality and wanted the author to make some edits on the original so that they can publish it again.
+:::'''Amo:''' But they did not expect the author to simply vanish into thin air! The editors had to contact me instead, asking if I can help with the project.
+:::'''Amo:''' "Ha! Tale of the Winterlands is just some cheap folklore compiled together. I can give you one hundred thousand to two hundred thousand words with ease. Piece of carrot cake to me." &mdash; That was my response when I took the job. You know how hard it is to finally get something going. I was just trying to impress them but ended up getting way ahead of myself.
+:::'''Amo:''' One of the editors had sent me a copy to let me get the feel of it. It wasn't until I started reading that I realized the book was going to be a classic. I had to admit, I couldn't even remotely reproduce the author's creativity and style.
+:::'''Amo:''' The editor has made several attempts to contact me since then, but I managed to avoid her each time because I just couldn't deliver.
+:::<!--Custom String Trigger: Wait_Option_5010242_21-->
+:::<!--Custom String Listener: Wait_Option_5010242_21-->
+:::{{DIcon|Arrow}} How would you rate ''Tale of the Winterlands'' now?
+::::<!--Custom String Listener: TalkSentence_501024256-->
+::::'''Amo:''' A Masterpiece of a true genius. Maybe the language still has room for polishing, but the wild passion weaved into the plot is other-worldly. For seven hundred years the people of Belobog have been trapped in the snow, their imagination taken away. This book reignited people's desire to look beyond these snow-covered lands...
+::::'''Amo:''' Maybe that's why the Architects insist on banning it... I heard that within a month of the book's publication, the number of people that ventured out into the snow and went missing had gone up exponentially.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's your plan for the future?
+::::<!--Custom String Listener: TalkSentence_501024259-->
+::::'''Amo:''' To avoid the editors for the time being.
+::::'''Amo:''' And contemplate on what to do for a living if I'm blocklisted... *sigh*
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Don't put so much pressure on yourself.
+:::<!--Custom String Listener: TalkSentence_501024262-->
+:::'''Amo:''' Sorry, I've had a difficult time lately...
+:::<!--Custom String Trigger: Wait_Option_5010242_31-->
+:::<!--Custom String Listener: Wait_Option_5010242_31-->
+:::{{DIcon|Arrow}} Don't give up just yet. Pull yourself up by your bootstraps.
+::::<!--Custom String Listener: TalkSentence_501024264-->
+::::'''Amo:''' Hehe, easier said than done.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Stop comparing yourself to others. Go with your instincts!
+::::<!--Custom String Listener: TalkSentence_501024266-->
+::::'''Amo:''' Hah! I'll become a laughingstock in the history of literature if I do that. "Who's this Amo? How dare he write this rubbish and claim to be writing ''Tale of the Winterlands''?"
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} No need to stick to one career path. How about doing something else?
+::::<!--Custom String Listener: TalkSentence_501024268-->
+::::'''Amo:''' Haha, I did consider doing that, but... writing is my true passion. My writing may be bad, but I feel happy when holding a pen in my hand...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for my questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501024202: Config/Level/Mission/5010242/Act/Act501024202.json-->
+::'''Amo:''' I always feel this strange calm when I stare at the trashcan, as if finally returning to where I belong... Ah, the breeze and the smell...
+::'''Amo:''' Oh, don't mind me. I was completely lost in that sense of belonging. I remember you, friend. What brings you here?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301042101-->)
+:{{DIcon|undefined}} I hear you need help.
+::<!--Trigger PerformanceE 301042101: Config/Level/Mission/3010421/Act/Act301042101.json-->
+::<!--Custom String Trigger: TalkSentence_301042102-->
+::<!--Custom String Listener: TalkSentence_301042102-->
+::'''Amo:''' Did you? You know, I often come here to contemplate life. When I am looking at that trashcan, I feel like I am looking at myself. I'm close to 30 but I haven't achieved anything in life.
+::'''Amo:''' A few days ago, I came here like I always do, and I found a beautiful postcard lying in the trashcan. Surprisingly, it was addressed to me, it was from "Garbage King."
+::'''Amo:''' I've heard things about this "Garbage King." They say he's a mysterious scavenger and nobody knows who he really is. Maybe I've been hanging around this trashcan for so long that I caught his attention.
+::'''Amo:''' At first, I thought I trespassed somebody's territory and this was a warning... Unexpectedly, the postcard is full of encouragement. He said he's read my novel and he really loves my stories. He told me not to give up. It was really...
+::<!--Custom String Trigger: Wait_Option_301042101_12-->
+::<!--Custom String Listener: Wait_Option_301042101_12-->
+::{{DIcon|Arrow}} Touching...
+::{{DIcon|Arrow}} Suspicious...
+::<!--Custom String Listener: TalkSentence_301042108-->
+::'''Amo:''' No... devastating!
+::'''Amo:''' Maybe he's just trying to cheer me up. But from his words, I see a writer much more talented than myself.
+::'''Amo:''' Look &mdash; "The birth of a person is like rubbish landing in the trashcan. There's a pleasant sound and it brings joy to people." What a wonderful metaphor. It's like I am reading about wars in the distant past...
+::'''Amo:''' And this &mdash; "My friend, we have a long life ahead of us and you still have time to experience your life, until Belobog sends off the last trashcan." How much sorrow does one have to endure before one can write such romantic prose?
+::'''Amo:''' Words that take me ages to come up with seem so easy to him. I feel like... I am conversing with a "King" who conquered the wind and snow. Like he is a saint while I am just an insignificant vagrant!
+::'''Amo:''' Now I can't focus on anything else. If you know anything about this "Garbage King," please let me know.
+::'''Amo:''' I want to know who he is, where he comes from and what he has been through. At least I want to understand the gap between us...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042101-->
+;(If {{cx}}<!--SubMission Started: 301042103--> and {{cx}}<!--SubMission Started: 301042101-->)
+:{{DIcon|undefined}} This is the clue you are looking for.
+::<!--Trigger PerformanceE 301042103: Config/Level/Mission/3010421/Act/Act301042103.json-->
+::<!--Custom String Trigger: TalkSentence_301042502-->
+::<!--Custom String Listener: TalkSentence_301042502-->
+::'''Amo:''' Another postcard... Unbelievable. Has he been watching me?
+::'''Amo:''' What a weirdo. I still can't believe he's a scavenger... Does he actually have another identity and is he doing this to experience another kind of life?
+::'''Amo:''' I can feel it. Inspirations shoot into my head. These are the ideas I've never had... Anyway, thank you. I will cherish these two postcards.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042103-->
+;(If {{cx}}<!--SubMission Started: 301150302-->, {{cx}}<!--SubMission Started: 301042103-->, and {{cx}}<!--SubMission Started: 301042101-->)
+:{{DIcon|undefined}} I'll help you exercise your rightful rights!
+::<!--Trigger PerformanceE 301150302: Config/Level/Mission/3011503/Act/Act301150302.json-->
+::'''Amo:''' Oh, it's you. Seems like there are still plenty of good people in this world... That's good.
+::'''Amo:''' My situation... is this. I'm the ghostwriter of the sequel for ''Tale of the Winterlands'', but I just can't manage to copy the feelings of the original...
+::'''Amo:''' That's why an editor is hot on my trail... She recently found out where I live and keeps visiting me, but I don't have any manuscripts to show her!
+::'''Amo:''' That editor is named Nika, and my commission to you is to get her away from me &mdash; I don't care how you do it or what you say to her. It'd be best if she thinks Amo is gone and never coming back.
+::'''Amo:''' Can you do that? If you can't, then I'll think of something else...
+::{{DIcon|Arrow}} Leave it to me. I'll talk to her.
+::{{DIcon|Arrow}} I'm very good at persuading people! Leave it to me!
+:::<!--Custom String Listener: TalkSentence_301150609-->
+:::'''Amo:''' Now that you've said that, I'm even more concerned...
+:::'''Amo:''' Sorry. Maybe I'm being too pessimistic. Don't take it to heart.
+:::<!--Custom String Trigger: TalkSentence_301150611-->
+::<!--Custom String Listener: TalkSentence_301150611-->
+::'''Amo:''' Please! You have my sincerest thanks!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150302-->
+;(If {{cx}}<!--SubMission Started: 301150304-->, {{cx}}<!--SubMission Started: 301150302-->, {{cx}}<!--SubMission Started: 301042103-->, and {{cx}}<!--SubMission Started: 301042101-->)
+:{{DIcon|undefined}} This is what Nika said.
+::<!--Trigger PerformanceE 301150304: Config/Level/Mission/3011503/Act/Act301150304.json-->
+::{{Black Screen|You told Amo what Nika had said...}}
+::'''Amo:''' ...So that's how it is.
+::'''Amo:''' This is a trap. I won't fall for it. She just wants to find and torture me, lock me up, and force me to write...
+::'''Amo:''' I'm never leaving my trashcan! This is my only home...
+::'''Amo:''' Ah... I'm sorry. I was so engrossed in feeling sorry for myself that I forgot to thank you.
+::'''Amo:''' Thank you for running the errand for me. These are my only savings. Please take them...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150304-->
+:{{DIcon}} So you are a writer?
+::'''Amo:''' Ah, I'm afraid I don't deserve the title. I produce less than mediocre writings in great quantity for others. A ghostwriter as they say. I doubt if I'm qualified to write at all, even for the rubbish I produce.
+::<!--Custom String Trigger: Wait_Option_5010242_8-->
+::<!--Custom String Listener: Wait_Option_5010242_8-->
+::{{DIcon|Talk}} Let's talk about your works...
+:::<!--Custom String Listener: Wait_Option_5010242_10-->
+:::{{DIcon|Arrow}} What do you write then?
+::::<!--Custom String Listener: TalkSentence_501024248_1-->
+::::'''Amo:''' I wrote some horror novels, the quality of which can be described with the name of the genre according to some critics. Some say those novels should never have been written in the first place. For the disaster fiction I did, same critiques also apply.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What kind of rubbish have you produced?
+::::<!--Custom String Listener: TalkSentence_501024248-->
+::::'''Amo:''' I wrote some horror novels, the quality of which can be described with the name of the genre according to some critics. Some say those novels should never have been written in the first place. For the disaster fiction I did, same critiques also apply.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about your ghostwriting.
+:::<!--Custom String Listener: TalkSentence_501024250-->
+:::'''Amo:''' Have you heard of ''Tale of the Winterlands'', the fiction that was recently banned? The publisher was actually quite happy with the quality and wanted the author to make some edits on the original so that they can publish it again.
+:::'''Amo:''' But they did not expect the author to simply vanish into thin air! The editors had to contact me instead, asking if I can help with the project.
+:::'''Amo:''' "Ha! Tale of the Winterlands is just some cheap folklore compiled together. I can give you one hundred thousand to two hundred thousand words with ease. Piece of carrot cake to me." &mdash; That was my response when I took the job. You know how hard it is to finally get something going. I was just trying to impress them but ended up getting way ahead of myself.
+:::'''Amo:''' One of the editors had sent me a copy to let me get the feel of it. It wasn't until I started reading that I realized the book was going to be a classic. I had to admit, I couldn't even remotely reproduce the author's creativity and style.
+:::'''Amo:''' The editor has made several attempts to contact me since then, but I managed to avoid her each time because I just couldn't deliver.
+:::<!--Custom String Trigger: Wait_Option_5010242_21-->
+:::<!--Custom String Listener: Wait_Option_5010242_21-->
+:::{{DIcon|Arrow}} How would you rate ''Tale of the Winterlands'' now?
+::::<!--Custom String Listener: TalkSentence_501024256-->
+::::'''Amo:''' A Masterpiece of a true genius. Maybe the language still has room for polishing, but the wild passion weaved into the plot is other-worldly. For seven hundred years the people of Belobog have been trapped in the snow, their imagination taken away. This book reignited people's desire to look beyond these snow-covered lands...
+::::'''Amo:''' Maybe that's why the Architects insist on banning it... I heard that within a month of the book's publication, the number of people that ventured out into the snow and went missing had gone up exponentially.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's your plan for the future?
+::::<!--Custom String Listener: TalkSentence_501024259-->
+::::'''Amo:''' To avoid the editors for the time being.
+::::'''Amo:''' And contemplate on what to do for a living if I'm blocklisted... *sigh*
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Don't put so much pressure on yourself.
+:::<!--Custom String Listener: TalkSentence_501024262-->
+:::'''Amo:''' Sorry, I've had a difficult time lately...
+:::<!--Custom String Trigger: Wait_Option_5010242_31-->
+:::<!--Custom String Listener: Wait_Option_5010242_31-->
+:::{{DIcon|Arrow}} Don't give up just yet. Pull yourself up by your bootstraps.
+::::<!--Custom String Listener: TalkSentence_501024264-->
+::::'''Amo:''' Hehe, easier said than done.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Stop comparing yourself to others. Go with your instincts!
+::::<!--Custom String Listener: TalkSentence_501024266-->
+::::'''Amo:''' Hah! I'll become a laughingstock in the history of literature if I do that. "Who's this Amo? How dare he write this rubbish and claim to be writing ''Tale of the Winterlands''?"
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} No need to stick to one career path. How about doing something else?
+::::<!--Custom String Listener: TalkSentence_501024268-->
+::::'''Amo:''' Haha, I did consider doing that, but... writing is my true passion. My writing may be bad, but I feel happy when holding a pen in my hand...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for my questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} Are you still writing books?
+::'''Amo:''' Technically, yes. But... the novels I write aren't exactly highbrow. They're all trash literature.
+::{{DIcon|Arrow}} Are you still writing the ''Tale of the Winterlands''?
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Amo:''' Eh... Not exactly. The story I'm writing is about Dalmir and Artem as they go on an adventure in the Lava Kingdom. It's a little like the fanfictions of the Tales series that the readers produce, but the quality is even worse...
+:::'''Amo:''' At the end of the book I'm working on now, they don't go to Satelleden. Artem chooses to help Dalmir search for the secret that lies below his homeland...
+::{{DIcon|Arrow}} So what's the novel about?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Amo:''' I used the characters from the Tale of the Winterlands series, but it's a different story. It's a kind of... spin-off novel that depicts Dalmir and Artem's adventure in the Lava Kingdom.
+:::'''Amo:''' Dalmir takes Artem back with him to his hometown, where he meets some new companions. Artem helps Dalmir uncover the secret behind a myth in his hometown.
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Amo:''' ...But I'm not sure if the editor is going to accept this kind of manuscript. I will keep writing for now. Even if the content is just average, at least it's my own work... I don't want to be a ghostwriter anymore.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Thank you for your time.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_301150602)
+:<!--Custom String Listener: TalkSentence_301150602-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Amo
+|zhs  = 亚诺
+|zht  = 亞諾
+|ja   = アルノ
+|ko   = 아모
+|es   = Amo
+|fr   = Amo
+|ru   = Амо
+|th   = Amo
+|vi   = Amo
+|de   = Amo
+|id   = Amo
+|pt   = Amoh
+}}
+==Change History==
+{{Change History|TODO}}

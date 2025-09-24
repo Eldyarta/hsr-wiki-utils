@@ -1,0 +1,190 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mengming#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Sleepless Earl Owner
+|image           = NPC Mengming.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Mengming''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_21_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Mengming:''' Ah, you spotted that we're rather quiet right now. Alright, if there are any aspects of etiquette that you don't understand, ask me, and I'll pick your brains about doing business.
+:<!--Custom String Trigger: Wait_Option_502010502_45-->
+:<!--Custom String Listener: Wait_Option_502010502_45-->
+:{{DIcon|Talk}} What are the rules in tea appreciation?
+::<!--Custom String Listener: TalkSentence_502105103-->
+::'''Mengming:''' It would take forever to explain all the rules. I'll just talk about tea selection and water retention for now.
+::'''Mengming:''' Speaking of tea selection, take our Hunter Maofeng tea as an example. The Sleepless Earl only picks the most precious buds, usually long, pointed, and covered in fine hairs.
+::'''Mengming:''' As for water retention, tea merchants always say that mineral water is the best &mdash; but the clear and ancient water in Scalegorge Waterscape is the best. There's no better water for tea and alchemy than this.
+::'''Mengming:''' I'm also only learning and invite you to call me out if anything I've said is wrong.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What made you want to open up a teahouse here?
+::<!--Custom String Listener: TalkSentence_502105108-->
+::'''Mengming:''' My parents opened this teahouse, not me. The Sleepless Earl has been on Starwatcher Avenue for over four hundred years!
+::'''Mengming:''' Dad wanted to be near to the port, with all the tired and thirsty people nearby. It was always sure to be a booming business, and we owe all our successes to the kindness of our customers.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You are the model of a good young business owner.
+::<!--Custom String Listener: TalkSentence_502105111-->
+::'''Mengming:''' I'm... not young! I'm just at the right age to take over the family business. People may always say we foxians are naturals when it comes to business, but really it's all practice.
+::'''Mengming:''' Dad said that he wanted to test me, so he left me the teahouse and wandered off traveling with mom. I'm still a long way off from being proficient in doing business.
+::'''Mengming:''' Even now, I still have to ask Mr. Xiyan lots of questions. If you're willing to support me, please be generous with your criticism.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_502105115-->
+::'''Mengming:''' It's okay. Come back when you've got more time to spare.
+::<!--Ends the current performance-->
+:'''Mengming:''' It's okay. Come back when you've got more time to spare.
+:<!--Ends the current performance-->
+:'''Mengming:''' It's you again, welcome back to the Sleepless Earl! What can I get for you?
+:'''Mengming:''' Ahhh... I see. You've got more questions for me, do you? Go on.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000069: Config/Level/NPC/W2/NPC_DefaultStory_502010501.json-->
+::'''Mengming:''' Welcome to the Sleepless Earl! How many of you are there? Which tea would you like today? My name's Mengming, and this is my teahouse. Let me know if there's anything I can do.
+::{{DIcon|Arrow}} Any recommendations?
+:::<!--Custom String Listener: TalkSentence_502105003-->
+:::'''Mengming:''' There's a gentle breeze today, so it's a good time to try our fresh Hunter Maofeng which is in season. We never neglect this tea in our shop, making sure we pick fresh leaves every morning for the afternoon's brew, and afternoon leaves for the evening... ensuring you only drink the freshest.
+:::'''Mengming:''' But in this teahouse, we like to ask the customer's preference. Do you like your tea thick and strong, or mild?
+:::{{DIcon|Arrow}} I like it strong.
+::::<!--Custom String Listener: TalkSentence_502105006-->
+::::'''Mengming:''' Ah, then may I suggest the Xianzhou Black Tea? The strength of the tea depends on personal tastes and sensations, but we refuse to serve tea that's too strong and bitter.
+::::'''Mengming:''' Drinking tea is for pleasure and not a torment. Since you like it rather strong, then this Xianzhou Black Tea with its red color and slightly astringent taste should suit you perfectly.
+:::{{DIcon|Arrow}} I like it mild.
+::::<!--Custom String Listener: TalkSentence_502105009-->
+::::'''Mengming:''' Then I recommend you try our Vegetations in the Alchemy Cauldron variety. Brew it quickly in a covered cup with boiling water and you'll soon enjoy some tea that's neither thick nor bitter. The flavor is just right.
+::::'''Mengming:''' As the saying goes, the freshwater hibiscus is Nature's perfect sculpture. A good mild tea is not bland and tasteless, but mild and not thin. Try a couple of pots and you'll know what I mean.
+:::{{DIcon|Arrow}} I'm not fussy at all.
+::::<!--Custom String Listener: TalkSentence_502105012-->
+::::'''Mengming:''' That's what our fussiest customers are always saying.
+::::'''Mengming:''' Okay, let's try sampling a new tea then. This season's new buds of Hunter Maofeng have begun to ripen up. Brew it for a mellow sweet flavor and rich floral bouquet.
+::{{DIcon|Arrow}} Sorry, I'm not here for tea.
+:::<!--Custom String Listener: TalkSentence_502105015-->
+:::'''Mengming:''' I see. If you've come to the Sleepless Earl to hear some stories, you're too early &mdash; Xiyan xiansheng isn't ready yet. How about a pot of tea to while away the time?
+::<!--Custom String Trigger: TalkSentence_502105016-->
+::<!--Custom String Listener: TalkSentence_502105016-->
+::'''Mengming:''' By the way, if you're on business and in a hurry, we stock a range of cold bottled beverages for you to take away.
+::{{DIcon|Arrow}} You've really got the gift of the gab.
+:::<!--Custom String Listener: TalkSentence_502105018-->
+:::'''Mengming:''' You're too kind. I just started studying commerce and am not good at talking shop. Please forgive me if I ever behaved inappropriately. Every customer here is my teacher, and you are no exception.
+::{{DIcon|Arrow}} You won't bully me for not understanding anything about tea, right?
+:::<!--Custom String Listener: TalkSentence_502105021-->
+:::'''Mengming:''' You flatter me! I inherited this store from my parents, and most of our customers are experts. I don't have any particular skills to show off. Rather, there's much I can learn from our guests here.
+::'''Mengming:''' Brewing tea, rules of the tea ceremony... it's all knowledge. Please be generous with your tips and tutelage.
+::<!--Custom String Trigger: TalkSentence_502105023-->
+::<!--Custom String Listener: TalkSentence_502105023-->
+::'''Mengming:''' If a customer wants to chat, they have to sit inside... well, is there anything else that you'd like to ask me?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000070: Config/Level/NPC/W2/NPC_DefaultStory_502010504.json-->
+::'''Mengming:''' It's you again, welcome back to the Sleepless Earl! What can I get for you?
+::'''Mengming:''' Ahhh... I see. You've got more questions for me, do you? Go on.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I'd like a cup of tea.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 21,
+	"ConfigID": 400004
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 19,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} Just a couple of more things.
+::'''Mengming:''' Ah, you spotted that we're rather quiet right now. Alright, if there are any aspects of etiquette that you don't understand, ask me, and I'll pick your brains about doing business.
+::<!--Custom String Trigger: Wait_Option_502010502_45-->
+::<!--Custom String Listener: Wait_Option_502010502_45-->
+::{{DIcon|Talk}} What are the rules in tea appreciation?
+:::<!--Custom String Listener: TalkSentence_502105103-->
+:::'''Mengming:''' It would take forever to explain all the rules. I'll just talk about tea selection and water retention for now.
+:::'''Mengming:''' Speaking of tea selection, take our Hunter Maofeng tea as an example. The Sleepless Earl only picks the most precious buds, usually long, pointed, and covered in fine hairs.
+:::'''Mengming:''' As for water retention, tea merchants always say that mineral water is the best &mdash; but the clear and ancient water in Scalegorge Waterscape is the best. There's no better water for tea and alchemy than this.
+:::'''Mengming:''' I'm also only learning and invite you to call me out if anything I've said is wrong.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What made you want to open up a teahouse here?
+:::<!--Custom String Listener: TalkSentence_502105108-->
+:::'''Mengming:''' My parents opened this teahouse, not me. The Sleepless Earl has been on Starwatcher Avenue for over four hundred years!
+:::'''Mengming:''' Dad wanted to be near to the port, with all the tired and thirsty people nearby. It was always sure to be a booming business, and we owe all our successes to the kindness of our customers.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You are the model of a good young business owner.
+:::<!--Custom String Listener: TalkSentence_502105111-->
+:::'''Mengming:''' I'm... not young! I'm just at the right age to take over the family business. People may always say we foxians are naturals when it comes to business, but really it's all practice.
+:::'''Mengming:''' Dad said that he wanted to test me, so he left me the teahouse and wandered off traveling with mom. I'm still a long way off from being proficient in doing business.
+:::'''Mengming:''' Even now, I still have to ask Mr. Xiyan lots of questions. If you're willing to support me, please be generous with your criticism.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502105115-->
+:::'''Mengming:''' It's okay. Come back when you've got more time to spare.
+:::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor Crisis has blown up big time...
+::<!--Trigger PerformanceE 90000129: Config/Level/NPCDialogue/P10202/NPCAct/Act90000129.json-->
+::The Ambrosial Arbor Crisis has blown up big time...
+::'''Mengming:''' Totally. Before the Ambrosial Arbor's growth happened, I had been thinking about my parents, who always told me to turn a crisis into an opportunity. Since the Ambrosial Arbor's new growth was a crisis, I thought I would be able to turn it into an opportunity.
+::'''Mengming:''' If I succeeded, it could be a great boost to my tea house's business. So I went to Mr. Xiyan to discuss it.
+::'''Mengming:''' In the end, Mr. Xiyan told me off and said that I shouldn't have thought of profiting from the crisis...
+::'''Mengming:''' And the crisis ended in the blink of an eye before I could come up with a plan to make use of it. *sigh* Things are ever-changing in this world, and it teaches us to be adaptive to changes. Running a business is tough, and I still have a long way to go.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000129-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Let us talk next time.
+::'''Mengming:''' It's okay. Come back when you've got more time to spare.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mengming
+|zhs  = 梦茗
+|zht  = 夢茗
+|ja   = 夢茗
+|ko   = 몽명
+|es   = Mengming
+|fr   = Mengming
+|ru   = Мэнмин
+|th   = Mengming
+|vi   = Mengming
+|de   = Mengming
+|id   = Mengming
+|pt   = Mengming
+}}
+==Change History==
+{{Change History|TODO}}

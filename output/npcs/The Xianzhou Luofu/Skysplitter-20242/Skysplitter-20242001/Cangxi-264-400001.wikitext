@@ -1,0 +1,159 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cangxi#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Newbie Killer
+|image           = NPC Cangxi.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Cangxi''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_264_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502210001: Config/Level/Mission/5022100/Act/Act502210001.json-->
+::'''Cangxi:''' Hmm? A new face, another new participant from somewhere? You can count on this old veteran if you have any questions. I'll have you running off in no time... Ah, that's not right &mdash; I'll make you understand the ardor of the Skysplitter's tournament.
+::'''Cangxi:''' Simply put, all newcomers will eventually hit a wall in this contest. I, Cangxi, am that wall.
+::{{DIcon|Arrow}} You're pretty smug, aren't you?
+:::<!--Custom String Listener: TalkSentence_502210104-->
+:::'''Cangxi:''' I'm overly smug.
+:::'''Cangxi:''' Don't think I can't sense the sarcasm dripping from your words, not that I care. Smug is my middle name.
+::{{DIcon|Arrow}} Old veteran? Are you really that old?
+:::<!--Custom String Listener: TalkSentence_502210107-->
+:::'''Cangxi:''' I've joined more competitions than you short-life species could ever experience in your lifetime.
+::{{DIcon|Arrow}} You think I'm here to participate in the tournament?
+:::<!--Custom String Listener: TalkSentence_502210109-->
+:::'''Cangxi:''' I think you... look like an esteemed guest of the Seat of Divine Foresight. My apologies, I was too loud.
+::<!--Custom String Trigger: TalkSentence_502210110-->
+::<!--Custom String Listener: TalkSentence_502210110-->
+::'''Cangxi:''' I was told this once by someone: "Cangxi has never coveted the champion's title, only the crushing of newbies."
+::'''Cangxi:''' I think that is a fair assessment. I may seem like a hobbyist contender, a compatriot among newcomers. But I have persevered in beating down newcomers for centuries. My beloved moniker by the community is "Newbie Killer"!
+::{{DIcon|Arrow}} It's not because you can't get ahead to the next level?
+:::<!--Custom String Listener: TalkSentence_502210113-->
+:::'''Cangxi:''' You're gravely mistaken if you think that's the case. I'm not trying to be modest, but I could've advanced long ago with my skills. It's just that this is my comfort zone...
+::{{DIcon|Arrow}} Doesn't sound like anything good...
+:::<!--Custom String Listener: TalkSentence_502210115-->
+:::'''Cangxi:''' You may not want to be the "Newbie Killer," but it's an awesome nickname to me!
+::<!--Custom String Trigger: TalkSentence_502210116-->
+::<!--Custom String Listener: TalkSentence_502210116-->
+::'''Cangxi:''' Of course, I have my reasons for doing this. Think about it: If you view the newcomer's phase as part of a contestant's entire career, isn't it like the adolescence in a person's life?
+::'''Cangxi:''' When anyone is in their youth, they will undoubtedly run into trials and tribulations. Those experiences of regret and remorse will become beautiful memories in the distant future. Personally, spending your youth without regrets is the most regretful thing!
+::{{DIcon|Arrow}} The sorrow of youth shouldn't be used to bully the earnest!
+:::<!--Custom String Listener: TalkSentence_502210119-->
+:::'''Cangxi:''' I don't know what you're talking about. I'm not bullying decent folk, I'm just bullying newcomers.
+::{{DIcon|Arrow}} You're not meant to leave behind regrets in your youth!
+:::<!--Custom String Listener: TalkSentence_502210121-->
+:::'''Cangxi:''' They'll have nothing else but regret when they run into me.
+::{{DIcon|Arrow}} You make it sound so lofty, but you really just want to feel superior.
+:::<!--Custom String Listener: TalkSentence_502210123-->
+:::'''Cangxi:''' Heh-heh, the look of creeping depression of a newcomer doubting their own ability... It's simply addicting!
+::<!--Custom String Trigger: TalkSentence_502210124-->
+::<!--Custom String Listener: TalkSentence_502210124-->
+::'''Cangxi:''' They have no one else to blame for their inferiority. Train harder if you're crap, and get lost if you can't handle loss.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502210002: Config/Level/Mission/5022100/Act/Act502210002.json-->
+::'''Cangxi:''' Train harder if you're crap, and get lost if you can't handle loss. Such is the cold, brutal truth of the Wardance!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I have a few questions I wish to ask you...
+::'''Cangxi:''' Don't try to dissuade me, I've got my own principles too. Aside from what we just spoke about, What else do you want to ask?
+::<!--Custom String Trigger: Wait_Option_502210003_51-->
+::<!--Custom String Listener: Wait_Option_502210003_51-->
+::{{DIcon|Talk}} Where did you learn your martial arts?
+:::<!--Custom String Listener: TalkSentence_502210203-->
+:::'''Cangxi:''' I bet you don't know this: We Vidyadhara can be reborn through hatching rebirth. Even if we can't inherit our abilities from the previous cycle, we can still record what we've learned for the next cycle.
+:::'''Cangxi:''' The previous "me" was a master martial artist. Before "I" was reborn, I would record all I learned in a journal, including the skill of exhalation, Qi suppression and unarmed combat moves.
+:::'''Cangxi:''' I trained according to the instructions left behind by my previous self, and my martial arts inevitably improved. On the path of martial arts, I am someone who was born at the starting line. It's not considered cheating if I learn from myself, is it?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any newcomers I should pay attention to?
+:::<!--Custom String Listener: TalkSentence_502210207-->
+:::'''Cangxi:''' To be honest, I did encounter a pretty troublesome newbie. I was defeated, and unable to leave any regrets for him. If I'm the Newbie Killer, that guy would probably be the "Veteran Slayer."
+:::'''Cangxi:''' You heard of Luka, that outworlder fighter who challenged Lieutenant Yanqing?
+:::{{DIcon|Arrow}} I'm his coach.
+::::<!--Custom String Listener: TalkSentence_502210210-->
+::::'''Cangxi:''' No wonder, he had the aura of a champion on him.
+::::<!--Custom String Trigger: TalkSentence_502210213-->
+::::<!--Custom String Listener: TalkSentence_502210213-->
+::::'''Cangxi:''' Speaking of which, while the previous "me" was an exceptional martial artist, but according to my records, he encountered a red-haired outworlder contestant in the Wardance, I think his name was Igor?
+::::'''Cangxi:''' That fellow was one-armed, replaced by a metallic prosthetic. The previous "me" was a strict observer of traditional martial etiquette, and wanted to take a photo first, but that outworlder was dishonorable.
+::::'''Cangxi:''' When the match started, before the previous "me" could even get his pose ready, he was sent flying out of the ring by a vicious uppercut. Because of this, the previous "me" died with a heart full of regret.
+::::'''Cangxi:''' Hang on... Red-haired, one-armed, prosthetic... we couldn't have run into the metaphorical blade of a demigod, could we?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I... don't think I do!
+::::<!--Custom String Listener: TalkSentence_502210212-->
+::::'''Cangxi:''' You can just say you don't know him.
+::::<!--Custom String Trigger: TalkSentence_502210213-->
+::::<!--Custom String Listener: TalkSentence_502210213-->
+::::'''Cangxi:''' Speaking of which, while the previous "me" was an exceptional martial artist, but according to my records, he encountered a red-haired outworlder contestant in the Wardance, I think his name was Igor?
+::::'''Cangxi:''' That fellow was one-armed, replaced by a metallic prosthetic. The previous "me" was a strict observer of traditional martial etiquette, and wanted to take a photo first, but that outworlder was dishonorable.
+::::'''Cangxi:''' When the match started, before the previous "me" could even get his pose ready, he was sent flying out of the ring by a vicious uppercut. Because of this, the previous "me" died with a heart full of regret.
+::::'''Cangxi:''' Hang on... Red-haired, one-armed, prosthetic... we couldn't have run into the metaphorical blade of a demigod, could we?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you any insights on fighting newcomers?
+:::<!--Custom String Listener: TalkSentence_502210218-->
+:::'''Cangxi:''' Hahaha, great question!
+:::'''Cangxi:''' Find out about your opponent's weaknesses and make the utmost preparation &mdash; actually, this is secondary.
+:::'''Cangxi:''' You only need to remember one rule &mdash; never, ever be merciful. As long as you can accomplish this, newbie or not, you'll be able to crush your opponent.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have anything to ask, goodbye.
+:::<!--Custom String Listener: TalkSentence_502210222-->
+:::'''Cangxi:''' It's fine. You want to lay the hurt on any newbies, come to me for advice anytime.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have anything to ask, goodbye.
+::'''Cangxi:''' It's fine. You want to lay the hurt on any newbies, come to me for advice anytime.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cangxi
+|zhs  = 沧汐
+|zht  = 滄汐
+|ja   = 滄汐
+|ko   = 창희
+|es   = Cangxi
+|fr   = Cangxi
+|ru   = Цанси
+|th   = Cangxi
+|vi   = Cangxi
+|de   = Cangxi
+|id   = Cangxi
+|pt   = Cangxi
+}}
+==Change History==
+{{Change History|TODO}}

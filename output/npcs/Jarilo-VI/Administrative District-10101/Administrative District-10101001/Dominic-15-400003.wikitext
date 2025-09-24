@@ -1,0 +1,185 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dominic#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lecturer
+|image           = NPC Dominic.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Dominic''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301030301,
+		"Type": "submission_state_equal",
+		"Param1": 301030301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301030301: Config/Level/Mission/3010303/Act/Act301030301.json-->
+:'''Dominic:''' Ah, my dear children. An old friend told me you found the Goethe Mansion from the past. These miracles must have been arranged by the Sage.
+<!--Unknown TalkSentence: 301030302-->
+<!--Unknown TalkSentence: 301030303-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301030301-->
+<pre>
+[
+	{
+		"ID": 301030303,
+		"Type": "submission_state_equal",
+		"Param1": 301030303,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301030303: Config/Level/Mission/3010303/Act/Act301030303.json-->
+:'''Dominic:''' Ah, my dear children, you have all done well!
+<!--Unknown TalkSentence: 301030306-->
+:'''Dominic:''' 
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301030303-->
+:'''Dominic:''' Normal it is, for you to have doubts in your hearts &mdash; because you look around yourselves, and you can't SEE Preservation anywhere; you cast your eyes hither and thither, and nary do you see ANY evidence of the very existence of Preservation.
+:'''Dominic:''' ...And yet comes this very day, I shall resolve your doubts and let you feel the true grace of Preservation, let you marvel at the almighty will of the Architects...
+:<!--Custom String Trigger: Wait_Option_501029601_15-->
+:<!--Custom String Listener: Wait_Option_501029601_15-->
+:{{DIcon|Talk}} Keep listening...
+::<!--Custom String Listener: TalkSentence_501029707-->
+::'''Dominic:''' ...Preservation is the embodiment of Qlipoth, and is with us all the time. It's the secret force that imperceptibly shapes our personalities, impacting all the important decisions that we make during our lives...
+::'''Dominic:''' ...The reason why you struggle so to find it, is because Preservation's grace is integrated with the world we know, diffused throughout the air we breathe, refracted through the light we see. It has gently embraced us in its bosom since the very dawn of our existence.
+::'''Dominic:''' The Admonishments of the Supreme Guardian remind us to never take Preservation's grace for granted! We must inherit the spirit of our Architect ancestors: To persevere and survive in this world of ours, and to bravely defy any calamities we face!
+::'''Dominic:''' The Fragmentum and the Eternal Freeze &mdash; These are just bumps in the road on the path to carrying out the will of Preservation! O brothers and sisters, stand together with thine Architects and our Supreme Guardian! Follow in her footsteps &mdash; for victory is our destiny!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Listen to what the crowd is saying.
+::<!--Custom String Listener: TalkSentence_501029712-->
+::'''Male Onlooker:''' Hear that? What an impassioned speech! Praise the Architects, as his words have reinvigorated my lust for life...
+::'''Female Onlooker:''' ...Is it really as great as you say? If you ask me, these Architects just say the same empty rhetoric day in day out &mdash; and if you've got time for all this bluster, you've got time to help improve everyone's living conditions around here...
+::'''Child Onlooker:''' Preservation! O praise!
+::'''Senior Onlooker:''' I've been off for a big walk, and come back. It's still going!? Kids these days, they never shut up.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's enough for me.
+::<!--Custom String Listener: TalkSentence_501029720-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 501029705,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Dominic:''' ...This congregation member... Interrupting a sermon is extremely rude &mdash; As a representative of the Architects, I must express their condemnation!
+:'''Dominic:''' But I'll still give your reasonable question a fair answer: Lady Bronya is a loyal follower of the will of Preservation. She will lead us to its warm amber dawn!
+:'''Dominic:''' Madam Cocolia's sacrifice was heartbreaking. She spent her whole life fighting against enemies of Preservation... Even if she was misunderstood and sometimes criticized, her heart still cares about the people. Her sacrifice will be remembered for generations!
+:'''Dominic:''' A successor hand-selected and trained by the Supreme Guardian is destined not to disappoint the people or the Architects. Praise Preservation, and praise Lady Bronya!
+:<!--Ends the current performance-->
+:'''Dominic:''' Children of the Everwinter City, proud citizens of Preservation: Hold your heads up high! Grind NOT against the mundane vulgarities of your everyday lives. ALWAYS remember, deep in your hearts, the teachings of the Architects and the Supreme Guardian!
+:The man before you seems so engrossed in the elaborate speech performance that he doesn't seem to have noticed your arrival.
+:<!--Ends the current performance-->
+:'''Dominic:''' ...Remember! Preservation is everywhere around us. Every little step you take is under THEIR watch!
+:'''Dominic:''' Remember the moral law in your heart, and carry out the will of the Architects in each and every part of your life! Never, ever fail the almighty Qlipoth!
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000025: Config/Level/NPC/W1/NPC_DefaultStory_501029701.json-->
+::{{A|VO vo ambient w1 greeting dominic 101.ogg}} {{A|VO vo ambient w1 greeting dominic 102.ogg}} '''Dominic:''' Children of the Everwinter City, proud citizens of Preservation: Hold your heads up high! Grind NOT against the mundane vulgarities of your everyday lives. ALWAYS remember, deep in your hearts, the teachings of the Architects and the Supreme Guardian!
+::'''(Trailblazer):''' (He seems rather involved... Would you like to hear him finish his preaching?)
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000026: Config/Level/NPC/W1/NPC_DefaultStory_501029703.json-->
+::'''Dominic:''' Children of the Everwinter City, proud citizens of Preservation: Hold your heads up high! Grind NOT against the mundane vulgarities of your everyday lives. ALWAYS remember, deep in your hearts, the teachings of the Architects and the Supreme Guardian!
+::The man before you seems so engrossed in the elaborate speech performance that he doesn't seem to have noticed your arrival.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Continue listening to Dominic...
+::'''Dominic:''' Normal it is, for you to have doubts in your hearts &mdash; because you look around yourselves, and you can't SEE Preservation anywhere; you cast your eyes hither and thither, and nary do you see ANY evidence of the very existence of Preservation.
+::'''Dominic:''' ...And yet comes this very day, I shall resolve your doubts and let you feel the true grace of Preservation, let you marvel at the almighty will of the Architects...
+::<!--Custom String Trigger: Wait_Option_501029601_15-->
+::<!--Custom String Listener: Wait_Option_501029601_15-->
+::{{DIcon|Talk}} Keep listening...
+:::<!--Custom String Listener: TalkSentence_501029707-->
+:::'''Dominic:''' ...Preservation is the embodiment of Qlipoth, and is with us all the time. It's the secret force that imperceptibly shapes our personalities, impacting all the important decisions that we make during our lives...
+:::'''Dominic:''' ...The reason why you struggle so to find it, is because Preservation's grace is integrated with the world we know, diffused throughout the air we breathe, refracted through the light we see. It has gently embraced us in its bosom since the very dawn of our existence.
+:::'''Dominic:''' The Admonishments of the Supreme Guardian remind us to never take Preservation's grace for granted! We must inherit the spirit of our Architect ancestors: To persevere and survive in this world of ours, and to bravely defy any calamities we face!
+:::'''Dominic:''' The Fragmentum and the Eternal Freeze &mdash; These are just bumps in the road on the path to carrying out the will of Preservation! O brothers and sisters, stand together with thine Architects and our Supreme Guardian! Follow in her footsteps &mdash; for victory is our destiny!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Listen to what the crowd is saying.
+:::<!--Custom String Listener: TalkSentence_501029712-->
+:::'''Male Onlooker:''' Hear that? What an impassioned speech! Praise the Architects, as his words have reinvigorated my lust for life...
+:::'''Female Onlooker:''' ...Is it really as great as you say? If you ask me, these Architects just say the same empty rhetoric day in day out &mdash; and if you've got time for all this bluster, you've got time to help improve everyone's living conditions around here...
+:::'''Child Onlooker:''' Preservation! O praise!
+:::'''Senior Onlooker:''' I've been off for a big walk, and come back. It's still going!? Kids these days, they never shut up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's enough for me.
+:::<!--Custom String Listener: TalkSentence_501029720-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} The Supreme Guardian has been replaced. What do you think?
+::'''Dominic:''' ...This congregation member... Interrupting a sermon is extremely rude &mdash; As a representative of the Architects, I must express their condemnation!
+::'''Dominic:''' But I'll still give your reasonable question a fair answer: Lady Bronya is a loyal follower of the will of Preservation. She will lead us to its warm amber dawn!
+::'''Dominic:''' Madam Cocolia's sacrifice was heartbreaking. She spent her whole life fighting against enemies of Preservation... Even if she was misunderstood and sometimes criticized, her heart still cares about the people. Her sacrifice will be remembered for generations!
+::'''Dominic:''' A successor hand-selected and trained by the Supreme Guardian is destined not to disappoint the people or the Architects. Praise Preservation, and praise Lady Bronya!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Leave.
+::'''Dominic:''' ...Remember! Preservation is everywhere around us. Every little step you take is under THEIR watch!
+::'''Dominic:''' Remember the moral law in your heart, and carry out the will of the Architects in each and every part of your life! Never, ever fail the almighty Qlipoth!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Dominic
+|zhs  = 多米尼克
+|zht  = 多米尼克
+|ja   = ドミニク
+|ko   = 도미닉
+|es   = Dominic
+|fr   = Dominic
+|ru   = Доминик
+|th   = Dominic
+|vi   = Dominic
+|de   = Dominic
+|id   = Dominic
+|pt   = Dominic
+}}
+==Change History==
+{{Change History|TODO}}

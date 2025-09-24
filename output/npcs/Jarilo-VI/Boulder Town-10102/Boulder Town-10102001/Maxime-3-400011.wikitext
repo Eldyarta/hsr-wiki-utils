@@ -1,0 +1,605 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maxime#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Forgetful Miner
+|image           = NPC Maxime.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Maxime''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_3_400011}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301042201,
+		"Type": "submission_state_equal",
+		"Param1": 301042201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301042201: Config/Level/Mission/3010422/Act/Act301042201.json-->
+:<!--Custom String Trigger: TalkSentence_301042602-->
+:<!--Custom String Listener: TalkSentence_301042602-->
+:'''Maxime:''' Help? Do I... Give me a minute, let me see if I can remember...
+:'''Maxime:''' Um, help me with what? Oh no... I lost my memory from last night till now...
+:<!--Custom String Trigger: Wait_Option_301042201_10-->
+:<!--Custom String Listener: Wait_Option_301042201_10-->
+:{{DIcon|Arrow}} I don't know.
+::<!--Custom String Listener: TalkSentence_301042605-->
+::'''Maxime:''' That's too bad, me neither! Do you remember the details... Like where did you hear it or the person who told you?
+:{{DIcon|Arrow}} Maybe... helping you find your memory?
+::<!--Custom String Listener: TalkSentence_301042607-->
+::'''Maxime:''' I see, now it makes sense...
+:<!--Custom String Trigger: TalkSentence_301042608-->
+:<!--Custom String Listener: TalkSentence_301042608-->
+:'''Maxime:''' Well... why don't you walk around here and see if you can find anything strange? If something did happen to me, there should be traces left behind, right?
+:'''Maxime:''' I'll also try my best to recall what happened right from the start... Walk along this way and turn right... No, turn left... Hold on, maybe it should be the other way...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301042201-->
+<pre>
+[
+	{
+		"ID": 301042203,
+		"Type": "submission_state_equal",
+		"Param1": 301042203,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301042203: Config/Level/Mission/3010422/Act/Act301042203.json-->
+:<!--Custom String Trigger: TalkSentence_301043002-->
+:<!--Custom String Listener: TalkSentence_301043002-->
+:'''Maxime:''' Is this... a mining pick? I see. I can vaguely remember something... I think I lost something quite important.
+:'''Maxime:''' Is this really my mining pick? I don't remember carving my name on it... Anyway, does it matter?
+:'''Maxime:''' But why was it left there... Let me think... Let me think real hard...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301042203-->
+:<!--Custom String Trigger: Wait_Option_5010283_24-->
+:<!--Custom String Listener: Wait_Option_5010283_24-->
+:{{DIcon|Talk}} What did you forget?
+::<!--Custom String Listener: TalkSentence_501028313-->
+::'''Maxime:''' I don't know. What I do know is that it was something I should never forget... Look, give me some time! I'll try to retrace my memory...
+::'''Maxime:''' Let's start with who I am. My name is... Maxime... I think.
+::<!--Custom String Trigger: Wait_Option_5010283_28-->
+::<!--Custom String Listener: Wait_Option_5010283_28-->
+::{{DIcon|Arrow}} I don't think you need to start from the beginning...
+::{{DIcon|Arrow}} Did something big really happen?
+::<!--Custom String Listener: TalkSentence_501028317-->
+::'''Maxime:''' Don't interrupt me. I had a hard time just remembering my name...
+::'''Maxime:''' And then what do I do...? I'm a miner, right?
+::<!--Custom String Trigger: Wait_Option_5010283_34-->
+::<!--Custom String Listener: Wait_Option_5010283_34-->
+::{{DIcon|Arrow}} I don't know.
+:::<!--Custom String Listener: TalkSentence_501028320-->
+:::'''Maxime:''' You don't know either? How am I supposed to go on then...
+::{{DIcon|Arrow}} That's a reasonable conclusion, given how you're dressed.
+:::<!--Custom String Listener: TalkSentence_501028322-->
+:::'''Maxime:''' Okay, let's just assume I am. I'm Maxime and I'm a miner.
+:::'''Maxime:''' Ah, what's next?
+::<!--Custom String Trigger: TalkSentence_501028324-->
+::<!--Custom String Listener: TalkSentence_501028324-->
+::'''Maxime:''' It's over... it's all over...
+::<!--Custom String Trigger: Wait_Option_5010283_42-->
+::<!--Custom String Listener: Wait_Option_5010283_42-->
+::{{DIcon|Arrow}} Hmm, we are back to square one.
+:::<!--Custom String Listener: TalkSentence_501028326-->
+:::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Do you remember the way to the clinic?
+:::<!--Custom String Listener: TalkSentence_501028328-->
+:::'''Maxime:''' What, do you think I'm ill?
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Well, take your time.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100005105,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Maxime:''' Lately? Lemme think... Some important stuff happened, I think, and it had to do with the Over and Underworlds...
+:{{DIcon|Arrow}} You mean that the Over and Underworlds are opening up?
+::<!--Custom String Listener: TalkSentence_501028342-->
+::'''Maxime:''' Ooh, right! That's right! It was about that. This is major!
+::'''Maxime:''' Er... No no no. This matter is major, but I don't think it's what I wanted to say...
+::'''Maxime:''' ...*sigh* Forget it. If I can't recall it, it just means it has nothing to do with me. I'm done thinking.
+::<!--Ends the current performance-->
+:{{DIcon|Arrow}} Uh-oh...
+::<!--Custom String Listener: TalkSentence_501028339-->
+::'''Maxime:''' ...I'm thinking! Stop interrupting me!
+::'''Maxime:''' Bah, now I have to go through my thoughts again. Oh no...
+:{{DIcon|Arrow}} You mean that the Over and Underworlds are opening up?
+:<!--Custom String Listener: TalkSentence_501028342-->
+:'''Maxime:''' Ooh, right! That's right! It was about that. This is major!
+:'''Maxime:''' Er... No no no. This matter is major, but I don't think it's what I wanted to say...
+:'''Maxime:''' ...*sigh* Forget it. If I can't recall it, it just means it has nothing to do with me. I'm done thinking.
+:<!--Ends the current performance-->
+:'''Maxime:''' Ah, I remember! I remember now!
+:'''Maxime:''' Wait! What is it? It was just on the tip of my tongue... Oh, no, no, no...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Maxime:''' Wait! What is it? It was just on the tip of my tongue... Oh, no, no, no...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028301: Config/Level/Mission/5010283/Act/Act501028301.json-->
+::<!--Custom String Trigger: TalkSentence_501028301-->
+::<!--Custom String Listener: TalkSentence_501028301-->
+::'''Maxime:''' It's over... it's all over...
+::<!--Custom String Trigger: Wait_Option_5010283_8-->
+::<!--Custom String Listener: Wait_Option_5010283_8-->
+::{{DIcon|Arrow}} Calm down.
+:::<!--Custom String Listener: TalkSentence_501028303-->
+:::'''Maxime:''' How can I calm down when something like this happened!
+::{{DIcon|Arrow}} Uh-oh...
+:::<!--Custom String Listener: TalkSentence_501028305-->
+:::'''Maxime:''' I'm seriously worried. Can you not make it worse?
+::<!--Custom String Trigger: Wait_Option_5010283_14-->
+::<!--Custom String Listener: Wait_Option_5010283_14-->
+::{{DIcon|Arrow}} What happened?
+::<!--Custom String Listener: TalkSentence_501028307-->
+::'''Maxime:''' ...You don't know? Something BIG has happened!
+::'''Maxime:''' ...Hold on, give me some time.
+::'''Maxime:''' Something I cannot forget... don't want to forget... absolutely must not forget... What was it again?
+::'''Maxime:''' ...No, I'll deal with it some other time. What is it you want to see me about?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000046: Config/Level/NPC/W1/NPC_DefaultStory_1000051.json-->
+::'''Maxime:''' Ah, I remember! I remember now!
+::'''Maxime:''' Wait! What is it? It was just on the tip of my tongue... Oh, no, no, no...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301042201-->)
+:{{DIcon|undefined}} I hear you need help.
+::<!--Trigger PerformanceE 301042201: Config/Level/Mission/3010422/Act/Act301042201.json-->
+::<!--Custom String Trigger: TalkSentence_301042602-->
+::<!--Custom String Listener: TalkSentence_301042602-->
+::'''Maxime:''' Help? Do I... Give me a minute, let me see if I can remember...
+::'''Maxime:''' Um, help me with what? Oh no... I lost my memory from last night till now...
+::<!--Custom String Trigger: Wait_Option_301042201_10-->
+::<!--Custom String Listener: Wait_Option_301042201_10-->
+::{{DIcon|Arrow}} I don't know.
+:::<!--Custom String Listener: TalkSentence_301042605-->
+:::'''Maxime:''' That's too bad, me neither! Do you remember the details... Like where did you hear it or the person who told you?
+::{{DIcon|Arrow}} Maybe... helping you find your memory?
+:::<!--Custom String Listener: TalkSentence_301042607-->
+:::'''Maxime:''' I see, now it makes sense...
+::<!--Custom String Trigger: TalkSentence_301042608-->
+::<!--Custom String Listener: TalkSentence_301042608-->
+::'''Maxime:''' Well... why don't you walk around here and see if you can find anything strange? If something did happen to me, there should be traces left behind, right?
+::'''Maxime:''' I'll also try my best to recall what happened right from the start... Walk along this way and turn right... No, turn left... Hold on, maybe it should be the other way...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042201-->
+;(If {{cx}}<!--SubMission Started: 301042203--> and {{cx}}<!--SubMission Started: 301042201-->)
+:{{DIcon|undefined}} This surely has something to do with you.
+::<!--Trigger PerformanceE 301042203: Config/Level/Mission/3010422/Act/Act301042203.json-->
+::<!--Custom String Trigger: TalkSentence_301043002-->
+::<!--Custom String Listener: TalkSentence_301043002-->
+::'''Maxime:''' Is this... a mining pick? I see. I can vaguely remember something... I think I lost something quite important.
+::'''Maxime:''' Is this really my mining pick? I don't remember carving my name on it... Anyway, does it matter?
+::'''Maxime:''' But why was it left there... Let me think... Let me think real hard...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301042203-->
+;(If {{cx}}<!--SubMission Started: 301042203--> and {{cx}}<!--SubMission Started: 301042201-->)
+:{{DIcon}} There is something I want to ask you...
+::<!--Custom String Trigger: Wait_Option_5010283_24-->
+::<!--Custom String Listener: Wait_Option_5010283_24-->
+::{{DIcon|Talk}} What did you forget?
+:::<!--Custom String Listener: TalkSentence_501028313-->
+:::'''Maxime:''' I don't know. What I do know is that it was something I should never forget... Look, give me some time! I'll try to retrace my memory...
+:::'''Maxime:''' Let's start with who I am. My name is... Maxime... I think.
+:::<!--Custom String Trigger: Wait_Option_5010283_28-->
+:::<!--Custom String Listener: Wait_Option_5010283_28-->
+:::{{DIcon|Arrow}} I don't think you need to start from the beginning...
+:::{{DIcon|Arrow}} Did something big really happen?
+:::<!--Custom String Listener: TalkSentence_501028317-->
+:::'''Maxime:''' Don't interrupt me. I had a hard time just remembering my name...
+:::'''Maxime:''' And then what do I do...? I'm a miner, right?
+:::<!--Custom String Trigger: Wait_Option_5010283_34-->
+:::<!--Custom String Listener: Wait_Option_5010283_34-->
+:::{{DIcon|Arrow}} I don't know.
+::::<!--Custom String Listener: TalkSentence_501028320-->
+::::'''Maxime:''' You don't know either? How am I supposed to go on then...
+:::{{DIcon|Arrow}} That's a reasonable conclusion, given how you're dressed.
+::::<!--Custom String Listener: TalkSentence_501028322-->
+::::'''Maxime:''' Okay, let's just assume I am. I'm Maxime and I'm a miner.
+::::'''Maxime:''' Ah, what's next?
+:::<!--Custom String Trigger: TalkSentence_501028324-->
+:::<!--Custom String Listener: TalkSentence_501028324-->
+:::'''Maxime:''' It's over... it's all over...
+:::<!--Custom String Trigger: Wait_Option_5010283_42-->
+:::<!--Custom String Listener: Wait_Option_5010283_42-->
+:::{{DIcon|Arrow}} Hmm, we are back to square one.
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+::::<!--Custom String Trigger: TalkSentence_501028329-->
+::::<!--Custom String Listener: TalkSentence_501028329-->
+::::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Do you remember the way to the clinic?
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::'''Maxime:''' What, do you think I'm ill?
+::::<!--Custom String Trigger: TalkSentence_501028329-->
+::::<!--Custom String Listener: TalkSentence_501028329-->
+::::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Well, take your time.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301042203-->, and {{cx}}<!--SubMission Started: 301042201-->)
+:{{DIcon}} How have things been?
+::'''Maxime:''' Lately? Lemme think... Some important stuff happened, I think, and it had to do with the Over and Underworlds...
+::{{DIcon|Arrow}} You mean that the Over and Underworlds are opening up?
+:::<!--Custom String Listener: TalkSentence_501028342-->
+:::'''Maxime:''' Ooh, right! That's right! It was about that. This is major!
+:::'''Maxime:''' Er... No no no. This matter is major, but I don't think it's what I wanted to say...
+:::'''Maxime:''' ...*sigh* Forget it. If I can't recall it, it just means it has nothing to do with me. I'm done thinking.
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Uh-oh...
+:::<!--Custom String Listener: TalkSentence_501028339-->
+:::'''Maxime:''' ...I'm thinking! Stop interrupting me!
+:::'''Maxime:''' Bah, now I have to go through my thoughts again. Oh no...
+::{{DIcon|Arrow}} You mean that the Over and Underworlds are opening up?
+::<!--Custom String Listener: TalkSentence_501028342-->
+::'''Maxime:''' Ooh, right! That's right! It was about that. This is major!
+::'''Maxime:''' Er... No no no. This matter is major, but I don't think it's what I wanted to say...
+::'''Maxime:''' ...*sigh* Forget it. If I can't recall it, it just means it has nothing to do with me. I'm done thinking.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->, {{cx}}<!--SubMission Started: 301042203-->, and {{cx}}<!--SubMission Started: 301042201-->)
+:{{DIcon|Exit}} I hope you remember something before the next time we meet...
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Maxime:''' Wait! What is it? It was just on the tip of my tongue... Oh, no, no, no...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010283_21)
+:<!--Custom String Listener: Wait_Option_5010283_21-->
+::{{DIcon|Arrow}} There is something I want to ask you...
+::<!--Custom String Listener: Wait_Option_5010283_24-->
+::<!--Custom String Listener: Wait_Option_5010283_24-->
+::{{DIcon|Talk}} What did you forget?
+:::<!--Custom String Listener: TalkSentence_501028313-->
+:::<!--Custom String Listener: TalkSentence_501028313-->
+:::'''Maxime:''' I don't know. What I do know is that it was something I should never forget... Look, give me some time! I'll try to retrace my memory...
+:::'''Maxime:''' Let's start with who I am. My name is... Maxime... I think.
+:::<!--Custom String Trigger: Wait_Option_5010283_28-->
+:::<!--Custom String Listener: Wait_Option_5010283_28-->
+:::<!--Custom String Listener: Wait_Option_5010283_28-->
+:::{{DIcon|Arrow}} I don't think you need to start from the beginning...
+:::{{DIcon|Arrow}} Did something big really happen?
+:::<!--Custom String Listener: TalkSentence_501028317-->
+:::<!--Custom String Listener: TalkSentence_501028317-->
+:::'''Maxime:''' Don't interrupt me. I had a hard time just remembering my name...
+:::'''Maxime:''' And then what do I do...? I'm a miner, right?
+:::<!--Custom String Trigger: Wait_Option_5010283_34-->
+:::<!--Custom String Listener: Wait_Option_5010283_34-->
+:::<!--Custom String Listener: Wait_Option_5010283_34-->
+:::{{DIcon|Arrow}} I don't know.
+::::<!--Custom String Listener: TalkSentence_501028320-->
+::::<!--Custom String Listener: TalkSentence_501028320-->
+::::'''Maxime:''' You don't know either? How am I supposed to go on then...
+::::<!--Custom String Trigger: TalkSentence_501028324-->
+::::<!--Custom String Listener: TalkSentence_501028324-->
+::::<!--Custom String Listener: TalkSentence_501028324-->
+::::'''Maxime:''' It's over... it's all over...
+::::<!--Custom String Trigger: Wait_Option_5010283_42-->
+::::<!--Custom String Listener: Wait_Option_5010283_42-->
+::::<!--Custom String Listener: Wait_Option_5010283_42-->
+:::{{DIcon|Arrow}} That's a reasonable conclusion, given how you're dressed.
+::::<!--Custom String Listener: TalkSentence_501028322-->
+::::<!--Custom String Listener: TalkSentence_501028322-->
+::::'''Maxime:''' Okay, let's just assume I am. I'm Maxime and I'm a miner.
+::::'''Maxime:''' Ah, what's next?
+::::<!--Custom String Trigger: TalkSentence_501028324-->
+::::<!--Custom String Listener: TalkSentence_501028324-->
+::::<!--Custom String Listener: TalkSentence_501028324-->
+::::'''Maxime:''' It's over... it's all over...
+::::<!--Custom String Trigger: Wait_Option_5010283_42-->
+::::<!--Custom String Listener: Wait_Option_5010283_42-->
+::::<!--Custom String Listener: Wait_Option_5010283_42-->
+::::<!--Custom String Trigger: TalkSentence_501028329-->
+::::<!--Custom String Listener: TalkSentence_501028329-->
+::::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+::::<!--Custom String Trigger: Wait_Option_5010283_24-->
+::::<!--Custom String Listener: Wait_Option_5010283_24-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Well, take your time.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Hmm, we are back to square one.
+:::::<!--Custom String Listener: TalkSentence_501028326-->
+:::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+::::{{DIcon|Arrow}} Do you remember the way to the clinic?
+:::::<!--Custom String Listener: TalkSentence_501028328-->
+:::::'''Maxime:''' What, do you think I'm ill?
+::::<!--Custom String Trigger: TalkSentence_501028329-->
+::::<!--Custom String Listener: TalkSentence_501028329-->
+::::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+::::<!--Custom String Trigger: Wait_Option_5010283_24-->
+::::<!--Custom String Listener: Wait_Option_5010283_24-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Well, take your time.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::::'''Maxime:''' It's over... it's all over...
+::::<!--Custom String Trigger: Wait_Option_5010283_42-->
+::::<!--Custom String Listener: Wait_Option_5010283_42-->
+::::{{DIcon|Arrow}} Hmm, we are back to square one.
+:::::<!--Custom String Listener: TalkSentence_501028326-->
+:::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+::::{{DIcon|Arrow}} Do you remember the way to the clinic?
+:::::<!--Custom String Listener: TalkSentence_501028328-->
+:::::'''Maxime:''' What, do you think I'm ill?
+::::<!--Custom String Trigger: TalkSentence_501028329-->
+::::<!--Custom String Listener: TalkSentence_501028329-->
+::::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+::::<!--Custom String Trigger: Wait_Option_5010283_24-->
+::::<!--Custom String Listener: Wait_Option_5010283_24-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Well, take your time.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::::'''Maxime:''' Okay, let's just assume I am. I'm Maxime and I'm a miner.
+::::'''Maxime:''' Ah, what's next?
+::::<!--Custom String Trigger: TalkSentence_501028324-->
+::::<!--Custom String Listener: TalkSentence_501028324-->
+::::'''Maxime:''' It's over... it's all over...
+::::<!--Custom String Trigger: Wait_Option_5010283_42-->
+::::<!--Custom String Listener: Wait_Option_5010283_42-->
+::::{{DIcon|Arrow}} Hmm, we are back to square one.
+:::::<!--Custom String Listener: TalkSentence_501028326-->
+:::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+::::{{DIcon|Arrow}} Do you remember the way to the clinic?
+:::::<!--Custom String Listener: TalkSentence_501028328-->
+:::::'''Maxime:''' What, do you think I'm ill?
+::::<!--Custom String Trigger: TalkSentence_501028329-->
+::::<!--Custom String Listener: TalkSentence_501028329-->
+::::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+::::<!--Custom String Trigger: Wait_Option_5010283_24-->
+::::<!--Custom String Listener: Wait_Option_5010283_24-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} Well, take your time.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::::<!--Ends the current performance-->
+::;(All choices lead to the following options)
+:::{{DIcon|Arrow}} Hmm, we are back to square one.
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+:::{{DIcon|Arrow}} Do you remember the way to the clinic?
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::'''Maxime:''' What, do you think I'm ill?
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::<!--Custom String Trigger: Wait_Option_5010283_24-->
+:::<!--Custom String Listener: Wait_Option_5010283_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Well, take your time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Hmm, we are back to square one.
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+:::{{DIcon|Arrow}} Do you remember the way to the clinic?
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::'''Maxime:''' What, do you think I'm ill?
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::<!--Custom String Trigger: Wait_Option_5010283_24-->
+:::<!--Custom String Listener: Wait_Option_5010283_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Well, take your time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Maxime:''' It's over... it's all over...
+:::<!--Custom String Trigger: Wait_Option_5010283_42-->
+:::<!--Custom String Listener: Wait_Option_5010283_42-->
+:::{{DIcon|Arrow}} Hmm, we are back to square one.
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+:::{{DIcon|Arrow}} Do you remember the way to the clinic?
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::'''Maxime:''' What, do you think I'm ill?
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::<!--Custom String Trigger: Wait_Option_5010283_24-->
+:::<!--Custom String Listener: Wait_Option_5010283_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Well, take your time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::'''Maxime:''' You don't know either? How am I supposed to go on then...
+:::<!--Custom String Trigger: TalkSentence_501028324-->
+:::<!--Custom String Listener: TalkSentence_501028324-->
+:::'''Maxime:''' It's over... it's all over...
+:::<!--Custom String Trigger: Wait_Option_5010283_42-->
+:::<!--Custom String Listener: Wait_Option_5010283_42-->
+:::{{DIcon|Arrow}} Hmm, we are back to square one.
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+:::{{DIcon|Arrow}} Do you remember the way to the clinic?
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::'''Maxime:''' What, do you think I'm ill?
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::<!--Custom String Trigger: Wait_Option_5010283_24-->
+:::<!--Custom String Listener: Wait_Option_5010283_24-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Well, take your time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Well, take your time.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} What did you forget?
+:::<!--Custom String Listener: TalkSentence_501028313-->
+:::'''Maxime:''' I don't know. What I do know is that it was something I should never forget... Look, give me some time! I'll try to retrace my memory...
+:::'''Maxime:''' Let's start with who I am. My name is... Maxime... I think.
+:::<!--Custom String Trigger: Wait_Option_5010283_28-->
+:::<!--Custom String Listener: Wait_Option_5010283_28-->
+:::{{DIcon|Arrow}} I don't think you need to start from the beginning...
+:::{{DIcon|Arrow}} Did something big really happen?
+:::<!--Custom String Listener: TalkSentence_501028317-->
+:::'''Maxime:''' Don't interrupt me. I had a hard time just remembering my name...
+:::'''Maxime:''' And then what do I do...? I'm a miner, right?
+:::<!--Custom String Trigger: Wait_Option_5010283_34-->
+:::<!--Custom String Listener: Wait_Option_5010283_34-->
+:::{{DIcon|Arrow}} I don't know.
+::::<!--Custom String Listener: TalkSentence_501028320-->
+::::'''Maxime:''' You don't know either? How am I supposed to go on then...
+:::{{DIcon|Arrow}} That's a reasonable conclusion, given how you're dressed.
+::::<!--Custom String Listener: TalkSentence_501028322-->
+::::'''Maxime:''' Okay, let's just assume I am. I'm Maxime and I'm a miner.
+::::'''Maxime:''' Ah, what's next?
+:::<!--Custom String Trigger: TalkSentence_501028324-->
+:::<!--Custom String Listener: TalkSentence_501028324-->
+:::'''Maxime:''' It's over... it's all over...
+:::<!--Custom String Trigger: Wait_Option_5010283_42-->
+:::<!--Custom String Listener: Wait_Option_5010283_42-->
+:::{{DIcon|Arrow}} Hmm, we are back to square one.
+::::<!--Custom String Listener: TalkSentence_501028326-->
+::::'''Maxime:''' Wow, you look so relaxed. It was your fault, you know...!
+:::{{DIcon|Arrow}} Do you remember the way to the clinic?
+::::<!--Custom String Listener: TalkSentence_501028328-->
+::::'''Maxime:''' What, do you think I'm ill?
+:::<!--Custom String Trigger: TalkSentence_501028329-->
+:::<!--Custom String Listener: TalkSentence_501028329-->
+:::'''Maxime:''' Never mind... I'll go over it all again. I'm sure I can remember something...
+:::<!--Custom String Trigger: Wait_Option_5010283_24-->
+:::<!--Custom String Listener: Wait_Option_5010283_24-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Well, take your time.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Well, take your time.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

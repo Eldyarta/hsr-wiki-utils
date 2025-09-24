@@ -1,0 +1,130 @@
+<%-- [PAGE_INFO]
+PageTitle=#(Phainon's Memory)#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC (Phainon's Memory).png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''(Phainon's Memory)''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_170_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504110002: Config/Level/Mission/5041100/Act/Act504110002.json-->
+:<!--Custom String Trigger: Wait_TimeLJ-->
+:<!--Custom String Listener: Wait_TimeLJ-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+:<!--0.5-second delay-->
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	}
+}</pre>
+:'''Hieronymus:''' Phainon, you brat! You're finally back. Skipping out on chores again, where did you go?
+:'''Phainon:''' Me? Haha, I was just out back in the warehouse.
+:'''Hieronymus:''' Hah... Messing with those ancient treasures from the Chrysos War again, weren't you? Be honest, that little clay jar you're so obsessed with? I'd bet it's just Piso's granddad's old pickle crock.
+:'''Phainon:''' Let's not argue over that now, Dad. What I wanted to say is...
+:'''Phainon:''' I've... packed my bags.
+:'''Hieronymus:''' Oh...
+:'''Hieronymus:''' Ha! I almost forgot! Kid, you're quick on your feet, just like me. Your mom still doesn't believe it...
+:'''Hieronymus:''' ...When are you leaving? Your mother and I will see you off.
+:'''Phainon:''' At the {{Rubi|Lucid Hour|morning}} of the day after tomorrow, you don't have to send me off. It's too early, and the field work never ends.
+:'''Phainon:''' I'll be fine on my own. Really.
+:'''Hieronymus:''' ...
+:'''Hieronymus:''' Alright, have it your way. Kid, not long ago you couldn't even lift a hoe, and now you're off to Castrum Kremnos to train with a sword...
+:'''Hieronymus:''' If Aedes Elysiae ever loses this wheat field... I don't even know how we'd keep track of the seasons.
+:'''Phainon:''' Haha... I'm afraid I won't be around to help you and Mom harvest for a long while.
+:'''Hieronymus:''' Don't worry about it. Your mother and I are still strong as a pair of oxen. Even without you, we'll keep this household running just fine...
+:'''Hieronymus:''' ...
+:'''Hieronymus:''' Focus on your swordsmanship. Don't get lost in idle thoughts. Even if you never become the Deliverer they sing about in legends or can't protect the whole world, you still need to come back and protect this little village of ours.
+:'''Phainon:''' Hah... How many times do I have to say it? I'm not cut out to be some Deliverer.
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Duration": 1,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/EraFlipperFlash.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.PPFilterStackEffect",
+	"Active": false,
+	"Rate": 0,
+	"AssetPath": "EnviroSystem/PostProcessFilterAsset/oldfilmFilter.asset"
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.HideSummonUnit",
+	"SummonUnit": {
+		"$type": "RPG.GameCore.TargetFetchSummonUnit",
+		"UniqueName": {
+			"Value": "LocalplayerPet"
+		}
+	},
+	"Hide": false
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,134 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hegesia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Simple Laborer
+|image           = NPC Hegesia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Hegesia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_352_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033015: Config/Level/Mission/5040330/Act/Act504033015.json-->
+::'''Hegesia:''' Hello! Hmm, I don't recognize you. You're new around here, aren't you?
+::'''Hegesia:''' How are you finding life in Okhema? Do you have a stable income? It'd be a real shame if you came all this way to the holy city only to end up starving!
+::{{DIcon|Arrow}} Who talks like that, huh?
+:::<!--Custom String Listener: TalkSentence_504039404-->
+:::'''Hegesia:''' I'm serious, though. Just the other day, someone on the teleslate mentioned an outlander who holed up in a hotel room for two weeks without leaving and starved to death.
+::{{DIcon|Arrow}} Don't worry. I could live on air.
+:::<!--Custom String Listener: TalkSentence_504039406-->
+:::'''Hegesia:''' Uh... I'm not joking. Just the other day, someone on the teleslate mentioned an outlander who holed up in a hotel room for two weeks without leaving and starved to death.
+::{{DIcon|Arrow}} Do people starve in Okhema?
+:::<!--Custom String Listener: TalkSentence_504039408-->
+:::'''Hegesia:''' Absolutely. Terrifying, isn't it! Just the other day, someone on the teleslate mentioned an outlander who holed up in a hotel room for two weeks without leaving and starved to death.
+::<!--Custom String Trigger: TalkSentence_504039409-->
+::<!--Custom String Listener: TalkSentence_504039409-->
+::'''Hegesia:''' They told me a story about a newcomer so clueless that when someone hung a pancake around his neck, he only ate the part right in front of him and never thought to turn it around to eat the rest!
+::{{DIcon|Arrow}} That's not starvation. That's just plain foolishness.
+::{{DIcon|Arrow}} Haven't I heard this joke before?
+::{{DIcon|Arrow}} It's sort of a natural selection.
+::<!--Custom String Listener: TalkSentence_504039413-->
+::'''Hegesia:''' Maybe... but honestly, when I first arrived in Okhema, I was so shaken by the black tide that it took me a full week before I even dared to go outside. I kept imagining some creature would suddenly pop out of the ground or water.
+::'''Hegesia:''' Though the streets were chaotic earlier, it was nothing compared to the actual black tide. That was just run-of-the-mill disorder.
+::'''Hegesia:''' Happiness is fleeting, while misfortune endures. Even if days are peaceful now, should the black tide truly strike, losing a limb would be the least of our concerns.
+::'''Hegesia:''' Ah, I mustn't think too much! Work is more important right now... Blessed be the {{Rubi|Chalice of Plenty|Ocean Titan}}. Please bring me more customers. Only a stable salary can truly bring comfort!
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033016: Config/Level/Mission/5040330/Act/Act504033016.json-->
+::'''Hegesia:''' There's always something strange popping up on the teleslate...
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} What did you hear this time?
+:::'''Hegesia:''' Disciples of {{Rubi|Thanatos|Death Titan}} are dancing and singing in the graveyards, a whole crate of Balance Coins was uncovered in the orphanage vault, and someone was interrogated by a man in black on their way to seek refuge in Okhema...
+:::<!--Custom String Trigger: Wait_Option_504039604-->
+:::<!--Custom String Listener: Wait_Option_504039604-->
+:::{{DIcon|Talk}} Tell me about the graveyard one.
+::::<!--Custom String Listener: TalkSentence_504039604-->
+::::'''Hegesia:''' The post on the teleslate said the person saw it during Curtain-Fall Hour when everyone else was resting.
+::::'''Hegesia:''' Unable to sleep, he went for a walk in the suburban graveyard, expecting peace but found a group of unruly youths dancing to strange music from their teleslates!
+::::'''Hegesia:''' He got annoyed and challenged the youths, who said they were conducting a ritual to honor Thanatos, dubbed "Death Cleansing," and asked not to be interrupted...
+::::'''Hegesia:''' Feeling outnumbered and worried they might cause trouble, he decided to get the graveyard caretaker to help clear them out.
+::::'''Hegesia:''' When they got back to the graveyard just a few moments later, the rowdy teens had mysteriously vanished without a trace! Not a single footprint remained, as if the entire episode had been an illusion...
+::::'''Hegesia:''' Some users reported similar incidents, noting that the "vanishing disciples of Thanatos" were fiddling with odd goat heads or something equally strange... pretty eerie.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the orphanage one.
+::::<!--Custom String Listener: TalkSentence_504039611-->
+::::'''Hegesia:''' Oh, this one's not spooky at all. It's actually a pretty uplifting story.
+::::'''Hegesia:''' An orphanage was doing routine work on their vault when a teleslate fell over, revealing a whole stash of Balance Coins hidden behind it. No one knows who put it there or why it was forgotten.
+::::'''Hegesia:''' That orphanage had been struggling financially, yet the kids stumbled upon a windfall while fixing the vault.
+::::'''Hegesia:''' Some say it looks like the work of the legendary Phantom Strider, a mythical thief as quick as lightning, rumored to have stolen many rare treasures.
+::::'''Hegesia:''' A lot of people also believe there never was a Phantom Strider in Okhema. It's all just a tall tale.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the man in black.
+::::<!--Custom String Listener: TalkSentence_504039617-->
+::::'''Hegesia:''' Now that one's way creepier than the one dancing in the graveyard!
+::::'''Hegesia:''' Someone on the teleslate forum shared that he got separated from his family en route to Okhema and encountered a man in black who was hardly able to talk. He confronted him with a sword, demanding to know the day of the week.
+::::'''Hegesia:''' Terrified, he stammered out that it was Wednesday. The man in black murmured "Not yet" before leaping off the cliff next to him.
+::::'''Hegesia:''' No one else has reported anything like this from what I've seen in the forum replies. It's probably just made up.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Nothing more I'm curious about.
+::::<!--Custom String Listener: TalkSentence_504039622-->
+::::'''Hegesia:''' Haha, you can't trust everything you read on the teleslate!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::'''Hegesia:''' Busy with work, huh? That's great! Nothing beats being productive and making some cash!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hegesia
+|zhs  = 赫格西娅
+|zht  = 赫格西婭
+|ja   = ヘゲシア
+|ko   = 헤게시아
+|es   = Hegesia
+|fr   = Hégésias
+|ru   = Хегезия
+|th   = Hegesia
+|vi   = Hegesia
+|de   = Hegesia
+|id   = Hegesia
+|pt   = Hegesia
+}}
+==Change History==
+{{Change History|TODO}}

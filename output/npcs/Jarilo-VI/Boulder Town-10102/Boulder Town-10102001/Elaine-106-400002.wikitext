@@ -1,0 +1,843 @@
+<%-- [PAGE_INFO]
+PageTitle=#Elaine#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Diligent Miner
+|image           = NPC Elaine.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Elaine''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_106_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_5010290_29-->
+:<!--Custom String Listener: Wait_Option_5010290_29-->
+:{{DIcon|Talk}} Any place worth visiting underground?
+::<!--Custom String Listener: TalkSentence_501029019-->
+::'''Elaine:''' Worth visiting? Let me think...
+::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::<!--Custom String Listener: Wait_Option_5010290_33-->
+::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::<!--Custom String Listener: TalkSentence_501029022-->
+:::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::'''Elaine:''' She's a great cook. You should try the food she makes.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Tell me about the Fight Club.
+:::<!--Custom String Listener: TalkSentence_501029026-->
+:::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I see. Thank you.
+:::<!--Custom String Listener: TalkSentence_501029029-->
+:::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Why do you want to catch olms?
+::<!--Custom String Listener: TalkSentence_501029031-->
+::'''Elaine:''' Hmm... because they are delicious?
+::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you take any side jobs?
+::<!--Custom String Listener: TalkSentence_501029037-->
+::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+::<!--Custom String Trigger: Wait_Option_5010290_53-->
+::<!--Custom String Listener: Wait_Option_5010290_53-->
+::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+::<!--Custom String Listener: TalkSentence_501029040-->
+::'''Elaine:''' Well... I did, actually quite a few.
+::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100004906,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Elaine:''' Well, I plan to look for some part-time jobs in the Overworld, hehe.
+:{{DIcon|Arrow}} No more catching olms?
+::<!--Custom String Listener: TalkSentence_501029053-->
+::'''Elaine:''' Yes... I can't even afford a drink at the Gathering Place with what I've earned from catching olms. Still, I've become a better cook of olm dishes...
+::{{DIcon|Arrow}} What about your job at the mine?
+::<!--Custom String Listener: TalkSentence_501029055-->
+::'''Elaine:''' I'll only be working part-time, so it won't affect my job at the mine. It doesn't take long to commute by cable car anyway. I'm mentally prepared for it.
+:{{DIcon|Arrow}} Wouldn't it be tiring to travel to the Overworld daily?
+::<!--Custom String Listener: TalkSentence_501029057-->
+::'''Elaine:''' I've considered the issue. It doesn't take long to commute by cable car and I'm mentally prepared for it.
+:<!--Custom String Trigger: TalkSentence_501029058-->
+:<!--Custom String Listener: TalkSentence_501029058-->
+:'''Elaine:''' Anyway, I'm just waiting for the Over and Underworlds to open up. I wonder what kind of job I'll be able to land. Oh, I should talk to Master Gertie before I leave.
+:<!--Ends the current performance-->
+:'''Elaine:''' *sigh* I haven't caught any olms today... Is it because I'm not patient enough?
+:'''Elaine:''' ...Hey? When did you arrive? Sorry, I was catching olms and I didn't notice you were here.
+:'''Elaine:''' But I don't think I can catch any olms any time soon... Do you want to chat with me?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Elaine:''' Hey? Did the olm come out?
+:'''Elaine:''' Sorry, I have to get my net... Excuse me.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501029001: Config/Level/Mission/5010290/Act/Act501029001.json-->
+::<!--Custom String Trigger: TalkSentence_501029001-->
+::<!--Custom String Listener: TalkSentence_501029001-->
+::'''Elaine:''' Can't believe I finish work early today... I gotta find something to do.
+::'''Elaine:''' I heard olm meat has risen in price recently. It'd be a day well spent if I could catch a few...
+::<!--Custom String Trigger: Wait_Option_5010290_8-->
+::<!--Custom String Listener: Wait_Option_5010290_8-->
+::{{DIcon|Arrow}} Early day off?
+:::<!--Custom String Listener: TalkSentence_501029004-->
+:::'''Elaine:''' Eh, did I say that aloud? Sorry...
+:::'''Elaine:''' Yeah, we finish early today. Everyone's left.
+::{{DIcon|Arrow}} Catch olms?
+:::<!--Custom String Listener: TalkSentence_501029007-->
+:::'''Elaine:''' Eh, did I say that aloud? Sorry...
+:::'''Elaine:''' Yeah, we finish early today. I'm out on my own trying to look for something to do.
+::<!--Custom String Trigger: TalkSentence_501029009-->
+::<!--Custom String Listener: TalkSentence_501029009-->
+::'''Elaine:''' Er, have we met before? Sorry, I don't seem to remember...
+::<!--Custom String Trigger: Wait_Option_5010290_17-->
+::<!--Custom String Listener: Wait_Option_5010290_17-->
+::{{DIcon|Arrow}} I saved you from the Great Mine...
+:::<!--Custom String Listener: TalkSentence_501029011-->
+:::'''Elaine:''' Ahhhh! I remember now! Sorry, I have poor vision. Can't believe I didn't recognize the person who saved my life!
+::{{DIcon|Arrow}} We were just unearthed from a mine...
+:::<!--Custom String Listener: TalkSentence_501029013-->
+:::'''Elaine:''' What? Living humans from the mine? I've never heard of that... Do you mind if I take a closer look?
+:::'''Elaine:''' What? It's you! I'm sorry I have poor vision. Can't believe I didn't recognize the person who saved my life!
+::<!--Custom String Trigger: TalkSentence_501029015-->
+::<!--Custom String Listener: TalkSentence_501029015-->
+::'''Elaine:''' I was so lucky to be saved by you in the Great Mine... Or my entire savings would've been taken away by those tramps...
+::'''Elaine:''' Well, I don't think there are signs of olm activities right now... is there anything else you want to chat about?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000041: Config/Level/NPC/W1/NPC_DefaultStory_1000049.json-->
+::'''Elaine:''' *sigh* I haven't caught any olms today... Is it because I'm not patient enough?
+::'''Elaine:''' ...Hey? When did you arrive? Sorry, I was catching olms and I didn't notice you were here.
+::'''Elaine:''' But I don't think I can catch any olms any time soon... Do you want to chat with me?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Let's chat...
+::<!--Custom String Trigger: Wait_Option_5010290_29-->
+::<!--Custom String Listener: Wait_Option_5010290_29-->
+::{{DIcon|Talk}} Any place worth visiting underground?
+:::<!--Custom String Listener: TalkSentence_501029019-->
+:::'''Elaine:''' Worth visiting? Let me think...
+:::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+:::<!--Custom String Trigger: Wait_Option_5010290_33-->
+:::<!--Custom String Listener: Wait_Option_5010290_33-->
+:::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+::::<!--Custom String Listener: TalkSentence_501029022-->
+::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+::::'''Elaine:''' She's a great cook. You should try the food she makes.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the Fight Club.
+::::<!--Custom String Listener: TalkSentence_501029026-->
+::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I see. Thank you.
+::::<!--Custom String Listener: TalkSentence_501029029-->
+::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why do you want to catch olms?
+:::<!--Custom String Listener: TalkSentence_501029031-->
+:::'''Elaine:''' Hmm... because they are delicious?
+:::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you take any side jobs?
+:::<!--Custom String Listener: TalkSentence_501029037-->
+:::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::<!--Custom String Listener: TalkSentence_501029040-->
+:::'''Elaine:''' Well... I did, actually quite a few.
+:::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Elaine:''' Well, I plan to look for some part-time jobs in the Overworld, hehe.
+::{{DIcon|Arrow}} No more catching olms?
+:::<!--Custom String Listener: TalkSentence_501029053-->
+:::'''Elaine:''' Yes... I can't even afford a drink at the Gathering Place with what I've earned from catching olms. Still, I've become a better cook of olm dishes...
+:::{{DIcon|Arrow}} What about your job at the mine?
+:::<!--Custom String Listener: TalkSentence_501029055-->
+:::'''Elaine:''' I'll only be working part-time, so it won't affect my job at the mine. It doesn't take long to commute by cable car anyway. I'm mentally prepared for it.
+::{{DIcon|Arrow}} Wouldn't it be tiring to travel to the Overworld daily?
+:::<!--Custom String Listener: TalkSentence_501029057-->
+:::'''Elaine:''' I've considered the issue. It doesn't take long to commute by cable car and I'm mentally prepared for it.
+::<!--Custom String Trigger: TalkSentence_501029058-->
+::<!--Custom String Listener: TalkSentence_501029058-->
+::'''Elaine:''' Anyway, I'm just waiting for the Over and Underworlds to open up. I wonder what kind of job I'll be able to land. Oh, I should talk to Master Gertie before I leave.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Something's coming out...
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Elaine:''' Hey? Did the olm come out?
+::'''Elaine:''' Sorry, I have to get my net... Excuse me.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010290_26)
+:<!--Custom String Listener: Wait_Option_5010290_26-->
+::{{DIcon|Arrow}} Let's chat...
+::<!--Custom String Listener: Wait_Option_5010290_29-->
+::<!--Custom String Listener: Wait_Option_5010290_29-->
+::{{DIcon|Talk}} Any place worth visiting underground?
+:::<!--Custom String Listener: TalkSentence_501029019-->
+:::<!--Custom String Listener: TalkSentence_501029019-->
+:::'''Elaine:''' Worth visiting? Let me think...
+:::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+:::<!--Custom String Trigger: Wait_Option_5010290_33-->
+:::<!--Custom String Listener: Wait_Option_5010290_33-->
+:::<!--Custom String Listener: Wait_Option_5010290_33-->
+:::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+::::<!--Custom String Listener: TalkSentence_501029022-->
+::::<!--Custom String Listener: TalkSentence_501029022-->
+::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+::::'''Elaine:''' She's a great cook. You should try the food she makes.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the Fight Club.
+::::<!--Custom String Listener: TalkSentence_501029026-->
+::::<!--Custom String Listener: TalkSentence_501029026-->
+::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I see. Thank you.
+::::<!--Custom String Listener: TalkSentence_501029029-->
+::::<!--Custom String Listener: TalkSentence_501029029-->
+::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::<!--Custom String Trigger: Wait_Option_5010290_29-->
+::::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Why do you want to catch olms?
+:::::<!--Custom String Listener: TalkSentence_501029031-->
+:::::'''Elaine:''' Hmm... because they are delicious?
+:::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you take any side jobs?
+:::::<!--Custom String Listener: TalkSentence_501029037-->
+:::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::::<!--Custom String Listener: TalkSentence_501029040-->
+:::::'''Elaine:''' Well... I did, actually quite a few.
+:::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::<!--Custom String Trigger: Wait_Option_5010290_29-->
+::::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Why do you want to catch olms?
+:::::<!--Custom String Listener: TalkSentence_501029031-->
+:::::'''Elaine:''' Hmm... because they are delicious?
+:::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you take any side jobs?
+:::::<!--Custom String Listener: TalkSentence_501029037-->
+:::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::::<!--Custom String Listener: TalkSentence_501029040-->
+:::::'''Elaine:''' Well... I did, actually quite a few.
+:::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+::::<!--Custom String Listener: TalkSentence_501029022-->
+::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+::::'''Elaine:''' She's a great cook. You should try the food she makes.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the Fight Club.
+::::<!--Custom String Listener: TalkSentence_501029026-->
+::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I see. Thank you.
+::::<!--Custom String Listener: TalkSentence_501029029-->
+::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::<!--Custom String Trigger: Wait_Option_5010290_29-->
+::::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Why do you want to catch olms?
+:::::<!--Custom String Listener: TalkSentence_501029031-->
+:::::'''Elaine:''' Hmm... because they are delicious?
+:::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you take any side jobs?
+:::::<!--Custom String Listener: TalkSentence_501029037-->
+:::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::::<!--Custom String Listener: TalkSentence_501029040-->
+:::::'''Elaine:''' Well... I did, actually quite a few.
+:::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::'''Elaine:''' Worth visiting? Let me think...
+:::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+:::<!--Custom String Trigger: Wait_Option_5010290_33-->
+:::<!--Custom String Listener: Wait_Option_5010290_33-->
+:::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+::::<!--Custom String Listener: TalkSentence_501029022-->
+::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+::::'''Elaine:''' She's a great cook. You should try the food she makes.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the Fight Club.
+::::<!--Custom String Listener: TalkSentence_501029026-->
+::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I see. Thank you.
+::::<!--Custom String Listener: TalkSentence_501029029-->
+::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::<!--Custom String Trigger: Wait_Option_5010290_29-->
+::::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Why do you want to catch olms?
+:::::<!--Custom String Listener: TalkSentence_501029031-->
+:::::'''Elaine:''' Hmm... because they are delicious?
+:::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you take any side jobs?
+:::::<!--Custom String Listener: TalkSentence_501029037-->
+:::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::::<!--Custom String Listener: TalkSentence_501029040-->
+:::::'''Elaine:''' Well... I did, actually quite a few.
+:::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why do you want to catch olms?
+:::<!--Custom String Listener: TalkSentence_501029031-->
+:::<!--Custom String Listener: TalkSentence_501029031-->
+:::'''Elaine:''' Hmm... because they are delicious?
+:::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Do you take any side jobs?
+::::<!--Custom String Listener: TalkSentence_501029037-->
+::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+::::<!--Custom String Listener: Wait_Option_5010290_53-->
+::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+::::<!--Custom String Listener: TalkSentence_501029040-->
+::::'''Elaine:''' Well... I did, actually quite a few.
+::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Elaine:''' Hmm... because they are delicious?
+:::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Do you take any side jobs?
+::::<!--Custom String Listener: TalkSentence_501029037-->
+::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+::::<!--Custom String Listener: Wait_Option_5010290_53-->
+::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+::::<!--Custom String Listener: TalkSentence_501029040-->
+::::'''Elaine:''' Well... I did, actually quite a few.
+::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Do you take any side jobs?
+:::<!--Custom String Listener: TalkSentence_501029037-->
+:::<!--Custom String Listener: TalkSentence_501029037-->
+:::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::<!--Custom String Listener: TalkSentence_501029040-->
+:::<!--Custom String Listener: TalkSentence_501029040-->
+:::'''Elaine:''' Well... I did, actually quite a few.
+:::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you want to catch olms?
+::::<!--Custom String Listener: TalkSentence_501029031-->
+::::'''Elaine:''' Hmm... because they are delicious?
+::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Elaine:''' Well... I did, actually quite a few.
+:::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you want to catch olms?
+::::<!--Custom String Listener: TalkSentence_501029031-->
+::::'''Elaine:''' Hmm... because they are delicious?
+::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::<!--Custom String Listener: TalkSentence_501029040-->
+:::'''Elaine:''' Well... I did, actually quite a few.
+:::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you want to catch olms?
+::::<!--Custom String Listener: TalkSentence_501029031-->
+::::'''Elaine:''' Hmm... because they are delicious?
+::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::<!--Custom String Listener: TalkSentence_501029040-->
+:::'''Elaine:''' Well... I did, actually quite a few.
+:::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you want to catch olms?
+::::<!--Custom String Listener: TalkSentence_501029031-->
+::::'''Elaine:''' Hmm... because they are delicious?
+::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Any place worth visiting underground?
+:::<!--Custom String Listener: TalkSentence_501029019-->
+:::'''Elaine:''' Worth visiting? Let me think...
+:::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+:::<!--Custom String Trigger: Wait_Option_5010290_33-->
+:::<!--Custom String Listener: Wait_Option_5010290_33-->
+:::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+::::<!--Custom String Listener: TalkSentence_501029022-->
+::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+::::'''Elaine:''' She's a great cook. You should try the food she makes.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about the Fight Club.
+::::<!--Custom String Listener: TalkSentence_501029026-->
+::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I see. Thank you.
+::::<!--Custom String Listener: TalkSentence_501029029-->
+::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::<!--Custom String Trigger: Wait_Option_5010290_29-->
+::::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Why do you want to catch olms?
+:::::<!--Custom String Listener: TalkSentence_501029031-->
+:::::'''Elaine:''' Hmm... because they are delicious?
+:::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you take any side jobs?
+:::::<!--Custom String Listener: TalkSentence_501029037-->
+:::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::::<!--Custom String Listener: TalkSentence_501029040-->
+:::::'''Elaine:''' Well... I did, actually quite a few.
+:::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why do you want to catch olms?
+:::<!--Custom String Listener: TalkSentence_501029031-->
+:::'''Elaine:''' Hmm... because they are delicious?
+:::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+:::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+:::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+:::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Do you take any side jobs?
+::::<!--Custom String Listener: TalkSentence_501029037-->
+::::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+::::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+::::<!--Custom String Trigger: Wait_Option_5010290_53-->
+::::<!--Custom String Listener: Wait_Option_5010290_53-->
+::::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+::::<!--Custom String Listener: TalkSentence_501029040-->
+::::'''Elaine:''' Well... I did, actually quite a few.
+::::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+::::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Do you take any side jobs?
+:::<!--Custom String Listener: TalkSentence_501029037-->
+:::'''Elaine:''' Well... I do. I will grab a net to catch olms after work...
+:::'''Elaine:''' However, I don't think I'm making any money. I usually can only catch two or three. When I try to sell them, I am told the price of olm has dropped...
+:::<!--Custom String Trigger: Wait_Option_5010290_53-->
+:::<!--Custom String Listener: Wait_Option_5010290_53-->
+:::{{DIcon|Arrow}} Have you ever tried any other part-time job than catching olms?
+:::<!--Custom String Listener: TalkSentence_501029040-->
+:::'''Elaine:''' Well... I did, actually quite a few.
+:::'''Elaine:''' But I only tried once or twice... In the end I realize the other jobs are more tiring than catching olms. Also, I'm not making much more money...
+:::'''Elaine:''' But catching olms is already not very profitable! I really don't get it... am I just unlucky? *sob*
+:::<!--Custom String Trigger: Wait_Option_5010290_29-->
+:::<!--Custom String Listener: Wait_Option_5010290_29-->
+:::{{DIcon|Talk}} Any place worth visiting underground?
+::::<!--Custom String Listener: TalkSentence_501029019-->
+::::'''Elaine:''' Worth visiting? Let me think...
+::::'''Elaine:''' The Goethe Grand Hotel probably. And then it's the Fight Club.
+::::<!--Custom String Trigger: Wait_Option_5010290_33-->
+::::<!--Custom String Listener: Wait_Option_5010290_33-->
+::::{{DIcon|Talk}} Tell me about the Goethe Grand Hotel.
+:::::<!--Custom String Listener: TalkSentence_501029022-->
+:::::'''Elaine:''' The Goethe Grand Hotel is right there. It's fancy, isn't it? After all, this is the Goethe family's first shop in the Underworld. It's the main store in Belobog!
+:::::'''Elaine:''' Gertie is the owner of the hotel and also my master. Not sure if you've met her...
+:::::'''Elaine:''' She's a great cook. You should try the food she makes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Tell me about the Fight Club.
+:::::<!--Custom String Listener: TalkSentence_501029026-->
+:::::'''Elaine:''' The Fight Club... it's said that there are professional boxers fighting and monsters everyday... it's especially lively at night.
+:::::'''Elaine:''' But I don't like those. They scare me... I've never been there. I only heard this from other people. I'm sorry.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I see. Thank you.
+:::::<!--Custom String Listener: TalkSentence_501029029-->
+:::::'''Elaine:''' No worries! Although the Underworld is not as fancy as the Overworld, I hope you'll enjoy your time here!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you want to catch olms?
+::::<!--Custom String Listener: TalkSentence_501029031-->
+::::'''Elaine:''' Hmm... because they are delicious?
+::::'''Elaine:''' It may sound funny but it's true. Olms are a common food in the Underworld. Many people would buy them for cooking.
+::::'''Elaine:''' Speaking of which, make sure you try the Iron Pot Braised Olm at the Goethe Grand Hotel.
+::::'''Elaine:''' I can assure you, that is the most delicious olm dish in the Underworld!
+::::'''Elaine:''' Ahhh... it makes me drool whenever I think of the crispy puff and the juicy olm meat. Master Gertie is such a wonderful cook...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I shouldn't keep you. Best of luck.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Elaine
+|zhs  = 伊蕾恩
+|zht  = 伊蕾恩
+|ja   = エレイン
+|ko   = 일레인
+|es   = Elaine
+|fr   = Elaine
+|ru   = Элейн
+|th   = Elaine
+|vi   = Elaine
+|de   = Elaine
+|id   = Elaine
+|pt   = Elaine
+}}
+==Change History==
+{{Change History|TODO}}

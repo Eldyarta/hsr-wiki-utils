@@ -1,0 +1,269 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mydei#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Mydei.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Mydei''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_314_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504016001: Config/Level/Mission/5040160/Act/Act504016001.json-->
+:'''Mydei:''' ...The reason people spend time alone is to enjoy peace and quiet... You must understand such a simple logic, surely?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} There's no need to be so harsh. Let's have a chat.
+::'''Mydei:''' Fine. What do you wish to say?
+::<!--Custom String Trigger: Wait_Option_504016002_16-->
+::<!--Custom String Listener: Wait_Option_504016002_16-->
+::{{DIcon|Talk}} What kind of Titan is Nikador?
+:::<!--Custom String Listener: TalkSentence_504016104-->
+:::'''Mydei:''' As is known to all... Nikador is the God of War, the God of Fear, and the God of Glory.
+:::'''Mydei:''' Of course, there are those that see Nikador as foolish and violent. They call Nikador the "Mad King"... It does make sense. To a flock of sheep, even a yawn from a wolf is enough to send them into hysteria.
+:::{{DIcon|Arrow}} They are dead now, and there will be no more wars!
+::::<!--Custom String Listener: TalkSentence_504016107-->
+::::'''Mydei:''' It is too early to be so complacent. Titankin of Strife still roam this world, and the black tide rages on. Only when the true purpose of war is eradicated can peace descend.
+::::'''Mydei:''' When a threat to your survival looms over your head, you have but two options: To beg for mercy and buy time, or to draw your sword and go into battle. I'm sure you do not have to be a Kremnoan to know the right answer.
+::::<!--Custom String Trigger: TalkSentence_504016112-->
+::::<!--Custom String Listener: TalkSentence_504016112-->
+::::'''Mydei:''' I can understand the Okhemans' grudge against Nikador. However, I do hope that you will understand that Nikador has gifted more than just suffering and fear to Amphoreus.
+::::'''Mydei:''' Before the Lance of Fury fell into madness, they served as the guardian of Amphoreus. The power of Strife is also the queller of strife.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Fear and glory... Is that not a contradiction?
+::::<!--Custom String Listener: TalkSentence_504016110-->
+::::'''Mydei:''' To the Kremnoans, fear is the path to glory. The reason that Kremnoans vow to follow Nikador to their death is so that Nikador can forge limitless fear into endless glory.
+::::'''Mydei:''' In the glorious era before the Strife Titan fell, only the crown prince who could hold their spear firm under the divine pressure and stand tall under the rain of blood was worthy to become the King of Kremnos.
+::::<!--Custom String Trigger: TalkSentence_504016112-->
+::::<!--Custom String Listener: TalkSentence_504016112-->
+::::'''Mydei:''' I can understand the Okhemans' grudge against Nikador. However, I do hope that you will understand that Nikador has gifted more than just suffering and fear to Amphoreus.
+::::'''Mydei:''' Before the Lance of Fury fell into madness, they served as the guardian of Amphoreus. The power of Strife is also the queller of strife.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to hear about the origins of the Kremnoan Detachment.
+:::<!--Custom String Listener: TalkSentence_504016115-->
+:::'''Mydei:''' Hah, that is a long story... Let me give you the abridged version.
+:::'''Mydei:''' I'm not sure if you have heard this before, but I had a few issues with my hometown. I elected to leave Castrum Kremnos for various reasons and wander across Amphoreus. The Kremnoan Detachment was a group of my fellow countrymen who were willing to follow me.
+:::'''Mydei:''' Though they were exiles, their drive exceeded even that of the soldiers of Kremnos. Word of our might spread across Ladon, Aidonia, and Aenionus.
+:::'''Mydei:''' Later, we happened to ally ourselves with Okhema and offered our services to the Flame-Chase Journey led by the Goldweaver. During that time, this lone army of Kremnos achieved great military success. Along the expedition, we fought back into their home city and defeated the previous king.
+:::{{DIcon|Arrow}} What a chilling story of royal leadership!
+::::<!--Custom String Listener: TalkSentence_504016120-->
+::::'''Mydei:''' Perhaps this narration is an understatement. The suffering and sacrifices that we experienced during that expedition were heavier than any words could convey.
+::::<!--Custom String Trigger: TalkSentence_504016124-->
+::::<!--Custom String Listener: TalkSentence_504016124-->
+::::'''Mydei:''' That is all I will say for now. If you are interested, you can go to those Verax Leos and ask about the achievements of the Kremnoan Detachment. But do not trust their every word... They love to piece together stories to stir the pot.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Do you folks miss home?
+::::<!--Custom String Listener: TalkSentence_504016122-->
+::::'''Mydei:''' I left my hometown at a young age. Though I carry the blood of Castrum Kremnos, I bear no affection for that kingdom.
+::::'''Mydei:''' As for my kin... the Kremnoans show how much they miss their home by fighting without restraint. When I see them on the battlefield, blood-stained and raising a cry of "valorous death before glorious return," I knew... that Okhema could never be their true home.
+::::<!--Custom String Trigger: TalkSentence_504016124-->
+::::<!--Custom String Listener: TalkSentence_504016124-->
+::::'''Mydei:''' That is all I will say for now. If you are interested, you can go to those Verax Leos and ask about the achievements of the Kremnoan Detachment. But do not trust their every word... They love to piece together stories to stir the pot.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you really going to return home alone and face the black tide?
+:::<!--Custom String Listener: TalkSentence_504059100-->
+:::The fragment of memory seems to waver &mdash; words once spoken are reappearing now due to the emotion they contain...
+:::'''Mydei:''' If all goes well, we may not meet again. Thank you for everything you've brought to Amphoreus.
+:::{{DIcon|Arrow}} Train more, stay up late less.
+::::<!--Custom String Listener: TalkSentence_504059104-->
+::::'''Mydei:''' ...Haha, such inspiring words.
+::::<!--Custom String Trigger: TalkSentence_504059111-->
+::::<!--Custom String Listener: TalkSentence_504059111-->
+::::'''Mydei:''' Now that I bear the divine within me, I can get the vague feeling that... that you have a great significance for the future of Amphoreus.
+::::'''Mydei:''' With this departure, I fear that I will never again return. Can I entrust you to watch my back... and to continue supporting the Flame-Chase Journey in my absence?
+:::{{DIcon|Arrow}} Stay safe out there. A lone boy can get into a lot of trouble.
+::::<!--Custom String Listener: TalkSentence_504059106-->
+::::'''Mydei:''' ...Haha, such a heartfelt farewell.
+::::<!--Custom String Trigger: TalkSentence_504059111-->
+::::<!--Custom String Listener: TalkSentence_504059111-->
+::::'''Mydei:''' Now that I bear the divine within me, I can get the vague feeling that... that you have a great significance for the future of Amphoreus.
+::::'''Mydei:''' With this departure, I fear that I will never again return. Can I entrust you to watch my back... and to continue supporting the Flame-Chase Journey in my absence?
+:::{{DIcon|Arrow}} *sob* ...What are we going to do without you?
+::::<!--Custom String Listener: TalkSentence_504059108-->
+::::'''Mydei:''' ...Haha, Trailblazer, are you rambling again?
+::::<!--Custom String Trigger: TalkSentence_504059111-->
+::::<!--Custom String Listener: TalkSentence_504059111-->
+::::'''Mydei:''' Now that I bear the divine within me, I can get the vague feeling that... that you have a great significance for the future of Amphoreus.
+::::'''Mydei:''' With this departure, I fear that I will never again return. Can I entrust you to watch my back... and to continue supporting the Flame-Chase Journey in my absence?
+:::{{DIcon|Exit}} I don't think I have more to chat about.
+::::<!--Custom String Listener: TalkSentence_504059110-->
+::::'''Mydei:''' That is all I have to say. Farewell.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_504016134-->
+:::'''Mydei:''' Farewell.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 304002004-->)
+:{{DIcon}} I need your help to translate a slate.
+::'''Mydei:''' Let me see.
+::'''Mydei:''' ...
+::'''Mydei:''' ...
+::{{DIcon|Arrow}} Say something!
+::<!--Custom String Listener: TalkSentence_504016215-->
+::'''Mydei:''' Where did you find this slate? Castrum Kremnos?
+::{{DIcon|Arrow}} What does the slate say?
+::<!--Custom String Listener: TalkSentence_504016217-->
+::'''Mydei:''' Just some stories of the past, take a look for yourself. Come to think of it, did you not receive the benediction of Oronyx?
+::'''Mydei:''' If you're interested, why not take a look around Castrum Kremnos for yourself? Maybe you will be able to dig up some interesting stories from among the dust of memories.
+::Though you have more questions you want to ask, Mydei turns away and remains silent on the topic.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 304002004-->)
+:{{DIcon|Exit}} Sorry. I'll be gone.
+::'''Mydei:''' Farewell.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_304003022-->
+;(Unused &mdash; TalkSentence_504016126)
+:<!--Custom String Listener: TalkSentence_504016126-->
+::'''Mydei:''' ...Phainon is better suited for that than I am.
+::{{DIcon|Arrow}} You two seem evenly matched.
+:::<!--Custom String Listener: TalkSentence_504016128-->
+:::'''Mydei:''' It is not merely martial strength that decides who will bear the Coreflame of Strife. Phainon... he is the flawless "Deliverer," and there is no greater candidate to inherit the divinity of Nikador.
+:::'''Mydei:''' As long as he can overcome the fear in his heart, glory shall become his crown.
+::{{DIcon|Arrow}} Are you scared that you would not pass the trial?
+:::<!--Custom String Listener: TalkSentence_504016131-->
+:::'''Mydei:''' Hmph. If a battle to the death with Nikador could not incite fear in my heart, what could scare me about a mere trial? The thing that stops me from grasping the Coreflame is not the trial of the Titan... but the trial of Castrum Kremnos.
+::<!--Custom String Trigger: TalkSentence_504016132-->
+::<!--Custom String Listener: TalkSentence_504016132-->
+::'''Mydei:''' Allow me to interrupt your interrogation here. I have my own reasons for not accepting the Coreflame. I will not allow my decision to be shaken by your intentions. You may save your breath.
+::<!--Custom String Trigger: Wait_Option_504016002_16-->
+::<!--Custom String Listener: Wait_Option_504016002_16-->
+::{{DIcon|Talk}} What kind of Titan is Nikador?
+:::<!--Custom String Listener: TalkSentence_504016104-->
+:::'''Mydei:''' As is known to all... Nikador is the God of War, the God of Fear, and the God of Glory.
+:::'''Mydei:''' Of course, there are those that see Nikador as foolish and violent. They call Nikador the "Mad King"... It does make sense. To a flock of sheep, even a yawn from a wolf is enough to send them into hysteria.
+:::{{DIcon|Arrow}} They are dead now, and there will be no more wars!
+::::<!--Custom String Listener: TalkSentence_504016107-->
+::::'''Mydei:''' It is too early to be so complacent. Titankin of Strife still roam this world, and the black tide rages on. Only when the true purpose of war is eradicated can peace descend.
+::::'''Mydei:''' When a threat to your survival looms over your head, you have but two options: To beg for mercy and buy time, or to draw your sword and go into battle. I'm sure you do not have to be a Kremnoan to know the right answer.
+::::<!--Custom String Trigger: TalkSentence_504016112-->
+::::<!--Custom String Listener: TalkSentence_504016112-->
+::::'''Mydei:''' I can understand the Okhemans' grudge against Nikador. However, I do hope that you will understand that Nikador has gifted more than just suffering and fear to Amphoreus.
+::::'''Mydei:''' Before the Lance of Fury fell into madness, they served as the guardian of Amphoreus. The power of Strife is also the queller of strife.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Fear and glory... Is that not a contradiction?
+::::<!--Custom String Listener: TalkSentence_504016110-->
+::::'''Mydei:''' To the Kremnoans, fear is the path to glory. The reason that Kremnoans vow to follow Nikador to their death is so that Nikador can forge limitless fear into endless glory.
+::::'''Mydei:''' In the glorious era before the Strife Titan fell, only the crown prince who could hold their spear firm under the divine pressure and stand tall under the rain of blood was worthy to become the King of Kremnos.
+::::<!--Custom String Trigger: TalkSentence_504016112-->
+::::<!--Custom String Listener: TalkSentence_504016112-->
+::::'''Mydei:''' I can understand the Okhemans' grudge against Nikador. However, I do hope that you will understand that Nikador has gifted more than just suffering and fear to Amphoreus.
+::::'''Mydei:''' Before the Lance of Fury fell into madness, they served as the guardian of Amphoreus. The power of Strife is also the queller of strife.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to hear about the origins of the Kremnoan Detachment.
+:::<!--Custom String Listener: TalkSentence_504016115-->
+:::'''Mydei:''' Hah, that is a long story... Let me give you the abridged version.
+:::'''Mydei:''' I'm not sure if you have heard this before, but I had a few issues with my hometown. I elected to leave Castrum Kremnos for various reasons and wander across Amphoreus. The Kremnoan Detachment was a group of my fellow countrymen who were willing to follow me.
+:::'''Mydei:''' Though they were exiles, their drive exceeded even that of the soldiers of Kremnos. Word of our might spread across Ladon, Aidonia, and Aenionus.
+:::'''Mydei:''' Later, we happened to ally ourselves with Okhema and offered our services to the Flame-Chase Journey led by the Goldweaver. During that time, this lone army of Kremnos achieved great military success. Along the expedition, we fought back into their home city and defeated the previous king.
+:::{{DIcon|Arrow}} What a chilling story of royal leadership!
+::::<!--Custom String Listener: TalkSentence_504016120-->
+::::'''Mydei:''' Perhaps this narration is an understatement. The suffering and sacrifices that we experienced during that expedition were heavier than any words could convey.
+::::<!--Custom String Trigger: TalkSentence_504016124-->
+::::<!--Custom String Listener: TalkSentence_504016124-->
+::::'''Mydei:''' That is all I will say for now. If you are interested, you can go to those Verax Leos and ask about the achievements of the Kremnoan Detachment. But do not trust their every word... They love to piece together stories to stir the pot.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Do you folks miss home?
+::::<!--Custom String Listener: TalkSentence_504016122-->
+::::'''Mydei:''' I left my hometown at a young age. Though I carry the blood of Castrum Kremnos, I bear no affection for that kingdom.
+::::'''Mydei:''' As for my kin... the Kremnoans show how much they miss their home by fighting without restraint. When I see them on the battlefield, blood-stained and raising a cry of "valorous death before glorious return," I knew... that Okhema could never be their true home.
+::::<!--Custom String Trigger: TalkSentence_504016124-->
+::::<!--Custom String Listener: TalkSentence_504016124-->
+::::'''Mydei:''' That is all I will say for now. If you are interested, you can go to those Verax Leos and ask about the achievements of the Kremnoan Detachment. But do not trust their every word... They love to piece together stories to stir the pot.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you really going to return home alone and face the black tide?
+:::<!--Custom String Listener: TalkSentence_504059100-->
+:::The fragment of memory seems to waver &mdash; words once spoken are reappearing now due to the emotion they contain...
+:::'''Mydei:''' If all goes well, we may not meet again. Thank you for everything you've brought to Amphoreus.
+:::{{DIcon|Arrow}} Train more, stay up late less.
+::::<!--Custom String Listener: TalkSentence_504059104-->
+::::'''Mydei:''' ...Haha, such inspiring words.
+::::<!--Custom String Trigger: TalkSentence_504059111-->
+::::<!--Custom String Listener: TalkSentence_504059111-->
+::::'''Mydei:''' Now that I bear the divine within me, I can get the vague feeling that... that you have a great significance for the future of Amphoreus.
+::::'''Mydei:''' With this departure, I fear that I will never again return. Can I entrust you to watch my back... and to continue supporting the Flame-Chase Journey in my absence?
+:::{{DIcon|Arrow}} Stay safe out there. A lone boy can get into a lot of trouble.
+::::<!--Custom String Listener: TalkSentence_504059106-->
+::::'''Mydei:''' ...Haha, such a heartfelt farewell.
+::::<!--Custom String Trigger: TalkSentence_504059111-->
+::::<!--Custom String Listener: TalkSentence_504059111-->
+::::'''Mydei:''' Now that I bear the divine within me, I can get the vague feeling that... that you have a great significance for the future of Amphoreus.
+::::'''Mydei:''' With this departure, I fear that I will never again return. Can I entrust you to watch my back... and to continue supporting the Flame-Chase Journey in my absence?
+:::{{DIcon|Arrow}} *sob* ...What are we going to do without you?
+::::<!--Custom String Listener: TalkSentence_504059108-->
+::::'''Mydei:''' ...Haha, Trailblazer, are you rambling again?
+::::<!--Custom String Trigger: TalkSentence_504059111-->
+::::<!--Custom String Listener: TalkSentence_504059111-->
+::::'''Mydei:''' Now that I bear the divine within me, I can get the vague feeling that... that you have a great significance for the future of Amphoreus.
+::::'''Mydei:''' With this departure, I fear that I will never again return. Can I entrust you to watch my back... and to continue supporting the Flame-Chase Journey in my absence?
+:::{{DIcon|Exit}} I don't think I have more to chat about.
+::::<!--Custom String Listener: TalkSentence_504059110-->
+::::'''Mydei:''' That is all I have to say. Farewell.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_504016134-->
+:::'''Mydei:''' Farewell.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mydei
+|zhs  = 万敌
+|zht  = 萬敵
+|ja   = モーディス
+|ko   = 마이데이
+|es   = Midei
+|fr   = Mydei
+|ru   = Мидей
+|th   = Mydei
+|vi   = Mydei
+|de   = Mydei
+|id   = Mydeimos
+|pt   = Mydei
+}}
+==Change History==
+{{Change History|TODO}}

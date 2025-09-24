@@ -1,0 +1,216 @@
+<%-- [PAGE_INFO]
+PageTitle=#Seele#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Seele.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Great Mine
+|relatives       = 
+}}
+'''Seele''' is an NPC on [[Jarilo-VI]], located in [[Great Mine]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Great Mine|npc_97_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Seele:''' Okay, I'm free at the moment &mdash; What do you want to talk about?
+:<!--Custom String Trigger: Wait_Option_501029201_21-->
+:<!--Custom String Listener: Wait_Option_501029201_21-->
+:{{DIcon|Talk}} You're not with Bronya?
+::<!--Custom String Listener: TalkSentence_501029211-->
+::'''Seele:''' Staying all day cooped up in that ice castle? Spare me &mdash; I could never get used to that lifestyle.
+::'''Seele:''' I have no idea how Bronya does it &mdash; poring over all those documents every day, having to listen to all that idle chit-chat... I would've gone mad long ago.
+::'''Seele:''' I prefer working outside. Besides, there's a lot of people I know in the Underworld who need help. I've shared these thoughts with Bronya, and she's supportive.
+::'''Seele:''' Of course, if she needs me... I'll be back in a snap. Even she needs somebody like me to help solve certain matters... We know our roles, and there's nothing to complain about.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How are things down in the Underworld?
+::<!--Custom String Listener: TalkSentence_501029216-->
+::'''Seele:''' Not good &mdash; but there're some signs of improvement.
+::'''Seele:''' Nat and Oleg run around every day, helping to coordinate getting trade started again. I don't know a thing about commerce, so I don't wanna bother them.
+::'''Seele:''' But the vagrants &mdash; most of them are on the right track as far as I know, but naturally there're a few ne'er-do-wells who are trying to line their pockets with ill-gotten gains.
+::'''Seele:''' I'm just focusing on teaching those guys a lesson. Gotta make them understand that if they break the law, they're gonna be punished &mdash; no matter what era we're living in.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Are you still working for Wildfire?
+::<!--Custom String Listener: TalkSentence_501029221-->
+::'''Seele:''' Sure. Since I was a child, helping Wildfire has become the most important thing in my life.
+::'''Seele:''' I know that Wildfire was originally formed due to the absence of any Silvermane Guards. If things are back to normal between the Overworld and the Underworld, then there's no need for Wildfire to keep going on.
+::'''Seele:''' But... if Nat thinks there's still a need for Wildfire, then who am I to disagree?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Your last battle...
+::<!--Custom String Listener: TalkSentence_501029225-->
+::'''Seele:''' Which one? Oh &mdash; you mean the fight with Cocolia?
+::'''Seele:''' Weirdly enough, I can't remember any details from that fight. I just remember you getting impaled by that woman's weapon, and then miraculously getting straight up again...
+::'''Seele:''' To be honest, I have no idea what was going on then. But it's incredible to think of you just coming back from the dead like that...
+::{{DIcon|Arrow}} Actually, that wasn't any power of mine...
+:::<!--Custom String Listener: TalkSentence_501029229-->
+:::'''Seele:''' No? Then how did you do it...
+:::'''Seele:''' Ah, stop it &mdash; don't give me that fluff about "Aeons" and "Paths" again. I'm not interested. Save it for next time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} That's right. I have the power!
+:::<!--Custom String Listener: TalkSentence_501029232-->
+:::'''Seele:''' Well, it's good to have confidence. But I suppose in this case, you really do have bragging rights.
+:::'''Seele:''' I would really wanna take some time to learn from you and trade combat skills if I weren't so busy &mdash; but we'll get our chance some day. Right?
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Good chatting with you.
+::<!--Custom String Listener: TalkSentence_501029236-->
+::<!--Ends the current performance-->
+:'''Seele:''' This is my home, the only place I've ever known. If I get the chance, I'd love to see the world out there... but now's not the time.
+:'''Seele:''' The world needs time to recover. Nat and Bronya need my help. I have to stay with them and do my part.
+:<!--Ends the current performance-->
+:'''Seele:''' So long. Say hello to March and Dan Heng for me.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000111: Config/Level/NPC/W1/NPC_DefaultStory_501029201.json-->
+::'''Seele:''' Hey, (Trailblazer). I didn't expect you to still be here &mdash; don't tell me you've fallen in love with Belobog?
+::{{DIcon|Arrow}} Not really...
+:::<!--Custom String Listener: TalkSentence_501029203-->
+:::'''Seele:''' ...Kinda. You've been all over the place and seen so many incredible sights. I bet a small place like Belobog has nothing to write home about, right?
+::{{DIcon|Arrow}} Really, it's a great town.
+:::<!--Custom String Listener: TalkSentence_501029205-->
+:::'''Seele:''' Hmm, I thought a small town like Belobog would be beneath someone like you.
+::<!--Custom String Trigger: TalkSentence_501029206-->
+::<!--Custom String Listener: TalkSentence_501029206-->
+::'''Seele:''' Belobog... the Underworld's my home, the only place I've ever known. If I get the chance, I'd love to see the world out there... But definitely not right now.
+::'''Seele:''' People here need help. I have to stay with them and do my part.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000112: Config/Level/NPC/W1/NPC_DefaultStory_501029203.json-->
+::'''Seele:''' This is my home, the only place I've ever known. If I get the chance, I'd love to see the world out there... but now's not the time.
+::'''Seele:''' The world needs time to recover. Nat and Bronya need my help. I have to stay with them and do my part.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has been completed)
+:{{DIcon}} About Bronya's decision...
+::<!--Trigger PerformanceE 501029203: Config/Level/Mission/5010292/Act/Act501029203.json-->
+::'''Seele:''' I knew that she would make the right choice.
+::'''Seele:''' Our planet was not taken over, and no more people were harmed... All's well that ends well, right?
+::{{DIcon|Arrow}} Indeed, all's well that ends well.
+::{{DIcon|Arrow}} You look like it's still weighing on your mind.
+::<!--Custom String Listener: TalkSentence_501029245-->
+::'''Seele:''' ...You can see right through me. Yep, my mind has been going over this whole thing non-stop...
+::'''Seele:''' I originally thought that without the Stellaron's destruction, life here would just get better by the day. However, the reality was far from how I imagined.
+::'''Seele:''' In the past, it seemed that you could solve any problem with your fists... No matter what happened, the scythe in my hand made the rules.
+::'''Seele:''' But just look at what happened this time. The enemy can't be beaten with brute force... I'm no good at things like this. Negotiating with people, plotting against each other... This is all just too difficult for me.
+::'''Seele:''' To be honest, I feel a little lost... what am I supposed to do to help Bronya and the people of Belobog?
+::'''Seele:''' There's just too much that I need to learn. I have to arm myself in other ways, not just through training and getting stronger.
+::{{DIcon|Arrow}} A calm and composed mind is the most powerful weapon.
+:::<!--Custom String Listener: TalkSentence_501029252-->
+:::'''Seele:''' Why does that phrase sound familiar... Ah, I remember! There was a quote in "Svetlana's Stratagems" that I was reading recently, I think it said the same thing.
+::{{DIcon|Arrow}} There's no need to put so much pressure on yourself.
+:::<!--Custom String Listener: TalkSentence_501029254-->
+:::'''Seele:''' Hah, that's no pressure! I just think that with the way things are now, studying is a responsibility that I must accept.
+:::'''Seele:''' I've recently been reading a book called "Svetlana's Stratagems" about military strategy... There was one phrase in there that left a deep impression on me.
+::<!--Custom String Trigger: TalkSentence_501029256-->
+::<!--Custom String Listener: TalkSentence_501029256-->
+::'''Seele:''' "Being able to remain calm and maintain critical thought at any time, without allowing bursts of emotions to blind you, is the most basic, yet also the most rare quality of a leader."
+::'''Seele:''' ...I am still far from the standard this book sets out. When I was in the Great Mine, I was thrown off by a moment of rage... If I had stayed cool, I might have been able to get a little more information from those people in black.
+::{{DIcon|Arrow}} You have already grown a lot, Seele.
+:::<!--Custom String Listener: TalkSentence_501029259-->
+:::'''Seele:''' Do you really think so? You're not just trying to appease me?
+::{{DIcon|Arrow}} Belobog is lucky to have you.
+:::<!--Custom String Listener: TalkSentence_501029261-->
+:::'''Seele:''' Wh&mdash;What are you doing? You can't just randomly praise people like that. It's not like you...
+::<!--Custom String Trigger: TalkSentence_501029262-->
+::<!--Custom String Listener: TalkSentence_501029262-->
+::'''Seele:''' ...Hah, forget it. What I have to do remains the same. I have to double... no, triple my efforts to get back all those years I wasted in the Underworld. I can't allow myself to be underestimated by those official Silvermane Guards!
+::'''Seele:''' After all, I promised Bronya that I would protect that secret with her... If I were to drop out halfway, the burden would be too heavy for her to carry alone.
+::'''Seele:''' Having said that, those people in black clothes... though they've caused a lot of trouble, they all seem pretty educated...
+::'''Seele:''' ...Alright, I've decided. From today forth, I will communicate more with those external IPC workers and see if I can learn any useful skills from them.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029203-->
+:{{DIcon}} Care to chat, Seele?
+::'''Seele:''' Okay, I'm free at the moment &mdash; What do you want to talk about?
+::<!--Custom String Trigger: Wait_Option_501029201_21-->
+::<!--Custom String Listener: Wait_Option_501029201_21-->
+::{{DIcon|Talk}} You're not with Bronya?
+:::<!--Custom String Listener: TalkSentence_501029211-->
+:::'''Seele:''' Staying all day cooped up in that ice castle? Spare me &mdash; I could never get used to that lifestyle.
+:::'''Seele:''' I have no idea how Bronya does it &mdash; poring over all those documents every day, having to listen to all that idle chit-chat... I would've gone mad long ago.
+:::'''Seele:''' I prefer working outside. Besides, there's a lot of people I know in the Underworld who need help. I've shared these thoughts with Bronya, and she's supportive.
+:::'''Seele:''' Of course, if she needs me... I'll be back in a snap. Even she needs somebody like me to help solve certain matters... We know our roles, and there's nothing to complain about.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How are things down in the Underworld?
+:::<!--Custom String Listener: TalkSentence_501029216-->
+:::'''Seele:''' Not good &mdash; but there're some signs of improvement.
+:::'''Seele:''' Nat and Oleg run around every day, helping to coordinate getting trade started again. I don't know a thing about commerce, so I don't wanna bother them.
+:::'''Seele:''' But the vagrants &mdash; most of them are on the right track as far as I know, but naturally there're a few ne'er-do-wells who are trying to line their pockets with ill-gotten gains.
+:::'''Seele:''' I'm just focusing on teaching those guys a lesson. Gotta make them understand that if they break the law, they're gonna be punished &mdash; no matter what era we're living in.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you still working for Wildfire?
+:::<!--Custom String Listener: TalkSentence_501029221-->
+:::'''Seele:''' Sure. Since I was a child, helping Wildfire has become the most important thing in my life.
+:::'''Seele:''' I know that Wildfire was originally formed due to the absence of any Silvermane Guards. If things are back to normal between the Overworld and the Underworld, then there's no need for Wildfire to keep going on.
+:::'''Seele:''' But... if Nat thinks there's still a need for Wildfire, then who am I to disagree?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Your last battle...
+:::<!--Custom String Listener: TalkSentence_501029225-->
+:::'''Seele:''' Which one? Oh &mdash; you mean the fight with Cocolia?
+:::'''Seele:''' Weirdly enough, I can't remember any details from that fight. I just remember you getting impaled by that woman's weapon, and then miraculously getting straight up again...
+:::'''Seele:''' To be honest, I have no idea what was going on then. But it's incredible to think of you just coming back from the dead like that...
+:::{{DIcon|Arrow}} Actually, that wasn't any power of mine...
+::::<!--Custom String Listener: TalkSentence_501029229-->
+::::'''Seele:''' No? Then how did you do it...
+::::'''Seele:''' Ah, stop it &mdash; don't give me that fluff about "Aeons" and "Paths" again. I'm not interested. Save it for next time.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That's right. I have the power!
+::::<!--Custom String Listener: TalkSentence_501029232-->
+::::'''Seele:''' Well, it's good to have confidence. But I suppose in this case, you really do have bragging rights.
+::::'''Seele:''' I would really wanna take some time to learn from you and trade combat skills if I weren't so busy &mdash; but we'll get our chance some day. Right?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Good chatting with you.
+:::<!--Custom String Listener: TalkSentence_501029236-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} See you next time, Seele.
+::'''Seele:''' So long. Say hello to March and Dan Heng for me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Seele
+|zhs  = 希儿
+|zht  = 希兒
+|ja   = ゼーレ
+|ko   = 제레
+|es   = Seele
+|fr   = Seele
+|ru   = Зеле
+|th   = Seele
+|vi   = Seele
+|de   = Seele
+|id   = Seele
+|pt   = Seele
+}}
+==Change History==
+{{Change History|TODO}}

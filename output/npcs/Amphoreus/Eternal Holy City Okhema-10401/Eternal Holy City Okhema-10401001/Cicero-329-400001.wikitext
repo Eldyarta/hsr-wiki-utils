@@ -1,0 +1,156 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cicero#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lecturer
+|image           = NPC Cicero.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Cicero''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_329_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504020001: Config/Level/Mission/5040200/Act/Act504020001.json-->
+::'''Cicero:''' It is thanks to the hard work of its citizens that Okhema has come to be so prosperous! Ah, a new face!
+::{{DIcon|Arrow}} You seem very popular.
+:::<!--Custom String Listener: TalkSentence_504020004-->
+:::'''Cicero:''' "Popular"? You mean my listeners? Haha, I am just a mere orator. It is the people that honor me with their praise.
+::{{DIcon|Arrow}} Okhema truly is prosperous.
+:::<!--Custom String Listener: TalkSentence_504020006-->
+:::'''Cicero:''' Are you new to Okhema, {{MC|f=girl|m=boy}}? Welcome to our great city! If you need any help, you can always ask me or the guards. We shall help in any way we can!
+::<!--Custom String Trigger: TalkSentence_504020007-->
+::<!--Custom String Listener: TalkSentence_504020007-->
+::'''Cicero:''' Although... Your timing is perfect. I have a speech shortly. Would you help me out?
+::{{DIcon|Arrow}} Of course, but you have to tell me what you need first.
+:::<!--Custom String Listener: TalkSentence_504020009-->
+:::'''Cicero:''' Wonderful! {{MC|f=Girl|m=Boy}}, you are truly kind. Not only are you strikingly attractive, but the light of Aquila also shines on your heart. May Aquila bless you!
+::{{DIcon|Arrow}} Best not. I don't really know you.
+:::<!--Custom String Listener: TalkSentence_504020011-->
+:::'''Cicero:''' Alright then...
+::<!--Custom String Trigger: TalkSentence_504020012-->
+::<!--Custom String Listener: TalkSentence_504020012-->
+::'''Cicero:''' Do you see that drink over there? Can I ask you to pass it to me? I have been speaking for too long, and I am thirsty.
+:;(Screen fades to black)
+::You see a flash of light bounce off of the surface of the crystal chalice. You cannot tell if it was light refracting off of the surface of the crystal, or whether there is something unusual about the drink itself.
+::There is a faint engraving on the cup that reads: "Blessing of Phagousa." Noticing your suspicion, Cicero clears his throat and lowers his voice.
+::'''Cicero:''' Oh, don't worry about that. It is... a blessing of Phagousa! I have to do this little ritual before every speech I do. You understand, for good luck.
+::Could this be a divine object gifted by Phagousa themself? You decide to...
+::{{DIcon|Arrow}} Sneak a taste.
+:::<!--Custom String Listener: TalkSentence_504020018-->
+::;(Screen fades to black)
+:::As Cicero looks away, you take your moment to sneak a taste of the liquid in the cup. To your surprise, you realize that it is just a normal glass of plain water. There is nothing special about it at all.
+:::'''Cicero:''' Hey... {{MC|f=Girl|m=Boy}}, what have you done? I'm going to have to cancel my speech now... Without my "blessing," I, I... What am I going to do...
+:::{{DIcon|Arrow}} It just seems like normal water?
+:::{{DIcon|Arrow}} I... can just pour you another cup?
+:::<!--Custom String Listener: TalkSentence_504020022-->
+::{{DIcon|Arrow}} Pass it to Cicero.
+:::<!--Custom String Listener: TalkSentence_504020026-->
+:::'''Cicero:''' Ah, thank you! I feel much better now. Great Phagousa above, protect me from ever growing tongue-tied!
+:::{{DIcon|Arrow}} Are you a disciple of Phagousa?
+:::{{DIcon|Arrow}} Is this drink that special?
+:::<!--Custom String Listener: TalkSentence_504020029-->
+::'''Cicero:''' No... You don't understand... I am not a devout disciple of Phagousa. In my heart, only the omniscience and omnipotence of the Titan Aquila can capture my soul.
+::'''Cicero:''' That glass of water was prepared for me by my friend, a devout disciple of Phagousa. Every morning when the dew hits, she completes a complicated ritual and prays to Phagousa to receive this precious "blessing." The blessing protects me from ever becoming tongue-tied on stage.
+::'''Cicero:''' Drinking it is the only thing that grants me the courage to go on tour with my speeches. Ah... Though it may seem unremarkable when you taste it, its magic is undeniable.
+::<!--Custom String Trigger: TalkSentence_504020032-->
+::<!--Custom String Listener: TalkSentence_504020032-->
+::'''Cicero:''' Shh... Don't tell anyone. Just keep this a secret between us. I don't want to cause trouble or make others jealous.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504020002: Config/Level/Mission/5040200/Act/Act504020002.json-->
+::'''Cicero:''' The way I see it, true "eternity" exists in our culture...
+::'''Cicero:''' Oh, it's you. What would you like to discuss today, my new friend?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} I want to ask...
+:::<!--Custom String Trigger: Wait_Option_504020003_72-->
+:::<!--Custom String Listener: Wait_Option_504020003_72-->
+:::{{DIcon|Talk}} Can you tell me a bit about Okhema?
+::::<!--Custom String Listener: TalkSentence_504020205-->
+::::'''Cicero:''' What would you like to know about Okhema? Let me think... Perhaps I should start from daily life?
+::::'''Cicero:''' Generally speaking, Okhema is a city that is bursting with opportunity. Here, everyone has their own ways of life.
+::::'''Cicero:''' However, there is a small secret that lies within all this... In Okhema, true influence comes from who you know, not who you are. I hear that there is a tailor who only makes clothes for "VIP clients." With this, she created an unbelievable personal network.
+::::'''Cicero:''' Of course we all believe in personal virtues and integrity. However, if you know how to interact with others and also how to showcase your strengths, this kind of "soft power" is equally important.
+::::'''Cicero:''' If you have a unique skill for navigating complex social relationships, there is a chance that you could transform your entire life... Perhaps you will transform even more than just your own life, too. This is where the true charm of Okhema lies.
+::::'''Cicero:''' Of course, there is no place in this world that is without fault. We are still exploring. May Aquila's wisdom guide us forward.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Can you tell me a little about the local customs?
+::::<!--Custom String Listener: TalkSentence_504020212-->
+::::'''Cicero:''' Customs? It just so happens that my friend has been preparing offerings to Phagousa recently. Allow me to explain them to you.
+::::'''Cicero:''' Legend has it that Phagousa "turns water into fine wine so that their disciples may enjoy a great feast." However, did you know that this is not only a miracle, it is also symbolism for a deeper meaning? To enjoy sharing and harmony.
+::::'''Cicero:''' In Okhema, we believe that feasts and parties are not simply opportunities to enjoy a good time. We believe that they are also an important method of socializing and communication. It is through drinking together that people drop their guards and open their hearts. It is this kind of atmosphere that is the richest with creative ideas.
+::::'''Cicero:''' The fascinating thing is that even normal water, once it has undergone this ritual, tastes like celestial wine to anyone who drinks it. Does that not show the true power of faith?
+::::'''Cicero:''' I hear that the flavor of this fine wine grows richer the more people there are. So... no one drinks alone in Okhema. We prefer to face life's difficulties together, just as we celebrate our victories together.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Just what is this "blessing of Phagousa"?
+::::<!--Custom String Listener: TalkSentence_504020218-->
+::::'''Cicero:''' What? Oh, that... Did we not agree to keep that a secret?
+::::'''Cicero:''' You may think that was just normal water, but I believe that it is "miraculous water that has received the blessing of Phagousa." When I drink it, I gain the courage to stand upon the stage and speak.
+::::'''Cicero:''' It sounds absurd, right? The most famous orator in Okhema is scared to speak in front of people. Every time I stand on that stage, I feel like I am facing a pack of hungry beasts. My palms start to sweat, my throat goes dry, and my brain goes blank.
+::::'''Cicero:''' But, if I drink that "blessing of Phagousa," I am able to calm myself down. I imagine everyone has things that they fear. I'm sure you are no different. What about you? Have you found your own "blessing of Phagousa"?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any more questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::'''Cicero:''' Alright, I have a few speeches to give shortly. I shall have to leave you here, my apologies.
+:::'''Cicero:''' Ahem &mdash; Everyone, hear my word! It is thanks to the hard work of its citizens that Okhema has come to be so prosperous! Every new strength that comes to be is crucial to our success. This is why we must show enthusiasm as we welcome our new friends to Okhema!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cicero
+|zhs  = 西塞罗
+|zht  = 西塞羅
+|ja   = キケロ
+|ko   = 키케로
+|es   = Cicerón
+|fr   = Cicéron
+|ru   = Цицерон
+|th   = Cicero
+|vi   = Cicero
+|de   = Cicero
+|id   = Cicero
+|pt   = Cícero
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,164 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lianyan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Owner of the Oldies Depot
+|image           = NPC Lianyan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Lianyan''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_133_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502015101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502015101.json-->
+::'''Lianyan:''' Toys, doorbells, flexible displays!~ Shelves, refrigerators, extractor fans!~ Starskiffs, jade abaci, massage chairs!~ Second hand, or broken, I buy them all!
+::{{DIcon|Arrow}} What song are you singing?
+:::<!--Custom String Listener: TalkSentence_502015103-->
+:::'''Lianyan:''' ...Singing? Oh... I'm not singing. I'm hawking for business!
+::{{DIcon|Arrow}} (Clapping in rhythm)
+:::<!--Custom String Listener: TalkSentence_502015105-->
+:::'''Lianyan:''' Toys, doorbells... Wait, don't just clap along. I'm hawking for business. If you clap like that, people will think it's a street show.
+::<!--Custom String Trigger: TalkSentence_502015106-->
+::<!--Custom String Listener: TalkSentence_502015106-->
+::'''Lianyan:''' Oh yeah, by the way &mdash; I'm Lianyan, manager at the Oldies Depot. And when I say manager, I mean I'm the only person there. It's just me and my small business.
+::'''Lianyan:''' The Oldies Depot mainly buys and sells second-hand appliances, fixes up old stuff, and buys antiques. But Xianzhou people live so long that they have no interest in anything old, let alone bothering to fix anything...
+::{{DIcon|Arrow}} So you buy trashed items?
+:::<!--Custom String Listener: TalkSentence_502015109-->
+:::'''Lianyan:''' ...It's just a title. Call it whatever you want.
+::{{DIcon|Arrow}} Do the Xianzhou people only like new things?
+:::<!--Custom String Listener: TalkSentence_502015111-->
+:::'''Lianyan:''' Not quite... But most of the regulars here are Outworlders. Sometimes we'll get a Xianzhou shopper selling some junk to make a little pocket money, but never anyone buying second-hand goods or repairing things.
+::<!--Custom String Trigger: 502015101_END-->
+::<!--Custom String Listener: 502015101_END-->
+::'''Lianyan:''' You don't seem to have anything old there that needs fixing. Don't tell me you've come for a chat?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502015102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502015102.json-->
+::'''Lianyan:''' Toys, doorbells, mirrors!~ Starskiffs, jade abaci, massage chairs!~ Second hand, or broken, I buy them all!
+::'''Lianyan:''' Oh hey, you're back. Got something for me to fix? Or just a casual catch-up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502015201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502015201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502015201.json-->
+::'''Lianyan:''' I saw, and even tried going to nearby Scalegorge Waterscape to rubberneck, but the Cloud Knights sent me back, haha.
+::'''Lianyan:''' The Arbor's growth isn't actually a good thing... But let's talk somewhere more private... I love how beautiful the Ambrosial Arbor looks.
+::'''Lianyan:''' But only how it looks! I've studied my history and this is not a good thing.
+::'''Lianyan:''' But I can't help it. I guess I was just born with a love for majestic landscapes like this.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502015201-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502015201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor has stopped growing...
+::<!--Trigger PerformanceE 502015104: Config/Level/NPCDialogue/P10202/NPCAct/Act502015104.json-->
+::'''Lianyan:''' Yeah, that's hardly news to me. As soon as I heard about it, I went there and checked it out myself, and I saw from Exalting Sanctum with my own eyes that it had stopped growing.
+::'''Lianyan:''' Well... I'll tell you a secret, but don't tell anyone, okay? Otherwise I might end up in hot water with the Realm-Keeping Commission... Some curio sellers were using the Ambrosial Arbor's sprouting as a gimmick to attract customers.
+::'''Lianyan:''' Just so you know, they were claiming that their curios were influenced by the anomaly or even came from the Ambrosial Arbor itself. But don't fall for their tricks, okay?
+::'''Lianyan:''' Now that the Ambrosial Arbor has stopped growing, I've seen an opportunity and acquired those curios at incredibly low prices. To my surprise, some of them are actually pretty interesting and not just cheap gimmicks like I thought they would be. A pleasant surprise, don't you agree?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502015104-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502015201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502015105: Config/Level/NPCDialogue/P10202/NPCAct/Act502015105.json-->
+::'''Lianyan:''' It's been amazing! Aurum Alley never used to have any travelers, and I only ever did business with Xianzhou locals... But, well, you know how the Xianzhou folks are like... They don't really need my services.
+::'''Lianyan:''' But everything has changed, now! The Aurum Alley is full of outworlders and they love the ancient "artifacts" of Xianzhou.
+::'''Lianyan:''' These outworlders value artifacts differently to us, so my friends keep telling me to up the prices but... well, it's just old stuff, isn't it?
+::'''Lianyan:''' I've never dreamed of becoming rich in this life. I have just one simple wish: "to make the best use of everything." That is all.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502015105-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502015201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} That's right. I just want to chat...
+::<!--Trigger PerformanceE 502015103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502015103.json-->
+::'''Lianyan:''' Really? How curious... What do you want to chat about?
+::<!--Custom String Trigger: Wait_Option_502015101_28-->
+::<!--Custom String Listener: Wait_Option_502015101_28-->
+::{{DIcon|Talk}} What's the Oldies Depot about?
+:::<!--Custom String Listener: TalkSentence_502015116-->
+:::'''Lianyan:''' My teacher used to run it, but he handed over everything to me since it was almost time for him to undergo his hatching rebirth. I never cared for this place in the slightest, to begin with.
+:::'''Lianyan:''' My master used to be so darn strict. A man of very few words, only smiling when he was handling antique items. If you ask him, renovating something old is the most amazing pursuit there could ever be.
+:::'''Lianyan:''' But these Xianzhou people live on and on, just like stagnant water. Yet all the stuff aboard Xianzhou metabolizes super-fast &mdash; like bugs in that stagnant water, flailing about fleetingly.
+:::'''Lianyan:''' He always said, "Heaven makes no useless people, and the world makes no useless things." Meaning that, nothing and nobody is ever truly a waste.
+:::'''Lianyan:''' So this little Oldies Depot is a place for people's keepsakes and old things. There's always gonna be something irreplaceable that needs fixing up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why don't the Xianzhou people like to repair old things?
+:::<!--Custom String Listener: TalkSentence_502015122-->
+:::'''Lianyan:''' There are hardly any heirlooms aboard Xianzhou... Or to put it another way, heirlooms aren't everyday items. Items used every day would never keep up with the long-lived Xianzhou people.
+:::'''Lianyan:''' Forget about all the hot new tech that comes out every week. Even mundane stuff like pots and pans rarely last forever. Fixing things takes effort.
+:::'''Lianyan:''' And their state of disrepair often requires great skill and a high price to get it fixed... Simply put, repairs are not cheap, and buying something new works out cheaper and more convenient.
+:::'''Lianyan:''' That's why it raises eyebrows whenever Outworlders see an antique from centuries ago get discarded without a thought, and being taken in by us as "trash."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What made you take up this line of business?
+:::<!--Custom String Listener: TalkSentence_502015127-->
+:::'''Lianyan:''' Do you like traveling? I do. I got through all the paperwork and went to this tourist resort off Xianzhou called Insumousu.
+:::'''Lianyan:''' The people of Insumousu are special indeed. From their birth until their teenage years, they live on land and breathe with their lungs. But once they reach adulthood, they start to live in water and breathe using gills.
+:::'''Lianyan:''' Back during the Iron Age, when civilization had barely begun, the people of Insumousu constructed magnificent buildings on the sea floor. Right in the middle of them is a huge statue, rising up out of the sea and stretching into the sky.
+:::'''Lianyan:''' Every Insumousu local I met lit up in excitement whenever they mentioned that great ruin. They tell me how it's a totem for their civilization, one that records the noble histories of their great people...
+:::'''Lianyan:''' I later found out that the ruins were actually just four hundred years old.
+:::'''Lianyan:''' In other words, all the time spent by the great ancestors of Insumousu to build this "totem of civilization" was far shorter than my entire life.
+:::'''Lianyan:''' ...I don't mean to talk down on the Insumousu civilization. Their underwater ruins are exquisite and truly magnificent... It's something that is both younger than me, yet has far more gravity than my life.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all. I can see you're busy.
+:::<!--Custom String Listener: TalkSentence_502015135-->
+:::'''Lianyan:''' Alright, catch you next time then. If you ever need anything fixed, or if you want to buy and sell second-hand stuff, come find me.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502015103-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502015201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} That's all. I can see you're busy.
+::'''Lianyan:''' Alright, catch you next time then. If you ever need anything fixed, or if you want to buy and sell second-hand stuff, come find me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lianyan
+|zhs  = 连烟
+|zht  = 連煙
+|ja   = 連煙
+|ko   = 연연
+|es   = Lianyan
+|fr   = Lianyan
+|ru   = Ляньянь
+|th   = Lianyan
+|vi   = Lianyan
+|de   = Lianyan
+|id   = Lianyan
+|pt   = Lianyan
+}}
+==Change History==
+{{Change History|TODO}}

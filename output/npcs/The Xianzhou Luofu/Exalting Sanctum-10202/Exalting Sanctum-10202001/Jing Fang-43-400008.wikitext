@@ -1,0 +1,172 @@
+<%-- [PAGE_INFO]
+PageTitle=#Jing Fang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = General's Younger Brother
+|image           = NPC Jing Fang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Jing Fang''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400008}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502026101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502026101.json-->
+::'''Jing Fang:''' Tsk-tsk... Tsk, tsk, tsk... This young {{MC|f=lass|m=lad}} is dressed to the nines and looking fantastic!
+::'''Jing Fang:''' Ahem, sorry! I haven't even introduced myself yet. My name's Jing Fang, and I'm the younger brother of General Jing Yuan from the Luofu. I don't really get up to much, but I love making acquaintance with elites like yourself!
+::'''Jing Fang:''' I can see you have exceptional attitude there, young {{MC|f=lass|m=lad}}. I can see you're the kind of person who helps the needy &mdash; just like me! I never thought I'd meet such an honorable soul here in the Exalting Sanctum. This is simply a gift from the gods!
+::'''Jing Fang:''' Chance encounters are far better than planned ones &mdash; I, Jing Fang, would like to invite you, my {{MC|f=lass|m=lad}}, to the Sleepless Earl over on Starwatcher Avenue. I'll even cover twenty percent of the bill... no, how about I chip in thirty percent of the bill? That should be good faith enough, right?
+::{{DIcon|Arrow}} Is this how Xianzhou people try to flirt?
+:::<!--Custom String Listener: TalkSentence_502026106-->
+:::'''Jing Fang:''' Oh, I'm not "flirting." This is just making friends between like-minded people!
+::{{DIcon|Arrow}} If you want to leech off others, just say so...
+:::<!--Custom String Listener: TalkSentence_502026108-->
+:::'''Jing Fang:''' Oh, what a mean thing to say! If I was trying to leech off of you, would I offer to chip in 30%? No way!
+::{{DIcon|Arrow}} The Sleepless Earl is quite far away from here...
+:::<!--Custom String Listener: TalkSentence_502026110-->
+:::'''Jing Fang:''' Ah, who cares about that!? We could just hire a taximeter starskiff. I've already given you so many praises, what's a little taximeter starskiff fare to you?
+::<!--Custom String Trigger: TalkSentence_502026111-->
+::<!--Custom String Listener: TalkSentence_502026111-->
+::'''Jing Fang:''' Haha, I get it. A young {{MC|f=lass|m=lad}} should be wary of a stranger like me &mdash; but I'm the dear brother of a famed general, so there's no way I could ever trick you. If you don't believe me, ask around the Exalting Sanctum about me. Everyone knows the name Jing Fang around these parts.
+::{{DIcon|Arrow}} Jing Yuan never mentioned any brothers to me...
+:::<!--Custom String Listener: TalkSentence_502026113-->
+:::'''Jing Fang:''' Haha, that just means Jing Yuan doesn't realize how famous his dear brother is...
+:::'''Jing Fang:''' ...Jing Yuan... Jing Yuan!?
+::{{DIcon|Arrow}} Then I'll go ask the Seat of Divine Foresight then.
+:::<!--Custom String Listener: TalkSentence_502026116-->
+:::'''Jing Fang:''' Haha, sure. a simple Seat of Divine Foresight may not have heard of my mighty reputation...
+:::'''Jing Fang:''' ...Seat of Divine Foresight... Seat of Divine Foresight!?
+::<!--Custom String Trigger: TalkSentence_502026118-->
+::<!--Custom String Listener: TalkSentence_502026118-->
+::'''Jing Fang:''' Y&mdash;You... You're not the one who's been running around with the Cloud Knights, locking up crooks... right?
+::'''Jing Fang:''' P&mdash;Pardon me! I'm the one who didn't realize how famous YOU are! All that stuff I was saying about generals and brothers... I've been feeling dizzy and was just spouting nonsense. Please {{MC|f=ma'am|m=sir}}, have mercy on my soul!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502026102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502026102.json-->
+::'''Jing Fang:''' Oh hey &mdash; it's General Jing Yuan's esteemed guest!
+::'''Jing Fang:''' What brings you here today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502026201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Did you notice the Ambrosial Arbor was growing once again?
+::<!--Trigger PerformanceE 502026201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502026201.json-->
+::'''Jing Fang:''' How could I miss it? It's absolutely huge!
+::'''Jing Fang:''' I feel like opportunities could abound here &mdash; perhaps even some new ideas to make a living.
+::'''Jing Fang:''' I've got this basic idea about crowdfunding under the premise of "stopping the Ambrosial Arbor from growing"...
+::'''Jing Fang:''' Hey, why am I telling all of this to you... Let's talk about something else.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502026201-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502026201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Did you notice that the Ambrosial Arbor has stopped growing...
+::<!--Trigger PerformanceE 502026104: Config/Level/NPCDialogue/P10202/NPCAct/Act502026104.json-->
+::'''Jing Fang:''' Don't even go there. My crowdfunding campaign to stop the growth of the Ambrosial Arbor has just started, and I have invested heavily in it... Now, the tree has stopped growing for real.
+::'''Jing Fang:''' Tsk, why is the Ambrosial Arbor so insensible? What a downer... The Reignbow Arbiter should have uprooted it instead of letting it remain as an eyesore!
+::'''Jing Fang:''' What wilts is not the tree branches, but my hard-earned money...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502026104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502026201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} Then let me ask you this...
+::<!--Trigger PerformanceE 502026103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502026103.json-->
+::'''Jing Fang:''' Y&mdash;Yes?
+::<!--Custom String Trigger: Wait_Option_502026101_36-->
+::<!--Custom String Listener: Wait_Option_502026101_36-->
+::{{DIcon|Talk}} Who exactly are you?
+:::<!--Custom String Listener: TalkSentence_502026123-->
+:::'''Jing Fang:''' Ah... Since you asked, I'll level with you.
+:::'''Jing Fang:''' My real name's actually Jing Juan, and I'm not from any famous family or anything. Nope, I'm just a normal Xianzhou citizen.
+:::'''Jing Fang:''' In our local tongue, "Yuan" and "Juan" sound kinda similar, so people always joked that I was related to the General Jing Yuan. A light bulb went off in my head, and I thought this might be a good way to scrounge a few credits out of people.
+:::'''Jing Fang:''' Unfortunately, after running a few scams all the shopkeepers had me figured out. I ended up changing my name from "Jing Juan" to "Jing Fang" so I could keep on spinning this side-hustle...
+:::{{DIcon|Arrow}} What difference does the change make?
+::::<!--Custom String Listener: TalkSentence_502026128-->
+::::'''Jing Fang:''' That's the key point &mdash; it wasn't a random change, but designed to make people believe that I'm his brother.
+::::'''Jing Fang:''' In Xianzhou dialect, "Yuan" means "circle," while "Fang" means "square." A circle and a square... Doesn't it sound like we're the same family to you?
+::::<!--Custom String Trigger: TalkSentence_502026133-->
+::::<!--Custom String Listener: TalkSentence_502026133-->
+::::'''Jing Fang:''' Ack, it's just a shame that all the credit I've built up around this name is about to be completely overdrawn. I have to figure out what to do next...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} "Keep on spinning this side-hustle?"
+::::<!--Custom String Listener: TalkSentence_502026131-->
+::::'''Jing Fang:''' Think about it &mdash; Xianzhou people live for so long. How could they possibly remember some little punk that they bumped into just once in their life?
+::::'''Jing Fang:''' By changing my name, I could run the same hustle all over again... And keep on spinning my side-hustle!
+::::<!--Custom String Trigger: TalkSentence_502026133-->
+::::<!--Custom String Listener: TalkSentence_502026133-->
+::::'''Jing Fang:''' Ack, it's just a shame that all the credit I've built up around this name is about to be completely overdrawn. I have to figure out what to do next...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you only rely on swindling people to make a living?
+:::<!--Custom String Listener: TalkSentence_502026135-->
+:::'''Jing Fang:''' You might call it "swindling" &mdash; but that's like, just your opinion, man.
+:::'''Jing Fang:''' I like to call myself a "forager." Put simply, it's a person who visits all kinds of restaurants large and small to put together reviews for others' perusal.
+:::'''Jing Fang:''' However, there're too many people doing this on Xianzhou now, so if you want to stand out from the crowd, you have to do something else.
+:::'''Jing Fang:''' And the easiest way to do that is to create a different brand for yourself &mdash; think about it: Is there anyone that could possibly be more intimidating than the family member of the Luofu's greatest general? Well, that's what I came up with in any case.
+:::'''Jing Fang:''' Anyway, that's it! I'm just getting myself fed, and the shopkeepers get free advertising out of me. Alas, some of these guys even accuse me of dining and dashing! If you ask me, these are the real scoundrels...
+:::{{DIcon|Arrow}} Then why did you try and trick me?
+::::<!--Custom String Listener: TalkSentence_502026141-->
+::::'''Jing Fang:''' O, all the shopkeepers know me now! I couldn't help it, so I had to find some new marks...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Is this not the definition of scrounging...?
+::::<!--Custom String Listener: TalkSentence_502026143-->
+::::'''Jing Fang:''' Ack... You're right. I have to focus right now on changing things up so that I don't end up starving...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502026145-->
+:::'''Jing Fang:''' Off you go then! I won't bug you any longer...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502026103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502026201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} Alright, that's enough for me.
+::'''Jing Fang:''' Off you go then! I won't bug you any longer...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Jing Fang
+|zhs  = 景芳
+|zht  = 景芳
+|ja   = 景芳
+|ko   = 경방
+|es   = Jing Fang
+|fr   = Jing&nbsp;Fang
+|ru   = Цзин Фан
+|th   = Jing Fang
+|vi   = Jing Fang
+|de   = Jing Fang
+|id   = Jing Fang
+|pt   = Jing Fang
+}}
+==Change History==
+{{Change History|TODO}}

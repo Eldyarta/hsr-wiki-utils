@@ -1,0 +1,128 @@
+<%-- [PAGE_INFO]
+PageTitle=#Zenotus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Librarian
+|image           = NPC Zenotus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Zenotus''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_366_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033038: Config/Level/Mission/5040330/Act/Act504033038.json-->
+::'''Zenotus:''' Hello, youngster, welcome to the repository of the Marmoreal Palace... Remember to wipe your hands before looking for any books. You can browse freely while leaning against any wall, but if you wish to borrow something, go find Apollonia over there and fill out a book request form.
+::{{DIcon|Arrow}} Aren't these scrolls?
+:::<!--Custom String Listener: TalkSentence_504041703-->
+:::'''Zenotus:''' Haha, that's a question I hear quite often. But you see, whether it's a scroll or paper, they're just forms. Any medium that carries knowledge is collectively referred to as a "book" here &mdash; this includes calligraphy, paintings, and even steles, all of which are part of our collection.
+::{{DIcon|Arrow}} You really dare place books by the water?
+:::<!--Custom String Listener: TalkSentence_504041705-->
+:::'''Zenotus:''' Haha, no need to worry. The texts here are all blessed by Cerces, so even if the pages get completely soaked, there's no risk of them being damaged... However, stains are another matter, so let me remind you once again &mdash; make sure to dry your hands!
+::<!--Custom String Trigger: TalkSentence_504041706-->
+::<!--Custom String Listener: TalkSentence_504041706-->
+::'''Zenotus:''' If you're just browsing, the philosophical and historical texts in cabinets two to four would be a good choice. For math and numerical works, try cabinet seven. The narrative poems are in cabinet fifteen. Additionally, young people might enjoy the storybooks in cabinets after twenty...
+::{{DIcon|Arrow}} I'm feeling overwhelmed. Do you have any recommendations?
+::{{DIcon|Exit}} I'm not interested in any of those...
+::<!--Custom String Listener: TalkSentence_504041709-->
+::'''Zenotus:''' Well... judging by your attire, you must be from out of town and haven't quite adjusted to the environment here yet? This book might make your impression of Okhema a bit more lighthearted. It's a rubbing, so you don't need to return it. Take it and read at your own pace.
+::'''Zenotus:''' In this post-apocalyptic world, the fresh scent of books is about the only thing that brings peace... Haha, I've gotten so caught up that I forgot to introduce myself.
+::'''Zenotus:''' I am one of the managers of the repository, and my name is Zenotus. Any issues you encounter here, feel free to come to me. Just make sure not to raise your voice too loudly within the repository and disturb others.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033039: Config/Level/Mission/5040330/Act/Act504033039.json-->
+::'''Zenotus:''' The sound of flowing water doesn't interrupt quiet contemplation. It actually clears the mind...
+::'''Zenotus:''' So, youngster, have you found a book you like?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Got a moment to chat?
+::'''Zenotus:''' Haha, at my age, the one thing I have plenty of is time. Go ahead, speak your mind, youngster.
+::<!--Custom String Trigger: Wait_Option_504033040_1078-->
+::<!--Custom String Listener: Wait_Option_504033040_1078-->
+::{{DIcon|Talk}} Can you tell me about the collection here?
+:::<!--Custom String Listener: TalkSentence_504041904-->
+:::'''Zenotus:''' Any book you can find in Okhema, you can find here in this repository. I'm not bragging, but even the scriptures carved into the sacred trees of the Grove may not have as complete a collection as we do here.
+:::'''Zenotus:''' If you don't believe me, you can take a look at the first bookshelf nearest to us. Our catalog alone is over a hundred books thick. We're lucky that one of our colleagues invented the classification numbering system, or else finding a book here would be as difficult as climbing into the sky.
+:::'''Zenotus:''' Among them, the majority are texts on Titan rituals. New priests, eager to pass their sect's trials, often come to focus on borrowing these during the Month of Joy. That's when we're busiest.
+:::'''Zenotus:''' Next are the medical compendiums, philosophical texts, and historical records... there are many contradictions between these similar books, and most people borrow them to add evidence for their debates.
+:::'''Zenotus:''' Lastly, there are travelogues and imaginative stories, which are youngsters' favorites. Even an old man like me can get into them.
+:::'''Zenotus:''' By the way, the innermost shelves hold many manuscripts from the bath guests themselves, even some account books... as for the content, well, it's all up to personal interpretation.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The history of this repository...
+:::<!--Custom String Listener: TalkSentence_504041911-->
+:::'''Zenotus:''' I guess you're wondering why there's a repository in the Marmoreal Palace, right? Well... this goes back several Light Calendar years ago &mdash; exactly during the 43rd Okhema Centennial Festival.
+:::'''Zenotus:''' That year, the bath had just finished its largest renovation in history, becoming much more splendid. But what people didn't know was that this also meant the architects would be out of work, and I was one of them.
+:::'''Zenotus:''' My old friends were worried about their future livelihoods, but I, being luckier and with a steady balance of wealth, only worried about this knowledge being lost. So, after some discussion, we decided to repurpose an unused area of the baths into a small classroom that anyone could use.
+:::'''Zenotus:''' At first, scholars were attracted to teach here. They gathered textbooks from all over and piled them on the shelves once they were done using them. Over time, those attending the classes became annoyed by the noise from those just coming to read, and the arguments went on for several Light Calendar years, with more and more books piling up.
+:::'''Zenotus:''' Finally, Lady Tribbie and the others used their powers to gather all the knowledge from the fallen nations. After a vote in the citizens' assembly, this place was given the title of 'Knowledge Hub'... and my old companions no longer had to worry about our livelihoods.
+:::'''Zenotus:''' During the busiest times, this repository even held an annual "Treasure Hunt" event. However, since the situation with the black tide has worsened, that tradition has been paused. Once the Chrysos Heir completes the prophecy, perhaps a few more events will be held again.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there something troubling you?
+:::<!--Custom String Listener: TalkSentence_504041918-->
+:::'''Zenotus:''' Troubling... not really. It's more like sighing at the changes of the times...
+:::'''Zenotus:''' Many guests have suggested that I help them acquire some new books, but the "new books" they're referring to are mostly fantasy tunes and love poetry. Meanwhile, the older categories like philosophy, history, and mathematics are becoming increasingly neglected.
+:::'''Zenotus:''' Actually, it's not a big deal. The Chrysos Heirs are brave and skilled warriors, and the enthusiasm people have for life is a good thing. What bothers me, though, is the common trait among these people &mdash; they treat reading as mere entertainment. Not only do they skim through without paying attention, but they often eat while reading as well.
+:::'''Zenotus:''' Recently, they've even urged me to set up a corner around this repository as a dining area, offering meals that can be eaten while lying down... Haha, though this request seems reasonable enough, I can't shake the discomfort in my heart.
+:::'''Zenotus:''' I don't know whether I should blame them for being so unconventional, or praise them for knowing how to enjoy life. After all, right next door is the best resting place in all of Amphoreus.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I won't disturb you any longer.
+:::<!--Custom String Listener: TalkSentence_504041924-->
+:::'''Zenotus:''' It's fine. Actually, there's more to learn from books than from chatting with an old man like me... Feel free to wander around when you have time.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I won't disturb you any longer.
+::'''Zenotus:''' It's fine. Actually, there's more to learn from books than from chatting with an old man like me... Feel free to wander around when you have time.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Zenotus
+|zhs  = 泽诺托斯
+|zht  = 澤諾托斯
+|ja   = ゼノトス
+|ko   = 제노투스
+|es   = Zenotus
+|fr   = Zénotus
+|ru   = Зенотус
+|th   = Zenotus
+|vi   = Zenotus
+|de   = Zenotus
+|id   = Zenotus
+|pt   = Zênotus
+}}
+==Change History==
+{{Change History|TODO}}

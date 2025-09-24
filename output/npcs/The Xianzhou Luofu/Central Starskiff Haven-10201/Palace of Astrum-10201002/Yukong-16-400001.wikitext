@@ -1,0 +1,159 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yukong#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Yukong.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Palace of Astrum
+|relatives       = 
+}}
+'''Yukong''' is an NPC on [[The Xianzhou Luofu]], located in [[Palace of Astrum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Palace of Astrum|npc_16_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Phase": "Finish",
+		"ID": 1021702
+	}
+]
+</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 502089101: Config/Level/NPCDialogue/P10202/NPCAct/Act502089101.json-->
+::'''Yukong:''' (Trailblazer), since you're already at the Palace of Astrum, there are things I think I should tell you face-to-face.
+::'''Yukong:''' I wasn't friendly to you when we first met at this place... However, that was because I am the Helm Master, and my every action represents the Luofu Sky-Faring Commission.
+::'''Yukong:''' Putting that role aside, I mean no harm to you or the Astral Express. I hope you can understand my position at the time.
+::'''Yukong:''' Well, what brings you to the Palace of Astrum this time, (Trailblazer)?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502089201: Config/Level/NPCDialogue/P10202/NPCAct/Act502089201.json-->
+::'''Yukong:''' You're here, (Trailblazer). Is there anything I can do for you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I would like to ask you some questions.
+::<!--Trigger PerformanceE 502089301: Config/Level/NPCDialogue/P10202/NPCAct/Act502089301.json-->
+::'''Yukong:''' ...Please go ahead. I'll try my best to answer you, as long as it doesn't touch upon confidential matters.
+::<!--Custom String Trigger: Wait_Option_502089301_1063-->
+::<!--Custom String Listener: Wait_Option_502089301_1063-->
+::{{DIcon|Talk}} I heard you were a pilot?
+:::<!--Custom String Listener: TalkSentence_502089306-->
+:::'''Yukong:''' Yes... I used to be a pilot. However, it's been decades since I last stepped foot in the cockpit of a starskiff.
+:::'''Yukong:''' Nowadays, I have someone to pilot starskiffs for me even when I'm commuting. If I were to be shoved into a starskiff now, I'm afraid I might not be able to fly it.
+:::'''Yukong:''' The sky belongs to the youngsters. For someone my age, it's better to just admire it from the ground. I'm no longer of the age to fly.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you aspire to be the general?
+:::<!--Custom String Listener: TalkSentence_502089310-->
+:::'''Yukong:''' No. That's too stressful for me.
+:::'''Yukong:''' I believe you've got the wrong impression from Diviner Fu that being the general is everyone's dream. That's not really the case.
+:::'''Yukong:''' The general seems to be in a good mood every day, right? Well, it is most likely an act.
+:::'''Yukong:''' The stress he is under is beyond our imagination, but he must appear to have everything under control. It's because "the general" cannot show a single ounce of weakness or uncertainty.
+:::'''Yukong:''' I have no plans of going through such torture when I'm already about to retire. Of course, no one sees me as a general candidate, either.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: TalkSentence_502089316-->
+:::'''Yukong:''' Please take care on your way home. If you need anything, you can contact Xikui. We'll do our best to help you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502089301-->
+;(If {{Mission|For I Have Touched the Sky|showChapter=0}} has been completed)
+:{{DIcon|Talk}} How is Qingni doing these days?
+::<!--Trigger PerformanceE 502089401: Config/Level/NPCDialogue/P10202/NPCAct/Act502089401.json-->
+::'''Yukong:''' Qingni? Haha, I happened to be asking around for her updates too.
+::'''Yukong:''' The officers at the training camp keep me updated every day, but as for her... I'm sure she wouldn't even remember her old mother if her comrades did not remind her of me.
+::'''Yukong:''' Children are truly like birds. If you lock them up to keep them close, both of you will be miserable. But if you set them free, they will be gone in a flash.
+::'''Yukong:''' However, I think it's good to set children free. A soaring bird shouldn't be tied down. Since I have decided to let her go, then I hope she will fly as high and far as possible.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502089401-->
+;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|For I Have Touched the Sky|showChapter=0}} has been completed)
+:{{DIcon|Talk}} About Tingyun...
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has been completed)
+:::'''Yukong:''' I am naturally delighted to know that Tingyun is still alive, but thinking about the suffering she endured and her determination to be involved in this situation fills me with pain and sadness.
+:::'''Yukong:''' I am quite a selfish person. The Alliance's mission is important, of course, but I do wish my loved ones could live out their lives in peace and not have to take some great and tragic vows...
+:::'''Yukong:''' However, they always have their own plans. Because they are not my children, but the children of the Reignbow Arbiter.
+:::'''Yukong:''' The children of the Reignbow Arbiter never pause for their own rest... They only draw their bows for the peace of others.
+:::'''Yukong:''' Ha, and you people say foxians don't age. In the quiet of the night, flipping through old photo albums, I feel both proud and worried, and I can't help but shed tears &mdash; what could be more reminiscent of an old person than this?
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has not been completed)
+:::'''Yukong:''' Yes, but it's much, much harder than expected.
+:::'''Yukong:''' I can't abuse the resources of the Sky-Faring Commission for my private ends and go on a massive hunt for her. After all, Tingyun has already been officially declared dead. Yet I still harbor a glimmer of hope...
+:::'''Yukong:''' Members of the Whistling Flames are willing to help me out in this. As we speak, some of them are already retracing Tingyun's journey prior to her appearance back on the Luofu.
+:::'''Yukong:''' Perhaps the worst-case scenario might turn out to be the truth, but I'm willing to give it a shot.
+::<!--Ends the current performance-->
+;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has not been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|For I Have Touched the Sky|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Are you still looking for Tingyun?
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has been completed)
+:::'''Yukong:''' I am naturally delighted to know that Tingyun is still alive, but thinking about the suffering she endured and her determination to be involved in this situation fills me with pain and sadness.
+:::'''Yukong:''' I am quite a selfish person. The Alliance's mission is important, of course, but I do wish my loved ones could live out their lives in peace and not have to take some great and tragic vows...
+:::'''Yukong:''' However, they always have their own plans. Because they are not my children, but the children of the Reignbow Arbiter.
+:::'''Yukong:''' The children of the Reignbow Arbiter never pause for their own rest... They only draw their bows for the peace of others.
+:::'''Yukong:''' Ha, and you people say foxians don't age. In the quiet of the night, flipping through old photo albums, I feel both proud and worried, and I can't help but shed tears &mdash; what could be more reminiscent of an old person than this?
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has not been completed)
+:::'''Yukong:''' Yes, but it's much, much harder than expected.
+:::'''Yukong:''' I can't abuse the resources of the Sky-Faring Commission for my private ends and go on a massive hunt for her. After all, Tingyun has already been officially declared dead. Yet I still harbor a glimmer of hope...
+:::'''Yukong:''' Members of the Whistling Flames are willing to help me out in this. As we speak, some of them are already retracing Tingyun's journey prior to her appearance back on the Luofu.
+:::'''Yukong:''' Perhaps the worst-case scenario might turn out to be the truth, but I'm willing to give it a shot.
+::<!--Ends the current performance-->
+;(If {{Mission|For I Have Touched the Sky|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I've got to go.
+::'''Yukong:''' Please take care on your way home. If you need anything, you can contact Xikui. We'll do our best to help you.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502089317)
+:<!--Custom String Listener: TalkSentence_502089317-->
+::'''Yukong:''' Please take care on your way home. If you need anything, you can contact Xikui. We'll do our best to help you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yukong
+|zhs  = 驭空
+|zht  = 馭空
+|ja   = 御空
+|ko   = 어공
+|es   = Yukong
+|fr   = Yukong
+|ru   = Юйкун
+|th   = Yukong
+|vi   = Yukong
+|de   = Yukong
+|id   = Yukong
+|pt   = Yukong
+}}
+==Change History==
+{{Change History|TODO}}

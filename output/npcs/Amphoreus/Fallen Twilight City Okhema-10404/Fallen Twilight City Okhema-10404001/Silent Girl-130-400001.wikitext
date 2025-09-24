@@ -1,0 +1,122 @@
+<%-- [PAGE_INFO]
+PageTitle=#Silent Girl#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Silent Girl.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Fallen Twilight City" Okhema
+|relatives       = 
+}}
+'''Silent Girl''' is an NPC on [[Amphoreus]], located in [["Fallen Twilight City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Fallen Twilight City" Okhema|npc_130_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504096001: Config/Level/Mission/5040960/Act/Act504096001.json-->
+::The girl looks at you, silent, but there's a glimmer of hope in her eyes.
+::{{DIcon|Arrow}} Hello, little one.
+::{{DIcon|Arrow}} Is there anything I can help with?
+::<!--Custom String Listener: TalkSentence_504096004-->
+::The girl tries to communicate with you through gestures. You don't understand sign language, but Mem steps in to translate &mdash;
+::'''Silent Girl:''' ({{MC|f=Miss|m=Sir}}, I've seen a blonde lady before. She was with you.)
+::'''Silent Girl:''' (Did... did she leave?)
+::{{DIcon|Arrow}} ...Don't worry, she's fine.
+::{{DIcon|Arrow}} We'll definitely see her again after the Era Nova.
+::<!--Custom String Listener: TalkSentence_504096009-->
+::The girl seems to understand your lip movements. She's silent for a while, looking a little sad.
+::'''Silent Girl:''' (I'm sorry, maybe it's my fault...)
+::<!--Custom String Trigger: Wait_Option_504096002_28-->
+::<!--Custom String Listener: Wait_Option_504096002_28-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504096002: Config/Level/Mission/5040960/Act/Act504096002.json-->
+::The girl's eyes sparkle, as if welcoming your presence.
+::<!--Custom String Trigger: Wait_Option_504096002_28-->
+::<!--Custom String Listener: Wait_Option_504096002_28-->
+::<!--Custom String Listener: Wait_Option_504096002_28-->
+:{{DIcon|Talk}} Can you tell me what happened?
+::<!--Custom String Listener: TalkSentence_504096103-->
+::'''Silent Girl:''' (A few days ago, some scary people broke into my house. I saw them whispering, and they said that if that lady didn't disappear, they'd take my eyes.)
+::{{DIcon|Arrow}} (Those fiends...!)
+::{{DIcon|Arrow}} (They won't spare even a little kid...!)
+::{{DIcon|Arrow}} (...Well, but it does fit their character.)
+::<!--Custom String Listener: TalkSentence_504096107-->
+::'''Silent Girl:''' (I was scared, but they explained that it's okay, I haven't done anything bad, and that the lady will definitely disappear for me.)
+::'''Silent Girl:''' (They seemed... quite troubled. One of them said it was the decision of their leader. That lady... she must have been troubled too...)
+::'''Silent Girl:''' (But a purple sprite holding a chest passed by, and it seemed like it was trying to protect me in secret while those people were here. So, I'm fine.)
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} The bad people have already gotten what they deserve.
+::<!--Custom String Listener: TalkSentence_504096111-->
+::'''Silent Girl:''' (What they deserve...)
+::'''Silent Girl:''' (...Umm, now no one will bully that lady anymore, right?)
+::{{DIcon|Arrow}} Is there anything else I can help you with?
+::<!--Custom String Listener: TalkSentence_504096114-->
+::'''Silent Girl:''' ({{MC|f=Miss|m=Sir}}, if you'd ever see the blonde lady again, can you apologize to her for me?)
+::{{DIcon|Arrow}} Sure thing.
+:::<!--Custom String Listener: TalkSentence_504096118-->
+:::'''Silent Girl:''' (Thank you, {{MC|f=miss|m=sir}}.)
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Don't worry, this isn't your fault.
+:::<!--Custom String Listener: TalkSentence_504096117-->
+:::'''Silent Girl:''' (But... if I could protect myself, that lady wouldn't have been bullied. So, please...)
+:::<!--Custom String Trigger: TalkSentence_504096118-->
+:::<!--Custom String Listener: TalkSentence_504096118-->
+:::'''Silent Girl:''' (Thank you, {{MC|f=miss|m=sir}}.)
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Take care of yourself, and I'll see you next time.
+::<!--Custom String Listener: TalkSentence_504096120-->
+::'''Silent Girl:''' (I will. Goodbye, {{MC|f=miss|m=sir}}! May Kephale bless you!)
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

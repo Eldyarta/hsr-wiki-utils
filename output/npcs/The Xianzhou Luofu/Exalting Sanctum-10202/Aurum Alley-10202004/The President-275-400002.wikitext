@@ -1,0 +1,162 @@
+<%-- [PAGE_INFO]
+PageTitle=#The President#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Aurum Alley Merchant Guild President
+|image           = NPC The President.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''The President''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_275_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502062101: Config/Level/NPCDialogue/P10202/NPCAct/Act502062101.json-->
+::'''Aurumaton President:''' So much has changed, yet this alley remains the same... Hehe, please don't mind this old man's sentimental remarks. How can I help you?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502062401: Config/Level/NPCDialogue/P10202/NPCAct/Act502062401.json-->
+::'''Aurumaton President:''' The business consultant is here. Let's get to work.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Travel Log}} Take care of the affairs in Aurum Alley
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} How's everything lately?
+::<!--Trigger PerformanceE 502062301: Config/Level/NPCDialogue/P10202/NPCAct/Act502062301.json-->
+::'''Aurumaton President:''' I'm doing great because of you and Sushang. Without you two, who knew what would happen to our Aurum Alley?
+::'''Aurumaton President:''' Do come here often to have fun! Things in the Aurum Alley change so fast that I can barely keep up.
+::'''Aurumaton President:''' Perhaps in a little while, it will transform into a place so wonderful that it will blow you away.
+::'''Aurumaton President:''' When the time comes, I might no longer be needed here. That's not a bad thing though.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502062301-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'm just here for a casual chat.
+::<!--Trigger PerformanceE 502062201: Config/Level/NPCDialogue/P10202/NPCAct/Act502062201.json-->
+::'''Aurumaton President:''' A casual chat, of course. Now that I've lost all my limbs, all I can do is chat... So, what would you want to talk about?
+::<!--Custom String Trigger: Wait_Option_502062201_802-->
+::<!--Custom String Listener: Wait_Option_502062201_802-->
+::{{DIcon|Talk}} Do you need me to restore your body below your neck?
+:::<!--Custom String Listener: TalkSentence_502062208-->
+:::'''Aurumaton President:''' Hahaha, thank you, kindhearted traveler, but don't worry about that.
+:::'''Aurumaton President:''' I wonder how much you know about the history of the Cosmos. Once upon a time, there was a catastrophe, a war started by Rubert, the emperor of inorganic beings.
+:::'''Aurumaton President:''' The war lasted for eons and consumed countless lives... Even after the downfall of the Machine Empire, the fear it aroused never ceased, as people saw intelligent machines as a potential threat.
+:::'''Aurumaton President:''' My jade abacus module retains almost no data from that era except for a few traces of modifications, presumably to eradicate the very existence of the Anti-Organic Equation in the universe.
+:::{{DIcon|Arrow}} Does this have anything to do with the fact that all that's left of you is a head?
+::::<!--Custom String Listener: TalkSentence_502062213-->
+::::'''Aurumaton President:''' Fine, I didn't want to be so blunt at first...
+::::'''Aurumaton President:''' With only a head left, I won't pose a threat to anyone. You're happy about it, and so am I.
+::::<!--Custom String Trigger: TalkSentence_502062218-->
+::::<!--Custom String Listener: TalkSentence_502062218-->
+::::'''Aurumaton President:''' If I had my body and my limbs, I'd be immediately facing troubles beyond your wildest imagination.
+::::'''Aurumaton President:''' Now I just want to live a peaceful life in this Aurum Alley, and losing my limbs is an acceptable price to pay. Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} But there are still a lot of inorganic beings around...
+::::<!--Custom String Listener: TalkSentence_502062216-->
+::::'''Aurumaton President:''' Well, I've heard of Screwllum, the "Genius Aristocrat" of the Genius Society.
+::::'''Aurumaton President:''' People gaze upon him in awe and reverence, but how many of them are actually worried that he might become the next "Emperor"?
+::::<!--Custom String Trigger: TalkSentence_502062218-->
+::::<!--Custom String Listener: TalkSentence_502062218-->
+::::'''Aurumaton President:''' If I had my body and my limbs, I'd be immediately facing troubles beyond your wildest imagination.
+::::'''Aurumaton President:''' Now I just want to live a peaceful life in this Aurum Alley, and losing my limbs is an acceptable price to pay. Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How prosperous was this alley before?
+:::<!--Custom String Listener: TalkSentence_502062221-->
+:::'''Aurumaton President:''' As you know, I can only describe what I can experience as far as my eyes can see.
+:::'''Aurumaton President:''' Let me see... Back then, this alley was alive with aurumatons shopping and picking up goods for their masters. The alley was so crowded that you could barely get in.
+:::'''Aurumaton President:''' All the tourists who went there would be so exhausted that they had to buy some drinks and snacks... while taking a break and exchanging their stories.
+:::'''Aurumaton President:''' At that time, my predecessor told me, "Remember the view you are seeing now. The Aurum Alley Merchant Guild is dedicated to continuing such prosperity for generations to come." Well...
+:::'''Aurumaton President:''' But alas, things do change. It's not easy to continue those good, old days.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Am I allowed to ask you any questions?
+:::<!--Custom String Listener: TalkSentence_502062227-->
+:::'''Aurumaton President:''' Would you like to hear my "official" answer, or "another version"?
+:::{{DIcon|Arrow}} The official answer.
+::::<!--Custom String Listener: TalkSentence_502062229-->
+::::'''Aurumaton President:''' Yes, you are free to ask me any questions you want as long as they are in line with social norms, ethical standards, and legal regulations.
+::::'''Aurumaton President:''' While I'm NOT designed for chatting, I'll do my best to answer your questions or provide you with helpful information and advice.
+::::<!--Custom String Trigger: TalkSentence_502062233-->
+::::<!--Custom String Listener: TalkSentence_502062233-->
+::::'''Aurumaton President:''' You can trust me as much as you can trust books, newspapers, the Internet, and various common fields of information.
+::::'''Aurumaton President:''' But having a database doesn't mean you don't have to think. I'm sure you don't need me to tell you that.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} "Another version."
+::::<!--Custom String Listener: TalkSentence_502062232-->
+::::'''Aurumaton President:''' I can provide you with many "official answers," but they may not be the answers you seek.
+::::<!--Custom String Trigger: TalkSentence_502062233-->
+::::<!--Custom String Listener: TalkSentence_502062233-->
+::::'''Aurumaton President:''' You can trust me as much as you can trust books, newspapers, the Internet, and various common fields of information.
+::::'''Aurumaton President:''' But having a database doesn't mean you don't have to think. I'm sure you don't need me to tell you that.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll leave you alone, then.
+:::<!--Custom String Listener: TalkSentence_502062236-->
+:::'''Aurumaton President:''' See you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502062201-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I'll leave you alone, then.
+::'''Aurumaton President:''' See you.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = The President
+|zhs  = 「会长」
+|zht  = 「會長」
+|ja   = 「会長」
+|ko   = 「회장」
+|es   = Presidente
+|fr   = Le Président
+|ru   = Председатель
+|th   = ประธาน
+|vi   = Hội Trưởng
+|de   = Der Präsident
+|id   = Pemimpin
+|pt   = Presidente
+}}
+==Change History==
+{{Change History|TODO}}

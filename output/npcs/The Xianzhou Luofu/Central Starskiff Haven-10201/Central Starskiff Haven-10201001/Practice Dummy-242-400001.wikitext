@@ -1,0 +1,646 @@
+<%-- [PAGE_INFO]
+PageTitle=#Practice Dummy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Practice Dummy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Practice Dummy''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_242_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802410114-->)
+::<!--Custom String Trigger: SHOW_PERFORMANCE-->
+::<!--Custom String Listener: SHOW_PERFORMANCE-->
+::<!--Trigger PerformanceD 802410152: Story/Discussion/Mission/8024101/DS802410152.json-->
+::{{A|VO side2 baishi mar7th 146.ogg}} '''March 7th:''' That IPC guy will show up in {{Color|keyword|nobold=1|fifteen days}}. I've got to become a swordmaster by then!
+::{{A|VO side2 baishi yunli 118.ogg}} '''Yunli:''' Becoming a swordmaster in a mere fifteen days is quite challenging.
+::{{A|VO side2 baishi mar7th 147.ogg}} '''March 7th:''' But we can't lose our momentum, Master Yunli!
+::{{A|VO side2 baishi yunli 119.ogg}} '''Yunli:''' Momentum alone will only keep you going for about three days. If you really want to stick with it, you need a solid plan.
+::{{A|VO side2 baishi mar7th 148 m.ogg}} {{A|VO side2 baishi mar7th 148 f.ogg}} '''March 7th:''' No worries! I've found my professional teaching assistant, (Trailblazer), to help me organize the lessons. So, there won't be any problems!
+::{{DIcon|Arrow}} I'll be sure to arrange lessons for March.
+:::<!--Custom String Listener: TalkSentence_802410607-->
+:::{{A|VO side2 baishi mar7th 149 m.ogg}} {{A|VO side2 baishi mar7th 149 f.ogg}} '''March 7th:''' Rest assured, masters, if not in me, at least place your faith in {{MC|f=her|m=him}}, my trusty sidekick!
+:::How can you be so sure about me...?
+::{{DIcon|Arrow}} How can you be so sure about me...?
+:::<!--Custom String Listener: TalkSentence_802410609-->
+::{{A|VO side2 baishi mar7th 150.ogg}} '''March 7th:''' Because I trust you! Even if my masters have doubts, they'll trust your judgment!
+::<!--Custom String Trigger: TalkSentence_802410610-->
+::<!--Custom String Listener: TalkSentence_802410610-->
+::{{A|VO side2 baishi yanqing 122.ogg}} '''Yanqing:''' Miss March is really passionate about learning swordplay, and now she has a clear goal in mind. That's a good thing for her.
+::{{tx}}
+::{{tx}}
+::{{A|VO side2 baishi mar7th 155 m.ogg}} {{A|VO side2 baishi mar7th 155 f.ogg}} '''March 7th:''' You haven't said much, (Trailblazer). Any suggestions before we officially start training?
+::{{DIcon|Arrow}} Mastery of the sword trumps all.
+:::<!--Custom String Listener: TalkSentence_802410703-->
+:::{{A|VO side2 baishi mar7th 156.ogg}} '''March 7th:''' Exactly! I prefer the cool, calm and ruthless way of doing things – that's my kind of style!
+:::Friends on the road bring twists of the fate.
+:::{{A|VO side2 baishi mar7th 157.ogg}} '''March 7th:''' Twists? Like the ones in those swordmaster novels? But I wonder what kind of unexpected twists I'll encounter...
+:::Bump into a lonely ghost?
+:::Accidentally consume a divine elixir?
+:::Unlock an ingenious enigma?
+:::Receive guidance from a sage?
+::{{DIcon|Arrow}} Friends on the road bring twists of the fate.
+:::<!--Custom String Listener: TalkSentence_802410705-->
+:::{{A|VO side2 baishi mar7th 157.ogg}} '''March 7th:''' Twists? Like the ones in those swordmaster novels? But I wonder what kind of unexpected twists I'll encounter...
+:::{{DIcon|Arrow}} Bump into a lonely ghost?
+:::{{DIcon|Arrow}} Accidentally consume a divine elixir?
+:::{{DIcon|Arrow}} Unlock an ingenious enigma?
+:::{{DIcon|Arrow}} Receive guidance from a sage?
+:::<!--Custom String Listener: TalkSentence_802410710-->
+::{{A|VO side2 baishi mar7th 158.ogg}} '''March 7th:''' It'd be pretty awesome if that actually happened.
+::<!--Custom String Trigger: TalkSentence_802410711-->
+::<!--Custom String Listener: TalkSentence_802410711-->
+::{{A|VO side2 baishi mar7th 159 m.ogg}} {{A|VO side2 baishi mar7th 159 f.ogg}} '''March 7th:''' That's enough chit-chat for now. Don't forget to keep an eye on my swordplay practice, (Trailblazer)!
+::{{tx}}
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Open_TrainingUI-->
+::<!--Custom String Trigger: Finish_802410114-->
+::<!--Custom String Trigger: FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001-->
+::<!--Custom String Listener: FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001-->
+;(If {{cx}}<!--SubMission not Started: 802410114-->)
+::<!--Custom String Trigger: Start_TrainingCheck-->
+::<!--Custom String Listener: Start_TrainingCheck-->
+:<pre>{
+	"$type": "RPG.GameCore.SwordTrainingCheckCanEnterGame",
+	"OnPermitted": [
+		{
+			"$type": "RPG.GameCore.SwordTrainingShowEndingPerformance",
+			"OnTriggered": [
+				{
+					"$type": "RPG.GameCore.TriggerCustomString",
+					"CustomString": {
+						"Value": "FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001"
+					}
+				}
+			],
+			"OnNotTriggered": [
+				{
+					"$type": "RPG.GameCore.TriggerCustomString",
+					"CustomString": {
+						"Value": "SWORD_TRAIN_SHOW_MENU"
+					}
+				}
+			]
+		}
+	],
+	"OnNotPermitted": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "NOT_ALLOW_ENTER_GAME"
+			}
+		}
+	]
+}</pre>
+;(Unused &mdash; Trigger_802410124_random1)
+:<!--Custom String Listener: Trigger_802410124_random1-->
+::'''Practice Dummy:''' In this world, there is no such thing as an infallible technique or an unbreakable sword, and there especially is no such thing as an unbeatable swordmaster.
+::<!--Custom String Trigger: Trigger_802410124_waitOption-->
+::<!--Custom String Listener: Trigger_802410124_waitOption-->
+::{{DIcon|Talk}} I'd like some motivation.
+:::<!--Custom String Listener: Trigger_802410124_802410091-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random5"
+			}
+		}
+	],
+	"ContinuousNotRepeat": true
+}</pre>
+::{{DIcon|Exit}} I think I've heard enough.
+:::<!--Custom String Listener: Trigger_802410124_802410092-->
+:::'''Practice Dummy:''' Keep up the good work.
+:::<!--Ends the current performance-->
+;(Unused &mdash; Trigger_802410124_random2)
+:<!--Custom String Listener: Trigger_802410124_random2-->
+::'''Practice Dummy:''' If a swordmaster is to see their blade as their god, then when the blade takes victory, it is them who taste defeat.
+::<!--Custom String Trigger: Trigger_802410124_waitOption-->
+::<!--Custom String Listener: Trigger_802410124_waitOption-->
+::{{DIcon|Talk}} I'd like some motivation.
+:::<!--Custom String Listener: Trigger_802410124_802410091-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random5"
+			}
+		}
+	],
+	"ContinuousNotRepeat": true
+}</pre>
+::{{DIcon|Exit}} I think I've heard enough.
+:::<!--Custom String Listener: Trigger_802410124_802410092-->
+:::'''Practice Dummy:''' Keep up the good work.
+:::<!--Ends the current performance-->
+;(Unused &mdash; Trigger_802410124_random3)
+:<!--Custom String Listener: Trigger_802410124_random3-->
+::'''Practice Dummy:''' A prerequisite for becoming a top swordmaster is to always keep one eye on oneself.
+::<!--Custom String Trigger: Trigger_802410124_waitOption-->
+::<!--Custom String Listener: Trigger_802410124_waitOption-->
+::{{DIcon|Talk}} I'd like some motivation.
+:::<!--Custom String Listener: Trigger_802410124_802410091-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random5"
+			}
+		}
+	],
+	"ContinuousNotRepeat": true
+}</pre>
+::{{DIcon|Exit}} I think I've heard enough.
+:::<!--Custom String Listener: Trigger_802410124_802410092-->
+:::'''Practice Dummy:''' Keep up the good work.
+:::<!--Ends the current performance-->
+;(Unused &mdash; Trigger_802410124_random4)
+:<!--Custom String Listener: Trigger_802410124_random4-->
+::'''Practice Dummy:''' The soldier marched alone for three thousand miles, his blade besting a million warriors along his path.
+::<!--Custom String Trigger: Trigger_802410124_waitOption-->
+::<!--Custom String Listener: Trigger_802410124_waitOption-->
+::{{DIcon|Talk}} I'd like some motivation.
+:::<!--Custom String Listener: Trigger_802410124_802410091-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random5"
+			}
+		}
+	],
+	"ContinuousNotRepeat": true
+}</pre>
+::{{DIcon|Exit}} I think I've heard enough.
+:::<!--Custom String Listener: Trigger_802410124_802410092-->
+:::'''Practice Dummy:''' Keep up the good work.
+:::<!--Ends the current performance-->
+;(Unused &mdash; Trigger_802410124_random5)
+:<!--Custom String Listener: Trigger_802410124_random5-->
+::'''Practice Dummy:''' Please take up the Sword of the Emperor and carve your path to greatness.
+::<!--Custom String Trigger: Trigger_802410124_waitOption-->
+::<!--Custom String Listener: Trigger_802410124_waitOption-->
+::{{DIcon|Talk}} I'd like some motivation.
+:::<!--Custom String Listener: Trigger_802410124_802410091-->
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random5"
+			}
+		}
+	],
+	"ContinuousNotRepeat": true
+}</pre>
+::{{DIcon|Exit}} I think I've heard enough.
+:::<!--Custom String Listener: Trigger_802410124_802410092-->
+:::'''Practice Dummy:''' Keep up the good work.
+:::<!--Ends the current performance-->
+;(Unused &mdash; SWORD_TRAIN_SHOW_MENU)
+:<!--Custom String Listener: SWORD_TRAIN_SHOW_MENU-->
+::<!--Trigger PerformanceE 802410121: Config/Level/Mission/8024101/Act/Act802410121.json-->
+::'''Practice Dummy:''' A truly great swordmaster is not created through intelligence and training alone. They also require a great heart. The Practice Dummy system will assist you in completing various types of swordplay training. What are your intentions from here?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon|Travel Log}} Help March 7th with her sword training.
+:::<!--Custom String Trigger: Open_TrainingUI-->
+::{{DIcon|Talk}} You seem to be very good with motivational phrases...
+:::<!--Trigger PerformanceE 802410124: Config/Level/Mission/8024101/Act/Act802410124.json-->
+:::'''Practice Dummy:''' Every student requires a certain amount of encouragement to maintain their passion for learning swordplay. I am capable of referencing "100 Motivational Phrases for Swordmasters" from throughout the ages in order to provide this kind of emotional support.
+:::<!--Custom String Trigger: Trigger_802410124_waitOption-->
+:::<!--Custom String Listener: Trigger_802410124_waitOption-->
+:::{{DIcon|Talk}} I'd like some motivation.
+::::<!--Custom String Listener: Trigger_802410124_802410091-->
+:::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random1"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random2"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random3"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random4"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Trigger_802410124_random5"
+			}
+		}
+	],
+	"ContinuousNotRepeat": true
+}</pre>
+:::{{DIcon|Exit}} I think I've heard enough.
+::::<!--Custom String Listener: Trigger_802410124_802410092-->
+::::'''Practice Dummy:''' Keep up the good work.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I am going to rest for a while, farewell.
+:::<!--Trigger PerformanceE 802410122: Config/Level/Mission/8024101/Act/Act802410122.json-->
+:::'''Practice Dummy:''' This discussion has been most illuminating. May we meet again.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001-->
+::<!--Custom String Listener: FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001-->
+;(Unused &mdash; NOT_ALLOW_ENTER_GAME)
+:<!--Custom String Listener: NOT_ALLOW_ENTER_GAME-->
+::<!--Trigger PerformanceE 802410123: Config/Level/Mission/8024101/Act/Act802410123.json-->
+::'''Practice Dummy:''' I hear that you have already made sufficient battle preparations. May thy blade split and sever, and may victory find you!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001-->
+::<!--Custom String Listener: FINISH_LEVEL_GRAPH_DialogueMain_F10201001_G242_P300001-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

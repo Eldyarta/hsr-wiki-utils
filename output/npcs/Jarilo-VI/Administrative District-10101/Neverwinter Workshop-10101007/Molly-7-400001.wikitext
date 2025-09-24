@@ -1,0 +1,162 @@
+<%-- [PAGE_INFO]
+PageTitle=#Molly#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Workshop Assistant
+|image           = NPC Molly.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Neverwinter Workshop
+|relatives       = 
+}}
+'''Molly''' is an NPC on [[Jarilo-VI]], located in [[Neverwinter Workshop]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Neverwinter Workshop|npc_7_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:{{A|VO vo ambient w1 greeting molly 103.ogg}} {{A|VO vo ambient w1 greeting molly 104.ogg}} '''Molly:''' Oh, if it isn't (Trailblazer)! Welcome to the workshop!
+:{{DIcon}} Let's have a chat...
+::<!--Custom String Listener: TalkSentence_501026941-->
+::'''Molly:''' Okay. What do you want to talk about?
+::<!--Custom String Trigger: Wait_Option_501029601_13-->
+::<!--Custom String Listener: Wait_Option_501029601_13-->
+::{{DIcon|Talk}} Someone is a happy camper.
+:::<!--Custom String Listener: TalkSentence_501026943-->
+:::'''Molly:''' Hehe. Well, I did leave that foul Technology Division, and I'm able to do whatever I want now. Of course, I'm happy.
+:::'''Molly:''' Naturally, it's all thanks to you, (Trailblazer), Officer Pela, and Serval. Meeting you all was the luckiest break I've had in my life... I am so grateful to you all!
+:::'''Molly:''' I just haven't been able to figure out how to repay you... How about this. If you have anything you want repaired, come and find me. I'll do it for free!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How is the workshop treating you?
+:::<!--Custom String Listener: TalkSentence_501026947-->
+:::'''Molly:''' Hmmm. How should I put it? I guess I would say it feels like home, maybe?
+:::'''Molly:''' I just did not fit with everyone at the Technology Division. My coworkers wouldn't even acknowledge my existence. There were some people I never spoke to before even by the time I left.
+:::'''Molly:''' I had to handle everything by myself. I was never able to share my thoughts and feelings with anyone. But being here at the workshop is totally different. Serval and I have similar interests. We're close friends now!
+:::'''Molly:''' Ah, and then there's Pela and Lynx! Those two are great girls. They're like sisters to me now. Haha!
+:::{{DIcon|Return}} That's great to hear. Congratulations.
+::::<!--Custom String Listener: TalkSentence_501026952-->
+::::'''Molly:''' Hehe. Thank you. I've started a whole new chapter of my life thanks to you...
+::::'''Molly:''' I'm... so grateful!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} We've been chatting and chatting, but we haven't talked about your work.
+::::<!--Custom String Listener: TalkSentence_501026955-->
+::::'''Molly:''' Huh? Ah, you've got a point... Maybe that's because the workshop often doesn't have any business?
+::::'''Molly:''' My job is to help Serval with handling some workshop orders. It's mostly repairing mechanism, like heaters and car engines.
+::::'''Molly:''' I've loved tinkering with machines since I was a kid, so my work doesn't tire me out. Or maybe subconsciously I don't view this as work...
+::::'''Molly:''' ...ah! Maybe that's why I didn't talk about what I actually do at the workshop. So that's it...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} No worries. I'll leave you to it.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Good luck with your work!
+::<!--Custom String Listener: TalkSentence_501026961-->
+::'''Molly:''' Goodbye! Don't be a stranger!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Trigger PerformanceE 501026904: Config/Level/Mission/5010269/Act/Act501026904.json-->
+:'''Molly:''' Oh, if it isn't (Trailblazer)! Welcome to the workshop!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_501026904-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Let's have a chat...
+::<!--Trigger PerformanceE 501026905: Config/Level/Mission/5010269/Act/Act501026905.json-->
+::'''Molly:''' Okay. What do you want to talk about?
+::<!--Custom String Trigger: Wait_Option_501029601_13-->
+::<!--Custom String Listener: Wait_Option_501029601_13-->
+::{{DIcon|Talk}} Someone is a happy camper.
+:::<!--Custom String Listener: TalkSentence_501026943-->
+:::'''Molly:''' Hehe. Well, I did leave that foul Technology Division, and I'm able to do whatever I want now. Of course, I'm happy.
+:::'''Molly:''' Naturally, it's all thanks to you, (Trailblazer), Officer Pela, and Serval. Meeting you all was the luckiest break I've had in my life... I am so grateful to you all!
+:::'''Molly:''' I just haven't been able to figure out how to repay you... How about this. If you have anything you want repaired, come and find me. I'll do it for free!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How is the workshop treating you?
+:::<!--Custom String Listener: TalkSentence_501026947-->
+:::'''Molly:''' Hmmm. How should I put it? I guess I would say it feels like home, maybe?
+:::'''Molly:''' I just did not fit with everyone at the Technology Division. My coworkers wouldn't even acknowledge my existence. There were some people I never spoke to before even by the time I left.
+:::'''Molly:''' I had to handle everything by myself. I was never able to share my thoughts and feelings with anyone. But being here at the workshop is totally different. Serval and I have similar interests. We're close friends now!
+:::'''Molly:''' Ah, and then there's Pela and Lynx! Those two are great girls. They're like sisters to me now. Haha!
+:::{{DIcon|Return}} That's great to hear. Congratulations.
+::::<!--Custom String Listener: TalkSentence_501026952-->
+::::'''Molly:''' Hehe. Thank you. I've started a whole new chapter of my life thanks to you...
+::::'''Molly:''' I'm... so grateful!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} We've been chatting and chatting, but we haven't talked about your work.
+::::<!--Custom String Listener: TalkSentence_501026955-->
+::::'''Molly:''' Huh? Ah, you've got a point... Maybe that's because the workshop often doesn't have any business?
+::::'''Molly:''' My job is to help Serval with handling some workshop orders. It's mostly repairing mechanism, like heaters and car engines.
+::::'''Molly:''' I've loved tinkering with machines since I was a kid, so my work doesn't tire me out. Or maybe subconsciously I don't view this as work...
+::::'''Molly:''' ...ah! Maybe that's why I didn't talk about what I actually do at the workshop. So that's it...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} No worries. I'll leave you to it.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501026905-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501026908: Config/Level/Mission/5010269/Act/Act501026908.json-->
+::'''Molly:''' Serval told me that the Over and Underworlds are opening up again. I'm thinking of heading back home.
+::{{DIcon|Arrow}} Are you from the Underworld?
+::<!--Custom String Listener: TalkSentence_501026977-->
+::'''Molly:''' Yes. Have I not told you that? I was born in Boulder Town, and both my parents are native Underworlders.
+::'''Molly:''' My dad worked for a long time at the Tempering Workshop in Rivet Town. That's when my interest in mechanics began to develop.
+::'''Molly:''' Later, I packed my bags and came here by myself to learn about Belobog's cutting-edge technology. Little did I know, I would be stuck here because of the Supreme Guardian's order...
+::'''Molly:''' Now that I've made it professionally, it's time for me to visit home. I can't wait to tell my parents about meeting you all! I'm sure they will be happy to know that!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501026908-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Good luck with your work!
+::<!--Trigger PerformanceE 501026906: Config/Level/Mission/5010269/Act/Act501026906.json-->
+::'''Molly:''' Goodbye! Don't be a stranger!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501026906-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Molly
+|zhs  = 茉莉
+|zht  = 茉莉
+|ja   = モリー
+|ko   = 몰리
+|es   = Molly
+|fr   = Molly
+|ru   = Молли
+|th   = Molly
+|vi   = Molly
+|de   = Molly
+|id   = Molly
+|pt   = Molly
+}}
+==Change History==
+{{Change History|TODO}}

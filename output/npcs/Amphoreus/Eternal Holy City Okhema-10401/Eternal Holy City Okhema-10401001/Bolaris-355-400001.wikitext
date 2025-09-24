@@ -1,0 +1,163 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bolaris#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Inventor
+|image           = NPC Bolaris.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Bolaris''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_355_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033024: Config/Level/Mission/5040330/Act/Act504033024.json-->
+::'''Bolaris:''' {{MC|f=Girl|m=Boy}}, you look strong and healthy. Would you be interested in testing my invention?
+::The person in front of you strikes up a conversation. One of their arms has been replaced with an extremely lifelike prosthetic &mdash; it looks very unique.
+::{{DIcon|Arrow}} You also made a simulated universe?
+:::<!--Custom String Listener: TalkSentence_504040304-->
+:::'''Bolaris:''' ...What do you mean by "universe"? I don't quite understand... but it's probably not what you think. Let me explain.
+::{{DIcon|Arrow}} It's not something strange, right?
+:::<!--Custom String Listener: TalkSentence_504040306-->
+:::'''Bolaris:''' Haha, I don't know what you're thinking, but don't worry. It's just a support device for exercise.
+::{{DIcon|Arrow}} Well, that depends on how much the reward is.
+:::<!--Custom String Listener: TalkSentence_504040308-->
+:::'''Bolaris:''' Haha, you're quite the pragmatic youngster. But to be honest, this might not meet your expectations. How about we first see what the situation is?
+::<!--Custom String Trigger: TalkSentence_504040309-->
+::<!--Custom String Listener: TalkSentence_504040309-->
+::'''Bolaris:''' I invented a pair of "legs." Once worn, even those with limited mobility can move swiftly like the Chrysos Heirs of Zagreus. They can even leap great distances. You don't need me to elaborate. I'm sure you can understand their value.
+::'''Bolaris:''' Now, the rest is just further testing, and I need a young, energetic person to help me out. Kid, would you like to lend me a hand with this?
+::{{DIcon|Arrow}} I love testing things!
+::<!--Custom String Listener: TalkSentence_504040312-->
+::'''Bolaris:''' Ah, good. You're such a friendly kid. Don't worry, it won't take up too much of your time.
+:;(Screen fades to black)
+::You find an open area, and following Bolaris' instructions, you begin to move around... so &mdash;
+::{{DIcon|Arrow}} Run two laps.
+:::<!--Custom String Listener: TalkSentence_504040315-->
+::;(Screen fades to black)
+:::You start running laps around the baths &mdash; 1! 2! 1! Home! ...Wait, why are the guards following you now?
+:::'''Bolaris:''' Nice speed, kid, but what's with the crowd trailing behind you?
+:::'''Guard:''' Huh? Mr. Bolaris? Are you testing your invention? We just saw this warrior running so fast, and we thought they were chasing a thief!
+::{{DIcon|Arrow}} Jump twice.
+:::<!--Custom String Listener: TalkSentence_504040319-->
+::;(Screen fades to black)
+:::You jump a full ten meters high! But as you land, a guest happens to walk by, and you nearly crash into them.
+:::'''A Passerby:''' By Kephale! Where did you jump out from? A god! A god has descended!
+:::'''Bolaris:''' Well, looks like this device is working just as intended...
+::{{DIcon|Arrow}} With the force of trailblazing, jump forward!
+:::<!--Custom String Listener: TalkSentence_504040323-->
+::;(Screen fades to black)
+:::You leap toward the distance with all your might, jumping about... 50 meters or so.
+:::'''Bolaris:''' By Aquila, I was only using the term "great distances" for advertising purposes!
+:::'''Bolaris:''' Kid, be careful when you turn around! Don't crash into the wall and make a hole!
+::<!--Custom String Trigger: TalkSentence_504040326-->
+::<!--Custom String Listener: TalkSentence_504040326-->
+::'''Bolaris:''' Kid, let's put aside the upgrade of this device for now, but the data tells me that you might be a Chrysos Heir...
+::'''Bolaris:''' Although I can't say for certain, at least your level of physical ability is very similar to them. Such a unique specimen is rare, only one in a hundred Light Calendar years... Kid, this is a good thing, but you should also pay attention to rest and not push your body too hard...
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033025: Config/Level/Mission/5040330/Act/Act504033025.json-->
+::'''Bolaris:''' Whether it's the common people or the Chrysos Heirs, perfection is hard to achieve. The word "flaw" follows us like a shadow.
+::'''Bolaris:''' People should tell each other that these flaws are not the result of mistakes. What I must do is use my intelligence to offer my utmost assistance.
+::While inspecting his lifelike prosthetic, Bolaris notices your arrival and looks over at you.
+::'''Bolaris:''' Forgive me for getting so carried away talking, child. Are you here to see me?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Are you up for a chat?
+:::'''Bolaris:''' Of course... Being able to talk with an energetic youngster like yourself is a true honor for an old man like myself.
+:::<!--Custom String Trigger: Wait_Option_504033026_735-->
+:::<!--Custom String Listener: Wait_Option_504033026_735-->
+:::{{DIcon|Talk}} You just mentioned prosthetics...
+::::<!--Custom String Listener: TalkSentence_504040504-->
+::::'''Bolaris:''' Heh, decades ago, this arm was snatched away by Nikador's kin and left in Ladon City. It was only thanks to a warrior from Ladon being nearby that I can stand here and talk today.
+::::'''Bolaris:''' That warrior tirelessly told me the story of Aquila, saying that the evernight was due to their eyes that couldn't be kept open, advising me to take it easy. Later, I learned that the warrior had also lost a leg in the war and replaced it with a crude prosthetic.
+::::'''Bolaris:''' Since then, I began researching various little gadgets, making them for myself and for my neighbors. Before long, I created this hand and even crafted a new prosthetic leg for him. Whenever I had the chance, I'd gaze at the sky, waiting for the moment to ask Aquila &mdash;
+::::'''Bolaris:''' Later on... *sigh* he lost his life when Ladon city was destroyed. The prosthetic leg he received didn't end up being of much use, but the habit of creating things, well, that stayed with me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you invented?
+::::<!--Custom String Listener: TalkSentence_504040509-->
+::::'''Bolaris:''' Mostly small trinkets... You're curious, aren't you? Well, well, let me tell you about them.
+::::'''Bolaris:''' Take the bath, for example: "A table that can float steadily on the water without wobbling," "Wall tiles that change color to indicate water temperature," "A towel that can dry off in just a few seconds"...
+::::'''Bolaris:''' How about those? I wasn't wrong, was I? Just some insignificant little things.
+::::{{DIcon|Arrow}} Not bad! Do you have any others?
+:::::<!--Custom String Listener: TalkSentence_504040513-->
+:::::'''Bolaris:''' Hah, being admired by an energetic youngster like yourself... I must admit this has made me smile.
+:::::'''Bolaris:''' Other creations... "Improved mural paints," "Support saddles for dromases," "Slate racks," "Mascot dolls for the Marmoreal Palace..."
+:::::'''Bolaris:''' I can't quite remember all of it. After all, compared to the failed attempts, there were only a few successes...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Any "great inventions"?
+:::::<!--Custom String Listener: TalkSentence_504040517-->
+:::::'''Bolaris:''' A big one... a really big one... Now that you mention it, there is one, but... *sigh*... I'm almost reluctant to bring it up.
+:::::'''Bolaris:''' The giant hand occasionally seen in the ruins, the "Bewitching Hands." It was my idea to use that thing. Later, together with the craftsmen, we tinkered with it for a few months and finally made it.
+:::::'''Bolaris:''' But no matter how you put it, that was an artifact of Zagreus. I heard that some people have been using it for all sorts of sneaky, underhanded deeds &mdash; climbing walls, stealing chickens, you name it. Over time, the trouble it caused kept piling up, and here I am, an old man, powerless to do anything about it. It's really troubling.
+:::::'''Bolaris:''' Later on, that hand was taken by a merchant to be sold as a commodity. He made all sorts of strange and ridiculous requests, and I just couldn't be bothered anymore... Do me a favor, kid. If anyone asks about it in the future, don't tell them I made it.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you been creating recently?
+::::<!--Custom String Listener: TalkSentence_504040522-->
+::::'''Bolaris:''' In addition to that support device, I've also been studying the human eye, hoping that one day I'll figure it out and create a real prosthetic eye that can actually see, but it's always been unsuccessful...
+::::'''Bolaris:''' The sponsor of this invention advised me not to rush. He said that many things are inevitable, and besides, he's already gotten used to it. Furthermore &mdash;
+::::'''Bolaris:''' "Even if {{Rubi|Aquila|Sky Titan}} cannot give us ownership of their sky, {{Rubi|Georios|Earth Titan}} has given us dromases as compensation." That is the logic.
+::::'''Bolaris:''' That being said, problems like this are always better solved sooner than later. Ah, I cannot trouble a child like yourself with such things, haha. I just hope that I can make some progress before I am too old.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to it. See you soon.
+::::<!--Custom String Listener: TalkSentence_504040527-->
+::::'''Bolaris:''' Good, good, such courtesy. Until next time, may Aquila watch over you, child.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'll leave you to it. See you soon.
+:::'''Bolaris:''' Good, good, such courtesy. Until next time, may Aquila watch over you, child.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bolaris
+|zhs  = 博莱斯
+|zht  = 博萊斯
+|ja   = ボレス
+|ko   = 볼라리스
+|es   = Bolaris
+|fr   = Bolaris
+|ru   = Боларис
+|th   = Bolaris
+|vi   = Bolaris
+|de   = Bolaris
+|id   = Bolaris
+|pt   = Bolaris
+}}
+==Change History==
+{{Change History|TODO}}

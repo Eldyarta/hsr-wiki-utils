@@ -1,0 +1,447 @@
+<%-- [PAGE_INFO]
+PageTitle=#Montana#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Trendy Ninja
+|image           = NPC Montana.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Penacony Paperfold University College
+|relatives       = 
+}}
+'''Montana''' is an NPC on [[Penacony]], located in [[Penacony Paperfold University College]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Penacony Paperfold University College|npc_87_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802611006-->)
+::<!--Trigger PerformanceE 802611004: Config/Level/Mission/8026110/Act/Act802611004.json-->
+::'''Montana:''' ...Festive superstar! The info I got you was right on the money, wasn't it? Did you encounter anything fun?
+::{{DIcon|Arrow}} I ran into a strange incident.
+:::<!--Custom String Listener: TalkSentence_802611048-->
+:::'''(Trailblazer):''' Actually...
+:::You vividly describe the wondrous scene you saw to this curious student, not forgetting to add your own spin on things, declaring that you discovered the eighth wonder on campus.
+::{{DIcon|Arrow}} I encountered something amazing.
+:::<!--Custom String Listener: TalkSentence_802611051-->
+:::'''(Trailblazer):''' Heh-heh.
+:::You vividly describe the wondrous scene you saw to this curious student, not forgetting to add your own spin on things, declaring that the origami birds only came in second in the bird-calling contest.
+::<!--Custom String Trigger: TalkSentence_802611053-->
+::<!--Custom String Listener: TalkSentence_802611053-->
+::'''Montana:''' Woah! That sounded really fun! Since that helped, I'll continue asking my group to keep collecting info!
+::{{DIcon|Arrow}} I'm counting on you.
+::{{DIcon|Arrow}} I hereby dub you Secretary Ninja!
+:::<!--Custom String Listener: TalkSentence_802611056-->
+:::'''Montana:''' Heehee, now I'm a ninja too. Ahem... I will surely complete the mission without fail!
+:::<!--Custom String Trigger: TalkSentence_802611057-->
+::<!--Custom String Listener: TalkSentence_802611057-->
+::'''Montana:''' If you have any questions on {{Color|keyword|nobold=1|how to use the stage}} and {{Color|keyword|nobold=1|inspiration collection}}, don't hesitate to ask.
+::'''Montana:''' ...Let me fully enjoy this music party with the festive superstar's band!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 802611006FinishedOpenMainEntranceUI-->
+::<!--Group Event Listener: 802611006FinishedOpenMainEntranceUI-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowTransitionLoadingUI",
+	"Name": "Ui.MusicRhythm.MusicRhythmTransitionDialog"
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.MusicRhythm.MusicRhythmMainEntrancePage",
+	"WaitForExit": true,
+	"OnUIEnter": [
+		{
+			"$type": "RPG.GameCore.ExitTransitionLoadingUI"
+		},
+		{
+			"$type": "RPG.GameCore.BlockInputController",
+			"Enable": true,
+			"ActionNameList": []
+		},
+		{
+			"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+		},
+		{
+			"$type": "RPG.GameCore.LockPlayerControl"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerGroupEvent",
+			"EventName": {
+				"Value": "802611006Cam"
+			}
+		}
+	],
+	"OnUIExitImmediately": [
+		{
+			"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha",
+			"DitherAlpha": 1
+		},
+		{
+			"$type": "RPG.GameCore.UnLockPlayerControl"
+		},
+		{
+			"$type": "RPG.GameCore.BlockInputController",
+			"ActionNameList": []
+		},
+		{
+			"$type": "RPG.GameCore.ActiveVirtualCamera",
+			"AreaName": "LevelArea_P10306_F10306001_G87",
+			"AnchorName": "cam01",
+			"IsActive": false,
+			"DynamicParams": {},
+			"ImmediatelyRefresh": true
+		},
+		{
+			"$type": "RPG.GameCore.FinishLevelGraph"
+		}
+	]
+}</pre>
+;(Otherwise, if {{cx}}<!--SubMission Started: 802612003-->)
+::<!--Trigger PerformanceE 802612001: Config/Level/Mission/8026120/Act/Act802612001.json-->
+::'''Montana:''' The Festive Superstar! There's... I heard some of my friends say that those special musical phenomena have undergone some recent changes. You can go and check them out! Maybe that might be helpful for you.
+::{{DIcon|Travel Log}} Prepare for the band performance.
+::<!--Custom String Listener: ALL_TALK_END_1-->
+::'''Montana:''' Yeah. I'll help you get everything organized!
+::<!--Custom String Trigger: OpenUI_MusicRhythm-->
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 802610503-->)
+::<!--Trigger PerformanceE 802610239: Config/Level/Mission/8026102/Act/Act802610239.json-->
+:;(If {{cx}}<!--SubMission Started: 802612102-->)
+:::'''Montana:''' Festive Superstar! That was awesome!
+:::'''Montana:''' First, when I was checking on the stage equipment, I noticed there was an unfinished track inside. After that, I asked the band and others to help finish this song with all the Inspiration you gathered!
+:::'''Montana:''' We can start a performance at any time. Wanna try?
+:::<!--Custom String Trigger: FinishMission8026121-->
+:;(If {{cx}}<!--SubMission not Started: 802612102-->)
+:::'''Montana:''' Festive Superstar! The music party hasn't ended yet. Is there something you need since you specifically came by the stage?
+::<!--Custom String Trigger: Wait_Option_802610239_88-->
+::<!--Custom String Listener: Wait_Option_802610239_88-->
+::{{DIcon|Travel Log}} Prepare for the band performance.
+:::<!--Custom String Listener: TalkSentence_802610903-->
+:::'''Montana:''' Got it. Even with Lady Rappa's departure, the Dazzling's music will never stop playing!
+:::<!--Custom String Trigger: OpenUI_MusicRhythm-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Can we have a chat?
+:::<!--Custom String Listener: TalkSentence_802610905-->
+:::'''Montana:''' Sure. Decorating the stage is kinda boring, but then again, as the Festive Superstar, is there anything you would like to know?
+:::<!--Custom String Trigger: Wait_Option_802610239_93-->
+:::<!--Custom String Listener: Wait_Option_802610239_93-->
+:::{{DIcon|Talk}} About the new tune...
+::::<!--Custom String Listener: TalkSentence_802610907-->
+::::'''Montana:''' Oh right! When I was checking on the stage equipment, I noticed there was an unfinished track inside.
+::::'''Montana:''' Maybe Lady Rappa left it behind? I'm not too sure either... but if you can collect enough composition inspiration, the remaining band members might be able to finish the track.
+::::'''Montana:''' Give it a try! The stage show is going to continue, so it'd be a bigger blast with new music!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The band's reviews...
+::::<!--Custom String Listener: TalkSentence_802610911-->
+::::'''Montana:''' That closing show at the end was deffo the most exciting performance I've ever witnessed, bar none!
+::::'''Montana:''' Lady Rappa's surprise reveal, everyone else's freestyling, and the showdown between the Festive Superstar and the academy's representative... It's spread across the school like wildfire, and everyone on campus can't stop talking about it!
+::::'''Montana:''' *sigh* After witnessing such a powerful performance, the other celebration activities appear bland in comparison.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the music party...
+::::<!--Custom String Listener: TalkSentence_802610915-->
+::::'''Montana:''' The music party is the grandest event of the Dreamlight Anniversary celebration. It's also a time that all students look forward to!
+::::'''Montana:''' Everyone is busy preparing for the celebration, and the campus is filled with fun booths and activities. Just wandering around is enough to make you feel overwhelmed. Freedom and joy &mdash; this is what the atmosphere of a college should feel like.
+::::'''Montana:''' Needless to say... there's also such an exciting performance!
+::::<!--Custom String Trigger: Wait_Option_802610239_106-->
+::::<!--Custom String Listener: Wait_Option_802610239_106-->
+::::{{DIcon|Talk}} How long will the music party last?
+:::::<!--Custom String Listener: TalkSentence_802610919-->
+:::::'''Montana:''' According to past experience, the music party and the Dreamlight Anniversary celebration will end at the same time. But there are people who are constantly asking for the event time to be extended. No one really knows for sure how long this will last.
+:::::'''Montana:''' As for us, of course, we'd like it to last as long as possible.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} The music party is related to the three academies?
+:::::<!--Custom String Listener: TalkSentence_802610922-->
+:::::'''Montana:''' Although the music party is a student initiative, it's still influenced by the various schools.
+:::::'''Montana:''' For example... back then, the band leader was often appointed by Charmony Academy, while Fortune Academy would set requirements for the scale and duration of the performance. As for Dreamweaver Academy, it was straightforward &mdash; members just needed to have a sufficient grade.
+:::::'''Montana:''' But this time, having students from outside the academies... having Rappa and the Festive Superstar directing the band is the first of its kind, so it's kinda special!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Is the music party very important?
+:::::<!--Custom String Listener: TalkSentence_802610926-->
+:::::'''Montana:''' What did the academy's representative say... "The music party is a showcase of the energy and creativity of Paperfold University." But the students don't care about this. They only want the event to be interesting.
+:::::'''Montana:''' So please don't be pressured, Festive Superstar! Just go with your gut and play your hearts out!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I've just about got everything.
+:::::<!--Custom String Listener: Wait_Option_802610239_93-->
+:::::{{DIcon|Talk}} About the new tune...
+::::::<!--Custom String Listener: TalkSentence_802610907-->
+::::::'''Montana:''' Oh right! When I was checking on the stage equipment, I noticed there was an unfinished track inside.
+::::::'''Montana:''' Maybe Lady Rappa left it behind? I'm not too sure either... but if you can collect enough composition inspiration, the remaining band members might be able to finish the track.
+::::::'''Montana:''' Give it a try! The stage show is going to continue, so it'd be a bigger blast with new music!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} The band's reviews...
+::::::<!--Custom String Listener: TalkSentence_802610911-->
+::::::'''Montana:''' That closing show at the end was deffo the most exciting performance I've ever witnessed, bar none!
+::::::'''Montana:''' Lady Rappa's surprise reveal, everyone else's freestyling, and the showdown between the Festive Superstar and the academy's representative... It's spread across the school like wildfire, and everyone on campus can't stop talking about it!
+::::::'''Montana:''' *sigh* After witnessing such a powerful performance, the other celebration activities appear bland in comparison.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} About the central stage...
+::::::<!--Custom String Listener: TalkSentence_802610930-->
+::::::'''Montana:''' Can you see that huge glittering golden bird above us? Isn't it super stylish?
+::::::'''Montana:''' This design is specifically created for this music party by Dreamweaver Academy. It's both trendy and cool, befitting the theme of the performance. Once it's set up, it'll become the highlight of the entire school.
+::::::'''Montana:''' I hear that it'll be on the cover page of the next issue of ''Dreamchaser Bulletin''. Many students want to climb up and take a selfie with the bird!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} That's all.
+::::::<!--Custom String Listener: TalkSentence_802610934-->
+::::::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} About the central stage...
+::::<!--Custom String Listener: TalkSentence_802610930-->
+::::'''Montana:''' Can you see that huge glittering golden bird above us? Isn't it super stylish?
+::::'''Montana:''' This design is specifically created for this music party by Dreamweaver Academy. It's both trendy and cool, befitting the theme of the performance. Once it's set up, it'll become the highlight of the entire school.
+::::'''Montana:''' I hear that it'll be on the cover page of the next issue of ''Dreamchaser Bulletin''. Many students want to climb up and take a selfie with the bird!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: TalkSentence_802610934-->
+::::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|?}} Do you need me for something?
+:::<!--Custom String Listener: TalkSentence_802610936-->
+:::'''Montana:''' Ah, just in time! Umm... The school's come out with a yearbook, and it's got a page that's kinda like a message wall for everyone to leave notes. I'd like to ask you to write something in it for me, Festive Superstar!
+:::{{DIcon|Arrow}} Why didn't I receive this news?
+::::<!--Custom String Listener: TalkSentence_802610938-->
+::::'''Montana:''' Maybe because the yearbook's still in the content collection phase. You're the Festive Superstar, so you'll probably only get the final version after the school's curated it. It's still early days.
+:::{{DIcon|Arrow}} Sure, what kind of tone do you want it in?
+::::<!--Custom String Listener: TalkSentence_802610940-->
+::::'''Montana:''' Anything's good! Anything written by you is an honor for me!
+:::<!--Custom String Trigger: TalkSentence_802610941-->
+:::<!--Custom String Listener: TalkSentence_802610941-->
+:::'''Montana:''' Please help me out. The other band members have also filled it up. It's just you left...
+:::{{DIcon|Arrow}} (Write a serious message)
+::::<!--Custom String Listener: TalkSentence_802610945_1-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 160,
+	"Value": "1"
+}</pre>
+:::{{DIcon|Arrow}} (Write a witty message)
+::::<!--Custom String Listener: TalkSentence_802610945_2-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 160,
+	"Value": "2"
+}</pre>
+:::{{DIcon|Arrow}} (Write an emotional message)
+::::<!--Custom String Listener: TalkSentence_802610945_3-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 160,
+	"Value": "3"
+}</pre>
+:::<!--Custom String Trigger: TalkSentence_802610945-->
+:::<!--Custom String Listener: TalkSentence_802610945-->
+:::'''Montana:''' Thank you! I'll just upload it... Okay, and I send it to you too? Heh-heh, I'll be the envy of everyone.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: TalkSentence_802610947-->
+:::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 802610224: Config/Level/Mission/8026102/Act/Act802610224.json-->
+::'''Montana:''' Festive Superstar! The music party is still ongoing, and there are still many things to do around the campus. Is there something you need since you specifically came by the stage?
+::<!--Custom String Trigger: Wait_Option_802610224_8-->
+::<!--Custom String Listener: Wait_Option_802610224_8-->
+::{{DIcon|Travel Log}} Prepare for the band performance.
+:::<!--Custom String Listener: TalkSentence_802610803-->
+:::'''Montana:''' Thank you for the hard work! I'm just here to help you take a look at the progress.
+:::<!--Custom String Trigger: OpenUI_MusicRhythm-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Can we have a chat?
+:::<!--Custom String Listener: TalkSentence_802610805-->
+:::'''Montana:''' Sure. Decorating the stage is kinda boring, but then again, as the Festive Superstar, is there anything you would like to know?
+:::<!--Custom String Trigger: Wait_Option_802610224_13-->
+:::<!--Custom String Listener: Wait_Option_802610224_13-->
+:::{{DIcon|Talk}} The band's reviews...
+::::<!--Custom String Listener: TalkSentence_802610807-->
+::::'''Montana:''' Without a doubt, everyone loves the music of the Dazzling! It's not just trendy and making waves, it's also really cool! All my friends are your fans now, and everyone is fighting for Rappa's autograph.
+::::'''Montana:''' Although... there are some voices of objection from the school, but don't mind it. That bunch of teachers just cannot tolerate anything that's different, and they criticize anything that doesn't align with their views. Oh well, that's why it's a school.
+::::<!--Custom String Trigger: Wait_Option_802610224_17-->
+::::<!--Custom String Listener: Wait_Option_802610224_17-->
+::::{{DIcon|Talk}} How about my autograph?
+:::::<!--Custom String Listener: TalkSentence_802610810-->
+:::::'''Montana:''' You're really going to give me your autograph!? You're the Festive Superstar, and your autograph is very valuable. Don't give it away so easily.
+:::::'''Montana:''' ...Though Lady Rappa gave me a ninja talisman she drew &mdash; that's my precious baby. Heh-heh.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What exactly do they dislike?
+:::::<!--Custom String Listener: TalkSentence_802610813-->
+:::::'''Montana:''' Stuff like not adhering to dress code, melodies that don't fit into mainstream music, opening speech being too long... As long as they want to nitpick, they will find that needle in the haystack, so don't take it to heart.
+:::::'''Montana:''' The music party is an event for the students. Just let those teachers be upset all they want!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I've just about got everything.
+:::::<!--Custom String Listener: Wait_Option_802610224_13-->
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} About the music party...
+::::::<!--Custom String Listener: TalkSentence_802610817-->
+::::::'''Montana:''' The music party is the grandest event of the Dreamlight Anniversary celebration. It's also a time that all students look forward to!
+::::::'''Montana:''' Everyone is busy preparing for the celebration, and the campus is filled with fun booths and activities. Just wandering around is enough to make you feel overwhelmed. Freedom and joy &mdash; this is what the atmosphere of a college should feel like.
+::::::'''Montana:''' Needless to say... there's also such an exciting performance!
+::::::<!--Custom String Trigger: Wait_Option_802610224_30-->
+::::::<!--Custom String Listener: Wait_Option_802610224_30-->
+::::::{{DIcon|Talk}} How long will the music party last?
+:::::::<!--Custom String Listener: TalkSentence_802610821-->
+:::::::'''Montana:''' According to past experience, the music party and the Dreamlight Anniversary celebration will end at the same time. But there are people who are constantly asking for the event time to be extended. No one really knows for sure how long this will last.
+:::::::'''Montana:''' As for us, of course, we'd like it to last as long as possible.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} The music party is related to the three academies?
+:::::::<!--Custom String Listener: TalkSentence_802610824-->
+:::::::'''Montana:''' Although the music party is a student initiative, it's still influenced by the various schools.
+:::::::'''Montana:''' For example... back then, the band leader was often appointed by Charmony Academy, while Fortune Academy would set requirements for the scale and duration of the performance. As for Dreamweaver Academy, it was straightforward &mdash; members just needed to have a sufficient grade.
+:::::::'''Montana:''' But this time, having students from outside the academies... having Rappa and the Festive Superstar directing the band is the first of its kind, so it's kinda special!
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Is the music party very important?
+:::::::<!--Custom String Listener: TalkSentence_802610828-->
+:::::::'''Montana:''' What did the academy's representative say... "The music party is a showcase of the energy and creativity of Paperfold University." But the students don't care about this. They only want the event to be interesting.
+:::::::'''Montana:''' So please don't be pressured, Festive Superstar! Just go with your gut and play your hearts out!
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About the central stage...
+::::::<!--Custom String Listener: TalkSentence_802610832-->
+::::::'''Montana:''' Can you see that huge glittering golden bird above us? Isn't it super stylish?
+::::::'''Montana:''' This design is specifically created for this music party by Dreamweaver Academy. It's both trendy and cool, befitting the theme of the performance. Once it's set up, it'll become the highlight of the entire school.
+::::::'''Montana:''' I hear that it'll be on the cover page of the next issue of ''Dreamchaser Bulletin''. Many students want to climb up and take a selfie with the bird!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} That's all.
+::::::<!--Custom String Listener: TalkSentence_802610836-->
+::::::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} About the music party...
+::::<!--Custom String Listener: TalkSentence_802610817-->
+::::'''Montana:''' The music party is the grandest event of the Dreamlight Anniversary celebration. It's also a time that all students look forward to!
+::::'''Montana:''' Everyone is busy preparing for the celebration, and the campus is filled with fun booths and activities. Just wandering around is enough to make you feel overwhelmed. Freedom and joy &mdash; this is what the atmosphere of a college should feel like.
+::::'''Montana:''' Needless to say... there's also such an exciting performance!
+::::<!--Custom String Trigger: Wait_Option_802610224_30-->
+::::<!--Custom String Listener: Wait_Option_802610224_30-->
+::::{{DIcon|Talk}} How long will the music party last?
+:::::<!--Custom String Listener: TalkSentence_802610821-->
+:::::'''Montana:''' According to past experience, the music party and the Dreamlight Anniversary celebration will end at the same time. But there are people who are constantly asking for the event time to be extended. No one really knows for sure how long this will last.
+:::::'''Montana:''' As for us, of course, we'd like it to last as long as possible.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} The music party is related to the three academies?
+:::::<!--Custom String Listener: TalkSentence_802610824-->
+:::::'''Montana:''' Although the music party is a student initiative, it's still influenced by the various schools.
+:::::'''Montana:''' For example... back then, the band leader was often appointed by Charmony Academy, while Fortune Academy would set requirements for the scale and duration of the performance. As for Dreamweaver Academy, it was straightforward &mdash; members just needed to have a sufficient grade.
+:::::'''Montana:''' But this time, having students from outside the academies... having Rappa and the Festive Superstar directing the band is the first of its kind, so it's kinda special!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Is the music party very important?
+:::::<!--Custom String Listener: TalkSentence_802610828-->
+:::::'''Montana:''' What did the academy's representative say... "The music party is a showcase of the energy and creativity of Paperfold University." But the students don't care about this. They only want the event to be interesting.
+:::::'''Montana:''' So please don't be pressured, Festive Superstar! Just go with your gut and play your hearts out!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I've just about got everything.
+:::::<!--Custom String Listener: Wait_Option_802610224_13-->
+:::::{{DIcon|Talk}} The band's reviews...
+::::::<!--Custom String Listener: TalkSentence_802610807-->
+::::::'''Montana:''' Without a doubt, everyone loves the music of the Dazzling! It's not just trendy and making waves, it's also really cool! All my friends are your fans now, and everyone is fighting for Rappa's autograph.
+::::::'''Montana:''' Although... there are some voices of objection from the school, but don't mind it. That bunch of teachers just cannot tolerate anything that's different, and they criticize anything that doesn't align with their views. Oh well, that's why it's a school.
+::::::<!--Custom String Trigger: Wait_Option_802610224_17-->
+::::::<!--Custom String Listener: Wait_Option_802610224_17-->
+::::::{{DIcon|Talk}} How about my autograph?
+:::::::<!--Custom String Listener: TalkSentence_802610810-->
+:::::::'''Montana:''' You're really going to give me your autograph!? You're the Festive Superstar, and your autograph is very valuable. Don't give it away so easily.
+:::::::'''Montana:''' ...Though Lady Rappa gave me a ninja talisman she drew &mdash; that's my precious baby. Heh-heh.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} What exactly do they dislike?
+:::::::<!--Custom String Listener: TalkSentence_802610813-->
+:::::::'''Montana:''' Stuff like not adhering to dress code, melodies that don't fit into mainstream music, opening speech being too long... As long as they want to nitpick, they will find that needle in the haystack, so don't take it to heart.
+:::::::'''Montana:''' The music party is an event for the students. Just let those teachers be upset all they want!
+::::::;(Return to previous option selection (cloneCheckString))
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Talk}} About the central stage...
+::::::<!--Custom String Listener: TalkSentence_802610832-->
+::::::'''Montana:''' Can you see that huge glittering golden bird above us? Isn't it super stylish?
+::::::'''Montana:''' This design is specifically created for this music party by Dreamweaver Academy. It's both trendy and cool, befitting the theme of the performance. Once it's set up, it'll become the highlight of the entire school.
+::::::'''Montana:''' I hear that it'll be on the cover page of the next issue of ''Dreamchaser Bulletin''. Many students want to climb up and take a selfie with the bird!
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Exit}} That's all.
+::::::<!--Custom String Listener: TalkSentence_802610836-->
+::::::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+::::::<!--Custom String Trigger: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} About the central stage...
+::::<!--Custom String Listener: TalkSentence_802610832-->
+::::'''Montana:''' Can you see that huge glittering golden bird above us? Isn't it super stylish?
+::::'''Montana:''' This design is specifically created for this music party by Dreamweaver Academy. It's both trendy and cool, befitting the theme of the performance. Once it's set up, it'll become the highlight of the entire school.
+::::'''Montana:''' I hear that it'll be on the cover page of the next issue of ''Dreamchaser Bulletin''. Many students want to climb up and take a selfie with the bird!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all.
+::::<!--Custom String Listener: TalkSentence_802610836-->
+::::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: TalkSentence_802610838-->
+:::'''Montana:''' Okay! Go be busy, Festive Superstar! Leave the stage work to me!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; 802611006Cam)
+:<!--Group Event Listener: 802611006Cam-->
+:<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "LevelArea_P10306_F10306001_G87",
+	"AnchorName": "cam01",
+	"DynamicParams": {},
+	"EnableCameraProtectAfterBlendOut": true
+}</pre>
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Montana
+|zhs  = 蒙塔娜
+|zht  = 蒙塔娜
+|ja   = モンタナ
+|ko   = 몬타나
+|es   = Montana
+|fr   = Montana
+|ru   = Монтана
+|th   = Montana
+|vi   = Montana
+|de   = Montana
+|id   = Montana
+|pt   = Montana
+}}
+==Change History==
+{{Change History|TODO}}

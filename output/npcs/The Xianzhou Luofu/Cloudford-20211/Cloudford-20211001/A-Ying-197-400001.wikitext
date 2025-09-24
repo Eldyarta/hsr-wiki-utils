@@ -1,0 +1,120 @@
+<%-- [PAGE_INFO]
+PageTitle=#A-Ying#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Freight Handler
+|image           = NPC A-Ying.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''A-Ying''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_197_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502040101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502040101.json-->
+::'''A-Ying:''' Oh, how is this enough money for the whole family? We'll go broke if I don't get work soon...
+::'''A-Ying:''' Hey, look at this bigshot boss over here! Hello, boss, is this your first time aboard the Luofu? You look like a stranger in a strange land, and there's panic in the streets. If you're here to pick up some stock...
+::'''A-Ying:''' But don't you worry! I've worked in Cloudford for decades. Doesn't matter how complicated the bureaucracy is, nothing is an issue for me, especially things like customs clearance and unloading goods.
+::'''A-Ying:''' Look, do you need any&mdash;
+::{{DIcon|Arrow}} No thanks. I'm no merchant.
+::{{DIcon|Arrow}} Sorry. I'm just passing through.
+::<!--Custom String Listener: TalkSentence_502040108-->
+::'''A-Ying:''' No worries. Anyway, I haven't even made a sale yet today and I'm just chilling. If you like, I can tell you a little bit about my work. And I'll bet there's nobody else aboard the Luofu who's better at handling freight than me.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502040201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502040201.json-->
+::'''A-Ying:''' Hey boss! Need any help there? We support all kinds of freight needs. We're also having special discounts on orders now!
+::'''A-Ying:''' Ah, It's you. I haven't even made a sale yet today and I'm just chilling. If you like, I can tell you a little bit about my work. And I'll bet there's nobody else aboard the Luofu who's better at handling freight than me.
+:'''A-Ying:''' You might not need it now, but just in case there's some time in the future when I could help you out... haha!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502040102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502040102.json-->
+::'''A-Ying:''' Feel free to ask anything. I know my way around all the freight handling procedures in Cloudford!
+::<!--Custom String Trigger: Wait_Option_502040102_235-->
+::<!--Custom String Listener: Wait_Option_502040102_235-->
+::{{DIcon|Talk}} Your scope of operations sounds pretty broad, huh?
+:::<!--Custom String Listener: TalkSentence_502040113-->
+:::'''A-Ying:''' Sure is. Cloudford is a high traffic port but it's very competitive, so it's tough to make a living here.
+:::'''A-Ying:''' Naturally, I don't just handle packing and unloading &mdash; that's far too simple. I also handle all kinds of procedures, like cargo entry, customs clearance, and quarantine inspections.
+:::'''A-Ying:''' But of course, every customer has their own custom order. The specifics of what I actually do are governed by the needs of the customer.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me a little bit about your work?
+:::<!--Custom String Listener: TalkSentence_502040117-->
+:::'''A-Ying:''' Handling freight &mdash; packing and unloading &mdash; sounds simple enough, right? It's just containers being moved around by a big mechanical crane. But in practice, it takes a lot of learning to do. I've been doing this day-in, day-out for decades. That's just how long it takes to earn a reputation for it.
+:::'''A-Ying:''' As for me, everyone in the business knows I'm the most careful person out there. Every time I start a project, I'll strictly follow safety guidelines and procedures. That typically works out best for both me and the customer.
+:::'''A-Ying:''' Why, if you don't believe me, then just ask around over at the jetty. My damaged goods rate is easily the lowest in all of Cloudford!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you doing out taking orders at this time?
+:::<!--Custom String Listener: TalkSentence_502040121-->
+:::'''A-Ying:''' It's been pretty rough out there recently, but there's nothing I can do. I've got a family to support who can't just wait it out! With so many mouths to feed back home, I can't just stop working. No work means no income.
+:::'''A-Ying:''' We're both adults. You understand, right? Whether you're an Outworlder or a Xianzhou native, we all need to earn a living! ...It's not like we have a choice in the matter, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why don't you use an ingenium to automatically handle freight for you?
+:::<!--Custom String Listener: TalkSentence_502040124-->
+:::'''A-Ying:''' Xianzhou mastered the technology a long time ago to kit out any ingenium to do everything as quickly and as well as I do it. So then, what am I still around for, huh? Think about it, kid.
+:::'''A-Ying:''' If a machine does this job for me, what am I going to do? Just sit there idling the day away? Why, I'd slowly become a destabilizing factor for the Xianzhou, wouldn't I? Are you starting to catch my drift?
+:::'''A-Ying:''' Or to put it another way, how much tax would an automatic ingenium pay to the Realm-Keeping Commission? Nothing.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502040128-->
+:::'''A-Ying:''' Okay!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502040301-->
+:{{DIcon|Exit}} I don't have any more questions.
+::'''A-Ying:''' Okay!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = A-Ying
+|zhs  = 阿莺
+|zht  = 阿鶯
+|ja   = 鶯
+|ko   = 아영
+|es   = Aying
+|fr   = A-Ying
+|ru   = Аин
+|th   = A-Ying
+|vi   = A-Ying
+|de   = Ying
+|id   = A-Ying
+|pt   = A-Ying
+}}
+==Change History==
+{{Change History|TODO}}

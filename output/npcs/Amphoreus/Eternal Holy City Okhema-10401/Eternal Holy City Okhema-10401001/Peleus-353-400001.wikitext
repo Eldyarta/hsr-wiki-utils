@@ -1,0 +1,120 @@
+<%-- [PAGE_INFO]
+PageTitle=#Peleus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Brave Youth
+|image           = NPC Peleus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Peleus''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_353_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033018: Config/Level/Mission/5040330/Act/Act504033018.json-->
+::'''Peleus:''' Hehe, are you curious about what I'm doing here?
+::'''Peleus:''' This is my unique training manual, "Flying Waterfall Stance," developed after thoroughly studying the training methods established by {{Rubi|Nikador|Strife Titan}} for warriors and combining them with the ceremonies of {{Rubi|Phagousa|Ocean Titan}}!
+::'''Peleus:''' Although I can't achieve the invincibility of great Mydei, I will prove that with proper training, we Okhemans can possess courage and strength rivaling that of the Kremnoans!
+::{{DIcon|Arrow}} Wow, it's rare to hear someone speaking well of the Kremnoans.
+:::<!--Custom String Listener: TalkSentence_504039705-->
+:::'''Peleus:''' Yeah, I know there are plenty of bad folks in Castrum Kremnos who've caused harm to many other cities... but there are also a lot of good people! Like Mydei and his detachment, who are willing to protect us...
+:::'''Peleus:''' "Valorous death before glorious return" &mdash; how cool is that!
+::{{DIcon|Arrow}} I guess Mydei is your idol?
+:::<!--Custom String Listener: TalkSentence_504039708-->
+:::'''Peleus:''' Isn't that obvious? He's invincible and dashing, not only the crown prince of Castrum Kremnos but also the savior of Okhema...
+:::'''Peleus:''' Most importantly, he's willing to teach me how to train! No amount of praise for Brother Mydei is too much!
+::<!--Custom String Trigger: TalkSentence_504039710-->
+::<!--Custom String Listener: TalkSentence_504039710-->
+::'''Peleus:''' It's just a pity that the Kremnoan Detachment only allows the Kremnoans to join... But it's fine. Mydei said that Castrum Kremnos has its own pride, and Okhema can have its own pride too... Hehe.
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033019: Config/Level/Mission/5040330/Act/Act504033019.json-->
+::'''Peleus:''' So, how about it? Want to train with me? You're tall and strong &mdash; you could jump straight into the Kremnoan training regimen without a problem!
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} What kind of training do the Kremnoans do?
+:::'''Peleus:''' Whatever's the most grueling, that's what they train in! But if you want to know the most popular routine...
+:::'''Peleus:''' ...It should be high-altitude shuttle runs! Oh, and shadowless treasure hunting and swift-footed dancing are also quite popular. What, are you interested in?
+:::<!--Custom String Trigger: waitoption_504039905-->
+:::<!--Custom String Listener: waitoption_504039905-->
+:::{{DIcon}} Tell me about the high-altitude shuttle runs.
+::::<!--Custom String Listener: TalkSentence_504039905-->
+::::'''Peleus:''' It's said that in the homeland of the Kremnoans, Castrum Kremnos, there are massive iron chains, each as wide as a bowl, suspended over the bottomless trenches outside the city. Those who challenge their strength and courage will perform shuttle runs on those chains.
+::::'''Peleus:''' Although we Okhemans don't have iron chains like that, a lot of our roads are built high in the clouds.
+::::'''Peleus:''' The Kremnoan Detachment, also known as those Kremnoans living in Okhema, specifically choose these routes for their running training.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon}} Tell me about shadowless treasure hunting.
+::::<!--Custom String Listener: TalkSentence_504039909-->
+::::'''Peleus:''' Ahem, strictly speaking, this is illegal in Okhema! But since it doesn't cause any serious harm, even if you're caught, you'll probably just get a verbal warning...
+::::'''Peleus:''' It's said that long ago, Zagreus stole Nikador's weapon, leading to a crushing defeat in a war. To remember this humiliation, the Kremnoans started a training routine: One person steals something from the other, and the other has to find the hidden item and get it back.
+::::'''Peleus:''' Those who steal practice their stealth and secrecy, while those retrieving the items hone their scouting and tracking skills. Mydei said that ever since shadowless treasure hunting became popular, there haven't been any thieves in Castrum Kremnos... or at least, none alive.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon}} Tell me about swift-footed dancing.
+::::<!--Custom String Listener: TalkSentence_504039913-->
+::::'''Peleus:''' Oh, this is the activity most similar to what Okhema itself has! Swift-footed dancing is actually just barefoot dancing... but with much larger and more sweeping movements, and it's done while fully armored, armed to the teeth.
+::::'''Peleus:''' The more advanced version of swift-footed dancing is performed over ignited charcoal &mdash; participants must first wet their feet and, while the water is still wet, quickly complete all the movements on the hot coals, then make a swift escape carried by inertia before the water evaporates!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's nothing.
+::::<!--Custom String Listener: TalkSentence_504039916-->
+::::'''Peleus:''' Hehe, not to brag, but even though the Kremnoans endure a lot of hardship, I'd say the training method I invented, Flying Waterfall Stance, has the most potential! Even Brother Mydei has praised it!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I have things to do, so I'll leave you to it.
+:::'''Peleus:''' It seems like you're a busy person too, {{MC|f=Miss|m=Mister}}! I guess I'll just practice on my own then.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Peleus
+|zhs  = 佩琉斯
+|zht  = 佩琉斯
+|ja   = ペレウス
+|ko   = 펠레우스
+|es   = Peleo
+|fr   = Pélée
+|ru   = Пелеус
+|th   = Peleus
+|vi   = Peleus
+|de   = Peleus
+|id   = Peleus
+|pt   = Peleus
+}}
+==Change History==
+{{Change History|TODO}}

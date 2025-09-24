@@ -1,0 +1,171 @@
+<%-- [PAGE_INFO]
+PageTitle=#Adler#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 2 Ecology Researcher
+|image           = NPC Adler.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Supply Zone
+|relatives       = 
+}}
+'''Adler''' is an NPC on [[Herta Space Station]], located in [[Supply Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Supply Zone|npc_98_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 300080000,
+		"Type": "submission_state_equal",
+		"Param1": 300080000,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300080000: Config/Level/Mission/3000800/Act/Act300080000.json-->
+:'''Adler:''' Now that you've spent some time on the space station, don't you feel this place is... a little abnormal?
+:{{DIcon|Arrow}} Well, you're definitely a case in point.
+::<!--Custom String Listener: TalkSentence_300080004-->
+::'''Adler:''' Hey! That was very aggressive. Cut it out!
+:{{DIcon|Arrow}} More than just a little.
+::<!--Custom String Listener: TalkSentence_300080006-->
+::'''Adler:''' You're sharp. Seems like I found the right person for this.
+:<!--Custom String Trigger: TalkSentence_300080007-->
+:<!--Custom String Listener: TalkSentence_300080007-->
+:'''Adler:''' I've been collecting ghost stories from the space station... We have lots of Curios in the space station, and our researchers are constantly changing their research directions. When these two clash, they can result in many... odd experiments.
+:'''Adler:''' Some of the experimental results were "left behind" in the space station, and live symbiotically with the researchers in their own way...
+:'''Adler:''' I'm currently investigating the ghost stories circulating in the space station. Some of the following contents may be disturbing... So, only talk to me once you're mentally prepared!
+----
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 300080000_Finish-->
+:'''Adler:''' Ask away! As long as it's about rare species, I'll tell you everything I know!
+:<!--Custom String Trigger: Wait_Option_500201300_13-->
+:<!--Custom String Listener: Wait_Option_500201300_13-->
+:{{DIcon|Talk}} Why is there one really big Wubbaboo?
+::<!--Custom String Listener: TalkSentence_500201305-->
+::'''Adler:''' Wubbaboo has a chance to mutate as they grow and can rapidly increase in size, but that possibility is very low.
+::'''Adler:''' As for the one you mentioned... If Wubbaboos are one big family, then such an individual would definitely be the parent.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Where are Wubbaboos usually found?
+::<!--Custom String Listener: TalkSentence_500201308-->
+::'''Adler:''' They go everywhere apart from Madam Herta's and the lead researcher's offices.
+::'''Adler:''' I'll let you in on a secret &mdash; They like to be away from people.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you enjoy chatting with Wubbaboo?
+::<!--Custom String Listener: TalkSentence_500201311-->
+::'''Adler:''' Of course. I was the only one who could understand them on the space station before you got here.
+::'''Adler:''' That lonely feeling... *sigh* I feel so bad for them. That's why I chat with them whenever I can.
+::'''Adler:''' And they're pretty fun to talk to! You should try it when you've got the chance.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all questions I have.
+::<!--Custom String Listener: TalkSentence_500201315-->
+::'''Adler:''' Cool. Come find me again if you have questions about rare species.
+::<!--Ends the current performance-->
+:'''Adler:''' We meet again. How have you been? Chatted with any Wubbaboo lately?
+:<!--Ends the current performance-->
+:'''Adler:''' Cool. Come find me again if you have questions about rare species.
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 90000110: Config/Level/NPC/W0/NPC_DefaultStory_500000104.json-->
+:'''Adler:''' We meet again. How have you been? Chatted with any Wubbaboo lately?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 300080000-->)
+:{{DIcon|undefined}} Why do you look so shady...
+::<!--Trigger PerformanceE 300080000: Config/Level/Mission/3000800/Act/Act300080000.json-->
+::'''Adler:''' Now that you've spent some time on the space station, don't you feel this place is... a little abnormal?
+::{{DIcon|Arrow}} Well, you're definitely a case in point.
+:::<!--Custom String Listener: TalkSentence_300080004-->
+:::'''Adler:''' Hey! That was very aggressive. Cut it out!
+::{{DIcon|Arrow}} More than just a little.
+:::<!--Custom String Listener: TalkSentence_300080006-->
+:::'''Adler:''' You're sharp. Seems like I found the right person for this.
+::<!--Custom String Trigger: TalkSentence_300080007-->
+::<!--Custom String Listener: TalkSentence_300080007-->
+::'''Adler:''' I've been collecting ghost stories from the space station... We have lots of Curios in the space station, and our researchers are constantly changing their research directions. When these two clash, they can result in many... odd experiments.
+::'''Adler:''' Some of the experimental results were "left behind" in the space station, and live symbiotically with the researchers in their own way...
+::'''Adler:''' I'm currently investigating the ghost stories circulating in the space station. Some of the following contents may be disturbing... So, only talk to me once you're mentally prepared!
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 300080000_Finish-->
+;(If {{cx}}<!--SubMission Started: 300080000-->)
+:{{DIcon}} I have some questions for you...
+::'''Adler:''' Ask away! As long as it's about rare species, I'll tell you everything I know!
+::<!--Custom String Trigger: Wait_Option_500201300_13-->
+::<!--Custom String Listener: Wait_Option_500201300_13-->
+::{{DIcon|Talk}} Why is there one really big Wubbaboo?
+:::<!--Custom String Listener: TalkSentence_500201305-->
+:::'''Adler:''' Wubbaboo has a chance to mutate as they grow and can rapidly increase in size, but that possibility is very low.
+:::'''Adler:''' As for the one you mentioned... If Wubbaboos are one big family, then such an individual would definitely be the parent.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where are Wubbaboos usually found?
+:::<!--Custom String Listener: TalkSentence_500201308-->
+:::'''Adler:''' They go everywhere apart from Madam Herta's and the lead researcher's offices.
+:::'''Adler:''' I'll let you in on a secret &mdash; They like to be away from people.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you enjoy chatting with Wubbaboo?
+:::<!--Custom String Listener: TalkSentence_500201311-->
+:::'''Adler:''' Of course. I was the only one who could understand them on the space station before you got here.
+:::'''Adler:''' That lonely feeling... *sigh* I feel so bad for them. That's why I chat with them whenever I can.
+:::'''Adler:''' And they're pretty fun to talk to! You should try it when you've got the chance.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: TalkSentence_500201315-->
+:::'''Adler:''' Cool. Come find me again if you have questions about rare species.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300080000-->)
+:{{DIcon|Exit}} I better leave you alone.
+::'''Adler:''' Cool. Come find me again if you have questions about rare species.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Adler
+|zhs  = 阿德勒
+|zht  = 阿德勒
+|ja   = アドラー
+|ko   = 아들러
+|es   = Adler
+|fr   = Adler
+|ru   = Адлер
+|th   = Adler
+|vi   = Adler
+|de   = Adler
+|id   = Adler
+|pt   = Adler
+}}
+==Change History==
+{{Change History|TODO}}

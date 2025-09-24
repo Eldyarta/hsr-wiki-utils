@@ -1,0 +1,121 @@
+<%-- [PAGE_INFO]
+PageTitle=#Kongqing#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Artisanship Commission Craftsman
+|image           = NPC Kongqing.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Divination Commission
+|relatives       = 
+}}
+'''Kongqing''' is an NPC on [[The Xianzhou Luofu]], located in [[Divination Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Divination Commission|npc_181_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502042101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502042101.json-->
+::'''Kongqing:''' I just don't get it. Why does nobody at the Divination Commission speak normally? Everyone's always trying to trick me into saying something, sheesh...
+::'''Kongqing:''' The Divination Commission has its own social norms with its own complex rules. When on earth are all the maintenance going to be finished? I can't wait to get back to the Artisanship Commission...
+::{{DIcon|Arrow}} What did the Divination Commission ever do to you?
+:::<!--Custom String Listener: TalkSentence_502042105-->
+:::'''Kongqing:''' This is no place for normal people. Ahhh, it gives me a headache every single day...
+:::'''Kongqing:''' ...Uh, don't take what I said too literally. I just think they talk round and round in circles. I'm a hands-on tradesman and I just can't seem to level with them.
+::{{DIcon|Arrow}} How complicated can it be?
+:::<!--Custom String Listener: TalkSentence_502042108-->
+:::'''Kongqing:''' A normal jade abacus contains a hundred million talismans, but the Matrix of Prescience has far more than that... Oh, you're talking about the "social norm" there, aren't you?
+:::'''Kongqing:''' How would I know? I'd like to know, too. I haven't had a good night's sleep in forever...
+::<!--Custom String Trigger: TalkSentence_502042110-->
+::<!--Custom String Listener: TalkSentence_502042110-->
+::'''Kongqing:''' ...All this good maintenance work has somehow become utterly demoralizing. Ah, forget it. I don't wanna talk about this anymore. These mysteries of the human cunning just give me an even bigger headache.
+::'''Kongqing:''' Oh yes, {{MC|f=young lady|m=young man}}, you don't look like you're from Xianzhou. Have you come to visit, or to see someone?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502042201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502042201.json-->
+::'''Kongqing:''' Hey, {{MC|f=young lady|m=young man}}, what are you doing back here? Have you come on business? Or to visit or see someone?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I was just passing by and wanted to stop in for a chat with you...
+::<!--Trigger PerformanceE 502042102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502042102.json-->
+::'''Kongqing:''' A chat? With me? Alright, let me know if there's anything in particular you'd like to ask. But let me state up front. I don't know much about the Divination Commission, so if you're after intel, I'll stop you right there.
+::<!--Custom String Trigger: Wait_Option_502042102_376-->
+::<!--Custom String Listener: Wait_Option_502042102_376-->
+::{{DIcon|Talk}} You seem to really hate these people at the Divination Commission, huh?
+:::<!--Custom String Listener: TalkSentence_502042115-->
+:::'''Kongqing:''' "Hate"? That's a strong word. I'm just unaccustomed to the work culture here. Just like when you Outworlders come aboard the Xianzhou and people say you "don't get the culture." If you take anyone out of their natural environment, they'd be uncomfortable to a certain degree.
+:::'''Kongqing:''' For example, I normally do maintenance work here, but the managing diviners I interact with are all so crafty, that they just beat around the bush all day without making anything clear.
+:::'''Kongqing:''' A jade abacus calculation terminal can sometimes have technical faults, and if you're unlucky, your terminal of the day would be the one to malfunction. So some managing diviners try to ask me leading questions like "diviner So-and-so hasn't been reporting any faults. Does that mean they never performed their divination at all?" Heck if I know.
+:::'''Kongqing:''' If it's broken, it's broken. Otherwise, it's fine. That's all we need to say at the Artisanship Commission. So why do they keep blathering on about all this other unrelated stuff? And I'm not good with words either, so I just stand there stuttering and can't get my point across. It's just so embarrassing.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why did the Artisanship Commission send you over here?
+:::<!--Custom String Listener: TalkSentence_502042120-->
+:::'''Kongqing:''' Your guess is as good as mine. If the higher-ups say they want me here, then I'm here. *sigh* Talking about this is starting to make me angry again.
+:::'''Kongqing:''' When I first came here for a routine inspection on the Matrix of Prescience, a managing diviner here asked me, "Do you know Mingyue?" Then asked me again, "What is your relationship with Huixing?"!
+:::'''Kongqing:''' I don't get it. We all do stuff by the book over at the Artisanship Commission, and I can't skip out on routine inspection and records, right? Isn't it normal enough to have a few words with the managing diviner about these documents?
+:::'''Kongqing:''' I don't know anybody at the Divination Commission at all. I have no idea why they'd ask me such a question. It's just like an interrogation by the Ten-Lords Commission. They'll even grill you about who you were hanging out with in childhood...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have the lowdown on the situation?
+:::<!--Custom String Listener: TalkSentence_502042125-->
+:::'''Kongqing:''' Nope! To re-iterate, I don't have any inside intel.
+:::'''Kongqing:''' ...Could it be that there's something wrong with the Divination Commission? People keep asking me day in day out whether I have the "latest news" or "inside scoop." What kind of talk is this? Just be straight up with me, and stop asking all these questions!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Forget it. I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502042128-->
+:::'''Kongqing:''' Fine... Oh yes, I almost forget. If you come and visit the Matrix of Prescience, please view it from a distance. Outsiders are forbidden from approaching it without permission from the master diviner.
+:::'''Kongqing:''' Okay, if there's nothing else, then let's talk again later. I've still got a mountain of work to get through.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502042102-->
+:{{DIcon|Exit}} I'd better leave you to it.
+::'''Kongqing:''' Fine... Oh yes, I almost forget. If you come and visit the Matrix of Prescience, please view it from a distance. Outsiders are forbidden from approaching it without permission from the master diviner.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Kongqing
+|zhs  = 空青
+|zht  = 空青
+|ja   = 空青
+|ko   = 공청
+|es   = Kongqing
+|fr   = Kongqing
+|ru   = Кунцин
+|th   = Kongqing
+|vi   = Kongqing
+|de   = Kongqing
+|id   = Kongqing
+|pt   = Kongqing
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,192 @@
+<%-- [PAGE_INFO]
+PageTitle=#Nika#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Publishing House Editor
+|image           = NPC Nika.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Nika''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400012}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501024001: Config/Level/Mission/5010240/Act/Act501024001.json-->
+::'''Nika:''' Excuse me! Sorry&mdash;Yeah, sorry to bother you. Can I take a moment of your time?
+::'''Nika:''' Can I ask you a question, about literature?
+::{{DIcon|Arrow}} Of course.
+:::<!--Custom String Listener: TalkSentence_501024046-->
+:::'''Nika:''' Just one of those general questions. I'd like to hear your take on it.
+::{{DIcon|Arrow}} Literature?
+:::<!--Custom String Listener: TalkSentence_501024046-->
+:::'''Nika:''' Just one of those general questions. I'd like to hear your take on it.
+::{{DIcon|Arrow}} (Pretend you didn't notice her)
+:::<!--Custom String Listener: TalkSentence_501024048-->
+:::'''Nika:''' Wait a minute! It won't take long.
+::<!--Custom String Trigger: TalkSentence_501024049-->
+::<!--Custom String Listener: TalkSentence_501024049-->
+::'''Nika:''' I'll get straight to it. How would you rate these two books, ''Snow Plains'' and ''The Three Trebles''?
+::<!--Custom String Trigger: Wait_Option_5010240_17-->
+::<!--Custom String Listener: Wait_Option_5010240_17-->
+::{{DIcon|Arrow}} I haven't read either.
+:::<!--Custom String Listener: TalkSentence_501024051-->
+:::'''Nika:''' What? That's a pity. These are must-reads on the list of "Books You Should Read in Belobog."
+:::'''Nika:''' Well, don't mind me... I guess I can't expect everyone to be as educated...
+::{{DIcon|Arrow}} (Make up a generic literary critique)
+:::<!--Custom String Listener: TalkSentence_501024055-->
+:::'''(Trailblazer):''' Powerful, stylish, and full of unexpected twists and turns, these two books demonstrated with their refined language the strengths of both authors.
+:::'''(Trailblazer):''' Their attempt to question and explore the spiritual side of mankind is commendable but unfortunately falls short compared with some of the greatest works of literature.
+:::'''Nika:''' Amazing! Words of wisdom from a true master.
+::'''Nika:''' Let me introduce myself. I am Nika with the ''Crystal Daily''. Sorry to bother you but we are collecting petitions from readers to lift the ban on the ''Tale of the Winterlands''.
+::<!--Custom String Trigger: TalkSentence_501024059-->
+::<!--Custom String Listener: TalkSentence_501024059-->
+::'''Nika:''' It would be wonderful if you could sign here. Of course, feel free to raise any concerns...
+::'''Nika:''' Ah yes, as a gesture of goodwill, I'll give you ''The Seven Wonders of Belobog'' as a gift!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501024002: Config/Level/Mission/5010240/Act/Act501024002.json-->
+::'''Nika:''' Are you ready to sign the petition or do you have any other questions?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 201110514-->)
+:{{DIcon|undefined}} I collected all of ''The Adventurous Moles''...
+::<!--Trigger PerformanceE 201110514: Config/Level/Mission/2011105/Act/Act201110514.json-->
+::'''Nika:''' Huh? Do you mean ''The Adventurous Moles'', the book? Could you let me have a look at it first, please?
+::{{DIcon|Arrow}} (Give the pages to Nika)
+::<!--Custom String Listener: TalkSentence_101028416-->
+::'''Nika:''' ...I never thought this would be real.
+::'''Nika:''' I loved reading ''The Adventurous Mole''s when I was a kid, especially the bits about the rainforest and the desert... As if those things really existed.
+::{{DIcon|Arrow}} In the real world, there's only snow outside.
+:::<!--Custom String Listener: TalkSentence_101028419-->
+:::'''Nika:''' But people's imaginations can far surpass the wind and the snow...
+::{{DIcon|Arrow}} These actually do exist.
+:::<!--Custom String Listener: TalkSentence_101028421-->
+:::'''Nika:''' Hahaha, there are so many readers who are just like you, believing these writings to be real-life events.
+:::'''Nika:''' But, hey, that's the charm of children's stories.
+::<!--Custom String Trigger: TalkSentence_101028423-->
+::<!--Custom String Listener: TalkSentence_101028423-->
+::'''Nika:''' I do want to put together and publish ''The Adventurous Moles: Hidden Treasure''. I know you're not the author, so I can't pay out any royalties to you, but here's a little something for you. Take it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201110514-->
+;(If {{cx}}<!--SubMission Started: 301150303-->)
+:{{DIcon|undefined}} About Amo...
+::<!--Trigger PerformanceE 301150303: Config/Level/Mission/3011503/Act/Act301150303.json-->
+::'''Nika:''' Oh? You know that famous author? What about him?
+::{{DIcon|Arrow}} He says he's having trouble writing and can't hand in the manuscript.
+:::<!--Custom String Listener: TalkSentence_301150624-->
+:::'''Nika:''' Hahaha, I see. I was wondering why I couldn't find him lately...
+::{{DIcon|Arrow}} He disappeared into the depth of the Snow Plains...
+:::<!--Custom String Listener: TalkSentence_301150626-->
+:::'''Nika:''' I see. I was wondering why I couldn't find him lately...
+:::'''Nika:''' ...Yeah, right. I'm not going to believe such an excuse. You might as well tell me he got sick from going through Belobog's trashcans.
+:::{{DIcon|Arrow}} Alright. You saw through me.
+::::<!--Custom String Listener: TalkSentence_301150629-->
+::::'''Nika:''' It's okay. You're here to ask me to leave him alone, right?
+:::{{DIcon|Arrow}} He did get sick from going through the trashcans...
+::::<!--Custom String Listener: TalkSentence_301150631-->
+::::'''Nika:''' ...You didn't have to run with what I said. I know you're here to ask me to leave him alone, right?
+:::{{DIcon|Arrow}} He really did go to the Snow Plains. I'm serious.
+::::<!--Custom String Listener: TalkSentence_301150633-->
+::::'''Nika:''' Alright alright, you can stop now &mdash; You're here to ask me to leave him alone, right?
+::<!--Custom String Trigger: TalkSentence_301150634-->
+::<!--Custom String Listener: TalkSentence_301150634-->
+::'''Nika:''' Tell him not to worry. I'm not looking for him because of the manuscript. It's because my chief editor likes his work and wants to hire him as a column writer for the ''Crystal Daily''.
+::'''Nika:''' But since he is always hiding from me, I never got to tell him about this. Could you please let him know when you see him?
+::'''Nika:''' If he's interested, he can come directly to our office for a discussion. The chief editor really likes his work and our terms are negotiable &mdash; He won't have to sigh all day while hugging a trashcan anymore...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150303-->
+:{{DIcon}} I have some questions...
+::<!--Custom String Trigger: TalkSentence_501024060-->
+::<!--Custom String Listener: TalkSentence_501024060-->
+::{{DIcon|Talk}} What exactly is ''Tale of the Winterlands''?
+:::<!--Custom String Listener: TalkSentence_501024061-->
+:::'''Nika:''' Have you never heard of it? It's an adventure novel published by us. The Architects banned it not long ago, which forced us to destroy what's left in our stock as well.
+:::'''Nika:''' But I can assure you, there is no problem with the content! It's just... too creative. By that I mean it depicts the wonders beyond the snow curtain. Truly magnificent work.
+:::'''Nika:''' The Town Hall worries that people might venture out of the city without permission after reading the book. They have their concerns and I understand that. But you can't blame a novel for that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where can I read ''Tale of the Winterlands''?
+:::<!--Custom String Listener: TalkSentence_501024065-->
+:::'''Nika:''' I don't have a copy with me at the moment... I'd suggest you go find Amo in the Administrative District. I commissioned him to adapt ''Tale of the Winterlands'' and sent him a copy a while ago. Or if you can get the book through other means, feel free.
+:::'''Nika:''' It's not easy to get a hold of the novel these days. Thank you for your trouble.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You are buying public opinion, aren't you?
+:::<!--Custom String Listener: TalkSentence_501024068-->
+:::'''Nika:''' No, no, no! Think of it as me asking for a favor... I am a certified editor from a reputable publishing house. I won't engage in anything unethical!
+:::'''Nika:''' I am, uh... merely encouraging people to express themselves. If you think the novel should be banned after reading it, by all means, please say so. I will encourage you to write down your opinion.
+:::'''Nika:''' But of course, if you think it doesn't deserve the ban, that's even more of a reason to speak out!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do I need to do exactly?
+:::<!--Custom String Listener: TalkSentence_501024072-->
+:::'''Nika:''' Simple! Just sign this petition form and add a comment about what you think.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_501024074-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} Any news from the publishing industry recently?
+::'''Nika:''' Recently? We're expecting to have several new books coming out, but they are all popular science books about the Underworld's environment and habitat. After all, people are curious about what things are like there.
+::'''Nika:''' ...Also, there has been a rumor that the Town Hall has dispatched a vanguard to explore areas outside the city. Bronya, the new Supreme Guardian, is a moderate reformist, so...
+::'''Nika:''' It's possible that the ban on Tale of the Winterlands will get reversed, but this hasn't been confirmed yet. It's just a possibility.
+::'''Nika:''' This is not the time to get complacent. I'm still collecting signatures for the petition.
+::'''Nika:''' The dawn is at hand. We can't afford to quit now, right?
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} I need some time to think about it...
+::'''Nika:''' Of course! Take your time.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_301150622)
+:<!--Custom String Listener: TalkSentence_301150622-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Nika
+|zhs  = 尼古莱
+|zht  = 尼古萊
+|ja   = ニコラ
+|ko   = 니카
+|es   = Nika
+|fr   = Nika
+|ru   = Ника
+|th   = Nika
+|vi   = Nika
+|de   = Nika
+|id   = Nika
+|pt   = Nika
+}}
+==Change History==
+{{Change History|TODO}}

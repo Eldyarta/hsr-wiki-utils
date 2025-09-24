@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#Iason#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Self-Proclaimed Adventurer
+|image           = NPC Iason.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Iason''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_601_400005}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: MovePause-->
+;(First interaction)
+::<!--Trigger PerformanceE 504001001: Config/Level/Mission/5040010/Act/Act504001001.json-->
+::'''Iason:''' No grand adventure is complete without a dromas! Hey there, stranger. Judging by that glint in your eyes, you're a fan of dromas just like me, right?
+::'''Iason:''' I'm Iason, the manager of this caravan "Argo." All dromas in Okhema are my good friends, and I'm the one who gave each of them a name.
+::{{DIcon|Arrow}} You named all the dromases?
+:::<!--Custom String Listener: TalkSentence_504001004-->
+:::'''Iason:''' Exactly. Asterion, Euphemus, Castor, Pollux, and the mightiest of them all, Heracles &mdash; all solid names.
+::{{DIcon|Arrow}} What does your caravan trade in?
+:::<!--Custom String Listener: TalkSentence_504001006-->
+:::'''Iason:''' Everything! Argo used to just carry bulk goods, but times have been rough, so we've expanded our business.
+::<!--Custom String Trigger: TalkSentence_504001007-->
+::<!--Custom String Listener: TalkSentence_504001007-->
+::'''Iason:''' Things aren't as calm as they used to be. If you need to move anything into Okhema or find something rare, Argo's your safest bet. Trust me, Heracles is just as dependable as the Chrysos Heirs!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504001002: Config/Level/Mission/5040010/Act/Act504001002.json-->
+::'''Iason:''' Legend has it that in the Era Chrysea eons ago, there was this massive airship called Argo, whose captain was also named Iason. Iason sailed the world with his dromas buddies, helping out those in need, much like the Chrysos Heirs do these days.
+::'''Iason:''' Friend, I can see that spark in your eyes &mdash; the yearning for adventure with your dromas buddies. Am I right?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} What rare stuff do you have?
+:{{DIcon}} You seem well-versed in dromas.
+::'''Iason:''' You've found the dromas master! Down at the workshop, they all call me the Dromas Idol Producer! When it comes to those marvelous creatures, I'm your go-to person! Whose story catches your eye?
+::<!--Custom String Trigger: Wait_Option_504001003_31-->
+::<!--Custom String Listener: Wait_Option_504001003_31-->
+::{{DIcon|Talk}} Let's talk about Asterion.
+:::<!--Custom String Listener: TalkSentence_504001103-->
+:::'''Iason:''' Asterion has been on quite the journey, starting from the time they were chosen as the first living being under the protection of {{Rubi|Kephale|Worldbearing Titan}}, all the way to when the young dromas began exploring the world.
+:::'''Iason:''' Unfortunately, those arduous adventures have taken their toll on Asterion, causing a deep anxiety disorder known as {{Rubi|agoraphobia|Reluctance to Meet People}}.
+:::'''Iason:''' If you ever catch Asterion seeking solace in their {{Rubi|sanctuary|barn}}, please remember they're just an old hero looking for a quiet retirement.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Let's talk about Euphemus.
+:::<!--Custom String Listener: TalkSentence_504001107-->
+:::'''Iason:''' Euphemus is a close comrade of Asterion's, and the mightiest dromas after Heracles. We once made it to Corchis just before the black tide hit and managed to salvage its legendary treasures...
+:::'''Iason:''' Four crates packed with rubber ducks!
+:::'''Iason:''' Yeah, that was an unlucky trip, I admit. I was hoping for some real treasures in those crates, but those rubber ducks barely covered our costs.
+:::'''Iason:''' I should have just popped open those crates right there and let those ducks ride the black tide...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Let's talk about Castor and Pollux.
+:::<!--Custom String Listener: TalkSentence_504001112-->
+:::'''Iason:''' Castor and Pollux are a pair of young dromases. Castor is a bit older than Pollux, and neither has faced any life-or-death adventures yet.
+:::'''Iason:''' However, in preparation for their future business, I've concocted a cool pitch that could make them the ultimate duo! Let me share it with you!
+:::'''Iason:''' Through the {{Rubi|Chrysalis of Gold|Romance Titan}}'s grace, we present to you a rare pair of twin dromases, Castor and Pollux! Hailing from {{Rubi|Georios|Earth Titan}}, these two boast impressive teamwork and confidence, much like two Chrysos Heirs gearing up for their heroic fate!
+:::'''Iason:''' ...Lady Aglaea won't consider this false advertising, right?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Let's talk about Heracles.
+:::<!--Custom String Listener: TalkSentence_504001117-->
+:::'''Iason:''' Aha! You've finally brought up my favorite, Heracles! Let me tell you, he's not just the strongest and smartest dromas around today &mdash; Even if Sabany came back from the black tide, no dromas there would outshine him!
+:::'''Iason:''' Heracles has been my loyal partner through countless impossible tasks. Among them, I've dubbed the toughest twelve challenges he faced as The Twelve Trials of Heracles.
+::;(If {{cx}}<!--SubMission Started: 304002002-->)
+::::'''Iason:''' Eager to hear more about his adventures? I've penned an epic just for Heracles. Here, take a copy.
+:::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}<!--SubMission not Started: 304002002-->)
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Wish you all the best in your business.
+:::<!--Custom String Listener: TalkSentence_504001121-->
+:::'''Iason:''' Thank you! Feel free to swing by and grab anything that catches your eye! Catch you later!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Wish you all the best in your business.
+::'''Iason:''' Thank you! Feel free to swing by and grab anything that catches your eye! Catch you later!
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: MoveResume-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Iason
+|zhs  = 伊阿宋
+|zht  = 伊阿宋
+|ja   = イアソン
+|ko   = 이아손
+|es   = Jasón
+|fr   = Jason
+|ru   = Ясон
+|th   = Iason
+|vi   = Iason
+|de   = Iason
+|id   = Iason
+|pt   = Iason
+}}
+==Change History==
+{{Change History|TODO}}

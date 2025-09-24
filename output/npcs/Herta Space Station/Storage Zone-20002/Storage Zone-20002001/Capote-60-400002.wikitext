@@ -1,0 +1,164 @@
+<%-- [PAGE_INFO]
+PageTitle=#Capote#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 4 Ecology Researcher
+|image           = NPC Capote.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Storage Zone
+|relatives       = 
+}}
+'''Capote''' is an NPC on [[Herta Space Station]], located in [[Storage Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Storage Zone|npc_60_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500207100_111-->
+:<!--Custom String Listener: Wait_Option_500207100_111-->
+:{{DIcon|Talk}} How many people have had their pain "soothed" by you?
+::<!--Custom String Listener: TalkSentence_500207119-->
+::'''Capote:''' I'm not someone who likes to reap benefits for myself, and I hope you understand that.
+::'''Capote:''' But since you asked, I will answer &mdash; After all, my life's duty is to dispel others' confusion!
+::'''Capote:''' Do you see the burning gazes of the fans around us? Those passionate looks of rapture are the best evidence of having had their pains soothed!
+::'''Capote:''' They no longer have their eyes clouded and now see the stars, and that is how they are able to passionately look at me... I mean, at truth and reality!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} The way you move seems to be deliberately designed...
+::<!--Custom String Listener: TalkSentence_500207124-->
+::'''Capote:''' I understand what you mean. Many people have told me the same thing.
+::'''Capote:''' People always get attracted by my body language and my eyes. I find it really frustrating.
+::'''Capote:''' No matter how hard I try to refrain myself and avoid causing trouble for others, it never works.
+::'''Capote:''' Maybe it's just a part of me that's beyond my control.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you think about this invasion?
+::<!--Custom String Listener: TalkSentence_500207129-->
+::'''Capote:''' A disaster! An absolute, complete disaster!
+::'''Capote:''' I know that everyone on the space station is concerned these days and all hold different views regarding the invasion.
+::'''Capote:''' However, I only see the horrified faces of my fans. Though roses moist with tears hold a special scent, it would be apocalyptic for such thick and sweet aromas to turn sour with sorrow.
+::'''Capote:''' Therefore, I need to remain steadfast in my duty, and become their guiding light!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500207135-->
+::'''Capote:''' If you still hold confusion in your heart, please, come find me anytime. Of course, you may also write to me. I like that kind of classical communication method.
+::'''Capote:''' You can give your letter to Lamina and she will look after it. I look forward to seeing you again &mdash; or seeing your letters.
+::<!--Ends the current performance-->
+:'''Capote:''' Whether they are enemies from the abyss or people with ill intentions...
+:'''Capote:''' So long as I'm in the space station, I will never let them ravage the territory of Madam Herta!
+:'''Capote:''' If they are to trample on this pure land of science, they'll have to go through me first!
+:<!--Ends the current performance-->
+:'''Capote:''' If you still hold confusion in your heart, please, come find me anytime. Of course, you may also write to me. I like that kind of classical communication method.
+:'''Capote:''' You can give your letter to Lamina and she will look after it. I look forward to seeing you again &mdash; or seeing your letters.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000101: Config/Level/NPC/W0/NPC_DefaultStory_500000701.json-->
+::{{A|VO vo ambient w0 greeting capote 101.ogg}} {{A|VO vo ambient w0 greeting capote 102.ogg}} '''Capote:''' Whether they are enemies from the abyss or people with ill intentions...
+::'''Capote:''' So long as I'm in the space station, I will never let them ravage the territory of Madam Herta!
+::'''Capote:''' If they are to trample on this pure land of science, they'll have to go through me first!
+::{{DIcon|Arrow}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_500207105-->
+:::'''Capote:''' Oh! Here's another lost soul. Don't worry. I'll show you the way.
+:::'''Capote:''' My name is Capote. I'm a member of the Department of Ecology, but my other identity is even more important...
+:::'''Capote:''' I am a die-hard fan of Madam Herta!
+:::'''Capote:''' I'm here to make my humble contributions to this space station, as well as to Madam Herta.
+:::'''Capote:''' Though I cannot fight against these horrors and lay out a road to revival...
+:::'''Capote:''' But with my words, I will guide all those who are lost and in a panic like yourself.
+::{{DIcon|Arrow}} How can you help me?
+:::<!--Custom String Listener: TalkSentence_500207112-->
+:::'''Capote:''' Help? Right, you do look like you need some help.
+:::'''Capote:''' I can see anxiety in your eyes. This emotion originates from fear. I can understand it.
+:::'''Capote:''' And I will clear the uncertainty in your heart. This is the least I can do for Madam Herta.
+:::'''Capote:''' Come! Confess it all to me! Tell me all your frustrations and pain, and let me soothe them for you!
+:::'''Capote:''' *cough* Of course, this is just psychological help. If you feel any real discomfort, please seek out a medical doctor.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000102: Config/Level/NPC/W0/NPC_DefaultStory_500000700.json-->
+::'''Capote:''' Whether they are enemies from the abyss or people with ill intentions...
+::'''Capote:''' So long as I'm in the space station, I will never let them ravage the territory of Madam Herta!
+::'''Capote:''' If they are to trample on this pure land of science, they'll have to go through me first!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I've got something to ask you.
+::<!--Custom String Trigger: Wait_Option_500207100_111-->
+::<!--Custom String Listener: Wait_Option_500207100_111-->
+::{{DIcon|Talk}} How many people have had their pain "soothed" by you?
+:::<!--Custom String Listener: TalkSentence_500207119-->
+:::'''Capote:''' I'm not someone who likes to reap benefits for myself, and I hope you understand that.
+:::'''Capote:''' But since you asked, I will answer &mdash; After all, my life's duty is to dispel others' confusion!
+:::'''Capote:''' Do you see the burning gazes of the fans around us? Those passionate looks of rapture are the best evidence of having had their pains soothed!
+:::'''Capote:''' They no longer have their eyes clouded and now see the stars, and that is how they are able to passionately look at me... I mean, at truth and reality!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The way you move seems to be deliberately designed...
+:::<!--Custom String Listener: TalkSentence_500207124-->
+:::'''Capote:''' I understand what you mean. Many people have told me the same thing.
+:::'''Capote:''' People always get attracted by my body language and my eyes. I find it really frustrating.
+:::'''Capote:''' No matter how hard I try to refrain myself and avoid causing trouble for others, it never works.
+:::'''Capote:''' Maybe it's just a part of me that's beyond my control.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you think about this invasion?
+:::<!--Custom String Listener: TalkSentence_500207129-->
+:::'''Capote:''' A disaster! An absolute, complete disaster!
+:::'''Capote:''' I know that everyone on the space station is concerned these days and all hold different views regarding the invasion.
+:::'''Capote:''' However, I only see the horrified faces of my fans. Though roses moist with tears hold a special scent, it would be apocalyptic for such thick and sweet aromas to turn sour with sorrow.
+:::'''Capote:''' Therefore, I need to remain steadfast in my duty, and become their guiding light!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500207135-->
+:::'''Capote:''' If you still hold confusion in your heart, please, come find me anytime. Of course, you may also write to me. I like that kind of classical communication method.
+:::'''Capote:''' You can give your letter to Lamina and she will look after it. I look forward to seeing you again &mdash; or seeing your letters.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I don't have any other questions.
+::'''Capote:''' If you still hold confusion in your heart, please, come find me anytime. Of course, you may also write to me. I like that kind of classical communication method.
+::'''Capote:''' You can give your letter to Lamina and she will look after it. I look forward to seeing you again &mdash; or seeing your letters.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Capote
+|zhs  = 卡波特
+|zht  = 卡波特
+|ja   = カポーティ
+|ko   = 카포티
+|es   = Capote
+|fr   = Boomer
+|ru   = Капоте
+|th   = Capote
+|vi   = Capote
+|de   = Capote
+|id   = Capote
+|pt   = Calepo
+}}
+==Change History==
+{{Change History|TODO}}

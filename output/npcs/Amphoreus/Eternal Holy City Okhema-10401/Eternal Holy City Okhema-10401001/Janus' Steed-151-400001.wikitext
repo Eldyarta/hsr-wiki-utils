@@ -1,0 +1,355 @@
+<%-- [PAGE_INFO]
+PageTitle=#Janus' Steed#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Janus' Steed.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Janus' Steed''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_151_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504047001: Config/Level/Mission/5040470/Act/Act504047001.json-->
+::There is no doubt about it. The giant wooden prop before you is one you recognize from an old story. Its head raised high in the sky and room in its stomach for several people &mdash; it has all the familiar characteristics you expect.
+::'''??:''' Wooo... I'm so tired. Who on earth is making all that ruckus outside? Let me see where this has gone out to... Who are you, and what do you want from me?
+::{{DIcon|Arrow}} ...Who are you?
+::{{DIcon|Arrow}} How come you're hiding inside a wooden horse?
+::<!--Custom String Listener: TalkSentence_504047005-->
+::'''??:''' ...Me? Are the citizens of Okhema so foolish that they've never even heard of Janus' Steed? Hmph, Kephale claims to be all-knowing and all-powerful, yet their followers sure don't know a thing. Incompetence!
+::'''Janus' Steed:''' Ever since Janus carved the boundary between heaven and earth, we have been there serving, opening passages, and delivering prophesies. Have you never seen a divine foal cantering about Amphoreus on their missions?
+::{{DIcon|Arrow}} I've met your companions already.
+:::<!--Custom String Listener: TalkSentence_504047008-->
+::;(If {{cx}}<!--Hidden Mission ID 4340145--> has been completed, {{cx}}<!--Hidden Mission ID 4340146--> has been completed, or {{cx}}<!--Hidden Mission ID 4340147--> has been completed)
+::::'''Janus' Steed:''' ...Hmm. As time passes, the sentience of the divine foals will gradually dwindle away, and what you saw may have been a husk of its former self. We have lived for many a year, comparable to than an old neglected iron gate that creaks on its hinges.
+::;(If {{cx}}<!--Hidden Mission ID 4340145--> has not been completed, {{cx}}<!--Hidden Mission ID 4340146--> has not been completed, or {{cx}}<!--Hidden Mission ID 4340147--> has not been completed)
+:::'''Janus' Steed:''' The keyhole is rusted over, and it can no longer be unlocked. *sigh* O, divine foals... Am I really the only one left?
+::{{DIcon|Arrow}} ...Never seen them before.
+:::<!--Custom String Listener: TalkSentence_504047012-->
+:::'''Janus' Steed:''' Then go out. Ask around. Find them. Don't stand here and ask ignorant questions like "Who are you." Is that fun?
+::<!--Custom String Trigger: TalkSentence_504047013-->
+::<!--Custom String Listener: TalkSentence_504047013-->
+::'''Janus' Steed:''' Forget it, I won't say anything unnecessary for now. Seeing as we've now met, let's just follow due process... Keys and gates are paired up, and if you want what's behind a gate, you'll have to match it with the corresponding object.
+::'''Janus' Steed:''' It's the... "Memory" plucked out of the stream of time. Do you have it?
+::{{DIcon|Shop}} (Take out the Memory Crystal Shard)
+:::<!--Custom String Listener: TalkSentence_504047016-->
+:::'''Janus' Steed:''' Great, that's what I need. The divine foal has been satisfied, and will open up the gate of Janus for you.
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 151,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 74,
+	"TaskID": []
+}</pre>
+::{{DIcon|Exit}} I'm not handing this over!
+:::<!--Custom String Listener: TalkSentence_504047018-->
+:::'''Janus' Steed:''' Then you should leave. If you can't find the key, you're not allowed inside!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_304006003-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504047002: Config/Level/Mission/5040470/Act/Act504047002.json-->
+::'''Janus' Steed:''' Keys and gates are paired up, and if you want what's behind a gate, you'll have to match it with the corresponding object.
+::'''Janus' Steed:''' It's the... "Memory" plucked out of the stream of time. Do you have it?
+::<!--Custom String Trigger: Wait_Option_504047002_41-->
+::<!--Custom String Listener: Wait_Option_504047002_41-->
+::{{DIcon|Shop}} (Take out the Memory Crystal Shard)
+:::<!--Custom String Listener: TalkSentence_504047034-->
+:::'''Janus' Steed:''' Great, that's what I need. The divine foal has been satisfied, and will open up the gate of Janus for you.
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 151,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 74,
+	"TaskID": []
+}</pre>
+:::<!--Custom String Trigger: Talk_304006003-->
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|?}} Any other products?
+:::<!--Custom String Listener: TalkSentence_504047036-->
+::;(If {{cx}}<!--SubMission Started: 304006001-->)
+::::'''Janus' Steed:''' Of course. Divine foals can travel the world and bring you whatever you need &mdash; so long as you can pay the price.
+:::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304006001,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+			"Name": {
+				"Value": "FCV_TrojanCtrl"
+			},
+			"Value": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504047037,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304006001"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END2"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}<!--SubMission not Started: 304006001-->)
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::'''Janus' Steed:''' Divine foals can travel the world and bring you whatever you need &mdash; but I need enough time. Don't be impatient and hold on until the gate has closed completely. You'll get your result.
+::::<!--Custom String Trigger: ALL_TALK_END2-->
+::::<!--Custom String Listener: ALL_TALK_END2-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} I want to chat to you.
+:::<!--Custom String Listener: TalkSentence_504047040-->
+:::'''Janus' Steed:''' Speak. You may be short of intellect and have no profound ideas to speak of, but at least you can help me pass away the time, hmm?
+:::<!--Custom String Trigger: Wait_Option_504047002_52-->
+:::<!--Custom String Listener: Wait_Option_504047002_52-->
+:::{{DIcon|Talk}} What is Janus' Steed?
+::::<!--Custom String Listener: TalkSentence_504047042-->
+::::'''Janus' Steed:''' Ever since Janus carved the boundary between heaven and earth, we have been there serving by their side. If Janus is the holiest "Gate of Infinity," then we are the physical "gates" &mdash; We open the way for them and pass on the prophecies.
+::::'''Janus' Steed:''' There are endless types of "gates" out there, with some connecting areas, some linking spacetime, some separating inside from outside, and some... Just need one small key to deliver a big surprise.
+::::'''Janus' Steed:''' "Gates" are connections. You and I meeting here is also a connection and a bond. Do you understand?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Your companions?
+::::<!--Custom String Listener: TalkSentence_504047046-->
+::::'''Janus' Steed:''' As time passes, the sentience of a divine foal will gradually erode. Or it may be misled and get lost in an endless journey. Or perhaps it might vanish completely, becoming a husk of its former self.
+::::'''Janus' Steed:''' It's been an age since we separated, and I saw them last. O, divine foals... Am I really the only one left?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you need Memory Crystal Shards?
+::::<!--Custom String Listener: TalkSentence_504047049-->
+::::'''Janus' Steed:''' Hmph, Oronyx and Janus have always been inseparable. Memories are connected through time and coexist spatially in space. Those shards contain authority beyond your wildest imagination.
+::::'''Janus' Steed:''' As for the reason behind collecting all these... When the time comes, Janus will let you know.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I don't have any more questions.
+::::<!--Custom String Listener: Wait_Option_504047002_41-->
+::::{{DIcon|Shop}} (Take out the Memory Crystal Shard)
+:::::<!--Custom String Listener: TalkSentence_504047034-->
+:::::'''Janus' Steed:''' Great, that's what I need. The divine foal has been satisfied, and will open up the gate of Janus for you.
+::::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 151,
+	"ConfigID": 400001
+}</pre>
+::::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 74,
+	"TaskID": []
+}</pre>
+:::::<!--Custom String Trigger: Talk_304006003-->
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::::{{DIcon|?}} Any other products?
+:::::<!--Custom String Listener: TalkSentence_504047036-->
+::::;(If {{cx}}<!--SubMission Started: 304006001-->)
+::::::'''Janus' Steed:''' Of course. Divine foals can travel the world and bring you whatever you need &mdash; so long as you can pay the price.
+:::::<pre>{
+	"$type": "RPG.GameCore.AddFinishMissionData_ConsumeItem",
+	"SubmissionID": 304006001,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"SimpleTalk": {},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+			"Name": {
+				"Value": "FCV_TrojanCtrl"
+			},
+			"Value": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 1
+				}
+			}
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 504047037,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Mission_304006001"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END2"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::::;(If {{cx}}<!--SubMission not Started: 304006001-->)
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::::::'''Janus' Steed:''' Divine foals can travel the world and bring you whatever you need &mdash; but I need enough time. Don't be impatient and hold on until the gate has closed completely. You'll get your result.
+::::::<!--Custom String Trigger: ALL_TALK_END2-->
+::::::<!--Custom String Listener: ALL_TALK_END2-->
+:::::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_TrojanCtrl"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::::::<!--Ends the current performance-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} I'm not handing this over!
+:::::<!--Custom String Listener: TalkSentence_504047053-->
+:::::'''Janus' Steed:''' Then you should leave. If you can't find the key, you're not allowed inside!
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm not handing this over!
+:::<!--Custom String Listener: TalkSentence_504047053-->
+:::'''Janus' Steed:''' Then you should leave. If you can't find the key, you're not allowed inside!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,251 @@
+<%-- [PAGE_INFO]
+PageTitle=#Agnes#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Food Journalist
+|image           = NPC Agnes.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Agnes''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501023801: Config/Level/Mission/5010238/Act/Act501023801.json-->
+::'''Agnes:''' "This sweet taste is like the first drop of water from the cracks of the ice when the river unfreezes after the Solwarm Festival, a bit of warmth amidst the bitter cold..."
+::'''Agnes:''' What do you think? Doesn't this description give you an appetite?
+::{{DIcon|Arrow}} ...Are you asking me?
+:::<!--Custom String Listener: TalkSentence_501023830-->
+:::'''Agnes:''' Yeah, do you see anyone else?
+::{{DIcon|Arrow}} ...Maybe?
+:::<!--Custom String Listener: TalkSentence_501023832-->
+:::'''Agnes:''' You don't sound so convinced. I understand, you are saying "No."
+::{{DIcon|Arrow}} Not a chance.
+:::<!--Custom String Listener: TalkSentence_501023834-->
+:::'''Agnes:''' Well, I can't blame you &mdash; it's my own problem. My writing is not good enough.
+::<!--Custom String Trigger: TalkSentence_501023836-->
+::<!--Custom String Listener: TalkSentence_501023836-->
+::'''Agnes:''' Darn it. What's the point of being a food journalist if I can't use words to construct a sense of taste and utilize synesthesia? By the way, while I'm talking with you, I have another paragraph here. Let me read it to you.
+::'''Agnes:''' "The rich sauces are like an invading army, completely overwhelming the crisp and fresh taste of the salmon. The gentle aroma of fish has no choice but to surrender in defeat..."
+::'''Agnes:''' How's that feel? A little too wordy?
+::{{DIcon|Arrow}} You should write a novel.
+::{{DIcon|Arrow}} Yes, a lot of unnecessary details.
+::<!--Custom String Listener: TalkSentence_501023840-->
+::'''Agnes:''' I can't help myself, I used to be a literary journalist. Every day I was trying to add more adjectives to the sentence anywhere I could fit them. I wouldn't get my bonus if readers can easily deduce the subject, predicate, and object within three lines.
+::'''Agnes:''' But then a new girl came and was better at filling in words than I was, so I made a career change. Have you read the cuisine section of the ''Crystal Daily''? I am the author of that section.
+::'''Agnes:''' Honestly, I don't want to include all that garish garbage in my writing anyway...
+::'''Agnes:''' I'm gonna put more work into honing my rhetorical skills. Well, enough about me &mdash; how can I help you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501023802: Config/Level/Mission/5010238/Act/Act501023802.json-->
+::'''Agnes:''' "Over time, salmon's rich taste becomes mild and makes its way into the defenseless Redsunset. When the seasoning and ingredient of Redsunset Salmon melt into each other, the distinction drawn between salmon and Redsunset becomes ever more blurred..."
+::'''Agnes:''' Sorry, still scrambling to finish my article. Did one paragraph today, but I want to bin the whole thing already...
+::'''Agnes:''' Need to put more work into honing my rhetorical skills. How may I help?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301150202-->)
+:{{DIcon|undefined}} I'll help you exercise your rightful rights!
+::<!--Trigger PerformanceE 301150202: Config/Level/Mission/3011502/Act/Act301150202.json-->
+::'''Agnes:''' Woah, I didn't expect someone to arrive so quickly! Let me tell you what I need.
+::'''Agnes:''' You know I'm a column journalist for ''Crystal Daily'', right? I've hit a bit of a bottleneck with my writing recently. My brain is all a fog.
+::'''Agnes:''' But companies like ours love to check for attendance... They check once in the morning, once at noon, and once at night! I can't even step outside the office to relax my brain! I've had enough!
+::'''Agnes:''' So, I want to take a break and get a couple of days of sick leave, but the chief editor says I need a doctor's letter... I'm all out of ideas, which is why I put up a Society commission.
+::'''Agnes:''' Well, that's my task. Do you want to take it? If you don't, I'll just wait for someone else...
+::{{DIcon|Arrow}} Piece of cake. I've got a friend.
+:::<!--Custom String Listener: TalkSentence_301150508-->
+:::'''Agnes:''' Is your friend a doctor? That's awesome!
+::{{DIcon|Arrow}} This doctor friend of mine is in the Underworld...
+:::<!--Custom String Listener: TalkSentence_301150510-->
+:::'''Agnes:''' Huh? You know a doctor? In the Underworld!?
+:::'''Agnes:''' I don't know if my chief editor would recognize an Underworlder doctor's practicing license &mdash; Especially during sensitive times like this...
+:::'''Agnes:''' But... please ask your friend for a favor anyways! Maybe the chief editor won't notice!
+::<!--Custom String Trigger: TalkSentence_301150513-->
+::<!--Custom String Listener: TalkSentence_301150513-->
+::'''Agnes:''' I'll be waiting right here for your good news &mdash; Please!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150202-->
+;(If {{cx}}<!--SubMission Started: 301150204--> and {{cx}}<!--SubMission Started: 301150202-->)
+:{{DIcon|undefined}} I got you a doctor's letter.
+::<!--Trigger PerformanceE 301150204: Config/Level/Mission/3011502/Act/Act301150204.json-->
+::'''Agnes:''' Really!? Thank you so much! Let me see...
+::'''Agnes:''' ...
+::'''Agnes:''' Um...
+::'''Agnes:''' L&mdash;Lumbar disc herniation due to prolonged manual labor in the mines...? Is this excuse going to work?
+::'''Agnes:''' Never mind. I don't care anymore! Having a letter is good enough. I'm gonna go take my chances! Thank you for doing this for me.
+::'''Agnes:''' If you ever need any help, you can send out a commission with Old Goethe, too. If I see your commission, I'll rush over to help as soon as I can &mdash;
+::'''Agnes:''' And... this is a small reward. Please take it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150204-->
+;(If {{cx}}<!--SubMission Started: 301020402-->, {{cx}}<!--SubMission Started: 301150204-->, and {{cx}}<!--SubMission Started: 301150202-->)
+:{{DIcon|undefined}} The pictures are all done.
+::<!--Trigger PerformanceE 301020402: Config/Level/Mission/3010201/Act/Act301020402.json-->
+::'''Wallace:''' Done? Let's have a look...
+::'''Wallace:''' Good... This is a great photo. As a matter of fact, I have done a lot of research on musicals. I have enjoyed classic dramas such as "Once Upon a Snowsieged Country" and "Beneath the White Cloak" more than twenty times.
+::'''Wallace:''' If my future friend happens to be interested in musicals, maybe we can book a whole theater and watch a show together. I'll pay for all that, of course.
+::'''Wallace:''' All right, it's time to help me make friends. Just like before, I will decide who I want to make friends with.
+::'''Wallace:''' I heard there's a famous real estate agent named Lavonne in the Administrative District. Well, my family owns dozens of properties. She should have heard of me.
+::'''Wallace:''' Could you show the photo to her and ask her if she's willing to be my friend?
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020402-->
+:{{DIcon}} Can we talk...?
+::'''Agnes:''' Hmm? Please elaborate.
+::<!--Custom String Trigger: Wait_Option_501023803_10-->
+::<!--Custom String Listener: Wait_Option_501023803_10-->
+::{{DIcon|Talk}} About writing...
+:::<!--Custom String Listener: Wait_Option_501023803_12-->
+:::{{DIcon|Talk}} Then why don't you try a more straightforward style of writing?
+::::<!--Custom String Listener: TalkSentence_501023849-->
+::::'''Agnes:''' It won't do. The paper has its requirements and the chief editor has his own. Word count needs to hit quotas, that's for sure. We get paid by words after all...
+::::'''Agnes:''' Other than that, the editor has made it clear that our paper is produced with the educated class in mind. Ideally, our average readership should consider exposure to our publication both a privilege and a chance to learn.
+::::'''Agnes:''' That newbie is a natural for this. She can write a hundred pages for what could have been described using a few words.
+::::<!--Custom String Trigger: Wait_Option_501023803_12-->
+::::<!--Custom String Listener: Wait_Option_501023803_12-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} Don't you admire her talent?
+:::::<!--Custom String Listener: TalkSentence_501023853-->
+:::::'''Agnes:''' Who wants to write an essay when it could be done with just ten words? But when you write professionally, it becomes a useful skill. Nika was better at this. That's why I had no objections to giving my position to Nika...
+:::::'''Agnes:''' Be that as it may, I just can't force myself! I am not made for this!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} Write some more and you'll get the hang of it.
+:::::<!--Custom String Listener: TalkSentence_501023856-->
+:::::'''Agnes:''' I've already bloated a ten thousand-word interview script to forty thousand! That's the best I can do.
+:::::'''Agnes:''' To think that the ways of great writers accrued through the ages are used by me to simply bloat word count... How pathetic.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Don't you admire her talent?
+::::<!--Custom String Listener: TalkSentence_501023853-->
+::::'''Agnes:''' Who wants to write an essay when it could be done with just ten words? But when you write professionally, it becomes a useful skill. Nika was better at this. That's why I had no objections to giving my position to Nika...
+::::'''Agnes:''' Be that as it may, I just can't force myself! I am not made for this!
+::::<!--Custom String Trigger: Wait_Option_501023803_12-->
+::::<!--Custom String Listener: Wait_Option_501023803_12-->
+::::{{DIcon|Talk}} Then why don't you try a more straightforward style of writing?
+:::::<!--Custom String Listener: TalkSentence_501023849-->
+:::::'''Agnes:''' It won't do. The paper has its requirements and the chief editor has his own. Word count needs to hit quotas, that's for sure. We get paid by words after all...
+:::::'''Agnes:''' Other than that, the editor has made it clear that our paper is produced with the educated class in mind. Ideally, our average readership should consider exposure to our publication both a privilege and a chance to learn.
+:::::'''Agnes:''' That newbie is a natural for this. She can write a hundred pages for what could have been described using a few words.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Return}} Write some more and you'll get the hang of it.
+:::::<!--Custom String Listener: TalkSentence_501023856-->
+:::::'''Agnes:''' I've already bloated a ten thousand-word interview script to forty thousand! That's the best I can do.
+:::::'''Agnes:''' To think that the ways of great writers accrued through the ages are used by me to simply bloat word count... How pathetic.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Write some more and you'll get the hang of it.
+::::<!--Custom String Listener: TalkSentence_501023856-->
+::::'''Agnes:''' I've already bloated a ten thousand-word interview script to forty thousand! That's the best I can do.
+::::'''Agnes:''' To think that the ways of great writers accrued through the ages are used by me to simply bloat word count... How pathetic.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About food...
+:::<!--Custom String Listener: Wait_Option_501023803_25-->
+:::{{DIcon|Talk}} Any recommendations?
+::::<!--Custom String Listener: TalkSentence_501023860-->
+::::'''Agnes:''' Nope. I'm not mad at you. I'm simply stating facts. Belobog is not a huge place with a huge variety of food. The same ingredients are used for hundreds of years. Quite literally every possible combination has been used at some point.
+::::'''Agnes:''' But if you are not from around here, Redsunset Salmon might be worth trying.
+::::'''Agnes:''' It's not exclusive to this place, I know. But you can only get the freshest salmon from the Administrative District. Once you've tasted it, you'll remember it for the rest of your life.
+::::<!--Custom String Trigger: Wait_Option_501023803_25-->
+::::<!--Custom String Listener: Wait_Option_501023803_25-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} How many dishes have you tried?
+:::::<!--Custom String Listener: TalkSentence_501023864-->
+:::::'''Agnes:''' Four thousand, if I'm being conservative. But to be honest, hundreds of these dishes are purely new combinations of old recipes. People in Belobog are masters when it comes to naming their food. We have names for dozens of body parts of fish. When you mix and match, you'll come up with new recipes in no time.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I've got it.
+:::::<!--Custom String Listener: TalkSentence_501023866-->
+:::::'''Agnes:''' I hope my long articles can be as clear as the explanation today...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How many dishes have you tried?
+::::<!--Custom String Listener: TalkSentence_501023864-->
+::::'''Agnes:''' Four thousand, if I'm being conservative. But to be honest, hundreds of these dishes are purely new combinations of old recipes. People in Belobog are masters when it comes to naming their food. We have names for dozens of body parts of fish. When you mix and match, you'll come up with new recipes in no time.
+::::<!--Custom String Trigger: Wait_Option_501023803_25-->
+::::<!--Custom String Listener: Wait_Option_501023803_25-->
+::::{{DIcon|Talk}} Any recommendations?
+:::::<!--Custom String Listener: TalkSentence_501023860-->
+:::::'''Agnes:''' Nope. I'm not mad at you. I'm simply stating facts. Belobog is not a huge place with a huge variety of food. The same ingredients are used for hundreds of years. Quite literally every possible combination has been used at some point.
+:::::'''Agnes:''' But if you are not from around here, Redsunset Salmon might be worth trying.
+:::::'''Agnes:''' It's not exclusive to this place, I know. But you can only get the freshest salmon from the Administrative District. Once you've tasted it, you'll remember it for the rest of your life.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Return}} I've got it.
+:::::<!--Custom String Listener: TalkSentence_501023866-->
+:::::'''Agnes:''' I hope my long articles can be as clear as the explanation today...
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I've got it.
+::::<!--Custom String Listener: TalkSentence_501023866-->
+::::'''Agnes:''' I hope my long articles can be as clear as the explanation today...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all questions I have.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::'''Agnes:''' Sorry, I was thinking about the details of something I'm writing. I didn't notice you.
+::'''Agnes:''' You were asking how I've been recently? Pretty well, but I've been more productive than ever.
+::{{DIcon|Arrow}} Are you making up food stories again?
+:::<!--Custom String Listener: TalkSentence_501023877-->
+:::'''Agnes:''' I would never make up a story! Anyway, thanks to the Supreme Guardian's decision &mdash; even though I still don't qualify to apply to wander around the Underworld &mdash; the flow of goods between the Overworld and Underworld has already started to normalize.
+:::'''Agnes:''' The mushrooms and edible moss aren't too bad. I've recently sampled several new foods from the Underworld, and now my brain is bursting with inspiration. I have to make good use of it.
+::{{DIcon|Arrow}} Will you go to the Underworld to collect materials?
+:::<!--Custom String Listener: TalkSentence_501023880-->
+:::'''Agnes:''' I certainly would love to... But you need to apply for permission from the Town Hall to go to the Underworld. Travel requests of a tourism nature like mine aren't as likely to receive approval.
+:::'''Agnes:''' At least goods are already starting to be regularly transported between the Overworld and Underworld. I can buy food from the Underworld here, and the prices are cheap.
+:::'''Agnes:''' I've been trying new dishes from the Underworld in the past few days. I've had mushrooms, edible moss, and more... The flavor has been pretty good. Once travel between the two areas fully opens up, I simply must go down there and experience the dining environment.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Thank you for your time.
+::'''Agnes:''' No worries. If you'd like, do have a look at my column on food. Comments are always welcome.
+::'''Agnes:''' If you have any questions related to food, don't hesitate to come to me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

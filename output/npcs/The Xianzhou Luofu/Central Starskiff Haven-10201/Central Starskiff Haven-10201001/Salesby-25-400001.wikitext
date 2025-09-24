@@ -1,0 +1,162 @@
+<%-- [PAGE_INFO]
+PageTitle=#Salesby#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Grocery Stand
+|image           = NPC Salesby.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Salesby''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_25_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Salesby:''' Everything. We've got whatever you need.
+<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 25,
+	"ConfigID": 400001
+}</pre>
+<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 12,
+	"TaskID": []
+}</pre>
+:<!--Ends the current performance-->
+:'''Salesby:''' Mm... of course. After you're done, please take a look and buy something.
+:<!--Custom String Trigger: Wait_Option_502012303_633-->
+:<!--Custom String Listener: Wait_Option_502012303_633-->
+:{{DIcon|Talk}} Is it really the "last three days"?
+::<!--Custom String Listener: TalkSentence_502123203-->
+::'''Salesby:''' Err... you're not here to cause trouble, are you? I've been yelling "last three days" in this spot for years. No one really cares if it's true.
+::'''Salesby:''' You understand that too; it's just a sales tactic. Everything's going cheap anyway, and you'll get a great deal. Why does it matter if it's really the "last three days"?
+::'''Salesby:''' Don't worry though. I don't yell this tagline if the Realm-Keeping Commission's around. They say it's "false advertising." I'm not looking for trouble, I know better than that.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Is business good?
+::<!--Custom String Listener: TalkSentence_502123207-->
+::'''Salesby:''' Thanks to you, business has been rather decent.
+::'''Salesby:''' More and more Outworlders come to Xianzhou these days, which of course is a good sign for stalls selling knick-knacks like ours.
+::'''Salesby:''' I don't sell Elixir of Immortality here, but I've got long-lived cultural knickknacks. They sell well with Outworlders.
+::'''Salesby:''' These cultural ornaments aren't expensive, and they make great souvenirs. Who wouldn't like 'em?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I should stop bothering you now.
+::<!--Custom String Listener: TalkSentence_502123212-->
+::'''Salesby:''' Do come back again when my next batch of goods arrives.
+::<!--Ends the current performance-->
+:'''Salesby:''' Do come back again when my next batch of goods arrives.
+:<!--Ends the current performance-->
+:'''Salesby:''' Last three days! Get yours now, whilst stocks last.
+:'''Salesby:''' Such a golden opportunity doesn't come every day. Get it while it's hot! The more you buy, the greater your discount!
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000079: Config/Level/NPC/W2/NPC_DefaultStory_502012301.json-->
+::'''Salesby:''' Come take a peek, and don't miss out! Your loss if you don't buy, no loss if you do!
+::'''Salesby:''' Last three days! Everything's got to go! Grab them while they last!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000080: Config/Level/NPC/W2/NPC_DefaultStory_502012305.json-->
+::'''Salesby:''' Last three days! Get yours now, whilst stocks last.
+::'''Salesby:''' Such a golden opportunity doesn't come every day. Get it while it's hot! The more you buy, the greater your discount!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 202090126-->)
+:{{DIcon|undefined}} I'd like to order a plaque that reads "Genius Diviner."
+::<!--Trigger PerformanceD 202090133: Config/Level/Mission/2020901/Act/Act202090133.json-->
+::----
+::'''Salesby:''' As long as you can afford it, I can even make one that reads "The Unparalleled Diviner, Supreme of the Universe."
+::'''Cong:''' I&mdash;I've asked her to meet me at the Starskiff Haven. She seems to have something to tell me too. I must succeed this time.
+::'''Gloomy Poet:''' ...I have a bad feeling about this.
+::'''Cong:''' Don't jinx it.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_202090133-->
+:{{DIcon|Shop}} What's good around here?
+::'''Salesby:''' Everything. We've got whatever you need.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 25,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 12,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} I'd like to chat with you.
+::'''Salesby:''' Mm... of course. After you're done, please take a look and buy something.
+::<!--Custom String Trigger: Wait_Option_502012303_633-->
+::<!--Custom String Listener: Wait_Option_502012303_633-->
+::{{DIcon|Talk}} Is it really the "last three days"?
+:::<!--Custom String Listener: TalkSentence_502123203-->
+:::'''Salesby:''' Err... you're not here to cause trouble, are you? I've been yelling "last three days" in this spot for years. No one really cares if it's true.
+:::'''Salesby:''' You understand that too; it's just a sales tactic. Everything's going cheap anyway, and you'll get a great deal. Why does it matter if it's really the "last three days"?
+:::'''Salesby:''' Don't worry though. I don't yell this tagline if the Realm-Keeping Commission's around. They say it's "false advertising." I'm not looking for trouble, I know better than that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is business good?
+:::<!--Custom String Listener: TalkSentence_502123207-->
+:::'''Salesby:''' Thanks to you, business has been rather decent.
+:::'''Salesby:''' More and more Outworlders come to Xianzhou these days, which of course is a good sign for stalls selling knick-knacks like ours.
+:::'''Salesby:''' I don't sell Elixir of Immortality here, but I've got long-lived cultural knickknacks. They sell well with Outworlders.
+:::'''Salesby:''' These cultural ornaments aren't expensive, and they make great souvenirs. Who wouldn't like 'em?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I should stop bothering you now.
+:::<!--Custom String Listener: TalkSentence_502123212-->
+:::'''Salesby:''' Do come back again when my next batch of goods arrives.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I should stop bothering you now.
+::'''Salesby:''' Do come back again when my next batch of goods arrives.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Salesby
+|zhs  = 货全
+|zht  = 貨全
+|ja   = 貨全
+|ko   = 만물
+|es   = Ofertio
+|fr   = Ventout
+|ru   = Продаван
+|th   = Salesby
+|vi   = Hàng Luôn Đủ
+|de   = Weltallkauf
+|id   = Salesby
+|pt   = Saldoval
+}}
+==Change History==
+{{Change History|TODO}}

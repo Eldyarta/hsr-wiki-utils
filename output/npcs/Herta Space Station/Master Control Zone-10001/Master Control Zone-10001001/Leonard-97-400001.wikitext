@@ -1,0 +1,424 @@
+<%-- [PAGE_INFO]
+PageTitle=#Leonard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Network Security Engineer
+|image           = NPC Leonard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Leonard''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_97_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 200070502-->)
+::<!--Trigger PerformanceE 200070501: Config/Level/Mission/2000705/Act/Act200070501.json-->
+::'''Leonard:''' Hey friend, over here! You're finally here, I've been waiting for a long time.
+::{{DIcon|Arrow}} Sorry to keep you waiting.
+:::<!--Custom String Listener: TalkSentence_200073503-->
+:::'''Leonard:''' Hey, what's with the politeness? I looked for you for help, so I'm willing to wait.
+::{{DIcon|Arrow}} We just saw each other not that long ago.
+:::<!--Custom String Listener: TalkSentence_200073505-->
+:::'''Leonard:''' Is that so? Maybe I just wanted to see you, so I got impatient!
+::<!--Custom String Trigger: TalkSentence_200073506-->
+::<!--Custom String Listener: TalkSentence_200073506-->
+::'''Leonard:''' Thing is, like I said in my message, even if the invasion is over, it still exposed many security issues the space station faces. In other words, gaps.
+::'''Leonard:''' Following Lead Researcher Asta's orders, the space station formed a special task force to tackle this problem.
+::'''Leonard:''' In my opinion, aside from technical upgrades, it is more important to increase staff members' awareness and precaution. Many of Silver Wolf's attacks honed in on individual bad habits, and those are too difficult to defend against.
+::{{DIcon|Arrow}} Fair enough.
+::{{DIcon|Arrow}} Like... you?
+:::<!--Custom String Listener: TalkSentence_200073511-->
+:::'''Leonard:''' Nonsense! What I did was... was... a demonstration! That's right. It's a demonstration to illustrate my point in a more direct manner!
+:::<!--Custom String Trigger: TalkSentence_200073512-->
+::<!--Custom String Listener: TalkSentence_200073512-->
+::'''Leonard:''' Herta Space Station is the turf of Genius Society members, so it's not inconceivable that other forces target us. Therefore, our safety and staff awareness should be at the top of the universe as well.
+::'''Leonard:''' In order to be able to quickly respond to such incidents in the future, I think that a safety drill for the entire space station should be arranged immediately: A select number of staff members will have their terminals sent a mail embedded with special programs...
+::{{DIcon|Arrow}} Phishing mail?
+:::<!--Custom String Listener: TalkSentence_200073515-->
+:::'''Leonard:''' No, no no no. Not as simple as that.
+::{{DIcon|Arrow}} Will I get it too?
+:::<!--Custom String Listener: TalkSentence_200073517-->
+:::'''Leonard:''' No no, I'm not done yet.
+::<!--Custom String Trigger: TalkSentence_200073518-->
+::<!--Custom String Listener: TalkSentence_200073518-->
+::'''Leonard:''' What we're defending against are enemies on the level of Stellaron Hunters. They won't give you a choice.
+::'''Leonard:''' The moment the mail is successfully received, the program will attack automatically and immediately regardless of time, location, or whether it was opened. Within moments, the virus will spread throughout the entire space station!
+::'''Leonard:''' Be it personal terminals, public facilities, or the electric seat warmer on the toilet, everything might collapse within moments!
+::{{DIcon|Arrow}} Scary...
+::{{DIcon|Arrow}} Have you started looking for your next job?
+::{{DIcon|Arrow}} Not the toilet seat!
+::<!--Custom String Listener: TalkSentence_200073524-->
+::'''Leonard:''' Don't worry, these "viruses" are all imitations written by me. They are absolutely safe and harmless.
+::'''Leonard:''' Through the drill, I want to deepen everyone's understanding of network security. Of course, before we start, testing and repeating revision is compulsory.
+::'''Leonard:''' The requirements for test candidates will be very high. They will need to be bold, careful, and thoughtful. They must not only be familiar with the space station, but also understand Silver Wolf and the Stellaron Hunter. It would be helpful if they also have an altruistic heart...
+::'''Leonard:''' Who could satisfy all of those requirements? My friend, that's you!
+::{{DIcon|Arrow}} No problem, friend!
+:::<!--Custom String Listener: TalkSentence_200073529-->
+:::'''Leonard:''' I knew it, my good pal, you'll never let me down!
+::{{DIcon|Arrow}} Do you not have any other friends?
+:::<!--Custom String Listener: TalkSentence_200073531-->
+:::'''Leonard:''' You mean on the space station? Of course not. Colleagues are not friends.
+:::{{DIcon|Arrow}} This sudden honesty!
+:::{{DIcon|Arrow}} Did you switch personalities?
+:::<!--Custom String Listener: TalkSentence_200073534-->
+:::'''Leonard:''' Oh, I just had a moment of inspiration. I was at the IPC for a long time, so believe me, friend, when I say "Adversity shows sincerity."
+::<!--Custom String Trigger: TalkSentence_200073535-->
+::<!--Custom String Listener: TalkSentence_200073535-->
+::'''Leonard:''' The simulation testing grounds is ready. Let's get to it.
+::{{DIcon|Arrow}} Then let's go.
+:::<!--Custom String Listener: TalkSentence_200073537-->
+:::'''Leonard:''' Come with me!
+:::<!--Custom String Trigger: Talk_200070502-->
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000211,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} I'm not ready yet.
+:::<!--Custom String Listener: TalkSentence_200073539-->
+:::'''Leonard:''' Oh... never mind then, it's not urgent. Come talk to me whenever you're ready.
+:::<!--Custom String Trigger: Talk_200070502-->
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 200070503-->)
+::<!--Trigger PerformanceE 200070502: Config/Level/Mission/2000705/Act/Act200070502.json-->
+::'''Leonard:''' Through the drill, I can definitely help deepen everyone's understanding of network security. Of course, before we start, testing and repeating revision is compulsory.
+::'''Leonard:''' The simulation testing grounds is ready. Let's get to it.
+::{{DIcon|Arrow}} Then let's go.
+:::<!--Custom String Listener: TalkSentence_200073604-->
+:::'''Leonard:''' Come with me!
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000211,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} I'm not ready yet.
+:::<!--Custom String Listener: TalkSentence_200073606-->
+:::'''Leonard:''' Oh... never mind then, it's not urgent. Come talk to me whenever you're ready.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 200070509: Config/Level/Mission/2000705/Act/Act200070509.json-->
+::'''Leonard:''' Hey friend! I'm so happy to see you!
+::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 200070504-->)
+:{{DIcon|undefined}} How is the drill revision coming along?
+:::<!--Trigger PerformanceE 200070503: Config/Level/Mission/2000705/Act/Act200070503.json-->
+:::'''Leonard:''' All good! I replanned the route and added some new designs. What do you say, wanna try it out?
+:::{{DIcon|Arrow}} Let's begin.
+::::<!--Custom String Listener: TalkSentence_200073703-->
+::::'''Leonard:''' No problem, let's go!
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000211,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} I'm not ready yet.
+::::<!--Custom String Listener: TalkSentence_200073705-->
+::::'''Leonard:''' Oh... never mind then, it's not urgent. Come talk to me whenever you're ready.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_200070503-->
+:;(If {{cx}}<!--SubMission Started: 200070505--> and {{cx}}<!--SubMission Started: 200070504-->)
+:{{DIcon|undefined}} Are you still preparing for the drill?
+:::<!--Trigger PerformanceE 200070504: Config/Level/Mission/2000705/Act/Act200070504.json-->
+:::'''Leonard:''' Ah, yes. I submitted the last edition to the board and received feedback. Some good, some constructive.
+:::'''Leonard:''' After all, this is a huge undertaking for the entire space station. They will have to give it some more thought, so I added new content and want to ask for your opinion.
+:::{{DIcon|Arrow}} Let's begin.
+::::<!--Custom String Listener: TalkSentence_200073804-->
+::::'''Leonard:''' Thank you! Let's go.
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000211,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} I'm not ready yet.
+::::<!--Custom String Listener: TalkSentence_200073806-->
+::::'''Leonard:''' Oh... never mind then, it's not urgent. Come talk to me whenever you're ready.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_200070504-->
+:;(If {{cx}}<!--SubMission Started: 200070506-->, {{cx}}<!--SubMission Started: 200070505-->, and {{cx}}<!--SubMission Started: 200070504-->)
+:{{DIcon|undefined}} About the security drill...
+:::<!--Trigger PerformanceE 200070505: Config/Level/Mission/2000705/Act/Act200070505.json-->
+:::'''Leonard:''' Hey... (Trailblazer), I've been thinking about a question.
+:::'''Leonard:''' The more I look into Silver Wolf's program, the more I feel... she's too far beyond reach. She can do anything just for fun, as if real life is really just a game.
+:::'''Leonard:''' I cannot fathom that. This goes against everything I know. But... I need to keep up with her thinking. If I cannot stand on the same grounds as her, I will never be able to complete this job.
+:::'''Leonard:''' I tried my best. This is the final edition, it's my magnum opus. Think of it as my personal request... Do away with all those samples and data, and just think of this as a simple challenge. Alright?
+:::{{DIcon|Arrow}} Of course.
+::::<!--Custom String Listener: TalkSentence_200073906-->
+::::'''Leonard:''' Thank you, I won't have any explanation for you this time. I just hope... you would have fun.
+::::<!--Custom String Trigger: Mission200070199_Finished-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000211,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} I'm not ready yet.
+::::<!--Custom String Listener: TalkSentence_200073908-->
+::::'''Leonard:''' Oh... never mind then, it's not urgent. Come talk to me whenever you're ready.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_200070505-->
+:;(If {{cx}}<!--SubMission not Started: 200070503-->, {{cx}}<!--SubMission not Started: 200070504-->, {{cx}}<!--SubMission not Started: 200070505-->, and {{cx}}<!--SubMission not Started: 200070506-->, {{cx}}<!--SubMission Started: 200070506-->, {{cx}}<!--SubMission Started: 200070505-->, and {{cx}}<!--SubMission Started: 200070504-->)
+:{{DIcon|Arrow}} About the previous drills...
+:::<!--Trigger PerformanceE 200070508: Config/Level/Mission/2000705/Act/Act200070508.json-->
+:::'''Leonard:''' Huge success, my friend! The plan entered the next phase. It will be launched at a later date when everything is set up. As for the time... heh, it's a secret. It works best when it's least expected.
+:::'''Leonard:''' If you want to run the test again, I can arrange it for you.
+:::{{DIcon|Arrow}} Alright, let's begin.
+::::<!--Custom String Listener: TalkSentence_200074204-->
+::::'''Leonard:''' No problem, I'll set up the location now!
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4000211,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} Forget it.
+::::<!--Custom String Listener: TalkSentence_200074206-->
+::::'''Leonard:''' Uh huh. If you need anything, lemme know.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_200070508-->
+:;(If {{cx}}<!--SubMission not Started: 200070503-->, {{cx}}<!--SubMission not Started: 200070504-->, {{cx}}<!--SubMission not Started: 200070505-->, and {{cx}}<!--SubMission not Started: 200070506-->, {{cx}}<!--SubMission Started: 200070506-->, {{cx}}<!--SubMission Started: 200070505-->, and {{cx}}<!--SubMission Started: 200070504-->)
+:{{DIcon}} How have things been?
+:::<!--Trigger PerformanceE 200070506: Config/Level/Mission/2000705/Act/Act200070506.json-->
+:::'''Leonard:''' Eh. The higher-ups want me to think about the network security of the space station in detail, so I've decided to stop taking random gigs in the foreseeable future and focus on the things that are truly important.
+:::<!--Custom String Trigger: Wait_Option_200070506_139-->
+:::<!--Custom String Listener: Wait_Option_200070506_139-->
+:::{{DIcon|Talk}} Why haven't I seen you before?
+::::<!--Custom String Listener: TalkSentence_200074003-->
+::::'''Leonard:''' Oh, that's the special nature of my position. If I'm not maintaining machines in the terminal room, I'll be in someone's workstation checking up on their terminal. Sometimes I have to go outside for other jobs, too.
+::::'''Leonard:''' There are only a few of us in the Maintenance Department to maintain the entire space station. We've really got a lot on our plate.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you do before this?
+::::<!--Custom String Listener: TalkSentence_200074006-->
+::::'''Leonard:''' Before this? I've always been an engineer. I used to work for an Interastral Peace Corporation branch and made rank P24.
+::::'''Leonard:''' I don't really have any opinion of the IPC, only that it was too large. An entry-level employee like me could spend half my life there without bumping into the bigwigs.
+::::'''Leonard:''' But the space station is different &mdash; you can hardly escape the Lead Researcher Asta. If you're lucky, you can even get your ears chewed off by Madam Herta &mdash; she's a member of the Genius Society!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About Cosmic Warfare...
+::::<!--Custom String Listener: TalkSentence_200074010-->
+::::'''Leonard:''' Huh? Did you hear about it from Mr. Screwllum? You weren't here when it happened.
+::::<!--Custom String Trigger: Wait_Option_200070506_149-->
+::::<!--Custom String Listener: Wait_Option_200070506_149-->
+::::{{DIcon|Talk}} Did you face off with Silver Wolf?
+:::::<!--Custom String Listener: TalkSentence_200074012-->
+:::::'''Leonard:''' Depends on how you define "face off"... I told you when we first met that I tried tracking the Stellaron Hunters after they left the space station, but ended up in Silver Wolf's trap.
+:::::'''Leonard:''' She reverse-hacked into my device and sent a bunch of spam messages to people in my name, asking them to play a video game called Cosmic Warfare.
+:::::'''Leonard:''' ...Just, it's an embarrassing memory. Just forget about it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Why's it called Cosmic Warfare?
+:::::<!--Custom String Listener: TalkSentence_200074016-->
+:::::'''Leonard:''' I didn't understand as well, in the beginning. This game was usually installed in old display terminals on those antique interstellar vessels. Ugh... The type of game only an idle drunk miner could love.
+:::::'''Leonard:''' After reading into it a little, I found out there's a collector looking for a rare strategy for this game, and the reward is a Tyranid fighter jet, eventually won by someone anonymous &mdash; that must be Silver Wolf.
+:::::'''Leonard:''' I think she probably doesn't have many friends. Cosmic Warfare is a multiplayer collaborative game, so she couldn't play the game on her own, so she looked for a bunch of "helpers" in this way.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} How did that go?
+:::::<!--Custom String Listener: TalkSentence_200074020-->
+:::::'''Leonard:''' Oh, nowhere. I've done my best to quarantine the intruder's viral influence to the monitoring room. It didn't spread outside, but that's all I could do...
+:::::'''Leonard:''' I wrote a script to block off those spam messages day and night. It's a little primitive, but very effective.
+:::::'''Leonard:''' In the end, Silver Wolf seemed to have had enough fun and shut the game down. That was the end of that saga. What I didn't know is that Madam Herta and she had already set up the chess board for the next game.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I want to ask about something else...
+:::::<!--Custom String Listener: Wait_Option_200070506_139-->
+:::::{{DIcon|Talk}} Why haven't I seen you before?
+::::::<!--Custom String Listener: TalkSentence_200074003-->
+::::::'''Leonard:''' Oh, that's the special nature of my position. If I'm not maintaining machines in the terminal room, I'll be in someone's workstation checking up on their terminal. Sometimes I have to go outside for other jobs, too.
+::::::'''Leonard:''' There are only a few of us in the Maintenance Department to maintain the entire space station. We've really got a lot on our plate.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} What do you do before this?
+::::::<!--Custom String Listener: TalkSentence_200074006-->
+::::::'''Leonard:''' Before this? I've always been an engineer. I used to work for an Interastral Peace Corporation branch and made rank P24.
+::::::'''Leonard:''' I don't really have any opinion of the IPC, only that it was too large. An entry-level employee like me could spend half my life there without bumping into the bigwigs.
+::::::'''Leonard:''' But the space station is different &mdash; you can hardly escape the Lead Researcher Asta. If you're lucky, you can even get your ears chewed off by Madam Herta &mdash; she's a member of the Genius Society!
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::::{{DIcon|Exit}} I don't have any other questions.
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Custom String Listener: ALL_TALK_END-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+::::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_200070506-->
+:;(If {{cx}}<!--SubMission not Started: 200070503-->, {{cx}}<!--SubMission not Started: 200070504-->, {{cx}}<!--SubMission not Started: 200070505-->, and {{cx}}<!--SubMission not Started: 200070506-->, {{cx}}<!--SubMission Started: 200070506-->, {{cx}}<!--SubMission Started: 200070505-->, and {{cx}}<!--SubMission Started: 200070504-->)
+:{{DIcon|Exit}} Oh nothing, I'll leave you to it.
+:::<!--Trigger PerformanceE 200070507: Config/Level/Mission/2000705/Act/Act200070507.json-->
+:::'''Leonard:''' Okay. I should be stationed here in the near future. Come find me if you need anything!
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_200070507-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Leonard
+|zhs  = 伦纳德
+|zht  = 倫納德
+|ja   = レオナード
+|ko   = 레너드
+|es   = Leonard
+|fr   = Leonard
+|ru   = Леонард
+|th   = Leonard
+|vi   = Leonard
+|de   = Leonard
+|id   = Leonard
+|pt   = Leonard
+}}
+==Change History==
+{{Change History|TODO}}

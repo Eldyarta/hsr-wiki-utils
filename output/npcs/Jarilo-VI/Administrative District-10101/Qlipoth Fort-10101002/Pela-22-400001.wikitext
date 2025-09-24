@@ -1,0 +1,360 @@
+<%-- [PAGE_INFO]
+PageTitle=#Pela#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Pela.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Qlipoth Fort
+|relatives       = 
+}}
+'''Pela''' is an NPC on [[Jarilo-VI]], located in [[Qlipoth Fort]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Qlipoth Fort|npc_22_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404015701,
+		"Type": "submission_state_equal",
+		"Param1": 404015701,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404015701: Config/Level/Mission/4040157/Act/Act404015701.json-->
+:'''Pela:''' Wanted posters? What are those for?
+:'''Pela:''' ...
+:'''Pela:''' ...Haven't these been removed yet!? Gepa&mdash; Ack, I mean, what the heck is the captain up to...
+:'''Pela:''' Ah, I&mdash;I... I've never seen these before in my life, haha. What Wanted posters? Never heard of 'em. You can take those away. Keep them or do whatever you want. Goodbye.
+:{{DIcon|Arrow}} ...Hang on. I've something to ask you!
+:<!--Custom String Listener: TalkSentence_411090906-->
+:'''Pela:''' ...Ugh.
+:<!--Custom String Trigger: Wait_Option_404010909_144-->
+:<!--Custom String Listener: Wait_Option_404010909_144-->
+:{{DIcon|Talk}} Who painted these... wild portraits?
+::<!--Custom String Listener: TalkSentence_411090908-->
+::'''Pela:''' Captain Gepard did.
+::'''Pela:''' ...
+::'''Pela:''' Don't ask me who painted the rest. I don't know. Hurry up and move along, I'm busy. Goodbye.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Who painted these... magnificent portraits?
+::<!--Custom String Listener: TalkSentence_411090912-->
+::'''Pela:''' I don't know. They're so beautiful. Who could it be? I'd love to know.
+::{{DIcon|Arrow}} You really have no idea?
+:::<!--Custom String Listener: TalkSentence_411090914-->
+:::'''Pela:''' Of course, how would I...
+::{{DIcon|Arrow}} Are you sure it's not... YOU!?
+:::<!--Custom String Listener: TalkSentence_411090916-->
+:::'''Pela:''' How'd you know!?
+:::'''Pela:''' ...No! I said nothing!
+::{{DIcon|Arrow}} Alright, I'm not asking anyway.
+:::<!--Custom String Listener: TalkSentence_411090919-->
+:::'''Pela:''' Well, have a nice day then. I'm off...
+::<!--Custom String Trigger: TalkSentence_411090920-->
+::<!--Custom String Listener: TalkSentence_411090920-->
+::'''Pela:''' ...Don't look at me like that! I confess, I confess to everything...
+::'''Pela:''' These... Wanted posters... I painted them! Are you happy?
+::{{DIcon|Arrow}} Of course I am. They're nice.
+:::<!--Custom String Listener: TalkSentence_411090923-->
+:::'''Pela:''' Please stop it... I can't take any more teasing...
+:::<!--Custom String Trigger: TalkSentence_411090928-->
+:::<!--Custom String Listener: TalkSentence_411090928-->
+:::'''Pela:''' Well... I've already said far too much. Please don't tell anyone else! Only us two can know about this... please!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} No way! Why haven't you painted one of me?
+:::<!--Custom String Listener: TalkSentence_411090925-->
+:::'''Pela:''' You&mdash;you're asking too much!
+:::'''Pela:''' I never painted you because... because I forgot what you looked like...
+:::'''Pela:''' ...Sorry!
+:::<!--Custom String Trigger: TalkSentence_411090928-->
+:::<!--Custom String Listener: TalkSentence_411090928-->
+:::'''Pela:''' Well... I've already said far too much. Please don't tell anyone else! Only us two can know about this... please!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Why are we on this Wanted list?
+::<!--Custom String Listener: TalkSentence_411090930-->
+::'''Pela:''' Because you tried to overthrow Belobog, remember?
+::'''Pela:''' ...Just kidding, I know you're innocent. But after all of that, Captain Gepard should've had your arrest warrants canceled by now &mdash; I submitted an application for it in person.
+::'''Pela:''' Anyway... I'll check in with him later to confirm everything's okay. It'd be terrible if there were any outstanding warrants that weren't revoked...
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_404015701-->
+;(First interaction)
+::<!--Trigger PerformanceE 501029901: Config/Level/Mission/5010299/Act/Act501029901.json-->
+::'''Pela:''' Year 301, Year 302...
+::'''Pela:''' Hmm, it seems like the archives of Fortification Year 232 are in order. The next should be...
+::{{DIcon|Arrow}} Fortification Year 233.
+:::<!--Custom String Listener: TalkSentence_501029904-->
+:::'''Pela:''' That's right. It's Fortification Year 233.
+::{{DIcon|Arrow}} What are you doing?
+:::<!--Custom String Listener: TalkSentence_501029906-->
+:::'''Pela:''' Don't disturb me. I'm sorting out the archives...
+::{{DIcon|Arrow}} Miss~ Pela~
+:::<!--Custom String Listener: TalkSentence_501029908-->
+:::'''Pela:''' Um, please don't...
+::<!--Custom String Trigger: TalkSentence_501029909-->
+::<!--Custom String Listener: TalkSentence_501029909-->
+::'''Pela:''' ...Eh? When did you get here?
+::{{DIcon|Arrow}} I just got here.
+:::<!--Custom String Listener: TalkSentence_501029911-->
+:::'''Pela:''' Could you not stand behind people so quietly like that? It's kinda creepy!
+::{{DIcon|Arrow}} Hah, did I give you a fright?
+:::<!--Custom String Listener: TalkSentence_501029913-->
+:::'''Pela:''' Argh! How old are you? Stop acting like a kid!
+::{{DIcon|Arrow}} Do you need help in organizing the archives on the bookshelf?
+:::<!--Custom String Listener: TalkSentence_501029915-->
+:::'''Pela:''' ...I can reach them. Thanks for your concern, but please don't do that again.
+::<!--Custom String Trigger: TalkSentence_501029916-->
+::<!--Custom String Listener: TalkSentence_501029916-->
+::'''Pela:''' Um, which year was it just now?
+::'''Pela:''' Alas, forget it... It's time I take a break after all the work.
+::'''Pela:''' I'll keep you company then. What can I do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501029902: Config/Level/Mission/5010299/Act/Act501029902.json-->
+::'''Pela:''' Who put this Belobog Chronicles here? You'd better not let me catch you...
+::'''Pela:''' Hmph, I know you're standing behind me. I won't let you scare me this time.
+::'''Pela:''' So, what brings you here?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003705-->)
+:{{DIcon|undefined}} Please give me some management advice...
+::<!--Trigger PerformanceE 405003005: Config/Level/Mission/4050030/Act/Act405003005.json-->
+::'''Pela:''' In fact, management is the same as the work of an intelligence officer, and it all depends on brain power.
+::'''Pela:''' Carefully collect everyone's information, sort out the useful parts, and organize them according to the actual situation... Basically, that's it.
+::'''Pela:''' It sounds complicated, but doing it can be very rewarding. The trick is to be meticulous.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003705-->
+;(If {{cx}}<!--SubMission Started: 404015701-->)
+:{{DIcon|?}} Can you take a look at these wanted posters?
+::<!--Trigger PerformanceE 404015701: Config/Level/Mission/4040157/Act/Act404015701.json-->
+::'''Pela:''' Wanted posters? What are those for?
+::'''Pela:''' ...
+::'''Pela:''' ...Haven't these been removed yet!? Gepa&mdash; Ack, I mean, what the heck is the captain up to...
+::'''Pela:''' Ah, I&mdash;I... I've never seen these before in my life, haha. What Wanted posters? Never heard of 'em. You can take those away. Keep them or do whatever you want. Goodbye.
+::{{DIcon|Arrow}} ...Hang on. I've something to ask you!
+::<!--Custom String Listener: TalkSentence_411090906-->
+::'''Pela:''' ...Ugh.
+::<!--Custom String Trigger: Wait_Option_404010909_144-->
+::<!--Custom String Listener: Wait_Option_404010909_144-->
+::{{DIcon|Talk}} Who painted these... wild portraits?
+:::<!--Custom String Listener: TalkSentence_411090908-->
+:::'''Pela:''' Captain Gepard did.
+:::'''Pela:''' ...
+:::'''Pela:''' Don't ask me who painted the rest. I don't know. Hurry up and move along, I'm busy. Goodbye.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Who painted these... magnificent portraits?
+:::<!--Custom String Listener: TalkSentence_411090912-->
+:::'''Pela:''' I don't know. They're so beautiful. Who could it be? I'd love to know.
+:::{{DIcon|Arrow}} You really have no idea?
+::::<!--Custom String Listener: TalkSentence_411090914-->
+::::'''Pela:''' Of course, how would I...
+:::{{DIcon|Arrow}} Are you sure it's not... YOU!?
+::::<!--Custom String Listener: TalkSentence_411090916-->
+::::'''Pela:''' How'd you know!?
+::::'''Pela:''' ...No! I said nothing!
+:::{{DIcon|Arrow}} Alright, I'm not asking anyway.
+::::<!--Custom String Listener: TalkSentence_411090919-->
+::::'''Pela:''' Well, have a nice day then. I'm off...
+:::<!--Custom String Trigger: TalkSentence_411090920-->
+:::<!--Custom String Listener: TalkSentence_411090920-->
+:::'''Pela:''' ...Don't look at me like that! I confess, I confess to everything...
+:::'''Pela:''' These... Wanted posters... I painted them! Are you happy?
+:::{{DIcon|Arrow}} Of course I am. They're nice.
+::::<!--Custom String Listener: TalkSentence_411090923-->
+::::'''Pela:''' Please stop it... I can't take any more teasing...
+::::<!--Custom String Trigger: TalkSentence_411090928-->
+::::<!--Custom String Listener: TalkSentence_411090928-->
+::::'''Pela:''' Well... I've already said far too much. Please don't tell anyone else! Only us two can know about this... please!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} No way! Why haven't you painted one of me?
+::::<!--Custom String Listener: TalkSentence_411090925-->
+::::'''Pela:''' You&mdash;you're asking too much!
+::::'''Pela:''' I never painted you because... because I forgot what you looked like...
+::::'''Pela:''' ...Sorry!
+::::<!--Custom String Trigger: TalkSentence_411090928-->
+::::<!--Custom String Listener: TalkSentence_411090928-->
+::::'''Pela:''' Well... I've already said far too much. Please don't tell anyone else! Only us two can know about this... please!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Why are we on this Wanted list?
+:::<!--Custom String Listener: TalkSentence_411090930-->
+:::'''Pela:''' Because you tried to overthrow Belobog, remember?
+:::'''Pela:''' ...Just kidding, I know you're innocent. But after all of that, Captain Gepard should've had your arrest warrants canceled by now &mdash; I submitted an application for it in person.
+:::'''Pela:''' Anyway... I'll check in with him later to confirm everything's okay. It'd be terrible if there were any outstanding warrants that weren't revoked...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404015701-->
+;(If {{cx}}<!--performance 501029905 has been seen-->, {{cx}}<!--SubMission Finish: 201110110-->, and {{cx}}<!--SubMission Started: 404015701-->)
+:{{DIcon}} How's the matter regarding the corrupt guards?
+::<!--Trigger PerformanceE 501029905: Config/Level/Mission/5010299/Act/Act501029905.json-->
+::'''Pela:''' Oh, that has been taken care of properly.
+::'''Pela:''' Those captured are merely small fries. After making their confessions, they were sent to the Silvermane Guard Military Court to be court-martialed.
+::'''Pela:''' I've dispatched some guards to assist the Minister of Justice in the investigation of this corruption case. The minister handles cases with an iron fist, so I suppose it won't be long before they get to bottom of this.
+::'''Pela:''' Anyway... we've done everything we need to do. There's no need to worry about what happens next.
+::{{DIcon|Arrow}} You're a great Intelligence Officer.
+:::<!--Custom String Listener: TalkSentence_501029951-->
+:::'''Pela:''' Thanks for the compliment. Your help has played a crucial role in this matter. We really appreciate it.
+::{{DIcon|Arrow}} We're amazing!
+:::<!--Custom String Listener: TalkSentence_501029953-->
+:::'''Pela:''' Haha... Modesty means nothing to you, huh?
+:::'''Pela:''' Anyway, your help has played a crucial role in this matter. We really appreciate it.
+::<!--Custom String Trigger: TalkSentence_501029955-->
+::<!--Custom String Listener: TalkSentence_501029955-->
+::'''Pela:''' Still, please bear in mind that with great power comes great responsibility. I'll come to you if I'm in trouble again, hehe.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029905-->
+;(If {{cx}}<!--performance 501029906 has been seen-->, {{cx}}<!--SubMission Finish: 201130203-->, {{cx}}<!--performance 501029905 has been seen-->, {{cx}}<!--SubMission Finish: 201110110-->, and {{cx}}<!--SubMission Started: 404015701-->)
+:{{DIcon}} How's Molly after that incident?
+::<!--Trigger PerformanceE 501029906: Config/Level/Mission/5010299/Act/Act501029906.json-->
+::'''Pela:''' Um, shouldn't you ask her directly?
+::{{DIcon|Arrow}} You have a point...
+:::<!--Custom String Listener: TalkSentence_501029959-->
+:::'''Pela:''' Forget it. I visit the workshop every day, and I've been on good terms with Molly.
+:::'''Pela:''' I'll tell you how she's faring, so that you don't have to worry about her.
+::{{DIcon|Arrow}} I don't know her that well, so I find it hard to ask her.
+:::<!--Custom String Listener: TalkSentence_501029962-->
+:::'''Pela:''' How indifferent. You should know that she sees you as her savior.
+:::'''Pela:''' But since you're so concerned about her, I'll tell you how she's faring.
+::{{DIcon|Arrow}} I just want to chat with you...
+:::<!--Custom String Listener: TalkSentence_501029965-->
+:::'''Pela:''' ...
+:::'''Pela:''' ...
+:::{{DIcon|Arrow}} Sorry, I'm just kidding.
+::::<!--Custom String Listener: TalkSentence_501029968-->
+::::'''Pela:''' ...That'd better be the case.
+:::{{DIcon|Arrow}} ...Please say something!
+::::<!--Custom String Listener: TalkSentence_501029970-->
+::::'''Pela:''' ...What do you want me to say!?
+:::{{DIcon|Arrow}} What's the problem? Are you unhappy to see me?
+::::<!--Custom String Listener: TalkSentence_501029972-->
+::::'''Pela:''' Your tone... is annoying...
+:::<!--Custom String Trigger: TalkSentence_501029973-->
+:::<!--Custom String Listener: TalkSentence_501029973-->
+:::'''Pela:''' That's it... We should just talk about Molly.
+::<!--Custom String Trigger: TalkSentence_501029974-->
+::<!--Custom String Listener: TalkSentence_501029974-->
+::'''Pela:''' Molly's looking more spirited ever since she started working as Serval's assistant at the workshop.
+::'''Pela:''' Back at the Technology Division, if Molly wasn't already in a quarrel with someone, she'd be on her way to one. She was always so on edge.
+::'''Pela:''' I'm glad to see her slowly brighten up... Of course, much of it was thanks to you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029906-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has been completed)
+:{{DIcon}} Do you regret not signing the contract with the IPC?
+::<!--Trigger PerformanceE 501029907: Config/Level/Mission/5010299/Act/Act501029907.json-->
+::'''Pela:''' You mean the thing you asked my opinion on before? Well... of course not~
+::'''Pela:''' Although Belobog has not been acquired or taken on by the IPC, many of their employees have remained stationed in the city.
+::'''Pela:''' There is a report here that shows productivity on the Pillars of Creation construction project has increased by nearly forty percent since these people in black got stationed here.
+::'''Pela:''' If they really are willing to share their technology unreservedly with us, then production speed will definitely double... No! It could even triple or quadruple!
+::'''Pela:''' Looking at the data, Lady Bronya made a very appropriate decision. This might even be the best possible result for the people of Belobog.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029907-->
+:{{DIcon}} I'd like to chat with you...
+::<!--Trigger PerformanceE 501029903: Config/Level/Mission/5010299/Act/Act501029903.json-->
+::<!--Custom String Trigger: Wait_Option_501029901_33-->
+::<!--Custom String Listener: Wait_Option_501029901_33-->
+::{{DIcon|Talk}} What does an Intelligence Officer do?
+:::<!--Custom String Listener: TalkSentence_501029921-->
+:::'''Pela:''' I collect battlefield intelligence, extract useful information, and sort them out. The information will be used to formulate strategies and tactics for the Silvermane Guards.
+:::'''Pela:''' Besides assisting work at the frontline, I also help Gepard to manage military affairs. In other words, my job involves a lot of thinking.
+:::{{DIcon|Arrow}} It sounds challenging.
+::::<!--Custom String Listener: TalkSentence_501029924-->
+::::'''Pela:''' It isn't as tough as it sounds. Rather, I actually take pleasure in making things in order from a mess.
+::::<!--Custom String Trigger: Wait_Option_501029901_45-->
+::::<!--Custom String Listener: Wait_Option_501029901_45-->
+::::{{DIcon|Arrow}} Can you tell me the details about your job?
+::::<!--Custom String Listener: TalkSentence_501029930-->
+::::'''Pela:''' Unfortunately, the details are the top secret of the Silvermane Guards &mdash; or more accurately &mdash; of Belobog.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It sounds easy.
+::::<!--Custom String Listener: TalkSentence_501029926-->
+::::'''Pela:''' Indeed, and I really enjoy my work. Nothing is more fun than making things in order from a mess.
+::::<!--Custom String Trigger: Wait_Option_501029901_45-->
+::::<!--Custom String Listener: Wait_Option_501029901_45-->
+::::{{DIcon|Arrow}} Can you tell me the details about your job?
+::::<!--Custom String Listener: TalkSentence_501029930-->
+::::'''Pela:''' Unfortunately, the details are the top secret of the Silvermane Guards &mdash; or more accurately &mdash; of Belobog.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It sounds like your job scope doesn't include organizing bookshelves.
+::::<!--Custom String Listener: TalkSentence_501029928-->
+::::'''Pela:''' I knew you would say that. Organizing bookshelves is certainly not part of my job &mdash; it's just volunteer work.
+::::<!--Custom String Trigger: Wait_Option_501029901_45-->
+::::<!--Custom String Listener: Wait_Option_501029901_45-->
+::::{{DIcon|Arrow}} Can you tell me the details about your job?
+::::<!--Custom String Listener: TalkSentence_501029930-->
+::::'''Pela:''' Unfortunately, the details are the top secret of the Silvermane Guards &mdash; or more accurately &mdash; of Belobog.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's your relationship with Gepard?
+:::<!--Custom String Listener: TalkSentence_501029932-->
+:::'''Pela:''' Captain Gepard is a very reliable person... as far as carrying out his public duties is concerned.
+:::'''Pela:''' As for the other aspects of his life, I can only say he is hopeless. There are so many things he can do better, be it maintaining his weapon or his appearance.
+:::'''Pela:''' Even as unkempt as he is, he is still, for some reason, able to give Serval life advice. The relationship between these siblings is puzzling even to an Intelligence Officer like myself.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How's your relationship with Serval?
+:::<!--Custom String Listener: TalkSentence_501029936-->
+:::'''Pela:''' Serval is, of course, my best friend. We've even formed a band together. She's the guitarist and vocalist, while I'm the drummer.
+:::'''Pela:''' I often visit her workshop after work. If Lynx is there, I'd stay the night. As I live alone, there are times I find it boring to stay at home.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_501029939-->
+:::'''Pela:''' Let's carry on later.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029903-->
+:{{DIcon|Exit}} I'll leave you to your work.
+::<!--Trigger PerformanceE 501029904: Config/Level/Mission/5010299/Act/Act501029904.json-->
+::'''Pela:''' All right. I should get back to work too.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029904-->
+;(Unused &mdash; TalkSentence_405300502)
+:<!--Custom String Listener: TalkSentence_405300502-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Pela
+|zhs  = 佩拉
+|zht  = 佩拉
+|ja   = ペラ
+|ko   = 페라
+|es   = Pela
+|fr   = Pela
+|ru   = Пела
+|th   = Pela
+|vi   = Pela
+|de   = Pela
+|id   = Pela
+|pt   = Pela
+}}
+==Change History==
+{{Change History|TODO}}

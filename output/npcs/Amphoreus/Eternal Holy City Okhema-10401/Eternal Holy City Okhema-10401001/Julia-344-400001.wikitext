@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Julia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Grove Scholar
+|image           = NPC Julia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Julia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_344_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033054: Config/Level/Mission/5040330/Act/Act504033054.json-->
+::'''Julia:''' Knowledge should be free, and the contents on tablets should be made public without remuneration. Keeping it in a private collection, what nonsense is that? Bah, why can't everyone understand what I'm saying?
+::{{DIcon|Arrow}} What are you muttering about?
+:::<!--Custom String Listener: TalkSentence_504043303-->
+:::'''Julia:''' Muttering? What're you talking about? I am proclaiming the path I have pursued my entire life, the way of Cerces!
+::{{DIcon|Arrow}} Not very appropriate to lecture at the bath, is it?
+:::<!--Custom String Listener: TalkSentence_504043305-->
+:::'''Julia:''' Not really? Everyone's calm and gathered in a bath. It's the most perfect place in all of Okhema!
+::<!--Custom String Trigger: TalkSentence_504043306-->
+::<!--Custom String Listener: TalkSentence_504043306-->
+::'''Julia:''' An introduction is in order: I am Julia, a Grove scholar, and now a bath regular. I always enjoy the chance to regale everyone here about Cerces, the path to which I have devoted my life.
+::'''Julia:''' Alas, not many are willing to listen these days. Maybe because they've heard it dozens of times. But you, you're an unfamiliar face. You're new, aren't you? Care to listen to my mind-blowing theories?
+::{{DIcon|Arrow}} Sure, I'd like to know how "mind-blowing" they are.
+:::<!--Custom String Listener: TalkSentence_504043309-->
+:::'''Julia:''' Haha, when I spotted you from afar just now, I thought you have an extraordinary energy &mdash; must be a clever person! I just knew I wasn't wrong!
+:::'''Julia:''' In this bath, I only ever talk about two topics. One of them's complaining about short-sighted crooks like my elder sister, and the other is my Open-Source Knowledge Theory.
+:::'''Julia:''' The Grove may have monikers like the "Erudite Temple," "Cerces' Blessed Sanctuary" and whatnot, but they're all just lies.
+:::'''Julia:''' You have to pay to read the slates' contents, and it's paid admittance for meeting discussions. Ordinary citizens have no chance to even come into contact with such knowledge.
+:::'''Julia:''' But look at Okhema &mdash; the Titans' miracles can be seen throughout her streets. What right do mortals have to charge a fee? Why is knowledge behind a paywall? Would Phagousa charge for their springwater? Would Kephale make you pay to bask in its light?
+:::'''Julia:''' All knowledge should be shared with the public. If there's anything you wish to learn from the Grove, just approach me, and I'll teach you everything free of charge. I'll show those selfish scholars like my sister how true knowledge should be disseminated!
+::{{DIcon|Exit}} Hold it right there. I'm not interested in this stuff.
+:::<!--Custom String Listener: TalkSentence_504043311-->
+:::'''Julia:''' Tsk, you look like an extraordinary person, but you're just as intransigent as those old farts in the Grove. What a shame.
+:::'''Julia:''' We'll leave it at that. You can seek me out if you change your mind. Knowledge should be shared, so don't say I didn't give you a chance.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033055: Config/Level/Mission/5040330/Act/Act504033055.json-->
+::'''Julia:''' Why do I have to pay for knowledge? Would Phagousa charge for their springwater? It's not like it's my sister's... Oh, it's you. What's going on? Here to listen to my Open-Source Knowledge Theory?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Yes, can I speak with you?
+:::'''Julia:''' Of course, I'm not some pretentious old fart from the Grove. I love talking to everyone. Inspiration always creeps in during the most surprising situations, like banter.
+:::<!--Custom String Trigger: Wait_Option_504033056_1407-->
+:::<!--Custom String Listener: Wait_Option_504033056_1407-->
+:::{{DIcon|Talk}} What are you researching as a Grove scholar?
+::::<!--Custom String Listener: TalkSentence_504043504-->
+::::'''Julia:''' My research? Oh, it's so all-encompassing! I mainly study the relationship between Titanic thoughts and the natural laws of Amphoreus. Did you know that the whole of Okhema, nay, the whole of Amphoreus, is a manifestation of the Titanic thoughts?
+::::'''Julia:''' For example, I noticed that Janus' mode of thought may have influenced the entire world's spatial structure. Have you noticed that Okhema's buildings always come in pairs? This could be an allusion to Janus' duality!
+::::'''Julia:''' Also, I am researching on how to forecast black tide movement by analyzing Oronyx's prophecies. If I succeed, we will know where the black tide will strike next, and evacuate the people in time!
+::::'''Julia:''' It's a pity that my research has hit a bit of a bottleneck. It's all the fault of those self-serving scoundrels who keep wanting me to conduct '''practical''' research. I can't even perform the most basic of meditations now!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do scholars always stay in the baths?
+::::<!--Custom String Listener: TalkSentence_504043509-->
+::::'''Julia:''' Ha! You think I'm slacking off? Huge mistake! Lemme tell you: The bath is the best research lab I can find!
+::::'''Julia:''' First, the water here originates directly from springwater blessed by Phagousa. Can you imagine that? To be soaked in pure divinity on the daily! I am meditating here to try to understand Phagousa's thought process.
+::::'''Julia:''' Next, look at the people around. Scholars and craftsmen from all disciplines, even Chrysos Heirs, they all flock here. The latest academic trends are within earshot, unlike the watered-down information fed through a drip by those old fogeys.
+::::'''Julia:''' Most importantly, this is the epitome of freedom! No one to stick it to me, tell me what I should be working on or otherwise. I can ruminate on the most far-fetched of concepts that may turn out to be grand theories that can change the whole Amphoreus!
+::::'''Julia:''' So don't think I'm trying to avoid work here. Quite the contrary, I am conducting research that is far more meaningful than whatever is in the Grove, fettered by shackles of worldly sentiments!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's going on with you and your elder sister?
+::::<!--Custom String Listener: TalkSentence_504043515-->
+::::'''Julia:''' Oh, you mean Vipsania? She manages the financial stuff, and our ideals couldn't be farther apart. We'll just bicker every day if we're both home.
+::::'''Julia:''' All she talks about is "controlling the budget" and "lacks a practical value proposition." Oh, puh-lease! Was Aquila even thinking of Okhema's illumination problem when it created light?
+::::'''Julia:''' Our philosophies are as opposite as fire and ice. She wants to turn the Grove into some workshop that can resolve everyday problems, while I want to turn it into a wellspring of openly shared knowledge, for everyone in Amphoreus to revel in Cerces' wisdom!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_504043519-->
+::::'''Julia:''' All right, I'm getting tired. I'm all parched from a long day of talking...
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I've got to go. Talk to you later.
+:::'''Julia:''' Okay, we'll talk next time.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Julia
+|zhs  = 尤利娅
+|zht  = 尤利婭
+|ja   = ユリア
+|ko   = 줄리아
+|es   = Julia
+|fr   = Julia
+|ru   = Юлия
+|th   = Julia
+|vi   = Julia
+|de   = Julia
+|id   = Julia
+|pt   = Julia
+}}
+==Change History==
+{{Change History|TODO}}

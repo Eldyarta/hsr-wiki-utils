@@ -1,0 +1,171 @@
+<%-- [PAGE_INFO]
+PageTitle=#Verginia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Dux Carminum
+|image           = NPC Verginia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Warbling Shores" Styxia
+|relatives       = 
+}}
+'''Verginia''' is an NPC on [[Amphoreus]], located in [["Warbling Shores" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Warbling Shores" Styxia|npc_202_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504121001: Config/Level/Mission/5041210/Act/Act504121001.json-->
+::'''"Dux Carminum" Verginia:''' Forging firewood from golden blood to burn away the gloom of the deep sea... feels too dry and lifeless.
+::'''"Dux Carminum" Verginia:''' Then again... the sword-bloom blossoms in the song of the lyre, a requiem for the Titans before their fall... might be a bit too on the nose.
+::{{DIcon|Arrow}} Another love poem, Dux Carminum?
+::<!--Custom String Listener: TalkSentence_504121004-->
+::'''"Dux Carminum" Verginia:''' N&mdash;No, it's not, {{MC|m=Mr.|f=Miss}} (Trailblazer)! I've written enough love poems these days. I can't slack off on my job...
+::'''"Dux Carminum" Verginia:''' I&mdash;I'm writing the ''Heroic Saga of Flame-Chase'', an epic poem about the Flame-Chase Journey.
+::'''"Dux Carminum" Verginia:''' Still, maybe it's from indulging in too many toasts and banquets. It feels like my inspiration's been soaked and soured by honey brew. Every time I try to write a few lines, nothing ever seems quite right...
+::{{DIcon|Arrow}} What if, I contribute a line?
+::<!--Custom String Listener: TalkSentence_504121008-->
+::'''"Dux Carminum" Verginia:''' O&mdash;Of course! I was just writing about the fall of Phagousa. A champion like you... I'm sure you'll r&mdash;relate to experiencing that spectacular scenery!
+::'''"Dux Carminum" Verginia:''' {{MC|f=Miss|m=Mister}}, how... how would you depict the moment Dux Gladiorum struck down Phagousa?
+::{{DIcon|Arrow}} Unparalleled... One takes the head across an army ten-thousand strong!
+:::<!--Custom String Listener: TalkSentence_504121011-->
+:::'''"Dux Carminum" Verginia:''' Clean and swift, yet without forsaking grandeur...
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 248,
+	"Value": "1"
+}</pre>
+::{{DIcon|Arrow}} This blade... shall sever the Titan's head!
+:::<!--Custom String Listener: TalkSentence_504121013-->
+:::'''"Dux Carminum" Verginia:''' Rhythmic and forceful, yet surging with passion...
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 248,
+	"Value": "2"
+}</pre>
+::{{DIcon|Arrow}} The golden blood is like dew, and the sea runs as clear as a river.
+:::<!--Custom String Listener: TalkSentence_504121015-->
+:::'''"Dux Carminum" Verginia:''' Restrained yet immersive...
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 248,
+	"Value": "3"
+}</pre>
+::<!--Custom String Trigger: TalkSentence_504121016-->
+::<!--Custom String Listener: TalkSentence_504121016-->
+::'''"Dux Carminum" Verginia:''' Your writing is even better than I i&mdash;imagined! If we put it all together...
+:<pre>{
+	"$type": "RPG.GameCore.SetEntityVisible",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvLocalPlayer"
+	}
+}</pre>
+::'''"Dux Carminum" Verginia:''' The raging tide calms in the instant the sword-bloom blossoms.
+::'''"Dux Carminum" Verginia:''' The chill of the lyre's notes has already brushed past the Titan's neck...
+::'''"Dux Carminum" Verginia:''' Listen now to the Gladius's final tremor... (Unparalleled... One takes the head across an army ten-thousand strong!/This blade... shall sever the Titan's head!/The golden blood is like dew, and the sea runs as clear as a river.)
+::'''"Dux Carminum" Verginia:''' ...
+::'''"Dux Carminum" Verginia:''' It feels like the effect is... even more distinctive than I imagined?
+::'''"Dux Carminum" Verginia:''' N&mdash;not that I plan to change it! After all, this is the writing personally penned by the Deliverer from beyond the sky.
+::'''"Dux Carminum" Verginia:''' I'm taking it to Apollonius right now. He'll definitely be full of praise for your verses!
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504121002: Config/Level/Mission/5041210/Act/Act504121002.json-->
+::In the illusion sculpted by the authority of Ocean, a bubble of a drunken demigod emerged...
+::'''"Dux Carminum" Verginia:''' Oh, {{MC|m=Mr.|f=Miss}} (Trailblazer)... G&mdash;Good day! Welcome to the f&mdash;feast!
+::<!--Custom String Trigger: Wait_Option_504121002_45-->
+::<!--Custom String Listener: Wait_Option_504121002_45-->
+::{{DIcon|Talk}} Dux Carminum, let's chat!
+:::<!--Custom String Listener: TalkSentence_504121104-->
+:::'''"Dux Carminum" Verginia:''' Th&mdash;Thank you! I'm not used to opening a conversation, so p&mdash;please go easy on me!
+:::{{DIcon|Arrow}} Let's talk about your past.
+::::<!--Custom String Listener: TalkSentence_504121106-->
+::::'''"Dux Carminum" Verginia:''' Where to begin... If I start from the very beginning, I remember being born into an unknown tribe in the outskirts of Castrum Kremnos...
+::::'''"Dux Carminum" Verginia:''' Ah, s&mdash;sorry, you probably don't want to hear such trivial things. Let me start from when I was expelled from Castrum Kremnos.
+::::'''"Dux Carminum" Verginia:''' Since I was young, I was very frail and weak. I couldn't even l&mdash;lift the lightest spear.
+::::'''"Dux Carminum" Verginia:''' But I loved everything r&mdash;romantic! I loved beautiful headscarves, loved burrowing in the library reading stories, and most of all, I l&mdash;loved reciting poetry!
+::::'''"Dux Carminum" Verginia:''' After leaving Castrum Kremnos, I spent some time as a bard. By chance, the Great Imperator saw my heroic ode and brought me into the army to serve as a chronicler for the Flame-Chase Army.
+::::'''"Dux Carminum" Verginia:''' Once I finish ''Heroic Saga of Flame-Chase'', I'll be able to repay the Great Imperator's kindness in taking me in.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Let's talk about your future.
+::::<!--Custom String Listener: TalkSentence_504121113-->
+::::'''"Dux Carminum" Verginia:''' My future... I haven't given it much thought. Or rather, I d&mdash;dared not to hope for the future I desire.
+::::'''"Dux Carminum" Verginia:''' After all, after Ocean, there are still Trickery, Death, Sky, Strife... With so many mighty Titans to overcome, a weak Chrysos Heir like me... m&mdash;might just end up throwing my life away in battle.
+::::'''"Dux Carminum" Verginia:''' As for the future the Great Imperator promised...
+::::'''"Dux Carminum" Verginia:''' Reciting poetry on a stage like the universe is intriguing, b&mdash;but it's also terrifying!
+::::'''"Dux Carminum" Verginia:''' However, if it comes to that, my comrades a&mdash;and Apollonius will probably cheer me on from behind!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Done chatting for now.
+::::<!--Custom String Listener: TalkSentence_504121119-->
+::::'''"Dux Carminum" Verginia:''' O&mdash;Okay, have fun at the feast, (Trailblazer)...
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} I know a little secret of yours.
+:::<!--Custom String Listener: TalkSentence_504121123-->
+:::'''"Dux Carminum" Verginia:''' Huh? I&mdash;I don't have any secrets I'm hiding, only an open one&mdash;
+:::'''"Dux Carminum" Verginia:''' I l&mdash;like Apollonius, I want to accompany him in this endless feast, forever, and ever...
+:::'''"Dux Carminum" Verginia:''' E&mdash;Everyone knows this.
+:::It seems Verginia still can't keep a secret, and that worries you a little. But aside from you, the others lost in the illusion likely won't suspect a thing.
+:::'''"Dux Carminum" Verginia:''' ...
+:::'''"Dux Carminum" Verginia:''' {{MC|f=Miss|m=Mr.}} (Trailblazer), thank you.
+:::'''"Dux Carminum" Verginia:''' I remember long ago, you once offered me a toast, "a romance that is sure to echo."
+:::'''"Dux Carminum" Verginia:''' It must be because of your blessing that I am able to receive the echoes of happiness in this fantasia...
+:::'''"Dux Carminum" Verginia:''' I, I mean... in this feast! Heheh...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Don't be so nervous next time.
+:::<!--Custom String Listener: TalkSentence_504121121-->
+:::'''"Dux Carminum" Verginia:''' Ah! I&mdash;I will t&mdash;try my best...
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Verginia
+|zhs  = 维吉妮娅
+|zht  = 維吉妮婭
+|ja   = ヴァージニア
+|ko   = 베르기니아
+|es   = Virginia
+|fr   = Verginia
+|ru   = Виргиния
+|th   = Verginia
+|vi   = Verginia
+|de   = Verginia
+|id   = Verginia
+|pt   = Vergínia
+}}
+==Change History==
+{{Change History|TODO}}

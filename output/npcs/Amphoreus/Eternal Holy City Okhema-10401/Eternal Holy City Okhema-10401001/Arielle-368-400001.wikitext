@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#Arielle#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Chimera Lover
+|image           = NPC Arielle.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Arielle''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_368_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033045: Config/Level/Mission/5040330/Act/Act504033045.json-->
+::'''Arielle:''' Chimeras are treasures of Okhema. Everyone should cherish them!
+::'''Arielle:''' Don't be fooled by their small size. They're very capable. Gentle, but serious about their tasks, and never complain about their assigned work. They've helped solve many problems for the people in the city recently.
+::'''Arielle:''' Not just that, chimeras are also highly receptive to teamwork, possessing great synergy, and will care for their handlers.
+::'''Arielle:''' Let me tell you, some days ago, I was feeling a bit down. Those chimeras kept hovering around me, and even started rubbing their horns across my leg to cheer me up... Haha, I'm so fortunate to be a Gardener here!
+::{{DIcon|Arrow}} Sounds like an enviable position.
+:::<!--Custom String Listener: TalkSentence_504042406-->
+:::'''Arielle:''' I know, right! A pity it takes a lot of training to become a Gardener, otherwise I'd make sure everyone in Okhema gets a chance to experience how totally adorable chimeras are!
+::{{DIcon|Arrow}} I don't like pets...
+:::<!--Custom String Listener: TalkSentence_504042408-->
+:::'''Arielle:''' Chimeras aren't pets. They're companions for humans! Could any animal, like those extinct prehistoric creatures, compare to the intelligent and considerate chimeras? I think not.
+::<!--Custom String Trigger: TalkSentence_504042409-->
+::<!--Custom String Listener: TalkSentence_504042409-->
+::'''Arielle:''' If you're interested, you can visit the Garden of Life more often. This is the chimeras' breeding center and habitat. You might just fall in love with them with a few more visits!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033046: Config/Level/Mission/5040330/Act/Act504033046.json-->
+::'''Arielle:''' The chimeras may be all too happy to help with work, but seeing them so exhausted, I can't help but feel a little sorry for them...
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I want to learn more about chimeras.
+::'''Arielle:''' Ask away. I don't think there's anyone else in Okhema who knows more about them than me.
+::<!--Custom String Trigger: Wait_Option_504033047_1207-->
+::<!--Custom String Listener: Wait_Option_504033047_1207-->
+::{{DIcon|Talk}} About the chimeras' origin...
+:::<!--Custom String Listener: TalkSentence_504042604-->
+:::'''Arielle:''' You must've heard before that the chimeras aren't actually native to Amphoreus. Rather, they were grown using the Seed of Life by the Garden's scholars.
+:::'''Arielle:''' Prehistoric creature information is recorded in the Seed of Life. Initially, scholars grew these seeds in hopes of restoring extinct creatures, but the end result was this wondrous animal &mdash; a creature of myriad characteristics.
+:::'''Arielle:''' We named it after the legendary beast, the Chimera &mdash; a whole new lifeform composed of different animal parts. Isn't it quite fitting?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the Gardeners' attitudes towards chimeras...
+:::<!--Custom String Listener: TalkSentence_504042608-->
+:::'''Arielle:''' Some Gardeners insist that the chimeras' appearance is a mistake, but I vehemently disagree!
+:::'''Arielle:''' I say, the chimera is a gift that Cerces bestowed upon Amphoreus &mdash; where else can you find such a cute and obedient critter? Reviving creatures of the past is nothing but a pipe dream, so we should just accept reality.
+:::'''Arielle:''' Now, the chimeras get along so well with the people of Okhema. Everyone loves them.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Nothing that interests me.
+:::<!--Custom String Listener: TalkSentence_504042612-->
+:::'''Arielle:''' Sure thing, you can drop to play with the chimeras if you're free. You'll definitely fall in love with them like I have!
+:::<!--Ends the current performance-->
+:{{DIcon}} I wish to learn more about the Garden of Life.
+::'''Arielle:''' Oh, I haven't been here long, so I'm not too sure about past matters. But ask away, and I will try my best to answer.
+::<!--Custom String Trigger: Wait_Option_504033047_1220-->
+::<!--Custom String Listener: Wait_Option_504033047_1220-->
+::{{DIcon|Talk}} About the Garden's function...
+:::<!--Custom String Listener: TalkSentence_504042615-->
+:::'''Arielle:''' Strictly speaking, the Garden of Life is an academic organization charged with researching all aspects related to life. Most of the scholars here studied at the Grove of Epiphany, where they were influenced by Cerces' wisdom.
+:::'''Arielle:''' But in recent times, as Okhema has more realistic problems to resolve, the Garden has also become a haven to alleviate her people's worries. They can care for dromases and eliminate diseases from crops here, among other things.
+:::'''Arielle:''' And! We've organized many chimera squads that work specially for humans. They're super popular right now. If you've run into a rut, you can make a request at the Garden and have chimeras help you out!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Gardeners...
+:::<!--Custom String Listener: TalkSentence_504042619-->
+:::'''Arielle:''' We may be called the Gardeners, but more accurately, we are scholars. Our usual work consists of caring and handling the chimeras in the Garden, no different from caring for flora.
+:::'''Arielle:''' Speaking of which... I haven't listened to a lecture at the Grove for quite a while. I wonder if they've made any new discoveries...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Nothing that interests me.
+:::<!--Custom String Listener: TalkSentence_end-->
+:::'''Arielle:''' Sure thing, you can drop to play with the chimeras if you're free. You'll definitely fall in love with them like I have!
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let's talk when we have more time!
+::'''Arielle:''' Sure thing, you can drop to play with the chimeras if you're free. You'll definitely fall in love with them like I have!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Arielle
+|zhs  = 埃雷
+|zht  = 埃雷
+|ja   = エレ
+|ko   = 아리엘레
+|es   = Ariel
+|fr   = Arielle
+|ru   = Ариэль
+|th   = Arielle
+|vi   = Arielle
+|de   = Arielle
+|id   = Arielle
+|pt   = Arielle
+}}
+==Change History==
+{{Change History|TODO}}

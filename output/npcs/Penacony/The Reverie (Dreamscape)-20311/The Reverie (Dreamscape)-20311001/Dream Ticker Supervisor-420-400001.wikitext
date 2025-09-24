@@ -1,0 +1,159 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dream Ticker Supervisor#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Dream Ticker Supervisor.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Dream Ticker Supervisor''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_420_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission not Finish: 802023602-->)
+::<!--Trigger PerformanceE 802023101: Config/Level/Mission/8020231/Act/Act802023101.json-->
+::'''Dream Ticker Supervisor:''' Tick-tock... What do I do, tick-tock...
+::'''Dream Ticker Supervisor:''' Tick-tock! Guest! Hello! I am Clockie! Welcome to Dreamville!
+::{{DIcon|Arrow}} What's wrong?
+::<!--Custom String Listener: TalkSentence_802020804-->
+::'''Dream Ticker Supervisor:''' Tick tock! Welcome to Dreamville!
+::'''Dream Ticker Supervisor:''' Tick-tock! I am Clockie! Welcome to Dreamville...
+::The strange clock repeats the same dialogue over and over, apparently not interested in speaking with you...
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 802023602-->)
+:;(First interaction)
+:::<!--Trigger PerformanceE 802023102: Config/Level/Mission/8020231/Act/Act802023102.json-->
+:::'''Dream Ticker Supervisor:''' Tick-tock... What do I do, tick-tock...
+:::'''Dream Ticker Supervisor:''' Tick-tock! Guest! Hello! I am Clockie! Welcome to Dreamville!
+:::{{DIcon|Arrow}} I got a message from you...
+::::<!--Custom String Listener: TalkSentence_802020854-->
+::::'''Dream Ticker Supervisor:''' Tick-tock? So you are the one helping out. I am ashamed...
+:::{{DIcon|Arrow}} You the one sending me these spam messages?
+::::<!--Custom String Listener: TalkSentence_802020856-->
+::::'''Dream Ticker Supervisor:''' Tick-tock? It's not spam, just that my mechanical hands aren't great for using phones...
+:::<!--Custom String Trigger: TalkSentence_802020857-->
+:::<!--Custom String Listener: TalkSentence_802020857-->
+:::'''Dream Ticker Supervisor:''' Tick-tock, my dear guest, I'm sorry that you had to witness this uncouth sight of us Dream Tickers.
+:::{{DIcon|Arrow}} What exactly are you?
+:::<!--Custom String Listener: TalkSentence_802020859-->
+:::'''Dream Ticker Supervisor:''' Tick-tock, we're the Sweet Dreams Troupe of the Iris Family, outfitted as attendants in the image of the cartoon star Clockie, and are used to bring joy to our guests via our adorable aesthetics!
+:::{{DIcon|Arrow}} It's not adorable at all...
+::::<!--Custom String Listener: TalkSentence_802020861-->
+::::'''Dream Ticker Supervisor:''' Tick-tock... There are myriad aesthetic tastes across the cosmos. Many of our guests love us.
+:::{{DIcon|Arrow}} You look nothing like Clockie at all...
+::::<!--Custom String Listener: TalkSentence_802020863-->
+::::'''Dream Ticker Supervisor:''' Tick-tock... I don't know what our creator was thinking either, but that was supposed to be the planned design!
+:::<!--Custom String Trigger: TalkSentence_802020864-->
+:::<!--Custom String Listener: TalkSentence_802020864-->
+:::'''Dream Ticker Supervisor:''' Tick-tock, our jobs are the most mundane among the Sweet Dreams Troupe &mdash; we have to repeat the same lines every day, and there are almost no chances of promotion or days off...
+:::'''Dream Ticker Supervisor:''' Middle-management Dream Tickers like us fear that our subordinates will turn into the Dreamjolt Troupe, which is why we brought some building blocks to help them decompress.
+:::'''Dream Ticker Supervisor:''' But... But they all turned wonky after receiving the building blocks. Tick-tock, I've received too many guest complaints already!
+:::'''Dream Ticker Supervisor:''' Tick-tock, if this keeps up, our entire department will be optimized... But a Dream Ticker told me that someone who could fix us showed up &mdash; and that's you, my dear guest!
+:::{{DIcon|Arrow}} Do you need any help?
+:::<!--Custom String Listener: TalkSentence_802020869-->
+:::'''Dream Ticker Supervisor:''' Tick-tock, yes! Since you can fix us, you must possess some extraordinary talent. Please help us!
+:::{{DIcon|Arrow}} Leave it to me.
+::::<!--Custom String Listener: TalkSentence_802020871-->
+::::'''Dream Ticker Supervisor:''' Tick-tock, you're the kindest person ever! I'll have my subordinates prepare a token of appreciation for you!
+:::{{DIcon|Arrow}} Other people can't fix you?
+::::<!--Custom String Listener: TalkSentence_802020873-->
+::::'''Dream Ticker Supervisor:''' Tick-tock, our internal structures are very complicated. Your average Dreamweaver wouldn't even begin to know how to navigate them... They would only find an excuse to dispose of the faulty Dream Tickers to cover up their incompetence!
+:::<!--Custom String Trigger: TalkSentence_802020874-->
+:::<!--Custom String Listener: TalkSentence_802020874-->
+:::'''Dream Ticker Supervisor:''' Please look for the faulty Dream Tickers across the dreams. Tick-tock, and remember to bring those strange blocks back too!
+:::<!--Ends the current performance-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 802023103: Config/Level/Mission/8020231/Act/Act802023103.json-->
+:::'''Dream Ticker Supervisor:''' Tick-tock, kind guest, I thank you for your compassionate act on behalf of all Dream Tickers!
+:::<!--Ends the current performance-->
+:::<!--Open NPC Menu-->
+::;(If {{cx}}<!--SubMission Started: 802023603-->)
+:{{DIcon|?}} Retrieve the Eerie Building Blocks.
+::::<!--Custom String Trigger: ConsumeItem_802023603-->
+::;(If {{cx}}<!--SubMission Started: 802023104--> and {{cx}}<!--SubMission Started: 802023603-->)
+:{{DIcon|?}} Retrieve the Eerie Building Blocks.
+::::<!--Custom String Trigger: ConsumeItem_802023104-->
+::;(If {{cx}}<!--SubMission Started: 802023106-->, {{cx}}<!--SubMission Started: 802023104-->, and {{cx}}<!--SubMission Started: 802023603-->)
+:{{DIcon|?}} Retrieve the Eerie Building Blocks.
+::::<!--Custom String Trigger: ConsumeItem_802023106-->
+:::{{DIcon}} I'd like to chat with you...
+::::'''Dream Ticker Supervisor:''' Tick-tock, okay! Our job is to accompany our guests.
+::::<!--Custom String Trigger: TalkSentence_802020954-->
+::::<!--Custom String Listener: TalkSentence_802020954-->
+::::{{DIcon|Talk}} What's your job about?
+:::::<!--Custom String Listener: TalkSentence_802020955-->
+:::::'''Dream Ticker Supervisor:''' Tick-tock, everyone in the Sweet Dreams Troupe are Dreamscape machines that serve our guests. We were created by our Dreamweavers, are managed by the Iris Family, and with our fellow artistes, bring joy to the Dreamscapes.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Who is your boss?
+:::::<!--Custom String Listener: TalkSentence_802020957-->
+:::::'''Dream Ticker Supervisor:''' Tick-tock, our team leader... I can't say, can't say. She said it was classified.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Where did these building blocks come from?
+:::::<!--Custom String Listener: TalkSentence_802020960-->
+:::::'''Dream Ticker Supervisor:''' Tick-tock, our troupe procurer purchased these. It's said he bought it from some Dreamchaser merchant.
+:::::'''Dream Ticker Supervisor:''' Tick-tock... Who knew he bought a bunch of faulty goods. Dang it, that fellow must've been getting kickbacks from this deal!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} Let's talk next time...
+:::::<!--Custom String Listener: TalkSentence_802020963-->
+:::::'''Dream Ticker Supervisor:''' Tick-tock, always at your service!
+:::::<!--Custom String Trigger: TalkSentence_802020969-->
+:::::<!--Custom String Listener: TalkSentence_802020969-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} Nothing, I'm fine.
+::::'''Dream Ticker Supervisor:''' Tick-tock, okay! I wish you a wonderful time in the dream!
+::::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

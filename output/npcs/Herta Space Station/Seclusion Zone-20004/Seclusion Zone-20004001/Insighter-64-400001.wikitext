@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#Insighter#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Insighter.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Insighter''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_64_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000170: Config/Level/Mission/5000030/Act/Act900000170.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500017101
+	]
+}</pre>
+::'''Insighter:''' Guys, please be very, very careful of those thugs under Gray Bean Paste. We need to take them seriously.
+::'''Insighter:''' Ah, it's you! It was you who sent me to that wicked teleporter! Because of you, I landed on my face and suffered for a long time!
+::{{DIcon|Arrow}} I did? I can't remember anything.
+:::<!--Custom String Listener: TalkSentence_500017005-->
+:::'''Insighter:''' I can't believe you don't remember me! Have you forgotten about Lord Molten Cheese Tart too?
+:::'''Insighter:''' You're a bad guy! How can you do this to us!?
+::{{DIcon|Arrow}} I'm sorry for being too rough on you guys.
+:::<!--Custom String Listener: TalkSentence_500017008-->
+:::'''Insighter:''' Mwahaha, you just apologized to me! I didn't expect your noble self would be willing to do that!
+:::'''Insighter:''' After all, you're Miss Ruan Mei's assistant &mdash; or should I say "deputy"?
+:::'''Insighter:''' Since you've apologized, I'll forgive you!
+::<!--Custom String Trigger: TalkSentence_500017011-->
+::<!--Custom String Listener: TalkSentence_500017011-->
+::'''Insighter:''' Mwahaha, what a surprise to see you here! By the way, I have a little secret to share with you. Don't tell the other bad snacks...
+::'''Insighter:''' Please stop addressing me as "Molten Cheese Tart" in public, not even "Honorable Lord Molten Cheese Tart".
+::'''Insighter:''' Now, I'm called the "Insighter," I am one who is wise and well-composed. Please call me "Lord Insighter" or "The Wise Lord Insighter" in the future!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000171: Config/Level/Mission/5000030/Act/Act900000171.json-->
+::'''Insighter:''' Guys, please be very, very careful of those thugs under Gray Bean Paste. We need to take them seriously.
+:'''Insighter:''' As a genius, I've figured out all the secrets in this zone, and I'm offering free life advice to everyone. If you run into any trouble, you can come to me!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to ask...
+::<!--Custom String Trigger: Wait_Option_900000172_744-->
+::<!--Custom String Listener: Wait_Option_900000172_744-->
+::{{DIcon|Talk}} Are you a friend or a foe of Gray Bean Paste?
+:::<!--Custom String Listener: TalkSentence_500017204-->
+:::'''Insighter:''' I'm no friend of that loser who's always crying and full of negativity! Don't ask something with such an obvious answer!
+:::'''Insighter:''' How is it supposed to gain Ruan Mei's recognition with all that negativity? We don't want it to spread its pessimism to other creations!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why the sudden name change?
+:::<!--Custom String Listener: TalkSentence_500017207-->
+:::Molten Cheese Tart&mdash; nope, the one who identifies as Insighter, looks at you with a firm gaze.
+:::'''Insighter:''' You taught me to be humble. Don't you remember that?
+:::'''Insighter:''' Ruan Mei admires you, so I'll listen to your advice and be someone like you!
+:::'''Insighter:''' The impression "Molten Cheese Tart" has left on everyone is set too deep to be changed, not even by a genius like me! So, I decided to get a new name and start afresh!
+:::'''Insighter:''' As long as my changes are significant enough, Ruan Mei will definitely be moved by my effort!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_500017213-->
+:::'''Insighter:''' Mwahaha, I bet no one knows Ruan Mei better than I! It's a shame that most of my peers are too dumb to discern what Ruan Mei likes and gravitates to.
+:::'''Insighter:''' So, I have to shoulder the responsibility by showing everyone the way to win over Ruan Mei's favor!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500017216-->
+:::'''Insighter:''' Just ask me if you're unsure of something. Don't be a know-it-all.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Insighter:''' Alright! Catch you later.
+::'''Insighter:''' Mwahaha, it's just a matter of time for me to gain Miss Ruan Mei's recognition with my knowledge and vision!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

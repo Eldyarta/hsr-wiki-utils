@@ -1,0 +1,123 @@
+<%-- [PAGE_INFO]
+PageTitle=#Troupe Agent#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Troupe Agent.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Clock Studios Theme Park
+|relatives       = 
+}}
+'''Troupe Agent''' is an NPC on [[Penacony]], located in [[Clock Studios Theme Park]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Clock Studios Theme Park|npc_292_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 802212401-->)
+::<!--Trigger PerformanceD 802212401: Story/Discussion/Mission/8022124/DS802212401.json-->
+::{{tx}}
+::'''Troupe Agent:''' Director (Trailblazer)? I've heard a lot about you. I'm a messenger from the Iris Family and also the person in charge of the Sweet Dreams Troupe.
+::{{DIcon|Arrow}} You're from the Iris Family too?
+::<!--Custom String Listener: TalkSentence_802213453-->
+::'''Troupe Agent:''' Haha, I understand your concern &mdash; the kid that just came earlier was a newbie and may not have conveyed our message clearly. Please accept my apologies on behalf of the kid. I want to convey our utmost sincerity.
+::'''Troupe Agent:''' Clockie has always been Penacony's most valuable brand figure. The Sweet Dreams Troupe of our Iris Family has also been a popular brand image that's been well-liked by tourists recently.
+::'''Troupe Agent:''' So, the proposal I'm making isn't an acquisition at all, but a partnership! Together we can be greater by producing a new animation flick!
+::'''Troupe Agent:''' I wonder if you have any interest in a film collaboration?
+::{{DIcon|Arrow}} I'm all ears.
+::{{DIcon|Arrow}} That tone sure changed fast...
+:::<!--Custom String Listener: TalkSentence_802213459-->
+:::'''Troupe Agent:''' Haha, as I'm sure you know, Director, a mutual victory is much more pragmatic than competition to us.
+:::Is there any money in it?
+:::'''Troupe Agent:''' Haha, as it is with such matters with mutual benefits, you will surely stand to gain as well.
+:::<!--Custom String Trigger: TalkSentence_802213462-->
+::{{DIcon|Arrow}} Is there any money in it?
+:::<!--Custom String Listener: TalkSentence_802213461-->
+:::'''Troupe Agent:''' Haha, as it is with such matters with mutual benefits, you will surely stand to gain as well.
+:::<!--Custom String Trigger: TalkSentence_802213462-->
+::<!--Custom String Listener: TalkSentence_802213462-->
+::'''Troupe Agent:''' The Iris Family has the best directors and most professional actors. We can provide all the film equipment and staff.
+::'''Troupe Agent:''' We've even invited a special guest &mdash; the majestic trashcan buried in the dream...
+::'''Troupe Agent:''' Of course, a partnership requires that both parties participate. We're willing to bill you, {{MC|m=Mr.|f=Miss}} (Trailblazer), as the executive producer. You can check in on the progress and content at the film set at any time.
+::'''Troupe Agent:''' As for the script for this movie... I've also discussed it with Mr. Pisce, to adapt that classic tale &mdash; the most romantic and magical {{Color|keyword|nobold=1|''Dreamjoy Ascension''}}! What do you think?
+::{{DIcon|Arrow}} Interesting! Action!
+:::<!--Custom String Listener: TalkSentence_802213467-->
+:::'''Troupe Agent:''' Wonderful! The three directors at the set all appear to have run into a little trouble. {{MC|m=Mr.|f=Miss}} Executive Producer, please go and lend a hand.
+:::{{tx}}
+:::<!--Custom String Trigger: 802212402_OpenRaid-->
+::{{DIcon|Exit}} Allow me to ponder it a bit more...
+:::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_802212401-->
+;(If {{cx}}<!--SubMission not Started: 802212401-->)
+:;(If {{cx}}<!--SubMission Finish: 802212404-->)
+:::<!--Trigger PerformanceE 802212406: Config/Level/Mission/8022124/Act/Act802212406.json-->
+:::'''Troupe Agent:''' The most romantic and magical {{Color|keyword|nobold=1|''Dreamjoy Ascension''}} &mdash; are there any scenes you wish to reshoot?
+:::{{DIcon|Arrow}} That's right, I want to start rolling!
+::::<!--Custom String Listener: 802213572_Openraid-->
+::::<!--Custom String Trigger: 802212402_OpenRaid-->
+:::{{DIcon|Exit}} I'm just here to take a look.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+:;(If {{cx}}<!--SubMission not Finish: 802212404-->)
+:::<!--Trigger PerformanceE 802212402: Config/Level/Mission/8022124/Act/Act802212402.json-->
+:::'''Troupe Agent:''' The most romantic and magical {{Color|keyword|nobold=1|''Dreamjoy Ascension''}} &mdash; you can start rolling when you've decided.
+:::{{DIcon|Arrow}} Interesting! Action!
+::::<!--Custom String Listener: 802213492_Openraid-->
+::::<!--Custom String Trigger: 802212402_OpenRaid-->
+:::{{DIcon|Exit}} Allow me to ponder it a bit more...
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

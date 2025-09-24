@@ -1,0 +1,295 @@
+<%-- [PAGE_INFO]
+PageTitle=#Arma#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Prison Merchant
+|image           = NPC Arma.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Arma''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_117_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell3"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 502020001: Config/Level/Mission/5020200/Act/Act502020001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450109
+	]
+}</pre>
+::'''Arma:''' Would you like to buy something, dear customer...? From the way you dress, you don't seem to be a prisoner or a guard... A rare sight, indeed!
+::{{DIcon|Arrow}} A customer? In this place...?
+:::<!--Custom String Listener: TalkSentence_502020003-->
+:::'''Arma:''' Haha, looks like you're not familiar with our group. In The Shackling Prison, everyone's my customer!
+::{{DIcon|Arrow}} Someone opened a shop in The Shackling Prison?
+:::<!--Custom String Listener: TalkSentence_502020005-->
+:::'''Arma:''' Haha, looks like you're not familiar with our group. Prisoners are people too. Where there are people, there would be needs, and needs drive business. Our group's mission is to ensure you can do every sort of business in The Shackling Prison.
+::<!--Custom String Trigger: TalkSentence_502020006-->
+::<!--Custom String Listener: TalkSentence_502020006-->
+::'''Arma:''' Apologies, I forgot to introduce myself. I'm Arma, chief executive of the Arma Correctional Group. You can also call me boss or shopkeep.
+::'''Arma:''' Our group has been operating in The Shackling Prison for many years. We've produced many bestsellers that are popular throughout the prison, such as this Arma Correctional Body Wash. Not only does it remove grime and kill germs, but it also leaves the body feeling cool and refreshed...
+::'''Arma:''' But, looking at how you're dressed, you must be a distinguished guest from another world sent here to inspect The Shackling Prison?
+::'''Arma:''' A guest with your esteem probably won't like our group's shoddy products... But we do have products crafted with our prisoners' full ingenuity. You won't find these anywhere else!
+::'''Arma:''' Why not buy something as a souvenir for yourself or a family member? I guarantee it'll be something that raises your prestige back home!
+::'''Arma:''' By the way, we don't accept cash here. We can't spend them anyway. The common currency in The Shackling Prison is Trick Snacks, so you can use that to buy things from me.
+::'''Arma:''' How is it? How can the Arma Correctional Group be of service?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502020002: Config/Level/Mission/5020200/Act/Act502020002.json-->
+::'''Arma:''' Welcome back, dear customer! The Arma Correctional Group is at your service!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Show me the goods...
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 117,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 61,
+	"TaskID": []
+}</pre>
+::'''Arma:''' Take care! The Arma Correctional Group will always be at your service!
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell3"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} I'd like to ask you something.
+::'''Arma:''' Ask anything you like! Answering customers' questions is also part of my duties.
+::<!--Custom String Trigger: Wait_Option_502020004_98-->
+::<!--Custom String Listener: Wait_Option_502020004_98-->
+::{{DIcon|Talk}} What crime did you commit?
+:::<!--Custom String Listener: TalkSentence_502020213-->
+:::'''Arma:''' *sigh* What else can a borisin be accused of? War crimes! But let me be clear! I don't have any blood on my hands!
+:::'''Arma:''' I've never enjoyed fighting since young. I only like business... The whole pack thought I was pathetic. Even my father thought I was an embarrassment.
+:::'''Arma:''' One day while the pack was out looting a caravan, my father forced me onto a beast ship so I would "stain my hands with blood and become a real man!"
+:::'''Arma:''' Before I could do anything bad, the beast ship was shot down. By the time I woke up, I was already a war criminal in The Shackling Prison. It's been hundreds of years since then.
+:::'''Arma:''' *sigh* If only I had been born on board the Xianzhou! I would be a successful entrepreneur by now!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What made you start doing business in The Shackling Prison?
+:::<!--Custom String Listener: TalkSentence_502020219-->
+:::'''Arma:''' It was purely by chance. When I first arrived, I was totally lost. I thought I was going to rot away here for the rest of my life. I would scratch my head in frustration every day until the fur between my ears fell out.
+:::'''Arma:''' Then one day, a cycrane flew to my cell and dropped a few packets of Trick Snacks on the floor. It said it wanted to buy the fur I had scratched off.
+:::'''Arma:''' I asked what it wanted to do with my fur. It said that borisin fur is known to be durable, and that rope made from borisin fur is a rarity in The Shackling Prison.
+:::'''Arma:''' That was when I realized everything in this world has its worth.
+:::'''Arma:''' Not long after, I established the Arma Correctional Group with Shiratori. Our goal is to provide limitless service to our customers when we only have limited resources!
+:::{{DIcon|Arrow}} The prison guards let you do it?
+::::<!--Custom String Listener: TalkSentence_502020225-->
+::::'''Arma:''' Heh heh! Of course they can't openly allow us to conduct business, but Madam Chiyi made a private deal with us. As long as we follow the rules and obey instructions, she'll turn a blind eye to our "little venture."
+::::'''Arma:''' As she puts it: "Giving bored prisoners something to do will keep your noses clean and prevent you from starting fights." Of course, I didn't enjoy fighting to begin with.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Borisin know how to do business?
+::::<!--Custom String Listener: TalkSentence_502020228-->
+::::'''Arma:''' You seem to be implying we're uncivilized, dear customer. Doing business is all about buying low and selling high &mdash; I mean, mutual profit. It's not that difficult.
+::::'''Arma:''' I may not enjoy fighting, but even the more violent members of the pack have to go trade resources with other packs' members, other Denizens of Abundance, or the Annihilation Gang.
+::::'''Arma:''' It's not good to believe in stereotypes, dear customer.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where do you get your goods?
+:::<!--Custom String Listener: TalkSentence_502020232-->
+:::'''Arma:''' I'm sure you're aware of the situation in The Shackling Prison. Even a fly can't make its way inside, so we have to forget about importing goods. All the products from our group are sourced from local materials and handcrafted.
+:::'''Arma:''' Things like leftover food, teeth that fell out, or dirt scraped off someone's body... They may look like trash to an outsider, but they're all precious raw materials to us.
+:::'''Arma:''' You don't know how much time and effort I've put into weaving my shed hairs into a rope! If I were selling it outside, it would be sold as a piece of art!
+:::'''Arma:''' However, the general market conditions have been on the down lately! Originally, our group had a bright future. Our transaction volume was rising, and we even expanded operations and recruited a third person...
+:::'''Arma:''' But ever since the Warhead escaped from the prison, management of The Shackling Prison has become stricter. Most of the group's sales channels suffered a major blow... Madam Chiyi also instructed us to lie low for now and not cause trouble for the Ten Lords. *sigh* How miserable.
+:::'''Arma:''' But I believe that as long as our group stays united and continues to provide premium service to our customers, we'll definitely be able to brave through these harsh circumstances!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} It feels like you didn't do anything bad.
+:::<!--Custom String Listener: TalkSentence_502020239-->
+:::'''Arma:''' I said the exact same thing when I was sentenced by the Ten-Lords Commission! But the judges said that no matter what reasons I had, participating in an invasion was wrong, and I had to pay the price.
+:::'''Arma:''' However, the judges were quite reasonable. They told me that if I could complete "13 Outstanding Accolades" like Madam Jingliu, they would grant me special arrangements and allow me to leave The Shackling Prison once every week to set up shop outside!
+:::{{DIcon|Arrow}} Isn't that asking for too much?
+:::{{DIcon|Arrow}} Like Jingliu? Are you serious?
+:::<!--Custom String Listener: TalkSentence_502020243-->
+:::'''Arma:''' At first, I too thought that it was way too difficult, but the judges gave me a clear direction &mdash; each time I help the Ten-Lords Commission, it would be considered 1 "Small Merit." After accumulating 13 "Small Merits," they can be combined into a "Moderate Merit."
+:::'''Arma:''' After accumulating 13 "Moderate Merits," they can then be combined into a "Huge Merit," and after accumulating 13 "Huge Merits," they can be combined into an "Outstanding Accolade"!
+:::'''Arma:''' Once I accumulate 13 "Outstanding Accolades," I'll be able to leave The Shackling Prison once every week! Darn, I'm feeling excited just thinking about it! The Ten-Lords Commission is truly compassionate!
+:::{{DIcon|Arrow}} Is this a math question?
+::::<!--Custom String Listener: TalkSentence_502020247-->
+::::'''Arma:''' Oh merciful Ten Lords! Math has never felt so heartwarming before!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} So how many have you accumulated so far?
+::::<!--Custom String Listener: TalkSentence_502020249-->
+::::'''Arma:''' As of today, I have already collected 7 "Small Merits"!
+::::'''Arma:''' During the previous prison break incident, not only did I not participate in it, I even convinced our group's two directors to not participate as well... Oh, merciful Ten Lords! The judges said that it would be considered 3 "Small Merits." It really warmed my heart!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I still have something to do, so I'll come back another time.
+:::<!--Custom String Listener: TalkSentence_502020252-->
+:::'''Arma:''' Take care! The Arma Correctional Group will always be at your service!
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell3"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have things to take care of. I'll come back again another time.
+::'''Arma:''' Take care! The Arma Correctional Group will always be at your service!
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell3"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502020015)
+:<!--Custom String Listener: TalkSentence_502020015-->
+::'''Arma:''' Ask anything you like! Answering customers' questions is also part of my duties.
+::<!--Custom String Trigger: Wait_Option_502020001_25-->
+::<!--Custom String Listener: Wait_Option_502020001_25-->
+::{{DIcon|Talk}} What crime did you commit?
+:::<!--Custom String Listener: TalkSentence_502020017-->
+:::'''Arma:''' *sigh* What else can a borisin be accused of? War crimes! But let me be clear! I don't have any blood on my hands!
+:::'''Arma:''' I've never enjoyed fighting since young. I only like business... The whole pack thought I was pathetic. Even my father thought I was an embarrassment.
+:::'''Arma:''' One day while the pack was out looting a caravan, my father forced me onto a beast ship so I would "stain my hands with blood and become a real man!"
+:::'''Arma:''' Before I could do anything bad, the beast ship was shot down. By the time I woke up, I was already a war criminal in The Shackling Prison. It's been hundreds of years since then.
+:::'''Arma:''' *sigh* If only I had been born on board the Xianzhou! I would be a successful entrepreneur by now!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What made you start doing business in The Shackling Prison?
+:::<!--Custom String Listener: TalkSentence_502020023-->
+:::'''Arma:''' It was purely by chance. When I first arrived, I was totally lost. I thought I was going to rot away here for the rest of my life. I would scratch my head in frustration every day until the fur between my ears fell out.
+:::'''Arma:''' Then one day, a cycrane flew to my cell and dropped a few packets of Trick Snacks on the floor. It said it wanted to buy the fur I had scratched off.
+:::'''Arma:''' I asked what it wanted to do with my fur. It said that borisin fur is known to be durable, and that rope made from borisin fur is a rarity in The Shackling Prison.
+:::'''Arma:''' That was when I realized everything in this world has its worth.
+:::'''Arma:''' Not long after, I established the Arma Correctional Group with Shiratori. Our goal is to provide limitless service to our customers when we only have limited resources!
+:::{{DIcon|Arrow}} The prison guards let you do it?
+::::<!--Custom String Listener: TalkSentence_502020029-->
+::::'''Arma:''' Heh heh! Of course they can't openly allow us to conduct business, but Madam Chiyi made a private deal with us. As long as we follow the rules and obey instructions, she'll turn a blind eye to our "little venture."
+::::'''Arma:''' As she puts it: "Giving bored prisoners something to do will keep your noses clean and prevent you from starting fights." Of course, I didn't enjoy fighting to begin with.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Borisin know how to do business?
+::::<!--Custom String Listener: TalkSentence_502020032-->
+::::'''Arma:''' You seem to be implying we're uncivilized, dear customer. Doing business is all about buying low and selling high &mdash; I mean, mutual profit. It's not that difficult.
+::::'''Arma:''' I may not enjoy fighting, but even the more violent members of the pack have to go trade resources with other packs' members, other Denizens of Abundance, or the Annihilation Gang.
+::::'''Arma:''' It's not good to believe in stereotypes, dear customer.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where do you get your goods?
+:::<!--Custom String Listener: TalkSentence_502020036-->
+:::'''Arma:''' I'm sure you're aware of the situation in The Shackling Prison. Even a fly can't make its way inside, so we have to forget about importing goods. All the products from our group are sourced from local materials and handcrafted.
+:::'''Arma:''' Things like leftover food, teeth that fell out, or dirt scraped off someone's body... They may look like trash to an outsider, but they're all precious raw materials to us.
+:::'''Arma:''' You don't know how much time and effort I've put into weaving my shed hairs into a rope! If I were selling it outside, it would be sold as a piece of art!
+:::'''Arma:''' However, the general market conditions have been on the down lately! Originally, our group had a bright future. Our transaction volume was rising, and we even expanded operations and recruited a third person...
+:::'''Arma:''' But ever since the Warhead escaped from the prison, management of The Shackling Prison has become stricter. Most of the group's sales channels suffered a major blow... Madam Chiyi also instructed us to lie low for now and not cause trouble for the Ten Lords. *sigh* How miserable.
+:::'''Arma:''' But I believe that as long as our group stays united and continues to provide premium service to our customers, we'll definitely be able to brave through these harsh circumstances!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} It feels like you didn't do anything bad.
+:::<!--Custom String Listener: TalkSentence_502020043-->
+:::'''Arma:''' I said the exact same thing when I was sentenced by the Ten-Lords Commission! But the judges said that no matter what reasons I had, participating in an invasion was wrong, and I had to pay the price.
+:::'''Arma:''' However, the judges were quite reasonable. They told me that if I could complete "13 Outstanding Accolades" like Madam Jingliu, they would grant me special arrangements and allow me to leave The Shackling Prison once every week to set up shop outside!
+:::{{DIcon|Arrow}} Isn't that asking for too much?
+:::{{DIcon|Arrow}} Like Jingliu? Are you serious?
+:::<!--Custom String Listener: TalkSentence_502020047-->
+:::'''Arma:''' At first, I too thought that it was way too difficult, but the judges gave me a clear direction &mdash; each time I help the Ten-Lords Commission, it would be considered 1 "Small Merit." After accumulating 13 "Small Merits," they can be combined into a "Moderate Merit."
+:::'''Arma:''' After accumulating 13 "Moderate Merits," they can then be combined into a "Huge Merit," and after accumulating 13 "Huge Merits," they can be combined into an "Outstanding Accolade"!
+:::'''Arma:''' Once I accumulate 13 "Outstanding Accolades," I'll be able to leave The Shackling Prison once every week! Darn, I'm feeling excited just thinking about it! The Ten-Lords Commission is truly compassionate!
+:::{{DIcon|Arrow}} Is this a math question?
+::::<!--Custom String Listener: TalkSentence_502020051-->
+::::'''Arma:''' Oh merciful Ten Lords! Math has never felt so heartwarming before!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} So how many have you accumulated so far?
+::::<!--Custom String Listener: TalkSentence_502020053-->
+::::'''Arma:''' As of today, I have already collected 7 "Small Merits"!
+::::'''Arma:''' During the previous prison break incident, not only did I not participate in it, I even convinced our group's two directors to not participate as well... Oh, merciful Ten Lords! The judges said that it would be considered 3 "Small Merits." It really warmed my heart!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I still have something to do, so I'll come back another time.
+:::<!--Custom String Listener: TalkSentence_502020056-->
+:::'''Arma:''' Take care! The Arma Correctional Group will always be at your service!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502020058)
+:<!--Custom String Listener: TalkSentence_502020058-->
+::'''Arma:''' Take care! The Arma Correctional Group will always be at your service!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

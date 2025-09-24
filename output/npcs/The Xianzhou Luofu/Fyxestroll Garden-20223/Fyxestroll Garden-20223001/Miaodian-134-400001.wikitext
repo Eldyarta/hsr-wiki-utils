@@ -1,0 +1,130 @@
+<%-- [PAGE_INFO]
+PageTitle=#Miaodian#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Wraith Warden
+|image           = NPC Miaodian.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Fyxestroll Garden
+|relatives       = 
+}}
+'''Miaodian''' is an NPC on [[The Xianzhou Luofu]], located in [[Fyxestroll Garden]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Fyxestroll Garden|npc_134_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502100208: Config/Level/NPCDialogue/P20223/Act/Act502100208.json-->
+::'''Miaodian:''' I'm so tired... I'm so tired... My tiredness is enough to get me mara-struck... Oh, are you here on inspection, (Trailblazer)?
+::{{DIcon|Arrow}} Why don't you go take a rest?
+:::<!--Custom String Listener: TalkSentence_502100743-->
+:::'''Miaodian:''' I'm fine, I'm fine. It's almost time to change guard.
+::{{DIcon|Arrow}} Can you really become mara-struck from tiredness?
+:::<!--Custom String Listener: TalkSentence_502100745-->
+:::'''Miaodian:''' How would I know? All we can do is wait and see... Seeing is believing after all.
+::{{DIcon|Arrow}} Stand your post! No slacking off!
+:::<!--Custom String Listener: TalkSentence_502100747-->
+:::'''Miaodian:''' I'm working hard enough, don't you think?
+::<!--Custom String Trigger: TalkSentence_502100748-->
+::<!--Custom String Listener: TalkSentence_502100748-->
+::'''Miaodian:''' I can't, I'm just too tired. How about you stay for a chat?
+::{{DIcon|Arrow}} You have time to chat while standing guard?
+::<!--Custom String Listener: TalkSentence_502100750-->
+::'''Miaodian:''' If I were talking with someone else, my leader would punish me. If it's you... I'll just tell them you're asking me about work and it should be okay.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502100209: Config/Level/NPCDialogue/P20223/Act/Act502100209.json-->
+::'''Miaodian:''' You're back, O great (Trailblazer)? Have a chat with me. I can't take it anymore. I'm falling asleep.
+:{{DIcon|Arrow}} Then let's have a chat.
+::<!--Custom String Listener: TalkSentence_502100752-->
+::'''Miaodian:''' Great. What do you want to talk about?
+::<!--Custom String Trigger: Wait_Option_502100208_257-->
+::<!--Custom String Listener: Wait_Option_502100208_257-->
+::{{DIcon|Talk}} What do you do for a living?
+:::<!--Custom String Listener: TalkSentence_502100754-->
+:::'''Miaodian:''' I'm a guard, of course! ...Uh, specifically, I'm a warden in the Ten-Lords Commission.
+:::'''Miaodian:''' As for what a warden is... Just think of it as a Cloud Knight under the Ten Lords.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you been working at the Ten-Lords Commission for a long time?
+:::<!--Custom String Listener: TalkSentence_502100757-->
+:::'''Miaodian:''' Not really. I doubt many can work "at the Ten-Lords Commission for a long time."
+:::'''Miaodian:''' As you know, the Ten-Lords Commission is a rather unique place. It has a vital duty of administering Xianzhou people's lives and deaths.
+:::'''Miaodian:''' Hence, the Ten-Lords Commission must remain independent and clean. Any benefits established between the commission and functional society can pose a potential risk that will destabilize the Alliance.
+:::'''Miaodian:''' Anyway, because of this, the members of the Ten-Lords Commission are made up of people who live in seclusion &mdash; orphans, weirdos, prisoners, just to name a few.
+:::'''Miaodian:''' As for which category I belong... That's up to your imagination.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you working at the Ten-Lords Commission?
+:::<!--Custom String Listener: TalkSentence_502100763-->
+:::'''Miaodian:''' Well, I guess I volunteered. How should I put it... There's a man who has history with me. I need to find and kill him personally.
+:::'''Miaodian:''' Let's change the subject... This is getting a little too dark. Hahaha.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How was Fyxestroll Garden like in the past?
+:::<!--Custom String Listener: TalkSentence_502100766-->
+:::'''Miaodian:''' It's about... six or seven hundred years ago, I think? I was still studying then, and my house was around this area.
+:::'''Miaodian:''' Back then, I often came to Fyxestroll Garden for a stroll. The scenery was beautiful, the air was fresh, and it was quiet all around. Do you see the Swallowsong Pavilion over there? That was where I had my first kiss.
+:::'''Miaodian:''' Ah... Those good old times are now water under the bridge. Fyxestroll Garden has become such an eerie place now. Of the two lovers who kissed under that pavilion, one has become a warden in the Ten-Lords Commission, and the other one defected as a Denizen of Abundance.
+:::'''Miaodian:''' Come to think of it, Fyxestroll Garden might not be as good as I remembered... Perhaps it was my own rose-tinted glasses that filtered away its eeriness.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I got to go. Talk to you later.
+:::<!--Custom String Listener: TalkSentence_502100771-->
+:::'''Miaodian:''' Sure. Be careful.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I got to go. Talk to you later.
+::<!--Custom String Listener: TalkSentence_502100773-->
+::'''Miaodian:''' Sure. Be careful.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

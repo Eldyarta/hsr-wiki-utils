@@ -1,0 +1,114 @@
+<%-- [PAGE_INFO]
+PageTitle=#Periphas#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Exploration Team Member
+|image           = NPC Periphas.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Murmuring Woods" Grove of Epiphany
+|relatives       = 
+}}
+'''Periphas''' is an NPC on [[Amphoreus]], located in [["Murmuring Woods" Grove of Epiphany]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Murmuring Woods" Grove of Epiphany|npc_210_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{Mission|Unnatural Death|showChapter=0}} has been completed)
+::<!--Trigger PerformanceE 504054003: Config/Level/Mission/5040540/Act/Act504054003.json-->
+::'''Periphas:''' "Death is nature's norm. What is extraordinary is that we live."
+::'''Periphas:''' When I reflect on this line from Nicomachus now, it stirs a complex mix of emotions...
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Feel like talking for a bit?
+:::'''Periphas:''' Ah, sure. Would you like to hear about the Okhema Deduction Society? My friends... they are wonderful people.
+:::<!--Custom String Trigger: Wait_Option_504054001_8-->
+:::<!--Custom String Listener: Wait_Option_504054001_8-->
+:::{{DIcon|Talk}} Tell me about Nicomachus.
+::::<!--Custom String Listener: TalkSentence_504054003-->
+::::'''Periphas:''' Nicomachus is a bit older than us and is known for his calm and collected nature. He holds the position of head secretary for the Nodist Sage, in charge of recruitment. Known for his stringent standards, he's reputed to have recruited only two people since his tenure began.
+::::'''Periphas:''' He joined the Deduction Society partly to spend more personal time with Miss Clio, which is... quite a ridiculous reason. He is a capable scholar at heart, though, and he's read more than any of us.
+::::'''Periphas:''' As for an amusing tale about him &mdash; this one comes from Andre. Once, Nicomachus was in a public debate with a Nousporist scholar about whether the Titans' powers are absolute. Nicomachus offered this kind of argument &mdash;
+::::'''Periphas:''' "The power of pi times the natural logarithm, raised to the power of the imaginary unit plus one, equals zero, thereby proving the absolute power of the Titan. Q.E.D."
+::::'''Periphas:''' Turns out, he just really needed a bathroom break.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about Andreas.
+::::<!--Custom String Listener: TalkSentence_504054009-->
+::::'''Periphas:''' Andreas is the youngest of us, born and raised in Okhema just like me. He's a devoted disciple of Kephale, though his brother's lack of reverence frequently gives him headaches.
+::::'''Periphas:''' He joined us after seeing my recruitment post on the teleslate. Though deeply faithful, he isn't old-fashioned and enjoys participating in unusual activities like ours.
+::::'''Periphas:''' He's also a member of the Okhema Stickball Society, rumored to play better than many from the Helkolithists, though that might be his own brag.
+::::'''Periphas:''' I had hoped his joining would bring in more young people so we could do more together, but alas.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about Clio.
+::::<!--Custom String Listener: TalkSentence_504054014-->
+::::'''Periphas:''' Miss Clio is practically a founding member of the society. It all started when she came to the baths and bumped into a few of us reading detective novels in the library. She happened to like the same author as us, and that kicked off our conversation...
+::::'''Periphas:''' Then, since we kept seeing each other at the baths, our group exchanged contacts and established what we now proudly call the "Okhema Deduction Society."
+::::'''Periphas:''' Without regular gatherings, the group's dynamics shifted over time, and members have come and gone... Now, just the four of us remain actively involved.
+::::'''Periphas:''' I had envisioned several activities for us, but since everyone else is employed at the Grove, their free time is usually taken up by all sorts of research projects, so...
+::::'''Periphas:''' ...Ah, such is unreasonable fate.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Tell me about yourself.
+::::<!--Custom String Listener: TalkSentence_504054020-->
+::::'''Periphas:''' ...Me? Well, there isn't much to say.
+::::'''Periphas:''' I used to work security at the baths and served as a guard for caravans, but now my gigs are mostly about retrieving lost items from remote areas for everyone.
+::::'''Periphas:''' While it might sound like the life of an "adventurer," it's mostly about checking on the teleslate information from the Grove, predicting the movements of the black tide, and mapping out a relatively safe route for retrieval missions...
+::::'''Periphas:''' ...It's not a skilled job, really. Just one that depends on the whims of fate.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I have nothing more to chat about.
+::::<!--Custom String Listener: TalkSentence_504054025-->
+::::'''Periphas:''' Oh, that's alright. These are tumultuous times... Take care and stay safe.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Sorry, I was just passing through.
+:::'''Periphas:''' Oh, that's alright. These are tumultuous times... Take care and stay safe.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Periphas
+|zhs  = 珀里法斯
+|zht  = 珀里法斯
+|ja   = ペルファス
+|ko   = 페리파스
+|es   = Polifacio
+|fr   = Périphas
+|ru   = Перифас
+|th   = Periphas
+|vi   = Periphas
+|de   = Periphas
+|id   = Periphas
+|pt   = Periphas
+}}
+==Change History==
+{{Change History|TODO}}

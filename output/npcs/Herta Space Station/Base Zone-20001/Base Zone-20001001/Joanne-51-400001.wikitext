@@ -1,0 +1,289 @@
+<%-- [PAGE_INFO]
+PageTitle=#Joanne#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Medical Staff
+|image           = NPC Joanne.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Joanne''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_51_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404000202,
+		"Type": "submission_state_equal",
+		"Param1": 404000202,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404000202: Config/Level/Mission/4040002/Act/Act404000202.json-->
+:'''Joanne:''' Huh? Oh, your medical examination was today. My apologies for keeping you waiting.
+:'''Joanne:''' There were no appointments listed on the terminal today, so I left for a short break. I wasn't expecting anyone to actually show up.
+:'''Joanne:''' Let me see... Well, you're not from the space station, are you? So you were approved by... Oh, lead researcher. These results show several abnormalities...
+:{{DIcon|Arrow}} You have to save me, doctor.
+::<!--Custom String Listener: TalkSentence_404000217-->
+::'''Joanne:''' Don't panic, I'll explain it all to you slowly.
+:{{DIcon|Arrow}} Just give it to me straight, doc. I can take it.
+::<!--Custom String Listener: TalkSentence_404000219-->
+::'''Joanne:''' Okay, I'll cut to the chase.
+:<!--Custom String Trigger: TalkSentence_404000220-->
+:<!--Custom String Listener: TalkSentence_404000220-->
+:'''Joanne:''' Have you been feeling drained and lacking motivation to do anything lately? Maybe with some intermittent symptoms like dizziness or tinnitus?
+:{{DIcon|Arrow}} Seems like it, at least a little bit.
+::<!--Custom String Listener: TalkSentence_404000221-->
+::'''Joanne:''' As I expected.
+:{{DIcon|Arrow}} No, I feel fine.
+::<!--Custom String Listener: TalkSentence_404000223-->
+::'''Joanne:''' Light symptoms such as these can easily go undetected.
+:'''Joanne:''' In any case, the situation isn't that grave. To put it bluntly, you're sleep-deprived. You should be more like me, get plenty of rest and don't stay up too late.
+:'''Joanne:''' By the way, recently there have been monsters lurking about the space station, so be careful out there. Here're some first aid supplies in case you ever need it. Remember to always clean wounds promptly and thoroughly!
+:'''Joanne:''' Don't forget to follow your doctor's orders~
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404000202_Finish-->
+;(If {{cx}}<!--SubMission Finish: 200030405-->)
+::<!--Custom String Trigger: Wait_Option_500216300_436-->
+::<!--Custom String Listener: Wait_Option_500216300_436-->
+::{{DIcon|Talk}} You are slacking off again?
+:::<!--Custom String Listener: TalkSentence_500216304-->
+:::'''Joanne:''' ...What do you mean, slacking off? I'm Joanne from the Medical Department, and I've got a lot to do every day. I need time to relax... otherwise my body won't be able to handle it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I heard you didn't rest for a long time?
+:::<!--Custom String Listener: TalkSentence_500216306-->
+:::'''Joanne:''' Ooh, don't get me started. I'd been working 24/7 before I burnt out.
+:::'''Joanne:''' If you knew this, then just leave me alone. I need to rest...
+:::'''Joanne:''' It's worse to disturb someone trying to sleep than wake up someone already asleep.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So, you got the "memetic virus"?
+:::<!--Custom String Listener: TalkSentence_500216310-->
+:::'''Joanne:''' ...Even you are in the know? It must be those blabbermouths at the medical department.
+:::'''Joanne:''' Ugh, this is so unfair. I have no idea how I even got this darn thing.
+:::'''Joanne:''' Mercifully, it turned out to be a blessing in disguise. I got to take a few days off, and finally got a good night's sleep...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I better leave you alone then.
+:::<!--Custom String Listener: TalkSentence_500216315-->
+:::'''Joanne:''' Sure, you go ahead. I need to get some rest before my next shift.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+::<!--Custom String Trigger: Wait_Option_500010119_1079-->
+::<!--Custom String Listener: Wait_Option_500010119_1079-->
+::{{DIcon|Talk}} Are you a doctor?
+:::<!--Custom String Listener: TalkSentence_500011617-->
+:::'''Joanne:''' I'm Joanne, a member of the Medical Department... My scope of work... may be even more complicated than the doctors'.
+:::'''Joanne:''' Don't come to me if you are not feeling well. I'm only responsible for the patients under my scope of work. I don't take care of any random people I bump into.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You look sleepy.
+:::<!--Custom String Listener: TalkSentence_500011620-->
+:::'''Joanne:''' I'm glad you noticed. Stop talking to me then. Disturbing a person who is trying to sleep is even worse than waking up someone who's already asleep.
+:::'''Joanne:''' Hey, what's that distrustful and concerned look on your face?
+:::'''Joanne:''' Although I easily feel sleepy at work, I take my job very seriously! Don't think of me as some stupid doctor who would leave hemostatic cotton inside their patient!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You look busy.
+:::<!--Custom String Listener: TalkSentence_500011624-->
+:::'''Joanne:''' I'm glad you noticed. Then leave me alone.
+:::'''Joanne:''' I am either delivering or going to deliver medicine. They should've assigned this job to a robot, right?
+:::'''Joanne:''' If it wasn't for the Legion's invasion, this kind of thing wouldn't have become my duty.
+:::'''Joanne:''' I wish the lead researcher can fix the robot distribution system as soon as possible.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I better leave you alone.
+:::<!--Custom String Listener: TalkSentence_500011629-->
+:::'''Joanne:''' If you are not feeling well, do not ask for me in the Medical Department. I am very busy.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:'''Joanne:''' *Yawn* I'm so sleepy. You again? What's up?
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 200030405-->)
+::<!--Custom String Trigger: TalkSentence_500010702_2-->
+::<!--Custom String Listener: TalkSentence_500010702_2-->
+::'''Joanne:''' Sure, you go ahead. I need to get some rest before my next shift.
+;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Joanne:''' If you are not feeling well, do not ask for me in the Medical Department. I am very busy.
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000095: Config/Level/NPC/W0/NPC_DefaultStory_500001601.json-->
+::<!--Custom String Trigger: TalkSentence_500011602-->
+::<!--Custom String Listener: TalkSentence_500011602-->
+::'''Joanne:''' *Yawning*
+::'''Joanne:''' I'm so sleepy. Is this the so-called burnout time? I better go back to sleep.
+::'''Joanne:''' Hold on, I think I've got something to do...
+::'''Joanne:''' What is it...
+::<!--Custom String Trigger: Wait_Option_500010119_1065-->
+::<!--Custom String Listener: Wait_Option_500010119_1065-->
+::{{DIcon|Arrow}} What are you holding?
+:::<!--Custom String Listener: TalkSentence_500011607-->
+:::'''Joanne:''' ...Wonder medicine?
+:::'''Joanne:''' Oh, a department informed me that one of their researchers had an urgent psychological issue. They sent me to have a look.
+:::'''Joanne:''' What a pain in the neck. Why don't they just send a robot to fetch a tranquilizer?
+::{{DIcon|Arrow}} What's in your pocket?
+:::<!--Custom String Listener: TalkSentence_500011611-->
+:::'''Joanne:''' ...An injection?
+:::'''Joanne:''' Let me see. I heard a patient ran out of medicine and needed supplies.
+:::'''Joanne:''' But which patient was it for...? Ahh, I forgot.
+:::'''Joanne:''' Hmph. I have to go back and check my record again. What a pain in the neck.
+::<!--Custom String Trigger: Wait_Option_500010119_1076-->
+::<!--Custom String Listener: Wait_Option_500010119_1076-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000096: Config/Level/NPC/W0/NPC_DefaultStory_500001600.json-->
+::'''Joanne:''' *Yawn* I'm so sleepy. You again? What's up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003402-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002906: Config/Level/Mission/4050029/Act/Act405002906.json-->
+::'''Joanne:''' Ha... The application for medical supplies needs to wait for three to five working days, and we will contact you through mail...
+::'''Joanne:''' Wait, resource supply agreement? Oh, I remember, the one that requires a special procedure.
+::'''Joanne:''' Well, the approval process has been completed, and the corresponding personnel will send it over later. You can go back and wait now. *yawns*
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003402-->
+;(If {{cx}}<!--SubMission Started: 404000202-->)
+:{{DIcon|?}} Can you help me check my medical report?
+::<!--Trigger PerformanceE 404000202: Config/Level/Mission/4040002/Act/Act404000202.json-->
+::'''Joanne:''' Huh? Oh, your medical examination was today. My apologies for keeping you waiting.
+::'''Joanne:''' There were no appointments listed on the terminal today, so I left for a short break. I wasn't expecting anyone to actually show up.
+::'''Joanne:''' Let me see... Well, you're not from the space station, are you? So you were approved by... Oh, lead researcher. These results show several abnormalities...
+::{{DIcon|Arrow}} You have to save me, doctor.
+:::<!--Custom String Listener: TalkSentence_404000217-->
+:::'''Joanne:''' Don't panic, I'll explain it all to you slowly.
+::{{DIcon|Arrow}} Just give it to me straight, doc. I can take it.
+:::<!--Custom String Listener: TalkSentence_404000219-->
+:::'''Joanne:''' Okay, I'll cut to the chase.
+::<!--Custom String Trigger: TalkSentence_404000220-->
+::<!--Custom String Listener: TalkSentence_404000220-->
+::'''Joanne:''' Have you been feeling drained and lacking motivation to do anything lately? Maybe with some intermittent symptoms like dizziness or tinnitus?
+::{{DIcon|Arrow}} Seems like it, at least a little bit.
+:::<!--Custom String Listener: TalkSentence_404000221-->
+:::'''Joanne:''' As I expected.
+::{{DIcon|Arrow}} No, I feel fine.
+:::<!--Custom String Listener: TalkSentence_404000223-->
+:::'''Joanne:''' Light symptoms such as these can easily go undetected.
+::'''Joanne:''' In any case, the situation isn't that grave. To put it bluntly, you're sleep-deprived. You should be more like me, get plenty of rest and don't stay up too late.
+::'''Joanne:''' By the way, recently there have been monsters lurking about the space station, so be careful out there. Here're some first aid supplies in case you ever need it. Remember to always clean wounds promptly and thoroughly!
+::'''Joanne:''' Don't forget to follow your doctor's orders~
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404000202_Finish-->
+;(If {{cx}}<!--SubMission Started: 404000202-->)
+:{{DIcon}} I've got something to ask you.
+:;(If {{cx}}<!--SubMission Finish: 200030405-->)
+:::<!--Custom String Trigger: Wait_Option_500216300_436-->
+:::<!--Custom String Listener: Wait_Option_500216300_436-->
+:::{{DIcon|Talk}} You are slacking off again?
+::::<!--Custom String Listener: TalkSentence_500216304-->
+::::'''Joanne:''' ...What do you mean, slacking off? I'm Joanne from the Medical Department, and I've got a lot to do every day. I need time to relax... otherwise my body won't be able to handle it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I heard you didn't rest for a long time?
+::::<!--Custom String Listener: TalkSentence_500216306-->
+::::'''Joanne:''' Ooh, don't get me started. I'd been working 24/7 before I burnt out.
+::::'''Joanne:''' If you knew this, then just leave me alone. I need to rest...
+::::'''Joanne:''' It's worse to disturb someone trying to sleep than wake up someone already asleep.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} So, you got the "memetic virus"?
+::::<!--Custom String Listener: TalkSentence_500216310-->
+::::'''Joanne:''' ...Even you are in the know? It must be those blabbermouths at the medical department.
+::::'''Joanne:''' Ugh, this is so unfair. I have no idea how I even got this darn thing.
+::::'''Joanne:''' Mercifully, it turned out to be a blessing in disguise. I got to take a few days off, and finally got a good night's sleep...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I better leave you alone then.
+::::<!--Custom String Listener: TalkSentence_500216315-->
+::::'''Joanne:''' Sure, you go ahead. I need to get some rest before my next shift.
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+:::<!--Custom String Trigger: Wait_Option_500010119_1079-->
+:::<!--Custom String Listener: Wait_Option_500010119_1079-->
+:::{{DIcon|Talk}} Are you a doctor?
+::::<!--Custom String Listener: TalkSentence_500011617-->
+::::'''Joanne:''' I'm Joanne, a member of the Medical Department... My scope of work... may be even more complicated than the doctors'.
+::::'''Joanne:''' Don't come to me if you are not feeling well. I'm only responsible for the patients under my scope of work. I don't take care of any random people I bump into.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You look sleepy.
+::::<!--Custom String Listener: TalkSentence_500011620-->
+::::'''Joanne:''' I'm glad you noticed. Stop talking to me then. Disturbing a person who is trying to sleep is even worse than waking up someone who's already asleep.
+::::'''Joanne:''' Hey, what's that distrustful and concerned look on your face?
+::::'''Joanne:''' Although I easily feel sleepy at work, I take my job very seriously! Don't think of me as some stupid doctor who would leave hemostatic cotton inside their patient!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You look busy.
+::::<!--Custom String Listener: TalkSentence_500011624-->
+::::'''Joanne:''' I'm glad you noticed. Then leave me alone.
+::::'''Joanne:''' I am either delivering or going to deliver medicine. They should've assigned this job to a robot, right?
+::::'''Joanne:''' If it wasn't for the Legion's invasion, this kind of thing wouldn't have become my duty.
+::::'''Joanne:''' I wish the lead researcher can fix the robot distribution system as soon as possible.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I better leave you alone.
+::::<!--Custom String Listener: TalkSentence_500011629-->
+::::'''Joanne:''' If you are not feeling well, do not ask for me in the Medical Department. I am very busy.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404000202-->)
+:{{DIcon|Exit}} I better leave you alone.
+:;(If {{cx}}<!--SubMission Finish: 200030405-->)
+:::<!--Custom String Trigger: TalkSentence_500010702_2-->
+:::<!--Custom String Listener: TalkSentence_500010702_2-->
+:::'''Joanne:''' Sure, you go ahead. I need to get some rest before my next shift.
+:;(If {{cx}}<!--SubMission not Finish: 200030405-->)
+:::<!--Custom String Trigger: TalkSentence_500010702-->
+:::<!--Custom String Listener: TalkSentence_500010702-->
+:::'''Joanne:''' If you are not feeling well, do not ask for me in the Medical Department. I am very busy.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290702)
+:<!--Custom String Listener: TalkSentence_405290702-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Joanne
+|zhs  = 乔安
+|zht  = 喬安
+|ja   = ジョアン
+|ko   = 조앤
+|es   = Joanne
+|fr   = Joanne
+|ru   = Джоанна
+|th   = Joanne
+|vi   = Joanne
+|de   = Joanne
+|id   = Joanne
+|pt   = Joanne
+}}
+==Change History==
+{{Change History|TODO}}

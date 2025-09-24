@@ -1,0 +1,250 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yueyuan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Pearlkeeper
+|image           = NPC Yueyuan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Yueyuan''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_76_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502046101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502046101.json-->
+::'''Yueyuan:''' *sigh* My team and I have guarded Scalegorge Waterscape for over two hundred years, but we still have to witness it crumble to pieces in the end...
+::'''Yueyuan:''' When will the Cloud Knights withdraw from this place and restore its sanctity!?
+::{{DIcon|Arrow}} You don't seem to be in the best mood?
+:::<!--Custom String Listener: TalkSentence_502046105-->
+:::'''Yueyuan:''' That's putting it lightly. But then again, which Vidyadhara would be in good spirits after witnessing the desecration of our holy site?
+::{{DIcon|Arrow}} What are you muttering about?
+:::<!--Custom String Listener: TalkSentence_502046107-->
+:::'''Yueyuan:''' You are... an Outworlder seeking medicine from the Alchemy Commission? You're too late. There's no cure to be found at all anymore, only those Cloud Knights sticking out like a sore thumb.
+::<!--Custom String Trigger: TalkSentence_502046108-->
+::<!--Custom String Listener: TalkSentence_502046108-->
+::'''Yueyuan:''' Hmph, first there was the bloody conflict against the Denizens of Abundance. Then the Sedition of Imbibitor Lunae almost shook the Ambrosial Arbor to its core... And now those clowns from the Disciples of Sanctus Medicus have turned everything into a steaming hot mess!
+::'''Yueyuan:''' When I signed up with the armed forces, I took an oath to defend the Alliance. After retiring I became a Pearlkeeper, vowing to protect my compatriots during their hatching rebirth. But looking back, what did I actually protect? Truly... longevity is a curse.
+::'''Yueyuan:''' Hey, look at me &mdash; once I start complaining, I can't stop. I've grown far too talkative in my old age, so please forgive me. Do you have anything that you'd like to ask me about?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502046201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502046201.json-->
+::'''Yueyuan:''' How sad. How sad! How does that Vidyadhara elegy go again... "Pass like a dream out of sight and mind, six hundred years in this mortal bind"... Ha, simply wonderful.
+::'''Yueyuan:''' Mmmm, (Trailblazer)? How'd you find the time to come hang out at this wasteland? Anything going on?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} It seems like something's bothering you.
+::<!--Trigger PerformanceE 302010101: Config/Level/Mission/3020101/Act/Act302010101.json-->
+::'''Yueyuan:''' After the Alchemy Commission delve was reopened, it has become less busy than before the disaster, but it is still a mixed bag.
+::'''Yueyuan:''' Have you heard of an Outworlder organization called "The Unshackled"? It might not be suitable to call them an organization, as while some of them act as a group, others operate alone...
+::{{DIcon|Arrow}} I've never heard of The Unshackled...
+:::<!--Custom String Listener: TalkSentence_302010105-->
+:::'''Yueyuan:''' It is said to be a group of people who accumulate merits by releasing living creatures, but that's not the point...
+::{{DIcon|Arrow}} I've heard a little about The Unshackled.
+:::<!--Custom String Listener: TalkSentence_302010107-->
+:::'''Yueyuan:''' It's great you've heard of them. They are an ignorant and stubborn bunch devoid of any proper education.
+::<!--Custom String Trigger: TalkSentence_302010108-->
+::<!--Custom String Listener: TalkSentence_302010108-->
+::'''Yueyuan:''' They throw whatever they get their hands on into the Lunarescent Depths. Pouring Scalegorge Spring Water might not be against Xianzhou's laws, but releasing wild creatures undoubtedly is.
+::'''Yueyuan:''' Recently, I caught many of them red-handed during their acts of "liberation," and I think they have me on their radar. They have been on their best behavior when I'm patrolling the coast. Once I take a break, however...
+::{{DIcon|Arrow}} They go back to their old ways again.
+:::<!--Custom String Listener: TalkSentence_302010111-->
+:::'''Yueyuan:''' That's right.
+::{{DIcon|Arrow}} They take a break too.
+:::<!--Custom String Listener: TalkSentence_302010113-->
+:::'''Yueyuan:''' No, they go back to their old act.
+::<!--Custom String Trigger: TalkSentence_302010114-->
+::<!--Custom String Listener: TalkSentence_302010114-->
+::'''Yueyuan:''' Anyway, I need someone to help me watch over the coast when I'm on break. If any of The Unshackled's members are sighted, my replacement needs to warn them and deal with whatever they release... Do you have any suitable candidates in mind?
+::{{DIcon|Arrow}} Aren't I the person you're looking for?
+::{{DIcon|Arrow}} ...Sounds like a menial job to me.
+::<!--Custom String Listener: TalkSentence_302010117-->
+::'''Yueyuan:''' Don't worry. I, as a Pearlkeeper, will reward you handsomely. I'll count on you then!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010101-->
+;(If {{cx}}<!--SubMission Started: 302010103--> and {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} (You hand the drift bottle you picked up to Yueyuan)
+::<!--Trigger PerformanceE 302010103: Config/Level/Mission/3020101/Act/Act302010103.json-->
+::'''Yueyuan:''' Frankly speaking, from the neat handwriting in this letter, I suspect this is just another prank... But, to err on the safe side, I'll send someone to the Lunarescent Depths on a rescue mission via a starskiff.
+::'''Yueyuan:''' Still, please don't expect too much from this operation. Due to the special technologies in Scalegorge Waterscape delve, not even we can reach the depths, let alone the castaway. This makes me highly suspect that this letter is a fake.
+::{{DIcon|Arrow}} But we cannot give up on our investigation because of that, can we?
+:::<!--Custom String Listener: TalkSentence_302010145-->
+:::'''Yueyuan:''' You're right. No matter how slim the chance is, we still have to go out on the water and conduct an investigation.
+::{{DIcon|Arrow}} Do you think this could be the work of The Unshackled?
+:::<!--Custom String Listener: TalkSentence_302010147-->
+:::'''Yueyuan:''' ...We can't rule out that possibility yet. Doing things that waste public resources is very much something they might do.
+::<!--Custom String Trigger: TalkSentence_302010148-->
+::<!--Custom String Listener: TalkSentence_302010148-->
+::'''Yueyuan:''' Either way, thank you for your hard work. Here are your well-deserved rewards.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010103-->
+;(If {{cx}}<!--SubMission Started: 302010201-->, {{cx}}<!--SubMission Started: 302010103-->, and {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} I hear you needed me for a patrol?
+::<!--Trigger PerformanceE 302010201: Config/Level/Mission/3020102/Act/Act302010201.json-->
+::'''Yueyuan:''' By the way, do you still remember that thing with the {{Color|keyword|nobold=1|drift bottle}}? We dispatched a rescue team to the Lunarescent Depths but found nothing.
+::'''Yueyuan:''' Fret not, you have my trust, but this drift bottle here is just too odd. The more I look at it, the more it seems like a prank to me.
+::'''Yueyuan:''' If you come across any similar circumstances, {{Color|keyword|nobold=1|you can take care of them yourself, or hand them over to us if you're feeling uneasy.}}
+::'''Yueyuan:''' Either way, please do another patrol across the beach for me.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010201-->
+;(If {{cx}}<!--SubMission Started: 302010204-->, {{cx}}<!--SubMission Started: 302010201-->, {{cx}}<!--SubMission Started: 302010103-->, and {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} (You hand the drift bottle you picked up to Yueyuan)
+::<!--Trigger PerformanceE 302010204: Config/Level/Mission/3020102/Act/Act302010204.json-->
+::'''Yueyuan:''' Another drift bottle? This seems a little too committed for a prank. Although, this letter also seems a little absurd to take seriously.
+::{{DIcon|Arrow}} But we cannot give up on our investigation because of that, can we?
+:::<!--Custom String Listener: TalkSentence_302010244-->
+:::'''Yueyuan:''' You're right, we will continue our search at sea.
+::{{DIcon|Arrow}} Do you think this could be the work of The Unshackled?
+:::<!--Custom String Listener: TalkSentence_302010246-->
+:::'''Yueyuan:''' It may sound unlikely, but this does seem like something they could do.
+::<!--Custom String Trigger: TalkSentence_302010247-->
+::<!--Custom String Listener: TalkSentence_302010247-->
+::'''Yueyuan:''' Either way, thank you for your hard work. Here are your well-deserved rewards.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010204-->
+;(If {{cx}}<!--SubMission Started: 302010301-->, {{cx}}<!--SubMission Started: 302010204-->, {{cx}}<!--SubMission Started: 302010201-->, {{cx}}<!--SubMission Started: 302010103-->, and {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} I hear you needed me for a patrol?
+::<!--Trigger PerformanceE 302010301: Config/Level/Mission/3020103/Act/Act302010301.json-->
+::'''Yueyuan:''' That's right, we recently went to search the Lunarescent Depths again, but found no information regarding the castaway.
+::'''Yueyuan:''' If there really is a castaway in the Lunarescent Depths, then they must be actively hiding from the search teams... My experience tells me that this is someone playing a trick.
+::'''Yueyuan:''' Ahh. Well, if you come across anything similar, {{Color|keyword|nobold=1|you can deal with it yourself, or hand it over to us, should you feel uneasy.}}
+::'''Yueyuan:''' Either way, please do another patrol across the beach for me.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010301-->
+;(If {{cx}}<!--SubMission Started: 302010305-->, {{cx}}<!--SubMission Started: 302010301-->, {{cx}}<!--SubMission Started: 302010204-->, {{cx}}<!--SubMission Started: 302010201-->, {{cx}}<!--SubMission Started: 302010103-->, and {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} (You hand the drift bottle you picked up to Yueyuan)
+::<!--Trigger PerformanceE 302010304: Config/Level/Mission/3020103/Act/Act302010304.json-->
+::'''Yueyuan:''' They've already made a financially independent life for themselves? Then there's no need for us Pearlkeepers to pay this person any more attention!
+::{{DIcon|Arrow}} ...You're just angry, aren't you?
+:::<!--Custom String Listener: TalkSentence_302010354-->
+:::'''Yueyuan:''' You're right. I didn't mean that... As the castaway may still be alive, we will continue our search.
+::{{DIcon|Arrow}} Do you think this could be the work of The Unshackled?
+:::<!--Custom String Listener: TalkSentence_302010356-->
+:::'''Yueyuan:''' It's looking more and more likely. This whole story is very strange...
+::<!--Custom String Trigger: TalkSentence_302010357-->
+::<!--Custom String Listener: TalkSentence_302010357-->
+::'''Yueyuan:''' We can't just do nothing! The letter mentions someone named "Fulie," I'll make time to go and ask them about it.
+::'''Yueyuan:''' Either way, thank you for your hard work. Here are your well-deserved rewards.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010304-->
+;(If {{cx}}<!--SubMission Started: 302010401-->, {{cx}}<!--SubMission Started: 302010305-->, {{cx}}<!--SubMission Started: 302010301-->, {{cx}}<!--SubMission Started: 302010204-->, {{cx}}<!--SubMission Started: 302010201-->, {{cx}}<!--SubMission Started: 302010103-->, and {{cx}}<!--SubMission Started: 302010101-->)
+:{{DIcon|undefined}} I hear you needed me for a patrol?
+::<!--Trigger PerformanceE 302010401: Config/Level/Mission/3020104/Act/Act302010401.json-->
+::'''Yueyuan:''' Ah yes, I have already reported the drift bottle situation to the Realm-Keeping Commission.
+::'''Yueyuan:''' According to their feedback, they have not received any reports of missing persons, and this "castaway" is likely a fabrication. The Pearlkeepers will not be dispatched for ocean rescue again before obtaining conclusive evidence of their existence.
+::'''Yueyuan:''' If you come across anything similar, {{Color|keyword|nobold=1|just deal with it yourself.}} That is unless you find conclusive evidence inside the drift bottle.
+::'''Yueyuan:''' Also, the Pearlkeepers have recognized your abilities. {{Color|keyword|nobold=1|From now on, you will no longer need to report to me before a patrol. You can go directly to the beach, and you will still be compensated for your efforts.}}
+::'''Yueyuan:''' Either way, please do another patrol across the beach for me.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_302010401-->
+;(If {{cx}}<!--SubMission Finish: 200140105-->)
+:{{DIcon}} The Lunarescent Depths have become significantly more tranquil.
+::'''Yueyuan:''' With the cycranes now on patrol, those who used to release animals into the wild there have stopped coming.
+::'''Yueyuan:''' That said, it's created another issue. Lunarescent Depths is a key site for Vidyadhara cultural outreach, and now even regular visitors and tourists are being turned away.
+::'''Yueyuan:''' We need to upgrade the recognition algorithms of the cycranes to accurately identify potential disruptors.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 200140105-->)
+:{{DIcon|Talk}} I'd like to have a chat with you.
+::<!--Trigger PerformanceE 502046102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502046102.json-->
+::'''Yueyuan:''' Alright. I've been a Pearlkeeper here for over two hundred years. I know everything there is to know about this place, so you can ask me anything you want.
+::<!--Custom String Trigger: Wait_Option_502046102_98-->
+::<!--Custom String Listener: Wait_Option_502046102_98-->
+::{{DIcon|Talk}} What kind of place is Scalegorge Waterscape?
+:::<!--Custom String Listener: TalkSentence_502046114-->
+:::'''Yueyuan:''' Everything you see before you has been part of the Vidyadhara homeworld for eons. But as we migrated, we've transplanted parts of our homeworld to some of the Xianzhou Delves.
+:::'''Yueyuan:''' One of which is Scalegorge Waterscape, and the waters of the ancient sea it sustains are intimately connected to the blood of the Vidyadhara aboard the Luofu. Be they the Preceptors or the regular Vidyadhara folk, all will step into the waters at their end to be transformed into Vidyadhara eggs and undergo their hatching rebirth.
+:::'''Yueyuan:''' Do you understand now the significant of this place in our hearts?
+:::'''Yueyuan:''' It's a shame that the Cloud Knights moved in after the Disciples of Sanctus Medicus rebelled. These Knights replaced our Pearlkeeper patrols in the name of "keeping the peace." Alas, our myriad of complaints amounted to naught.
+:::'''Yueyuan:''' I heard that the Arbor's resurrection was caused by someone plunging a Stellaron deep into the Scalegorge Waterscape waters... Hmph, thinking things through, some Vidyadhara may also have been seduced by those Disciple devils. It won't be long before the Seat of Divine Foresight comes after the Preceptors, will it?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do Pearlkeepers do?
+:::<!--Custom String Listener: TalkSentence_502046120-->
+:::'''Yueyuan:''' Pearlkeepers are... an ancient profession. When Vidyadhara molt into eggs, they have no protection from the outside world other than their eggshells. That's why the Vidyadhara have historically bestowed the role of Pearlkeeping upon their young and strong.
+:::'''Yueyuan:''' It's the most wondrous sight in the cosmos to ride across the tides on a starskiff, marveling at those pearly Vidyadhara eggs as they glow in hibernation.
+:::'''Yueyuan:''' Speaking of which, the Pearlkeepers aboard the Xianzhou Fanghu are different from us. The Fanghu's high elder governs over all the citizens, and the Six Charioteers of the Six Commissions all support the high elder.
+:::'''Yueyuan:''' That's why the Pearlkeepers aboard the Xianzhou Fanghu formed an elite force that have basically replaced the role of Cloud Knights there.
+:::'''Yueyuan:''' A long time ago, I had the pleasure of meeting a Pearlkeeper from the Xianzhou Fanghu named Linxi. Her cloudhymn magic was superb, almost transcending into the realm of artistry.
+:::'''Yueyuan:''' Alas... If she'd been at Scalegorge Waterscape on that day, perhaps the Vidyadhara wouldn't have suffered such terrible losses... It's a real shame how many "what ifs" there are out there...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How is Scalegorge Waterscape these days?
+:::<!--Custom String Listener: TalkSentence_502046127-->
+:::'''Yueyuan:''' I've only just retired. I heard that during all the turmoil, many Vidyadhara eggs got cracked... Many of my brothers and sisters got harmed by those devils of Sanctus Medicus... Those hateful scoundrels!
+:::'''Yueyuan:''' Alas, we Vidyadhara have no parents, no reproductive process, and are forever stuck in the cycle of our hatching rebirth. Every death and every destruction of a Vidyadhara egg is an eternal loss for our species.
+:::'''Yueyuan:''' The day I heard the news about the Arbor's resurrection, I picked up my tidal trident &mdash; the weapon that we Pearlkeepers use &mdash; and ran back to Scalegorge Waterscape to try and give as much support as I could.
+:::'''Yueyuan:''' When I got back, I witnessed three Sanctus Medicus devils surrounding a lone Cloud Knight. The three disciples were fellows of my own race, but had somehow been mutated into horrific forms...
+:::'''Yueyuan:''' The three of them stabbed into the knight with their claws. And as if sucking away his life, the knight's face instantly grew old and gray.
+:::'''Yueyuan:''' I didn't dare hesitate, so I... I took action. I used cloudhymn magic to direct my weapon at those three and I... I struck them all down. They won't have another hatching rebirth ever again.
+:::'''Yueyuan:''' Our people's creed states that those stained with the blood of a fellow Vidyadhara are punished for all eternity. I don't know whether I should be punished, or whether I could earn an exemption?
+:::'''Yueyuan:''' These days I can't stop thinking about this all the time, but I can never get over it. That day, did I really have to take up arms and...?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll stop bothering you for now.
+:::<!--Custom String Listener: TalkSentence_502046136-->
+:::'''Yueyuan:''' All good, it's no bother at all. Any time you want to chat, just come and find me. I usually can't find anyone to talk with about this stuff.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502046102-->
+;(If {{Mission|Guardian of the Shoreline|showChapter=0}} has been completed and {{cx}}<!--SubMission Finish: 200140105-->)
+:{{DIcon|Talk}} Life as a guardian of the shoreline is tough...
+::<!--Trigger PerformanceE 502046301: Config/Level/NPCDialogue/P10202/NPCAct/Act502046301.json-->
+::'''Yueyuan:''' Indeed! The coast patrolling task that I entrusted to you is actually just a small part of a Pearlkeeper's duties.
+::'''Yueyuan:''' In fact, many in society regard the Pearlkeepers contemptuously, assuming they're the Vidyadhara equivalent of an easy job you can retire in... Now that you've experienced it yourself, I bet you know the job is not the least bit easy.
+::'''Yueyuan:''' If you meet anyone who says things like that to you, please teach that person a lesson for me. Of course, you should do it verbally, not physically.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502046301-->
+;(If {{Mission|Guardian of the Shoreline|showChapter=0}} has been completed and {{cx}}<!--SubMission Finish: 200140105-->)
+:{{DIcon|Exit}} I'll stop bothering you for now.
+::'''Yueyuan:''' All good, it's no bother at all. Any time you want to chat, just come and find me. I usually can't find anyone to talk with about this stuff.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yueyuan
+|zhs  = 跃渊
+|zht  = 躍淵
+|ja   = 躍淵
+|ko   = 약연
+|es   = Yueyuan
+|fr   = Yueyuan
+|ru   = Юэюань
+|th   = Yueyuan
+|vi   = Yueyuan
+|de   = Yueyuan
+|id   = Yueyuan
+|pt   = Yueyuan
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,773 @@
+<%-- [PAGE_INFO]
+PageTitle=#Eric#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Little Thief
+|image           = NPC Eric.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Robot Settlement
+|relatives       = 
+}}
+'''Eric''' is an NPC on [[Jarilo-VI]], located in [[Robot Settlement]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Robot Settlement|npc_56_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_5010284_32-->
+:<!--Custom String Listener: Wait_Option_5010284_32-->
+:{{DIcon|Talk}} Are you still a pickpocket?
+::<!--Custom String Listener: TalkSentence_501028419-->
+::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+::<!--Custom String Trigger: Wait_Option_5010284_36-->
+::<!--Custom String Listener: Wait_Option_5010284_36-->
+::{{DIcon|Arrow}} Pay off the debt?
+::{{DIcon|Arrow}} Is your dad sick?
+::<!--Custom String Listener: TalkSentence_501028423-->
+::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+::<!--Custom String Trigger: Wait_Option_5010284_42-->
+::<!--Custom String Listener: Wait_Option_5010284_42-->
+::{{DIcon|Arrow}} So what do you do now?
+::<!--Custom String Listener: TalkSentence_501028426-->
+::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+::<!--Custom String Trigger: Wait_Option_5010284_47-->
+::<!--Custom String Listener: Wait_Option_5010284_47-->
+::{{DIcon|Arrow}} You are doing great...
+::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+::<!--Custom String Listener: TalkSentence_501028430-->
+::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Why do you want to see Bronya?
+::<!--Custom String Listener: TalkSentence_501028433-->
+::'''Eric:''' Because... Because she gave me that wonderful medal.
+::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::'''Eric:''' So... I want to thank her in person.
+::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::<!--Custom String Listener: Wait_Option_5010284_58-->
+::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::<!--Custom String Listener: TalkSentence_501028438-->
+:::'''Eric:''' Really!? Thank you!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I wonder what Seele will think...
+:::<!--Custom String Listener: TalkSentence_501028440-->
+:::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'm okay.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Eric:''' Have you seen Bronya?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Eric:''' Thank you!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028401: Config/Level/Mission/5010284/Act/Act501028401.json-->
+::<!--Custom String Trigger: TalkSentence_501028401-->
+::<!--Custom String Listener: TalkSentence_501028401-->
+::'''Eric:''' Mmm... I can't seem to find that lady anywhere... And I don't think I asked her for her name.
+::'''Eric:''' ...I didn't even ask her name.
+::<!--Custom String Trigger: Wait_Option_5010284_9-->
+::<!--Custom String Listener: Wait_Option_5010284_9-->
+::{{DIcon|Arrow}} Are you Eric?
+:::<!--Custom String Listener: TalkSentence_501028404-->
+:::'''Eric:''' Hmm? Yes, I am Eric... I believe I've already paid off my dad's debt...
+::{{DIcon|Arrow}} Who are you looking for?
+:::<!--Custom String Listener: TalkSentence_501028406-->
+:::'''Eric:''' Ah, I'm looking for a lady. She is a... Silvermane Guard... Have you seen someone like that?
+::<!--Custom String Trigger: TalkSentence_501028407-->
+::<!--Custom String Listener: TalkSentence_501028407-->
+::'''Eric:''' ...Huh? Didn't we meet in Rivet Town earlier?
+::'''Eric:''' How wonderful! I was looking for you! ...Huh, is that Guard lady with you?
+::<!--Custom String Trigger: Wait_Option_5010284_17-->
+::<!--Custom String Listener: Wait_Option_5010284_17-->
+::{{DIcon|Arrow}} Are you talking about Bronya?
+:::<!--Custom String Listener: TalkSentence_501028410-->
+:::'''Eric:''' Her name was Bronya... Now I remember!
+::{{DIcon|Arrow}} Why are you so nervous?
+:::<!--Custom String Listener: TalkSentence_501028412-->
+:::'''Eric:''' I... I thought you were here to collect a debt, too...
+:::'''Eric:''' But I've already paid the debt for my papa. There shouldn't be anyone else coming around looking for trouble...
+:::<!--Custom String Trigger: Wait_Option_5010284_23-->
+:::<!--Custom String Listener: Wait_Option_5010284_23-->
+:::{{DIcon|Arrow}} Her name is Bronya.
+:::<!--Custom String Listener: TalkSentence_501028415-->
+:::'''Eric:''' Bronya... Got it!
+::<!--Custom String Trigger: TalkSentence_501028416-->
+::<!--Custom String Listener: TalkSentence_501028416-->
+::'''Eric:''' Can you tell me where she is? I'd like to talk with her.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000113: Config/Level/NPC/W1/NPC_DefaultStory_100006401.json-->
+::'''Eric:''' Have you seen Bronya?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Silent Galaxy|showChapter=0}} has been completed)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501028402: Config/Level/NPC/W1/NPC_DefaultStory_100006404.json-->
+::'''Eric:''' I'm still looking for Bronya... But she doesn't seem to be anywhere. Where the heck does she live?
+::{{DIcon|Arrow}} She's been busy with work up in the Overworld.
+::{{DIcon|Arrow}} You can go up to the Overworld to look for her.
+::<!--Custom String Listener: TalkSentence_501028448-->
+::'''Eric:''' Ah... so she lives up in the Overworld, then. No wonder I couldn't find her...
+::'''Eric:''' Ah... speaking of which, I heard the grown-ups say that we can go up there soon. If I can, I'm definitely gonna try and catch the cable car to find Bronya.
+::'''Eric:''' {{MC|f=Miss|m=Mister}}, thank you for telling me this news. I'll be ready! But first, I have to look after my dad and make sure he's healthy...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028402-->
+:{{DIcon}} Let's have a chat first...
+::<!--Custom String Trigger: Wait_Option_5010284_32-->
+::<!--Custom String Listener: Wait_Option_5010284_32-->
+::{{DIcon|Talk}} Are you still a pickpocket?
+:::<!--Custom String Listener: TalkSentence_501028419-->
+:::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+:::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+:::<!--Custom String Trigger: Wait_Option_5010284_36-->
+:::<!--Custom String Listener: Wait_Option_5010284_36-->
+:::{{DIcon|Arrow}} Pay off the debt?
+:::{{DIcon|Arrow}} Is your dad sick?
+:::<!--Custom String Listener: TalkSentence_501028423-->
+:::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+:::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+:::<!--Custom String Trigger: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why do you want to see Bronya?
+:::<!--Custom String Listener: TalkSentence_501028433-->
+:::'''Eric:''' Because... Because she gave me that wonderful medal.
+:::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+:::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+:::'''Eric:''' So... I want to thank her in person.
+:::<!--Custom String Trigger: Wait_Option_5010284_58-->
+:::<!--Custom String Listener: Wait_Option_5010284_58-->
+:::{{DIcon|Arrow}} I'll pass on the message when I see her.
+::::<!--Custom String Listener: TalkSentence_501028438-->
+::::'''Eric:''' Really!? Thank you!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I wonder what Seele will think...
+::::<!--Custom String Listener: TalkSentence_501028440-->
+::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'm okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll let you know when I see her.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Eric:''' Thank you!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010284_29)
+:<!--Custom String Listener: Wait_Option_5010284_29-->
+::{{DIcon|Arrow}} Let's have a chat first...
+::<!--Custom String Listener: Wait_Option_5010284_32-->
+::<!--Custom String Listener: Wait_Option_5010284_32-->
+::{{DIcon|Talk}} Are you still a pickpocket?
+:::<!--Custom String Listener: TalkSentence_501028419-->
+:::<!--Custom String Listener: TalkSentence_501028419-->
+:::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+:::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+:::<!--Custom String Trigger: Wait_Option_5010284_36-->
+:::<!--Custom String Listener: Wait_Option_5010284_36-->
+:::<!--Custom String Listener: Wait_Option_5010284_36-->
+:::{{DIcon|Arrow}} Pay off the debt?
+:::{{DIcon|Arrow}} Is your dad sick?
+:::<!--Custom String Listener: TalkSentence_501028423-->
+:::<!--Custom String Listener: TalkSentence_501028423-->
+:::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+:::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+:::<!--Custom String Trigger: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+:::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+:::<!--Custom String Trigger: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Pay off the debt?
+:::{{DIcon|Arrow}} Is your dad sick?
+:::<!--Custom String Listener: TalkSentence_501028423-->
+:::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+:::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+:::<!--Custom String Trigger: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+:::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+:::<!--Custom String Trigger: Wait_Option_5010284_36-->
+:::<!--Custom String Listener: Wait_Option_5010284_36-->
+:::{{DIcon|Arrow}} Pay off the debt?
+:::{{DIcon|Arrow}} Is your dad sick?
+:::<!--Custom String Listener: TalkSentence_501028423-->
+:::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+:::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+:::<!--Custom String Trigger: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why do you want to see Bronya?
+:::<!--Custom String Listener: TalkSentence_501028433-->
+:::<!--Custom String Listener: TalkSentence_501028433-->
+:::'''Eric:''' Because... Because she gave me that wonderful medal.
+:::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+:::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+:::'''Eric:''' So... I want to thank her in person.
+:::<!--Custom String Trigger: Wait_Option_5010284_58-->
+:::<!--Custom String Listener: Wait_Option_5010284_58-->
+:::<!--Custom String Listener: Wait_Option_5010284_58-->
+:::{{DIcon|Arrow}} I'll pass on the message when I see her.
+::::<!--Custom String Listener: TalkSentence_501028438-->
+::::<!--Custom String Listener: TalkSentence_501028438-->
+::::'''Eric:''' Really!? Thank you!
+:::{{DIcon|Arrow}} I wonder what Seele will think...
+::::<!--Custom String Listener: TalkSentence_501028440-->
+::::<!--Custom String Listener: TalkSentence_501028440-->
+::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+:::{{DIcon|Talk}} Are you still a pickpocket?
+::::<!--Custom String Listener: TalkSentence_501028419-->
+::::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+::::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+::::<!--Custom String Trigger: Wait_Option_5010284_36-->
+::::<!--Custom String Listener: Wait_Option_5010284_36-->
+::::{{DIcon|Arrow}} Pay off the debt?
+::::{{DIcon|Arrow}} Is your dad sick?
+::::<!--Custom String Listener: TalkSentence_501028423-->
+::::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+::::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+::::<!--Custom String Trigger: Wait_Option_5010284_42-->
+::::<!--Custom String Listener: Wait_Option_5010284_42-->
+::::{{DIcon|Arrow}} So what do you do now?
+::::<!--Custom String Listener: TalkSentence_501028426-->
+::::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+::::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+::::<!--Custom String Trigger: Wait_Option_5010284_47-->
+::::<!--Custom String Listener: Wait_Option_5010284_47-->
+::::{{DIcon|Arrow}} You are doing great...
+::::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+::::<!--Custom String Listener: TalkSentence_501028430-->
+::::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+::::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} I'll pass on the message when I see her.
+::::<!--Custom String Listener: TalkSentence_501028438-->
+::::'''Eric:''' Really!? Thank you!
+:::{{DIcon|Arrow}} I wonder what Seele will think...
+::::<!--Custom String Listener: TalkSentence_501028440-->
+::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+:::{{DIcon|Talk}} Are you still a pickpocket?
+::::<!--Custom String Listener: TalkSentence_501028419-->
+::::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+::::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+::::<!--Custom String Trigger: Wait_Option_5010284_36-->
+::::<!--Custom String Listener: Wait_Option_5010284_36-->
+::::{{DIcon|Arrow}} Pay off the debt?
+::::{{DIcon|Arrow}} Is your dad sick?
+::::<!--Custom String Listener: TalkSentence_501028423-->
+::::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+::::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+::::<!--Custom String Trigger: Wait_Option_5010284_42-->
+::::<!--Custom String Listener: Wait_Option_5010284_42-->
+::::{{DIcon|Arrow}} So what do you do now?
+::::<!--Custom String Listener: TalkSentence_501028426-->
+::::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+::::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+::::<!--Custom String Trigger: Wait_Option_5010284_47-->
+::::<!--Custom String Listener: Wait_Option_5010284_47-->
+::::{{DIcon|Arrow}} You are doing great...
+::::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+::::<!--Custom String Listener: TalkSentence_501028430-->
+::::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+::::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Eric:''' Because... Because she gave me that wonderful medal.
+:::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+:::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+:::'''Eric:''' So... I want to thank her in person.
+:::<!--Custom String Trigger: Wait_Option_5010284_58-->
+:::<!--Custom String Listener: Wait_Option_5010284_58-->
+:::{{DIcon|Arrow}} I'll pass on the message when I see her.
+::::<!--Custom String Listener: TalkSentence_501028438-->
+::::'''Eric:''' Really!? Thank you!
+:::{{DIcon|Arrow}} I wonder what Seele will think...
+::::<!--Custom String Listener: TalkSentence_501028440-->
+::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+:::{{DIcon|Talk}} Are you still a pickpocket?
+::::<!--Custom String Listener: TalkSentence_501028419-->
+::::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+::::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+::::<!--Custom String Trigger: Wait_Option_5010284_36-->
+::::<!--Custom String Listener: Wait_Option_5010284_36-->
+::::{{DIcon|Arrow}} Pay off the debt?
+::::{{DIcon|Arrow}} Is your dad sick?
+::::<!--Custom String Listener: TalkSentence_501028423-->
+::::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+::::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+::::<!--Custom String Trigger: Wait_Option_5010284_42-->
+::::<!--Custom String Listener: Wait_Option_5010284_42-->
+::::{{DIcon|Arrow}} So what do you do now?
+::::<!--Custom String Listener: TalkSentence_501028426-->
+::::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+::::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+::::<!--Custom String Trigger: Wait_Option_5010284_47-->
+::::<!--Custom String Listener: Wait_Option_5010284_47-->
+::::{{DIcon|Arrow}} You are doing great...
+::::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+::::<!--Custom String Listener: TalkSentence_501028430-->
+::::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+::::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Are you still a pickpocket?
+:::<!--Custom String Listener: TalkSentence_501028419-->
+:::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+:::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+:::<!--Custom String Trigger: Wait_Option_5010284_36-->
+:::<!--Custom String Listener: Wait_Option_5010284_36-->
+:::{{DIcon|Arrow}} Pay off the debt?
+:::{{DIcon|Arrow}} Is your dad sick?
+:::<!--Custom String Listener: TalkSentence_501028423-->
+:::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+:::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+:::<!--Custom String Trigger: Wait_Option_5010284_42-->
+:::<!--Custom String Listener: Wait_Option_5010284_42-->
+:::{{DIcon|Arrow}} So what do you do now?
+:::<!--Custom String Listener: TalkSentence_501028426-->
+:::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+:::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+:::<!--Custom String Trigger: Wait_Option_5010284_47-->
+:::<!--Custom String Listener: Wait_Option_5010284_47-->
+:::{{DIcon|Arrow}} You are doing great...
+:::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+:::<!--Custom String Listener: TalkSentence_501028430-->
+:::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+:::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you want to see Bronya?
+::::<!--Custom String Listener: TalkSentence_501028433-->
+::::'''Eric:''' Because... Because she gave me that wonderful medal.
+::::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+::::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+::::'''Eric:''' So... I want to thank her in person.
+::::<!--Custom String Trigger: Wait_Option_5010284_58-->
+::::<!--Custom String Listener: Wait_Option_5010284_58-->
+::::{{DIcon|Arrow}} I'll pass on the message when I see her.
+:::::<!--Custom String Listener: TalkSentence_501028438-->
+:::::'''Eric:''' Really!? Thank you!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I wonder what Seele will think...
+:::::<!--Custom String Listener: TalkSentence_501028440-->
+:::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+:::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Why do you want to see Bronya?
+:::<!--Custom String Listener: TalkSentence_501028433-->
+:::'''Eric:''' Because... Because she gave me that wonderful medal.
+:::'''Eric:''' Bronya told me to exchange it for money and that's how I paid off all papa's debts.
+:::'''Eric:''' No one had ever treated me so nicely until I met Bronya... Everyone despised me for being a thief and avoided me like I was some kind of rabid gopher...
+:::'''Eric:''' So... I want to thank her in person.
+:::<!--Custom String Trigger: Wait_Option_5010284_58-->
+:::<!--Custom String Listener: Wait_Option_5010284_58-->
+:::{{DIcon|Arrow}} I'll pass on the message when I see her.
+::::<!--Custom String Listener: TalkSentence_501028438-->
+::::'''Eric:''' Really!? Thank you!
+:::{{DIcon|Arrow}} I wonder what Seele will think...
+::::<!--Custom String Listener: TalkSentence_501028440-->
+::::'''Eric:''' Seele? Well, she was mean to me because I did a lot of bad things... but I know it was for my own good!
+::::'''Eric:''' Seele is noble and skilled... I want to be just like her when I grow up!
+:::<!--Custom String Trigger: Wait_Option_5010284_32-->
+:::<!--Custom String Listener: Wait_Option_5010284_32-->
+:::{{DIcon|Talk}} Are you still a pickpocket?
+::::<!--Custom String Listener: TalkSentence_501028419-->
+::::'''Eric:''' No-no way! Thanks to the medal the Guard lady gave me, I've been able to help my old man pay off his debt.
+::::'''Eric:''' I... I promised her that I would never steal again... I must keep my word...
+::::<!--Custom String Trigger: Wait_Option_5010284_36-->
+::::<!--Custom String Listener: Wait_Option_5010284_36-->
+::::{{DIcon|Arrow}} Pay off the debt?
+::::{{DIcon|Arrow}} Is your dad sick?
+::::<!--Custom String Listener: TalkSentence_501028423-->
+::::'''Eric:''' Yes, he was seriously ill. He got into a lot of debt due to his medical bills.
+::::'''Eric:''' If papa doesn't pay the debt on time, he would be... So that's why I started to steal...
+::::<!--Custom String Trigger: Wait_Option_5010284_42-->
+::::<!--Custom String Listener: Wait_Option_5010284_42-->
+::::{{DIcon|Arrow}} So what do you do now?
+::::<!--Custom String Listener: TalkSentence_501028426-->
+::::'''Eric:''' Well, I'm learning to be a mechanic from some folks in the settlement...
+::::'''Eric:''' When I master the techniques, I'll be able to make some money with them. Then I can help my dad...
+::::<!--Custom String Trigger: Wait_Option_5010284_47-->
+::::<!--Custom String Listener: Wait_Option_5010284_47-->
+::::{{DIcon|Arrow}} You are doing great...
+::::{{DIcon|Arrow}} Things will get better. I'm rooting for you!
+::::<!--Custom String Listener: TalkSentence_501028430-->
+::::'''Eric:''' I'm really sorry about all the trouble I've caused for everyone in the Underworld! Those I stole from could very well be in a worse situation than me...
+::::'''Eric:''' I really regret it! From now on, I will be a good person and be a useful member to society...
+:::;(Return to previous option selection (cloneCheckString))
+::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'm okay.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'm okay.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Julian
+|zhs  = 尤利安
+|zht  = 尤利安
+|ja   = ジュリアン
+|ko   = 줄리안
+|es   = Julian
+|fr   = Julian
+|ru   = Джулиан
+|th   = Julian
+|vi   = Julian
+|de   = Julian
+|id   = Julian
+|pt   = Julian
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,120 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bernard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 4 Geography Researcher
+|image           = NPC Bernard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Bernard''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_16_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 200011031,
+		"Type": "submission_state_equal",
+		"Param1": 200011031,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200011031: Config/Level/Mission/2000110/Act/Act200011031.json-->
+:'''Bernard:''' Sigh! The fleeting romance between men and women is an obstruction to the way of scientific research!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200011031-->
+<pre>
+[
+	{
+		"ID": 200011032,
+		"Type": "submission_state_equal",
+		"Param1": 200011032,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 200011032: Config/Level/Mission/2000110/Act/Act200011032.json-->
+:'''Bernard:''' Sigh! The fleeting romance between men and women is an obstruction to the way of scientific research!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200011032-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 200011031
+	},
+	{
+		"Type": "SubMission",
+		"ID": 200011032
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 200011031-->)
+:{{DIcon}} 
+::<!--Trigger PerformanceE 200011031: Config/Level/Mission/2000110/Act/Act200011031.json-->
+::'''Bernard:''' Sigh! The fleeting romance between men and women is an obstruction to the way of scientific research!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200011031-->
+;(If {{cx}}<!--SubMission Started: 200011032--> and {{cx}}<!--SubMission Started: 200011031-->)
+:{{DIcon}} Investigate
+::<!--Trigger PerformanceE 200011032: Config/Level/Mission/2000110/Act/Act200011032.json-->
+::'''Bernard:''' Sigh! The fleeting romance between men and women is an obstruction to the way of scientific research!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200011032-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bernard
+|zhs  = 伯纳德
+|zht  = 伯納德
+|ja   = バーナード
+|ko   = 버나드
+|es   = Bernard
+|fr   = Bernard
+|ru   = Бернард
+|th   = Bernard
+|vi   = Bernard
+|de   = Bernard
+|id   = Bernard
+|pt   = Bernard
+}}
+==Change History==
+{{Change History|TODO}}

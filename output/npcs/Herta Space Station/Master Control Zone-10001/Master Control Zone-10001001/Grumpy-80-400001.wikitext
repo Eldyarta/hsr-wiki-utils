@@ -1,0 +1,261 @@
+<%-- [PAGE_INFO]
+PageTitle=#Grumpy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Grumpy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Grumpy''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_80_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 800000102-->)
+::<!--Trigger PerformanceD 800000102: Config/Level/Mission/8000001/Act/Act800000102.json-->
+::----
+::{{DIcon|Arrow}} Grumpy?
+::<!--Custom String Listener: TalkSentence_800000102-->
+::'''Grumpy:''' ...Who are you?
+::'''Grumpy:''' Oh, if it isn't the famous (Trailblazer)? I'm sorry. I was immersed in my research and lost track of everything...
+::'''Grumpy:''' I didn't expect you to respond to my humble request... I'm incredibly grateful!
+::{{DIcon|Arrow}} I'll never miss a patch update.
+:::<!--Custom String Listener: TalkSentence_800000106-->
+:::'''Grumpy:''' Patch... update? No wonder you're the savior of the space station. You are speaking in jargon that I can only dream of understanding...
+::{{DIcon|Arrow}} Helping people is in my nature.
+:::<!--Custom String Listener: TalkSentence_800000108-->
+:::'''Grumpy:''' Thank you so much... Don't worry, I'll have a few small tokens of appreciation for you.
+::<!--Custom String Trigger: TalkSentence_800000109-->
+::<!--Custom String Listener: TalkSentence_800000109-->
+::'''Grumpy:''' First, allow me to introduce myself &mdash; my name is Grumpy, and I'm a Level 1 researcher at the Department of Implement Arts.
+::'''Grumpy:''' I just moved aboard the space station, so I'm still getting used to this place... I don't suppose you know Miss Wen Shiling, my tutor?
+::'''Grumpy:''' Miss Shiling... How should I put this? She's a great person. It's just... she's not the best at mentoring. You basically have to rely on your own wits to get some direction if you're working under her...
+::{{DIcon|Arrow}} Office politics? That's my forte.
+::{{DIcon|Arrow}} I'd like to hear the main point...
+::<!--Custom String Listener: TalkSentence_800000114-->
+::'''Grumpy:''' ...Ahem, sorry about that. I shouldn't have told you all that. In a nutshell, Miss Shiling threw me a set of weird simulation software and asked me to test them.
+::'''Grumpy:''' At first, I thought she gave me some junk software that can be found all over the place &mdash; the kind where you've got no idea who's developed it. It's probably riddled with bugs and keeps crashing every few seconds. But actually...
+::'''Grumpy:''' ...It was a complete and logically-consistent battle simulator, and the developer even gave it an official name: Stellar Flare.
+::'''Grumpy:''' That makes things a bit hard for me... If it was some tacky half-baked software, then I'd only need to spend an afternoon running some simple tests for a two-page report before handing it over.
+::'''Grumpy:''' But this is a genuine combat simulator... I can't master it on my own. My report is due next week, but I've made no progress at all... So I'm really hoping you can help in any way at all.
+::{{DIcon|Arrow}} Have you asked Herta for help?
+:::<!--Custom String Listener: TalkSentence_800000120-->
+:::'''Grumpy:''' ...Miss Herta? No no no, how could a small fry like me go to her with something like this...
+::{{DIcon|Arrow}} Have you asked Asta for help?
+:::<!--Custom String Listener: TalkSentence_800000122-->
+:::'''Grumpy:''' ...The lead researcher? No no no, how could a small fry like me go to her with something like this...
+::{{DIcon|Arrow}} Have you asked that guard over there for help?
+:::<!--Custom String Listener: TalkSentence_800000124-->
+:::'''Grumpy:''' ...No way. He has his own job, and he can't skip his work just to help me with something personal...
+::<!--Custom String Trigger: TalkSentence_800000125-->
+::<!--Custom String Listener: TalkSentence_800000125-->
+::'''Grumpy:''' Anyway, since you're here... Can I trouble you to take a moment and have a look at this "Stellar Flare" for me?
+::'''Grumpy:''' This simulator has lots of stages, and the developer even split each stage into three difficulty levels. But even the easiest mode... is far too much for me.
+::'''Grumpy:''' But for an experienced Trailblazer like yourself, this kind of simulation should be a walk in the park, right? I installed Stellar Flare in the terminal right over there... It should be on the desk.
+::'''Grumpy:''' My performance appraisal is all on you, (Trailblazer)...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 800000102_Finish-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 800000205--> and {{cx}}<!--SubMission Finish: 800000104-->)
+::<!--Trigger PerformanceE 800000105: Config/Level/Mission/8000001/Act/Act800000105.json-->
+::'''Grumpy:''' Are you still in the space station, (Trailblazer)?
+::'''Grumpy:''' Thanks to the test data from you, I can finally submit my report to Miss Shiling... You might not realize this, but it's really important to me... I don't want to get kicked out of the Department of Implement Arts before my probation ends.
+::'''Grumpy:''' Oh yeah, that's right &mdash; there's more than one stage in Stellar Flare, and each stage has three difficulty levels. If you want, you can keep playing it.
+::'''Grumpy:''' I saved the installation package onto your mobile device &mdash; or you can just keep using this testing terminal next to me. Hope you have lots of fun playing...
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 800000104--> and {{cx}}<!--SubMission Finish: 800000204-->)
+::<!--Trigger PerformanceE 800000105: Config/Level/Mission/8000001/Act/Act800000105.json-->
+::'''Grumpy:''' Are you still in the space station, (Trailblazer)?
+::'''Grumpy:''' Thanks to the test data from you, I can finally submit my report to Miss Shiling... You might not realize this, but it's really important to me... I don't want to get kicked out of the Department of Implement Arts before my probation ends.
+::'''Grumpy:''' Oh yeah, that's right &mdash; there's more than one stage in Stellar Flare, and each stage has three difficulty levels. If you want, you can keep playing it.
+::'''Grumpy:''' I saved the installation package onto your mobile device &mdash; or you can just keep using this testing terminal next to me. Hope you have lots of fun playing...
+::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 800000104-->)
+::<!--Trigger PerformanceE 800000105: Config/Level/Mission/8000001/Act/Act800000105.json-->
+::'''Grumpy:''' Are you still in the space station, (Trailblazer)?
+::'''Grumpy:''' Thanks to the test data from you, I can finally submit my report to Miss Shiling... You might not realize this, but it's really important to me... I don't want to get kicked out of the Department of Implement Arts before my probation ends.
+::'''Grumpy:''' Oh yeah, that's right &mdash; there's more than one stage in Stellar Flare, and each stage has three difficulty levels. If you want, you can keep playing it.
+::'''Grumpy:''' I saved the installation package onto your mobile device &mdash; or you can just keep using this testing terminal next to me. Hope you have lots of fun playing...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 800000104_Finish-->
+;(Otherwise, if {{cx}}<!--SubMission Finish: 800000203-->)
+::'''Grumpy:''' What's up, (Trailblazer)? Have you had a go at Stellar Flare?
+::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 800000103: Config/Level/Mission/8000001/Act/Act800000103.json-->
+::'''Grumpy:''' What's up, (Trailblazer)? Have you had a go at Stellar Flare?
+::{{DIcon|Arrow}} Not yet...
+::<!--Custom String Listener: TalkSentence_800000131-->
+::'''Grumpy:''' I see... Okay, take your time.
+::'''Grumpy:''' So long as I can meet the deadline for my report... Ah, it's no big deal. Please don't feel pressured...
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000102-->)
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Finish: 800000205-->, {{cx}}<!--SubMission Finish: 800000204-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Started: 800000210-->, and {{cx}}<!--SubMission Started: 800000209-->)
+:{{DIcon|Arrow}} I beat it on the Supergiant Star difficulty.
+::<!--Trigger PerformanceE 800000106: Config/Level/Mission/8000001/Act/Act800000106.json-->
+::'''Grumpy:''' ...Really? I can't even clear it on the Dwarf Star difficulty... I guess the differences in skill between people is even bigger than the drop of the Grand Chasm on the planet of Talia...
+::'''Grumpy:''' Thank you, (Trailblazer). Now I've got even more data for my report.
+::'''Grumpy:''' Here are some small rewards... Please, take it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800000209-->
+;(If {{cx}}<!--SubMission Finish: 800000205-->, {{cx}}<!--SubMission Finish: 800000204-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Started: 800000210-->, and {{cx}}<!--SubMission Started: 800000209-->)
+:{{DIcon|Arrow}} I clocked Stellar Flare.
+::<!--Trigger PerformanceE 800000107: Config/Level/Mission/8000001/Act/Act800000107.json-->
+::'''Grumpy:''' ...Clocked it? You mean... You finished all the stages on all difficulties?
+::'''Grumpy:''' That's... utterly incredible, (Trailblazer)! With your data, I'll definitely be able to submit a report that exceeds expectations. This'll make Miss Shiling sit up and take notice!
+::'''Grumpy:''' Let me take a look... Here's a few small things... Just a small token of thanks. Go ahead, take it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800000210-->
+;(If {{cx}}<!--SubMission Finish: 800000205-->, {{cx}}<!--SubMission Finish: 800000204-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Started: 800000210-->, and {{cx}}<!--SubMission Started: 800000209-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000204-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Finish: 800000210-->, and {{cx}}<!--SubMission Started: 800000209-->)
+:{{DIcon|Arrow}} I beat it on the Supergiant Star difficulty.
+::<!--Trigger PerformanceE 800000106: Config/Level/Mission/8000001/Act/Act800000106.json-->
+::'''Grumpy:''' ...Really? I can't even clear it on the Dwarf Star difficulty... I guess the differences in skill between people is even bigger than the drop of the Grand Chasm on the planet of Talia...
+::'''Grumpy:''' Thank you, (Trailblazer). Now I've got even more data for my report.
+::'''Grumpy:''' Here are some small rewards... Please, take it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800000209-->
+;(If {{cx}}<!--SubMission Finish: 800000204-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Finish: 800000210-->, and {{cx}}<!--SubMission Started: 800000209-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000205-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Started: 800000210-->, and {{cx}}<!--SubMission Finish: 800000209-->)
+:{{DIcon|Arrow}} I clocked Stellar Flare.
+::<!--Trigger PerformanceE 800000107: Config/Level/Mission/8000001/Act/Act800000107.json-->
+::'''Grumpy:''' ...Clocked it? You mean... You finished all the stages on all difficulties?
+::'''Grumpy:''' That's... utterly incredible, (Trailblazer)! With your data, I'll definitely be able to submit a report that exceeds expectations. This'll make Miss Shiling sit up and take notice!
+::'''Grumpy:''' Let me take a look... Here's a few small things... Just a small token of thanks. Go ahead, take it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800000210-->
+;(If {{cx}}<!--SubMission Finish: 800000205-->, {{cx}}<!--SubMission Finish: 800000104-->, {{cx}}<!--SubMission Started: 800000210-->, and {{cx}}<!--SubMission Finish: 800000209-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000210--> and {{cx}}<!--SubMission Finish: 800000205--> and {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 800000210--> and {{cx}}<!--SubMission Finish: 800000205--> and {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Arrow}} I clocked Stellar Flare.
+::<!--Trigger PerformanceE 800000107: Config/Level/Mission/8000001/Act/Act800000107.json-->
+::'''Grumpy:''' ...Clocked it? You mean... You finished all the stages on all difficulties?
+::'''Grumpy:''' That's... utterly incredible, (Trailblazer)! With your data, I'll definitely be able to submit a report that exceeds expectations. This'll make Miss Shiling sit up and take notice!
+::'''Grumpy:''' Let me take a look... Here's a few small things... Just a small token of thanks. Go ahead, take it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800000210-->
+;(If {{cx}}<!--SubMission not Finish: 800000210--> and {{cx}}<!--SubMission Finish: 800000205--> and {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000209--> and {{cx}}<!--SubMission Finish: 800000204--> and {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 800000209--> and {{cx}}<!--SubMission Finish: 800000204--> and {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Arrow}} I beat it on the Supergiant Star difficulty.
+::<!--Trigger PerformanceE 800000106: Config/Level/Mission/8000001/Act/Act800000106.json-->
+::'''Grumpy:''' ...Really? I can't even clear it on the Dwarf Star difficulty... I guess the differences in skill between people is even bigger than the drop of the Grand Chasm on the planet of Talia...
+::'''Grumpy:''' Thank you, (Trailblazer). Now I've got even more data for my report.
+::'''Grumpy:''' Here are some small rewards... Please, take it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800000209-->
+;(If {{cx}}<!--SubMission not Finish: 800000209--> and {{cx}}<!--SubMission Finish: 800000204--> and {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000104-->)
+:{{DIcon|Exit}} Don't worry too much.
+::<!--Trigger PerformanceE 800000108: Config/Level/Mission/8000001/Act/Act800000108.json-->
+::'''Grumpy:''' Thanks for caring... The rumor circulating in the space station is true! You're a brave and caring person.
+::'''Grumpy:''' I'm so glad I get to meet you, I feel my passion for my work returning!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 800000203-->)
+:{{DIcon|Arrow}} I finished one stage.
+::<!--Trigger PerformanceE 800000104: Config/Level/Mission/8000001/Act/Act800000104.json-->
+::'''Grumpy:''' Wow! Really, that fast? So... how was it?
+::{{DIcon|Arrow}} Piece of cake.
+:::<!--Custom String Listener: TalkSentence_800000137-->
+:::'''Grumpy:''' Aha, I knew it! Clearing a stage is a piece of cake for a pro like you!
+::{{DIcon|Arrow}} Not really, no.
+:::<!--Custom String Listener: TalkSentence_800000139-->
+:::'''Grumpy:''' So, that's how it is... The game designer must be quite talented if they can put even a pro like you through the wringer.
+::{{DIcon|Arrow}} This event designer has a thing or two up their sleeve.
+:::<!--Custom String Listener: TalkSentence_800000141-->
+:::'''Grumpy:''' Ugh... I don't really understand what you're saying.
+::<!--Custom String Trigger: TalkSentence_800000142-->
+::<!--Custom String Listener: TalkSentence_800000142-->
+::'''Grumpy:''' I can get my test data now... I'll start writing the report tonight. I don't want Miss Shiling rushing me about it.
+::'''Grumpy:''' Thank you so much, (Trailblazer) &mdash; you're a lifesaver! Please take these &mdash; just a few small gifts from our department. I owe you one!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 800000104_Finish-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

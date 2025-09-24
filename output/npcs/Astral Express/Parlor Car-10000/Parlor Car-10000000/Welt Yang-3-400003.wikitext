@@ -1,0 +1,200 @@
+<%-- [PAGE_INFO]
+PageTitle=#Welt Yang#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Welt Yang.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Parlor Car
+|relatives       = 
+}}
+'''Welt Yang''' is an NPC on [[Astral Express]], located in [[Parlor Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Parlor Car|npc_3_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 100050108,
+		"Type": "submission_state_equal",
+		"Param1": 100050108,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceD 100050108: undefined-->
+:<!--Custom String Trigger: 100050108-->
+<pre>
+[
+	{
+		"ID": 100050407,
+		"Type": "submission_state_equal",
+		"Param1": 100050407,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100050407: Config/Level/Mission/1000502/Act/Act100050407.json-->
+:{{A|VO chapter0 7 welt 101.ogg}} '''Welt:''' Oh, it's you. How do you feel?
+:<!--Custom String Trigger: Wait_Option_1000503_17-->
+:<!--Custom String Listener: Wait_Option_1000503_17-->
+:{{DIcon|Arrow}} Full of energy.
+::<!--Custom String Listener: TalkSentence_100050303-->
+::{{A|VO chapter0 7 welt 102.ogg}} '''Welt:''' Great. Looks like your stamina is really quite special.
+:{{DIcon|Arrow}} I've got a killer headache.
+::<!--Custom String Listener: TalkSentence_100050306-->
+::{{A|VO chapter0 7 welt 103.ogg}} '''Welt:''' ...I'll check you out in a minute.
+:{{DIcon|Arrow}} Very tasteful.
+::<!--Custom String Listener: TalkSentence_100050309-->
+::{{A|VO chapter0 7 welt 105.ogg}} '''Welt:''' Tasteful... Oh, you mean the train? I was asking how you felt physically.
+::{{A|VO chapter0 7 welt 106.ogg}} '''Welt:''' You are right, though. Looking at the interior decoration, you can tell that trailblazers have quite good taste.
+:<!--Custom String Trigger: TalkSentence_100050311-->
+:<!--Custom String Listener: TalkSentence_100050311-->
+:{{A|VO chapter0 7 welt 107.ogg}} '''Welt:''' In any case, I have to thank you for saving March.
+:<!--Custom String Trigger: Wait_Option_1000503_29-->
+:<!--Custom String Listener: Wait_Option_1000503_29-->
+:{{DIcon|Arrow}} You guys saved me, too.
+::<!--Custom String Listener: TalkSentence_100050313-->
+::{{A|VO chapter0 7 welt 108.ogg}} '''Welt:''' Heh, all I did was calm that thing inside you down temporarily...
+::{{A|VO chapter0 7 welt 109.ogg}} '''Welt:''' ...I don't want to frighten you, but the truth is you won't ever be in the clear while it is still inside your body.
+:{{DIcon|Arrow}} I couldn't just stand by and watch.
+::<!--Custom String Listener: TalkSentence_100050316-->
+::{{A|VO chapter0 7 welt 110.ogg}} '''Welt:''' It's good that you think so. Someone with that mindset and the actions to back it up &mdash; that is the true meaning of the word "hero."
+:{{DIcon|Arrow}} I didn't think too much about it...
+::<!--Custom String Listener: TalkSentence_100050317-->
+::{{A|VO chapter0 7 welt 111.ogg}} '''Welt:''' Helping others without a second thought &mdash; that is the most important quality of a hero.
+:<!--Custom String Trigger: TalkSentence_100050318-->
+:<!--Custom String Listener: TalkSentence_100050318-->
+:{{A|VO chapter0 7 welt 112.ogg}} '''Welt:''' However, as long as the Stellaron is still in your body, you should be careful what you do. I don't know if Himeko and I can suppress it again.
+:{{A|VO chapter0 7 welt 113.ogg}} '''Welt:''' But I won't bore you any longer. So much happened at the space station, you must be tired.
+:{{A|VO chapter0 7 welt 114.ogg}} '''Welt:''' There should be some time until the next warp jump, so feel free to walk around and familiarize yourself with the environment.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 100050407_talk-->
+<pre>
+[
+	{
+		"ID": 100050408,
+		"Type": "submission_state_equal",
+		"Param1": 100050408,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100050408: Config/Level/Mission/1000502/Act/Act100050408.json-->
+:{{A|VO chapter0 7 welt 113.ogg}} '''Welt:''' But I won't bore you any longer. So much happened at the space station, you must be tired.
+:{{A|VO chapter0 7 welt 114.ogg}} '''Welt:''' There should be some time until the next warp jump, so feel free to walk around and familiarize yourself with the environment.
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 100050407
+	},
+	{
+		"Type": "SubMission",
+		"ID": 100050408
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 100050407-->)
+:{{DIcon}} I'm (Trailblazer).
+::<!--Trigger PerformanceE 100050407: Config/Level/Mission/1000502/Act/Act100050407.json-->
+::{{A|VO chapter0 7 welt 101.ogg}} '''Welt:''' Oh, it's you. How do you feel?
+::<!--Custom String Trigger: Wait_Option_1000503_17-->
+::<!--Custom String Listener: Wait_Option_1000503_17-->
+::{{DIcon|Arrow}} Full of energy.
+:::<!--Custom String Listener: TalkSentence_100050303-->
+:::{{A|VO chapter0 7 welt 102.ogg}} '''Welt:''' Great. Looks like your stamina is really quite special.
+::{{DIcon|Arrow}} I've got a killer headache.
+:::<!--Custom String Listener: TalkSentence_100050306-->
+:::{{A|VO chapter0 7 welt 103.ogg}} '''Welt:''' ...I'll check you out in a minute.
+::{{DIcon|Arrow}} Very tasteful.
+:::<!--Custom String Listener: TalkSentence_100050309-->
+:::{{A|VO chapter0 7 welt 105.ogg}} '''Welt:''' Tasteful... Oh, you mean the train? I was asking how you felt physically.
+:::{{A|VO chapter0 7 welt 106.ogg}} '''Welt:''' You are right, though. Looking at the interior decoration, you can tell that trailblazers have quite good taste.
+::<!--Custom String Trigger: TalkSentence_100050311-->
+::<!--Custom String Listener: TalkSentence_100050311-->
+::{{A|VO chapter0 7 welt 107.ogg}} '''Welt:''' In any case, I have to thank you for saving March.
+::<!--Custom String Trigger: Wait_Option_1000503_29-->
+::<!--Custom String Listener: Wait_Option_1000503_29-->
+::{{DIcon|Arrow}} You guys saved me, too.
+:::<!--Custom String Listener: TalkSentence_100050313-->
+:::{{A|VO chapter0 7 welt 108.ogg}} '''Welt:''' Heh, all I did was calm that thing inside you down temporarily...
+:::{{A|VO chapter0 7 welt 109.ogg}} '''Welt:''' ...I don't want to frighten you, but the truth is you won't ever be in the clear while it is still inside your body.
+::{{DIcon|Arrow}} I couldn't just stand by and watch.
+:::<!--Custom String Listener: TalkSentence_100050316-->
+:::{{A|VO chapter0 7 welt 110.ogg}} '''Welt:''' It's good that you think so. Someone with that mindset and the actions to back it up &mdash; that is the true meaning of the word "hero."
+::{{DIcon|Arrow}} I didn't think too much about it...
+:::<!--Custom String Listener: TalkSentence_100050317-->
+:::{{A|VO chapter0 7 welt 111.ogg}} '''Welt:''' Helping others without a second thought &mdash; that is the most important quality of a hero.
+::<!--Custom String Trigger: TalkSentence_100050318-->
+::<!--Custom String Listener: TalkSentence_100050318-->
+::{{A|VO chapter0 7 welt 112.ogg}} '''Welt:''' However, as long as the Stellaron is still in your body, you should be careful what you do. I don't know if Himeko and I can suppress it again.
+::{{A|VO chapter0 7 welt 113.ogg}} '''Welt:''' But I won't bore you any longer. So much happened at the space station, you must be tired.
+::{{A|VO chapter0 7 welt 114.ogg}} '''Welt:''' There should be some time until the next warp jump, so feel free to walk around and familiarize yourself with the environment.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 100050407_talk-->
+;(If {{cx}}<!--SubMission Started: 100050408--> and {{cx}}<!--SubMission Started: 100050407-->)
+:{{DIcon}} I'm (Trailblazer).
+::<!--Trigger PerformanceE 100050408: Config/Level/Mission/1000502/Act/Act100050408.json-->
+::{{A|VO chapter0 7 welt 113.ogg}} '''Welt:''' But I won't bore you any longer. So much happened at the space station, you must be tired.
+::{{A|VO chapter0 7 welt 114.ogg}} '''Welt:''' There should be some time until the next warp jump, so feel free to walk around and familiarize yourself with the environment.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Welt Yang
+|zhs  = 瓦尔特•杨
+|zht  = 瓦爾特•楊
+|ja   = ヴェルト・ヨウ
+|ko   = 웰트•양
+|es   = Welt Yang
+|fr   = Welt&nbsp;Yang
+|ru   = Вельт Янг
+|th   = Welt Yang
+|vi   = Welt Yang
+|de   = Welt Yang
+|id   = Welt Yang
+|pt   = Welt Yang
+}}
+==Change History==
+{{Change History|TODO}}

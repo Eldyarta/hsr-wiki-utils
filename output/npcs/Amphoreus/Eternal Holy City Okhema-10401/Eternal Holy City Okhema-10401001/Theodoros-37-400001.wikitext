@@ -1,0 +1,266 @@
+<%-- [PAGE_INFO]
+PageTitle=#Theodoros#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ancient Artifact Shop Owner
+|image           = NPC Theodoros.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Theodoros''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_37_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 803140102-->)
+::<!--Trigger PerformanceD 803140101: Story/Discussion/Mission/8031401/DS803140101.json-->
+::'''Zenon:''' Replica? Do you know how far back it dates? It's from at least the time when the {{Rubi|Janusopolis|Holy City of Fate}} was still standing!
+::'''Zenon:''' This was bestowed upon my great-great-great-grandfather while he served as a priest there by the Three Titans of Fate, and it's been in my family for thousands of years. How could it be fake?
+::'''Theodoros:''' Sir, please calm down, and let me say this again &mdash; your item is undeniably new, freshly made last week.
+::'''Zenon:''' Kid, you're the new one!
+::{{DIcon|Arrow}} What happened?
+::{{DIcon|Arrow}} Are you scamming pensions?
+::{{DIcon|Arrow}} Are you faking an injury?
+::<!--Custom String Listener: TalkSentence_831410008-->
+::'''Theodoros:''' Recently, Okhema has seen a surge of fakes made with the latest imitation techniques, not just fooling the elderly with weak discernment but even some enthusiasts.
+::'''Zenon:''' Who are you calling old? Do you have any idea what its twin pot fetched? Two million Balance Coins! You're just trying to lower the price so you can flip it later for a huge profit, you sly second-hand dealer!
+::{{DIcon|Arrow}} Is this pot worth that much?
+::{{DIcon|Arrow}} Exactly!
+::<!--Custom String Listener: TalkSentence_831410012-->
+::'''Theodoros:''' Allow me to conduct a thorough appraisal. But be prepared, the result will be no different.
+::{{tx}}
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: OpenUI_Day1-->
+;(Otherwise)
+:;(First interaction)
+:::<!--Trigger PerformanceE 504002001: Config/Level/Mission/5040020/Act/Act504002001.json-->
+:::'''Theodoros:''' The last Chrysos Heir dolium just got snatched up, dear customer. If that's what you came for, I'm sorry for the disappointment!
+:::{{DIcon|Arrow}} What is a "Chrysos Heir dolium"?
+::::<!--Custom String Listener: TalkSentence_504002003-->
+::::'''Theodoros:''' Haha, it looks like I misread your interest. Lately, it seems like everyone who stops by is on the hunt for that specific line of products.
+:::{{DIcon|Arrow}} Does such a business exist?
+::::<!--Custom String Listener: TalkSentence_504002005-->
+::::'''Theodoros:''' Haha, it looks like I misread your interest. Lately, it seems like everyone who stops by is on the hunt for that specific line of products.
+:::{{DIcon|Arrow}} I placed an order for a dolium ten years ago! And it still hasn't arrived!
+::::<!--Custom String Listener: TalkSentence_504002007-->
+::::'''Theodoros:''' My apologies once again! Even though my shop has been around for a decade, most recent visitors have been on the lookout for my Chrysos Heir Dolia, and I've never managed to keep enough in stock.
+:::<!--Custom String Trigger: TalkSentence_504002008-->
+:::<!--Custom String Listener: TalkSentence_504002008-->
+:::'''Theodoros:''' As for their origin, one day, while spotting Lord Phainon patrolling the city, I felt inspired and painted the epic tales of Okhema's Chrysos Heirs on a dolium.
+:::'''Theodoros:''' Their courage and elegance must come from the fluttering wings of Mnestia, the Chrysalis of Gold! Their magical powder must have imbued them with such perfection!
+:::'''Theodoros:''' Naturally, my dolia carry this same honor. Now, fans of the Chrysos Heirs flock to my humble shop on sale days.
+:::'''Theodoros:''' Honestly, it's all a bit surreal to me. Not too long ago, I was still a struggling artist lost in my thoughts, setting up a booth on the plaza across the street, painting on dolia here and there to make ends meet.
+:::'''Theodoros:''' After the frenzy over these Chrysos Heir Dolia, I opened this shop and gained some recognition. Tomorrow, I'm off to the Marmoreal Palace to paint a portrait for a distinguished elder's grand birthday bash!
+:::'''Theodoros:''' However... something feels off...
+:::{{DIcon|Arrow}} I get where that comes from!
+::::<!--Custom String Listener: TalkSentence_504002015-->
+::::'''Theodoros:''' It's remarkable to see someone as young as a new crescent moon with such profound insights into life.
+:::{{DIcon|Arrow}} Isn't it amazing to achieve both fame and fortune?
+::::<!--Custom String Listener: TalkSentence_504002017-->
+::::'''Theodoros:''' Well, I'm nothing special.
+:::<!--Custom String Trigger: TalkSentence_504002018-->
+:::<!--Custom String Listener: TalkSentence_504002018-->
+:::'''Theodoros:''' ...Let's just bask in the bright light of the {{Rubi|Lucid Hour|Third of the Five Moments}} and forget the days of sorrow.
+:::'''Theodoros:''' Apart from the Dolia, I also offer a range of ancient artifacts I've gathered from all over. If anything piques your interest, just let me know.
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 504002002: Config/Level/Mission/5040020/Act/Act504002002.json-->
+:::'''Theodoros:''' Hand-painted pots and ancient artifacts, all at reasonable prices. Feel free to take a look around.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 803140101--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Zenon:''' What are you two mumbling about? Don't get any ideas about swapping out my treasure!
+:::'''Theodoros:''' Enough already.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day1-->
+:;(If {{cx}}<!--SubMission Finish: 803140101-->, {{cx}}<!--SubMission not Started: 803140201-->, and {{cx}}<!--SubMission not Finish: 803140201--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' There are no suitable treasures for you to handle today. Please come back tomorrow.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 803140201--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' You're finally here... This pot's been through who knows what, and it reeks so badly it's driving away customers. Let's get it appraised quickly and send it back to its owner.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day2-->
+:;(If {{cx}}<!--SubMission Finish: 803140201-->, {{cx}}<!--SubMission not Started: 803140301-->, and {{cx}}<!--SubMission not Finish: 803140301--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' There are no suitable treasures for you to handle today. Please come back tomorrow.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 803140301--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' Today brought an extraordinary surprise &mdash; a gentleman received a golden lyre from his son, who knows well his father's love for music. Such treasures are rare indeed. Feast your eyes on this marvel!
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day3-->
+:;(If {{cx}}<!--SubMission Finish: 803140301-->, {{cx}}<!--SubMission not Started: 803140401-->, and {{cx}}<!--SubMission not Finish: 803140401--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' There are no suitable treasures for you to handle today. Please come back tomorrow.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 803140401--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' Ever since they knew a new appraiser had come to town, everyone has been sending all sorts of strange things for you to practice with. The {{Rubi|Kyros|restaurant owner}} brought this "treasure." Take a look.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day4-->
+:;(If {{cx}}<!--SubMission Finish: 803140401-->, {{cx}}<!--SubMission not Started: 803140501-->, and {{cx}}<!--SubMission not Finish: 803140501--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' There are no suitable treasures for you to handle today. Please come back tomorrow.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 803140501--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' Your timing couldn't be better. Right after opening this morning, someone hurried in with this cup, paying triple the usual fee for an urgent appraisal. I'm still puzzled by the rush.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day5-->
+:;(If {{cx}}<!--SubMission Finish: 803140501-->, {{cx}}<!--SubMission not Started: 803140601-->, and {{cx}}<!--SubMission not Finish: 803140601--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' There are no suitable treasures for you to handle today. Please come back tomorrow.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 803140601--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' You're early today. I have a single-eared amphora for you to check out &mdash; it's a classic piece from Amphoreus.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day6-->
+:;(If {{cx}}<!--SubMission Finish: 803140601-->, {{cx}}<!--SubMission not Started: 803140701-->, and {{cx}}<!--SubMission not Finish: 803140701--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' There are no suitable treasures for you to handle today. Please come back tomorrow.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Started: 803140701--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' Ah, is Lord Phainon pulling my leg? Such a common tub, seen everywhere in the Marmoreal Palace, should be chopped for firewood for the {{Rubi|Chartonus|Grand Craftsman}}, not handed to me.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: OpenUI_Day7-->
+:;(If {{cx}}<!--SubMission Finish: 803140701--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIsActivityInSchedule","ActivityPanelID":30014}-->}})
+:{{DIcon|Travel Log}} The master appraiser is here!
+::----
+:::'''Theodoros:''' Ha, studying ancient artifacts is addictive, isn't it? Anything else you need?
+:::{{DIcon|Travel Log}} Check the appraisal records.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Trigger: Day7After-->
+:::{{DIcon|Arrow}} I'm good.
+::::<!--Custom String Listener: TalkSentence_831412904-->
+::::'''Theodoros:''' Come back anytime you need something.
+:::<!--Custom String Trigger: END_performance-->
+:::<!--Custom String Listener: END_performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Shop}} I'd like to take a look at your dolia and artifacts.
+::<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 37,
+	"ConfigID": 400001
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 70,
+	"TaskID": []
+}</pre>
+:::'''Theodoros:''' Sure, I'll go check on the dolia in the kiln. Catch you later.
+:::<!--Ends the current performance-->
+::{{DIcon}} Let's talk about some other topics...
+:::'''Theodoros:''' Of course! What's on your mind?
+:::<!--Custom String Trigger: Wait_Option_504002003_44-->
+:::<!--Custom String Listener: Wait_Option_504002003_44-->
+:::{{DIcon|Talk}} Are your Chrysos Heir Dolia officially licensed?
+::::<!--Custom String Listener: TalkSentence_504002103-->
+::::'''Theodoros:''' Definitely. You know, artists take their copyrights seriously.
+::::'''Theodoros:''' I secured permission from each heir individually. Even when I had doubts about commercializing them, one wise heir actually reassured me not to feel guilty.
+::::'''Theodoros:''' There's another responsible heir who drops by occasionally, discussing the beauty of portraying the human form, the intricate lines of muscles, and the armor styles that highlight the body's figure...
+::::{{DIcon|Arrow}} Is that something you can divulge?
+:::::<!--Custom String Listener: TalkSentence_504002107-->
+:::::'''Theodoros:''' I... I'm sorry, but I won't delve into my customers' privacy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I think I can already guess who that is.
+:::::<!--Custom String Listener: TalkSentence_504002109-->
+:::::'''Theodoros:''' Please... don't say anything like that. If that gets out, people might think I've breached my customers' privacy.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why did you choose to paint on dolia?
+::::<!--Custom String Listener: TalkSentence_504002111-->
+::::'''Theodoros:''' Because painting on dolia is one of the oldest storytelling traditions in Amphoreus. I prefer to depict ancient legends in the most traditional manner possible for that authentic touch.
+::::'''Theodoros:''' Plus, pottery offers a canvas of diverse shapes and purposes, allowing me to infuse art into life. You know, I've even crafted many chimera litter trays in this city.
+::::'''Theodoros:''' Maybe my dolia will be studied as antiques and relics after thousands of years. If only I could witness that day myself!
+::::{{DIcon|Arrow}} Studying chimera litter trays...
+:::::<!--Custom String Listener: TalkSentence_504002115-->
+:::::'''Theodoros:''' Haha! My art will definitely withstand time, even if it comes with a bit of a stink.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Will Amphoreus exist until then?
+:::::<!--Custom String Listener: TalkSentence_504002117-->
+:::::'''Theodoros:''' Oronyx's grace keeps the river of time flowing. Even if we fade away, a new civilization will eventually bud again.
+:::::'''Theodoros:''' But then again, I do hope Amphoreus endures &mdash; a responsibility that rests on all esteemed Chrysos Heirs.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About our unfinished conversation from last time...
+::::<!--Custom String Listener: TalkSentence_504002120-->
+::::'''Theodoros:''' I know my limits, but... praise Mnestia, chronicling the years of Amphoreus is my original inspiration. I aim to portray everything related to it, from extinct manticores to the Titans' epics, and their long-lost rituals...
+::::'''Theodoros:''' But people do not currently acknowledge me due to the creations that bear my true dream... People remember me mostly for my paintings of the upper echelon of Okhema and my portrayal of the Chrysos Heirs.
+::::'''Theodoros:''' While the allure of the Chrysos Heirs inspires me and I admire their divine beauty, I have to admit that practicality also played a role in my choice of clients...
+::::'''Theodoros:''' Such complexity can be overwhelming at times.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to your work.
+::::<!--Custom String Listener: TalkSentence_504002125-->
+::::'''Theodoros:''' Sure, I'll go check on the dolia in the kiln. Catch you later.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I'll leave you to your work.
+:::'''Theodoros:''' Sure, I'll go check on the dolia in the kiln. Catch you later.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Theodoros
+|zhs  = 西塔罗斯
+|zht  = 西塔羅斯
+|ja   = シタロース
+|ko   = 테오도로스
+|es   = Teodoro
+|fr   = Théodoros
+|ru   = Теодорос
+|th   = Theodoros
+|vi   = Theodoros
+|de   = Theodoros
+|id   = Theodoros
+|pt   = Theodoros
+}}
+==Change History==
+{{Change History|TODO}}

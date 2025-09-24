@@ -1,0 +1,149 @@
+<%-- [PAGE_INFO]
+PageTitle=#Huohuo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Huohuo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Fyxestroll Garden
+|relatives       = 
+}}
+'''Huohuo''' is an NPC on [[The Xianzhou Luofu]], located in [[Fyxestroll Garden]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Fyxestroll Garden|npc_132_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502100203: Config/Level/NPCDialogue/P20223/Act/Act502100203.json-->
+::'''Huohuo:''' (Trailblazer), we have successfully subdued the heliobus for now. However... Th&mdash;This place is still not safe, please be cautious...
+::{{DIcon|Arrow}} Have the Ten Lords not finished taking care of the heliobi yet?
+:::<!--Custom String Listener: TalkSentence_502100243-->
+:::'''Huohuo:''' The number of heliobi that escaped the Creation Furnace was immense. It will take a very long time to capture them all.
+::{{DIcon|Arrow}} Fear not, do you still not realize my skills?
+:::<!--Custom String Listener: TalkSentence_502100245-->
+:::'''Huohuo:''' O&mdash;Of course I do. However, even you can't afford to be careless here, (Trailblazer).
+::{{DIcon|Arrow}} Huohuo, come and protect me...
+:::<!--Custom String Listener: TalkSentence_502100247-->
+:::'''Huohuo:''' Oh, o&mdash;of course! Such is the duty of a Judge of the Ten-Lords Commission.
+:::'''Huohuo:''' Although, do you really need my protection with your skills, (Trailblazer)?
+::<!--Custom String Trigger: TalkSentence_502100249-->
+::<!--Custom String Listener: TalkSentence_502100249-->
+::'''Huohuo:''' Since the furnace broke, all of the "Ignamar" spirits that could pose a threat have been recovered. The most dangerous spirit among them&mdash;
+::'''Tail:''' Hey... Wait and think before you speak. Who is the most dangerous spirit?
+::'''Huohuo:''' Th&mdash;The most dangerous spirit is Tail, and the second most dangerous is Cirrus. Both have already been subdued by the Ten-Lords Commission.
+::'''Tail:''' Bah. You call this being subdued? This is called "making use of outstanding talent." I stayed in the Ten-Lords Commission as a kindness to you.
+::'''Huohuo:''' Either way, according to an assessment by the Ten-Lords Commission, the remaining heliobi that have not been subdued are not powerful enough to pose a real threat... Th&mdash;This is all thanks to you and the ghost-hunting squad, (Trailblazer)!
+::'''Huohuo:''' Oh yeah, did you come to Fyxestroll Garden to see me, (Trailblazer)?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502100204: Config/Level/NPCDialogue/P20223/Act/Act502100204.json-->
+::'''Huohuo:''' Is there anything you need?
+:{{DIcon|Arrow}} I just wanted to chat with you.
+::<!--Custom String Listener: TalkSentence_502100256-->
+::'''Huohuo:''' Okay! I want to chat with you too (Trailblazer)!
+::<!--Custom String Trigger: Wait_Option_502100203_30-->
+::<!--Custom String Listener: Wait_Option_502100203_30-->
+::{{DIcon|Talk}} Will the Ten-Lords Commission remain in Fyxestroll Garden?
+:::<!--Custom String Listener: TalkSentence_502100258-->
+:::'''Huohuo:''' Yes. The Ten-Lords Commission has been using this Pavilion of Cessation as a temporary office for some time. I've started thinking of it as my workplace. If you ask me, the work environment here is much more spacious than in the Netherworld...
+:::'''Huohuo:''' The Evil Binding Matrix currently needs someone to maintain it. Capturing heliobi is one thing, but subduing them is a whole other matter. This work is torment for a long-life species.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What happens to the captured heliobi?
+:::<!--Custom String Listener: TalkSentence_502100261-->
+:::'''Huohuo:''' It's terrifying! B&mdash;But not the kind of terrifying that humans would fear...
+:::'''Huohuo:''' I asked Tail before, he said that even if heliobi were trapped in a confined space, they would not be bound. They differ from material creatures in this way.
+:::'''Huohuo:''' But when you place them in a prison, the heliobi have no way of satisfying their desires... They are like thirsty humans that can see water, but never taste it.
+:::'''Tail:''' You understand the idea of a "desire that you can never fulfill," right? This is "imprisonment" for a heliobus.
+:::'''Huohuo:''' Although capture devices such as the suppression towers and the Creation Furnace can hold heliobi, the main goal is to prevent them from ever coming into contact with human emotions and desires.
+:::'''Huohuo:''' Subdued heliobi will remain inside the pagoda until... Well, until they find a chance to escape.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I wanted to ask where the Ten-Lords Commission HQ is?
+:::<!--Custom String Listener: TalkSentence_502100268-->
+:::'''Huohuo:''' ...It's best that you do not know, (Trailblazer).
+:::'''Huohuo:''' I&mdash;I may not seem very authoritative, but the Ten-Lords Commission is a very, very serious department.
+:::'''Huohuo:''' As the Xianzhou's long-life species have been deprived of death's dignity, the Ten-Lords Commission had to become death... That means that the Ten-Lords Commission should not appear before the eyes of the people like the Six Commissions.
+:::'''Tail:''' In other words, {{MC|f=kiddo|m=kiddo}}, only by maintaining complete independence can the Ten Lords complete the mission they were entrusted at birth.
+:::'''Huohuo:''' ...I hope you understand, (Trailblazer).
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is Madam Xueyi okay?
+:::<!--Custom String Listener: TalkSentence_502100274-->
+:::'''Huohuo:''' ...Madam Xueyi is okay now.
+:::'''Huohuo:''' As far as I know, Madam Xueyi is already back on another mission.
+:::{{DIcon|Arrow}} I always see her all over the place.
+::::<!--Custom String Listener: TalkSentence_502100277-->
+::::'''Huohuo:''' Madam Xueyi is truly amazing. No matter the mission, she can handle it properly.
+::::'''Huohuo:''' ...I wonder when I can become like her.
+::::<!--Custom String Trigger: TalkSentence_502100281-->
+::::<!--Custom String Listener: TalkSentence_502100281-->
+::::'''Huohuo:''' I'll pass on your regards.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} ...She should give herself a holiday.
+::::<!--Custom String Listener: TalkSentence_502100280-->
+::::'''Huohuo:''' It's true. Even if she has the body of a puppet, she will still get fatigued.
+::::<!--Custom String Trigger: TalkSentence_502100281-->
+::::<!--Custom String Listener: TalkSentence_502100281-->
+::::'''Huohuo:''' I'll pass on your regards.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: TalkSentence_502100283-->
+:::'''Huohuo:''' Yeah, I've still got some things to take care of here. Take care!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I've got to go.
+::<!--Custom String Listener: TalkSentence_502100285-->
+::'''Huohuo:''' Yeah, I've still got some things to take care of here. Take care!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Huohuo
+|zhs  = 藿藿
+|zht  = 藿藿
+|ja   = フォフォ
+|ko   = 곽향
+|es   = Huohuo
+|fr   = Huohuo
+|ru   = Хохо
+|th   = Huohuo
+|vi   = Huohuo
+|de   = Huohuo
+|id   = Huohuo
+|pt   = Huohuo
+}}
+==Change History==
+{{Change History|TODO}}

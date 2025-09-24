@@ -1,0 +1,224 @@
+<%-- [PAGE_INFO]
+PageTitle=#Watson#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 4 Geopolitics Researcher
+|image           = NPC Watson.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Base Zone
+|relatives       = 
+}}
+'''Watson''' is an NPC on [[Herta Space Station]], located in [[Base Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Base Zone|npc_53_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: TalkSentence_500010816-->
+:<!--Custom String Listener: TalkSentence_500010816-->
+:'''Watson:''' You've come to the right person. I am investigating this attack.
+:<!--Custom String Trigger: Wait_Option_500010111_512-->
+:<!--Custom String Listener: Wait_Option_500010111_512-->
+:{{DIcon|Talk}} What have you found so far?
+::<!--Custom String Listener: TalkSentence_500010818-->
+::'''Watson:''' With our current relationship, I can't tell you everything I know.
+::'''Watson:''' But I can tell you something less important.
+::'''Watson:''' For example, "some researchers" from the space station could be involved in this attack.
+::'''Watson:''' Although I haven't found any conclusive evidence yet, time will prove me right.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What was the attacker's purpose?
+::<!--Custom String Listener: TalkSentence_500010823-->
+::'''Watson:''' Kiddo, your question is very sharp.
+::'''Watson:''' No structure is perfect. There is always a risk of collapse at any time.
+::'''Watson:''' There are many reasons behind this attack: Collusion, lack of defensive power...
+::'''Watson:''' But none of this matters! The only thing that matters is the changes brought to the space station by this attack!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What are you going to do?
+::<!--Custom String Listener: TalkSentence_500010828-->
+::'''Watson:''' High risk, high reward. I am going to dig deep and find those crooks.
+::'''Watson:''' Don't worry about me, I know very well when I should act and when I should bolt.
+::'''Watson:''' If anything, your presence is somewhat peculiar and deliberate... I smell a conspiracy. Shh, don't interrupt my train of thought.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Sorry.
+::<!--Custom String Listener: TalkSentence_500010833-->
+::'''Watson:''' You... *sigh* Young people these days have no patience at all.
+::'''Watson:''' Here's my advice for you. Learn to protect yourself when you are outside. You never know what people are thinking.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:'''Watson:''' I am Elizabeth Watson, the trendsetter of the new era.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Watson:''' You... *sigh* Young people these days have no patience at all.
+:'''Watson:''' Here's my advice for you. Learn to protect yourself when you are outside. You never know what people are thinking.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000097: Config/Level/NPC/W0/NPC_DefaultStory_500000801.json-->
+::<!--Custom String Trigger: TalkSentence_500010802-->
+::<!--Custom String Listener: TalkSentence_500010802-->
+::'''Watson:''' Hmph, the quickest way to stir up a pond of stagnant water is to throw in a nuclear bomb from the outside.
+::'''Watson:''' Like... What's happening now.
+::'''Watson:''' Oh, did you hear that? Don't mind me. I was just mumbling nonsense to myself.
+::<!--Custom String Trigger: Wait_Option_500010111_496-->
+::<!--Custom String Listener: Wait_Option_500010111_496-->
+::{{DIcon|Arrow}} Why don't you just throw a stone!?
+:::<!--Custom String Listener: TalkSentence_500010806-->
+:::'''Watson:''' Hmph, young people!
+:::'''Watson:''' A stone can cause a splash, but a nuclear bomb can trigger a tsunami!
+:::'''Watson:''' Those who are smart will know how to take advantage of the tsunami and climb their way up the food chain.
+:::{{A|VO vo ambient w0 greeting watson 101.ogg}} {{A|VO vo ambient w0 greeting watson 102.ogg}} '''Watson:''' I am Elizabeth Watson, the trendsetter of the new era.
+::{{DIcon|Arrow}} Do we know each other?
+:::<!--Custom String Listener: TalkSentence_500010811-->
+:::'''Watson:''' ...Not really, but we can. I, Elizabeth Watson, can tell right away you are no ordinary person.
+:::'''Watson:''' If you are like me and are unwilling to surrender to mediocrity, then we are siblings of a different mother.
+:::'''Watson:''' This attack may seem like a disaster to many people, but it is an opportunity for those who are smart.
+:::'''Watson:''' Seize it, my brethren. Nothing here is as simple as it seems.
+::'''Watson:''' I heard how you destroyed the schemes of a Lord Ravager. It is rare for a youngster to have such outstanding talents, and you've earned this reward. I hope you retain the courage you showed at that moment throughout your life in the future.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000098: Config/Level/NPC/W0/NPC_DefaultStory_500000800.json-->
+::'''Watson:''' I am Elizabeth Watson, the trendsetter of the new era.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 800310101-->)
+:{{DIcon|undefined}} I heard that you've got a special assignment for me...
+::<!--Trigger PerformanceD 800310101: Config/Level/Mission/8003101/Act/Act800310101.json-->
+::----
+::'''Watson:''' Oh? I didn't think the Lead Researcher's task force would be someone as young as you.
+::'''Watson:''' But that's fine. An outsider like you has no way of interfering with my master plan...
+::{{DIcon|Arrow}} Are you done speaking in riddles?
+:::<!--Custom String Listener: TalkSentence_813100105-->
+:::'''Watson:''' Based on your level of "understanding," perhaps my seniority and experience really does seem like a "riddle."
+::{{DIcon|Arrow}} So what's the special assignment?
+:::<!--Custom String Listener: TalkSentence_813100107-->
+:::'''Watson:''' Oh, young people these days. They just can't stay still and listen to a senior share their rich experience.
+::<!--Custom String Trigger: TalkSentence_813100108-->
+::<!--Custom String Listener: TalkSentence_813100108-->
+::'''Watson:''' Forget it. Since you only care about those boring "assignments," let me explain.
+::'''Watson:''' I'm sure even you know about efficiency here on the space station. Post-disaster recovery work is still going very slowly. And the guys in charge said it's because their access level is too low, and they don't have the appropriate authority.
+::'''Watson:''' And what about those researchers with high-level access? They're either too old to help out in person, or they're working on something too huge to bother stooping down to this low level. So there's no way to provide any effective support.
+::'''Watson:''' You know, those are just their excuses. At the end of the day, it's basically a supervisor wanting a "special agent" with the right permits to complete those special assignments, and they put in an application with the Lead Researcher for such a person &mdash; and that's why you are here.
+::'''Watson:''' And rather unfortunately, I was asked to support this "Task Force" in getting things done as well as to handle all the paperwork.
+::'''Watson:''' And based on this paperwork, I've got good news and bad news to tell ya.
+::'''Watson:''' The good news: This assignment isn't hard at all. It's just a slight hassle at worst.
+::'''Watson:''' And the bad news is... I've been tasked with some other urgent work. So this is about all the support I can offer you for now.
+::'''Watson:''' I've sent the specific work details to you, so you can figure things out yourself later.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800310101-->
+;(If {{cx}}<!--SubMission Finish: 800310101--> and {{cx}}<!--SubMission Started: 800310201--> and {{cx}}<!--SubMission Started: 800310101-->)
+:{{DIcon}} About the special assignment...
+::<!--Trigger PerformanceE 800310103: Config/Level/Mission/8003101/Act/Act800310103.json-->
+::'''Watson:''' So, that's what you want to talk with me about... Then I don't have the time. Sorry.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 800310202-->, {{cx}}<!--SubMission Finish: 800310101--> and {{cx}}<!--SubMission Started: 800310201-->, and {{cx}}<!--SubMission Started: 800310101-->)
+:{{DIcon}} All special assignments complete!
+::<!--Trigger PerformanceE 800310102: Config/Level/Mission/8003101/Act/Act800310102.json-->
+::'''Watson:''' Oh, great job. Remuneration isn't part of my job scope. Check things over and if you have any questions, go ask Lead Researcher Asta directly.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800310202-->
+:{{DIcon}} There's something I can't wrap my head around...
+::<!--Custom String Trigger: TalkSentence_500010816-->
+::<!--Custom String Listener: TalkSentence_500010816-->
+::'''Watson:''' You've come to the right person. I am investigating this attack.
+::<!--Custom String Trigger: Wait_Option_500010111_512-->
+::<!--Custom String Listener: Wait_Option_500010111_512-->
+::{{DIcon|Talk}} What have you found so far?
+:::<!--Custom String Listener: TalkSentence_500010818-->
+:::'''Watson:''' With our current relationship, I can't tell you everything I know.
+:::'''Watson:''' But I can tell you something less important.
+:::'''Watson:''' For example, "some researchers" from the space station could be involved in this attack.
+:::'''Watson:''' Although I haven't found any conclusive evidence yet, time will prove me right.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What was the attacker's purpose?
+:::<!--Custom String Listener: TalkSentence_500010823-->
+:::'''Watson:''' Kiddo, your question is very sharp.
+:::'''Watson:''' No structure is perfect. There is always a risk of collapse at any time.
+:::'''Watson:''' There are many reasons behind this attack: Collusion, lack of defensive power...
+:::'''Watson:''' But none of this matters! The only thing that matters is the changes brought to the space station by this attack!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are you going to do?
+:::<!--Custom String Listener: TalkSentence_500010828-->
+:::'''Watson:''' High risk, high reward. I am going to dig deep and find those crooks.
+:::'''Watson:''' Don't worry about me, I know very well when I should act and when I should bolt.
+:::'''Watson:''' If anything, your presence is somewhat peculiar and deliberate... I smell a conspiracy. Shh, don't interrupt my train of thought.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Sorry.
+:::<!--Custom String Listener: TalkSentence_500010833-->
+:::'''Watson:''' You... *sigh* Young people these days have no patience at all.
+:::'''Watson:''' Here's my advice for you. Learn to protect yourself when you are outside. You never know what people are thinking.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Sorry.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Watson:''' You... *sigh* Young people these days have no patience at all.
+::'''Watson:''' Here's my advice for you. Learn to protect yourself when you are outside. You never know what people are thinking.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Watson
+|zhs  = 沃森
+|zht  = 沃森
+|ja   = ワトソン
+|ko   = 왓슨
+|es   = Watson
+|fr   = Watson
+|ru   = Уотсон
+|th   = Watson
+|vi   = Watson
+|de   = Watson
+|id   = Watson
+|pt   = Watson
+}}
+==Change History==
+{{Change History|TODO}}

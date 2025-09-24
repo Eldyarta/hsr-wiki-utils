@@ -1,0 +1,205 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yanming#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Guild Amicassador
+|image           = NPC Yanming.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Palace of Astrum
+|relatives       = 
+}}
+'''Yanming''' is an NPC on [[The Xianzhou Luofu]], located in [[Palace of Astrum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Palace of Astrum|npc_13_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 502012002,
+		"Type": "submission_state_equal",
+		"Param1": 404020101,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Yanming:''' Go ahead. I'll mull it over and tell you what I can.
+:<!--Custom String Trigger: Wait_Option_502012002_811-->
+:<!--Custom String Listener: Wait_Option_502012002_811-->
+:{{DIcon|Talk}} How old are you?
+::<!--Custom String Listener: TalkSentence_502120103-->
+::'''Yanming:''' Uh, I'll tell you I'm old enough. The specific age isn't important.
+::'''Yanming:''' Whether it's in the hundreds or thousands, it will still sound ancient to you.
+::'''Yanming:''' Let me give you some advice: Never ask a girl on Xianzhou that question... Or in any world, for that matter.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you do here?
+::<!--Custom String Listener: TalkSentence_502120107-->
+::'''Yanming:''' Simply put, I'm in charge of relaying orders from the Sky-Faring Commission to the guilds, and passing guild requests back.
+::'''Yanming:''' The Celestial Guild is not one big body but a consortium of many smaller guilds, so I help both sides communicate with each other.
+::'''Yanming:''' However, several centuries back, I was a captain of a trade ship. Centuries before that, I was a business professor in a lyceum... Never mind, they're just jobs.
+::'''Yanming:''' The more experienced you are, the more you'll realize that how serious you treat a job is how serious it treats you.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About the guild...
+::<!--Custom String Listener: TalkSentence_502120112-->
+::'''Yanming:''' Ever since the calamities ended and the Luofu settled down, guilds have been Xianzhou's lifeblood. Some of them are government-backed, and some are purely civilian.
+::'''Yanming:''' Tingyun is the Head Representative of the intergalactic merchant guild, Whistling Flames. She's witty and a great communicator. She was born to do business.
+::'''Yanming:''' Have you heard of the Grand Fair in Xianzhou? Tingyun turned that into an intergalactic festival.
+::'''Yanming:''' "Sea of fiery lights illuminate the countless suburbs, while feasts and songs unveil nights of innumerable glows"... Nicely done.
+::'''Yanming:''' Pardon me for getting off-tangent, but you probably realize how vital the guilds are now...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} About Madam Yukong...
+::<!--Custom String Listener: TalkSentence_502120118-->
+::'''Yanming:''' You could say Madam Yukong is my boss. Her competence is undeniable, but her flexible adaptability to different situations is even more impressive.
+::'''Yanming:''' Although she claimed to be lacking in trade acumen, I beg to differ, as she could often shut schemers and opportunists down without a word, and few can manage to play with words before her.
+::'''Yanming:''' To me, the end is the same even when the approach is not. The negotiations go a lot smoother with Madam Yukong present.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all. I'll take my leave now.
+::<!--Custom String Listener: TalkSentence_502120122-->
+::'''Yanming:''' Sure, have a nice day.
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 502012003,
+		"Type": "submission_state_equal",
+		"Param1": 404020101,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Yanming:''' Sure, have a nice day.
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 502012004,
+		"Type": "submission_state_equal",
+		"Param1": 404020101,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Yanming:''' Best regards...
+:'''Yanming:''' The Outworlders are getting shrewder when trading with Xianzhou.
+:'''Yanming:''' It's you. Is there anything you'd like to ask me?
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"Phase": "Finish",
+		"ID": 404020101
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 502012004: Config/Level/NPC/W2/NPC_DefaultStory_502012004.json-->
+:'''Yanming:''' Best regards...
+:'''Yanming:''' The Outworlders are getting shrewder when trading with Xianzhou.
+:'''Yanming:''' It's you. Is there anything you'd like to ask me?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_502012004-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Finish: 404020101-->)
+:{{DIcon}} I'd like to ask you some questions.
+::'''Yanming:''' Go ahead. I'll mull it over and tell you what I can.
+::<!--Custom String Trigger: Wait_Option_502012002_811-->
+::<!--Custom String Listener: Wait_Option_502012002_811-->
+::{{DIcon|Talk}} How old are you?
+:::<!--Custom String Listener: TalkSentence_502120103-->
+:::'''Yanming:''' Uh, I'll tell you I'm old enough. The specific age isn't important.
+:::'''Yanming:''' Whether it's in the hundreds or thousands, it will still sound ancient to you.
+:::'''Yanming:''' Let me give you some advice: Never ask a girl on Xianzhou that question... Or in any world, for that matter.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you do here?
+:::<!--Custom String Listener: TalkSentence_502120107-->
+:::'''Yanming:''' Simply put, I'm in charge of relaying orders from the Sky-Faring Commission to the guilds, and passing guild requests back.
+:::'''Yanming:''' The Celestial Guild is not one big body but a consortium of many smaller guilds, so I help both sides communicate with each other.
+:::'''Yanming:''' However, several centuries back, I was a captain of a trade ship. Centuries before that, I was a business professor in a lyceum... Never mind, they're just jobs.
+:::'''Yanming:''' The more experienced you are, the more you'll realize that how serious you treat a job is how serious it treats you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the guild...
+:::<!--Custom String Listener: TalkSentence_502120112-->
+:::'''Yanming:''' Ever since the calamities ended and the Luofu settled down, guilds have been Xianzhou's lifeblood. Some of them are government-backed, and some are purely civilian.
+:::'''Yanming:''' Tingyun is the Head Representative of the intergalactic merchant guild, Whistling Flames. She's witty and a great communicator. She was born to do business.
+:::'''Yanming:''' Have you heard of the Grand Fair in Xianzhou? Tingyun turned that into an intergalactic festival.
+:::'''Yanming:''' "Sea of fiery lights illuminate the countless suburbs, while feasts and songs unveil nights of innumerable glows"... Nicely done.
+:::'''Yanming:''' Pardon me for getting off-tangent, but you probably realize how vital the guilds are now...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Madam Yukong...
+:::<!--Custom String Listener: TalkSentence_502120118-->
+:::'''Yanming:''' You could say Madam Yukong is my boss. Her competence is undeniable, but her flexible adaptability to different situations is even more impressive.
+:::'''Yanming:''' Although she claimed to be lacking in trade acumen, I beg to differ, as she could often shut schemers and opportunists down without a word, and few can manage to play with words before her.
+:::'''Yanming:''' To me, the end is the same even when the approach is not. The negotiations go a lot smoother with Madam Yukong present.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all. I'll take my leave now.
+:::<!--Custom String Listener: TalkSentence_502120122-->
+:::'''Yanming:''' Sure, have a nice day.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 404020101--> and {{cx}}<!--SubMission Finish: 404020101-->)
+:{{DIcon|Exit}} That's all. I'll take my leave now.
+::'''Yanming:''' Sure, have a nice day.
+::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} About Tingyun...
+::<!--Trigger PerformanceE 90000137: Config/Level/NPCDialogue/P10202/NPCAct/Act90000137.json-->
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has been completed)
+:::'''Yanming:''' Madam Yukong entrusted me with the Whistling Flames to take care of for Tingyun. Looking at her former subordinates, I honestly didn't know how to explain the situation to them...
+:::'''Yanming:''' *sigh* ...The world is full of jokes I can't bring myself to laugh at.
+:;(If {{Mission|A New Venture on the Eighth Dawn (Trailblaze Mission)|showChapter=0}} has not been completed)
+:::'''Yanming:''' Many of my colleagues believe she is still alive and pledge to find her. As for me... I'm more realistic.
+:::'''Yanming:''' Having said that, I'm still looking for her alongside everyone else, simply because Madam Yukong thinks she is alive and wants to find her. I'll follow Madam Yukong to find her - it's as simple as that.
+:::'''Yanming:''' Even though I don't believe it, I won't have Madam Yukong getting too deeply involved in the matter alone.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000137-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yanming
+|zhs  = 岩明
+|zht  = 岩明
+|ja   = 岩明
+|ko   = 암명
+|es   = Yanming
+|fr   = Yanming
+|ru   = Яньмин
+|th   = Yanming
+|vi   = Yanming
+|de   = Yanming
+|id   = Yanming
+|pt   = Yanming
+}}
+==Change History==
+{{Change History|TODO}}

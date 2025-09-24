@@ -1,0 +1,159 @@
+<%-- [PAGE_INFO]
+PageTitle=#Laojiu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Scalper
+|image           = NPC Laojiu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Laojiu''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_256_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502130001: Config/Level/Mission/5021300/Act/Act502130001.json-->
+::'''Laojiu:''' Wait up, friend! Heh-heh, I've been observing you for some time. Which match do you want to watch? Are you interested in the IPC's gigantic mech? Or perhaps the Xianzhou's sword contest?
+::'''Laojiu:''' You're lucky that you ran into me, since I have the tickets for both. Tell me, which seat do you want? I'll take care of everything for you.
+::{{DIcon|Arrow}} What new scam are you running?
+:::<!--Custom String Listener: TalkSentence_502130004-->
+:::'''Laojiu:''' A Xianzhou citizen will never lie to another Xianzhou citizen... Oh wait, you're not from the Xianzhou.
+:::'''Laojiu:''' But you can still rest assured that my prices are completely transparent and fully refundable if you are dissatisfied with my service.
+::{{DIcon|Arrow}} Truthfully, you might not have the seat that I want...
+:::<!--Custom String Listener: TalkSentence_502130007-->
+:::'''Laojiu:''' Oh! It seems like we have ourselves a rich client. Well, there's no seat in this world that I cannot get. It just depends on how much you are willing to spend!
+::{{DIcon|Arrow}} Don't tickets require real-name registration nowadays?
+:::<!--Custom String Listener: TalkSentence_502130009-->
+:::'''Laojiu:''' Think about it this way. Real-name registration is only required for audiences with tickets. For those without tickets, why would they need to register their names?
+::<!--Custom String Trigger: TalkSentence_502130010-->
+::<!--Custom String Listener: TalkSentence_502130010-->
+::'''Laojiu:''' Well, let me introduce myself. I'm Laojiu, the vendor for the special viewing channel. This special viewing channel is a specially designed solution for people like you who has the money but did not manage to get tickets.
+::'''Laojiu:''' As of today, I have served hundreds of satisfied clients and have 100% success rate and positive reviews.
+::{{DIcon|Arrow}} Aren't you just a scalper?
+:::<!--Custom String Listener: TalkSentence_502130013-->
+:::'''Laojiu:''' Argh... You've grasped the essence of it, but can't you not say the unspoken out loud?
+::{{DIcon|Arrow}} Save your explanation for the Realm-Keeping Commission.
+:::<!--Custom String Listener: TalkSentence_502130015-->
+:::'''Laojiu:''' Why are people nowadays so heartless, doing things that harm others even though it doesn't benefit them... You could always just not buy from me.
+::<!--Custom String Trigger: TalkSentence_502130016-->
+::<!--Custom String Listener: TalkSentence_502130016-->
+::'''Laojiu:''' Actually, I can also tell that you're not interested in the competition. What about making money? I'm sure you're interested in that.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502130002: Config/Level/Mission/5021300/Act/Act502130002.json-->
+::'''Laojiu:''' We meet again, friend. Are you here to watch the competition, or do you want to make some money?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} There is something I want to ask you.
+::'''Laojiu:''' Tell me, do you want to watch the competition or make some money?
+::<!--Custom String Trigger: Wait_Option_502130003_41-->
+::<!--Custom String Listener: Wait_Option_502130003_41-->
+::{{DIcon|Talk}} What exactly is the special viewing channel?
+:::<!--Custom String Listener: TalkSentence_502130103-->
+:::'''Laojiu:''' Heh-heh, the official viewing channel is through purchasing tickets from their platform. But given how popular the competition is right now, if loading the site takes even an additional second or two when the sales go live, there won't be any tickets left.
+:::'''Laojiu:''' So, let's think about it this way. Aren't tickets used solely for getting into the venue... In other words, as long as I'm able to get you into the venue, wouldn't that just be like buying a ticket from me?
+:::'''Laojiu:''' So, this special viewing channel actually refers to any way that I can get you into the venue without using a ticket.
+:::{{DIcon|Arrow}} Isn't that just fare dodging?
+::::<!--Custom String Listener: TalkSentence_502130107-->
+::::'''Laojiu:''' Fare dodging is only if you watch the competition without paying. Since I charge a fee, and you've made payment, how can that be considered fare dodging?
+::::<!--Custom String Trigger: TalkSentence_502130113-->
+::::<!--Custom String Listener: TalkSentence_502130113-->
+::::'''Laojiu:''' Regarding what we've just discussed, it's a secret between the both of us. Don't go around telling others about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What kinds of methods do you actually use?
+::::<!--Custom String Listener: TalkSentence_502130109-->
+::::'''Laojiu:''' It differs from person to person. I'll customize a plan based on each client's situation.
+::::'''Laojiu:''' For example, if you're nimble, then I'll hold onto the ticket inspector for dear life during the ticket inspection while you rush through the security check.
+::::'''Laojiu:''' If you're a good performer, I'll put on a tear-jerking performance with you to tug at the heartstrings of the ticket inspector.
+::::'''Laojiu:''' However, if you're physically weak and also a bad performer, then I do know of a couple of ventilation ducts...
+::::<!--Custom String Trigger: TalkSentence_502130113-->
+::::<!--Custom String Listener: TalkSentence_502130113-->
+::::'''Laojiu:''' Regarding what we've just discussed, it's a secret between the both of us. Don't go around telling others about it.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I want to understand more about ways to make money.
+:::<!--Custom String Listener: TalkSentence_502130115-->
+:::'''Laojiu:''' Haha, I knew it!
+:::{{DIcon|Arrow}} Are your ways of making money legit?
+::::<!--Custom String Listener: TalkSentence_502130117-->
+::::'''Laojiu:''' If you ask me, I'll definitely say it's legit. But if you ask others, their opinions... might differ.
+::::<!--Custom String Trigger: TalkSentence_502130120-->
+::::<!--Custom String Listener: TalkSentence_502130120-->
+::::'''Laojiu:''' There's a saying that goes, "the money of those who dream of striking it rich are the easiest to earn." I wonder if you've heard of the "Martial Arts 123 Lottery"? I'm actually the house behind that.
+::::'''Laojiu:''' Then, you might ask, since there are no guarantees in gambling, how do I ensure that I only win and don't incur losses? Well, that's all thanks to this unique treasure that I possess &mdash; a Diting who can predict the future.
+::::'''Laojiu:''' This Diting is called Baoluo. It used to be the pet of Lady Fu Xuan from the Divination Commission. As it was always by the master diviner's side, under her influence, it gained the ability to foretell the future as well.
+::::'''Laojiu:''' Afraid that she would be replaced by it, Lady Fu Xuan chased it out of the Divination Commission. I then eventually got my hands on it.
+::::'''Laojiu:''' Since getting Baoluo, I have never lost no matter what kind of gamble I partake in. So, as long as you're willing to invest some capital and join hands with me in the setup, I guarantee that you'll be raking in the profits soon enough.
+::::'''Laojiu:''' It's only because you seem like a kind and trustworthy person that I'm telling you this. If it were anyone else, I would have kept my mouth shut. Also, as the Realm-Keeping Commission has been quite strict about things as of late, remember to keep everything on the down-low. Once their investigation dies down, it'll be our time to shine.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You can't possibly be taking underground bets, right?
+::::<!--Custom String Listener: TalkSentence_502130119-->
+::::'''Laojiu:''' Shhh, I'll never touch underground betting. And look, this is the Skysplitter, so we're actually betting in the sky.
+::::<!--Custom String Trigger: TalkSentence_502130120-->
+::::<!--Custom String Listener: TalkSentence_502130120-->
+::::'''Laojiu:''' There's a saying that goes, "the money of those who dream of striking it rich are the easiest to earn." I wonder if you've heard of the "Martial Arts 123 Lottery"? I'm actually the house behind that.
+::::'''Laojiu:''' Then, you might ask, since there are no guarantees in gambling, how do I ensure that I only win and don't incur losses? Well, that's all thanks to this unique treasure that I possess &mdash; a Diting who can predict the future.
+::::'''Laojiu:''' This Diting is called Baoluo. It used to be the pet of Lady Fu Xuan from the Divination Commission. As it was always by the master diviner's side, under her influence, it gained the ability to foretell the future as well.
+::::'''Laojiu:''' Afraid that she would be replaced by it, Lady Fu Xuan chased it out of the Divination Commission. I then eventually got my hands on it.
+::::'''Laojiu:''' Since getting Baoluo, I have never lost no matter what kind of gamble I partake in. So, as long as you're willing to invest some capital and join hands with me in the setup, I guarantee that you'll be raking in the profits soon enough.
+::::'''Laojiu:''' It's only because you seem like a kind and trustworthy person that I'm telling you this. If it were anyone else, I would have kept my mouth shut. Also, as the Realm-Keeping Commission has been quite strict about things as of late, remember to keep everything on the down-low. Once their investigation dies down, it'll be our time to shine.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502130127-->
+:::'''Laojiu:''' See you. You can look for me any time you need something.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Not at the moment.
+::'''Laojiu:''' See you. You can look for me any time you need something.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Laojiu
+|zhs  = 老九
+|zht  = 老九
+|ja   = 老九
+|ko   = 노구
+|es   = Laojiu
+|fr   = Laojiu
+|ru   = Девятка
+|th   = Laojiu
+|vi   = Lão Cửu
+|de   = Laojiu
+|id   = Laojiu
+|pt   = Laojiu
+}}
+==Change History==
+{{Change History|TODO}}

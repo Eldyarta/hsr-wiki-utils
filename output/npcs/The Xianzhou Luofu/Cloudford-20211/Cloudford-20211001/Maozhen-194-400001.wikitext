@@ -1,0 +1,126 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maozhen#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Merchant Guild Member
+|image           = NPC Maozhen.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Maozhen''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_194_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502037101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502037101.json-->
+::'''Maozhen:''' Hello, dear traveler. I am Maozhen, a member of the Aquaglider Guild. Are you an Outworld traveling merchant also here to discuss some business opportunities?
+::'''Maozhen:''' Wait a minute. Let me take a closer look... You're (Trailblazer)? Hey, I somehow forgot who the great hero of Cloudford was!
+::'''Maozhen:''' Ack, I'm really sorry. Cloudford is a commercial port, and the only ships that visit are freighters, so I presumed that you were an outworld traveling merchant.
+::'''Maozhen:''' If it weren't for you helping the Luofu with the Stellaron Crisis, all the people coming to Cloudford to seek a living... be they Xianzhou people or travelers, they'd have all starved to death.
+::'''Maozhen:''' Please, accept this as thanks!
+::{{DIcon|Arrow}} You're too kind...
+:::<!--Custom String Listener: TalkSentence_502037108-->
+:::'''Maozhen:''' What are you talking about! It's just a small gift to convey my gratitude and admiration...
+:::<!--Custom String Trigger: TalkSentence_502037110-->
+::{{DIcon|Arrow}} Whose parcel is this?
+::<!--Custom String Listener: TalkSentence_502037110-->
+::'''Maozhen:''' This is an overdue parcel in the backlog at Cloudford. Usually we auction the abandoned ones off, but you're the hero of Cloudford after all, so why don't I cut you a deal and sell it to you directly for a low price?
+::'''Maozhen:''' This time, I'll gift it to you as thanks. If you ever wanna try your luck, come find me again. I have stocked up quite the backlog.
+::'''Maozhen:''' Is there anything else I can help with?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502037201: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502037201.json-->
+::'''Maozhen:''' (Trailblazer) the Hero! You're back~ What business brings you here? Or have you come looking to try your luck with an abandoned parcel?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I'd like to buy an abandoned parcel to try my luck.
+:{{DIcon|Talk}} I'd like to ask you something.
+::<!--Trigger PerformanceE 502037102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act502037102.json-->
+::'''Maozhen:''' Ask away, and I'll answer anything I can.
+::<!--Custom String Trigger: Wait_Option_502037102_31-->
+::<!--Custom String Listener: Wait_Option_502037102_31-->
+::{{DIcon|Talk}} What do you do?
+:::<!--Custom String Listener: TalkSentence_502037116-->
+:::'''Maozhen:''' I'm a representative of the Aquaglider Guild sent to Cloudford by the Sky-Faring Commission to handle all Outworld traveling merchants who come and trade on the Luofu.
+:::'''Maozhen:''' Our Aquaglider Guild is one of the seven guilds under the umbrella of the Sky-Faring Commission. If you have any bulk goods that you wish to sell off, come see me any time.
+:::'''Maozhen:''' I'm no use elsewhere, but at least here in Cloudford my words still hold some weight. If there's anything you need, you'll be my top priority.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any trouble going on recently?
+:::<!--Custom String Listener: TalkSentence_502037120-->
+:::'''Maozhen:''' Hmm, how do I put it... There's less trouble than before, but it's still there.
+:::'''Maozhen:''' With the Ambrosial Arbor's new growth, business on the Luofu almost shut down completely before... Which is terrible for those of us trying to earn a living out here in Cloudford.
+:::'''Maozhen:''' I'm lucky to be an official and have a fixed salary. But those merchants and workers have been completely cut off from their livelihood, and they're miserable.
+:::'''Maozhen:''' And now, despite your help with resolving the crisis, its aftermath continues to rage on...
+:::'''Maozhen:''' The Ambrosial Arbor's new growth set the cycranes flying about all over the place, and we lost dozens... The calculation device processing entry and exit at the port also broke down, causing several traffic accidents...
+:::'''Maozhen:''' But everything is still moving along in the right direction. I'm sure that things will get better soon, and you can take credit for most of that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Sinclair and Maryam...
+:::<!--Custom String Listener: TalkSentence_502037127-->
+:::'''Maozhen:''' Those two merchants... They've been trading on the Luofu for years, and they often trade in the same stuff, so their relationship is pretty tense.
+:::'''Maozhen:''' They've been stockpiling lots of Cybercity superconducting alloys and plan on selling them off to the Luofu... It might be valuable, but it's only used in a few hyper-precision instruments over at the Artisanship Commission, so there's little demand for it.
+:::'''Maozhen:''' So the question of who to buy these superconducting alloys from has grown into a rather thorny problem for me.
+:::'''Maozhen:''' Nevertheless... It's great that there's competition between the two. Every time the two of them get into this kind of trade war, their prices drop like crazy.
+:::'''Maozhen:''' Let me stir things up a bit more, something like, "I heard there's another guild selling superconducting alloys these days"... Their price might drop yet.
+:::'''Maozhen:''' So I've decided to wait and see. Let them push down their prices again. In any case, this isn't the first time, and they should get used to it because it won't be the last!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'm busy, so I'll be heading off.
+:::<!--Custom String Listener: TalkSentence_502037134-->
+:::'''Maozhen:''' Alright, see you next time. Don't forget to come by later and buy up some of these abandoned goods.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502037102-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Maozhen:''' Alright, see you next time. Don't forget to come by later and buy up some of these abandoned goods.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maozhen
+|zhs  = 茂贞
+|zht  = 茂貞
+|ja   = 茂貞
+|ko   = 모정
+|es   = Maozhen
+|fr   = Maozhen
+|ru   = Маочжэнь
+|th   = Maozhen
+|vi   = Maozhen
+|de   = Maozhen
+|id   = Maozhen
+|pt   = Maozhen
+}}
+==Change History==
+{{Change History|TODO}}

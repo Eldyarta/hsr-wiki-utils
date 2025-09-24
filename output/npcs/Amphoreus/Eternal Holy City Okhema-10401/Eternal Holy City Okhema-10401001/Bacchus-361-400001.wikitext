@@ -1,0 +1,163 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bacchus#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ambrosia Manager
+|image           = NPC Bacchus.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Bacchus''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_361_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504036001: Config/Level/Mission/5040360/Act/Act504036001.json-->
+::'''Bacchus:''' Hello, did you sign the liability waiver for purchasing ambrosia at the bath?
+::{{DIcon|Arrow}} What ambrosia?
+::{{DIcon|Arrow}} What liability waiver?
+::{{DIcon|Arrow}} I... I did!
+::<!--Custom String Listener: TalkSentence_504036005-->
+::'''Bacchus:''' We can never be too careful when it comes to personal safety... To quench your thirst via our bath's craft ambrosia, please read the agreement carefully...
+:<pre>{
+	"$type": "RPG.GameCore.ShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190756
+		}
+	},
+	"ShouldPauseGame": true
+}</pre>
+::{{DIcon|Arrow}} What weird custom is this?
+:::<!--Custom String Listener: TalkSentence_504036007-->
+:::'''Bacchus:''' You have entered the domain of Phagousa, the Chalice of Plenty. While you bask in their divine bath, only indulgence and revelry are considered acts of respect to them, and thus we, too, shall revel in such.
+::{{DIcon|Arrow}} I've got a sailor's thirst!
+:::<!--Custom String Listener: TalkSentence_504036009-->
+:::'''Bacchus:''' You have entered the domain of Phagousa, the Chalice of Plenty. While you bask in their divine bath, only indulgence and revelry are considered acts of respect to them, and you may be unable to bear the weight of this devotion.
+::{{DIcon|Arrow}} You in charge of tossing people out?
+:::<!--Custom String Listener: TalkSentence_504036011-->
+:::'''Bacchus:''' That is correct. While you bask in Phagousa's domain, only indulgence and revelry are considered acts of respect to them, and you may be unable to bear the weight of this devotion.
+::<!--Custom String Trigger: TalkSentence_504036012-->
+::<!--Custom String Listener: TalkSentence_504036012-->
+::'''Bacchus:''' The ambrosia I sell is tightly sealed, its bottle unremarkable. There are also rules to drinking it. After uncorking the bottle, you must down it in one go, then await the calming or stirring of the Chalice of Plenty. Such a decision in abandoning your inhibitions is what the Titan delights in...
+::'''Bacchus:''' ...Their will is hidden within inebriation, and the journey each is subjected to is unique &mdash; calm or otherwise, whether it is wisdom or fervor that flashes through the mind. There have even been accounts of accomplishing impossible tasks, and even coming face to face with Phagousa themself...
+::{{DIcon|Arrow}} A bottle of ambrosia please!
+::{{DIcon|Arrow}} Is it truly that amazing?
+::{{DIcon|Arrow}} I'll definitely be able to see Phagousa?
+::<!--Custom String Listener: TalkSentence_504036017-->
+::'''Bacchus:''' Err... these intoxicated experiences I have described... were what others have told me. I have been ignored by Phagousa all my life and never had the chance at the experience.
+::'''Bacchus:''' ...But still, I try to vicariously experience Phagousa's miracles through the stories of others, to piece together the Titan's visage.
+::'''Bacchus:''' If you're willing to relay your inebriated journey to me, I would truly appreciate it. As a token of gratitude, this first cup of ambrosia is on the house. Please enjoy!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504036002: Config/Level/Mission/5040360/Act/Act504036002.json-->
+::'''Bacchus:''' Need an ambrosia?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Let the party begin!
+::'''Bacchus:''' Please! Do not forget the proper drinking etiquette &mdash; uncork, and down in one sitting.
+::{{DIcon|Arrow}} Try a sip...
+:::<!--Custom String Listener: TalkSentence_504036190-->
+:::You lift the bottle and cautiously take a sip...
+:::{{DIcon|Arrow}} It's a little strong...
+::::<!--Custom String Listener: TalkSentence_504036192-->
+:::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 1
+}</pre>
+:::{{DIcon|Arrow}} I need more...
+::::<!--Custom String Listener: TalkSentence_504036193-->
+::::What courage! Try another sip...
+:::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 2
+}</pre>
+::{{DIcon|Arrow}} Bottoms up!
+:::<!--Custom String Listener: TalkSentence_504036195-->
+:::You raise the bottle, and down it in one go...
+::<pre>{
+	"$type": "RPG.GameCore.SetPerformanceResult",
+	"Value": 3
+}</pre>
+::<!--Custom String Trigger: TalkSentence_504036196-->
+::<!--Custom String Listener: TalkSentence_504036196-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByComparePerformanceResult","CompareType":"Equal","CompareValue":1}-->}})
+:::<!--Custom String Trigger: Trigger_5040360_1-->
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByComparePerformanceResult","CompareType":"Equal","CompareValue":1}-->}})
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByComparePerformanceResult","CompareType":"Equal","CompareValue":2}-->}})
+::::<!--Custom String Trigger: Trigger_5040360_2-->
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByComparePerformanceResult","CompareType":"Equal","CompareValue":2}-->}})
+::::<!--Custom String Trigger: Trigger_5040360_3-->
+:{{DIcon}} How is ambrosia made?
+::'''Bacchus:''' We head to the coast, collect seawater to create its base, then pour it into a special vessel. Seawater collected at different times of the day applies different flavors to the ambrosia...
+::'''Bacchus:''' Seawater collected during the Entry Hour tastes like fresh fruit, Lucid Hour's has floral notes, and the Action Hour tastes like flint. Seawater during the Parting Hour tastes the driest, but the Curtain-Fall Hour has a lingering sweetness.
+::'''Bacchus:''' Then, Phagousa's disciples will worship the collected seawater, just as they worship the great Phagousa. The priests guide us to recite their hidden words, chanting the hymns they compose.
+::'''Bacchus:''' The seawater infused with the divine power from the Chalice of Plenty turns into ambrosia, able to intoxicate those who drink it with surging waves and swirling currents of the sea.
+::'''Bacchus:''' Intoxication is the closest one can get to experiencing the great Phagousa. As one of Phagousa's disciples, being unable to experience such intoxication is a failure. I must have offended them in the past, and that's why they turn a blind eye...
+::'''Bacchus:''' O Great Phagousa, you have churned the tides and abandoned me...
+::{{DIcon|Arrow}} How unfair!
+:::<!--Custom String Listener: TalkSentence_504036118-->
+::{{DIcon|Arrow}} Who knows, you might have Phagousa's bloodline.
+:::<!--Custom String Listener: TalkSentence_504036120-->
+:::'''Bacchus:''' You mean... just like how Phagousa does not get drunk over their own divinity... those whose bodies course with Phagousa's blood technically also won't...
+:::'''Bacchus:''' Preposterous! I am not someone so noble. If it is as you say... it would be an absolute affront to Phagousa's repute!
+::'''Bacchus:''' *sigh* I can only comfort myself with the thought that this eternal sobriety helps me better serve inebriated guests &mdash; a form of servitude to Phagousa, at least.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:{{DIcon|Exit}} Let me think about it.
+::'''Bacchus:''' You're welcome any time!
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bacchus
+|zhs  = 巴克斯
+|zht  = 巴克斯
+|ja   = バッカス
+|ko   = 바커스
+|es   = Baco
+|fr   = Bacchus
+|ru   = Бахус
+|th   = Bacchus
+|vi   = Bacchus
+|de   = Bacchus
+|id   = Bacchus
+|pt   = Baco
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,325 @@
+<%-- [PAGE_INFO]
+PageTitle=#Eris#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Receptionist
+|image           = NPC Eris.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = History and Culture Museum
+|relatives       = 
+}}
+'''Eris''' is an NPC on [[Jarilo-VI]], located in [[History and Culture Museum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|History and Culture Museum|npc_3_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Started: 800125202--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":34,"Inverse":true}-->}})
+::<!--Trigger PerformanceD 800125202: Config/Level/Mission/8001252/Act/Act800125202.json-->
+::----
+::'''Natasha:''' I didn't expect things to look like this inside... What a magnificent museum.
+::'''Natasha:''' Now then... Miss Eris, right? I heard that volunteer guide applications need to be submitted to you...
+::'''Eris:''' Hello! I'll pass your resume on to Miss Pela right away!
+::'''Natasha:''' Qlipoth Fort has been running surprisingly efficiently recently... (Trailblazer), can you stay on with me a while longer?
+::<!--Custom String Trigger: TalkSentence_201195706-->
+::<!--Custom String Listener: TalkSentence_201195706-->
+:<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_belobog_pela_walk_near"
+	},
+	"EmitterType": "LocalPlayer"
+}</pre>
+::----
+::'''Pela:''' It's Miss Natasha! Long time no see.
+::'''Natasha:''' Indeed. Good to see you again, Miss Pela.
+::{{DIcon|Arrow}} You two know each other?
+:::<!--Custom String Listener: TalkSentence_201195709-->
+:::'''Pela:''' That's right. When the Overworld and Underworld were reconnected, I was in charge of contacting everyone in Wildfire. At that time, it was Miss Natasha who took care of me.
+:::'''Natasha:''' Hehe, you're too kind. So then, what's the next step in the application process?
+::{{DIcon|Arrow}} I haven't seen you in a long time either!
+:::<!--Custom String Listener: TalkSentence_201195712-->
+:::'''Pela:''' Really? A long time? Does time flow differently for you?
+:::'''Natasha:''' Hehe, looks like you two are quite familiar. So then, what's the next step?
+::<!--Custom String Trigger: TalkSentence_201195714-->
+::<!--Custom String Listener: TalkSentence_201195714-->
+::'''Pela:''' Hmm... Next up, we need to conduct a quick interview. But don't worry. It's just a formality, and we won't ask too many questions.
+::'''Pela:''' (Trailblazer), since you're the assistant assessor of the interview, we'll begin when you're ready.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125202-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800125302--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":35,"Inverse":true}-->}})
+::<!--Trigger PerformanceD 800125302: Config/Level/Mission/8001253/Act/Act800125302.json-->
+::----
+::'''Hook:''' Wow, it's so big in here! It feels... It feels like ten clinics put together!
+::'''Hook:''' What happens next? Don't tell me we've already started playing volunteers?
+::{{DIcon|Arrow}} Miss Eris, here's a resume.
+::<!--Custom String Listener: TalkSentence_201196005-->
+::'''Eris:''' Hello, (Trailblazer)! I see you've got the company of a lovely kid today.
+::'''Hook:''' I'm not a kid! I'm Pitch-Dark Hook the Great!
+::'''Eris:''' Hehe, are you here to be a volunteer guide too? I'll have Pela look at your resume. Please wait here.
+:<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_belobog_clara_walk_near"
+	},
+	"EmitterType": "LocalPlayer"
+}</pre>
+::----
+::'''Clara:''' Here we are again, {{MC|m=Mister|f=Miss}} (Trailblazer) and... Pitch-Dark Hook the Great?
+::'''Hook:''' Eh? Aren't you Clara, one of our honorary members? Are you here to be a volunteer too?
+::{{DIcon|Arrow}} Why are you here? Where's Pela?
+:::<!--Custom String Listener: TalkSentence_201196011-->
+:::'''Clara:''' ... Pela asked me to help conduct the interview today...
+::{{DIcon|Arrow}} Are you here to be a volunteer too?
+:::<!--Custom String Listener: TalkSentence_201196013-->
+:::'''Clara:''' Yup... That's right. By the way, Pela asked me to help conduct the interview today...
+::<!--Custom String Trigger: Wait_Option_800125302_77-->
+::<!--Custom String Listener: Wait_Option_800125302_77-->
+::{{DIcon|Arrow}} Why can't she be here herself?
+:::<!--Custom String Listener: TalkSentence_201196015-->
+:::'''Clara:''' She has other matters to attend to...
+:::'''Clara:''' Still, she checked Hook's resume and thought she was a good fit... So, she entrusted the rest of the process to me.
+::{{DIcon|Arrow}} Thanks, Clara.
+:::<!--Custom String Listener: TalkSentence_201196018-->
+:::'''Clara:''' It's no problem. I'm glad to be able to help Pela out.
+::{{DIcon|Arrow}} I have a bad feeling about this...
+:::<!--Custom String Listener: TalkSentence_201196020-->
+:::'''Clara:''' Um... There... shouldn't be any problem! Although I have no experience giving interviews, I'll do my best.
+::<!--Custom String Trigger: TalkSentence_201196021-->
+::<!--Custom String Listener: TalkSentence_201196021-->
+::'''Clara:''' Anyway... let's head to the lounge first. The interview will be held there.
+::'''Clara:''' By the way, Pela has also appointed {{MC|m=Mister|f=Miss}} (Trailblazer) as the assistant assessor of the interview...
+::'''Clara:''' So... this is going to take up some of your time, {{MC|m=Mister|f=Miss}} (Trailblazer).
+::{{DIcon|Arrow}} That's fine. I'd love to help.
+:::<!--Custom String Listener: TalkSentence_201196025-->
+:::'''Clara:''' Oh, thank you so much, {{MC|m=Mister|f=Miss}} (Trailblazer)!
+::{{DIcon|Arrow}} That's fine. I'm used to it...
+:::<!--Custom String Listener: TalkSentence_201196027-->
+:::'''Clara:''' I'm... sorry for imposing this on you!
+::<!--Custom String Trigger: TalkSentence_201196028-->
+::<!--Custom String Listener: TalkSentence_201196028-->
+::'''Clara:''' Well, let's start the interview when you're ready, {{MC|m=Mister|f=Miss}} (Trailblazer). We'll wait for you here.
+::'''Hook:''' Although I'm not sure what all this is about, I'll wait for you with Clara!
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125302-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800125103--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":38,"Inverse":true}-->}})
+::<!--Trigger PerformanceD 800125103: Config/Level/Mission/8001251/Act/Act800125103.json-->
+::----
+::'''Serval:''' Hello there, may I hand in the volunteer guide application form to you?
+::'''Eris:''' Hello, Miss Serval! I'll pass your resume on to Miss Pela right away!
+::'''Serval:''' ...So soon!?
+:<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_belobog_pela_walk_near"
+	},
+	"EmitterType": "LocalPlayer"
+}</pre>
+::----
+::'''Pela:''' ...
+::'''Pela:''' ...*sigh*
+::'''Serval:''' What's with the sighing...
+::'''Pela:''' Nothing. Please follow me to the Rest Area.
+::{{DIcon|Arrow}} Can I take a break now?
+:::<!--Custom String Listener: TalkSentence_201196610-->
+:::'''Pela:''' What are you thinking? Of course not! Surely we need you to be an assistant assessor for the interview. Don't even think about running off.
+::{{DIcon|Arrow}} Seems like time for me to go...
+:::<!--Custom String Listener: TalkSentence_201196612-->
+:::'''Pela:''' Not so fast... You're coming with us. We need you to be an assistant assessor for the interview.
+::<!--Custom String Trigger: TalkSentence_201196613-->
+::<!--Custom String Listener: TalkSentence_201196613-->
+::'''Serval:''' Ha, there's no escaping it after all..
+::'''Pela:''' But of course, we still have to go through the necessary steps... Besides, I'm really interested in what's on your resume.
+::'''Pela:''' Please get ready for the interview, Serval. As for (Trailblazer), you may get on with your things first. We'll be waiting for you.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125103-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 800125502--> and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByIfGroupIsOccupied","GroupID":44,"Inverse":true}-->}})
+::<!--Trigger PerformanceD 800125502: Config/Level/Mission/8001255/Act/Act800125502.json-->
+::----
+::'''Seele:''' Tsk, this museum looks so posh... It reminds me of that orphanage in Rivet Town.
+::'''Seele:''' Are you... Miss Eris? I'm here to submit my volunteer guide application form. Should I give it to you?
+::'''Eris:''' Yes. Please give it to me! I'll pass your resume on to Miss Pela right away!
+::'''Seele:''' This seems serious... Let's take a break here, (Trailblazer).
+::----
+::'''Bronya:''' Eh, Seele? What are you doing here?
+::<!--0.5-second delay-->
+::'''Seele:''' Um...
+::'''Bronya:''' Did (Trailblazer) bring you here?
+::{{DIcon|Arrow}} Yep, that's me!
+:::<!--Custom String Listener: TalkSentence_201196910-->
+:::'''Bronya:''' I see. I've been trying to make you come for so long, but to no avail. Seems like (Trailblazer) is the only one who can convince you.
+::{{DIcon|Arrow}} She came of her own volition.
+:::<!--Custom String Listener: TalkSentence_201196912-->
+:::'''Bronya:''' I see. I'm surprised you have finally made up your mind... Thank you, Seele.
+::<!--Custom String Trigger: TalkSentence_201196913-->
+::<!--Custom String Listener: TalkSentence_201196913-->
+::'''Seele:''' Ahem... I guess it's my turn to ask questions now?
+::'''Seele:''' My application didn't pass the review, right? Can I just go now?
+::'''Bronya:''' No. Pela was impressed by your ability, so she wanted me to have an interview with you.
+::{{DIcon|Arrow}} No way for you to escape now, Seele!
+:::<!--Custom String Listener: TalkSentence_201196917-->
+:::'''Seele:''' Darn it...
+::{{DIcon|Arrow}} How come Pela has the gall to boss the Supreme Guardian around?
+:::<!--Custom String Listener: TalkSentence_201196919-->
+:::'''Bronya:''' It's not like that. A Supreme Guardian should never be put on a pedestal. Since Pela is in charge of the museum revitalization plan, I have no problem following her instructions.
+:::'''Bronya:''' Still, she was quite nervous when she discussed this matter with me...
+::<!--Custom String Trigger: TalkSentence_201196921-->
+::<!--Custom String Listener: TalkSentence_201196921-->
+::'''Bronya:''' Anyway, let's head to the Rest Area, Seele and (Trailblazer). The interview will be held there.
+::'''Seele:''' Fine. I'll play along, but it's only because I'm not busy today.
+::'''Bronya:''' Thank you, Seele. As for (Trailblazer), the assistant assessor, you may get on with your things first. We'll start the interview when you are ready.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800125502-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 201190601-->)
+::<!--Trigger PerformanceD 201190121: Config/Level/Mission/2011901/Act/Act201190121.json-->
+::----
+::{{A|VO side1 bwg pela 187 m.ogg}} {{A|VO side1 bwg pela 187 f.ogg}} '''Pela:''' (Trailblazer), I would like to introduce to you, Ms. Eris, the lobby secretary in the History and Culture Museum, Ms. Eris, this is the savior of Belobog. You should have heard of {{MC|f=her|m=his}} name.
+::{{A|VO side1 bwg alix 101.ogg}} '''Eris:''' Ah yes, I've heard so much about you! It's so nice to finally have the pleasure of meeting you!
+::{{DIcon|Arrow}} Nice to meet you, too.
+::{{DIcon|Arrow}} You're very pretty.
+:::<!--Custom String Listener: TalkSentence_201191305-->
+:::{{A|VO side1 bwg alix 102.ogg}} '''Eris:''' I &mdash; huh? Uhh... Thank you, what a nice compliment!
+:::<!--Custom String Trigger: TalkSentence_201191306-->
+::<!--Custom String Listener: TalkSentence_201191306-->
+::{{A|VO side1 bwg pela 188.ogg}} '''Pela:''' In addition to her secretarial duties, Eris is also a student at the Belobog College of Art. She's very knowledgeable about the museum's exhibits and their history.
+::{{A|VO side1 bwg pela 189 m.ogg}} {{A|VO side1 bwg pela 189 f.ogg}} '''Pela:''' Eris, starting today, (Trailblazer) is going to be our museum manager. Please keep {{MC|f=her|m=him}} updated on matters related to the opening and operation of the exhibits.
+::{{A|VO side1 bwg alix 103.ogg}} '''Eris:''' My pleasure, Miss Pela! Leave it to me, I'll keep our manager up to speed on every detail.
+::{{A|VO side1 bwg alix 104 m.ogg}} {{A|VO side1 bwg alix 104 f.ogg}} '''Eris:''' (Trailblazer), would you like to begin with the museum's workflows?
+::{{DIcon|Arrow}} You bet I would.
+::<!--Custom String Listener: TalkSentence_201191311-->
+::{{A|VO side1 bwg alix 105.ogg}} '''Eris:''' That's the spirit! Let's get started then.
+::<!--Custom String Trigger: ALL_TALK_END1-->
+::<!--Custom String Listener: ALL_TALK_END1-->
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201190601-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Finish: 201190601-->)
+:{{DIcon|Travel Log}} Start Museum Management
+:;(If {{cx}}<!--SubMission Finish: 201190601-->)
+:{{DIcon|Talk}} I have some questions...
+:::<!--Trigger PerformanceE 201190181: Config/Level/Mission/2011901/Act/Act201190181.json-->
+:::<!--Custom String Trigger: Wait_Option_501190302_18-->
+:::<!--Custom String Listener: Wait_Option_501190302_18-->
+:::{{DIcon|Talk}} What does the museum do?
+::::<!--Custom String Listener: TalkSentence_501190309-->
+::::'''Eris:''' Belobog History and Culture Museum is the largest comprehensive museum in Belobog under the Ministry of Culture in Qlipoth, covering a wide range of history, culture and art!
+::::'''Eris:''' Our museum is dedicated to providing a welcoming and accessible experience for all visitors. While exploring the exhibits, be sure to take a break in our rest area. And don't miss out on our occasional themed events!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you have in your exhibitions?
+::::<!--Custom String Listener: TalkSentence_501190312-->
+::::'''Eris:''' There are three permanent exhibition areas in the Belobog History and Culture Museum, and they are: The General Hall, the Industrial Hall, and the History-Culture Hall!
+::::'''Eris:''' The three different areas each have different kinds of historical artifacts on display. You can see Belobog from different angles in each of the areas. Other than that, we will occasionally have themed exhibitions that you can check out!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I want to know more about you, Eris...
+::::<!--Custom String Listener: TalkSentence_501190315-->
+::::'''Eris:''' Eh!? Me...?
+::::'''Eris:''' I... I'm just a student of the Belobog College of Art... Curator Uldan is my mentor, and I'm here to do my internship under him...
+::::'''Eris:''' I&mdash;In short, I'm just an ordinary person, and my stories are as boring as they come...
+::::'''Eris:''' L&mdash;Let's talk about museum, shall we?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all I wanted to know.
+::::<!--Custom String Listener: TalkSentence_501190320-->
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Finish: 201190601-->)
+:{{DIcon|Exit}} I'll leave you to it.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 201190601-->)
+:{{DIcon|Arrow}} You bet I would.
+;(Otherwise)
+::<!--Trigger PerformanceE 201190180: Config/Level/Mission/2011901/Act/Act201190180.json-->
+::<!--Custom String Trigger: museum_start-->
+::<!--Custom String Listener: museum_start-->
+::'''Eris:''' Welcome to the Belobog History and Culture Museum. Is there anything I can help you with?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_800120106-->
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Finish: 201190601-->)
+:{{DIcon|Travel Log}} Start Museum Management
+:;(If {{cx}}<!--SubMission Finish: 201190601-->)
+:{{DIcon|Talk}} I have some questions...
+:::<!--Trigger PerformanceE 201190181: Config/Level/Mission/2011901/Act/Act201190181.json-->
+:::<!--Custom String Trigger: Wait_Option_501190302_18-->
+:::<!--Custom String Listener: Wait_Option_501190302_18-->
+:::{{DIcon|Talk}} What does the museum do?
+::::<!--Custom String Listener: TalkSentence_501190309-->
+::::'''Eris:''' Belobog History and Culture Museum is the largest comprehensive museum in Belobog under the Ministry of Culture in Qlipoth, covering a wide range of history, culture and art!
+::::'''Eris:''' Our museum is dedicated to providing a welcoming and accessible experience for all visitors. While exploring the exhibits, be sure to take a break in our rest area. And don't miss out on our occasional themed events!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you have in your exhibitions?
+::::<!--Custom String Listener: TalkSentence_501190312-->
+::::'''Eris:''' There are three permanent exhibition areas in the Belobog History and Culture Museum, and they are: The General Hall, the Industrial Hall, and the History-Culture Hall!
+::::'''Eris:''' The three different areas each have different kinds of historical artifacts on display. You can see Belobog from different angles in each of the areas. Other than that, we will occasionally have themed exhibitions that you can check out!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I want to know more about you, Eris...
+::::<!--Custom String Listener: TalkSentence_501190315-->
+::::'''Eris:''' Eh!? Me...?
+::::'''Eris:''' I... I'm just a student of the Belobog College of Art... Curator Uldan is my mentor, and I'm here to do my internship under him...
+::::'''Eris:''' I&mdash;In short, I'm just an ordinary person, and my stories are as boring as they come...
+::::'''Eris:''' L&mdash;Let's talk about museum, shall we?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all I wanted to know.
+::::<!--Custom String Listener: TalkSentence_501190320-->
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission Finish: 201190601-->)
+:{{DIcon|Exit}} I'll leave you to it.
+:::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 201190601-->)
+:{{DIcon|Arrow}} You bet I would.
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

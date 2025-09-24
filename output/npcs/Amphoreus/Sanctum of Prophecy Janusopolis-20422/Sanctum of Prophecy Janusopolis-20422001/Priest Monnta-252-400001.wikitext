@@ -1,0 +1,409 @@
+<%-- [PAGE_INFO]
+PageTitle=#Priest Monnta#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Priest Monnta.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Sanctum of Prophecy" Janusopolis
+|relatives       = 
+}}
+'''Priest Monnta''' is an NPC on [[Amphoreus]], located in [["Sanctum of Prophecy" Janusopolis]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Sanctum of Prophecy" Janusopolis|npc_252_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 401600121: Config/Level/Mission/4016001/Act/Act401600121.json-->
+:'''Priest Monnta:''' Well, look who's here! You look great, acolyte. What brings you to me today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If first interaction)
+:{{DIcon}} I want to tackle the challenging old scrolls!
+::'''Priest Monnta:''' I knew you'd be interested. Choose one.
+::{{DIcon|Arrow}} The Golden Scroll.
+:::<!--Custom String Listener: TalkSentence_401602103-->
+:::'''Priest Monnta:''' Its question is &mdash; "Where is my lost ten million Balance Coins?" Let me set the ceremony up...
+::;(If {{F|FSV_GravityBallHardCase_1}} is undefined 1)
+::::'''Priest Monnta:''' The extrapolation is complete. Here, take it &mdash; this slate bears the conclusion.
+:::<pre>{
+	"$type": "RPG.GameCore.AdventureShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190821
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::{{DIcon|Arrow}} The Silver Scroll.
+:::<!--Custom String Listener: TalkSentence_401602105-->
+:::'''Priest Monnta:''' Its question is &mdash; "Where is the answer to everything?" Let me set the ceremony up...
+::;(If {{F|FSV_GravityBallHardCase_2}} is undefined 1)
+:::'''Priest Monnta:''' The extrapolation is complete. Here, take it &mdash; this slate bears the conclusion.
+::<pre>{
+	"$type": "RPG.GameCore.AdventureShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190822
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::{{DIcon|Arrow}} The White Scroll.
+:::<!--Custom String Listener: TalkSentence_401602107-->
+:::'''Priest Monnta:''' Its question is &mdash; "Where is the thing I'm looking for?" Let me set the ceremony up...
+::;(If {{F|FSV_GravityBallHardCase_3}} is undefined 1)
+:::'''Priest Monnta:''' The extrapolation is complete. Here, take it &mdash; this slate bears the conclusion.
+::<pre>{
+	"$type": "RPG.GameCore.AdventureShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190823
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::<!--Custom String Trigger: TalkSentence_401602108-->
+::<!--Custom String Listener: TalkSentence_401602108-->
+::'''Priest Monnta:''' The Maze has been revealed. Go ahead, acolyte.
+::<!--Ends the current performance-->
+;(If first interaction)
+:{{DIcon}} I want to replay the maze!
+::'''Priest Monnta:''' Ha, treating divination as amusement &mdash; among all of Janusopolis, you're the only acolyte who would do so. Fortunately, Oronyx resides within the Temple of the Three Fates, and with their authority, retracing the labyrinth of memories should be no issue. However &mdash;
+::'''Priest Monnta:''' I am no priest of Oronyx, so I can't precisely control which state of a request we return to. If you tire of it, feel free to come back and ask me to change it. This trick? I secretly learned it from the Priest of Time, so don't go spreading it around, okay?
+::'''Priest Monnta:''' "Oronyx, I summon thee! Stir up ripples of past referee!"
+::'''Priest Monnta:''' It feels odd every time I recite the chant. Why does it need a referee?
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+;(If first interaction)
+:{{DIcon}} I'm here for a little chat.
+::'''Priest Monnta:''' Of course! It is fascinating talking to a well-traveled individual such as yourself, no matter how long we chat.
+::<!--Custom String Trigger: Wait_Option_401600123_375-->
+::<!--Custom String Listener: Wait_Option_401600123_375-->
+::{{DIcon|Talk}} About Janus' Maze...
+:::<!--Custom String Listener: TalkSentence_401602203-->
+:::'''Priest Monnta:''' The divination tool capable of extrapolating all things, the great power of {{Rubi|Janus|Passage Titan}}... it has many such titles, so I won't list them all. This is how the world sees the "Maze."
+:::'''Priest Monnta:''' As priests, however, we understand it on a deeper level. For instance, the Maze's structure simulates Janus traversing the Passage, and its history predates even the Temple of the Three Fates.
+:::'''Priest Monnta:''' If you're interested in the history of divination, feel free to browse the bookshelves here. You'll find records of past Maze extrapolations &mdash; though most are repetitive and trivial requests.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What exactly do you do during divination?
+:::<!--Custom String Listener: TalkSentence_401602207-->
+:::'''Priest Monnta:''' I'm the "scribe." Each time an extrapolation concludes, the slate you see is etched by the self-moving stone stylus, but someone must hold it throughout the process.
+:::'''Priest Monnta:''' This task is crucial. During extrapolation, the scribe must maintain unwavering focus. Otherwise, not only will the results be affected, but the ceremony itself might become fraught with unexpected issues.
+:::'''Priest Monnta:''' If you're interested in this role, I suggest moving into the temple. I'll teach you myself, and within sixty Light Calendar years, you'll be well on your way to mastering it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I'd like to ask the Maze a question myself.
+:::<!--Custom String Listener: TalkSentence_401602211-->
+:::'''Priest Monnta:''' Oh? Does the acolyte also have something to seek? Of course, you know that submitting a request usually requires several approvals &mdash;
+:::'''Priest Monnta:''' But no need to worry. We'll skip those tedious steps. With your contributions, I'd like to see who'd dare object. So, what would you like to ask?
+:::{{DIcon|Arrow}} ...Where is my homeland?
+:::{{DIcon|Arrow}} ...Where is my future?
+:::{{DIcon|Arrow}} ...Who am I?
+:::<!--Custom String Listener: TalkSentence_401602216-->
+:::'''Priest Monnta:''' Let's see. O {{Rubi|Gate of Infinity|Passage Titan}}, please guide us &mdash;
+::;(Screen fades to black)
+:::The Maze groans deeply, but...
+:::'''Priest Monnta:''' What? {{Rubi|Janus|Passage Titan}} has not provided the extrapolation process? This hasn't occurred for hundreds of Light Calendar years!
+:::{{DIcon|Arrow}} As expected.
+:::{{DIcon|Arrow}} It seems the railways lie beyond Janus's domain.
+:::<!--Custom String Listener: TalkSentence_401602221-->
+:::'''Priest Monnta:''' Unbelievable! I'm growing curious about your origins, acolyte. But don't lose heart &mdash; the Fate Titans have not denied your pursuit. I'm sure you'll find your answers one day.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_401602223-->
+:::'''Priest Monnta:''' Hmm... May your path be clear, acolyte. The Passage will always remain open to you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If first interaction)
+:{{DIcon|Exit}} That's all for now.
+::'''Priest Monnta:''' Hmm... May your path be clear, acolyte. The Passage will always remain open to you.
+::<!--Ends the current performance-->
+;(If subsequent interaction)
+:{{DIcon}} I want to tackle the challenging old scrolls!
+::'''Priest Monnta:''' I knew you'd be interested. Choose one.
+::{{DIcon|Arrow}} The Golden Scroll.
+:::<!--Custom String Listener: TalkSentence_401602103-->
+:::<!--Custom String Listener: TalkSentence_401602103-->
+:::'''Priest Monnta:''' Its question is &mdash; "Where is my lost ten million Balance Coins?" Let me set the ceremony up...
+::;(If {{F|FSV_GravityBallHardCase_1}} is undefined 1)
+::::'''Priest Monnta:''' The extrapolation is complete. Here, take it &mdash; this slate bears the conclusion.
+:::<pre>{
+	"$type": "RPG.GameCore.AdventureShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190821
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+::{{DIcon|Arrow}} The Silver Scroll.
+:::<!--Custom String Listener: TalkSentence_401602105-->
+:::<!--Custom String Listener: TalkSentence_401602105-->
+:::'''Priest Monnta:''' Its question is &mdash; "Where is the answer to everything?" Let me set the ceremony up...
+::;(If {{F|FSV_GravityBallHardCase_2}} is undefined 1)
+:::'''Priest Monnta:''' The extrapolation is complete. Here, take it &mdash; this slate bears the conclusion.
+::<pre>{
+	"$type": "RPG.GameCore.AdventureShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190822
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2
+		}
+	}
+}</pre>
+::{{DIcon|Arrow}} The White Scroll.
+:::<!--Custom String Listener: TalkSentence_401602107-->
+:::<!--Custom String Listener: TalkSentence_401602107-->
+:::'''Priest Monnta:''' Its question is &mdash; "Where is the thing I'm looking for?" Let me set the ceremony up...
+::;(If {{F|FSV_GravityBallHardCase_3}} is undefined 1)
+:::'''Priest Monnta:''' The extrapolation is complete. Here, take it &mdash; this slate bears the conclusion.
+::<pre>{
+	"$type": "RPG.GameCore.AdventureShowReading",
+	"BookID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 190823
+		}
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 3
+		}
+	}
+}</pre>
+::<!--Custom String Trigger: TalkSentence_401602108-->
+::<!--Custom String Listener: TalkSentence_401602108-->
+::'''Priest Monnta:''' The Maze has been revealed. Go ahead, acolyte.
+::<!--Ends the current performance-->
+;(If subsequent interaction)
+:{{DIcon}} I want to replay the maze!
+::'''Priest Monnta:''' Bored already? Let's change another one. "Stir up ripples of past referee!" It feels odd every time I recite the chant. Why does it need a referee?
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloatV2",
+	"Name": {
+		"Value": "FCV_SwitchGravityBallCase"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 4
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+;(If subsequent interaction)
+:{{DIcon}} I'm here for a little chat.
+::'''Priest Monnta:''' Of course! It is fascinating talking to a well-traveled individual such as yourself, no matter how long we chat.
+::<!--Custom String Trigger: Wait_Option_401600123_375-->
+::<!--Custom String Listener: Wait_Option_401600123_375-->
+::<!--Custom String Listener: Wait_Option_401600123_375-->
+::{{DIcon|Talk}} About Janus' Maze...
+:::<!--Custom String Listener: TalkSentence_401602203-->
+:::'''Priest Monnta:''' The divination tool capable of extrapolating all things, the great power of {{Rubi|Janus|Passage Titan}}... it has many such titles, so I won't list them all. This is how the world sees the "Maze."
+:::'''Priest Monnta:''' As priests, however, we understand it on a deeper level. For instance, the Maze's structure simulates Janus traversing the Passage, and its history predates even the Temple of the Three Fates.
+:::'''Priest Monnta:''' If you're interested in the history of divination, feel free to browse the bookshelves here. You'll find records of past Maze extrapolations &mdash; though most are repetitive and trivial requests.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What exactly do you do during divination?
+:::<!--Custom String Listener: TalkSentence_401602207-->
+:::'''Priest Monnta:''' I'm the "scribe." Each time an extrapolation concludes, the slate you see is etched by the self-moving stone stylus, but someone must hold it throughout the process.
+:::'''Priest Monnta:''' This task is crucial. During extrapolation, the scribe must maintain unwavering focus. Otherwise, not only will the results be affected, but the ceremony itself might become fraught with unexpected issues.
+:::'''Priest Monnta:''' If you're interested in this role, I suggest moving into the temple. I'll teach you myself, and within sixty Light Calendar years, you'll be well on your way to mastering it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I'd like to ask the Maze a question myself.
+:::<!--Custom String Listener: TalkSentence_401602211-->
+:::'''Priest Monnta:''' Oh? Does the acolyte also have something to seek? Of course, you know that submitting a request usually requires several approvals &mdash;
+:::'''Priest Monnta:''' But no need to worry. We'll skip those tedious steps. With your contributions, I'd like to see who'd dare object. So, what would you like to ask?
+:::{{DIcon|Arrow}} ...Where is my homeland?
+:::{{DIcon|Arrow}} ...Where is my future?
+:::{{DIcon|Arrow}} ...Who am I?
+:::<!--Custom String Listener: TalkSentence_401602216-->
+:::'''Priest Monnta:''' Let's see. O {{Rubi|Gate of Infinity|Passage Titan}}, please guide us &mdash;
+::;(Screen fades to black)
+:::The Maze groans deeply, but...
+:::'''Priest Monnta:''' What? {{Rubi|Janus|Passage Titan}} has not provided the extrapolation process? This hasn't occurred for hundreds of Light Calendar years!
+:::{{DIcon|Arrow}} As expected.
+:::{{DIcon|Arrow}} It seems the railways lie beyond Janus's domain.
+:::<!--Custom String Listener: TalkSentence_401602221-->
+:::'''Priest Monnta:''' Unbelievable! I'm growing curious about your origins, acolyte. But don't lose heart &mdash; the Fate Titans have not denied your pursuit. I'm sure you'll find your answers one day.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_401602223-->
+:::'''Priest Monnta:''' Hmm... May your path be clear, acolyte. The Passage will always remain open to you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} About Janus' Maze...
+:::<!--Custom String Listener: TalkSentence_401602203-->
+:::'''Priest Monnta:''' The divination tool capable of extrapolating all things, the great power of {{Rubi|Janus|Passage Titan}}... it has many such titles, so I won't list them all. This is how the world sees the "Maze."
+:::'''Priest Monnta:''' As priests, however, we understand it on a deeper level. For instance, the Maze's structure simulates Janus traversing the Passage, and its history predates even the Temple of the Three Fates.
+:::'''Priest Monnta:''' If you're interested in the history of divination, feel free to browse the bookshelves here. You'll find records of past Maze extrapolations &mdash; though most are repetitive and trivial requests.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What exactly do you do during divination?
+:::<!--Custom String Listener: TalkSentence_401602207-->
+:::'''Priest Monnta:''' I'm the "scribe." Each time an extrapolation concludes, the slate you see is etched by the self-moving stone stylus, but someone must hold it throughout the process.
+:::'''Priest Monnta:''' This task is crucial. During extrapolation, the scribe must maintain unwavering focus. Otherwise, not only will the results be affected, but the ceremony itself might become fraught with unexpected issues.
+:::'''Priest Monnta:''' If you're interested in this role, I suggest moving into the temple. I'll teach you myself, and within sixty Light Calendar years, you'll be well on your way to mastering it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I'd like to ask the Maze a question myself.
+:::<!--Custom String Listener: TalkSentence_401602211-->
+:::'''Priest Monnta:''' Oh? Does the acolyte also have something to seek? Of course, you know that submitting a request usually requires several approvals &mdash;
+:::'''Priest Monnta:''' But no need to worry. We'll skip those tedious steps. With your contributions, I'd like to see who'd dare object. So, what would you like to ask?
+:::{{DIcon|Arrow}} ...Where is my homeland?
+:::{{DIcon|Arrow}} ...Where is my future?
+:::{{DIcon|Arrow}} ...Who am I?
+:::<!--Custom String Listener: TalkSentence_401602216-->
+:::'''Priest Monnta:''' Let's see. O {{Rubi|Gate of Infinity|Passage Titan}}, please guide us &mdash;
+::;(Screen fades to black)
+:::The Maze groans deeply, but...
+:::'''Priest Monnta:''' What? {{Rubi|Janus|Passage Titan}} has not provided the extrapolation process? This hasn't occurred for hundreds of Light Calendar years!
+:::{{DIcon|Arrow}} As expected.
+:::{{DIcon|Arrow}} It seems the railways lie beyond Janus's domain.
+:::<!--Custom String Listener: TalkSentence_401602221-->
+:::'''Priest Monnta:''' Unbelievable! I'm growing curious about your origins, acolyte. But don't lose heart &mdash; the Fate Titans have not denied your pursuit. I'm sure you'll find your answers one day.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_401602223-->
+:::'''Priest Monnta:''' Hmm... May your path be clear, acolyte. The Passage will always remain open to you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If subsequent interaction)
+:{{DIcon|Exit}} That's all for now.
+::'''Priest Monnta:''' Hmm... May your path be clear, acolyte. The Passage will always remain open to you.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,125 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wilder#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Festival Operations Manager
+|image           = NPC Wilder.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Old Weapon Testing Ground
+|relatives       = 
+}}
+'''Wilder''' is an NPC on [[Jarilo-VI]], located in [[Old Weapon Testing Ground]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Old Weapon Testing Ground|npc_17_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501031401: Config/Level/NPCDialogue/P20136/NPCAct/Act501031401.json-->
+::{{A|VO vo ambient w1 greeting wilder 101.ogg}} {{A|VO vo ambient w1 greeting wilder 102.ogg}} '''Wilder:''' Hey, {{MC|m=Mr.|f=Ms.}} (Trailblazer)! Welcome to the Interastral Tournament Festival! The tournament is over, though.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501031402: Config/Level/NPCDialogue/P20136/NPCAct/Act501031402.json-->
+::'''Wilder:''' Hey, {{MC|m=Mr.|f=Ms.}} (Trailblazer)! Welcome to the Interastral Tournament Festival! The tournament is over, though.
+:'''Wilder:''' However, you can use this terminal to edit your information and lineup, and compete against players worldwide. Anything you need, just let me know!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801413901-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::'''Wilder:''' A challenge from the Champion? What an honor! Let's do it.
+::'''Wilder:''' I've been playing this game for so long, I won't be beaten easily!
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "19"
+	}
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} Can we talk...?
+::<!--Trigger PerformanceE 501031403: Config/Level/NPCDialogue/P20136/NPCAct/Act501031403.json-->
+::'''Wilder:''' Sure thing! What's on your mind?
+::<!--Custom String Trigger: Wait_Option_501031403_31-->
+::<!--Custom String Listener: Wait_Option_501031403_31-->
+::{{DIcon|Talk}} Do you like this game?
+:::<!--Custom String Listener: TalkSentence_501031411-->
+:::'''Wilder:''' Oh, absolutely positively so! Let me tell you how I started playing this game! Well, it actually started with my father's generation.
+:::'''Wilder:''' My father was a hardcore gamer who introduced my twin brother and me to gaming at a young age, and Aetherium Wars was the first game we ever played.
+:::'''Wilder:''' I've tried many other games since then, including blockbusters from top-notch developers, but Aetherium Wars, despite its somewhat dated graphics, has stuck with me the longest.
+:::'''Wilder:''' As for why... I think the game itself is fascinating and has consistent updates, but more importantly, it holds sentimental value and that's what makes it special to me...
+:::'''Wilder:''' Anyway, this game was a big part of my childhood, and it's only natural to have a soft spot for it, right? Hahaha.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you enjoy your job?
+:::<!--Custom String Listener: TalkSentence_501031417-->
+:::'''Wilder:''' You mean working as an operator for the Interastral Tournament Festival? Yeah, I do enjoy it.
+:::'''Wilder:''' Contributing to a game you love is the greatest dream for any gamer. Don't you agree?
+:::'''Wilder:''' While standing here day and night to greet players does take a toll on my body, but... hey! It's Aetherium Wars! Whenever I think of that, it doesn't feel so bad anymore.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can we talk about IPC?
+:::<!--Custom String Listener: TalkSentence_501031421-->
+:::'''Wilder:''' Haha, sure thing! I don't know much about the headquarters, so let's just talk about my daily work and life.
+:::'''Wilder:''' After graduating from Owenley, I got a job with the Marketing Development Department, where I work together with my twin brother Velite.
+:::'''Wilder:''' It's been about four... no, five years since then. Can you believe we've even crossed into a new Amber Era? Hahaha.
+:::'''Wilder:''' To be honest, I enjoy my job. While it can be exhausting at times, Director Topaz has been treating me well. My brother is now working for another director named Jade, and he's having a hard time...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's stop here for now.
+:::<!--Custom String Listener: TalkSentence_501031426-->
+:::'''Wilder:''' Have a great time!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031403-->
+:{{DIcon|Exit}} I don't need anything else. Thank you.
+::<!--Trigger PerformanceE 501031404: Config/Level/NPCDialogue/P20136/NPCAct/Act501031404.json-->
+::'''Wilder:''' Have a great time!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501031404-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wilder
+|zhs  = 维尔德
+|zht  = 維爾德
+|ja   = ワイルダー
+|ko   = 와일더
+|es   = Wilder
+|fr   = Wilder
+|ru   = Уайлдер
+|th   = Wilder
+|vi   = Wilder
+|de   = Wilder
+|id   = Wilder
+|pt   = Wilder
+}}
+==Change History==
+{{Change History|TODO}}

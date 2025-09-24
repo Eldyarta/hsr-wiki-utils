@@ -55,7 +55,7 @@ for (const contact of MessagesContact.loadAll()) {
 	}
 
 	if (contact.fake_faction && contact.fake_faction != contact.faction) {
-		const condition = contact.reveal_mission_id ? `{{Mission|${Mission.fromId(contact.reveal_mission_id).pagetitle}|showChapter=0}}` : '{{cx}}'
+		const condition = contact.reveal_mission_id ? `{{Mission|${Mission.fromId(contact.reveal_mission_id)?.pagetitle}|showChapter=0}}` : '{{cx}}'
 		infobox.addParam('faction', `[[${contact.fake_faction}]] (Before completing ${condition})<br />[[${contact.faction}]] (After completing ${condition})`)
 	} else {
 		infobox.addParam('faction', contact.faction ?? '')

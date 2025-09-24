@@ -1,0 +1,93 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hachimem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Restaurant Chef"
+|image           = NPC Hachimem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Hachimem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_318_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504131007: Config/Level/Mission/5041310/Act/Act504131007.json-->
+<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106029
+}</pre>
+:'''Hachimem:''' Oh, manager, it's you. Please don't stand too close. I wouldn't want soup to splash on you, mem.
+:'''Hachimem:''' Apologies for the mess. Things have gotten a bit hectic lately. More customers are coming in, and business has really picked up. It's hard to find a spare moment, mem.
+:<!--Custom String Trigger: Wait_Option_504131007_104-->
+:<!--Custom String Listener: Wait_Option_504131007_104-->
+:{{DIcon|Talk}} You've worked hard lately!
+::<!--Custom String Listener: TalkSentence_504131604-->
+::'''Hachimem:''' Not at all, manager. Watching the restaurant thrive makes me truly happy, mem!
+::'''Hachimem:''' And working with the chefs has taught me so much, mem.
+::'''Hachimem:''' I really hope that one day, I can hold my own just like they do!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Your name is a bit unusual...
+::<!--Custom String Listener: TalkSentence_504131608-->
+::'''Hachimem:''' I chose it myself. It comes from a legend among the fairies, mem.
+::'''Hachimem:''' They say there's a kind of sweet syrup that flows along tree trunks. It's yellow like gold, clear like amber, and sweeter than any fruit in the Maze. A dreamlike delicacy that symbolizes eternity&mdash;
+::'''Hachimem:''' That's right, that's "Hachimead." In the outside world, I think they call it "honey."
+::'''Hachimem:''' To keep my mission of finding it close to heart, I took its name as my own. It sounds lovely, doesn't it, mem?
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Keep it up. I won't bother you any longer.
+::<!--Custom String Listener: TalkSentence_504131613-->
+::'''Hachimem:''' No need to be so polite, manager. This is what I, Hachimem, am meant to do as a chef, mem!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

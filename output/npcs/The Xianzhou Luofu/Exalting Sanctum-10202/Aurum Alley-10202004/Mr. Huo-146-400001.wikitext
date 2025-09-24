@@ -1,0 +1,536 @@
+<%-- [PAGE_INFO]
+PageTitle=#Mr. Huo#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Smuggler
+|image           = NPC Mr. Huo.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Mr. Huo''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_146_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502060101: Config/Level/NPCDialogue/P10202/NPCAct/Act502060101.json-->
+::'''Mr. Huo:''' All the most priceless treasures are in my... Oh, what a pleasant surprise! What brings you here today?
+::'''Mr. Huo:''' You're a new face here. Never been to Aurum Alley before, I guess?
+::'''Mr. Huo:''' Come in, come in! I have all sorts of wondrous treasures here! May I interest you with something?
+::{{DIcon|Arrow}} Wondrous treasures? You talk pretty big...
+:::<!--Custom String Listener: TalkSentence_502060106-->
+:::'''Mr. Huo:''' Well, well. My store may seem lackluster at first glance, but it's because I don't spend all my budget on fluffy marketing unlike those popular stores in Starskiff Haven.
+:::'''Mr. Huo:''' Cutting costs on decorations so I can buy genuine stock is the secret to getting the best stuff.
+::{{DIcon|Arrow}} Wondrous treasures? Won't they cost a fortune?
+:::<!--Custom String Listener: TalkSentence_502060109-->
+:::'''Mr. Huo:''' Ohh, that's not the case here. Everything here is sold at a fair price. We small businesses need to attract regulars, which isn't gonna happen if I set my prices sky-high!
+:::'''Mr. Huo:''' Besides, if you really think my stuff is too expensive... you're always welcome to stop by, take a look, and help us set a fairer price! You're welcome either way!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Finishlevelgraph-->
+::<!--Custom String Listener: Finishlevelgraph-->
+::<!--Custom String Listener: Finishlevelgraph-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Finishlevelgraph-->
+::<!--Custom String Listener: Finishlevelgraph-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502060301: Config/Level/NPCDialogue/P10202/NPCAct/Act502060301.json-->
+::'''Mr. Huo:''' Ah, we meet again, dear customer!
+::'''Mr. Huo:''' Come in, come in! I have all sorts of wondrous treasures here! May I interest you with something?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} I want to buy something!
+;(If {{cx}}<!--performance 502060302 has been seen-->)
+:{{DIcon|Talk}} Why does it feel like something's missing?
+::<!--Trigger PerformanceE 502060302: Config/Level/NPCDialogue/P10202/NPCAct/Act502060302.json-->
+::'''Mr. Huo:''' What is it you're lacking? I can help you stock up on it big time.
+::{{DIcon|Arrow}} Is there no Logistics Planning?
+::{{DIcon|Arrow}} Don't you use cycranes for deliveries at all?
+::<!--Custom String Listener: TalkSentence_502060355-->
+::'''Mr. Huo:''' Ah, I understand. It's that thing we're supposed to do after establishing a relationship with the merchants, right?
+::'''Mr. Huo:''' I hope you can use these cycranes that I modified. They're different from the Heron Express cycranes...
+::'''Mr. Huo:''' With my cycranes, {{Color|keyword|nobold=1|the longer the planned route, the higher the logistic score}}. You ready?
+::{{DIcon|Arrow}} Let's get the planning started.
+:::<!--Custom String Listener: Start60302-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: StartLine1-->
+:::<!--Custom String Listener: StartLine1-->
+::<pre>{
+	"$type": "RPG.GameCore.CreateLevelAreas",
+	"AssetPath": {
+		"Value": "Level/Common_Adventure/Alley_TopView.prefab"
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_ui_menu_activity_alley_transportPage_fadeIn_long"
+	},
+	"EmitterType": "DefaultEmitter"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.BlockInputController",
+	"ActionNameList": []
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"BlurStart": 0.25
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+:::<!--Custom String Trigger: Alley_ShowShopUI-->
+:::<!--Custom String Listener: Alley_ShowShopUI-->
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"Active": false
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Active": false,
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "Alley_TopView",
+	"AnchorName": "TopCam",
+	"FollowTargetUniqueName": "LocalPlayer",
+	"FollowTargetAttachPoint": "CameraRoot",
+	"LookAtTargetUniqueName": "LocalPlayer",
+	"LookAtTargetAttachPoint": "CameraRoot",
+	"WaitBlendFinish": true,
+	"DynamicParams": {
+		"OrbitalTransposerBias": true
+	}
+}</pre>
+::{{DIcon|Arrow}} I love planning stuff. I wanna do it now!
+:::<!--Custom String Listener: Start60302-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: StartLine1-->
+:::<!--Custom String Listener: StartLine1-->
+::<pre>{
+	"$type": "RPG.GameCore.CreateLevelAreas",
+	"AssetPath": {
+		"Value": "Level/Common_Adventure/Alley_TopView.prefab"
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_ui_menu_activity_alley_transportPage_fadeIn_long"
+	},
+	"EmitterType": "DefaultEmitter"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.BlockInputController",
+	"ActionNameList": []
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"BlurStart": 0.25
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+:::<!--Custom String Trigger: Alley_ShowShopUI-->
+:::<!--Custom String Listener: Alley_ShowShopUI-->
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"Active": false
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Active": false,
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "Alley_TopView",
+	"AnchorName": "TopCam",
+	"FollowTargetUniqueName": "LocalPlayer",
+	"FollowTargetAttachPoint": "CameraRoot",
+	"LookAtTargetUniqueName": "LocalPlayer",
+	"LookAtTargetAttachPoint": "CameraRoot",
+	"WaitBlendFinish": true,
+	"DynamicParams": {
+		"OrbitalTransposerBias": true
+	}
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+;(If {{cx}}<!--performance 502060302 has not been seen-->)
+:{{DIcon|Talk}} About the logistics planning we talked about...
+::<!--Trigger PerformanceE 502060303: Config/Level/NPCDialogue/P10202/NPCAct/Act502060303.json-->
+::'''Mr. Huo:''' With my cycranes, {{Color|keyword|nobold=1|the longer the planned route, the higher the logistic score}}. You ready?
+::{{DIcon|Arrow}} Let's get the planning started.
+:::<!--Custom String Listener: Start60303-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: StartLine2-->
+:::<!--Custom String Listener: StartLine2-->
+::<pre>{
+	"$type": "RPG.GameCore.CreateLevelAreas",
+	"AssetPath": {
+		"Value": "Level/Common_Adventure/Alley_TopView.prefab"
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_ui_menu_activity_alley_transportPage_fadeIn_long"
+	},
+	"EmitterType": "DefaultEmitter"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.BlockInputController",
+	"ActionNameList": []
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"BlurStart": 0.25
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+:::<!--Custom String Trigger: Alley_ShowShopUI-->
+:::<!--Custom String Listener: Alley_ShowShopUI-->
+:::<!--Custom String Listener: Alley_ShowShopUI-->
+:::<!--1-second delay-->
+::<pre>{
+	"$type": "RPG.GameCore.ShowTransitionLoadingUI",
+	"Name": "Ui.Activity.ActivityAlley.Transport.AlleyTransportTransitionDialog"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.Activity.ActivityAlley.Transport.TutorialAlleyTransportMainPage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "110"
+	},
+	"OnUIEnter": [
+		{
+			"$type": "RPG.GameCore.ExitTransitionLoadingUI"
+		},
+		{
+			"$type": "RPG.GameCore.BlockInputController"
+		},
+		{
+			"$type": "RPG.GameCore.ActiveVirtualCamera",
+			"AreaName": "Alley_TopView",
+			"AnchorName": "TopCam",
+			"IsActive": false,
+			"FollowTargetUniqueName": "LocalPlayer",
+			"FollowTargetAttachPoint": "CameraRoot",
+			"LookAtTargetUniqueName": "LocalPlayer",
+			"LookAtTargetAttachPoint": "CameraRoot",
+			"DynamicParams": {
+				"OrbitalTransposerBias": true
+			}
+		}
+	],
+	"OnUIExitImmediately": [
+		{
+			"$type": "RPG.GameCore.RemoveLevelAreas",
+			"AreaName": {
+				"Value": "Alley_TopView"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.FinishLevelGraph"
+		}
+	]
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"Active": false
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Active": false,
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "Alley_TopView",
+	"AnchorName": "TopCam",
+	"FollowTargetUniqueName": "LocalPlayer",
+	"FollowTargetAttachPoint": "CameraRoot",
+	"LookAtTargetUniqueName": "LocalPlayer",
+	"LookAtTargetAttachPoint": "CameraRoot",
+	"WaitBlendFinish": true,
+	"DynamicParams": {
+		"OrbitalTransposerBias": true
+	}
+}</pre>
+::{{DIcon|Arrow}} I love planning stuff. I wanna do it now!
+:::<!--Custom String Listener: Start60303-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: StartLine2-->
+:::<!--Custom String Listener: StartLine2-->
+::<pre>{
+	"$type": "RPG.GameCore.CreateLevelAreas",
+	"AssetPath": {
+		"Value": "Level/Common_Adventure/Alley_TopView.prefab"
+	}
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_ui_menu_activity_alley_transportPage_fadeIn_long"
+	},
+	"EmitterType": "DefaultEmitter"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.BlockInputController",
+	"ActionNameList": []
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"BlurStart": 0.25
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+:::<!--Custom String Trigger: Alley_ShowShopUI-->
+:::<!--Custom String Listener: Alley_ShowShopUI-->
+:::<!--Custom String Listener: Alley_ShowShopUI-->
+:::<!--1-second delay-->
+::<pre>{
+	"$type": "RPG.GameCore.ShowTransitionLoadingUI",
+	"Name": "Ui.Activity.ActivityAlley.Transport.AlleyTransportTransitionDialog"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.Activity.ActivityAlley.Transport.TutorialAlleyTransportMainPage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "110"
+	},
+	"OnUIEnter": [
+		{
+			"$type": "RPG.GameCore.ExitTransitionLoadingUI"
+		},
+		{
+			"$type": "RPG.GameCore.BlockInputController"
+		},
+		{
+			"$type": "RPG.GameCore.ActiveVirtualCamera",
+			"AreaName": "Alley_TopView",
+			"AnchorName": "TopCam",
+			"IsActive": false,
+			"FollowTargetUniqueName": "LocalPlayer",
+			"FollowTargetAttachPoint": "CameraRoot",
+			"LookAtTargetUniqueName": "LocalPlayer",
+			"LookAtTargetAttachPoint": "CameraRoot",
+			"DynamicParams": {
+				"OrbitalTransposerBias": true
+			}
+		}
+	],
+	"OnUIExitImmediately": [
+		{
+			"$type": "RPG.GameCore.RemoveLevelAreas",
+			"AreaName": {
+				"Value": "Alley_TopView"
+			}
+		},
+		{
+			"$type": "RPG.GameCore.FinishLevelGraph"
+		}
+	]
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.RadialBlurEffect",
+	"Active": false
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.SpeedLineEffect",
+	"Active": false,
+	"Speed": 0.8,
+	"Divide": 0.6,
+	"Start": 0.4,
+	"Brightness": 0.2,
+	"Density": 0.4,
+	"SpeedlineSeedPath": "Effects/Eff_Texture/Special/Noise/Eff_Noise_35.tga"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.ActiveVirtualCamera",
+	"AreaName": "Alley_TopView",
+	"AnchorName": "TopCam",
+	"FollowTargetUniqueName": "LocalPlayer",
+	"FollowTargetAttachPoint": "CameraRoot",
+	"LookAtTargetUniqueName": "LocalPlayer",
+	"LookAtTargetAttachPoint": "CameraRoot",
+	"WaitBlendFinish": true,
+	"DynamicParams": {
+		"OrbitalTransposerBias": true
+	}
+}</pre>
+::{{DIcon|Exit}} Maybe next time.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502060401: Config/Level/NPCDialogue/P10202/NPCAct/Act502060401.json-->
+::'''Mr. Huo:''' Thanks to you, it's not bad... Nothing much has changed since the revival of the Aurum Alley, but my business is thriving.
+::'''Mr. Huo:''' My customer base pretty much stays the same, but the sources of my goods have become more diverse.
+::'''Mr. Huo:''' Nowadays outworld traveling merchants come here from time to time, all of them with rare goods that are hard to sell tucked under their coats...
+::'''Mr. Huo:''' Here's a piece of wisdom for you: There are no bad goods, but only bad salespersons. As you are a capable person, I'd like to learn from you.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502060401-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502060201: Config/Level/NPCDialogue/P10202/NPCAct/Act502060201.json-->
+::'''Mr. Huo:''' Don't be a stranger. Feel free to ask me anything.
+::<!--Custom String Trigger: Wait_Option_502060201_648-->
+::<!--Custom String Listener: Wait_Option_502060201_648-->
+::{{DIcon|Talk}} What's your store's specialty?
+:::<!--Custom String Listener: TalkSentence_502060204-->
+:::'''Mr. Huo:''' Let me tell you all about it. Here you'll find nothing but the most unusual treasures, and my motto is "one-of-a-kind." I might not be able to claim that everything in the store is the only copy in the universe, but at least you won't find them anywhere else in the Xianzhou.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are these rags what you call "wondrous treasures"?
+:::<!--Custom String Listener: TalkSentence_502060206-->
+:::'''Mr. Huo:''' These "rags" may look old and cheap, but their histories are anything but ordinary. They are either lost artifacts or precious medicines that can only be obtained from the jaws of death.
+:::'''Mr. Huo:''' Only their fated owner can realize their priceless value. If none of my stuff catches your eye, perhaps they are simply not destined to be yours.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Will anyone really buy your stuff?
+:::<!--Custom String Listener: TalkSentence_502060209-->
+:::'''Mr. Huo:''' Hey, what are you trying to imply? Even if my store is rarely frequented by walk-in customers, I have my channels and connections for distribution.
+:::'''Mr. Huo:''' Besides, everyone knows me as someone specializing in rare goods. I have plenty of stable customers... Never mind. Don't you worry your pretty little head about this. These are business secrets.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502060212-->
+:::'''Mr. Huo:''' Alright. See you later.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Finishlevelgraph-->
+:::<!--Custom String Listener: Finishlevelgraph-->
+::<!--Custom String Trigger: Talk_502060201-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} It's nothing. I shouldn't keep you.
+::'''Mr. Huo:''' No problem. If you ever need anything in my line of trade, just let me know.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502060214)
+:<!--Custom String Listener: TalkSentence_502060214-->
+::'''Mr. Huo:''' Heh, it's not like I'm squeezing my customers... Buying low and selling high is a merchant's bounden duty. They keep calling me a greedy merchant, but all merchants are greedy, aren't they?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Finishlevelgraph-->
+::<!--Custom String Listener: Finishlevelgraph-->
+::<!--Custom String Listener: Finishlevelgraph-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Finishlevelgraph-->
+::<!--Custom String Listener: Finishlevelgraph-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Mr. Huo
+|zhs  = 霍三哥
+|zht  = 霍三哥
+|ja   = 霍三兄
+|ko   = 곽세찌
+|es   = Sr. Huo
+|fr   = Monsieur Huo
+|ru   = Господин Хо
+|th   = คุณ Huo
+|vi   = Anh Huo
+|de   = Herr Huo
+|id   = Tuan Huo
+|pt   = Sr. Huo
+}}
+==Change History==
+{{Change History|TODO}}

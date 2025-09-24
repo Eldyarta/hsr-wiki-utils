@@ -1,0 +1,403 @@
+<%-- [PAGE_INFO]
+PageTitle=#Wen Furui#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Station Researcher
+|image           = NPC Wen Furui.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Palace of Astrum
+|relatives       = 
+}}
+'''Wen Furui''' is an NPC on [[The Xianzhou Luofu]], located in [[Palace of Astrum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Palace of Astrum|npc_14_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Wen Furui:''' No problem. Ask me anything and we'll trade stories.
+:<!--Custom String Trigger: Wait_Option_502012202_1005-->
+:<!--Custom String Listener: Wait_Option_502012202_1005-->
+:{{DIcon|Talk}} What are you doing in Xianzhou?
+::<!--Custom String Listener: TalkSentence_502122103-->
+::'''Wen Furui:''' Didn't I say I'm a transferred researcher to Xianzhou? Madam Herta does some work with Xianzhou, so all I need is approval from the locals.
+::'''Wen Furui:''' I worked for the Department of Implement Arts. Have you heard of Xianzhou's Fallow Earth tech? If the negotiations go well, that'd be my research.
+::'''Wen Furui:''' See, other than checking out the foxian ladies, I've got a purpose for being here.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Have you told any of the foxian ladies how you feel?
+::<!--Custom String Listener: TalkSentence_502122107-->
+::'''Wen Furui:''' Nope, nope, nope!
+::'''Wen Furui:''' You know, despite giving courtship advice to countless colleagues of mine at the space station, I've never been in a relationship before. Plus, I'm rather shy...
+::{{DIcon|Arrow}} I got it, say no more.
+:::<!--Custom String Listener: TalkSentence_502122110-->
+:::'''Wen Furui:''' Thanks, {{MC|f=sister|m=brother}}.
+:::<!--Custom String Trigger: TalkSentence_502122113-->
+:::<!--Custom String Listener: TalkSentence_502122113-->
+:::'''Wen Furui:''' That's why I need your help. I'll see you when I'm ready.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} All talk, no action.
+:::<!--Custom String Listener: TalkSentence_502122112-->
+:::'''Wen Furui:''' You know everything, don't you?
+:::<!--Custom String Trigger: TalkSentence_502122113-->
+:::<!--Custom String Listener: TalkSentence_502122113-->
+:::'''Wen Furui:''' That's why I need your help. I'll see you when I'm ready.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} I thought you were not interested in a relationship.
+::<!--Custom String Listener: TalkSentence_502122115-->
+::'''Wen Furui:''' ...That's in the past. The cosmos was the only thing on my mind back on the space station. Don't laugh, I'm serious.
+::'''Wen Furui:''' When people asked me what's my type, I'd say, "No one's my type."
+::'''Wen Furui:''' Until I met a foxian lady. It turned out I wasn't looking for anybody because I had never met anyone like her.
+::'''Wen Furui:''' I couldn't wait to get here after realizing that. I'm eager to start a new life.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Let's talk again sometime.
+::<!--Custom String Listener: TalkSentence_502122120-->
+::'''Wen Furui:''' No problem, {{MC|f=sister|m=brother}}. I scratch your back and you scratch mine.
+::<!--Ends the current performance-->
+:'''Wen Furui:''' No problem, {{MC|f=sister|m=brother}}. I scratch your back and you scratch mine.
+:<!--Ends the current performance-->
+:'''Wen Furui:''' I pay to commute by air every day just so I can see the lovely foxian pilots. All that cost aside, they've stopped taking passengers lately...
+:'''Wen Furui:''' I can't be banned, can I? But how do you explain that they only let me pick from the male pilots when I try to book a flight?
+:'''Wen Furui:''' There you are. Have something to talk to me about?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000089: Config/Level/NPC/W2/NPC_DefaultStory_502012201.json-->
+::'''Wen Furui:''' It's me, (Trailblazer). Do you still remember me? I'm Wen Furui. I asked you to deliver something back when we were at the Herta Space Station.
+::'''Wen Furui:''' I always wanted Asta, the acting lead researcher, to transfer me, and now here I am in the foxian capital I've dreamed about. Thanks to you!
+::{{DIcon|Arrow}} I feel sorry for the foxians in Xianzhou now.
+:::<!--Custom String Listener: TalkSentence_502122015-->
+:::'''Wen Furui:''' Hey, don't make me out to be some sort of monster! I've got a good rep. Just ask the folks over at the space station.
+:::'''Wen Furui:''' Not to mention I came to Xianzhou with the purpose of engaging in trade and academic exchange.
+::{{DIcon|Arrow}} Foxian... capital?
+:::<!--Custom String Listener: TalkSentence_502122018-->
+:::'''Wen Furui:''' Isn't Xianzhou the capital of the foxians?
+:::'''Wen Furui:''' You don't seem to agree... Am I the only one who thinks that?
+::{{DIcon|Arrow}} Asta made an egregious call.
+:::<!--Custom String Listener: TalkSentence_502122021-->
+:::'''Wen Furui:''' Pfft, don't say that. I worked hard to get myself transferred out of there.
+:::'''Wen Furui:''' ...Not to mention it's an internal space station matter and none of your business.
+::<!--Custom String Trigger: TalkSentence_502122023-->
+::<!--Custom String Listener: TalkSentence_502122023-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_977-->
+::<!--Custom String Listener: Wait_Option_502012201_977-->
+::{{DIcon|Arrow}} Madam Yukong?
+:::<!--Custom String Listener: TalkSentence_502122025-->
+:::'''Wen Furui:''' She is very charming, but I see her as a star to appreciate from afar. She's beyond my approach.
+:::'''Wen Furui:''' Can't you see she's out of my league?
+:::{{DIcon|Arrow}} Nope.
+::::<!--Custom String Listener: TalkSentence_502122028-->
+::::'''Wen Furui:''' I treated you like a confidant, but I see you're not quite ready yet.
+:::{{DIcon|Arrow}} Maybe...?
+::::<!--Custom String Listener: TalkSentence_502122030-->
+::::'''Wen Furui:''' Watch and learn and you'll be like me in no time.
+:::{{DIcon|Arrow}} You're weird.
+::::<!--Custom String Listener: TalkSentence_502122032-->
+::::'''Wen Furui:''' Don't judge me by worldly norms.
+::{{DIcon|Arrow}} I'm not interested in that.
+:::<!--Custom String Listener: TalkSentence_502122034-->
+:::'''Wen Furui:''' I see, you're not one for conversations, are you?
+:::'''Wen Furui:''' At least pretend like you're interested...
+::{{DIcon|Arrow}} You should be more low-key.
+:::<!--Custom String Listener: TalkSentence_502122037-->
+:::'''Wen Furui:''' I get it. Unlike the true scoundrels, I have principles. So relax.
+::<!--Custom String Trigger: TalkSentence_502122038-->
+::<!--Custom String Listener: TalkSentence_502122038-->
+::'''Wen Furui:''' I'm actually keen on Madam Yukong's secretary, the one named Xikui. If only I could talk to her...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000090: Config/Level/NPC/W2/NPC_DefaultStory_502012204.json-->
+::'''Wen Furui:''' I pay to commute by air every day just so I can see the lovely foxian pilots. All that cost aside, they've stopped taking passengers lately...
+::'''Wen Furui:''' I can't be banned, can I? But how do you explain that they only let me pick from the male pilots when I try to book a flight?
+::'''Wen Furui:''' There you are. Have something to talk to me about?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Let's just talk for now.
+::'''Wen Furui:''' No problem. Ask me anything and we'll trade stories.
+::<!--Custom String Trigger: Wait_Option_502012202_1005-->
+::<!--Custom String Listener: Wait_Option_502012202_1005-->
+::{{DIcon|Talk}} What are you doing in Xianzhou?
+:::<!--Custom String Listener: TalkSentence_502122103-->
+:::'''Wen Furui:''' Didn't I say I'm a transferred researcher to Xianzhou? Madam Herta does some work with Xianzhou, so all I need is approval from the locals.
+:::'''Wen Furui:''' I worked for the Department of Implement Arts. Have you heard of Xianzhou's Fallow Earth tech? If the negotiations go well, that'd be my research.
+:::'''Wen Furui:''' See, other than checking out the foxian ladies, I've got a purpose for being here.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you told any of the foxian ladies how you feel?
+:::<!--Custom String Listener: TalkSentence_502122107-->
+:::'''Wen Furui:''' Nope, nope, nope!
+:::'''Wen Furui:''' You know, despite giving courtship advice to countless colleagues of mine at the space station, I've never been in a relationship before. Plus, I'm rather shy...
+:::{{DIcon|Arrow}} I got it, say no more.
+::::<!--Custom String Listener: TalkSentence_502122110-->
+::::'''Wen Furui:''' Thanks, {{MC|f=sister|m=brother}}.
+::::<!--Custom String Trigger: TalkSentence_502122113-->
+::::<!--Custom String Listener: TalkSentence_502122113-->
+::::'''Wen Furui:''' That's why I need your help. I'll see you when I'm ready.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} All talk, no action.
+::::<!--Custom String Listener: TalkSentence_502122112-->
+::::'''Wen Furui:''' You know everything, don't you?
+::::<!--Custom String Trigger: TalkSentence_502122113-->
+::::<!--Custom String Listener: TalkSentence_502122113-->
+::::'''Wen Furui:''' That's why I need your help. I'll see you when I'm ready.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I thought you were not interested in a relationship.
+:::<!--Custom String Listener: TalkSentence_502122115-->
+:::'''Wen Furui:''' ...That's in the past. The cosmos was the only thing on my mind back on the space station. Don't laugh, I'm serious.
+:::'''Wen Furui:''' When people asked me what's my type, I'd say, "No one's my type."
+:::'''Wen Furui:''' Until I met a foxian lady. It turned out I wasn't looking for anybody because I had never met anyone like her.
+:::'''Wen Furui:''' I couldn't wait to get here after realizing that. I'm eager to start a new life.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's talk again sometime.
+:::<!--Custom String Listener: TalkSentence_502122120-->
+:::'''Wen Furui:''' No problem, {{MC|f=sister|m=brother}}. I scratch your back and you scratch mine.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let's talk again sometime.
+::'''Wen Furui:''' No problem, {{MC|f=sister|m=brother}}. I scratch your back and you scratch mine.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502122003)
+:<!--Custom String Listener: TalkSentence_502122003-->
+::'''Wen Furui:''' Hey, don't make me out to be some sort of monster! I've got a good rep. Just ask the folks over at the space station.
+::'''Wen Furui:''' Not to mention I came to Xianzhou with the purpose of engaging in trade and academic exchange.
+::<!--Custom String Trigger: TalkSentence_502122013-->
+::<!--Custom String Listener: TalkSentence_502122013-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_965-->
+::<!--Custom String Listener: Wait_Option_502012201_965-->
+::{{DIcon|Arrow}} I feel sorry for the foxians in Xianzhou now.
+:::<!--Custom String Listener: TalkSentence_502122015-->
+:::'''Wen Furui:''' Hey, don't make me out to be some sort of monster! I've got a good rep. Just ask the folks over at the space station.
+:::'''Wen Furui:''' Not to mention I came to Xianzhou with the purpose of engaging in trade and academic exchange.
+::{{DIcon|Arrow}} Foxian... capital?
+:::<!--Custom String Listener: TalkSentence_502122018-->
+:::'''Wen Furui:''' Isn't Xianzhou the capital of the foxians?
+:::'''Wen Furui:''' You don't seem to agree... Am I the only one who thinks that?
+::{{DIcon|Arrow}} Asta made an egregious call.
+:::<!--Custom String Listener: TalkSentence_502122021-->
+:::'''Wen Furui:''' Pfft, don't say that. I worked hard to get myself transferred out of there.
+:::'''Wen Furui:''' ...Not to mention it's an internal space station matter and none of your business.
+::<!--Custom String Trigger: TalkSentence_502122023-->
+::<!--Custom String Listener: TalkSentence_502122023-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_977-->
+::<!--Custom String Listener: Wait_Option_502012201_977-->
+::{{DIcon|Arrow}} Madam Yukong?
+:::<!--Custom String Listener: TalkSentence_502122025-->
+:::'''Wen Furui:''' She is very charming, but I see her as a star to appreciate from afar. She's beyond my approach.
+:::'''Wen Furui:''' Can't you see she's out of my league?
+:::{{DIcon|Arrow}} Nope.
+::::<!--Custom String Listener: TalkSentence_502122028-->
+::::'''Wen Furui:''' I treated you like a confidant, but I see you're not quite ready yet.
+:::{{DIcon|Arrow}} Maybe...?
+::::<!--Custom String Listener: TalkSentence_502122030-->
+::::'''Wen Furui:''' Watch and learn and you'll be like me in no time.
+:::{{DIcon|Arrow}} You're weird.
+::::<!--Custom String Listener: TalkSentence_502122032-->
+::::'''Wen Furui:''' Don't judge me by worldly norms.
+::{{DIcon|Arrow}} I'm not interested in that.
+:::<!--Custom String Listener: TalkSentence_502122034-->
+:::'''Wen Furui:''' I see, you're not one for conversations, are you?
+:::'''Wen Furui:''' At least pretend like you're interested...
+::{{DIcon|Arrow}} You should be more low-key.
+:::<!--Custom String Listener: TalkSentence_502122037-->
+:::'''Wen Furui:''' I get it. Unlike the true scoundrels, I have principles. So relax.
+::<!--Custom String Trigger: TalkSentence_502122038-->
+::<!--Custom String Listener: TalkSentence_502122038-->
+::'''Wen Furui:''' I'm actually keen on Madam Yukong's secretary, the one named Xikui. If only I could talk to her...
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502122006)
+:<!--Custom String Listener: TalkSentence_502122006-->
+::'''Wen Furui:''' Isn't Xianzhou the capital of the foxians?
+::'''Wen Furui:''' You don't seem to agree... Am I the only one who thinks that?
+::<!--Custom String Trigger: TalkSentence_502122013-->
+::<!--Custom String Listener: TalkSentence_502122013-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_965-->
+::<!--Custom String Listener: Wait_Option_502012201_965-->
+::{{DIcon|Arrow}} I feel sorry for the foxians in Xianzhou now.
+:::<!--Custom String Listener: TalkSentence_502122015-->
+:::'''Wen Furui:''' Hey, don't make me out to be some sort of monster! I've got a good rep. Just ask the folks over at the space station.
+:::'''Wen Furui:''' Not to mention I came to Xianzhou with the purpose of engaging in trade and academic exchange.
+::{{DIcon|Arrow}} Foxian... capital?
+:::<!--Custom String Listener: TalkSentence_502122018-->
+:::'''Wen Furui:''' Isn't Xianzhou the capital of the foxians?
+:::'''Wen Furui:''' You don't seem to agree... Am I the only one who thinks that?
+::{{DIcon|Arrow}} Asta made an egregious call.
+:::<!--Custom String Listener: TalkSentence_502122021-->
+:::'''Wen Furui:''' Pfft, don't say that. I worked hard to get myself transferred out of there.
+:::'''Wen Furui:''' ...Not to mention it's an internal space station matter and none of your business.
+::<!--Custom String Trigger: TalkSentence_502122023-->
+::<!--Custom String Listener: TalkSentence_502122023-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_977-->
+::<!--Custom String Listener: Wait_Option_502012201_977-->
+::{{DIcon|Arrow}} Madam Yukong?
+:::<!--Custom String Listener: TalkSentence_502122025-->
+:::'''Wen Furui:''' She is very charming, but I see her as a star to appreciate from afar. She's beyond my approach.
+:::'''Wen Furui:''' Can't you see she's out of my league?
+:::{{DIcon|Arrow}} Nope.
+::::<!--Custom String Listener: TalkSentence_502122028-->
+::::'''Wen Furui:''' I treated you like a confidant, but I see you're not quite ready yet.
+:::{{DIcon|Arrow}} Maybe...?
+::::<!--Custom String Listener: TalkSentence_502122030-->
+::::'''Wen Furui:''' Watch and learn and you'll be like me in no time.
+:::{{DIcon|Arrow}} You're weird.
+::::<!--Custom String Listener: TalkSentence_502122032-->
+::::'''Wen Furui:''' Don't judge me by worldly norms.
+::{{DIcon|Arrow}} I'm not interested in that.
+:::<!--Custom String Listener: TalkSentence_502122034-->
+:::'''Wen Furui:''' I see, you're not one for conversations, are you?
+:::'''Wen Furui:''' At least pretend like you're interested...
+::{{DIcon|Arrow}} You should be more low-key.
+:::<!--Custom String Listener: TalkSentence_502122037-->
+:::'''Wen Furui:''' I get it. Unlike the true scoundrels, I have principles. So relax.
+::<!--Custom String Trigger: TalkSentence_502122038-->
+::<!--Custom String Listener: TalkSentence_502122038-->
+::'''Wen Furui:''' I'm actually keen on Madam Yukong's secretary, the one named Xikui. If only I could talk to her...
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502122009)
+:<!--Custom String Listener: TalkSentence_502122009-->
+::'''Wen Furui:''' Pfft, don't say that. I worked hard to get myself transferred out of there.
+::'''Wen Furui:''' ...Not to mention it's an internal space station matter and none of your business.
+::<!--Custom String Trigger: TalkSentence_502122013-->
+::<!--Custom String Listener: TalkSentence_502122013-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_965-->
+::<!--Custom String Listener: Wait_Option_502012201_965-->
+::{{DIcon|Arrow}} I feel sorry for the foxians in Xianzhou now.
+:::<!--Custom String Listener: TalkSentence_502122015-->
+:::'''Wen Furui:''' Hey, don't make me out to be some sort of monster! I've got a good rep. Just ask the folks over at the space station.
+:::'''Wen Furui:''' Not to mention I came to Xianzhou with the purpose of engaging in trade and academic exchange.
+::{{DIcon|Arrow}} Foxian... capital?
+:::<!--Custom String Listener: TalkSentence_502122018-->
+:::'''Wen Furui:''' Isn't Xianzhou the capital of the foxians?
+:::'''Wen Furui:''' You don't seem to agree... Am I the only one who thinks that?
+::{{DIcon|Arrow}} Asta made an egregious call.
+:::<!--Custom String Listener: TalkSentence_502122021-->
+:::'''Wen Furui:''' Pfft, don't say that. I worked hard to get myself transferred out of there.
+:::'''Wen Furui:''' ...Not to mention it's an internal space station matter and none of your business.
+::<!--Custom String Trigger: TalkSentence_502122023-->
+::<!--Custom String Listener: TalkSentence_502122023-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_977-->
+::<!--Custom String Listener: Wait_Option_502012201_977-->
+::{{DIcon|Arrow}} Madam Yukong?
+:::<!--Custom String Listener: TalkSentence_502122025-->
+:::'''Wen Furui:''' She is very charming, but I see her as a star to appreciate from afar. She's beyond my approach.
+:::'''Wen Furui:''' Can't you see she's out of my league?
+:::{{DIcon|Arrow}} Nope.
+::::<!--Custom String Listener: TalkSentence_502122028-->
+::::'''Wen Furui:''' I treated you like a confidant, but I see you're not quite ready yet.
+:::{{DIcon|Arrow}} Maybe...?
+::::<!--Custom String Listener: TalkSentence_502122030-->
+::::'''Wen Furui:''' Watch and learn and you'll be like me in no time.
+:::{{DIcon|Arrow}} You're weird.
+::::<!--Custom String Listener: TalkSentence_502122032-->
+::::'''Wen Furui:''' Don't judge me by worldly norms.
+::{{DIcon|Arrow}} I'm not interested in that.
+:::<!--Custom String Listener: TalkSentence_502122034-->
+:::'''Wen Furui:''' I see, you're not one for conversations, are you?
+:::'''Wen Furui:''' At least pretend like you're interested...
+::{{DIcon|Arrow}} You should be more low-key.
+:::<!--Custom String Listener: TalkSentence_502122037-->
+:::'''Wen Furui:''' I get it. Unlike the true scoundrels, I have principles. So relax.
+::<!--Custom String Trigger: TalkSentence_502122038-->
+::<!--Custom String Listener: TalkSentence_502122038-->
+::'''Wen Furui:''' I'm actually keen on Madam Yukong's secretary, the one named Xikui. If only I could talk to her...
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502122012)
+:<!--Custom String Listener: TalkSentence_502122012-->
+::'''Wen Furui:''' It's me, (Trailblazer). Do you still remember me? I'm Wen Furui. I asked you to deliver something back when we were at the Herta Space Station.
+::<!--Custom String Trigger: TalkSentence_502122013-->
+::<!--Custom String Listener: TalkSentence_502122013-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_965-->
+::<!--Custom String Listener: Wait_Option_502012201_965-->
+::{{DIcon|Arrow}} I feel sorry for the foxians in Xianzhou now.
+:::<!--Custom String Listener: TalkSentence_502122015-->
+:::'''Wen Furui:''' Hey, don't make me out to be some sort of monster! I've got a good rep. Just ask the folks over at the space station.
+:::'''Wen Furui:''' Not to mention I came to Xianzhou with the purpose of engaging in trade and academic exchange.
+::{{DIcon|Arrow}} Foxian... capital?
+:::<!--Custom String Listener: TalkSentence_502122018-->
+:::'''Wen Furui:''' Isn't Xianzhou the capital of the foxians?
+:::'''Wen Furui:''' You don't seem to agree... Am I the only one who thinks that?
+::{{DIcon|Arrow}} Asta made an egregious call.
+:::<!--Custom String Listener: TalkSentence_502122021-->
+:::'''Wen Furui:''' Pfft, don't say that. I worked hard to get myself transferred out of there.
+:::'''Wen Furui:''' ...Not to mention it's an internal space station matter and none of your business.
+::<!--Custom String Trigger: TalkSentence_502122023-->
+::<!--Custom String Listener: TalkSentence_502122023-->
+::'''Wen Furui:''' I've been in Xianzhou for a while now and see many foxian ladies every day. But do you know which one I care about the most?
+::<!--Custom String Trigger: Wait_Option_502012201_977-->
+::<!--Custom String Listener: Wait_Option_502012201_977-->
+::{{DIcon|Arrow}} Madam Yukong?
+:::<!--Custom String Listener: TalkSentence_502122025-->
+:::'''Wen Furui:''' She is very charming, but I see her as a star to appreciate from afar. She's beyond my approach.
+:::'''Wen Furui:''' Can't you see she's out of my league?
+:::{{DIcon|Arrow}} Nope.
+::::<!--Custom String Listener: TalkSentence_502122028-->
+::::'''Wen Furui:''' I treated you like a confidant, but I see you're not quite ready yet.
+:::{{DIcon|Arrow}} Maybe...?
+::::<!--Custom String Listener: TalkSentence_502122030-->
+::::'''Wen Furui:''' Watch and learn and you'll be like me in no time.
+:::{{DIcon|Arrow}} You're weird.
+::::<!--Custom String Listener: TalkSentence_502122032-->
+::::'''Wen Furui:''' Don't judge me by worldly norms.
+::{{DIcon|Arrow}} I'm not interested in that.
+:::<!--Custom String Listener: TalkSentence_502122034-->
+:::'''Wen Furui:''' I see, you're not one for conversations, are you?
+:::'''Wen Furui:''' At least pretend like you're interested...
+::{{DIcon|Arrow}} You should be more low-key.
+:::<!--Custom String Listener: TalkSentence_502122037-->
+:::'''Wen Furui:''' I get it. Unlike the true scoundrels, I have principles. So relax.
+::<!--Custom String Trigger: TalkSentence_502122038-->
+::<!--Custom String Listener: TalkSentence_502122038-->
+::'''Wen Furui:''' I'm actually keen on Madam Yukong's secretary, the one named Xikui. If only I could talk to her...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Wen Furui
+|zhs  = 温符瑞
+|zht  = 溫符瑞
+|ja   = 温符瑞
+|ko   = 온부서
+|es   = Wen Furui
+|fr   = Wen Furui
+|ru   = Вэнь Фужуй
+|th   = Wen Furui
+|vi   = Wen Furui
+|de   = Wen Furui
+|id   = Wen Furui
+|pt   = Wen Furui
+}}
+==Change History==
+{{Change History|TODO}}

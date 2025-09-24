@@ -1,0 +1,406 @@
+<%-- [PAGE_INFO]
+PageTitle=#Old Goethe#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Hotel Manager
+|image           = NPC Old Goethe.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Hotel Lobby
+|relatives       = 
+}}
+'''Old Goethe''' is an NPC on [[Jarilo-VI]], located in [[Hotel Lobby]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Hotel Lobby|npc_3_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501028701: Config/Level/Mission/5010287/Act/Act501028701.json-->
+::<!--Custom String Trigger: TalkSentence_501028701-->
+::<!--Custom String Listener: TalkSentence_501028701-->
+::'''Old Goethe:''' Hello! Welcome to the Goethe Hotel!
+::'''Old Goethe:''' Are you staying with us? Or would you like to try our special afternoon tea?
+::<!--Custom String Trigger: Wait_Option_5010287_8-->
+::<!--Custom String Listener: Wait_Option_5010287_8-->
+::{{DIcon|Arrow}} I'm here as I was attracted by the hotel's fame.
+:::<!--Custom String Listener: TalkSentence_501028704-->
+:::'''Old Goethe:''' The hotel has just been here for a long time and it became a bit famous in Belobog.
+:::'''Old Goethe:''' Make yourself at home. Feel free to take a tour, as long as you are not interrupting the other guests.
+::{{DIcon|Arrow}} I am only passing by. I'll have a look around.
+:::<!--Custom String Listener: TalkSentence_501028707-->
+:::'''Old Goethe:''' I happen to have some free time. If you don't mind, you can chat with me.
+::{{DIcon|Arrow}} I would like to reserve a room.
+:::<!--Custom String Listener: TalkSentence_501028709-->
+:::'''Old Goethe:''' Sure, please register at the reception.
+::{{DIcon|Arrow}} I would like to try your afternoon tea.
+:::<!--Custom String Listener: TalkSentence_501028711-->
+:::'''Old Goethe:''' Oh, it's on the sides of the lobby. Find yourself a sofa and take a seat. I'll arrange it.
+::<!--Custom String Trigger: TalkSentence_501028712-->
+::<!--Custom String Listener: TalkSentence_501028712-->
+::'''Old Goethe:''' This is where I grew up. I wouldn't say that I know all about the Administrative District. But I do know the history and goings-on around these parts fairly well.
+::'''Old Goethe:''' Just let me know if you are interested.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501028703: Config/Level/Mission/5010287/Act/Act501028703.json-->
+::'''Old Goethe:''' Hello! Welcome to the Goethe Hotel!
+::'''Old Goethe:''' It's you. You're not here for sightseeing, are you? Are you here to stay or for our afternoon tea? Or did you come here to chat with me?
+::{{DIcon|Arrow}} I would like to reserve a room.
+:::<!--Custom String Listener: TalkSentence_501028709-->
+:::<!--Custom String Listener: TalkSentence_501028709-->
+:::'''Old Goethe:''' Sure, please register at the reception.
+:::<!--Custom String Trigger: TalkSentence_501028738-->
+:::<!--Custom String Listener: TalkSentence_501028738-->
+:::'''Old Goethe:''' Sure. I'm usually quite free. I'd love to have a chat with someone.
+:::'''Old Goethe:''' What do you want to chat about?
+::{{DIcon|Arrow}} I would like to try your afternoon tea.
+:::<!--Custom String Listener: TalkSentence_501028711-->
+:::<!--Custom String Listener: TalkSentence_501028711-->
+:::'''Old Goethe:''' Oh, it's on the sides of the lobby. Find yourself a sofa and take a seat. I'll arrange it.
+:::<!--Custom String Trigger: TalkSentence_501028738-->
+:::<!--Custom String Listener: TalkSentence_501028738-->
+:::'''Old Goethe:''' Sure. I'm usually quite free. I'd love to have a chat with someone.
+:::'''Old Goethe:''' What do you want to chat about?
+::{{DIcon|Arrow}} I'd like to chat with you.
+:::<!--Custom String Listener: TalkSentence_501028738-->
+:::'''Old Goethe:''' Sure. I'm usually quite free. I'd love to have a chat with someone.
+:::'''Old Goethe:''' What do you want to chat about?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301150101-->)
+:{{DIcon|undefined}} You seem to need help with something?
+::<!--Trigger PerformanceE 301150101: Config/Level/Mission/3011501/Act/Act301150101.json-->
+::'''Old Goethe:''' Help? Hahaha, it's rare to see helpful kids like you in Belobog.
+::'''Old Goethe:''' You're right, though. There is something urgent I need help with. I just don't know whether I should ask for your help...
+::{{DIcon|Arrow}} Just leave it to me!
+:::<!--Custom String Listener: TalkSentence_301150105-->
+:::'''Old Goethe:''' Hahaha. I won't refuse your help then.
+::{{DIcon|Arrow}} Is there any funny business in this?
+:::<!--Custom String Listener: TalkSentence_301150107-->
+:::'''Old Goethe:''' Hahaha, you young people are pretty sharp.
+:::'''Old Goethe:''' Mmm... It doesn't hurt to let you know. I'll leave this to you.
+::<!--Custom String Trigger: TalkSentence_301150109-->
+::<!--Custom String Listener: TalkSentence_301150109-->
+::'''Old Goethe:''' Long story short &mdash; I am supposed to meet someone here today, as they wanted to borrow a hotel room.
+::'''Old Goethe:''' But it's been long past the time of our appointment, and he's still not here yet. I need to look after the front counter and can't leave, so I can't go see what is happening.
+::'''Old Goethe:''' Therefore, I want to ask you to go see what happened to him. Rest assured, I will give you a suitable reward.
+::<!--Custom String Trigger: Wait_Option_301150101_23-->
+::<!--Custom String Listener: Wait_Option_301150101_23-->
+::{{DIcon|Talk}} Who should I find?
+:::<!--Custom String Listener: TalkSentence_301150113-->
+:::'''Old Goethe:''' Rossy. He likes to wander around in the hotel lobby whenever he has time... And discuss current affairs with anyone he sees.
+:::'''Old Goethe:''' You should be able to find him there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Am I just going to SEE what is happening?
+:::<!--Custom String Listener: TalkSentence_301150116-->
+:::'''Old Goethe:''' Yes, just there to see. Tell him that you're "from the Society" and he'll understand.
+:::'''Old Goethe:''' Please come back to let me know of the situation once you're done, and I'll handle the rest.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Understood. I'm heading over now.
+:::<!--Custom String Listener: TalkSentence_301150119-->
+:::'''Old Goethe:''' Don't forget &mdash; You are looking for Rossy, who likes to wander around in the hotel lobby whenever he has time... You should be able to find him easily.
+:::'''Old Goethe:''' If he doesn't understand why you're there, just tell him that you're "from the Society" and he'll catch on.
+:::'''Old Goethe:''' Well then, please do this errand for me. Thank you so much.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150101-->
+;(If {{cx}}<!--SubMission Started: 301150104--> and {{cx}}<!--SubMission Started: 301150101-->)
+:{{DIcon|undefined}} I solved Rossy's issue.
+::<!--Trigger PerformanceE 301150104: Config/Level/Mission/3011501/Act/Act301150104.json-->
+::'''Old Goethe:''' Solved? What do you mean?
+::{{Black Screen|You tell Old Goethe what happened...}}
+::'''Old Goethe:''' Hahaha... I didn't think this would happen, but that is indeed why the Society exists.
+::{{DIcon|Arrow}} So, what exactly is the Society?
+::<!--Custom String Listener: TalkSentence_301150406-->
+::'''Old Goethe:''' Well, since you helped us, you are now one of us. I'll give you a short introduction.
+::'''Old Goethe:''' Our Society is called The Rightful Rights Society &mdash; As the name implies, our goal is to protect everyone's rightful rights.
+::'''Old Goethe:''' In short, we can get everyone to temporarily escape from the bindings of family and duty, to freely develop their hobbies and preferences, or simply to rest...
+::'''Old Goethe:''' Anyways, we're a charitable organization that aims to make the world a better place, and I'm the manager for the Administrative District branch. I like your passion and capacity. Would you be interested in joining us?
+::<!--Custom String Trigger: Wait_Option_301150104_123-->
+::<!--Custom String Listener: Wait_Option_301150104_123-->
+::{{DIcon|Talk}} It doesn't sound like a charitable organization.
+:::<!--Custom String Listener: TalkSentence_301150411-->
+:::'''Old Goethe:''' Hahaha, aren't charitable organizations all about doing good deeds for free?
+:::'''Old Goethe:''' If you view it that way, then The Rightful Rights Society is certainly a charitable organization.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So, this is your hidden identity.
+:::<!--Custom String Listener: TalkSentence_301150414-->
+:::'''Old Goethe:''' That's right. We usually act in secrecy and don't announce our identities, which is why I hesitated to ask for your help.
+:::'''Old Goethe:''' However, since you know about my identity and the Society, we are now ready to accept you into our ranks. The choice is up to you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are the benefits of joining?
+:::<!--Custom String Listener: TalkSentence_301150417-->
+:::'''Old Goethe:''' Mmm, good question.
+:::'''Old Goethe:''' Firstly, if you ever feel you need some time to relax but can't get away from your duties, you can ask other Society members to help cover for you. Secondly, you can also cover for other members whenever you can.
+:::'''Old Goethe:''' This certainly doesn't mean you get to command other Society members as you wish. To enjoy the benefits of the Society, you need to have a record of having helped others.
+:::'''Old Goethe:''' One instance of helping other Members equals two instances of asking for help. We encourage everyone to help each other and enjoy some off time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you going to let me go if I refuse to join?
+:::<!--Custom String Listener: TalkSentence_301150422-->
+:::'''Old Goethe:''' Ho-ho, you don't want to join? Then I will give you an offer you cannot refuse...
+:::'''Old Goethe:''' ...I'm joking. You're free to join the Society or not. We won't force you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Sounds interesting. I'm in.
+:::<!--Custom String Listener: TalkSentence_301150425-->
+:::'''Old Goethe:''' Hahaha, good! You're now a member of the Society.
+:::<!--Custom String Trigger: TalkSentence_301150426-->
+:::<!--Custom String Listener: TalkSentence_301150426-->
+:::'''Old Goethe:''' I'll contact you when other members put up commissions, and you can decide whether to help them.
+:::'''Old Goethe:''' And this is the reward for Rossy's business today &mdash; with warm regards.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301150104-->
+:{{DIcon}} I want to ask...
+::<!--Custom String Trigger: TalkSentence_501028715-->
+::<!--Custom String Listener: TalkSentence_501028715-->
+::'''Old Goethe:''' Sure! Answering the guests' questions is a way to show your hospitality.
+::<!--Custom String Trigger: Wait_Option_5010287_25-->
+::<!--Custom String Listener: Wait_Option_5010287_25-->
+::{{DIcon|Talk}} About Old Goethe and Goethe Hotel...
+:::<!--Custom String Listener: TalkSentence_501028717-->
+:::'''Old Goethe:''' Oh, that's what you're interested in? Goethe is my family name and Goethe Hotel is my family business. Well, it all began a long, long time ago.
+:::'''Old Goethe:''' The Goethe family used to be prosperous. My ancestors invested in many industries. Unfortunately, due to poor economics, our family declined. Frustrated, my ancestors sold all of their properties and moved to the Underworld.
+:::'''Old Goethe:''' Luckily later on another ancestor from my family started empty-handed and revived our family business. Once again, Goethe Hotel was moved back to the Overworld.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you received any special guests?
+:::<!--Custom String Listener: TalkSentence_501028721-->
+:::'''Old Goethe:''' Well, it depends on how you define special guest. Many guests have stayed with us. Indeed there are a lot of stories.
+:::'''Old Goethe:''' For example, a lady from a rich family escaped her wedding and jumped out of the window on the second floor in her pajamas. No one ever heard from her since...
+:::'''Old Goethe:''' There was a couple who were theater celebrities. They appeared as though they were in love but they stayed in different rooms when they were here for their honeymoon...
+:::'''Old Goethe:''' And there was a lady who would always stay in a single room when her family was at work. She was always drawing in her room. And she would cry every time she finished drawing. I wonder what she's been through...
+:::'''Old Goethe:''' It happens a lot in our industry. We always encounter weird things, especially when we've been in the industry for a long enough time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendations on food around here?
+:::<!--Custom String Listener: TalkSentence_501028727-->
+:::'''Old Goethe:''' Haha, I'm not trying to brag, but our afternoon tea is a specialty of Belobog.
+:::'''Old Goethe:''' There are a few desserts that only we can make. You can't eat them anywhere else in the Administrative District. Many young people visit us during holidays. Sometimes people have to line up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendation on sightseeing around here?
+:::<!--Custom String Listener: TalkSentence_501028730-->
+:::'''Old Goethe:''' I'd recommend the Western District, which is known for its artistic atmosphere. The Golden Theater is right there. You'll find everything from celebrities to merchandise.
+:::'''Old Goethe:''' But be careful, don't go on their premiere day. For example, shows with many fans like ''Beneath the White Cloak'' and ''Stardust Rose'' will make the area totally over-crowded...
+:::'''Old Goethe:''' It's best to drive there. If you don't have a car... Alisa Avenue is right outside the hotel. You can take a tram or walk there along the track.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 301150104-->)
+:{{DIcon}} About the Rightful Rights Society...
+::'''Old Goethe:''' Sure. What do you want to know?
+::<!--Custom String Trigger: Wait_Option_501029415_10-->
+::<!--Custom String Listener: Wait_Option_501029415_10-->
+::{{DIcon|Talk}} What's the Society's mission?
+:::<!--Custom String Listener: TalkSentence_501028754-->
+:::'''Old Goethe:''' The Rightful Rights Society &mdash; as the name implies, our goal is to uphold the rightful rights of every individual.
+:::'''Old Goethe:''' In short, we can get everyone to temporarily escape from the bindings of family and duty, to freely develop their hobbies, or just to take a break...
+:::'''Old Goethe:''' ...Anyways, we are undoubtedly an organization established for the good of the Society. After listening to my explanation, you should have a full understanding of the Society's mission now.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So this is your secret identity...
+:::<!--Custom String Listener: TalkSentence_501028758-->
+:::'''Old Goethe:''' That's right. We usually act in secrecy and don't announce our identities, which is why I hesitated to ask for your help.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What kind of rights?
+:::<!--Custom String Listener: TalkSentence_501028760-->
+:::'''Old Goethe:''' Firstly, if you ever feel you need some time to relax but can't get away from your duties, you can ask other Society members to help cover for you. Secondly, you can also cover for other members whenever you can.
+:::'''Old Goethe:''' This certainly doesn't mean you get to order other members about... To enjoy the rights, you must first have a record of helping others.
+:::'''Old Goethe:''' Helping others once grants you two requests for help. We encourage everyone to support each other so that everyone can enjoy some leisure time.
+:::'''Old Goethe:''' It seems like you've never asked for help in the group chat, though... Don't worry. We have measures in place for such cases.
+:::'''Old Goethe:''' We periodically review members who have not used their request quotas, and send them text reminders to exchange those for cash.
+:::{{DIcon|Arrow}} I can exchange that for cash?
+:::<!--Custom String Listener: TalkSentence_501028766-->
+:::'''Old Goethe:''' You bet... After all, it's your right to request help from others. If you are unable to exercise your right due to various reasons, we have to find a way to compensate you.
+:::'''Old Goethe:''' Anyway, just bear in mind that you will receive messages from us regularly. If you receive one, please don't hesitate to ask me about it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I understand.
+:::<!--Custom String Listener: TalkSentence_501028769-->
+:::'''Old Goethe:''' Hehe... I hope you get to enjoy some leisure time in the Society.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Finish: 301150104-->)
+:{{DIcon}} How have things been?
+::'''Old Goethe:''' Do you mean how's business been, or how I've been doing? The hotel's fine, not too busy. As for me, I'm looking forward to good times.
+::{{DIcon|Arrow}} Of course I mean you!
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Old Goethe:''' Oh thanks, I've been pretty good recently &mdash; "full of beans" even, you could say, haha! And I'm not afraid of your jokes. I've been thinking about how I can cover up this white hair of mine.
+:::'''Old Goethe:''' Soon we'll be able to see friends and relatives from down in the Underworld again... Things must be quite different after a dozen or more years, right?
+::{{DIcon|Arrow}} Are good times on the horizon?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Old Goethe:''' Good times? Correct. There's lots going on in the city right now... I hear from friends of mine that you seem to be up to lots, too?
+:::'''Old Goethe:''' Anyway, soon I'll be able to see friends and relatives from down in the Underworld. After all these years, I hope they've been doing well...
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Old Goethe:''' At my age, I have lots of friends and families leaving my life. Sometimes I can't help but miss those halcyon days gone by...
+::'''Old Goethe:''' Haha, I shouldn't be talking about such stuff with a young'un like you. Live well!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Finish: 301150104-->)
+:{{DIcon|Exit}} Thank you. I'll walk around by myself.
+::'''Old Goethe:''' Welcome. Please visit us sometime.
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010287_21)
+:<!--Custom String Listener: Wait_Option_5010287_21-->
+::{{DIcon|Arrow}} I want to ask...
+::<!--Custom String Listener: TalkSentence_501028715-->
+::<!--Custom String Listener: TalkSentence_501028715-->
+::'''Old Goethe:''' Sure! Answering the guests' questions is a way to show your hospitality.
+::<!--Custom String Trigger: Wait_Option_5010287_25-->
+::<!--Custom String Listener: Wait_Option_5010287_25-->
+::<!--Custom String Listener: Wait_Option_5010287_25-->
+::{{DIcon|Talk}} About Old Goethe and Goethe Hotel...
+:::<!--Custom String Listener: TalkSentence_501028717-->
+:::<!--Custom String Listener: TalkSentence_501028717-->
+:::'''Old Goethe:''' Oh, that's what you're interested in? Goethe is my family name and Goethe Hotel is my family business. Well, it all began a long, long time ago.
+:::'''Old Goethe:''' The Goethe family used to be prosperous. My ancestors invested in many industries. Unfortunately, due to poor economics, our family declined. Frustrated, my ancestors sold all of their properties and moved to the Underworld.
+:::'''Old Goethe:''' Luckily later on another ancestor from my family started empty-handed and revived our family business. Once again, Goethe Hotel was moved back to the Overworld.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you received any special guests?
+:::<!--Custom String Listener: TalkSentence_501028721-->
+:::<!--Custom String Listener: TalkSentence_501028721-->
+:::'''Old Goethe:''' Well, it depends on how you define special guest. Many guests have stayed with us. Indeed there are a lot of stories.
+:::'''Old Goethe:''' For example, a lady from a rich family escaped her wedding and jumped out of the window on the second floor in her pajamas. No one ever heard from her since...
+:::'''Old Goethe:''' There was a couple who were theater celebrities. They appeared as though they were in love but they stayed in different rooms when they were here for their honeymoon...
+:::'''Old Goethe:''' And there was a lady who would always stay in a single room when her family was at work. She was always drawing in her room. And she would cry every time she finished drawing. I wonder what she's been through...
+:::'''Old Goethe:''' It happens a lot in our industry. We always encounter weird things, especially when we've been in the industry for a long enough time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendations on food around here?
+:::<!--Custom String Listener: TalkSentence_501028727-->
+:::<!--Custom String Listener: TalkSentence_501028727-->
+:::'''Old Goethe:''' Haha, I'm not trying to brag, but our afternoon tea is a specialty of Belobog.
+:::'''Old Goethe:''' There are a few desserts that only we can make. You can't eat them anywhere else in the Administrative District. Many young people visit us during holidays. Sometimes people have to line up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendation on sightseeing around here?
+:::<!--Custom String Listener: TalkSentence_501028730-->
+:::<!--Custom String Listener: TalkSentence_501028730-->
+:::'''Old Goethe:''' I'd recommend the Western District, which is known for its artistic atmosphere. The Golden Theater is right there. You'll find everything from celebrities to merchandise.
+:::'''Old Goethe:''' But be careful, don't go on their premiere day. For example, shows with many fans like ''Beneath the White Cloak'' and ''Stardust Rose'' will make the area totally over-crowded...
+:::'''Old Goethe:''' It's best to drive there. If you don't have a car... Alisa Avenue is right outside the hotel. You can take a tram or walk there along the track.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::'''Old Goethe:''' I'd recommend the Western District, which is known for its artistic atmosphere. The Golden Theater is right there. You'll find everything from celebrities to merchandise.
+:::'''Old Goethe:''' But be careful, don't go on their premiere day. For example, shows with many fans like ''Beneath the White Cloak'' and ''Stardust Rose'' will make the area totally over-crowded...
+:::'''Old Goethe:''' It's best to drive there. If you don't have a car... Alisa Avenue is right outside the hotel. You can take a tram or walk there along the track.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} About Old Goethe and Goethe Hotel...
+:::<!--Custom String Listener: TalkSentence_501028717-->
+:::'''Old Goethe:''' Oh, that's what you're interested in? Goethe is my family name and Goethe Hotel is my family business. Well, it all began a long, long time ago.
+:::'''Old Goethe:''' The Goethe family used to be prosperous. My ancestors invested in many industries. Unfortunately, due to poor economics, our family declined. Frustrated, my ancestors sold all of their properties and moved to the Underworld.
+:::'''Old Goethe:''' Luckily later on another ancestor from my family started empty-handed and revived our family business. Once again, Goethe Hotel was moved back to the Overworld.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you received any special guests?
+:::<!--Custom String Listener: TalkSentence_501028721-->
+:::'''Old Goethe:''' Well, it depends on how you define special guest. Many guests have stayed with us. Indeed there are a lot of stories.
+:::'''Old Goethe:''' For example, a lady from a rich family escaped her wedding and jumped out of the window on the second floor in her pajamas. No one ever heard from her since...
+:::'''Old Goethe:''' There was a couple who were theater celebrities. They appeared as though they were in love but they stayed in different rooms when they were here for their honeymoon...
+:::'''Old Goethe:''' And there was a lady who would always stay in a single room when her family was at work. She was always drawing in her room. And she would cry every time she finished drawing. I wonder what she's been through...
+:::'''Old Goethe:''' It happens a lot in our industry. We always encounter weird things, especially when we've been in the industry for a long enough time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendations on food around here?
+:::<!--Custom String Listener: TalkSentence_501028727-->
+:::'''Old Goethe:''' Haha, I'm not trying to brag, but our afternoon tea is a specialty of Belobog.
+:::'''Old Goethe:''' There are a few desserts that only we can make. You can't eat them anywhere else in the Administrative District. Many young people visit us during holidays. Sometimes people have to line up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendation on sightseeing around here?
+:::<!--Custom String Listener: TalkSentence_501028730-->
+:::'''Old Goethe:''' I'd recommend the Western District, which is known for its artistic atmosphere. The Golden Theater is right there. You'll find everything from celebrities to merchandise.
+:::'''Old Goethe:''' But be careful, don't go on their premiere day. For example, shows with many fans like ''Beneath the White Cloak'' and ''Stardust Rose'' will make the area totally over-crowded...
+:::'''Old Goethe:''' It's best to drive there. If you don't have a car... Alisa Avenue is right outside the hotel. You can take a tram or walk there along the track.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::'''Old Goethe:''' Sure! Answering the guests' questions is a way to show your hospitality.
+::<!--Custom String Trigger: Wait_Option_5010287_25-->
+::<!--Custom String Listener: Wait_Option_5010287_25-->
+::{{DIcon|Talk}} About Old Goethe and Goethe Hotel...
+:::<!--Custom String Listener: TalkSentence_501028717-->
+:::'''Old Goethe:''' Oh, that's what you're interested in? Goethe is my family name and Goethe Hotel is my family business. Well, it all began a long, long time ago.
+:::'''Old Goethe:''' The Goethe family used to be prosperous. My ancestors invested in many industries. Unfortunately, due to poor economics, our family declined. Frustrated, my ancestors sold all of their properties and moved to the Underworld.
+:::'''Old Goethe:''' Luckily later on another ancestor from my family started empty-handed and revived our family business. Once again, Goethe Hotel was moved back to the Overworld.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you received any special guests?
+:::<!--Custom String Listener: TalkSentence_501028721-->
+:::'''Old Goethe:''' Well, it depends on how you define special guest. Many guests have stayed with us. Indeed there are a lot of stories.
+:::'''Old Goethe:''' For example, a lady from a rich family escaped her wedding and jumped out of the window on the second floor in her pajamas. No one ever heard from her since...
+:::'''Old Goethe:''' There was a couple who were theater celebrities. They appeared as though they were in love but they stayed in different rooms when they were here for their honeymoon...
+:::'''Old Goethe:''' And there was a lady who would always stay in a single room when her family was at work. She was always drawing in her room. And she would cry every time she finished drawing. I wonder what she's been through...
+:::'''Old Goethe:''' It happens a lot in our industry. We always encounter weird things, especially when we've been in the industry for a long enough time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendations on food around here?
+:::<!--Custom String Listener: TalkSentence_501028727-->
+:::'''Old Goethe:''' Haha, I'm not trying to brag, but our afternoon tea is a specialty of Belobog.
+:::'''Old Goethe:''' There are a few desserts that only we can make. You can't eat them anywhere else in the Administrative District. Many young people visit us during holidays. Sometimes people have to line up.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Any recommendation on sightseeing around here?
+:::<!--Custom String Listener: TalkSentence_501028730-->
+:::'''Old Goethe:''' I'd recommend the Western District, which is known for its artistic atmosphere. The Golden Theater is right there. You'll find everything from celebrities to merchandise.
+:::'''Old Goethe:''' But be careful, don't go on their premiere day. For example, shows with many fans like ''Beneath the White Cloak'' and ''Stardust Rose'' will make the area totally over-crowded...
+:::'''Old Goethe:''' It's best to drive there. If you don't have a car... Alisa Avenue is right outside the hotel. You can take a tram or walk there along the track.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Old Goethe
+|zhs  = 老歌德
+|zht  = 老歌德
+|ja   = ゲーテ
+|ko   = 늙은 괴테
+|es   = Viejo Goethe
+|fr   = Le Vieux Goethe
+|ru   = Старый Гёте
+|th   = ลุง Goethe
+|vi   = Ông Goethe
+|de   = Alter Goethe
+|id   = Old Goethe
+|pt   = Velho Goethe
+}}
+==Change History==
+{{Change History|TODO}}

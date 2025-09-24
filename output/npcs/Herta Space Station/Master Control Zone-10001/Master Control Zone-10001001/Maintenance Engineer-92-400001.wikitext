@@ -1,0 +1,137 @@
+<%-- [PAGE_INFO]
+PageTitle=#Maintenance Engineer#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = A Man Who Wishes Not to Be Named
+|image           = NPC Maintenance Engineer.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Maintenance Engineer''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_92_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 500002400: Config/Level/Mission/5000024/Act/Act500002400.json-->
+::{{A|VO vo ambient w0 greeting staffAH 101.ogg}} {{A|VO vo ambient w0 greeting staffAH 102.ogg}} '''Maintenance Engineer:''' Everyone is just data... Everyone. And she... She is no exception.
+::'''Maintenance Engineer:''' Even though I love her, so what... She's just another string of data... Sigh!
+::{{DIcon|Arrow}} Are you in love? Who is "she"?
+:::<!--Custom String Listener: TalkSentence_500002404-->
+:::'''Maintenance Engineer:''' Someone who broke my heart. Someone who made me laugh and cry. Someone who I longed for day and night.
+:::'''Maintenance Engineer:''' And these three people respectively are... Aw, forget it. You're just a random stranger, so you wouldn't understand even if I told you.
+::{{DIcon|Arrow}} "Data"? What data?
+:::<!--Custom String Listener: TalkSentence_500002407-->
+:::'''Maintenance Engineer:''' Data relies upon a terminal device to sustain the will of the space station.
+:::'''Maintenance Engineer:''' These are the truths that uphold the world. Those who fail to understand the laws of data are doomed to be deceived by the world.
+::<!--Custom String Trigger: TalkSentence_500002409-->
+::<!--Custom String Listener: TalkSentence_500002409-->
+::'''Maintenance Engineer:''' The light in here isn't as harsh as it is in other cabins. It's nice.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 500002402: Config/Level/Mission/5000024/Act/Act500002402.json-->
+::'''Maintenance Engineer:''' Everyone is just data... Everyone. And she... She is no exception.
+::'''Maintenance Engineer:''' Even though I love her, so what... She's just another string of data... Sigh!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003502-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002907: Config/Level/Mission/4050029/Act/Act405002907.json-->
+::'''Maintenance Engineer:''' As before, the common parts are ready, and a little robot will be arranged to deliver them to you in a while.
+::'''Maintenance Engineer:''' By the way, remember to give our robot's delivery service a good review!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003502-->
+;(If {{cx}}<!--SubMission Started: 405002802-->)
+:{{DIcon|undefined}} I want to borrow some little robots...
+::<!--Trigger PerformanceE 405002802: Config/Level/Mission/4050028/Act/Act405002802.json-->
+::'''Maintenance Engineer:''' People who are obsessed with this kind of inferior machinery are a bit... Ahem... Oh, you are here to talk about work, sorry.
+::'''Maintenance Engineer:''' You mean this kind of robot? Asta has ordered me to withdraw all of them and contact the after-sales service.
+::'''Maintenance Engineer:''' These little robots always shut down automatically from time to time, and also report errors in navigation. I've researched them, and their underlying logic is a mess...
+::'''Maintenance Engineer:''' It's best not to use them.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405002802-->
+::<!--Custom String Trigger: Talk_405002804-->
+:{{DIcon}} I have some questions for you...
+::<!--Trigger PerformanceE 500002401: Config/Level/Mission/5000024/Act/Act500002401.json-->
+::<!--Custom String Trigger: Wait_Option_500002400_21-->
+::<!--Custom String Listener: Wait_Option_500002400_21-->
+::{{DIcon|Talk}} What should I call you?
+:::<!--Custom String Listener: TalkSentence_500002412-->
+:::'''Maintenance Engineer:''' There's no need for names between you and me, and I don't have to tell you mine. Because... I'm just another passerby in the story of your life.
+:::'''Maintenance Engineer:''' ...Uh, but if any of your devices needs fixing, then you can just call out the same as everyone else: "Hey, Mister Fix-it" or "Maintenance Dude" &mdash; either's fine.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you explain it to me like I'm five...
+:::<!--Custom String Listener: TalkSentence_500002415-->
+:::'''Maintenance Engineer:''' If you get any IT problems, please pre-register via your terminal. And please don't ask me about any non-work-related matters.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you do around here? Don't you have to work?
+:::<!--Custom String Listener: TalkSentence_500002417-->
+:::'''Maintenance Engineer:''' My shift hasn't started yet, so those mortals will have to wait for rescue from their cold impersonal devices. These kinds of days are just so dull...
+:::'''Maintenance Engineer:''' Unfortunately, people like me are destined never to understand the mediocrity and joy of lives like yours. I bear the burden of loneliness for this whole room.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_500002421-->
+:::'''Maintenance Engineer:''' It must be really cool to have a well-lit cabin.
+:::'''Maintenance Engineer:''' Too bad I still like it in here &mdash; it's dark, so I feel safe...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_500002401-->
+:{{DIcon|Exit}} Well, then, I'd better leave you alone.
+::'''Maintenance Engineer:''' It must be really cool to have a well-lit cabin.
+::'''Maintenance Engineer:''' Too bad I still like it in here &mdash; it's dark, so I feel safe...
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290802)
+:<!--Custom String Listener: TalkSentence_405290802-->
+;(Unused &mdash; TalkSentence_405280302)
+:<!--Custom String Listener: TalkSentence_405280302-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Maintenance Engineer
+|zhs  = 维修工程师
+|zht  = 維修工程師
+|ja   = メンテナンスエンジニア
+|ko   = 수리 엔지니어
+|es   = Ingeniero de mantenimiento
+|fr   = Ingénieur de maintenance
+|ru   = Инженер по техническому обслуживанию
+|th   = วิศวกรซ่อมบำรุง
+|vi   = Kỹ Sư Sửa Chữa
+|de   = Wartungstechniker
+|id   = Insinyur Pemeliharaan
+|pt   = Engenheiro de Manutenção
+}}
+==Change History==
+{{Change History|TODO}}

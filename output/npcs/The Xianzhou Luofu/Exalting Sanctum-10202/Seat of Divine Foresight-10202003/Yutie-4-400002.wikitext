@@ -1,0 +1,138 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yutie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divine Foresight Chief Guard
+|image           = NPC Yutie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Seat of Divine Foresight
+|relatives       = 
+}}
+'''Yutie''' is an NPC on [[The Xianzhou Luofu]], located in [[Seat of Divine Foresight]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seat of Divine Foresight|npc_4_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502028101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502028101.json-->
+::'''Yutie:''' *sigh* ...What a quiet day at the Seat of Divine Foresight today...
+::{{DIcon|Arrow}} Are you talking to yourself?
+:::<!--Custom String Listener: TalkSentence_502028103-->
+:::'''Yutie:''' N&mdash;No, I'm not! I was feeling a little tired, and was just muttering to myself. Please don't penalize me, General...
+:::'''Yutie:''' ...?
+::{{DIcon|Arrow}} Isn't it good to be quiet at work?
+:::<!--Custom String Listener: TalkSentence_502028106-->
+:::'''Yutie:''' Sure, it's great. But it's starting to get a little boring at work when nothing ever happens...
+::<!--Custom String Trigger: TalkSentence_502028107-->
+::<!--Custom String Listener: TalkSentence_502028107-->
+::'''Yutie:''' Hmm? Well if it isn't {{MC|f=Ms.|m=Mr.}} (Trailblazer), back from hunting criminals with the Cloud Knights!
+::'''Yutie:''' I've been humbly appointed as chief guard for the Seat of Divine Foresight and General Jing Yuan, and I've heard much about your pursuits. Pleasure to make your acquaintance!
+::'''Yutie:''' What affairs bring you to the Seat of Divine Foresight today? Please excuse us for our inadequate hosting formalities, we are currently busy with official matters.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502028102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502028102.json-->
+::'''Yutie:''' {{MC|f=Ms.|m=Mr.}} (Trailblazer), we meet again! How am I able to assist you today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Can we chat for a bit?
+::<!--Trigger PerformanceE 502028103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502028103.json-->
+::'''Yutie:''' Despite the fact I'm still on duty, a little chat should be alright. What would you like to chat about?
+::<!--Custom String Trigger: Wait_Option_502028101_24-->
+::<!--Custom String Listener: Wait_Option_502028101_24-->
+::{{DIcon|Talk}} Are you allowed to chat while on-duty?
+:::<!--Custom String Listener: TalkSentence_502028113-->
+:::'''Yutie:''' Hahaha, I knew you'd ask that.
+:::'''Yutie:''' I may be the chief guard around these parts, but it's actually quite a leisurely role. After all, the general himself is also based in this office so nobody dares to bother us.
+:::'''Yutie:''' Also, you may not know this, but General Jing Yuan... He can be very lenient with the guards.
+:::'''Yutie:''' As long as we keep operations running smoothly, then that's proof enough for him that we're fulfilling our duties. So chattering on the job is fine, and the general will generally turn a blind eye to it...
+:::'''Yutie:''' ...But of course, this is all just an unfounded guess from me. Why does the general let us get away with all of this? I still haven't figured that part out.
+:::'''Yutie:''' Nobody on the entire Luofu... No, nobody in the entire Xianzhou Alliance can really read the general's mind.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you get up to as the chief guard?
+:::<!--Custom String Listener: TalkSentence_502028120-->
+:::'''Yutie:''' I'm mainly responsible for General Jing Yuan's personal security, while my Cloud Knights are in charge of public security for the Seat of Divine Foresight and all of Exalting Sanctum.
+:::{{DIcon|Return}} Does Jing Yuan really need someone else to protect him?
+:::<!--Custom String Listener: TalkSentence_502028122-->
+:::'''Yutie:''' Haha, you're not the only one to say so. I'm always thinking the same. He's not exactly famous for his martial prowess, but he was still one of the legendary High-Cloud Quintet...
+:::'''Yutie:''' *sigh* I'm just a lowly, unskilled servant with less power than the general's little toe. How could I ever hope to protect him? I may as well be a flowerpot in the Seat of Divine Foresight.
+:::'''Yutie:''' This used to fester inside of me for quite some time. I meant to ask the general himself about it but was scared I'd offend him. Until one day, the general himself asked me why I always seemed so down at work.
+:::'''Yutie:''' I voiced my doubts. But he simply laughed as he asked me whether or not I remembered the oath of the Cloud Knights.
+:::'''Yutie:''' How could I ever forget? "As clouds that cover the heavens will we protect the Xianzhou and soar eternal." Every soldier in the army recites these lines daily.
+:::'''Yutie:''' After I recited the oath, Jing Yuan said "Just as one tree does not a forest make, one sword does not an army form. I'm only one of many in the Cloud Knights. How can one piece of cloud shield the entire Xianzhou? We all have our own role to play. Don't underestimate yourself, Yutie."
+:::'''Yutie:''' Hearing these words gave me both great shame and also great inspiration. No wonder the general is a legendary figure of Luofu!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How come you're on duty again?
+:::<!--Custom String Listener: TalkSentence_502028130-->
+:::'''Yutie:''' We're an important military department, and our security work is of the utmost priority. As the chief guard, it's only fair that I put in a little more effort than the rest.
+:::'''Yutie:''' Once Yanqing grows a little taller and fits this armor properly, we'll rotate and take turns guarding.
+:::'''Yutie:''' I'm looking forward to that day &mdash; this kid's surpassed me already, and I should probably be yielding to him my role as the chief guard.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} We'll end the talk here for now.
+:::<!--Custom String Listener: TalkSentence_502028134-->
+:::'''Yutie:''' I'll continue my guard duty. Please take care.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502028103-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The disaster is finally over...
+::<!--Trigger PerformanceE 502028104: Config/Level/NPCDialogue/P10202/NPCAct/Act502028104.json-->
+::'''Yutie:''' Yes, it is. Speaking of which, I have asked for the general's permission to deal with the Ambrosial Arbor Crisis at the frontline several times.
+::'''Yutie:''' However, he was reluctant to let me go, saying it was hard to find someone to replace me. My request was delayed for a long time, and I did not make it to the front line in the end.
+::'''Yutie:''' As a Chief Guard, I know it's not that hard to find my replacement. The general refused to send me to the frontline only because I was at risk of becoming mara-struck, and he was worried about my safety.
+::'''Yutie:''' Later on, Qingzu came to advise me. She said that the general would be devastated if anything bad happened to me. Thinking she was right, I did not insist.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502028104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I'll leave you to your work.
+::'''Yutie:''' I'll continue my guard duty. Please take care.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yutie
+|zhs  = 浴铁
+|zht  = 浴鐵
+|ja   = 浴鉄
+|ko   = 유철
+|es   = Yutie
+|fr   = Yutie
+|ru   = Юйте
+|th   = Yutie
+|vi   = Yutie
+|de   = Yutie
+|id   = Yutie
+|pt   = Yutie
+}}
+==Change History==
+{{Change History|TODO}}

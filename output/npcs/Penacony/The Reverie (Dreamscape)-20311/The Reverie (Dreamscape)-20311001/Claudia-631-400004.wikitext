@@ -1,0 +1,98 @@
+<%-- [PAGE_INFO]
+PageTitle=#Claudia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = ''Literary Girl''
+|image           = NPC Claudia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Claudia''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_631_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503051204: Config/Level/Mission/5030510/Act/Act503051204.json-->
+::'''Claudia:''' Interesting love stories are always so easy to get immersed in, especially... intimate relations between monsters.
+::'''Claudia:''' Don't you find it fascinating? Strange creatures with contrasting personalities, sealed inside a Dreamscape together as complex emotions start to ferment in the darkness... Ah, just these little tropes alone get my mind racing!
+::{{DIcon|Arrow}} (Chat)
+::<!--Custom String Listener: TalkSentence_503051254-->
+::----
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::----
+::'''Claudia:''' Of course, what do you want to talk about?
+::{{DIcon|Arrow}} I want to know what you think about monsters.
+:::<!--Custom String Listener: TalkSentence_503051256-->
+:::'''Claudia:''' They are all very... interesting creatures, don't you think? The fact that objects in the Dreamscape can walk, communicate and think like us, this is such a novel concept. I enjoy observing their behavior.
+:::'''Claudia:''' What's more, I've heard about what happened in this lounge. The forgotten ones plagued by nightmares and the carer that refused to abandon them... A heartwarming story like this would be popular anywhere!
+:::'''Claudia:''' This lounge is a great place to get inspiration, please allow me to stay a while longer?
+::{{DIcon|Arrow}} I want to know what you think about me.
+:::<!--Custom String Listener: TalkSentence_503051260-->
+:::'''Claudia:''' ...Quite the unexpected question to propose in a place with such an atmosphere.
+:::'''Claudia:''' Unfortunately, if a story begins too smoothly, readers will lose interest in the story. So, I will skip this question for now.
+:::'''Claudia:''' Sitting side-by-side here, sharing in these beautiful moments, don't you think that's enough?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503051207: Config/Level/Mission/5030510/Act/Act503051207.json-->
+::You attempt to engage in conversation with the customer before you, but they seem immersed in the leisurely ambiance of the lounge, oblivious to your presence.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Claudia
+|zhs  = 克劳迪娅
+|zht  = 克勞蒂亞
+|ja   = クラウディア
+|ko   = 클라우디아
+|es   = Claudia
+|fr   = Claudia
+|ru   = Клаудия
+|th   = Claudia
+|vi   = Claudia
+|de   = Claudia
+|id   = Claudia
+|pt   = Claudia
+}}
+==Change History==
+{{Change History|TODO}}

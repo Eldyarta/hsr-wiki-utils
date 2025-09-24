@@ -1,0 +1,133 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bernard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv. 4 Geography Researcher
+|image           = NPC Bernard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Bernard''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_93_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: Wait_Option_500218300_497-->
+:<!--Custom String Listener: Wait_Option_500218300_497-->
+:{{DIcon|Talk}} Any news about Rocky's whereabouts?
+::<!--Custom String Listener: TalkSentence_500218304-->
+::'''Bernard:''' Hmph, that ungrateful brat has long forgotten about me. He never sent me any messages, let alone his whereabouts. And here I am, logging onto the terminal every day to see whether there are any unread messages...
+::'''Bernard:''' But... his vital signs always appear normal based on the reading. He's probably okay.
+::'''Bernard:''' Maybe he's got a bad signal where he is.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Is everything all right without Rocky around?
+::<!--Custom String Listener: TalkSentence_500218308-->
+::'''Bernard:''' Ugh, don't even get me started. I was absolutely livid when I first realized Rocky had left.
+::'''Bernard:''' Thankfully, my results from the Medical Department are pretty good, and I feel I'm in good enough health to wait for this silly boy's return.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Does anyone else know about this?
+::<!--Custom String Listener: TalkSentence_500218311-->
+::'''Bernard:''' It doesn't matter, my silly apprentice is not in the space station anyway.
+::'''Bernard:''' Besides, what use would that be even if they knew? It's not like they're gonna drag Rocky back...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500218315-->
+::'''Bernard:''' Ahhh, Rocky, my silly apprentice... I've never blamed you for leaving, but when are you coming back...?
+::<!--Ends the current performance-->
+:'''Bernard:''' Ah, it's you again. How can an old man like me help you?
+:<!--Ends the current performance-->
+:'''Bernard:''' Ahhh, Rocky, my silly apprentice... I've never blamed you for leaving, but when are you coming back...?
+:<!--Ends the current performance-->
+:<!--Trigger PerformanceE 90000024: Config/Level/NPC/W0/NPC_DefaultStory_500001804.json-->
+:'''Bernard:''' Ah, it's you again. How can an old man like me help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 405003102-->)
+:{{DIcon|undefined}} About the resource supply agreement...
+::<!--Trigger PerformanceE 405002903: Config/Level/Mission/4050029/Act/Act405002903.json-->
+::'''Bernard:''' Hmph, we at the Department of Cosmic Geography are also short on resources. Where do you find the nerve to come to us for things?
+::'''Bernard:''' Wait... The resource supply agreement... Lead Researcher Asta seems to have mentioned this.
+::'''Bernard:''' Don't just wait here. Are you expecting me, an old man, to bring the equipment for an outdoor survey to you? Later, I will get a youngster to send them directly to the railway platform for you!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_405003102-->
+:{{DIcon}} I'd like to know...
+::<!--Custom String Trigger: Wait_Option_500218300_497-->
+::<!--Custom String Listener: Wait_Option_500218300_497-->
+::{{DIcon|Talk}} Any news about Rocky's whereabouts?
+:::<!--Custom String Listener: TalkSentence_500218304-->
+:::'''Bernard:''' Hmph, that ungrateful brat has long forgotten about me. He never sent me any messages, let alone his whereabouts. And here I am, logging onto the terminal every day to see whether there are any unread messages...
+:::'''Bernard:''' But... his vital signs always appear normal based on the reading. He's probably okay.
+:::'''Bernard:''' Maybe he's got a bad signal where he is.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is everything all right without Rocky around?
+:::<!--Custom String Listener: TalkSentence_500218308-->
+:::'''Bernard:''' Ugh, don't even get me started. I was absolutely livid when I first realized Rocky had left.
+:::'''Bernard:''' Thankfully, my results from the Medical Department are pretty good, and I feel I'm in good enough health to wait for this silly boy's return.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Does anyone else know about this?
+:::<!--Custom String Listener: TalkSentence_500218311-->
+:::'''Bernard:''' It doesn't matter, my silly apprentice is not in the space station anyway.
+:::'''Bernard:''' Besides, what use would that be even if they knew? It's not like they're gonna drag Rocky back...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_500218315-->
+:::'''Bernard:''' Ahhh, Rocky, my silly apprentice... I've never blamed you for leaving, but when are you coming back...?
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll leave you alone.
+::'''Bernard:''' Ahhh, Rocky, my silly apprentice... I've never blamed you for leaving, but when are you coming back...?
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_405290402)
+:<!--Custom String Listener: TalkSentence_405290402-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bernard
+|zhs  = 伯纳德
+|zht  = 伯納德
+|ja   = バーナード
+|ko   = 버나드
+|es   = Bernard
+|fr   = Bernard
+|ru   = Бернард
+|th   = Bernard
+|vi   = Bernard
+|de   = Bernard
+|id   = Bernard
+|pt   = Bernard
+}}
+==Change History==
+{{Change History|TODO}}

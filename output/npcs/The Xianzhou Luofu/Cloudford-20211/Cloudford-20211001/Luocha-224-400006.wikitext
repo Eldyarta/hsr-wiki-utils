@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Luocha#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Luocha.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Cloudford
+|relatives       = 
+}}
+'''Luocha''' is an NPC on [[The Xianzhou Luofu]], located in [[Cloudford]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Cloudford|npc_224_400006}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 102040311: Config/Level/Mission/1020403/Act/Act102040311.json-->
+:{{A|VO chapter2 Ag1 luocha 128.ogg}} '''Luocha:''' Let's hurry.
+:<!--Custom String Trigger: Wait_Option_102040311_10-->
+:<!--Custom String Listener: Wait_Option_102040311_10-->
+:{{DIcon|Talk}} I'd like to ask something...
+::<!--Custom String Listener: TalkSentence_102040452-->
+::{{A|VO chapter2 Ag1 luocha 129.ogg}} '''Luocha:''' Please do...
+::<!--Custom String Trigger: Wait_Option_102040311_13-->
+::<!--Custom String Listener: Wait_Option_102040311_13-->
+::{{DIcon|Talk}} Are you familiar with the operational mechanisms in Cloudford?
+:::<!--Custom String Listener: TalkSentence_102040454-->
+:::{{A|VO chapter2 Ag1 luocha 130.ogg}} '''Luocha:''' Not really, I've just seen them before, that's all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you not want to go to Starskiff Haven?
+:::<!--Custom String Listener: TalkSentence_102040456-->
+:::{{A|VO chapter2 Ag1 luocha 131.ogg}} '''Luocha:''' Oh? What makes you ask that, young master? I'm happy as long as I get to leave this place.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I have other questions...
+:::<!--Custom String Listener: Wait_Option_102040311_10-->
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Talk}} Let's talk about you.
+::::<!--Custom String Listener: TalkSentence_102040459-->
+::::{{A|VO chapter2 Ag1 luocha 132.ogg}} '''Luocha:''' I'm not a very interesting person...
+::::<!--Custom String Trigger: Wait_Option_102040311_22-->
+::::<!--Custom String Listener: Wait_Option_102040311_22-->
+::::{{DIcon|Talk}} What are your plans from here?
+:::::<!--Custom String Listener: TalkSentence_102040461-->
+:::::{{A|VO chapter2 Ag1 luocha 133.ogg}} '''Luocha:''' At this stage, I'm just taking it one step at a time.
+:::::{{A|VO chapter2 Ag1 luocha 134.ogg}} '''Luocha:''' Thankfully, as a registered merchant on the Xianzhou, I get a discount on all my expenses. In that regard, it makes sense for me to stay a little longer, haha.
+:::::{{A|VO chapter2 Ag1 luocha 135.ogg}} '''Luocha:''' Miss Sushang said she could show me around if I find myself unable to leave.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Where were you going?
+:::::<!--Custom String Listener: TalkSentence_102040465-->
+:::::{{A|VO chapter2 Ag1 luocha 136.ogg}} '''Luocha:''' I had some more trading to do on the other Xianzhou ships, but my main appointment was with Miss Tingyun of the Whistling Flames merchant guild. We had a business deal to discuss, but I fear it will no longer go ahead.
+:::::{{A|VO chapter2 Ag1 luocha 137.ogg}} '''Luocha:''' Most of the deals won't be particularly profitable &mdash; the IPC takes the majority. There's only one that might be worth the journey &mdash; a direct trade with the Fanghu...
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Never mind. Excuse me.
+::::<!--Custom String Listener: TalkSentence_102040469-->
+::::{{A|VO chapter2 Ag1 luocha 138.ogg}} '''Luocha:''' Of course.
+::::<!--Ends the current performance-->
+:{{DIcon|Talk}} Let's talk about you.
+::<!--Custom String Listener: TalkSentence_102040459-->
+::{{A|VO chapter2 Ag1 luocha 132.ogg}} '''Luocha:''' I'm not a very interesting person...
+::<!--Custom String Trigger: Wait_Option_102040311_22-->
+::<!--Custom String Listener: Wait_Option_102040311_22-->
+::{{DIcon|Talk}} What are your plans from here?
+:::<!--Custom String Listener: TalkSentence_102040461-->
+:::{{A|VO chapter2 Ag1 luocha 133.ogg}} '''Luocha:''' At this stage, I'm just taking it one step at a time.
+:::{{A|VO chapter2 Ag1 luocha 134.ogg}} '''Luocha:''' Thankfully, as a registered merchant on the Xianzhou, I get a discount on all my expenses. In that regard, it makes sense for me to stay a little longer, haha.
+:::{{A|VO chapter2 Ag1 luocha 135.ogg}} '''Luocha:''' Miss Sushang said she could show me around if I find myself unable to leave.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where were you going?
+:::<!--Custom String Listener: TalkSentence_102040465-->
+:::{{A|VO chapter2 Ag1 luocha 136.ogg}} '''Luocha:''' I had some more trading to do on the other Xianzhou ships, but my main appointment was with Miss Tingyun of the Whistling Flames merchant guild. We had a business deal to discuss, but I fear it will no longer go ahead.
+:::{{A|VO chapter2 Ag1 luocha 137.ogg}} '''Luocha:''' Most of the deals won't be particularly profitable &mdash; the IPC takes the majority. There's only one that might be worth the journey &mdash; a direct trade with the Fanghu...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Return}} I have other questions...
+:::<!--Custom String Listener: Wait_Option_102040311_10-->
+:::{{DIcon|Talk}} I'd like to ask something...
+::::<!--Custom String Listener: TalkSentence_102040452-->
+::::{{A|VO chapter2 Ag1 luocha 129.ogg}} '''Luocha:''' Please do...
+::::<!--Custom String Trigger: Wait_Option_102040311_13-->
+::::<!--Custom String Listener: Wait_Option_102040311_13-->
+::::{{DIcon|Talk}} Are you familiar with the operational mechanisms in Cloudford?
+:::::<!--Custom String Listener: TalkSentence_102040454-->
+:::::{{A|VO chapter2 Ag1 luocha 130.ogg}} '''Luocha:''' Not really, I've just seen them before, that's all.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you not want to go to Starskiff Haven?
+:::::<!--Custom String Listener: TalkSentence_102040456-->
+:::::{{A|VO chapter2 Ag1 luocha 131.ogg}} '''Luocha:''' Oh? What makes you ask that, young master? I'm happy as long as I get to leave this place.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(Return to previous option selection (cloneCheckString))
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+:::{{DIcon|Exit}} Never mind. Excuse me.
+::::<!--Custom String Listener: TalkSentence_102040469-->
+::::{{A|VO chapter2 Ag1 luocha 138.ogg}} '''Luocha:''' Of course.
+::::<!--Ends the current performance-->
+:{{DIcon|Exit}} Never mind. Excuse me.
+::<!--Custom String Listener: TalkSentence_102040469-->
+::{{A|VO chapter2 Ag1 luocha 138.ogg}} '''Luocha:''' Of course.
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_102040311-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Luocha
+|zhs  = 罗刹
+|zht  = 羅剎
+|ja   = 羅刹
+|ko   = 나찰
+|es   = Luocha
+|fr   = Luocha
+|ru   = Лоча
+|th   = Luocha
+|vi   = Luocha
+|de   = Luocha
+|id   = Luocha
+|pt   = Luocha
+}}
+==Change History==
+{{Change History|TODO}}

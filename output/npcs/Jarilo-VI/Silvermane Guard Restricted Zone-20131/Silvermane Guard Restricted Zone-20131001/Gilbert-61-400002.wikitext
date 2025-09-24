@@ -1,0 +1,758 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gilbert#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Logistics Officer
+|image           = NPC Gilbert.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Silvermane Guard Restricted Zone
+|relatives       = 
+}}
+'''Gilbert''' is an NPC on [[Jarilo-VI]], located in [[Silvermane Guard Restricted Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Silvermane Guard Restricted Zone|npc_61_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301111101,
+		"Type": "submission_state_equal",
+		"Param1": 301111101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111101: Config/Level/Mission/3011111/Act/Act301111101.json-->
+:<!--Custom String Trigger: TalkSentence_301110102-->
+:<!--Custom String Listener: TalkSentence_301110102-->
+:'''Gilbert:''' Ore pack inspection, checked...Weekly armament routine maintenance and cleaning, checked...
+:'''Gilbert:''' Another day... *sigh*
+:<!--Custom String Trigger: Wait_Option_301110101_10-->
+:<!--Custom String Listener: Wait_Option_301110101_10-->
+:{{DIcon|Arrow}} What's with the sighing?
+::<!--Custom String Listener: TalkSentence_301110105-->
+::'''Gilbert:''' Alas, it's just another day...
+:{{DIcon|Arrow}} Can you clean my shoes?
+::<!--Custom String Listener: TalkSentence_301110107-->
+::'''Gilbert:''' ... As the logistics officer of the Guard, I can't believe I am actually laughed at by a young {{MC|f=lady|m=man}} like you, alas...
+:<!--Custom String Trigger: TalkSentence_301110108-->
+:<!--Custom String Listener: TalkSentence_301110108-->
+:'''Gilbert:''' Wait a minute, stop &mdash; who are you? Are you an intruder?
+:<!--Custom String Trigger: Wait_Option_301110101_17-->
+:<!--Custom String Listener: Wait_Option_301110101_17-->
+:{{DIcon|Arrow}} Show Gilbert the restricted zone pass.
+:<!--Custom String Listener: TalkSentence_301110110-->
+:'''Gilbert:''' Oh, so you have a pass... What a pity, I thought I could finally write something special in the letter...
+:<!--Custom String Trigger: Wait_Option_301110101_20-->
+:<!--Custom String Listener: Wait_Option_301110101_20-->
+:{{DIcon|Arrow}} Letter?
+::<!--Custom String Listener: TalkSentence_301110112-->
+::'''Gilbert:''' No, nothing, just pretend you didn't hear it...
+:{{DIcon|Arrow}} What were you going to do if I didn't have a pass?
+::<!--Custom String Listener: TalkSentence_301110114-->
+::'''Gilbert:''' No, I... I didn't intend on doing anything... and I'm not lying to you now.
+:<!--Custom String Trigger: TalkSentence_301110115-->
+:<!--Custom String Listener: TalkSentence_301110115-->
+:'''Gilbert:''' W&mdash;Wait! Hmm... You look young, but your face seems to suggest you are quite experienced. Can you do this old soldier a favor?
+:'''Gilbert:''' To tell you the truth, I am only a few months from the end of my service, then I'll be leaving this restricted zone soon. I want to write a letter to tell my wife and daughter the good news, but I really don't know what to write about...
+:'''Gilbert:''' I have served in the army for over 20 years, and I have been working in logistics this whole time. I have never been on the front line once. In the first few years, I still thought this job was easy and comfortable, but the longer I stay, the more useless I feel...
+:'''Gilbert:''' Well, if you don't mind, can you share some exciting adventures with me? I don't want my daughter to think that her dad is a useless old bum, but my imagination is really limited...
+:<!--Custom String Trigger: Wait_Option_301110101_30-->
+:<!--Custom String Listener: Wait_Option_301110101_30-->
+:{{DIcon|Arrow}} Alright, let me think about it...
+:<!--Custom String Listener: TalkSentence_301110120-->
+:'''Gilbert:''' Really? Thank, thank you, {{MC|f=young lady|m=young man}}!
+:'''Gilbert:''' Where's my paper and pen... ah, here, found it &mdash; okay, we can start when you're ready...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111101-->
+<pre>
+[
+	{
+		"ID": 301111102,
+		"Type": "submission_state_equal",
+		"Param1": 301111102,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111102: Config/Level/Mission/3011111/Act/Act301111102.json-->
+:<!--Custom String Trigger: TalkSentence_301110202-->
+:<!--Custom String Listener: TalkSentence_301110202-->
+:'''Gilbert:''' Have you made up your mind? Let's get started, you speak, I will write it down...
+:'''Gilbert:''' Let me think... let's start with a traveling experience? Tell me about any special places you've been to.
+:<!--Custom String Trigger: Wait_Option_301110102_9-->
+:<!--Custom String Listener: Wait_Option_301110102_9-->
+:{{DIcon|Arrow}} Outlying Snow Plains...
+::<!--Custom String Listener: TalkSentence_301110204-->
+::'''Gilbert:''' ... Snow Plains? That place is forbidden, and it's a serious crime for ordinary people to leave the city without authorization...
+:{{DIcon|Arrow}} Rivet Town in the Underworld...
+::<!--Custom String Listener: TalkSentence_301110206-->
+::'''Gilbert:''' ... The Underworld? No way, no way, the passage between the surface and the underground has been blocked for more than ten years. No one will believe it if I say so...
+:{{DIcon|Arrow}} The Blue...
+::<!--Custom String Listener: TalkSentence_301110208-->
+::'''Gilbert:''' ...Where's that? I have never heard of that place. Are you just making it up?
+:<!--Custom String Trigger: TalkSentence_301110209-->
+:<!--Custom String Listener: TalkSentence_301110209-->
+:'''Gilbert:''' *sigh* If I write it as you said, it would be hard even for my family to believe me, right? I'd rather be a little more convincing.
+:'''Gilbert:''' Then... Let's talk about something else, do you know how to fight? Although I have served for more than 20 years, I have never been on the front line once, and I am not very good at using weapons.
+:'''Gilbert:''' If you have any unforgettable combat experiences, tell me about them...
+:<!--Custom String Trigger: Wait_Option_301110102_20-->
+:<!--Custom String Listener: Wait_Option_301110102_20-->
+:{{DIcon|Arrow}} I've fought against Gepard twice...
+::<!--Custom String Listener: TalkSentence_301110213-->
+::'''Gilbert:''' Ge&mdash;Gepard!? The young Captain...?
+::'''Gilbert:''' This... Who would believe this? Forget it, I'll just write something a little more realistic.
+:{{DIcon|Arrow}} I fought against a robot named Svarog...
+::<!--Custom String Listener: TalkSentence_301110216-->
+::'''Gilbert:''' Robot? Hmm... it doesn't sound special, I'm often in charge of repairing malfunctioning robots in the Restricted Zone...
+::'''Gilbert:''' *sigh* I will just embellish the story a bit.
+:{{DIcon|Arrow}} Bronya and I fought to a draw...
+::<!--Custom String Listener: TalkSentence_301110219-->
+::'''Gilbert:''' Bronya? ! Is it the Bronya I am thinking of?
+::'''Gilbert:''' This... Who would believe this? Forget it, I'll just write something a little more realistic.
+:<!--Custom String Trigger: TalkSentence_301110221-->
+:<!--Custom String Listener: TalkSentence_301110221-->
+:'''Gilbert:''' I get it now &mdash; have you been playing with me? Do you think this is funny?
+:'''Gilbert:''' *sigh* Young people nowadays really have no respect for the elders at all... But then again, without the ideas you mentioned, I'm afraid I won't be able to write this letter until next year.
+:'''Gilbert:''' ...Anyway, thanks for stopping by. Here, for your trouble.
+:'''Gilbert:''' Lila... Please don't be ashamed of Daddy! *sigh*
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111102-->
+<pre>
+[
+	{
+		"ID": 301111201,
+		"Type": "submission_state_equal",
+		"Param1": 301111201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300052101: Config/Level/Mission/3000521/Act/Act300052101.json-->
+:<!--Custom String Trigger: TalkSentence_300052102-->
+:<!--Custom String Listener: TalkSentence_300052102-->
+:'''Wen Tianweng:''' Well if it isn't the kid from last time! At least you have enough conscience to come hang out with this old fart.
+:'''Wen Tianweng:''' It's nothing important. Just that lately I've had to go fix those blockages every day. I can't move my old bones anymore.
+:'''Wen Tianweng:''' Last time, when I was fixing my motorcycle, I almost knocked down the wall of the maintenance room, like Hosea Lazaro did.
+:<!--Custom String Trigger: Wait_Option_300052101_11-->
+:<!--Custom String Listener: Wait_Option_300052101_11-->
+:{{DIcon|Arrow}} Wow, that's so cool.
+::<!--Custom String Listener: TalkSentence_300052106-->
+::'''Wen Tianweng:''' Pff, that's nothing. Next time I should take you to see the galaxy-class Rose Roydz I hid in the corner of the railway platform. Now that's an eye-opener!
+::'''Wen Tianweng:''' But that's all for later. Now, if you can find me 3 Ultra Nickel Parts, I'll treat you to as many Kapo-Kali as you want!
+:{{DIcon|Arrow}} It doesn't sound like you can't move at all...
+::<!--Custom String Listener: TalkSentence_300052109-->
+::'''Wen Tianweng:''' Really, I am not lying to you. Ouch, I hurt all over...
+::'''Wen Tianweng:''' My tongue, teeth, and my mouth hurt. I can't keep talking nonsense with you, kid.
+::'''Wen Tianweng:''' Now hurry, find me 3 Ultra Nickel Parts. In return, you can have all the Kapo-Kali you want!
+:{{DIcon|Arrow}} So you want to order me around.
+::<!--Custom String Listener: TalkSentence_300052113-->
+::'''Wen Tianweng:''' Hey, how is that ordering you around? Young people should eat more and work more, that's how you stay healthy and out of trouble.
+::'''Wen Tianweng:''' Not to mention, you just have to find 3 Ultra Nickel Parts for me and you can have all the Kapo-Kali you want!
+:<!--Custom String Trigger: TalkSentence_300052115-->
+:<!--Custom String Listener: TalkSentence_300052115-->
+:'''Wen Tianweng:''' You have no idea, the kind of things folks are willing to do just for a sip of that... elixir from heaven!
+:'''Wen Tianweng:''' Go, go, enough chit-chatting. I'll be waiting!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300052101-->
+<pre>
+[
+	{
+		"ID": 301111301,
+		"Type": "submission_state_equal",
+		"Param1": 301111301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111301: Config/Level/Mission/3011113/Act/Act301111301.json-->
+:<!--Custom String Trigger: TalkSentence_301110702-->
+:<!--Custom String Listener: TalkSentence_301110702-->
+:'''Gilbert:''' (Trailblazer)! I've been waiting for you, youngster. I was afraid that you might never come to the restricted zone...
+:<!--Custom String Trigger: Wait_Option_301110301_9-->
+:<!--Custom String Listener: Wait_Option_301110301_9-->
+:{{DIcon|Arrow}} Nice seeing you again, old man.
+:{{DIcon|Arrow}} I have other things to do...
+::<!--Custom String Listener: TalkSentence_301110705-->
+::'''Gilbert:''' One minute, just one minute of your time! I'm begging you...
+::<!--Custom String Trigger: TalkSentence_301110706-->
+:<!--Custom String Listener: TalkSentence_301110706-->
+:'''Gilbert:''' Uh, do you remember that letter I wanted to send to my wife and daughter? I finished writing it yesterday.
+:'''Gilbert:''' If you don't mind, could you help take it to my daughter for me? It's an arduous process mailing things from inside the restricted zone. You need one approval after another... The letter would probably not even be sent before my service was up.
+:'''Gilbert:''' Please, youngster! You're the only person I know who is able to freely move in and out of the restricted zone. If you don't help, then there is no hope for me to get this letter delivered!
+:'''Gilbert:''' My daughter's name is Lila. She and her mother live in the Administrative District. Thanks for doing this, youngster...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111301-->
+<pre>
+[
+	{
+		"ID": 301111305,
+		"Type": "submission_state_equal",
+		"Param1": 301111305,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111305: Config/Level/Mission/3011113/Act/Act301111305.json-->
+:<!--Custom String Trigger: TalkSentence_301111102-->
+:<!--Custom String Listener: TalkSentence_301111102-->
+:'''Gilbert:''' (Trailblazer), you're back so soon! Young people these days really are quick on their feet.
+:'''Gilbert:''' Did you go see Lila? And did you give her my letter? What did she say?
+:<!--Custom String Trigger: Wait_Option_301110305_10-->
+:<!--Custom String Listener: Wait_Option_301110305_10-->
+:{{DIcon|Arrow}} She wrote a letter for you in reply.
+:{{DIcon|Arrow}} Relax, here, take a look...
+:<!--Custom String Listener: TalkSentence_301111106-->
+:'''Gilbert:''' Sh&mdash;She wrote back to me? Quick, let me read it...
+:'''Gilbert:''' ...
+:'''Gilbert:''' Lila...
+:'''Gilbert:''' I've been so stubborn... avoiding my own family, making up such ridiculous lies...
+:'''Gilbert:''' I get it now... Even if I don't have any great achievements over these past twenty-plus years, my family will always be by my side. What I was worrying over... Tsk, it's funny to think about now, haha.
+:'''Gilbert:''' Thank you for all your help, stranger! Please take these... Now I need to go get my things together and get ready to return home.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111305-->
+<pre>
+[
+	{
+		"ID": 301111401,
+		"Type": "submission_state_equal",
+		"Param1": 301111401,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301111401: Config/Level/Mission/3011114/Act/Act301111401.json-->
+:'''Gilbert:''' (Trailblazer), young one, you arrive just in time! Come here, I have big news to share with you...
+:'''Gilbert:''' Though I'm not sure it can be considered as good news... Youngsters from the Logistics Department were trying to convince me to stay after they heard that I was retiring... They said that they couldn't handle things correctly without me leading the way.
+:{{DIcon|Arrow}} Maybe they were just being polite...
+::<!--Custom String Listener: TalkSentence_301111405-->
+::'''Gilbert:''' You really think so? But they've even asked their superior about this...
+:{{DIcon|Arrow}} Young people need to learn and grow by themselves.
+::<!--Custom String Listener: TalkSentence_301111407-->
+::'''Gilbert:''' ...I thought the same at the beginning. But I wasn't expecting that they even asked their superior about this...
+:<!--Custom String Trigger: TalkSentence_301111408-->
+:<!--Custom String Listener: TalkSentence_301111408-->
+:'''Gilbert:''' Then Dunn came to me and asked if I wanted to stay for another couple of months to train my successors.
+:'''Gilbert:''' ...Ah, you know me, too shy to turn down such a sincere request!
+:{{DIcon|Arrow}} So you've said yes?
+:{{DIcon|Arrow}} Then how about Lila?
+:<!--Custom String Listener: TalkSentence_301111412-->
+:'''Gilbert:''' I was a bit emotional at that point and agreed to his request.
+:'''Gilbert:''' But when I gave it a second thought later, I felt bad for my wife and child... They have to wait for another handful of months.
+:'''Gilbert:''' (Trailblazer), young one, are you willing to help me once again? I wrote a letter to my wife and child to explain my situation. If you could deliver my letter to Lila...
+:{{DIcon|Arrow}} Piece of cake.
+::<!--Custom String Listener: TalkSentence_301111416-->
+::'''Gilbert:''' Many thanks! Hope those youngsters in the Logistics Department can be as reliable as you are.
+:{{DIcon|Arrow}} Are you sure you won't regret it?
+::<!--Custom String Listener: TalkSentence_301111418-->
+::'''Gilbert:''' Nothing to be regretful for... It would only be worth it to shine in my field for a while longer...
+:<!--Custom String Trigger: TalkSentence_301111419-->
+:<!--Custom String Listener: TalkSentence_301111419-->
+:'''Gilbert:''' While you are at it, can you go pick some flowers at the Florist for Lila? Last time, she gave me a bouquet. I want to give her something in return...
+:'''Gilbert:''' As for the best type of flowers... I'll let you decide. I'm not so sure about her favorites now...
+:'''Gilbert:''' Lila... Forgive dad. It'll just be several months. It won't be long...
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301111401-->
+<pre>
+[
+	{
+		"ID": 100006105,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Gilbert:''' I've still waiting to hear back about my leave application. I heard there are a lotta people ahead of me in the line...
+:'''Gilbert:''' But pressure on the front line has receded a lot these days, so everyone just wants to take a break and reunite with their families. I just have no idea how long it's gonna take until my turn...
+:{{DIcon|Arrow}} What's changed on the front line?
+::<!--Custom String Listener: TalkSentence_501029649-->
+::'''Gilbert:''' Well, I heard the monsters on the front line have dwindled recently... But that's just some people talking. I'm just a logistics guy, I've never set foot on the battleground before.
+::'''Gilbert:''' But the vibe here has really changed. Back when things were more serious, this restricted zone used to seem so solemn. But now, just look &mdash; everyone's spirits are completely different...
+::{{DIcon|Arrow}} That's good then. I wish you a speedy return to your homelands.
+:{{DIcon|Arrow}} Hope you can get home soon.
+:<!--Custom String Listener: TalkSentence_501029653-->
+:'''Gilbert:''' Haha, here's hoping! Once I get home, I'll have to catch up on spending time with the family...
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_501027405-->
+:<!--Custom String Listener: TalkSentence_501027405-->
+:'''Gilbert:''' Logistics, logistics, all I do is logistics every day, *sigh*...
+:'''Gilbert:''' Get a teenage girl to be the boss, get a 50-year-old geezer to do logistics...
+:'''Gilbert:''' Get a 20-year-old boy to be an official, get a 50-year-old geezer to do logistics...
+:'''Gilbert:''' *sigh*
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501029601: Config/Level/Mission/5010296/Act/Act501029601.json-->
+::'''Gilbert:''' Hey, it's you! Thank you for everything you've done for me and my daughter... If there's anything you need, please feel free to ask. I'll do my best to help.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501029602: Config/Level/Mission/5010296/Act/Act501029602.json-->
+::'''Gilbert:''' Anything I can help with? Just say the word &mdash; I may not hold a high office but I've still got my connections around the restricted zone.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301111101-->)
+:{{DIcon|undefined}} Start a conversation with the anxious old guard...
+::<!--Trigger PerformanceE 301111101: Config/Level/Mission/3011111/Act/Act301111101.json-->
+::<!--Custom String Trigger: TalkSentence_301110102-->
+::<!--Custom String Listener: TalkSentence_301110102-->
+::'''Gilbert:''' Ore pack inspection, checked...Weekly armament routine maintenance and cleaning, checked...
+::'''Gilbert:''' Another day... *sigh*
+::<!--Custom String Trigger: Wait_Option_301110101_10-->
+::<!--Custom String Listener: Wait_Option_301110101_10-->
+::{{DIcon|Arrow}} What's with the sighing?
+:::<!--Custom String Listener: TalkSentence_301110105-->
+:::'''Gilbert:''' Alas, it's just another day...
+::{{DIcon|Arrow}} Can you clean my shoes?
+:::<!--Custom String Listener: TalkSentence_301110107-->
+:::'''Gilbert:''' ... As the logistics officer of the Guard, I can't believe I am actually laughed at by a young {{MC|f=lady|m=man}} like you, alas...
+::<!--Custom String Trigger: TalkSentence_301110108-->
+::<!--Custom String Listener: TalkSentence_301110108-->
+::'''Gilbert:''' Wait a minute, stop &mdash; who are you? Are you an intruder?
+::<!--Custom String Trigger: Wait_Option_301110101_17-->
+::<!--Custom String Listener: Wait_Option_301110101_17-->
+::{{DIcon|Arrow}} Show Gilbert the restricted zone pass.
+::<!--Custom String Listener: TalkSentence_301110110-->
+::'''Gilbert:''' Oh, so you have a pass... What a pity, I thought I could finally write something special in the letter...
+::<!--Custom String Trigger: Wait_Option_301110101_20-->
+::<!--Custom String Listener: Wait_Option_301110101_20-->
+::{{DIcon|Arrow}} Letter?
+:::<!--Custom String Listener: TalkSentence_301110112-->
+:::'''Gilbert:''' No, nothing, just pretend you didn't hear it...
+::{{DIcon|Arrow}} What were you going to do if I didn't have a pass?
+:::<!--Custom String Listener: TalkSentence_301110114-->
+:::'''Gilbert:''' No, I... I didn't intend on doing anything... and I'm not lying to you now.
+::<!--Custom String Trigger: TalkSentence_301110115-->
+::<!--Custom String Listener: TalkSentence_301110115-->
+::'''Gilbert:''' W&mdash;Wait! Hmm... You look young, but your face seems to suggest you are quite experienced. Can you do this old soldier a favor?
+::'''Gilbert:''' To tell you the truth, I am only a few months from the end of my service, then I'll be leaving this restricted zone soon. I want to write a letter to tell my wife and daughter the good news, but I really don't know what to write about...
+::'''Gilbert:''' I have served in the army for over 20 years, and I have been working in logistics this whole time. I have never been on the front line once. In the first few years, I still thought this job was easy and comfortable, but the longer I stay, the more useless I feel...
+::'''Gilbert:''' Well, if you don't mind, can you share some exciting adventures with me? I don't want my daughter to think that her dad is a useless old bum, but my imagination is really limited...
+::<!--Custom String Trigger: Wait_Option_301110101_30-->
+::<!--Custom String Listener: Wait_Option_301110101_30-->
+::{{DIcon|Arrow}} Alright, let me think about it...
+::<!--Custom String Listener: TalkSentence_301110120-->
+::'''Gilbert:''' Really? Thank, thank you, {{MC|f=young lady|m=young man}}!
+::'''Gilbert:''' Where's my paper and pen... ah, here, found it &mdash; okay, we can start when you're ready...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111101-->
+;(If {{cx}}<!--SubMission Started: 301111102--> and {{cx}}<!--SubMission Started: 301111101-->)
+:{{DIcon|undefined}} Let's talk about my adventure.
+::<!--Trigger PerformanceE 301111102: Config/Level/Mission/3011111/Act/Act301111102.json-->
+::<!--Custom String Trigger: TalkSentence_301110202-->
+::<!--Custom String Listener: TalkSentence_301110202-->
+::'''Gilbert:''' Have you made up your mind? Let's get started, you speak, I will write it down...
+::'''Gilbert:''' Let me think... let's start with a traveling experience? Tell me about any special places you've been to.
+::<!--Custom String Trigger: Wait_Option_301110102_9-->
+::<!--Custom String Listener: Wait_Option_301110102_9-->
+::{{DIcon|Arrow}} Outlying Snow Plains...
+:::<!--Custom String Listener: TalkSentence_301110204-->
+:::'''Gilbert:''' ... Snow Plains? That place is forbidden, and it's a serious crime for ordinary people to leave the city without authorization...
+::{{DIcon|Arrow}} Rivet Town in the Underworld...
+:::<!--Custom String Listener: TalkSentence_301110206-->
+:::'''Gilbert:''' ... The Underworld? No way, no way, the passage between the surface and the underground has been blocked for more than ten years. No one will believe it if I say so...
+::{{DIcon|Arrow}} The Blue...
+:::<!--Custom String Listener: TalkSentence_301110208-->
+:::'''Gilbert:''' ...Where's that? I have never heard of that place. Are you just making it up?
+::<!--Custom String Trigger: TalkSentence_301110209-->
+::<!--Custom String Listener: TalkSentence_301110209-->
+::'''Gilbert:''' *sigh* If I write it as you said, it would be hard even for my family to believe me, right? I'd rather be a little more convincing.
+::'''Gilbert:''' Then... Let's talk about something else, do you know how to fight? Although I have served for more than 20 years, I have never been on the front line once, and I am not very good at using weapons.
+::'''Gilbert:''' If you have any unforgettable combat experiences, tell me about them...
+::<!--Custom String Trigger: Wait_Option_301110102_20-->
+::<!--Custom String Listener: Wait_Option_301110102_20-->
+::{{DIcon|Arrow}} I've fought against Gepard twice...
+:::<!--Custom String Listener: TalkSentence_301110213-->
+:::'''Gilbert:''' Ge&mdash;Gepard!? The young Captain...?
+:::'''Gilbert:''' This... Who would believe this? Forget it, I'll just write something a little more realistic.
+::{{DIcon|Arrow}} I fought against a robot named Svarog...
+:::<!--Custom String Listener: TalkSentence_301110216-->
+:::'''Gilbert:''' Robot? Hmm... it doesn't sound special, I'm often in charge of repairing malfunctioning robots in the Restricted Zone...
+:::'''Gilbert:''' *sigh* I will just embellish the story a bit.
+::{{DIcon|Arrow}} Bronya and I fought to a draw...
+:::<!--Custom String Listener: TalkSentence_301110219-->
+:::'''Gilbert:''' Bronya? ! Is it the Bronya I am thinking of?
+:::'''Gilbert:''' This... Who would believe this? Forget it, I'll just write something a little more realistic.
+::<!--Custom String Trigger: TalkSentence_301110221-->
+::<!--Custom String Listener: TalkSentence_301110221-->
+::'''Gilbert:''' I get it now &mdash; have you been playing with me? Do you think this is funny?
+::'''Gilbert:''' *sigh* Young people nowadays really have no respect for the elders at all... But then again, without the ideas you mentioned, I'm afraid I won't be able to write this letter until next year.
+::'''Gilbert:''' ...Anyway, thanks for stopping by. Here, for your trouble.
+::'''Gilbert:''' Lila... Please don't be ashamed of Daddy! *sigh*
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111102-->
+;(If {{cx}}<!--SubMission Started: 301111201-->, {{cx}}<!--SubMission Started: 301111102-->, and {{cx}}<!--SubMission Started: 301111101-->)
+:{{DIcon|undefined}} (Listen in on the conversation)
+::<!--Trigger PerformanceE 301111201: Config/Level/Mission/3011112/Act/Act301111201.json-->
+::----
+::<!--Custom String Trigger: TalkSentence_301110302-->
+::<!--Custom String Listener: TalkSentence_301110302-->
+::'''Dunn:''' ...I certainly get your point, Gilbert. But this medal of merit is not something I can give to anyone I want.
+::'''Dunn:''' How long have you been in the army, twenty years? Thirty years? Don't you understand this...
+::'''Gilbert:''' Dunn, I took special care of you when you were a new recruit. Now that you've become a captain, how come you are putting on airs with me?
+::'''Gilbert:''' Can't you do me this tiny little favor? Do you want to see me getting laughed at by my wife and daughter...?
+::'''Dunn:''' I've told you many times. It's a matter of principle...
+::'''Dunn:''' ...Ah, right on time, here comes (Trailblazer)! What do you make of his request?
+::<!--Custom String Trigger: Wait_Option_301110201_14-->
+::<!--Custom String Listener: Wait_Option_301110201_14-->
+::----
+::{{DIcon|Arrow}} Actually, I don't want to meddle...
+:::<!--Custom String Listener: TalkSentence_301110309-->
+:::'''Dunn:''' ...Come on now, you never shy away from giving people a little help.
+:::<!--Custom String Trigger: TalkSentence_301110311-->
+::{{DIcon|Arrow}} What happened?
+::<!--Custom String Listener: TalkSentence_301110311-->
+::'''Dunn:''' Do you know Gilbert? Yes, him, the oldest logistics officer in the restricted zone.
+::'''Dunn:''' He's about to retire. The way I see it, he should spend the last few months doing what he's been doing and return to the city to reunite with his wife and daughter when he finally retires...
+::'''Dunn:''' But he wants to ask an unreasonable favor from me at a time like this! The geezer wants to borrow a medal of merit, just to look good in front of his family. You tell me, is that reasonable?
+::<!--Custom String Trigger: Wait_Option_301110201_22-->
+::<!--Custom String Listener: Wait_Option_301110201_22-->
+::{{DIcon|Arrow}} Can't you just lend him the medal?
+:::<!--Custom String Listener: TalkSentence_301110315-->
+:::'''Dunn:''' Of course not! What do you think the rules of the Silvermane Guards are for?
+::{{DIcon|Arrow}} True... It doesn't sound very appropriate.
+:::<!--Custom String Listener: TalkSentence_301110317-->
+:::'''Dunn:''' See, old man! Even (Trailblazer) said so.
+::<!--Custom String Trigger: TalkSentence_301110318-->
+::<!--Custom String Listener: TalkSentence_301110318-->
+::'''Dunn:''' Besides, don't you have the Veteran Guard Medal from your twentieth anniversary? Isn't that enough honor for you to show off...
+::'''Gilbert:''' Youngster, why don't you understand... You can get one of these just by staying long enough. It is not considered an honor. And it won't bring me any respect...
+::'''Dunn:''' *sigh* You just don't get it, do you?
+::<!--Custom String Trigger: Wait_Option_301110201_31-->
+::<!--Custom String Listener: Wait_Option_301110201_31-->
+::{{DIcon|Arrow}} Can I help with anything?
+:::<!--Custom String Listener: TalkSentence_301110322-->
+:::'''Dunn:''' Yeah, let me think about it...
+::{{DIcon|Arrow}} Why is no one giving me any medal?
+:::<!--Custom String Listener: TalkSentence_301110324-->
+:::'''Dunn:''' ...Remember that time you knocked me out? Consider yourself lucky that you're not sent to court-martial yet, let alone getting a medal...
+:::'''Dunn:''' Wait, you reminded me...
+::<!--Custom String Trigger: TalkSentence_301110326-->
+::<!--Custom String Listener: TalkSentence_301110326-->
+::'''Dunn:''' Yes, I have a good idea!
+::'''Dunn:''' I heard that another automaton "Grizzly" has lost control recently, and is still roaming and wreaking havoc in the restricted zone. Now that there is a shortage of personnel, my subordinates can only maintain control in the surrounding area temporarily and they dare not act rashly.
+::'''Dunn:''' (Trailblazer), can you take the old man to deal with this problem? When this is done, I can give the credit to Gilbert.
+::'''Gilbert:''' Wh&mdash;what a great opportunity! {{MC|f=Young lady|m=Young man}}, let's go and take a look!
+::----
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111201-->
+;(If {{cx}}<!--SubMission Started: 301111301-->, {{cx}}<!--SubMission Started: 301111201-->, {{cx}}<!--SubMission Started: 301111102-->, and {{cx}}<!--SubMission Started: 301111101-->)
+:{{DIcon|undefined}} I heard you're looking for me?
+::<!--Trigger PerformanceE 301111301: Config/Level/Mission/3011113/Act/Act301111301.json-->
+::<!--Custom String Trigger: TalkSentence_301110702-->
+::<!--Custom String Listener: TalkSentence_301110702-->
+::'''Gilbert:''' (Trailblazer)! I've been waiting for you, youngster. I was afraid that you might never come to the restricted zone...
+::<!--Custom String Trigger: Wait_Option_301110301_9-->
+::<!--Custom String Listener: Wait_Option_301110301_9-->
+::{{DIcon|Arrow}} Nice seeing you again, old man.
+::{{DIcon|Arrow}} I have other things to do...
+:::<!--Custom String Listener: TalkSentence_301110705-->
+:::'''Gilbert:''' One minute, just one minute of your time! I'm begging you...
+:::<!--Custom String Trigger: TalkSentence_301110706-->
+::<!--Custom String Listener: TalkSentence_301110706-->
+::'''Gilbert:''' Uh, do you remember that letter I wanted to send to my wife and daughter? I finished writing it yesterday.
+::'''Gilbert:''' If you don't mind, could you help take it to my daughter for me? It's an arduous process mailing things from inside the restricted zone. You need one approval after another... The letter would probably not even be sent before my service was up.
+::'''Gilbert:''' Please, youngster! You're the only person I know who is able to freely move in and out of the restricted zone. If you don't help, then there is no hope for me to get this letter delivered!
+::'''Gilbert:''' My daughter's name is Lila. She and her mother live in the Administrative District. Thanks for doing this, youngster...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111301-->
+;(If {{cx}}<!--SubMission Started: 301111305-->, {{cx}}<!--SubMission Started: 301111301-->, {{cx}}<!--SubMission Started: 301111201-->, {{cx}}<!--SubMission Started: 301111102-->, and {{cx}}<!--SubMission Started: 301111101-->)
+:{{DIcon|undefined}} I found Lila.
+::<!--Trigger PerformanceE 301111305: Config/Level/Mission/3011113/Act/Act301111305.json-->
+::<!--Custom String Trigger: TalkSentence_301111102-->
+::<!--Custom String Listener: TalkSentence_301111102-->
+::'''Gilbert:''' (Trailblazer), you're back so soon! Young people these days really are quick on their feet.
+::'''Gilbert:''' Did you go see Lila? And did you give her my letter? What did she say?
+::<!--Custom String Trigger: Wait_Option_301110305_10-->
+::<!--Custom String Listener: Wait_Option_301110305_10-->
+::{{DIcon|Arrow}} She wrote a letter for you in reply.
+::{{DIcon|Arrow}} Relax, here, take a look...
+::<!--Custom String Listener: TalkSentence_301111106-->
+::'''Gilbert:''' Sh&mdash;She wrote back to me? Quick, let me read it...
+::'''Gilbert:''' ...
+::'''Gilbert:''' Lila...
+::'''Gilbert:''' I've been so stubborn... avoiding my own family, making up such ridiculous lies...
+::'''Gilbert:''' I get it now... Even if I don't have any great achievements over these past twenty-plus years, my family will always be by my side. What I was worrying over... Tsk, it's funny to think about now, haha.
+::'''Gilbert:''' Thank you for all your help, stranger! Please take these... Now I need to go get my things together and get ready to return home.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111305-->
+;(If {{cx}}<!--SubMission Started: 301111401-->, {{cx}}<!--SubMission Started: 301111305-->, {{cx}}<!--SubMission Started: 301111301-->, {{cx}}<!--SubMission Started: 301111201-->, {{cx}}<!--SubMission Started: 301111102-->, and {{cx}}<!--SubMission Started: 301111101-->)
+:{{DIcon|undefined}} Do you need help, old man?
+::<!--Trigger PerformanceE 301111401: Config/Level/Mission/3011114/Act/Act301111401.json-->
+::'''Gilbert:''' (Trailblazer), young one, you arrive just in time! Come here, I have big news to share with you...
+::'''Gilbert:''' Though I'm not sure it can be considered as good news... Youngsters from the Logistics Department were trying to convince me to stay after they heard that I was retiring... They said that they couldn't handle things correctly without me leading the way.
+::{{DIcon|Arrow}} Maybe they were just being polite...
+:::<!--Custom String Listener: TalkSentence_301111405-->
+:::'''Gilbert:''' You really think so? But they've even asked their superior about this...
+::{{DIcon|Arrow}} Young people need to learn and grow by themselves.
+:::<!--Custom String Listener: TalkSentence_301111407-->
+:::'''Gilbert:''' ...I thought the same at the beginning. But I wasn't expecting that they even asked their superior about this...
+::<!--Custom String Trigger: TalkSentence_301111408-->
+::<!--Custom String Listener: TalkSentence_301111408-->
+::'''Gilbert:''' Then Dunn came to me and asked if I wanted to stay for another couple of months to train my successors.
+::'''Gilbert:''' ...Ah, you know me, too shy to turn down such a sincere request!
+::{{DIcon|Arrow}} So you've said yes?
+::{{DIcon|Arrow}} Then how about Lila?
+::<!--Custom String Listener: TalkSentence_301111412-->
+::'''Gilbert:''' I was a bit emotional at that point and agreed to his request.
+::'''Gilbert:''' But when I gave it a second thought later, I felt bad for my wife and child... They have to wait for another handful of months.
+::'''Gilbert:''' (Trailblazer), young one, are you willing to help me once again? I wrote a letter to my wife and child to explain my situation. If you could deliver my letter to Lila...
+::{{DIcon|Arrow}} Piece of cake.
+:::<!--Custom String Listener: TalkSentence_301111416-->
+:::'''Gilbert:''' Many thanks! Hope those youngsters in the Logistics Department can be as reliable as you are.
+::{{DIcon|Arrow}} Are you sure you won't regret it?
+:::<!--Custom String Listener: TalkSentence_301111418-->
+:::'''Gilbert:''' Nothing to be regretful for... It would only be worth it to shine in my field for a while longer...
+::<!--Custom String Trigger: TalkSentence_301111419-->
+::<!--Custom String Listener: TalkSentence_301111419-->
+::'''Gilbert:''' While you are at it, can you go pick some flowers at the Florist for Lila? Last time, she gave me a bouquet. I want to give her something in return...
+::'''Gilbert:''' As for the best type of flowers... I'll let you decide. I'm not so sure about her favorites now...
+::'''Gilbert:''' Lila... Forgive dad. It'll just be several months. It won't be long...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301111401-->
+:{{DIcon}} Let's have a chat...
+::<!--Trigger PerformanceE 501029603: Config/Level/Mission/5010296/Act/Act501029603.json-->
+::'''Gilbert:''' No problem. I just so happen to be free right now.
+::<!--Custom String Trigger: Wait_Option_501029601_13-->
+::<!--Custom String Listener: Wait_Option_501029601_13-->
+:;(If {{cx}}<!--SubMission Finish: 200120105-->)
+:::{{DIcon|Talk}} How's your holiday been?
+::::<!--Custom String Listener: TalkSentence_504049203-->
+::::'''Gilbert:''' The first few days were tough. I kept waking up before dawn, as if I was still on the front lines, automatically checking supplies, only to be laughed at by my wife...
+::::'''Gilbert:''' Life at home is truly blissful, complete with delicious meals, the warmth of a Geomarrow furnace, and loving family members. Even just lounging in a chair and reading the newspaper all day feels perfect.
+::::'''Gilbert:''' I'm eagerly anticipating my next vacation, and to make it arrive sooner, I'm committed to working harder at my job.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you been up to lately?
+::::<!--Custom String Listener: TalkSentence_501029619-->
+::::'''Gilbert:''' Same old, same old. Ore pack inspection, maintaining armaments&mdash;stuff like that.
+::::'''Gilbert:''' I used to think that these jobs were boring as heck... Now I've finally let that go and I find them more interesting.
+::::'''Gilbert:''' It's all thanks to you. If you hadn't helped me communicate with my daughter, I would still be in a slump... Thank you so much!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's interesting lately?
+::::<!--Custom String Listener: TalkSentence_501029623-->
+::::'''Gilbert:''' Interesting? Honestly, nothing. Apart from logistics and front-line battles, there is not much going on in the restricted zone... Every day is basically the same.
+::::'''Gilbert:''' ... Ah, I got one. Two days ago, Dunn... Do you know Dunn? The young man with a high rank, that's in charge of the restricted zone. You know he used to be in a band, right?
+::::{{DIcon|Arrow}} I've had dealings with him.
+::::{{DIcon|Arrow}} Who's that?
+:::::<!--Custom String Listener: TalkSentence_501029627-->
+:::::'''Gilbert:''' ...You don't know? Huh, no big deal. He is just a young officer who once played in a band.
+:::::<!--Custom String Trigger: TalkSentence_501029628-->
+::::<!--Custom String Listener: TalkSentence_501029628-->
+::::'''Gilbert:''' I'll go on. Two days ago, Dunn played his guitar as usual, and Officer Gepard came to the rear for a routine inspection... Guess what happened?
+::::'''Gilbert:''' He forgot to put the guitar away that day!
+::::{{DIcon|Arrow}} Music isn't allowed in the military?
+:::::<!--Custom String Listener: TalkSentence_501029630-->
+::::{{DIcon|Arrow}} ...What's wrong with that?
+:::::<!--Custom String Listener: TalkSentence_501029631-->
+::::'''Gilbert:''' It's okay to entertain yourself in the restricted zone, but neglecting your responsibilities while on duty is a major offense.
+::::'''Gilbert:''' There is a member in his squad who always takes the blame for him. His name is Zackery, I think? Anyway, that day, Dunn blamed it on Zackery again.
+::::'''Gilbert:''' When Gepard saw the guitar, he asked, "Whose is this?" Right after speaking, Zackery stepped forward and said: "Sir, it's mine!"
+::::'''Gilbert:''' You'll never guess what happened next! Gepard asked the boy to play something, right there on the spot!
+::::<!--Custom String Trigger: Wait_Option_501029601_21-->
+::::<!--Custom String Listener: Wait_Option_501029601_21-->
+::::{{DIcon|Arrow}} Oh boy.
+:::::<!--Custom String Listener: TalkSentence_501029639-->
+:::::'''Gilbert:''' It scared the heck out of Zackery. I heard that his legs were shaking uncontrollably. Hahaha!
+:::::'''Gilbert:''' So Dunn had to give himself up. Luckily, officer Gepard is a lenient man. He let it go.
+:::::'''Gilbert:''' I heard that they knew each other... Hmmm, who knows what's true!?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} He got him there.
+:::::<!--Custom String Listener: TalkSentence_501029638-->
+:::::'''Gilbert:''' That's right!
+:::::<!--Custom String Trigger: TalkSentence_501029639-->
+:::::<!--Custom String Listener: TalkSentence_501029639-->
+:::::'''Gilbert:''' It scared the heck out of Zackery. I heard that his legs were shaking uncontrollably. Hahaha!
+:::::'''Gilbert:''' So Dunn had to give himself up. Luckily, officer Gepard is a lenient man. He let it go.
+:::::'''Gilbert:''' I heard that they knew each other... Hmmm, who knows what's true!?
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to your work.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 200120105-->)
+:::{{DIcon|Talk}} Have you been back home yet?
+::::<!--Custom String Listener: TalkSentence_501029605-->
+::::'''Gilbert:''' Not yet...
+::::'''Gilbert:''' But I've applied for a few days off to visit my family, and I think it will be approved since I solved the Malfunctioning Robot problem.
+::::'''Gilbert:''' Once I get back home, I must apologize to my wife and my daughter...
+::::'''Gilbert:''' *Sigh* I'm getting a little nervous. My heart is beating so fast... Finally, I am going to get to visit them, but why am I so scared?
+::::{{DIcon|Arrow}} Enjoy your father-daughter time with Lila!
+:::::<!--Custom String Listener: TalkSentence_501029610-->
+:::::'''Gilbert:''' You're right. She's a big girl now and we've never really talked...
+:::::'''Gilbert:''' I feel like I was asking for trouble by keeping everything to myself. Maybe all those problems could have been solved if I had just talked to my family...
+:::::'''Gilbert:''' You too should talk to your friends or family about any confusion you feel inside! Don't keep everything to yourself as I did. It almost ruined my life.
+:::::'''Gilbert:''' This is coming from an old man, who knows from experience. Hahahaha!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Eating a home-cooked meal is indeed a fortunate thing.
+:::::<!--Custom String Listener: TalkSentence_501029615-->
+:::::'''Gilbert:''' Yes! You are making me hungry. Hahaha.
+:::::'''Gilbert:''' My wife's cooking skills... aren't great. But after all this time, I've come to really love and look forward to that weird-smelling home-cooked aroma...
+:::::'''Gilbert:''' You have to come to my place someday to try her cooking. Haha!
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What have you been up to lately?
+::::<!--Custom String Listener: TalkSentence_501029619-->
+::::'''Gilbert:''' Same old, same old. Ore pack inspection, maintaining armaments&mdash;stuff like that.
+::::'''Gilbert:''' I used to think that these jobs were boring as heck... Now I've finally let that go and I find them more interesting.
+::::'''Gilbert:''' It's all thanks to you. If you hadn't helped me communicate with my daughter, I would still be in a slump... Thank you so much!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's interesting lately?
+::::<!--Custom String Listener: TalkSentence_501029623-->
+::::'''Gilbert:''' Interesting? Honestly, nothing. Apart from logistics and front-line battles, there is not much going on in the restricted zone... Every day is basically the same.
+::::'''Gilbert:''' ... Ah, I got one. Two days ago, Dunn... Do you know Dunn? The young man with a high rank, that's in charge of the restricted zone. You know he used to be in a band, right?
+::::{{DIcon|Arrow}} I've had dealings with him.
+::::{{DIcon|Arrow}} Who's that?
+:::::<!--Custom String Listener: TalkSentence_501029627-->
+:::::'''Gilbert:''' ...You don't know? Huh, no big deal. He is just a young officer who once played in a band.
+:::::<!--Custom String Trigger: TalkSentence_501029628-->
+::::<!--Custom String Listener: TalkSentence_501029628-->
+::::'''Gilbert:''' I'll go on. Two days ago, Dunn played his guitar as usual, and Officer Gepard came to the rear for a routine inspection... Guess what happened?
+::::'''Gilbert:''' He forgot to put the guitar away that day!
+::::{{DIcon|Arrow}} Music isn't allowed in the military?
+:::::<!--Custom String Listener: TalkSentence_501029630-->
+::::{{DIcon|Arrow}} ...What's wrong with that?
+:::::<!--Custom String Listener: TalkSentence_501029631-->
+::::'''Gilbert:''' It's okay to entertain yourself in the restricted zone, but neglecting your responsibilities while on duty is a major offense.
+::::'''Gilbert:''' There is a member in his squad who always takes the blame for him. His name is Zackery, I think? Anyway, that day, Dunn blamed it on Zackery again.
+::::'''Gilbert:''' When Gepard saw the guitar, he asked, "Whose is this?" Right after speaking, Zackery stepped forward and said: "Sir, it's mine!"
+::::'''Gilbert:''' You'll never guess what happened next! Gepard asked the boy to play something, right there on the spot!
+::::<!--Custom String Trigger: Wait_Option_501029601_21-->
+::::<!--Custom String Listener: Wait_Option_501029601_21-->
+::::{{DIcon|Arrow}} Oh boy.
+:::::<!--Custom String Listener: TalkSentence_501029639-->
+:::::'''Gilbert:''' It scared the heck out of Zackery. I heard that his legs were shaking uncontrollably. Hahaha!
+:::::'''Gilbert:''' So Dunn had to give himself up. Luckily, officer Gepard is a lenient man. He let it go.
+:::::'''Gilbert:''' I heard that they knew each other... Hmmm, who knows what's true!?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} He got him there.
+:::::<!--Custom String Listener: TalkSentence_501029638-->
+:::::'''Gilbert:''' That's right!
+:::::<!--Custom String Trigger: TalkSentence_501029639-->
+:::::<!--Custom String Listener: TalkSentence_501029639-->
+:::::'''Gilbert:''' It scared the heck out of Zackery. I heard that his legs were shaking uncontrollably. Hahaha!
+:::::'''Gilbert:''' So Dunn had to give himself up. Luckily, officer Gepard is a lenient man. He let it go.
+:::::'''Gilbert:''' I heard that they knew each other... Hmmm, who knows what's true!?
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to your work.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029603-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501029605: Config/Level/Mission/5010296/Act/Act501029605.json-->
+::'''Gilbert:''' I've still waiting to hear back about my leave application. I heard there are a lotta people ahead of me in the line...
+::'''Gilbert:''' But pressure on the front line has receded a lot these days, so everyone just wants to take a break and reunite with their families. I just have no idea how long it's gonna take until my turn...
+::{{DIcon|Arrow}} What's changed on the front line?
+:::<!--Custom String Listener: TalkSentence_501029649-->
+:::'''Gilbert:''' Well, I heard the monsters on the front line have dwindled recently... But that's just some people talking. I'm just a logistics guy, I've never set foot on the battleground before.
+:::'''Gilbert:''' But the vibe here has really changed. Back when things were more serious, this restricted zone used to seem so solemn. But now, just look &mdash; everyone's spirits are completely different...
+:::{{DIcon|Arrow}} That's good then. I wish you a speedy return to your homelands.
+::{{DIcon|Arrow}} Hope you can get home soon.
+::<!--Custom String Listener: TalkSentence_501029653-->
+::'''Gilbert:''' Haha, here's hoping! Once I get home, I'll have to catch up on spending time with the family...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029605-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Bye.
+::<!--Trigger PerformanceE 501029604: Config/Level/Mission/5010296/Act/Act501029604.json-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029604-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Old Goethe
+|zhs  = 老歌德
+|zht  = 老歌德
+|ja   = ゲーテ
+|ko   = 늙은 괴테
+|es   = Viejo Goethe
+|fr   = Le Vieux Goethe
+|ru   = Старый Гёте
+|th   = ลุง Goethe
+|vi   = Ông Goethe
+|de   = Alter Goethe
+|id   = Old Goethe
+|pt   = Velho Goethe
+}}
+==Change History==
+{{Change History|TODO}}

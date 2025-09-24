@@ -1,0 +1,145 @@
+<%-- [PAGE_INFO]
+PageTitle=#Echion#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = New Aristocrat
+|image           = NPC Echion.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Echion''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_126_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504061001: Config/Level/Mission/5040610/Act/Act504061001.json-->
+::'''Echion:''' Eurytos, 300,000 Balance Coins... Aegina, 7.5 million Balance Coins... Paulus, 2 million Balance Coins...
+::{{DIcon|Arrow}} So, how about (Trailblazer)?
+:::<!--Custom String Listener: TalkSentence_504061003-->
+:::'''Echion:''' ...(Trailblazer)? Do you owe me money too? Hey, don't distract me while I'm checking my accounts!
+::{{DIcon|Arrow}} Is this some kind of extortion list?
+:::<!--Custom String Listener: TalkSentence_504061005-->
+:::'''Echion:''' Extortion? Don't be ridiculous. Take a good look &mdash; this is an accounting ledger. Everyone on it owes me money!
+::<!--Custom String Trigger: TalkSentence_504061006-->
+::<!--Custom String Listener: TalkSentence_504061006-->
+::'''Echion:''' You... Wait a minute, I know you. You're Aglaea's esteemed guest, aren't you? I'm not mistaken, am I?
+::'''Echion:''' I've got a good impression of you, so if you ever find yourself short on cash, {{MC|f=young lady|m=young man}}, feel free to come to me for help. Given your status, I won't even charge interest.
+::{{DIcon|Arrow}} Are you running a charity now?
+:::<!--Custom String Listener: TalkSentence_504061009-->
+:::'''Echion:''' Charity? Far from it. Not everyone gets this kind of privilege.
+::{{DIcon|Arrow}} Sounds like a scam...
+:::<!--Custom String Listener: TalkSentence_504061011-->
+:::'''Echion:''' There's nothing wrong with being cautious around strangers, but I assure you, I'm offering genuine help.
+::<!--Custom String Trigger: TalkSentence_504061012-->
+::<!--Custom String Listener: TalkSentence_504061012-->
+::'''Echion:''' Let me put it this way &mdash; I'm what people refer to as "nouveau riche," someone who made it big from the ground up.
+::'''Echion:''' The old geezers on Dawncloud look down on me, and I don't think much of them either, but I still have to establish myself here. You get what I mean? That's why I enjoy talking to young, capable people like you.
+::'''Echion:''' Think of my help as an investment &mdash; I trust my instincts. Haha, here, consider this little gesture a token of friendship.
+::'''Echion:''' What do you say? Want to keep chatting?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504061002: Config/Level/Mission/5040610/Act/Act504061002.json-->
+::'''Echion:''' Hmm? {{MC|f=Young lady|m=Young man}}, now that we know each other, is there anything you'd like to talk about?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Can we just chat about anything?
+::'''Echion:''' Of course. Ask me anything you want.
+::<!--Custom String Trigger: Wait_Option_504061003_41-->
+::<!--Custom String Listener: Wait_Option_504061003_41-->
+::{{DIcon|Talk}} What kind of business are you in?
+:::<!--Custom String Listener: TalkSentence_504061204-->
+:::'''Echion:''' Oh, that? It's no secret &mdash; I made my fortune outside Okhema, in the black tide.
+:::'''Echion:''' When refugees needed dromases to haul their belongings, I provided dromases. When they required food and warmth, I offered tents and supplies. I provide all kinds of aid &mdash; just not for free.
+:::'''Echion:''' A lot of people look down on this kind of work, calling it unscrupulous. But let me be blunt &mdash; without me, who else could help them? And without charging, who could sustain this kind of assistance?
+:::'''Echion:''' Of course, I get plenty of criticism. People want me to save lives with a pure heart, free of ambition. This place &mdash; Dawncloud &mdash; is full of self-righteous types who sit comfortably while judging others.
+:::'''Echion:''' So, I came up with a solution: If those moralistic types want me to provide aid for free, they can pay for it themselves. I'll waive all fees for the refugees.
+:::'''Echion:''' Care to guess how many of them actually step up to fund it?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You mentioned the old-timers look down on you?
+:::<!--Custom String Listener: TalkSentence_504061211-->
+:::'''Echion:''' Haha, let me tell you something &mdash; some of these elders and aristocrats only hold their positions because of their ancestors' luck. They were born with a silver spoon in their mouths.
+:::'''Echion:''' These days, though... Let's not even talk about the foreigners who fled here with barely anything to their name. Even among the local aristocrats, many are just keeping up appearances.
+:::'''Echion:''' I've got a ledger full of these fools who borrowed money from me. They may look down on me, but they still come groveling to this "nouveau riche" when they need cash.
+:::'''Echion:''' Sure, I lend it to them &mdash; because I also need something from them. They despise me, and I despise them. It doesn't change the fact that we're tied together by mutual interests.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You despise the aristocrats, yet you still lend them money?
+:::<!--Custom String Listener: TalkSentence_504061216-->
+:::'''Echion:''' Let me put it this way &mdash; some money I know they won't be able to pay back, but I still lend it to them. Do you know why?
+:::'''Echion:''' Because their words actually make a difference, and that's what I want.
+:::'''Echion:''' To me, Okhema's administration &mdash; whether it's the Council of Elders or the Chrysos Heirs &mdash; is just an empty shell. Every year, so much tax money is wasted with little to show for it. The bureaucrats can't hold a candle to us merchants when it comes to efficiency.
+:::'''Echion:''' If Okhema wants progress, it needs a better, more practical system of governance. I'd love to spearhead that change, but alas, I'm just a "civilian."
+:::'''Echion:''' They have power, and I have money. Surely, you can see where this is going.
+:::{{DIcon|Arrow}} Nope, still not following.
+::::<!--Custom String Listener: TalkSentence_504061222-->
+::::'''Echion:''' Tch... Well, you'll understand when I've streamlined Okhema's governance.
+::::<!--Custom String Trigger: TalkSentence_504061225-->
+::::<!--Custom String Listener: TalkSentence_504061225-->
+::::'''Echion:''' My ambition is to create an administration independent of Okhema's rulers &mdash; one that dismantles the bureaucracy, slashes excessive regulations, and cuts wasteful spending. It's time to send those antiquated officials packing from Dawncloud.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} You deserve an offer... from a certain Corporation.
+::::<!--Custom String Listener: TalkSentence_504061224-->
+::::'''Echion:''' ...Corporation? What corporation? I'm my own boss.
+::::<!--Custom String Trigger: TalkSentence_504061225-->
+::::<!--Custom String Listener: TalkSentence_504061225-->
+::::'''Echion:''' My ambition is to create an administration independent of Okhema's rulers &mdash; one that dismantles the bureaucracy, slashes excessive regulations, and cuts wasteful spending. It's time to send those antiquated officials packing from Dawncloud.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's talk later. I've got things to do.
+:::<!--Custom String Listener: TalkSentence_504061227-->
+:::'''Echion:''' Until next time, {{MC|f=young lady|m=young man}}. Speaking of which, I've got some ledgers waiting for me...
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Let's talk later. I've got things to do.
+::'''Echion:''' Until next time, {{MC|f=young lady|m=young man}}. Speaking of which, I've got some ledgers waiting for me...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Echion
+|zhs  = 埃基翁
+|zht  = 埃基翁
+|ja   = エーキオン
+|ko   = 에키온
+|es   = Echion
+|fr   = Échion
+|ru   = Эхион
+|th   = Echion
+|vi   = Echion
+|de   = Echion
+|id   = Echion
+|pt   = Echion
+}}
+==Change History==
+{{Change History|TODO}}

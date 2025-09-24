@@ -1,0 +1,127 @@
+<%-- [PAGE_INFO]
+PageTitle=#Seneca#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Dux Brumalis
+|image           = NPC Seneca.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Warbling Shores" Styxia
+|relatives       = 
+}}
+'''Seneca''' is an NPC on [[Amphoreus]], located in [["Warbling Shores" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Warbling Shores" Styxia|npc_203_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504120001: Config/Level/Mission/5041200/Act/Act504120001.json-->
+::'''"Dux Brumalis" Seneca:''' ...
+::'''"Dux Brumalis" Seneca:''' Writing a letter is so *Skyfolk swearing* hard...
+::{{DIcon|Arrow}} Shocking. Dux Brumalis is writing a letter?
+::{{DIcon|Arrow}} I thought you were illiterate.
+::<!--Custom String Listener: TalkSentence_504120005-->
+::'''"Dux Brumalis" Seneca:''' ...Nothing to be surprised about, my {{MC|m=lord|f=lady}}. It's just that I was so busy with my daily affairs that I am out of practice with writing.
+::'''"Dux Brumalis" Seneca:''' It's been a while since my return to the Courtyard. I thought about writing to my mother. After all, I, the Dux Brumalis, am a pillar of the Twilight Courtyard.
+::{{DIcon|Arrow}} Society's leftover, but mama's little pride and joy.
+:::<!--Custom String Listener: TalkSentence_504120008-->
+:::'''"Dux Brumalis" Seneca:''' Wh&mdash;What leftover! I am the general of the Flame-Chase Army, instated Dux Brumalis by the Imperator herself! Just keep the second half.
+::{{DIcon|Arrow}} Try visiting home often...
+:::<!--Custom String Listener: TalkSentence_504120010-->
+:::'''"Dux Brumalis" Seneca:''' You think I don't want to? There are ten more military matters waiting, after each one's done. Even during the banquet, there are trivial issues. How can I find time to go home...
+::<!--Custom String Trigger: TalkSentence_504120011-->
+::<!--Custom String Listener: TalkSentence_504120011-->
+::'''"Dux Brumalis" Seneca:''' Besides, all Skyfolk should look to Seliose as their example. Only by holding their heads high and never growing complacent can they have a chance to ascend to the skies once more and reclaim their glory...
+::'''"Dux Brumalis" Seneca:''' Then again, my mother mentioned many young upstarts in the Twilight Courtyard have started to take me as a role model, hahah!
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504120002: Config/Level/Mission/5041200/Act/Act504120002.json-->
+::In the illusion sculpted by the authority of Ocean, a bubble of a drunken demigod emerged...
+::'''"Dux Brumalis" Seneca:''' Oh, (Trailblazer), let's cheers to this!
+::<!--Custom String Trigger: Wait_Option_504120002_31-->
+::<!--Custom String Listener: Wait_Option_504120002_31-->
+::{{DIcon|Talk}} No cheers-ing, I just wanna talk.
+:::<!--Custom String Listener: TalkSentence_504120104-->
+:::'''"Dux Brumalis" Seneca:''' Sounds good too. Honey brews are the best way to get the conversation flowing. What do you want to talk about?
+:::{{DIcon|Arrow}} Let's talk about your past.
+::::<!--Custom String Listener: TalkSentence_504120106-->
+::::'''"Dux Brumalis" Seneca:''' My past? Haha, I never thought someone other than Verginia would be interested in those histories of yore!
+::::'''"Dux Brumalis" Seneca:''' Not that I'm afraid of a little playful teasing. My family hails from a frail branch of the Winterfolk. Back in the early days of the Chrysos War, the sky bastion we lived in was struck down by Castrum Kremnos, forcing us into exile on the earth below.
+::::'''"Dux Brumalis" Seneca:''' You've heard of the sky hero Seliose, right? Her direct bloodline founded the Twilight Courtyard after descending to the land, and we joined them upon hearing the news. That's how the suffering of our scattered hundred finally ended.
+::::'''"Dux Brumalis" Seneca:''' As for me... I'm recognized as the most gifted warrior in our family in over a dozen generations. I led the army to seize the capital of Campa, fought nine battles against the Kremnoan bandits and won seven... Such honors and feats are too many to count.
+::::'''"Dux Brumalis" Seneca:''' Even my title, I earned it with my own hands. Pointing a weapon at the monarch to demand a title, there's likely no second soul in all of Amphoreus who's done the same, is there?
+::::'''"Dux Brumalis" Seneca:''' ...Of course, there's no one else like the Imperator who can still laugh in the face of such insolence and punish before rewarding after, either.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Let's talk about your future.
+::::<!--Custom String Listener: TalkSentence_504120113-->
+::::'''"Dux Brumalis" Seneca:''' Future? Unrivalled glory, of course. Of the Imperator, of my own, and of my family.
+::::'''"Dux Brumalis" Seneca:''' I will aid the Imperator in conquering the lands she desires, and I, Seneca, shall be as renowned as Seliose the sky hero, leading the Twilight Courtyard to fulfill their dreams&mdash;
+::::'''"Dux Brumalis" Seneca:''' Protect the weak like the Sky, so that they need not fear the unpredictability of fate.
+::::'''"Dux Brumalis" Seneca:''' Oh, you probably don't want to hear about something that far away. Better zoom in on the nearer future.
+::::'''"Dux Brumalis" Seneca:''' A long time after, perhaps this celebration will end, and the Flame-Chase will re-embark. The Chrysos Heirs will defeat those Titans hanging on for dear life, and I will claim the authority of Sky.
+::::'''"Dux Brumalis" Seneca:''' When that time comes... Mayhaps I'll let Amphoreus experience a few years of snowstorm? How does that sound?
+::::'''"Dux Brumalis" Seneca:''' Hahaha! I'm kidding. Bottom's up!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let's stop here for now, cheers!
+::::<!--Custom String Listener: TalkSentence_504120121-->
+::::'''"Dux Brumalis" Seneca:''' Cheers! I like your candor. Remember to drink with me again once you're done!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Cheers!
+:::<!--Custom String Listener: TalkSentence_504120123-->
+:::'''"Dux Brumalis" Seneca:''' Cheers! I like your candor. Remember to drink with me again once you're done!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Seneca
+|zhs  = 塞涅卡
+|zht  = 塞涅卡
+|ja   = セネカ
+|ko   = 세네카
+|es   = Séneca
+|fr   = Sénèque
+|ru   = Сенека
+|th   = Seneca
+|vi   = Seneca
+|de   = Seneca
+|id   = Seneca
+|pt   = Sêneca
+}}
+==Change History==
+{{Change History|TODO}}

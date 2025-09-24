@@ -1,0 +1,99 @@
+<%-- [PAGE_INFO]
+PageTitle=#Emotional Patient#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Administrative Official
+|image           = NPC Emotional Patient.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Natasha's Clinic
+|relatives       = 
+}}
+'''Emotional Patient''' is an NPC on [[Jarilo-VI]], located in [[Natasha's Clinic]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Natasha's Clinic|npc_15_400010}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201070306,
+		"Type": "submission_state_equal",
+		"Param1": 201070306,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201070306: Config/Level/Mission/2010703/Act/Act201070306.json-->
+:{{A|VO Side1 nts1 patientE 101.ogg}} '''Emotional Patient:''' The medicine Vache left behind? That stuff... Can you even call it medicine?
+:{{A|VO Side1 nts1 patientE 102.ogg}} '''Emotional Patient:''' I know Dr. Natasha's here, but I have to tell it like it is... Vache had zero medical ethics &mdash; he didn't deserve the title "doctor."
+:{{A|VO Side1 nts1 patientE 103.ogg}} '''Emotional Patient:''' He may have had the capability, but he didn't use it to help anyone... Whenever I went to see him, he never even asked about my illness! He just prescribed me his so-called "wonder medicine..."
+:{{A|VO Side1 nts1 patientE 104.ogg}} '''Emotional Patient:''' If it were you, would you have taken that medicine?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201070306-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 201070306
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201070306: Config/Level/Mission/2010703/Act/Act201070306.json-->
+:{{A|VO Side1 nts1 patientE 101.ogg}} '''Emotional Patient:''' The medicine Vache left behind? That stuff... Can you even call it medicine?
+:{{A|VO Side1 nts1 patientE 102.ogg}} '''Emotional Patient:''' I know Dr. Natasha's here, but I have to tell it like it is... Vache had zero medical ethics &mdash; he didn't deserve the title "doctor."
+:{{A|VO Side1 nts1 patientE 103.ogg}} '''Emotional Patient:''' He may have had the capability, but he didn't use it to help anyone... Whenever I went to see him, he never even asked about my illness! He just prescribed me his so-called "wonder medicine..."
+:{{A|VO Side1 nts1 patientE 104.ogg}} '''Emotional Patient:''' If it were you, would you have taken that medicine?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201070306-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Manya
+|zhs  = 曼娅
+|zht  = 曼婭
+|ja   = マンヤ
+|ko   = 마냐
+|es   = Manya
+|fr   = Manya
+|ru   = Маня
+|th   = Manya
+|vi   = Manya
+|de   = Manya
+|id   = Manya
+|pt   = Manya
+}}
+==Change History==
+{{Change History|TODO}}

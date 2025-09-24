@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fanyong#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Humankind's Mightiest"
+|image           = NPC Fanyong.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Fanyong''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_255_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502120001: Config/Level/Mission/5021200/Act/Act502120001.json-->
+::'''Fanyong:''' Oh, what a shame! I thought you worthy, but I was wrong. This little Skysplitter boasted about attracting the greatest martial artists in the cosmos and got me all hyped up, but what a letdown it has been.
+::{{DIcon|Arrow}} What do you mean by "worthy"?
+:::<!--Custom String Listener: TalkSentence_502120503-->
+:::'''Fanyong:''' I'm looking for a formidable opponent. I thought you were the one, but alas, that was just wishful thinking on my part. You're not strong enough.
+::{{DIcon|Arrow}} You're the one who's not worthy!
+:::<!--Custom String Listener: TalkSentence_502120505-->
+:::'''Fanyong:''' I'm the one who decides who's worthy and who's not. You're bold to make such a claim, but you're simply not strong enough.
+::<!--Custom String Trigger: TalkSentence_502120506-->
+::<!--Custom String Listener: TalkSentence_502120506-->
+::'''Fanyong:''' Don't get me wrong. You're already a standout among these clowns, but that's exactly why I found it a shame.
+::'''Fanyong:''' Just look at them. Feeble punches, unrefined swordplay, clumsy footwork, sluggish reflexes... It's a mystery why they even think they're good enough to be here.
+::'''Fanyong:''' They might as well fly a flag that says, "I'm just happy to be here!" All of them combined aren't even close to holding a candle to me!
+::{{DIcon|Arrow}} You must be very strong then?
+:::<!--Custom String Listener: TalkSentence_502120510-->
+:::'''Fanyong:''' The strong do not parade their ability before the weak. Their mere presence speaks volumes.
+::{{DIcon|Arrow}} Talk is cheap. Did you even sign up for the competition?
+:::<!--Custom String Listener: TalkSentence_502120512-->
+:::'''Fanyong:''' And play house with these kids? The thought alone is insulting enough. I refuse to lower myself to that.
+::<!--Custom String Trigger: TalkSentence_502120513-->
+::<!--Custom String Listener: TalkSentence_502120513-->
+::'''Fanyong:''' I've defeated the Armed Archaeologists' task forces, taken down beast ships, and deflected ion cannons point-blank. One move is all I need to beat everyone here. If I step into that arena, the match would be over before it even begins, and where would be the fun in that?
+::'''Fanyong:''' Besides, I've signed a non-aggression pact with the Xianzhou and pledged to abstain from violence within the alliance's borders. If I fail to keep my strength in check and sink the Luofu, who's to be held accountable for that?
+::{{DIcon|Arrow}} Confident, huh. Up for a spar?
+:::<!--Custom String Listener: TalkSentence_502120516-->
+:::'''Fanyong:''' Fledglings don't appreciate kindness anymore these days. For your own good, I'm not going to spar with you.
+::{{DIcon|Arrow}} Didn't peg you for the kindly type.
+:::<!--Custom String Listener: TalkSentence_502120518-->
+:::'''Fanyong:''' Heh, I hear things like "Oh, Fanyong, you're too nice" all the time.
+::<!--Custom String Trigger: TalkSentence_502120519-->
+::<!--Custom String Listener: TalkSentence_502120519-->
+::'''Fanyong:''' Ah, it's so lonely at the top. But I won't give up on searching for a worthy opponent. If you ever think of somebody that fits the bill, let me know.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502120002: Config/Level/Mission/5021200/Act/Act502120002.json-->
+::'''Fanyong:''' Sigh, so weak... Oh, you're back? This competition is painfully boring.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to chat with you some more.
+::'''Fanyong:''' Sure. I'll keep you company then.
+::<!--Custom String Trigger: Wait_Option_502120003_46-->
+::<!--Custom String Listener: Wait_Option_502120003_46-->
+::{{DIcon|Talk}} About the contestants...
+:::<!--Custom String Listener: TalkSentence_502120603-->
+:::'''Fanyong:''' Hmph, they're lucky to be living in peaceful times. During the Denizens of Abundance Wars, those "moves" would have been more like dance arts than martial arts.
+:::'''Fanyong:''' Especially those that prattle on and on about "ultimate moves," "secret arts," "arcane techniques" and whatnot. They weren't lying when they say it's the empty vessels that make the most noise. Only the weak rely on such tricks. True strength needs no embellishment, just raw power.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I can recommend some formidable opponents to you.
+:::<!--Custom String Listener: TalkSentence_502120606-->
+:::'''Fanyong:''' They'd better be as "formidable" as you say.
+:::<!--Custom String Trigger: Wait_Option_502120003_52-->
+:::<!--Custom String Listener: Wait_Option_502120003_52-->
+:::{{DIcon|Talk}} I'll go get General Feixiao.
+::::<!--Custom String Listener: TalkSentence_502120608-->
+::::'''Fanyong:''' It'd be terrible if news of the great Merlin's Claw losing to me in a duel outside the Xianzhou Luofu spreads. It could shake the unity and stability of the Xianzhou Alliance, especially among the Verdant Knights.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I'll go get Lieutenant Yanqing.
+::::<!--Custom String Listener: TalkSentence_502120610-->
+::::'''Fanyong:''' I can't bear to see a young man lose his life so senselessly when he still has a bright future ahead of him. Give him time to grow.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I know an Emanator who has lost her way.
+::::<!--Custom String Listener: TalkSentence_502120612-->
+::::'''Fanyong:''' Hah, an Emanator? Send me an Aeon, and we'll talk.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I'll take you on myself.
+::::<!--Custom String Listener: TalkSentence_502120614-->
+::::'''Fanyong:''' As I've told you before, you should embrace your life instead of throwing it away so carelessly.
+::::'''Fanyong:''' Save your breath. I can't think of anyone who can beat me. Besides, it's been an issue for too long to be hurrying now.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How did you get so strong?
+:::<!--Custom String Listener: TalkSentence_502120617-->
+:::'''Fanyong:''' I wasn't always this strong. When I was ten, it took me some effort to even bring down a beast ship.
+:::'''Fanyong:''' I've worked as a miner and a mercenary. After my fortunes turned, I even spent a few years playing survival in the wild in the cosmos.
+:::'''Fanyong:''' Guns and blades, beasts and bugs... I spent ages waging battle after battle against the mightiest creatures in the galaxy, all to hone my body.
+:::'''Fanyong:''' It wasn't until one day when I looked back on my life that I realized that I can now sort people of this world into two categories: Myself, and the weak.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: TalkSentence_502120622-->
+:::'''Fanyong:''' Goodbye. I hope that one day you can become formidable enough to earn my approval.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's all for now.
+::'''Fanyong:''' Goodbye. I hope that one day you can become formidable enough to earn my approval.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fanyong
+|zhs  = 范勇
+|zht  = 范勇
+|ja   = 範勇
+|ko   = 범용
+|es   = Fanyong
+|fr   = Fanyong
+|ru   = Фаньюн
+|th   = Fanyong
+|vi   = Fanyong
+|de   = Fanyong
+|id   = Fanyong
+|pt   = Fanyong
+}}
+==Change History==
+{{Change History|TODO}}

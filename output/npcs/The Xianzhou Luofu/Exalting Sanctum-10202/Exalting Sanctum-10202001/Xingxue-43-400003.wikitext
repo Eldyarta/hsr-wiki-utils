@@ -1,0 +1,168 @@
+<%-- [PAGE_INFO]
+PageTitle=#Xingxue#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Merchant
+|image           = NPC Xingxue.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Xingxue''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502022101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502022101.json-->
+::'''Xingxue:''' Why didn't he come by today?
+::'''Xingxue:''' Unless... he's been transferred to another jurisdiction?
+::{{DIcon|Arrow}} Who are you waiting for?
+:::<!--Custom String Listener: TalkSentence_502022104-->
+:::'''Xingxue:''' An orderly from the Realm-Keeping Commission. We never should've even met, but for an ill-fated moment that brought us together.
+:::'''Xingxue:''' ...But don't get the wrong idea. We don't have anything strange going on between us.
+::{{DIcon|Arrow}} Surely there's plenty more fish in the sea...
+:::<!--Custom String Listener: TalkSentence_502022107-->
+:::'''Xingxue:''' Why carry the torch...
+:::'''Xingxue:''' Bah, what an absolute mess! There's nothing strange going on between that orderly and me, so don't get the wrong idea.
+::<!--Custom String Trigger: TalkSentence_502022109-->
+::<!--Custom String Listener: TalkSentence_502022109-->
+::'''Xingxue:''' It's just... I haven't had a chance to see him for a long time, and I can't help but feel a little bit lonely. Without him, my career, my entire future feels... empty.
+::'''Xingxue:''' If things keep on like this, what's the point of me showing up to work again? But then again, if I don't show up, I'll be cut off from him entirely and I'm afraid I'll never get the chance to see him again...
+::'''Xingxue:''' Ah! I'm so anxious...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502022102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502022102.json-->
+::'''Xingxue:''' He... He hasn't shown up again today, either.
+::'''Xingxue:''' I'm at my wit's end here!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} What are you selling?
+:{{DIcon}} I want to ask you something...
+::<!--Trigger PerformanceE 502022103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502022103.json-->
+::'''Xingxue:''' Go ahead. It's just that I'm a little distracted with matters of the heart, so I might take a moment to answer...
+::<!--Custom String Trigger: Wait_Option_502022101_26-->
+::<!--Custom String Listener: Wait_Option_502022101_26-->
+::{{DIcon|Talk}} What do you do for a living?
+:::<!--Custom String Listener: TalkSentence_502022115-->
+:::'''Xingxue:''' I'm just a lowly merchant who usually wanders the streets of Exalting Sanctum hawking my goods. Sometimes I'll sit down if I find a busy place and sell from there.
+:::'''Xingxue:''' We're all self-employed in this line of work, and I don't make much at all &mdash; just enough to eat. There's no fixed daily income, and we're always squabbling with the Realm-Keeping Commission for this and that. It's a tough life.
+:::{{DIcon|Return}} Why are you always squabbling with them about things?
+::::<!--Custom String Listener: TalkSentence_502022118-->
+::::'''Xingxue:''' You might not be aware of this &mdash; but you need a permit to sell goods in Exalting Sanctum. Not just anyone can do it.
+::::'''Xingxue:''' Despite the Realm-Keeping Commission allowing traveling traders like us, they regulate us to specified places and don't let us venture beyond. And as for the place they assigned me...
+::::'''Xingxue:''' Well, it's so deserted that I even have time to feed the pigeons. I have to take the initiative and run all over the place just to make a living.
+::::'''Xingxue:''' Naturally, I can't let the Realm-Keeping Commission catch me while I'm doing this. Otherwise I'll be fined if I'm lucky, or could even lose my license... And then it'll be even harder to do business.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Have you considered changing jobs?
+::::<!--Custom String Listener: TalkSentence_502022123-->
+::::'''Xingxue:''' Haha, everyone always asks me that. But you also have to understand that a job isn't something I have the luxury of changing.
+::::'''Xingxue:''' The climate in the Xianzhou delves is great all year round, so there's no need to worry about the environment impacting business. But if you could find a stable and reliable job, then who'd want to risk doing this kind of work forever?
+::::'''Xingxue:''' So it's not that I haven't thought about changing industry one day. I'm just not smart enough to be able to get a good job. That's why I'm a merchant.
+::::'''Xingxue:''' But... After all these centuries, I actually think it's fun to be a merchant &mdash; matching wits against the Realm-Keeping Commission like this. Not just anyone that can do this job, y'know!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So what exactly is going on between you and him, then?
+:::<!--Custom String Listener: TalkSentence_502022128-->
+:::'''Xingxue:''' There's an old saying aboard Xianzhou, "A match in ability, is a match made in heaven"...
+:::'''Xingxue:''' I've been pitting my wits and courage against this orderly for over 2 centuries, but we've never been able to determine who the winner is... Growing to appreciate one another is nothing short of inevitable.
+:::{{DIcon|Arrow}} So what's the name of this young orderly, then?
+::::<!--Custom String Listener: TalkSentence_502022131-->
+::::'''Xingxue:''' He... I think his name is Guangda.
+::::'''Xingxue:''' Actually, he never used to work in this jurisdiction. He was transferred over for some reason about 200 years ago, and that's when our fates became entwined...
+::::<!--Custom String Trigger: TalkSentence_502022135-->
+::::<!--Custom String Listener: TalkSentence_502022135-->
+::::'''Xingxue:''' The first time I laid eyes on him, I knew that this was no ordinary orderly...
+::::'''Xingxue:''' He really is one-of-a-kind... All the other orderlies basically turn a blind eye to me, but he's different...
+::::'''Xingxue:''' He always looked so casual, as if he didn't care about his job in the slightest... Be that as it may, when he saw me he'd suddenly spare no effort in getting me back to the Realm-Keeping Commission...
+::::'''Xingxue:''' I get it: He's a natural predator, a natural fighter! All of this inspired me to grow competitive &mdash; I vowed to Reignbow Arbiter that I would definitely be the winner in this little cat-and-mouse game of his!
+::::'''Xingxue:''' I never thought this game would last for 200 years! We've been going at it the whole time, but we both enjoyed it &mdash; we both knew that we had a special connection with each other!
+::::'''Xingxue:''' But it's a real pity... I haven't seen him the past few days. Where could he have gotten to? Don't tell me he found a better rival than me? I'm so sad...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Is it really just an appreciation for each other that you have?
+::::<!--Custom String Listener: TalkSentence_502022134-->
+::::'''Xingxue:''' Of course! What else could there be?
+::::<!--Custom String Trigger: TalkSentence_502022135-->
+::::<!--Custom String Listener: TalkSentence_502022135-->
+::::'''Xingxue:''' The first time I laid eyes on him, I knew that this was no ordinary orderly...
+::::'''Xingxue:''' He really is one-of-a-kind... All the other orderlies basically turn a blind eye to me, but he's different...
+::::'''Xingxue:''' He always looked so casual, as if he didn't care about his job in the slightest... Be that as it may, when he saw me he'd suddenly spare no effort in getting me back to the Realm-Keeping Commission...
+::::'''Xingxue:''' I get it: He's a natural predator, a natural fighter! All of this inspired me to grow competitive &mdash; I vowed to Reignbow Arbiter that I would definitely be the winner in this little cat-and-mouse game of his!
+::::'''Xingxue:''' I never thought this game would last for 200 years! We've been going at it the whole time, but we both enjoyed it &mdash; we both knew that we had a special connection with each other!
+::::'''Xingxue:''' But it's a real pity... I haven't seen him the past few days. Where could he have gotten to? Don't tell me he found a better rival than me? I'm so sad...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502022142-->
+:::'''Xingxue:''' Guangda, o Guangda... When will we be able to duke it out once again...
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502022103-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502013201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502013201.json-->
+::'''Ruoyue:''' Tsk, that can't be a good omen.
+::'''Ruoyue:''' The Luofu has been ravaged by disaster recently. Everyone thinks that the Cloud Knights are capable of solving every problem under the sun, no matter how great or small.
+::'''Ruoyue:''' But the Ambrosial Arbor's growth doesn't fall within the scope of operations for the Cloud Knights...
+::'''Ruoyue:''' I'm not sure if the master diviner has foreseen this? I'm thinking, probably not.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502022145-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor stops growing again...
+::<!--Trigger PerformanceE 502022104: Config/Level/NPCDialogue/P10202/NPCAct/Act502022104.json-->
+::'''Xingxue:''' Yes, it has finally stopped... It looked so frightening when it was fully grown!
+::'''Xingxue:''' At that time, people from the Realm-Keeping Commission were so busy that they had no time to inspect my stand. I wonder when Guangda will return...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502022104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} Be patient. He'll be back. I'm off.
+::'''Xingxue:''' Guangda, o Guangda... When will we be able to duke it out once again...
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Xingxue
+|zhs  = 行雪
+|zht  = 行雪
+|ja   = 行雪
+|ko   = 행설
+|es   = Xingxue
+|fr   = Xingxue
+|ru   = Синсюэ
+|th   = Xingxue
+|vi   = Xingxue
+|de   = Xingxue
+|id   = Xingxue
+|pt   = Xingxue
+}}
+==Change History==
+{{Change History|TODO}}

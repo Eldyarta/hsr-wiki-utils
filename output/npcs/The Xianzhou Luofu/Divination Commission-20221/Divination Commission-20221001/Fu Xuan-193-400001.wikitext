@@ -1,0 +1,242 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fu Xuan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Fu Xuan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Divination Commission
+|relatives       = 
+}}
+'''Fu Xuan''' is an NPC on [[The Xianzhou Luofu]], located in [[Divination Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Divination Commission|npc_193_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502087101: Config/Level/NPCDialogue/P10202/NPCAct/Act502087101.json-->
+::'''Fu Xuan:''' (Trailblazer), I already foresaw your visit. From the hexagram, you have some questions for me.
+::'''Fu Xuan:''' Please ask away!
+::{{DIcon|Arrow}} How did you work that out?
+::{{DIcon|Arrow}} Did you derive that from the Matrix of Prescience?
+::<!--Custom String Listener: TalkSentence_502087106-->
+::'''Fu Xuan:''' Are you curious about how divination works? Let me see... Take this.
+::'''Fu Xuan:''' These are the letters I wrote to the traveler during a technical exchange years ago. The content covers a lot but is easy to read, making it suitable to be used as educational material. It spares me the trouble of doing the explanation too.
+::'''Fu Xuan:''' So, what was it you wanted to ask originally?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502087201: Config/Level/NPCDialogue/P10202/NPCAct/Act502087201.json-->
+::'''Fu Xuan:''' I already foresaw your visit. You have questions for me again, right?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|A Fugue From Beyond|showChapter=0}} has been completed)
+:{{DIcon}} There are things I want to find out more about...
+::'''Fu Xuan:''' As someone who receives the Wisdomwalker's grace, satisfying the curiosities of the people is also part of my job. I'd love to do so if time allows.
+::<!--Custom String Trigger: Wait_Option_502230001_8-->
+::<!--Custom String Listener: Wait_Option_502230001_8-->
+::{{DIcon|Talk}} Do you miss your General trial-period privileges?
+:::<!--Custom String Listener: TalkSentence_502230603-->
+:::'''Fu Xuan:''' Do I miss them? Hmph, I will be the General one day, and there is no need for me to look back on them longingly.
+:::'''Fu Xuan:''' Although, my days acting as a General were indeed a unique experience...
+:::'''Fu Xuan:''' I have endless pieces of intelligence to read and military reports to review. Besides, I also have to deal with external affairs with the Sky-Faring Commission and discuss the reconstruction work with the Artisanship Commission... With so much going on, any outing, even if it were on official business, would feel like a vacation to me.
+:::'''Fu Xuan:''' No wonder Qingzu looks at me with so much confusion in her eyes. She must be used to seeing Jing Yuan taking it easy on a regular basis, and watching me struggle to keep up must've made her wonder how long I can hold on in this post.
+:::'''Fu Xuan:''' Hmph, I have not even given it my all yet.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How can I become as knowledgeable as you?
+:::<!--Custom String Listener: TalkSentence_502230609-->
+:::'''Fu Xuan:''' I'm pleased to see you have a thirst for knowledge.
+:::'''Fu Xuan:''' "Seeing Is Learning, Reading Is Growing. Isolation Is Desolation, Self-Full Is Self-Dull." Read more, think more, and observe more, and you'll naturally become knowledgeable along the way.
+:::'''Fu Xuan:''' Nowadays, many Xianzhou residents arrogantly think that the short-life folks can never catch up with them in terms of knowledge... But knowledge cares neither your age nor your lifespan. By the time I was just under thirty years old, I had already surpassed the knowledge of many centenarian old-timers.
+:::'''Fu Xuan:''' Some folks have been around for thousands of years, but their minds are as empty as a fawn on the Ever-Hunt Plains. So don't blindly believe old-timers' nonsense. Old age does not equal great wisdom.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How are you coping with your job at the Divination Commission?
+:::<!--Custom String Listener: TalkSentence_502230614-->
+:::'''Fu Xuan:''' I'm snowed under with work! I've always been self-disciplined and taken my duties seriously.
+:::'''Fu Xuan:''' But even with the help of ingenia and being as efficient as possible with my schedule, wearing two big hats at once is pushing me to my limits...
+:::{{DIcon|Arrow}} Why do you insist on being the general, then?
+:::<!--Custom String Listener: TalkSentence_502230617-->
+:::'''Fu Xuan:''' Outsiders might see me craving military authority, then surmise that I am power-hungry or fanatical about warfare... I've heard many such rumors and have paid them no mind.
+:::'''Fu Xuan:''' However, the truth is far from their assumptions. I have studied divination since I was a child and extensively examined the fickle outcomes of fate, yet I remain powerless before the ultimate question of whether destiny can be altered.
+:::'''Fu Xuan:''' I once had a debate with someone over this issue. Unfortunately, I alone remain in the world of the living to bring the debate to a close.
+:::'''Fu Xuan:''' That person told me the battlefield is where the most drastic changes of fate take place. Nowhere else do the destinies of human beings rise and fall with such volatility.
+:::'''Fu Xuan:''' I want to find this answer, this most sought-after of all answers for us diviners, to appease that person's spirit.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Please do a divination for me before I go.
+:::<!--Custom String Listener: TalkSentence_502230623-->
+:::'''Fu Xuan:''' You have nothing to watch out for today. Be free to do whatever you desire.
+:::<!--Ends the current performance-->
+;(If {{Mission|A Fugue From Beyond|showChapter=0}} has been completed)
+:{{DIcon}} I'd like to know more about your suspicions about the "Ambrosial Arbor Crisis."
+::'''Fu Xuan:''' Go ahead. I might be of help in sorting out your thoughts.
+::<!--Custom String Trigger: Wait_Option_502230002_41-->
+::<!--Custom String Listener: Wait_Option_502230002_41-->
+::{{DIcon|Talk}} Has that "Tingyun" been Phantylia all along?
+:::<!--Custom String Listener: TalkSentence_502230703-->
+:::'''Fu Xuan:''' I can only declare with certainty that the Tingyun you saw after you boarded the Xianzhou was impersonated by Phantylia.
+:::'''Fu Xuan:''' As for when the real Tingyun was replaced, where she might be right now, and whether she had already passed away... I don't have any more information than you do.
+:::'''Fu Xuan:''' But Tingyun the Sky-Faring Commission Amicassador did exist, and so does everyone's memory of her.
+:::'''Fu Xuan:''' I hope this will make you feel better.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is the Alliance's attitude to all of this, now the Ambrosial Arbor crisis had ended?
+:::<!--Custom String Listener: TalkSentence_502230708-->
+:::'''Fu Xuan:''' About the Alliance's attitude... You have met with General Feixiao and General Huaiyan, so you are naturally aware of the Alliance's attitude...
+:::'''Fu Xuan:''' The Alliance has faith in General Jing Yuan's abilities to handle matters, but there are still a number of cowards that let their tongues wag freely. However, this is no longer important. The fact that the Alliance is faced with the descending threat of the Ruin Author is no longer a matter of truth or fiction.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Please do a divination for me before I go.
+:::<!--Custom String Listener: TalkSentence_502230711-->
+:::'''Fu Xuan:''' You have nothing to watch out for today. Be free to do whatever you desire.
+:::<!--Ends the current performance-->
+;(If {{Mission|A Fugue From Beyond|showChapter=0}} has been completed)
+:{{DIcon}} I'd like to know more about your "divination trip..."
+::'''Fu Xuan:''' Ah, what would the Xianzhou Luofu do without me?
+::<!--Custom String Trigger: Wait_Option_502230003_60-->
+::<!--Custom String Listener: Wait_Option_502230003_60-->
+::{{DIcon|Talk}} Hoolay escaped from prison while you were gone...
+:::<!--Custom String Listener: TalkSentence_502230803-->
+:::'''Fu Xuan:''' Ah... I had calculated that the Luofu would face calamity long before I had departed. However, the important matters that I had to discuss with General Yao Guang demanded my presence in person.
+:::'''Fu Xuan:''' My only choice was to report the results of my divination to Jing Yuan and impatiently await as I held the meeting at the Yuque.
+:::'''Fu Xuan:''' Fortunately, with Jing Yuan's strategy and the courage and experience of the other two Arbiter-Generals, we were able to prevent Hoolay's rebellion from becoming a complete catastrophe...
+:::'''Fu Xuan:''' Oh, of course, I would like to thank you as well, (Trailblazer). Please pass on my gratitude to Dan Heng and March 7th, also. You greatly assisted the Luofu once more. I fear that this is a debt that Jing Yuan will never be able to repay, haha.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any information you can share with me?
+:::<!--Custom String Listener: TalkSentence_502230808-->
+:::'''Fu Xuan:''' You mean regarding the two felons? Or about the Xianzhou Yuque?
+:::'''Fu Xuan:''' My apologies. Now is not the time for such casual inquiries. However, please rest assured that when I am able to share my information, I will inform the Astral Express, as you are allies of the Xianzhou Alliance, after all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Please do a divination for me before I go.
+:::<!--Custom String Listener: TalkSentence_502230811-->
+:::'''Fu Xuan:''' You have nothing to watch out for today. Be free to do whatever you desire.
+:::<!--Ends the current performance-->
+;(If {{Mission|A Fugue From Beyond|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I've got to go.
+::'''Fu Xuan:''' Sure. I should get back to work too.
+::<!--Ends the current performance-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|A Fugue From Beyond|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} I'd like to ask some questions about my previous experience...
+::<!--Trigger PerformanceE 502087401: Config/Level/NPCDialogue/P10202/NPCAct/Act502087401.json-->
+::'''Fu Xuan:''' Go ahead. I might be of help in sorting out your thoughts.
+::<!--Custom String Trigger: Wait_Option_502087401_949-->
+::<!--Custom String Listener: Wait_Option_502087401_949-->
+::{{DIcon|Talk}} Has that "Tingyun" been Phantylia all along?
+:::<!--Custom String Listener: TalkSentence_502087405-->
+:::'''Fu Xuan:''' I can only declare for certain that the Tingyun you saw after you boarded the Xianzhou was impersonated by Phantylia.
+:::'''Fu Xuan:''' As for when the real Tingyun was replaced, where she might be right now, and whether she had already passed away... I don't have any more information than you do.
+:::'''Fu Xuan:''' But Tingyun the Sky-Faring Commission Amicassador did exist, and so does everyone's memory of her.
+:::'''Fu Xuan:''' I hope this will make you feel better.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What is the Alliance's attitude to all of this, now the Ambrosial Arbor crisis had ended?
+:::<!--Custom String Listener: TalkSentence_502087410-->
+:::'''Fu Xuan:''' Qingzu told me to expect the occasional tricky question from you, and her advice was sound.
+:::'''Fu Xuan:''' We'll know about their attitude soon enough, but I do not have anything at the moment.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Has Jing Yuan returned to the Seat of Divine Foresight?
+:::<!--Custom String Listener: TalkSentence_502087413-->
+:::'''Fu Xuan:''' Thanks to the Dragon Lady's excellent medical skills, Jing Yuan can now deal with paperwork at the Seat of Divine Foresight after having had plenty of rest.
+:::'''Fu Xuan:''' If you want to visit him, please head to the Seat of Divine Foresight.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've got to go.
+:::<!--Custom String Listener: TalkSentence_502087416-->
+:::'''Fu Xuan:''' Sure. I should get back to work too.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502087401-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|A Fugue From Beyond|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} There are things I want to find out more about...
+::<!--Trigger PerformanceE 502087301: Config/Level/NPCDialogue/P10202/NPCAct/Act502087301.json-->
+::'''Fu Xuan:''' As someone who receives the Wisdomwalker's grace, satisfying the curiosities of the people is also part of my job. I'd love to do so if time allows.
+::<!--Custom String Trigger: Wait_Option_502087301_912-->
+::<!--Custom String Listener: Wait_Option_502087301_912-->
+::{{DIcon|Talk}} Do you enjoy the general's position?
+:::<!--Custom String Listener: TalkSentence_502087306-->
+:::'''Fu Xuan:''' I'll only be the acting general for a couple of days. Jing Yuan will be back when he recovers.
+:::'''Fu Xuan:''' Still, I must say it's quite a unique experience for me...
+:::'''Fu Xuan:''' I have endless pieces of intelligence to read and military reports to review. Besides, I also have to deal with external affairs with the Sky-Faring Commission and discuss the reconstruction work with the Artisanship Commission... With so much going on, any outing, even if it were on official business, would feel like a vacation to me.
+:::'''Fu Xuan:''' No wonder Qingzu looks at me with so much confusion in her eyes. She must be used to seeing Jing Yuan taking it easy on a regular basis and now watching me struggle to keep up must've made her wonder how long I can hold on in this post.
+:::'''Fu Xuan:''' Hmph, I have not even given it my all yet.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How can I become as knowledgeable as you?
+:::<!--Custom String Listener: TalkSentence_502087312-->
+:::'''Fu Xuan:''' I'm pleased to see you have a thirst for knowledge.
+:::'''Fu Xuan:''' "Seeing Is Learning, Reading Is Growing. Isolation Is Desolation, Self-Full Is Self-Dull." Read more, think more, and observe more, and you'll naturally become knowledgeable along the way.
+:::'''Fu Xuan:''' Nowadays, many Xianzhou residents arrogantly think that the short-life folks can never catch up with them in terms of knowledge... But knowledge cares not about your age or your lifespan. By the time I was just under thirty years old, I had already surpassed the knowledge of many centenarian old-timers.
+:::'''Fu Xuan:''' Some folks have been around for thousands of years, but their minds are as empty as a fawn on the Ever-Hunt Plains. So don't blindly believe old-timers' nonsense. Old age does not equal great wisdom.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} How are you coping with your job at the Divination Commission?
+:::<!--Custom String Listener: TalkSentence_502087317-->
+:::'''Fu Xuan:''' I'm snowed under with work! I've always been self-disciplined and taken my duties seriously.
+:::'''Fu Xuan:''' But even with the help of ingenia and being as efficient as possible with my schedule, wearing two big hats at once is pushing me to my limits...
+:::{{DIcon|Arrow}} Why do you insist on being the general then?
+:::<!--Custom String Listener: TalkSentence_502087320-->
+:::'''Fu Xuan:''' Outsiders might see me craving for military authority, then surmise that I am power-hungry or fanatical about warfare... I've heard many such rumors and have paid them no mind.
+:::'''Fu Xuan:''' However, the truth is far from their assumptions. I have studied divination since I was a child and extensively examined the fickle outcomes of fate, yet I remain powerless before the ultimate question of whether destiny can be altered.
+:::'''Fu Xuan:''' I once had a debate with someone over this issue. Unfortunately, I alone remain in the world of the living to bring the debate to a close.
+:::'''Fu Xuan:''' That person told me the battlefield is where the most drastic changes of fate take place. Nowhere else do the destinies of human beings rise and fall with such volatility.
+:::'''Fu Xuan:''' I want to find this answer, this most sought-after of all answers for us diviners, to appease that person's spirit.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Please do a divination for me before I go.
+:::<!--Custom String Listener: TalkSentence_502087326-->
+:::'''Fu Xuan:''' You have nothing to watch out for today. Be free to do whatever you desire.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502087301-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|A Fugue From Beyond|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I've got to go.
+::'''Fu Xuan:''' Sure. I should get back to work too.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502087327)
+:<!--Custom String Listener: TalkSentence_502087327-->
+::'''Fu Xuan:''' Well, you have nothing to watch out for today. Be free to do whatever you desire.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fu Xuan
+|zhs  = 符玄
+|zht  = 符玄
+|ja   = 符玄
+|ko   = 부현
+|es   = Fu Xuan
+|fr   = Fu&nbsp;Xuan
+|ru   = Фу Сюань
+|th   = Fu Xuan
+|vi   = Fu Xuan
+|de   = Fu Xuan
+|id   = Fu Xuan
+|pt   = Fu Xuan
+}}
+==Change History==
+{{Change History|TODO}}

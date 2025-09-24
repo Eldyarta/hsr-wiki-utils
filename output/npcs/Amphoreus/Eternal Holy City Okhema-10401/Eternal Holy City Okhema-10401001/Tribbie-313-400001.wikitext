@@ -1,0 +1,266 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tribbie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Tribbie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Tribbie''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_313_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 504015001: Config/Level/Mission/5040150/Act/Act504015001.json-->
+:'''Tribbie:''' Ah, Little Gray! You've come to the garden to relax, too? The scenery here is beautiful. '''We''' often come here when feeling overwhelmed.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Passage, Reveal the Past Once More|showChapter=0}} has been completed)
+:{{DIcon}} I want to chat with you, Tribbie!
+::'''Tribbie:''' No problem! What would you like to discuss, Little Gray? Do you want to hear '''our''' song of prophecy again?
+::<!--Custom String Trigger: Wait_Option_504059004_84-->
+::<!--Custom String Listener: Wait_Option_504059004_84-->
+::{{DIcon|Talk}} I want to... hear stories of your travels.
+:::<!--Custom String Listener: TalkSentence_504059303-->
+:::'''Tribbie:''' Of course! '''We&ast;'''ve traveled the world for thousands of years &mdash; each of us has countless rich and fascinating experiences. What kind of story would you like to hear, Little Gray?
+:::{{DIcon|Arrow}} I want to hear about Tribbie's experiences.
+::::<!--Custom String Listener: TalkSentence_504059305-->
+::::'''Tribbie:''' '''We'''? '''We''' remember that when '''we''' left Janusopolis, '''we''' still held the spindle of our homeland in our hands.
+::::'''Tribbie:''' Back then, *we* were so naive &mdash; thinking that as demigods, *we* could use the spindle to spin threads of destiny and tie our friends together.
+::::'''Tribbie:''' But that spindle was lost in war. Our journey wasn't smooth either. Not a single Chrysos Heir was willing to heed '''our''' call. Worse still, there were villains who imprisoned '''us''' in a cell...
+::::'''Tribbie:''' Until Cerydra found '''us'''. It was she who united the Chrysos Heirs and turned the prophecy into law.
+::::'''Tribbie:''' I wish I could introduce her to you, but alas... that opportunity is long gone.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I want to hear about Trinnon's experiences.
+::::<!--Custom String Listener: TalkSentence_504059311-->
+::::'''Tribbie:''' Trinnon is quiet and intellectual. Long ago, when '''we''' left Janusopolis together, she carried a small stone tablet, hoping to convey her knowledge and ideals to all the Chrysos Heirs who answered the call.
+::::'''Tribbie:''' At first, she encountered a group of kind-hearted bards who protected her as they traveled across many lands.
+::::'''Tribbie:''' However, mortal lives are fragile, and a hundred years later, she was alone again. By that time, she spoke even less than before...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I want to hear about Trianne...
+::::<!--Custom String Listener: TalkSentence_504059315-->
+::::'''Tribbie:''' ...Little Gray, there's no need to hesitate. '''We&ast;'''re no longer that sad. '''We&ast;'''ve already held a farewell ceremony for Trianne. If '''we''' don't turn our toes toward the future, Trianne will feel sad &mdash; and even angry.
+::::'''Tribbie:''' Back to the topic. Trianne was the bravest among '''us'''. When she first set out, she held a small wooden sword, huffing and puffing as she dreamed of taking down a Titan herself!
+::::'''Tribbie:''' Sadly, it didn't go so well. She was chased by several Titankins all the way from Ladon to Epos in a thrilling escape...
+::::'''Tribbie:''' But Trianne proudly told '''us''' that it was precisely because of those experiences &mdash; being chased by the Kins and repeatedly forced to use "Century Gate" &mdash; that she became the most skilled gatekeeper among '''us'''!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Master Tribbie, I want to learn how to use the "Century Gate"!
+:::<!--Custom String Listener: TalkSentence_504059320-->
+:::'''Tribbie:''' Ambitious, Little Gray! But it is impossible for ordinary folks to understand how to use the "Century Gate."
+:::'''Tribbie:''' ...That being said, you took one look at Oronyx's Miracle and learned how to use it. That should've been equally impossible... Could Tribbie be wrong and you are a genius all along, Little Gray?
+:::'''Tribbie:''' Alright, it's decided. '''We''' will teach you how to use the Century Gate! Let's create some miracles!
+:::'''Tribbie:''' Little Gray, please call out the "Gate of Infinity" from the bottom of your heart. Feel the wavering of space and listen to the distant murmurs in your ears...
+:::'''Tribbie:''' Then, cast out the power that you sense, like it's a net!
+:::{{DIcon|Arrow}} Open!!!
+::::<!--Custom String Listener: TalkSentence_504059326-->
+::::'''Tribbie:''' ...Little Gray, you scared '''us'''! And it doesn't seem that the gate is opened...
+::::<!--Custom String Trigger: TalkSentence_504059331-->
+::::<!--Custom String Listener: TalkSentence_504059331-->
+::::'''Tribbie:''' It seems that learning to use the "Century Gate" is a bit too difficult for you now, Little Gray. But don't be disheartened. You are already amazing! We know that you will become a great hero of Amphoreus even without the power of the "Century Gate"!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Ha! Space bomb!
+::::<!--Custom String Listener: TalkSentence_504059328-->
+::::'''Tribbie:''' No, no! That's far too violent, Little Gray! It sounds like you want to completely annihilate space itself!
+::::<!--Custom String Trigger: TalkSentence_504059331-->
+::::<!--Custom String Listener: TalkSentence_504059331-->
+::::'''Tribbie:''' It seems that learning to use the "Century Gate" is a bit too difficult for you now, Little Gray. But don't be disheartened. You are already amazing! We know that you will become a great hero of Amphoreus even without the power of the "Century Gate"!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I cannot feel it. Shall I use a Space Anchor?
+::::<!--Custom String Listener: TalkSentence_504059330-->
+::::'''Tribbie:''' What is that? Is it some kind of miracle of Janus that '''we''' do not know about?
+::::<!--Custom String Trigger: TalkSentence_504059331-->
+::::<!--Custom String Listener: TalkSentence_504059331-->
+::::'''Tribbie:''' It seems that learning to use the "Century Gate" is a bit too difficult for you now, Little Gray. But don't be disheartened. You are already amazing! We know that you will become a great hero of Amphoreus even without the power of the "Century Gate"!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About your past...
+:::<!--Custom String Listener: TalkSentence_504059333-->
+:::'''Tribbie:''' Little Gray, you've traveled with Trinnon to the past Janusopolis and seen '''our''' past, haven't you?
+:::'''Tribbie:''' Whatever Trinnon has seen and heard, '''we''' also sense. Those dusty memories, buried beneath the weight of time, have been polished by Oronyx and now shine brightly once more.
+:::<!--Custom String Trigger: Wait_Option_504059004_122-->
+:::<!--Custom String Listener: Wait_Option_504059004_122-->
+:::{{DIcon|Talk}} About your mother...
+::::<!--Custom String Listener: TalkSentence_504059336-->
+::::'''Tribbie:''' '''Our''' mother... Memories of her are '''our''' most precious treasures, yet also the easiest to lose. Those days she spent with '''us''' were so beautiful that '''we''' hardly dared to immerse ourselves in them.
+::::'''Tribbie:''' But memories left untouched for too long become blurred when one finally tries to recall them. They return only fleetingly on rare nights, like a gentle kiss of reunion in '''our''' dreams...
+::::'''Tribbie:''' For instance, someone once asked '''us''' about the five-petal flower '''we''' wear. '''We''' racked our brains, but no matter how hard '''we''' tried, '''we''' just couldn't remember its meaning.
+::::'''Tribbie:''' Thanks to you, Little Gray, '''we''' finally realized that this five-petal flower is deeply connected to '''our''' mother...
+::::'''Tribbie:''' Ah, Little Gray, you might not know &mdash; '''our''' mother's name is Mortis, and this flower '''we''' wear is named after her. In the legends of Janusopolis, this flower symbolizes longing, gratitude, and love that transcends time and space.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About Tribios...
+::::<!--Custom String Listener: TalkSentence_504059342-->
+::::'''Tribbie:''' "The one with three lives"... Time's erosion meant '''we''' have almost forgotten this original name.
+::::'''Tribbie:''' Yet, after crossing countless gates and enduring splits and fractures, '''we''' are no longer the Tribios '''we''' once were...
+::::'''Tribbie:''' A thousand years later, as if fate quietly decreed it, there are only three Chrysos Heirs continuing the Flame-Chase Journey and bearing the divinity of Janus.
+::::'''Tribbie:''' They are Tribbie, Trinnon, and Trianne who wait silently on the other shore.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About what happened to Janusopolis afterward...
+::::<!--Custom String Listener: TalkSentence_504059347-->
+::::'''Tribbie:''' After '''we''' left Janusopolis, the darkness that shrouded the city grew heavier. The Holy Maidens who succeeded '''us''' endured even stricter control &mdash; such as the current "Oracle Dreammother", who resides in Okhema.
+::::'''Tribbie:''' '''We''' don't know if the suffering of '''our''' homeland was '''our''' fault or if it was a calamity brewing in secret for a long time. Nor do '''we''' know what kind of emotions we should harbor toward our homeland...
+::::'''Tribbie:''' But... many years later, when '''we''' heard of Janusopolis' final downfall and how it twisted into the dim abyss it is today, '''we''' couldn't help but revisit the place several times.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Let's not dwell on it for now.
+::::<!--Custom String Listener: TalkSentence_504059351-->
+::::'''Tribbie:''' Mm, Little Gray, you're right... Looking back on the past every now and then is meant to draw strength from those one holds dear. But if one indulges too much in the past... one will lose sight of the path ahead.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's talk another time. I'll see you tomorrow, Tribbie!
+:::<!--Custom String Listener: TalkSentence_504059353-->
+:::'''Tribbie:''' Okay, sure! "See you tomorrow" is such a wonderful blessing! See you tomorrow, Little Gray!
+:::<!--Ends the current performance-->
+;(If {{Mission|Passage, Reveal the Past Once More|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Let's talk another time. I'll see you tomorrow, Tribbie!
+::'''Tribbie:''' Okay, sure! "See you tomorrow" is such a wonderful blessing! See you tomorrow, Gray Hair!
+::<!--Ends the current performance-->
+;(If {{Mission|Passage, Reveal the Past Once More|showChapter=0}} has not been completed)
+:{{DIcon}} I want to chat with you, Tribbie!
+::'''Tribbie:''' No problem! What would you like to discuss, Little Gray? Do you want to hear '''our''' song of prophecy again?
+::<!--Custom String Trigger: Wait_Option_504015002_16-->
+::<!--Custom String Listener: Wait_Option_504015002_16-->
+::{{DIcon|Talk}} I can never tell you, Trianne, and Trinnon apart.
+:::<!--Custom String Listener: TalkSentence_504015104-->
+:::'''Tribbie:''' Don't worry! It happens all the time. So, '''we''' created a slogan to help people tell the difference. Listen up, Little Gray...
+:::'''Tribbie:''' Quiet Trinnon has little to say, lively Trianne loves to play, and well-behaved Tribbie roams around all day!
+:::'''Tribbie:''' What do you think? You won't get us mixed up again from now on, right?
+:::{{DIcon|Arrow}} I'd like to get to know a bit more about Trianne!
+::::<!--Custom String Listener: TalkSentence_504015108-->
+::::'''Tribbie:''' Trianne is the liveliest and bravest among '''us'''. Although she looks like a child like the rest of '''us''', she always dashes headlong into danger and protect everyone as a brave warrior!
+::::'''Tribbie:''' That is why Trianne actively took on the role of "gatekeeper" and uses the "Century Gate" to help people escape from danger.
+::::'''Tribbie:''' I just... I hope that she doesn't overexert herself.
+::::<!--Custom String Trigger: TalkSentence_504015118-->
+::::<!--Custom String Listener: TalkSentence_504015118-->
+::::'''Tribbie:''' If you still cannot tell the difference, there is actually a simpler method...
+::::'''Tribbie:''' Look at '''our''' hairstyles! You're observant so '''we''' don't need to explain in too much detail. '''We''' know you'll see the difference in no time!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I want to know more about Trinnon!
+::::<!--Custom String Listener: TalkSentence_504015112-->
+::::'''Tribbie:''' Trinnon is the most cool-headed among '''us'''. When she thinks about a problem, she considers every possible angle. Everyone says that she has the makings of a scholar.
+::::'''Tribbie:''' If we lived in a time of peace and prosperity, maybe Trinnon could have been a knowledgeable scholar or teacher!
+::::<!--Custom String Trigger: TalkSentence_504015118-->
+::::<!--Custom String Listener: TalkSentence_504015118-->
+::::'''Tribbie:''' If you still cannot tell the difference, there is actually a simpler method...
+::::'''Tribbie:''' Look at '''our''' hairstyles! You're observant so '''we''' don't need to explain in too much detail. '''We''' know you'll see the difference in no time!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I would like to know more about you, Tribbie!
+::::<!--Custom String Listener: TalkSentence_504015115-->
+::::'''Tribbie:''' Um... You want to hear Tribbie's comment on Tribbie, huh? Kind of an odd request but sure. Everyone says that Tribbie is the most well-behaved of '''us'''. But, '''we''' think that Trianne and Trinnon are well-behaved, too.
+::::'''Tribbie:''' Sometimes people have a clearly defined idea of a person but cannot give an exact reason for it. In '''our''' eyes, you are an extremely reliable person, Little Gray! Though you are not Agy or Snowy, you are just as reliable as they are.
+::::'''Tribbie:''' Hehe, Tribbie wonders what she's like in your eyes.
+::::<!--Custom String Trigger: TalkSentence_504015118-->
+::::<!--Custom String Listener: TalkSentence_504015118-->
+::::'''Tribbie:''' If you still cannot tell the difference, there is actually a simpler method...
+::::'''Tribbie:''' Look at '''our''' hairstyles! You're observant so '''we''' don't need to explain in too much detail. '''We''' know you'll see the difference in no time!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Master Tribbie, I want to learn how to use the "Century Gate"!
+:::<!--Custom String Listener: TalkSentence_504015121-->
+:::'''Tribbie:''' Ambitious, Gray Hair! It is impossible for ordinary folks to understand how to use the "Century Gate."
+:::'''Tribbie:''' ...That being said, you took one look at Oronyx's Miracle and learned how to use it. That should've been equally impossible... Could Tribbie be wrong and you are a genius all along?
+:::'''Tribbie:''' Alright, it's decided. '''We''' will teach you how to use the Century Gate! Let's create some miracles!
+:::'''Tribbie:''' Gray Hair, please call out the "Gate of Infinity" from the bottom of your heart. Feel the wavering of space and listen to the distant murmurs in your ears...
+:::'''Tribbie:''' Then, cast the power that you sense out like it's a net!
+:::{{DIcon|Arrow}} Hya!!!
+::::<!--Custom String Listener: TalkSentence_504015127-->
+::::'''Tribbie:''' ...Gray Hair, you scared '''us'''! And it doesn't seem that the gate is opened...
+::::<!--Custom String Trigger: TalkSentence_504015132-->
+::::<!--Custom String Listener: TalkSentence_504015132-->
+::::'''Tribbie:''' It seems that learning to use the "Century Gate" is a bit too difficult for you now, Gray Hair. But don't be disheartened. You are already amazing! We know that you will become a great hero of Amphoreus even without the power of the "Century Gate"!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Ha! Space bomb!
+::::<!--Custom String Listener: TalkSentence_504015129-->
+::::'''Tribbie:''' No, no! That's far too violent, Gray Hair! It sounds like you want to completely annihilate space itself!
+::::<!--Custom String Trigger: TalkSentence_504015132-->
+::::<!--Custom String Listener: TalkSentence_504015132-->
+::::'''Tribbie:''' It seems that learning to use the "Century Gate" is a bit too difficult for you now, Gray Hair. But don't be disheartened. You are already amazing! We know that you will become a great hero of Amphoreus even without the power of the "Century Gate"!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I cannot feel it. Shall I use a Space Anchor?
+::::<!--Custom String Listener: TalkSentence_504015131-->
+::::'''Tribbie:''' What is that? Is it some kind of miracle of Janus that '''we''' do not know about?
+::::<!--Custom String Trigger: TalkSentence_504015132-->
+::::<!--Custom String Listener: TalkSentence_504015132-->
+::::'''Tribbie:''' It seems that learning to use the "Century Gate" is a bit too difficult for you now, Gray Hair. But don't be disheartened. You are already amazing! We know that you will become a great hero of Amphoreus even without the power of the "Century Gate"!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Your telepathy must be very convenient.
+:::<!--Custom String Listener: TalkSentence_504015134-->
+:::'''Tribbie:''' Oh, you mean the telepathy shared by Tribbie, Trianne, and Trinnon?
+:::'''Tribbie:''' Yes, it is, most of the time. As long as '''we''' are willing, '''we''' can share most of our senses.
+:::'''Tribbie:''' For instance, Tribbie and Trinnon are the indoorsy type, but Trianne is the opposite. When Trianne sees a beautiful landscape, she shares it with '''us''' through telepathy.
+:::'''Tribbie:''' Also, when Agy needs to send people to a distant place out of the golden thread's reach, she'll ask one of '''us''' to join them. That way, even if teleslates won't work, Agy can reach us in time.
+:::{{DIcon|Arrow}} A round of applause for Okhema's greatest messengers!
+::::<!--Custom String Listener: TalkSentence_504015139-->
+::::'''Tribbie:''' Stop it, '''we''' are blushing. Actually, telepathy doesn't always come in handy.
+::::<!--Custom String Trigger: TalkSentence_504015141-->
+::::<!--Custom String Listener: TalkSentence_504015141-->
+::::'''Tribbie:''' When '''our''' emotions are too intense, '''we''' will subconsciously share them. For example, if one of '''us''' accidentally bangs our head, the others will feel the pain.
+::::'''Tribbie:''' There's a funny story. Trinnon once read a sad story in the library and couldn't help but let out a few sobs.
+::::'''Tribbie:''' At that moment, Trianne was out having a wonderful time in Marmoreal Market and she suddenly started sobbing too. Seeing that, everyone was worried and shocked. So they tried to stop her from crying by handing Trianne loads of tasty food.
+::::'''Tribbie:''' So, if one day you see '''us''' suddenly start shedding tears out of nowhere, no need to worry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Like when?
+::::<!--Custom String Listener: TalkSentence_504015141-->
+::::'''Tribbie:''' When '''our''' emotions are too intense, '''we''' will subconsciously share them. For example, if one of '''us''' accidentally bangs our head, the others will feel the pain.
+::::'''Tribbie:''' There's a funny story. Trinnon once read a sad story in the library and couldn't help but let out a few sobs.
+::::'''Tribbie:''' At that moment, Trianne was out having a wonderful time in Marmoreal Market and she suddenly started sobbing too. Seeing that, everyone was worried and shocked. So they tried to stop her from crying by handing Trianne loads of tasty food.
+::::'''Tribbie:''' So, if one day you see '''us''' suddenly start shedding tears out of nowhere, no need to worry.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's talk another time. I'll see you tomorrow, Tribbie!
+:::<!--Custom String Listener: TalkSentence_504015146-->
+:::'''Tribbie:''' Okay, sure! "See you tomorrow" is such a wonderful blessing! See you tomorrow, Gray Hair!
+:::<!--Ends the current performance-->
+;(If {{Mission|Passage, Reveal the Past Once More|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} Let's talk another time. I'll see you tomorrow, Tribbie!
+::'''Tribbie:''' Okay, sure! "See you tomorrow" is such a wonderful blessing! See you tomorrow, Gray Hair!
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_304003021-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tribbie
+|zhs  = 缇宝
+|zht  = 緹寶
+|ja   = トリビー
+|ko   = 트리비
+|es   = Tribbie
+|fr   = Tribbie
+|ru   = Трибби
+|th   = Tribbie
+|vi   = Tribbie
+|de   = Tribbie
+|id   = Tribbie
+|pt   = Tribbie
+}}
+==Change History==
+{{Change History|TODO}}

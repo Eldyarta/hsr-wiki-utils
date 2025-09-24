@@ -93,10 +93,10 @@ export class Mission {
 		return `[[${this.displayType}]] ''${wikiTitleLink(this.name, 'mission')}''`
 	}
 	
-	static fromId(missionId: string | number): Mission {
+	static fromId(missionId: string | number): Mission | undefined {
 		const dat = this.missionData[missionId]
 		if (!dat) {
-			throw new TypeError(`Unknown mission ID ${missionId}`)
+			return undefined
 		}
 		return new Mission(dat)
 	}
@@ -218,16 +218,16 @@ export class Mission {
 				
 				case 'MultiSequence':
 					const mission = Mission.fromId(paramData.Value)
-					requirements.push(`${mission.plainLink()} completed`)
-					if (mission.type == this.type && mission.name != this.name) {
+					requirements.push(`${mission?.plainLink()} completed`)
+					if (mission?.type == this.type && mission.name != this.name) {
 						this.prev = mission
 					}
 					break
 				
 				case 'SequenceNextDay':
 					const gateMission = Mission.fromId(paramData.Value)
-					requirements.push(`Complete ${gateMission.plainLink()} and wait for the next Daily [[Reset]]`)
-					if (gateMission.type == this.type && gateMission.name != this.name) {
+					requirements.push(`Complete ${gateMission?.plainLink()} and wait for the next Daily [[Reset]]`)
+					if (gateMission?.type == this.type && gateMission?.name != this.name) {
 						this.prev = gateMission
 					}
 					break
@@ -272,12 +272,12 @@ export class Mission {
 	}
 	
 	getNext(): Mission[] {
-		const list = this.data.NextMainMissionList?.map(data => Mission.fromId(data)) || []
+		const list = this.data.NextMainMissionList?.map(data => Mission.fromId(data)!) || []
 		if (this.data.NextTrackMainMission && MainMission[this.data.NextTrackMainMission]) {
 			let next = Mission.fromId(this.data.NextTrackMainMission)
-			if (next.id == this.id) return list
-			else if (next.name == this.name) next = next.getNext()[0]
-			list.unshift(next)
+			if (next?.id == this.id) return list
+			else if (next?.name == this.name) next = next.getNext()[0]
+			list.unshift(next!)
 		}
 		return list
 	}

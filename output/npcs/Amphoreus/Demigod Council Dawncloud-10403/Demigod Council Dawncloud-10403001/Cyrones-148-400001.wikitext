@@ -1,0 +1,129 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cyrones#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Wizened Priest
+|image           = NPC Cyrones.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Demigod Council" Dawncloud
+|relatives       = 
+}}
+'''Cyrones''' is an NPC on [[Amphoreus]], located in [["Demigod Council" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Demigod Council" Dawncloud|npc_148_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504068001: Config/Level/Mission/5040680/Act/Act504068001.json-->
+::'''Cyrones:''' Another faithful has come to pray? Let's see... Do you know the proper way to greet the great {{Rubi|Kephale|Worldbearing Titan}}?
+::'''Cyrones:''' Do not worry. The light of the holy city still shines. As long as the ritual is properly followed, I will bestow the blessing of {{Rubi|Kephale|Worldbearing Titan}} upon you.
+::{{DIcon|Arrow}} Easy-peasy!
+:::<!--Custom String Listener: TalkSentence_504068004-->
+:::'''Cyrones:''' You seem confident... However, the more ordinary the task, the more diligent one should be.
+:::'''Cyrones:''' Place your offering on the altar, put your palms together, and recite the prayers three times with sincerity. Do not follow the examples of those arrogant scholars, spouting nonsense in the presence of divinity.
+:::<!--Custom String Trigger: TalkSentence_504068011-->
+:::<!--Custom String Listener: TalkSentence_504068011-->
+:::'''Cyrones:''' Look at the sacred statues and these altars... {{Rubi|Kephale|Worldbearing Titan}} has always watched over their devout followers. Even Elder Caenis frequents this place for her prayers. She understands the importance of reverence.
+:::'''Cyrones:''' Unlike some, who flaunt their wisdom yet lack the most basic etiquette. Hmph, they ought to learn the consequences of blasphemy.
+:::'''Cyrones:''' Remember this, young follower &mdash; Only by holding onto your faith and observing the rituals can you receive the Titan's protection. If you wish to learn the proper rituals, you are welcome to seek me any time, given that you do so with a reverent heart.
+::{{DIcon|Arrow}} I... don't know how.
+:::<!--Custom String Listener: TalkSentence_504068007-->
+:::'''Cyrones:''' Hmph, at least you know better than to lie. I have served {{Rubi|Kephale|Worldbearing Titan}} here for decades, and never have I neglected the morning and evening rituals &mdash;
+:::'''Cyrones:''' Place your offering on the altar, put your palms together, and recite the prayers three times with sincerity. Do not follow the examples of those arrogant scholars, spouting nonsense in the presence of divinity.
+:::<!--Custom String Trigger: TalkSentence_504068011-->
+:::<!--Custom String Listener: TalkSentence_504068011-->
+:::'''Cyrones:''' Look at the sacred statues and these altars... {{Rubi|Kephale|Worldbearing Titan}} has always watched over their devout followers. Even Elder Caenis frequents this place for her prayers. She understands the importance of reverence.
+:::'''Cyrones:''' Unlike some, who flaunt their wisdom yet lack the most basic etiquette. Hmph, they ought to learn the consequences of blasphemy.
+:::'''Cyrones:''' Remember this, young follower &mdash; Only by holding onto your faith and observing the rituals can you receive the Titan's protection. If you wish to learn the proper rituals, you are welcome to seek me any time, given that you do so with a reverent heart.
+::{{DIcon|Exit}} Excuse me, I'm just passing through.
+:::<!--Custom String Listener: TalkSentence_504068010-->
+:::'''Cyrones:''' Young one, you'll regret not paying the Titan due respect!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504068002: Config/Level/Mission/5040680/Act/Act504068002.json-->
+::'''Cyrones:''' You again? What is it? Have you come to seek the Titan's guidance?
+::'''Cyrones:''' Ho-ho, as long as your heart is sincere and your actions careful, perform the ritual flawlessly, and I shall request Kephale's blessing on your behalf.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} There's something I'd like to ask you.
+::<!--Custom String Trigger: Wait_Option_504068003_37-->
+::<!--Custom String Listener: Wait_Option_504068003_37-->
+::{{DIcon|Talk}} What exactly are rituals?
+:::<!--Custom String Listener: TalkSentence_504068203-->
+:::'''Cyrones:''' The rituals are the only way we communicate with {{Rubi|Kephale|Worldbearing Titan}}. They are vital means through which we demonstrate our sincerity.
+:::'''Cyrones:''' Each ritual carries its own meaning. Every gesture and every word are imbued with profound significance and must not be altered. These are the sacred traditions passed down through generations of priests.
+:::'''Cyrones:''' Yet those arrogant scholars, especially that Anaxagoras, have the audacity to claim these rituals to be meaningless formalities! What do they understand? They lack even the most basic reverence for the divine, yet think themselves experts on rituals?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The black tide has been wreaking havoc. Do rituals really work?
+:::<!--Custom String Listener: TalkSentence_504068207-->
+:::'''Cyrones:''' How dare you! Do you conspire with those blasphemers? How dare you question the Titans!
+:::'''Cyrones:''' The black tide is but a test for the faithful. The more dire the times, the more steadfast in our faith we must be. Otherwise, how are we any different from the ignorant masses?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me about yourself?
+:::<!--Custom String Listener: TalkSentence_504068210-->
+:::'''Cyrones:''' My life now simply consists of daily observance of rituals, followed by readings of the sacred text to the faithful and answers to their queries. There's little else to speak of.
+:::'''Cyrones:''' But if you mean the past... I can only say that I rose from an acolyte to this position with nothing but piety and perseverance. Every day, I serve the Titan with diligence, never allowing myself the slightest slack.
+:::'''Cyrones:''' Take now for example. If I hadn't upheld the traditions, I would have fallen victim to the honeyed words of those "scholars," wouldn't you agree? In these times, piety alone is not enough. One must also assess and adapt to the situations around to truly protect one's faith.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to ask.
+:::<!--Custom String Listener: TalkSentence_504068214-->
+:::'''Cyrones:''' Very well. I must prepare the new prayers now.
+:::'''Cyrones:''' When you return, make sure to venerate the Titan daily. It will surely benefit you. Remember, only the devout are worthy of divine favor.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll let you get back to your work.
+::'''Cyrones:''' May {{Rubi|Kephale|Worldbearing Titan}} protect you.
+::'''Cyrones:''' When you return, make sure to venerate the Titan daily. It will surely benefit you. Remember, only the devout are worthy of divine favor.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cyrones
+|zhs  = 塞若涅斯
+|zht  = 塞若涅斯
+|ja   = セロネス
+|ko   = 사이로네스
+|es   = Cícones
+|fr   = Cyron
+|ru   = Киронес
+|th   = Cyrones
+|vi   = Cyrones
+|de   = Cyrones
+|id   = Cyrones
+|pt   = Cyrones
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,123 @@
+<%-- [PAGE_INFO]
+PageTitle=#Abraham#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Former Security Staff
+|image           = NPC Abraham.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Abraham''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_5_400016}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 100030112,
+		"Type": "submission_state_equal",
+		"Param1": 100030112,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030112: Config/Level/Mission/1000301/Act/Act100030112.json-->
+:{{A|VO chapter0 3 staffA 101.ogg}} '''Abraham:''' I need to leave, I need to run from this forsaken...
+:{{A|VO chapter0 3 staffA 102.ogg}} '''Abraham:''' No, it's impossible. I can run from yesterday, I can run from today, but tomorrow will always be one step ahead of me...
+:{{A|VO chapter0 3 staffA 103.ogg}} '''Abraham:''' Look, the obstacle detection terminal has recorded 142,856 attacks... the next count will be 142,857!
+:{{A|VO chapter0 3 staffA 104.ogg}} '''Abraham:''' I know in my heart that when I see that hopelessly beautiful cyclic number... it will mean the poetic end of my life's cycle.
+:{{DIcon|Arrow}} Things will get better.
+::<!--Custom String Listener: TalkSentence_100021193-->
+::{{A|VO chapter0 3 staffA 105.ogg}} '''Abraham:''' Everyone keeps saying that. "Things will get better, things won't always be this bad."
+::{{A|VO chapter0 3 staffA 106.ogg}} '''Abraham:''' Negative... positive... A negative of a negative is a positive.
+::{{DIcon|Arrow}} Life is but a path to death, but not today.
+::<!--Custom String Listener: TalkSentence_100021197-->
+::{{A|VO chapter0 3 staffA 108.ogg}} '''Abraham:''' Life is but a path to death, but not today... How insightful. Yes, of course! The closer you approach death, the more you appreciate life.
+::{{A|VO chapter0 3 staffA 109.ogg}} '''Abraham:''' I will pull myself together. Thank you, that was kind of you.
+:{{DIcon|Arrow}} Life is but a path to death, but not today.
+::<!--Custom String Listener: TalkSentence_100021200-->
+::{{A|VO chapter0 3 staffA 110.ogg}} '''Abraham:''' How insightful, yes of course. The closer you approach death, the more you appreciate life.
+::{{A|VO chapter0 3 staffA 111.ogg}} '''Abraham:''' I will pull myself together. Thank you, that was kind of you.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030112_Talk-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 100030112
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 100030112: Config/Level/Mission/1000301/Act/Act100030112.json-->
+:{{A|VO chapter0 3 staffA 101.ogg}} '''Abraham:''' I need to leave, I need to run from this forsaken...
+:{{A|VO chapter0 3 staffA 102.ogg}} '''Abraham:''' No, it's impossible. I can run from yesterday, I can run from today, but tomorrow will always be one step ahead of me...
+:{{A|VO chapter0 3 staffA 103.ogg}} '''Abraham:''' Look, the obstacle detection terminal has recorded 142,856 attacks... the next count will be 142,857!
+:{{A|VO chapter0 3 staffA 104.ogg}} '''Abraham:''' I know in my heart that when I see that hopelessly beautiful cyclic number... it will mean the poetic end of my life's cycle.
+:{{DIcon|Arrow}} Things will get better.
+::<!--Custom String Listener: TalkSentence_100021193-->
+::{{A|VO chapter0 3 staffA 105.ogg}} '''Abraham:''' Everyone keeps saying that. "Things will get better, things won't always be this bad."
+::{{A|VO chapter0 3 staffA 106.ogg}} '''Abraham:''' Negative... positive... A negative of a negative is a positive.
+::{{DIcon|Arrow}} Life is but a path to death, but not today.
+::<!--Custom String Listener: TalkSentence_100021197-->
+::{{A|VO chapter0 3 staffA 108.ogg}} '''Abraham:''' Life is but a path to death, but not today... How insightful. Yes, of course! The closer you approach death, the more you appreciate life.
+::{{A|VO chapter0 3 staffA 109.ogg}} '''Abraham:''' I will pull myself together. Thank you, that was kind of you.
+:{{DIcon|Arrow}} Life is but a path to death, but not today.
+::<!--Custom String Listener: TalkSentence_100021200-->
+::{{A|VO chapter0 3 staffA 110.ogg}} '''Abraham:''' How insightful, yes of course. The closer you approach death, the more you appreciate life.
+::{{A|VO chapter0 3 staffA 111.ogg}} '''Abraham:''' I will pull myself together. Thank you, that was kind of you.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 100030112_Talk-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Abraham
+|zhs  = 亚伯拉罕
+|zht  = 亞伯拉罕
+|ja   = エイブラハム
+|ko   = 아브라함
+|es   = Abraham
+|fr   = Abraham
+|ru   = Авраам
+|th   = Abraham
+|vi   = Abraham
+|de   = Abraham
+|id   = Abraham
+|pt   = Abraham
+}}
+==Change History==
+{{Change History|TODO}}

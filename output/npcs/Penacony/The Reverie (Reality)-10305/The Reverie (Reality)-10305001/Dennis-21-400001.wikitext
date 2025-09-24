@@ -1,0 +1,173 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dennis#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lobby Manager
+|image           = NPC Dennis.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Dennis''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_21_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030701: Config/Level/Mission/5030307/Act/Act503030701.json-->
+::'''Dennis:''' Greetings, esteemed guest. I'm Dennis, the lobby manager of this hotel.
+::'''Dennis:''' It's a pleasure to meet you. How can I assist you today?
+::{{DIcon|Arrow}} What services do you provide?
+::<!--Custom String Listener: TalkSentence_503030704-->
+::'''Dennis:''' As the lobby manager, it's my responsibility to attend to the guests' needs and help them resolve their issues.
+::'''Dennis:''' Since you are new here, I assume you are not familiar with the hotel. Please allow me to offer some suggestions.
+::'''Dennis:''' If you need assistance with room-related services, please choose either the manual service at the receptionist desk or the self-service terminal in the lobby.
+::'''Dennis:''' For questions about entering the dream, please feel free to ask Giovanna, the Chief Dream Nurse.
+::'''Dennis:''' In case of disputes with other guests or hotel staff, please seek assistance from Coty, the Head of Security.
+::'''Dennis:''' The public dreamphone in the lobby allows you to make a quick call to any "moment" without entering the Dreamscape.
+::{{DIcon|Arrow}} Much obliged.
+:::<!--Custom String Listener: TalkSentence_503030711-->
+:::'''Dennis:''' You're welcome. I'm just doing my job.
+::{{DIcon|Arrow}} ...Could you go over it again?
+:::<!--Custom String Listener: TalkSentence_503030713-->
+:::'''Dennis:''' ...
+::<!--Custom String Trigger: TalkSentence_503030714-->
+::<!--Custom String Listener: TalkSentence_503030714-->
+::'''Dennis:''' If you need more details, please make good use of your Dreamscape Pass.
+::'''Dennis:''' May you have fun and enjoy your stay in the City of Dreams.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030702: Config/Level/Mission/5030307/Act/Act503030702.json-->
+::'''Dennis:''' Greetings, esteemed guest. How may I assist you today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--performance 503025001 has been seen-->)
+:{{DIcon}} What services do you provide?
+::'''Dennis:''' As the lobby manager, it's my responsibility to attend to the guests' needs and help them resolve their issues.
+::'''Dennis:''' If you have any questions, please feel free to ask me.
+::'''Dennis:''' Also... Here's a small pro-tip: Make the most of your Dreamscape Pass, as it will greatly enrich your dream experience in Penacony.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503025001 has been seen-->)
+:{{DIcon|Exit}} Nothing else.
+::'''Dennis:''' Certainly. I'm always at your service.
+::'''Dennis:''' May you have fun and enjoy your stay in the City of Dreams.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503030704 has been seen--> and {{cx}}<!--performance 503025001 has not been seen-->)
+:{{DIcon|?}} Why do you look a bit familiar to me?
+::'''Dennis:''' ...Haha, is that so? Perhaps I happen to look like one of your friends.
+::{{DIcon|Arrow}} I think we met somewhere in the Dreamscape...
+::<!--Custom String Listener: TalkSentence_503030733-->
+::'''Dennis:''' Please stop! I believe I fully understand what you mean, esteemed guest...
+::'''Dennis:''' For example, when you meet someone online through the Interastral network, it doesn't necessarily mean you'll physically travel to their planet to check it out. Don't you agree?
+::'''Dennis:''' By the way... I've been receiving complaints from guests about not having enough tokens to fully enjoy their dreams. In this case... I've personally prepared a small gift for you.
+::'''Dennis:''' As a token of our "friendship," I will provide you with {{Color|h|nobold=1|ten Aideen Tokens}} every week.
+::'''Dennis:''' But let's keep it just between us. You understand what I mean, right?
+::Dennis winks at you astutely.
+::<!--Custom String Trigger: Talk_404032901-->
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 21,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 50,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503030704 has been seen--> and {{cx}}<!--performance 503025001 has not been seen-->)
+:{{DIcon}} What services do you provide?
+::'''Dennis:''' As the lobby manager, it's my responsibility to attend to the guests' needs and help them resolve their issues.
+::'''Dennis:''' If you have any questions, please feel free to ask me.
+::'''Dennis:''' Also... Here's a small pro-tip: Make the most of your Dreamscape Pass, as it will greatly enrich your dream experience in Penacony.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503030704 has been seen--> and {{cx}}<!--performance 503025001 has not been seen-->)
+:{{DIcon|Exit}} Nothing else.
+::'''Dennis:''' Certainly. I'm always at your service.
+::'''Dennis:''' May you have fun and enjoy your stay in the City of Dreams.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503030704 has not been seen--> and {{cx}}<!--performance 503025001 has not been seen-->)
+:{{DIcon|Shop}} Let me see what you have for sale.
+::Dennis winks at you astutely.
+::<!--Custom String Trigger: Talk_404032901-->
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 21,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 50,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503030704 has not been seen--> and {{cx}}<!--performance 503025001 has not been seen-->)
+:{{DIcon}} What services do you provide?
+::'''Dennis:''' As the lobby manager, it's my responsibility to attend to the guests' needs and help them resolve their issues.
+::'''Dennis:''' If you have any questions, please feel free to ask me.
+::'''Dennis:''' Also... Here's a small pro-tip: Make the most of your Dreamscape Pass, as it will greatly enrich your dream experience in Penacony.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--performance 503030704 has not been seen--> and {{cx}}<!--performance 503025001 has not been seen-->)
+:{{DIcon|Exit}} Nothing else.
+::'''Dennis:''' Certainly. I'm always at your service.
+::'''Dennis:''' May you have fun and enjoy your stay in the City of Dreams.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 203060301-->)
+:{{DIcon}} How's work going for you?
+::<!--Trigger PerformanceE 203060138: Config/Level/NPCDialogue/P10305/F10305001_G21/Act/Act_203060138.json-->
+::'''Dennis:''' Er... just between us, the number of guests at The Reverie has drastically dropped recently. It's my first time experiencing such a lull at work.
+::'''Dennis:''' It's actually a blessing in disguise for me... Why, you ask? Because now I'll have more time to watch Celestial Jade videos and improve my skills.
+::'''Dennis:''' If you're also into Celestial Jade, then I'll recommend some content creators for you when I get around to it &mdash; I guarantee you'll find them super intriguing!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_203060138-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Dennis
+|zhs  = 丹尼斯
+|zht  = 丹尼斯
+|ja   = デニス
+|ko   = 데니스
+|es   = Dennis
+|fr   = Dennis
+|ru   = Деннис
+|th   = Dennis
+|vi   = Dennis
+|de   = Dennis
+|id   = Dennis
+|pt   = Dennis
+}}
+==Change History==
+{{Change History|TODO}}

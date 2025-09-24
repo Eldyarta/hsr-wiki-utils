@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Coty#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Head of Security
+|image           = NPC Coty.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Coty''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_25_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030601: Config/Level/Mission/5030306/Act/Act503030601.json-->
+::'''Coty:''' Greetings, I'm Coty of the Bloodhound Family, the head of security for this hotel. How can I assist you?
+::<!--Custom String Trigger: Wait_Option_503030601_10-->
+::<!--Custom String Listener: Wait_Option_503030601_10-->
+::{{DIcon|Talk}} How can you help me?
+:::<!--Custom String Listener: TalkSentence_503030603-->
+:::'''Coty:''' If you have any disputes with other guests or hotel staff, please feel free to contact me at any time.
+:::'''Coty:''' If you or your companions find yourselves in a dangerous situation, please reach out to me or any nearby Bloodhounds.
+:::'''Coty:''' Additionally... in the Dreamscape, intense emotional fluctuations can lead to unexpected circumstances. If you have trouble managing your emotions effectively, you can also seek assistance from us.
+:::'''Coty:''' Simply submit a request using your Dreamscape Pass, and we will handle everything for you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there anything I should pay attention to in the Dreamscape?
+:::<!--Custom String Listener: TalkSentence_503030608-->
+:::'''Coty:''' Well... your default appearance in the Dreamscape is based on how you were when you entered the dream, so please ensure you are properly dressed.
+:::'''Coty:''' Please do not impersonate others or invade their privacy in the Dreamscape. The Family takes strict actions against such violations.
+:::'''Coty:''' In addition, areas undergoing maintenance or repair tend to be unstable. For your safety, please avoid approaching such areas.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Uh... I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_503030612-->
+:::'''Coty:''' Please feel free to contact me if you encounter any trouble.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030602: Config/Level/Mission/5030306/Act/Act503030602.json-->
+::'''Coty:''' Do you need any help?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Are you up for a chat?
+:::'''Coty:''' ...Generally, my duties don't involve chatting with guests, but The Family won't decline reasonable requests. So, what would you like to discuss?
+:::<!--Custom String Trigger: Wait_Option_503030603_42-->
+:::<!--Custom String Listener: Wait_Option_503030603_42-->
+:::{{DIcon|Talk}} What is the Bloodhound Family?
+::::<!--Custom String Listener: TalkSentence_503030625-->
+::::'''Coty:''' Within The Family, Penacony is governed by five major lineages: {{Color|keyword|nobold=1|Oak, Alfalfa, Nightingale, Bloodhound, and Iris.}}
+::::'''Coty:''' The Bloodhound Family is responsible for security-related positions in Penacony, including roles such as guards, firefighters, and hotel security personnel.
+::::'''Coty:''' Our primary duty is to ensure the safety of the hotel and its guests in both reality and the Dreamscape. In the Dreamscape, we fight nightmares and eliminate monsters, ensuring the safety of our guests and maintaining order in Penacony.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} How can you help me?
+::::<!--Custom String Listener: TalkSentence_503030629-->
+::::'''Coty:''' If you have any disputes with other guests or hotel staff, please feel free to contact me at any time.
+::::'''Coty:''' If you or your companions find yourselves in a dangerous situation, please reach out to me or any nearby Bloodhounds.
+::::'''Coty:''' Additionally... in the Dreamscape, intense emotional fluctuations can lead to unexpected circumstances. If you have trouble managing your emotions effectively, you can also seek assistance from us.
+::::'''Coty:''' Simply submit a request using your Dreamscape Pass, and we will handle everything for you.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is there anything I should pay attention to in the Dreamscape?
+::::<!--Custom String Listener: TalkSentence_503030634-->
+::::'''Coty:''' Well... your default appearance in the Dreamscape is based on how you were when you entered the dream, so please ensure you are properly dressed.
+::::'''Coty:''' Please do not impersonate others or invade their privacy in the Dreamscape. The Family takes strict actions against such violations.
+::::'''Coty:''' In addition, areas undergoing maintenance or repair tend to be unstable. For your safety, please avoid approaching such areas.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I'd like to talk about something else...
+::::<!--Custom String Listener: TalkSentence_503030638-->
+::::'''Coty:''' Go ahead, but please make it quick as I still have patrol tasks.
+::::<!--Custom String Trigger: Wait_Option_503030603_58-->
+::::<!--Custom String Listener: Wait_Option_503030603_58-->
+::::{{DIcon|Talk}} How about your colleagues?
+:::::<!--Custom String Listener: TalkSentence_503030640-->
+:::::'''Coty:''' ...All of them possess the necessary skills to fulfill their roles effectively.
+:::::'''Coty:''' We all focus on our respective jobs. Gossiping about others behind their backs is not something I engage in.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} How about the guests?
+:::::<!--Custom String Listener: TalkSentence_503030643-->
+:::::'''Coty:''' The Reverie attracts a diverse range of guests. I must admit that the most memorable ones are Dreamchasers who cause trouble in the Dreamscape.
+:::::'''Coty:''' For example, those who fail to pay their room charges, who illegally enter Dreamscape, or who engage in scams or disruptive behavior...
+:::::'''Coty:''' If you are interested in such topics, we can talk about them sometime, but perhaps after my work hours.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} That's all for now.
+:::::<!--Custom String Listener: TalkSentence_503030647-->
+:::::'''Coty:''' Well, it's about time for me to start my patrol.
+:::::<!--Custom String Trigger: ALL_TALK_END-->
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I have nothing else to ask.
+::::<!--Custom String Listener: TalkSentence_503030649-->
+::::'''Coty:''' If you need any assistance, please don't hesitate to contact us Bloodhounds.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Catch you again next time.
+:::'''Coty:''' I hope that you have a pleasant time in Penacony.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Coty
+|zhs  = 科蒂
+|zht  = 科蒂
+|ja   = コティ
+|ko   = 코티
+|es   = Coty
+|fr   = Coty
+|ru   = Коти
+|th   = Coty
+|vi   = Coty
+|de   = Coty
+|id   = Coty
+|pt   = Coty
+}}
+==Change History==
+{{Change History|TODO}}

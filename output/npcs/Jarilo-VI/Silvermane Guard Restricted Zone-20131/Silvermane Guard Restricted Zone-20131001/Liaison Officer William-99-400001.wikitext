@@ -1,0 +1,560 @@
+<%-- [PAGE_INFO]
+PageTitle=#Liaison Officer William#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Liaison Officer William.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Silvermane Guard Restricted Zone
+|relatives       = 
+}}
+'''Liaison Officer William''' is an NPC on [[Jarilo-VI]], located in [[Silvermane Guard Restricted Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Silvermane Guard Restricted Zone|npc_99_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Finish: 408131802-->)
+::<!--Trigger PerformanceE 408131803: Config/Level/Mission/4081318/Act/Act408131803.json-->
+::----
+::'''Liaison Officer William:''' News from the northern front informs that the monsters at the Corridor of Fading Echoes are mounting a comeback.
+::'''Liaison Officer William:''' Those guys just never give up, and we can't seem to deliver the final blow. Without your prowess on the front lines, it's hard to make any progress just by relying on the Silvermane Guards.
+::{{DIcon|Arrow}} Don't worry. I'll do it.
+:::<!--Custom String Listener: TalkSentence_401090205-->
+:::'''Liaison Officer William:''' Really? But we don't have anything to offer in return... Would you still be willing to help out, anyway?
+:::{{DIcon|Arrow}} Say no more. Take me there now.
+::::<!--Custom String Listener: TalkSentence_401090207-->
+::::'''Liaison Officer William:''' ...I'm so grateful! Let's go now. Our target: The Corridor of Fading Echoes!
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} Next time for sure.
+::::<!--Custom String Listener: TalkSentence_401090209-->
+::::'''Liaison Officer William:''' Got it! You've helped us out so much already, so leave the rest up to us.
+::::'''Liaison Officer William:''' Hope to see you soon, (Trailblazer)!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I will pray for their triumphant return.
+:::<!--Custom String Listener: TalkSentence_401090212-->
+:::'''Liaison Officer William:''' Thanks! You've helped us out so much already, so leave the rest up to us.
+:::'''Liaison Officer William:''' Hope to see you soon, (Trailblazer)!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::'''Liaison Officer William:''' News from the northern front informs that the monsters at the Corridor of Fading Echoes are mounting a comeback.
+::'''Liaison Officer William:''' Those guys just never give up, and we can't seem to deliver the final blow. Without your prowess on the front lines, it's hard to make any progress just by relying on the Silvermane Guards.
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131802-->)
+::<!--Trigger PerformanceE 408131802: Config/Level/Mission/4081318/Act/Act408131802.json-->
+::----
+::'''Liaison Officer William:''' (Trailblazer), we meet again! Hello there!
+::{{DIcon|Arrow}} How have things been?
+:::<!--Custom String Listener: TalkSentence_401090104-->
+:::'''Liaison Officer William:''' What can I say? Simply splendid.
+:::'''Liaison Officer William:''' And I'm not sure if you've noticed &mdash; but all my stuttering has been completely fixed!
+::{{DIcon|Arrow}} Your articulation sounds a lot better.
+:::<!--Custom String Listener: TalkSentence_401090107-->
+:::'''Liaison Officer William:''' You can tell? That's great! I'm just about to tell you how my stuttering has been completely fixed!
+::<!--Custom String Trigger: TalkSentence_401090108-->
+::<!--Custom String Listener: TalkSentence_401090108-->
+::'''Liaison Officer William:''' It's all thanks to you &mdash; after hearing about your heroic deeds on the front lines, I've resolved to get myself out of this rut... It's time for a change.
+::'''Liaison Officer William:''' I can't rush headlong into the fray as you can, but I can start with the small things. Check it out. I've just gotten rid of my stutter by pushing myself a little.
+::'''Liaison Officer William:''' My next dream is to follow in your steps so that one day we can fight together alongside each other!
+::{{DIcon|Arrow}} Keep up the good work.
+::{{DIcon|Arrow}} Your dreams will surely come true.
+::<!--Custom String Listener: TalkSentence_401090113-->
+::'''Liaison Officer William:''' Thanks for the words of encouragement! But then again...
+::'''Liaison Officer William:''' News from the northern front informs that the monsters at the Corridor of Fading Echoes are mounting a comeback.
+::'''Liaison Officer William:''' Those guys just never give up, and we can't seem to deliver the final blow. Without your prowess on the front lines, it's hard to make any progress just by relying on the Silvermane Guards.
+::{{DIcon|Arrow}} Don't worry. I'll do it.
+:::<!--Custom String Listener: TalkSentence_401090117-->
+:::'''Liaison Officer William:''' Really? But we don't have anything to offer in return... Would you still be willing to help out, anyway?
+:::{{DIcon|Arrow}} Say no more. Take me there now.
+::::<!--Custom String Listener: TalkSentence_401090119-->
+::::'''Liaison Officer William:''' ...I'm so grateful! Let's go now. Our target: The Corridor of Fading Echoes!
+:::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+:::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+:::{{DIcon|Exit}} Next time for sure.
+::::<!--Custom String Listener: TalkSentence_401090121-->
+::::'''Liaison Officer William:''' Got it! You've helped us out so much already, so leave the rest up to us.
+::::'''Liaison Officer William:''' Hope to see you soon, (Trailblazer)!
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} I will pray for their triumphant return.
+:::<!--Custom String Listener: TalkSentence_401090124-->
+:::'''Liaison Officer William:''' Thanks! You've helped us out so much already, so leave the rest up to us.
+:::'''Liaison Officer William:''' Hope to see you soon, (Trailblazer)!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::'''Liaison Officer William:''' (Trailblazer), we meet again! Hello there!
+::<!--Custom String Trigger: Talk_408131802-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131701--> and {{cx}}<!--performance 408131701 has been seen-->)
+::<!--Trigger PerformanceE 408131701: Config/Level/Mission/4081317/Act/Act408131701.json-->
+::----
+::'''Liaison Officer William:''' (Trailblazer), it's so great to see you again! Captain O&mdash;Oleg is full of praise for you, saying that you're incredibly brave with brains to match...
+::{{DIcon|Arrow}} That's true.
+:::<!--Custom String Listener: TalkSentence_401080004-->
+:::'''Liaison Officer William:''' People say that modesty is a v&mdash;virtue, but if someone could be as powerful as you, why would they be humble about it?
+::{{DIcon|Arrow}} Is he baiting me into complacency?
+:::<!--Custom String Listener: TalkSentence_401080006-->
+:::'''Liaison Officer William:''' Captain Oleg was completely earnest wh&mdash;when he said that. I can vouch for that!
+::<!--Custom String Trigger: TalkSentence_401080007-->
+::<!--Custom String Listener: TalkSentence_401080007-->
+::'''Liaison Officer William:''' Then seeing as y&mdash;you're here, I may as well pass on the l&mdash;latest battle intel...
+::'''Liaison Officer William:''' The situation in the northern front is not looking g&mdash;good. Counterattacks from the Fragmentum monsters are getting more violent, and their numbers far exceed our initial estimates...
+::'''Liaison Officer William:''' Despite Captain Oleg being there, I... I'm still worried about our situation. (Trailblazer), can you please help us clear the corridor?
+::<!--Custom String Trigger: Wait_Option_408131701_19-->
+::<!--Custom String Listener: Wait_Option_408131701_19-->
+::{{DIcon|Talk}} Tell me more about this current mission.
+:::<!--Custom String Listener: TalkSentence_401080013-->
+:::'''Liaison Officer William:''' Our target is the same as the last two times: Ch&mdash;Charge the Corridor of Fading Echoes and defeat all the enemies lurking there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Don't worry. I'll do it.
+:::<!--Custom String Listener: TalkSentence_401080011-->
+:::'''Liaison Officer William:''' That's g&mdash;great! I'll take you to Captain Oleg now. I h&mdash;hope this is the last time...
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401080015-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::'''Liaison Officer William:''' (Trailblazer), it's so great to see you again! Captain O&mdash;Oleg is full of praise for you, saying that you're incredibly brave with brains to match...
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131701-->)
+::<!--Trigger PerformanceE 408131702: Config/Level/Mission/4081317/Act/Act408131702.json-->
+::----
+::----
+::'''Liaison Officer William:''' The situation in the northern front is not looking g&mdash;good. Counterattacks from the Fragmentum monsters are getting more violent, and their numbers far exceed our initial estimates...
+::'''Liaison Officer William:''' Despite Captain Oleg being there, I... I'm still worried about our situation. (Trailblazer), can you please help us clear the corridor?
+::<!--Custom String Trigger: Wait_Option_408131701_19-->
+::<!--Custom String Listener: Wait_Option_408131701_19-->
+::<!--Custom String Listener: Wait_Option_408131701_19-->
+::{{DIcon|Talk}} Tell me more about this current mission.
+:::<!--Custom String Listener: TalkSentence_401080013-->
+:::'''Liaison Officer William:''' Our target is the same as the last two times: Ch&mdash;Charge the Corridor of Fading Echoes and defeat all the enemies lurking there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Don't worry. I'll do it.
+:::<!--Custom String Listener: TalkSentence_401080011-->
+:::'''Liaison Officer William:''' That's g&mdash;great! I'll take you to Captain Oleg now. I h&mdash;hope this is the last time...
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401080015-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Tell me more about this current mission.
+:::<!--Custom String Listener: TalkSentence_401080013-->
+:::'''Liaison Officer William:''' Our target is the same as the last two times: Ch&mdash;Charge the Corridor of Fading Echoes and defeat all the enemies lurking there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Don't worry. I'll do it.
+:::<!--Custom String Listener: TalkSentence_401080011-->
+:::'''Liaison Officer William:''' That's g&mdash;great! I'll take you to Captain Oleg now. I h&mdash;hope this is the last time...
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401080015-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131601--> and {{cx}}<!--performance 408131601 has been seen-->)
+::<!--Trigger PerformanceE 408131601: Config/Level/Mission/4081316/Act/Act408131601.json-->
+::----
+::----
+::'''Liaison Officer William:''' (Trailblazer)! We m&mdash;meet again, Hero of Belobog.
+::'''Liaison Officer William:''' Captain Oleg has told me about your deeds in battle. I&mdash;I... I admire you so much, and hope to fight alongside you one day!
+::{{DIcon|Arrow}} I hope you get that chance.
+:::<!--Custom String Listener: TalkSentence_401070005-->
+:::'''Liaison Officer William:''' I&mdash;I'm hoping that day can come soon!
+::{{DIcon|Arrow}} Keep on striving for it until your time comes.
+:::<!--Custom String Listener: TalkSentence_401070007-->
+:::'''Liaison Officer William:''' I... I understand, and I'll do my utmost best!
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131601-->)
+::<!--Trigger PerformanceE 408131602: Config/Level/Mission/4081316/Act/Act408131602.json-->
+::----
+::----
+::'''Liaison Officer William:''' The Fragmentum has spilled out into the Corridor of Fading Echoes, a&mdash;and he's gone to the front lines to survey the situation.
+::'''Liaison Officer William:''' He said that if you haven't l&mdash;left Belobog yet, you might be still keen to keep fighting in our sorties...
+::'''Liaison Officer William:''' I&mdash;If you're keen, I can take you to the front lines immediately!
+::<!--Custom String Trigger: Wait_Option_408131601_21-->
+::<!--Custom String Listener: Wait_Option_408131601_21-->
+::<!--Custom String Listener: Wait_Option_408131601_21-->
+::{{DIcon|Talk}} Tell me more about this current mission.
+:::<!--Custom String Listener: TalkSentence_401070015-->
+:::'''Liaison Officer William:''' Our target is the same as last time: Ch&mdash;Charge the Corridor of Fading Echoes and defeat all the enemies lurking there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's go.
+:::<!--Custom String Listener: TalkSentence_401070013-->
+:::'''Liaison Officer William:''' R&mdash;Roger! Setting out!
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401070017-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Tell me more about this current mission.
+:::<!--Custom String Listener: TalkSentence_401070015-->
+:::'''Liaison Officer William:''' Our target is the same as last time: Ch&mdash;Charge the Corridor of Fading Echoes and defeat all the enemies lurking there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's go.
+:::<!--Custom String Listener: TalkSentence_401070013-->
+:::'''Liaison Officer William:''' R&mdash;Roger! Setting out!
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401070017-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::'''Liaison Officer William:''' The Fragmentum has spilled out into the Corridor of Fading Echoes, a&mdash;and he's gone to the front lines to survey the situation.
+::'''Liaison Officer William:''' He said that if you haven't l&mdash;left Belobog yet, you might be still keen to keep fighting in our sorties...
+::'''Liaison Officer William:''' I&mdash;If you're keen, I can take you to the front lines immediately!
+;(Otherwise, if {{cx}}<!--SubMission Started: 408131502--> and {{cx}}<!--performance 408131502 has been seen-->)
+::<!--Trigger PerformanceE 408131502: Config/Level/Mission/4081315/Act/Act408131502.json-->
+::----
+::'''Liaison Officer William:''' H&mdash;Hello! Are you the (Trailblazer) I've heard so much about?
+::{{DIcon|Arrow}} It's me.
+:::<!--Custom String Listener: TalkSentence_401060104-->
+:::'''Liaison Officer William:''' I&mdash;It's an honor to meet you!
+:::'''Liaison Officer William:''' Captain Oleg's already hit the front lines... He said that you'd definitely come!
+::{{DIcon|Arrow}} Where's Oleg?
+:::<!--Custom String Listener: TalkSentence_401060107-->
+:::'''Liaison Officer William:''' C&mdash;Captain Oleg's already hit the front lines... He said that you'd definitely come!
+:::'''Liaison Officer William:''' I&mdash;I'm honored to meet you!
+::<!--Custom String Trigger: TalkSentence_401060109-->
+::<!--Custom String Listener: TalkSentence_401060109-->
+::'''Liaison Officer William:''' L&mdash;Let me recap your target this time: Err... Charge the Corridor of Fading Echoes, and defeat all the Fragmentum monsters lurking there. Yes, that's what it says here in the memo.
+::'''Liaison Officer William:''' O&mdash;Oh yeah, the Technology Division told me that they'd set up advanced enemy defenses on the front line which could be used in combat. I th&mdash;think they're called... They're called {{Color|keyword|nobold=1|Snowshine Lamps}}.
+::'''Liaison Officer William:''' Ask Captain Oleg on the front lines about how to use it.
+::'''Liaison Officer William:''' I&mdash;If you're ready to go to the front lines now, just let me know. I&mdash;I'll take you to see Captain Oleg.
+::<!--Custom String Trigger: Wait_Option_408131502_45-->
+::<!--Custom String Listener: Wait_Option_408131502_45-->
+::{{DIcon|Talk}} Tell me about the plan for this mission.
+:::<!--Custom String Listener: TalkSentence_401060117-->
+:::'''Liaison Officer William:''' L&mdash;Let me recap your target this time: Err... Charge the Corridor of Fading Echoes, and defeat all the Fragmentum monsters lurking there. Yes, that's what it says here.
+:::'''Liaison Officer William:''' O&mdash;Oh yeah, the Technology Division told me that they'd set up advanced enemy defenses on the front line which could be used in combat. I th&mdash;think they're called... They're called {{Color|keyword|nobold=1|Snowshine Lamps}}.
+:::'''Liaison Officer William:''' Ask Captain Oleg on the front lines about how to use it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's go.
+:::<!--Custom String Listener: TalkSentence_401060114-->
+:::'''Liaison Officer William:''' G&mdash;Great! Captain Oleg said, if you're here, then the Fragmentum monsters will h&mdash;have to just flee in fear...
+:::'''Liaison Officer William:''' Th&mdash;This way, please!
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401060121-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::'''Liaison Officer William:''' H&mdash;Hello! Are you the (Trailblazer) I've heard so much about?
+;(Otherwise)
+::<!--Trigger PerformanceE 408131503: Config/Level/Mission/4081315/Act/Act408131503.json-->
+::----
+::----
+::'''Liaison Officer William:''' I&mdash;If you're ready to go to the front lines now, just let me know. I&mdash;I'll take you to see Captain Oleg.
+::<!--Custom String Trigger: Wait_Option_408131502_45-->
+::<!--Custom String Listener: Wait_Option_408131502_45-->
+::<!--Custom String Listener: Wait_Option_408131502_45-->
+::{{DIcon|Talk}} Tell me about the plan for this mission.
+:::<!--Custom String Listener: TalkSentence_401060117-->
+:::'''Liaison Officer William:''' L&mdash;Let me recap your target this time: Err... Charge the Corridor of Fading Echoes, and defeat all the Fragmentum monsters lurking there. Yes, that's what it says here.
+:::'''Liaison Officer William:''' O&mdash;Oh yeah, the Technology Division told me that they'd set up advanced enemy defenses on the front line which could be used in combat. I th&mdash;think they're called... They're called {{Color|keyword|nobold=1|Snowshine Lamps}}.
+:::'''Liaison Officer William:''' Ask Captain Oleg on the front lines about how to use it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's go.
+:::<!--Custom String Listener: TalkSentence_401060114-->
+:::'''Liaison Officer William:''' G&mdash;Great! Captain Oleg said, if you're here, then the Fragmentum monsters will h&mdash;have to just flee in fear...
+:::'''Liaison Officer William:''' Th&mdash;This way, please!
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401060121-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} Tell me about the plan for this mission.
+:::<!--Custom String Listener: TalkSentence_401060117-->
+:::'''Liaison Officer William:''' L&mdash;Let me recap your target this time: Err... Charge the Corridor of Fading Echoes, and defeat all the Fragmentum monsters lurking there. Yes, that's what it says here.
+:::'''Liaison Officer William:''' O&mdash;Oh yeah, the Technology Division told me that they'd set up advanced enemy defenses on the front line which could be used in combat. I th&mdash;think they're called... They're called {{Color|keyword|nobold=1|Snowshine Lamps}}.
+:::'''Liaison Officer William:''' Ask Captain Oleg on the front lines about how to use it.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Let's go.
+:::<!--Custom String Listener: TalkSentence_401060114-->
+:::'''Liaison Officer William:''' G&mdash;Great! Captain Oleg said, if you're here, then the Fragmentum monsters will h&mdash;have to just flee in fear...
+:::'''Liaison Officer William:''' Th&mdash;This way, please!
+::<pre>{
+	"$type": "RPG.GameCore.SetLocalPlayerDitherAlpha"
+}</pre>
+::<pre>{
+	"$type": "RPG.GameCore.OpenTreasureChallenge",
+	"RaidID": 4013201,
+	"OnCancel": [
+		{
+			"$type": "RPG.GameCore.EndDialogueEntityInteract"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "ALL_TALK_END"
+			}
+		}
+	]
+}</pre>
+::{{DIcon|Exit}} One second.
+:::<!--Custom String Listener: TalkSentence_401060121-->
+:::'''Liaison Officer William:''' N&mdash;No problem, take your time. It's dangerous ahead. Make sure you're completely prepared before you set out.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Silvermane Soldier
+|zhs  = 银鬃近卫
+|zht  = 銀鬃近衛
+|ja   = シルバーメイン・近衛
+|ko   = 실버메인 근위병
+|es   = Soldado Crinargenta
+|fr   = Soldat de la crinière d'argent
+|ru   = Солдат Среброгривых Стражей
+|th   = Silvermane Soldier
+|vi   = Cận Vệ Bờm Bạc
+|de   = Silbermähnen-Soldat
+|id   = Silvermane Soldier
+|pt   = Soldado Crinalva
+}}
+==Change History==
+{{Change History|TODO}}

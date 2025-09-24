@@ -1,0 +1,1119 @@
+<%-- [PAGE_INFO]
+PageTitle=#Herta#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Herta.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Herta''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_12_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 100050102: Config/Level/Mission/1000501/Act/Act100050102.json-->
+:{{A|VO chapter0 6 herta 132.ogg}} '''Herta:''' Still haven't made up your mind? Fine. Since I'm interested in you, I'll answer any questions you have.
+:<!--Custom String Trigger: TalkSentence_100040301-->
+:<!--Custom String Listener: TalkSentence_100040301-->
+;(If {{cx}}<!--SubMission Started: 200032002-->)
+::{{DIcon|?}} There are strange bubbles at the space station...
+:::<!--Custom String Listener: TalkSentence_404001606-->
+:::'''Herta:''' Oh, this is a top secret. Outsiders can never know that I own this thing. You must sign a non-disclosure agreement first.
+:::{{DIcon|Arrow}} What's inside?
+::::<!--Custom String Listener: TalkSentence_404001609-->
+::::'''Herta:''' I won't tell you a thing before you sign the agreement.
+::::<!--Custom String Trigger: TalkSentence_404001614-->
+::::<!--Custom String Listener: TalkSentence_404001614-->
+::::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+::::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+::::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+:::::<!--Custom String Listener: TalkSentence_404001617-->
+:::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+::::{{DIcon|Arrow}} Law of the Imaginary?
+:::::<!--Custom String Listener: TalkSentence_404001619-->
+:::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+::::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+:::::<!--Custom String Listener: TalkSentence_404001621-->
+:::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+::::<!--Custom String Trigger: TalkSentence_404001622-->
+::::<!--Custom String Listener: TalkSentence_404001622-->
+::::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+::::<!--Custom String Trigger: Wait_Option_404001602_44-->
+::::<!--Custom String Listener: Wait_Option_404001602_44-->
+::::{{DIcon|Talk}} Memory Bubble?
+:::::<!--Custom String Listener: TalkSentence_404001624-->
+:::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+:::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} The Garden of Recollection?
+:::::<!--Custom String Listener: TalkSentence_404001627-->
+:::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+:::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Who are the Memokeepers?
+:::::<!--Custom String Listener: TalkSentence_404001630-->
+:::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+:::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Can I touch the bubble now?
+:::::<!--Custom String Listener: TalkSentence_404001633-->
+:::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: Talk_404011602-->
+:::{{DIcon|Arrow}} Fine. I'll sign it.
+::::<!--Custom String Listener: TalkSentence_404001611-->
+::::'''Herta:''' Great...
+::::<!--Custom String Trigger: TalkSentence_404001614-->
+::::<!--Custom String Listener: TalkSentence_404001614-->
+::::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+::::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+::::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+:::::<!--Custom String Listener: TalkSentence_404001617-->
+:::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+::::{{DIcon|Arrow}} Law of the Imaginary?
+:::::<!--Custom String Listener: TalkSentence_404001619-->
+:::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+::::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+:::::<!--Custom String Listener: TalkSentence_404001621-->
+:::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+::::<!--Custom String Trigger: TalkSentence_404001622-->
+::::<!--Custom String Listener: TalkSentence_404001622-->
+::::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+::::<!--Custom String Trigger: Wait_Option_404001602_44-->
+::::<!--Custom String Listener: Wait_Option_404001602_44-->
+::::{{DIcon|Talk}} Memory Bubble?
+:::::<!--Custom String Listener: TalkSentence_404001624-->
+:::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+:::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} The Garden of Recollection?
+:::::<!--Custom String Listener: TalkSentence_404001627-->
+:::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+:::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Who are the Memokeepers?
+:::::<!--Custom String Listener: TalkSentence_404001630-->
+:::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+:::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Can I touch the bubble now?
+:::::<!--Custom String Listener: TalkSentence_404001633-->
+:::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+:::::<!--Ends the current performance-->
+:::::<!--Custom String Trigger: Talk_404011602-->
+:::{{DIcon|Exit}} I'll consider it.
+::::<!--Custom String Listener: TalkSentence_404001613-->
+::::'''Herta:''' Suit yourself.
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} About Stellarons...
+:::<!--Custom String Listener: TalkSentence_100040314_1-->
+:::{{A|VO chapter0 6 herta 141.ogg}} '''Herta:''' Stellarons, huh? Ask away, I'm listening.
+:::<!--Custom String Trigger: TalkSentence_100040314-->
+:::<!--Custom String Listener: TalkSentence_100040314-->
+:::{{DIcon|Talk}} What exactly is a Stellaron?
+::::<!--Custom String Listener: TalkSentence_100040315-->
+::::{{A|VO chapter0 6 herta 142.ogg}} '''Herta:''' According to my research, it's a type of lifeform with a special property that tethers it to a certain Path or Aeon's power.
+::::{{A|VO chapter0 6 herta 143.ogg}} '''Herta:''' Wherever it's located, it responds to that world's desires to advance its civilization. But, this comes at the cost of some form of disaster. The mechanism behind it is likely related to Nanook the Destruction.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you know about the Stellaron Hunters?
+::::<!--Custom String Listener: TalkSentence_100040318-->
+::::{{A|VO chapter0 6 herta 144.ogg}} '''Herta:''' Oh, that weird bunch. I'm satisfied with just one Stellaron, but they've scoured the universe, obtained several, and still aren't satisfied. I don't know what their true intentions are.
+::::{{A|VO chapter0 6 herta 145.ogg}} '''Herta:''' {{Rubi|Screwllum|Genius Society #76}} went up against the Stellaron Hunters before. I heard there was a member whose hacking skills were on par with Screwllum.
+::::{{A|VO chapter0 6 herta 146.ogg}} '''Herta:''' Being on the same level as Screwllum &mdash; who's probably the best in the universe &mdash; is nothing short of spectacular. It's beyond my abilities, computers are not my forte.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why am I able to host the Stellaron?
+::::<!--Custom String Listener: TalkSentence_100040322-->
+::::{{A|VO chapter0 6 herta 147.ogg}} '''Herta:''' Ha... That I don't know. Which is why I'm gearing up to solve this mystery.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I still have some questions...
+::::<!--Custom String Listener: TalkSentence_100040313-->
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the Express...
+:::<!--Custom String Listener: TalkSentence_100040325_1-->
+:::{{A|VO chapter0 6 herta 148.ogg}} '''Herta:''' The Express? Shouldn't you be asking Himeko instead?
+:::<!--Custom String Trigger: TalkSentence_100040325-->
+:::<!--Custom String Listener: TalkSentence_100040325-->
+:::{{DIcon|Talk}} What's the Astral Express like?
+::::<!--Custom String Listener: TalkSentence_100040326-->
+::::{{A|VO chapter0 6 herta 149.ogg}} '''Herta:''' You mean how it looks? Like a train. Well...
+::::{{A|VO chapter0 6 herta 150.ogg}} '''Herta:''' I was very interested in the Express for a while, and wrote a lot of papers, but forgot where I left them. Now I can't remember anything about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you trust the Astral Express?
+::::<!--Custom String Listener: TalkSentence_100040329-->
+::::{{A|VO chapter0 6 herta 151.ogg}} '''Herta:''' Uh-huh.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's your relationship with them?
+::::<!--Custom String Listener: TalkSentence_100040331-->
+::::{{A|VO chapter0 6 herta 152.ogg}} '''Herta:''' We've been business partners for a long time.
+::::{{A|VO chapter0 6 herta 153.ogg}} '''Herta:''' Every once in a while, I'll need them to get me things from other planets, and they often come to me to help them solve problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I still have some questions...
+::::<!--Custom String Listener: TalkSentence_100040313-->
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the decision...
+:::<!--Custom String Listener: TalkSentence_100040335_1-->
+:::{{A|VO chapter0 6 herta 154.ogg}} '''Herta:''' Uh, what decision? You're gonna have to be more specific.
+:::<!--Custom String Trigger: TalkSentence_100040335-->
+:::<!--Custom String Listener: TalkSentence_100040335-->
+::;(If {{cx}}<!--SubMission Started: 100050121-->)
+::::{{DIcon|Talk}} Can I return to the space station?
+:::::<!--Custom String Listener: TalkSentence_100040336-->
+:::::<!--Custom String Trigger: 100050121_talk-->
+:::::{{A|VO chapter0 6 herta 155.ogg}} '''Herta:''' Of course, I'll still be here waiting for you, eh... and the space station will be waiting for you. Returning... it's not impossible.
+:::::{{A|VO chapter0 6 herta 156.ogg}} '''Herta:''' If you wanna be a researcher here, you can just ask Asta. If she's fine with it, I have no complaints.
+:::::{{A|VO chapter0 6 herta 157.ogg}} '''Herta:''' No, hold on &mdash; you have a Stellaron within you. I think it's better if you left and came back occasionally. It might be dangerous if you stay for too long...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} So I should board the Express?
+:::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do I have any other choice?
+:::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}<!--SubMission not Started: 100050121-->)
+:::;(If {{cx}}<!--SubMission Started: 100050122-->)
+:::::{{DIcon|Talk}} Can I stay at the space station?
+::::::<!--Custom String Listener: TalkSentence_100050105-->
+::::::<!--Custom String Trigger: 100050122_talk-->
+::::::{{A|VO chapter0 Ag1 herta 117.ogg}} '''Herta:''' No. You're way too dangerous. I don't mind personally, but I don't want Asta and others to take the risk.
+::::::{{A|VO chapter0 Ag1 herta 118.ogg}} '''Herta:''' You wouldn't want the Stellaron in you to hurt all the people in the space station either, right?
+::::::{{A|VO chapter0 Ag1 herta 119.ogg}} '''Herta:''' Just come back once in a while. You will always be welcome at the space station &mdash; just don't stay for too long.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} So I should board the Express?
+::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Do I have any other choice?
+::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} I still have some questions...
+::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 100050122-->)
+::::;(If {{cx}}<!--SubMission Started: 100050123-->)
+::::::{{DIcon|Talk}} I really want to stay.
+:::::::<!--Custom String Listener: TalkSentence_100050109-->
+:::::::<!--Custom String Trigger: 100050123_talk-->
+:::::::{{A|VO chapter0 Ag1 herta 120.ogg}} '''Herta:''' ...You really are weird. What's so good about this place? Even I don't like staying here...
+:::::::{{A|VO chapter0 Ag1 herta 121.ogg}} '''Herta:''' Ugh. Fine. To be honest with you, I have plenty of ways to seal a mere Stellaron &mdash; You just might end up not having a lot of personal freedom.
+:::::::{{A|VO chapter0 Ag1 herta 122.ogg}} '''Herta:''' If you're so keen to stay... Fine. I'm okay with it. Go speak to Asta. She's the lead researcher. She's in charge.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} So I should board the Express?
+:::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Return}} I still have some questions...
+:::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}<!--SubMission not Started: 100050123-->)
+:::::;(If {{cx}}<!--SubMission Finish: 100050125-->)
+:::::::{{DIcon|Talk}} So I should board the Express?
+::::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Do I have any other choice?
+::::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Return}} I still have some questions...
+::::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}<!--SubMission not Finish: 100050125-->)
+:::::::{{DIcon|Talk}} Can I stay at the space station?
+::::::::<!--Custom String Listener: TalkSentence_100050113-->
+::::::::{{A|VO chapter0 Ag1 herta 123.ogg}} '''Herta:''' As I've said, talk to Asta! She's the lead researcher. She's in charge. Go, go, go.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} So I should board the Express?
+::::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Do I have any other choice?
+::::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Return}} I still have some questions...
+::::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let me think things over.
+:::<!--Custom String Listener: TalkSentence_100040346-->
+:::{{A|VO chapter0 6 herta 161.ogg}} '''Herta:''' Okay, suit yourself.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Started: 200032002-->)
+::{{DIcon|Talk}} About Herta...
+:::<!--Custom String Listener: TalkSentence_100040302_1-->
+:::{{A|VO chapter0 6 herta 133.ogg}} '''Herta:''' Me? Hmm, well, Talking about oneself is as pointless as it gets.
+:::<!--Custom String Trigger: TalkSentence_100040302-->
+:::<!--Custom String Listener: TalkSentence_100040302-->
+:::{{DIcon|Talk}} You're the master of the space station?
+::::<!--Custom String Listener: TalkSentence_100040303-->
+::::{{A|VO chapter0 6 herta 134.ogg}} '''Herta:''' On paper, yes. But I don't really care about this place. I built it, put some stuff in, left some people here, and let them just manage themselves.
+::::{{A|VO chapter0 6 herta 135.ogg}} '''Herta:''' Asta's the lead researcher of the space station, so for all intents and purposes, she's the master. I reject the concept of ownership because I don't want the responsibilities that come with it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You really are a terrible person.
+::::<!--Custom String Listener: TalkSentence_100040306-->
+::::{{A|VO chapter0 6 herta 136.ogg}} '''Herta:''' It doesn't matter. Who cares if others don't like me? I know I don't care. As long as I have my own value, I can do whatever I want.
+::::{{A|VO chapter0 6 herta 137.ogg}} '''Herta:''' While you may have good character, do you have any value? Don't take that the wrong way, I'm genuinely asking you. You might have some value, I just don't know about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you actually look like?
+::::<!--Custom String Listener: TalkSentence_100040309-->
+::::{{A|VO chapter0 6 herta 138.ogg}} '''Herta:''' Human, female, young, beautiful, attractive.
+::::{{A|VO chapter0 6 herta 139.ogg}} '''Herta:''' Not much different from what you're seeing now. I modeled it after how I looked, back when I was a kid. It might not be identical, but I'd say maybe 70, 80 percent there?
+::::{{A|VO chapter0 6 herta 140.ogg}} '''Herta:''' Oh, I was so precocious &mdash; all I cared about back then was solving the solitary wave problem, ignoring my precious childhood...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I still have some questions...
+::::<!--Custom String Listener: TalkSentence_100040313-->
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Stellarons...
+:::<!--Custom String Listener: TalkSentence_100040314_1-->
+:::{{A|VO chapter0 6 herta 141.ogg}} '''Herta:''' Stellarons, huh? Ask away, I'm listening.
+:::<!--Custom String Trigger: TalkSentence_100040314-->
+:::<!--Custom String Listener: TalkSentence_100040314-->
+:::{{DIcon|Talk}} What exactly is a Stellaron?
+::::<!--Custom String Listener: TalkSentence_100040315-->
+::::{{A|VO chapter0 6 herta 142.ogg}} '''Herta:''' According to my research, it's a type of lifeform with a special property that tethers it to a certain Path or Aeon's power.
+::::{{A|VO chapter0 6 herta 143.ogg}} '''Herta:''' Wherever it's located, it responds to that world's desires to advance its civilization. But, this comes at the cost of some form of disaster. The mechanism behind it is likely related to Nanook the Destruction.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you know about the Stellaron Hunters?
+::::<!--Custom String Listener: TalkSentence_100040318-->
+::::{{A|VO chapter0 6 herta 144.ogg}} '''Herta:''' Oh, that weird bunch. I'm satisfied with just one Stellaron, but they've scoured the universe, obtained several, and still aren't satisfied. I don't know what their true intentions are.
+::::{{A|VO chapter0 6 herta 145.ogg}} '''Herta:''' {{Rubi|Screwllum|Genius Society #76}} went up against the Stellaron Hunters before. I heard there was a member whose hacking skills were on par with Screwllum.
+::::{{A|VO chapter0 6 herta 146.ogg}} '''Herta:''' Being on the same level as Screwllum &mdash; who's probably the best in the universe &mdash; is nothing short of spectacular. It's beyond my abilities, computers are not my forte.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why am I able to host the Stellaron?
+::::<!--Custom String Listener: TalkSentence_100040322-->
+::::{{A|VO chapter0 6 herta 147.ogg}} '''Herta:''' Ha... That I don't know. Which is why I'm gearing up to solve this mystery.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I still have some questions...
+::::<!--Custom String Listener: TalkSentence_100040313-->
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the Express...
+:::<!--Custom String Listener: TalkSentence_100040325_1-->
+:::{{A|VO chapter0 6 herta 148.ogg}} '''Herta:''' The Express? Shouldn't you be asking Himeko instead?
+:::<!--Custom String Trigger: TalkSentence_100040325-->
+:::<!--Custom String Listener: TalkSentence_100040325-->
+:::{{DIcon|Talk}} What's the Astral Express like?
+::::<!--Custom String Listener: TalkSentence_100040326-->
+::::{{A|VO chapter0 6 herta 149.ogg}} '''Herta:''' You mean how it looks? Like a train. Well...
+::::{{A|VO chapter0 6 herta 150.ogg}} '''Herta:''' I was very interested in the Express for a while, and wrote a lot of papers, but forgot where I left them. Now I can't remember anything about it.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you trust the Astral Express?
+::::<!--Custom String Listener: TalkSentence_100040329-->
+::::{{A|VO chapter0 6 herta 151.ogg}} '''Herta:''' Uh-huh.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's your relationship with them?
+::::<!--Custom String Listener: TalkSentence_100040331-->
+::::{{A|VO chapter0 6 herta 152.ogg}} '''Herta:''' We've been business partners for a long time.
+::::{{A|VO chapter0 6 herta 153.ogg}} '''Herta:''' Every once in a while, I'll need them to get me things from other planets, and they often come to me to help them solve problems.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} I still have some questions...
+::::<!--Custom String Listener: TalkSentence_100040313-->
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the decision...
+:::<!--Custom String Listener: TalkSentence_100040335_1-->
+:::{{A|VO chapter0 6 herta 154.ogg}} '''Herta:''' Uh, what decision? You're gonna have to be more specific.
+:::<!--Custom String Trigger: TalkSentence_100040335-->
+:::<!--Custom String Listener: TalkSentence_100040335-->
+::;(If {{cx}}<!--SubMission Started: 100050121-->)
+::::{{DIcon|Talk}} Can I return to the space station?
+:::::<!--Custom String Listener: TalkSentence_100040336-->
+:::::<!--Custom String Trigger: 100050121_talk-->
+:::::{{A|VO chapter0 6 herta 155.ogg}} '''Herta:''' Of course, I'll still be here waiting for you, eh... and the space station will be waiting for you. Returning... it's not impossible.
+:::::{{A|VO chapter0 6 herta 156.ogg}} '''Herta:''' If you wanna be a researcher here, you can just ask Asta. If she's fine with it, I have no complaints.
+:::::{{A|VO chapter0 6 herta 157.ogg}} '''Herta:''' No, hold on &mdash; you have a Stellaron within you. I think it's better if you left and came back occasionally. It might be dangerous if you stay for too long...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} So I should board the Express?
+:::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do I have any other choice?
+:::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+::;(If {{cx}}<!--SubMission not Started: 100050121-->)
+:::;(If {{cx}}<!--SubMission Started: 100050122-->)
+:::::{{DIcon|Talk}} Can I stay at the space station?
+::::::<!--Custom String Listener: TalkSentence_100050105-->
+::::::<!--Custom String Trigger: 100050122_talk-->
+::::::{{A|VO chapter0 Ag1 herta 117.ogg}} '''Herta:''' No. You're way too dangerous. I don't mind personally, but I don't want Asta and others to take the risk.
+::::::{{A|VO chapter0 Ag1 herta 118.ogg}} '''Herta:''' You wouldn't want the Stellaron in you to hurt all the people in the space station either, right?
+::::::{{A|VO chapter0 Ag1 herta 119.ogg}} '''Herta:''' Just come back once in a while. You will always be welcome at the space station &mdash; just don't stay for too long.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} So I should board the Express?
+::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Do I have any other choice?
+::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} I still have some questions...
+::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 100050122-->)
+::::;(If {{cx}}<!--SubMission Started: 100050123-->)
+::::::{{DIcon|Talk}} I really want to stay.
+:::::::<!--Custom String Listener: TalkSentence_100050109-->
+:::::::<!--Custom String Trigger: 100050123_talk-->
+:::::::{{A|VO chapter0 Ag1 herta 120.ogg}} '''Herta:''' ...You really are weird. What's so good about this place? Even I don't like staying here...
+:::::::{{A|VO chapter0 Ag1 herta 121.ogg}} '''Herta:''' Ugh. Fine. To be honest with you, I have plenty of ways to seal a mere Stellaron &mdash; You just might end up not having a lot of personal freedom.
+:::::::{{A|VO chapter0 Ag1 herta 122.ogg}} '''Herta:''' If you're so keen to stay... Fine. I'm okay with it. Go speak to Asta. She's the lead researcher. She's in charge.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} So I should board the Express?
+:::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Return}} I still have some questions...
+:::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}<!--SubMission not Started: 100050123-->)
+:::::;(If {{cx}}<!--SubMission Finish: 100050125-->)
+:::::::{{DIcon|Talk}} So I should board the Express?
+::::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Do I have any other choice?
+::::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Return}} I still have some questions...
+::::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}<!--SubMission not Finish: 100050125-->)
+:::::::{{DIcon|Talk}} Can I stay at the space station?
+::::::::<!--Custom String Listener: TalkSentence_100050113-->
+::::::::{{A|VO chapter0 Ag1 herta 123.ogg}} '''Herta:''' As I've said, talk to Asta! She's the lead researcher. She's in charge. Go, go, go.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} So I should board the Express?
+::::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Do I have any other choice?
+::::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Return}} I still have some questions...
+::::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let me think things over.
+:::<!--Custom String Listener: TalkSentence_100040346-->
+:::{{A|VO chapter0 6 herta 161.ogg}} '''Herta:''' Okay, suit yourself.
+:::<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_100050102-->
+<pre>
+[
+	{
+		"ID": 100050201,
+		"Type": "submission_state_equal",
+		"Param1": 100050101,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Herta:''' Just say it.
+:<!--Custom String Trigger: Wait_Option_500012100_106-->
+:<!--Custom String Listener: Wait_Option_500012100_106-->
+:{{DIcon|Talk}} How many puppets do you have?
+::<!--Custom String Listener: TalkSentence_500012105-->
+::'''Herta:''' There are 249 in service and another 32 as backups. I can't be bothered to control their walking, so I just keep plenty around in each area.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What's in your collection here on the station?
+::<!--Custom String Listener: TalkSentence_500012107-->
+::'''Herta:''' Curios that are mildly interesting and people who are utterly boring.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You seem to own a lot of Curios. Can I have one?
+::<!--Custom String Listener: TalkSentence_500012109-->
+::'''Herta:''' Would you ask someone who's sentenced to life to share some prison time with you just because that person can?
+::'''Herta:''' If you would, it means you're funny. If you wouldn't, it means you're smart.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Why do you own this space station and how do you run it?
+::<!--Custom String Listener: TalkSentence_500012112-->
+::'''Herta:''' The IPC doesn't mind another investment and I didn't reject their offer. As for its day-to-day, you need to ask Asta.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I don't have any other questions.
+::<!--Custom String Listener: TalkSentence_500012115-->
+::'''Herta:''' Yep, yep, whatever.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100050201,
+		"Type": "submission_state_equal",
+		"Param1": 100050101,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Herta:''' Hmph, I haven't completely lost my interest in you. Ask what you gotta ask.
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 100050112-->)
+::<!--Trigger PerformanceE 100050102: Config/Level/Mission/1000501/Act/Act100050102.json-->
+::{{A|VO chapter0 6 herta 132.ogg}} '''Herta:''' Still haven't made up your mind? Fine. Since I'm interested in you, I'll answer any questions you have.
+::<!--Custom String Trigger: TalkSentence_100040301-->
+::<!--Custom String Listener: TalkSentence_100040301-->
+:;(If {{cx}}<!--SubMission Started: 200032002-->)
+:::{{DIcon|?}} There are strange bubbles at the space station...
+::::<!--Custom String Listener: TalkSentence_404001606-->
+::::'''Herta:''' Oh, this is a top secret. Outsiders can never know that I own this thing. You must sign a non-disclosure agreement first.
+::::{{DIcon|Arrow}} What's inside?
+:::::<!--Custom String Listener: TalkSentence_404001609-->
+:::::'''Herta:''' I won't tell you a thing before you sign the agreement.
+:::::<!--Custom String Trigger: TalkSentence_404001614-->
+:::::<!--Custom String Listener: TalkSentence_404001614-->
+:::::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+:::::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+:::::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+::::::<!--Custom String Listener: TalkSentence_404001617-->
+::::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+:::::{{DIcon|Arrow}} Law of the Imaginary?
+::::::<!--Custom String Listener: TalkSentence_404001619-->
+::::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+:::::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+::::::<!--Custom String Listener: TalkSentence_404001621-->
+::::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+:::::<!--Custom String Trigger: TalkSentence_404001622-->
+:::::<!--Custom String Listener: TalkSentence_404001622-->
+:::::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+:::::<!--Custom String Trigger: Wait_Option_404001602_44-->
+:::::<!--Custom String Listener: Wait_Option_404001602_44-->
+:::::{{DIcon|Talk}} Memory Bubble?
+::::::<!--Custom String Listener: TalkSentence_404001624-->
+::::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+::::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} The Garden of Recollection?
+::::::<!--Custom String Listener: TalkSentence_404001627-->
+::::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+::::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Who are the Memokeepers?
+::::::<!--Custom String Listener: TalkSentence_404001630-->
+::::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+::::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Can I touch the bubble now?
+::::::<!--Custom String Listener: TalkSentence_404001633-->
+::::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+::::::<!--Custom String Trigger: Talk_404011602-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Arrow}} Fine. I'll sign it.
+:::::<!--Custom String Listener: TalkSentence_404001611-->
+:::::'''Herta:''' Great...
+:::::<!--Custom String Trigger: TalkSentence_404001614-->
+:::::<!--Custom String Listener: TalkSentence_404001614-->
+:::::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+:::::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+:::::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+::::::<!--Custom String Listener: TalkSentence_404001617-->
+::::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+:::::{{DIcon|Arrow}} Law of the Imaginary?
+::::::<!--Custom String Listener: TalkSentence_404001619-->
+::::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+:::::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+::::::<!--Custom String Listener: TalkSentence_404001621-->
+::::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+:::::<!--Custom String Trigger: TalkSentence_404001622-->
+:::::<!--Custom String Listener: TalkSentence_404001622-->
+:::::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+:::::<!--Custom String Trigger: Wait_Option_404001602_44-->
+:::::<!--Custom String Listener: Wait_Option_404001602_44-->
+:::::{{DIcon|Talk}} Memory Bubble?
+::::::<!--Custom String Listener: TalkSentence_404001624-->
+::::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+::::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} The Garden of Recollection?
+::::::<!--Custom String Listener: TalkSentence_404001627-->
+::::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+::::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Who are the Memokeepers?
+::::::<!--Custom String Listener: TalkSentence_404001630-->
+::::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+::::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Arrow}} Can I touch the bubble now?
+::::::<!--Custom String Listener: TalkSentence_404001633-->
+::::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+::::::<!--Custom String Trigger: Talk_404011602-->
+::::::<!--Ends the current performance-->
+::::{{DIcon|Exit}} I'll consider it.
+:::::<!--Custom String Listener: TalkSentence_404001613-->
+:::::'''Herta:''' Suit yourself.
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} About Stellarons...
+::::<!--Custom String Listener: TalkSentence_100040314_1-->
+::::{{A|VO chapter0 6 herta 141.ogg}} '''Herta:''' Stellarons, huh? Ask away, I'm listening.
+::::<!--Custom String Trigger: TalkSentence_100040314-->
+::::<!--Custom String Listener: TalkSentence_100040314-->
+::::{{DIcon|Talk}} What exactly is a Stellaron?
+:::::<!--Custom String Listener: TalkSentence_100040315-->
+:::::{{A|VO chapter0 6 herta 142.ogg}} '''Herta:''' According to my research, it's a type of lifeform with a special property that tethers it to a certain Path or Aeon's power.
+:::::{{A|VO chapter0 6 herta 143.ogg}} '''Herta:''' Wherever it's located, it responds to that world's desires to advance its civilization. But, this comes at the cost of some form of disaster. The mechanism behind it is likely related to Nanook the Destruction.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you know about the Stellaron Hunters?
+:::::<!--Custom String Listener: TalkSentence_100040318-->
+:::::{{A|VO chapter0 6 herta 144.ogg}} '''Herta:''' Oh, that weird bunch. I'm satisfied with just one Stellaron, but they've scoured the universe, obtained several, and still aren't satisfied. I don't know what their true intentions are.
+:::::{{A|VO chapter0 6 herta 145.ogg}} '''Herta:''' {{Rubi|Screwllum|Genius Society #76}} went up against the Stellaron Hunters before. I heard there was a member whose hacking skills were on par with Screwllum.
+:::::{{A|VO chapter0 6 herta 146.ogg}} '''Herta:''' Being on the same level as Screwllum &mdash; who's probably the best in the universe &mdash; is nothing short of spectacular. It's beyond my abilities, computers are not my forte.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Why am I able to host the Stellaron?
+:::::<!--Custom String Listener: TalkSentence_100040322-->
+:::::{{A|VO chapter0 6 herta 147.ogg}} '''Herta:''' Ha... That I don't know. Which is why I'm gearing up to solve this mystery.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the Express...
+::::<!--Custom String Listener: TalkSentence_100040325_1-->
+::::{{A|VO chapter0 6 herta 148.ogg}} '''Herta:''' The Express? Shouldn't you be asking Himeko instead?
+::::<!--Custom String Trigger: TalkSentence_100040325-->
+::::<!--Custom String Listener: TalkSentence_100040325-->
+::::{{DIcon|Talk}} What's the Astral Express like?
+:::::<!--Custom String Listener: TalkSentence_100040326-->
+:::::{{A|VO chapter0 6 herta 149.ogg}} '''Herta:''' You mean how it looks? Like a train. Well...
+:::::{{A|VO chapter0 6 herta 150.ogg}} '''Herta:''' I was very interested in the Express for a while, and wrote a lot of papers, but forgot where I left them. Now I can't remember anything about it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you trust the Astral Express?
+:::::<!--Custom String Listener: TalkSentence_100040329-->
+:::::{{A|VO chapter0 6 herta 151.ogg}} '''Herta:''' Uh-huh.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What's your relationship with them?
+:::::<!--Custom String Listener: TalkSentence_100040331-->
+:::::{{A|VO chapter0 6 herta 152.ogg}} '''Herta:''' We've been business partners for a long time.
+:::::{{A|VO chapter0 6 herta 153.ogg}} '''Herta:''' Every once in a while, I'll need them to get me things from other planets, and they often come to me to help them solve problems.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the decision...
+::::<!--Custom String Listener: TalkSentence_100040335_1-->
+::::{{A|VO chapter0 6 herta 154.ogg}} '''Herta:''' Uh, what decision? You're gonna have to be more specific.
+::::<!--Custom String Trigger: TalkSentence_100040335-->
+::::<!--Custom String Listener: TalkSentence_100040335-->
+:::;(If {{cx}}<!--SubMission Started: 100050121-->)
+:::::{{DIcon|Talk}} Can I return to the space station?
+::::::<!--Custom String Listener: TalkSentence_100040336-->
+::::::<!--Custom String Trigger: 100050121_talk-->
+::::::{{A|VO chapter0 6 herta 155.ogg}} '''Herta:''' Of course, I'll still be here waiting for you, eh... and the space station will be waiting for you. Returning... it's not impossible.
+::::::{{A|VO chapter0 6 herta 156.ogg}} '''Herta:''' If you wanna be a researcher here, you can just ask Asta. If she's fine with it, I have no complaints.
+::::::{{A|VO chapter0 6 herta 157.ogg}} '''Herta:''' No, hold on &mdash; you have a Stellaron within you. I think it's better if you left and came back occasionally. It might be dangerous if you stay for too long...
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} So I should board the Express?
+::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Do I have any other choice?
+::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} I still have some questions...
+::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 100050121-->)
+::::;(If {{cx}}<!--SubMission Started: 100050122-->)
+::::::{{DIcon|Talk}} Can I stay at the space station?
+:::::::<!--Custom String Listener: TalkSentence_100050105-->
+:::::::<!--Custom String Trigger: 100050122_talk-->
+:::::::{{A|VO chapter0 Ag1 herta 117.ogg}} '''Herta:''' No. You're way too dangerous. I don't mind personally, but I don't want Asta and others to take the risk.
+:::::::{{A|VO chapter0 Ag1 herta 118.ogg}} '''Herta:''' You wouldn't want the Stellaron in you to hurt all the people in the space station either, right?
+:::::::{{A|VO chapter0 Ag1 herta 119.ogg}} '''Herta:''' Just come back once in a while. You will always be welcome at the space station &mdash; just don't stay for too long.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} So I should board the Express?
+:::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Return}} I still have some questions...
+:::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}<!--SubMission not Started: 100050122-->)
+:::::;(If {{cx}}<!--SubMission Started: 100050123-->)
+:::::::{{DIcon|Talk}} I really want to stay.
+::::::::<!--Custom String Listener: TalkSentence_100050109-->
+::::::::<!--Custom String Trigger: 100050123_talk-->
+::::::::{{A|VO chapter0 Ag1 herta 120.ogg}} '''Herta:''' ...You really are weird. What's so good about this place? Even I don't like staying here...
+::::::::{{A|VO chapter0 Ag1 herta 121.ogg}} '''Herta:''' Ugh. Fine. To be honest with you, I have plenty of ways to seal a mere Stellaron &mdash; You just might end up not having a lot of personal freedom.
+::::::::{{A|VO chapter0 Ag1 herta 122.ogg}} '''Herta:''' If you're so keen to stay... Fine. I'm okay with it. Go speak to Asta. She's the lead researcher. She's in charge.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} So I should board the Express?
+::::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Do I have any other choice?
+::::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Return}} I still have some questions...
+::::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}<!--SubMission not Started: 100050123-->)
+::::::;(If {{cx}}<!--SubMission Finish: 100050125-->)
+::::::::{{DIcon|Talk}} So I should board the Express?
+:::::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Return}} I still have some questions...
+:::::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::;(If {{cx}}<!--SubMission not Finish: 100050125-->)
+::::::::{{DIcon|Talk}} Can I stay at the space station?
+:::::::::<!--Custom String Listener: TalkSentence_100050113-->
+:::::::::{{A|VO chapter0 Ag1 herta 123.ogg}} '''Herta:''' As I've said, talk to Asta! She's the lead researcher. She's in charge. Go, go, go.
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Talk}} So I should board the Express?
+:::::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Return}} I still have some questions...
+:::::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let me think things over.
+::::<!--Custom String Listener: TalkSentence_100040346-->
+::::{{A|VO chapter0 6 herta 161.ogg}} '''Herta:''' Okay, suit yourself.
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Started: 200032002-->)
+:::{{DIcon|Talk}} About Herta...
+::::<!--Custom String Listener: TalkSentence_100040302_1-->
+::::{{A|VO chapter0 6 herta 133.ogg}} '''Herta:''' Me? Hmm, well, Talking about oneself is as pointless as it gets.
+::::<!--Custom String Trigger: TalkSentence_100040302-->
+::::<!--Custom String Listener: TalkSentence_100040302-->
+::::{{DIcon|Talk}} You're the master of the space station?
+:::::<!--Custom String Listener: TalkSentence_100040303-->
+:::::{{A|VO chapter0 6 herta 134.ogg}} '''Herta:''' On paper, yes. But I don't really care about this place. I built it, put some stuff in, left some people here, and let them just manage themselves.
+:::::{{A|VO chapter0 6 herta 135.ogg}} '''Herta:''' Asta's the lead researcher of the space station, so for all intents and purposes, she's the master. I reject the concept of ownership because I don't want the responsibilities that come with it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} You really are a terrible person.
+:::::<!--Custom String Listener: TalkSentence_100040306-->
+:::::{{A|VO chapter0 6 herta 136.ogg}} '''Herta:''' It doesn't matter. Who cares if others don't like me? I know I don't care. As long as I have my own value, I can do whatever I want.
+:::::{{A|VO chapter0 6 herta 137.ogg}} '''Herta:''' While you may have good character, do you have any value? Don't take that the wrong way, I'm genuinely asking you. You might have some value, I just don't know about it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What do you actually look like?
+:::::<!--Custom String Listener: TalkSentence_100040309-->
+:::::{{A|VO chapter0 6 herta 138.ogg}} '''Herta:''' Human, female, young, beautiful, attractive.
+:::::{{A|VO chapter0 6 herta 139.ogg}} '''Herta:''' Not much different from what you're seeing now. I modeled it after how I looked, back when I was a kid. It might not be identical, but I'd say maybe 70, 80 percent there?
+:::::{{A|VO chapter0 6 herta 140.ogg}} '''Herta:''' Oh, I was so precocious &mdash; all I cared about back then was solving the solitary wave problem, ignoring my precious childhood...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About Stellarons...
+::::<!--Custom String Listener: TalkSentence_100040314_1-->
+::::{{A|VO chapter0 6 herta 141.ogg}} '''Herta:''' Stellarons, huh? Ask away, I'm listening.
+::::<!--Custom String Trigger: TalkSentence_100040314-->
+::::<!--Custom String Listener: TalkSentence_100040314-->
+::::{{DIcon|Talk}} What exactly is a Stellaron?
+:::::<!--Custom String Listener: TalkSentence_100040315-->
+:::::{{A|VO chapter0 6 herta 142.ogg}} '''Herta:''' According to my research, it's a type of lifeform with a special property that tethers it to a certain Path or Aeon's power.
+:::::{{A|VO chapter0 6 herta 143.ogg}} '''Herta:''' Wherever it's located, it responds to that world's desires to advance its civilization. But, this comes at the cost of some form of disaster. The mechanism behind it is likely related to Nanook the Destruction.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you know about the Stellaron Hunters?
+:::::<!--Custom String Listener: TalkSentence_100040318-->
+:::::{{A|VO chapter0 6 herta 144.ogg}} '''Herta:''' Oh, that weird bunch. I'm satisfied with just one Stellaron, but they've scoured the universe, obtained several, and still aren't satisfied. I don't know what their true intentions are.
+:::::{{A|VO chapter0 6 herta 145.ogg}} '''Herta:''' {{Rubi|Screwllum|Genius Society #76}} went up against the Stellaron Hunters before. I heard there was a member whose hacking skills were on par with Screwllum.
+:::::{{A|VO chapter0 6 herta 146.ogg}} '''Herta:''' Being on the same level as Screwllum &mdash; who's probably the best in the universe &mdash; is nothing short of spectacular. It's beyond my abilities, computers are not my forte.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Why am I able to host the Stellaron?
+:::::<!--Custom String Listener: TalkSentence_100040322-->
+:::::{{A|VO chapter0 6 herta 147.ogg}} '''Herta:''' Ha... That I don't know. Which is why I'm gearing up to solve this mystery.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the Express...
+::::<!--Custom String Listener: TalkSentence_100040325_1-->
+::::{{A|VO chapter0 6 herta 148.ogg}} '''Herta:''' The Express? Shouldn't you be asking Himeko instead?
+::::<!--Custom String Trigger: TalkSentence_100040325-->
+::::<!--Custom String Listener: TalkSentence_100040325-->
+::::{{DIcon|Talk}} What's the Astral Express like?
+:::::<!--Custom String Listener: TalkSentence_100040326-->
+:::::{{A|VO chapter0 6 herta 149.ogg}} '''Herta:''' You mean how it looks? Like a train. Well...
+:::::{{A|VO chapter0 6 herta 150.ogg}} '''Herta:''' I was very interested in the Express for a while, and wrote a lot of papers, but forgot where I left them. Now I can't remember anything about it.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Do you trust the Astral Express?
+:::::<!--Custom String Listener: TalkSentence_100040329-->
+:::::{{A|VO chapter0 6 herta 151.ogg}} '''Herta:''' Uh-huh.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} What's your relationship with them?
+:::::<!--Custom String Listener: TalkSentence_100040331-->
+:::::{{A|VO chapter0 6 herta 152.ogg}} '''Herta:''' We've been business partners for a long time.
+:::::{{A|VO chapter0 6 herta 153.ogg}} '''Herta:''' Every once in a while, I'll need them to get me things from other planets, and they often come to me to help them solve problems.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Return}} I still have some questions...
+:::::<!--Custom String Listener: TalkSentence_100040313-->
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About the decision...
+::::<!--Custom String Listener: TalkSentence_100040335_1-->
+::::{{A|VO chapter0 6 herta 154.ogg}} '''Herta:''' Uh, what decision? You're gonna have to be more specific.
+::::<!--Custom String Trigger: TalkSentence_100040335-->
+::::<!--Custom String Listener: TalkSentence_100040335-->
+:::;(If {{cx}}<!--SubMission Started: 100050121-->)
+:::::{{DIcon|Talk}} Can I return to the space station?
+::::::<!--Custom String Listener: TalkSentence_100040336-->
+::::::<!--Custom String Trigger: 100050121_talk-->
+::::::{{A|VO chapter0 6 herta 155.ogg}} '''Herta:''' Of course, I'll still be here waiting for you, eh... and the space station will be waiting for you. Returning... it's not impossible.
+::::::{{A|VO chapter0 6 herta 156.ogg}} '''Herta:''' If you wanna be a researcher here, you can just ask Asta. If she's fine with it, I have no complaints.
+::::::{{A|VO chapter0 6 herta 157.ogg}} '''Herta:''' No, hold on &mdash; you have a Stellaron within you. I think it's better if you left and came back occasionally. It might be dangerous if you stay for too long...
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} So I should board the Express?
+::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} Do I have any other choice?
+::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Return}} I still have some questions...
+::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::;(Return to previous option selection (cloneCheckString))
+:::;(If {{cx}}<!--SubMission not Started: 100050121-->)
+::::;(If {{cx}}<!--SubMission Started: 100050122-->)
+::::::{{DIcon|Talk}} Can I stay at the space station?
+:::::::<!--Custom String Listener: TalkSentence_100050105-->
+:::::::<!--Custom String Trigger: 100050122_talk-->
+:::::::{{A|VO chapter0 Ag1 herta 117.ogg}} '''Herta:''' No. You're way too dangerous. I don't mind personally, but I don't want Asta and others to take the risk.
+:::::::{{A|VO chapter0 Ag1 herta 118.ogg}} '''Herta:''' You wouldn't want the Stellaron in you to hurt all the people in the space station either, right?
+:::::::{{A|VO chapter0 Ag1 herta 119.ogg}} '''Herta:''' Just come back once in a while. You will always be welcome at the space station &mdash; just don't stay for too long.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} So I should board the Express?
+:::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::;(Return to previous option selection (cloneCheckString))
+::::::{{DIcon|Return}} I still have some questions...
+:::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::;(Return to previous option selection (cloneCheckString))
+::::;(If {{cx}}<!--SubMission not Started: 100050122-->)
+:::::;(If {{cx}}<!--SubMission Started: 100050123-->)
+:::::::{{DIcon|Talk}} I really want to stay.
+::::::::<!--Custom String Listener: TalkSentence_100050109-->
+::::::::<!--Custom String Trigger: 100050123_talk-->
+::::::::{{A|VO chapter0 Ag1 herta 120.ogg}} '''Herta:''' ...You really are weird. What's so good about this place? Even I don't like staying here...
+::::::::{{A|VO chapter0 Ag1 herta 121.ogg}} '''Herta:''' Ugh. Fine. To be honest with you, I have plenty of ways to seal a mere Stellaron &mdash; You just might end up not having a lot of personal freedom.
+::::::::{{A|VO chapter0 Ag1 herta 122.ogg}} '''Herta:''' If you're so keen to stay... Fine. I'm okay with it. Go speak to Asta. She's the lead researcher. She's in charge.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} So I should board the Express?
+::::::::<!--Custom String Listener: TalkSentence_100040340-->
+::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Talk}} Do I have any other choice?
+::::::::<!--Custom String Listener: TalkSentence_100040343-->
+::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::::{{DIcon|Return}} I still have some questions...
+::::::::<!--Custom String Listener: TalkSentence_100040313-->
+:::::::;(Return to previous option selection (cloneCheckString))
+:::::;(If {{cx}}<!--SubMission not Started: 100050123-->)
+::::::;(If {{cx}}<!--SubMission Finish: 100050125-->)
+::::::::{{DIcon|Talk}} So I should board the Express?
+:::::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Return}} I still have some questions...
+:::::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::;(If {{cx}}<!--SubMission not Finish: 100050125-->)
+::::::::{{DIcon|Talk}} Can I stay at the space station?
+:::::::::<!--Custom String Listener: TalkSentence_100050113-->
+:::::::::{{A|VO chapter0 Ag1 herta 123.ogg}} '''Herta:''' As I've said, talk to Asta! She's the lead researcher. She's in charge. Go, go, go.
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Talk}} So I should board the Express?
+:::::::::<!--Custom String Listener: TalkSentence_100040340-->
+:::::::::{{A|VO chapter0 6 herta 158.ogg}} '''Herta:''' Well, from an objective standpoint, that's the most rational place for you to be.
+:::::::::{{A|VO chapter0 6 herta 159.ogg}} '''Herta:''' First of all, you have somewhere to live. And you'd be under their protection. Also, it'll be a long trip, so you'll have more opportunities to find a way to save yourself from the Stellaron. Lastly, if the Stellaron really explodes, you won't harm too many people around you.
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Talk}} Do I have any other choice?
+:::::::::<!--Custom String Listener: TalkSentence_100040343-->
+:::::::::{{A|VO chapter0 6 herta 160.ogg}} '''Herta:''' Oh, how should I know! It's up to you, you have so many options to choose from. Maybe jump out a hatch, or hop into the Fragmentum and see if any monsters start worshiping you?
+::::::::;(Return to previous option selection (cloneCheckString))
+::::::::{{DIcon|Return}} I still have some questions...
+:::::::::<!--Custom String Listener: TalkSentence_100040313-->
+::::::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Let me think things over.
+::::<!--Custom String Listener: TalkSentence_100040346-->
+::::{{A|VO chapter0 6 herta 161.ogg}} '''Herta:''' Okay, suit yourself.
+::::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Trigger PerformanceE 500002101: Config/Level/NPC/W0/NPC_DefaultStory_500002101.json-->
+::'''Herta:''' Hmph, I haven't completely lost my interest in you. Ask what you gotta ask.
+::<!--Ends the current performance-->
+;(Otherwise)
+::<!--Open NPC Menu-->
+:;(If {{cx}}<!--SubMission Started: 200020218-->)
+:{{DIcon}} Your fans on the station have an anonymous group chat.
+:::<!--Trigger PerformanceE 500002104: Config/Level/NPC/W0/NPC_DefaultStory_500002104.json-->
+:::'''Herta:''' Even fans need to be anonymous... Kids these days.
+:::<!--Custom String Trigger: Wait_Option_500012101_132-->
+:::<!--Custom String Listener: Wait_Option_500012101_132-->
+:::{{DIcon|Talk}} But it has been dissolved.
+::::<!--Custom String Listener: TalkSentence_500012124-->
+::::'''Herta:''' Groups with no discipline tend to collapse very easily.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I don't get why they like you.
+::::<!--Custom String Listener: TalkSentence_500012126-->
+::::'''Herta:''' If people need solid reasons to like one another, the world would be plunging into chaos. Soon they'll discover that they don't deserve to be liked.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} There was some drama in that group...
+::::<!--Custom String Listener: TalkSentence_500012128-->
+::::'''Herta:''' Why should I care? I'm not their mom.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} Just a random thing I thought I'd mention.
+::::<!--Custom String Listener: TalkSentence_500012130-->
+::::'''Herta:''' Okay.
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Mission_200020218-->
+:;(If {{cx}}<!--SubMission Started: 200021202--> and {{cx}}<!--SubMission Started: 200020218-->)
+:{{DIcon}} You know, Arlan is afraid of you.
+:::<!--Trigger PerformanceE 500002105: Config/Level/NPC/W0/NPC_DefaultStory_500002105.json-->
+:::'''Herta:''' The boy that tags along with Asta all the time? Okay, whatever.
+:::<!--Custom String Trigger: Wait_Option_500012102_153-->
+:::<!--Custom String Listener: Wait_Option_500012102_153-->
+:::{{DIcon|Talk}} He feels great pressure when you are present.
+::::<!--Custom String Listener: TalkSentence_500012144-->
+::::'''Herta:''' Doesn't matter. As long as he keeps running errands for me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} He doesn't know how to get along with you.
+::::<!--Custom String Listener: TalkSentence_500012146-->
+::::'''Herta:''' And yet he survived, no? He'll figure it out.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What do you think of Arlan?
+::::<!--Custom String Listener: TalkSentence_500012148-->
+::::'''Herta:''' Honest fella, does what he's told.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all I wanted to ask.
+::::<!--Custom String Listener: TalkSentence_500012150-->
+::::'''Herta:''' Okay.
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: 200021202_Talk-->
+:;(If {{cx}}<!--SubMission Started: 200032002-->, {{cx}}<!--SubMission Started: 200021202-->, and {{cx}}<!--SubMission Started: 200020218-->)
+:{{DIcon|?}} There are strange bubbles at the space station...
+:::<!--Trigger PerformanceE 404001602: Config/Level/Mission/4040016/Act/Act404001602.json-->
+:::'''Herta:''' Oh, this is a top secret. Outsiders can never know that I own this thing. You must sign a non-disclosure agreement first.
+:::{{DIcon|Arrow}} What's inside?
+::::<!--Custom String Listener: TalkSentence_404001609-->
+::::'''Herta:''' I won't tell you a thing before you sign the agreement.
+::::<!--Custom String Trigger: TalkSentence_404001614-->
+::::<!--Custom String Listener: TalkSentence_404001614-->
+::::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+::::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+::::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+:::::<!--Custom String Listener: TalkSentence_404001617-->
+:::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+::::{{DIcon|Arrow}} Law of the Imaginary?
+:::::<!--Custom String Listener: TalkSentence_404001619-->
+:::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+::::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+:::::<!--Custom String Listener: TalkSentence_404001621-->
+:::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+::::<!--Custom String Trigger: TalkSentence_404001622-->
+::::<!--Custom String Listener: TalkSentence_404001622-->
+::::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+::::<!--Custom String Trigger: Wait_Option_404001602_44-->
+::::<!--Custom String Listener: Wait_Option_404001602_44-->
+::::{{DIcon|Talk}} Memory Bubble?
+:::::<!--Custom String Listener: TalkSentence_404001624-->
+:::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+:::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} The Garden of Recollection?
+:::::<!--Custom String Listener: TalkSentence_404001627-->
+:::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+:::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Who are the Memokeepers?
+:::::<!--Custom String Listener: TalkSentence_404001630-->
+:::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+:::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Can I touch the bubble now?
+:::::<!--Custom String Listener: TalkSentence_404001633-->
+:::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+:::::<!--Custom String Trigger: Talk_404011602-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Arrow}} Fine. I'll sign it.
+::::<!--Custom String Listener: TalkSentence_404001611-->
+::::'''Herta:''' Great...
+::::<!--Custom String Trigger: TalkSentence_404001614-->
+::::<!--Custom String Listener: TalkSentence_404001614-->
+::::You take the paper and pen from Herta and leave your signature. The paper is made from a bizarre material, and the ink dries up the moment it touches the paper. When you move the tip of the pen away, your heart suddenly flutters.
+::::'''Herta:''' Please bear in mind that this agreement is more than a legally binding contract. You must also abide by the law of the Imaginary, which is above the social and natural laws. Not even the IPC can override it.
+::::{{DIcon|Arrow}} Why didn't you say that before I signed the agreement?
+:::::<!--Custom String Listener: TalkSentence_404001617-->
+:::::'''Herta:''' Would you have refused to sign if I'd told you that? You seem like the kind who doesn't think much about consequences. You will make a decision regardless of its price.
+::::{{DIcon|Arrow}} Law of the Imaginary?
+:::::<!--Custom String Listener: TalkSentence_404001619-->
+:::::'''Herta:''' It is the law of the universe and the world &mdash; the only unbreakable law.
+::::{{DIcon|Arrow}} Can I sign another agreement to nullify this non-disclosure agreement?
+:::::<!--Custom String Listener: TalkSentence_404001621-->
+:::::'''Herta:''' Don't worry. If I want to swindle you, you'll never see it coming.
+::::<!--Custom String Trigger: TalkSentence_404001622-->
+::::<!--Custom String Listener: TalkSentence_404001622-->
+::::'''Herta:''' Now that you have signed the agreement, you can do anything you like with my Memory Bubbles. Just make sure you are out of the sight of entities from the Garden of Recollection. In fact, I don't think there will be any trouble even if they catch you...
+::::<!--Custom String Trigger: Wait_Option_404001602_44-->
+::::<!--Custom String Listener: Wait_Option_404001602_44-->
+::::{{DIcon|Talk}} Memory Bubble?
+:::::<!--Custom String Listener: TalkSentence_404001624-->
+:::::'''Herta:''' The Garden of Recollection has ways to steal the memories of others. To preserve memories, they created a Sentiention membrane to keep the memories wrapped up in it like a bubble, making it easy to carry memories around.
+:::::'''Herta:''' They have an even more advanced technology called Light Cones. With that, they can capture more than just memories... It's a shame that I can never master the Light Cone technology without the Blessing of the Aeon Fuli.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} The Garden of Recollection?
+:::::<!--Custom String Listener: TalkSentence_404001627-->
+:::::'''Herta:''' It is a faction that worships the Aeon Fuli. In their opinion, the world is defined by everyone's perception, and memories are the proof of the world's existence. They are willing to forgo their physical bodies for that purpose.
+:::::'''Herta:''' If you ask me, the Garden of Recollection, the Architects, The Family, and the Antimatter Legion are all idiots. They obsessively worship their Aeons.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} Who are the Memokeepers?
+:::::<!--Custom String Listener: TalkSentence_404001630-->
+:::::'''Herta:''' They are members of the Garden of Recollection who travel between worlds to collect precious memories. You will run into them sooner or later. I bet the memory of a Astral Express passenger is highly sought after by them.
+:::::'''Herta:''' You could get lucky if you meet civilized Memokeepers, since they might use an amazing memory to exchange with yours. However, watch out for the Memosnatchers, the radicals in the Garden of Recollection. They won't give you a heads-up before stealing your memory.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Can I touch the bubble now?
+:::::<!--Custom String Listener: TalkSentence_404001633-->
+:::::'''Herta:''' Sure~ Just touch it with your forehead. Remember to close your eyes, or your head will start spinning.
+:::::<!--Custom String Trigger: Talk_404011602-->
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} I'll consider it.
+::::<!--Custom String Listener: TalkSentence_404001613-->
+::::'''Herta:''' Suit yourself.
+::::<!--Ends the current performance-->
+::{{DIcon|Talk}} Well...
+:::<!--Trigger PerformanceE 500002102: Config/Level/NPC/W0/NPC_DefaultStory_500002102.json-->
+:::'''Herta:''' Just say it.
+:::<!--Custom String Trigger: Wait_Option_500012100_106-->
+:::<!--Custom String Listener: Wait_Option_500012100_106-->
+:::{{DIcon|Talk}} How many puppets do you have?
+::::<!--Custom String Listener: TalkSentence_500012105-->
+::::'''Herta:''' There are 249 in service and another 32 as backups. I can't be bothered to control their walking, so I just keep plenty around in each area.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What's in your collection here on the station?
+::::<!--Custom String Listener: TalkSentence_500012107-->
+::::'''Herta:''' Curios that are mildly interesting and people who are utterly boring.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You seem to own a lot of Curios. Can I have one?
+::::<!--Custom String Listener: TalkSentence_500012109-->
+::::'''Herta:''' Would you ask someone who's sentenced to life to share some prison time with you just because that person can?
+::::'''Herta:''' If you would, it means you're funny. If you wouldn't, it means you're smart.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Why do you own this space station and how do you run it?
+::::<!--Custom String Listener: TalkSentence_500012112-->
+::::'''Herta:''' The IPC doesn't mind another investment and I didn't reject their offer. As for its day-to-day, you need to ask Asta.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I don't have any other questions.
+::::<!--Custom String Listener: TalkSentence_500012115-->
+::::'''Herta:''' Yep, yep, whatever.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_500002102-->
+::{{DIcon|Exit}} I'll stop bothering you.
+:::<!--Trigger PerformanceE 500002103: Config/Level/NPC/W0/NPC_DefaultStory_500002103.json-->
+:::'''Herta:''' Yep, yep, whatever.
+:::<!--Ends the current performance-->
+:::<!--Custom String Trigger: Talk_500002103-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Herta
+|zhs  = 黑塔
+|zht  = 黑塔
+|ja   = ヘルタ
+|ko   = 헤르타
+|es   = Herta
+|fr   = Herta
+|ru   = Герта
+|th   = Herta
+|vi   = Herta
+|de   = Herta
+|id   = Herta
+|pt   = Herta
+}}
+==Change History==
+{{Change History|TODO}}

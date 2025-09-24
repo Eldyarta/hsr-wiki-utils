@@ -1,0 +1,128 @@
+<%-- [PAGE_INFO]
+PageTitle=#Exemplary#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC Exemplary.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''Exemplary''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_63_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000167: Config/Level/Mission/5000030/Act/Act900000167.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500016801
+	]
+}</pre>
+::{{A|VO vo ambient w0 greeting zaowuJ 101.ogg}} {{A|VO vo ambient w0 greeting zaowuJ 102.ogg}} '''Exemplary:''' It's chaotic and dangerous outside. Here, it's different. You feel safe here, don't you?
+::'''Exemplary:''' That's how you're supposed to feel. I once came in and out of here seven times to defeat the bugs in return for the peace here!
+::{{DIcon|Arrow}} You're quite a good fighter.
+:::<!--Custom String Listener: TalkSentence_500016705-->
+:::'''Exemplary:''' I was born that way, and I owe that to my mother, the great Miss Ruan Mei who created me.
+::{{DIcon|Arrow}} Can you reach them?
+:::<!--Custom String Listener: TalkSentence_500016707-->
+:::'''Exemplary:''' What do you mean? I'm a life created by the honorable Miss Ruan Mei, and the size of my paws has nothing to do with my capabilities. If you know my reaction speed and hidden talents, you'll be blown away.
+::<!--Custom String Trigger: TalkSentence_500016708-->
+::<!--Custom String Listener: TalkSentence_500016708-->
+::'''Exemplary:''' Haven't you heard of me? ...I guess it's reasonable since you're an outsider.
+::'''Exemplary:''' No worries. Now, I'll give you the chance to get to know me. You can ask me anything!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000168: Config/Level/Mission/5000030/Act/Act900000168.json-->
+::'''Exemplary:''' It's chaotic and dangerous outside. Here, it's different. You feel safe here, don't you?
+::'''Exemplary:''' That's how you're supposed to feel. I once came in and out of here seven times to defeat the bugs in return for the peace here!
+::'''Exemplary:''' It's you again. Are you here to seek for my protection, or is it something else?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'd like to ask...
+::<!--Custom String Trigger: Wait_Option_900000169_676-->
+::<!--Custom String Listener: Wait_Option_900000169_676-->
+::{{DIcon|Talk}} How come you have such an unusual name?
+:::<!--Custom String Listener: TalkSentence_500016904-->
+:::'''Exemplary:''' It's the nickname everyone gave me, not my real name, which is only known to Miss Ruan Mei. Only she can call me by that.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you really fought against monsters?
+:::<!--Custom String Listener: TalkSentence_500016906-->
+:::'''Exemplary:''' There are plenty of monsters here, such as the flying bugs, the Levitating Fool, and Joseph's Spirit.
+:::'''Exemplary:''' Bahaha! They're intimidated by my reputation and dare not even look me in the eye! I can get rid of them without lifting a finger!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} (Tell it the stories of your adventure to show off)
+:::<!--Custom String Listener: TalkSentence_500016909-->
+:::You share with it how you travel to space stations and other places by riding the Astral Express.
+:::The little guy enjoys the story at first but is soon left aghast by your thrilling tales. It clutches its head and cowers next to your feet, trembling in fear.
+:::'''Exemplary:''' ...I&mdash;I think I've heard enough.
+:::'''Exemplary:''' Say no more, and I recognize that you're pretty amazing too. You must have a generous dose of courage in your system, just like me.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500016914-->
+:::'''Exemplary:''' Alright!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I have no more questions.
+::'''Exemplary:''' Alright!
+::'''Exemplary:''' You must find my gallant vibe pretty daunting, which is normal!
+::'''Exemplary:''' This isn't the first time something like this has happened. Back then, there was a monster THIS huge! It seemed intimidating, but it scuttled off the moment it saw me!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

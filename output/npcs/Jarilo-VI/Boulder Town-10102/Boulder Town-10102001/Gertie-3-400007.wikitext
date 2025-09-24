@@ -1,0 +1,1106 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gertie#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Restaurant Owner
+|image           = NPC Gertie.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Gertie''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_3_400007}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 101100113,
+		"Type": "submission_state_equal",
+		"Param1": 101100113,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 101100113: Config/Level/Mission/1011001/Act/Act101100113.json-->
+:{{A|VO chapter1 6 gertie 201.ogg}} '''Gertie:''' You're back! I've heard from Wildfire that you helped resolve that whole situation with Svarog. Amazing!
+:{{A|VO chapter1 6 gertie 202.ogg}} '''Gertie:''' It must have been exhausting. Please, have some food and get a good night's rest.
+:{{DIcon|Arrow}} I suppose it would be good to get some sleep...
+::<!--Custom String Listener: TalkSentence_101025802-->
+::<!--Custom String Trigger: Talk_101100113-->
+:{{DIcon|Exit}} Actually, I still have a lot of energy.
+::<!--Custom String Listener: TalkSentence_101025803-->
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 201090117,
+		"Type": "submission_state_equal",
+		"Param1": 201090117,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201090117: Config/Level/Mission/2010901/Act/Act201090117.json-->
+:{{A|VO Side1 hk3 gertie 101.ogg}} '''Gertie:''' Oh, what about the auction?
+:{{A|VO Side1 hk3 gertie 102.ogg}} '''Gertie:''' I wanted to go and see whether there were any gifts, toys, or dolls that my niece might like. I didn't mind if they were a little more expensive than usual, I just wanted her to be happy.
+:{{A|VO Side1 hk3 gertie 103.ogg}} '''Gertie:''' So, I got up early this morning and went to take a look around &mdash; turns out all the items were ancient relics. There was something called a Geomarrow Probe. It all sounded a little extreme... I went around the whole venue and couldn't find what I was looking for, so I came back early.
+:{{DIcon|Arrow}} They've added some new kid-friendly items.
+::<!--Custom String Listener: TalkSentence_201090606-->
+::{{A|VO Side1 hk3 hook 144.ogg}} '''Hook:''' That's right, my teddy bear is one of them! Your niece will love him!
+:{{DIcon|Arrow}} Kids today like things that are a little more "extreme"...
+::<!--Custom String Listener: TalkSentence_201090608-->
+::{{A|VO Side1 hk3 hook 145.ogg}} '''Hook:''' Huh? Y&mdash;Yeah, that's right! Hook spotted loads of cool stuff at the auction!
+::{{A|VO Side1 hk3 hook 146.ogg}} '''Hook:''' For example, there's this teddy bear called Junjun! Your niece will love him!
+:<!--Custom String Trigger: TalkSentence_201090610-->
+:<!--Custom String Listener: TalkSentence_201090610-->
+:{{A|VO Side1 hk3 gertie 104.ogg}} '''Gertie:''' Oh really? I guess I must've missed the latest additions... In that case, I'll finish up here and head back to the vagrant camp. Thanks so much for letting me know!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 201090117_F-->
+<pre>
+[
+	{
+		"ID": 301101304,
+		"Type": "submission_state_equal",
+		"Param1": 301101304,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301101304: Config/Level/Mission/3011013/Act/Act301101304.json-->
+----
+:<!--Custom String Trigger: TalkSentence_301101302-->
+:<!--Custom String Listener: TalkSentence_301101302-->
+:'''Gertie:''' Oh, it's the tableware order I placed! I thought it wouldn't be delivered until next week... Thank you for making a special trip for this.
+:'''Julian:''' Hehe, you are welcome, Ms. Gertie! Remember, you can come to The Moles for help any time!
+:'''Gertie:''' The Moles...? Ah, I see, Oleg once told me about this...
+:<!--Custom String Trigger: Wait_Option_301100304_11-->
+:<!--Custom String Listener: Wait_Option_301100304_11-->
+:{{DIcon|Arrow}} What did Oleg say?
+:<!--Custom String Listener: TalkSentence_301101306-->
+:'''Gertie:''' Oh, nothing! Since the tableware arrived so early, the renovation schedule of the hotel should also be put ahead, haha.
+:'''Gertie:''' Thank you, (Trailblazer) and Julian. I will definitely tell the guests about the good deeds of The Moles.
+:'''Julian:''' Really? Thank you, Ms. Gertie!
+----
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301101304-->
+<pre>
+[
+	{
+		"ID": 101060102,
+		"Type": "submission_state_equal",
+		"Param1": 101060106,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 101060109: Config/Level/Mission/1010601/Act/Act101060109.json-->
+:{{A|VO chapter1 4 mar7th 204 m.ogg}} {{A|VO chapter1 4 mar7th 204 f.ogg}} '''March 7th:''' What do you think, (Trailblazer)? Should we go ahead and call it a day, or walk around a bit more first?
+:{{DIcon|Arrow}} I'm tired. Let's go back to the room to rest.
+::<!--Custom String Listener: TalkSentence_101024015-->
+::<!--Custom String Trigger: Talk_101060109-->
+:{{DIcon|Exit}} Let's explore a bit more.
+::<!--Custom String Listener: TalkSentence_101024017-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_501028813-->
+:<!--Custom String Listener: TalkSentence_501028813-->
+:'''Gertie:''' Sure. I'm not too busy right now.
+:<!--Custom String Trigger: Wait_Option_5010288_25-->
+:<!--Custom String Listener: Wait_Option_5010288_25-->
+:{{DIcon|Talk}} What dishes would you recommend?
+::<!--Custom String Listener: TalkSentence_501028815-->
+::'''Gertie:''' Dishes? Check the food review book on the wardrobe and see what interests you. They are all my masterpieces!
+::'''Gertie:''' ...Well, basically everything.
+::<!--Custom String Trigger: Wait_Option_5010288_29-->
+::<!--Custom String Listener: Wait_Option_5010288_29-->
+::{{DIcon|Talk}} Wild Herb Soup?
+:::<!--Custom String Listener: TalkSentence_501028818-->
+:::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+:::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Iron Pot Braised Olm?
+:::<!--Custom String Listener: TalkSentence_501028821-->
+:::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+:::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Candied mushrooms with pepper?
+:::<!--Custom String Listener: TalkSentence_501028824-->
+:::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+:::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Rat Jelly?
+:::<!--Custom String Listener: TalkSentence_501028827-->
+:::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+:::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Any other dishes...
+:::<!--Custom String Listener: TalkSentence_501028830-->
+:::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you usually have a lot of guests?
+::<!--Custom String Listener: TalkSentence_501028832-->
+::'''Gertie:''' Many people come here for our food. But not many people stay in our hotel...
+::'''Gertie:''' After all, most of our guests are from Boulder Town. People would gather here after work to chill and chat with each other. It's pretty lively.
+::'''Gertie:''' I'm the owner and also the chef of the hotel! Many people come here because of my cooking.
+::'''Gertie:''' You outsiders are certainly very well-traveled. Let me know if you have any preferences for food, maybe I can also learn something from you!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Is this hotel under the administration of Wildfire?
+::<!--Custom String Listener: TalkSentence_501028837-->
+::'''Gertie:''' Hahaha! What do you think Wildfire is?
+::'''Gertie:''' Wildfire is just a peacekeeping organization started by people in the Underworld after the withdrawal of the Silvermane Guards. If there is a relationship between us... I would probably say they are our guests.
+::'''Gertie:''' The people who join Wildfire are all kindhearted, good folk. Oleg wouldn't let any lazy good-for-nothings join. I have a nephew who works for Wildfire, he says they are really busy every day.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can you tell me about the Goethe Hotel in Overworld?
+::<!--Custom String Listener: TalkSentence_501028841-->
+::'''Gertie:''' Sure! Let me think where I should begin with...
+::'''Gertie:''' I'll start with the Goethe family! After all, both hotels are our family business. It is said that our family was already here before the Eternal Freeze. We had a good relationship with Alisa Rand, the Supreme Guardian.
+::'''Gertie:''' Our family used to be very influential. Have you heard of the Landau family? I guess we were similar to what they are today!
+::<!--Custom String Trigger: Wait_Option_5010288_58-->
+::<!--Custom String Listener: Wait_Option_5010288_58-->
+::{{DIcon|Arrow}} Wow, a prestigious family!
+:::<!--Custom String Listener: TalkSentence_501028845-->
+:::'''Gertie:''' Hahaha, that's all in the past. It's not worth mentioning.
+::{{DIcon|Arrow}} I do know the Landau family.
+:::<!--Custom String Listener: TalkSentence_501028847-->
+:::'''Gertie:''' Really? Now you know the Goethe family too. Congratulations! Hahaha.
+::<!--Custom String Trigger: TalkSentence_501028848-->
+::<!--Custom String Listener: TalkSentence_501028848-->
+::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+::<!--Custom String Trigger: Wait_Option_5010288_65-->
+::<!--Custom String Listener: Wait_Option_5010288_65-->
+::{{DIcon|Arrow}} I didn't know it had such a long history...
+:::<!--Custom String Listener: TalkSentence_501028850-->
+:::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+:::<!--Custom String Trigger: TalkSentence_501028853-->
+:::<!--Custom String Listener: TalkSentence_501028853-->
+:::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::<!--Custom String Listener: TalkSentence_501028857-->
+:::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+:::<!--Custom String Listener: TalkSentence_501028852-->
+:::'''Gertie:''' Be patient! I was about to talk about that.
+:::<!--Custom String Trigger: TalkSentence_501028853-->
+:::<!--Custom String Listener: TalkSentence_501028853-->
+:::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::<!--Custom String Listener: TalkSentence_501028857-->
+:::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} That's all.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:{{A|VO vo ambient w1 greeting gertie 101.ogg}} {{A|VO vo ambient w1 greeting gertie 102.ogg}} '''Gertie:''' Yo, have you finished your work today? I just made a pot of mushroom soup... Take a break first and come try it later!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Gertie:''' No worries. You are now my guest since you are in the Underworld. If you need anything, just let me know!
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501028801: Config/Level/Mission/5010288/Act/Act501028801.json-->
+::<!--Custom String Trigger: TalkSentence_501028801-->
+::<!--Custom String Listener: TalkSentence_501028801-->
+::'''Gertie:''' Ah, you're back. How did it go? Are you tired? How did Oleg treat you?
+::<!--Custom String Trigger: Wait_Option_5010288_7-->
+::<!--Custom String Listener: Wait_Option_5010288_7-->
+::{{DIcon|Arrow}} He was nice to us.
+:::<!--Custom String Listener: TalkSentence_501028803-->
+:::'''Gertie:''' Haha, that's true! Although Oleg usually looks quite serious, he takes good care of everyone.
+::{{DIcon|Arrow}} My legs are so sore after running around for the whole day...
+:::<!--Custom String Listener: TalkSentence_501028805-->
+:::'''Gertie:''' Haha... With great power comes great responsibility!
+::<!--Custom String Trigger: TalkSentence_501028806-->
+::<!--Custom String Listener: TalkSentence_501028806-->
+::'''Gertie:''' Well, you must be exhausted after running around the whole day. Take a rest in your room. I'll bring the food over when it's ready!
+::<!--Custom String Trigger: Wait_Option_5010288_14-->
+::<!--Custom String Listener: Wait_Option_5010288_14-->
+::{{DIcon|Arrow}} You are very nice.
+::{{DIcon|Arrow}} Thank you.
+::<!--Custom String Listener: TalkSentence_501028809-->
+::'''Gertie:''' Hahaha, you're welcome! We are all friends now that you're staying at the Goethe Grand Hotel!
+::'''Gertie:''' Oh! I almost forgot... How do you find the bed and pillow? And what about the room temperature? Is the Geomarrow Furnace working fine?
+::'''Gertie:''' If you need anything, please let me know!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501028802: Config/Level/Mission/5010288/Act/Act501028802.json-->
+::'''Gertie:''' Yo, have you finished your work today? I just made a pot of mushroom soup... Take a break first and come try it later!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 101060106-->)
+:{{DIcon|undefined}} Rest
+::<!--Trigger PerformanceE 101060109: Config/Level/Mission/1010601/Act/Act101060109.json-->
+::{{A|VO chapter1 4 mar7th 204 m.ogg}} {{A|VO chapter1 4 mar7th 204 f.ogg}} '''March 7th:''' What do you think, (Trailblazer)? Should we go ahead and call it a day, or walk around a bit more first?
+::{{DIcon|Arrow}} I'm tired. Let's go back to the room to rest.
+:::<!--Custom String Listener: TalkSentence_101024015-->
+:::<!--Custom String Trigger: Talk_101060109-->
+::{{DIcon|Exit}} Let's explore a bit more.
+:::<!--Custom String Listener: TalkSentence_101024017-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 101100113--> and {{cx}}<!--SubMission Started: 101060106-->)
+:{{DIcon|undefined}} We would like to have a rest.
+::<!--Trigger PerformanceE 101100113: Config/Level/Mission/1011001/Act/Act101100113.json-->
+::{{A|VO chapter1 6 gertie 201.ogg}} '''Gertie:''' You're back! I've heard from Wildfire that you helped resolve that whole situation with Svarog. Amazing!
+::{{A|VO chapter1 6 gertie 202.ogg}} '''Gertie:''' It must have been exhausting. Please, have some food and get a good night's rest.
+::{{DIcon|Arrow}} I suppose it would be good to get some sleep...
+:::<!--Custom String Listener: TalkSentence_101025802-->
+:::<!--Custom String Trigger: Talk_101100113-->
+::{{DIcon|Exit}} Actually, I still have a lot of energy.
+:::<!--Custom String Listener: TalkSentence_101025803-->
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 201090117-->, {{cx}}<!--SubMission Started: 101100113-->, and {{cx}}<!--SubMission Started: 101060106-->)
+:{{DIcon|undefined}} About the auction...
+::<!--Trigger PerformanceE 201090117: Config/Level/Mission/2010901/Act/Act201090117.json-->
+::{{A|VO Side1 hk3 gertie 101.ogg}} '''Gertie:''' Oh, what about the auction?
+::{{A|VO Side1 hk3 gertie 102.ogg}} '''Gertie:''' I wanted to go and see whether there were any gifts, toys, or dolls that my niece might like. I didn't mind if they were a little more expensive than usual, I just wanted her to be happy.
+::{{A|VO Side1 hk3 gertie 103.ogg}} '''Gertie:''' So, I got up early this morning and went to take a look around &mdash; turns out all the items were ancient relics. There was something called a Geomarrow Probe. It all sounded a little extreme... I went around the whole venue and couldn't find what I was looking for, so I came back early.
+::{{DIcon|Arrow}} They've added some new kid-friendly items.
+:::<!--Custom String Listener: TalkSentence_201090606-->
+:::{{A|VO Side1 hk3 hook 144.ogg}} '''Hook:''' That's right, my teddy bear is one of them! Your niece will love him!
+::{{DIcon|Arrow}} Kids today like things that are a little more "extreme"...
+:::<!--Custom String Listener: TalkSentence_201090608-->
+:::{{A|VO Side1 hk3 hook 145.ogg}} '''Hook:''' Huh? Y&mdash;Yeah, that's right! Hook spotted loads of cool stuff at the auction!
+:::{{A|VO Side1 hk3 hook 146.ogg}} '''Hook:''' For example, there's this teddy bear called Junjun! Your niece will love him!
+::<!--Custom String Trigger: TalkSentence_201090610-->
+::<!--Custom String Listener: TalkSentence_201090610-->
+::{{A|VO Side1 hk3 gertie 104.ogg}} '''Gertie:''' Oh really? I guess I must've missed the latest additions... In that case, I'll finish up here and head back to the vagrant camp. Thanks so much for letting me know!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201090117-->
+;(If {{cx}}<!--SubMission Started: 301101304-->, {{cx}}<!--SubMission Started: 201090117-->, {{cx}}<!--SubMission Started: 101100113-->, and {{cx}}<!--SubMission Started: 101060106-->)
+:{{DIcon|undefined}} Operation Mole
+::<!--Trigger PerformanceE 301101304: Config/Level/Mission/3011013/Act/Act301101304.json-->
+::----
+::<!--Custom String Trigger: TalkSentence_301101302-->
+::<!--Custom String Listener: TalkSentence_301101302-->
+::'''Gertie:''' Oh, it's the tableware order I placed! I thought it wouldn't be delivered until next week... Thank you for making a special trip for this.
+::'''Julian:''' Hehe, you are welcome, Ms. Gertie! Remember, you can come to The Moles for help any time!
+::'''Gertie:''' The Moles...? Ah, I see, Oleg once told me about this...
+::<!--Custom String Trigger: Wait_Option_301100304_11-->
+::<!--Custom String Listener: Wait_Option_301100304_11-->
+::{{DIcon|Arrow}} What did Oleg say?
+::<!--Custom String Listener: TalkSentence_301101306-->
+::'''Gertie:''' Oh, nothing! Since the tableware arrived so early, the renovation schedule of the hotel should also be put ahead, haha.
+::'''Gertie:''' Thank you, (Trailblazer) and Julian. I will definitely tell the guests about the good deeds of The Moles.
+::'''Julian:''' Really? Thank you, Ms. Gertie!
+::----
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301101304-->
+;(If {{cx}}<!--SubMission Started: 404012102-->, {{cx}}<!--SubMission Started: 301101304-->, {{cx}}<!--SubMission Started: 201090117-->, {{cx}}<!--SubMission Started: 101100113-->, and {{cx}}<!--SubMission Started: 101060106-->)
+:{{DIcon|?}} I filled out a service rating card.
+::<!--Trigger PerformanceE 404012102: Config/Level/Mission/4040121/Act/Act404012102.json-->
+::'''Gertie:''' Really? That's great! I didn't expect a busy bee like you to have the time. Thanks a lot, really.
+::'''Gertie:''' I'll take that, then &mdash; thanks loads, (Trailblazer)! Your opinion is highly regarded, and your feedback will definitely help improve the quality of our service in this boutique hotel.
+::'''Gertie:''' Oh yeah, go ahead and have these! And I won't take no for an answer... They're just a few small things that have been building up around here, and I haven't been able to give them away. Hope to see you next time.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404012102-->
+;(If {{Mission|Hook's Gift|showChapter=0}} has been completed and {{cx}}<!--performance 501028806 has been seen-->, {{cx}}<!--SubMission Started: 404012102-->, {{cx}}<!--SubMission Started: 301101304-->, {{cx}}<!--SubMission Started: 201090117-->, {{cx}}<!--SubMission Started: 101100113-->, and {{cx}}<!--SubMission Started: 101060106-->)
+:{{DIcon}} Did you manage to buy a gift?
+::<!--Trigger PerformanceE 501028806: Config/Level/Mission/5010288/Act/Act501028806.json-->
+::'''Gertie:''' Oh, you mean at the auction! Yup, I got something. Thanks for remembering.
+::'''Gertie:''' I didn't bid on the big old bear at the time, but thought of something later &mdash; Natasha is ingenious, and loves taking care of kids. She'd have a back-up plan for me, I was sure.
+::'''Gertie:''' And sure enough, she did! Natasha sewed up a rabbit doll for me just like that, and it was so cute. I gave it to my niece, and she loved it.
+::'''Gertie:''' Ahhh, Natasha is such a good doctor. We're blessed to have someone like her here in Boulder Town!
+::'''Gertie:''' Speaking of which, Oleg is also our regular customer. "Iron Pot Braised Olm," our signature dish, is his favorite. You should try it!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028806-->
+:{{DIcon}} Can we talk...?
+::<!--Trigger PerformanceE 501028803: Config/Level/Mission/5010288/Act/Act501028803.json-->
+::<!--Custom String Trigger: TalkSentence_501028813-->
+::<!--Custom String Listener: TalkSentence_501028813-->
+::'''Gertie:''' Sure. I'm not too busy right now.
+::<!--Custom String Trigger: Wait_Option_5010288_25-->
+::<!--Custom String Listener: Wait_Option_5010288_25-->
+::{{DIcon|Talk}} What dishes would you recommend?
+:::<!--Custom String Listener: TalkSentence_501028815-->
+:::'''Gertie:''' Dishes? Check the food review book on the wardrobe and see what interests you. They are all my masterpieces!
+:::'''Gertie:''' ...Well, basically everything.
+:::<!--Custom String Trigger: Wait_Option_5010288_29-->
+:::<!--Custom String Listener: Wait_Option_5010288_29-->
+:::{{DIcon|Talk}} Wild Herb Soup?
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+::::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Iron Pot Braised Olm?
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+::::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Candied mushrooms with pepper?
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+::::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Rat Jelly?
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+::::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Any other dishes...
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you usually have a lot of guests?
+:::<!--Custom String Listener: TalkSentence_501028832-->
+:::'''Gertie:''' Many people come here for our food. But not many people stay in our hotel...
+:::'''Gertie:''' After all, most of our guests are from Boulder Town. People would gather here after work to chill and chat with each other. It's pretty lively.
+:::'''Gertie:''' I'm the owner and also the chef of the hotel! Many people come here because of my cooking.
+:::'''Gertie:''' You outsiders are certainly very well-traveled. Let me know if you have any preferences for food, maybe I can also learn something from you!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is this hotel under the administration of Wildfire?
+:::<!--Custom String Listener: TalkSentence_501028837-->
+:::'''Gertie:''' Hahaha! What do you think Wildfire is?
+:::'''Gertie:''' Wildfire is just a peacekeeping organization started by people in the Underworld after the withdrawal of the Silvermane Guards. If there is a relationship between us... I would probably say they are our guests.
+:::'''Gertie:''' The people who join Wildfire are all kindhearted, good folk. Oleg wouldn't let any lazy good-for-nothings join. I have a nephew who works for Wildfire, he says they are really busy every day.
+:::'''Gertie:''' Speaking of which, Oleg is also our regular customer. "Iron Pot Braised Olm," our signature dish, is his favorite. You should try it!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me about the Goethe Hotel in Overworld?
+:::<!--Custom String Listener: TalkSentence_501028841-->
+:::'''Gertie:''' Sure! Let me think where I should begin with...
+:::'''Gertie:''' I'll start with the Goethe family! After all, both hotels are our family business. It is said that our family was already here before the Eternal Freeze. We had a good relationship with Alisa Rand, the Supreme Guardian.
+:::'''Gertie:''' Our family used to be very influential. Have you heard of the Landau family? I guess we were similar to what they are today!
+:::<!--Custom String Trigger: Wait_Option_5010288_58-->
+:::<!--Custom String Listener: Wait_Option_5010288_58-->
+:::{{DIcon|Arrow}} Wow, a prestigious family!
+::::<!--Custom String Listener: TalkSentence_501028845-->
+::::'''Gertie:''' Hahaha, that's all in the past. It's not worth mentioning.
+:::{{DIcon|Arrow}} I do know the Landau family.
+::::<!--Custom String Listener: TalkSentence_501028847-->
+::::'''Gertie:''' Really? Now you know the Goethe family too. Congratulations! Hahaha.
+:::<!--Custom String Trigger: TalkSentence_501028848-->
+:::<!--Custom String Listener: TalkSentence_501028848-->
+:::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_65-->
+:::<!--Custom String Listener: Wait_Option_5010288_65-->
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028803-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon}} How have things been?
+::<!--Trigger PerformanceE 501028805: Config/Level/Mission/5010288/Act/Act501028805.json-->
+::'''Gertie:''' You've got great timing! Why, I just got a letter from a relative up in the Overworld. It's been years since I heard from them. Time really flies...
+::{{DIcon|Arrow}} Could you not get letters before?
+:::<!--Custom String Listener: TalkSentence_501028867-->
+:::'''Gertie:''' Yeah, ever since the Supreme Guardian blockaded the Underworlds, nobody was allowed to go back and forth between them &mdash; not even the mail.
+:::'''Gertie:''' It's been almost ten years, and I've finally received my first letter... Looks like Belobog is back, bay-bee! Check it out, my relative even said in their letter, "The Supreme Guardian is lifting the blockade soon"...
+::{{DIcon|Arrow}} What does the letter say?
+:::<!--Custom String Listener: TalkSentence_501028870-->
+:::'''Gertie:''' Ah, there's lots to go over in this letter. But besides all the family gossip, there's some big news! Check it out, they said here, "The Supreme Guardian is lifting the blockade soon"...
+::<!--Custom String Trigger: TalkSentence_501028871-->
+::<!--Custom String Listener: TalkSentence_501028871-->
+::'''Gertie:''' If that's the case, I'm gonna take a few days off, pack up my things, and go up to the Overworld to see some family! Hahaha.
+::'''Gertie:''' Ah, after all these years, I can finally go up... all these years...
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028805-->
+;(If {{cx}}<!--SubMission Finish: 101150231-->)
+:{{DIcon|Exit}} Thank you. I shouldn't keep you.
+::<!--Trigger PerformanceE 501028804: Config/Level/Mission/5010288/Act/Act501028804.json-->
+::'''Gertie:''' No worries. You are now my guest since you are in the Underworld. If you need anything, just let me know!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501028804-->
+;(Unused &mdash; Wait_Option_5010288_21)
+:<!--Custom String Listener: Wait_Option_5010288_21-->
+::{{DIcon|Arrow}} Can we talk...?
+::<!--Custom String Listener: TalkSentence_501028813-->
+::<!--Custom String Listener: TalkSentence_501028813-->
+::'''Gertie:''' Sure. I'm not too busy right now.
+::<!--Custom String Trigger: Wait_Option_5010288_25-->
+::<!--Custom String Listener: Wait_Option_5010288_25-->
+::<!--Custom String Listener: Wait_Option_5010288_25-->
+::{{DIcon|Talk}} What dishes would you recommend?
+:::<!--Custom String Listener: TalkSentence_501028815-->
+:::<!--Custom String Listener: TalkSentence_501028815-->
+:::'''Gertie:''' Dishes? Check the food review book on the wardrobe and see what interests you. They are all my masterpieces!
+:::'''Gertie:''' ...Well, basically everything.
+:::<!--Custom String Trigger: Wait_Option_5010288_29-->
+:::<!--Custom String Listener: Wait_Option_5010288_29-->
+:::<!--Custom String Listener: Wait_Option_5010288_29-->
+:::{{DIcon|Talk}} Wild Herb Soup?
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+::::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Iron Pot Braised Olm?
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+::::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Candied mushrooms with pepper?
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+::::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|undefined}} Rat Jelly?
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+::::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Any other dishes...
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Wild Herb Soup?
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+::::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Iron Pot Braised Olm?
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+::::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Candied mushrooms with pepper?
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+::::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Rat Jelly?
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+::::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Any other dishes...
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Gertie:''' Dishes? Check the food review book on the wardrobe and see what interests you. They are all my masterpieces!
+:::'''Gertie:''' ...Well, basically everything.
+:::<!--Custom String Trigger: Wait_Option_5010288_29-->
+:::<!--Custom String Listener: Wait_Option_5010288_29-->
+:::{{DIcon|Talk}} Wild Herb Soup?
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+::::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Iron Pot Braised Olm?
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+::::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Candied mushrooms with pepper?
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+::::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Rat Jelly?
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+::::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Any other dishes...
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you usually have a lot of guests?
+:::<!--Custom String Listener: TalkSentence_501028832-->
+:::<!--Custom String Listener: TalkSentence_501028832-->
+:::'''Gertie:''' Many people come here for our food. But not many people stay in our hotel...
+:::'''Gertie:''' After all, most of our guests are from Boulder Town. People would gather here after work to chill and chat with each other. It's pretty lively.
+:::'''Gertie:''' I'm the owner and also the chef of the hotel! Many people come here because of my cooking.
+:::'''Gertie:''' You outsiders are certainly very well-traveled. Let me know if you have any preferences for food, maybe I can also learn something from you!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is this hotel under the administration of Wildfire?
+:::<!--Custom String Listener: TalkSentence_501028837-->
+:::<!--Custom String Listener: TalkSentence_501028837-->
+:::'''Gertie:''' Hahaha! What do you think Wildfire is?
+:::'''Gertie:''' Wildfire is just a peacekeeping organization started by people in the Underworld after the withdrawal of the Silvermane Guards. If there is a relationship between us... I would probably say they are our guests.
+:::'''Gertie:''' The people who join Wildfire are all kindhearted, good folk. Oleg wouldn't let any lazy good-for-nothings join. I have a nephew who works for Wildfire, he says they are really busy every day.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me about the Goethe Hotel in Overworld?
+:::<!--Custom String Listener: TalkSentence_501028841-->
+:::<!--Custom String Listener: TalkSentence_501028841-->
+:::'''Gertie:''' Sure! Let me think where I should begin with...
+:::'''Gertie:''' I'll start with the Goethe family! After all, both hotels are our family business. It is said that our family was already here before the Eternal Freeze. We had a good relationship with Alisa Rand, the Supreme Guardian.
+:::'''Gertie:''' Our family used to be very influential. Have you heard of the Landau family? I guess we were similar to what they are today!
+:::<!--Custom String Trigger: Wait_Option_5010288_58-->
+:::<!--Custom String Listener: Wait_Option_5010288_58-->
+:::<!--Custom String Listener: Wait_Option_5010288_58-->
+:::{{DIcon|Arrow}} Wow, a prestigious family!
+::::<!--Custom String Listener: TalkSentence_501028845-->
+::::<!--Custom String Listener: TalkSentence_501028845-->
+::::'''Gertie:''' Hahaha, that's all in the past. It's not worth mentioning.
+::::<!--Custom String Trigger: TalkSentence_501028848-->
+::::<!--Custom String Listener: TalkSentence_501028848-->
+::::<!--Custom String Listener: TalkSentence_501028848-->
+::::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_65-->
+::::<!--Custom String Listener: Wait_Option_5010288_65-->
+::::<!--Custom String Listener: Wait_Option_5010288_65-->
+:::{{DIcon|Arrow}} I do know the Landau family.
+::::<!--Custom String Listener: TalkSentence_501028847-->
+::::<!--Custom String Listener: TalkSentence_501028847-->
+::::'''Gertie:''' Really? Now you know the Goethe family too. Congratulations! Hahaha.
+::::<!--Custom String Trigger: TalkSentence_501028848-->
+::::<!--Custom String Listener: TalkSentence_501028848-->
+::::<!--Custom String Listener: TalkSentence_501028848-->
+::::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_65-->
+::::<!--Custom String Listener: Wait_Option_5010288_65-->
+::::<!--Custom String Listener: Wait_Option_5010288_65-->
+::::{{DIcon|Arrow}} I didn't know it had such a long history...
+:::::<!--Custom String Listener: TalkSentence_501028850-->
+:::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+:::::<!--Custom String Trigger: TalkSentence_501028853-->
+:::::<!--Custom String Listener: TalkSentence_501028853-->
+:::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028857-->
+:::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028852-->
+:::::'''Gertie:''' Be patient! I was about to talk about that.
+:::::<!--Custom String Trigger: TalkSentence_501028853-->
+:::::<!--Custom String Listener: TalkSentence_501028853-->
+:::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028857-->
+:::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::::;(Return to previous option selection (cloneCheckString))
+::::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_65-->
+::::<!--Custom String Listener: Wait_Option_5010288_65-->
+::::{{DIcon|Arrow}} I didn't know it had such a long history...
+:::::<!--Custom String Listener: TalkSentence_501028850-->
+:::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+:::::<!--Custom String Trigger: TalkSentence_501028853-->
+:::::<!--Custom String Listener: TalkSentence_501028853-->
+:::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028857-->
+:::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028852-->
+:::::'''Gertie:''' Be patient! I was about to talk about that.
+:::::<!--Custom String Trigger: TalkSentence_501028853-->
+:::::<!--Custom String Listener: TalkSentence_501028853-->
+:::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028857-->
+:::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::::;(Return to previous option selection (cloneCheckString))
+::::'''Gertie:''' Really? Now you know the Goethe family too. Congratulations! Hahaha.
+::::<!--Custom String Trigger: TalkSentence_501028848-->
+::::<!--Custom String Listener: TalkSentence_501028848-->
+::::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_65-->
+::::<!--Custom String Listener: Wait_Option_5010288_65-->
+::::{{DIcon|Arrow}} I didn't know it had such a long history...
+:::::<!--Custom String Listener: TalkSentence_501028850-->
+:::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+:::::<!--Custom String Trigger: TalkSentence_501028853-->
+:::::<!--Custom String Listener: TalkSentence_501028853-->
+:::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028857-->
+:::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028852-->
+:::::'''Gertie:''' Be patient! I was about to talk about that.
+:::::<!--Custom String Trigger: TalkSentence_501028853-->
+:::::<!--Custom String Listener: TalkSentence_501028853-->
+:::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+:::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+:::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+:::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+:::::<!--Custom String Listener: Wait_Option_5010288_74-->
+:::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+:::::<!--Custom String Listener: TalkSentence_501028857-->
+:::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+:::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+:::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+::::;(Return to previous option selection (cloneCheckString))
+::;(All choices lead to the following options)
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_65-->
+:::<!--Custom String Listener: Wait_Option_5010288_65-->
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::'''Gertie:''' Hahaha, that's all in the past. It's not worth mentioning.
+:::<!--Custom String Trigger: TalkSentence_501028848-->
+:::<!--Custom String Listener: TalkSentence_501028848-->
+:::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_65-->
+:::<!--Custom String Listener: Wait_Option_5010288_65-->
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+::{{DIcon|Talk}} What dishes would you recommend?
+:::<!--Custom String Listener: TalkSentence_501028815-->
+:::'''Gertie:''' Dishes? Check the food review book on the wardrobe and see what interests you. They are all my masterpieces!
+:::'''Gertie:''' ...Well, basically everything.
+:::<!--Custom String Trigger: Wait_Option_5010288_29-->
+:::<!--Custom String Listener: Wait_Option_5010288_29-->
+:::{{DIcon|Talk}} Wild Herb Soup?
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+::::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Iron Pot Braised Olm?
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+::::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Candied mushrooms with pepper?
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+::::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Rat Jelly?
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+::::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Any other dishes...
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you usually have a lot of guests?
+:::<!--Custom String Listener: TalkSentence_501028832-->
+:::'''Gertie:''' Many people come here for our food. But not many people stay in our hotel...
+:::'''Gertie:''' After all, most of our guests are from Boulder Town. People would gather here after work to chill and chat with each other. It's pretty lively.
+:::'''Gertie:''' I'm the owner and also the chef of the hotel! Many people come here because of my cooking.
+:::'''Gertie:''' You outsiders are certainly very well-traveled. Let me know if you have any preferences for food, maybe I can also learn something from you!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is this hotel under the administration of Wildfire?
+:::<!--Custom String Listener: TalkSentence_501028837-->
+:::'''Gertie:''' Hahaha! What do you think Wildfire is?
+:::'''Gertie:''' Wildfire is just a peacekeeping organization started by people in the Underworld after the withdrawal of the Silvermane Guards. If there is a relationship between us... I would probably say they are our guests.
+:::'''Gertie:''' The people who join Wildfire are all kindhearted, good folk. Oleg wouldn't let any lazy good-for-nothings join. I have a nephew who works for Wildfire, he says they are really busy every day.
+:::'''Gertie:''' Speaking of which, Oleg is also our regular customer. "Iron Pot Braised Olm," our signature dish, is his favorite. You should try it!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me about the Goethe Hotel in Overworld?
+:::<!--Custom String Listener: TalkSentence_501028841-->
+:::'''Gertie:''' Sure! Let me think where I should begin with...
+:::'''Gertie:''' I'll start with the Goethe family! After all, both hotels are our family business. It is said that our family was already here before the Eternal Freeze. We had a good relationship with Alisa Rand, the Supreme Guardian.
+:::'''Gertie:''' Our family used to be very influential. Have you heard of the Landau family? I guess we were similar to what they are today!
+:::<!--Custom String Trigger: Wait_Option_5010288_58-->
+:::<!--Custom String Listener: Wait_Option_5010288_58-->
+:::{{DIcon|Arrow}} Wow, a prestigious family!
+::::<!--Custom String Listener: TalkSentence_501028845-->
+::::'''Gertie:''' Hahaha, that's all in the past. It's not worth mentioning.
+:::{{DIcon|Arrow}} I do know the Landau family.
+::::<!--Custom String Listener: TalkSentence_501028847-->
+::::'''Gertie:''' Really? Now you know the Goethe family too. Congratulations! Hahaha.
+:::<!--Custom String Trigger: TalkSentence_501028848-->
+:::<!--Custom String Listener: TalkSentence_501028848-->
+:::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_65-->
+:::<!--Custom String Listener: Wait_Option_5010288_65-->
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::'''Gertie:''' Sure. I'm not too busy right now.
+::<!--Custom String Trigger: Wait_Option_5010288_25-->
+::<!--Custom String Listener: Wait_Option_5010288_25-->
+::{{DIcon|Talk}} What dishes would you recommend?
+:::<!--Custom String Listener: TalkSentence_501028815-->
+:::'''Gertie:''' Dishes? Check the food review book on the wardrobe and see what interests you. They are all my masterpieces!
+:::'''Gertie:''' ...Well, basically everything.
+:::<!--Custom String Trigger: Wait_Option_5010288_29-->
+:::<!--Custom String Listener: Wait_Option_5010288_29-->
+:::{{DIcon|Talk}} Wild Herb Soup?
+::::<!--Custom String Listener: TalkSentence_501028818-->
+::::'''Gertie:''' Yes, moss in the cave is the main ingredient. It is refreshing, sour and sweet, and especially good to open your appetite. Although it doesn't look too appealing, the taste is just fine according to our customers' feedback.
+::::'''Gertie:''' However, the moss is really not easy to dig. This dish is not always available...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Iron Pot Braised Olm?
+::::<!--Custom String Listener: TalkSentence_501028821-->
+::::'''Gertie:''' Ah, not this one... look at the one below &mdash; this is the modified version! We specifically use an iron pot to braise olm meat. That way the meat becomes really tender... I learned it from a book, hahaha.
+::::'''Gertie:''' People love this dish. It should be available very soon. I can cook some for you if you are hungry.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Candied mushrooms with pepper?
+::::<!--Custom String Listener: TalkSentence_501028824-->
+::::'''Gertie:''' Oh, it's a cold dish, as an appetizer.
+::::'''Gertie:''' Can you eat spicy food? I use hammer pepper powder to enhance the flavor. Don't try this if you can't take spicy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Rat Jelly?
+::::<!--Custom String Listener: TalkSentence_501028827-->
+::::'''Gertie:''' Well... I've renamed this Flavorful Jelly! This is a specialty of Boulder Town. Highly recommend!
+::::'''Gertie:''' Don't get scared away by its original name... Hahaha.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Any other dishes...
+::::<!--Custom String Listener: TalkSentence_501028830-->
+::::'''Gertie:''' That's all for now... The rest of the dishes don't come out very nice. I'm still working on them. I'm so sorry.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you usually have a lot of guests?
+:::<!--Custom String Listener: TalkSentence_501028832-->
+:::'''Gertie:''' Many people come here for our food. But not many people stay in our hotel...
+:::'''Gertie:''' After all, most of our guests are from Boulder Town. People would gather here after work to chill and chat with each other. It's pretty lively.
+:::'''Gertie:''' I'm the owner and also the chef of the hotel! Many people come here because of my cooking.
+:::'''Gertie:''' You outsiders are certainly very well-traveled. Let me know if you have any preferences for food, maybe I can also learn something from you!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is this hotel under the administration of Wildfire?
+:::<!--Custom String Listener: TalkSentence_501028837-->
+:::'''Gertie:''' Hahaha! What do you think Wildfire is?
+:::'''Gertie:''' Wildfire is just a peacekeeping organization started by people in the Underworld after the withdrawal of the Silvermane Guards. If there is a relationship between us... I would probably say they are our guests.
+:::'''Gertie:''' The people who join Wildfire are all kindhearted, good folk. Oleg wouldn't let any lazy good-for-nothings join. I have a nephew who works for Wildfire, he says they are really busy every day.
+:::'''Gertie:''' Speaking of which, Oleg is also our regular customer. "Iron Pot Braised Olm," our signature dish, is his favorite. You should try it!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Can you tell me about the Goethe Hotel in Overworld?
+:::<!--Custom String Listener: TalkSentence_501028841-->
+:::'''Gertie:''' Sure! Let me think where I should begin with...
+:::'''Gertie:''' I'll start with the Goethe family! After all, both hotels are our family business. It is said that our family was already here before the Eternal Freeze. We had a good relationship with Alisa Rand, the Supreme Guardian.
+:::'''Gertie:''' Our family used to be very influential. Have you heard of the Landau family? I guess we were similar to what they are today!
+:::<!--Custom String Trigger: Wait_Option_5010288_58-->
+:::<!--Custom String Listener: Wait_Option_5010288_58-->
+:::{{DIcon|Arrow}} Wow, a prestigious family!
+::::<!--Custom String Listener: TalkSentence_501028845-->
+::::'''Gertie:''' Hahaha, that's all in the past. It's not worth mentioning.
+:::{{DIcon|Arrow}} I do know the Landau family.
+::::<!--Custom String Listener: TalkSentence_501028847-->
+::::'''Gertie:''' Really? Now you know the Goethe family too. Congratulations! Hahaha.
+:::<!--Custom String Trigger: TalkSentence_501028848-->
+:::<!--Custom String Listener: TalkSentence_501028848-->
+:::'''Gertie:''' After that, several scoundrels in the family lost all of our wealth. Fortunately, later on, someone revived our family business and they opened a hotel in the Underworld.
+:::<!--Custom String Trigger: Wait_Option_5010288_65-->
+:::<!--Custom String Listener: Wait_Option_5010288_65-->
+:::{{DIcon|Arrow}} I didn't know it had such a long history...
+::::<!--Custom String Listener: TalkSentence_501028850-->
+::::'''Gertie:''' True. Hundreds of years. My parents never told me the details. They just said this hotel was a legacy from my ancestors.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Then why is there another one in the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028852-->
+::::'''Gertie:''' Be patient! I was about to talk about that.
+::::<!--Custom String Trigger: TalkSentence_501028853-->
+::::<!--Custom String Listener: TalkSentence_501028853-->
+::::'''Gertie:''' As our hotel's business grew, some people wanted to expand the business to the Overworld.
+::::'''Gertie:''' That Goethe must be very talented to be able to buy a shop in the busiest area of the Administrative District! That's how the Goethe Hotel in the Overworld was started.
+::::'''Gertie:''' However, our family was divided ever since then, and now there are two separate branches in the Overworld and Underworld.
+::::<!--Custom String Trigger: Wait_Option_5010288_74-->
+::::<!--Custom String Listener: Wait_Option_5010288_74-->
+::::{{DIcon|Arrow}} Do you know Old Goethe from the Overworld?
+::::<!--Custom String Listener: TalkSentence_501028857-->
+::::'''Gertie:''' Of course! Although our family was divided, we do keep in touch. We hold family gatherings during festivals such as the Solwarm Festival.
+::::'''Gertie:''' As for the Old Goethe you mentioned... According to seniority, we are actually the same generation, hahaha!
+::::'''Gertie:''' But we haven't been able to get together since the Overworld and the Underworld were blocked. It's been many years...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

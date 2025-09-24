@@ -1,0 +1,471 @@
+<%-- [PAGE_INFO]
+PageTitle=#Peppy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Peppy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Peppy''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_87_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 500002300: Config/Level/Mission/5000023/Act/Act500002300.json-->
+::'''Peppy:''' Woof woof... Woof woof?
+::This is Asta's pet dog. It's often set to auto-walk mode, which no longer freaks the researchers out.
+::'''Peppy:''' Woof woof... Woof? Woof woof woof!
+::A cute and lively puppy. You can tell by its wagging tail that it likes you.
+::The puppy looks up at you with a certain anticipation in its eyes.
+::{{DIcon|Arrow}} Let me tease you...
+:::<!--Custom String Listener: TalkSentence_500002339-->
+:::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::{{DIcon|Talk}} (Touch its paws)
+::::<!--Custom String Listener: TalkSentence_500002341-->
+::::'''Peppy:''' Woof woof~ Woof!
+::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} (Scratch its belly)
+::::<!--Custom String Listener: TalkSentence_500002344-->
+::::'''Peppy:''' Woof...
+::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} (Pat its head)
+::::<!--Custom String Listener: TalkSentence_500002347-->
+::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} (Don't play with it)
+::::<!--Custom String Listener: TalkSentence_500002350-->
+::::It seems pretty tired. Let's just stop here for today!
+::::<!--Custom String Trigger: TalkSentence_500002352-->
+::::<!--Custom String Listener: TalkSentence_500002352-->
+::::'''Peppy:''' Woof woof!
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Just leave it alone.
+:::<!--Custom String Listener: TalkSentence_500002352-->
+:::'''Peppy:''' Woof woof!
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 500002301: Config/Level/Mission/5000023/Act/Act500002301.json-->
+::{{A|VO vo ambient w0 greeting peppy 101.ogg}} {{A|VO vo ambient w0 greeting peppy 102.ogg}} '''Peppy:''' Woof ooo... Woof woof woof? Woof woof woof~
+::The puppy looks up at you with a certain anticipation in its eyes.
+::{{DIcon|Arrow}} Play with it!
+:::<!--Custom String Listener: TalkSentence_500002339-->
+:::<!--Custom String Listener: TalkSentence_500002339-->
+:::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::{{DIcon|Talk}} (Touch its paws)
+::::<!--Custom String Listener: TalkSentence_500002341-->
+::::<!--Custom String Listener: TalkSentence_500002341-->
+::::'''Peppy:''' Woof woof~ Woof!
+::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+::::'''Peppy:''' Woof woof~ Woof!
+::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} (Scratch its belly)
+::::<!--Custom String Listener: TalkSentence_500002344-->
+::::<!--Custom String Listener: TalkSentence_500002344-->
+::::'''Peppy:''' Woof...
+::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+::::'''Peppy:''' Woof...
+::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} (Pat its head)
+::::<!--Custom String Listener: TalkSentence_500002347-->
+::::<!--Custom String Listener: TalkSentence_500002347-->
+::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} (Don't play with it)
+::::<!--Custom String Listener: TalkSentence_500002350-->
+::::<!--Custom String Listener: TalkSentence_500002350-->
+::::It seems pretty tired. Let's just stop here for today!
+::::<!--Custom String Trigger: TalkSentence_500002370-->
+::::<!--Custom String Listener: TalkSentence_500002370-->
+::::'''Peppy:''' Woof woof!
+::::<!--Ends the current performance-->
+::::It seems pretty tired. Let's just stop here for today!
+::::<!--Custom String Trigger: TalkSentence_500002352-->
+::::<!--Custom String Listener: TalkSentence_500002352-->
+::::'''Peppy:''' Woof woof!
+::::<!--Ends the current performance-->
+:::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::{{DIcon|Talk}} (Touch its paws)
+::::<!--Custom String Listener: TalkSentence_500002341-->
+::::'''Peppy:''' Woof woof~ Woof!
+::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} (Scratch its belly)
+::::<!--Custom String Listener: TalkSentence_500002344-->
+::::'''Peppy:''' Woof...
+::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} (Pat its head)
+:::::<!--Custom String Listener: TalkSentence_500002347-->
+:::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+:::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} (Pat its head)
+::::<!--Custom String Listener: TalkSentence_500002347-->
+::::'''Peppy:''' Woof woof~ Woof woof woof! Woof woof!
+::::Rubbing its fluffy pate with your palms, you can feel the sensation of its tail wagging quickly now.
+::::<!--Custom String Trigger: TalkSentence_500002339-->
+::::<!--Custom String Listener: TalkSentence_500002339-->
+::::(Peppy) looks in good spirits. This is a good opportunity to build a closer relationship with it&mdash;
+::::{{DIcon|Talk}} (Touch its paws)
+:::::<!--Custom String Listener: TalkSentence_500002341-->
+:::::'''Peppy:''' Woof woof~ Woof!
+:::::You place its soft little paws in the palms of your hand. Its warm paw pads are really squishy.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Talk}} (Scratch its belly)
+:::::<!--Custom String Listener: TalkSentence_500002344-->
+:::::'''Peppy:''' Woof...
+:::::It seems like it doesn't want to expose its belly in public. Never thought I'd find a dog that puts up a facade.
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} (Don't play with it)
+:::::<!--Custom String Listener: TalkSentence_500002350-->
+:::::It seems pretty tired. Let's just stop here for today!
+:::::<!--Custom String Trigger: TalkSentence_500002352-->
+:::::<!--Custom String Listener: TalkSentence_500002352-->
+:::::'''Peppy:''' Woof woof!
+:::::<!--Ends the current performance-->
+:::{{DIcon|Exit}} (Don't play with it)
+::::<!--Custom String Listener: TalkSentence_500002350-->
+::::It seems pretty tired. Let's just stop here for today!
+::::<!--Custom String Trigger: TalkSentence_500002352-->
+::::<!--Custom String Listener: TalkSentence_500002352-->
+::::'''Peppy:''' Woof woof!
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} (Train (Peppy))
+:::<!--Custom String Listener: TalkSentence_500002355-->
+:::As a member of the space station, even puppies have to abide by the rules of the station. So for Peppy, you decide to...
+:::<!--Custom String Trigger: Wait_Option_500002301_50-->
+:::<!--Custom String Listener: Wait_Option_500002301_50-->
+:::{{DIcon|Talk}} (Take it to visit other people)
+::::<!--Custom String Listener: TalkSentence_500002362-->
+::::'''Peppy:''' Woof oo? Woof?
+::::It doesn't understand your intent and just sits there, looking slightly overwhelmed.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} (Teach it to shake and sit)
+::::<!--Custom String Listener: TalkSentence_500002365-->
+::::'''Peppy:''' ...Woof woof? Woof woof woof! Woof!
+::::It doesn't pay your commands any attention and just looks at you in silence with a puzzling expression drawing up one side of its mouth.
+::::You check again and again to see if your eyes are deceiving you &mdash; its smile is a mix of sarcasm, indifference, disdain, and dysfunctional jaw muscles.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} (Don't train it)
+::::<!--Custom String Listener: TalkSentence_500002370-->
+::::'''Peppy:''' Woof woof!
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Just leave it alone.
+:::<!--Custom String Listener: TalkSentence_500002370-->
+:::'''Peppy:''' Woof woof!
+:::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(Unused &mdash; TalkSentence_500002328)
+:<!--Custom String Listener: TalkSentence_500002328-->
+::'''Peppy:''' Woof woof... Woof? Woof woof woof!
+:<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 23
+}</pre>
+::{{A|VO vo ambient w0 greeting peppy 101.ogg}} {{A|VO vo ambient w0 greeting peppy 102.ogg}} '''Peppy:''' Woof ooo... Woof woof woof? Woof woof woof~
+::It looks like Peppy likes the nickname that you've given him.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_500002358)
+:<!--Custom String Listener: TalkSentence_500002358-->
+::'''(Trailblazer):''' (Peppy)! (Peppy)! (Peppy)!
+::'''Peppy:''' Woof woof!
+::It seems to have fully comprehended the meaning of its new name.
+::<!--Custom String Trigger: Wait_Option_500002301_50-->
+::<!--Custom String Listener: Wait_Option_500002301_50-->
+::{{DIcon|Talk}} (Take it to visit other people)
+:::<!--Custom String Listener: TalkSentence_500002362-->
+:::'''Peppy:''' Woof oo? Woof?
+:::It doesn't understand your intent and just sits there, looking slightly overwhelmed.
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Talk}} (Teach it to shake and sit)
+:::<!--Custom String Listener: TalkSentence_500002365-->
+:::'''Peppy:''' ...Woof woof? Woof woof woof! Woof!
+:::It doesn't pay your commands any attention and just looks at you in silence with a puzzling expression drawing up one side of its mouth.
+:::You check again and again to see if your eyes are deceiving you &mdash; its smile is a mix of sarcasm, indifference, disdain, and dysfunctional jaw muscles.
+::;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Exit}} (Don't train it)
+:::<!--Custom String Listener: TalkSentence_500002370-->
+:::'''Peppy:''' Woof woof!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Peppy
+|zhs  = 佩佩
+|zht  = 佩佩
+|ja   = ペペ
+|ko   = 페피
+|es   = Peppy
+|fr   = Peppy
+|ru   = Пеппи
+|th   = Peppy
+|vi   = Peppy
+|de   = Peppy
+|id   = Peppy
+|pt   = Peppy
+}}
+==Change History==
+{{Change History|TODO}}

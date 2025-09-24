@@ -1,0 +1,202 @@
+<%-- [PAGE_INFO]
+PageTitle=#Oleg#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Leader of Wildfire
+|image           = NPC Oleg.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Oleg''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_26_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 501030501: Config/Level/Mission/5010305/Act/Act501030501.json-->
+::'''Oleg:''' Yo, we meet again, (Trailblazer)! I thought you all left to save the world or something already.
+::'''Oleg:''' Good timing, I still owe you a thank you: Thanks for getting this city back on the right track, outsider.
+::'''Oleg:''' Before this place is completely handed over to the Silvermane Guards, Wildfire still has to oversee the Underworld's daily affairs. Feel free to speak up if you need anything.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 501030502: Config/Level/Mission/5010305/Act/Act501030502.json-->
+::'''Oleg:''' Hey, we meet again, (Trailblazer)!
+::'''Oleg:''' As long as you're in the Underworld, Wildfire will always treat you with utmost hospitality. Never hesitate to speak your needs.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801412401-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::<!--Trigger PerformanceE 801412107: Config/Level/Mission/8014121/Act/Act801412107.json-->
+::'''Oleg:''' Challenge me? Alright, but I'm not very good, go easy on me, okay?
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "4"
+	}
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801412107-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has been completed)
+:{{DIcon}} That agreement was not signed.
+::<!--Trigger PerformanceE 501030505: Config/Level/Mission/5010305/Act/Act501030505.json-->
+::'''Oleg:''' Miss Bronya made a bold decision and I respect her for it, even though it was not exactly what I believed best.
+::'''Oleg:''' I imagine she must have found a better solution, right?
+::'''Oleg:''' There is actually someone in the IPC who shares the same ideals as Miss Bronya...
+::'''Oleg:''' Although it is hard to believe, resolving this situation with peaceful methods is the best-case scenario.
+::{{DIcon|Arrow}} About the clash in the Great Mine...
+::<!--Custom String Listener: TalkSentence_501030537-->
+::'''Oleg:''' You think the mine workers will be looking for trouble with the IPC? Don't worry. We've already resolved this.
+::'''Oleg:''' Those people dressed in black came to visit the Underworld later and promised that they will pay for their improper actions from before. All of the miners will be receiving a considerable sum.
+::'''Oleg:''' Though this repayment will not be made immediately, it shows the IPC's meticulous style of handling affairs. Perhaps they will genuinely become great partners.
+::'''Oleg:''' As for how far this cooperation will go, we will need to see what methods are used on both sides. I hope that Miss Bronya can handle this heavy responsibility.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501029806-->
+;(If {{cx}}<!--SubMission Started: 201160109-->)
+:{{DIcon|undefined}} I wanna ask you some things about Luka.
+::<!--Trigger PerformanceD 201160109: Config/Level/Mission/2011601/Act/Act201160109.json-->
+::----
+::{{A|VO side1 lk1 oleg 124.ogg}} '''Oleg:''' ...Oh? My student? Did something happen recently?
+::{{A|VO side1 lk1 oleg 125.ogg}} '''Oleg:''' I was wondering why he didn't come and see me after the championship match ended. Come, tell me about it.
+::{{Black Screen|You tell Oleg about everything that happened with Luka and Seele...}}
+::{{A|VO side1 lk1 oleg 126.ogg}} '''Oleg:''' Mm... that does sound a little strange. Luka usually doesn't push himself so far...
+::{{A|VO side1 lk1 oleg 127 m.ogg}} {{A|VO side1 lk1 oleg 127 f.ogg}} '''Oleg:''' ...Huh, he may be a tough guy on the surface, but he's got his secrets. Did he tell you about the origins of his mechanical arm?
+::{{DIcon|Arrow}} He mentioned something before he fought Svarog.
+:::<!--Custom String Listener: TalkSentence_216010908-->
+:::{{A|VO side1 lk1 oleg 128.ogg}} '''Oleg:''' Ah, then he probably didn't describe the scene in detail.
+::{{DIcon|Arrow}} I don't remember.
+:::<!--Custom String Listener: TalkSentence_216010910-->
+:::{{A|VO side1 lk1 oleg 129.ogg}} '''Oleg:''' Well, let me tell you about it.
+::<!--Custom String Trigger: TalkSentence_216010911-->
+::<!--Custom String Listener: TalkSentence_216010911-->
+::{{A|VO side1 lk1 oleg 130.ogg}} '''Oleg:''' That was... six? Seven years ago? I was patrolling with some comrades in the neighboring town of Moltammerville &mdash; we passed an ordinary mechanics shop.
+::{{A|VO side1 lk1 oleg 131.ogg}} '''Oleg:''' There was a serious-looking fella looking after the shop. He was probably a few years younger than me, but his hair and beard were white as snow. There was a young lad doing odd jobs &mdash; he looked pretty exhausted.
+::{{A|VO side1 lk1 oleg 132.ogg}} '''Oleg:''' Anyway, I convinced the shopkeeper to let him come with me.
+::{{A|VO side1 lk1 oleg 133.ogg}} '''Oleg:''' Luka was a fast learner. At first, I couldn't figure out if he liked what I was teaching him &mdash; fighting, weapons, strategy, etc. He didn't talk a lot &mdash; just kept his head down.
+::{{A|VO side1 lk1 oleg 134.ogg}} '''Oleg:''' Then... about a year after I took him in, Luka lost one of his arms while rescuing townsfolk from the Fragmentum in Moltammerville.
+::{{A|VO side1 lk1 oleg 135.ogg}} '''Oleg:''' ...He almost didn't make it &mdash; he was unconscious for two or three days. I sat next to his bed, anxious and guilty. Guess what he said to me after he woke up?
+::{{DIcon|Arrow}} ...Go on.
+::<!--Custom String Listener: TalkSentence_216010918-->
+::{{A|VO side1 lk1 oleg 136.ogg}} '''Oleg:''' "Master, I feel great!"
+::{{A|VO side1 lk1 oleg 137.ogg}} '''Oleg:''' He had bandages all over his body &mdash; most of his wounds hadn't healed yet... But, it was the first time he'd ever smiled at me. I still remember that expression.
+::{{DIcon|Arrow}} And the moral of the story is...?
+:::<!--Custom String Listener: TalkSentence_216010921-->
+:::{{A|VO side1 lk1 oleg 138.ogg}} '''Oleg:''' Oh, sorry, I get a little carried away when I tell this story, hahaha.
+::{{DIcon|Arrow}} Guess that kind of sums him up, huh...
+:::<!--Custom String Listener: TalkSentence_216010923-->
+:::{{A|VO side1 lk1 oleg 139.ogg}} '''Oleg:''' Can't tell from looking at him, right?
+::<!--Custom String Trigger: TalkSentence_216010924-->
+::<!--Custom String Listener: TalkSentence_216010924-->
+::{{A|VO side1 lk1 oleg 140.ogg}} '''Oleg:''' What I'm trying to say is: Luka views other people's lives as more important than his own. That's how he's always been.
+::{{A|VO side1 lk1 oleg 141.ogg}} '''Oleg:''' So when he says stuff like "this is for training" &mdash; that's probably a lie. He's hiding something from you alright.
+::{{A|VO side1 lk1 oleg 142.ogg}} '''Oleg:''' Anyway, I'm too old to be getting involved in this stuff. I'm sure you and Seele can sort this by yourselves.
+::{{A|VO side1 lk1 oleg 143.ogg}} '''Oleg:''' One thing I will ask &mdash; please try not to embarrass him too much, okay? He's the fighting champion of Boulder Town, after all &mdash; an idol for all the children. He needs to keep up that image, haha.
+::----
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_201160109-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has not been completed and {{cx}}<!--SubMission Started: 201160109-->)
+:{{DIcon}} What happened at the Corridor of Fading Echoes?
+::<!--Trigger PerformanceE 408131801: Config/Level/Mission/4081318/Act/Act408131801.json-->
+::'''Oleg:''' Oh, you're still thinking about that? What a kindhearted person, hahaha.
+::'''Oleg:''' Honestly, nothing much has changed. Every time we clear out one swarm, more monsters just pour out of the Fragmentum.
+::'''Oleg:''' But we cannot give up. As long as there's a tomorrow, we will continue with our fight.
+::'''Oleg:''' "Tomorrow" &mdash; now that's a luxury that you've won for us, (Trailblazer). We certainly won't squander it.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_408131801-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has not been completed and {{cx}}<!--SubMission Started: 201160109-->)
+:{{DIcon}} Let's talk, Oleg.
+::<!--Trigger PerformanceE 501030503: Config/Level/Mission/5010305/Act/Act501030503.json-->
+::'''Oleg:''' Oh? You've really come to just chat with me? Hahaha, fire away! I like talking to young people.
+::<!--Custom String Trigger: Wait_Option_501030501_15-->
+::<!--Custom String Listener: Wait_Option_501030501_15-->
+::{{DIcon|Talk}} What have you been up to recently?
+:::<!--Custom String Listener: TalkSentence_501030507-->
+:::'''Oleg:''' Helping Natasha calm any Underworld unrest, performing post-disaster rebuilding work &mdash; she's the brains of the outfit, and I'm the brawn. Not much difference from usual, but I'm much happier and relaxed.
+:::'''Oleg:''' Also, many younger people around me have been taking this chance to leave Boulder Town to try their luck in the Overworld. I've chatted plenty with them, to give them some of life's pointers, I guess.
+:::'''Oleg:''' You know young 'uns, it helps that they are brimming with passion. Who knows when they'll make it someday in the Overworld? At least they won't reminisce and be filled with regret.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Were you part of the Silvermane Guards?
+:::<!--Custom String Listener: TalkSentence_501030511-->
+:::'''Oleg:''' Yes, you've heard?
+:::'''Oleg:''' Those were the glory days... I don't mean to brag, but in the prime of my youth, everyone knew of my repute as "Swiftstrike Oleg."
+:::'''Oleg:''' ...No point waxing lyrical about the past though. One shouldn't be stuck in the past at my age. We should embrace the present and seize the day. Hahaha!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Wildfire's future...
+:::<!--Custom String Listener: TalkSentence_501030515-->
+:::'''Oleg:''' Realistically speaking, (Trailblazer), Wildfire will be disbanded eventually. Natasha and I have been aware of this since the day we established it.
+:::'''Oleg:''' A healthy, normal Underworld doesn't need an existence like Wildfire's. Don't worry though, even if we do disband, there'll be plenty of youngsters who will carry on the will of Wildfire.
+:::'''Oleg:''' Seele and my rowdy apprentice, they will keep fighting for their home. So long as their aspirations never change, I have nothing but high hopes for the Underworld's future. Hahaha!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Bronya is the Supreme Guardian now.
+:::<!--Custom String Listener: TalkSentence_501030519-->
+:::'''Oleg:''' Oh, that girl... I knew she was special the first time I laid eyes on her.
+:::'''Oleg:''' To a certain extent, I feel like she's just like when Cocolia was younger, and trust me, that's definitely a compliment. Except that Bronya's less glum, and more sincere.
+:::'''Oleg:''' I believe she will restore Belobog to when it was before the blockade, or perhaps even better. I mean, you all already took care of that Stellaron thing, didn't you?
+:::'''Oleg:''' A major undertaking can't be accomplished by a single person, regardless of her individual strength. It's a good thing her sincerity has touched so many, and we're all glad to be helping her.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Nice chat.
+:::<!--Custom String Listener: TalkSentence_501030524-->
+:::'''Oleg:''' Oh, leaving already? I haven't had my fill, hahaha!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030503-->
+;(If {{Mission|Future Market (II)|showChapter=0}} has not been completed and {{cx}}<!--SubMission Started: 201160109-->)
+:{{DIcon|Exit}} Goodbye, Oleg.
+::<!--Trigger PerformanceE 501030504: Config/Level/Mission/5010305/Act/Act501030504.json-->
+::'''Oleg:''' Go well, young one. Do what you all need to do. I hope we will meet again in the coming days.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_501030504-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Oleg
+|zhs  = 奥列格
+|zht  = 奧列格
+|ja   = オレグ
+|ko   = 올레그
+|es   = Oleg
+|fr   = Oleg
+|ru   = Олег
+|th   = Oleg
+|vi   = Oleg
+|de   = Oleg
+|id   = Oleg
+|pt   = Oleg
+}}
+==Change History==
+{{Change History|TODO}}

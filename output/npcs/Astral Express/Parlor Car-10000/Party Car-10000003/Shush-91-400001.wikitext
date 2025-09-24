@@ -1,0 +1,373 @@
+<%-- [PAGE_INFO]
+PageTitle=#"Shush"#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Drinksmith Robot
+|image           = NPC "Shush".png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Party Car
+|relatives       = 
+}}
+'''"Shush"''' is an NPC on [[Astral Express]], located in [[Party Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Party Car|npc_91_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503114001: Config/Level/Mission/5031140/Act/Act503114001.json-->
+::'''"Shush":''' Dear Nameless! Welcome to the Party Car, drinksmith robot Shush at your service! Would you like something to eat or drink before chatting with me about the interesting things that happened during the trip?
+::{{DIcon|Arrow}} I would like a drink.
+:::<!--Custom String Listener: TalkSentence_503114003-->
+:::'''"Shush":''' Your trust in my skills moves me!
+::{{DIcon|Arrow}} I would like to chat with you.
+:::<!--Custom String Listener: TalkSentence_503114005-->
+:::'''"Shush":''' You taking time from your busy schedule to chat truly touches me!
+::<!--Custom String Trigger: TalkSentence_503114006-->
+::<!--Custom String Listener: TalkSentence_503114006-->
+::'''"Shush":''' I've decided to upgrade your Party Car membership level to the highest tier! You might ask, "What are the benefits to the membership tier?"
+::'''"Shush":''' The answer is of course: Nothing!
+::'''"Shush":''' But just for my highest-tier members, I will provide my most handcrafted heavenly jokes. Though I have no hands for crafting, only a lever for craft cocktails. And I {{Rubi|haven't|heaven}} a soul, but a haven for the inebriated.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503114002: Config/Level/Mission/5031140/Act/Act503114002.json-->
+::'''"Shush":''' Welcome home, dear Nameless. Is there anything you need? Would you like a drink? Or maybe some snacks? Or... a delightful joke?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Get me something tasty.
+::'''"Shush":''' A rare moment of rest for the Nameless, this occasion deserves a delicious cocktail.
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"IsDialogueTarget": true
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 68,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} Let's chat.
+::'''"Shush":''' No problem, dear Nameless. As long as you are {{Rubi|idle|idol}}, I would speak to you as if you were my {{Rubi|idol|idle}}.
+::<!--Custom String Trigger: Wait_Option_503114004_40-->
+::<!--Custom String Listener: Wait_Option_503114004_40-->
+::{{DIcon|Talk}} Who created you?
+:::<!--Custom String Listener: TalkSentence_503114304-->
+:::'''"Shush":''' "A missing subcontractor, a disabled after sales service, a clueless product of the same model, a shattered him..."
+:::'''"Shush":''' Dozens of Amber Eras ago, those Intellitron cores deemed defective from an illegal armed Intellitron production line were transferred to IPC as debt collateral. IPC repurposed and repackaged them, stuck the "drinksmith robot" label on them and put them on shelves.
+:::'''"Shush":''' Most of them ended up in kitchens, charged with chef responsibilities. Only one robot, during a critical moment when its restaurant was attacked, accidentally unlocked its Intellitron core's combat module.
+:::'''"Shush":''' It turned out that its burning righteousness melted the system lock! It deftly brandished its pots, single-handedly beating back all the interstellar pirates who dined and dashed. From then on, it embarked on an adventure to punish evil and eliminate good!
+:::'''"Shush":''' ...This is the origin story my {{Rubi|previous owner|Void Archives}} created for me.
+:::'''"Shush":''' I apologize, my memory unit has been worn down by the gradual passage of time, so my earliest memories are hazy. Even the conductor only vaguely remembers it was some Nameless who created me.
+:::'''"Shush":''' But, you might imagine such a possibility: Could my past be even more magnificently dramatic than the version my previous owner created?
+:::'''"Shush":''' After all, I too am a Nameless of the Astral Express.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About your functions...
+:::<!--Custom String Listener: TalkSentence_503114313-->
+:::'''"Shush":''' My Nameless (Trailblazer), you really hit the nail on its head. I have always been contemplating this question: Created as a robot, is it the model that determines my functions, or my functions that determine my model?
+:::'''"Shush":''' The answer is obviously the latter. As a drinksmith robot, I should not be constrained by my model.
+:::'''"Shush":''' Therefore, mixing drinks, making snacks, collecting the Nameless' food data and dining preferences and generating suitable menus &mdash; apart from these jobs, I also regularly update my own core algorithms and download update packs.
+:::'''"Shush":''' For example, I previously installed the "Official Enemy Elimination Algorithm Green Update Pack &mdash; No Installation Required" that can accurately identify multiple enemy targets thousands of kilometers away, quickly compute EM pulse cannon trajectory, and execute suppression fire.
+:::'''"Shush":''' But I have no tele-focus artificial eyes, nor fire control radar, much less electromagnetic pulse cannons. I didn't even detect and eliminate the worm in the pack beforehand. I was lucky I didn't turn dumber.
+:::'''"Shush":''' It appears that I am more suited to be a drinksmith robot.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About your previous owner...
+:::<!--Custom String Listener: TalkSentence_503114320-->
+:::'''"Shush":''' Dear Nameless, I assume you might be somewhat aware of the training methods with AI realism modules?
+:::'''"Shush":''' My {{Rubi|previous owner|Void Archives}} found me in the cargo carriage, all beat-up. After finishing repairs on me, I followed him ever since.
+:::'''"Shush":''' I learned about the world from the languages and behavioral data he collected. Which is why, to this day, I am ever grateful to him.
+:::'''"Shush":''' It was strange that he always muttered to himself: "Having a robot that resembles yourself is truly an interesting experience." Perhaps, one day, I might also use my own data to train a robot?
+:::'''"Shush":''' And this robot, will use its own data to train a new robot... Oh, how interesting that would be!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About your name...
+:::<!--Custom String Listener: TalkSentence_503114326-->
+:::'''"Shush":''' My name, is the last thing Lady Himeko said to my {{Rubi|previous owner|Void Archives}}.
+:::'''"Shush":''' One can easily visualize Lady Himeko's wrath from my name &mdash; I really wish she had said something else that day! "Farewell," "Goodbye forever," "Nevermore," "Peace be with you," something like that.
+:::'''"Shush":''' If those don't work, something like "Ironblood Titan," "Photon Wheel 12000" or "Divine Metal Mech," I would have accepted those as well.
+:::'''"Shush":''' I know you are very curious as to what exactly happened. I apologize that I am unable to explain the whole incident to you. It might be better for you to ask him yourself when you meet him.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Nah, I've got better stuff to do.
+:::<!--Custom String Listener: TalkSentence_503114331-->
+:::'''"Shush":''' Goodbye, dear Nameless. Have a safe voyage.
+:::<!--Ends the current performance-->
+:{{DIcon}} Tell me some witty jokes.
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114402,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114403,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114404,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114405,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114406,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114407,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114408,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114409,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114410,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114411,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114412,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114413,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114414,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114415,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114416,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114417,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114418,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114419,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114420,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114421,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114422,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114423,
+					"ProtectTime": 0
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114424,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114425,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114426,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114427,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114428,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114429,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114430,
+					"ProtectTime": 0
+				},
+				{
+					"TextSpeed": 0,
+					"TalkSentenceID": 503114431,
+					"ProtectTime": 0
+				}
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} Nah, I've got better stuff to do.
+::'''"Shush":''' Goodbye, dear Nameless. Have a safe voyage.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = "Shush"
+|zhs  = 「闭嘴」
+|zht  = 「閉嘴」
+|ja   = 「シャラップ」
+|ko   = 「닥쳐」
+|es   = Chitón
+|fr   = «&nbsp;Thésée Voo&nbsp;»
+|ru   = Цыц
+|th   = "ชู่ว"
+|vi   = "Im Miệng"
+|de   = „Klappe“
+|id   = "Bacot"
+|pt   = Shiu
+}}
+==Change History==
+{{Change History|TODO}}

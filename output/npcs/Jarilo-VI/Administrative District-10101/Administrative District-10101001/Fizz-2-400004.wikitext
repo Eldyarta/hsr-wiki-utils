@@ -1,0 +1,401 @@
+<%-- [PAGE_INFO]
+PageTitle=#Fizz#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Book Merchant
+|image           = NPC Fizz.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Fizz''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_2_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301140202,
+		"Type": "submission_state_equal",
+		"Param1": 301140202,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301140202: Config/Level/Mission/3011402/Act/Act301140202.json-->
+:'''Fizz:''' Tamila? You mean the musical actress?
+:'''Fizz:''' Sorry, I'm not into musicals and don't know any celebs. However, she certainly made an impression on me...
+:'''Fizz:''' Some time back, she kept coming over to ask if there was any novel similar to ''Evening Ember at the Goethe Hotel''.
+:'''Fizz:''' I even read this book so I could make some suggestions for her... It's an excerpt from an unfinished romance novel.
+:'''Fizz:''' She said that she loves this book, and I still remember how she said it. "It's such a blessing to read this book over and over again in a cozy warm bedroom with my flowers."
+:'''Fizz:''' Unfortunately, the few books I recommended to her, she doesn't seem to be satisfied with them.
+:'''Fizz:''' But that's pretty common... At some point, everyone finds that one book that is irreplaceable. Sometimes it has nothing to do with the book, but rather the reader's state of mind.
+:'''Fizz:''' If there's nothing else, I'll get back to my book. See you later.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_301140202_01-->
+:<!--Custom String Trigger: TalkSentence_501027303-->
+:<!--Custom String Listener: TalkSentence_501027303-->
+:'''Fizz:''' I'll be here reading. Let me know when you've made your selections.
+:<!--Custom String Trigger: TalkSentence_BookShop-->
+:<!--Custom String Listener: TalkSentence_BookShop-->
+<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 3,
+	"TaskID": []
+}</pre>
+:<!--Ends the current performance-->
+;(Unused &mdash; ALL_TALK_END)
+:<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_501027305-->
+:<!--Custom String Listener: TalkSentence_501027305-->
+:'''Fizz:''' Alright. Let's hear it. What do you want to chat about?
+:<!--Custom String Trigger: Wait_Option_5010273_12-->
+:<!--Custom String Listener: Wait_Option_5010273_12-->
+:{{DIcon|Talk}} How's business?
+::<!--Custom String Listener: TalkSentence_501027307-->
+::'''Fizz:''' Not bad. Belobog has a lot of people who love to read.
+::'''Fizz:''' But it would be nice if everyone paid for the books they read...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Do you have any recommendations?
+::<!--Custom String Listener: TalkSentence_501027310-->
+::'''Fizz:''' You came to the right person. What kind of books do you like?
+::<!--Custom String Trigger: Wait_Option_5010273_18-->
+::<!--Custom String Listener: Wait_Option_5010273_18-->
+::{{DIcon|Arrow}} I'd like to read some fantasy.
+:::<!--Custom String Listener: TalkSentence_501027312-->
+:::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I like reading science fiction.
+:::<!--Custom String Listener: TalkSentence_501027314-->
+:::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} I love mystery novels.
+:::<!--Custom String Listener: TalkSentence_501027316-->
+:::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I'll leave you to your work.
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100005905,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Fizz:''' Lately? I've been doing a lot of reading. I'm almost done reading all the books I have in stock... Maybe I'll need to get some new books in?
+:{{DIcon|Arrow}} So, you've been getting new stock to give yourself things to read...
+::<!--Custom String Listener: TalkSentence_501027324-->
+::'''Fizz:''' Hehe. I just ask publishers for advanced copies of books. I have high standards when it comes to content, so if a book can't satisfy me, then they shouldn't even think about putting it on the market.
+::'''Fizz:''' If an advanced copy is okay, I'll tell the publisher I want to place an order for that book. Then I'll officially put it on sale for the general public. That's how I sell books!
+::{{DIcon|Arrow}} You're just taking advantage of your position...
+:::<!--Custom String Listener: TalkSentence_501027327-->
+:::'''Fizz:''' Oh... I mean, when you put it that way, I can't say that you're wrong.
+:::'''Fizz:''' There's some content out there that tells me a publisher is churning out books without any regard to quality... I suspect that the publisher has a lazy editor. From my perspective, I'm doing the reader a solid!
+:::<!--Custom String Trigger: TalkSentence_501027331-->
+::{{DIcon|Arrow}} Have you heard any other news?
+:{{DIcon|Arrow}} Have you heard any other news?
+:<!--Custom String Listener: TalkSentence_501027331-->
+:'''Fizz:''' Ah. Well... have you heard? Supposedly, there's a chance that the Tale of the Winterlands can be openly sold again!
+:'''Fizz:''' That book series is simply fantastic. It was such a shame that it was banned before... Are you a Tales fan? I've been keeping up with all the news about it. If I hear any updates, I'll be sure to tell you right away!
+:<!--Ends the current performance-->
+:'''Fizz:''' ...Ah! Sorry, I was so caught up in my reading that I didn't notice you. Do you need help with some books?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501027301: Config/Level/Mission/5010273/Act/Act501027301.json-->
+::<!--Custom String Trigger: TalkSentence_501027301-->
+::<!--Custom String Listener: TalkSentence_501027301-->
+::'''Fizz:''' Hmm... I don't think I've met you before. Is this your first time visiting the bookstore?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000034: Config/Level/NPC/W1/NPC_DefaultStory_100005901.json-->
+::'''Fizz:''' ...Ah! Sorry, I was so caught up in my reading that I didn't notice you. Do you need help with some books?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301140202-->)
+:{{DIcon|undefined}} About Tamila...
+::<!--Trigger PerformanceE 301140202: Config/Level/Mission/3011402/Act/Act301140202.json-->
+::'''Fizz:''' Tamila? You mean the musical actress?
+::'''Fizz:''' Sorry, I'm not into musicals and don't know any celebs. However, she certainly made an impression on me...
+::'''Fizz:''' Some time back, she kept coming over to ask if there was any novel similar to ''Evening Ember at the Goethe Hotel''.
+::'''Fizz:''' I even read this book so I could make some suggestions for her... It's an excerpt from an unfinished romance novel.
+::'''Fizz:''' She said that she loves this book, and I still remember how she said it. "It's such a blessing to read this book over and over again in a cozy warm bedroom with my flowers."
+::'''Fizz:''' Unfortunately, the few books I recommended to her, she doesn't seem to be satisfied with them.
+::'''Fizz:''' But that's pretty common... At some point, everyone finds that one book that is irreplaceable. Sometimes it has nothing to do with the book, but rather the reader's state of mind.
+::'''Fizz:''' If there's nothing else, I'll get back to my book. See you later.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_301140202_01-->
+;(If {{cx}}<!--SubMission Started: 301140202-->)
+:{{DIcon|Shop}} What books do you have?
+::<!--Custom String Trigger: TalkSentence_501027303-->
+::<!--Custom String Listener: TalkSentence_501027303-->
+::'''Fizz:''' I'll be here reading. Let me know when you've made your selections.
+::<!--Custom String Trigger: TalkSentence_BookShop-->
+::<!--Custom String Listener: TalkSentence_BookShop-->
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 3,
+	"TaskID": []
+}</pre>
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 301140202-->)
+:{{DIcon}} Can we talk...?
+::<!--Custom String Trigger: TalkSentence_501027305-->
+::<!--Custom String Listener: TalkSentence_501027305-->
+::'''Fizz:''' Alright. Let's hear it. What do you want to chat about?
+::<!--Custom String Trigger: Wait_Option_5010273_12-->
+::<!--Custom String Listener: Wait_Option_5010273_12-->
+::{{DIcon|Talk}} How's business?
+:::<!--Custom String Listener: TalkSentence_501027307-->
+:::'''Fizz:''' Not bad. Belobog has a lot of people who love to read.
+:::'''Fizz:''' But it would be nice if everyone paid for the books they read...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any recommendations?
+:::<!--Custom String Listener: TalkSentence_501027310-->
+:::'''Fizz:''' You came to the right person. What kind of books do you like?
+:::<!--Custom String Trigger: Wait_Option_5010273_18-->
+:::<!--Custom String Listener: Wait_Option_5010273_18-->
+:::{{DIcon|Arrow}} I'd like to read some fantasy.
+::::<!--Custom String Listener: TalkSentence_501027312-->
+::::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I like reading science fiction.
+::::<!--Custom String Listener: TalkSentence_501027314-->
+::::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I love mystery novels.
+::::<!--Custom String Listener: TalkSentence_501027316-->
+::::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll leave you to your work.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 301140202-->)
+:{{DIcon}} How have things been?
+::'''Fizz:''' Lately? I've been doing a lot of reading. I'm almost done reading all the books I have in stock... Maybe I'll need to get some new books in?
+::{{DIcon|Arrow}} So, you've been getting new stock to give yourself things to read...
+:::<!--Custom String Listener: TalkSentence_501027324-->
+:::'''Fizz:''' Hehe. I just ask publishers for advanced copies of books. I have high standards when it comes to content, so if a book can't satisfy me, then they shouldn't even think about putting it on the market.
+:::'''Fizz:''' If an advanced copy is okay, I'll tell the publisher I want to place an order for that book. Then I'll officially put it on sale for the general public. That's how I sell books!
+:::{{DIcon|Arrow}} You're just taking advantage of your position...
+::::<!--Custom String Listener: TalkSentence_501027327-->
+::::'''Fizz:''' Oh... I mean, when you put it that way, I can't say that you're wrong.
+::::'''Fizz:''' There's some content out there that tells me a publisher is churning out books without any regard to quality... I suspect that the publisher has a lazy editor. From my perspective, I'm doing the reader a solid!
+::::<!--Custom String Trigger: TalkSentence_501027331-->
+:::{{DIcon|Arrow}} Have you heard any other news?
+::{{DIcon|Arrow}} Have you heard any other news?
+::<!--Custom String Listener: TalkSentence_501027331-->
+::'''Fizz:''' Ah. Well... have you heard? Supposedly, there's a chance that the Tale of the Winterlands can be openly sold again!
+::'''Fizz:''' That book series is simply fantastic. It was such a shame that it was banned before... Are you a Tales fan? I've been keeping up with all the news about it. If I hear any updates, I'll be sure to tell you right away!
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 301140202-->)
+:{{DIcon|Exit}} I should stop bothering you now.
+::<!--Ends the current performance-->
+;(Unused &mdash; Wait_Option_5010273_7)
+:<!--Custom String Listener: Wait_Option_5010273_7-->
+::{{DIcon|Arrow}} What books do you have?
+:::<!--Custom String Listener: TalkSentence_501027303-->
+:::<!--Custom String Listener: TalkSentence_501027303-->
+:::'''Fizz:''' I'll be here reading. Let me know when you've made your selections.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::<!--Ends the current performance-->
+:::'''Fizz:''' I'll be here reading. Let me know when you've made your selections.
+:::<!--Custom String Trigger: TalkSentence_BookShop-->
+:::<!--Custom String Listener: TalkSentence_BookShop-->
+::<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 3,
+	"TaskID": []
+}</pre>
+:::<!--Ends the current performance-->
+::{{DIcon|Arrow}} Can we talk...?
+:::<!--Custom String Listener: TalkSentence_501027305-->
+:::<!--Custom String Listener: TalkSentence_501027305-->
+:::'''Fizz:''' Alright. Let's hear it. What do you want to chat about?
+:::<!--Custom String Trigger: Wait_Option_5010273_12-->
+:::<!--Custom String Listener: Wait_Option_5010273_12-->
+:::<!--Custom String Listener: Wait_Option_5010273_12-->
+:::{{DIcon|Talk}} How's business?
+::::<!--Custom String Listener: TalkSentence_501027307-->
+::::<!--Custom String Listener: TalkSentence_501027307-->
+::::'''Fizz:''' Not bad. Belobog has a lot of people who love to read.
+::::'''Fizz:''' But it would be nice if everyone paid for the books they read...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any recommendations?
+::::<!--Custom String Listener: TalkSentence_501027310-->
+::::<!--Custom String Listener: TalkSentence_501027310-->
+::::'''Fizz:''' You came to the right person. What kind of books do you like?
+::::<!--Custom String Trigger: Wait_Option_5010273_18-->
+::::<!--Custom String Listener: Wait_Option_5010273_18-->
+::::<!--Custom String Listener: Wait_Option_5010273_18-->
+::::{{DIcon|Arrow}} I'd like to read some fantasy.
+:::::<!--Custom String Listener: TalkSentence_501027312-->
+:::::<!--Custom String Listener: TalkSentence_501027312-->
+:::::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I like reading science fiction.
+:::::<!--Custom String Listener: TalkSentence_501027314-->
+:::::<!--Custom String Listener: TalkSentence_501027314-->
+:::::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I love mystery novels.
+:::::<!--Custom String Listener: TalkSentence_501027316-->
+:::::<!--Custom String Listener: TalkSentence_501027316-->
+:::::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I'd like to read some fantasy.
+:::::<!--Custom String Listener: TalkSentence_501027312-->
+:::::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I like reading science fiction.
+:::::<!--Custom String Listener: TalkSentence_501027314-->
+:::::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I love mystery novels.
+:::::<!--Custom String Listener: TalkSentence_501027316-->
+:::::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+::::;(Return to previous option selection (cloneCheckString))
+::::'''Fizz:''' You came to the right person. What kind of books do you like?
+::::<!--Custom String Trigger: Wait_Option_5010273_18-->
+::::<!--Custom String Listener: Wait_Option_5010273_18-->
+::::{{DIcon|Arrow}} I'd like to read some fantasy.
+:::::<!--Custom String Listener: TalkSentence_501027312-->
+:::::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I like reading science fiction.
+:::::<!--Custom String Listener: TalkSentence_501027314-->
+:::::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I love mystery novels.
+:::::<!--Custom String Listener: TalkSentence_501027316-->
+:::::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to your work.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+::::<!--Ends the current performance-->
+:::{{DIcon|Talk}} How's business?
+::::<!--Custom String Listener: TalkSentence_501027307-->
+::::'''Fizz:''' Not bad. Belobog has a lot of people who love to read.
+::::'''Fizz:''' But it would be nice if everyone paid for the books they read...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any recommendations?
+::::<!--Custom String Listener: TalkSentence_501027310-->
+::::'''Fizz:''' You came to the right person. What kind of books do you like?
+::::<!--Custom String Trigger: Wait_Option_5010273_18-->
+::::<!--Custom String Listener: Wait_Option_5010273_18-->
+::::{{DIcon|Arrow}} I'd like to read some fantasy.
+:::::<!--Custom String Listener: TalkSentence_501027312-->
+:::::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I like reading science fiction.
+:::::<!--Custom String Listener: TalkSentence_501027314-->
+:::::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I love mystery novels.
+:::::<!--Custom String Listener: TalkSentence_501027316-->
+:::::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to your work.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:::'''Fizz:''' Alright. Let's hear it. What do you want to chat about?
+:::<!--Custom String Trigger: Wait_Option_5010273_12-->
+:::<!--Custom String Listener: Wait_Option_5010273_12-->
+:::{{DIcon|Talk}} How's business?
+::::<!--Custom String Listener: TalkSentence_501027307-->
+::::'''Fizz:''' Not bad. Belobog has a lot of people who love to read.
+::::'''Fizz:''' But it would be nice if everyone paid for the books they read...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Do you have any recommendations?
+::::<!--Custom String Listener: TalkSentence_501027310-->
+::::'''Fizz:''' You came to the right person. What kind of books do you like?
+::::<!--Custom String Trigger: Wait_Option_5010273_18-->
+::::<!--Custom String Listener: Wait_Option_5010273_18-->
+::::{{DIcon|Arrow}} I'd like to read some fantasy.
+:::::<!--Custom String Listener: TalkSentence_501027312-->
+:::::'''Fizz:''' Fantasy...? You'll love this one. It's about a traveler from a different world who is on a journey to find their family. It's very popular among young people... I loved it!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I like reading science fiction.
+:::::<!--Custom String Listener: TalkSentence_501027314-->
+:::::'''Fizz:''' Science fiction...? Would you like to try reading a story about a group traveling by steam train through the cosmos to explore interstellar civilizations? This book is widely acclaimed!
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Arrow}} I love mystery novels.
+:::::<!--Custom String Listener: TalkSentence_501027316-->
+:::::'''Fizz:''' I'm also a fan of mystery novels... What do you think about this one? It's about a young girl, Detective Anraku, and her associates, solving strange cases and uncovering hidden truths. It isn't exactly a hit but it's quality writing.
+::::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} I'll leave you to your work.
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Fizz
+|zhs  = 菲丝
+|zht  = 菲絲
+|ja   = フェス
+|ko   = 피즈
+|es   = Fizz
+|fr   = Fizz
+|ru   = Физз
+|th   = Fizz
+|vi   = Fizz
+|de   = Fizz
+|id   = Fizz
+|pt   = Fizz
+}}
+==Change History==
+{{Change History|TODO}}

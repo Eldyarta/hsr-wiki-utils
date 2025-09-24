@@ -1,0 +1,116 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cyrones#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Wizened Priest
+|image           = NPC Cyrones.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Lightless Chapel" Dawncloud
+|relatives       = 
+}}
+'''Cyrones''' is an NPC on [[Amphoreus]], located in [["Lightless Chapel" Dawncloud]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Lightless Chapel" Dawncloud|npc_145_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504091001: Config/Level/Mission/5040910/Act/Act504091001.json-->
+::'''Cyrones:''' {{Rubi|Kephale|Worldbearing Titan}}, answer cries of your people! Why have you left us in darkness? I have offered I have offered, prayed day and night... but where are you now?
+::'''Cyrones:''' Another lost pilgrim? No, no! Haha, just another forsaken soul, cast aside like me!
+::{{DIcon|Arrow}} Are you alright? You seem agitated.
+:::<!--Custom String Listener: TalkSentence_504091004-->
+:::'''Cyrones:''' Alright? Ha! What could possibly be wrong? I've only been abandoned by the Titan I've devoted my entire life to!
+:::<!--Custom String Trigger: TalkSentence_504091009-->
+:::<!--Custom String Listener: TalkSentence_504091009-->
+:::'''Cyrones:''' The irony! Those faithful followers... risking their lives to pull me from beneath the fallen statue, shouting "Save the high priest."
+:::'''Cyrones:''' How absurd! If {{Rubi|Kephale|Worldbearing Titan}} truly held divine power, why would mortal hands be needed to save me?
+:::'''Cyrones:''' {{Rubi|Kephale|Worldbearing Titan}}, why have you deserted us! How can you stay silent!
+::{{DIcon|Arrow}} You're a priest of Kephale, aren't you?
+:::<!--Custom String Listener: TalkSentence_504091006-->
+:::'''Cyrones:''' Oh? You've heard my preaching? Then you must remember how often I stressed the importance of "observing the rituals."
+:::<!--Custom String Trigger: TalkSentence_504091009-->
+:::<!--Custom String Listener: TalkSentence_504091009-->
+:::'''Cyrones:''' The irony! Those faithful followers... risking their lives to pull me from beneath the fallen statue, shouting "Save the high priest."
+:::'''Cyrones:''' How absurd! If {{Rubi|Kephale|Worldbearing Titan}} truly held divine power, why would mortal hands be needed to save me?
+:::'''Cyrones:''' {{Rubi|Kephale|Worldbearing Titan}}, why have you deserted us! How can you stay silent!
+::{{DIcon|Exit}} I'm just passing by. I'll leave you now.
+:::<!--Custom String Listener: TalkSentence_504091008-->
+:::'''Cyrones:''' Go then, go! Just as {{Rubi|Kephale|Worldbearing Titan}} abandoned us all.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504091002: Config/Level/Mission/5040910/Act/Act504091002.json-->
+::'''Cyrones:''' Why desert us! Why stay silent&mdash; You again? What are you doing here, looking for the missing Titan like me?
+::<!--Custom String Trigger: Wait_Option_504091002_27-->
+::<!--Custom String Listener: Wait_Option_504091002_27-->
+::{{DIcon|Talk}} What's really happened to Kephale?
+:::<!--Custom String Listener: TalkSentence_504091103-->
+:::'''Cyrones:''' When the calamity struck, I prayed to {{Rubi|Kephale|Worldbearing Titan}}, offering my most precious collections as sacrifices, but all I got in return... was a crumbling statue and silence.
+:::'''Cyrones:''' The followers risked their lives to rescue me, shouting "Save the high priest." How absurd... what's the point of saving a priest who can't even get his god to answer?
+:::'''Cyrones:''' Since then, neither I, my fellow priests, nor any followers have heard anything from them. What does this mean? Have they abandoned us... or has something happened to them? I simply don't know...
+:::'''Cyrones:''' Those who maintain their faith in {{Rubi|Kephale|Worldbearing Titan}}... they insist this is just a test, that Kephale never left... such unwavering belief, and I had the audacity to mock their innocence.
+:::'''Cyrones:''' There was a time when I preached before the Council of Elders about ritual power, demanding others follow my guidance. Now all I have are ruins and endless questions...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} So what's your plan now?
+:::<!--Custom String Listener: TalkSentence_504091109-->
+:::'''Cyrones:''' Plans? What plans are left for these old bones? I wish I could simply walk away, but the faithful saved me from the temple. I can't abandon them as {{Rubi|Kephale|Worldbearing Titan}} abandoned us.
+:::'''Cyrones:''' If they wish to continue their prayers, I'll perform the rituals. As for responses... bah! These followers need my comfort as well. For now, this is our only course.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Maybe I should leave you now.
+:::<!--Custom String Listener: TalkSentence_504091112-->
+:::'''Cyrones:''' Go then, go! Just as {{Rubi|Kephale|Worldbearing Titan}} abandoned us all.
+:::'''Cyrones:''' If you ever get a response from the Worldbearing Titan, tell them this &mdash; Cyrones still waits for their answer. We deserve an explanation!
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cyrones
+|zhs  = 塞若涅斯
+|zht  = 塞若涅斯
+|ja   = セロネス
+|ko   = 사이로네스
+|es   = Cícones
+|fr   = Cyron
+|ru   = Киронес
+|th   = Cyrones
+|vi   = Cyrones
+|de   = Cyrones
+|id   = Cyrones
+|pt   = Cyrones
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,191 @@
+<%-- [PAGE_INFO]
+PageTitle=#Yancui#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Spices Supreme's Chef
+|image           = NPC Yancui.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Yancui''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_133_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502014101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502014101.json-->
+::'''Yancui:''' Hello, guest. Sorry to bother you, but I noticed from your attire that you are an Outworld traveler. Do you have any unique ingredients or recipes that you can tell me about?
+::{{DIcon|Arrow}} I don't do my own cooking.
+:::<!--Custom String Listener: TalkSentence_502014103-->
+:::'''Yancui:''' I see. Sorry for bothering you then.
+::{{DIcon|Arrow}} It's all home-cooked fare. Nothing special.
+:::<!--Custom String Listener: TalkSentence_502014105-->
+:::'''Yancui:''' Is that so? I guess I'm the one asking a strange question.
+::{{DIcon|Arrow}} Have you heard of interstellar locusts?
+:::<!--Custom String Listener: TalkSentence_502014107-->
+:::'''Yancui:''' I've eaten them before... They didn't taste great though. Thanks anyways.
+::<!--Custom String Trigger: 502014101_END-->
+::<!--Custom String Listener: 502014101_END-->
+::'''Yancui:''' Ah, I forgot to introduce myself... I am Yancui, head chef and owner of Spices Supreme. The restaurant's not busy right now, so I'm taking a break here in Exalting Sanctum, but couldn't take my mind off developing new dishes.
+::'''Yancui:''' Spices Supreme isn't far from here. Please visit us if you're interested. Our motto is to "cook for the people." We guarantee our food is inexpensive and tasty!
+::'''Yancui:''' Ah, I've chatted so much with you. Here's something for you to have a taste test. You must come to Spices Supreme to try our dishes if you get a chance! It'll be an experience you'll never forget!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502014102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502014102.json-->
+::'''Yancui:''' Let's have a look then. What shall we have for this week's Odd-taste Thursday... Gizzard sashimi, kidney stew, brown sugar sesame porridge, steamed boar skin, charcoal barbecued black donkey hooves, caramel-drizzled stinky tofu...
+::'''Yancui:''' Hmm? You want to discuss food for a little longer? I love to chat about cuisine with people.
+:<!--Ends the current performance-->
+;(Unused &mdash; custom/npc_menu)
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502014201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502014201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502014201.json-->
+::'''Yancui:''' I was still working back of house then, and all we could hear was the clattering of diners out front.
+::'''Yancui:''' I rushed out of the kitchen and watched as the Arbor slowly grew. I had been pretty well-traveled, but I was flabbergasted.
+::'''Yancui:''' Just looking at that thing made my skin crawl. It grew at this weird, steady pace as if it were the only tree in all of existence...
+::'''Yancui:''' After all these years of boxing, my intuition is still dead-on about this kind of thing... That thing is so packed full of vitality that it could almost raise the dead...
+::'''Yancui:''' So... You have to be careful in the future. I'm still waiting for you to come and visit us in-store.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502014201-->
+
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502014201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Finally, the Ambrosial Arbor crisis is behind us...
+::<!--Trigger PerformanceE 502014105: Config/Level/NPCDialogue/P10202/NPCAct/Act502014105.json-->
+::'''Yancui:''' Yeah, it's finally over... Even though it hasn't been that long, it feels like we've been going through it for a long time.
+::'''Yancui:''' I still remember clearly that scene, when I was in my kitchen and I came out and saw it growing... I've never seen anything so spectacular since it stopped growing.
+::'''Yancui:''' This is actually a good thing... A restaurant should feel like a restaurant. Back then, everyone was so troubled and weighed down by their worries that they couldn't even fully enjoy the dishes I had carefully prepared for them.
+::'''Yancui:''' ...That was definitely a terrible time... But now, everyone has calmed down, and I feel happy and motivated to see how they enjoy my dishes.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502014105-->
+
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502014201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502014104: Config/Level/NPCDialogue/P10202/NPCAct/Act502014104.json-->
+::'''Yancui:''' Thanks to your sponsorship, my business has been going well. A few days ago, my store was even ranked on the "Top 100 Darkest Dishes in the Cosmos" made by Outworlders... Haha.
+::'''Yancui:''' My friends were afraid to tell me about it because they thought I'd get angry.... but I'm actually happy!
+::'''Yancui:''' Recently, I've been getting a lot of attention from Outworlders who come here just to try my "dark dishes." They even formed a "Dark Cuisine Council" and have been asking me to join as a member!
+::'''Yancui:''' I'm glad to have more customers. As for the "Council," however... I hate the idea of chefs grouping together to come up with "industry standards" or something like that, so I've refused their offer.
+::'''Yancui:''' Just drop by and enjoy a hearty meal whenever you're free. My store might be busy these days, but I'll always reserve a seat for you!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502014104-->
+
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502014201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} There is something I want to ask you...
+::<!--Trigger PerformanceE 502014103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502014103.json-->
+::'''Yancui:''' Go ahead. I'll tell you everything I know, as long as they're not business secrets.
+::<!--Custom String Trigger: Wait_Option_502014101_25-->
+::<!--Custom String Listener: Wait_Option_502014101_25-->
+::{{DIcon|Talk}} Business secrets? Such as?
+:::<!--Custom String Listener: TalkSentence_502014115-->
+:::'''Yancui:''' Hmm? I was just saying that! I don't think I have anything you'd call a business secret...
+:::'''Yancui:''' You might laugh at us, but we Xianzhou chefs are very careful about our recipes being leaked to the public. Some of our most common cooking methods have even been mystified...
+:::'''Yancui:''' For example, slicing tofu into thin threads as fine as silk... At the end of the day, it's just putting in the time and effort and learning through mistakes.
+:::'''Yancui:''' But spoken from a chef's perspective, it becomes all about the "power in the wrists," "artful skill," "unfathomable secret" &mdash; all these pretentious big words that confuse people... Even I'm left scratching my head.
+:::'''Yancui:''' Spices Supreme employs no such tactics. If you really want to know how a dish is made, I'll even give you a step-by-step. Doesn't matter if you don't get it the first time: Just look up "Spices Supreme Yancui" online and my recipes' videos are all there.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Do you have any recommendations?
+:::<!--Custom String Listener: TalkSentence_502014121-->
+:::'''Yancui:''' You can try our trademark dishes like the crisped melon and diced chicken, pork slices in fish sauce, and Granny Chen's Tofu to start. These are all famous dishes that have withstood the test of time. You can't go wrong with them.
+:::'''Yancui:''' Everyone's tastes are different, and my recommendations might not suit your palate. But we've got myriads of flavors, so I'm sure there's one that'll pique your fancy.
+:::'''Yancui:''' You know that a Xianzhou native's life is long, so they are very particular about variety in their pursuit of flavor.
+:::'''Yancui:''' Every Thursday, we've got an "Odd-taste Thursday" event, where we serve some dishes with rather interesting flavors. It's to provide some variety and fun for Xianzhou gormandizers.
+:::'''Yancui:''' These new dishes may not be tasty, but they'll definitely leave you with an unforgettable experience.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's your favorite dish?
+:::<!--Custom String Listener: TalkSentence_502014127-->
+:::'''Yancui:''' I'm ashamed to admit that though I run a restaurant, I'm actually quite picky about my food. There are some things I don't eat... such as...
+:::'''Yancui:''' Such as animals who can't defeat me &mdash; I'll never eat those!
+:::'''Yancui:''' We Vidyadhara have always observed the law of natural flow. All creatures are connected to one another, and life is everlasting in its cycle. Based on this principle, if an animal can't defeat me on even ground, I'd never use it as food! That is my martial way!
+:::{{DIcon|Arrow}} What exactly are you talking about...
+:::{{DIcon|Arrow}} What's the logic behind this?
+:::<!--Custom String Listener: TalkSentence_502014132-->
+:::'''Yancui:''' C'mon, that's where you're ignorant! I may look like a pushover, but I am the Cloudbanner Meteor Fist's chief disciple. My fists are unrivaled among the auxiliary martial art schools in Xianzhou!
+:::'''Yancui:''' It's just that I went into the food business in the end, so I didn't take over the martial art school. But I've still retained the pride of a martial artist, heehee.
+:::'''Yancui:''' I don't eat small fish and shrimp, nor herbivores, or even domesticated beasts... I only eat animals that I can fight to the death with.
+:::'''Yancui:''' Of course, that's just my personal mantra. Spices Supreme serves everything. Don't worry.
+:::{{DIcon|Arrow}} So... what's your favorite dish?
+::::<!--Custom String Listener: TalkSentence_502014137-->
+::::'''Yancui:''' Oh, I completely forgot your question! We Vidyadhara can't reproduce naturally, so the Sky-Faring Commission's travel reviewers are fairly lenient, which means I've had many opportunities to hunt on other worlds.
+::::'''Yancui:''' Some worlds teem with numerous ferocious beasts... My most vivid memory was of an ocean world called Thalassa...
+::::'''Yancui:''' It had a giant airborne beast called a six-eyed flying fish. I stood on it, and we were locked in battle for hours. It was a miracle it didn't swallow me whole!
+::::'''Yancui:''' The fins of that fish were delicious beyond compare! That fin stew was the tastiest dish I'd ever had...
+::::'''Yancui:''' Apart from that, I also like deep-fried flying sea anemone, fruitwood-grilled Shantak moa drumettes, viscorpus sugar balls stir-fried with cured meat... Oh right, these viscorpi may be really tiny, but they sure can conjure horrifying hallucinations. What a ride...
+::::'''Yancui:''' Haha, sorry, very few people ask me about my ingredient-seeking escapades, and I got carried away.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Is... Is that so...? Amazing...
+::::<!--Custom String Listener: TalkSentence_502014144-->
+::::'''Yancui:''' Heheh, I am quite amazing! Not just at martial arts, but cooking too. You must try my food out!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Spices Supreme...
+:::<!--Custom String Listener: TalkSentence_502014146-->
+:::'''Yancui:''' You're wondering why I opened this restaurant? Well, it's a long story...
+:::'''Yancui:''' The IPC had this subsidiary company a hundred years ago which sold conveyor belts, and they had an "Interastral Gourmet Association" that went around and rated all the eateries throughout the whole cosmos.
+:::'''Yancui:''' If you get one star, you're part of the "Interastral Selection." If you get five stars, then you're the "Cosmos's Finest Diner." Across all of the Xianzhou ships, the only place to ever get five stars from them is "Dragon Palace's Kitchen" on the Xianzhou Zhuming.
+:::'''Yancui:''' Being Vidyadhara, I thought I had to go and support the business of my kin, especially when they received such honors... But that place charged hundreds of thousands of credits for portions that won't even be filling for little birds! Would you believe it?
+:::'''Yancui:''' That chef even put on this pretentious air and told Outworlders, "We Vidyadhara are indifferent to the trappings of fame and fortune, which is why we eat like this." Ack, that was too much...
+:::'''Yancui:''' That's when I determined to run a restaurant that goes completely opposite to everything they stood for. I want big portions, quality food, and low prices! I'm telling ya, Spices Supreme is that dream come true!
+:::'''Yancui:''' But to be honest, if you hadn't mentioned it today, I'd have forgotten about that goal... Now I run the restaurant just to have fun. Nothing else.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I'll come back later...
+:::<!--Custom String Listener: TalkSentence_502014154-->
+:::'''Yancui:''' Fine. Not to worry. Any time! Can't wait! Take care! Stay safe out there!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502014103-->
+
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed, {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed, and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502014201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I'll come back later...
+::'''Yancui:''' Fine. Not to worry. Any time! Can't wait! Take care! Stay safe out there!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Yancui
+|zhs  = 燕翠
+|zht  = 燕翠
+|ja   = 燕翠
+|ko   = 연희
+|es   = Yancui
+|fr   = Yancui
+|ru   = Яньцуй
+|th   = Yancui
+|vi   = Yancui
+|de   = Yancui
+|id   = Yancui
+|pt   = Yancui
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,122 @@
+<%-- [PAGE_INFO]
+PageTitle=#Alley#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Hotel Reception
+|image           = NPC Alley.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Alley''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_22_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030001: Config/Level/Mission/5030300/Act/Act503030001.json-->
+::'''Alley:''' Welcome to The Reverie, dear guest. How may I assist you?
+::<!--Custom String Trigger: Wait_Option_503030001_10-->
+::<!--Custom String Listener: Wait_Option_503030001_10-->
+::{{DIcon|Talk}} I'd like to learn about my room.
+:::<!--Custom String Listener: TalkSentence_503030003-->
+:::'''Alley:''' Certainly. Since you are a valued guest of The Family, your room is Platinum Suite 666, located in Zone 12 of the Red Heart.
+:::'''Alley:''' Our suites feature multi-story and well-sealed structures. Each suite contains a separate parlor and provides 24/7 drink and performance service.
+:::'''Alley:''' If you need to change rooms or check out, please submit your request via your Dreamscape Pass, and we will process it within one working day.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About the previous incident...
+:::<!--Custom String Listener: TalkSentence_503030007-->
+:::'''Alley:''' We apologize for any inconvenience you may have experienced. We will refine our workflow and enhance our service quality to ensure that you can fully enjoy your trip.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all.
+:::<!--Custom String Listener: TalkSentence_503030009-->
+:::'''Alley:''' You're welcome. I'm ready to answer any questions you may have about the hotel. It is an honor for all The Family's members to serve you.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::'''Alley:''' We wish you a pleasant stay in Penacony.
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030002: Config/Level/Mission/5030300/Act/Act503030002.json-->
+::'''Alley:''' Welcome to The Reverie, dear guest. How may I assist you?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Are you up for a chat?
+:::'''Alley:''' Certainly. Is there anything specific you would like to know about?
+:::<!--Custom String Trigger: Wait_Option_503030003_39-->
+:::<!--Custom String Listener: Wait_Option_503030003_39-->
+:::{{DIcon|Talk}} Tell me more about this hotel.
+::::<!--Custom String Listener: TalkSentence_503030033-->
+::::'''Alley:''' Certainly. The Reverie is a renowned landmark in Penacony, serving as a transit point between reality and Dreamscape.
+::::'''Alley:''' All Dreamchasers intending to enter the City of Dreams need to check in here before entering the magnificent dream world in Penacony.
+::::'''Alley:''' This hotel is divided into 48 sub sectors, and your room, Platinum Suite 666, is located in Zone 12 of the Red Heart.
+::::'''Alley:''' Please refer to your Dreamscape Pass for instructions. Should you have any additional needs, feel free to contact our staff using the phone in your room.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What services do you provide?
+::::<!--Custom String Listener: TalkSentence_503030038-->
+::::'''Alley:''' This window provides all services related to your room.
+::::'''Alley:''' If you need to change rooms or check out, please submit your request via your Dreamscape Pass, and we will process it within one working day.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} What currency is used here?
+::::<!--Custom String Listener: TalkSentence_503030041-->
+::::'''Alley:''' The prevailing currency in Penacony is Alfalfa credits. Upon entering Dreamscape, the credits in your account will be automatically converted to Alfalfa credits at an equal exchange rate.
+::::'''Alley:''' While in Dreamscape, you can conveniently use your Dreamscape Pass for online transactions.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} There's nothing else I'd like to ask about.
+::::<!--Custom String Listener: TalkSentence_503030044-->
+::::'''Alley:''' You're welcome. I'm ready to answer any questions you may have about the hotel. It is an honor for all The Family's members to serve you.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Thank you for your answers. I'll take my leave now.
+:::'''Alley:''' We wish you a pleasant stay in Penacony.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Alley
+|zhs  = 艾丽
+|zht  = 艾麗
+|ja   = アレー
+|ko   = 앨리
+|es   = Alley
+|fr   = Alley
+|ru   = Элли
+|th   = Alley
+|vi   = Alley
+|de   = Alley
+|id   = Alley
+|pt   = Alley
+}}
+==Change History==
+{{Change History|TODO}}

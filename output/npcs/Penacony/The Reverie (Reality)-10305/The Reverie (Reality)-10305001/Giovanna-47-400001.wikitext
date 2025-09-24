@@ -1,0 +1,150 @@
+<%-- [PAGE_INFO]
+PageTitle=#Giovanna#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Chief Dream Nurse
+|image           = NPC Giovanna.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Reality)
+|relatives       = 
+}}
+'''Giovanna''' is an NPC on [[Penacony]], located in [[The Reverie (Reality)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Reality)|npc_47_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503030401: Config/Level/Mission/5030304/Act/Act503030401.json-->
+::'''Giovanna:''' Identity confirmed: Esteemed guest.
+::'''Giovanna:''' Welcome to Penacony, esteemed guest. We wish you a pleasant stay in the Dreamscape.
+::'''Giovanna:''' I am Giovanna, the Chief Dream Nurse. If you require any assistance, please don't hesitate to approach me.
+::{{DIcon|Arrow}} I do need your assistance!
+:::<!--Custom String Listener: TalkSentence_503030405-->
+:::'''Giovanna:''' Acknowledged. Please provide more details.
+:::<!--Custom String Trigger: Wait_Option_503030401_15-->
+:::<!--Custom String Listener: Wait_Option_503030401_15-->
+:::{{DIcon|Talk}} What does a "dream nurse" do?
+::::<!--Custom String Listener: TalkSentence_503030407-->
+::::'''Giovanna:''' Well, "dream" refers to the process of entering the Dreamscape.
+::::'''Giovanna:''' Each room is equipped with a specialized "Dreampool" to guide our esteemed guests into the Dreamscape.
+::::'''Giovanna:''' The Family offers the most secure authorized service, along with a flawless dream experience.
+::::{{DIcon|Arrow}} So, are there "unauthorized" services?
+::::<!--Custom String Listener: TalkSentence_503030411-->
+::::'''Giovanna:''' Well, recently, a blue-haired "merchant" has been selling a new type of "affordable and reliable" dreaming device.
+::::'''Giovanna:''' Over ten individuals have fallen victim to this scam. The Bloodhounds are investigating, but the suspect remains at large.
+::::'''Giovanna:''' Please do not trust any unauthorized dreaming devices such as the "Quantum Shuttle" or the "Sweetdream Drink."
+::::'''Giovanna:''' Since the dream structure within Penacony is complex, unauthorized entries may lead to unpredictable consequences.
+::::'''Giovanna:''' Each year, we rescue nearly a hundred stowaways, and the costs of their treatment are not covered by insurance.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is this device safe enough?
+::::<!--Custom String Listener: TalkSentence_503030417-->
+::::'''Giovanna:''' Please feel assured. The Family offers the most secure authorized service, along with a flawless dreaming experience. During your dive, a nurse will attend to your physical body in reality.
+::::'''Giovanna:''' If you experience any discomfort such as dizziness, nausea, or vomiting, please leave the Dreamscape and seek assistance from your nurse.
+::::'''Giovanna:''' We have prepared a comprehensive emergency plan to handle various situations, ensuring that you can fully enjoy your dream time.
+::::'''Giovanna:''' However, upon waking up from a dream, please remember that you are back in reality.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503030422-->
+::::'''Giovanna:''' Certainly. Please refer to your Dreamscape Pass for instructions.
+::::<!--Custom String Trigger: TalkSentence_503030424-->
+::::<!--Custom String Listener: TalkSentence_503030424-->
+::::'''Giovanna:''' I'm always here to assist you, esteemed guest.
+::::<!--Ends the current performance-->
+::{{DIcon|Arrow}} That's all. Bye-bye.
+:::<!--Custom String Listener: TalkSentence_503030424-->
+:::'''Giovanna:''' I'm always here to assist you, esteemed guest.
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503030402: Config/Level/Mission/5030304/Act/Act503030402.json-->
+::'''Giovanna:''' If you've just woken up from a dream, remember &mdash; this is reality.
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon}} Please allow me to introduce you to our dream services.
+:::'''Giovanna:''' Well, "dream" refers to the process of entering the Dreamscape.
+:::'''Giovanna:''' Each room is equipped with a specialized "Dreampool" to guide our esteemed guests into the Dreamscape.
+:::'''Giovanna:''' The Family offers the most secure authorized service, along with a flawless dream experience.
+:::<!--Custom String Trigger: Wait_Option_503030403_59-->
+:::<!--Custom String Listener: Wait_Option_503030403_59-->
+:::{{DIcon|Talk}} So, are there "unauthorized" services?
+::::<!--Custom String Listener: TalkSentence_503030447-->
+::::'''Giovanna:''' Well, recently, a blue-haired "merchant" has been selling a new type of "affordable and reliable" dreaming device.
+::::'''Giovanna:''' Over ten individuals have fallen victim to this scam. The Bloodhounds are investigating, but the suspect remains at large.
+::::'''Giovanna:''' Please do not trust any unauthorized dreaming devices such as the "Quantum Shuttle" or the "Sweetdream Drink."
+::::'''Giovanna:''' Since the dream structure within Penacony is complex, unauthorized entries may lead to unpredictable consequences.
+::::'''Giovanna:''' Each year, we rescue nearly a hundred stowaways, and the costs of their treatment are not covered by insurance.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is there anything I should keep in mind?
+::::<!--Custom String Listener: TalkSentence_503030453-->
+::::'''Giovanna:''' 1. Please keep your mind calm to avoid unusual experiences.
+::::'''Giovanna:''' 2. Please ensure that your face is positioned upwards to prevent any risk of drowning in the Dreampool.
+::::'''Giovanna:''' 3. Please do not take sleep-aid medication. If you are unable to fall asleep, please contact our staff for assistance.
+::::'''Giovanna:''' Please refer to your Dreamscape Pass for instructions.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} If only I could stay in the dream forever.
+::::<!--Custom String Listener: TalkSentence_503030458-->
+::::'''Giovanna:''' According to statistics, 86.9% of our guests share the same sentiment as you.
+::::'''Giovanna:''' However, as a nurse, I recommend maintaining a minimum of 7 hours of real-world activity time each system month.
+::::'''Giovanna:''' Excessive immersion in dreams can lead to negative effects such as cerebellar atrophy, muscle degeneration, and overall deterioration.
+::::'''Giovanna:''' In rare cases, prolonged exposure to dreams can cause guests to struggle in differentiating between dreams and reality.
+::::'''Giovanna:''' Although the occurrence rate is no higher than 1.5%, it is still a matter of concern.
+::::'''Giovanna:''' Therefore... upon waking up from a dream, please remember that you are back in reality.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all for now.
+::::<!--Custom String Listener: TalkSentence_503030465-->
+::::'''Giovanna:''' Certainly. I'm always here to assist you.
+::::<!--Ends the current performance-->
+::{{DIcon|Exit}} Catch you again next time.
+:::'''Giovanna:''' See you next time. We wish you a pleasant stay in Penacony.
+:::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Giovanna
+|zhs  = 乔凡娜
+|zht  = 喬凡娜
+|ja   = ジョヴァンナ
+|ko   = 지오반나
+|es   = Giovanna
+|fr   = Giovanna
+|ru   = Джованна
+|th   = Giovanna
+|vi   = Giovanna
+|de   = Giovanna
+|id   = Giovanna
+|pt   = Giovanna
+}}
+==Change History==
+{{Change History|TODO}}

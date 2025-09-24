@@ -1,0 +1,314 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dr. Dig#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Dr. Dig.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Fight Club
+|relatives       = 
+}}
+'''Dr. Dig''' is an NPC on [[Jarilo-VI]], located in [[Fight Club]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Fight Club|npc_24_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201070102,
+		"Type": "submission_state_equal",
+		"Param1": 201070102,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201070102: Config/Level/Mission/2010701/Act201070102.json-->
+:'''Dr. Dig:''' Hey! Ready for a good one now?
+:{{DIcon|Arrow}} Ready.
+::<!--Custom String Listener: TalkSentence_101026402-->
+::<!--Custom String Trigger: 201070102_Over-->
+:{{DIcon|Exit}} Wait a minute.
+::<!--Custom String Listener: TalkSentence_101026403-->
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 201071001,
+		"Type": "submission_state_equal",
+		"Param1": 201071001,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201071001: Config/Level/Mission/2010710/Act/Act201071001.json-->
+:<!--Custom String Trigger: TalkSentence_101027401-->
+:<!--Custom String Listener: TalkSentence_101027401-->
+:'''Dr. Dig:''' Yo, you're here! Your next opponent for the tournament is ready, and the crowd couldn't wait any longer. The match will start as soon as you got ready, so chop-chop!
+:<!--Custom String Trigger: Wait_Option_1010274_15-->
+:<!--Custom String Listener: Wait_Option_1010274_15-->
+:{{DIcon|Talk}} What are the rules?
+::<!--Custom String Listener: TalkSentence_101027408-->
+::'''Dr. Dig:''' Currently, you can participate in our new season opener match. The rules are simple, you will challenge five legendary Underworld boxers in a row, and win the battle for a deluxe prize!
+::'''Dr. Dig:''' After the season opener, the season's super league will officially begin! Related matters are still undergoing continuous, intensive preparation, so stay tuned!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can it be arranged now?
+::<!--Custom String Listener: TalkSentence_101027412-->
+::'''Dr. Dig:''' Boss said you coming to the challenges is like free tutorials for the boxers. We wish you were here more often!
+::'''Dr. Dig:''' Besides, the Outsider is well known in the Underworld. If you can grace us with your visit, then the tickets will be sold out for sure!
+::'''Dr. Dig:''' So don't you worry, schedule arrangements are trivial matters. Our services are comprehensive and flexible. You will definitely be well taken care of.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I want to be in the opening match, is that OK?
+::<!--Custom String Listener: TalkSentence_101027416-->
+::'''Dr. Dig:''' No problem, of course, no problem! Since it is your request, it must be arranged!
+::'''Dr. Dig:''' Just a moment, I'm going to inform all departments that the next fight is about to begin!
+::<!--Custom String Trigger: Talk_201071001-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll go mill around elsewhere first.
+::<!--Custom String Listener: TalkSentence_101027423-->
+::'''Dr. Dig:''' No problem, come back any time!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 201071101,
+		"Type": "submission_state_equal",
+		"Param1": 201071101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201071101: Config/Level/Mission/2010711/Act/Act201071101.json-->
+:<!--Custom String Trigger: TalkSentence_101027501-->
+:<!--Custom String Listener: TalkSentence_101027501-->
+:'''Dr. Dig:''' Yo, you're here! Your next opponent for the tournament is ready, and the crowd couldn't wait any longer. The match will start as soon as you got ready, so chop-chop!
+:<!--Custom String Trigger: Wait_Option_1010275_8-->
+:<!--Custom String Listener: Wait_Option_1010275_8-->
+:{{DIcon|Talk}} What are the rules?
+::<!--Custom String Listener: TalkSentence_101027503-->
+::'''Dr. Dig:''' Currently, you can participate in our new season opener match. The rules are simple, you will challenge five legendary Underworld boxers in a row, and win the battle for a deluxe prize!
+::'''Dr. Dig:''' After the season opener, the season's super league will officially begin! Related matters are still undergoing continuous, intensive preparation, so stay tuned!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can it be arranged now?
+::<!--Custom String Listener: TalkSentence_101027507-->
+::'''Dr. Dig:''' Boss said you coming to the challenges is like free tutorials for the boxers. We wish you were here more often!
+::'''Dr. Dig:''' Besides, the Outsider is well known in the Underworld. If you can grace us with your visit, then the tickets will be sold out for sure!
+::'''Dr. Dig:''' So don't you worry, schedule arrangements are trivial matters. Our services are comprehensive and flexible. You will definitely be well taken care of.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I want to be in the next match now.
+::<!--Custom String Listener: TalkSentence_101027511-->
+::'''Dr. Dig:''' No problem, of course, no problem! Since it is your request, it must be arranged!
+::'''Dr. Dig:''' Just a moment, I'm going to inform all departments that the next fight is about to begin!
+::<!--Custom String Trigger: Talk_201071101-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll go mill around elsewhere first.
+::<!--Custom String Listener: TalkSentence_101027517-->
+::'''Dr. Dig:''' No problem, come back any time!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201072005-->
+<pre>
+[
+	{
+		"ID": 201071201,
+		"Type": "submission_state_equal",
+		"Param1": 201071201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201071201: Config/Level/Mission/2010712/Act/Act201071201.json-->
+:<!--Custom String Trigger: TalkSentence_101027601-->
+:<!--Custom String Listener: TalkSentence_101027601-->
+:'''Dr. Dig:''' Yo, you're here! Your next opponent for the tournament is ready, and the crowd couldn't wait any longer. The match will start as soon as you got ready, so chop-chop!
+:<!--Custom String Trigger: Wait_Option_1010276_8-->
+:<!--Custom String Listener: Wait_Option_1010276_8-->
+:{{DIcon|Talk}} What are the rules?
+::<!--Custom String Listener: TalkSentence_101027603-->
+::'''Dr. Dig:''' Currently, you can participate in our new season opener match. The rules are simple, you will challenge five legendary Underworld boxers in a row, and win the battle for a deluxe prize!
+::'''Dr. Dig:''' After the season opener, the season's super league will officially begin! Related matters are still undergoing continuous, intensive preparation, so stay tuned!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can it be arranged now?
+::<!--Custom String Listener: TalkSentence_101027607-->
+::'''Dr. Dig:''' Boss said you coming to the challenges is like free tutorials for the boxers. We wish you were here more often!
+::'''Dr. Dig:''' Besides, the Outsider is well known in the Underworld. If you can grace us with your visit, then the tickets will be sold out for sure!
+::'''Dr. Dig:''' So don't you worry, schedule arrangements are trivial matters. Our services are comprehensive and flexible. You will definitely be well taken care of.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I want to be in the next match now.
+::<!--Custom String Listener: TalkSentence_101027611-->
+::'''Dr. Dig:''' No problem, of course, no problem! Since it is your request, it must be arranged!
+::'''Dr. Dig:''' Just a moment, I'm going to inform all departments that the next fight is about to begin!
+::<!--Custom String Trigger: Talk_201071201-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll go mill around elsewhere first.
+::<!--Custom String Listener: TalkSentence_101027617-->
+::'''Dr. Dig:''' No problem, come back any time!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 201071301,
+		"Type": "submission_state_equal",
+		"Param1": 201071301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201071301: Config/Level/Mission/2010713/Act/Act201071301.json-->
+:<!--Custom String Trigger: TalkSentence_101027701-->
+:<!--Custom String Listener: TalkSentence_101027701-->
+:'''Dr. Dig:''' Yo, you're here! Your next opponent for the tournament is ready, and the crowd couldn't wait any longer. The match will start as soon as you got ready, so chop-chop!
+:<!--Custom String Trigger: Wait_Option_1010277_8-->
+:<!--Custom String Listener: Wait_Option_1010277_8-->
+:{{DIcon|Talk}} What are the rules?
+::<!--Custom String Listener: TalkSentence_101027703-->
+::'''Dr. Dig:''' Currently, you can participate in our new season opener match. The rules are simple, you will challenge five legendary Underworld boxers in a row, and win the battle for a deluxe prize!
+::'''Dr. Dig:''' After the season opener, the season's super league will officially begin! Related matters are still undergoing continuous, intensive preparation, so stay tuned!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can it be arranged now?
+::<!--Custom String Listener: TalkSentence_101027707-->
+::'''Dr. Dig:''' Boss said you coming to the challenges is like free tutorials for the boxers. We wish you were here more often!
+::'''Dr. Dig:''' Besides, the Outsider is well known in the Underworld. If you can grace us with your visit, then the tickets will be sold out for sure!
+::'''Dr. Dig:''' So don't you worry, schedule arrangements are trivial matters. Our services are comprehensive and flexible. You will definitely be well taken care of.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I want to be in the next match now.
+::<!--Custom String Listener: TalkSentence_101027711-->
+::'''Dr. Dig:''' No problem, of course, no problem! Since it is your request, it must be arranged!
+::'''Dr. Dig:''' Just a moment, I'm going to inform all departments that the next fight is about to begin!
+::<!--Custom String Trigger: Talk_201071301-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll go mill around elsewhere first.
+::<!--Custom String Listener: TalkSentence_101027717-->
+::'''Dr. Dig:''' No problem, come back any time!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 201071401,
+		"Type": "submission_state_equal",
+		"Param1": 201071401,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201071401: Config/Level/Mission/2010714/Act/Act201071401.json-->
+:<!--Custom String Trigger: TalkSentence_101027801-->
+:<!--Custom String Listener: TalkSentence_101027801-->
+:'''Dr. Dig:''' Yo, you're here! Your next opponent for the tournament is ready, and the crowd couldn't wait any longer. The match will start as soon as you got ready, so chop-chop!
+:<!--Custom String Trigger: Wait_Option_1010278_10-->
+:<!--Custom String Listener: Wait_Option_1010278_10-->
+:{{DIcon|Talk}} What are the rules?
+::<!--Custom String Listener: TalkSentence_101027805-->
+::'''Dr. Dig:''' Currently, you can participate in our new season opener match. The rules are simple, you will challenge five legendary Underworld boxers in a row, and win the battle for a deluxe prize!
+::'''Dr. Dig:''' After the season opener, the season's super league will officially begin! Related matters are still undergoing continuous, intensive preparation, so stay tuned!
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Can it be arranged now?
+::<!--Custom String Listener: TalkSentence_101027809-->
+::'''Dr. Dig:''' Boss said you coming to the challenges is like free tutorials for the boxers. We wish you were here more often!
+::'''Dr. Dig:''' Besides, the Outsider is well known in the Underworld. If you can grace us with your visit, then the tickets will be sold out for sure!
+::'''Dr. Dig:''' So don't you worry, schedule arrangements are trivial matters. Our services are comprehensive and flexible. You will definitely be well taken care of.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I want to be in the next match now.
+::<!--Custom String Listener: TalkSentence_101027813-->
+::'''Dr. Dig:''' No problem, of course, no problem! Since it is your request, it must be arranged!
+::'''Dr. Dig:''' Just a moment, I'm going to inform all departments that the next fight is about to begin!
+::<!--Custom String Trigger: Talk_201071401-->
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} I'll go mill around elsewhere first.
+::<!--Custom String Listener: TalkSentence_101027821-->
+::'''Dr. Dig:''' No problem, come back any time!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 201070102
+	},
+	{
+		"Type": "SubMission",
+		"ID": 201072001
+	},
+	{
+		"Type": "SubMission",
+		"ID": 201072005
+	},
+	{
+		"Type": "SubMission",
+		"ID": 201072007
+	},
+	{
+		"Type": "SubMission",
+		"ID": 201072009
+	},
+	{
+		"Type": "SubMission",
+		"ID": 201072011
+	},
+	{
+		"Phase": "Finish",
+		"ID": 2010720
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Adult Julian
+|zhs  = 成人尤利安
+|zht  = 成年尤利安
+|ja   = 大人のジュリアン
+|ko   = 성인 줄리안
+|es   = Julian adulto
+|fr   = Julian adulte
+|ru   = Взрослый Джулиан
+|th   = Julian วัยผู้ใหญ่
+|vi   = Julian Trưởng Thành
+|de   = Erwachsener Julian
+|id   = Julian Dewasa
+|pt   = Julian Adulto
+}}
+==Change History==
+{{Change History|TODO}}

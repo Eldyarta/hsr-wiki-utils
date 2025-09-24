@@ -1,0 +1,690 @@
+<%-- [PAGE_INFO]
+PageTitle=#Esther#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Lv.4 Mysticism Researcher
+|image           = NPC Esther.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Esther''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_33_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 300030101,
+		"Type": "submission_state_equal",
+		"Param1": 300030101,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300030101: Config/Level/Mission/3000301/Act/Act300030101.json-->
+:'''Esther:''' I'm catching up with some old girlfriends in a few days. It's been years since we last met up. I wonder... would they laugh at me for being out of touch with fashion?
+:'''Esther:''' I've heard of you from Lead Researcher Asta. You seem to know a lot, and might have your own insights on fashion.
+:'''Esther:''' Can I ask for your advice? ...Do you think I should dye my hair a different color?
+:{{DIcon|Arrow}} The current color is fine.
+::<!--Custom String Listener: TalkSentence_300100106-->
+::'''Esther:''' But I think it feels a little old-fashioned.
+:{{DIcon|Arrow}} What color would you like?
+::<!--Custom String Listener: TalkSentence_300100108-->
+::'''Esther:''' *sigh* I can't really decide...
+:<!--Custom String Trigger: TalkSentence_300100109-->
+:<!--Custom String Listener: TalkSentence_300100109-->
+:'''Esther:''' Fashion is changing every day... I've had white hair for so long that it's about time for a change.
+:'''Esther:''' Apparently, the most fashionable colors these days are blue and brown, but both colors have their pros and cons. It's so hard to choose.
+:{{DIcon|Arrow}} Why have to choose?
+::<!--Custom String Listener: TalkSentence_300100112-->
+::'''Esther:''' I do want to try them both, but the quality of my hair won't allow me to experiment too much.
+:{{DIcon|Arrow}} Blue! I like blue!
+::<!--Custom String Listener: TalkSentence_300100114-->
+::'''Esther:''' Blue makes people think about the sea, the sky, and the universe... Wait! I'm not asking which color you like. I want to know which hair color looks better!
+:{{DIcon|Arrow}} Brown! I like brown!
+::<!--Custom String Listener: TalkSentence_300100116-->
+::'''Esther:''' Brown has a warm feeling to it... Wait! I'm not asking which color you like. I want to know which hair color looks better!
+:<!--Custom String Trigger: TalkSentence_300100117-->
+:<!--Custom String Listener: TalkSentence_300100117-->
+:'''Esther:''' I heard some researchers have already dyed their hair these colors. I'd love to see them for myself.
+:'''Esther:''' But my work at the Department of Insight is not done. I really can't leave yet... So, could I please ask you to take some photos for me?
+:'''Esther:''' I want to see what these colors look like under the space station's lights, and which color would suit me better... Hmm, could you please lend a hand?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300030101-->
+<pre>
+[
+	{
+		"ID": 300030102,
+		"Type": "submission_state_equal",
+		"Param1": 300030105,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300030102: Config/Level/Mission/3000301/Act/Act300030102.json-->
+:'''Esther:''' Ohhh, lemme see... This looks good. But I have an issue.
+:'''Esther:''' Look, the lights in the space station make blue look rigid, and make brown look dull.
+:'''Esther:''' What should I do? Maybe neither color looks good? (Trailblazer), you're young and fashionable. Help me pick the color that suits me.
+:{{DIcon|Arrow}} Blue!
+::<!--Custom String Listener: TalkSentence_300100156-->
+::'''Esther:''' Okay, blue it is. It's not bad. It gives a feeling of vastness and open space.
+:{{DIcon|Arrow}} Brown!
+::<!--Custom String Listener: TalkSentence_300100158-->
+::'''Esther:''' Mmm, you can't go wrong with brown.
+:<!--Custom String Trigger: TalkSentence_300100159-->
+:<!--Custom String Listener: TalkSentence_300100159-->
+:'''Esther:''' Young people do think fast. I'll defer to you on this! Thank you. You can try a different hair color yourself, you know.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300030105-->
+<pre>
+[
+	{
+		"ID": 300030201,
+		"Type": "submission_state_equal",
+		"Param1": 300030201,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300030201: Config/Level/Mission/3000302/Act/Act300030201.json-->
+:'''Esther:''' Ohhh, there you are. I'm so sorry about that business with my hair last time...
+:'''Esther:''' I didn't end up dyeing my hair. I'm so sorry for wasting your efforts.
+:{{DIcon|Arrow}} You didn't like the color after all?
+:{{DIcon|Arrow}} Did something happen?
+:<!--Custom String Listener: TalkSentence_300100206-->
+:'''Esther:''' No... I bought the dye, but the color was different from what I imagined. The party was coming up, and I had no time to buy another one...
+:'''Esther:''' I was concerned my girlfriends would laugh at me, so I decided not to dye it after all.
+:{{DIcon|Arrow}} What are your plans then?
+::<!--Custom String Listener: TalkSentence_300100209-->
+::'''Esther:''' *sigh* I'll leave my hair as it is.
+:{{DIcon|Arrow}} You already look good.
+::<!--Custom String Listener: TalkSentence_300100211-->
+::'''Esther:''' Ohhh, there's no need to praise me. What's so good about white hair from old age?
+:<!--Custom String Trigger: TalkSentence_300100212-->
+:<!--Custom String Listener: TalkSentence_300100212-->
+:'''Esther:''' I get a headache every time I think about the party... *sigh* If I can't dye my hair, then maybe I can at least change my glasses.
+:'''Esther:''' I see lots of researchers wearing contact lenses these days. I want to try them out, but I don't know which type to try.
+:'''Esther:''' *sigh* I'm still too busy to get away... Could you please ask around to see what contact lenses are in fashion these days?
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300030201-->
+<pre>
+[
+	{
+		"ID": 300030205,
+		"Type": "submission_state_equal",
+		"Param1": 300030205,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300030205: Config/Level/Mission/3000302/Act/Act300030205.json-->
+:'''Esther:''' Hold on, let me check... Oh, it does look good! But I feel it'll be difficult to re-create what they're showing on the ad.
+:'''Esther:''' ...However, if I don't buy it, I'll have to wear this pair of wired glasses to the party. That's too old-fashioned.
+:'''Esther:''' (Trailblazer), what should I do?
+:{{DIcon|Arrow}} Stick with wired glasses.
+::<!--Custom String Listener: TalkSentence_300100287-->
+::'''Esther:''' Hmm, yes. Amber Starlight is too showy. It doesn't really fit me in my age.
+:{{DIcon|Arrow}} Definitely Amber Starlight!
+::<!--Custom String Listener: TalkSentence_300100289-->
+::'''Esther:''' The special effects are rather extravagant, but the amber shade is quite pretty. I am definitely tempted!
+:<!--Custom String Trigger: TalkSentence_300100290-->
+:<!--Custom String Listener: TalkSentence_300100290-->
+:'''Esther:''' Thank you, (Trailblazer)!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300030205-->
+<pre>
+[
+	{
+		"ID": 300030301,
+		"Type": "submission_state_equal",
+		"Param1": 300030301,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300030301: Config/Level/Mission/3000303/Act/Act300030301.json-->
+:'''Esther:''' I have to thank you. My girlfriends at the party all said that I'm a fashionista now.
+:'''Esther:''' They're really jealous that I have a fashion consultant like you. This time, they want me to ask you some questions...
+:'''Esther:''' Two colors are really popular right now. Retro Glazed Bronze and Summer Blooming Forest... (Trailblazer), do you know what they actually are?
+:{{DIcon|Arrow}} It's just gold and green...
+::<!--Custom String Listener: TalkSentence_300100306-->
+::'''Esther:''' Wow, I knew it. Your fashion instincts are sharp... You immediately understood those weird names.
+:{{DIcon|Arrow}} Those colors are everywhere in the space station!
+::<!--Custom String Listener: TalkSentence_300100308-->
+::'''Esther:''' Really? I've never noticed it.
+:<!--Custom String Trigger: TalkSentence_300100309-->
+:<!--Custom String Listener: TalkSentence_300100309-->
+:'''Esther:''' So you're saying the space station already... has these two shades? But I don't remember ever seeing them.
+:'''Esther:''' In that case, please help me take pictures of items in these colors and bring the photos to me, so I can learn about them as well!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300030301-->
+<pre>
+[
+	{
+		"ID": 300030302,
+		"Type": "submission_state_equal",
+		"Param1": 300030305,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 300030302: Config/Level/Mission/3000303/Act/Act300030302.json-->
+:'''Esther:''' (Trailblazer), you're definitely a youngster. You think fast and act fast.
+:'''Esther:''' But I really didn't expect this. Retro Glazed Bronze and Summer Blooming Forest... they sound so new and special based on the name.
+:'''Esther:''' I really learned something today. They're just ordinary colors. I feel maybe this is a bit...
+:{{DIcon|Arrow}} Fashion is not real!
+::<!--Custom String Listener: TalkSentence_300100336-->
+::'''Esther:''' I've always heard people say that fashion is just a trick, that it's not real. Looks like they're right.
+:{{DIcon|Arrow}} Over-hyped?
+::<!--Custom String Listener: TalkSentence_300100338-->
+::'''Esther:''' With such ordinary colors... it's definitely over-hyped.
+:<!--Custom String Trigger: TalkSentence_300100339-->
+:<!--Custom String Listener: TalkSentence_300100339-->
+:'''Esther:''' You're right. But I feel... I can't digest all this information at once.
+:'''Esther:''' This kind of contrast was fashionable when I was young. I didn't think it'd be back in fashion now.
+:'''Esther:''' Fashion is so weird. It's all a big cycle... Tsk!
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_300030305-->
+:<!--Custom String Trigger: Wait_Option_500010122_1299-->
+:<!--Custom String Listener: Wait_Option_500010122_1299-->
+;(If {{cx}}<!--SubMission Finish: 300030105-->)
+::{{DIcon|Talk}} Have you found your own fashion style?
+:::<!--Custom String Listener: TalkSentence_500011928-->
+:::'''Esther:''' To be honest, I'm still looking. It's a bit difficult to fix my bad habit of only paying attention to the latest products.
+:::'''Esther:''' But I have a general direction now. I won't fall into the trap of modern fashion again and I have you to thank for that, young one.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Does the Department of Insight suffer the most from this invasion?
+:::<!--Custom String Listener: TalkSentence_500011915-->
+:::'''Esther:''' I'm not sure about the other departments. But this invasion is undoubtedly a disaster for us.
+:::'''Esther:''' A lot of our files were destroyed. Unlike experimental documents, which they can get the data by repeating the experiment, many Aeon mysteries will be lost forever...
+:::'''Esther:''' I may have to contact some ex-colleagues to transcribe some of the files. Things stored in our heads last the longest.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there anything I can help with?
+:::<!--Custom String Listener: TalkSentence_500011919-->
+:::'''Esther:''' You're such a good kid. You don't look like you are from the Department of Insight. I shouldn't trouble you.
+:::'''Esther:''' We've got enough people. A few of my old friends are willing to help.
+:::'''Esther:''' If even someone as strong as Wen Tianweng couldn't handle this, I guess I'll have to seek help from you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You have great fashion sense.
+:::<!--Custom String Listener: TalkSentence_500011923-->
+:::'''Esther:''' Oh, I am flattered. I'll be embarrassed if you keep talking like that.
+:::'''Esther:''' However, I guess you are a stylish youngster yourself if you can see my fashion style and my makeup.
+:::'''Esther:''' Dressing up every day is my secret to staying energetic and happy. This is my secret.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I have to ask.
+:::<!--Custom String Listener: TalkSentence_500011927-->
+:::'''Esther:''' Feel free to come to me if you have any questions.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 300030105-->)
+::{{DIcon|Talk}} Does the Department of Insight suffer the most from this invasion?
+:::<!--Custom String Listener: TalkSentence_500011915-->
+:::'''Esther:''' I'm not sure about the other departments. But this invasion is undoubtedly a disaster for us.
+:::'''Esther:''' A lot of our files were destroyed. Unlike experimental documents, which they can get the data by repeating the experiment, many Aeon mysteries will be lost forever...
+:::'''Esther:''' I may have to contact some ex-colleagues to transcribe some of the files. Things stored in our heads last the longest.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there anything I can help with?
+:::<!--Custom String Listener: TalkSentence_500011919-->
+:::'''Esther:''' You're such a good kid. You don't look like you are from the Department of Insight. I shouldn't trouble you.
+:::'''Esther:''' We've got enough people. A few of my old friends are willing to help.
+:::'''Esther:''' If even someone as strong as Wen Tianweng couldn't handle this, I guess I'll have to seek help from you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You have great fashion sense.
+:::<!--Custom String Listener: TalkSentence_500011923-->
+:::'''Esther:''' Oh, I am flattered. I'll be embarrassed if you keep talking like that.
+:::'''Esther:''' However, I guess you are a stylish youngster yourself if you can see my fashion style and my makeup.
+:::'''Esther:''' Dressing up every day is my secret to staying energetic and happy. This is my secret.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I have to ask.
+:::<!--Custom String Listener: TalkSentence_500011927-->
+:::'''Esther:''' Feel free to come to me if you have any questions.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Esther:''' Kiddo, what are you up to? Is there anything I can help you with?
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Esther:''' Feel free to come to me if you have any questions.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 200011226-->)
+::<!--Trigger PerformanceE 200011226: Config/Level/Mission/2000112/Act/Act200011226.json-->
+::'''Esther:''' Three. Not one too many. You've worked hard, young one. Sit down and have a rest.
+::'''Esther:''' In return, I want to tell you a story I heard god knows when. You want to hear it?
+::<!--Custom String Trigger: Wait_Option_2000254_462-->
+::<!--Custom String Listener: Wait_Option_2000254_462-->
+::{{DIcon|Arrow}} Go on.
+:::<!--Custom String Listener: TalkSentence_200025406-->
+:::'''Esther:''' Once, in the Department of Galactic Geopolitics, there were two well-known young people. They were not only comrades in arms with similar interests but also a couple who pushed each other to become better.
+:::'''Esther:''' They were committed to fighting for the weak and upholding justice for those who were trampled by Aeons and their factions.
+:::'''Esther:''' Until one day, justice was no longer just an ideal. A Lord Ravager came to the female researcher's hometown, and her home planet was about to be destroyed. For the first time ever, the two disagreed on how justice should be implemented in this scenario.
+:::'''Esther:''' The female researcher chose to return to her home planet alone to alert them of the disaster, but unexpectedly, an accident occurred during her journey.
+:::'''Esther:''' At the time, the star rail was blocked by a Stellaron and her spacecraft was also stranded in the path of the Antimatter Legion. In absolute fear, she chose to call the Herta Space Station for help.
+:::'''Esther:''' However, the space station had chosen to remain neutral in all actions involving the Aeons, and the operator responsible for relaying this ruthless message was none other than the male researcher himself.
+:::'''Esther:''' Through the radio, he personally witnessed how his stranded lover ran out of oxygen in the damaged aircraft and how she slowly died drifting into the endless darkness.
+:::'''Esther:''' ... For some reason, this tragic story just came to mind today. Thought I'd share it with you.
+:::<!--Custom String Trigger: Wait_Option_2000254_472-->
+:::<!--Custom String Listener: Wait_Option_2000254_472-->
+:::{{DIcon|Arrow}} The researcher in the story is...
+::::<!--Custom String Listener: TalkSentence_200025415-->
+::::'''Esther:''' Ha, that's not important. I'm just telling a story. Any resemblance to real-life events is purely coincidental.
+:::{{DIcon|Arrow}} She gave her life for "justice."
+::::<!--Custom String Listener: TalkSentence_200025417-->
+::::'''Esther:''' Yes, she was a real hero.
+::::'''Esther:''' After her death, the researchers reexamined the question of justice. If we spend our whole life debating justice but choose to stand idly by when there are actual injustices happening all over the cosmos, then what we're really doing is just making a mockery of justice.
+:::{{DIcon|Arrow}} This must have been tormenting for him.
+::::<!--Custom String Listener: TalkSentence_200025420-->
+::::'''Esther:''' Maybe. However, I believe that in his long life, he must have found a way to make up for the past and obtain peace.
+:::<!--Custom String Trigger: TalkSentence_200025421-->
+:::<!--Custom String Listener: TalkSentence_200025421-->
+:::'''Esther:''' Well, that's all for today. Please take these rewards. I hope to see you again in the future.
+::{{DIcon|Exit}} I have other matters to attend to...
+:::<!--Custom String Listener: TalkSentence_200025424-->
+:::'''Esther:''' I see. Please take these rewards. I hope to see you again in the future.
+::'''Esther:''' After all, there are still many secrets in this world waiting to be unearthed.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Mission_200011226-->
+;(If {{cx}}<!--SubMission Started: 200011201-->)
+:<!--Trigger PerformanceE 200011201: Config/Level/Mission/2000112/Act/Act200011201.json-->
+:<!--Custom String Trigger: TalkSentence_200024001-->
+:<!--Custom String Listener: TalkSentence_200024001-->
+:'''Esther:''' One, two, three...
+:'''Esther:''' One, two, three...
+:<!--Custom String Trigger: Wait_Option_2000240_8-->
+:<!--Custom String Listener: Wait_Option_2000240_8-->
+:{{DIcon|Arrow}} Are you exercising?
+:{{DIcon|Arrow}} You're responsible for all these archives?
+:{{DIcon|Arrow}} ♪ One, two, three, one, two, three, drink... ♪
+:<!--Custom String Listener: TalkSentence_200024006-->
+:'''Esther:''' Three. You see?
+:'''Esther:''' Three are missing.
+:'''Esther:''' Gotta find these videotapes.
+:'''Esther:''' I know I am right about this. I may be getting old. I may have forgotten all about the Aeons... but I keep track of the number of these tapes like my life depends on it. Kid, you came just in time. If you have time, go find them for me.
+:'''Esther:''' If you don't, then I suppose I'll have to get help from those old farts.
+:<!--Custom String Trigger: Wait_Option_2000240_18-->
+:<!--Custom String Listener: Wait_Option_2000240_18-->
+:{{DIcon|Talk}} Old farts?
+::<!--Custom String Listener: TalkSentence_200024012-->
+::'''Esther:''' Yeah. There's Wen Tianweng, who talks to machine parts all day in the maintenance room. Bernard in the Department of Cosmic Geography who gives nicknames to the scrolls and plants. And there's Gunn, who can lie through his teeth without a blink of an eye.
+::'''Esther:''' Yep, there's an old fart suited to every job.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Videotapes?
+::<!--Custom String Listener: TalkSentence_200024015-->
+::'''Esther:''' The videotapes in the space station are different from ordinary ones. They are recordings of {{Color|keyword|nobold=1|wonders and mysteries}} you won't find anywhere. Because of this, they need to be looked after by specialized personnel.
+::'''Esther:''' This is a great learning opportunity for you. You should count yourself lucky.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Let's not trouble those old fa... elderly people.
+::<!--Custom String Listener: TalkSentence_200024018-->
+::'''Esther:''' Good, good. We don't see many accommodating young fellows like you nowadays.
+::'''Esther:''' However, I have to remind you that the producers of these videotapes have implanted some defense mechanisms to help protect their secrets.
+::'''Esther:''' If you are not careful when touching the videotapes, best-case scenario is you will feel a little dizzy, and the data transfer may be forcibly interrupted. Worst-case scenario, it may cause abnormal behaviors, hallucination, and paranoia, eventually leading to memory and consciousness disorders.
+::<!--Custom String Trigger: Wait_Option_2000240_30-->
+::<!--Custom String Listener: Wait_Option_2000240_30-->
+::{{DIcon|Arrow}} Good thing I'm not interested in secrets.
+:::<!--Custom String Listener: TalkSentence_200024022-->
+:::'''Esther:''' In this bizarre space station, sometimes even if you cover your eyes and ears, the information destined for you will still find a way into your brain.
+:::'''Esther:''' Secrets choose their witnesses &mdash; this is a fundamental belief of the Department of Insight.
+::{{DIcon|Arrow}} "It's A Trap!"
+:::<!--Custom String Listener: TalkSentence_200024025-->
+:::'''Esther:''' Not so much of a trap. It's just a result of the constant arms race between researchers vying to be the best at what they do. They simply used a certain kind of technology to turn away those deemed unworthy from accessing information.
+:::'''Esther:''' Malicious baits are deeply embedded in the information by means of flashing visual stimuli and inaudible ultrasound waves, thus manipulating the subconscious to inflict harm on the subject.
+:::'''Esther:''' Consciousness, preconsciousness, and subconsciousness; self, ego, and superego; imagination, symbolism, reality, and so on. The labyrinth of the human mind is a compulsory subject that almost all space station researchers are proficient in.
+::{{DIcon|Arrow}} Is it too late for me to refuse now?
+:::<!--Custom String Listener: TalkSentence_200024029-->
+:::'''Esther:''' Stop being coy with me. I have met a lot of people in my life. You don't seem to be the kind who would refuse secrets.
+:::'''Esther:''' If I tell you not to think about an elephant &mdash; then images of the large gray animal must be all over your mind.
+:::'''Esther:''' And now I've told you everything about the videotapes &mdash; you won't easily forget about the danger until you find out the secrets.
+::<!--Custom String Trigger: TalkSentence_200024032-->
+::<!--Custom String Listener: TalkSentence_200024032-->
+::'''Esther:''' I am guessing someone took advantage of the Legion's invasion and snatched the videotapes when the master control zone was unguarded.
+::'''Esther:''' There are no borrowing records, indicating that the suspect is unwilling to expose their identity. There was no sign of damage, indicating that they were not trying to destroy those videotapes but to view the secret within.
+::'''Esther:''' The device for playing those videotapes is located in the {{Color|keyword|nobold=1|safe area of the supply zone}}. If you go there, you may find some clues.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Mission_200011201-->
+;(If {{cx}}<!--SubMission Started: 200011225-->)
+::<!--Trigger PerformanceE 200011225: Config/Level/Mission/2000112/Act/Act200011225.json-->
+::'''Esther:''' Experience other people's lives with your very own eyes. That is the charm of those videos.
+::<!--Custom String Trigger: Wait_Option_2000254_457-->
+::<!--Custom String Listener: Wait_Option_2000254_457-->
+::{{DIcon|Arrow}} I brought them all back.
+::<!--Custom String Listener: TalkSentence_200025403-->
+:<pre>{
+	"$type": "RPG.GameCore.ConsumeMissionItemPerformance",
+	"SubMissionID": 200011225,
+	"Desc": {
+		"Hash": 18096028862919064994
+	},
+	"OnSubmitConfirm": [
+		{
+			"$type": "RPG.GameCore.PlaySimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 200025403,
+					"ProtectTime": 0.3
+				},
+				{
+					"TalkSentenceID": 200025404
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.WaitSimpleTalkFinish"
+		},
+		{
+			"$type": "RPG.GameCore.TriggerCustomString",
+			"CustomString": {
+				"Value": "Wait_Option_2000254_462"
+			}
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"SimpleTalk": {}
+}</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 90000013: Config/Level/NPC/W0/NPC_DefaultStory_500001901.json-->
+::<!--Custom String Trigger: TalkSentence_500011902-->
+::<!--Custom String Listener: TalkSentence_500011902-->
+::'''Esther:''' Sigh. Thanks to this invasion, I have to re-arrange a lot of the files of our department.
+::'''Esther:''' Young researchers nowadays never have the patience to organize things. Old people like me always have to stay behind to clean up the mess.
+::'''Esther:''' Well... I'll ask Gunn to come in the even days of the week and Wen Tianweng to come in the odd days of the week!
+::<!--Custom String Trigger: Wait_Option_500010122_1286-->
+::<!--Custom String Listener: Wait_Option_500010122_1286-->
+::{{DIcon|Arrow}} I can help too!
+:::<!--Custom String Listener: TalkSentence_500011906-->
+:::'''Esther:''' Oh, what a good kid! Not many kids these days are as kind as you are.
+:::'''Esther:''' Let me introduce myself first. I'm Esther from the Department of Insight. As you can see, I'm not a young researcher. I mainly take care of the filing.
+:::'''Esther:''' If you have any questions about files of the Department of Insight, I should be able to help you.
+::{{DIcon|Arrow}} You look very young.
+:::<!--Custom String Listener: TalkSentence_500011910-->
+:::'''Esther:''' Aww, that's sweet. Young people these days know how to talk.
+:::'''Esther:''' Although I'm content with my age, I never skip a single step in my skincare routine.
+:::'''Esther:''' I pay attention to all the fashionable things young people do. Just look at my lipstick color. It's quite special, isn't it? It's the latest matte lipstick from the Galaxy Luminous collection. It looks good, right?
+::<!--Custom String Trigger: Wait_Option_500010122_1296-->
+::<!--Custom String Listener: Wait_Option_500010122_1296-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000014: Config/Level/NPC/W0/NPC_DefaultStory_500001900.json-->
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Esther:''' Kiddo, what are you up to? Is there anything I can help you with?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Trigger: Mission_200011225-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|undefined}} I heard you are looking for me?
+::<!--Trigger PerformanceE 300030101: Config/Level/Mission/3000301/Act/Act300030101.json-->
+::'''Esther:''' I'm catching up with some old girlfriends in a few days. It's been years since we last met up. I wonder... would they laugh at me for being out of touch with fashion?
+::'''Esther:''' I've heard of you from Lead Researcher Asta. You seem to know a lot, and might have your own insights on fashion.
+::'''Esther:''' Can I ask for your advice? ...Do you think I should dye my hair a different color?
+::{{DIcon|Arrow}} The current color is fine.
+:::<!--Custom String Listener: TalkSentence_300100106-->
+:::'''Esther:''' But I think it feels a little old-fashioned.
+::{{DIcon|Arrow}} What color would you like?
+:::<!--Custom String Listener: TalkSentence_300100108-->
+:::'''Esther:''' *sigh* I can't really decide...
+::<!--Custom String Trigger: TalkSentence_300100109-->
+::<!--Custom String Listener: TalkSentence_300100109-->
+::'''Esther:''' Fashion is changing every day... I've had white hair for so long that it's about time for a change.
+::'''Esther:''' Apparently, the most fashionable colors these days are blue and brown, but both colors have their pros and cons. It's so hard to choose.
+::{{DIcon|Arrow}} Why have to choose?
+:::<!--Custom String Listener: TalkSentence_300100112-->
+:::'''Esther:''' I do want to try them both, but the quality of my hair won't allow me to experiment too much.
+::{{DIcon|Arrow}} Blue! I like blue!
+:::<!--Custom String Listener: TalkSentence_300100114-->
+:::'''Esther:''' Blue makes people think about the sea, the sky, and the universe... Wait! I'm not asking which color you like. I want to know which hair color looks better!
+::{{DIcon|Arrow}} Brown! I like brown!
+:::<!--Custom String Listener: TalkSentence_300100116-->
+:::'''Esther:''' Brown has a warm feeling to it... Wait! I'm not asking which color you like. I want to know which hair color looks better!
+::<!--Custom String Trigger: TalkSentence_300100117-->
+::<!--Custom String Listener: TalkSentence_300100117-->
+::'''Esther:''' I heard some researchers have already dyed their hair these colors. I'd love to see them for myself.
+::'''Esther:''' But my work at the Department of Insight is not done. I really can't leave yet... So, could I please ask you to take some photos for me?
+::'''Esther:''' I want to see what these colors look like under the space station's lights, and which color would suit me better... Hmm, could you please lend a hand?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300030101-->
+;(If {{cx}}<!--SubMission Started: 300030105--> and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|undefined}} (Give her the photos.)
+::<!--Trigger PerformanceE 300030102: Config/Level/Mission/3000301/Act/Act300030102.json-->
+::'''Esther:''' Ohhh, lemme see... This looks good. But I have an issue.
+::'''Esther:''' Look, the lights in the space station make blue look rigid, and make brown look dull.
+::'''Esther:''' What should I do? Maybe neither color looks good? (Trailblazer), you're young and fashionable. Help me pick the color that suits me.
+::{{DIcon|Arrow}} Blue!
+:::<!--Custom String Listener: TalkSentence_300100156-->
+:::'''Esther:''' Okay, blue it is. It's not bad. It gives a feeling of vastness and open space.
+::{{DIcon|Arrow}} Brown!
+:::<!--Custom String Listener: TalkSentence_300100158-->
+:::'''Esther:''' Mmm, you can't go wrong with brown.
+::<!--Custom String Trigger: TalkSentence_300100159-->
+::<!--Custom String Listener: TalkSentence_300100159-->
+::'''Esther:''' Young people do think fast. I'll defer to you on this! Thank you. You can try a different hair color yourself, you know.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300030105-->
+;(If {{cx}}<!--SubMission Started: 300030201-->, {{cx}}<!--SubMission Started: 300030105-->, and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|undefined}} I heard you are looking for me again?
+::<!--Trigger PerformanceE 300030201: Config/Level/Mission/3000302/Act/Act300030201.json-->
+::'''Esther:''' Ohhh, there you are. I'm so sorry about that business with my hair last time...
+::'''Esther:''' I didn't end up dyeing my hair. I'm so sorry for wasting your efforts.
+::{{DIcon|Arrow}} You didn't like the color after all?
+::{{DIcon|Arrow}} Did something happen?
+::<!--Custom String Listener: TalkSentence_300100206-->
+::'''Esther:''' No... I bought the dye, but the color was different from what I imagined. The party was coming up, and I had no time to buy another one...
+::'''Esther:''' I was concerned my girlfriends would laugh at me, so I decided not to dye it after all.
+::{{DIcon|Arrow}} What are your plans then?
+:::<!--Custom String Listener: TalkSentence_300100209-->
+:::'''Esther:''' *sigh* I'll leave my hair as it is.
+::{{DIcon|Arrow}} You already look good.
+:::<!--Custom String Listener: TalkSentence_300100211-->
+:::'''Esther:''' Ohhh, there's no need to praise me. What's so good about white hair from old age?
+::<!--Custom String Trigger: TalkSentence_300100212-->
+::<!--Custom String Listener: TalkSentence_300100212-->
+::'''Esther:''' I get a headache every time I think about the party... *sigh* If I can't dye my hair, then maybe I can at least change my glasses.
+::'''Esther:''' I see lots of researchers wearing contact lenses these days. I want to try them out, but I don't know which type to try.
+::'''Esther:''' *sigh* I'm still too busy to get away... Could you please ask around to see what contact lenses are in fashion these days?
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300030201-->
+;(If {{cx}}<!--SubMission Started: 300030205-->, {{cx}}<!--SubMission Started: 300030201-->, {{cx}}<!--SubMission Started: 300030105-->, and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|undefined}} Amber Starlight is in fashion right now.
+::<!--Trigger PerformanceE 300030205: Config/Level/Mission/3000302/Act/Act300030205.json-->
+::'''Esther:''' Hold on, let me check... Oh, it does look good! But I feel it'll be difficult to re-create what they're showing on the ad.
+::'''Esther:''' ...However, if I don't buy it, I'll have to wear this pair of wired glasses to the party. That's too old-fashioned.
+::'''Esther:''' (Trailblazer), what should I do?
+::{{DIcon|Arrow}} Stick with wired glasses.
+:::<!--Custom String Listener: TalkSentence_300100287-->
+:::'''Esther:''' Hmm, yes. Amber Starlight is too showy. It doesn't really fit me in my age.
+::{{DIcon|Arrow}} Definitely Amber Starlight!
+:::<!--Custom String Listener: TalkSentence_300100289-->
+:::'''Esther:''' The special effects are rather extravagant, but the amber shade is quite pretty. I am definitely tempted!
+::<!--Custom String Trigger: TalkSentence_300100290-->
+::<!--Custom String Listener: TalkSentence_300100290-->
+::'''Esther:''' Thank you, (Trailblazer)!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300030205-->
+;(If {{cx}}<!--SubMission Started: 300030301-->, {{cx}}<!--SubMission Started: 300030205-->, {{cx}}<!--SubMission Started: 300030201-->, {{cx}}<!--SubMission Started: 300030105-->, and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|undefined}} I heard you are looking for me again?
+::<!--Trigger PerformanceE 300030301: Config/Level/Mission/3000303/Act/Act300030301.json-->
+::'''Esther:''' I have to thank you. My girlfriends at the party all said that I'm a fashionista now.
+::'''Esther:''' They're really jealous that I have a fashion consultant like you. This time, they want me to ask you some questions...
+::'''Esther:''' Two colors are really popular right now. Retro Glazed Bronze and Summer Blooming Forest... (Trailblazer), do you know what they actually are?
+::{{DIcon|Arrow}} It's just gold and green...
+:::<!--Custom String Listener: TalkSentence_300100306-->
+:::'''Esther:''' Wow, I knew it. Your fashion instincts are sharp... You immediately understood those weird names.
+::{{DIcon|Arrow}} Those colors are everywhere in the space station!
+:::<!--Custom String Listener: TalkSentence_300100308-->
+:::'''Esther:''' Really? I've never noticed it.
+::<!--Custom String Trigger: TalkSentence_300100309-->
+::<!--Custom String Listener: TalkSentence_300100309-->
+::'''Esther:''' So you're saying the space station already... has these two shades? But I don't remember ever seeing them.
+::'''Esther:''' In that case, please help me take pictures of items in these colors and bring the photos to me, so I can learn about them as well!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300030301-->
+;(If {{cx}}<!--SubMission Started: 300030305-->, {{cx}}<!--SubMission Started: 300030301-->, {{cx}}<!--SubMission Started: 300030205-->, {{cx}}<!--SubMission Started: 300030201-->, {{cx}}<!--SubMission Started: 300030105-->, and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|undefined}} (Show her the photos.)
+::<!--Trigger PerformanceE 300030302: Config/Level/Mission/3000303/Act/Act300030302.json-->
+::'''Esther:''' (Trailblazer), you're definitely a youngster. You think fast and act fast.
+::'''Esther:''' But I really didn't expect this. Retro Glazed Bronze and Summer Blooming Forest... they sound so new and special based on the name.
+::'''Esther:''' I really learned something today. They're just ordinary colors. I feel maybe this is a bit...
+::{{DIcon|Arrow}} Fashion is not real!
+:::<!--Custom String Listener: TalkSentence_300100336-->
+:::'''Esther:''' I've always heard people say that fashion is just a trick, that it's not real. Looks like they're right.
+::{{DIcon|Arrow}} Over-hyped?
+:::<!--Custom String Listener: TalkSentence_300100338-->
+:::'''Esther:''' With such ordinary colors... it's definitely over-hyped.
+::<!--Custom String Trigger: TalkSentence_300100339-->
+::<!--Custom String Listener: TalkSentence_300100339-->
+::'''Esther:''' You're right. But I feel... I can't digest all this information at once.
+::'''Esther:''' This kind of contrast was fashionable when I was young. I didn't think it'd be back in fashion now.
+::'''Esther:''' Fashion is so weird. It's all a big cycle... Tsk!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_300030305-->
+;(If {{cx}}<!--SubMission Started: 300030305-->, {{cx}}<!--SubMission Started: 300030301-->, {{cx}}<!--SubMission Started: 300030205-->, {{cx}}<!--SubMission Started: 300030201-->, {{cx}}<!--SubMission Started: 300030105-->, and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon}} I've got something to ask you.
+::<!--Custom String Trigger: Wait_Option_500010122_1299-->
+::<!--Custom String Listener: Wait_Option_500010122_1299-->
+:;(If {{cx}}<!--SubMission Finish: 300030105-->)
+:::{{DIcon|Talk}} Have you found your own fashion style?
+::::<!--Custom String Listener: TalkSentence_500011928-->
+::::'''Esther:''' To be honest, I'm still looking. It's a bit difficult to fix my bad habit of only paying attention to the latest products.
+::::'''Esther:''' But I have a general direction now. I won't fall into the trap of modern fashion again and I have you to thank for that, young one.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Does the Department of Insight suffer the most from this invasion?
+::::<!--Custom String Listener: TalkSentence_500011915-->
+::::'''Esther:''' I'm not sure about the other departments. But this invasion is undoubtedly a disaster for us.
+::::'''Esther:''' A lot of our files were destroyed. Unlike experimental documents, which they can get the data by repeating the experiment, many Aeon mysteries will be lost forever...
+::::'''Esther:''' I may have to contact some ex-colleagues to transcribe some of the files. Things stored in our heads last the longest.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is there anything I can help with?
+::::<!--Custom String Listener: TalkSentence_500011919-->
+::::'''Esther:''' You're such a good kid. You don't look like you are from the Department of Insight. I shouldn't trouble you.
+::::'''Esther:''' We've got enough people. A few of my old friends are willing to help.
+::::'''Esther:''' If even someone as strong as Wen Tianweng couldn't handle this, I guess I'll have to seek help from you.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You have great fashion sense.
+::::<!--Custom String Listener: TalkSentence_500011923-->
+::::'''Esther:''' Oh, I am flattered. I'll be embarrassed if you keep talking like that.
+::::'''Esther:''' However, I guess you are a stylish youngster yourself if you can see my fashion style and my makeup.
+::::'''Esther:''' Dressing up every day is my secret to staying energetic and happy. This is my secret.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all I have to ask.
+::::<!--Custom String Listener: TalkSentence_500011927-->
+::::'''Esther:''' Feel free to come to me if you have any questions.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+:;(If {{cx}}<!--SubMission not Finish: 300030105-->)
+:::{{DIcon|Talk}} Does the Department of Insight suffer the most from this invasion?
+::::<!--Custom String Listener: TalkSentence_500011915-->
+::::'''Esther:''' I'm not sure about the other departments. But this invasion is undoubtedly a disaster for us.
+::::'''Esther:''' A lot of our files were destroyed. Unlike experimental documents, which they can get the data by repeating the experiment, many Aeon mysteries will be lost forever...
+::::'''Esther:''' I may have to contact some ex-colleagues to transcribe some of the files. Things stored in our heads last the longest.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Is there anything I can help with?
+::::<!--Custom String Listener: TalkSentence_500011919-->
+::::'''Esther:''' You're such a good kid. You don't look like you are from the Department of Insight. I shouldn't trouble you.
+::::'''Esther:''' We've got enough people. A few of my old friends are willing to help.
+::::'''Esther:''' If even someone as strong as Wen Tianweng couldn't handle this, I guess I'll have to seek help from you.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} You have great fashion sense.
+::::<!--Custom String Listener: TalkSentence_500011923-->
+::::'''Esther:''' Oh, I am flattered. I'll be embarrassed if you keep talking like that.
+::::'''Esther:''' However, I guess you are a stylish youngster yourself if you can see my fashion style and my makeup.
+::::'''Esther:''' Dressing up every day is my secret to staying energetic and happy. This is my secret.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Exit}} That's all I have to ask.
+::::<!--Custom String Listener: TalkSentence_500011927-->
+::::'''Esther:''' Feel free to come to me if you have any questions.
+::::<!--Custom String Trigger: ALL_TALK_END-->
+::::<!--Custom String Listener: ALL_TALK_END-->
+::::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 300030305-->, {{cx}}<!--SubMission Started: 300030301-->, {{cx}}<!--SubMission Started: 300030205-->, {{cx}}<!--SubMission Started: 300030201-->, {{cx}}<!--SubMission Started: 300030105-->, and {{cx}}<!--SubMission Started: 300030101-->)
+:{{DIcon|Exit}} That's all I have to ask.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Esther:''' Feel free to come to me if you have any questions.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Esther
+|zhs  = 以斯帖
+|zht  = 以斯帖
+|ja   = エステル
+|ko   = 에스더
+|es   = Esther
+|fr   = Esther
+|ru   = Эстер
+|th   = Esther
+|vi   = Esther
+|de   = Esther
+|id   = Esther
+|pt   = Esther
+}}
+==Change History==
+{{Change History|TODO}}

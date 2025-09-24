@@ -1,0 +1,135 @@
+<%-- [PAGE_INFO]
+PageTitle=#Trendy Doll Billboard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Trendy Doll Billboard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Golden Hour
+|relatives       = 
+}}
+'''Trendy Doll Billboard''' is an NPC on [[Penacony]], located in [[Golden Hour]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Golden Hour|npc_176_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503034003: Config/Level/Mission/5030340/Act/Act503034003.json-->
+::'''Trendy Doll Billboard:''' Hey {{MC|m=Mr.|f=Ms.}}, you must have wanted to try piloting a giant robot! The Diamond Doll action figure can help you realize your dream!
+::{{DIcon|Arrow}} I do want to try it.
+:::<!--Custom String Listener: TalkSentence_503034023-->
+:::'''Trendy Doll Billboard:''' What are you waiting for? Visit your nearest designer shop to learn more about this product! It's been selling like hotcakes lately!
+::{{DIcon|Arrow}} I've already done that.
+:::<!--Custom String Listener: TalkSentence_503034025-->
+:::'''Trendy Doll Billboard:''' Wow, I'm green with envy! Still, there's no harm in learning more about this product. It's been selling like hotcakes lately!
+:::<!--Custom String Trigger: Talk_454010201-->
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503034004: Config/Level/Mission/5030340/Act/Act503034004.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034031,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034032,
+					"ProtectTime": 0.3
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+			"SimpleTalkList": [
+				{
+					"TalkSentenceID": 503034033,
+					"ProtectTime": 0.3
+				}
+			]
+		}
+	]
+}</pre>
+::<!--Custom String Trigger: Talk_454010201-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Trendy Doll Billboard
+|zhs  = 潮玩娃娃广告牌
+|zht  = 潮玩娃娃看板
+|ja   = ホビー人形の看板
+|ko   = 장난감 인형 광고판
+|es   = Anuncio de muñecas de moda
+|fr   = Publicité pour des jouets tendances
+|ru   = Реклама модной игрушки
+|th   = ป้ายโฆษณาอาร์ตทอย
+|vi   = Bảng Quảng Cáo Búp Bê Trendy
+|de   = Trendige Werbetafel für Puppen
+|id   = Papan Iklan Boneka Trendi
+|pt   = Painel Publicitário de Boneca da Moda
+}}
+==Change History==
+{{Change History|TODO}}

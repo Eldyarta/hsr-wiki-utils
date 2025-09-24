@@ -1,0 +1,151 @@
+<%-- [PAGE_INFO]
+PageTitle=#Kluzer#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Boxer
+|image           = NPC Kluzer.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Fight Club
+|relatives       = 
+}}
+'''Kluzer''' is an NPC on [[Jarilo-VI]], located in [[Fight Club]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Fight Club|npc_6_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201070901,
+		"Type": "submission_state_equal",
+		"Param1": 201070901,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201070806: Config/Level/Mission/2010708/Act201070806.json-->
+:'''Kluzer:''' Who are you? What do you want?
+:{{DIcon|Arrow}} So you're the one Scott picked?
+::<!--Custom String Listener: TalkSentence_101026703-->
+::'''Kluzer:''' More or less. Scott got a whole bunch of boxers to try out the armor and I was the best fit.
+:{{DIcon|Arrow}} Did Scott tell you about the armor?
+::<!--Custom String Listener: TalkSentence_101026705-->
+::'''Kluzer:''' A little, like asking me to put on the armor and become a monster from the Fragmentum or something.
+:<!--Custom String Trigger: TalkSentence_101026707-->
+:<!--Custom String Listener: TalkSentence_101026707-->
+:'''Kluzer:''' Anything else? Don't bother me if it's nothing urgent, I'm still getting used to this armor...
+:{{DIcon|Talk}} It's from the Fragmentum. Be careful.
+::<!--Custom String Listener: TalkSentence_101026708-->
+::'''Kluzer:''' ...Everything in the Fragmentum is dangerous. I'm used to it.
+::'''Kluzer:''' As long as it fits and pays, no biggie right now.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How long have you been wearing this armor?
+::<!--Custom String Listener: TalkSentence_101026711-->
+::'''Kluzer:''' Not long, a game or two.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Audience actually buy it?
+::<!--Custom String Listener: TalkSentence_101026713-->
+::'''Kluzer:''' Quite a lot actually, at least for now. Audiences are just looking for something new, as is typical.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Any adverse reactions after wearing it?
+::<!--Custom String Listener: TalkSentence_101026715-->
+::'''Kluzer:''' Adverse reactions? Don't think so. It's just not very breathable and not easy to walk around with in the ring.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I'll leave you to it.
+::<!--Custom String Listener: TalkSentence_101026717-->
+::'''Kluzer:''' The arm plates seem to be a little loose. Forget it, I'll just fix it myself...
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201070806-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 201070901
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 201070806: Config/Level/Mission/2010708/Act201070806.json-->
+:'''Kluzer:''' Who are you? What do you want?
+:{{DIcon|Arrow}} So you're the one Scott picked?
+::<!--Custom String Listener: TalkSentence_101026703-->
+::'''Kluzer:''' More or less. Scott got a whole bunch of boxers to try out the armor and I was the best fit.
+:{{DIcon|Arrow}} Did Scott tell you about the armor?
+::<!--Custom String Listener: TalkSentence_101026705-->
+::'''Kluzer:''' A little, like asking me to put on the armor and become a monster from the Fragmentum or something.
+:<!--Custom String Trigger: TalkSentence_101026707-->
+:<!--Custom String Listener: TalkSentence_101026707-->
+:'''Kluzer:''' Anything else? Don't bother me if it's nothing urgent, I'm still getting used to this armor...
+:{{DIcon|Talk}} It's from the Fragmentum. Be careful.
+::<!--Custom String Listener: TalkSentence_101026708-->
+::'''Kluzer:''' ...Everything in the Fragmentum is dangerous. I'm used to it.
+::'''Kluzer:''' As long as it fits and pays, no biggie right now.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} How long have you been wearing this armor?
+::<!--Custom String Listener: TalkSentence_101026711-->
+::'''Kluzer:''' Not long, a game or two.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Audience actually buy it?
+::<!--Custom String Listener: TalkSentence_101026713-->
+::'''Kluzer:''' Quite a lot actually, at least for now. Audiences are just looking for something new, as is typical.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Any adverse reactions after wearing it?
+::<!--Custom String Listener: TalkSentence_101026715-->
+::'''Kluzer:''' Adverse reactions? Don't think so. It's just not very breathable and not easy to walk around with in the ring.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} I'll leave you to it.
+::<!--Custom String Listener: TalkSentence_101026717-->
+::'''Kluzer:''' The arm plates seem to be a little loose. Forget it, I'll just fix it myself...
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_201070806-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Everwinter Shadewalker
+|zhs  = 永冬灾影
+|zht  = 永冬災影
+|ja   = 永冬の災影
+|ko   = 영원한 겨울의 재난
+|es   = Sombra del Siempreinvierno
+|fr   = Marcheur de l'ombre de l'Hiver éternel
+|ru   = Тень вечнозимья
+|th   = Everwinter Shadewalker
+|vi   = Ảo Ảnh Everwinter
+|de   = Immerwinter-Schattenwandler
+|id   = Everwinter Shadewalker
+|pt   = Habitante da Sombra do Inverno Eterno
+}}
+==Change History==
+{{Change History|TODO}}

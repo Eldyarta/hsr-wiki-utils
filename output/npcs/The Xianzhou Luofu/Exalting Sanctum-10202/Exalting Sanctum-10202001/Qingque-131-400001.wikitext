@@ -1,0 +1,179 @@
+<%-- [PAGE_INFO]
+PageTitle=#Qingque#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Qingque.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Qingque''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_131_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502088101: Config/Level/NPCDialogue/P10202/NPCAct/Act502088101.json-->
+::'''Qingque:''' Hey, (Trailblazer), what a coincidence to run into you here!
+::'''Qingque:''' ...Please, hear me out. Although I'm at a games parlor, I'm just observing the games without playing.
+::'''Qingque:''' After all, I've got to go at the drop of the hat as soon as the master diviner sends me a message... I can't take the risk to actually play.
+::{{DIcon|Arrow}} Looks like your job has become more demanding, Qingque.
+:::<!--Custom String Listener: TalkSentence_502088106-->
+:::'''Qingque:''' The Divination Commission has become severely shorthanded since the Ambrosial Arbor started growing. Even an idle position like mine is swamped with work...This is so annoying. I have honestly no idea why I'm even so busy.
+::{{DIcon|Arrow}} It's just a round of Celestial Jade. Go for it.
+:::<!--Custom String Listener: TalkSentence_502088108-->
+:::'''Qingque:''' Oh, stop that. If I sit down at the table but can only stay for one or two rounds, I'll be even more miserable than having not playing at all.
+:::'''Qingque:''' I'll be staying away from the game table until the peace has been fully restored on the Luofu. If things refuse to settle down, I might consider getting an easier job that I can slack off in. However, my family might not be pleased with that... what a bother.
+::<!--Custom String Trigger: TalkSentence_502088110-->
+::<!--Custom String Listener: TalkSentence_502088110-->
+::{{A|VO vo ambient w2 greeting qingque 101.ogg}} {{A|VO vo ambient w2 greeting qingque 102.ogg}} '''Qingque:''' Since I'm not playing, shall we have a chat? Not about work, of course.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502088301: Config/Level/NPCDialogue/P10202/NPCAct/Act502088301.json-->
+::'''Qingque:''' Since I'm not playing, shall we have a chat? Not about work, of course.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 801413301-->)
+:{{DIcon|undefined}} Let's have a "Hyperlink Match"!
+::<!--Trigger PerformanceE 801412401: Config/Level/Mission/8014124/Act/Act801412401.json-->
+::'''Qingque:''' You want to play? Bring it on! Deal the tiles! Deal 'em! Oh, I mean... go, Aether Spirits!
+:<pre>{
+	"$type": "RPG.GameCore.ShowUI",
+	"Name": "Ui.AetherDivide.AetherChallenge.AetherChallengePage",
+	"WaitForExit": true,
+	"Param": {
+		"Value": "13"
+	}
+}</pre>
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_801412401-->
+:{{DIcon|Talk}} Let's talk.
+::<!--Trigger PerformanceE 502088201: Config/Level/NPCDialogue/P10202/NPCAct/Act502088201.json-->
+::'''Qingque:''' Let's talk a little, now that things are less hectic.
+::<!--Custom String Trigger: Wait_Option_502088201_994-->
+::<!--Custom String Listener: Wait_Option_502088201_994-->
+::{{DIcon|Talk}} Please give me some advice to achieve happiness at work.
+:::<!--Custom String Listener: TalkSentence_502088206-->
+:::'''Qingque:''' Well, you've come to the right person, as I've mastered the art of being happy at work.
+:::'''Qingque:''' There are three basic principles for happiness at work – do not be proactive, do not say no, and do not be responsible. Got it? Let me give you a small test.
+:::'''Qingque:''' You are an unimportant custodian in the Divination Commission. Recently, you've discovered and restored the game of Celestial Jade, which you found when you explored ancient texts in the repository. To your surprise, the game became extremely popular on the Xianzhou Luofu overnight.
+:::'''Qingque:''' One day, the master diviner shows up and asks whether you are the one who organized and restored the rules of the Celestial Jade game. How should you answer her?
+:::{{DIcon|Arrow}} That's right! It took me a lot of effort to do it!
+::::<!--Custom String Listener: TalkSentence_502088211-->
+::::'''Qingque:''' Seems like you have not learned the gist of the art... If you say that, you'll be taking up extra work on yourself.
+::::<!--Custom String Trigger: TalkSentence_502088216-->
+::::<!--Custom String Listener: TalkSentence_502088216-->
+::::'''Qingque:''' You have a lot more to learn. Let's have more discussions like this in the future.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} What's Celestial Jade?
+::::<!--Custom String Listener: TalkSentence_502088213-->
+::::'''Qingque:''' That's a good answer, but it sounds a bit phony. Since the master diviner probably already figured out the truth, pretending to know nothing would be too obvious an attempt to wash your hands clean. She's likely to arrange more work for you.
+::::<!--Custom String Trigger: TalkSentence_502088216-->
+::::<!--Custom String Listener: TalkSentence_502088216-->
+::::'''Qingque:''' You have a lot more to learn. Let's have more discussions like this in the future.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} I've done nothing much. It's the joint effort of everyone else.
+::::<!--Custom String Listener: TalkSentence_502088215-->
+::::'''Qingque:''' Excellent! Never hog the credit, so that you can pull others down even if the master diviner assigns extra jobs to you. Sharing the woes is the key to happiness at work.
+::::<!--Custom String Trigger: TalkSentence_502088216-->
+::::<!--Custom String Listener: TalkSentence_502088216-->
+::::'''Qingque:''' You have a lot more to learn. Let's have more discussions like this in the future.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Please tell me more about Celestial Jade.
+:::<!--Custom String Listener: TalkSentence_502088218-->
+:::'''Qingque:''' Oh? The game has been around since the days of the Primeval Imperium, and it is based on astronomy and celestial phenomena. Few know that I was the one who restored it from ancient records in the repository.
+:::'''Qingque:''' I told my pen pal from the Artisanship Commission about the game. He then crafted a Celestial Jade tile set and a board for me, and even set up a games parlor... Surprisingly, the game took the Luofu by storm.
+:::'''Qingque:''' At first, some accused the game of being addictive and time-wasting. Later on, the game was somehow hailed as an ancient game that could keep one's mind sharp.
+:::'''Qingque:''' I don't get it. Why must everything we do be meaningful? Isn't it good enough that the game is fun?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} About Fu Xuan...
+:::<!--Custom String Listener: TalkSentence_502088223-->
+:::'''Qingque:''' The master diviner? Ahhh...
+:::{{DIcon|Arrow}} Why did you sigh at the mention of your boss?
+::::<!--Custom String Listener: TalkSentence_502088225-->
+::::'''Qingque:''' I sigh because my job is tough. *sigh*
+::::'''Qingque:''' The master diviner is nice and talented, but she pays too much attention to me.
+::::<!--Custom String Trigger: TalkSentence_502088230-->
+::::<!--Custom String Listener: TalkSentence_502088230-->
+::::'''Qingque:''' I only joined the Divination Commission because my parents want me to, and all I am after is a stable job. I've been keeping a low profile to avoid drawing attention all this while. Things at work have been going pretty well so far.
+::::'''Qingque:''' As a diviner, I'm already at the lowest rank at the Divination Commission. I have no clue what I did to catch her attention. Now I can hardly slack off at work, and I'm often asked to submit reports to her.
+::::'''Qingque:''' This doesn't bode well. It's against my principle of happiness at work...
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Just get everything off your chest. I won't say a word to anyone.
+::::<!--Custom String Listener: TalkSentence_502088228-->
+::::'''Qingque:''' Thanks, {{MC|f=sister|m=brother}}. I feel more reassured now.
+::::'''Qingque:''' ...There's only one thing I'm upset about, and that is the excessive attention I've had from the master diviner lately.
+::::<!--Custom String Trigger: TalkSentence_502088230-->
+::::<!--Custom String Listener: TalkSentence_502088230-->
+::::'''Qingque:''' I only joined the Divination Commission because my parents want me to, and all I am after is a stable job. I've been keeping a low profile to avoid drawing attention all this while. Things at work have been going pretty well so far.
+::::'''Qingque:''' As a diviner, I'm already at the lowest rank at the Divination Commission. I have no clue what I did to catch her attention. Now I can hardly slack off at work, and I'm often asked to submit reports to her.
+::::'''Qingque:''' This doesn't bode well. It's against my principle of happiness at work...
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's call it a day, Qingque.
+:::<!--Custom String Listener: TalkSentence_502088234-->
+:::'''Qingque:''' Sure. Just drop me a line if you're up for a round of tiles.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502088201-->
+:{{DIcon|Exit}} Let's call it a day, Qingque.
+::'''Qingque:''' Sure. Just drop me a line if you're up for a round of tiles.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502088235)
+:<!--Custom String Listener: TalkSentence_502088235-->
+::'''Qingque:''' Sure. Just drop me a line if you're up for a round of tiles.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Qingque
+|zhs  = 青雀
+|zht  = 青雀
+|ja   = 青雀
+|ko   = 청작
+|es   = Qingque
+|fr   = Qingque
+|ru   = Цинцюэ
+|th   = Qingque
+|vi   = Qingque
+|de   = Qingque
+|id   = Qingque
+|pt   = Qingque
+}}
+==Change History==
+{{Change History|TODO}}

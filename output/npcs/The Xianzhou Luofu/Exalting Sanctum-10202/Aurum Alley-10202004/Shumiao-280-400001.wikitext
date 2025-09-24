@@ -1,0 +1,155 @@
+<%-- [PAGE_INFO]
+PageTitle=#Shumiao#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Tiger Boxing Gym's Coach
+|image           = NPC Shumiao.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Shumiao''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_280_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502021101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502021101.json-->
+::{{A|VO vo ambient w2 greeting shumiao 101.ogg}} {{A|VO vo ambient w2 greeting shumiao 102.ogg}} '''Shumiao:''' Martial arts and fitness! Come learn all about it!
+::'''Shumiao:''' {{MC|f=Miss|m=Mister}}, wanna learn about martial arts and fitness? Come take a look at our flyer, and I'll fill you in on all the details.
+::{{DIcon|Arrow}} No thanks, please keep it for someone else.
+:::<!--Custom String Listener: TalkSentence_502021104-->
+:::'''Shumiao:''' No worries, it's free anyway. I promise I'll make this really quick!
+::{{DIcon|Arrow}} Alright, I'll keep this and you tell me about it.
+:::<!--Custom String Listener: TalkSentence_502021106-->
+:::'''Shumiao:''' Awesome! I knew you'd be keen! I promise I'll make this really quick!
+::<!--Custom String Trigger: TalkSentence_502021107-->
+::<!--Custom String Listener: TalkSentence_502021107-->
+::'''Shumiao:''' I'm the coach at Exalting Sanctum's Tiger Boxing Gym, Shumiao. We're a custom boxing gym set up for Outworlders, and our coaches are the best on the Luofu with rich experience in immortality training. All our boxers are living out long lives and achieving incredible results.
+::'''Shumiao:''' Our boss always says that he didn't open this gym to make money, but rather to let more interstellar travelers access the hyper-immortality way of life found aboard the Xianzhou Alliance.
+::'''Shumiao:''' There's never been a better time to sign up as a member. Just sign up for ten years, and get another five years for free. That's a crazy deal! How about I help you register with us right now?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502021102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502021102.json-->
+::'''Shumiao:''' Martial arts and fitness! Come learn all about it!
+::'''Shumiao:''' Ah, there you are! Are you ready to sign up for a membership yet?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed and {{cx}}<!--performance 502018202 has been seen-->)
+:{{DIcon|Talk}} Did you notice the Ambrosial Arbor was growing once again?
+::<!--Trigger PerformanceE 502018202: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502018202.json-->
+::'''Shumiao:''' How could I miss it &mdash; the thing's absolutely enormous!
+::'''Shumiao:''' I was out on the streets promoting our gym when it happened, and I remember chatting with this old outworlder lady. I told her to train with us for a new lease on life, "just like a tree's regrowth"!
+::'''Shumiao:''' She didn't really get what I meant, when suddenly: "Boing" &mdash; the whole Ambrosial Arbor had started actively growing. I pointed and told her, "See &mdash; just like a tree's regrowth"!
+::'''Shumiao:''' ...But let's break it down into two parts. Everyone in Xianzhou knows that the Ambrosial Arbor's regrowth is definitely not a good thing. I hope my friends down at Scalegorge Waterscape are all doing okay.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502018202-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed and {{cx}}<!--performance 502018202 has been seen-->)
+:{{DIcon|Talk}} Has business been going well lately?
+::<!--Trigger PerformanceE 502021104: Config/Level/NPCDialogue/P10202/NPCAct/Act502021104.json-->
+::'''Shumiao:''' Because of you guys, the Aurum Alley has become so much more prosperous, and my business is doing better, too.
+::'''Shumiao:''' Ironically, after the Ambrosial Arbor's growth, the Luofu became a more dangerous place. This situation made my boxing gym more popular than ever. After all, it's always best to know some moves that can help you defend yourself.
+::'''Shumiao:''' Being out there in the world like you are, you're sure to bump heads with people from time to time... Why don't you drop by my boxing gym and have a session someday? I'll give you a discount!
+::'''Shumiao:''' ...Hold on. It suddenly occurs to me that I have nothing to teach you... How about you give a lesson at my boxing gym? I'll offer you great pay!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502021104-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed and {{cx}}<!--performance 502018202 has been seen-->)
+:{{DIcon|Talk}} I'll mull it over.
+::<!--Trigger PerformanceE 502021103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502021103.json-->
+::'''Shumiao:''' At this price, what are you waiting for? C'mon, {{MC|f=Miss|m=Mister}}, what else would you like to know? Just ask!
+::<!--Custom String Trigger: Wait_Option_502021101_24-->
+::<!--Custom String Listener: Wait_Option_502021101_24-->
+::{{DIcon|Talk}} Your boxing gym only accepts Outworlders?
+:::<!--Custom String Listener: TalkSentence_502021113-->
+:::'''Shumiao:''' I know what you're worried about, {{MC|f=Miss|m=Mister}}! You're wondering, do these guys specialize in swindling Outworlders? I assure you that you're overthinking!
+:::'''Shumiao:''' Xianzhou people get membership cards that last them over 200 years. There's absolutely no comparison to be made here. These discounts are intended for Outworlders visiting Xianzhou.
+:::'''Shumiao:''' In other words, Xianzhou people who can live for centuries without training are not our target market. When you come to the Xianzhou Luofu, you can't leave empty-handed.
+:::'''Shumiao:''' Come to our Tiger Boxing Gym for a few decades, and I guarantee you'll live much longer!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you just planning on running away with my money?
+:::<!--Custom String Listener: TalkSentence_502021118-->
+:::'''Shumiao:''' A common misunderstanding. We're teamed up with the Cloud Knights, so we can't just run away from them.
+:::'''Shumiao:''' People often question our business model, saying horrible things like, "You're only taking ten-year-long subscriptions because you're planning on running away with everything."
+:::'''Shumiao:''' Lots of people throw in the towel and don't bother coming back after a few times. Rather than worrying about the boxing gym, they should be worrying about whether they've got the perseverance to see things through.
+:::'''Shumiao:''' Our business model is designed to help gym-goers stick to the plan. Think about it &mdash; if you spend money without exercising, you'll feel like you're getting ripped off. And you'll come to the gym for training.
+:::'''Shumiao:''' We sincerely hope that you can come and join us. Nobody wants to see you waste your money.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is it possible to live for several hundred years through training alone?
+:::<!--Custom String Listener: TalkSentence_502021124-->
+:::'''Shumiao:''' Sure! Think about it, why do the people aboard the Xianzhou ship live for so long?
+:::{{DIcon|Arrow}} Is it because they practice boxing?
+::::<!--Custom String Listener: TalkSentence_502021126-->
+::::'''Shumiao:''' That's right. Many Xianzhou people don't even realize the importance of boxing exercises.
+::::<!--Custom String Trigger: TalkSentence_502021129-->
+::::<!--Custom String Listener: TalkSentence_502021129-->
+::::'''Shumiao:''' I've met loads of lazy people aboard Xianzhou who neglect exercise and don't maintain a healthy attitude. They end up getting early-onset mara-struck sickness. So long as you keep up your daily practice, you can live for thousands of years more.
+::::'''Shumiao:''' See, I told you exercising can lead to extreme longevity without getting fast and loose with any facts, right?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Isn't there a predetermining factor?
+::::<!--Custom String Listener: TalkSentence_502021128-->
+::::'''Shumiao:''' Your natural constitution is important, yes. But the way you're nurtured is far more important!
+::::<!--Custom String Trigger: TalkSentence_502021129-->
+::::<!--Custom String Listener: TalkSentence_502021129-->
+::::'''Shumiao:''' I've met loads of lazy people aboard Xianzhou who neglect exercise and don't maintain a healthy attitude. They end up getting early-onset mara-struck sickness. So long as you keep up your daily practice, you can live for thousands of years more.
+::::'''Shumiao:''' See, I told you exercising can lead to extreme longevity without getting fast and loose with any facts, right?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Forget about it. Maybe next time.
+:::<!--Custom String Listener: TalkSentence_502021132-->
+:::'''Shumiao:''' Okay! Take a look whenever you're interested, and I'll be waiting for you. But this body of yours will wait for nothing!
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502021103-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed and {{cx}}<!--performance 502018202 has been seen-->)
+:{{DIcon|Exit}} Forget about it. Maybe next time.
+::'''Shumiao:''' Okay! Take a look whenever you're interested, and I'll be waiting for you. But this body of yours will wait for nothing!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Shumiao
+|zhs  = 殊妙
+|zht  = 殊妙
+|ja   = 殊妙
+|ko   = 수미
+|es   = Shumiao
+|fr   = Shumiao
+|ru   = Шумяо
+|th   = Shumiao
+|vi   = Shumiao
+|de   = Shumiao
+|id   = Shumiao
+|pt   = Shumiao
+}}
+==Change History==
+{{Change History|TODO}}

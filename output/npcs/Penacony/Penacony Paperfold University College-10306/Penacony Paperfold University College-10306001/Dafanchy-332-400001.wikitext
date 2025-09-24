@@ -1,0 +1,178 @@
+<%-- [PAGE_INFO]
+PageTitle=#Dafanchy#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Dafanchy.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = Penacony Paperfold University College
+|relatives       = 
+}}
+'''Dafanchy''' is an NPC on [[Penacony]], located in [[Penacony Paperfold University College]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Penacony Paperfold University College|npc_332_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 503107001: Config/Level/Mission/5031070/Act/Act503107001.json-->
+::'''Dafanchy:''' Hello Manager. The music party isn't over yet. It's bustling out there, and you should be enjoying the carefree school life outside.
+::'''Dafanchy:''' This was once our rehearsal room, but now... it's got nothing to do with the band.
+::<!--Custom String Trigger: Wait_Option_503107001_9-->
+::<!--Custom String Listener: Wait_Option_503107001_9-->
+::{{DIcon|Talk}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_503107004-->
+:::'''Dafanchy:''' ...Me? I don't like noisy places. It's much quieter here. It gives me peace... and nostalgia.
+:::'''Dafanchy:''' While I was training with Head Ninja Rappa, it was like time stood still, and the memories of that time still swirl in my head... Standing on the stage with me and my bandmates, declaring our name to everyone.
+:::'''Dafanchy:''' Such an experience was simply unimaginable to me. I probably... will never forget The Dazzling.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Where are the instruments you guys used for the show?
+:::<!--Custom String Listener: TalkSentence_503107008-->
+:::'''Dafanchy:''' After the show ended, Head Ninja Rappa asked a staff member to move the instruments here, but Arfey and I brought ours home... It's not safe to leave important stuff in the classroom.
+:::'''Dafanchy:''' We requested them from the school. Also, the instruments have been scribbled full of ninja talismans &mdash; no one else but us would use them.
+:::{{DIcon|Arrow}} This keyboard...
+::::<!--Custom String Listener: TalkSentence_503107011-->
+::::'''Dafanchy:''' Czipo said he wanted to leave The Dazzling's mark at the school, so he left the keyboard here.
+::::'''Dafanchy:''' To be able to see a ninja talisman at school... It makes me pretty happy.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} That DJ turntable...
+::::<!--Custom String Listener: TalkSentence_503107014-->
+::::'''Dafanchy:''' The music party will continue, so Head Ninja Rappa left the performance gear on the stage.
+::::'''Dafanchy:''' Montana's in charge of that. We can go take a look when we're free.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} So what's next for you?
+:::<!--Custom String Listener: TalkSentence_503107017-->
+:::'''Dafanchy:''' I... I'd better finish my dissertation first. It'll be troublesome if I can't graduate.
+:::'''Dafanchy:''' If everything goes well, after I graduate, I plan to form a new band &mdash; one where I'm the lead.
+:::'''Dafanchy:''' Head Ninja Rappa promised the academy representatives that I would be included as an official member of the performing band, but I'd rather start all over &mdash; recruitment, composition, and creating my own unique style.
+:::'''Dafanchy:''' I may lack skill, but technique can be honed. Most importantly... it's the courage to take that first step.
+:::<!--Custom String Trigger: Wait_Option_503107001_31-->
+:::<!--Custom String Listener: Wait_Option_503107001_31-->
+:::{{DIcon|Talk}} You want me to keep being the band manager?
+::::<!--Custom String Listener: TalkSentence_503107022-->
+::::'''Dafanchy:''' If you're interested, absolutely! We won't have to fret over composing tracks with a manager around.
+::::'''Dafanchy:''' I'm kidding... You've taken great care of us, and were willing to confront the school about the band's performance. If you agreed to help out, it'd definitely be much easier for me.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Will you find the former band members too?
+::::<!--Custom String Listener: TalkSentence_503107025-->
+::::'''Dafanchy:''' I asked them about it, but... Czipo isn't interested in forming a band, and Arfey's got a clear goal in her mind &mdash; she intends to leave Penacony, so I had to abandon that idea.
+::::'''Dafanchy:''' Moreover... I've also thought about it &mdash; they are very good. Can I really pick up the mantle of Head Ninja Rappa's role and help them fulfill their own way of the ninja? I... don't have that kind of confidence.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Let me wish you the best of luck in the meantime!
+::::<!--Custom String Listener: TalkSentence_503107028-->
+::::'''Dafanchy:''' Thank you, but I think you should wish for me to successfully graduate first.
+::::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 503107002: Config/Level/Mission/5031070/Act/Act503107002.json-->
+::'''Dafanchy:''' Hello manager. The music party isn't over yet. It's bustling out there, and you should be enjoying the carefree school life outside.
+::'''Dafanchy:''' This was once our rehearsal room, but now... it's got nothing to do with the band.
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Clockwork}} Activate Clockwork
+::You try using clockwork to get in touch with Dafanchy's heart, but no matter how much the clock turns, you hear the same old words...
+::"...We are The Dazzling!!!"
+::Looks like the performances left an indelible, lasting impression in the band's hearts &mdash; no amount of emotion can cause this passion to waver. This is the power of music.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404035603-->)
+:{{DIcon|?}} Do you need me for something?
+::'''Dafanchy:''' Manager, I'd like to ask for a favor. Um... the school's yearbook is about to be out, and we can invite classmates to write us messages. Um... I'm not really familiar with others at school, so can you write something for me?
+::{{DIcon|Arrow}} (Write a serious message)
+:::<!--Custom String Listener: TalkSentence_503107115_1-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 180,
+	"Value": "1"
+}</pre>
+::{{DIcon|Arrow}} (Write a witty message)
+:::<!--Custom String Listener: TalkSentence_503107115_2-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 180,
+	"Value": "2"
+}</pre>
+::{{DIcon|Arrow}} (Write an emotional message)
+:::<!--Custom String Listener: TalkSentence_503107115_3-->
+::<pre>{
+	"$type": "RPG.GameCore.SetTextJoinValue",
+	"TextJoinID": 180,
+	"Value": "3"
+}</pre>
+::<!--Custom String Trigger: TalkSentence_503107115-->
+::<!--Custom String Listener: TalkSentence_503107115-->
+::'''Dafanchy:''' Thank you... Oh yes, please save a copy for yourself too. No matter whether everyone stays in touch in the future or not, this will be... our band's memory.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404035603-->)
+:{{DIcon}} I want to chat with you.
+::'''Dafanchy:''' What... is it?
+::<!--Custom String Trigger: Wait_Option_503107004_69-->
+::<!--Custom String Listener: Wait_Option_503107004_69-->
+::{{DIcon|Talk}} Will you still keep in contact with the other band members?
+:::<!--Custom String Listener: TalkSentence_503107203-->
+:::'''Dafanchy:''' Mm, I don't really have a lot of friends at school. The ones I talk to the most are Czipo and Arfey. We usually hang out together to talk about school stuff and future plans.
+:::'''Dafanchy:''' Everyone's got different ideas, but we're all pretty close. Just like Head Ninja Rappa said &mdash; The Dazzling isn't just a temporarily formed band, but a belief and sense of belonging that we share.
+:::'''Dafanchy:''' I'm very glad... that I met you, Head Ninja Rappa, and my two bandmates during the final moments of my school time. Thank you all.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Has the Dreamweaver Academy matter been settled?
+:::<!--Custom String Listener: TalkSentence_503107207-->
+:::'''Dafanchy:''' The academy representative gave that student sufficient compensation. He wasn't all that interested in band activities anyway, so it was settled very quickly, but... students have started to protest about the '''grades first''' principle.
+:::'''Dafanchy:''' Forcing students into positions they are unsuited or uninterested in may be in the spirit of fairness, but is it really the best solution? I think the academy representative should also think this over.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all the questions I have.
+:::<!--Custom String Listener: TalkSentence_503107210-->
+:::'''Dafanchy:''' Sure. You can look for me any time you wish to chat.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404035603-->)
+:{{DIcon|Exit}} Enjoy this music party to the fullest!
+::'''Dafanchy:''' I... don't really like crowded places. It's much more calming to stay here. Don't worry about me, Manager. You've got stuff to do.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Dafanchy
+|zhs  = 达凡绮
+|zht  = 達凡綺
+|ja   = ダファンキー
+|ko   = 다판치
+|es   = Dafanchy
+|fr   = Dafanchy
+|ru   = Дафинчи
+|th   = Dafanchy
+|vi   = Dafanchy
+|de   = Dafanchy
+|id   = Dafanchy
+|pt   = Dafanchy
+}}
+==Change History==
+{{Change History|TODO}}

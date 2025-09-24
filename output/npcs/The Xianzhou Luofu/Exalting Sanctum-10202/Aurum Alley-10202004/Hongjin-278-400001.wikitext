@@ -1,0 +1,133 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hongjin#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Fanghu Tourist
+|image           = NPC Hongjin.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Hongjin''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_278_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502061101: Config/Level/NPCDialogue/P10202/NPCAct/Act502061101.json-->
+::'''Hongjin:''' Why is it so hard to buy a place to live in Exalting Sanctum? They can just tell us straight if they don't want to sell. Why do they have so many restrictions instead!?
+::'''Hongjin:''' "Property purchase eligibility." Heh. What a joke. It's just targeting us Vidyadhara.
+::'''Hongjin:''' No wonder I heard people say that the Luofu's high elder is an incompetent figurehead... You know what? My kin here are betting off immigrating to the Fanghu!
+::{{DIcon|Arrow}} You're being quite radical.
+:::<!--Custom String Listener: TalkSentence_502061106-->
+:::'''Hongjin:''' Radical? I'm not radical! I'm just stating the truth! Don't go stick labels on me.
+:::'''Hongjin:''' Besides, I'm saying this so more Vidyadhara can pay attention to these issues!
+::{{DIcon|Arrow}} What did the Luofu ever do to you!?
+:::<!--Custom String Listener: TalkSentence_502061109-->
+:::'''Hongjin:''' Nothing! Can't someone just complain about the world?
+:::'''Hongjin:''' Wait, you're an Outworlder, so why would you care so much about the Luofu? I don't get you...
+::<!--Custom String Trigger: TalkSentence_502061111-->
+::<!--Custom String Listener: TalkSentence_502061111-->
+::'''Hongjin:''' You've misunderstood me, it seems. Let me be clear: I have nothing against the Luofu.
+::'''Hongjin:''' It's just that the Vidyadhara's daily lives on the Luofu have many inconveniences. The Realm-Keeping Commission should consider our needs more.
+::'''Hongjin:''' Ah, never mind. These things won't change overnight after all. But you... what brings you here?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502061301: Config/Level/NPCDialogue/P10202/NPCAct/Act502061301.json-->
+::'''Hongjin:''' Hey, it's you again, {{MC|f=young lady|m=young man}}. What brings you here this time?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} I'm just a bit curious...
+::<!--Trigger PerformanceE 502061201: Config/Level/NPCDialogue/P10202/NPCAct/Act502061201.json-->
+::'''Hongjin:''' If you're curious about anything, just shoot it.
+::<!--Custom String Trigger: Wait_Option_502061201_704-->
+::<!--Custom String Listener: Wait_Option_502061201_704-->
+::{{DIcon|Talk}} What do you mean by inconveniences?
+:::<!--Custom String Listener: TalkSentence_502061204-->
+:::'''Hongjin:''' The general quality of life is pretty similar across all the Xianzhou ships. The water quality here is not as good as the Fanghu, where I'm from, but that's to be expected.
+:::'''Hongjin:''' But when it comes to housing, this place is simply awful. Whenever someone in the Fanghu has completed their hatching rebirth, they'll immediately get a residence for free.
+:::'''Hongjin:''' But here on the Luofu, you've got to go through a whole lot of nasty real estate paperwork. The officials have lines like, "You Vidyadhara just abandon your real estate after each rebirth! What a waste of resources!" Tsk! They say that because their Realm-Keeping Commission is so incompetent at registering hatching rebirth!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why do you say the Luofu is targeting the Vidyadhara?
+:::<!--Custom String Listener: TalkSentence_502061208-->
+:::'''Hongjin:''' I've recently got my eyes on a property on a floating island in Exalting Sanctum. It's expensive, but I'm not short on money. I just want to be at a place with a lot of traffic and surrounded by amenities.
+:::'''Hongjin:''' But you know what? They say I've got to provide my health certificates and criminal conviction clearance across three centuries to prove I won't suddenly go through a hatching rebirth and leave the real estate I want to purchase suspended in limbo. Come on! Foxians only need a record of continuous employment for 100 years!
+:::'''Hongjin:''' Besides, it's not like we can just control our own hatching rebirths. If we get into an accident, we don't get to keep any of our memories after the rebirth. How are we supposed to remember to do annual health checks? They're clearly just trying to get one over on us honest folk!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You are not a Luofu local, are you?
+:::<!--Custom String Listener: TalkSentence_502061212-->
+:::'''Hongjin:''' Of course not. I'm from the Fanghu. Have you heard of the famous Miniature Myriads?
+:::'''Hongjin:''' You haven't? *sigh* As I suspected. The Fanghu has been overshadowed by the Luofu these days!
+:::'''Hongjin:''' But when the Five Dragons undertook their exodus it was our Glaciator Marum, the high elder of the Fanghu, who was the most venerable of them all. She was the one who signed the covenant with the Alliance on behalf of the Vidyadhara.
+:::'''Hongjin:''' Since then, we Vidyadhara have been working for the Alliance, and were decorated with many honors for suppressing the "Traces of Abundance"... Oh, I should call it "Plaguemark" as per the Alliance's request.
+:::'''Hongjin:''' As a reward, the Alliance granted us the Xianzhou Fanghu to rule as an autonomous ship. The Glaciator Marum continues to prove herself as a capable ruler, and I expected nothing less from a revered scion of a venerable lineage! Her establishments almost rival the glorious days of our bygone history!
+:::'''Hongjin:''' I have to admit that the Fanghu is not as lively as the Luofu, and that's why I came here. I'm a merchant, and we chase after this bustling atmosphere.
+:::'''Hongjin:''' I wouldn't have wanted to come at all if it weren't for the business opportunities. Just look at this starskiff! Its shape is so dull and plain, and it's got way less aesthetic than the ones on the Fanghu!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all I wanted to ask...
+:::<!--Custom String Listener: TalkSentence_502061220-->
+:::'''Hongjin:''' Sure, I'll be staying in the Luofu for a while. See you around, {{MC|f=young lady|m=young man}}.
+:::<!--Custom String Trigger: TalkSentence_502061222-->
+:::<!--Custom String Listener: TalkSentence_502061222-->
+:::'''Hongjin:''' The Skyward Pavilions neighborhood is a great place to invest or live in. If only the properties there were not limited for purchase...
+:::'''Hongjin:''' If you ask me, I'd say the Luofu... Well, forget it. It's just not a place where you'd call home. We Vidyadhara are better off elsewhere!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502061201-->
+:{{DIcon|Exit}} Forget it. I don't have any more questions.
+::'''Hongjin:''' Sure, I'll be staying in the Luofu for a while. See you around, {{MC|f=young lady|m=young man}}.
+::'''Hongjin:''' The Skyward Pavilions neighborhood is a great place to invest or live in. If only the properties there were not limited for purchase...
+::'''Hongjin:''' If you ask me, I'd say the Luofu... Well, forget it. It's just not a place where you'd call home. We Vidyadhara are better off elsewhere!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hongjin
+|zhs  = 鸿津
+|zht  = 鴻津
+|ja   = 鴻津
+|ko   = 홍진
+|es   = Hongjin
+|fr   = Hongjin
+|ru   = Хунцзинь
+|th   = Hongjin
+|vi   = Hongjin
+|de   = Hongjin
+|id   = Hongjin
+|pt   = Hongjin
+}}
+==Change History==
+{{Change History|TODO}}

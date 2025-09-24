@@ -1,0 +1,338 @@
+<%-- [PAGE_INFO]
+PageTitle=#Taciturn Man#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Taciturn Man.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Taciturn Man''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_100_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 404021402
+	}
+]
+</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 404021402: Config/Level/Mission/4040214/Act/Act404021402.json-->
+::'''Taciturn Man:''' ...
+::'''Taciturn Man:''' Are you my opponent?
+::'''Taciturn Man:''' What do you want from me?
+::{{DIcon|Arrow}} Hi there, I'd like to engage in diplomacy with you...
+:::<!--Custom String Listener: TalkSentence_404021451-->
+:::'''Taciturn Man:''' ...Just speak your mind.
+:::{{DIcon|Arrow}} Let's have a deal...
+::::<!--Custom String Listener: TalkSentence_404021453-->
+::::'''Taciturn Man:''' ...I'm listening.
+::::{{DIcon|Arrow}} Throw the contest and split the prize with me, 70/30.
+:::::<!--Custom String Listener: TalkSentence_404021455-->
+:::::'''Taciturn Man:''' ...Interesting, but I can't take that.
+:::::'''Taciturn Man:''' I don't think that's in good faith. That's enough.
+::::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021402,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+::::{{DIcon|Arrow}} Throw the contest and split the prize with me, 60/40.
+:::::<!--Custom String Listener: TalkSentence_404021458-->
+:::::'''Taciturn Man:''' ...Interesting. I'll take that deal.
+:::::'''Taciturn Man:''' I just came here to eat buns, anyway...
+::::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021402,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"DirectValue": 1,
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+::::{{DIcon|Arrow}} I order you to throw the contest, and I'll take home all of the prizes!
+:::::<!--Custom String Listener: TalkSentence_404021461-->
+:::::'''Taciturn Man:''' ...Greedy goon!
+:::::'''Taciturn Man:''' I'll just have to beat you in the next phase then. Let's end it here then.
+::::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021402,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+:::{{DIcon|Arrow}} Alright. I have absolutely no idea what's going on.
+::::<!--Custom String Listener: TalkSentence_404021464-->
+::::'''Taciturn Man:''' ...Let's end this phase here.
+::::'''Taciturn Man:''' You're nothing like a qualified fighter.
+:::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021402,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+:::{{DIcon|Arrow}} I hate to break the news to you, but you're going down!
+::::<!--Custom String Listener: TalkSentence_404021467-->
+::::'''Taciturn Man:''' ...Heh.
+::::'''Taciturn Man:''' Let's wait and see.
+:::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021402,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+::{{DIcon|Arrow}} Sorry to say, but you're gonna lose!
+:::<!--Custom String Listener: TalkSentence_404021470-->
+:::'''Taciturn Man:''' ...Heh.
+:::'''Taciturn Man:''' Let's wait and see.
+::<pre>{
+	"$type": "RPG.GameCore.CalculateMissionCustomValue",
+	"TargetSubmissionID": 404021402,
+	"TargetMissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": [
+			1,
+			2,
+			3,
+			4,
+			9,
+			10,
+			11
+		]
+	},
+	"ValueA": {
+		"Type": "CustomValue",
+		"MainMissionID": 4040214,
+		"MissionCustomValue": {
+			"Name": "OldValue_0",
+			"ValidValueParamList": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11
+			]
+		}
+	},
+	"ValueB": {
+		"MissionCustomValue": {
+			"Name": "OldValue_0"
+		}
+	}
+}</pre>
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Trigger: 404021402_Finish-->
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404021402_Finish-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

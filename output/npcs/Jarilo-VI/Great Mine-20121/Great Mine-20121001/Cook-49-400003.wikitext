@@ -1,0 +1,160 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cook#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Cook.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Great Mine
+|relatives       = 
+}}
+'''Cook''' is an NPC on [[Jarilo-VI]], located in [[Great Mine]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Great Mine|npc_49_400003}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 201050112,
+		"Type": "submission_state_equal",
+		"Param1": 201050112,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceD 201050112: Config/Level/Mission/2010501/Act/Act201050112.json-->
+----
+:{{A|VO Side1 hk1 nannyA 101.ogg}} '''Helper:''' Huh, Hook? What's the matter?
+:{{A|VO Side1 hk1 hook 131.ogg}} '''Hook:''' Did you steal daddy's detector?
+:{{A|VO Side1 hk1 nannyA 102.ogg}} '''Helper:''' Wha&mdash; Oh if I'd known I would become a suspect, I wouldn't have gone out at that time... How foolish of me.
+:{{DIcon|Arrow}} Relax. We're just checking off all the boxes.
+:{{DIcon|Arrow}} Feeling guilty or something? You seem a bit off.
+::<!--Custom String Listener: TalkSentence_201213105-->
+::{{A|VO Side1 hk1 nannyA 103.ogg}} '''Helper:''' O&mdash;Of course not! I didn't do anything wrong...
+::<!--Custom String Trigger: TalkSentence_201213104-->
+:<!--Custom String Listener: TalkSentence_201213104-->
+:{{A|VO Side1 hk1 hook 143.ogg}} '''Hook:''' We just need you to answer a few questions!
+:{{A|VO Side1 hk1 nannyA 104.ogg}} '''Helper:''' Okay... ask away. It would be good to clear myself of suspicion.
+:<!--Custom String Trigger: 201050112_loop-->
+:<!--Custom String Listener: 201050112_loop-->
+:{{DIcon|Talk}} What were you doing when the crime occurred?
+::<!--Custom String Listener: TalkSentence_201213109-->
+::{{A|VO Side1 hk1 nannyA 105.ogg}} '''Helper:''' Nothing special. I just went out to get some fresh air.
+::{{A|VO Side1 hk1 nannyA 106.ogg}} '''Helper:''' Oh dear, oh dear... I know that's a lame alibi! But I swear it's the truth.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} What do you think of Mr. Fersman?
+::<!--Custom String Listener: TalkSentence_201213112-->
+::{{A|VO Side1 hk1 nannyA 107.ogg}} '''Helper:''' Mr. Fersman? He's a good person. Though... oh, er, uh, never mind.
+::{{A|VO Side1 hk1 nannyA 108.ogg}} '''Helper:''' Oh no, oh no... I must sound very suspicious. But I really didn't do anything. You have to believe me...
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Arrow}} Did you see the detector?
+::<!--Custom String Listener: TalkSentence_201213115-->
+::{{A|VO Side1 hk1 nannyA 109.ogg}} '''Helper:''' Detector? No, I haven't seen anything, and I don't know anything...
+::{{A|VO Side1 hk1 nannyA 110.ogg}} '''Helper:''' Is that all the questions you have? Have I proven my innocence?
+::{{DIcon|Arrow}} Just stay calm and wait for the news.
+::{{DIcon|Arrow}} I've figured it out. Be careful.
+::<!--Custom String Listener: TalkSentence_201213118-->
+::{{A|VO Side1 hk1 nannyA 111.ogg}} '''Helper:''' Oh dear... All this waiting around is enough to make me even more anxious...
+::----
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: 201050112_F-->
+<pre>
+[
+	{
+		"Type": "SubMission",
+		"ID": 201050112
+	}
+]
+</pre>
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 201050112-->)
+:{{DIcon}} Old Foreman's Treasure
+::<!--Trigger PerformanceD 201050112: Config/Level/Mission/2010501/Act/Act201050112.json-->
+::----
+::{{A|VO Side1 hk1 nannyA 101.ogg}} '''Helper:''' Huh, Hook? What's the matter?
+::{{A|VO Side1 hk1 hook 131.ogg}} '''Hook:''' Did you steal daddy's detector?
+::{{A|VO Side1 hk1 nannyA 102.ogg}} '''Helper:''' Wha&mdash; Oh if I'd known I would become a suspect, I wouldn't have gone out at that time... How foolish of me.
+::{{DIcon|Arrow}} Relax. We're just checking off all the boxes.
+::{{DIcon|Arrow}} Feeling guilty or something? You seem a bit off.
+:::<!--Custom String Listener: TalkSentence_201213105-->
+:::{{A|VO Side1 hk1 nannyA 103.ogg}} '''Helper:''' O&mdash;Of course not! I didn't do anything wrong...
+:::<!--Custom String Trigger: TalkSentence_201213104-->
+::<!--Custom String Listener: TalkSentence_201213104-->
+::{{A|VO Side1 hk1 hook 143.ogg}} '''Hook:''' We just need you to answer a few questions!
+::{{A|VO Side1 hk1 nannyA 104.ogg}} '''Helper:''' Okay... ask away. It would be good to clear myself of suspicion.
+::<!--Custom String Trigger: 201050112_loop-->
+::<!--Custom String Listener: 201050112_loop-->
+::{{DIcon|Talk}} What were you doing when the crime occurred?
+:::<!--Custom String Listener: TalkSentence_201213109-->
+:::{{A|VO Side1 hk1 nannyA 105.ogg}} '''Helper:''' Nothing special. I just went out to get some fresh air.
+:::{{A|VO Side1 hk1 nannyA 106.ogg}} '''Helper:''' Oh dear, oh dear... I know that's a lame alibi! But I swear it's the truth.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you think of Mr. Fersman?
+:::<!--Custom String Listener: TalkSentence_201213112-->
+:::{{A|VO Side1 hk1 nannyA 107.ogg}} '''Helper:''' Mr. Fersman? He's a good person. Though... oh, er, uh, never mind.
+:::{{A|VO Side1 hk1 nannyA 108.ogg}} '''Helper:''' Oh no, oh no... I must sound very suspicious. But I really didn't do anything. You have to believe me...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} Did you see the detector?
+:::<!--Custom String Listener: TalkSentence_201213115-->
+:::{{A|VO Side1 hk1 nannyA 109.ogg}} '''Helper:''' Detector? No, I haven't seen anything, and I don't know anything...
+:::{{A|VO Side1 hk1 nannyA 110.ogg}} '''Helper:''' Is that all the questions you have? Have I proven my innocence?
+:::{{DIcon|Arrow}} Just stay calm and wait for the news.
+:::{{DIcon|Arrow}} I've figured it out. Be careful.
+:::<!--Custom String Listener: TalkSentence_201213118-->
+:::{{A|VO Side1 hk1 nannyA 111.ogg}} '''Helper:''' Oh dear... All this waiting around is enough to make me even more anxious...
+:::----
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: 201050112_F-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Miner
+|zhs  = 矿民
+|zht  = 礦民
+|ja   = 鉱夫
+|ko   = 광부
+|es   = Personal de la mina
+|fr   = Mineur
+|ru   = Шахтёр
+|th   = คนงานเหมือง
+|vi   = Thợ Mỏ
+|de   = Bergarbeiter
+|id   = Penambang
+|pt   = Minerador
+}}
+==Change History==
+{{Change History|TODO}}

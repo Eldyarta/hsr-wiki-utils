@@ -1,0 +1,133 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cassondra#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Oracle
+|image           = NPC Cassondra.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Cassondra''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_328_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504022005: Config/Level/Mission/5040220/Act/Act504022005.json-->
+::'''Uneasy Man:''' ...This divination of yours... is it accurate?
+::'''Cassondra:''' It is if you have faith. If not, then no.
+::'''Uneasy Man:''' What kind of attitude is that? What kind of business are you running?
+::'''Cassondra:''' I'm simply telling the truth &mdash; don't people come to a diviner in the hope of comfort? Hah, you don't think there are actually people out there who think they can have full control of their lives just by knowing some fragments about the future, do you?
+::'''Uneasy Man:''' D&mdash;Do you want my business or not!?
+::'''Cassondra:''' Well, that depends on whether you want a divination or not.
+::'''Uneasy Man:''' You... Forget it. Why am I arguing with a diviner hag... Hey, they all say that your divinations are super accurate. If that's the case, tell me what my fortune is like.
+::'''Cassondra:''' Very well, then give me an item. This item will be used for your divination and also kept by me as payment.
+::'''Uneasy Man:''' You're charging me beforehand!? Are you sure you're not a scammer...?
+::'''Cassondra:''' Those are my rules. If you're not willing, then forget it, there is no need to force yourself.
+::'''Uneasy Man:''' ...Tch. Okay, fine. Take this.
+::'''Uneasy Man:''' That will do, right?
+::'''Cassondra:''' If you think it will do, then it will. Give it to me.
+::'''Uneasy Man:''' Tsk. You ignorant bumpkin! This is the "Coin of Whimsy" crafted by Master Milon! Forget a measly divination... I could buy you with this!
+::'''Cassondra:''' My apologies, but I am not for sale. Hand it over.
+::'''Cassondra:''' ...Ho, ho! You have some nerve calling me a scammer. I suggest you make a run for it.
+::'''Uneasy Man:''' W-what?
+::'''Cassondra:''' This coin &mdash; as well as everything else you have on you... You did not come by them through honest means, did you?
+::'''Uneasy Man:''' W&mdash;What are you saying!? I'm warning you. Making false accusations like that will cost you...
+::'''Cassondra:''' Now, there's no need to get so worked up. I do not make a habit of making trouble for myself, that's why I do not plan on reporting you. However, if you keep wasting time here...
+::'''Uneasy Man:''' Wh&mdash;What... Have you researched me in secret or something!? Tell me. Who put you up to this? Just what are you...
+::'''Passing Guard:''' What's all the fuss here? What's going on&mdash;
+::'''Cassondra:''' What did I say? If you continue wasting time here, you won't be walking away... Ah, what lovely weather we're having today. Maybe I should go and see old Albus...
+::'''Cassondra:''' Hm? I see I have another customer... Hello, outworlder. Do you seek my divination?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504022001: Config/Level/Mission/5040220/Act/Act504022001.json-->
+::'''Cassondra:''' Oh, youngster: Would you like me to read your fortune?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Are they accurate?
+::'''Cassondra:''' Ahh, hey &mdash; why do people keep asking that? How about this, then, youngster from a faraway land: Why don't I tell you a little story...
+::'''Cassondra:''' In my hometown of Janusopolis, where we worship the three Fate Titans, there was once a great and holy maiden a thousand years ago. This great lady had the grace of hearing {{Rubi|Kephale|Worldbearing Titan}}'s sacred prophecy, and with this stole the sacred flame from {{Rubi|Janus|Passage Titan}} to benefit humanity.
+::'''Cassondra:''' This maiden who became a demigod paid the price of self-fragmentation and passed on the Prophecy of Creation to all cities. However... it's a move that was twisted and misused by someone harboring ulterior motives.
+::'''Cassondra:''' See &mdash; even that maiden chosen by the gods wasn't even able to master her own destiny. What chance do mere mortals like us ever have...
+::'''Cassondra:''' Of course, it's fine to tell a few fortunes now and then to set some minds at ease &mdash; otherwise an old woman like me would go starving, haha~
+:{{DIcon}} Do you charge a lot?
+::'''Cassondra:''' Well, that all depends on what kind of prophecy you want. As a disciple of Talanton, I believe in equivalent exchange.
+::'''Cassondra:''' If you just want to ask about your horoscope, then you can give me an apple. But if you want to know about your destiny or someone else's? Then that's a price I can't decide~
+::{{DIcon|Arrow}} So, tell me about my horoscope.
+:::<!--Custom String Listener: TalkSentence_504022205-->
+:::'''Cassondra:''' Mmm... It's pretty good. Thanks for coming &mdash; one apple, please.
+:::'''(Trailblazer):''' That's it? Are you hustling me?
+:::'''Cassondra:''' No way, how about this &mdash; you've been very lucky during your time here in Okhema. Even if you encounter a few setbacks, you'll ultimately overcome them in the end.
+:::{{DIcon|Arrow}} Thank you for your auspicious words, but...
+:::{{DIcon|Arrow}} That was really phoning it in.
+:::<!--Custom String Listener: TalkSentence_504022210-->
+:::'''Cassondra:''' Oh, you really care about that, do you? Don't worry &mdash; this ol' granny has been telling fortunes so many years now that even if I skip over a few trivial ceremonial aspects, it doesn't affect the overall result!
+:::'''Cassondra:''' Oh... you don't have any apples on you. Then forget it, this time you can have it for free. Thank you for coming, and please come again~
+::{{DIcon|Arrow}} I want to know about my future destiny.
+:::<!--Custom String Listener: TalkSentence_504022213-->
+:::'''Cassondra:''' Are you ready to pay the price, then?
+:::'''(Trailblazer):''' What's the price I have to pay?
+:::'''Cassondra:''' What are you asking me for? I just told you, that's not something I can decide... You'll have to find something as valuable as your own destiny and give it to me before I can tell you what it is.
+:::{{DIcon|Arrow}} I don't think this could be any more dodgy...
+:::<!--Custom String Listener: TalkSentence_504022217-->
+:::'''Cassondra:''' Haha, you're not wrong. I think this whole thing sounds kinda dodgy. So why agonize yourself about the uncertainties of this ephemeral future? Isn't it enough just to fully appreciate each and every day?
+::{{DIcon|Exit}} I don't need my fortune told.
+:::<!--Custom String Listener: TalkSentence_504022219-->
+:::'''Cassondra:''' Yes, yes, the exit's that way. If you're free, stop by and keep an old gal company with some gossip, alright~
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:{{DIcon|Exit}} I'm busy, so I'll be heading off.
+::'''Cassondra:''' Yes, yes, the exit's that way. If you're free, stop by and keep an old gal company with some gossip, alright~
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Cassondra
+|zhs  = 卡森德拉
+|zht  = 卡森德拉
+|ja   = カッサンドラ
+|ko   = 카손드라
+|es   = Cassondra
+|fr   = Cassondre
+|ru   = Кассендра
+|th   = Cassondra
+|vi   = Cassondra
+|de   = Cassandra
+|id   = Cassondra
+|pt   = Cassondra
+}}
+==Change History==
+{{Change History|TODO}}

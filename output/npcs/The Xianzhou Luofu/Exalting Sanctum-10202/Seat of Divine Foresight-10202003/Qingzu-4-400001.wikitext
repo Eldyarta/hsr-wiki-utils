@@ -1,0 +1,177 @@
+<%-- [PAGE_INFO]
+PageTitle=#Qingzu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Divine Foresight Counselor
+|image           = NPC Qingzu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Seat of Divine Foresight
+|relatives       = 
+}}
+'''Qingzu''' is an NPC on [[The Xianzhou Luofu]], located in [[Seat of Divine Foresight]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seat of Divine Foresight|npc_4_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502027101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502027101.json-->
+::<!--Custom String Trigger: TalkSentence_502027101-->
+::<!--Custom String Listener: TalkSentence_502027101-->
+::'''Qingzu:''' (Trailblazer), I've heard so much about you but never had the chance to chat with you. May I ask, how can we help you today at the Seat of Divine Foresight?
+::{{DIcon|Arrow}} Oh nothing, I'm just strolling about.
+:::<!--Custom String Listener: TalkSentence_502027103-->
+:::'''Qingzu:''' The Seat of Divine Foresight deals with high-level military secrets. It's really not the kind of place where you could just take a stroll.
+::{{DIcon|Arrow}} I'd like to learn more about the Seat of Divine Foresight's work...
+:::<!--Custom String Listener: TalkSentence_502027105-->
+:::'''Qingzu:''' I have to warn you, travelers' making inquiries into military secrets is generally known as "espionage."
+::<!--Custom String Trigger: TalkSentence_502027106-->
+::<!--Custom String Listener: TalkSentence_502027106-->
+::'''Qingzu:''' If you've really got nothing better to do, I think the Petrichor Inn is looking for cleaners... I know the proprietress there and can introduce you. It might just help you shake the stereotype of being a lazybones.
+::{{DIcon|Arrow}} You've got an attitude issue.
+:::<!--Custom String Listener: TalkSentence_502027108-->
+:::'''Qingzu:''' Sorry, I've been dealing with military affairs and wars for so many centuries that I don't really get a chance to communicate with idlers like yourself. I'm sorry for offending you.
+::{{DIcon|Arrow}} I think working at the Seat of Divine Foresight would really suit me.
+:::<!--Custom String Listener: TalkSentence_502027110-->
+:::'''Qingzu:''' I'm sorry, you must be mistaken. My job description isn't actually "chatting with an idler and helping them kill time."
+::{{DIcon|Arrow}} Could you please write me a letter of recommendation?
+:::<!--Custom String Listener: TalkSentence_502027112-->
+:::'''Qingzu:''' Sorry, I just got notified that the Inn doesn't just hire any idlers for cleaners. I was too rash and nearly put you in a very difficult situation. Please forgive me.
+::<!--Custom String Trigger: TalkSentence_502027113-->
+::<!--Custom String Listener: TalkSentence_502027113-->
+::'''Qingzu:''' *sigh* ...Alright, fine. I'll let up on you. You're one of Jing Yuan's guests, after all. My name's Qingzu, and I'm a counselor here at the Seat of Divine Foresight.
+::'''Qingzu:''' Come find me if you've ever got any important matters to discuss.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404021801_Finish-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502027102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502027102.json-->
+::'''Qingzu:''' (Trailblazer), may I ask to what do we owe the pleasure of your visit at the Seat of Divine Foresight today?
+::<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404024202-->)
+:{{DIcon|?}} I've destroyed the dangerous parcel.
+::<!--Trigger PerformanceE 404024203: Config/Level/Mission/4040242/Act/Act404024203.json-->
+::'''Qingzu:''' Oh, really?
+::'''Qingzu:''' Okay, thanks for letting me know. I will relay the message to the Ten-Lords Commission, and thank you for your support for the Seat of Divine Foresight's cause.
+::{{DIcon|Arrow}} No need to thank me. It's the least I can do.
+:::<!--Custom String Listener: TalkSentence_404032064-->
+:::'''Qingzu:''' I knew you would say that. You're such a nice person.
+:::'''Qingzu:''' With that said, to commend your bravery, I personally prepared a generous reward for you.
+::{{DIcon|Arrow}} Where's my reward?
+:::<!--Custom String Listener: TalkSentence_404032067-->
+:::'''Qingzu:''' Reward? Oh, I almost forgot.
+::<!--Custom String Trigger: TalkSentence_404032068-->
+::<!--Custom String Listener: TalkSentence_404032068-->
+::'''Qingzu:''' Here you go, take it. Don't be polite. It's the least I could do.
+::{{DIcon|Arrow}} Thank you, Qingzu.
+:::<!--Custom String Listener: TalkSentence_404032070-->
+:::'''Qingzu:''' You're welcome, (Trailblazer).
+::{{DIcon|Arrow}} I feel like you're just humoring me.
+:::<!--Custom String Listener: TalkSentence_404032072-->
+:::'''Qingzu:''' Humoring? Haha, how could I?
+:::'''Qingzu:''' You must be overthinking it. Look at the reward I gave you.
+::{{DIcon|Arrow}} Does that parcel really contain a bomb?
+:::<!--Custom String Listener: TalkSentence_404032075-->
+:::'''Qingzu:''' I don't know. Didn't you destroy the bomb yourself?
+:::'''Qingzu:''' If you're really curious, you can always get it back and open it to have a look &mdash; no need to tell me this time.
+::<!--Custom String Trigger: TalkSentence_404032077-->
+::<!--Custom String Listener: TalkSentence_404032077-->
+::'''Qingzu:''' Alright, I have some more work to complete, so I shall take my leave. Once again, thank you for your contributions to the Xianzhou Luofu!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404024202-->
+;(If {{cx}}<!--SubMission Started: 404024203--> and {{cx}}<!--SubMission Started: 404024205--> and {{cx}}<!--SubMission Started: 404024202-->)
+:{{DIcon|?}} Jing Yuan told me to give this to you.
+::<!--Trigger PerformanceE 404024204: Config/Level/Mission/4040242/Act/Act404024204.json-->
+::'''Qingzu:''' Oh, this is?
+::'''Qingzu:''' ...
+::'''Qingzu:''' Okay, I understand. A mini-neutron bomb, is it? I'll pass it over to the Ten-Lords Commission. Thank you for your support for the Seat of Divine Foresight's cause.
+::{{DIcon|Arrow}} So my job is over?
+:::<!--Custom String Listener: TalkSentence_404032083-->
+:::'''Qingzu:''' That's all. Just leave the rest to us. You may take your leave...
+::{{DIcon|Arrow}} But it felt like it will go off once I leave...
+:::<!--Custom String Listener: TalkSentence_404032085-->
+:::'''Qingzu:''' Really? Can you give it to me?
+:::{{DIcon|Arrow}} All right. Here you are.
+::::<!--Custom String Listener: TalkSentence_404032087-->
+::::'''Qingzu:''' Thank you for your cooperation! Just leave the rest to us. You may take your leave...
+:::{{DIcon|Arrow}} What if it blows up!?
+::::<!--Custom String Listener: TalkSentence_404032089-->
+::::'''Qingzu:''' It won't. I can demonstrate for you&mdash;
+::::'''Qingzu:''' {{Size|36|Give it to me!}}
+::<!--Custom String Trigger: TalkSentence_404032091-->
+::<!--Custom String Listener: TalkSentence_404032091-->
+::{{Black Screen|{{Size|36|BOOM!}}}}
+:<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_sfx_xianzhou_funnybomb_boom"
+	},
+	"EmitterType": "LocalPlayer"
+}</pre>
+::{{Black Screen|{{Size|36|BOOM!}}}}
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404024203-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Talk}} The disaster is finally over...
+::<!--Trigger PerformanceE 502027107: Config/Level/NPCDialogue/P10202/NPCAct/Act502027107.json-->
+::'''Qingzu:''' Without your help, things wouldn't have gone so swimmingly... But, is it truly over?
+::'''Qingzu:''' The master diviner acting as the general and my backlog of work show that things aren't over for the Seat of Divine Foresight until the very last Disciple of Sanctus Medicus is arrested.
+::'''Qingzu:''' It breaks my heart to see Jing Yuan suffering such a serious injury for the Luofu. So, I hope to do my best to present him with a clean Xianzhou Luofu.
+::'''Qingzu:''' Anyway, please allow me to say this personally: Thank you very, very much.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502027107-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I have nothing else to ask.
+::'''Qingzu:''' On your way, then. I won't see you out. If you have any serious business to discuss next time, come and find me.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Qingzu
+|zhs  = 青镞
+|zht  = 青鏃
+|ja   = 青鏃
+|ko   = 청주
+|es   = Qingzu
+|fr   = Qingzu
+|ru   = Цинцзу
+|th   = Qingzu
+|vi   = Qingzu
+|de   = Qingzu
+|id   = Qingzu
+|pt   = Qingzu
+}}
+==Change History==
+{{Change History|TODO}}

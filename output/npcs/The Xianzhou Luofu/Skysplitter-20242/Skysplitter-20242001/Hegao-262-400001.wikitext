@@ -1,0 +1,161 @@
+<%-- [PAGE_INFO]
+PageTitle=#Hegao#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Leader of Freestyle Fighting
+|image           = NPC Hegao.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Skysplitter
+|relatives       = 
+}}
+'''Hegao''' is an NPC on [[The Xianzhou Luofu]], located in [[Skysplitter]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Skysplitter|npc_262_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502190000: Config/Level/Mission/5021900/Act/Act502190000.json-->
+::'''Hegao:''' Don't go, my friend! Are you... going to watch those prestigious sword duels?
+::{{DIcon|Arrow}} What should I be watching, if not prestigious sword duels?
+:::<!--Custom String Listener: TalkSentence_502190103-->
+:::'''Hegao:''' You're right. The orthodox sects offer suitable performances, but they are not suited to your tastes.
+::{{DIcon|Arrow}} I have little interest in the martial arts of Xianzhou...
+:::<!--Custom String Listener: TalkSentence_502190105-->
+:::'''Hegao:''' No worries, this doesn't really count as "traditional Xianzhou martial arts," maybe you'll be interested.
+::<!--Custom String Trigger: TalkSentence_502190106-->
+::<!--Custom String Listener: TalkSentence_502190106-->
+::'''Hegao:''' Since I've already said so much, I won't beat around the bush. You see, I'm kinda scrawny. Honestly, I've been bullied since childhood. Since then, I've been wanting to get into martial arts.
+::'''Hegao:''' However, shortly after enrolling, I received news that our martial arts instructor was beaten up by interstellar pirates outside the school. From that moment on, I've been determined to abandon the traditional and honorable Xianzhou martial arts.
+::'''Hegao:''' So, I hope you can join our Lawless Brawl school. With a pair of scissors or a brick, you can make villains fall like leaves in the wind! Don't let justice be trapped in a weak body!
+::{{DIcon|Arrow}} Er, so what are you teaching?
+:::<!--Custom String Listener: TalkSentence_502190110-->
+:::'''Hegao:''' Backstabbing, underhanded tactics, ganging up on opponents, weaponizing anything you pick up, any sort of street brawl tactics and unorthodox methods you can think of in the most systematic manner.
+:::'''Hegao:''' Using any means necessary, without considering any consequences to bring down the enemy. In other words, I'll teach you how to win.
+::{{DIcon|Arrow}} Do you need to see my skills?
+:::<!--Custom String Listener: TalkSentence_502190113-->
+:::'''Hegao:''' You look like quite the arrogant powerhouse. Just so you know, I've taken down plenty like you before.
+:::{{DIcon|Arrow}} So you wish to challenge me, the one who defeated Phantylia?
+::::<!--Custom String Listener: TalkSentence_502190115-->
+::::'''Hegao:''' Ph&mdash;Phantylia?
+::::<!--Custom String Trigger: TalkSentence_502190117-->
+:::{{DIcon|Arrow}} Should we step into the arena and see who comes out on top?
+:::<!--Custom String Listener: TalkSentence_502190117-->
+:::'''Hegao:''' Sorry, I don't engage in any form of competitive combat. My Lawless Brawler arts are only for thugs and villains, never for martial artists.
+::{{DIcon|Arrow}} Is your type of martial art even legal?
+:::<!--Custom String Listener: TalkSentence_502190119-->
+:::'''Hegao:''' Many people have asked me the same question. The first lesson I teach at my school is about the laws of Xianzhou and unlimited self-defense.
+:::'''Hegao:''' One of my disciples was once surrounded by twelve interstellar pirates. By using my "Lawless Brawler Style" technique, not only did he emerge unscathed, but he also fatally wounded a pirate on the spot. Eventually, it was ruled as justifiable self-defense.
+::<!--Custom String Trigger: TalkSentence_502190121-->
+::<!--Custom String Listener: TalkSentence_502190121-->
+::'''Hegao:''' I've been running my school for a while now. I'm in need of disciples like you to make a name for my school. Are you interested?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502190002: Config/Level/Mission/5021900/Act/Act502190002.json-->
+::'''Hegao:''' Such underhanded attacks, truly astounding! Such unbridled brawling technique, extraordinarily formidable! And what unique, cutting-edge equipment you possess! Resignedly impressive! One would rather be a rabid hound than a coward, I hope you, too, will master the art of the Lawless Brawler!
+::'''Hegao:''' How about it, are you interested in learning more today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Decide to gain a more in-depth understanding.
+::'''Hegao:''' It'd be fantastic if you're really interested. If there's anything you'd like to know, ask away! I'm happy to impart my knowledge generously.
+::<!--Custom String Trigger: Wait_Option_502190003_49-->
+::<!--Custom String Listener: Wait_Option_502190003_49-->
+::{{DIcon|Talk}} What is the "Lawless Brawler Style"?
+:::<!--Custom String Listener: TalkSentence_502190203-->
+:::'''Hegao:''' I understand, you might not be familiar with "Lawless Brawl." After all, not many are willing to acknowledge my martial arts as a form of "style." Honestly, I don't really care.
+:::'''Hegao:''' If you're asking about our most classic moves, it's definitely the Crazy Dog Fist and Explosive Marble Kick. From just the names, you can tell that these two moves emphasize craziness and explosiveness.
+:::'''Hegao:''' "Crazy" means making your moves chaotic, so enemies can't predict your next move. "Explosive" means every move is deadly, aiming straight for the most painful and despicable weak points.
+:::'''Hegao:''' Once you master these techniques, whether it's eye poking, spitting or toe stomping &mdash; they can be applied universally and double your efficiency.
+:::'''Hegao:''' Of course, if reporting is an option, avoid fighting, if ganging up is possible, don't go solo, and if you can wield weapons, never go empty-handed. Stability is the core of Lawless Brawl Style.
+:::{{DIcon|Arrow}} Feels a little inhumane.
+::::<!--Custom String Listener: TalkSentence_502190209-->
+::::'''Hegao:''' Don't worry, I won't use such vicious techniques against normal people.
+::::<!--Custom String Trigger: TalkSentence_502190214-->
+::::<!--Custom String Listener: TalkSentence_502190214-->
+::::'''Hegao:''' Don't worry, the students of my school will thoroughly study Xianzhou's criminal law before graduating. They will ensure that their actions stay within the boundaries of justifiable self-defense. If a disciple gets into trouble and ends up in jail, they are not considered my disciple!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It seems a little illegal...
+::::<!--Custom String Listener: TalkSentence_502190211-->
+::::'''Hegao:''' Don't worry, I forbid those who have a pale understanding of the law from learning.
+::::<!--Custom String Trigger: TalkSentence_502190214-->
+::::<!--Custom String Listener: TalkSentence_502190214-->
+::::'''Hegao:''' Don't worry, the students of my school will thoroughly study Xianzhou's criminal law before graduating. They will ensure that their actions stay within the boundaries of justifiable self-defense. If a disciple gets into trouble and ends up in jail, they are not considered my disciple!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Is this child-friendly?
+::::<!--Custom String Listener: TalkSentence_502190213-->
+::::'''Hegao:''' Don't worry, I forbid underage kids from learning my art.
+::::<!--Custom String Trigger: TalkSentence_502190214-->
+::::<!--Custom String Listener: TalkSentence_502190214-->
+::::'''Hegao:''' Don't worry, the students of my school will thoroughly study Xianzhou's criminal law before graduating. They will ensure that their actions stay within the boundaries of justifiable self-defense. If a disciple gets into trouble and ends up in jail, they are not considered my disciple!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Feels like you might be provoking others who share a trade as you...
+:::<!--Custom String Listener: TalkSentence_502190216-->
+:::'''Hegao:''' Those folks really hate me to the core. They even say, "Lawless Brawl" has no honor, it's undignified and embarrassing our Xianzhou martial arts!
+:::'''Hegao:''' Hmph! Do I look like I care? No matter how flashy your moves are, if you don't win, you're just punching air! Bandits won't just surrender because your moves look cool.
+:::'''Hegao:''' Go ask around the major boxing gyms at the Exalting Sanctum. Those who trash-talk the loudest, who dares to spar with me openly?
+:::'''Hegao:''' Even if I do nothing but stand before them, they'll feel a twinge in their knees and behinds.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you competing on the Skysplitter?
+:::<!--Custom String Listener: TalkSentence_502190221-->
+:::'''Hegao:''' To be frank, I don't think I'm qualified to compete on the Skysplitter. Besides, all my martial arts are angled towards dealing with thugs and not those martial arts experts. They are the real masters.
+:::'''Hegao:''' But I hope more people will see the Lawless Brawl and gain more interest in it.
+:::'''Hegao:''' Not everyone can be as strong as Lieutenant Yanqing and the General. But if we ordinary folks can just be a bit tougher than the thugs and a bit braver than yesterday, we can be the heroes in our own stories.
+:::'''Hegao:''' The Lawless Brawl is a weapon that belongs to us ordinary people.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Good chatting with you.
+:::<!--Custom String Listener: TalkSentence_502190226-->
+:::'''Hegao:''' Don't worry, my friend. The doors of the Lawless Brawl are always open to you.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} Currently uninterested.
+::'''Hegao:''' Don't worry, my friend. The doors of the Lawless Brawl are always open to you.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Hegao
+|zhs  = 鹤高
+|zht  = 鶴高
+|ja   = 鶴高
+|ko   = 학고
+|es   = Hegao
+|fr   = Hegao
+|ru   = Хэгао
+|th   = Hegao
+|vi   = Hegao
+|de   = Hegao
+|id   = Hegao
+|pt   = Hegao
+}}
+==Change History==
+{{Change History|TODO}}

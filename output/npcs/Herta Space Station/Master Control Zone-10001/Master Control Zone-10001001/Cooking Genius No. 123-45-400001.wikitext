@@ -1,0 +1,140 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cooking Genius No. 123#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Food Order Robot
+|image           = NPC Cooking Genius No. 123.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Master Control Zone
+|relatives       = 
+}}
+'''Cooking Genius No. 123''' is an NPC on [[Herta Space Station]], located in [[Master Control Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Master Control Zone|npc_45_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404000601,
+		"Type": "submission_state_equal",
+		"Param1": 404000601,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404000601: Config/Level/Mission/4040006/Act/Act404000601.json-->
+:'''Food Order Robot:''' Hello, Food Order Robot Cooking Genius No. 123 at your service!
+:'''Food Order Robot:''' Scanning user identification information, please do not move your Name Card or face. Scan successful. The meal package available for pickup is: "Space Station Business Meal."
+:'''Food Order Robot:''' Current number in line: 0. The meal is being dispatched for you, please wait patiently.
+:'''Food Order Robot:''' Delivery in progress... Delivery in progress... Delivery successful. "Space Station Business Meal" has been delivered. Enjoy your meal.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404000601_Finish-->
+<pre>
+[
+	{
+		"ID": 404000602,
+		"Type": "submission_state_equal",
+		"Param1": 404000602,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404000602: Config/Level/Mission/4040006/Act/Act404000602.json-->
+:'''Food Order Robot:''' Hello, your meal has been delivered. Please do not attempt a repeat pick-up.
+:'''Food Order Robot:''' Tip: If you want to taste more delicious food, please upgrade your Researcher level.
+:<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 404000603,
+		"Type": "submission_state_equal",
+		"Param1": 404000603,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 404000603: Config/Level/Mission/4040006/Act/Act404000603.json-->
+:'''Food Order Robot:''' Hello, Food Order Robot Cooking Genius No. 123 at your service!
+:'''Food Order Robot:''' Scanning user identification information, please do not move your Name Card or face. Scan successful. Welcome, researcher (Trailblazer).
+:'''Food Order Robot:''' An upgrade has been detected with your space station permissions. The current package has been upgraded to the "Senior Researcher Exclusive &mdash; Supreme Meal Package."
+:'''Food Order Robot:''' Delivery in progress. Please be patient while the meal is being delivered to you. Delivery successful. The "Senior Researcher Exclusive &mdash; Supreme Meal Package" has been delivered. Enjoy your meal.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: 404000603_Finish-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404000601-->)
+:{{DIcon|?}} Story and cutscene content are under development. Stay tuned!
+::<!--Trigger PerformanceE 404000601: Config/Level/Mission/4040006/Act/Act404000601.json-->
+::'''Food Order Robot:''' Hello, Food Order Robot Cooking Genius No. 123 at your service!
+::'''Food Order Robot:''' Scanning user identification information, please do not move your Name Card or face. Scan successful. The meal package available for pickup is: "Space Station Business Meal."
+::'''Food Order Robot:''' Current number in line: 0. The meal is being dispatched for you, please wait patiently.
+::'''Food Order Robot:''' Delivery in progress... Delivery in progress... Delivery successful. "Space Station Business Meal" has been delivered. Enjoy your meal.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404000601_Finish-->
+;(If {{cx}}<!--SubMission not Started: 404000601--> and {{cx}}<!--SubMission not Started: 404000603--> and {{cx}}<!--SubMission Started: 404000601-->)
+:{{DIcon|?}} Story and cutscene content are under development. Stay tuned!
+::<!--Trigger PerformanceE 404000602: Config/Level/Mission/4040006/Act/Act404000602.json-->
+::'''Food Order Robot:''' Hello, your meal has been delivered. Please do not attempt a repeat pick-up.
+::'''Food Order Robot:''' Tip: If you want to taste more delicious food, please upgrade your Researcher level.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Started: 404000603-->, {{cx}}<!--SubMission not Started: 404000601--> and {{cx}}<!--SubMission not Started: 404000603-->, and {{cx}}<!--SubMission Started: 404000601-->)
+:{{DIcon|?}} Story and cutscene content are under development. Stay tuned!
+::<!--Trigger PerformanceE 404000603: Config/Level/Mission/4040006/Act/Act404000603.json-->
+::'''Food Order Robot:''' Hello, Food Order Robot Cooking Genius No. 123 at your service!
+::'''Food Order Robot:''' Scanning user identification information, please do not move your Name Card or face. Scan successful. Welcome, researcher (Trailblazer).
+::'''Food Order Robot:''' An upgrade has been detected with your space station permissions. The current package has been upgraded to the "Senior Researcher Exclusive &mdash; Supreme Meal Package."
+::'''Food Order Robot:''' Delivery in progress. Please be patient while the meal is being delivered to you. Delivery successful. The "Senior Researcher Exclusive &mdash; Supreme Meal Package" has been delivered. Enjoy your meal.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: 404000603_Finish-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Little Robot
+|zhs  = 小机器人
+|zht  = 小機器人
+|ja   = 小さなロボット
+|ko   = 소형 로봇
+|es   = Robot pequeño
+|fr   = Petit robot
+|ru   = Маленький робот
+|th   = หุ่นยนต์จิ๋ว
+|vi   = Robot Nhỏ
+|de   = Kleiner Roboter
+|id   = Robot Kecil
+|pt   = Robozinho
+}}
+==Change History==
+{{Change History|TODO}}

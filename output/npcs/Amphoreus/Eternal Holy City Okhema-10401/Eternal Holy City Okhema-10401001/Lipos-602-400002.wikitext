@@ -1,0 +1,187 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lipos#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Bard
+|image           = NPC Lipos.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Lipos''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_602_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Custom String Trigger: MovePause-->
+;(First interaction)
+::<!--Trigger PerformanceE 504012001: Config/Level/Mission/5040120/Act/Act504012001.json-->
+::'''Lipos:''' <br />Have you heard of the last city, on the Holy Mountain high?<br />Where the immortal deity carries the sun across the eternal sky?
+::'''Lipos:''' <br />Dawn lingers, silent in its eloquent grace.<br />Hope shines bright amidst the world's stagnant embrace.
+::{{DIcon|Arrow}} (Keep listening.)
+:::<!--Custom String Listener: TalkSentence_504012004-->
+:::'''Lipos:''' <br />Homeless, where should you find your way?<br />In black tide and despair, where shadows play.
+:::'''Lipos:''' <br />Exile, what dreams for days to come?<br />Amidst silent gods, fate's whisper grows crazed and numb.
+:::'''Lipos:''' <br />In the end times, seek the promised land.<br />Sunlight, clear waters, fertile soil, where peace will stand.
+:::'''Lipos:''' <br />Within the garden of that merciful god, solace can be found.<br />Laughter, feasts, and wine, joy in abundance unbound.
+:::'''Lipos:''' This poem, "The Last Veranda," is dedicated to you, adorable {{MC|f=lady|m=mister}}.
+::{{DIcon|Arrow}} (Interrupt him.)
+:::<!--Custom String Listener: TalkSentence_504012010-->
+:::'''Lipos:''' Greetings, adorable {{MC|f=lady|m=mister}}. Lipos is here, sending you warm regards!
+::<!--Custom String Trigger: TalkSentence_504012011-->
+::<!--Custom String Listener: TalkSentence_504012011-->
+::'''Lipos:''' Hmhm... Lipos senses the vast sky's aroma around you: So close, yet distant, and utterly enchanting.
+::'''Lipos:''' Thank fate for this moment we share. Any poem striking your fancy today? Lipos got a trove waiting just for you!
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504012002: Config/Level/Mission/5040120/Act/Act504012002.json-->
+::'''Lipos:''' Thank fate for this moment we share. Any poem striking your fancy today? Lipos got a trove waiting just for you!
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} What kinds of poetry are you familiar with?
+::'''Lipos:''' What piques your interest? Love amidst the ancient Chrysos Heirs? The aftermath of the Chrysos War's chaos? Or perhaps the rise and fall of those hundred Seaside States...? Lipos is here to serve!
+::<!--Custom String Trigger: Wait_Option_504012003_35-->
+::<!--Custom String Listener: Wait_Option_504012003_35-->
+::{{DIcon|Talk}} Love amidst the ancient Chrysos Heirs.
+:::<!--Custom String Listener: TalkSentence_504012103-->
+:::'''Lipos:''' Haha, a classic choice indeed! Here's a poem named ''Adonia's Death'' just for you...
+:::'''Lipos:''' "Beauty since the cradle, adored by the Titans' gaze. Adonia's brilliance eclipsed all in its blaze."
+:::'''Lipos:''' "Mnestia's disciple bowed to the maiden's grace. While Thanatos' messenger lingered beside her, a solemn hem."
+:::'''Lipos:''' "Verses, blooms, treasures untold by the disciple laid. Wine, pomegranates, vows of protection by the messenger displayed."
+:::'''Lipos:''' "How should I respond to their love, so fervent and true? Adonia hesitated, turmoil in her heart anew."
+:::'''Lipos:''' "The one who brings the Titans' fire shall be my eternal mate. So the lady claimed, sealing their fate."
+:::'''Lipos:''' "Chrysos Heirs departed on the quest's call. Years pass, none returned, as the black tide did fall."
+:::'''Lipos:''' "The city crumbled, its people scattered wide. Adonia waited, faithful, till the final tide."
+:::'''Lipos:''' "Returners, met with silence's deafening wail. Only the black tide's encroaching violence, a bitter tale."
+:::'''Lipos:''' "The disciple wept for three days and took his life. Red roses sprung from his blood, vivid and rife."
+:::'''Lipos:''' "Messenger fell silent, lost in Styx's dark embrace. Madness claimed him, a forlorn, unsettled place."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The aftermath of the Chrysos War's chaos.
+:::<!--Custom String Listener: TalkSentence_504012115-->
+:::'''Lipos:''' Ah, those were tumultuous times. Enjoy this poem titled ''Era of Strifes'' dedicated to you...
+:::'''Lipos:''' "In a somber age when golden brilliance waned. When divine clashes shook the earthly plane."
+:::'''Lipos:''' "Ancient prophecies dismissed, greed's flames ignited. Conspiracies breed, city-states engage in the fight."
+:::'''Lipos:''' "Chrysos Heirs, tormented by their insatiable yearning. Bloodied rivers, soil tainted, battle cries echoing, burning."
+:::'''Lipos:''' "Waters dry, trees fade, skies weep, lands stripped bare. Unyielding war rages on, fueled by boundless desire."
+:::'''Lipos:''' "In trembling hearts, fear takes root deep and near. Armies advancing, justice a distant dream. World fractured, crushed beneath the relentless stream."
+:::'''Lipos:''' "Homes razed, lifeless eyes shedding icy tears. In a shattered world where hope disappears..."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The rise and fall of the hundred Seaside States.
+:::<!--Custom String Listener: TalkSentence_504012123-->
+:::'''Lipos:''' The cities lost in history's flow evoke such nostalgia... Please delight in this piece named ''The Golden Age''...
+:::'''Lipos:''' "At Kephale's feet, humanity's dawn unfurled. Civilization's roots in Amphoreus twirled."
+:::'''Lipos:''' "Aristia's shores graced by temples grand. Fountains like waves, palaces that stand."
+:::'''Lipos:''' "Mediterrana's embrace, earth rich and warm. Nurturing olives, fruits, vineyards in charm."
+:::'''Lipos:''' "Aurelia's scholars sow wisdom's seed. Literature and art in Milios freed."
+:::'''Lipos:''' "Jericha's ports, alive with ships in array. Pyria's domain, filled with camelbeasts at bay."
+:::'''Lipos:''' "Okeanas' festivals, mortals push their might. Athletes sweat, cheered in contests and fights."
+:::'''Lipos:''' "Icatus' celebrations, a blaze of delight. Parades of song, dance, feasting in the night."
+:::'''Lipos:''' "Ah... so much beauty, lost to time's cruel hand. A tale of sorrow, slipping like sand."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've had my fill already.
+:::<!--Custom String Listener: TalkSentence_504012133-->
+:::'''Lipos:''' No worries. Lipos is here, patiently awaiting your return.
+::<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:::<!--Ends the current performance-->
+;(If {{Mission|Kremnos, Cleanse Thy Rusted Blood (II)|showChapter=0}} has been completed)
+:{{DIcon}} Do you write your own poems, too?
+::'''Lipos:''' Certainly! I've even penned my own collection of poems. Under my mentor's tutelage, I even ventured into crafting poetry in Titan language! Quite the extraordinary feat, if I may say so myself!
+::'''Lipos:''' Ah, speaking of that... your epic journey with the Chrysos Heirs has inspired me. Here's a poem I've composed just for you. May it resonate deeply with you...
+::<!--Custom String Trigger: Wait_Option_504012005_84-->
+::<!--Custom String Listener: Wait_Option_504012005_84-->
+::{{DIcon|Talk}} ''Epic of the Flame-Chaser''
+:::<!--Custom String Listener: TalkSentence_504012214-->
+:::'''Lipos:''' In the night's embrace, a star so bright. World's shimmering beacon, a radiant light.
+:::'''Lipos:''' Destined, veiled in mystery's sheen. An outlander in enigma's serene.
+:::'''Lipos:''' Amidst rising plague and crumbling Kremnos. The outlander joins heroes, dispelling great woes.
+:::'''Lipos:''' To ring time's bells, recall days of yore. Hunting corrupted gold, lost to the core.
+:::'''Lipos:''' Restoring former glory, the tale untold. In echoes of history, a new chapter unfolds.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ''The Outlander's Ballads''
+:::<!--Custom String Listener: TalkSentence_504013326-->
+:::'''Lipos:''' O passionate outlander, your pace is in such hurry
+:::'''Lipos:''' Your form is seen everywhere within the divine light of Okhema
+:::'''Lipos:''' You traverse the streets and bustle the crowds, yet stand shoulder to shoulder with demigods and heroes
+:::'''Lipos:''' Listen to the hymns of Passage, witness the rebirth of Strife, and hunt down the wicked in Kremnos...
+:::'''Lipos:''' A mortal may encounter such brilliance only once in a lifetime. Yet you...
+:::'''Lipos:''' Your journey has just begun, your path lies yonder ahead of you.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} ''Epic of the Era Nova''
+:::<!--Custom String Listener: TalkSentence_504013332-->
+:::'''Lipos:''' Voices fill the citizens' assembly as demigods and Elders stand in opposition.
+:::'''Lipos:''' Some yearn for the golden past of Era Chrysea, while others seek the new dawn of Era Nova.
+:::'''Lipos:''' But you see&mdash;
+:::'''Lipos:''' A blasphemer becomes Titankin, while an undertaker brings death home.
+:::'''Lipos:''' Our Flame-Chase Journey goes on. We must not falter.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I've had my fill already.
+:::<!--Custom String Listener: TalkSentence_504012220-->
+:::'''Lipos:''' No worries. Lipos is here, patiently awaiting your return.
+::<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+:::<!--Ends the current performance-->
+;(If {{Mission|Kremnos, Cleanse Thy Rusted Blood (II)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Wait, wait. Let's do it next time.
+::'''Lipos:''' No worries. Lipos is here, patiently awaiting your return.
+:<pre>{
+	"$type": "RPG.GameCore.EndDialogueEntityInteract"
+}</pre>
+::<!--Ends the current performance-->
+:<!--Custom String Trigger: MoveResume-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lipos
+|zhs  = 利波
+|zht  = 利波
+|ja   = リポ
+|ko   = 리포스
+|es   = Lipos
+|fr   = Lipos
+|ru   = Липос
+|th   = Lipos
+|vi   = Lipos
+|de   = Lipos
+|id   = Lipos
+|pt   = Lipos
+}}
+==Change History==
+{{Change History|TODO}}

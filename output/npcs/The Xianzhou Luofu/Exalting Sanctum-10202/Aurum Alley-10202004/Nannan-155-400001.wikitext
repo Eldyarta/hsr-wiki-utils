@@ -1,0 +1,147 @@
+<%-- [PAGE_INFO]
+PageTitle=#Nannan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "The Unshackled" Member
+|image           = NPC Nannan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Aurum Alley
+|relatives       = 
+}}
+'''Nannan''' is an NPC on [[The Xianzhou Luofu]], located in [[Aurum Alley]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aurum Alley|npc_155_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502055101: Config/Level/NPCDialogue/P10202/NPCAct/Act502055101.json-->
+::'''Nannan:''' Release a diary book every day. Keep it up, and I'll be purified of my karma. And then... Heehee...
+::'''Nannan:''' Just diary books won't be enough. I need to buy some crates of Scalegorge Spring Water...
+::'''Nannan:''' Um, hello hello! Praise be to happiness' dedication!
+::{{DIcon|Arrow}} What were you muttering about?
+:::<!--Custom String Listener: TalkSentence_502055106-->
+:::'''Nannan:''' Ah! Was I too loud? Sorry. I was just going over my daily routine.
+:::'''Nannan:''' I have a habit of releasing a diary book every day, and sometimes I also release other things. I was just reminding myself of that in case I forget.
+::{{DIcon|Arrow}} "Praise be to happiness' dedication"?
+:::<!--Custom String Listener: TalkSentence_502055109-->
+:::'''Nannan:''' Oh, that's just a greeting. The actual meaning is complicated, but in simple terms, it's about wishing everyone a happy life.
+:::'''Nannan:''' Sounds great, right? That's why I release things.
+::<!--Custom String Trigger: TalkSentence_502055111-->
+::<!--Custom String Listener: TalkSentence_502055111-->
+::'''Nannan:''' The concept of releasing things back to nature isn't limited to the Xianzhou. It's also practiced outside of the Alliance by many Outworlders. Only a love that transcends the boundaries of species can truly elevate a person's heart and soul.
+::'''Nannan:''' You seem pretty interested in releasing. Is there anything else you'd like to know?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502055401: Config/Level/NPCDialogue/P10202/NPCAct/Act502055401.json-->
+::'''Nannan:''' Release a diary book every day. Keep it up, and I'll be purified of my karma. And then... Heehee...
+::'''Nannan:''' Just diary books won't be enough. I need to buy some crates of Scalegorge Spring Water...
+::'''Nannan:''' Oh, it's you again. What's up?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} How is the Unshackled doing these days?
+::<!--Trigger PerformanceE 502055501: Config/Level/NPCDialogue/P10202/NPCAct/Act502055501.json-->
+::'''Nannan:''' Thanks for your concern. We are doing so much better than before! Praise be to happiness' dedication!
+::'''Nannan:''' Since we, the Microscopic Faction, took charge, we have been allocated more resources. We could only release mineral water back then. Now, we have purchased some equipment and started ecological farming with domestic wastewater.
+::'''Nannan:''' Because of that, the Realm-Keeping Commission has become more lenient with us. They've even invited me to join the "Save Water, Save the World" event!
+::'''Nannan:''' Do come back and join our release activities if you are free! That's going to earn you lots of merits. In the long run, we might be able to clear our name as Yaoshi's followers.
+::'''Nannan:''' Back then, the Xianzhou people often associated the Disciples of Sanctus Medicus with Yaoshi followers. In the future, they will think of the Unshackled at the mention of Yaoshi followers!
+::'''Nannan:''' Praise be to happiness' dedication!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502055501-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Talk}} I'd like to ask...
+::<!--Trigger PerformanceE 502055201: Config/Level/NPCDialogue/P10202/NPCAct/Act502055201.json-->
+::<!--Custom String Trigger: Wait_Option_502055201_296-->
+::<!--Custom String Listener: Wait_Option_502055201_296-->
+::{{DIcon|Talk}} Where do you usually release things?
+:::<!--Custom String Listener: TalkSentence_502055203-->
+:::'''Nannan:''' Well, it depends on the situation. Each entity has its favorite niche.
+:::'''Nannan:''' Personally, I like Starskiff Haven and Exalting Sanctum for the convenient location. Plus, if I get lucky, I may run into fellow enthusiasts and pick up some new insights on releasing.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What have you released so far?
+:::<!--Custom String Listener: TalkSentence_502055206-->
+:::'''Nannan:''' Well... I've released so many things already. I was releasing animals when I first started, but luckily I soon realized it was not a wise choice...
+:::'''Nannan:''' I now have a much better understanding of what it means to release things back to nature. As for now... I've stuck to only releasing Scalegorge Spring Water &mdash; you know, mineral water &mdash; and diary books.
+:::'''Nannan:''' They won't disrupt the local ecology, and I can still accumulate virtue and remove karma! A great deed for both yourself and the environment! Praise be to happiness' dedication!
+:::{{DIcon|Arrow}} Can mineral water be "released"?
+::::<!--Custom String Listener: TalkSentence_502055210-->
+::::'''Nannan:''' Yes, of course. Mineral water is pure and natural, so you can just pour it into the water.
+::::'''Nannan:''' Oh! But don't forget to bring the bottle back with you when you're done. Trash can be harmful to the environment.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} Can diary books be "released"?
+::::<!--Custom String Listener: TalkSentence_502055213-->
+::::'''Nannan:''' This may sound odd, but the action of releasing diary books sits at a much more profound level. Although a diary book is not a living creature, it is a record of our lives.
+::::'''Nannan:''' By releasing it, we free ourselves from the anxiety and worries we placed onto those pages, thus achieving a sense of calmness and inner peace.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What do you mean by "karma"?
+:::<!--Custom String Listener: TalkSentence_502055216-->
+:::'''Nannan:''' Karma refers to all connections between a person and the outside world. I release things every day, so I can eventually sever these connections and purify my soul.
+:::'''Nannan:''' After, my mother had taught me as a boy that males need to pay particular attention to maintaining our virtue in the adult world, and try to keep ourselves pure from the inside out!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Does "releasing" really work?
+:::<!--Custom String Listener: TalkSentence_502055219-->
+:::'''Nannan:''' Of course it does! It's a way to purify my karma and achieve greater love!
+:::'''Nannan:''' Look, I only managed to have a chat with you because of my daily release schedule. Doesn't this mean this newfound friendship is the cosmic reward for my accumulated virtue?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any more questions.
+:::<!--Custom String Listener: TalkSentence_502055222-->
+:::'''Nannan:''' Well, you seem to have understood everything pretty quickly. If you ever want to join me in my releasing ritual, feel free to come find me.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502055201-->
+;(If {{Mission|Back in Business (IV)|showChapter=0}} has been completed)
+:{{DIcon|Exit}} I'd better leave you to it.
+::'''Nannan:''' Releasing something into the wild is the greatest of good deeds! No other virtue can compare!
+::'''Nannan:''' Oops, I almost forgot to look over the materials for releasing. All right, maybe next time!
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Nannan
+|zhs  = 楠楠
+|zht  = 楠楠
+|ja   = 楠
+|ko   = 난난
+|es   = Nannan
+|fr   = Nannan
+|ru   = Наньнань
+|th   = Nannan
+|vi   = Nannan
+|de   = Nannan
+|id   = Nannan
+|pt   = Nannan
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,515 @@
+<%-- [PAGE_INFO]
+PageTitle=#Ruoyue#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Ruoyue.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Exalting Sanctum
+|relatives       = 
+}}
+'''Ruoyue''' is an NPC on [[The Xianzhou Luofu]], located in [[Exalting Sanctum]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Exalting Sanctum|npc_43_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502013101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502013101.json-->
+::'''Ruoyue:''' Ah, an esteemed customer visiting Xianzhou from afar. Are you here for a divination today?
+::'''Ruoyue:''' Since it's your first time here, allow me to introduce myself. I am the genius diviner, formerly of the Divination Commission, now a humble shopkeeper of the Looking Bronze. My name is Ruoyue.
+::'''Ruoyue:''' Whether you're seeking fortune or safety, or simply wish to check your horoscope, to find love, or even to request a name for a child, I am humbly at your service.
+::{{DIcon|Arrow}} I wish to name myself.
+:::<!--Custom String Listener: 502013101_Option1_1-->
+:::'''Ruoyue:''' Oh, seeking a name for yourself? That is a rare request indeed.
+:::'''Ruoyue:''' Looking at you, and with a pinch of my fingers, and I've got the perfect name for you.
+:::'''Ruoyue:''' How about "Noob"?
+:::{{DIcon|Arrow}} That's worse than (Trailblazer).
+::::<!--Custom String Listener: 502013101_Option1_1_1-->
+::::'''Ruoyue:''' That sounds just fine. Your name is fine as it is. I see no need to change it.
+:::{{DIcon|Arrow}} That IS my name.
+::::<!--Custom String Listener: 502013101_Option1_1_2-->
+::::'''Ruoyue:''' I wouldn't have known that one with such elegant flair as yours would have such a resounding name.
+::::'''Ruoyue:''' You may not be aware, but a name is the shortest form of a spell. If you're ever in peril, just yell out your name "Noob," and it will surely be useful to you.
+:::{{DIcon|Arrow}} You don't think your naming lacks a little sophistication?
+::::<!--Custom String Listener: 502013101_Option1_1_3-->
+::::'''Ruoyue:''' Noob Noob, never want for gulp or slurp. Noob Noob, Luofu's friend, always a perk.
+::::'''Ruoyue:''' If you don't like that, how about a fee to unlock "Sophisticated Names" and "Seriously Sophisticated Names"... I have services for all needs.
+::{{DIcon|Arrow}} I wish to know my fortune.
+:::<!--Custom String Listener: 502013101_Option1_2-->
+:::'''Ruoyue:''' You've come to the right person. This is our shop special, the "Fortune for Today." The first try's free. Let me see...
+:::'''Ruoyue:''' Oh dear, this scene paints the destruction of the Xianzhou Cangcheng: "Fighting fire with woods will only fuel the flames." Your recent affairs haven't been going your way, so instead of remedying them, you should leave them be.
+:::'''Ruoyue:''' We provide fortune-changing services, like the "Evil Begone" bundle for 199, "See No Evil" bundle for 299, and the "Only Good Things From Here On Out" bundle for 599. All great value! What do you think?
+:::{{DIcon|Arrow}} It feels like you didn't really think those bundles' names through.
+::::<!--Custom String Listener: 502013101_Option1_2_1-->
+::::'''Ruoyue:''' Those names are of no importance. The prices speak for themselves!
+::::'''Ruoyue:''' Names are just superficial packaging. They can change anytime.
+:::{{DIcon|Arrow}} Did you make me pick a dire fortune on purpose?
+::::<!--Custom String Listener: 502013101_Option1_2_2-->
+::::'''Ruoyue:''' Oh, you hurt me with your words. If you don't believe me, let's try another one. Look, it's still the same: "Like birds into nets, when will reunion be, one frets".
+:::{{DIcon|Arrow}} I can change my luck just like that?
+::::<!--Custom String Listener: 502013101_Option1_2_3-->
+::::'''Ruoyue:''' Your luck isn't something set in stone. If everything was already pre-determined, where would one's freedom be?
+::<!--Custom String Trigger: 502013101_Option1_End-->
+::<!--Custom String Listener: 502013101_Option1_End-->
+::'''Ruoyue:''' You are our lucky 100th customer for the day, so I'll give you an "Evil Begone" bundle as a favor. This is your "lucky trinket" for today. Don't lose it now.
+::'''Ruoyue:''' Do you have anything else you need help with?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502013102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502013102.json-->
+::'''Ruoyue:''' Oh, you're back again? Hold on, I'm reading a book called "A Prophecy's Self-fulfillment."
+::'''Ruoyue:''' Well, that was boring. It's much more interesting to talk to you. Are you here to determine your luck, or just to chat?
+::'''Ruoyue:''' Whether you're seeking fortune or safety, or simply wish to check your horoscope, to find love, or even to request a name for a child, I am humbly at your service.
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404025502-->)
+:{{DIcon|?}} Have you heard of the jinxed A-Xing?
+::<!--Trigger PerformanceD 404025502: Config/Level/Mission/4040255/Act/Act404025502.json-->
+::'''Ruoyue:''' A-Xing? Well, I may not remember the name along, but since you mentioned "jinxed," I can hardly forget someone as unlucky as him... I mean, he has never drawn a "Weal" stick, but he just keeps on trying anyway.
+::'''Ruoyue:''' It's his bad luck that makes him draw a "Woe" stick every time, not the other way around. Of course, I've recommended him a lot of charms and trinkets to help improve his luck, but his bad luck is a bit too... overwhelming.
+::'''Ruoyue:''' To be honest... I've always believed that one's fate is not necessarily predestined. If one can stay optimistic about their future, then they will have a brighter future ahead of them.
+::'''Ruoyue:''' If A-Xing could experience something other than "Woe," it might help change his attitude about his fate... Unfortunately, he's never had the chance...
+::{{DIcon|Arrow}} How about we guarantee him a "Weal"?
+::<!--Custom String Listener: TalkSentence_414255041-->
+::'''Ruoyue:''' Huh? Are you suggesting... that I rig the results so that A-Xing gets a "Weal"? But that's just a fake result. It's not really going to change his bad luck...
+::{{DIcon|Arrow}} You just said that one's fate is not necessarily predestined.
+:::<!--Custom String Listener: TalkSentence_414255043-->
+:::'''Ruoyue:''' Well... I guess that's a good point.
+::{{DIcon|Arrow}} As long as this helps change his attitude about his fate.
+:::<!--Custom String Listener: TalkSentence_414255045-->
+:::'''Ruoyue:''' Well... I guess that's a good point.
+::{{DIcon|Arrow}} He said this would be the last draw of his life...
+:::<!--Custom String Listener: TalkSentence_414255047-->
+:::'''Ruoyue:''' I'm sort of convinced, I guess.
+::<!--Custom String Trigger: TalkSentence_414255048-->
+::<!--Custom String Listener: TalkSentence_414255048-->
+::'''Ruoyue:''' All right, fine! Just don't blame me or yourself if we guarantee him a "Weal" stick but he still has bad luck!
+::'''Ruoyue:''' Wait for a while. I'll need to modify the jade abacus for divination.
+::{{Black Screen|Ruoyue starts to modify her jade abacus used for divination. It doesn't take her too long to alter the hardware, since she used to be a diviner in the Divination Commission.}}
+::'''Ruoyue:''' All right, it's done. Would you like to test it out? Theoretically, this jade abacus should only produce "Weal" results now.
+::{{DIcon|Arrow}} (Divine your fate)
+::<!--Custom String Listener: TalkSentence_414255053-->
+::You dive into the depths of your mind and meditate on the question in your mind.
+:;(Screen fades to black)
+::As the jade abacus starts spinning, some kind of invisible barrier separates you from the outside world. In the midst of the sudden tranquility, a blurred yet unmistakable image gradually becomes clear...
+::You are seeing the Xianzhou Luofu, on which the towering Ambrosial Arbor looms over countless Cloud Knights. With the arrival of numerous Outworlders, Starskiff Haven is alive with people from all walks of life.
+::'''Ruoyue:''' It's the "Luofu," a very auspicious stick! Awesome, let's try again!
+:;(<!--Return to previous option selection (cloneCheckString)-->)
+::{{DIcon|Arrow}} But I thought you should never perform two divinations in a single day?
+:::<!--Custom String Listener: TalkSentence_414255059-->
+:::'''Ruoyue:''' Come on! Why even bother with these rules when we've already cracked the jade abacus?
+:::<!--Custom String Trigger: TalkSentence_414255060-->
+:::<!--Custom String Listener: TalkSentence_414255060-->
+::;(Screen fades to black)
+:::As the jade abacus starts spinning, some kind of invisible barrier separates you from the outside world. In the midst of the sudden tranquility, a blurred yet unmistakable image gradually becomes clear...
+:::You are seeing the Xianzhou Yaoqing, which is advancing at a dazzling speed, carrying the momentum of tempest and thunder. Countless foxians, fully armed, are standing on the deck in a majestic posture.
+:::'''Ruoyue:''' Awesome, another "Weal" stick! Hah, even though it's been a while since I've tinkered with hardware like this, my skills haven't gone to waste after all...
+:::'''Ruoyue:''' Now, please call A-Xing over.
+:::{{DIcon|Arrow}} Why do you need me to call him?
+:::<!--Custom String Listener: TalkSentence_414255065-->
+:::'''Ruoyue:''' Well... it might seem a bit too deliberate if I just call him out of the blue and say something like, "Hey, my jade abacus is ready. Come over here and draw your lot." It might make it seem like my abacus wasn't ready before.
+:::'''Ruoyue:''' Just call him over and pretend you know nothing about my jade abacus. We've got to put on a credible show, otherwise we won't be able to help him.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_404025502-->
+:{{DIcon}} I wish to know my fortune.
+:;(If {{cx}}<!--Hidden Mission ID 4040256--> has been started)
+::<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502074101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025601"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502075101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025602"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502076101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025603"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502077101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025604"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502078101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025605"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502079101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025606"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502080101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025607"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502081101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025608"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502083201
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025609"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502082101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025610"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		},
+		{
+			"$type": "RPG.GameCore.SequenceConfig",
+			"TaskList": [
+				{
+					"$type": "RPG.GameCore.TriggerPerformance",
+					"ValueSource": {},
+					"PerformanceType": "E",
+					"PerformanceID": 502083101
+				},
+				{
+					"$type": "RPG.GameCore.TriggerCustomStringOnDialogEnd",
+					"CustomString": {
+						"Value": "Talk_404025611"
+					}
+				},
+				{
+					"$type": "RPG.GameCore.FinishLevelGraph"
+				}
+			]
+		}
+	]
+}</pre>
+:;(If {{cx}}<!--Hidden Mission ID 4040256--> has not been started)
+:::'''Ruoyue:''' I have already divined for you today. Please come back tomorrow.
+;(If {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} The Ambrosial Arbor is growing again...
+::<!--Trigger PerformanceE 502013201: Config/Level/NPCDialogue/P10202/F10202001_G52/Act502013201.json-->
+::'''Ruoyue:''' Tsk, that can't be a good omen.
+::'''Ruoyue:''' The Luofu has been ravaged by disaster recently. Everyone thinks that the Cloud Knights are capable of solving every problem under the sun, no matter how great or small.
+::'''Ruoyue:''' But the Ambrosial Arbor's growth doesn't fall within the scope of operations for the Cloud Knights...
+::'''Ruoyue:''' I'm not sure if the master diviner has foreseen this? I'm thinking, probably not.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502013201-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Talk}} Have you divined for the Ambrosial Arbor crisis?
+::<!--Trigger PerformanceE 502013104: Config/Level/NPCDialogue/P10202/NPCAct/Act502013104.json-->
+::'''Ruoyue:''' I divined when it sprouted, but I didn't bother to check again later because I didn't think it was necessary. Neither its sprouting or its sudden stop came as a surprise to me.
+::'''Ruoyue:''' It's just like... like each sign consists of yin and yang. If the Ambrosial Arbor suddenly sprouts, then it's destined to stop just as suddenly.. This result is bound to happen.
+::'''Ruoyue:''' As for the impact, I'm not an official, and I don't think it's my job to worry about it. That's what the master diviner is for, right? For me, I'm more interested in figuring out what I'm going to eat for dinner.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502013104-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon}} I'd like to ask you a few things...
+::<!--Trigger PerformanceE 502013103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502013103.json-->
+::'''Ruoyue:''' Fire away. But I'll have to start charging if it's to do with your fortune.
+::<!--Custom String Trigger: 502013101_OptionLoop-->
+::<!--Custom String Listener: 502013101_OptionLoop-->
+::{{DIcon|Talk}} You said you were once a Divination Commission diviner?
+:::<!--Custom String Listener: 502013101_Option2_1_1-->
+:::'''Ruoyue:''' So, you have doubts about my professional proficiency. No fear, I worked there for almost two centuries, until I was personally ejected by Master Diviner Fu Xuan.
+:::'''Ruoyue:''' Master Diviner Fu Xuan foresaw that she would remove me from the Divination Commission, so she did.
+:::'''Ruoyue:''' How could someone make a decision based off something that hadn't happened yet? Anyway, I did leave the Commission, but the entire situation was a farce.
+:::'''Ruoyue:''' Even if the Divination Commission didn't want me, I could still run my little old divination paraphernalia shop here. Outworlders who can't get their fortunes at the Commission could come to me instead.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I've heard that your divinations aren't accurate?
+:::<!--Custom String Listener: 502013101_Option2_1_2-->
+:::'''Ruoyue:''' Of course they are accurate! Who told you that? Give me their name.
+:::'''Ruoyue:''' ...Then again, they aren't totally wrong. Many times, the line between accuracy and inaccuracy is... subjective.
+:::'''Ruoyue:''' Most people just want to know about their fortunes and have some sort of control over their future. In truth, everyone moves in a general direction in the great stream of destiny, but when it comes to actual good or ill luck...
+:::'''Ruoyue:''' That's a hidden current of probability no one can ever fathom. To capture such an intricacy, you'd have to invest massive resources and rely on devices as huge as mountains to calculate that.
+:::'''Ruoyue:''' So, one of the rules in the Divination Commission's "Three Don'ts" is "Don't divine personal matters." It's not particularly taboo or anything &mdash; just that there are too many variables and does more harm than good.
+:::'''Ruoyue:''' But for me? I've got other ways. I provide clients with the most ambiguous results possible &mdash; it's about the limit of accuracy for my tiny shop anyway.
+:::'''Ruoyue:''' For example, I don't even have to pinch my fingers to foretell that you will have a small amount of wealth coming in sometime between this week and this month. Am I right? Of course I am.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} I see a few game tables here as well?
+:::<!--Custom String Listener: 502013101_Option2_1_3-->
+:::'''Ruoyue:''' I do business. Divination makes money, and so do games of cards and tiles. There's no conflict of interest.
+:::'''Ruoyue:''' I knew a girl called Qingque during my time at the Divination Commission. You'll run into her if you come here often. She recreated this game called "Celestial Jade" from old books.
+:::'''Ruoyue:''' How nice it'd be to play a few rounds with friends. It lifts my spirits just seeing them play, too. If I could earn a living with a games parlor, I wouldn't be doing any divination.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I don't have any other questions.
+:::<!--Custom String Listener: 502013101_Option2_1_4-->
+:::'''Ruoyue:''' Come back again, esteemed customer. If you're down on your luck, I'll be here to help you turn it around.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502013101-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{Mission|Wood Sprouts Anew, Fate Tilts Askew|showChapter=0}} has been completed, {{cx}}<!--performance 502013201 has been seen-->, and {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has not been completed)
+:{{DIcon|Exit}} I don't have any other questions.
+::'''Ruoyue:''' Come back again, esteemed customer. If you're down on your luck, I'll be here to help you turn it around.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,154 @@
+<%-- [PAGE_INFO]
+PageTitle=#Zhouduan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Prison Guard Captain
+|image           = NPC Zhouduan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Zhouduan''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_116_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502070001: Config/Level/Mission/5020700/Act/Act502070001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450107
+	]
+}</pre>
+::'''Zhouduan:''' No loitering in The Shackling Prison! ...Ah, it's you, (Trailblazer). My apologies, that was impolite of me. If I may ask, what brings you here to The Shackling Prison once more?
+::{{DIcon|Arrow}} You know me?
+:::<!--Custom String Listener: TalkSentence_502070003-->
+:::'''Zhouduan:''' Haha, how could I not? When Hoolay escaped from his cell, were it not for your help, I might not be standing here today &mdash; or anywhere else, for that matter.
+::{{DIcon|Arrow}} No particular reason...
+:::<!--Custom String Listener: TalkSentence_502070005-->
+:::'''Zhouduan:''' While it's not my place to comment... The Shackling Prison is, after all, not a place for the living. Even though you are an esteemed guest of the Luofu and are free to go wherever you wish, it may be advisable to avoid this place unless you have business here.
+::<!--Custom String Trigger: TalkSentence_502070006-->
+::<!--Custom String Listener: TalkSentence_502070006-->
+::'''Zhouduan:''' The Shackling Prison has just taken a severe hit unlike anything else that's ever occurred in the past thousand years, and there is a surfeit of outstanding matters that I must tend to. If there's nothing else, please excuse me.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502070002: Config/Level/Mission/5020700/Act/Act502070002.json-->
+::'''Zhouduan:''' Good day, (Trailblazer). I trust you've been well? What brings you here again to The Shackling Prison? Official business?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I have a few questions...
+::'''Zhouduan:''' Please, ask away.
+::<!--Custom String Trigger: Wait_Option_502070003_50-->
+::<!--Custom String Listener: Wait_Option_502070003_50-->
+::{{DIcon|Talk}} How's The Shackling Prison faring?
+:::<!--Custom String Listener: TalkSentence_502070253-->
+:::'''Zhouduan:''' *sigh* When the riot happened, the borisin set a good number of prisoners free and used them as decoys. Even though the riot has since been suppressed, there are still fugitives on the loose on prison grounds.
+:::'''Zhouduan:''' Thankfully, the various commissions took swift action to seal the portals connecting this prison to the outside world before anything worse could happen. This prevented the Avici Gaol, where evildoers are confined, and the Kalasutra Gaol located deeper within the prison from being thrown into chaos.
+:::'''Zhouduan:''' With them trapped within the premises, all that is left to do now is to secure them one by one... Ugh, I hope nothing else goes awry.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is your job dangerous?
+:::<!--Custom String Listener: TalkSentence_502070257-->
+:::'''Zhouduan:''' This is embarrassing to admit, but you could say that The Shackling Prison was the safest place in the Luofu all this time... Not only is my job in no way dangerous usually, but I even find the work somewhat dull and lifeless.
+:::'''Zhouduan:''' And lo and behold, things got real "lively" this time around... If you and the other heroes hadn't been around, who knows what would have happened in the end?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you working for the Ten-Lords Commission?
+:::<!--Custom String Listener: TalkSentence_502070260-->
+:::'''Zhouduan:''' I don't really work for them... I'm actually a Cloud Knight on secondment to The Shackling Prison, so I'm reporting to the Ten-Lords Commission until further notice. As you're probably aware, assisting the Ten-Lords Commission is very much also part of the Cloud Knights' duties.
+:::'''Zhouduan:''' For the most part, however, it's the professionals who do what they do best that keep the Shackling Prison running. For instance, you know how this place has scores of monsters and fiends locked up? I'm afraid of even looking at them, let alone fighting them...
+:::'''Zhouduan:''' When I encounter such beings, I usually let the judges or spiritfarers handle them. After all, they are the true specialists... Us Cloud Knights simply provide aid wherever we can.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I got to go. Talk to you later.
+:::<!--Custom String Listener: TalkSentence_502070264-->
+:::'''Zhouduan:''' Alright, take care.
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I got to go. Talk to you later.
+::'''Zhouduan:''' Alright, take care.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502070008)
+:<!--Custom String Listener: TalkSentence_502070008-->
+::'''Zhouduan:''' Please, ask away.
+::<!--Custom String Trigger: Wait_Option_502070001_18-->
+::<!--Custom String Listener: Wait_Option_502070001_18-->
+::{{DIcon|Talk}} How's The Shackling Prison faring?
+:::<!--Custom String Listener: TalkSentence_502070010-->
+:::'''Zhouduan:''' *sigh* When the riot happened, the borisin set a good number of prisoners free and used them as decoys. Even though the riot has since been suppressed, there are still fugitives on the loose on prison grounds.
+:::'''Zhouduan:''' Thankfully, the various commissions took swift action to seal the portals connecting this prison to the outside world before anything worse could happen. This prevented the Avici Gaol, where evildoers are confined, and the Kalasutra Gaol located deeper within the prison from being thrown into chaos.
+:::'''Zhouduan:''' With them trapped within the premises, all that is left to do now is to secure them one by one... Ugh, I hope nothing else goes awry.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is your job dangerous?
+:::<!--Custom String Listener: TalkSentence_502070014-->
+:::'''Zhouduan:''' This is embarrassing to admit, but you could say that The Shackling Prison was the safest place in the Luofu all this time... Not only is my job in no way dangerous usually, but I even find the work somewhat dull and lifeless.
+:::'''Zhouduan:''' And lo and behold, things got real "lively" this time around... If you and the other heroes hadn't been around, who knows what would have happened in the end?
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Why are you working for the Ten-Lords Commission?
+:::<!--Custom String Listener: TalkSentence_502070017-->
+:::'''Zhouduan:''' I don't really work for them... I'm actually a Cloud Knight on secondment to The Shackling Prison, so I'm reporting to the Ten-Lords Commission until further notice. As you're probably aware, assisting the Ten-Lords Commission is very much also part of the Cloud Knights' duties.
+:::'''Zhouduan:''' For the most part, however, it's the professionals who do what they do best that keep the Shackling Prison running. For instance, you know how this place has scores of monsters and fiends locked up? I'm afraid of even looking at them, let alone fighting them...
+:::'''Zhouduan:''' When I encounter such beings, I usually let the judges or spiritfarers handle them. After all, they are the true specialists... Us Cloud Knights simply provide aid wherever we can.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I got to go. Talk to you later.
+:::<!--Custom String Listener: TalkSentence_502070021-->
+:::'''Zhouduan:''' Alright, take care.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502070023)
+:<!--Custom String Listener: TalkSentence_502070023-->
+::'''Zhouduan:''' Alright, take care.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

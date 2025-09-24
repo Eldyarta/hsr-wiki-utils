@@ -1,0 +1,84 @@
+<%-- [PAGE_INFO]
+PageTitle=#Soldier Kyle#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Pillars of Creation Guard
+|image           = NPC Soldier Kyle.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Corridor of Fading Echoes
+|relatives       = 
+}}
+'''Soldier Kyle''' is an NPC on [[Jarilo-VI]], located in [[Corridor of Fading Echoes]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Corridor of Fading Echoes|npc_89_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:'''Soldier Kyle:''' Hello, Trailblazer. Do you want to go to the Pillars of Creation?
+:{{DIcon|Arrow}} Please lead the way.
+::<!--Custom String Listener: TalkSentence_501190163-->
+::'''Soldier Kyle:''' Come with me. The mountain roads are treacherous, please watch your step.
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 2013501
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} I'll pass.
+::<!--Custom String Listener: ALL_TALK_END-->
+::'''Soldier Kyle:''' Take care, I shall be here on duty whenever you need.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Silvermane Soldier
+|zhs  = 银鬃近卫
+|zht  = 銀鬃近衛
+|ja   = シルバーメイン・近衛
+|ko   = 실버메인 근위병
+|es   = Soldado Crinargenta
+|fr   = Soldat de la crinière d'argent
+|ru   = Солдат Среброгривых Стражей
+|th   = Silvermane Soldier
+|vi   = Cận Vệ Bờm Bạc
+|de   = Silbermähnen-Soldat
+|id   = Silvermane Soldier
+|pt   = Soldado Crinalva
+}}
+==Change History==
+{{Change History|TODO}}

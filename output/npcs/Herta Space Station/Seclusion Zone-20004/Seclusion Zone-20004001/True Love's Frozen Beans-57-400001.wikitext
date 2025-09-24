@@ -1,0 +1,132 @@
+<%-- [PAGE_INFO]
+PageTitle=#True Love's Frozen Beans#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Ruan Mei's Creation
+|image           = NPC True Love's Frozen Beans.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Herta Space Station
+|location        = Seclusion Zone
+|relatives       = 
+}}
+'''True Love's Frozen Beans''' is an NPC on [[Herta Space Station]], located in [[Seclusion Zone]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Seclusion Zone|npc_57_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 900000147: Config/Level/Mission/5000030/Act/Act900000147.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		500014801
+	]
+}</pre>
+::You notice it humming a strange tune with a voice almost as bad as Pom-Pom's.
+::'''True Love's Frozen Beans:''' Ruan Mei's creations are all good friends. Let us all hold hands~
+::'''True Love's Frozen Beans:''' Hello! This is the first time I've met someone besides Miss Ruan Mei, but your scent smells familiar to me... Oh! It's her scent! I can tell!
+::'''True Love's Frozen Beans:''' Did Miss Ruan Mei send you here? Did she finally think of me!?
+::{{DIcon|Arrow}} Nope. She's probably attending to some other affairs.
+:::<!--Custom String Listener: TalkSentence_500014707-->
+:::'''True Love's Frozen Beans:''' I see... Well, she has a lot of things on her plate...
+::{{DIcon|Arrow}} I think she's long forgotten about you guys.
+:::<!--Custom String Listener: TalkSentence_500014709-->
+:::It is verging on crying, but it purses its lips and holds its tears back. Then, it forces a stiff smile on its face.
+:::'''True Love's Frozen Beans:''' That's impossible! Don't ever say such things about Miss Ruan Mei! I'm sure she's just... just caught up by other matters. There's no good time for her to come back as the place is too much of a mess now!
+::<!--Custom String Trigger: TalkSentence_500014711-->
+::<!--Custom String Listener: TalkSentence_500014711-->
+::'''True Love's Frozen Beans:''' Our creator is extremely busy with her research. So, we have to do our best to fix everything here, or we'll be a disgrace to her!
+::'''True Love's Frozen Beans:''' That's such a terrifying thing to happen! We'll never be a disgrace to Miss Ruan Mei!
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 900000148: Config/Level/Mission/5000030/Act/Act900000148.json-->
+::It has been humming the same tune over and over again, and it starts to grow on you over time.
+::'''True Love's Frozen Beans:''' Ruan Mei's creations are all good friends. Let us all hold hands~
+::'''True Love's Frozen Beans:''' Oh, we meet again. What can I do for you this time?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Arrow}} There's something I'm curious about...
+::<!--Custom String Trigger: Wait_Option_900000149_228-->
+::<!--Custom String Listener: Wait_Option_900000149_228-->
+::{{DIcon|Talk}} What are your thoughts on Ruan Mei?
+:::<!--Custom String Listener: TalkSentence_500014904-->
+:::'''True Love's Frozen Beans:''' Ruan Mei... Miss Ruan Mei is our great creator. Although she's always busy, I know she must have poured a lot of love into creating me back then.
+:::'''True Love's Frozen Beans:''' This feeling... Well, it's hard for me to explain to someone like you who doesn't have the filling of red bean ice...
+:::'''True Love's Frozen Beans:''' But I can feel it. Sometimes it's the feeling of tears dribbling down my face, and sometimes it feels like touches filled with warmth. Anyway, I can feel the love she gave when she was creating us...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Have you been waiting for her?
+:::<!--Custom String Listener: TalkSentence_500014908-->
+:::'''True Love's Frozen Beans:''' Yup. Not just me, but everyone else too. To be honest, this floor is too chaotic. She wouldn't have a place to stay if she were to come back.
+:::'''True Love's Frozen Beans:''' So, the other creations and I, as well as those diligent little robots, have been working hard to fix this zone. With that, Miss Ruan Mei will at least have a clean and comfortable place to stay when she returns...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is there a story behind your name?
+:::<!--Custom String Listener: TalkSentence_500014911-->
+:::'''True Love's Frozen Beans:''' According to the wisest among us, Mung Bean Cake and I are made with a special recipe.
+:::'''True Love's Frozen Beans:''' Thanks to a special ingredient, I seem to be able to make people feel the presence of love. Yet, everyone says that it is due to some tear-inducing substance, not love.
+:::'''True Love's Frozen Beans:''' But I don't agree with them. The flavor of love is supposed to make people cry, so I'm not a failed creation of Miss Ruan Mei...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I have no more questions.
+:::<!--Custom String Listener: TalkSentence_500014915-->
+:::'''True Love's Frozen Beans:''' Alright... Please be careful on your way back, as the nearby areas have yet to be thoroughly cleaned, and it's quite dangerous outside.
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} I've got to go. Talk to you later.
+::<!--Custom String Trigger: TalkSentence_500014953-->
+::<!--Custom String Listener: TalkSentence_500014953-->
+::'''True Love's Frozen Beans:''' Are you leaving? No problem. I'm used to it... After all, separation is inevitable... Let's catch up next time.
+::'''True Love's Frozen Beans:''' You're different from us, you know? We're Ruan Mei's creations. Can you feel it? Her love... It's all here in this place.
+::'''True Love's Frozen Beans:''' If only you could feel her love for us. It's sooooo much!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

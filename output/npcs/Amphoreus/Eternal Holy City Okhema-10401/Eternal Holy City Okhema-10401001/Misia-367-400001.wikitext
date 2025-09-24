@@ -1,0 +1,143 @@
+<%-- [PAGE_INFO]
+PageTitle=#Misia#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Organist
+|image           = NPC Misia.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Eternal Holy City" Okhema
+|relatives       = 
+}}
+'''Misia''' is an NPC on [[Amphoreus]], located in [["Eternal Holy City" Okhema]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Eternal Holy City" Okhema|npc_367_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504033042: Config/Level/Mission/5040330/Act/Act504033042.json-->
+::'''Misia:''' Hello, kind listener. I hope my music will ease your fatigued spirits.
+::'''Misia:''' My current name is Misia. As you can see, I am neither a silver-spooned noble nor a purse-heavy merchant, just an ordinary musician who finds joy in melodic pastimes.
+::'''Misia:''' Mm... You haven't left. Are you still curious about something?
+::<!--Custom String Trigger: Wait_Option_504033042_1138-->
+::<!--Custom String Listener: Wait_Option_504033042_1138-->
+::{{DIcon|Talk}} This instrument is...
+:::<!--Custom String Listener: TalkSentence_504042105-->
+:::'''Misia:''' A water lyre, an instrument powered by flowing water. It's huge in size and must be placed in a location near a water source.
+:::'''Misia:''' ...I thought to give you a more elaborate introduction, but I suddenly remembered that there is only one such water lyre left, even in Okhema. It's pointless to tell you more about the instrument.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Your hometown is...
+:::<!--Custom String Listener: TalkSentence_504042108-->
+:::'''Misia:''' Hee... News does travel faster than music. You were there as well just now, and I suppose you must have heard some things.
+:::'''Misia:''' Carmitis... That is not a city's name, but what we call the bay where we live. It is a beautiful place with clear contours and vibrant colors. Its splendor is akin to a painting of Mnestia.
+:::'''Misia:''' The waves crash against rocks, that is the very first music made. We collect these sounds and weave them into melodies.
+:::'''Misia:''' The Okhemans call it a water lyre. But to us, it is an ordinary lyre. I thought these intricate devices were long devoured by the black tide. I never thought I'd see one here.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I just want to enjoy some good music.
+:::<!--Custom String Listener: TalkSentence_504042113-->
+:::'''Misia:''' Then please find a safe spot to rest. It's too close to the water here. Your clothes might get wet.
+:::<!--Ends the current performance-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504033043: Config/Level/Mission/5040330/Act/Act504033043.json-->
+:<pre>{
+	"$type": "RPG.GameCore.RandomConfig",
+	"OddsList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 1
+			}
+		}
+	],
+	"TaskList": [
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504000311
+			]
+		},
+		{
+			"$type": "RPG.GameCore.PlayVoice",
+			"VoiceIDs": [
+				504000312
+			]
+		}
+	],
+	"RandomMaskTarget": {
+		"$type": "RPG.GameCore.TargetAlias",
+		"Alias": "Caster"
+	}
+}</pre>
+::'''Misia:''' Greetings, kind listener. You have been listening to this music for quite a while. Do you feel anything special?
+::<!--Ends the current performance-->
+::<!--Open NPC Menu-->
+::{{DIcon|Arrow}} I can hear your longing for home.
+:::'''Misia:''' ...My home, hmm? Perhaps, but the way I see it, it isn't a place that needs to be thought about, rather to seek out.
+:::'''Misia:''' Carmitis is a place blessed by Mnestia. Even if no one lives there now, its art, romance, and beauty won't fade. As long as there is someplace where this melody is played, it is home enough for me.
+::{{DIcon|Arrow}} I can hear your sorrow.
+:::'''Misia:''' ...Sorrow, was it? I do admit that when I first arrived in Okhema, I was a little anxious. A tiny shelter built beneath the sky that is borne by the omniscient, omnipotent Kephale. Would there be a place for me here? I did not know.
+:::'''Misia:''' As I was fleeing, I witnessed too many farewells. The horizons of art are boundless, but its musicians can only eke a living in this narrow space between heaven and earth. Perhaps it is because of this mindset that my playing is inevitably tinged with sorrow.
+::{{DIcon|Arrow}} I can hear your joy.
+:::'''Misia:''' ...Joy, was it? That's hard to say. I play for the guests enjoying their baths. If my music was too melancholic, it might sour some of their moods. After all, this music is merely for entertainment, unworthy to be called true art.
+:::'''Misia:''' But, it is my honor for you to have felt joy.
+::{{DIcon|Arrow}} I can hear your hope.
+:::'''Misia:''' ...Aspirations, huh. That is only natural. If we do not cling to the hopes of tomorrow's dawn, how will we even endure this long night? Even if Okhema cannot be invaded by darkness, we should not forget to have faith in our hearts.
+:::'''Misia:''' We've spoken a little much. If emotions could only be conveyed through words, the musician would have failed at their duty. So I ask that you find a safe spot and continue to enjoy this water lyre's melodies.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Misia
+|zhs  = 弥斯
+|zht  = 彌斯
+|ja   = ミース
+|ko   = 미시아
+|es   = Misia
+|fr   = Misia
+|ru   = Мисия
+|th   = Misia
+|vi   = Misia
+|de   = Misia
+|id   = Misia
+|pt   = Misia
+}}
+==Change History==
+{{Change History|TODO}}

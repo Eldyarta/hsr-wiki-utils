@@ -1,0 +1,138 @@
+<%-- [PAGE_INFO]
+PageTitle=#Eulogistic Butterfly#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Eulogistic Butterfly.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = "Dragonbone City" Styxia
+|relatives       = 
+}}
+'''Eulogistic Butterfly''' is an NPC on [[Amphoreus]], located in [["Dragonbone City" Styxia]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|"Dragonbone City" Styxia|npc_195_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 504064001: Config/Level/Mission/5040640/Act/Act504064001.json-->
+::You remember Castorice once spoke of the origins of the Eulogistic Butterflies. Some believe them to be the final obsession of the deceased, others believe them to be {{Rubi|Thanatos'|Death Titan}}s messengers.
+::They are always found in places where many have met their demise.
+::'''Eulogistic Butterfly:''' Lost human, if you can say one last thing before leaving this world, what would it be?
+::{{DIcon|Arrow}} "I'm going to do a deep eepy."
+:::<!--Custom String Listener: TalkSentence_504064005-->
+:::'''Eulogistic Butterfly:''' Short and to the point.
+::{{DIcon|Arrow}} "I want to live five hundred more years..."
+:::<!--Custom String Listener: TalkSentence_504064007-->
+:::'''Eulogistic Butterfly:''' A demand proclaimed.
+::{{DIcon|Arrow}} "Farewell, Honkai: Star Rail!"
+:::<!--Custom String Listener: TalkSentence_504064009-->
+:::'''Eulogistic Butterfly:''' Farewell.
+::{{DIcon|Arrow}} "I left my trailblazing legacy at..."
+:::<!--Custom String Listener: TalkSentence_504064011-->
+:::'''Eulogistic Butterfly:''' Such suspense.
+::{{DIcon|Arrow}} (I live if I stay quiet, right?)
+:::<!--Custom String Listener: TalkSentence_504064013-->
+:::'''Eulogistic Butterfly:''' Death is fair to all.
+::<!--Custom String Trigger: TalkSentence_504064014-->
+::<!--Custom String Listener: TalkSentence_504064014-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 504064002: Config/Level/Mission/5040640/Act/Act504064002.json-->
+::'''Eulogistic Butterfly:''' '''Last words''' are from those closest to death. In this fleeting phrase, the identities of the living and the deceased converge &mdash; as if the weight of these words would tip the delicate balance of the scale of life irrevocably toward one side.
+:'''Eulogistic Butterfly:''' I still recall the '''last words''' of some of the deceased, if you're curious...
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I'm interested in some '''last words'''.
+::'''Eulogistic Butterfly:''' Of course. Whose parting words would you like to hear the most?
+::<!--Custom String Trigger: Wait_Option_504064003_39-->
+::<!--Custom String Listener: Wait_Option_504064003_39-->
+::{{DIcon|Talk}} The rulers of the different city-states...
+:::<!--Custom String Listener: TalkSentence_504064204-->
+:::'''Eulogistic Butterfly:''' I recall that an optimistic ruler once said, "I have finished my business here, and I die without regrets."
+:::'''Eulogistic Butterfly:''' Someone asked another ruler, on his deathbed, who his successor would be. He only said "The strongest."
+:::'''Eulogistic Butterfly:''' Another one suffered so much pain that she gave this order to her doctor, "Kill me, or be guilty of regicide."
+:::'''Eulogistic Butterfly:''' ...I remember one of the rulers only said "Water" before dying.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The heroes in war...
+:::<!--Custom String Listener: TalkSentence_504064209-->
+:::'''Eulogistic Butterfly:''' Before his execution at the hands of the enemy, a soldier said, "The only thing I wish to say in this last moment is that I can only give my life for my city-state once."
+:::'''Eulogistic Butterfly:''' Many more soldiers didn't know when death would come. One said, "Tell them that it hurts really bad on one side of my body."
+:::'''Eulogistic Butterfly:''' The old captain who traversed many seas died from illness on dry land. She said, "Please help me put on my clothes and armor, and let me die like a proper soldier." She was buried by the sea in the end.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The poets who wrote great works...
+:::<!--Custom String Listener: TalkSentence_504064213-->
+:::'''Eulogistic Butterfly:''' Before his death, a poet asked his poet son, "Tell me, Alexander, on your soul and conscience &mdash; do you believe my works will be passed on after I die?"
+:::'''Eulogistic Butterfly:''' A poet spent her life pursuing new verses, till the very end. "I seek no healer in the Courtyard to declare my demise, for I shall proclaim this freedom with my own cries."
+:::'''Eulogistic Butterfly:''' Another poet died during his performance. His final line was, "{{Rubi|Thanatos|Death Titan}} promised me a better world."
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} The nameless commoners...
+:::<!--Custom String Listener: TalkSentence_504064217-->
+:::'''Eulogistic Butterfly:''' There was a philosopher of the Grove who tried to pick some apricots but was scolded by his wife. He said, "So what if I picked them? What the *Amphoreus profanity* is going to happen?" Moments later, he died.
+:::'''Eulogistic Butterfly:''' When asked how they are feeling, someone replied, "I feel good and comfortable. I must sleep now... Take the pillows away. I don't need them anymore."
+:::'''Eulogistic Butterfly:''' There was a person who felt a sudden headache, and her '''last words''' were, "What's happening?"
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Thank you. That's all for now.
+:::<!--Custom String Listener: TalkSentence_504064221-->
+:::'''Eulogistic Butterfly:''' You can come back any time.
+:::<!--Ends the current performance-->
+:{{DIcon}} You seem to know a lot about '''last words'''.
+::'''Eulogistic Butterfly:''' I don't understand them. I'm merely curious about them.
+::'''Eulogistic Butterfly:''' A poet from Okhema once said that last words are "words of wisdom, uttered with a lingering breath, that deliver oneself gracefully to {{Rubi|Thanatos'|Death Titan}}s side."
+::'''Eulogistic Butterfly:''' However, he himself discovered that "at the moment before death, one's body and mind become unreliable as the candle burns out." In the end, his last words ended abruptly with, "If we meet again..."
+::'''Eulogistic Butterfly:''' Most humans don't have an elaborate phrase to go with their demise, let alone exciting stories, insights into history, or affectionate farewells... The majority are completely unprepared for death, hence the lack of proper last words.
+::'''Eulogistic Butterfly:''' Would the living imagine their dying words? Perhaps, but in the end, they didn't get a chance to speak those words...
+::<!--Ends the current performance-->
+:{{DIcon|Exit}} Say hi to Castorice for me.
+::'''Eulogistic Butterfly:''' I will give her your regards.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

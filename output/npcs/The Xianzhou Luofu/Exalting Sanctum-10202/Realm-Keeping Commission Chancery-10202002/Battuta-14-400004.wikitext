@@ -1,0 +1,139 @@
+<%-- [PAGE_INFO]
+PageTitle=#Battuta#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Old Man Awaiting Deportation
+|image           = NPC Battuta.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Realm-Keeping Commission Chancery
+|relatives       = 
+}}
+'''Battuta''' is an NPC on [[The Xianzhou Luofu]], located in [[Realm-Keeping Commission Chancery]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Realm-Keeping Commission Chancery|npc_14_400004}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502034101: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502034101.json-->
+::'''Battuta:''' Oh, so there is someone still willing to chat with this old coffin dodger... Ahem... When people get older, they can catch pneumonia just by having a sip of water. My aching aging throat...
+::{{DIcon|Arrow}} Are you alright?
+:::<!--Custom String Listener: TalkSentence_502034103-->
+:::'''Battuta:''' Haha, they've already given me meds, so I'll just rest and recover...
+::{{DIcon|Arrow}} Your body looks healthy. What's all this about...
+:::<!--Custom String Listener: TalkSentence_502034105-->
+:::'''Battuta:''' Dear {{MC|f=girl|m=boy}}, you're far too optimistic. I may not even survive to see a complete recovery... *cough*...
+::<!--Custom String Trigger: Wait_Option_502034101_16-->
+::<!--Custom String Listener: Wait_Option_502034101_16-->
+::{{DIcon|Arrow}} Who are you?
+:::<!--Custom String Listener: TalkSentence_502034107-->
+:::'''Battuta:''' I'm Battuta. I used to be a judge in the Klimt Republic. My side job was a travel writer... But now, I'm just a criminal waiting around for the Sky-Faring Commission to repatriate me...
+::{{DIcon|Arrow}} What are you doing here?
+:::<!--Custom String Listener: TalkSentence_502034109-->
+:::'''Battuta:''' Is it really strange for criminals waiting for repatriation by the Sky-Faring Commission to be waiting here? I'm Battuta. I used to be a judge in the Klimt Republic. My side hustle was a travel writer...
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502034102: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502034102.json-->
+::'''Battuta:''' Are you back? Even though... *cough*... Even though you can only join me for a few moments, I still feel great about it. Tell me, to what do I owe the honor?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} I just want to chat with you...
+::<!--Trigger PerformanceE 502034103: Config/Level/NPCDialogue/P10202/F10202001_G43/Act/Act_502034103.json-->
+::'''Battuta:''' Hahaha... *cough*... I thought people nowadays are just a bunch of heartless savages... Let's talk, maybe you can learn something from my short life...
+::<!--Custom String Trigger: Wait_Option_502034101_28-->
+::<!--Custom String Listener: Wait_Option_502034101_28-->
+::{{DIcon|Talk}} What kind of country do you come from?
+:::<!--Custom String Listener: TalkSentence_502034115-->
+:::'''Battuta:''' My homeland... The Klimt Republic is a great nation... *cough*... We have a vast territory, an efficient government, honest officials, and upstanding people...
+:::'''Battuta:''' The Klimt Republic was said to be made from nothing by Akivili the Trailblazer when THEY established the star rail, leading my ancestors on THEIR path of exile to THEIR Eversummer Paradise.
+:::'''Battuta:''' In gratitude for THEIR kindness, my ancestors selected warriors and embarked on trailblazing expeditions to transform dead worlds into living ones...
+:::'''Battuta:''' About a millennium has passed since its foundation... *cough*... We've already seen seventeen star systems, with a vast territory, and rich products... That's why our nation needs someone like me: A Judge.
+:::'''Battuta:''' Many planets exist in ecological environments different from this one... And so the prime minister and council... ahem... That is, our government needs judges like me to help ratify laws and regulations tailored to each of the differing local conditions...
+:::'''Battuta:''' *cough*... When I was 20, I graduated from the Royal Academy of Laws, becoming a Doctor of Law at 24... A year later, I passed the qualification examination to become a judge...
+:::'''Battuta:''' I can still remember... The prime minister at the time, Madam Wiesener, awarding me my medal and encouraging me to dedicate my life to the people of the motherland, just like her...
+:::'''Battuta:''' Ahhh... How energized I was back then... The moment Madam Wiesener placed that medal on me, I felt like a carefree kid again &mdash; never to be tired again...
+:::'''Battuta:''' That fantasy of vitality was so strong that it was only twenty years ago, when attending the state funeral of Madam Wiesener... That I realized for the first time that all of this would happen to me one day...
+:::'''Battuta:''' Too old to handle official duties, too weak to handle continual interstellar travel, I ultimately lie here helpless on a hospital bed, desperately counting all the things I should've done but didn't, all those people I should've seen but hadn't...
+:::'''Battuta:''' Hehe... That has twisted me into the kind of person I hate most, the kind who's loyal to their desires and gives no second thoughts to breaking the law...
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} You mentioned that you used to be a travel writer?
+:::<!--Custom String Listener: TalkSentence_502034127-->
+:::'''Battuta:''' I used to be a travelog writer... *cough*... Before coming to Xianzhou, I'd traveled all over the cosmos, experiencing all the customs and peoples of different star systems.
+:::'''Battuta:''' I recorded these travel experiences in truth, put them into print, and immediately aroused enthusiastic responses...
+:::'''Battuta:''' Actually, I have no misgivings... ahem... It's not due to any beautiful prose of mine, but rather because Klimt has always been like that... Any non-fiction writing is enough to rouse an impressed readership.
+:::'''Battuta:''' The late Madam Wiesener, once said, "Whosoever has measured the soils of the motherland with their feet, is willing to spill their blood there." What she said is true... *cough*...
+:::'''Battuta:''' I've seen new cities rise up on the richest planets... I've worked with nomadic herders on the poorest planets... I've seen the sun rise or set on every planet in my home system, and also the ebb and flow of every tide...
+:::'''Battuta:''' In places where disasters rage rampant, I've fought against the local beasts with the farmers. On frontier segmenta, I've somehow survived combat against the Antimatter Legion...
+:::'''Battuta:''' But all I've seen is still but a drop in the ocean... *cough*... My journey is not yet complete... But I will die soon with regrets... Am I greedy for longevity? Yes, but I'm greedier for the calling of a traveler.
+:::'''Battuta:''' ...It's over, it's all over.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} And so you came to Luofu to experience longevity?
+:::<!--Custom String Listener: TalkSentence_502034136-->
+:::'''Battuta:''' You really are a quick one, aren't you... But please, let me start at the beginning...
+:::'''Battuta:''' When I was in my early thirties... I once went to see the late Madam Wiesener... I told her I was going to run for prime ministry...
+:::'''Battuta:''' I was still young back then, and brimming with exuberance... But Madam Wiesener shook her head and told me, "It's still early. Go to the human world, first."
+:::'''Battuta:''' And then I went to the "human world"... And saw the field hospitals on the frontlines lacking doctors and medicine. I saw the farmers in the desert struggling to survive. I saw that not every young girl out there got to experience "a fair life"...
+:::'''Battuta:''' I made a lot of promises back in those days, and I've been fighting to keep them to this day... But then I woke up from a long dream only to discover that I could no longer walk...
+:::'''Battuta:''' Wait until you're old, and you'll find that your body is like an old grandfather clock that's gone wrong... At first, you think it just needs some oil, then the gears wear out, the mainspring loosens, and the pendulum loses its accuracy... *cough*...
+:::'''Battuta:''' People are just like monkeys riding a unicycle while trying to juggle. While hurrying to catch those three balls up in the air, you still have to keep stepping on those pedals to spin the wheel and maintain balance...
+:::'''Battuta:''' I'm old, and somewhat confused, but I remember every promise well... I'm afraid I'll never have time to fulfill them...
+:::'''Battuta:''' That's why I've come to Xianzhou, because I have to be here... This is the only place where I can fight the ravages of time.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I should go...
+:::<!--Custom String Listener: TalkSentence_502034146-->
+:::'''Battuta:''' Mmm, you go then. Don't waste your time here any longer with a criminal.
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502034103-->
+:{{DIcon|Exit}} I should go...
+::'''Battuta:''' Mmm, you go then, quickly. Don't waste your time here any longer with a criminal.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Battuta
+|zhs  = 白图泰
+|zht  = 白圖泰
+|ja   = バットゥータ
+|ko   = 바두타
+|es   = Battuta
+|fr   = Battuta
+|ru   = Баттута
+|th   = Battuta
+|vi   = Battuta
+|de   = Battuta
+|id   = Battuta
+|pt   = Battuta
+}}
+==Change History==
+{{Change History|TODO}}

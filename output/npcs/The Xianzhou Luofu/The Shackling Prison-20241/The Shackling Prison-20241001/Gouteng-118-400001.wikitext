@@ -1,0 +1,240 @@
+<%-- [PAGE_INFO]
+PageTitle=#Gouteng#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Captured Disciple
+|image           = NPC Gouteng.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = The Shackling Prison
+|relatives       = 
+}}
+'''Gouteng''' is an NPC on [[The Xianzhou Luofu]], located in [[The Shackling Prison]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Shackling Prison|npc_118_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell1"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 1
+		}
+	}
+}</pre>
+;(First interaction)
+::<!--Trigger PerformanceE 502080001: Config/Level/Mission/5020800/Act/Act502080001.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice",
+	"VoiceIDs": [
+		502450111
+	]
+}</pre>
+::'''Gouteng:''' By the mercy of Sanctus Medicus! If I'm not mistaken, you must be (Trailblazer), right?
+::{{DIcon|Arrow}} Why does everybody in this hellhole seem to know who I am?
+:::<!--Custom String Listener: TalkSentence_502080003-->
+:::'''Gouteng:''' That's to be expected. Everyone knows everyone in The Shackling Prison, so word travels fast around here.
+::{{DIcon|Arrow}} You know me? I didn't throw you in there, did I?
+:::<!--Custom String Listener: TalkSentence_502080005-->
+:::'''Gouteng:''' I wish! Now that'd have been something to boast about. Everyone knows everyone in The Shackling Prison, so word travels fast around here.
+::<!--Custom String Trigger: TalkSentence_502080006-->
+::<!--Custom String Listener: TalkSentence_502080006-->
+::'''Gouteng:''' You probably don't know who I am. Let me introduce myself. I'm a former disciple of Sanctus Medicus and the current Chief Technical R&D Officer of the Arma Correctional Group.
+::'''Gouteng:''' I'm usually busy developing new products for Arma, but I also sell medicines in a personal capacity. If you're ever in need of medicine, don't hesitate to come to me!
+::'''Gouteng:''' And before I forget, the Correctional Group doesn't take monetary payments, only Trick Snacks.
+::{{DIcon|Arrow}} Are your medicines licit?
+:::<!--Custom String Listener: TalkSentence_502080010-->
+:::'''Gouteng:''' Don't you find this place a little too out of the way to travel to just for licit medicines?
+:::'''Gouteng:''' That said, you needn't worry. My goods are absolutely safe for consumption! Madam Chiyi would never greenlight my research in here otherwise.
+::{{DIcon|Arrow}} How dare you covet my Trick Snacks!
+:::<!--Custom String Listener: TalkSentence_502080013-->
+:::'''Gouteng:''' Those are just boring old snacks to you, but I'll have you know that they're no different from money to us! I also know that you can synthesize thousands of Trick Snacks with a flick of your wrist... In other words, you hold the reins of The Shackling Prison's entire financial system!
+:::'''Gouteng:''' Think of all the profits you could be making if you leveraged that!
+::<!--Custom String Trigger: TalkSentence_502080015-->
+::<!--Custom String Listener: TalkSentence_502080015-->
+::'''Gouteng:''' So, how about buying something and supporting the Correctional Group?
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502080002: Config/Level/Mission/5020800/Act/Act502080002.json-->
+::'''Gouteng:''' O, mercy of Sanctus Medicus, please bless me with riches... Oh, you're here again. Any premium products developed by the Arma Correctional Group for you today?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Shop}} Show me the goods...
+:<pre>{
+	"$type": "RPG.GameCore.VerifyInteractingEntity",
+	"GroupID": 118,
+	"ConfigID": 400001
+}</pre>
+:<pre>{
+	"$type": "RPG.GameCore.ShowShop",
+	"ShopType": 62,
+	"TaskID": []
+}</pre>
+::'''Gouteng:''' Hehe, the Arma Correctional Group is glad to be of service!
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell1"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+:{{DIcon}} I'd like to ask you something.
+::'''Gouteng:''' Ask away! I can't chat long, though. I still have some matters to take care of.
+::<!--Custom String Trigger: Wait_Option_502080003_68-->
+::<!--Custom String Listener: Wait_Option_502080003_68-->
+::{{DIcon|Talk}} Why did you join the Disciples of Sanctus Medicus back then?
+:::<!--Custom String Listener: TalkSentence_502080203-->
+:::'''Gouteng:''' Mainly because there were too many restrictions around conducting research at the Alchemy Commission. I had to navigate layers and layers of red tape just to replicate some biotech processes and ancient prescriptions recorded in tomes. It's so bureaucratic!
+:::'''Gouteng:''' But after I became a disciple, things became much less complicated. After I gained access to the underground connections afforded by the Disciples of Sanctus Medicus, even the approval process for taking time off work was much quicker!
+:::'''Gouteng:''' I've turned over a new leaf since, though... No, really! My only goal now is to be an honest businessman alongside Arma and Shiratori. We'll grow the Correctional Group into as large and powerful a business as we possibly can!
+:::'''Gouteng:''' When that happens, I may even be able to pick up where I left off and continue my research here at the Shackling Prison, hehehe.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are your responsibilities as the Chief Technical R&D Officer?
+:::<!--Custom String Listener: TalkSentence_502080208-->
+:::'''Gouteng:''' Arma excels at making products that can greatly improve one's carceral quality of life out of the trash lying about in prison. While he's no doubt a deft hand at creating trinkets, that's really all that he's good at.
+:::'''Gouteng:''' Not me, though. I'm an alchemist! Where you see kitchen scraps and trash, I see toothpaste, body wash, skincare products, and more. Where you see pests and irritants, I see medicines, supplements, snacks...
+:::'''Gouteng:''' We have an abundance of raw materials in the Shackling Prison, but there's also an appalling lack of equipment and facilities here. Many things you wouldn't even take a second look at outside are rarities in here, and making these simple household chemical products is but child's play to me!
+:::'''Gouteng:''' All I made in the beginning was toothpaste, but when Arma noticed what I did, he spotted a business opportunity and roped me into his venture.
+:::'''Gouteng:''' Since then, I have developed many bestsellers for the Correctional Group, such as Immortal's Delight-flavored toothpaste, Flaming Tea-flavored hot sauce, instant mung bean soda...
+:::'''Gouteng:''' I personally try out all my products, so rest assured I can attest to their quality! Of course, if your stomach does become upset, I can supply you with detoxification and anti-diarrheal medication on the house, hehe.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is the business really your sole focus now?
+:::<!--Custom String Listener: TalkSentence_502080215-->
+:::'''Gouteng:''' You're perceptive, aren't you? Well, the answer is no. Since we only have one life to live, we shouldn't give up our hopes and dreams so easily, don't you think?
+:::'''Gouteng:''' I'm an alchemist, after all. Even if I'm doomed to eternal confinement within the Shackling Prison, there's no way I'd be willing to resign myself to a lifetime of making household chemical products by hand.
+:::'''Gouteng:''' I've been wondering... Perhaps certain academic conundrums can only be solved more easily if one is incarcerated in the Shackling Prison. For instance... the secrets of the Primus Immortus?
+:::'''Gouteng:''' Oops, I might have said a bit too much. Can we pretend we never had this conversation? Hehe, thanks!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all from me. I'll leave you to work then.
+:::<!--Custom String Listener: TalkSentence_502080220-->
+:::'''Gouteng:''' Hehe, the Arma Correctional Group is glad to be of service!
+::<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell1"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+:::<!--Ends the current performance-->
+:{{DIcon|Exit}} That's all from me. I'll leave you to work then.
+::'''Gouteng:''' Hehe, the Arma Correctional Group is glad to be of service!
+:<pre>{
+	"$type": "RPG.GameCore.SetFloorCustomFloat",
+	"Name": {
+		"Value": "FCV_cell1"
+	},
+	"Value": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 0
+		}
+	}
+}</pre>
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502080018)
+:<!--Custom String Listener: TalkSentence_502080018-->
+::'''Gouteng:''' Ask away! I can't chat long, though. I still have some matters to take care of.
+::<!--Custom String Trigger: Wait_Option_502080001_30-->
+::<!--Custom String Listener: Wait_Option_502080001_30-->
+::{{DIcon|Talk}} Why did you join the Disciples of Sanctus Medicus back then?
+:::<!--Custom String Listener: TalkSentence_502080020-->
+:::'''Gouteng:''' Mainly because there were too many restrictions around conducting research at the Alchemy Commission. I had to navigate layers and layers of red tape just to replicate some biotech processes and ancient prescriptions recorded in tomes. It's so bureaucratic!
+:::'''Gouteng:''' But after I became a disciple, things became much less complicated. After I gained access to the underground connections afforded by the Disciples of Sanctus Medicus, even the approval process for taking time off work was much quicker!
+:::'''Gouteng:''' I've turned over a new leaf since, though... No, really! My only goal now is to be an honest businessman alongside Arma and Shiratori. We'll grow the Correctional Group into as large and powerful a business as we possibly can!
+:::'''Gouteng:''' When that happens, I may even be able to pick up where I left off and continue my research here at the Shackling Prison, hehehe.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What are your responsibilities as the Chief Technical R&D Officer?
+:::<!--Custom String Listener: TalkSentence_502080025-->
+:::'''Gouteng:''' Arma excels at making products that can greatly improve one's carceral quality of life out of the trash lying about in prison. While he's no doubt a deft hand at creating trinkets, that's really all that he's good at.
+:::'''Gouteng:''' Not me, though. I'm an alchemist! Where you see kitchen scraps and trash, I see toothpaste, body wash, skincare products, and more. Where you see pests and irritants, I see medicines, supplements, snacks...
+:::'''Gouteng:''' We have an abundance of raw materials in the Shackling Prison, but there's also an appalling lack of equipment and facilities here. Many things you wouldn't even take a second look at outside are rarities in here, and making these simple household chemical products is but child's play to me!
+:::'''Gouteng:''' All I made in the beginning was toothpaste, but when Arma noticed what I did, he spotted a business opportunity and roped me into his venture.
+:::'''Gouteng:''' Since then, I have developed many bestsellers for the Correctional Group, such as Immortal's Delight-flavored toothpaste, Flaming Tea-flavored hot sauce, instant mung bean soda...
+:::'''Gouteng:''' I personally try out all my products, so rest assured I can attest to their quality! Of course, if your stomach does become upset, I can supply you with detoxification and anti-diarrheal medication on the house, hehe.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Is the business really your sole focus now?
+:::<!--Custom String Listener: TalkSentence_502080032-->
+:::'''Gouteng:''' You're perceptive, aren't you? Well, the answer is no. Since we only have one life to live, we shouldn't give up our hopes and dreams so easily, don't you think?
+:::'''Gouteng:''' I'm an alchemist, after all. Even if I'm doomed to eternal confinement within the Shackling Prison, there's no way I'd be willing to resign myself to a lifetime of making household chemical products by hand.
+:::'''Gouteng:''' I've been wondering... Perhaps certain academic conundrums can only be solved more easily if one is incarcerated in the Shackling Prison. For instance... the secrets of the Primus Immortus?
+:::'''Gouteng:''' Oops, I might have said a bit too much. Can we pretend we never had this conversation? Hehe, thanks!
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} That's all from me. I'll leave you to work then.
+:::<!--Custom String Listener: TalkSentence_502080037-->
+:::'''Gouteng:''' Hehe, the Arma Correctional Group is glad to be of service!
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502080039)
+:<!--Custom String Listener: TalkSentence_502080039-->
+::'''Gouteng:''' Hehe, the Arma Correctional Group is glad to be of service!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Gouteng
+|zhs  = 钩藤
+|zht  = 鉤藤
+|ja   = 鈎藤
+|ko   = 구등
+|es   = Gouteng
+|fr   = Gouteng
+|ru   = Гоутэн
+|th   = Gouteng
+|vi   = Gouteng
+|de   = Gouteng
+|id   = Gouteng
+|pt   = Gouteng
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,295 @@
+<%-- [PAGE_INFO]
+PageTitle=#Lady Vermilion#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Lady Vermilion.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Penacony
+|location        = The Reverie (Dreamscape)
+|relatives       = 
+}}
+'''Lady Vermilion''' is an NPC on [[Penacony]], located in [[The Reverie (Dreamscape)]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|The Reverie (Dreamscape)|npc_159_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If [[Fate's Ensemble]] is active)
+:;(First interaction)
+:::<!--Trigger PerformanceE 414030301: Config/Level/Mission/4140303/Act/Act414030301.json-->
+::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::'''Lady Vermilion:''' Tweet! I'm not afraid of you... Tweet? Oh, it's not Boss Stone. You really scared me there, tweet.
+:::'''Lady Vermilion:''' *Ahem* You don't look familiar, dear customer. Welcome to the Town Hotel, tweet~
+:::{{DIcon|Arrow}} Town Hotel?
+:::<!--Custom String Listener: TalkSentence_414030304-->
+:::'''Lady Vermilion:''' Yes. This is the only hotel in Dreamville... and also my proudest achievement, tweet.
+:::'''Lady Vermilion:''' Look at this dreamy dome built from branches, the stone-decorated carved walls, the brilliant corridor paved with mud. How romantic... Wouldn't you love to spend an unforgettable and wonderful night here? Tweet tweet?
+:::{{DIcon|Arrow}} Sure would!
+::::<!--Custom String Listener: TalkSentence_414030307-->
+::::'''Lady Vermilion:''' Heehee, you are very keen. You're sure to be delighted with this. Tweet!
+:::{{DIcon|Arrow}} Not interested!
+::::<!--Custom String Listener: TalkSentence_414030309-->
+::::'''Lady Vermilion:''' Hmm, you're so apathetic. But then again... This kind of guest is also really cool, tweet.
+:::{{DIcon|Arrow}} Thanks for the invite. I've just stayed the night there.
+::::<!--Custom String Listener: TalkSentence_414030311-->
+::::'''Lady Vermilion:''' Eh? Thank you for your patronage, tweet! We hope Boss Stone didn't keep you up last night... If you're still afraid, I can come and make sure you fall asleep, tweet~
+:::<!--Custom String Trigger: TalkSentence_414030312-->
+:::<!--Custom String Listener: TalkSentence_414030312-->
+:::'''Lady Vermilion:''' It's a real shame. If times were normal, I would definitely entertain you properly, tweet.
+:::'''Lady Vermilion:''' But Boss Stone has sent lots of baddies to the hotel recently, and I'm really worried about the little birds going out... It would be amazing if some kind-hearted guest could help me find them, tweet~
+:::The origami bird winks its bright eyes at you. You're unsure whether it's flirting with you or it's just the common bird behavior.
+:::{{DIcon|Arrow}} Let me help you.
+::::<!--Custom String Listener: TalkSentence_414030316-->
+::::'''Lady Vermilion:''' You're indeed a very good person, tweet! Once all of Boss Stone's baddies scram, I'll definitely show you around Dreamville, tweet!
+:::{{DIcon|Arrow}} Go look for them yourself.
+::::<!--Custom String Listener: TalkSentence_414030318-->
+::::'''Lady Vermilion:''' Eek~ The hotel's so dangerous right now. What if I get caught by Boss Stone? You ought to protect a delicate lady like me, tweet~
+:::{{DIcon|Arrow}} (Indifferent)
+::::<!--Custom String Listener: TalkSentence_414030320-->
+::::'''Lady Vermilion:''' Dear guest &mdash; please stop playing the fool, tweet. I really need your help, tweet!
+:::<!--Custom String Trigger: TalkSentence_414030321-->
+:::<!--Custom String Listener: TalkSentence_414030321-->
+:;(Subsequent interactions)
+:::<!--Trigger PerformanceE 414030302: Config/Level/Mission/4140303/Act/Act414030302.json-->
+:;(All choices lead to the following options)
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200010}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Lady Vermilion:''' Tweet?
+::::'''Lady Vermilion:''' Oh my, you've brought all the children back, tweet!
+::::'''Lady Vermilion:''' Here, this is a gift I've prepared for you. It's all yours, tweet!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200010
+			}
+		},
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200011
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200010}},"Inverse":true}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Inverse":true}-->}})
+:::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200010}}}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Inverse":true}-->}})
+::::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+:::::'''Lady Vermilion:''' Tweet?
+:::::'''Lady Vermilion:''' Oh my, you've brought all the children back, tweet!
+:::::'''Lady Vermilion:''' Here, this is a gift I've prepared for you. It's all yours, tweet!
+::::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200011
+			}
+		}
+	]
+}</pre>
+:;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":20}},"EquationType":"GreaterEqual"}-->}})
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200010}},"Inverse":true}-->}})
+:::<pre>{
+	"$type": "RPG.GameCore.TriggerSound",
+	"SoundName": {
+		"Value": "Ev_vo_origamibirds_appear"
+	},
+	"EmitterType": "TargetEvaluator",
+	"TargetType": {
+		"$type": "RPG.GameCore.TargetFetchAdvNpcEx",
+		"FetchType": "SingleNpcByOwnerGroupAndID",
+		"SingleNpcKey": {
+			"Custom": true,
+			"Key": "TargetNPC"
+		},
+		"SingleNpcID": {
+			"GroupNpcID": {
+				"IsDynamic": false,
+				"FixedValue": {
+					"Value": 400001
+				}
+			}
+		},
+		"SingleUniqueName": {
+			"Value": "InteractTarget_OrigamiBird01"
+		},
+		"NpcIDInOwnerGroup": {
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 400001
+			}
+		}
+	}
+}</pre>
+::::'''Lady Vermilion:''' Tweet?
+::::'''Lady Vermilion:''' Oh my, you've brought quite a few children back with you, tweet~.
+::::'''Lady Vermilion:''' Here, this is a gift I've prepared for you. Please treasure it, tweet!
+:::<pre>{
+	"$type": "RPG.GameCore.QuestGetReward",
+	"QuestIDList": [
+		{
+			"IsDynamic": false,
+			"FixedValue": {
+				"Value": 2200010
+			}
+		}
+	]
+}</pre>
+::;(If {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestProgress","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200011}},"Progress":{"IsDynamic":false,"FixedValue":{"Value":10}},"EquationType":"GreaterEqual"}-->}} and {{cx}}{{subst:void|<!--{"$type":"RPG.GameCore.ByCompareQuestGetReward","QuestID":{"IsDynamic":false,"FixedValue":{"Value":2200010}},"Inverse":true}-->}})
+::::'''Lady Vermilion:''' Please, dear guest &mdash; if you see any of the other birds in the hotel, please call them back to the big tree. I will definitely make it worth your while, tweet!
+::<!--Ends the current performance-->
+;(If [[Fate's Ensemble]] is active)
+::<!--Trigger PerformanceE 414034000: Config/Level/Mission/4140303/Act/Act414034000.json-->
+::You hear a faint sound... emanating from somewhere, resembling the chirping of a bird or a figment from your subconscious.
+::You glance downwards. As you expected, nothing is there.
+::After all, real birds do not exist within the Dreamscape.
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Lady Vermilion
+|zhs  = 妃色夫人
+|zht  = 妃色夫人
+|ja   = マダム・スカーレット
+|ko   = 버밀리온 여사
+|es   = Señora Bermellón
+|fr   = Mademoiselle Vermeille
+|ru   = Госпожа Вермильон
+|th   = มาดามชมพูพริ้ง
+|vi   = Phu Nhân Đỏ Son
+|de   = Lady Vermilion
+|id   = Nyonya Pinkiwati
+|pt   = Dama Vermilion
+}}
+==Change History==
+{{Change History|TODO}}

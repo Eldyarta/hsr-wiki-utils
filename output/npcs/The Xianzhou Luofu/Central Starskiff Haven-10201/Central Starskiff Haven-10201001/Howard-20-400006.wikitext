@@ -1,0 +1,308 @@
+<%-- [PAGE_INFO]
+PageTitle=#Howard#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = IPC Specialist
+|image           = NPC Howard.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Central Starskiff Haven
+|relatives       = 
+}}
+'''Howard''' is an NPC on [[The Xianzhou Luofu]], located in [[Central Starskiff Haven]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Central Starskiff Haven|npc_20_400006}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 404022204,
+		"Type": "submission_state_equal",
+		"Param1": 404022204,
+		"Param2": 1
+	}
+]
+</pre>
+:'''Howard:''' Hahaha, I really should correct this bad habit of talking to myself.
+:'''Howard:''' I've grown infatuated recently with the mysteries of Xianzhou culture. I've been obsessed with thinking about them...
+:'''Howard:''' In one of them, there are drakons in the Lunarescent Depths that can live for thousands of years &mdash; and their tears crystallize into pearls. It's enough to set the mind racing!
+:'''Howard:''' But the Scalegorge Waterscape delves generally don't let Outworlders like us go down, and the Draconic Tears out on the market are all too processed, so they lack that legendary authenticity.
+:{{DIcon|Arrow}} You sure are fussy.
+::<!--Custom String Listener: TalkSentence_412221207-->
+::'''Howard:''' These are pharmaceuticals, but on the open market they always end up looking like sparkly jewels &mdash; all scrubbed up nice and pretty to pander to those hunting for legends. Or perhaps that's going a bit too far.
+::'''Howard:''' Me, I may be an Outworlder but I like local customs and use whatever the locals use. Super-clean and clear Draconic Tears are too fake for me, and aren't worth collecting.
+::{{DIcon|Arrow}} I've got some all-natural ones right here.
+:::<!--Custom String Listener: TalkSentence_412221210-->
+:::'''Howard:''' I just like natural, unclean Draconic Tears. Let me have a look.
+::{{DIcon|Arrow}} Same.
+:::<!--Custom String Listener: TalkSentence_412221212-->
+:::'''Howard:''' Looks like we've something in common. Birds of a feather flock together, haha!
+:::'''Howard:''' Seeing as we're so similar then, have you got any Draconic Tears for me?
+:{{DIcon|Arrow}} Actually, I've got some Draconic Tears right here.
+::<!--Custom String Listener: TalkSentence_412221215-->
+::'''Howard:''' I've seen too many Draconic Tears on the markets, so I hope you can show me something a little different.
+:<!--Custom String Trigger: TalkSentence_412221216-->
+:<!--Custom String Listener: TalkSentence_412221216-->
+<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140184
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140184,
+			"TriggerCustomString": "Selected_1_404022212"
+		}
+	],
+	"SlotNum": 1,
+	"SimpleTalk": {
+		"TalkSentenceID": 412221215
+	},
+	"OnSubmitSucceed": [],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(Unused &mdash; Selected_1_404022212)
+:<!--Custom String Listener: Selected_1_404022212-->
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404022204,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 1
+}</pre>
+::'''Howard:''' Hahaha, this is the first time I've seen Draconic Tears inside a glass jar like this... And this is exactly the kind of authentic Draconic Tears that I'm looking for! Thank you so much.
+::{{DIcon|Arrow}} Hey, you gotta play by the rules.
+:::<!--Custom String Listener: TalkSentence_412221218-->
+:::'''Howard:''' What rules?
+:::{{DIcon|Arrow}} The rules of barter.
+:::{{DIcon|Arrow}} Don't make me say it.
+::{{DIcon|Arrow}} Please could you reciprocate in kind?
+::<!--Custom String Listener: TalkSentence_412221222-->
+::'''Howard:''' Ah, got it. "Do unto others as you would have them do unto you."
+::'''Howard:''' I didn't bring anything valuable with me today, so here's something very small for you as thanks.
+::<!--Ends the current performance-->
+:'''Howard:''' Don't be a stranger. What is it you want to talk about?
+:<!--Custom String Trigger: Wait_Option_502011202_46-->
+:<!--Custom String Listener: Wait_Option_502011202_46-->
+:{{DIcon|Talk}} I want to ask you about some Xianzhou trivia.
+::<!--Custom String Listener: TalkSentence_502112103-->
+::'''Howard:''' I heard an interesting rumor from the head of the Sky-Faring Commission.
+::'''Howard:''' I went to a meeting between the Sky-Faring Commission and the Xianzhou traders' representatives, and I saw Madam Yukong's beloved bow. It's really a fine weapon. But upon closer inspection, I discovered it wasn't a real bow.
+::'''Howard:''' Her arrows are actually self-guided auto-aim ones, and drawing the bow is just used to give a sense of antiquity.
+::'''Howard:''' The Xianzhou natives like using a few tricks to mask their strength, and it's probably connected to their propensity for humility.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} You came to Xianzhou on a trade mission for the IPC...
+::<!--Custom String Listener: TalkSentence_502112108-->
+::'''Howard:''' Haha, that's not something we can talk about.
+::'''Howard:''' Well, to be honest, we offered a handsome price for some of Xianzhou's proud technological achievements, but negotiations didn't actually go so well...
+::'''Howard:''' But I trust that Xianzhou isn't a conservative place. Hard work always pays off &mdash; and breakthroughs are always possible.
+::'''Howard:''' That's about as much as I can say on this. Hope you forgive me! Hahaha.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Have you got any advice for an Outworlder?
+::<!--Custom String Listener: TalkSentence_502112113-->
+::'''Howard:''' I was gifted a manual when I first got here, called ''100 Common Xianzhou Proverbs for Outworlders''. It's a lousy title, I know, but the book itself is great.
+::'''Howard:''' The book is really practical, mentioning tons of proverbs and sayings that the Xianzhou natives commonly use. It's a fantastic window into Xianzhou culture if that's something you're interested in.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} Until we meet again.
+::<!--Custom String Listener: TalkSentence_502112116-->
+::'''Howard:''' Until we meet again.
+::<!--Ends the current performance-->
+:'''Howard:''' Until we meet again.
+:<!--Ends the current performance-->
+:'''Howard:''' "Soil that does not deplete, but self-replicates." ...is there really such incredible tech aboard Xianzhou?
+:'''Howard:''' Ah, our {{MC|f=girl|m=boy}} is back. Have you come to chat with me, or is there something else?
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 90000057: Config/Level/NPC/W2/NPC_DefaultStory_502011201.json-->
+::'''Howard:''' "I'd rather have three days without food than go one day without tea." I mean, the Xianzhou natives have to drink tea even if they're starving. I've drunk my fill of tea, too &mdash; and zero calories, too. It's a pretty interesting turn of phrase.
+::'''Howard:''' Vegetations in the Alchemy Cauldron, Whale-Tide Spring, Emerald Hills, and Hunter Maofeng...
+::{{DIcon|Arrow}} If you ask me, Whale-Tide Spring's the best.
+:::<!--Custom String Listener: TalkSentence_502112004-->
+:::'''Howard:''' Whale-Tide Spring? Hold on, let me look up some good quotes about tea.
+:::'''Howard:''' "Whale-Tide Spring buds are tender. Bake-drying results in knotted strips as fine hairs appear with a silvery green hue. Brew to create swirling clouds in your teacup. Its mild fragrance is striking..."
+:::'''Howard:''' It's all in unintelligible Xianzhou words. But that's okay, no harm in ordering a pot of Whale-Tide Spring tea.
+::{{DIcon|Arrow}} Actually, I don't really know much about tea.
+:::<!--Custom String Listener: TalkSentence_502112008-->
+:::'''Howard:''' Hahaha, I can tell! You're an Outworlder with a curiosity for Xianzhou culture.
+:::'''Howard:''' Ordering tea aboard Xianzhou isn't the easiest thing, and you might not get all the cultural allusions going on. But that's just my own bad habit, {{MC|f=m'girl|m=boy}} &mdash; you don't have to be like me.
+:::'''Howard:''' This Whale-Tide Spring is awesome, and I'll sit on a pot of this for a while.
+::{{DIcon|Arrow}} May as well just close my eyes and pick out one at random, right?
+:::<!--Custom String Listener: TalkSentence_502112012-->
+:::'''Howard:''' {{MC|f=Girl|m=Boy}}, you're an Outworlder just like me. You're not exactly wrong, but it's really quite rude.
+:::'''Howard:''' Xianzhou tea drinking is steeped in history, culture, decorum, and rules. If one were to glug it down like some common ruffian, it would sully the tea's heritage...
+:::'''Howard:''' This Whale-Tide Spring is awesome, and I'll sit on a pot of this for a while.
+::<!--Custom String Trigger: TalkSentence_502112015-->
+::<!--Custom String Listener: TalkSentence_502112015-->
+::'''Howard:''' The name's Howard. I'm a trade commissioner for the Interastral Peace Corporation, or IPC. I've come here to trade tech with Xianzhou. A pleasure to make your acquaintance.
+::{{DIcon|Arrow}} It's a pleasure to meet you, I'm (Trailblazer).
+::{{DIcon|Arrow}} I'm (Trailblazer).
+::<!--Custom String Listener: TalkSentence_502112025-->
+::'''Howard:''' Hahaha, fate has brought us together. Take this small gift. "Small gifts in place of vast appreciation," as they say. Please accept it.
+::<!--Custom String Trigger: Wait_Option_502011201_29-->
+::<!--Custom String Listener: Wait_Option_502011201_29-->
+::{{DIcon|Arrow}} You must be quite a fan of the Xianzhou culture.
+:::<!--Custom String Listener: TalkSentence_502112019-->
+:::'''Howard:''' Hahaha, I already knew a little about Xianzhou culture back at HQ. Now I have the opportunity to be stationed here, I have prepared ahead.
+:::'''Howard:''' The more I studied it, the more fascinated I became... despite everyone at work jokingly calling me "Mr. Xianzhou," my knowledge about Xianzhou culture really is just a drop in the bucket.
+::{{DIcon|Arrow}} I think you already know far more than I do.
+:::<!--Custom String Listener: TalkSentence_502112022-->
+:::'''Howard:''' You're too kind. I know this is the famous "humility," right? "The dragonfruit never sings about its sweetness."
+:::'''Howard:''' It feels like there are secret masters hidden throughout Xianzhou, each pretending to be super-normal. What a fascinating phenomenon.
+::<!--Custom String Trigger: TalkSentence_502112024-->
+::<!--Custom String Listener: TalkSentence_502112024-->
+::'''Howard:''' I've had a great time chatting with you, {{MC|f=m'girl|m=boy}}. If there's anything you'd like to know, I'll definitely tell you everything. Consider me your new friend.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000058: Config/Level/NPC/W2/NPC_DefaultStory_502011204.json-->
+::'''Howard:''' "Soil that does not deplete, but self-replicates." ...is there really such incredible tech aboard Xianzhou?
+::'''Howard:''' Ah, our {{MC|f=girl|m=boy}} is back. Have you come to chat with me, or is there something else?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 404022204-->)
+:{{DIcon|?}} You seem pretty interested in Draconic Tears.
+::'''Howard:''' Hahaha, I really should correct this bad habit of talking to myself.
+::'''Howard:''' I've grown infatuated recently with the mysteries of Xianzhou culture. I've been obsessed with thinking about them...
+::'''Howard:''' In one of them, there are drakons in the Lunarescent Depths that can live for thousands of years &mdash; and their tears crystallize into pearls. It's enough to set the mind racing!
+::'''Howard:''' But the Scalegorge Waterscape delves generally don't let Outworlders like us go down, and the Draconic Tears out on the market are all too processed, so they lack that legendary authenticity.
+::{{DIcon|Arrow}} You sure are fussy.
+:::<!--Custom String Listener: TalkSentence_412221207-->
+:::'''Howard:''' These are pharmaceuticals, but on the open market they always end up looking like sparkly jewels &mdash; all scrubbed up nice and pretty to pander to those hunting for legends. Or perhaps that's going a bit too far.
+:::'''Howard:''' Me, I may be an Outworlder but I like local customs and use whatever the locals use. Super-clean and clear Draconic Tears are too fake for me, and aren't worth collecting.
+:::{{DIcon|Arrow}} I've got some all-natural ones right here.
+::::<!--Custom String Listener: TalkSentence_412221210-->
+::::'''Howard:''' I just like natural, unclean Draconic Tears. Let me have a look.
+:::{{DIcon|Arrow}} Same.
+::::<!--Custom String Listener: TalkSentence_412221212-->
+::::'''Howard:''' Looks like we've something in common. Birds of a feather flock together, haha!
+::::'''Howard:''' Seeing as we're so similar then, have you got any Draconic Tears for me?
+::{{DIcon|Arrow}} Actually, I've got some Draconic Tears right here.
+:::<!--Custom String Listener: TalkSentence_412221215-->
+:::'''Howard:''' I've seen too many Draconic Tears on the markets, so I hope you can show me something a little different.
+::<!--Custom String Trigger: TalkSentence_412221216-->
+::<!--Custom String Listener: TalkSentence_412221216-->
+:<pre>{
+	"$type": "RPG.GameCore.SelectMissionItem",
+	"ItemIDList": [
+		140184
+	],
+	"ItemHiddenIDList": [],
+	"ItemSelect": [
+		{
+			"Item1": 140184,
+			"TriggerCustomString": "Selected_1_404022212"
+		}
+	],
+	"SlotNum": 1,
+	"SimpleTalk": {
+		"TalkSentenceID": 412221215
+	},
+	"OnSubmitSucceed": [],
+	"OnSubmitFail": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	],
+	"OnSubmitCancel": [
+		{
+			"$type": "RPG.GameCore.EndPerformance"
+		}
+	]
+}</pre>
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{cx}}<!--SubMission Started: 404022204-->)
+:{{DIcon|Talk}} What exactly is the Ambrosial Arbor made of?
+::<!--Trigger PerformanceE 90000134: Config/Level/NPCDialogue/P10202/NPCAct/Act90000134.json-->
+::'''Howard:''' I'm also curious about that... Wait! Stop right there!
+::'''Howard:''' It is a top secret on the Xianzhou. Didn't you see how things were when that giant tree grew? It was heavily guarded by people from the Realm-Keeping Commission and the Cloud Knights were on patrol.
+::'''Howard:''' I heard that the Ambrosial Arbor is an Aeonspawn. I'm not sure whether it is true, but seeing how seriously Xianzhou treats the issue, I suggest that you stay away from the tree and don't dabble in their taboo.
+::'''Howard:''' Before every business trip, my colleagues always remind me to respect the local customs, or be ready to bear the consequences. You should be careful with your actions when travelling, too!
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_90000134-->
+;(If {{Mission|Obsequies Performed, A Long Road Ahead|showChapter=0}} has been completed and {{cx}}<!--SubMission Started: 404022204-->)
+:{{DIcon|Exit}} Until we meet again.
+::'''Howard:''' Until we meet again.
+::<!--Ends the current performance-->
+;(Unused &mdash; Selected_1_404022212)
+:<!--Custom String Listener: Selected_1_404022212-->
+:<pre>{
+	"$type": "RPG.GameCore.SetMissionCustomValue",
+	"SubmissionID": 404022204,
+	"MissionCustomValue": {
+		"Name": "OldValue_0",
+		"ValidValueParamList": []
+	},
+	"CustomValue": 1
+}</pre>
+::'''Howard:''' Hahaha, this is the first time I've seen Draconic Tears inside a glass jar like this... And this is exactly the kind of authentic Draconic Tears that I'm looking for! Thank you so much.
+::{{DIcon|Arrow}} Hey, you gotta play by the rules.
+:::<!--Custom String Listener: TalkSentence_412221218-->
+:::'''Howard:''' What rules?
+:::{{DIcon|Arrow}} The rules of barter.
+:::{{DIcon|Arrow}} Don't make me say it.
+::{{DIcon|Arrow}} Please could you reciprocate in kind?
+::<!--Custom String Listener: TalkSentence_412221222-->
+::'''Howard:''' Ah, got it. "Do unto others as you would have them do unto you."
+::'''Howard:''' I didn't bring anything valuable with me today, so here's something very small for you as thanks.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Howard
+|zhs  = 霍华德
+|zht  = 霍華
+|ja   = ハワード
+|ko   = 하워드
+|es   = Howard
+|fr   = Howard
+|ru   = Говард
+|th   = Howard
+|vi   = Howard
+|de   = Howard
+|id   = Howard
+|pt   = Howard
+}}
+==Change History==
+{{Change History|TODO}}

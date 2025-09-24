@@ -1,0 +1,104 @@
+<%-- [PAGE_INFO]
+PageTitle=#Solmisolmem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Gourmet from the Village"
+|image           = NPC Solmisolmem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Solmisolmem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_32_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{cx}}<!--SubMission Finish: 803510201-->)
+::<!--Trigger PerformanceE 504131004: Config/Level/Mission/5041310/Act/Act504131004.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106048
+}</pre>
+::'''Solmisolmem:''' Mem, the white taro is sliced with precision, every piece even in size, perfectly cooked, and plated with great care. The sauce tying everything together is blended to an ideal ratio...
+::'''Solmisolmem:''' Looks like it's the more cautious chef handling the kitchen this time, mem.
+::{{DIcon|Arrow}} A more cautious chef?
+::{{DIcon|Arrow}} You can tell?
+::<!--Custom String Listener: TalkSentence_504131305-->
+::'''Solmisolmem:''' Of course. Never underestimate my tongue. Even the same dish can taste completely different depending on who's behind the stove, mem!
+::'''Solmisolmem:''' As for the other chef... his knife work is sharp and decisive, and he loves stir-frying over high heat. He seems like the type who cooks with instinct, guided by feel alone. A bold and free-spirited chef, mem.
+::{{DIcon|Arrow}} Which one do you prefer?
+::<!--Custom String Listener: TalkSentence_504131308-->
+::'''Solmisolmem:''' Mem... The cautious chef considers every detail, and his dishes have a warm, comforting quality. The free-spirited one might be rough around the edges, but he brings surprises that leave a lasting impression...
+::'''Solmisolmem:''' It's so hard to choose, mem!
+;(If {{cx}}<!--SubMission not Finish: 803510201-->)
+::<!--Trigger PerformanceE 504115002: Config/Level/Mission/5041150/Act/Act504115002.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106048
+}</pre>
+::'''Solmisolmem:''' Soup... drawn from spring water at the mountain's source.
+::'''Solmisolmem:''' Once boiled, its crisp sweetness blended perfectly with the scent of white taro, memi.
+::'''Solmisolmem:''' Seasoning... rock salt from deep beneath the earth.
+::'''Solmisolmem:''' But alas, the grains were too coarse, and the heat wasn't quite right. The soup turned murky, and the white taro came out a little too firm, memi.
+::'''Solmisolmem:''' Mem? This taste... it's unfamiliar.
+::{{DIcon|Arrow}} Wait, you couldn't tell what it was?
+::{{DIcon|Arrow}} Now you've made me hungry, too.
+::<!--Custom String Listener: TalkSentence_504115108-->
+::'''Solmisolmem:''' Memi! No one's allowed to question my professional palate! I can taste every single drop of seasoning in that stew, memi!
+::'''Solmisolmem:''' This is... dust from the rooftop. Memi, a sprinkle of time's essence added to the stew.
+::'''Solmisolmem:''' This is... a splinter from a hoe's handle. Memi, you can almost taste the toil of the harvest.
+::'''Solmisolmem:''' This is... hair from the back of a fairy's hand. Mem?
+::'''Solmisolmem:''' Who started cooking without washing their hands, memi?
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

@@ -1,0 +1,297 @@
+<%-- [PAGE_INFO]
+PageTitle=#Tamila#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = Renowned Performer
+|image           = NPC Tamila.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Administrative District
+|relatives       = 
+}}
+'''Tamila''' is an NPC on [[Jarilo-VI]], located in [[Administrative District]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Administrative District|npc_15_400014}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+<pre>
+[
+	{
+		"ID": 301020503,
+		"Type": "submission_state_equal",
+		"Param1": 301020503,
+		"Param2": 1
+	}
+]
+</pre>
+:<!--Trigger PerformanceE 301020503: Config/Level/Mission/3010201/Act/Act301020503.json-->
+:'''Tamila:''' Huh...? Wallace?
+:'''Tamila:''' I've never heard of this name. This is all very sudden. Is he another crazy fan of mine...?
+:{{DIcon|Arrow}} He's a Limestein.
+:{{DIcon|Arrow}} He's rich.
+:<!--Custom String Listener: TalkSentence_301020536-->
+:'''Tamila:''' So, he is from the upper class of Belobog?
+:'''Tamila:''' People outside the theater industry might not understand that fans are hard to deal with, especially the ones with lots of money and free time. I'm sorry, but I can't be friends with him...
+:{{DIcon|Arrow}} Maybe you should look at this photo first.
+:<!--Custom String Listener: TalkSentence_301020539-->
+:'''Tamila:''' Photo? That's weird. My fans usually write me letters. Well, I'll take a look.
+:'''Tamila:''' Oh, it's him! I remember seeing him sitting in the front row of the theater a lot. He seems to be born into a noble family.
+:'''Tamila:''' If that's the case, I can't be friends with him. As a public figure whose career is on the rise, I can't be seen getting involved with someone with a famous name...
+:'''Tamila:''' Would you be so kind as to tell Mr. Limestein that I can't be his friend? If he wants, I can sign his picture as a token of my gratitude.
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: Talk_301020503-->
+:<!--0.3-second delay-->
+:'''Tamila:''' As you can probably tell, my voice is rather low-pitched. The director is not very happy about that, so the theater hired a voice actress to "assist" me.
+:'''Tamila:''' She is impeccable indeed... but I too was professionally trained. Never missed a day of practice.
+:'''Tamila:''' Now I have to lip sync and act as if in a silent film. I can't help but think that maybe one day they'll get rid of me altogether...
+:'''Tamila:''' What do you think I should do?
+:<!--Custom String Trigger: Act501024401_Loop-->
+:<!--Custom String Listener: Act501024401_Loop-->
+:{{DIcon|Talk}} Work on your acting.
+::<!--Custom String Listener: TalkSentence_501024467-->
+::'''Tamila:''' *sigh* That won't do. People come to musicals for the songs.
+::'''Tamila:''' How embarrassing would it be if a musical performer can't sing with her own voice? It's ridiculous! I'll be like thespians who can't remember their lines and need others to read out the script for them.
+::{{DIcon|Arrow}} Why not try acting in a play?
+::<!--Custom String Listener: TalkSentence_501024470-->
+::'''Tamila:''' Both are theatrical arts, true. But the skills they require are hardly transferable.
+::'''Tamila:''' Plus, musicals have always been my passion... I don't want to simply give up like this. I still want to give it a go.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Maybe find a project that suits your voice better.
+::<!--Custom String Listener: TalkSentence_501024473-->
+::'''Tamila:''' I'm afraid it's not that easy.
+::'''Tamila:''' You might not know this, but musical artists only look good on stage for a very limited period of time.
+::'''Tamila:''' Once their physiques change or their voice becomes coarse, they have to bid the stage farewell. They'll call it "spending more time with the family," but everyone knows that's the end of their career.
+::{{DIcon|Arrow}} You'll have to challenge that.
+:::<!--Custom String Listener: TalkSentence_501024477-->
+:::'''Tamila:''' Even if the theater agreed with me, the audience would not buy it. They have been quite honest in likes and dislikes.
+:::'''Tamila:''' But you do have a point... people should be less judgmental.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Arrow}} There are other types of musicals you can try.
+:::<!--Custom String Listener: TalkSentence_501024480-->
+:::'''Tamila:''' The theater manager is convinced that the audience is only interested in love songs aimed at teens. But it's possible that people's taste has changed and the management failed to grasp it.
+:::'''Tamila:''' You know what? I'll see if I can bring some artists together and try some new things. How does that sound?
+::;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Talk}} Need to find a way to get your voice assist fired.
+::<!--Custom String Listener: TalkSentence_501024483-->
+::'''Tamila:''' No, I want to keep my job fair and square. I have no interest in theater politics.
+::'''Tamila:''' She is one of us after all. I hope she will see her dream come true on stage one day.
+:;(Return to previous option selection (cloneCheckString))
+:{{DIcon|Exit}} I can't think of a better way to help.
+::<!--Custom String Listener: TalkSentence_501024486-->
+::'''Tamila:''' No worries. Thanks for listening to me. I feel much better already. Please keep this conversation a secret.
+::<!--Ends the current performance-->
+<pre>
+[
+	{
+		"ID": 100003605,
+		"Type": "submission_state_equal",
+		"Param1": 101150231,
+		"Param2": 3
+	}
+]
+</pre>
+:'''Tamila:''' After I wrapped up the couple of musicals I was in, I stopped auditioning for new roles. Belobog coincidentally started having a lot of things happen recently. Many of my colleagues went on hiatus... I decided to just give myself an extended vacation.
+:{{DIcon|Arrow}} Did something happen?
+::<!--Custom String Listener: TalkSentence_501024185-->
+::'''Tamila:''' It doesn't really have much to do with me, actually. You've probably heard about what's been going on, right? The new Supreme Guardian assumed her role, and the Underworld reopened. It's all news that has the city abuzz.
+::'''Tamila:''' Belobog is on the precipice of some big changes, and everyone knows it. I just feel like... It's not only Belobog that needs to change. It's about time for this industry to make some changes.
+:{{DIcon|Arrow}} Do you plan on retiring?
+::<!--Custom String Listener: TalkSentence_501024187-->
+::'''Tamila:''' No way. I'm still young. My career is on the rise. How could I step out of the spotlight so early? Although there are a lot of hoops to jump through in this industry, I don't plan on throwing in the towel so easily.
+::'''Tamila:''' You've heard the news, haven't you? There are big things happening in Belobog these days. This city is about to experience a transformation... But I think it's not just the city. It's also about time for this industry to make a change...
+:<!--Custom String Trigger: TalkSentence_501024189-->
+:<!--Custom String Listener: TalkSentence_501024189-->
+:'''Tamila:''' Yeah, I'm taking a break, but I am also privately preparing for a project on top of practicing singing every day...
+:'''Tamila:''' I hope that, like Her Excellency Bronya, it can bring something fresh to Belobog.
+:<!--Ends the current performance-->
+:'''Tamila:''' "I don't want to walk on a path others laid out for me, for life knows no boundary. I want to break free..."
+:'''Tamila:''' *sigh* Still sounds bad...
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Custom String Trigger: TalkSentence_500010702-->
+:<!--Custom String Listener: TalkSentence_500010702-->
+:'''Tamila:''' I'll have to keep practicing and clear my mind in the meantime. If you don't mind, I'd like some privacy. Thank you.
+:<!--Custom String Trigger: ALL_TALK_END-->
+:<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+;(First interaction)
+::<!--Trigger PerformanceE 501024401: Config/Level/Mission/5010244/Act/Act501024401.json-->
+::'''Tamila:''' "Don't leave me alone. Take me with you..."
+::'''Tamila:''' "I've been waiting for you to show me the ring... Love is our destiny, say the word baby..."
+::'''Tamila:''' Ah, ahem... Can I help you with something?
+::<!--Custom String Trigger: Wait_Option_5010244_10-->
+::<!--Custom String Listener: Wait_Option_5010244_10-->
+::{{DIcon|Arrow}} I'm just passing by. Don't mind me.
+:::<!--Custom String Listener: TalkSentence_501024440-->
+:::'''Tamila:''' Don't mind you how? I don't like being stared at when rehearsing.
+:::<!--Custom String Trigger: Wait_Option_5010244_13-->
+:::<!--Custom String Listener: Wait_Option_5010244_13-->
+:::{{DIcon|Arrow}} How do you perform in front of your audience then?
+::::<!--Custom String Listener: TalkSentence_501024442-->
+::::'''Tamila:''' Rehearsal is different from the real thing.
+:::{{DIcon|Arrow}} Why not use the rehearsal room?
+::::<!--Custom String Listener: TalkSentence_501024444-->
+::::'''Tamila:''' I'm just warming up. No need to be fussy.
+::{{DIcon|Arrow}} Do you have a problem with your throat?
+:::<!--Custom String Listener: TalkSentence_501024446-->
+:::'''Tamila:''' Yeah, I've been a little under the weather recently. Thanks for your concern.
+::{{DIcon|Arrow}} Just got startled by what sounded like things going through the sewer.
+:::<!--Custom String Listener: TalkSentence_501024448-->
+:::'''Tamila:''' Excuse me? I don't remember offending you before. Why are you so mean?
+:::<!--Custom String Trigger: Wait_Option_5010244_23-->
+:::<!--Custom String Listener: Wait_Option_5010244_23-->
+:::{{DIcon|Arrow}} I exaggerated a bit.
+::::<!--Custom String Listener: TalkSentence_501024450-->
+::::'''Tamila:''' *sigh* Despite how rude you are, my voice does sound not good.
+:::{{DIcon|Arrow}} ...You mean that was you singing?
+::::<!--Custom String Listener: TalkSentence_501024452-->
+::::'''Tamila:''' Since you've heard it already, I have nothing to hide anymore. Yes, it was me.
+::<!--Custom String Trigger: TalkSentence_501024453-->
+::<!--Custom String Listener: TalkSentence_501024453-->
+::'''Tamila:''' Uh, you look a little strange... You're not some journalist from who knows where, are you? I don't have any exclusive insider information to reveal.
+::'''Tamila:''' But... It doesn't matter either way. Tamila of the Golden Theater is always open to being interviewed.
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 90000032: Config/Level/NPC/W1/NPC_DefaultStory_100003601.json-->
+::'''Tamila:''' "I don't want to walk on a path others laid out for me, for life knows no boundary. I want to break free..."
+::'''Tamila:''' *sigh* Still sounds bad...
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+;(If {{cx}}<!--SubMission Started: 301020503-->)
+:{{DIcon|undefined}} Wallace wants to be friends with you.
+::<!--Trigger PerformanceE 301020503: Config/Level/Mission/3010201/Act/Act301020503.json-->
+::'''Tamila:''' Huh...? Wallace?
+::'''Tamila:''' I've never heard of this name. This is all very sudden. Is he another crazy fan of mine...?
+::{{DIcon|Arrow}} He's a Limestein.
+::{{DIcon|Arrow}} He's rich.
+::<!--Custom String Listener: TalkSentence_301020536-->
+::'''Tamila:''' So, he is from the upper class of Belobog?
+::'''Tamila:''' People outside the theater industry might not understand that fans are hard to deal with, especially the ones with lots of money and free time. I'm sorry, but I can't be friends with him...
+::{{DIcon|Arrow}} Maybe you should look at this photo first.
+::<!--Custom String Listener: TalkSentence_301020539-->
+::'''Tamila:''' Photo? That's weird. My fans usually write me letters. Well, I'll take a look.
+::'''Tamila:''' Oh, it's him! I remember seeing him sitting in the front row of the theater a lot. He seems to be born into a noble family.
+::'''Tamila:''' If that's the case, I can't be friends with him. As a public figure whose career is on the rise, I can't be seen getting involved with someone with a famous name...
+::'''Tamila:''' Would you be so kind as to tell Mr. Limestein that I can't be his friend? If he wants, I can sign his picture as a token of my gratitude.
+::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_301020503-->
+;(If {{cx}}<!--SubMission Started: 301020503-->)
+:{{DIcon}} Is there a problem?
+::<!--0.3-second delay-->
+::'''Tamila:''' As you can probably tell, my voice is rather low-pitched. The director is not very happy about that, so the theater hired a voice actress to "assist" me.
+::'''Tamila:''' She is impeccable indeed... but I too was professionally trained. Never missed a day of practice.
+::'''Tamila:''' Now I have to lip sync and act as if in a silent film. I can't help but think that maybe one day they'll get rid of me altogether...
+::'''Tamila:''' What do you think I should do?
+::<!--Custom String Trigger: Act501024401_Loop-->
+::<!--Custom String Listener: Act501024401_Loop-->
+::{{DIcon|Talk}} Work on your acting.
+:::<!--Custom String Listener: TalkSentence_501024467-->
+:::'''Tamila:''' *sigh* That won't do. People come to musicals for the songs.
+:::'''Tamila:''' How embarrassing would it be if a musical performer can't sing with her own voice? It's ridiculous! I'll be like thespians who can't remember their lines and need others to read out the script for them.
+:::{{DIcon|Arrow}} Why not try acting in a play?
+:::<!--Custom String Listener: TalkSentence_501024470-->
+:::'''Tamila:''' Both are theatrical arts, true. But the skills they require are hardly transferable.
+:::'''Tamila:''' Plus, musicals have always been my passion... I don't want to simply give up like this. I still want to give it a go.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Maybe find a project that suits your voice better.
+:::<!--Custom String Listener: TalkSentence_501024473-->
+:::'''Tamila:''' I'm afraid it's not that easy.
+:::'''Tamila:''' You might not know this, but musical artists only look good on stage for a very limited period of time.
+:::'''Tamila:''' Once their physiques change or their voice becomes coarse, they have to bid the stage farewell. They'll call it "spending more time with the family," but everyone knows that's the end of their career.
+:::{{DIcon|Arrow}} You'll have to challenge that.
+::::<!--Custom String Listener: TalkSentence_501024477-->
+::::'''Tamila:''' Even if the theater agreed with me, the audience would not buy it. They have been quite honest in likes and dislikes.
+::::'''Tamila:''' But you do have a point... people should be less judgmental.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} There are other types of musicals you can try.
+::::<!--Custom String Listener: TalkSentence_501024480-->
+::::'''Tamila:''' The theater manager is convinced that the audience is only interested in love songs aimed at teens. But it's possible that people's taste has changed and the management failed to grasp it.
+::::'''Tamila:''' You know what? I'll see if I can bring some artists together and try some new things. How does that sound?
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Need to find a way to get your voice assist fired.
+:::<!--Custom String Listener: TalkSentence_501024483-->
+:::'''Tamila:''' No, I want to keep my job fair and square. I have no interest in theater politics.
+:::'''Tamila:''' She is one of us after all. I hope she will see her dream come true on stage one day.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} I can't think of a better way to help.
+:::<!--Custom String Listener: TalkSentence_501024486-->
+:::'''Tamila:''' No worries. Thanks for listening to me. I feel much better already. Please keep this conversation a secret.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 301020503-->)
+:{{DIcon}} Why haven't I seen you in anything new lately?
+::'''Tamila:''' After I wrapped up the couple of musicals I was in, I stopped auditioning for new roles. Belobog coincidentally started having a lot of things happen recently. Many of my colleagues went on hiatus... I decided to just give myself an extended vacation.
+::{{DIcon|Arrow}} Did something happen?
+:::<!--Custom String Listener: TalkSentence_501024185-->
+:::'''Tamila:''' It doesn't really have much to do with me, actually. You've probably heard about what's been going on, right? The new Supreme Guardian assumed her role, and the Underworld reopened. It's all news that has the city abuzz.
+:::'''Tamila:''' Belobog is on the precipice of some big changes, and everyone knows it. I just feel like... It's not only Belobog that needs to change. It's about time for this industry to make some changes.
+::{{DIcon|Arrow}} Do you plan on retiring?
+:::<!--Custom String Listener: TalkSentence_501024187-->
+:::'''Tamila:''' No way. I'm still young. My career is on the rise. How could I step out of the spotlight so early? Although there are a lot of hoops to jump through in this industry, I don't plan on throwing in the towel so easily.
+:::'''Tamila:''' You've heard the news, haven't you? There are big things happening in Belobog these days. This city is about to experience a transformation... But I think it's not just the city. It's also about time for this industry to make a change...
+::<!--Custom String Trigger: TalkSentence_501024189-->
+::<!--Custom String Listener: TalkSentence_501024189-->
+::'''Tamila:''' Yeah, I'm taking a break, but I am also privately preparing for a project on top of practicing singing every day...
+::'''Tamila:''' I hope that, like Her Excellency Bronya, it can bring something fresh to Belobog.
+::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission Finish: 101150231--> and {{cx}}<!--SubMission Started: 301020503-->)
+:{{DIcon|Exit}} See you later then.
+::<!--Custom String Trigger: TalkSentence_500010702-->
+::<!--Custom String Listener: TalkSentence_500010702-->
+::'''Tamila:''' I'll have to keep practicing and clear my mind in the meantime. If you don't mind, I'd like some privacy. Thank you.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Tamila
+|zhs  = 塔米拉
+|zht  = 塔米拉
+|ja   = タミラ
+|ko   = 타밀라
+|es   = Tamila
+|fr   = Tamila
+|ru   = Тамила
+|th   = Tamila
+|vi   = Tamila
+|de   = Tamila
+|id   = Tamila
+|pt   = Tamila
+}}
+==Change History==
+{{Change History|TODO}}

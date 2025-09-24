@@ -1,0 +1,164 @@
+<%-- [PAGE_INFO]
+PageTitle=#Bailu#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Bailu.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = The Xianzhou Luofu
+|location        = Alchemy Commission
+|relatives       = 
+}}
+'''Bailu''' is an NPC on [[The Xianzhou Luofu]], located in [[Alchemy Commission]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Alchemy Commission|npc_153_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(First interaction)
+::<!--Trigger PerformanceE 502090101: Config/Level/NPCDialogue/P10202/NPCAct/Act502090101.json-->
+::'''Bailu:''' Isn't this {{MC|f=Miss|m=Mister}} (Trailblazer)? Are you feeling unwell? You look fine to me, and there's nothing wrong with your body. Let me give you some sweets and close your file.
+::'''Bailu:''' Of course, if you're free, please take me out to a stroll!
+::{{DIcon|Arrow}} Wouldn't that be rather inappropriate for the doctor to run away?
+:::<!--Custom String Listener: TalkSentence_502090105-->
+:::'''Bailu:''' ...
+:::'''Bailu:''' You're right.
+:::'''Bailu:''' Wait till I finally settle the backlog of patients or when I grow taller. That's when I'll take a long vacation and travel beyond the Xianzhou.
+::{{DIcon|Arrow}} I'm free now. Let's go?
+:::<!--Custom String Listener: TalkSentence_502090109-->
+:::'''Bailu:''' ...
+:::'''Bailu:''' *sigh* The backlog of patients is so long that even if I do escape, I'll be dragged back here in no time. Forget it...
+:::'''Bailu:''' When I grow taller, I'll take a long vacation and travel beyond the Xianzhou.
+::<!--Custom String Trigger: TalkSentence_502090112-->
+::<!--Custom String Listener: TalkSentence_502090112-->
+::'''Bailu:''' Since my last escape, the maids and healers have stopped watching over me as closely as before. I tried sneaking out a few times. There was still someone following me, but they no longer ran after me like I was a fugitive.
+::'''Bailu:''' Is that a good sign or a bad sign? Sneaking out for fun seems less of a thrill now than before... *sigh*.
+::'''Bailu:''' By the way, what can I do for you?
+;(Subsequent interactions)
+::<!--Trigger PerformanceE 502090201: Config/Level/NPCDialogue/P10202/NPCAct/Act502090201.json-->
+::'''Bailu:''' It's you again. I'm so busy that my stomach is rumbling, so here I am at the market to grab something to eat.
+::'''Bailu:''' Your eyes are clear, your reaction is quick, your complexion is great, and your body looks good. I guess you aren't here to see a healer. How can I help you?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon|Talk}} Can we have a chat, miracle doctor?
+::<!--Trigger PerformanceE 502090301: Config/Level/NPCDialogue/P10202/NPCAct/Act502090301.json-->
+::'''Bailu:''' I do have time for a little chat. What would you like to ask?
+::<!--Custom String Trigger: Wait_Option_502090301_35-->
+::<!--Custom String Listener: Wait_Option_502090301_35-->
+::{{DIcon|Talk}} Have you been busy lately?
+:::<!--Custom String Listener: TalkSentence_502090306-->
+:::'''Bailu:''' Following the crisis on the Luofu, I've had an influx of patients from different places. Also, the entire Alchemy Commission is understaffed because of you-know-why.
+:::'''Bailu:''' As the Healer Lady of the Alchemy Commission, of course I've been having a full plate.
+:::{{DIcon|Return}} Can you handle the workload at the Alchemy Commission?
+::::<!--Custom String Listener: TalkSentence_502090309-->
+::::'''Bailu:''' I can manage, but I'm not sure about others in the Commission.
+::::'''Bailu:''' Still, as the saying goes, "When the world suffers, one feels the pain within oneself." As a healer, I must fulfill my obligation.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Don't you feel like going out for a walk?
+::::<!--Custom String Listener: TalkSentence_502090312-->
+::::'''Bailu:''' I do. But if I go now, I'm sure no one will be able to figure out where I went.
+::::'''Bailu:''' ...I should probably wait until they have someone free to come after me before sneaking out.
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} What's that thing on your tail?
+:::<!--Custom String Listener: TalkSentence_502090315-->
+:::'''Bailu:''' Talking about that always makes my blood boil! The Preceptors call it the Dragonhorn Pilory, which is a noble jewelry piece exclusive to the high elder of the Vidyadhara.
+:::'''Bailu:''' They are treating me like a three-year-old! This heavy thing drags my tail down, and I can't even take it off when sleeping. You think jewelry is supposed to be like that?
+:::'''Bailu:''' I suspect this is what prevents me from growing taller.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Are you really the high elder of the Vidyadhara?
+:::<!--Custom String Listener: TalkSentence_502090319-->
+:::'''Bailu:''' I'm slightly different from my predecessors, probably because I haven't grown tall enough yet?
+:::'''Bailu:''' Don't think too much about my role among the Vidyadhara. Just think of me as a healer. At the very least, my ability to treat illnesses is beyond doubt.
+::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Talk}} Please prescribe some meds for me.
+:::<!--Custom String Listener: TalkSentence_502090322-->
+:::'''Bailu:''' You don't look sick to me... Anyway, I suggest you get yourself a smoked beef burger first. If you still feel unwell after that, just come back to me.
+:::{{DIcon|Arrow}} What kind of prescription is that?
+::::<!--Custom String Listener: TalkSentence_502090324-->
+::::'''Bailu:''' Just follow the prescription. Listen to the doctor! If you don't believe me, then I'll explain its pharmacology to you.
+::::<!--Custom String Trigger: TalkSentence_502090327-->
+::::<!--Custom String Listener: TalkSentence_502090327-->
+::::'''Bailu:''' The grass-fed beef represents the wood element, the iron plate used to cook the beef represents the metal element, the flame that grills the beef represents the fire element, and the juice of the meat represents the water element. As for the earth element... Forget it. I can't make up this stuff anymore.
+::::'''Bailu:''' Anyway, the balanced presence and stable order of the five elements in the beef will bring about health. The fact that smoked food can remove extra moisture in the body makes the dish a healthy fast food option!
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Arrow}} It's not as good as mung bean soda.
+::::<!--Custom String Listener: TalkSentence_502090326-->
+::::'''Bailu:''' Let me tell you the pharmacology behind the medicinal efficiency of smoked beef burgers...
+::::<!--Custom String Trigger: TalkSentence_502090327-->
+::::<!--Custom String Listener: TalkSentence_502090327-->
+::::'''Bailu:''' The grass-fed beef represents the wood element, the iron plate used to cook the beef represents the metal element, the flame that grills the beef represents the fire element, and the juice of the meat represents the water element. As for the earth element... Forget it. I can't make up this stuff anymore.
+::::'''Bailu:''' Anyway, the balanced presence and stable order of the five elements in the beef will bring about health. The fact that smoked food can remove extra moisture in the body makes the dish a healthy fast food option!
+:::;(Return to previous option selection (cloneCheckString))
+::{{DIcon|Exit}} Let's call it a day for now.
+:::<!--Custom String Listener: TalkSentence_502090330-->
+:::'''Bailu:''' Come again next time, (Trailblazer).
+:::<!--Custom String Trigger: ALL_TALK_END-->
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+::<!--Custom String Trigger: Talk_502090301-->
+;(If {{Mission|The Dragon Returns Home|showChapter=0}} has been completed)
+:{{DIcon|Talk}} About your role as the high elder...
+::<!--Trigger PerformanceE 502090401: Config/Level/NPCDialogue/P10202/NPCAct/Act502090401.json-->
+::'''Bailu:''' When I was sealing the dragon-shaped root of the Ambrosial Arbor back then, I felt the entire Scalegorge Waterscape responding to my voice and resonating with me... That must have been an experience unique to the high elder.
+::'''Bailu:''' But the voices in the Scalegorge Waterscape are distant and unclear. One day, I'll definitely hear clearer voices from even more ancient times.
+::<!--Ends the current performance-->
+;(If {{Mission|The Dragon Returns Home|showChapter=0}} has been completed)
+:{{DIcon|Exit}} Catch you later, miracle doctor.
+::'''Bailu:''' See you. Don't forget to bring me some snacks next time.
+::<!--Ends the current performance-->
+;(Unused &mdash; TalkSentence_502090331)
+:<!--Custom String Listener: TalkSentence_502090331-->
+::'''Bailu:''' See you. Don't forget to bring me some snacks next time.
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Bailu
+|zhs  = 白露
+|zht  = 白露
+|ja   = 白露
+|ko   = 백로
+|es   = Bailu
+|fr   = Bailu
+|ru   = Байлу
+|th   = Bailu
+|vi   = Bailu
+|de   = Bailu
+|id   = Bailu
+|pt   = Bailu
+}}
+==Change History==
+{{Change History|TODO}}

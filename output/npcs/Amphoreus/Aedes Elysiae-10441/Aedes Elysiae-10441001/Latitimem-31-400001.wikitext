@@ -1,0 +1,109 @@
+<%-- [PAGE_INFO]
+PageTitle=#Latitimem#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = "Magnate from the Village"
+|image           = NPC Latitimem.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Amphoreus
+|location        = Aedes Elysiae
+|relatives       = 
+}}
+'''Latitimem''' is an NPC on [[Amphoreus]], located in [[Aedes Elysiae]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Aedes Elysiae|npc_31_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+;(If {{F|FSV_ActivityCerydra}} is greater than or equal to 1)
+::<!--Trigger PerformanceE 504131002: Config/Level/Mission/5041310/Act/Act504131002.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106033
+}</pre>
+::'''Latitimem:''' Standing before you now is a lifetime member of The Fairy Restaurant &mdash; Latitimem!
+::{{DIcon|Arrow}} A VIP member!
+::{{DIcon|Arrow}} Riches brought us together.
+::<!--Custom String Listener: TalkSentence_504131104-->
+::'''Latitimem:''' I don't have many hobbies, but I do love spending money, especially on things I adore.
+::'''Latitimem:''' At first, I wanted to buy the entire restaurant, but that fierce-looking restaurant supervisor shut me down instantly.
+::'''Latitimem:''' No luck, so I settled for a lifetime membership to the restaurant, mem.
+::'''Latitimem:''' But I still can't figure it out... How could anyone stay unmoved by a price as steep as fifteen and a half cobbles, mem?
+;(If {{F|FSV_ActivityCerydra}} is not greater than or equal to 1)
+::<!--Trigger PerformanceE 504115006: Config/Level/Mission/5041150/Act/Act504115006.json-->
+:<pre>{
+	"$type": "RPG.GameCore.PlayVoice_Single",
+	"VoiceID": 504106033
+}</pre>
+::'''Latitimem:''' Twenty-two cicada shells, fifteen and a half cobbles, and seven flower petals. That's my entire fortune &mdash; rounded up, I could buy half of the Maze, memi.
+::'''Latitimem:''' Wilted petals aren't worth much anymore, but I don't care, memi. You know why? Because I'm rich, memi!
+::{{DIcon|Arrow}} So how did you earn all that?
+:::<!--Custom String Listener: TalkSentence_504115504-->
+:::'''Latitimem:''' I haven't the slightest clue, memi.
+:::'''Latitimem:''' That day, I was just about to trade a petal for a Quillorb, when a gust of wind blew it into the stream.
+:::'''Latitimem:''' I sighed a big Mem sigh. Then I looked down &mdash; and my feet were surrounded by shiny, glittery cobbles! Fate really is full of surprises, memi! I got so mad, I just tossed them all away, memi.
+:::'''Latitimem:''' Then the cobbles hit a tree branch, and the cicada shells came raining down like a summer storm, memi.
+:::'''Latitimem:''' In an instant, I had everything. And it felt so empty, memi. What should I spend it all on?
+:::{{DIcon|Arrow}} Buy a feast! Throw a banquet!
+::::<!--Custom String Listener: TalkSentence_504115510-->
+::::'''Latitimem:''' Now you've made my tummy rumble, memi! I wanna eat something warm and delicious too.
+::::'''Latitimem:''' But even if I offered a whole cobble as a reward, I doubt there's a single proper chef left in all the Maze, memi...
+:::{{DIcon|Arrow}} Hire fairies, extract surplus value.
+::::<!--Custom String Listener: TalkSentence_504115513-->
+::::'''Latitimem:''' What's that, memi? I don't get it at all, but it sounds terrifying, memi!
+::{{DIcon|Exit}} I don't want to talk to any rich fairies!
+:::<!--Custom String Listener: TalkSentence_504115515-->
+:::'''Latitimem:''' Hmph! I'm super busy too, memi. I've got more money than I can spend, so I'm busy spending, memi!
+::<!--Custom String Trigger: ALL_TALK_END-->
+::<!--Custom String Listener: ALL_TALK_END-->
+:<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = 
+|zhs  = 
+|zht  = 
+|ja   = 
+|ko   = 
+|es   = 
+|fr   = 
+|ru   = 
+|th   = 
+|vi   = 
+|de   = 
+|id   = 
+|pt   = 
+}}
+==Change History==
+{{Change History|TODO}}

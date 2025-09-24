@@ -1,0 +1,216 @@
+<%-- [PAGE_INFO]
+PageTitle=#Black Swan#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Black Swan.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Astral Express
+|location        = Party Car
+|relatives       = 
+}}
+'''Black Swan''' is an NPC on [[Astral Express]], located in [[Party Car]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Party Car|npc_107_400001}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 503114010: Config/Level/Mission/5031140/Act/Act503114010.json-->
+:'''Black Swan:''' What's on your mind? Do you want to sit and talk?
+:<!--Ends the current performance-->
+:<!--Open NPC Menu-->
+:{{DIcon}} Just a casual chat.
+::'''Black Swan:''' Go ahead. I'm all ears.
+::<!--Custom String Trigger: Wait_Option_503114011_16-->
+::<!--Custom String Listener: Wait_Option_503114011_16-->
+::{{DIcon|Talk}} About the hitchhiking...
+:::<!--Custom String Listener: TalkSentence_503116104-->
+:::'''Black Swan:''' Oh? Don't tell me I'm supposed to pay for the ride...
+:::<!--Custom String Trigger: Wait_Option_503114011_19-->
+:::<!--Custom String Listener: Wait_Option_503114011_19-->
+:::{{DIcon|Talk}} The Memokeeper on the Express...
+::::<!--Custom String Listener: TalkSentence_503116106-->
+::::'''Black Swan:''' You wish to know more about her? Well, yes, we've already met.
+::::'''Black Swan:''' But sadly, I can't indulge your curiosity. As Memokeepers, we can't pry into each other's plans.
+::::'''Black Swan:''' Just so you know, I haven't sensed anything that comes off as a threat in her. No need to be concerned about that.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The departure time...
+::::<!--Custom String Listener: TalkSentence_503116110-->
+::::'''Black Swan:''' Hehe, looks like someone is a little impatient! But as the Navigator said, it's best for us to prepare as best as we can now.
+::::'''Black Swan:''' Patience and elegance can give people an irresistible charm. Perhaps you should consider slowing down a bit?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I want to glimpse into my destiny!
+::::<!--Custom String Listener: TalkSentence_503116113-->
+::::'''Black Swan:''' Hehe, while I do have some knowledge of divination, I'm no expert, and I don't really believe in a predetermined future.
+::::'''Black Swan:''' Compared to the future, I find your past more intriguing.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Talk about something else...
+::::<!--Custom String Listener: Wait_Option_503114011_16-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Talk}} About Black Swan...
+:::::<!--Custom String Listener: TalkSentence_503116117-->
+:::::'''Black Swan:''' You want to know more about me?
+:::::<!--Custom String Trigger: Wait_Option_503114011_34-->
+:::::<!--Custom String Listener: Wait_Option_503114011_34-->
+:::::{{DIcon|Talk}} How's life on the Express?
+::::::<!--Custom String Listener: TalkSentence_503116119-->
+::::::'''Black Swan:''' Hmm... I wouldn't call it boring... but, it's just been a bit uneventful.
+::::::'''Black Swan:''' Luckily, a certain {{MC|f=Ms.|m=Mr.}} Trailblazer often stops by, bringing {{MC|f=her|m=his}} vibrant energy to lift the spirits of this lonely passenger.
+::::::'''Black Swan:''' Will {{MC|f=she|m=he}} keep visiting me until I find my place in {{MC|f=her|m=his}} memory?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} I want to know more about your past...
+::::::<!--Custom String Listener: TalkSentence_503116123-->
+::::::'''Black Swan:''' Ha! You're intrigued by the Remembrance as well? Maybe you're destined to follow THEIR Path!
+::::::'''Black Swan:''' A good rule of thumb is to uncover others' pasts not just with words, but with your heart, hehe.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} About The Cremators...
+::::::<!--Custom String Listener: TalkSentence_503116126-->
+::::::'''Black Swan:''' I get why you'd be curious about them. People don't usually have nice things to say about The Cremators.
+::::::'''Black Swan:''' But until you're ready, I highly recommend not inquiring about them. Having this "memory" could reveal your presence before you.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+::::{{DIcon|Exit}} That's all I wanted to talk about.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Talk}} About Black Swan...
+:::<!--Custom String Listener: TalkSentence_503116117-->
+:::'''Black Swan:''' You want to know more about me?
+:::<!--Custom String Trigger: Wait_Option_503114011_34-->
+:::<!--Custom String Listener: Wait_Option_503114011_34-->
+:::{{DIcon|Talk}} How's life on the Express?
+::::<!--Custom String Listener: TalkSentence_503116119-->
+::::'''Black Swan:''' Hmm... I wouldn't call it boring... but, it's just been a bit uneventful.
+::::'''Black Swan:''' Luckily, a certain {{MC|f=Ms.|m=Mr.}} Trailblazer often stops by, bringing {{MC|f=her|m=his}} vibrant energy to lift the spirits of this lonely passenger.
+::::'''Black Swan:''' Will {{MC|f=she|m=he}} keep visiting me until I find my place in {{MC|f=her|m=his}} memory?
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} I want to know more about your past...
+::::<!--Custom String Listener: TalkSentence_503116123-->
+::::'''Black Swan:''' Ha! You're intrigued by the Remembrance as well? Maybe you're destined to follow THEIR Path!
+::::'''Black Swan:''' A good rule of thumb is to uncover others' pasts not just with words, but with your heart, hehe.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} About The Cremators...
+::::<!--Custom String Listener: TalkSentence_503116126-->
+::::'''Black Swan:''' I get why you'd be curious about them. People don't usually have nice things to say about The Cremators.
+::::'''Black Swan:''' But until you're ready, I highly recommend not inquiring about them. Having this "memory" could reveal your presence before you.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Talk about something else...
+::::<!--Custom String Listener: Wait_Option_503114011_16-->
+::::{{DIcon|Talk}} About the hitchhiking...
+:::::<!--Custom String Listener: TalkSentence_503116104-->
+:::::'''Black Swan:''' Oh? Don't tell me I'm supposed to pay for the ride...
+:::::<!--Custom String Trigger: Wait_Option_503114011_19-->
+:::::<!--Custom String Listener: Wait_Option_503114011_19-->
+:::::{{DIcon|Talk}} The Memokeeper on the Express...
+::::::<!--Custom String Listener: TalkSentence_503116106-->
+::::::'''Black Swan:''' You wish to know more about her? Well, yes, we've already met.
+::::::'''Black Swan:''' But sadly, I can't indulge your curiosity. As Memokeepers, we can't pry into each other's plans.
+::::::'''Black Swan:''' Just so you know, I haven't sensed anything that comes off as a threat in her. No need to be concerned about that.
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} The departure time...
+::::::<!--Custom String Listener: TalkSentence_503116110-->
+::::::'''Black Swan:''' Hehe, looks like someone is a little impatient! But as the Navigator said, it's best for us to prepare as best as we can now.
+::::::'''Black Swan:''' Patience and elegance can give people an irresistible charm. Perhaps you should consider slowing down a bit?
+:::::;(Return to previous option selection (cloneCheckString))
+:::::{{DIcon|Talk}} I want to glimpse into my destiny!
+::::::<!--Custom String Listener: TalkSentence_503116113-->
+::::::'''Black Swan:''' Hehe, while I do have some knowledge of divination, I'm no expert, and I don't really believe in a predetermined future.
+::::::'''Black Swan:''' Compared to the future, I find your past more intriguing.
+:::::;(Return to previous option selection (cloneCheckString))
+::::;(Return to previous option selection (cloneCheckString))
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} That's all I wanted to talk about.
+:::::<!--Custom String Listener: ALL_TALK_END-->
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all I wanted to talk about.
+:::<!--Custom String Listener: ALL_TALK_END-->
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 424040719--> or {{cx}}<!--SubMission not Finish: 104010124-->)
+:{{DIcon}} Regarding Amphoreus...
+::'''Black Swan:''' Let me guess... You're not here just to chat, right?
+::<!--Custom String Trigger: Wait_Option_503114013_64-->
+::<!--Custom String Listener: Wait_Option_503114013_64-->
+::{{DIcon|Talk}} How much do you know about Amphoreus?
+:::<!--Custom String Listener: TalkSentence_503116303-->
+:::'''Black Swan:''' You want to know about the destination? What would you like to know?
+:::<!--Custom String Trigger: Wait_Option_503114013_67-->
+:::<!--Custom String Listener: Wait_Option_503114013_67-->
+:::{{DIcon|Talk}} The current information we have...
+::::<!--Custom String Listener: TalkSentence_503116305-->
+::::'''Black Swan:''' Unfortunately, I've never set foot there, hence my limited knowledge.
+::::'''Black Swan:''' What is certain is that the planet reflected in the mirror of the Garden of Recollection is no ordinary place. Moreover... that is a world where the Three Paths are entangled.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} The goal of the Garden...
+::::<!--Custom String Listener: TalkSentence_503116308-->
+::::'''Black Swan:''' It's better to call it my personal goal.
+::::'''Black Swan:''' It is my duty to salvage memories that are forgotten, while Amphoreus... is a treasure behind a window, with the Aeons' blinding light radiating from within, mesmerizing all.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Talk}} Can you divine the risks?
+::::<!--Custom String Listener: TalkSentence_503116311-->
+::::'''Black Swan:''' Hee-hee. I have dabbled in such things, but it's not like I'm well-versed in divination, nor do I believe in a predetermined future.
+::::'''Black Swan:''' Compared to the future, I find your past more intriguing.
+:::;(Return to previous option selection (cloneCheckString))
+:::{{DIcon|Return}} Talk about something else...
+::::<!--Custom String Listener: Wait_Option_503114013_64-->
+:::;(<!--Return to previous option selection (cloneCheckString)-->)
+::::{{DIcon|Exit}} That's all for now.
+:::::<!--Custom String Listener: TalkSentence_503116315-->
+:::::'''Black Swan:''' Feel free to talk to me whenever you're feeling lost.
+:::::<!--Ends the current performance-->
+::{{DIcon|Exit}} That's all for now.
+:::<!--Custom String Listener: TalkSentence_503116315-->
+:::'''Black Swan:''' Feel free to talk to me whenever you're feeling lost.
+:::<!--Ends the current performance-->
+;(If {{cx}}<!--SubMission not Finish: 424040719--> or {{cx}}<!--SubMission not Finish: 104010124-->)
+:{{DIcon|Exit}} It's nothing.
+::'''Black Swan:''' Feel free to talk to me whenever you're feeling lost.
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Black Swan
+|zhs  = 黑天鹅
+|zht  = 黑天鵝
+|ja   = ブラックスワン
+|ko   = 블랙 스완
+|es   = Cisne Negro
+|fr   = Cygne noir
+|ru   = Чёрный Лебедь
+|th   = Black Swan
+|vi   = Black Swan
+|de   = Schwarzer Schwan
+|id   = Black Swan
+|pt   = Cisne Negro
+}}
+==Change History==
+{{Change History|TODO}}

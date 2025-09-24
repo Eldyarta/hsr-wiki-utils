@@ -1,0 +1,99 @@
+<%-- [PAGE_INFO]
+PageTitle=#Cable Car Operator#
+[END_PAGE_INFO] --%>
+{{Meta
+<!--Remove this template after adding the missing info.-->
+|missing_NPC_picture  = yes
+|missing_NPC_profile  = yes
+|missing_NPC_location = yes
+|missing_NPC_dialogue = yes
+}}
+{{Stub}}
+{{Character Infobox
+|title           = 
+|image           = NPC Cable Car Operator.png
+|type            = NPC
+|realname        = 
+|species         = 
+|deceased        = 
+|pathlore        = 
+|pathNote        = 
+|pathRef         = 
+|faction         = 
+|factionNote     = 
+|factionRef      = 
+|world           = Jarilo-VI
+|location        = Boulder Town
+|relatives       = 
+}}
+'''Cable Car Operator''' is an NPC on [[Jarilo-VI]], located in [[Boulder Town]].
+
+==Profile==
+''(To be added.)''
+
+==Location==
+{{Map Embed|Boulder Town|npc_133_400002}}
+<!--
+==Missions and Events==
+{{Missions and Events}}
+--><!--
+==Character Mentions==
+{{Character Mentions}}
+-->
+==Dialogue==
+{{Dialogue Start}}
+:<!--Trigger PerformanceE 101150123: Config/Level/Mission/1011501/Act/Act101150123.json-->
+:{{A|VO chapter1 10 citizenH 208.ogg}} '''Cable Car Operator:''' So! Ready to climb aboard?
+:{{DIcon|Arrow}} Sure, why not.
+::<!--Custom String Listener: Exit_Option_1-->
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 101010110
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} Not yet.
+::<!--Custom String Listener: Exit_Option_2-->
+::<!--Ends the current performance-->
+:<!--Trigger PerformanceE 101150123: Config/Level/Mission/1011501/Act/Act101150123.json-->
+:{{A|VO chapter1 10 citizenH 208.ogg}} '''Cable Car Operator:''' So! Ready to climb aboard?
+:{{DIcon|Arrow}} Sure, why not.
+::<!--Custom String Listener: Exit_Option_1-->
+:<pre>{
+	"$type": "RPG.GameCore.EnterMapByCondition",
+	"EntranceID": {
+		"IsDynamic": false,
+		"FixedValue": {
+			"Value": 101010110
+		}
+	}
+}</pre>
+:{{DIcon|Exit}} Not yet.
+::<!--Custom String Listener: Exit_Option_2-->
+::<!--Ends the current performance-->
+{{Dialogue End}}
+<!--
+==Trivia==
+* 
+-->
+==Other Languages==
+{{Other Languages
+|en   = Old Goethe
+|zhs  = 老歌德
+|zht  = 老歌德
+|ja   = ゲーテ
+|ko   = 늙은 괴테
+|es   = Viejo Goethe
+|fr   = Le Vieux Goethe
+|ru   = Старый Гёте
+|th   = ลุง Goethe
+|vi   = Ông Goethe
+|de   = Alter Goethe
+|id   = Old Goethe
+|pt   = Velho Goethe
+}}
+==Change History==
+{{Change History|TODO}}
