@@ -1,7 +1,7 @@
 import { replaceUnderlinedEE } from '../ExtraEffect.js'
 import { AvatarSkillAttackType, AvatarSkillData, AvatarSkillEffectType } from '../files/Ability.js'
 import { getFile } from '../files/GameFile.js'
-import { AttackType, Value } from '../Shared.js'
+import { AttackType, roundTo, Value } from '../Shared.js'
 import { HashReference, textMap } from '../TextMap.js'
 
 export const AvatarSkillConfig = await getFile<AvatarSkillData[]>('ExcelOutput/AvatarSkillConfig.json')
@@ -137,7 +137,7 @@ export class CharacterAbility {
 		const output: string[] = [`{{Skill Scaling|type=${this.type_display}`]
 		for (const paramList of this.params_by_attribute) {
 			if (paramList[0] == paramList[paramList.length - 1]) continue
-			output.push('|' + paramList.join('; '))
+			output.push('|' + paramList.map(param => `${roundTo(param * 100, 2)}%`).join('; '))
 		}
 		output.push('}}')
 		if (output.length == 2) return undefined
