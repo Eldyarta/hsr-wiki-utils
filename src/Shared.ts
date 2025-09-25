@@ -59,7 +59,7 @@ export const VERSION_COMMITS: Dictionary<string, Version> = {
 	'3.4': '63a445a896686e40bf028f6ec3969be3f8baab46',
 	'3.4.2': '212a77d183a1c571490c257fba0093349a377ad4',
 	'3.5': '2f4aec8f7188fbdd0bc6a226241ae031c3e60391',
-	'3.6': '6fb7377ac4c022c434c541522f5c7f7345b916d8',
+	'3.6': '16a9c7f8a8b5a543358481f4fa5a045e70579460',
 }
 
 export const VERSION_LIST: Version[] = Object.keys(VERSION_COMMITS).sort() as Version[]

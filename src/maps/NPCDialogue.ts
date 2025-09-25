@@ -116,6 +116,7 @@ export class NPCDialogueTree extends ActDialogueTree {
 
 		if (data instanceof DefaultPropDialogue && data.pack_paths.length > 0) {
 			for (const pack of data.pack_paths) {
+				if (!pack) continue
 				await tree.loadAct(pack)
 			}
 		}
