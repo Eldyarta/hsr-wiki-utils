@@ -63,6 +63,7 @@ export function getEnemyList(groupId: number) {
 }
 
 let trailblazeNumber = 504
+const BONUS_EXCEPTIONS = [69]
 
 const IGNORE_RULES = [1001, 1003, 1004, 1005, 2001, 2003, 2004, 2005, 2006]
 
@@ -95,7 +96,7 @@ for (const data of Object.values(weeklyData)) {
 	data.WeeklyContentList.filter(item => !IGNORE_RULES.includes(item) && !alreadyIncludedRules.has(item) && !weeklyDisplay[item]?.DescParams?.length).forEach(item => rules.push(textMap.getText(weeklyDisplay[item].WeeklyDisplayContent)?.replace(/^● /, '')))
 	
 	let trailblazeBlessing = ''
-	if (equations?.length > 0 && data.ChallengeID >= 38) {
+	if ((equations?.length > 0 || BONUS_EXCEPTIONS.includes(data.ChallengeID)) && data.ChallengeID >= 38) {
 		const bonus = rogueBonus[trailblazeNumber]
 		trailblazeBlessing = `'''${textMap.getText(bonus.BonusTitle)}'''<br />${textMap.getText(bonus.BonusDesc)}`
 		trailblazeNumber += 1
