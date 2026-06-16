@@ -43,7 +43,7 @@ jobs:
           ./rs-all.bat
 
       - name: Upload Generated Pages Artifact
-        uses: actions/artifacts@v4
+        uses: actions/upload-artifact@v4
         with:
           name: generated-wiki-pages
           path: output/
