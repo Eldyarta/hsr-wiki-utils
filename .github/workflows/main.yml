@@ -40,7 +40,30 @@ jobs:
 
       - name: Run Generator Utilities
         run: |
-          ./rs-all.bat
+          pnpm exec ts-node src/scripts/dump_all_consumables.ts
+          pnpm exec ts-node src/scripts/dump_all_items.ts
+          pnpm exec ts-node src/scripts/dump_all_readables.ts
+          pnpm exec ts-node src/scripts/dump_all_shops.ts
+          pnpm exec ts-node src/scripts/dump_extra_effects.ts
+          pnpm exec ts-node src/scripts/dump_all_tutorials.ts
+          pnpm exec ts-node src/scripts/dump_audience_dice.ts
+          pnpm exec ts-node src/scripts/dump_curios.ts
+          pnpm exec ts-node src/scripts/dump_equations.ts
+          pnpm exec ts-node src/scripts/dump_loading_screens.ts
+          pnpm exec ts-node src/scripts/dump_messages.ts
+          pnpm exec ts-node src/scripts/dump_relics.ts
+          pnpm exec ts-node src/scripts/dump_scepters.ts
+          pnpm exec ts-node src/scripts/dump_su_stages.ts
+          pnpm exec ts-node src/scripts/dump_und_secrets.ts
+          pnpm exec ts-node src/scripts/dump_weekly_du.ts
+          pnpm exec ts-node src/scripts/dump_odes.ts
+          pnpm exec ts-node src/scripts/dump_boons.ts
+          pnpm exec ts-node src/scripts/character_page_links.ts
+          pnpm exec ts-node src/scripts/dump_occurrences.ts
+          pnpm exec ts-node src/scripts/dump_talksentences.ts
+          pnpm exec ts-node src/scripts/vo/dump_vo_names.ts
+          pnpm exec ts-node src/scripts/vo/dump_sound_events.ts
+          pnpm exec ts-node src/scripts/dump_missions.ts --no-dialogue
 
       - name: Upload Generated Pages Artifact
         uses: actions/upload-artifact@v4
